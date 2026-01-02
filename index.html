@@ -107,6 +107,22 @@
             padding: 0.5rem 0;
         }
 
+        /* Share Button */
+        #share-container {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+        #share-btn {
+            background: #28a745;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        #share-btn:hover {
+            background: #218838;
+        }
+
         /* Mobile Responsiveness */
         @media (max-width: 600px) {
             body {
@@ -166,6 +182,10 @@
             </div>
 
             <div id="message" class="message" style="display: none;"></div>
+
+            <div id="share-container" style="display: none;">
+                <button id="share-btn">Share Result 📋</button>
+            </div>
         </div>
     </div>
 
@@ -197,6 +217,7 @@
         let gameOver = false;
         let movieLocked = false;
         let salt = 0;
+        let guessHistory = [];
 
         async function initGame() {
             try {
@@ -281,6 +302,7 @@
             currentAttempt = 0;
             gameOver = false;
             movieLocked = false;
+            guessHistory = [];
 
             // Seed logic with salt
             const dateSeed = getDateSeed();
@@ -297,6 +319,7 @@
 
             document.getElementById('message').style.display = 'none';
             document.getElementById('game-controls').style.display = 'block';
+            document.getElementById('share-container').style.display = 'none';
             document.getElementById('movie-select').disabled = false;
             document.getElementById('movie-select').value = "";
 
@@ -401,6 +424,28 @@
             el.style.display = 'block';
         }
 
+        function generateShareString(success) {
+            const date = new Date().toISOString().split('T')[0];
+            const attemptCount = success ? currentAttempt + 1 : 'X';
+            let grid = `Scriptle ${date} ${attemptCount}/5 🎬\n\n`;
+
+            guessHistory.forEach(guess => {
+                let row = "";
+                // Movie
+                if (guess.movie) row += "🎞️"; // Film Strip
+                else row += "⚫"; // Black Circle
+
+                // Character
+                if (guess.char) row += "🎭"; // Mask
+                else row += "⚫"; // Black Circle
+
+                grid += row + "\n";
+            });
+
+            grid += "\n" + window.location.href;
+            return grid;
+        }
+
         function submitGuess() {
             if (gameOver) return;
 
@@ -426,6 +471,11 @@
             const movieCorrect = (movieGuess === targetMovie);
             const charCorrect = (charGuess.toUpperCase() === targetChar);
 
+            guessHistory.push({
+                movie: movieCorrect,
+                char: charCorrect
+            });
+
             if (movieCorrect) {
                 movieLocked = true;
                 movieSelect.disabled = true;
@@ -441,6 +491,7 @@
                 gameOver = true;
                 renderScript(); // Renders end game state
                 document.getElementById('game-controls').style.display = 'none';
+                document.getElementById('share-container').style.display = 'block';
             } else {
                 currentAttempt++;
                 updateAttempts(currentAttempt);
@@ -449,6 +500,7 @@
                     gameOver = true;
                     renderScript(); // Renders end game state
                     document.getElementById('game-controls').style.display = 'none';
+                    document.getElementById('share-container').style.display = 'block';
                 } else {
                     let msg = "Incorrect.";
                     if (movieCorrect) msg = "Movie is correct! Character is wrong.";
@@ -469,6 +521,21 @@
                 salt++;
                 startNewGame();
             }
+        });
+
+        document.getElementById('share-btn').addEventListener('click', async () => {
+             const success = guessHistory.length > 0 && guessHistory[guessHistory.length - 1].char && guessHistory[guessHistory.length - 1].movie;
+             const shareText = generateShareString(success);
+             try {
+                 await navigator.clipboard.writeText(shareText);
+                 const btn = document.getElementById('share-btn');
+                 const originalText = btn.textContent;
+                 btn.textContent = "Copied! ✅";
+                 setTimeout(() => btn.textContent = originalText, 2000);
+             } catch (err) {
+                 console.error('Failed to copy: ', err);
+                 alert("Failed to copy to clipboard.\n\n" + shareText);
+             }
         });
 
         initGame();
