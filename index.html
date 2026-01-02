@@ -130,7 +130,6 @@
             cursor: pointer;
         }
         button:hover { filter: brightness(1.2); }
-        button#randomize-btn { background: var(--accent-color); }
 
         .message {
             margin-top: 1rem;
@@ -248,7 +247,7 @@
                 <select id="movie-select" style="max-width:300px;">
                     <option value="">Select Movie...</option>
                 </select>
-                <button id="randomize-btn">Randomize Script</button>
+                <!-- Randomize button removed -->
             </div>
 
             <div id="script-display">
@@ -551,26 +550,31 @@
             const attemptCount = success ? currentAttempt + 1 : 'X';
             let grid = `Scriptle (${currentSeries}) ${date} ${attemptCount}/5 🎬\n\n`;
 
-            // Loop for exactly 5 rows
+            // Two rows: Movies and Characters
+            let movieRow = "";
+            let charRow = "";
+
             for (let i = 0; i < 5; i++) {
                 if (i < guessHistory.length) {
                     const guess = guessHistory[i];
-                    let row = "";
+
                     // Movie
-                    if (guess.movie) row += "🎞️"; // Film Strip
-                    else row += "⚫"; // Black Circle
+                    if (guess.movie) movieRow += "🟢";
+                    else movieRow += "⚫";
 
                     // Character
-                    if (guess.char) row += "🎭"; // Mask
-                    else row += "⚫"; // Black Circle
-                    grid += row + "\n";
+                    if (guess.char) charRow += "🟢";
+                    else charRow += "⚫";
+
                 } else {
-                    // Empty rows for unused attempts
-                    grid += "⬜⬜\n";
+                    // Empty slots
+                    movieRow += "⚪"; // White Circle for unused
+                    charRow += "⚪";
                 }
             }
 
-            grid += "\n" + window.location.href;
+            grid += movieRow + "\n" + charRow;
+            grid += "\n\n" + window.location.href;
             return grid;
         }
 
@@ -650,12 +654,7 @@
 
         document.getElementById('guess-btn').addEventListener('click', submitGuess);
 
-        document.getElementById('randomize-btn').addEventListener('click', () => {
-            if (confirm("Start a new random game?")) {
-                salt++;
-                startNewGame();
-            }
-        });
+        // Randomize button removed
 
         document.getElementById('share-btn').addEventListener('click', async () => {
              const success = guessHistory.length > 0 && guessHistory[guessHistory.length - 1].char && guessHistory[guessHistory.length - 1].movie;
