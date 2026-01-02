@@ -3,6 +3,7 @@ import json
 import re
 import os
 import csv
+import parse_shrek
 
 CONFIG_PDF = [
     # Pulp Fiction removed as per request
@@ -102,20 +103,28 @@ def parse_csv(filename, title):
     return entries
 
 def main():
-    all_data = []
+    structured_data = {
+        "Harry Potter": [],
+        "Shrek": []
+    }
 
-    # PDF Parsing
-    for c in CONFIG_PDF:
-        all_data.extend(parse_pdf(c))
-
-    # CSV Parsing
+    # Harry Potter (CSV)
     for filename, title in CSV_MAPPING.items():
-        all_data.extend(parse_csv(filename, title))
+        structured_data["Harry Potter"].extend(parse_csv(filename, title))
 
-    print(f"Total lines: {len(all_data)}")
+    # Shrek (Text)
+    if os.path.exists("shrek_full.txt"):
+        print("Parsing Shrek...")
+        structured_data["Shrek"].extend(parse_shrek.parse_shrek_text("shrek_full.txt"))
+    elif os.path.exists("shrek_1.txt"):
+        print("Parsing Shrek (Partial)...")
+        structured_data["Shrek"].extend(parse_shrek.parse_shrek_text("shrek_1.txt"))
+
+    print(f"Total HP lines: {len(structured_data['Harry Potter'])}")
+    print(f"Total Shrek lines: {len(structured_data['Shrek'])}")
 
     with open("script.json", "w") as f:
-        json.dump(all_data, f, indent=2)
+        json.dump(structured_data, f, indent=2)
 
 if __name__ == "__main__":
     main()

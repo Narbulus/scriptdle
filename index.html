@@ -26,6 +26,28 @@
             margin-bottom: 2rem;
         }
 
+        /* Series Selector */
+        .series-tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2rem;
+            gap: 1rem;
+        }
+        .series-tab {
+            padding: 0.5rem 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+            background: #eee;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+        .series-tab.active {
+            background: #333;
+            color: white;
+            border-color: #333;
+        }
+
         /* Script formatting */
         .script-line {
             margin-bottom: 1.5rem;
@@ -165,6 +187,11 @@
         <div id="loading" style="text-align:center; font-family:sans-serif;">Loading script...</div>
 
         <div id="game-area" style="display:none;">
+            <div class="series-tabs">
+                <div class="series-tab active" data-series="Harry Potter" onclick="switchSeries('Harry Potter')">Harry Potter</div>
+                <div class="series-tab" data-series="Shrek" onclick="switchSeries('Shrek')">Shrek</div>
+            </div>
+
             <div class="controls-top">
                 <select id="movie-select" style="max-width:300px;">
                     <option value="">Select Movie...</option>
@@ -210,6 +237,8 @@
             return Math.abs(hash);
         }
 
+        let fullData = {};
+        let currentSeries = "Harry Potter";
         let scriptData = [];
         let metadata = { movies: [], characters: {} };
         let targetIndex = -1;
@@ -225,11 +254,14 @@
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
-                scriptData = await response.json();
-                processMetadata();
+                fullData = await response.json();
 
-                // Check if user clicked Randomize before (optional persistence? No, keep simple)
-                startNewGame();
+                // If the JSON is old format (array), wrap it
+                if (Array.isArray(fullData)) {
+                     fullData = { "Harry Potter": fullData, "Shrek": [] };
+                }
+
+                switchSeries("Harry Potter");
 
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('game-area').style.display = 'block';
@@ -240,6 +272,25 @@
                     'Try: python -m http.server';
                 console.error(e);
             }
+        }
+
+        function switchSeries(seriesName) {
+            currentSeries = seriesName;
+            scriptData = fullData[seriesName] || [];
+
+            // UI Update
+            document.querySelectorAll('.series-tab').forEach(tab => {
+                if (tab.dataset.series === seriesName) tab.classList.add('active');
+                else tab.classList.remove('active');
+            });
+
+            if (scriptData.length === 0) {
+                alert(`No data for ${seriesName} yet!`);
+                return;
+            }
+
+            processMetadata();
+            startNewGame();
         }
 
         function processMetadata() {
@@ -304,9 +355,13 @@
             movieLocked = false;
             guessHistory = [];
 
-            // Seed logic with salt
+            // Seed logic with salt + series name to allow different daily games
             const dateSeed = getDateSeed();
-            const combinedSeed = dateSeed + salt;
+            // Simple string hash for series
+            let seriesHash = 0;
+            for(let i=0; i<currentSeries.length; i++) seriesHash += currentSeries.charCodeAt(i);
+
+            const combinedSeed = dateSeed + salt + seriesHash;
             const rng = mulberry32(combinedSeed);
 
             // Filter valid indices (must have some padding for context)
@@ -427,20 +482,26 @@
         function generateShareString(success) {
             const date = new Date().toISOString().split('T')[0];
             const attemptCount = success ? currentAttempt + 1 : 'X';
-            let grid = `Scriptle ${date} ${attemptCount}/5 🎬\n\n`;
+            let grid = `Scriptle (${currentSeries}) ${date} ${attemptCount}/5 🎬\n\n`;
 
-            guessHistory.forEach(guess => {
-                let row = "";
-                // Movie
-                if (guess.movie) row += "🎞️"; // Film Strip
-                else row += "⚫"; // Black Circle
+            // Loop for exactly 5 rows
+            for (let i = 0; i < 5; i++) {
+                if (i < guessHistory.length) {
+                    const guess = guessHistory[i];
+                    let row = "";
+                    // Movie
+                    if (guess.movie) row += "🎞️"; // Film Strip
+                    else row += "⚫"; // Black Circle
 
-                // Character
-                if (guess.char) row += "🎭"; // Mask
-                else row += "⚫"; // Black Circle
-
-                grid += row + "\n";
-            });
+                    // Character
+                    if (guess.char) row += "🎭"; // Mask
+                    else row += "⚫"; // Black Circle
+                    grid += row + "\n";
+                } else {
+                    // Empty rows for unused attempts
+                    grid += "⬜⬜\n";
+                }
+            }
 
             grid += "\n" + window.location.href;
             return grid;
