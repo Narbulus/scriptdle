@@ -30,6 +30,30 @@
             --btn-text: white;
         }
 
+        body.theme-lotr {
+            --primary-color: #2b4a3b; /* Elven Green */
+            --bg-color: #1e1e1e;
+            --container-bg: #f0f5f0;
+            --accent-color: #c9a050; /* Gold */
+            --btn-text: white;
+        }
+
+        body.theme-miyazaki {
+            --primary-color: #4a90e2; /* Sky Blue */
+            --bg-color: #e6f3ff;
+            --container-bg: #fff;
+            --accent-color: #ff9a9e; /* Pink */
+            --btn-text: white;
+        }
+
+        body.theme-comedy {
+            --primary-color: #9b59b6; /* Purple */
+            --bg-color: #fce4ec;
+            --container-bg: #fff;
+            --accent-color: #e67e22; /* Orange */
+            --btn-text: white;
+        }
+
         body {
             font-family: 'Courier New', Courier, monospace;
             max-width: 800px;
@@ -238,9 +262,12 @@
         <div id="loading" style="text-align:center; font-family:sans-serif;">Loading script...</div>
 
         <div id="game-area" style="display:none;">
-            <div class="series-tabs">
+            <div class="series-tabs" style="flex-wrap: wrap;">
                 <div class="series-tab active" data-series="Harry Potter" onclick="switchSeries('Harry Potter')">Harry Potter</div>
                 <div class="series-tab" data-series="Shrek" onclick="switchSeries('Shrek')">Shrek</div>
+                <div class="series-tab" data-series="Lord of the Rings" onclick="switchSeries('Lord of the Rings')">Lord of the Rings</div>
+                <div class="series-tab" data-series="Miyazaki" onclick="switchSeries('Miyazaki')">Miyazaki</div>
+                <div class="series-tab" data-series="Early 2000s Comedies" onclick="switchSeries('Early 2000s Comedies')">2000s Comedies</div>
             </div>
 
             <div class="controls-top">
@@ -332,7 +359,11 @@
             scriptData = fullData[seriesName] || [];
 
             // Theme Switching
-            document.body.className = seriesName === "Shrek" ? "theme-shrek" : "theme-hp";
+            if (seriesName === "Shrek") document.body.className = "theme-shrek";
+            else if (seriesName === "Lord of the Rings") document.body.className = "theme-lotr";
+            else if (seriesName === "Miyazaki") document.body.className = "theme-miyazaki";
+            else if (seriesName === "Early 2000s Comedies") document.body.className = "theme-comedy";
+            else document.body.className = "theme-hp";
 
             // UI Update
             document.querySelectorAll('.series-tab').forEach(tab => {
