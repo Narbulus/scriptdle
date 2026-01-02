@@ -5,16 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scriptle - Harry Potter Edition</title>
     <style>
+        :root {
+            --primary-color: #333;
+            --bg-color: #f4f4f4;
+            --container-bg: white;
+            --accent-color: #555;
+            --btn-text: white;
+            --highlight: #e2e2e2;
+        }
+
+        body.theme-hp {
+            --primary-color: #740001; /* Gryffindor Red */
+            --bg-color: #1a1a1a;
+            --container-bg: #f8f8f8;
+            --accent-color: #d3a625; /* Gold */
+            --btn-text: white;
+        }
+
+        body.theme-shrek {
+            --primary-color: #4c6827; /* Ogre Green */
+            --bg-color: #e0f0d0;
+            --container-bg: #fff;
+            --accent-color: #8c5a2b; /* Brown */
+            --btn-text: white;
+        }
+
         body {
             font-family: 'Courier New', Courier, monospace;
             max-width: 800px;
             margin: 2rem auto;
             padding: 0 1rem;
-            background: #f4f4f4;
+            background: var(--bg-color);
             line-height: 1.2;
+            transition: background 0.3s;
         }
         .container {
-            background: white;
+            background: var(--container-bg);
             padding: 3rem;
             border-radius: 4px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -22,7 +48,7 @@
         h1 {
             text-align: center;
             font-family: sans-serif;
-            color: #333;
+            color: var(--primary-color);
             margin-bottom: 2rem;
         }
 
@@ -35,17 +61,18 @@
         }
         .series-tab {
             padding: 0.5rem 1rem;
-            border: 1px solid #ccc;
+            border: 2px solid #ccc;
             border-radius: 4px;
             cursor: pointer;
             background: #eee;
             font-family: sans-serif;
             font-weight: bold;
+            color: #333;
         }
         .series-tab.active {
-            background: #333;
-            color: white;
-            border-color: #333;
+            background: var(--primary-color);
+            color: var(--btn-text);
+            border-color: var(--accent-color);
         }
 
         /* Script formatting */
@@ -60,12 +87,14 @@
             width: 50%;
             margin-left: auto;
             margin-right: auto;
+            color: #000;
         }
         .dialogue-text {
             width: 70%;
             margin-left: auto;
             margin-right: auto;
             white-space: pre-wrap;
+            color: #000;
         }
         .action-text {
             width: 80%;
@@ -95,13 +124,13 @@
             border-radius: 4px;
         }
         button {
-            background: #333;
-            color: white;
+            background: var(--primary-color);
+            color: var(--btn-text);
             border: none;
             cursor: pointer;
         }
-        button:hover { background: #555; }
-        button#randomize-btn { background: #6c757d; }
+        button:hover { filter: brightness(1.2); }
+        button#randomize-btn { background: var(--accent-color); }
 
         .message {
             margin-top: 1rem;
@@ -125,7 +154,7 @@
 
         .context-line {
             opacity: 0.7;
-            background: #fafafa;
+            background: rgba(0,0,0,0.05);
             padding: 0.5rem 0;
         }
 
@@ -133,6 +162,10 @@
         #share-container {
             text-align: center;
             margin-top: 1.5rem;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
         }
         #share-btn {
             background: #28a745;
@@ -143,6 +176,18 @@
         }
         #share-btn:hover {
             background: #218838;
+        }
+
+        #share-preview {
+            font-family: sans-serif;
+            background: #fff;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            white-space: pre-wrap;
+            text-align: center;
+            min-width: 200px;
+            box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
         }
 
         /* Mobile Responsiveness */
@@ -177,10 +222,17 @@
             .controls-bottom {
                 margin-top: 1.5rem;
             }
+            .series-tabs {
+                gap: 0.5rem;
+            }
+            .series-tab {
+                padding: 0.5rem;
+                font-size: 0.9rem;
+            }
         }
     </style>
 </head>
-<body>
+<body class="theme-hp">
     <div class="container">
         <h1>Scriptle</h1>
 
@@ -210,8 +262,10 @@
 
             <div id="message" class="message" style="display: none;"></div>
 
-            <div id="share-container" style="display: none;">
-                <button id="share-btn">Share Result 📋</button>
+            <div id="share-container">
+                <div style="font-size: 0.9rem; color: #666; margin-bottom: 0.5rem;">Share Preview:</div>
+                <div id="share-preview"></div>
+                <button id="share-btn">Copy to Clipboard 📋</button>
             </div>
         </div>
     </div>
@@ -278,6 +332,9 @@
             currentSeries = seriesName;
             scriptData = fullData[seriesName] || [];
 
+            // Theme Switching
+            document.body.className = seriesName === "Shrek" ? "theme-shrek" : "theme-hp";
+
             // UI Update
             document.querySelectorAll('.series-tab').forEach(tab => {
                 if (tab.dataset.series === seriesName) tab.classList.add('active');
@@ -285,8 +342,8 @@
             });
 
             if (scriptData.length === 0) {
-                alert(`No data for ${seriesName} yet!`);
-                return;
+                // If empty, warn but don't break
+                console.warn(`No data for ${seriesName}`);
             }
 
             processMetadata();
@@ -367,6 +424,13 @@
             // Filter valid indices (must have some padding for context)
             const minIndex = 1;
             const maxIndex = scriptData.length - 6;
+
+            if (maxIndex < minIndex) {
+                // Not enough data
+                targetIndex = 0;
+                return;
+            }
+
             const randomVal = rng();
             targetIndex = minIndex + Math.floor(randomVal * (maxIndex - minIndex));
 
@@ -386,6 +450,11 @@
             const container = document.getElementById('script-display');
             container.innerHTML = '';
 
+            if (!scriptData || scriptData.length === 0) {
+                container.innerHTML = '<div style="text-align:center;">No script data available for this series.</div>';
+                return;
+            }
+
             // End Game Logic: Show context
             if (gameOver) {
                 renderLine(targetIndex - 1, true); // Preceding
@@ -393,6 +462,7 @@
                 for (let i = 1; i <= 5; i++) {
                      renderLine(targetIndex + i, true);
                 }
+                updateSharePreview();
                 return;
             }
 
@@ -422,16 +492,12 @@
             container.appendChild(div);
 
             // Subsequent Lines (Clues)
-            // Attempt 1: Line 2 visible, Char hidden
-            // Attempt 2: Line 2 visible, Char revealed
-            // Attempt 3: Line 3 visible, Char hidden
-            // Attempt 4: Line 3 visible, Char revealed
-
             if (currentAttempt >= 1) renderClueLine(targetIndex + 1, currentAttempt >= 2);
             if (currentAttempt >= 3) renderClueLine(targetIndex + 2, currentAttempt >= 4);
         }
 
         function renderClueLine(idx, revealChar) {
+            if (idx >= scriptData.length) return;
             const line = scriptData[idx];
             const div = document.createElement('div');
             div.className = 'script-line';
@@ -450,6 +516,7 @@
         }
 
         function renderLine(idx, isContext) {
+            if (idx < 0 || idx >= scriptData.length) return;
             const line = scriptData[idx];
             const div = document.createElement('div');
             div.className = 'script-line';
@@ -507,6 +574,12 @@
             return grid;
         }
 
+        function updateSharePreview() {
+            const success = gameOver && (guessHistory.length > 0 && guessHistory[guessHistory.length - 1].char && guessHistory[guessHistory.length - 1].movie);
+            const shareText = generateShareString(success);
+            document.getElementById('share-preview').textContent = shareText;
+        }
+
         function submitGuess() {
             if (gameOver) return;
 
@@ -552,7 +625,7 @@
                 gameOver = true;
                 renderScript(); // Renders end game state
                 document.getElementById('game-controls').style.display = 'none';
-                document.getElementById('share-container').style.display = 'block';
+                document.getElementById('share-container').style.display = 'flex'; // Flex for centering
             } else {
                 currentAttempt++;
                 updateAttempts(currentAttempt);
@@ -561,7 +634,7 @@
                     gameOver = true;
                     renderScript(); // Renders end game state
                     document.getElementById('game-controls').style.display = 'none';
-                    document.getElementById('share-container').style.display = 'block';
+                    document.getElementById('share-container').style.display = 'flex';
                 } else {
                     let msg = "Incorrect.";
                     if (movieCorrect) msg = "Movie is correct! Character is wrong.";

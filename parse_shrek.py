@@ -1,94 +1,111 @@
 import re
 import json
+import pymupdf
 import sys
+import html
 
-def parse_shrek_text(filepath):
-    """
-    Parses a text file in the IMSDb format:
-    Character names are indented and all caps.
-    Dialogue follows.
-
-    Structure to look for:
-    SPACE SPACE SPACE SPACE SPACE CHARACTER NAME
-    SPACE SPACE SPACE SPACE SPACE Dialogue line...
-    """
-
-    with open(filepath, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
-
+def parse_shrek_text(filepath, movie_title, mode="screenplay"):
+    print(f"Parsing text script for {movie_title} (Mode: {mode})...")
     script_data = []
 
-    # Heuristic:
-    # Character names are usually indented by ~35-40 spaces?
-    # Dialogue is indented by ~25 spaces?
-    # Let's inspect the file content to be sure.
-    # Based on the provided text, it looks like:
-    #                                      SHREK
-    #                          Once upon a time...
-
-    # Regex for character: ^\s{30,}[A-Z0-9 ]+$  (Roughly)
-    # Regex for dialogue: ^\s{20,}[^ ].*
+    with open(filepath, 'r', encoding='utf-8', errors='replace') as f:
+        lines = f.readlines()
 
     current_char = None
     current_dialogue = []
 
-    # We will build a list of (Character, Text) tuples
-    # Then post-process to join multi-line dialogue.
+    if mode == "transcript":
+        for line in lines:
+            line = line.strip()
+            if not line: continue
 
-    for line in lines:
-        stripped = line.strip()
-        if not stripped:
-            continue
+            # Remove HTML entities
+            line = html.unescape(line)
 
-        # Check indentation
-        indent = len(line) - len(line.lstrip())
+            match = re.match(r'^([A-Z0-9 ]+): (.*)', line)
+            if match:
+                char = match.group(1).strip()
+                text = match.group(2).strip()
 
-        # Character detection
-        # IMSDb usually centers characters. In the sample:
-        # "                                     SHREK" -> 37 spaces
-        # "                         Once upon a time..." -> 25 spaces
+                if char in ["SCENE", "INT", "EXT"]: continue
+                # Skip if char contains lower case (unless regex prevents it)
+                if not char.isupper(): continue
 
-        # NOTE: Some lines might be scene headers "               NIGHT - NEAR SHREK'S HOME"
-        # Scene headers are usually ALL CAPS too.
-        # Characters are usually shorter.
+                script_data.append({
+                    "movie": movie_title,
+                    "character": char,
+                    "text": text
+                })
+    else: # screenplay
+        for line in lines:
+            stripped = line.strip()
+            if not stripped:
+                continue
 
-        if indent > 30 and stripped.isupper() and not " - " in stripped:
-             # Likely a character
-             # If we have pending dialogue, save it
-             if current_char and current_dialogue:
-                 full_text = " ".join(current_dialogue)
-                 script_data.append({
-                     "movie": "Shrek",
-                     "character": current_char,
-                     "text": full_text
-                 })
-                 current_dialogue = []
+            # Check indentation
+            indent = len(line) - len(line.lstrip())
 
-             # Remove parentheticals from character name if any (e.g. "SHREK (cont'd)")
-             # The sample text has "SHREK" or "MAN1"
-             current_char = re.sub(r'\s*\(.*\)', '', stripped).strip()
+            # Relaxed Character detection: > 20 spaces
+            if indent > 20 and stripped.isupper() and not " - " in stripped and len(stripped) < 50:
+                 if current_char and current_dialogue:
+                     full_text = " ".join(current_dialogue)
+                     script_data.append({
+                         "movie": movie_title,
+                         "character": current_char,
+                         "text": full_text
+                     })
+                     current_dialogue = []
 
-        elif indent > 15 and indent < 35:
-             # Likely dialogue
-             # Check if it's a parenthetical action (e.g. "(laughs)")
-             if stripped.startswith('(') and stripped.endswith(')'):
-                 continue # Skip parentheticals in dialogue for now? Or keep them?
-                 # Wordle game usually uses spoken text. "laughs" isn't spoken.
+                 current_char = re.sub(r'\s*\(.*\)', '', stripped).strip()
 
-             if current_char:
-                 current_dialogue.append(stripped)
+            elif indent > 10 and indent < 35:
+                 if stripped.startswith('(') and stripped.endswith(')'):
+                     continue
 
-    # Flush last
-    if current_char and current_dialogue:
-        full_text = " ".join(current_dialogue)
-        script_data.append({
-            "movie": "Shrek",
-            "character": current_char,
-            "text": full_text
-        })
+                 if current_char:
+                     current_dialogue.append(stripped)
 
+        # Flush last
+        if current_char and current_dialogue:
+            full_text = " ".join(current_dialogue)
+            script_data.append({
+                "movie": movie_title,
+                "character": current_char,
+                "text": full_text
+            })
+
+    print(f"  Found {len(script_data)} lines.")
     return script_data
 
-if __name__ == "__main__":
-    data = parse_shrek_text("shrek_1.txt")
-    print(json.dumps(data, indent=2))
+def parse_shrek_pdf(filepath, movie_title):
+    print(f"Parsing PDF script for {movie_title}...")
+    doc = pymupdf.open(filepath)
+    entries = []
+
+    for page in doc:
+        blocks = page.get_text("blocks")
+        blocks.sort(key=lambda b: b[1]) # Sort by y
+
+        for b in blocks:
+            x0 = b[0]
+            text = b[4].strip()
+            if not text: continue
+
+            lines = text.splitlines()
+            head = lines[0].strip()
+            head_clean = re.sub(r'\s*\(.*?\)', '', head).strip()
+
+            # Simple heuristic for PDF block structure
+            if head_clean.isupper() and len(head_clean) > 0 and len(head_clean) < 40 and not "EXT." in head and not "INT." in head:
+                 dialogue_lines = lines[1:]
+                 if dialogue_lines:
+                     dialogue_text = " ".join([l.strip() for l in dialogue_lines])
+                     if not dialogue_text.startswith('('):
+                         entries.append({
+                             "movie": movie_title,
+                             "character": head_clean,
+                             "text": dialogue_text
+                         })
+
+    print(f"  Found {len(entries)} lines.")
+    return entries

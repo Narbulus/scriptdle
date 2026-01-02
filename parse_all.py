@@ -112,13 +112,23 @@ def main():
     for filename, title in CSV_MAPPING.items():
         structured_data["Harry Potter"].extend(parse_csv(filename, title))
 
-    # Shrek (Text)
-    if os.path.exists("shrek_full.txt"):
-        print("Parsing Shrek...")
-        structured_data["Shrek"].extend(parse_shrek.parse_shrek_text("shrek_full.txt"))
-    elif os.path.exists("shrek_1.txt"):
-        print("Parsing Shrek (Partial)...")
-        structured_data["Shrek"].extend(parse_shrek.parse_shrek_text("shrek_1.txt"))
+    # Shrek Scripts
+    shrek_files = [
+        ("shrek_1.txt", "Shrek", "text_screenplay"),
+        ("shrek_2.pdf", "Shrek 2", "pdf"),
+        ("shrek_3.txt", "Shrek the Third", "text_screenplay"),
+        ("shrek_4.txt", "Shrek Forever After", "text_transcript")
+    ]
+
+    for fname, title, ftype in shrek_files:
+        if os.path.exists(fname):
+            if ftype.startswith("text"):
+                mode = ftype.split("_")[1]
+                structured_data["Shrek"].extend(parse_shrek.parse_shrek_text(fname, title, mode))
+            elif ftype == "pdf":
+                structured_data["Shrek"].extend(parse_shrek.parse_shrek_pdf(fname, title))
+        else:
+            print(f"Skipping {title}: {fname} not found.")
 
     print(f"Total HP lines: {len(structured_data['Harry Potter'])}")
     print(f"Total Shrek lines: {len(structured_data['Shrek'])}")
