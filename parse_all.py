@@ -5,12 +5,7 @@ import os
 import csv
 
 CONFIG_PDF = [
-    {
-        "file": "pulp_fiction.pdf",
-        "title": "Pulp Fiction",
-        "min_x": 168,
-        "max_x": 172
-    }
+    # Pulp Fiction removed as per request
 ]
 
 CSV_DIR = "hp-dataset/datasets"
@@ -83,8 +78,6 @@ def parse_csv(filename, title):
     print(f"Parsing CSV {title}...")
     entries = []
     with open(path, 'r', encoding='utf-8') as f:
-        # Check delimiter. hp-dataset often uses ; or ,
-        # Let's peek
         first_line = f.readline()
         f.seek(0)
         delimiter = ','
@@ -92,9 +85,6 @@ def parse_csv(filename, title):
             delimiter = ';'
 
         reader = csv.DictReader(f, delimiter=delimiter)
-        # Columns: character, dialog, etc.
-        # Snippet said: character, dialog.
-        # Let's verify headers.
 
         for row in reader:
             char = row.get('character')

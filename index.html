@@ -3,58 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scriptle</title>
+    <title>Scriptle - Harry Potter Edition</title>
     <style>
-        body { font-family: sans-serif; max-width: 600px; margin: 2rem auto; padding: 0 1rem; background: #f4f4f4; }
-        .container { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        h1 { text-align: center; color: #333; }
-        .clues { margin-bottom: 2rem; }
-        .clue { background: #eee; padding: 1rem; margin-bottom: 0.5rem; border-left: 4px solid #333; }
-        .clue-label { font-weight: bold; font-size: 0.8rem; color: #666; display: block; margin-bottom: 0.25rem; }
-        .clue-text { font-family: 'Courier New', Courier, monospace; white-space: pre-wrap; }
-        .input-group { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1rem; }
-        select, button { padding: 0.5rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 4px; }
-        select:disabled { background: #e9ecef; border-color: #28a745; color: #155724; font-weight: bold; }
-        button { background: #333; color: white; border: none; cursor: pointer; }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            background: #f4f4f4;
+            line-height: 1.2;
+        }
+        .container {
+            background: white;
+            padding: 3rem;
+            border-radius: 4px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            font-family: sans-serif;
+            color: #333;
+            margin-bottom: 2rem;
+        }
+
+        /* Script formatting */
+        .script-line {
+            margin-bottom: 1.5rem;
+        }
+        .character-name {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 0.2rem;
+            text-transform: uppercase;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .dialogue-text {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            white-space: pre-wrap;
+        }
+        .action-text {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            font-style: italic;
+        }
+
+        /* Controls */
+        .controls-top {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+            font-family: sans-serif;
+        }
+        .controls-bottom {
+            text-align: center;
+            margin-top: 2rem;
+            font-family: sans-serif;
+        }
+
+        select, button {
+            padding: 0.5rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
         button:hover { background: #555; }
-        .message { margin-top: 1rem; padding: 1rem; border-radius: 4px; text-align: center; font-weight: bold; }
+        button#randomize-btn { background: #6c757d; }
+
+        .message {
+            margin-top: 1rem;
+            padding: 1rem;
+            border-radius: 4px;
+            text-align: center;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
         .success { background: #d4edda; color: #155724; }
         .error { background: #f8d7da; color: #721c24; }
-        .attempts { text-align: center; margin-top: 0.5rem; color: #666; }
-        .loading { text-align: center; color: #666; }
+
+        .char-select-inline {
+            display: block;
+            width: 100%;
+            text-align-last: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .context-line {
+            opacity: 0.7;
+            background: #fafafa;
+            padding: 0.5rem 0;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Scriptle</h1>
-        <p style="text-align:center">Guess the Movie and the Character saying the first line.</p>
 
-        <div id="loading" class="loading">Loading script data...</div>
+        <div id="loading" style="text-align:center; font-family:sans-serif;">Loading script...</div>
 
         <div id="game-area" style="display:none;">
-            <div id="clues" class="clues"></div>
+            <div class="controls-top">
+                <select id="movie-select" style="max-width:300px;">
+                    <option value="">Select Movie...</option>
+                </select>
+                <button id="randomize-btn">Randomize Script</button>
+            </div>
 
-            <div id="game-controls">
-                <div class="input-group">
-                    <select id="movie-select">
-                        <option value="">Select Movie...</option>
-                    </select>
-                    <select id="char-select" disabled>
-                        <option value="">Select Character...</option>
-                    </select>
-                    <button id="guess-btn">Guess</button>
-                </div>
-                <div class="attempts">Attempts: <span id="attempt-count">0</span>/5</div>
+            <div id="script-display">
+                <!-- Script lines injected here -->
+            </div>
+
+            <div id="game-controls" class="controls-bottom">
+                <button id="guess-btn">Guess</button>
+                <div style="margin-top:0.5rem; color:#666;">Attempts: <span id="attempt-count">0</span>/5</div>
             </div>
 
             <div id="message" class="message" style="display: none;"></div>
-
-            <button id="next-day-btn" style="display:none; width:100%; margin-top:1rem; padding:1rem; background:#28a745; color: white; border:none; cursor:pointer;">Come back tomorrow!</button>
         </div>
     </div>
 
     <script>
-        // Simple seeded RNG (Mulberry32)
+        // Simple seeded RNG
         function mulberry32(a) {
             return function() {
                 var t = a += 0x6D2B79F5;
@@ -64,16 +146,14 @@
             }
         }
 
-        // Generate seed from date string YYYY-MM-DD
         function getDateSeed() {
             const today = new Date().toISOString().split('T')[0];
-            // Simple hash of the date string
             let hash = 0;
             for (let i = 0; i < today.length; i++) {
                 hash = ((hash << 5) - hash) + today.charCodeAt(i);
                 hash |= 0;
             }
-            return Math.abs(hash); // Ensure positive
+            return Math.abs(hash);
         }
 
         let scriptData = [];
@@ -82,14 +162,17 @@
         let currentAttempt = 0;
         let gameOver = false;
         let movieLocked = false;
+        let salt = 0;
 
         async function initGame() {
             try {
                 const response = await fetch('script.json');
                 scriptData = await response.json();
                 processMetadata();
-                selectDailyLine();
-                renderGame();
+
+                // Check if user clicked Randomize before (optional persistence? No, keep simple)
+                startNewGame();
+
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('game-area').style.display = 'block';
             } catch (e) {
@@ -116,11 +199,8 @@
                 metadata.characters[m] = Array.from(charMap[m]).sort();
             }
 
-            populateMovies();
-        }
-
-        function populateMovies() {
             const select = document.getElementById('movie-select');
+            select.innerHTML = '<option value="">Select Movie...</option>';
             metadata.movies.forEach(m => {
                 const opt = document.createElement('option');
                 opt.value = m;
@@ -133,7 +213,12 @@
         function onMovieChange() {
             const movie = document.getElementById('movie-select').value;
             const charSelect = document.getElementById('char-select');
-            charSelect.innerHTML = '<option value="">Select Character...</option>';
+
+            // If charSelect doesn't exist yet (not rendered), wait
+            if (!charSelect) return;
+
+            const currentVal = charSelect.value;
+            charSelect.innerHTML = '<option value="">(SELECT CHARACTER)</option>';
 
             if (movie && metadata.characters[movie]) {
                 metadata.characters[movie].forEach(c => {
@@ -143,63 +228,126 @@
                     charSelect.appendChild(opt);
                 });
                 charSelect.disabled = false;
+                // Try to restore value if still valid
+                if (currentVal && metadata.characters[movie].includes(currentVal)) {
+                    charSelect.value = currentVal;
+                }
             } else {
                 charSelect.disabled = true;
             }
         }
 
-        function selectDailyLine() {
-            const seed = getDateSeed();
-            const rng = mulberry32(seed);
+        function startNewGame() {
+            currentAttempt = 0;
+            gameOver = false;
+            movieLocked = false;
 
-            // Filter indices that have at least 2 following lines
-            const validCount = scriptData.length - 2;
+            // Seed logic with salt
+            const dateSeed = getDateSeed();
+            const combinedSeed = dateSeed + salt;
+            const rng = mulberry32(combinedSeed);
+
+            // Filter valid indices (must have some padding for context)
+            const minIndex = 1;
+            const maxIndex = scriptData.length - 6;
             const randomVal = rng();
-            targetIndex = Math.floor(randomVal * validCount);
+            targetIndex = minIndex + Math.floor(randomVal * (maxIndex - minIndex));
 
-            console.log("Game Seed:", seed, "Target Index:", targetIndex);
+            console.log("Game Seed:", combinedSeed, "Target Index:", targetIndex);
+
+            document.getElementById('message').style.display = 'none';
+            document.getElementById('game-controls').style.display = 'block';
+            document.getElementById('movie-select').disabled = false;
+            document.getElementById('movie-select').value = "";
+
+            renderScript();
+            onMovieChange(); // Reset chars
         }
 
-        function renderGame() {
-            // Restore state if we saved it? For now, just render based on currentAttempt = 0
-            updateAttempts(currentAttempt);
-            renderClues();
-        }
-
-        function renderClues() {
-            const container = document.getElementById('clues');
+        function renderScript() {
+            const container = document.getElementById('script-display');
             container.innerHTML = '';
 
-            const clues = [];
+            // End Game Logic: Show context
+            if (gameOver) {
+                renderLine(targetIndex - 1, true); // Preceding
+                renderLine(targetIndex, false);   // Target (Revealed)
+                for (let i = 1; i <= 5; i++) {
+                     renderLine(targetIndex + i, true);
+                }
+                return;
+            }
+
+            // Game Logic
+            // Target Line
             const targetLine = scriptData[targetIndex];
+            const div = document.createElement('div');
+            div.className = 'script-line';
 
-            // Always Line 1
-            clues.push({ label: "Line 1", content: targetLine.text });
+            // Character Dropdown
+            const charDiv = document.createElement('div');
+            charDiv.className = 'character-name';
 
-            if (currentAttempt >= 1) {
-                clues.push({ label: "Line 2", content: scriptData[targetIndex + 1].text });
-            }
-            if (currentAttempt >= 2) {
-                const c = scriptData[targetIndex + 1];
-                clues.push({ label: `Character (${c.original_character || c.character})`, content: c.character });
-            }
-            if (currentAttempt >= 3) {
-                clues.push({ label: "Line 3", content: scriptData[targetIndex + 2].text });
-            }
-            if (currentAttempt >= 4) {
-                const c = scriptData[targetIndex + 2];
-                clues.push({ label: `Character (${c.original_character || c.character})`, content: c.character });
-            }
+            const select = document.createElement('select');
+            select.id = 'char-select';
+            select.className = 'char-select-inline';
+            select.innerHTML = '<option value="">(SELECT CHARACTER)</option>';
+            select.disabled = true; // Enabled by onMovieChange
+            charDiv.appendChild(select);
 
-            clues.forEach(clue => {
-                const div = document.createElement('div');
-                div.className = 'clue';
-                div.innerHTML = `
-                    <span class="clue-label">${clue.label}</span>
-                    <div class="clue-text">${clue.content}</div>
-                `;
-                container.appendChild(div);
-            });
+            const textDiv = document.createElement('div');
+            textDiv.className = 'dialogue-text';
+            textDiv.textContent = targetLine.text;
+
+            div.appendChild(charDiv);
+            div.appendChild(textDiv);
+            container.appendChild(div);
+
+            // Subsequent Lines (Clues)
+            // Attempt 1: Line 2 visible, Char hidden
+            // Attempt 2: Line 2 visible, Char revealed
+            // Attempt 3: Line 3 visible, Char hidden
+            // Attempt 4: Line 3 visible, Char revealed
+
+            if (currentAttempt >= 1) renderClueLine(targetIndex + 1, currentAttempt >= 2);
+            if (currentAttempt >= 3) renderClueLine(targetIndex + 2, currentAttempt >= 4);
+        }
+
+        function renderClueLine(idx, revealChar) {
+            const line = scriptData[idx];
+            const div = document.createElement('div');
+            div.className = 'script-line';
+
+            const charDiv = document.createElement('div');
+            charDiv.className = 'character-name';
+            charDiv.textContent = revealChar ? line.character : "???";
+
+            const textDiv = document.createElement('div');
+            textDiv.className = 'dialogue-text';
+            textDiv.textContent = line.text;
+
+            div.appendChild(charDiv);
+            div.appendChild(textDiv);
+            document.getElementById('script-display').appendChild(div);
+        }
+
+        function renderLine(idx, isContext) {
+            const line = scriptData[idx];
+            const div = document.createElement('div');
+            div.className = 'script-line';
+            if (isContext) div.classList.add('context-line');
+
+            const charDiv = document.createElement('div');
+            charDiv.className = 'character-name';
+            charDiv.textContent = line.character;
+
+            const textDiv = document.createElement('div');
+            textDiv.className = 'dialogue-text';
+            textDiv.textContent = line.text;
+
+            div.appendChild(charDiv);
+            div.appendChild(textDiv);
+            document.getElementById('script-display').appendChild(div);
         }
 
         function updateAttempts(count) {
@@ -233,7 +381,7 @@
 
             const targetLine = scriptData[targetIndex];
             const targetMovie = targetLine.movie;
-            const targetChar = targetLine.character.toUpperCase(); // Data is upper, but ensure
+            const targetChar = targetLine.character.toUpperCase();
 
             const movieCorrect = (movieGuess === targetMovie);
             const charCorrect = (charGuess.toUpperCase() === targetChar);
@@ -251,31 +399,37 @@
             if (movieCorrect && charCorrect) {
                 showMessage(`Correct! It was ${targetLine.character} in ${targetLine.movie}.`, 'success');
                 gameOver = true;
-                endGame();
+                renderScript(); // Renders end game state
+                document.getElementById('game-controls').style.display = 'none';
             } else {
                 currentAttempt++;
+                updateAttempts(currentAttempt);
                 if (currentAttempt >= 5) {
                     showMessage(`Game Over! It was ${targetLine.character} in ${targetLine.movie}.`, 'error');
                     gameOver = true;
-                    endGame();
+                    renderScript(); // Renders end game state
+                    document.getElementById('game-controls').style.display = 'none';
                 } else {
                     let msg = "Incorrect.";
                     if (movieCorrect) msg = "Movie is correct! Character is wrong.";
                     showMessage(msg + " New clue revealed!", 'error');
-                    renderClues();
-                    updateAttempts(currentAttempt);
-                    charSelect.value = "";
+                    renderScript(); // Renders next clue
+                    onMovieChange(); // Re-bind dropdown
+                    if (movieLocked) {
+                         document.getElementById('char-select').value = "";
+                    }
                 }
             }
         }
 
-        function endGame() {
-            document.getElementById('game-controls').style.display = 'none';
-            document.getElementById('next-day-btn').style.display = 'block';
-            renderClues(); // Ensure all clues for the state are shown (or maybe show all? No, just the ones revealed)
-        }
-
         document.getElementById('guess-btn').addEventListener('click', submitGuess);
+
+        document.getElementById('randomize-btn').addEventListener('click', () => {
+            if (confirm("Start a new random game?")) {
+                salt++;
+                startNewGame();
+            }
+        });
 
         initGame();
     </script>
