@@ -13,9 +13,9 @@
         .clue-label { font-weight: bold; font-size: 0.8rem; color: #666; display: block; margin-bottom: 0.25rem; }
         .clue-text { font-family: 'Courier New', Courier, monospace; white-space: pre-wrap; }
         .input-group { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1rem; }
-        input { padding: 0.5rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 4px; }
-        input:disabled { background: #e9ecef; border-color: #28a745; color: #155724; font-weight: bold; }
-        button { padding: 0.5rem 1rem; font-size: 1rem; background: #333; color: white; border: none; cursor: pointer; border-radius: 4px; }
+        select, button { padding: 0.5rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 4px; }
+        select:disabled { background: #e9ecef; border-color: #28a745; color: #155724; font-weight: bold; }
+        button { background: #333; color: white; border: none; cursor: pointer; }
         button:hover { background: #555; }
         .message { margin-top: 1rem; padding: 1rem; border-radius: 4px; text-align: center; font-weight: bold; }
         .success { background: #d4edda; color: #155724; }
@@ -28,14 +28,16 @@
         <h1>Scriptle</h1>
         <p style="text-align:center">Guess the Movie and the Character saying the first line.</p>
 
-        <div id="clues" class="clues">
-            <!-- Clues will be injected here -->
-        </div>
+        <div id="clues" class="clues"></div>
 
         <div id="game-controls">
             <div class="input-group">
-                <input type="text" id="movie-input" placeholder="Movie Title (e.g. Pulp Fiction)" autocomplete="off">
-                <input type="text" id="char-input" placeholder="Character Name (e.g. JULES)" autocomplete="off">
+                <select id="movie-select">
+                    <option value="">Select Movie...</option>
+                </select>
+                <select id="char-select" disabled>
+                    <option value="">Select Character...</option>
+                </select>
                 <button id="guess-btn">Guess</button>
             </div>
             <div class="attempts">Attempts: <span id="attempt-count">0</span>/5</div>
@@ -43,20 +45,57 @@
 
         <div id="message" class="message" style="display: none;"></div>
 
-        <button id="next-day-btn" style="display:none; width:100%; margin-top:1rem; padding:1rem; background:#28a745;">Come back tomorrow!</button>
+        <button id="next-day-btn" style="display:none; width:100%; margin-top:1rem; padding:1rem; background:#28a745; color: white; border:none; cursor:pointer;">Come back tomorrow!</button>
     </div>
 
     <script>
         let currentAttempt = 0;
         let gameOver = false;
         let movieLocked = false;
+        let metadata = {};
 
         async function initGame() {
+            // Fetch metadata
+            const metaResp = await fetch('/api/metadata');
+            metadata = await metaResp.json();
+            populateMovies(metadata.movies);
+
+            // Fetch game state
             const response = await fetch('/api/game');
             const data = await response.json();
             currentAttempt = data.attempt;
             renderClues(data.clues);
             updateAttempts(currentAttempt);
+        }
+
+        function populateMovies(movies) {
+            const select = document.getElementById('movie-select');
+            movies.forEach(m => {
+                const opt = document.createElement('option');
+                opt.value = m;
+                opt.textContent = m;
+                select.appendChild(opt);
+            });
+
+            select.addEventListener('change', onMovieChange);
+        }
+
+        function onMovieChange() {
+            const movie = document.getElementById('movie-select').value;
+            const charSelect = document.getElementById('char-select');
+            charSelect.innerHTML = '<option value="">Select Character...</option>';
+
+            if (movie && metadata.characters[movie]) {
+                metadata.characters[movie].forEach(c => {
+                    const opt = document.createElement('option');
+                    opt.value = c;
+                    opt.textContent = c;
+                    charSelect.appendChild(opt);
+                });
+                charSelect.disabled = false;
+            } else {
+                charSelect.disabled = true;
+            }
         }
 
         function renderClues(clues) {
@@ -87,24 +126,24 @@
         async function submitGuess() {
             if (gameOver) return;
 
-            const movieInput = document.getElementById('movie-input');
-            const charInput = document.getElementById('char-input');
+            const movieSelect = document.getElementById('movie-select');
+            const charSelect = document.getElementById('char-select');
 
-            const movieGuess = movieInput.value.trim();
-            const charGuess = charInput.value.trim();
+            const movieGuess = movieSelect.value;
+            const charGuess = charSelect.value;
 
-            if (!movieGuess && !movieLocked) {
-                showMessage("Please enter a movie title.", "error");
+            if (!movieGuess) {
+                showMessage("Please select a movie.", "error");
                 return;
             }
             if (!charGuess) {
-                showMessage("Please enter a character name.", "error");
+                showMessage("Please select a character.", "error");
                 return;
             }
 
             const payload = {
                 character_guess: charGuess,
-                movie_guess: movieLocked ? movieInput.value : movieGuess,
+                movie_guess: movieGuess,
                 attempt: currentAttempt
             };
 
@@ -118,9 +157,13 @@
 
             if (data.movie_correct) {
                 movieLocked = true;
-                movieInput.disabled = true;
-                movieInput.value = data.target_movie || movieGuess; // Ensure case matches if backend provides it, or keep user input
-                if (data.target_movie) movieInput.value = data.target_movie;
+                movieSelect.disabled = true;
+                // Keep movie value as is, it's correct
+            } else {
+                 if (!movieLocked) {
+                     movieSelect.value = "";
+                     onMovieChange(); // Reset chars
+                 }
             }
 
             if (data.correct) {
@@ -142,19 +185,11 @@
                 currentAttempt = data.attempt;
                 renderClues(data.clues);
                 updateAttempts(currentAttempt);
-                charInput.value = ''; // Clear character input only
-                if (!movieLocked) movieInput.value = ''; // Clear movie if wrong
-                else movieInput.value = data.target_movie || movieInput.value; // Keep movie if locked
+                charSelect.value = ""; // Clear character guess
             }
         }
 
         document.getElementById('guess-btn').addEventListener('click', submitGuess);
-        document.getElementById('char-input').addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') submitGuess();
-        });
-        document.getElementById('movie-input').addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') submitGuess();
-        });
 
         initGame();
     </script>
