@@ -1,8 +1,14 @@
 import re
 import json
-import pymupdf
 import sys
 import html
+
+try:
+    import pymupdf
+    HAS_PYMUPDF = True
+except ImportError:
+    HAS_PYMUPDF = False
+    print("Warning: pymupdf not installed. PDF parsing will be skipped.")
 
 def parse_shrek_text(filepath, movie_title, mode="screenplay"):
     print(f"Parsing text script for {movie_title} (Mode: {mode})...")
@@ -78,6 +84,10 @@ def parse_shrek_text(filepath, movie_title, mode="screenplay"):
     return script_data
 
 def parse_shrek_pdf(filepath, movie_title):
+    if not HAS_PYMUPDF:
+        print(f"Skipping PDF {movie_title}: pymupdf not installed.")
+        return []
+
     print(f"Parsing PDF script for {movie_title}...")
     doc = pymupdf.open(filepath)
     entries = []

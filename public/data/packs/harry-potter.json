@@ -1,0 +1,19 @@
+{
+  "id": "harry-potter",
+  "name": "Harry Potter",
+  "type": "series",
+  "movies": [
+    "hp-sorcerers-stone",
+    "hp-chamber-of-secrets",
+    "hp-prisoner-of-azkaban",
+    "hp-goblet-of-fire",
+    "hp-order-of-phoenix",
+    "hp-half-blood-prince",
+    "hp-deathly-hallows-1",
+    "hp-deathly-hallows-2"
+  ],
+  "theme": {
+    "primary": "#740001",
+    "secondary": "#d3a625"
+  }
+}

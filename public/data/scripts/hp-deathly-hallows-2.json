@@ -1,0 +1,2907 @@
+{
+  "id": "hp-deathly-hallows-2",
+  "title": "Harry Potter and the Deathly Hallows Part 2",
+  "year": 2011,
+  "characters": [
+    "ABERFORTH DUMBLEDORE",
+    "ALBUS DUMBLEDORE",
+    "ALBUS POTTER",
+    "ALECTO CARROW",
+    "ARGUS FILCH",
+    "ARTHUR WEASLEY",
+    "BELLATRIX LESTRANGE",
+    "BILL WEASLEY",
+    "BOGROD",
+    "CHO CHANG",
+    "CORBAN YAXLEY",
+    "DEAN THOMAS",
+    "DEATH EATER",
+    "DRACO MALFOY",
+    "FILIUS FLITWICK",
+    "FLEUR DELACOUR",
+    "FRED WEASLEY",
+    "GARRICK OLLIVANDER",
+    "GINNY WEASLEY",
+    "GOBLIN",
+    "GREGORY GOYLE",
+    "GRIPHOOK",
+    "HARRY POTTER",
+    "HELENA RAVENCLAW",
+    "HERMIONE GRANGER",
+    "JAMES POTTER",
+    "KINGSLEY SHACKLEBOLT",
+    "LILY POTTER",
+    "LUCIUS MALFOY",
+    "LUNA LOVEGOOD",
+    "MOLLY WEASLEY",
+    "NARCISSA MALFOY",
+    "NEVILLE LONGBOTTOM",
+    "NIGEL WOLPERT",
+    "NYMPHADORA TONKS",
+    "OLIVER WOOD",
+    "PANSY PARKINSON",
+    "PETUNIA DURSLEY",
+    "PIUS THICKNESSE",
+    "POMONA SPROUT",
+    "PROFESSORS",
+    "REMUS LUPIN",
+    "RON WEASLEY",
+    "SEAMUS FINNIGAN",
+    "SEVERUS SNAPE",
+    "SIRIUS BLACK",
+    "SORTING HAT",
+    "STUDENT",
+    "SYBILL TRELAWNEY",
+    "VOLDEMORT"
+  ],
+  "lines": [
+    {
+      "character": "LUNA LOVEGOOD",
+      "text": "It's beautiful here."
+    },
+    {
+      "character": "BILL WEASLEY",
+      "text": "It was our Aunt's. We used to come here as kids. The Order uses it now as a safe house -- what's left of us, at least."
+    },
+    {
+      "character": "LUNA LOVEGOOD",
+      "text": "Muggles think these keep evil away. But they're wrong..."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I need to talk to the goblin."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "How are you?"
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "Alive."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "You probably don't remember --"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Yes."
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "And brought me here."
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "You are a very unusual wizard."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Why did you leave Gringotts?"
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "Soon the Death Eaters will control it. That was unacceptable to me."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Then you're on our side."
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "This is a wizard's war. I take no side."
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "It is impossible."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Alone, yes. With you, no."
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "How did you come by this sword?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "It's complicated. Why did Bellatrix Lestrange think it should be in her vault at Gringotts?"
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "It's complicated."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "The sword presented itself to us in a moment of need. We didn't steal it."
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "There is a sword in Madam Lestrange's vault identical to this one, but it is a fake. It was placed there this past summer."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "And she never suspected?"
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "The replica is very convincing. Only a goblin would recognize that this is the true Sword of Gryffindor."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Who put it there? The fake."
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "It was not my place to ask, nor did I desire to. There are more than a few curious things in the vaults at Gringotts."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "And in Madam Lestrange's vault as well?"
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "Perhaps."
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "I have no interest in gold."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Then what? The goblin twists the curl at his chin... then his eyes"
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "That is my price."
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "I have your word, Harry Potter, that you will give me the Sword of Gryffindor if I help you?"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Harry, are you thinking there's a Horcrux in Bellatrix's vault?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "She was terrified when she thought we'd been in there. She kept asking you what else we'd taken. I'd bet anything there's a Horcrux there. If we find it, we can kill it. And if we kill it, we're one step closer to killing him."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "And if we find one? How're we supposed to destroy it if we've given Griphook the sword?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I'm still working on that part."
+    },
+    {
+      "character": "FLEUR DELACOUR",
+      "text": "He's too weak."
+    },
+    {
+      "character": "GARRICK OLLIVANDER",
+      "text": "Forgive me if I don't get up."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Mr. Ollivander, I need to ask you a few questions."
+    },
+    {
+      "character": "GARRICK OLLIVANDER",
+      "text": "Anything, m'boy, anything."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Can you identify these, sir?"
+    },
+    {
+      "character": "GARRICK OLLIVANDER",
+      "text": "Walnut and dragon heartstring. Twelve and three quarter inches. Unyielding. This belongs to Bellatrix Lestrange."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "And this?"
+    },
+    {
+      "character": "GARRICK OLLIVANDER",
+      "text": "Hawthorn. Unicorn hair. Ten inches. Reasonably pliant. This was the wand of Draco Malfoy."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Was? Isn't it still?"
+    },
+    {
+      "character": "GARRICK OLLIVANDER",
+      "text": "Perhaps not -- if you won it from him. I sense its allegiance has changed."
+    },
+    {
+      "character": "GARRICK OLLIVANDER",
+      "text": "The wand chooses the wizard, Mr. Potter. That much has always been clear to those of us who have studied wandlore."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "What do you know about the Deathly Hallows, sir?"
+    },
+    {
+      "character": "GARRICK OLLIVANDER",
+      "text": "There are rumored to be three: The Elder Wand, the Resurrection Stone and the Invisibility Cloak. It is said that to possess them all is to make oneself the Master of Death. But few truly believe such objects exist --"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "But you, sir? Do you believe they exist?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "You're lying. You know one exists and you told him about it. You told him about the Elder Wand and where to go looking for it."
+    },
+    {
+      "character": "GARRICK OLLIVANDER",
+      "text": "He tortured me! Besides, I conveyed only rumors. There's no guarantee he will find it --"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "He has found it, sir."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "That's all, sir. We'll leave you to get some rest now."
+    },
+    {
+      "character": "GARRICK OLLIVANDER",
+      "text": "He's after you, Mr. Potter. If it's true, what you say, that he has the Elder Wand, I'm afraid you really don't stand a chance."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Then I guess I'll just have to kill him before he finds me, sir."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "You're sure it's hers?"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Positive. Harry turns to the two wands on the table -- the ones he showed Ollivander -- and extends the longest to Hermione."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I reckon you should take this then."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "You heard Ollivander. It's Harry's now."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "But I hate that thing -- that's the wand that killed Sirius! How can I hold it and not feel..."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "If I can hold it, you can."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "How will we know what it is when we get in there? After all, a Horcrux can be anything."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I'll know. I can't explain. It's like..."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "That's a bit scary."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "It is, Harry. Did Dumbledore ever say anything to you, something that might explain why --"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "No. I just know. When one's near."
+    },
+    {
+      "character": "FLEUR DELACOUR",
+      "text": "This is the closest I could find to what you described, Hermione."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "It's perfect. Thank you, Fleur."
+    },
+    {
+      "character": "BILL WEASLEY",
+      "text": "You're leaving, aren't you."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "In the morning."
+    },
+    {
+      "character": "BILL WEASLEY",
+      "text": "And Griphook?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "He'll be leaving too."
+    },
+    {
+      "character": "BILL WEASLEY",
+      "text": "Listen, I don't know what you're up to, but I know goblins. If you've struck any kind of bargain with Griphook, you must be exceptionally careful to live up to it. If you don't... he won't be forgiving."
+    },
+    {
+      "character": "LUNA LOVEGOOD",
+      "text": "The sky has lost a star."
+    },
+    {
+      "character": "LUNA LOVEGOOD",
+      "text": "My father used to say that when a child died. She looks up, smiles."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Yeah. Funny. Listen, Luna, about your father, I don't want you to think I --"
+    },
+    {
+      "character": "LUNA LOVEGOOD",
+      "text": "I know you understand why my father did what he did, Harry. That's why we don't need to talk about it."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Hogwarts?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "It's not the place you left, you"
+    },
+    {
+      "character": "LUNA LOVEGOOD",
+      "text": "Neither am I."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Always good value. I'll miss her."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "What d'you think?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Wouldn't know you if I didn't know you."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "You want to tell me what that is?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Sirius gave it to me. He had a matching piece. He said if I ever needed him, all I had to do was look into it."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "You mean he could see you?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Something like that. I don't know. He died before I ever got to use it. The thing is..."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Go on."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "You'll think I'm mental, but more than once, when I've looked into it -- I think I've seen Dumbledore."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Bloody hell... that's a sight."
+    },
+    {
+      "character": "BELLATRIX LESTRANGE",
+      "text": "Well, how do I look?"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Hideous."
+    },
+    {
+      "character": "BELLATRIX LESTRANGE",
+      "text": "Oh dear, I missed a spot, didn't I? Hold still..."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Couldn't do anything about that bit in the back that's always flipping up, could you? Dead annoying --"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Never mind. I'm good.  That is you in there, isn't it?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "You can give that to Hermione to hold, all right, Griphook?"
+    },
+    {
+      "character": "GOBLIN",
+      "text": "Madam Lestrange."
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "Good morning? Good morning? You're Bellatrix Lestrange, not some dewy-eyed schoolgirl!"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Hey. Easy."
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "She gives us away and we might as well use that sword to slit our own throats. Understand?"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "He's right. I was being stupid."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "C'mon. Let's do it."
+    },
+    {
+      "character": "GOBLIN",
+      "text": "Identification."
+    },
+    {
+      "character": "BELLATRIX LESTRANGE",
+      "text": "I wish to enter my vault."
+    },
+    {
+      "character": "GOBLIN",
+      "text": "I see. Very well. Excuse me, won't you?"
+    },
+    {
+      "character": "BELLATRIX LESTRANGE",
+      "text": "I don't like to be kept waiting."
+    },
+    {
+      "character": "GOBLIN",
+      "text": "Next."
+    },
+    {
+      "character": "BELLATRIX LESTRANGE",
+      "text": "He's with me."
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "They know!"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "What do you mean?"
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "They know she's an imposter! They've been warned!"
+    },
+    {
+      "character": "BOGROD",
+      "text": "Madam Lestrange. Would you mind presenting your wand?"
+    },
+    {
+      "character": "BELLATRIX LESTRANGE",
+      "text": "And why should I do that?"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Harry, what do we do? Harry...?"
+    },
+    {
+      "character": "BOGROD",
+      "text": "It's the bank's policy. I'm sure you understand, given the current climate --"
+    },
+    {
+      "character": "BELLATRIX LESTRANGE",
+      "text": "No, I most certainly do not understand --"
+    },
+    {
+      "character": "BOGROD",
+      "text": "I'm afraid I must insist."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Imperio."
+    },
+    {
+      "character": "BOGROD",
+      "text": "Very well, Madam Lestrange. If you will follow me."
+    },
+    {
+      "character": "GOBLIN",
+      "text": "But... Bogrod, there have been special instructions regarding the Lestrange vault."
+    },
+    {
+      "character": "BOGROD",
+      "text": "I'm fully aware of that. I'm also aware the Lestranges are one of our oldest and most respected families."
+    },
+    {
+      "character": "GOBLIN",
+      "text": "Yes, sir, but our instructions are very specific --"
+    },
+    {
+      "character": "BOGROD",
+      "text": "Let me be specific with you, Ricbert. I've run this bank for forty-five years, long before anyone had even heard of a Death Eater. The day may come that they feel they can run this place better than me, but that day has not yet arrived. Am I understood!"
+    },
+    {
+      "character": "BOGROD",
+      "text": "Madam, if you will, I will escort you myself."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "How long before they come after us?"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "What's that? Up ahead."
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "I should have known --"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "What is that, Griphook?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Griphook! What is that!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Well done. Hey."
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "The Thief's Downfall. Washes away all enchantments. Can be deadly."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "You don't say.  Just out of interest... is there any other way out of here?"
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "No."
+    },
+    {
+      "character": "BOGROD",
+      "text": "What the devil are you all doing down here!"
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "We need him!"
+    },
+    {
+      "character": "BOGROD",
+      "text": "Is this your doing, Griphook? You have no rights here anymore. When you gave up your keys, you --"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Imperio!"
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "Well done."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "No. It's not possible..."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Bloody hell. That's a Welsh Green."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "It looks like it's been down here forever."
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "Go on."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "It's been trained to expect pain when it hears the noise."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "That's barbaric. I..."
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "We'll only have a few seconds. In other words... they'll be no do-"
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "Ready, Bogrod?"
+    },
+    {
+      "character": "BOGROD",
+      "text": "Hm? Oh. Yes. Of course."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Lumos !"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Lumos !"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Lumos !"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Blimey..."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Look."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "No wonder Bellatrix thought it was real."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Is it here, Harry? Can you feel anything?"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "It's hot! All eyes turn to the bowl, WOBBLING MADLY on the floor, when... it SPLITS APART and begins to MULTIPLY."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Ron, your foot!"
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "We'll be crushed! Hurry!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "That's it. Up there."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "How're we going to reach it?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Give me the sword! The real one."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Keep going!"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Harry! Behind you!"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "The cup!"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "In here!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "We have a deal, Griphook."
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "I said I'd get you in. I never said anything about getting you out."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Griphook! Griphook!"
+    },
+    {
+      "character": "GRIPHOOK",
+      "text": "Thieves! Help! Thieves!"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Foul little git. Least we've got Bogrod."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "That's unfortunate."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "We can't just stand here! Who's got an idea?"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "You're asking us? You're the brilliant one."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "I've got something. But it's mad."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Relashio!"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "That's your idea?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Come on!"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "It doesn't realize it's free!"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "That was brilliant! BRILLIANT!"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Bloody hell."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "We're dropping!"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "I say we jump!"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "When?"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "The boy has discovered our secret, Nagini. We must find out just how much he knows. We must return to our hiding places and see if the others are safe."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "He knows."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "How is it you --"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I saw him."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "You let him in! Harry, you can't --"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I can't always help it, Hermione!"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Never mind! What did you see?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "He's angry. But he's scared too. He's going to make sure the other Horcruxes are safe."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "What happens when he finds out four are gone?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I reckon he'll do anything to stop us from finding the rest. There's more: one of them's at Hogwarts."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "What?"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "What?"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "You saw it?"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Tonight? But we have to plan. We have to figure out what --"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Honestly, Hermione, when have any of our plans actually worked? We plan, we get there and all hell breaks loose."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "'Fraid he's right. One problem: Snape's Headmaster now. We can't just walk in the front door."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "We'll go to Hogsmeade. To Honeydukes. Take the secret passage in the cellar."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "There's something wrong with him. In the past, I could always follow his thoughts. Now everything feels disconnected."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Maybe it's because of the Horcruxes. Maybe he's growing weaker. Maybe he's dying."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "No. It's more like he's wounded. If anything, he feels more"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "They were ready for us."
+    },
+    {
+      "character": "DEATH EATER",
+      "text": "We know you're here, Potter. There's no getting away."
+    },
+    {
+      "character": "DEATH EATER",
+      "text": "Perhaps you need some convincing."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "What's he mean by that?"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "No, you'll give us away."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Expecto Patronum!"
+    },
+    {
+      "character": "ABERFORTH DUMBLEDORE",
+      "text": "In here, Potter."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Did you get a look at him! Fora second I thought it was --"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "I know."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Harry! I can see you! In here!"
+    },
+    {
+      "character": "ABERFORTH DUMBLEDORE",
+      "text": "You bloody fools! What were you thinking coming here? Do you have any idea how dangerous it is --"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "You're Aberforth."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Dumbledore's brother. It's you I've been seeing -- here. It's"
+    },
+    {
+      "character": "ABERFORTH DUMBLEDORE",
+      "text": "Where've you left him?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "He's dead."
+    },
+    {
+      "character": "ABERFORTH DUMBLEDORE",
+      "text": "Sorry to hear it. I liked that elf."
+    },
+    {
+      "character": "ABERFORTH DUMBLEDORE",
+      "text": "Mundungus Fletcher, 'bout a year ago."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Dung had no right selling you that. It belonged to --"
+    },
+    {
+      "character": "ABERFORTH DUMBLEDORE",
+      "text": "Sirius. Albus told me. He also told me that you'd likely be hacked off if you ever found out I had it. But ask yourself where you'd be if I didn't."
+    },
+    {
+      "character": "ABERFORTH DUMBLEDORE",
+      "text": "Right then. Reckon you're hungry. Let's get you fed, then think of the best way to get you out of here."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Do you hear much from the others? From the Order?"
+    },
+    {
+      "character": "ABERFORTH DUMBLEDORE",
+      "text": "The Order is finished. You-Know- Who's won. Anyone who says otherwise is kidding themselves."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "We need to get into Hogwarts. Dumbledore gave us a job to do."
+    },
+    {
+      "character": "ABERFORTH DUMBLEDORE",
+      "text": "Did he now? Nice job? Easy?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "We've been hunting Horcruxes. We think the last one's in the school. But we'll need your help getting in."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "If we can find it and kill it, then we kill him, and then we can end this war once and for all. We need to get into Hogwarts tonight."
+    },
+    {
+      "character": "ABERFORTH DUMBLEDORE",
+      "text": "It's not a job my brother's given you, it's a suicide mission. Do yourself a favor boy. Go home. Live a little longer."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Dumbledore trusted me, to see this through."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Why should he..."
+    },
+    {
+      "character": "ABERFORTH DUMBLEDORE",
+      "text": "Keep secrets? You tell me."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I only care about the Dumbledore I knew. I trusted him."
+    },
+    {
+      "character": "ABERFORTH DUMBLEDORE",
+      "text": "Did you now? And why is that?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I had no reason not to \u2014-"
+    },
+    {
+      "character": "ABERFORTH DUMBLEDORE",
+      "text": "That's a boy's answer. A boy who goes chasing Horcruxes on the word of a man who won't even tell him where to start. You're lying. Not just to me, which doesn't matter, but to yourself as well. That's what a fool does."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "You're drunk."
+    },
+    {
+      "character": "ABERFORTH DUMBLEDORE",
+      "text": "You don't strike me as a fool, Mr. Potter. So I'll ask you again. There must be a reason. Why do you trust anything my brother ever said to you? Why?"
+    },
+    {
+      "character": "ABERFORTH DUMBLEDORE",
+      "text": "You know what to do..."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Where've you sent her?"
+    },
+    {
+      "character": "ABERFORTH DUMBLEDORE",
+      "text": "You'll see soon enough."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "That's Ariana, isn't it? Your sister. She's beautiful."
+    },
+    {
+      "character": "ABERFORTH DUMBLEDORE",
+      "text": "She'll always be beautiful."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "She died very young, didn't she."
+    },
+    {
+      "character": "ABERFORTH DUMBLEDORE",
+      "text": "My brother sacrificed many things, Mr. Potter, in his journey to find power, including her. She was devoted to him -- he gave her everything, but time."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Mr. Dumbledore... thank you."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Did save our lives twice. Kept an eye on us in that mirror. That doesn't seem like someone who's given up, does it?"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "She's coming back! And she's got someone with her!"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Who's that with her? Bloody hell..."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "I knew you'd come! I told them alii! Harry Potter would never abandon Hogwarts!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Neville, you look..."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Like hell? I reckon. This is nothing. Seamus is worse. You'll see. Hermione! Ron!"
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Hey, Ab. There might be a couple more people on the way."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Well? Ready?"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "I don't remember this being on the Marauder's Map."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "That's because it never existed till now. The seven secret passages were sealed off before the start of the year. This is the only way in or out now. The grounds are crawling with Death Eaters and Dementors."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "How bad is it, Neville? With Snape as Headmaster."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Hardly ever see him. It's the Carrows you have to watch out for."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "The Carrows?"
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Brother and sister. They're in charge of discipline. Like punishment, the Carrows."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "They did that to you? But why?"
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Today's Dark Arts lesson had us practicing the Cruciatus Curse. On First Years. I refused. Hogwarts has changed."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Aw, c'mon. Don't be grim. We're all used to it by now. And the thing is, it helps when people stand up, gives everyone hope. I used to notice that when you did it, Harry. C'mon, we're almost there."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Let's have a bit of fun, shall we?  Hey! Listen up, you lot! I've brought you a surprise!"
+    },
+    {
+      "character": "SEAMUS FINNIGAN",
+      "text": "Blimey."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Get the word out to Remus and the others that Harry's back."
+    },
+    {
+      "character": "NIGEL WOLPERT",
+      "text": "River, DA calling. Do you read? We have a new weather report: Lightning has struck. I repeat, lightning has struck..."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Okay, okay! Stand down! lLet's not kill them before You-Know-Who gets the chance!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Okay. There's something we need to find, something hidden here in the castle. It could help us defeat You-Know-Who."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "What is it?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "We don't know."
+    },
+    {
+      "character": "DEAN THOMAS",
+      "text": "Where is it?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I realize it's not much to go on."
+    },
+    {
+      "character": "SEAMUS FINNIGAN",
+      "text": "That's nothing to go on."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I think it might have something to do with Ravenclaw. It would be small, easy to conceal, valuable. Any ideas?"
+    },
+    {
+      "character": "LUNA LOVEGOOD",
+      "text": "Well, there's Rowena Ravenclaw's lost diadem."
+    },
+    {
+      "character": "LUNA LOVEGOOD",
+      "text": "The lost diadem of Ravenclaw? Hasn't anyone ever heard of it? It's quite famous."
+    },
+    {
+      "character": "CHO CHANG",
+      "text": "Yes, but Luna, it's lost. For centuries now. There's not a person alive today who's seen it."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Excuse me. But would someone tell me: what's a bloody diadem?"
+    },
+    {
+      "character": "CHO CHANG",
+      "text": "It's a kind of crown. You know, like a tiara."
+    },
+    {
+      "character": "CHO CHANG",
+      "text": "Ravenclaw's was rumored to have magical properties, to enhance the wisdom of the wearer."
+    },
+    {
+      "character": "GINNY WEASLEY",
+      "text": "Harry."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Hey there. Ron smiles, about to speak, then notices Ginny's eyes have not left Harry. He frowns, speaks to Hermione."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Six months she hasn't seen me and it's like I'm Frankie First Year. I mean, I'm only her brother."
+    },
+    {
+      "character": "SEAMUS FINNIGAN",
+      "text": "Got loads of those, though, doesn't she? There's only one Harry."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Shut up, Seamus."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "What is it, Ginny?"
+    },
+    {
+      "character": "GINNY WEASLEY",
+      "text": "Snape knows. He knows that Harry was spotted in Hogsmeade."
+    },
+    {
+      "character": "ALECTO CARROW",
+      "text": "Put a smile on, Miss Reynolds. Wouldn't want me to have to pay a visit to Daddy again, would you?"
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "Many of you are surely wondering why I have summoned you here at this hour. It has come to my attention that earlier this evening... Harry Potter was sighted in Hogsmeade."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "I mention this in the hopes that truth will not be supplanted by"
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "For myself and a few select members of the staff this comes as little surprise. We have, for some time, considered Mr. Potter's return to Hogwarts to be not only possible but inevitable. Consequently, in the past several months and under my specific direction, exhaustive defensive strategies have been employed to defeat any attempt Mr. Potter might make to breach these walls. But know this. Should anyone -- student or staff -- attempt to aid Mr. Potter, that person will be punished in a manner consistent with the severity of their transgression. Rest assured: So long as I am Headmaster at Hogwarts, Harry Potter will never again step foot in this castle."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "Now then. If anyone here has knowledge of Mr. Potter's movements this evening... I invite them to step forward now."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I think I can help you out with that... -.. Harry appears."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "And I'm afraid it's rather extensive."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "How dare you stand where he stood."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Tell them how it was that night. Tell then how you looked him in the eye, a man who trusted you... and killed him. Tell them!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I'm a Gryffindor."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "I know that many of you will want to fight. Some of you may even think this wise. But this is foily."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "I wish you no harm. TI have great respect for the students of Hogwarts. I was once one myself after all. I ask for but one thing and if granted no magical blood shail be spiit..."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Give me Harry Potter. Do this and none shall be harmed. Give me Harry Potter and I shail leave Hogwarts untouched. Give me Harry Potter and you will be rewarded."
+    },
+    {
+      "character": "PANSY PARKINSON",
+      "text": "But he's there! Potter's there! Someone grab him!"
+    },
+    {
+      "character": "ARGUS FILCH",
+      "text": "Students out of bed! Students in the corridors!"
+    },
+    {
+      "character": "ARGUS FILCH",
+      "text": "Oh. Sorry, mum."
+    },
+    {
+      "character": "ARGUS FILCH",
+      "text": "Right away."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Time. As much as you can give me."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Is that possible, Professor?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I think you're right."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "You, too, Professor."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Let me get this straight, Professor. You're giving us permission to do this?"
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "To blow it up. Boom."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Wicked."
+    },
+    {
+      "character": "SEAMUS FINNIGAN",
+      "text": "I can bring 'er down."
+    },
+    {
+      "character": "FILIUS FLITWICK",
+      "text": "You realize, of course, that nothing we do will be able to keep out You-Know-Who indefinitely."
+    },
+    {
+      "character": "POMONA SPROUT",
+      "text": "That doesn't mean we can't hold him up."
+    },
+    {
+      "character": "PROFESSORS",
+      "text": "Protego Maxima... Finato Duri... Repello Inimicum..."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Harry, Hermione and I have been thinking. It doesn't really matter if we find the Horcrux."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Unless we can destroy it."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "So we were thinking --"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "You were thinking. It's Ron's idea. And it's brilliant."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "You destroyed Tom Riddle's Diary with a Basilisk fang, right? Well, we know where we might find one, don't we?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Okay. But take this. That way you can find me when you get back."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Where are you going?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Ravenclaw Common Room. Got to start somewhere. Hermione nods, slips the Map in her beaded bag and she and Ron head off. Just before they turn the corner, Ron looks back, holds Harry's glance briefly... and then is"
+    },
+    {
+      "character": "LUNA LOVEGOOD",
+      "text": "Harry! Wait! I need to talk to"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I'm a bit preoccupied right now, Luna."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "We'll talk later, Luna."
+    },
+    {
+      "character": "LUNA LOVEGOOD",
+      "text": "Harry --"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Later."
+    },
+    {
+      "character": "LUNA LOVEGOOD",
+      "text": "Don't you remember what Cho said about Rowena Ravenclaw's diadem: 'There's not a person alive who's seen it.'"
+    },
+    {
+      "character": "LUNA LOVEGOOD",
+      "text": "It's obvious, isn't it? We have to talk to someone who's dead."
+    },
+    {
+      "character": "LUNA LOVEGOOD",
+      "text": "He's very impressive, isn't he?"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "They never learn. Such a pity."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Begin."
+    },
+    {
+      "character": "PIUS THICKNESSE",
+      "text": "But, my Lord, shouldn't we wait --"
+    },
+    {
+      "character": "FRED WEASLEY",
+      "text": "Nice night for it!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Okay, Luna. Who've you got in mind?"
+    },
+    {
+      "character": "SEAMUS FINNIGAN",
+      "text": "That's it. I want a charge on each and every joist."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "You do know what you're doing, don't you, Seamus?"
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Blimey."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Not good."
+    },
+    {
+      "character": "LUNA LOVEGOOD",
+      "text": "If you're to find her, you'll find her down there."
+    },
+    {
+      "character": "LUNA LOVEGOOD",
+      "text": "No. I think it best if you two talk alone. She's very shy."
+    },
+    {
+      "character": "KINGSLEY SHACKLEBOLT",
+      "text": "Tell Professor McGonagall Remus and I will handle this side of the castle."
+    },
+    {
+      "character": "DEAN THOMAS",
+      "text": "Yes, sir."
+    },
+    {
+      "character": "KINGSLEY SHACKLEBOLT",
+      "text": "Dean!"
+    },
+    {
+      "character": "REMUS LUPIN",
+      "text": "It's the quality of one's conviction that determines success, not the number of one's followers."
+    },
+    {
+      "character": "KINGSLEY SHACKLEBOLT",
+      "text": "Who said that?"
+    },
+    {
+      "character": "REMUS LUPIN",
+      "text": "Me."
+    },
+    {
+      "character": "REMUS LUPIN",
+      "text": "Speaking of quality."
+    },
+    {
+      "character": "REMUS LUPIN",
+      "text": "You shouldn't have. It's Teddy who needs you."
+    },
+    {
+      "character": "NYMPHADORA TONKS",
+      "text": "He'll sleep 'til dawn and snore like his father. It's you who needs me tonight."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "It's you..."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Ha! dal"
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Yeah! You and whose army!"
+    },
+    {
+      "character": "SEAMUS FINNIGAN",
+      "text": "Woah! Easy up there!"
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Sorry."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Harry talks in his sleep. Haven't you noticed?"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "No. Of course not."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "I've never got this far before."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "I'm scared."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Me too. Hermione: I didn't expect it to be like this."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Not this."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "You're the Grey Lady, the ghost of Ravenclaw Tower."
+    },
+    {
+      "character": "HELENA RAVENCLAW",
+      "text": "I do not answer to that name."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I'm sorry. It's Helena, isn't it? Helena Ravenclaw. Rowena's daughter. Luna told me."
+    },
+    {
+      "character": "HELENA RAVENCLAW",
+      "text": "Are you a friend of Luna's?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Yes. She thought you might be able to help me."
+    },
+    {
+      "character": "HELENA RAVENCLAW",
+      "text": "You seek my mother's diadem."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Yes! That's right --"
+    },
+    {
+      "character": "HELENA RAVENCLAW",
+      "text": "Luna is kind. Unlike so many of the others, but she was wrong. I cannot help you."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Wait! Please!"
+    },
+    {
+      "character": "HELENA RAVENCLAW",
+      "text": "Many have sought my mother's diadem. Its powers are"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "But I don't care about its powers! Honestly --"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I don't seek it for myself! You have to believe me!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I want to destroy it."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "That's what you want, isn't it, Helena? You want it destroyed."
+    },
+    {
+      "character": "HELENA RAVENCLAW",
+      "text": "But I only wanted to be more like her, clever and wise. She wore it so beautifully, but on me... I grew to hate it... the pain I felt... the pain I feel even now..."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I'll end your pain, Helena. Tell me where it is and I'll destroy it, I swear, on my mother's memory \u2014-"
+    },
+    {
+      "character": "HELENA RAVENCLAW",
+      "text": "Another swore to destroy it, many years ago, a strange boy with a strange name..."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Tom Riddle --"
+    },
+    {
+      "character": "HELENA RAVENCLAW",
+      "text": "But he lied."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "He's lied to many people --"
+    },
+    {
+      "character": "HELENA RAVENCLAW",
+      "text": "I know what he's done! I know who he is! He defiled it! With Dark Magic!"
+    },
+    {
+      "character": "HELENA RAVENCLAW",
+      "text": "Strange... you remind me of him a bit..."
+    },
+    {
+      "character": "HELENA RAVENCLAW",
+      "text": "It's here. In the castle. In the"
+    },
+    {
+      "character": "HELENA RAVENCLAW",
+      "text": "If you have to ask, you'll never know. If you know, you need only ask..."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Thank you... -.. then turning..."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Thank you... -.. then running."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "You do it."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Yes, you can."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Not good."
+    },
+    {
+      "character": "GINNY WEASLEY",
+      "text": "Ready!?"
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Are you bloody joking?!"
+    },
+    {
+      "character": "SEAMUS FINNIGAN",
+      "text": "He's good..."
+    },
+    {
+      "character": "SEAMUS FINNIGAN",
+      "text": "He's good..."
+    },
+    {
+      "character": "GINNY WEASLEY",
+      "text": "What?"
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "That was kind of exciting. Seamus grins and winks knowingly. Ginny shakes her head."
+    },
+    {
+      "character": "GINNY WEASLEY",
+      "text": "Mad. The both of you."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Not good."
+    },
+    {
+      "character": "ARGUS FILCH",
+      "text": "Night-tee night."
+    },
+    {
+      "character": "PANSY PARKINSON",
+      "text": "You let us out of here, you filthy squib!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Ginny! Neville! You alright?"
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Never better! Feel like I could spit fire! Haven't seen Luna, have you?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Luna -- ?"
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "I'm mad for her! Think it's about time I told her, seeing as there's a pretty good chance we'll both be dead by dawn!"
+    },
+    {
+      "character": "GINNY WEASLEY",
+      "text": "I know."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Bloody hell. We/'ll never find him on this."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "There he is."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Brilliant."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "He vanished. Just now. I saw it. Ron glances at MAP -- then:"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "That's right. I did."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Let's go."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Brilliant."
+    },
+    {
+      "character": "DRACO MALFOY",
+      "text": "Take my hand."
+    },
+    {
+      "character": "DRACO MALFOY",
+      "text": "Well, well, what brings you here, Potter? Harry looks slowly over his shoulder. Draco -- Blaise and Goyle at his side -- steps INTO VIEW, his face bisected by light. He holds a wand on Harry."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I could ask you the same."
+    },
+    {
+      "character": "DRACO MALFOY",
+      "text": "I virtually lived here last year. Remember?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I remember."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "What's wrong with the one you have?"
+    },
+    {
+      "character": "DRACO MALFOY",
+      "text": "Easy."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Why didn't you tell her?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Bellatrix. You knew it was me. But you didn't say anything."
+    },
+    {
+      "character": "DRACO MALFOY",
+      "text": "Give me my wand."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "No. I don't think so..."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Besides, its allegiance is to me now. If you want it, you'll have to win it back. Perhaps even kill me..."
+    },
+    {
+      "character": "GREGORY GOYLE",
+      "text": "C'mon, Draco. Don't be a prat."
+    },
+    {
+      "character": "GREGORY GOYLE",
+      "text": "Avada Kedavra!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Expelliarmus!"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Did you see where it went? The diadem!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Well done. Let's find Ron and get out of here."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "RUN! Goyle's set the bioody place on fire!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Split up!"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Do we climb!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "No, it''ll just follow us!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Here! Take one!"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Serves him right."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "C'mon! This way!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Wait! What about Malfoy and Blaise!"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Brilliant."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Nagini. Come."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "You're bloody well welcome!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Ron, you once asked me if I thought he felt it -- Voldemort -- when we destroy a Horcrux, when we destroy a piece of his soul."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "He does."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "It's the snake. She's the last one. The last Horcrux."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Where will he take her?"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Someplace safe."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "No. He'll keep her close."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Look inside him, Harry."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Find out where he is. If we find him, we find the snake. Then we're one step closer to ending this."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Stop looking at her. She smells your fear. It agitates her. Be grateful she's just eaten."
+    },
+    {
+      "character": "LUCIUS MALFOY",
+      "text": "Forgive me, my Lord, but wouldn't it be more prudent to call off this battle and seek the boy yourself?"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "I do not need to seek the boy! Before the night is out, he will come to me! Do you understand!"
+    },
+    {
+      "character": "LUCIUS MALFOY",
+      "text": "Of c-course, my Lord."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "How do you live with yourself, Lucius?  Go. Find Severus. Tell him I need to see him immediately."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I know where he is."
+    },
+    {
+      "character": "SYBILL TRELAWNEY",
+      "text": "There's more to me than incense and tea leaves, Mr. Finnegan."
+    },
+    {
+      "character": "LUNA LOVEGOOD",
+      "text": "Thanks."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Don't mention it."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Why doesn't it work for me?"
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "You have performed extraordinary magic with this wand, my Lord. In the last few hours alone --"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "No! I am extraordinary! But the wand resists me!"
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "There is no wand more powerful. Ollivander himself said it. Tonight, when the boy comes to you, it will not fail you, I am sure. It answers to you and you only."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Does it?"
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "My Lord?"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "The wand. Does it truly answer to me?"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "You're a clever man, Severus. Surely you must know."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Where, Severus? Where does its loyalty lie?"
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "With you, of course, my Lord."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "The Elder Wand cannot serve me properly, Severus, because I am"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "The Elder Wand belongs to the wizard who killed its last owner. Ollivander was quite explicit about that. You killed Dumbledore, Severus. While you live, the Elder Wand cannot be truly mine."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "My Lord --"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "You have been a good and faithful servant, Severus."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "But only I can live forever..."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Kill."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Nagini! Come!"
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "Take them..."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "Take them!"
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "Please."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Give me something! Quickly! A flask! Anything."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "They are the same..."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "You have your mother's eyes..."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "He's gone. The snake too."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "You have fought valiantly... but in vain. I do not wish this. Every drop of magical bliood"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "I therefore command my forces to retreat. In their absence, dispose of your dead with dignity. Treat your injured."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Never! Do you hear me! NEVER!"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Where is everyone?"
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "Lily... Then..."
+    },
+    {
+      "character": "PETUNIA DURSLEY",
+      "text": "Lily! Come out of there! Now!"
+    },
+    {
+      "character": "PETUNIA DURSLEY",
+      "text": "We're going home."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "She's jealous. Because she's ordinary and you're special."
+    },
+    {
+      "character": "LILY POTTER",
+      "text": "That's mean."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "It's true. You know so yourself."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "No! Don't kill me!"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "That wasn't my intention."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Stand up, Severus. I haven't much time. What message do you bring from Lord Voldemort this time?"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Is this about the Prophecy?"
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "Yes."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "How much did you relay?"
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "Only what I heard. But now... he thinks it refers to her."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "The Prophecy did not refer to a woman. It spoke of a boy born at the end of July --"
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "Yes! But he thinks it's her son! He intends to hunt them down now! To kill them!"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "If she means so much to you, surely Lord Voldemort would spare her in exchange for the boy."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "I have asked."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "You disgust me. You would sacrifice the life of an innocent child over a schoolboy crush?"
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "She's more than that! She's different! Beautiful. Kind."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "And should I do so, what will you give me in return, Severus?"
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "Anything."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "You said you would keep her safe!"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Lily and James put their faith in the wrong person. Rather like you, Severus."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "The boy survives."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "He has her eyes."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "He doesn't need protection. The Dark Lord has gone --"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "The Dark Lord will return. And the boy will be in terrible danger when he does."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "No one can know. Your word."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "My word that I shall never reveal the best of you, Severus? If you insist."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "He exhibits no measurable talent. His arrogance rivals even his father's. And he seems to relish his fame."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Sometimes we see what we expect to see, Severus. Other teachers indicate the boy is modest, likeable and while no prodigy, possesses above-average gifts. Personally, I find him rather engaging."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "You see what you want to see."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Perhaps. oOh. Severus."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "Why did you put it on? Surely you realized it carried a curse."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "I was... foolish... greedy..."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "Drink the rest. It will contain the curse to the hand for the time being."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "For the time being?"
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "It will spread."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "How long?"
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "Maybe a year."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Well, this makes matters much more straightforward."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Do not ignore me, Severus. Was it not you who told me of Lord Voldemort's plan to have the Malfoy boy murder me?"
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "It is not expected that he will succeed."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "You must agree."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Yes. You must be the one to kill me, Severus. It is the only way. Only then will the Dark Lord trust you completely."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "You ask too much."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "There will come a time when Harry Potter must be told something. But you must wait until Voldemort is at his most vulnerable."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "Tell him what?"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "On the night Lord Voldemort went to Godric's Hollow to kill Harry, and Lily Potter cast herself between them, the curse rebounded. When that happened, a part of Lord Voldemort's soul latched itself onto the only living thing it could find: Harry himself."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "There's a reason Harry can speak with snakes. There's a reason he can look into Lord Voldemort's mind. A part of Lord Voldemort lives inside him."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "So when the time comes, the boy must die."
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "You've kept him alive so that he can die at the proper moment. You've been raising him like a pig for slaughter."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "But this is touching, Severus. Don't tell me you've grown to care for the boy?"
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "Expecto Patronum!"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Lily. After all this time?"
+    },
+    {
+      "character": "SEVERUS SNAPE",
+      "text": "Always... We GO TO BLACK..."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "The irony of course, Severus, is that -- in the end -- you and the boy desire the same thing..."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Where've you been?"
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "We thought you'd gone to the forest, we thought you might be --"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I'm going there now."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Are you mad! No!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "It's... meant to be."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Rubbish! You can't just give yourself up to him -- Hermione squeezes Ron's arm, silencing him."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "What is it, Harry? What is it you"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "There's a reason I can... hear them -- the Horcruxes."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I think I've known for awhile."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "I'll go with you. I/'ll --"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Kill the snake. Kill the snake and then it's just him. Then it will be over."
+    },
+    {
+      "character": "OLIVER WOOD",
+      "text": "I'll take him from here."
+    },
+    {
+      "character": "GINNY WEASLEY",
+      "text": "It's all right. We're going to get you inside."
+    },
+    {
+      "character": "STUDENT",
+      "text": "I kept calling. No one came."
+    },
+    {
+      "character": "GINNY WEASLEY",
+      "text": "Don't worry. I won't leave you. I promise."
+    },
+    {
+      "character": "LILY POTTER",
+      "text": "You've been so brave, sweetheart."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Why are you here? All of you?"
+    },
+    {
+      "character": "LILY POTTER",
+      "text": "We never left, dear."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Does it hurt? Dying?"
+    },
+    {
+      "character": "SIRIUS BLACK",
+      "text": "Quicker than falling asleep."
+    },
+    {
+      "character": "REMUS LUPIN",
+      "text": "And he will want it to be quick."
+    },
+    {
+      "character": "JAMES POTTER",
+      "text": "You're nearly there, son."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I'm sorry. I didn't want any of you to die for me. And Remus, your son..."
+    },
+    {
+      "character": "REMUS LUPIN",
+      "text": "Others will tell him what his mother and father died for. Someday he'll understand..."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "You'll stay with me?"
+    },
+    {
+      "character": "JAMES POTTER",
+      "text": "Until the end."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "He won't be able to see you?"
+    },
+    {
+      "character": "SIRIUS BLACK",
+      "text": "No. We're here, you see."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Stay close to me."
+    },
+    {
+      "character": "LILY POTTER",
+      "text": "Always..."
+    },
+    {
+      "character": "CORBAN YAXLEY",
+      "text": "No sign of him, my Lord."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "I thought he would come. I was, it seems... mistaken."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "You weren't."
+    },
+    {
+      "character": "CORBAN YAXLEY",
+      "text": "Quiet!"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Harry Potter. The Boy Who Lived. Come to die. Nagini HISSES behind her protective guard of Death Eaters. Harry's gaze shifts to her when Voldemort raises"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "You cannot help."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Harry. You wonderful boy. You brave, brave man. Let us walk."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Sir, this, is this... I mean, forgive me, but you are dead, aren't you, sir?"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Oh, yes."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Then... I'm dead too?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Not?"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Not."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "But I didn't defend myself. I let him kill me."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "It's true, isn't it, sir? A bit of him lives in me, doesn't it?"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Did. It was just destroyed only moments ago by none other than Voldemort himself."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "You were the seventh Horcrux, Harry; the Horcrux he never meant to make."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "And you knew this? That's why you were certain I wouldn't die?"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Certain? No. Little is certain in this world, Harry. Call it an educated guess."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Professor, is that -- ?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Exactly where are we, sir?"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "I was going to ask you that. Where would you say that we are?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "It looks like King's Cross station -- only a lot cleaner. And without the trains."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "King's Cross! Is that right? Well, this is, as they say, your party."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Sir, why didn't you just tell me about the Deathly Hallows?"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "You will have to forgive me, Harry. You see... I didn't trust"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "I feared that you would make the same mistake I made, that you would be intoxicated by the power the Hallows promise their possessor. But I crave your pardon, Harry. It's clear to me now, as it should have been all along, that you are the better man."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Sir --"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "You are the worthy possessor of the Hallows, Harry, not me. I was fit to own the Elder Wand, because I took it not for gain, but to save others from it. But I took the Stone because I longed to recall someone who has long been at peace and for that I paid with my life."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "You wanted to see Ariana again, didn't you, sir?"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Yes."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I used the Stone as well, sir, only a little while ago when I entered the Forest. I saw my mum and dad, and Sirius and Lupin..."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "True. But ask yourself this: were you calling them? Or were they calling you?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I've got to go back, haven't I?"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "That is up to you."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I've got a choice?"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Oh yes. We are in King's Cross, you say? I think, should you so decide, you would be able to, let's say, board a train."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "And where would it take me?"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "On."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Voldemort's got the Elder Wand."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "True."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "And the snake lives."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Yes."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "And I've nothing to kill it with."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "'Help will always be given at Hogwarts to those who ask for it.'"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "I have always prized my ability to turn a phrase -- words are, in my"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "With all due respect, sir, I think what we need here is a miracle."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "I've never put much stock in miracles, Harry. On the other hand, I can attest wholly to the extensive advantages of a related phenomenon."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Which would be, sir?"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Luck."
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Do not pity the dead, Harry. Pity the living and, above all, those who live without love."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Sir, my mother's Patronus. It was a doe, wasn't it? Just like Professor Snape's. Curious, don't you think?"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Actually, if I think about it... it doesn't seem curious at all."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Professor."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Is this real? Or has this been happening inside my head?"
+    },
+    {
+      "character": "ALBUS DUMBLEDORE",
+      "text": "Of course it is happening inside your head, Harry. But why should that mean that it is not real?"
+    },
+    {
+      "character": "BELLATRIX LESTRANGE",
+      "text": "My lord, let me help you --"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "I do not require assistance."
+    },
+    {
+      "character": "BELLATRIX LESTRANGE",
+      "text": "The boy. Is he dead?"
+    },
+    {
+      "character": "NARCISSA MALFOY",
+      "text": "Is he alive? Draco?"
+    },
+    {
+      "character": "SORTING HAT",
+      "text": "Don't despair, Longbottom. I put you in Gryffindor for good reason..."
+    },
+    {
+      "character": "GINNY WEASLEY",
+      "text": "Who's that?"
+    },
+    {
+      "character": "GINNY WEASLEY",
+      "text": "... Hagrid's carrying?"
+    },
+    {
+      "character": "GINNY WEASLEY",
+      "text": "Neville, who is that?"
+    },
+    {
+      "character": "ARTHUR WEASLEY",
+      "text": "What's going on here, Neville?"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Behold, Nagini. Our work is done."
+    },
+    {
+      "character": "GINNY WEASLEY",
+      "text": "No... NO!"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Stupid girl. You cry for that?"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "While your hands ran dark with the blood of mothers and sons, fathers and daughters, brothers and sisters, his were clasped in prayer -- but it was a prayer for one and one only. While you battled courageously, until you could no longer will yourself to stand, he had long since fallen to his knees. While you cursed me until your voices grew ragged, he begged me for mercy in a voice as meek as a child's."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "So do not cry for that. He's not worthy of your tears. And do not despair of his betrayal. You were never in his heart. Not for one single solitary beat."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Liar!"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Did you not hear me! Harry Potter is dead! From this day forward, you put your faith in me or suffer the consequences. HARRY POTTER Is"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Now is the time to declare yourself."
+    },
+    {
+      "character": "LUCIUS MALFOY",
+      "text": "Draco..."
+    },
+    {
+      "character": "LUCIUS MALFOY",
+      "text": "Draco, don't be stupid --"
+    },
+    {
+      "character": "NARCISSA MALFOY",
+      "text": "Come, Draco."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "He saved your life."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Well done, Draco. Who will be next? Hm? Come now, don't be shy."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Well, I must say, I'd hoped for better. Is this truly the best Hogwarts has to offer?"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Who might you be, young man?"
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Neville Longbottom."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Well, welcome, Neville. I'm sure we can find a place for you in our ranks."
+    },
+    {
+      "character": "BELLATRIX LESTRANGE",
+      "text": "Someone has to do the washing."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Now, now, Bellatrix. Let's not underestimate our young friend. By stepping forward, he lives to see another day..."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "I'd like to say something."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Very well, Neville. I'm sure we'd all be fascinated to hear what you have to say."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "It doesn't matter that Harry is gone. A troubled MURMUR ripples through the crowd."
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "This isn't over."
+    },
+    {
+      "character": "DRACO MALFOY",
+      "text": "Potter! Harry turns. Draco's hand whips forward and -- to Harry's shock -- tosses him his wand. Ron GRINS."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Well done, Malfoy!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Confringo!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "The snake! We've got to kill the snake!"
+    },
+    {
+      "character": "NEVILLE LONGBOTTOM",
+      "text": "Harry! Look out!"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Nagini! With me!"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Leave her!"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "I said LEAVE HER!"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Nagini"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Die! Die"
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "Why do you live!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Because I have something worth living for."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Confringo!"
+    },
+    {
+      "character": "BELLATRIX LESTRANGE",
+      "text": "Come on, granny, give us your best."
+    },
+    {
+      "character": "MOLLY WEASLEY",
+      "text": "Back off, boys! She's mine!  You will never touch my chiidren again!"
+    },
+    {
+      "character": "BELLATRIX LESTRANGE",
+      "text": "Be thankful we only took one. Besides..."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Hermione!"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Yes!"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "I don't want you to say anything you wouldn't say if we weren't about to be killed by a giant snake! It'll just ruin it!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "You were right."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "When you told Professor Snape it was failing you. It will always fail you."
+    },
+    {
+      "character": "VOLDEMORT",
+      "text": "It belongs to me! I killed Snape!"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Together."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "What's the matter with her?"
+    },
+    {
+      "character": "SYBILL TRELAWNEY",
+      "text": "There's more to me than incense and tea leaves, Mr. Finnegan."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "I told you: it's useless to you."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "Not exactly leaving the place better than we found it, are we?"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Can't make an omelette without breaking a few eggs."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Something my mum used to say."
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Why didn't it work for him? The Elder wand."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Because it answers to another."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "When he killed Snape, he thought the wand would become his. But the thing is... it never belonged to Snape."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "But that means..."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "It answers to me."
+    },
+    {
+      "character": "RON WEASLEY",
+      "text": "What do you reckon we should do with it?"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "We?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Well, it wasn't boring, was it?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Together?"
+    },
+    {
+      "character": "HERMIONE GRANGER",
+      "text": "Don't forget to give Professor Longbottom our best."
+    },
+    {
+      "character": "ALBUS POTTER",
+      "text": "Will there really be thestrals pulling the carriages?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "There's nothing scary about thestrals. They're gentle things. Anyway, you won't be going up to school in the carriages. You/'be going in the boats, remember?"
+    },
+    {
+      "character": "ALBUS POTTER",
+      "text": "Dad?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Yes?"
+    },
+    {
+      "character": "ALBUS POTTER",
+      "text": "What if I'm put in Slytherin?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Albus Severus Potter. You were named after two Headmasters of Hogwarts. One of them was a Slytherin. And he was probably the bravest man I ever knew."
+    },
+    {
+      "character": "ALBUS POTTER",
+      "text": "But just say I am --"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Then Slytherin House will have gained a wonderful wizard. But listen, if it means so much to you, you can choose Gryffindor. The Sorting Hat takes your choice into account."
+    },
+    {
+      "character": "ALBUS POTTER",
+      "text": "Really?"
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Really."
+    },
+    {
+      "character": "HARRY POTTER",
+      "text": "Ready?"
+    },
+    {
+      "character": "ALBUS POTTER",
+      "text": "Ready."
+    }
+  ]
+}
