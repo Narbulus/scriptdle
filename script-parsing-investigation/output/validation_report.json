@@ -1,0 +1,2648 @@
+{
+  "generated": "2026-01-04T09:32:48.403294",
+  "summary": {
+    "total_movies": 106,
+    "movies_with_valid_source": 51,
+    "movies_without_source": 55,
+    "coverage_percent": 48.1,
+    "best_source_distribution": {
+      "imsdb": 47,
+      "dailyscript": 4
+    }
+  },
+  "movies": [
+    {
+      "title": "The Princess Bride",
+      "year": 1987,
+      "tmdb_id": 2493,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Princess-Bride,-The.html",
+          "success": true,
+          "dialogues": 1021,
+          "characters": 89,
+          "sample_chars": [
+            "A COUPLE OF ROCKS",
+            "A DIAL",
+            "A GIANT ARM",
+            "A GROVE OF TREES NEAR THE PIT OF DESPAIR",
+            "A HOVEL - DUSK",
+            "A MOUNTAIN PATH",
+            "A SHOT OF THE THREE OF THEM IN PROFILE",
+            "A THIRD WARRIOR",
+            "A VERY THICK GROVE OF TREES",
+            "A WILD STRETCH OF TERRAIN"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1021
+    },
+    {
+      "title": "The Breakfast Club",
+      "year": 1985,
+      "tmdb_id": 2108,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Breakfast-Club,-The.html",
+          "success": true,
+          "dialogues": 857,
+          "characters": 50,
+          "sample_chars": [
+            "1. EXT. SHERMER HIGH SCHOOL - DAY",
+            "10. INT. LIBRARY - DAY",
+            "11. INT. HALLWAY - DAY",
+            "12. INT. LIBRARY - DAY",
+            "13. INT. LIBRARY - DAY",
+            "14. INT. LIBRARY - DAY",
+            "16. INT. HALLWAY - DAY",
+            "16. INT. LIBRARY - DAY",
+            "17. INT. LIBRARY - DAY",
+            "18.  INT. LIBRARY - DAY"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 857
+    },
+    {
+      "title": "Dumb and Dumber",
+      "year": 1994,
+      "tmdb_id": 8467,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Dumb-and-Dumber.html",
+          "success": true,
+          "dialogues": 937,
+          "characters": 79,
+          "sample_chars": [
+            "A.M. SHARP.",
+            "AFTERNOON",
+            "ANDRE",
+            "ARE HER FATHER KARL AND HIS MUCH-",
+            "ARMANI SUIT",
+            "ATHLETIC   BEAUTY",
+            "ATHLETIC BEAUTY",
+            "BARNARD",
+            "BARTENDER",
+            "BELL CAPTAIN"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 937
+    },
+    {
+      "title": "American Beauty",
+      "year": 1999,
+      "tmdb_id": 14,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/American-Beauty.html",
+          "success": true,
+          "dialogues": 784,
+          "characters": 28,
+          "sample_chars": [
+            "ANGELA",
+            "ANNOUNCER",
+            "ATTENDANT",
+            "BARBARA",
+            "BRAD",
+            "BUDDY",
+            "CAROLYN",
+            "CATERING BOSS",
+            "CHRISTY",
+            "CO-WORKER"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 784
+    },
+    {
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "tmdb_id": 680,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Pulp-Fiction.html",
+          "success": true,
+          "dialogues": 1210,
+          "characters": 61,
+          "sample_chars": [
+            "\"THE GOLD WATCH\"",
+            "BATHROOM",
+            "BRETT",
+            "BUDDY",
+            "BUTCH",
+            "BUTCH'S POV",
+            "CAPT. KOONS",
+            "CLOSEUP \u0096 BLOOD",
+            "CLOSEUP \u0096 JODY",
+            "CLOSEUP \u0096 MIA"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1210
+    },
+    {
+      "title": "Fight Club",
+      "year": 1999,
+      "tmdb_id": 550,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Fight-Club.html",
+          "success": true,
+          "dialogues": 1316,
+          "characters": 80,
+          "sample_chars": [
+            "ALL SPACE MONKEYS",
+            "ANGEL FACE",
+            "ANOTHER SPACE MONKEY",
+            "ATTENDANT",
+            "BALD DETECTIVE",
+            "BALDY",
+            "BANDAGED PROPRIETOR",
+            "BARTENDER",
+            "BOB",
+            "BOSS"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1316
+    },
+    {
+      "title": "Good Will Hunting",
+      "year": 1997,
+      "tmdb_id": 489,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Good-Will-Hunting.html",
+          "success": true,
+          "dialogues": 1196,
+          "characters": 40,
+          "sample_chars": [
+            "ALL",
+            "BILLY",
+            "CATHY",
+            "CHUCKIE",
+            "CHUCKIE'S MOM",
+            "CLARK",
+            "DO YOU LIKE APPLES?",
+            "DYTRESS",
+            "EXECUTIVE",
+            "GUARD"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1196
+    },
+    {
+      "title": "A Few Good Men",
+      "year": 1992,
+      "tmdb_id": 881,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/A-Few-Good-Men.html",
+          "success": true,
+          "dialogues": 1461,
+          "characters": 42,
+          "sample_chars": [
+            "A WOMAN",
+            "DAWSON",
+            "DOWNEY",
+            "GIBBS",
+            "GINNY",
+            "HAMMAKER",
+            "HOWARD",
+            "JESSEP",
+            "JO",
+            "JO/SAM"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1461
+    },
+    {
+      "title": "The Shining",
+      "year": 1980,
+      "tmdb_id": 694,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Shining,-The.html",
+          "success": true,
+          "dialogues": 922,
+          "characters": 32,
+          "sample_chars": [
+            "\"THE SHINING.\"",
+            "BLACK FRAMES",
+            "BLACK FRAMES.",
+            "DANNY",
+            "DISC JOCKEY",
+            "DOCTOR",
+            "DOROTHY",
+            "DURKIN",
+            "GIRLS",
+            "GLEN RINKER"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 922
+    },
+    {
+      "title": "Aliens",
+      "year": 1986,
+      "tmdb_id": 679,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Aliens.html",
+          "success": true,
+          "dialogues": 733,
+          "characters": 38,
+          "sample_chars": [
+            "\"ALIENS\"",
+            "ANNE",
+            "APONE",
+            "BISHOP",
+            "BISHOP!",
+            "BURKE",
+            "CEILING NICHES",
+            "CHITTERING HORROR...IT SCREECHES.",
+            "CROWE",
+            "DIETRICH"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 733
+    },
+    {
+      "title": "Inception",
+      "year": 2010,
+      "tmdb_id": 27205,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Inception.html",
+          "success": true,
+          "dialogues": 1236,
+          "characters": 32,
+          "sample_chars": [
+            "ARIADNE",
+            "ARTHUR",
+            "ATTENDANT",
+            "BEDCLOTHES.",
+            "BLONDE",
+            "BROWNING",
+            "CABDRIVER",
+            "COBB",
+            "DAWN. CRASHING SURF.",
+            "DRAWN-"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1236
+    },
+    {
+      "title": "Blade Runner",
+      "year": 1982,
+      "tmdb_id": 78,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Blade-Runner.html",
+          "success": true,
+          "dialogues": 755,
+          "characters": 37,
+          "sample_chars": [
+            "AFTERNOON",
+            "ANNOUNCER'S VOICE",
+            "BARTENDER",
+            "BATTY",
+            "BATTY'S VOICE",
+            "BLADE RUNNER",
+            "BLADE RUNNER ONE CODE ML-33",
+            "BRYANT",
+            "CHEW",
+            "CLEARANCE"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 755
+    },
+    {
+      "title": "Toy Story",
+      "year": 1995,
+      "tmdb_id": 862,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Toy-Story.html",
+          "success": true,
+          "dialogues": 999,
+          "characters": 135,
+          "sample_chars": [
+            "\"TOY STORY\"",
+            "<TITLE>TOY STORY</TITLE>",
+            "A BULLETIN BOARD",
+            "A BUSH",
+            "A CAR",
+            "A CLOSET",
+            "A CRANE GAME",
+            "A GIGANTIC TIRE",
+            "A GLOBE",
+            "A LARGE TOOL BOX"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 999
+    },
+    {
+      "title": "Jurassic Park",
+      "year": 1993,
+      "tmdb_id": 329,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Jurassic-Park.html",
+          "success": true,
+          "dialogues": 908,
+          "characters": 153,
+          "sample_chars": [
+            "- HOOT!",
+            "2ND HAMMOND",
+            "A BEND IN THE RIVER -",
+            "A WIDE AREA OF THE RIVER -",
+            "ALL THREE",
+            "ANOTHER BEND -",
+            "ARNOL",
+            "ARNOLD",
+            "AT THE RIVER'S EDGE -",
+            "BACK  ON CRUISERS, REST AREA - NIGHT"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 908
+    },
+    {
+      "title": "Star Wars: Episode IV - A New Hope",
+      "year": 1977,
+      "tmdb_id": 11,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Star-Wars-A-New-Hope.html",
+          "success": true,
+          "dialogues": 1014,
+          "characters": 58,
+          "sample_chars": [
+            "A NEW HOPE",
+            "AREA",
+            "ASTRO-OFFICER",
+            "AUNT BERU",
+            "BARTENDER",
+            "BASE VOICE",
+            "BEN",
+            "BERU",
+            "BIGGS",
+            "CAMIE"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1014
+    },
+    {
+      "title": "Scream",
+      "year": 1996,
+      "tmdb_id": 4232,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Scream.html",
+          "success": true,
+          "dialogues": 1043,
+          "characters": 87,
+          "sample_chars": [
+            "34 ELM ST",
+            "9-1-1 SEND",
+            "A FIGURE LUNGES AT THEM",
+            "A FISH. UNDERSTAND?",
+            "A GHOST MASKED FIGURE",
+            "A LONG, SHARP BLADE",
+            "ANGLE THROUGH PEEPHOLE.",
+            "ANOTHER TEEN",
+            "BEHIND YOU! LOOK BEHIND YOU!",
+            "BILLY"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1043
+    },
+    {
+      "title": "Taxi Driver",
+      "year": 1976,
+      "tmdb_id": 103,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Taxi-Driver.html",
+          "success": true,
+          "dialogues": 734,
+          "characters": 56,
+          "sample_chars": [
+            "'MELIO",
+            "1ST CABBIE",
+            "2ND CABBIE",
+            "3RD CABBIE",
+            "ANDY",
+            "ANOTHER DAY - LATE AFTERNOON",
+            "ASSISTANT",
+            "AT 9 AM THE FOLLOWING MORNING AT",
+            "BETSY",
+            "BROOKLYN STREET CORNER - DAY"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 734
+    },
+    {
+      "title": "Scarface",
+      "year": 1983,
+      "tmdb_id": 111,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Scarface.html",
+          "success": true,
+          "dialogues": 1110,
+          "characters": 189,
+          "sample_chars": [
+            "\"CONSOLIDATED CARRIES INC.",
+            "\"THE WORLD IS YOURS\"",
+            "#02 154                            109-A",
+            "#02154                             138-A",
+            "#02154                             34-A",
+            "#02154                           131-A",
+            "#02154                          62-A",
+            "#02154                         16-B",
+            "#02154                        40-A",
+            "#02154                       157-A"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1110
+    },
+    {
+      "title": "The Usual Suspects",
+      "year": 1995,
+      "tmdb_id": 629,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Usual-Suspects,-The.html",
+          "success": true,
+          "dialogues": 865,
+          "characters": 134,
+          "sample_chars": [
+            ".BAER",
+            "1 -BLACK",
+            "106A.",
+            "118A.",
+            "122  INT.HALLWAY",
+            "125  INT. CORRIDOR",
+            "13 INT. INTERROGATION ROOM - NIGHT",
+            "132   EXT. DECK",
+            "15 INT. INTERROGATION ROOM",
+            "19A."
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 865
+    },
+    {
+      "title": "Braveheart",
+      "year": 1995,
+      "tmdb_id": 197,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Braveheart.html",
+          "success": true,
+          "dialogues": 772,
+          "characters": 146,
+          "sample_chars": [
+            "A DARKENED ROOM",
+            "ADVISOR",
+            "ARGYLE",
+            "ARRRRRGGGGGGGHHHH!",
+            "AT THE BARN - DAY",
+            "AT THE BRIDGE, WALLACE",
+            "AT THE ENGLISH COMMAND",
+            "BALLIOL",
+            "CAMPBELL",
+            "CAPTAIN"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 772
+    },
+    {
+      "title": "Forrest Gump",
+      "year": 1994,
+      "tmdb_id": 13,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Forrest-Gump.html",
+          "success": true,
+          "dialogues": 1092,
+          "characters": 129,
+          "sample_chars": [
+            "1ST PLAYER",
+            "1ST REPORTER",
+            "1ST SOLDIER",
+            "2ND PLAYER",
+            "2ND REPORTER",
+            "2ND SOLDIER",
+            "2ND WOUNDED SOLDIER",
+            "3RD PLAYER",
+            "3RD REPORTER",
+            "ABBIE HOFFMAN"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1092
+    },
+    {
+      "title": "Die Hard",
+      "year": 1988,
+      "tmdb_id": 562,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Die-Hard.html",
+          "success": true,
+          "dialogues": 681,
+          "characters": 89,
+          "sample_chars": [
+            "\"DIE HARD\"",
+            "117-A   ELEVATOR SHAFT117-A",
+            "349     HOSTAGES - ON LOWER FLOORS349",
+            "ALEXANDER",
+            "ARGYLE",
+            "ARGYLE'S VOICE",
+            "BIG JOHNSON",
+            "CAMERAMAN",
+            "CB)",
+            "CLERK"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 681
+    },
+    {
+      "title": "10 Things I Hate About You",
+      "year": 1999,
+      "tmdb_id": 4951,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/10-Things-I-Hate-About-You.html",
+          "success": true,
+          "dialogues": 1055,
+          "characters": 68,
+          "sample_chars": [
+            "ACROSS THE COURTYARD",
+            "ACROSS THE ROOM",
+            "ANOTHER ANGLE",
+            "AT THE BAR",
+            "BACK TO KAT AND MANDELLA",
+            "BARTENDER",
+            "BIANCA",
+            "BIANCA AND WALTER",
+            "BIANCA'S ROOM - DAY",
+            "BOGEY LOWENSTEIN'S HOUSE - NIGHT"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1055
+    },
+    {
+      "title": "Groundhog Day",
+      "year": 1993,
+      "tmdb_id": 137,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Groundhog-Day.html",
+          "success": true,
+          "dialogues": 1032,
+          "characters": 130,
+          "sample_chars": [
+            ", BARTENDER",
+            ". 'PHIL",
+            ". . .. ... .RITA .",
+            ". RITA",
+            ".RITA",
+            ";MRS. LANCASTER \u00b7",
+            "A LADY",
+            "A MAN",
+            "A TV SCREEN",
+            "ALEX"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1032
+    },
+    {
+      "title": "The Social Network",
+      "year": 2010,
+      "tmdb_id": 37799,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Social-Network,-The.html",
+          "success": true,
+          "dialogues": 1652,
+          "characters": 146,
+          "sample_chars": [
+            "'JENNY",
+            "'SY",
+            "(PAUSE",
+            "- ASHLEIGH",
+            "- POLICEMAN",
+            "---BOOSHI",
+            "-SEAN",
+            "-SUMMERS",
+            ". MARK",
+            ".AMY"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1652
+    },
+    {
+      "title": "Django Unchained",
+      "year": 2012,
+      "tmdb_id": 68718,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Django-Unchained.html",
+          "success": true,
+          "dialogues": 1149,
+          "characters": 260,
+          "sample_chars": [
+            "\"H",
+            "$XT - COUNTRY ROAD - DAY",
+            "'ACE WOODY",
+            "(YELLING BEHIND",
+            ")O'",
+            ".THEN...",
+            "/--\" EXT - WOODS -- NIGHT",
+            "/Z",
+            "0. B.",
+            "16'F"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1149
+    },
+    {
+      "title": "The Wolf of Wall Street",
+      "year": 2013,
+      "tmdb_id": 106646,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Wolf-of-Wall-Street,-The.html",
+          "success": true,
+          "dialogues": 1079,
+          "characters": 157,
+          "sample_chars": [
+            "11   EXT. JORDAN'S ESTATE - CONTINUOUS11",
+            "112   EXT. BAHAMAS - MARINA - DAY112",
+            "113        INT. YACHT NAOMI - DAY113",
+            "134   INT. JORDAN'S OFFICE - DAY134",
+            "135    INT. FUTURE VIDEO - DAY135",
+            "136    INT. RAO'S RESTAURANT - NIGHT136",
+            "137    EXT. BATTERY PARK MARINA - DAY137",
+            "141   INT. CANASTEL'S - NIGHT141",
+            "142   INT. DANCE CLUB - NIGHT142",
+            "143   INT. HOTEL SUITE - NIGHT143"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1079
+    },
+    {
+      "title": "Interstellar",
+      "year": 2014,
+      "tmdb_id": 157336,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Interstellar.html",
+          "success": true,
+          "dialogues": 903,
+          "characters": 38,
+          "sample_chars": [
+            "ADMINISTRATOR",
+            "ANSEN",
+            "ASSISTANT",
+            "BALLPLAYER",
+            "BRAND",
+            "BRAND'S FATHER",
+            "CASE",
+            "CB OPERATOR",
+            "CHINESE OFFICER",
+            "COOPER"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 903
+    },
+    {
+      "title": "Avatar",
+      "year": 2009,
+      "tmdb_id": 19995,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Avatar.html",
+          "success": true,
+          "dialogues": 789,
+          "characters": 39,
+          "sample_chars": [
+            "AGENT 1",
+            "CREW CHIEF",
+            "CROWD",
+            "EYTUKAN",
+            "FIKE",
+            "FLIGHT MONTAGE:",
+            "GRACE",
+            "GUARD",
+            "GUNNER",
+            "GUNSHIP PILOT"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 789
+    },
+    {
+      "title": "Joker",
+      "year": 2019,
+      "tmdb_id": 475557,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Joker.html",
+          "success": true,
+          "dialogues": 667,
+          "characters": 65,
+          "sample_chars": [
+            "\"CLOWN\" PROTESTER #1",
+            "\"GOOD MORNING\" HOST",
+            "AGAINST THE WALL.",
+            "ALFRED",
+            "AN ORIGIN",
+            "ASSOCIATE PRODUCER",
+            "BAM!",
+            "BITCH!",
+            "BLAM!",
+            "BLAMMMMMMM!"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 667
+    },
+    {
+      "title": "No Country for Old Men",
+      "year": 2007,
+      "tmdb_id": 6977,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/No-Country-for-Old-Men.html",
+          "success": true,
+          "dialogues": 901,
+          "characters": 60,
+          "sample_chars": [
+            "2ND HOTEL EAGLE ROOM - NIGHT",
+            "A MINUTE LATER",
+            "A POINT-OF-VIEW",
+            "A SHAVING MIRROR",
+            "AIR TANK",
+            "ANOTHER COUNTER",
+            "BATH",
+            "BEDROOM DOOR",
+            "BELL",
+            "BLACK"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 901
+    },
+    {
+      "title": "The Departed",
+      "year": 2006,
+      "tmdb_id": 1422,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Departed,-The.html",
+          "success": true,
+          "dialogues": 1228,
+          "characters": 81,
+          "sample_chars": [
+            "ALL",
+            "AN IRISH VILLAIN",
+            "ANGLE ON COLIN.",
+            "ASAP.",
+            "BACK INSIDE:",
+            "BANKROBBER",
+            "BARRIGAN",
+            "BARTENDER",
+            "BILL",
+            "BILLY"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1228
+    },
+    {
+      "title": "Superbad",
+      "year": 2007,
+      "tmdb_id": 8363,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Superbad.html",
+          "success": true,
+          "dialogues": 1042,
+          "characters": 65,
+          "sample_chars": [
+            "117   CONTINUED:117",
+            "129   CONTINUED:129",
+            "AAAHHH!",
+            "AAAHHHHH!!!",
+            "AAAHHHHHH!!!!!!!!!!",
+            "AAAHHHHHHH!!! FUCK!!!",
+            "BACK TO NORMAL.",
+            "BECCA",
+            "BIRD'S EYE VIEW OF A P.E. CLASS",
+            "CASHIER"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1042
+    },
+    {
+      "title": "The Hangover",
+      "year": 2009,
+      "tmdb_id": 18785,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Hangover,-The.html",
+          "success": true,
+          "dialogues": 1031,
+          "characters": 101,
+          "sample_chars": [
+            "A CAR HORN SOUNDS",
+            "AAAAAAAHHHHHHH!",
+            "AAAAYYYYY!",
+            "ALAN",
+            "ALAN & DOUG & VICK",
+            "ALAN & STU & VICK",
+            "ALAN AND THE BOYS ARE HERE!",
+            "ANASTASIA",
+            "AT THE ALTAR",
+            "ATASHIR"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1031
+    },
+    {
+      "title": "Bridesmaids",
+      "year": 2011,
+      "tmdb_id": 52520,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Bridesmaids.html",
+          "success": true,
+          "dialogues": 1371,
+          "characters": 103,
+          "sample_chars": [
+            "'S",
+            "ADMINISTRATION LADY",
+            "ALLEN",
+            "ALT ENDING",
+            "ANNIE",
+            "ANNIE'",
+            "ANNIE'S CAR. CONTINUOUS.",
+            "ATTENDANT",
+            "BARTENDER",
+            "BECCA"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1371
+    },
+    {
+      "title": "Legally Blonde",
+      "year": 2001,
+      "tmdb_id": 8835,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Legally-Blonde.html",
+          "success": true,
+          "dialogues": 993,
+          "characters": 136,
+          "sample_chars": [
+            "'                ELLE",
+            "'        DONOVAN",
+            "' ELLE",
+            "' ELLE                '    ..",
+            "'ELLE",
+            "-                     DORKY DAVID",
+            ".                 ENRIQUE",
+            ".          ELLE",
+            ".     PAULETTE",
+            ". AMISSIONS GUY #1"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 993
+    },
+    {
+      "title": "Get Out",
+      "year": 2017,
+      "tmdb_id": 419430,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Get-Out.html",
+          "success": true,
+          "dialogues": 876,
+          "characters": 50,
+          "sample_chars": [
+            "...TING TING.",
+            "911 OPERATOR",
+            "ANDRE",
+            "ANDRE/LOGAN",
+            "APRIL",
+            "CHRIS",
+            "CHRIS ROSE",
+            "CHRIS' VOICEMAIL MESSAGE",
+            "COPS",
+            "DEAN"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 876
+    },
+    {
+      "title": "A Nightmare on Elm Street",
+      "year": 1984,
+      "tmdb_id": 377,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Nightmare-on-Elm-Street,-A.html",
+          "success": true,
+          "dialogues": 627,
+          "characters": 56,
+          "sample_chars": [
+            "155.  EXT.  ELM STREET.  NIGHT.",
+            "ABRUPTLY.",
+            "BAM!",
+            "BEDROOM WINDOW.",
+            "CARSON",
+            "CHILDREN",
+            "COP",
+            "CORONER",
+            "DEEP RAGGED VOICE",
+            "DR KING"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 627
+    },
+    {
+      "title": "Jaws",
+      "year": 1975,
+      "tmdb_id": 578,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Jaws.html",
+          "success": true,
+          "dialogues": 915,
+          "characters": 218,
+          "sample_chars": [
+            "\"JAWS\"",
+            "A KID",
+            "ABOARD THE ORCA",
+            "AERIAL VIEW",
+            "ALEX",
+            "ALONG THE WATERLINE ON THE BEACH",
+            "AMITY TOWN BEACH.\"",
+            "ANGLE - BATHING AREA",
+            "ANGLE - BEACH - CLOSE ON BRODY",
+            "ANGLE - DOORWAY"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 915
+    },
+    {
+      "title": "Jerry Maguire",
+      "year": 1996,
+      "tmdb_id": 9428,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Jerry-Maguire.html",
+          "success": true,
+          "dialogues": 1032,
+          "characters": 94,
+          "sample_chars": [
+            "A YOUNG CHAMPIONSHIP GOLFER",
+            "AGENT",
+            "AGENT # 1",
+            "AGENT # 2",
+            "AIRPLANE WHEELS",
+            "ALICE",
+            "AMERICA FROM SPACE",
+            "ANONYMOUS MAN",
+            "ATTENDANT",
+            "AVERY"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1032
+    },
+    {
+      "title": "Shrek",
+      "year": 2001,
+      "tmdb_id": 808,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Shrek.html",
+          "success": true,
+          "dialogues": 734,
+          "characters": 57,
+          "sample_chars": [
+            "3 LITTLE PIGS",
+            "BIG BAD WOLF",
+            "BLIND MOUSE1",
+            "BLIND MOUSE2",
+            "CONGREGATION",
+            "COURTYARD",
+            "CROWD",
+            "DONKEY",
+            "DRAGON'S KEEP",
+            "DULOC"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 734
+    },
+    {
+      "title": "Up",
+      "year": 2009,
+      "tmdb_id": 14160,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Up.html",
+          "success": true,
+          "dialogues": 721,
+          "characters": 29,
+          "sample_chars": [
+            "ALPHA",
+            "BETA",
+            "CAMP MASTER STRAUCH",
+            "CARL",
+            "CARL/RUSSELL",
+            "CAW-CAW! RAAAR!\"",
+            "CONSTRUCTION FOREMAN TOM",
+            "CONSTRUCTION WORKER STEVE",
+            "CROWD",
+            "DOG WALLA"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 721
+    },
+    {
+      "title": "La La Land",
+      "year": 2016,
+      "tmdb_id": 313369,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/La-La-Land.html",
+          "success": true,
+          "dialogues": 742,
+          "characters": 153,
+          "sample_chars": [
+            "-- LOCK LIPS.",
+            "...KISS.",
+            "1    EXT. 101 FREEWAY - DAY",
+            "100   INT. PRACTICE SPACE - DAY",
+            "101   EXT. REHEARSAL SPACE - DAY",
+            "102   OMIT",
+            "106   INT. PHOTO STUDIO - NIGHT",
+            "107   INT. THEATER - NIGHT",
+            "108   OMIT",
+            "11    EXT. CITY - NIGHT"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 742
+    },
+    {
+      "title": "Black Panther",
+      "year": 2018,
+      "tmdb_id": 284054,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Black-Panther.html",
+          "success": true,
+          "dialogues": 984,
+          "characters": 174,
+          "sample_chars": [
+            ", , N",
+            ", AKAND DESIGN GROUP- DAY",
+            ", DISTRICT - NIGHT",
+            ", FALLS - DAY",
+            ", LATER",
+            ", PLAINS - MORNING",
+            ", STREET - NIGHT",
+            "- LATER",
+            "- ONE DAY BEFORE",
+            ". LANDINGPAD - DAY"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 984
+    },
+    {
+      "title": "Avengers: Endgame",
+      "year": 2019,
+      "tmdb_id": 299534,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Avengers-Endgame.html",
+          "success": true,
+          "dialogues": 1270,
+          "characters": 110,
+          "sample_chars": [
+            "A NEW QUANTUM TUNNEL.",
+            "A1 CLINT BARTON",
+            "A1 NATASHA",
+            "A1 STEVE",
+            "A1 THOR",
+            "A1 TONY",
+            "ACROSS THE FIELD.",
+            "AGENT SITWELL",
+            "AGENT.",
+            "AKIHIKO"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1270
+    },
+    {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "year": 2001,
+      "tmdb_id": 120,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Lord-of-the-Rings-Fellowship-of-the-Ring,-The.html",
+          "success": true,
+          "dialogues": 901,
+          "characters": 53,
+          "sample_chars": [
+            "ANGLE ON:",
+            "ANGLE ON:    PIPPIN, CHASTENED.",
+            "ANGLE ON: A LITTLE HOBBIT GIRL'S",
+            "ANGLE ON: ARWEN",
+            "ANGLE ON: FRODO",
+            "ANGLE ON: MERRY AND PIPPIN,",
+            "ANGLE ON: PIPPIN",
+            "ANGLE ON: SAM'S HORRIFIED FACE",
+            "ANGLE ON: SARUMAN, THE WHITE WIZARD",
+            "ANGLE ON: THE FELLOWSHIP"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 901
+    },
+    {
+      "title": "The Fault in Our Stars",
+      "year": 2014,
+      "tmdb_id": 222935,
+      "sources_tested": [
+        {
+          "source": "imsdb",
+          "url": "https://imsdb.com/scripts/Fault-in-Our-Stars,-The.html",
+          "success": true,
+          "dialogues": 1196,
+          "characters": 151,
+          "sample_chars": [
+            "AIRPORT ANNOUNCEMENT",
+            "ALL IN UNISON",
+            "ANOTHER LOCAL",
+            "BELONGS TO ME!",
+            "BLACK.",
+            "CAB DRIVER",
+            "DOCTOR",
+            "DR. MARIA",
+            "DR. SIMMONS",
+            "EXT AIRPORT - ESTABLISHING"
+          ],
+          "error": null
+        }
+      ],
+      "best_source": "imsdb",
+      "best_dialogues": 1196
+    },
+    {
+      "title": "Back to the Future",
+      "year": 1985,
+      "tmdb_id": 105,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/bttf4th.pdf",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "PDF parsing not available (install pymupdf)"
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/backtothefuture.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Ferris Bueller's Day Off",
+      "year": 1986,
+      "tmdb_id": 9377,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/ferris.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/ferris.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "The Godfather",
+      "year": 1972,
+      "tmdb_id": 238,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/godfather.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/godfather.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "The Godfather Part II",
+      "year": 1974,
+      "tmdb_id": 240,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/godfather2.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "No dialogues extracted"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Goodfellas",
+      "year": 1990,
+      "tmdb_id": 769,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/goodfellas.html",
+          "success": true,
+          "dialogues": 1040,
+          "characters": 157,
+          "sample_chars": [
+            "A SEEDY MOB HANGOUT. WE SEE ALL OF THE WISEGUYS WHO WILL",
+            "A SMILING TOMMY",
+            "A WHOLE FLOOR",
+            "ANGEL ON HENRY",
+            "ANGELO",
+            "ANGIE",
+            "ANGIE'S TIRED FACE",
+            "ANGLE - GREY LIZARD SHOES AND SHARP GREY PANTS",
+            "ANGLE ON  HENRY",
+            "ANGLE ON  HENRY AND TOMMY"
+          ],
+          "error": null
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/goodfellas.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": "dailyscript",
+      "best_dialogues": 1040
+    },
+    {
+      "title": "Mean Girls",
+      "year": 2004,
+      "tmdb_id": 10625,
+      "sources_tested": [
+        {
+          "source": "screenplaydb",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/mean-girls-2004.pdf",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "PDF parsing not available (install pymupdf)"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Clueless",
+      "year": 1995,
+      "tmdb_id": 9603,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/clueless.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "The Goonies",
+      "year": 1985,
+      "tmdb_id": 9340,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/goonies_production.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/goonies.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Beetlejuice",
+      "year": 1988,
+      "tmdb_id": 4011,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/beetlejuice.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/beetlejuice.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "E.T. the Extra-Terrestrial",
+      "year": 1982,
+      "tmdb_id": 601,
+      "sources_tested": [
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/et.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "When Harry Met Sally",
+      "year": 1989,
+      "tmdb_id": 639,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/whenharry.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Home Alone",
+      "year": 1990,
+      "tmdb_id": 771,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/homealone.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Mrs. Doubtfire",
+      "year": 1993,
+      "tmdb_id": 788,
+      "sources_tested": [
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/mrsdoubtfire.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "The Dark Knight",
+      "year": 2008,
+      "tmdb_id": 155,
+      "sources_tested": [
+        {
+          "source": "screenplaydb",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/the-dark-knight-2008.pdf",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "PDF parsing not available (install pymupdf)"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Terminator 2: Judgment Day",
+      "year": 1991,
+      "tmdb_id": 280,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/terminator2.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/t2.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Indiana Jones and the Raiders of the Lost Ark",
+      "year": 1981,
+      "tmdb_id": 85,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/RaidersoftheLostArk.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/raiders.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Kill Bill: Volume 1",
+      "year": 2003,
+      "tmdb_id": 24,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/kill_bill_vol1.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "The Big Lebowski",
+      "year": 1998,
+      "tmdb_id": 115,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/biglebowski.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/lebowski.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Office Space",
+      "year": 1999,
+      "tmdb_id": 1542,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/office_space.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Monty Python and the Holy Grail",
+      "year": 1975,
+      "tmdb_id": 762,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/holygrail_final.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/holygrail.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Casablanca",
+      "year": 1942,
+      "tmdb_id": 289,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/casablanca.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/casablanca.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "The Silence of the Lambs",
+      "year": 1991,
+      "tmdb_id": 274,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/silenceofthelambs.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/silencelambs.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Se7en",
+      "year": 1995,
+      "tmdb_id": 807,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/se7en.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/seven.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Sixteen Candles",
+      "year": 1984,
+      "tmdb_id": 13576,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/sixteen_candles.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Anchorman",
+      "year": 2004,
+      "tmdb_id": 8699,
+      "sources_tested": [
+        {
+          "source": "screenplaydb",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/anchorman-the-legend-of-ron-burgundy-2004.pdf",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "PDF parsing not available (install pymupdf)"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Zoolander",
+      "year": 2001,
+      "tmdb_id": 9398,
+      "sources_tested": [
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/zoolander.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Napoleon Dynamite",
+      "year": 2004,
+      "tmdb_id": 8193,
+      "sources_tested": [
+        {
+          "source": "screenplaydb",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/napoleon-dynamite-2004.pdf",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 403"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Step Brothers",
+      "year": 2008,
+      "tmdb_id": 12133,
+      "sources_tested": [
+        {
+          "source": "screenplaydb",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/step-brothers-2008.pdf",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "PDF parsing not available (install pymupdf)"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Elf",
+      "year": 2003,
+      "tmdb_id": 10719,
+      "sources_tested": [
+        {
+          "source": "screenplaydb",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/elf-2003.pdf",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 403"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Ghostbusters",
+      "year": 1984,
+      "tmdb_id": 620,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/ghostbusters.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/ghostbusters.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "The Matrix",
+      "year": 1999,
+      "tmdb_id": 603,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/the_matrix.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/thematrix.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Gladiator",
+      "year": 2000,
+      "tmdb_id": 98,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/gladiator.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/gladiator.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Rocky",
+      "year": 1976,
+      "tmdb_id": 1366,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/rocky.html",
+          "success": true,
+          "dialogues": 1,
+          "characters": 1,
+          "sample_chars": [
+            "MASTER SCRIPT"
+          ],
+          "error": null
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/rocky.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": "dailyscript",
+      "best_dialogues": 1
+    },
+    {
+      "title": "The Shawshank Redemption",
+      "year": 1994,
+      "tmdb_id": 278,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/shawshank.html",
+          "success": true,
+          "dialogues": 2,
+          "characters": 2,
+          "sample_chars": [
+            "CRASH TO BLACK",
+            "PRISON MONTAGE"
+          ],
+          "error": null
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/shawshank.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": "dailyscript",
+      "best_dialogues": 2
+    },
+    {
+      "title": "Titanic",
+      "year": 1997,
+      "tmdb_id": 597,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/titanic.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/titanic.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Pretty Woman",
+      "year": 1990,
+      "tmdb_id": 114,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/prettywoman.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Dirty Dancing",
+      "year": 1987,
+      "tmdb_id": 4979,
+      "sources_tested": [
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/dirtydancing.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Grease",
+      "year": 1978,
+      "tmdb_id": 621,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/grease.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "The Notebook",
+      "year": 2004,
+      "tmdb_id": 11036,
+      "sources_tested": [
+        {
+          "source": "screenplaydb",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/the-notebook-2004.pdf",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 403"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "The Lion King",
+      "year": 1994,
+      "tmdb_id": 8587,
+      "sources_tested": [
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/lionking.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Finding Nemo",
+      "year": 2003,
+      "tmdb_id": 12,
+      "sources_tested": [
+        {
+          "source": "screenplaydb",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/finding-nemo-2003.pdf",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "PDF parsing not available (install pymupdf)"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "The Incredibles",
+      "year": 2004,
+      "tmdb_id": 9806,
+      "sources_tested": [
+        {
+          "source": "screenplaydb",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/the-incredibles-2004.pdf",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "PDF parsing not available (install pymupdf)"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Shrek 2",
+      "year": 2004,
+      "tmdb_id": 809,
+      "sources_tested": [
+        {
+          "source": "screenplaydb",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/shrek-2-2004.pdf",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 403"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Frozen",
+      "year": 2013,
+      "tmdb_id": 109445,
+      "sources_tested": [
+        {
+          "source": "screenplaydb",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/frozen-2013.pdf",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "PDF parsing not available (install pymupdf)"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "year": 2001,
+      "tmdb_id": 671,
+      "sources_tested": [
+        {
+          "source": "screenplaydb",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/harry-potter-and-the-sorcerers-stone-2001.pdf",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "PDF parsing not available (install pymupdf)"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "The Lord of the Rings: The Two Towers",
+      "year": 2002,
+      "tmdb_id": 121,
+      "sources_tested": [
+        {
+          "source": "screenplaydb",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/the-lord-of-the-rings-the-two-towers-2002.pdf",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "PDF parsing not available (install pymupdf)"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "The Lord of the Rings: The Return of the King",
+      "year": 2003,
+      "tmdb_id": 122,
+      "sources_tested": [
+        {
+          "source": "screenplaydb",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/the-lord-of-the-rings-the-return-of-the-king-2003.pdf",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 403"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "year": 1980,
+      "tmdb_id": 1891,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/empirestrikes_script.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Star Wars: Episode VI - Return of the Jedi",
+      "year": 1983,
+      "tmdb_id": 1892,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/return_of_the_jedi.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Psycho",
+      "year": 1960,
+      "tmdb_id": 539,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/psycho.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/psycho.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Alien",
+      "year": 1979,
+      "tmdb_id": 348,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/alien_early.html",
+          "success": true,
+          "dialogues": 14,
+          "characters": 2,
+          "sample_chars": [
+            "CAST OF CHARACTERS",
+            "SYNOPSIS"
+          ],
+          "error": null
+        },
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/alien.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": "dailyscript",
+      "best_dialogues": 14
+    },
+    {
+      "title": "Top Gun",
+      "year": 1986,
+      "tmdb_id": 744,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/top_gun.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Knives Out",
+      "year": 2019,
+      "tmdb_id": 546554,
+      "sources_tested": [
+        {
+          "source": "screenplaydb",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/knives-out-2019.pdf",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "PDF parsing not available (install pymupdf)"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Parasite",
+      "year": 2019,
+      "tmdb_id": 496243,
+      "sources_tested": [
+        {
+          "source": "screenplaydb",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/parasite-2019.pdf",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "PDF parsing not available (install pymupdf)"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Once Upon a Time in Hollywood",
+      "year": 2019,
+      "tmdb_id": 466272,
+      "sources_tested": [
+        {
+          "source": "screenplaydb",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/once-upon-a-time-in-hollywood-2019.pdf",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 403"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "This Is Spinal Tap",
+      "year": 1984,
+      "tmdb_id": 11031,
+      "sources_tested": [
+        {
+          "source": "awesomefilm",
+          "url": "http://www.awesomefilm.com/script/spinaltap.txt",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Ace Ventura: Pet Detective",
+      "year": 1994,
+      "tmdb_id": 3167,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/aceventura.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Big",
+      "year": 1988,
+      "tmdb_id": 2280,
+      "sources_tested": [
+        {
+          "source": "dailyscript",
+          "url": "http://www.dailyscript.com/scripts/big.html",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 404"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    },
+    {
+      "title": "Talladega Nights",
+      "year": 2006,
+      "tmdb_id": 9472,
+      "sources_tested": [
+        {
+          "source": "screenplaydb",
+          "url": "https://assets.scriptslug.com/live/pdf/scripts/talladega-nights-the-ballad-of-ricky-bobby-2006.pdf",
+          "success": false,
+          "dialogues": 0,
+          "characters": 0,
+          "sample_chars": [],
+          "error": "HTTP 403"
+        }
+      ],
+      "best_source": null,
+      "best_dialogues": 0
+    }
+  ]
+}
