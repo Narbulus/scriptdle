@@ -25,3 +25,6 @@ __pycache__/
 *.pyo
 .venv/
 venv/
+
+# Pipeline data (downloaded scripts, subtitles, outputs)
+data/
