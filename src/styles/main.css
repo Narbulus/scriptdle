@@ -17,14 +17,6 @@ body.theme-hp {
   --btn-text: white;
 }
 
-body.theme-shrek {
-  --primary-color: #4c6827;
-  --bg-color: #e0f0d0;
-  --container-bg: #fff;
-  --accent-color: #8c5a2b;
-  --btn-text: white;
-}
-
 * {
   box-sizing: border-box;
 }
