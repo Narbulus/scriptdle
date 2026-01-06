@@ -6,8 +6,7 @@ export async function renderPlay(params) {
 
   app.innerHTML = `
     <div class="container">
-      <a href="/" data-link class="back-link">&larr; Back to Packs</a>
-      <div id="loading" style="text-align:center; font-family:sans-serif;">Loading...</div>
+      <div id="loading" style="text-align:center; font-family:sans-serif; padding: 3rem;">Loading...</div>
       <div id="game-area" style="display:none;"></div>
     </div>
   `;

@@ -5,8 +5,10 @@ export class Game {
     this.scripts = scripts;
 
     // Flatten all lines from all movies into one array with movie context
+    // Sort by movieId to ensure consistent ordering
     this.allLines = [];
-    for (const [movieId, script] of Object.entries(scripts)) {
+    const sortedMovies = Object.entries(scripts).sort((a, b) => a[0].localeCompare(b[0]));
+    for (const [movieId, script] of sortedMovies) {
       script.lines.forEach((line, idx) => {
         this.allLines.push({
           ...line,
@@ -55,9 +57,9 @@ export class Game {
   }
 
   // Seeded RNG
-  mulberry32(a) {
+  mulberry32(seed) {
     return function() {
-      let t = a += 0x6D2B79F5;
+      let t = seed += 0x6D2B79F5;
       t = Math.imul(t ^ (t >>> 15), t | 1);
       t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
       return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
@@ -85,9 +87,12 @@ export class Game {
 
   selectTarget() {
     // Per-pack daily seed
+    const today = new Date().toISOString().split('T')[0];
     const dateSeed = this.getDateSeed();
     const packHash = this.hashString(this.pack.id);
     const combinedSeed = dateSeed + packHash;
+
+    console.log('Date:', today, 'DateSeed:', dateSeed, 'PackHash:', packHash, 'Combined:', combinedSeed);
 
     const rng = this.mulberry32(combinedSeed);
 
@@ -100,36 +105,61 @@ export class Game {
       return;
     }
 
-    this.targetIndex = minIndex + Math.floor(rng() * (maxIndex - minIndex));
-    console.log('Game seed:', combinedSeed, 'Target index:', this.targetIndex);
+    const randomValue = rng();
+    this.targetIndex = minIndex + Math.floor(randomValue * (maxIndex - minIndex));
+    console.log('RNG value:', randomValue, 'Target index:', this.targetIndex, 'Total lines:', this.allLines.length);
   }
 
   render() {
     const target = this.allLines[this.targetIndex];
 
     this.container.innerHTML = `
-      <h1>${this.pack.name}</h1>
+      <!-- Navigation Bar -->
+      <a href="/" data-link class="nav-bar nav-bar-link">
+        <div class="nav-logo">Scriptle</div>
+      </a>
 
-      <div class="controls-top">
-        <select id="movie-select" style="max-width:300px;">
-          <option value="">Select Movie...</option>
-          ${this.metadata.movies.map(m => `<option value="${m}">${m}</option>`).join('')}
-        </select>
+      <!-- Script Title Section -->
+      <div class="script-title-section">
+        <div class="script-title">${this.pack.name}</div>
+        <div class="script-subtitle">${this.metadata.movies.length} Movies</div>
       </div>
 
-      <div id="script-display"></div>
+      <!-- Main Script Area -->
+      <div class="script-area">
+        <div class="script-content">
+          <!-- Movie Selector -->
+          <div class="movie-select-wrapper">
+            <select id="movie-select">
+              <option value="">Choose the Film</option>
+              ${this.metadata.movies.map(m => `<option value="${m}">${m}</option>`).join('')}
+            </select>
+            <div id="movie-error" class="form-error"></div>
+          </div>
 
-      <div id="game-controls" class="controls-bottom" ${this.gameOver ? 'style="display:none;"' : ''}>
-        <button id="guess-btn">Guess</button>
-        <div style="margin-top:0.5rem; color:#666;">Attempts: <span id="attempt-count">${this.currentAttempt}</span>/5</div>
+          <div class="script-then">Then</div>
+
+          <!-- Script Lines (includes inline character selector) -->
+          <div id="script-display"></div>
+        </div>
       </div>
 
-      <div id="message" class="message" style="display: none;"></div>
+      <!-- Footer with Controls -->
+      <div class="game-footer">
+        <div id="message" class="message" style="display: none;"></div>
 
-      <div id="share-container">
-        <div style="font-size: 0.9rem; color: #666; margin-bottom: 0.5rem;">Share Preview:</div>
-        <div id="share-preview"></div>
-        <button id="share-btn">Copy to Clipboard</button>
+        <div id="game-controls" class="footer-controls" ${this.gameOver ? 'style="display:none;"' : ''}>
+          <div class="footer-attempts">Attempts: <span id="attempt-count">${this.currentAttempt}</span>/5</div>
+          <div class="footer-button-wrapper">
+            <button id="guess-btn">Make Your Guess</button>
+          </div>
+        </div>
+
+        <div id="share-container">
+          <div style="font-size: 0.9rem; color: #666; margin-bottom: 0.5rem;">Share Preview:</div>
+          <div id="share-preview"></div>
+          <button id="share-btn">Copy to Clipboard</button>
+        </div>
       </div>
     `;
 
@@ -162,7 +192,7 @@ export class Game {
       return;
     }
 
-    // Target line with character dropdown
+    // Target line - character selector in place of name
     const targetLine = this.allLines[this.targetIndex];
 
     const div = document.createElement('div');
@@ -171,12 +201,19 @@ export class Game {
     const charDiv = document.createElement('div');
     charDiv.className = 'character-name';
 
+    // Create character selector inline
     const select = document.createElement('select');
     select.id = 'char-select';
     select.className = 'char-select-inline';
-    select.innerHTML = '<option value="">(SELECT CHARACTER)</option>';
     select.disabled = true;
+    select.innerHTML = '<option value="">Choose the Character</option>';
     charDiv.appendChild(select);
+
+    // Add error message container
+    const errorDiv = document.createElement('div');
+    errorDiv.id = 'char-error';
+    errorDiv.className = 'form-error';
+    charDiv.appendChild(errorDiv);
 
     const textDiv = document.createElement('div');
     textDiv.className = 'dialogue-text';
@@ -238,12 +275,19 @@ export class Game {
   onMovieChange() {
     const movieSelect = document.getElementById('movie-select');
     const charSelect = document.getElementById('char-select');
+    const movieError = document.getElementById('movie-error');
+
     if (!charSelect) return;
 
     const movie = movieSelect.value;
     const currentVal = charSelect.value;
 
-    charSelect.innerHTML = '<option value="">(SELECT CHARACTER)</option>';
+    // Clear movie error
+    if (movieError) {
+      movieError.style.display = 'none';
+    }
+
+    charSelect.innerHTML = '<option value="">Choose the Character</option>';
 
     if (movie && this.metadata.characters[movie]) {
       this.metadata.characters[movie].forEach(c => {
@@ -262,8 +306,16 @@ export class Game {
     }
   }
 
+  onCharChange() {
+    const charError = document.getElementById('char-error');
+    if (charError) {
+      charError.style.display = 'none';
+    }
+  }
+
   bindEvents() {
     document.getElementById('movie-select').addEventListener('change', () => this.onMovieChange());
+    document.getElementById('char-select').addEventListener('change', () => this.onCharChange());
     document.getElementById('guess-btn').addEventListener('click', () => this.submitGuess());
     document.getElementById('share-btn').addEventListener('click', () => this.copyShare());
   }
@@ -273,16 +325,31 @@ export class Game {
 
     const movieSelect = document.getElementById('movie-select');
     const charSelect = document.getElementById('char-select');
+    const movieError = document.getElementById('movie-error');
+    const charError = document.getElementById('char-error');
 
     const movieGuess = movieSelect.value;
     const charGuess = charSelect.value;
 
+    // Clear previous errors
+    if (movieError) movieError.style.display = 'none';
+    if (charError) charError.style.display = 'none';
+
+    // Validate movie selection
     if (!movieGuess) {
-      this.showMessage('Please select a movie.', 'error');
+      if (movieError) {
+        movieError.textContent = 'Please select a movie';
+        movieError.style.display = 'block';
+      }
       return;
     }
+
+    // Validate character selection
     if (!charGuess) {
-      this.showMessage('Please select a character.', 'error');
+      if (charError) {
+        charError.textContent = 'Please select a character';
+        charError.style.display = 'block';
+      }
       return;
     }
 
