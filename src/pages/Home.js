@@ -3,25 +3,28 @@ import { router } from '../router.js';
 export async function renderHome() {
   const app = document.getElementById('app');
 
+  // Remove any active themes when returning to home
+  document.body.classList.remove('theme-hp', 'theme-shrek');
+
   try {
     const response = await fetch('/data/index.json');
     const data = await response.json();
 
     app.innerHTML = `
       <div class="container">
-        <h1>Scriptle</h1>
-        <p style="text-align: center; font-family: sans-serif; color: #666; margin-bottom: 2rem;">
-          Guess the character from movie scripts
-        </p>
+        <div class="nav-bar nav-bar-centered">
+          <div class="nav-logo">Scriptle</div>
+        </div>
 
-        <h2>Featured Packs</h2>
-        <div class="pack-grid">
-          ${data.packs.map(pack => `
-            <a href="/play/${pack.id}" data-link class="pack-card">
-              <h3>${pack.name}</h3>
-              <div class="movie-count">${pack.movieCount} movies</div>
-            </a>
-          `).join('')}
+        <div class="script-title-section" style="flex: 1;">
+          <div class="pack-grid">
+            ${data.packs.map(pack => `
+              <a href="/play/${pack.id}" data-link class="pack-card" data-pack-id="${pack.id}">
+                <h3>${pack.name}</h3>
+                <div class="movie-count">${pack.movieCount} movies</div>
+              </a>
+            `).join('')}
+          </div>
         </div>
       </div>
     `;
