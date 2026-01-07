@@ -1,18 +1,12 @@
 {
   "featured": [
-    "harry-potter",
-    "shrek"
+    "harry-potter"
   ],
   "packs": [
     {
       "id": "harry-potter",
       "name": "Harry Potter",
       "movieCount": 8
-    },
-    {
-      "id": "shrek",
-      "name": "Shrek Series",
-      "movieCount": 3
     }
   ]
 }
