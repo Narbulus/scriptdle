@@ -17,6 +17,14 @@ body.theme-hp {
   --btn-text: white;
 }
 
+body.theme-the-lord-of-the-rings {
+  --primary-color: #d4af37;
+  --bg-color: #1a2412;
+  --container-bg: #f5f0e8;
+  --accent-color: #2d5016;
+  --btn-text: white;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -247,6 +255,20 @@ h2 {
 
 .pack-card[data-pack-id="shrek"] .movie-count {
   color: #e0f0d0;
+  opacity: 0.8;
+}
+
+.pack-card[data-pack-id="the-lord-of-the-rings"] {
+  background: linear-gradient(135deg, #1a2412 0%, #2d5016 100%);
+  border-color: #d4af37;
+}
+
+.pack-card[data-pack-id="the-lord-of-the-rings"] h3 {
+  color: #d4af37;
+}
+
+.pack-card[data-pack-id="the-lord-of-the-rings"] .movie-count {
+  color: #d4af37;
   opacity: 0.8;
 }
 

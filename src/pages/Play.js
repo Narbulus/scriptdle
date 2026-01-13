@@ -65,11 +65,13 @@ export async function renderPlay(params) {
 
 function applyTheme(pack) {
   // Remove existing theme classes
-  document.body.classList.remove('theme-hp');
+  document.body.classList.remove('theme-hp', 'theme-the-lord-of-the-rings');
 
   // Apply pack-specific theme based on ID
   if (pack.id === 'harry-potter' || pack.id.startsWith('hp-')) {
     document.body.classList.add('theme-hp');
+  } else if (pack.id === 'the-lord-of-the-rings' || pack.id.startsWith('the-lord-of-the-rings-')) {
+    document.body.classList.add('theme-the-lord-of-the-rings');
   }
 
   // Could also use pack.theme for custom colors via CSS variables
