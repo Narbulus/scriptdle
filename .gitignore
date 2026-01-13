@@ -32,5 +32,8 @@ venv/
 # But DO track the public game data
 !/public/data/
 
+# Generated daily puzzles (built at deploy time)
+public/data/daily/
+
 # Git worktrees
 .worktrees/
