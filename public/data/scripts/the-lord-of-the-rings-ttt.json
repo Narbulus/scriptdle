@@ -1,0 +1,4720 @@
+{
+  "id": "the-lord-of-the-rings-ttt",
+  "title": "The Two Towers",
+  "year": 2002,
+  "characters": [
+    "ARAGORN",
+    "ARWEN",
+    "BOROMIR",
+    "CROWD",
+    "DENETHOR",
+    "DUNLENDING",
+    "EASTERLINGS",
+    "ELROND",
+    "EOMER",
+    "EOWYN",
+    "FARAMIR",
+    "FREDA",
+    "FRODO",
+    "GALADRIEL",
+    "GAMLING",
+    "GANDALF",
+    "GIMLI",
+    "GOLLUM",
+    "GRISHNAKH",
+    "GRISHNÁK",
+    "GRÍMA",
+    "GUARD",
+    "HALDIR",
+    "HÁLETH",
+    "HÁMA",
+    "LEGOLAS",
+    "MADRIL",
+    "MAN",
+    "MAUHÚR",
+    "MERRY",
+    "MOTHER",
+    "ORC",
+    "PIPPIN",
+    "RIDER #1",
+    "RIDER #2",
+    "ROHAN MAN",
+    "SAM",
+    "SARUMAN",
+    "SMÉAGOL",
+    "SMÉGOL",
+    "SNAGA",
+    "THÉODEN",
+    "TREE",
+    "TREEBEARD",
+    "UGLÚK",
+    "URUK",
+    "VILLAGERS",
+    "WIZARD",
+    "ÈOMER",
+    "ÈOTHAN",
+    "ÈOWYN"
+  ],
+  "lines": [
+    {
+      "character": "GANDALF",
+      "text": "You cannot pass!"
+    },
+    {
+      "character": "FRODO",
+      "text": "Gandalf!"
+    },
+    {
+      "character": "GANDALF",
+      "text": "I am the servant of the Secret Fire, wielder of the Flame of Anor…"
+    },
+    {
+      "character": "GANDALF",
+      "text": "Go back in to the shadow. The dark fire will not avail you! Flame of Udûn!\""
+    },
+    {
+      "character": "GANDALF",
+      "text": "You — shall not — pass!"
+    },
+    {
+      "character": "BOROMIR",
+      "text": "No! No!"
+    },
+    {
+      "character": "FRODO",
+      "text": "Gandalf!"
+    },
+    {
+      "character": "GANDALF",
+      "text": "Fly you fools!"
+    },
+    {
+      "character": "FRODO",
+      "text": "No!"
+    },
+    {
+      "character": "FRODO",
+      "text": "Gandalf!"
+    },
+    {
+      "character": "SAM",
+      "text": "What is it Mister Frodo?"
+    },
+    {
+      "character": "FRODO",
+      "text": "Nothing. Just a dream."
+    },
+    {
+      "character": "SAM",
+      "text": "Can you see the bottom?"
+    },
+    {
+      "character": "FRODO",
+      "text": "No! Don't look down, Sam! Just keep going!"
+    },
+    {
+      "character": "SAM",
+      "text": "Oh! Catch it! Grab it, Mister Frodo!"
+    },
+    {
+      "character": "FRODO",
+      "text": "I think I've found the bottom."
+    },
+    {
+      "character": "SAM",
+      "text": "Bogs and rope, and goodness knows what. It's not natural. None of it."
+    },
+    {
+      "character": "FRODO",
+      "text": "What's in this?"
+    },
+    {
+      "character": "SAM",
+      "text": "Nothing. Just a bit of seasonin'. I thought maybe if we was having a roast chicken one night or somethin'."
+    },
+    {
+      "character": "FRODO",
+      "text": "Roast chicken?"
+    },
+    {
+      "character": "SAM",
+      "text": "You never know."
+    },
+    {
+      "character": "FRODO",
+      "text": "Sam! My dear Sam."
+    },
+    {
+      "character": "SAM",
+      "text": "It's very special, that. It's the best salt in all the Shire."
+    },
+    {
+      "character": "FRODO",
+      "text": "It is special. It's a little bit of home."
+    },
+    {
+      "character": "FRODO",
+      "text": "We can't leave this for someone to follow us down."
+    },
+    {
+      "character": "SAM",
+      "text": "Who's gonna follow us down here, Mister Frodo? It's a shame really. Lady Galadriel gave me that. Real Elvish Rope. Well, there's nothing for it. It's one of my knots. Won't come free in a hurry."
+    },
+    {
+      "character": "FRODO",
+      "text": "Real Elvish rope?"
+    },
+    {
+      "character": "SAM",
+      "text": "Mordor. The one place in Middle-Earth we don't wanna see any closer. It's the one place we are trying to get to. It's just where we can't get."
+    },
+    {
+      "character": "SAM",
+      "text": "Lets face it Mister Frodo. We're lost. I don't think Gandalf meant for us to come this way."
+    },
+    {
+      "character": "FRODO",
+      "text": "He didn't mean for a lot of things to happen Sam. But they did."
+    },
+    {
+      "character": "SAM",
+      "text": "Mister Frodo? It's the Ring, isn't it?"
+    },
+    {
+      "character": "FRODO",
+      "text": "It's getting heavier."
+    },
+    {
+      "character": "FRODO",
+      "text": "What food have we got left?"
+    },
+    {
+      "character": "SAM",
+      "text": "Well, let me see."
+    },
+    {
+      "character": "SAM",
+      "text": "Oh yes, lovely. Lembas bread. And look! More Lembas bread."
+    },
+    {
+      "character": "SAM",
+      "text": "I don't usually hold to foreign food, but this elvish stuff, it's not bad."
+    },
+    {
+      "character": "FRODO",
+      "text": "Heh, nothing ever dampens you spirits, does it Sam?"
+    },
+    {
+      "character": "SAM",
+      "text": "Those rain clouds might."
+    },
+    {
+      "character": "SAM",
+      "text": "This looks strangely familiar."
+    },
+    {
+      "character": "FRODO",
+      "text": "Because we've been here before. We're going in circles."
+    },
+    {
+      "character": "SAM",
+      "text": "Uh! What's that horrid stink? I wonder if there's a nasty bog nearby. Can you smell it?"
+    },
+    {
+      "character": "FRODO",
+      "text": "Yes, I can smell it."
+    },
+    {
+      "character": "FRODO",
+      "text": "We're not alone."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "You thieves! You thieves… You filthy little thieves! Where is it? Where is it? They stole it from us. My Precious."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Curse them! We hates them! It's ours it is… and we wants it!"
+    },
+    {
+      "character": "FRODO",
+      "text": "This is Sting. You've seen it before, haven't you — Gollum!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Yes."
+    },
+    {
+      "character": "FRODO",
+      "text": "Release him, or I'll cut your throat!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "It burns! It burns us! It freezes! Nasty elves twisted it. Take it off us!"
+    },
+    {
+      "character": "SAM",
+      "text": "Quiet you!"
+    },
+    {
+      "character": "SAM",
+      "text": "It's hopeless! Every orc in Mordor is gonna hear this racket! Let's just tie him up and leave him!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "No! That would kill us, kill us!"
+    },
+    {
+      "character": "SAM",
+      "text": "It's nothing more than you deserve!"
+    },
+    {
+      "character": "FRODO",
+      "text": "Maybe he does deserve to die. But now that I see him, I do pity him."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "We'll be nice to them, if they'll be nice to us. Take it off us."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "We swears to do what you wants. We swears!"
+    },
+    {
+      "character": "FRODO",
+      "text": "There's no promise you can make that I can trust."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "We swears to serve the Master of the Precious. We will swear on — on the Precious! (gollum gollum)"
+    },
+    {
+      "character": "FRODO",
+      "text": "The Ring is treacherous. It will hold you to your word."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Yes… on the Precious… on the Precious."
+    },
+    {
+      "character": "SAM",
+      "text": "I don't believe you! Get down! Get down!"
+    },
+    {
+      "character": "FRODO",
+      "text": "Sam!"
+    },
+    {
+      "character": "SAM",
+      "text": "He's trying to trick us! We let him go, he'll throttle us in our sleep!"
+    },
+    {
+      "character": "FRODO",
+      "text": "You know the way to Mordor?"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Yes."
+    },
+    {
+      "character": "FRODO",
+      "text": "You've been there before?"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Yes."
+    },
+    {
+      "character": "FRODO",
+      "text": "You will lead us to the Black Gate."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "To the Gate, to the Gate! To the Gate, the masters says. Yes!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "No! We won't go back. Not there. Not to him. They can't make us. Gollum! Gollum!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "But we swore to serve the master of the precious!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "No. Ashes and dust and thirst there is, and pits, pits, pits. And Orcses, thousands of Orcses. And always the Great Eye watching, watching."
+    },
+    {
+      "character": "SAM",
+      "text": "Hey! Come back now! Come back! There! What did I tell you? He's run off, the old villain. So much for his promises."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "This way Hobbitses! Follow me!"
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Merry! Merry!"
+    },
+    {
+      "character": "GRISHNAKH",
+      "text": "You're late. Our master grows impatient. He wants the Shire-rats now."
+    },
+    {
+      "character": "MAUHÚR",
+      "text": "I don't take orders from Orc-maggots. Saruman will have his prize. We will deliver them."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Merry! Merry! Wake up! My friend is sick! He needs water. Please!"
+    },
+    {
+      "character": "MAUHÚR",
+      "text": "Sick is he? Give him some medicine, boys!"
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Stop it!"
+    },
+    {
+      "character": "MAUHÚR",
+      "text": "Can't take his draught!"
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Leave him alone!"
+    },
+    {
+      "character": "MAUHÚR",
+      "text": "Why? You want some? Huh? Then keep your mouth shut."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Merry."
+    },
+    {
+      "character": "MERRY",
+      "text": "Hello, Pip."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "You're hurt."
+    },
+    {
+      "character": "MERRY",
+      "text": "I'm fine. It was just an act."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "An act?"
+    },
+    {
+      "character": "MERRY",
+      "text": "See? I fooled you too. Don't worry about me, Pippin."
+    },
+    {
+      "character": "MAUHÚR",
+      "text": "What is it? What do you smell?"
+    },
+    {
+      "character": "UGLÚK",
+      "text": "Man-flesh."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Aragorn!"
+    },
+    {
+      "character": "MAUHÚR",
+      "text": "They've picked up our trail! Let's go!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Their pace has quickened. They must have caught our scent. Hurry!"
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "Come on, Gimli!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Three day's and night's pursuit… no food, no rest, and no sign of our quarry but what bare rock can tell."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Not idly do the leaves of Lorien fall."
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "They may yet be alive."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Less than a day ahead of us, come!"
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "Come Gimli! We are gaining on them."
+    },
+    {
+      "character": "GIMLI",
+      "text": "I'm wasted on cross-country. We dwarves are natural sprinters. Very dangerous over short distances."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Rohan. Home of the horse-lords."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "There's something strange at work here. Some evil gives speed to these creatures, sets its will against us."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Legolas! What do your elf eyes see?"
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "The Uruks turn Northeast. They are taking the hobbits to Isengard!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Saruman."
+    },
+    {
+      "character": "SARUMAN",
+      "text": "The world is changing."
+    },
+    {
+      "character": "SARUMAN",
+      "text": "Who now has the strength to stand against the armies of Isengard and Mordor."
+    },
+    {
+      "character": "SARUMAN",
+      "text": "To stand against the might of Sauron and Saruman, and the union of the Two Towers."
+    },
+    {
+      "character": "SARUMAN",
+      "text": "Together, My Lord Sauron, we shall rule this Middle-Earth."
+    },
+    {
+      "character": "SARUMAN",
+      "text": "We have only to remove those who oppose us."
+    },
+    {
+      "character": "SARUMAN",
+      "text": "I want them armed and ready to march within two weeks!"
+    },
+    {
+      "character": "ORC",
+      "text": "But my Lord, there are too many! They cannot all be armed in time, we don't have the means."
+    },
+    {
+      "character": "SARUMAN",
+      "text": "Build a dam, block the stream, work the furnaces night and day."
+    },
+    {
+      "character": "ORC",
+      "text": "We don't have enough fuel to feed the fires."
+    },
+    {
+      "character": "SARUMAN",
+      "text": "The Forest of Fangorn lies on our doorstep. Burn it."
+    },
+    {
+      "character": "ORC",
+      "text": "Yes!"
+    },
+    {
+      "character": "DUNLENDING",
+      "text": "We will fight for you."
+    },
+    {
+      "character": "SARUMAN",
+      "text": "Swear it."
+    },
+    {
+      "character": "DUNLENDING",
+      "text": "We will die for Saruman."
+    },
+    {
+      "character": "SARUMAN",
+      "text": "The horsemen took your lands. They drove your people into the hills to scratch the living off rocks."
+    },
+    {
+      "character": "SARUMAN",
+      "text": "Take back the lands they stole from you. Burn every village!"
+    },
+    {
+      "character": "MOTHER",
+      "text": "Èothan, Èothan! You take your sister. You'll go faster with just two."
+    },
+    {
+      "character": "FREDA",
+      "text": "But Papa says Èothan must not ride Garold. She's too big for him!"
+    },
+    {
+      "character": "MOTHER",
+      "text": "Listen to me! You must ride to Edoras and raise the alarm. Do you understand me?!"
+    },
+    {
+      "character": "ÈOTHAN",
+      "text": "Yes mama!"
+    },
+    {
+      "character": "FREDA",
+      "text": "I don't want to leave! I don't wanna go!"
+    },
+    {
+      "character": "MOTHER",
+      "text": "Listen to me. I will find you there."
+    },
+    {
+      "character": "MOTHER",
+      "text": "Quickly!"
+    },
+    {
+      "character": "MOTHER",
+      "text": "Go child!"
+    },
+    {
+      "character": "ÈOMER",
+      "text": "Théodred. Find the king's son!"
+    },
+    {
+      "character": "RIDER #1",
+      "text": "Mordor will pay for this."
+    },
+    {
+      "character": "ÈOMER",
+      "text": "These Orcs are not from Mordor."
+    },
+    {
+      "character": "RIDER #2",
+      "text": "My Lord Èomer. Over here!"
+    },
+    {
+      "character": "EOMER",
+      "text": "He's alive!"
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "Théodred!"
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "Your son is badly wounded my lord."
+    },
+    {
+      "character": "ÈOMER",
+      "text": "He was ambushed by orcs. If we don't defend our country, Saruman will take it by force."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "That is a lie!"
+    },
+    {
+      "character": "GRÍMA",
+      "text": "Saruman the White has ever been our friend and ally."
+    },
+    {
+      "character": "ÈOMER",
+      "text": "Orcs are roaming freely across our lands. Unchecked, unchallenged, killing at will."
+    },
+    {
+      "character": "ÈOMER",
+      "text": "Orcs bearing the white hand of Saruman."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "Why do you lay these troubles on an already troubled mind?"
+    },
+    {
+      "character": "GRÍMA",
+      "text": "Can you not see? Your uncle is wearied by your malcontent, your warmongering."
+    },
+    {
+      "character": "ÈOMER",
+      "text": "Warmongering?!"
+    },
+    {
+      "character": "ÈOMER",
+      "text": "How long is it since Saruman bought you? What was the promised price, Gríma? When all the men are dead you would take a share of the treasure?"
+    },
+    {
+      "character": "ÈOMER",
+      "text": "Too long have you watched my sister. Too long have you haunted her steps."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "You see much, Èomer son of Èomund. Too much."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "You are banished forthwith from the kingdom of Rohan, and all its domains, under pain of death."
+    },
+    {
+      "character": "EOMER",
+      "text": "You have no authority here. Your orders mean nothing."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "This order does not come from me. It comes from the king."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "He signed it this morning."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "You see much, Èomer son of Èomund. Too much."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "You are banished forthwith from the kingdom of Rohan, and all its domains, under pain of death."
+    },
+    {
+      "character": "EOMER",
+      "text": "You have no authority here. Your orders mean nothing."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "This order does not come from me. It comes from the king."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "He signed it this morning."
+    },
+    {
+      "character": "EOMER",
+      "text": "Argh!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Keep breathing, that's the key! Breathe! Hooh!"
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "They run as if the very whips of their masters were behind them."
+    },
+    {
+      "character": "URUK",
+      "text": "We ain't goin' no further 'till we've had a breather!"
+    },
+    {
+      "character": "UGLÚK",
+      "text": "Get a fire going!"
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Merry! Merry!"
+    },
+    {
+      "character": "MERRY",
+      "text": "I think we might have made a mistake, leaving the Shire, Pippin."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "What's making that noise?"
+    },
+    {
+      "character": "MERRY",
+      "text": "It's the trees."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "What?"
+    },
+    {
+      "character": "MERRY",
+      "text": "You remember the Old Forest? On the borders of Buckland? Folks used to say that there was something in the water that made the trees grow tall, and come alive."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Alive?"
+    },
+    {
+      "character": "MERRY",
+      "text": "Trees that could whisper, talk to each other. Even move."
+    },
+    {
+      "character": "URUK",
+      "text": "I'm starving. We ain't had nothing but maggoty bread for three stinking days!"
+    },
+    {
+      "character": "SNAGA",
+      "text": "Yeah! Why can't we have some meat?"
+    },
+    {
+      "character": "SNAGA",
+      "text": "What about them? They're fresh!"
+    },
+    {
+      "character": "UGLÚK",
+      "text": "They are not for eating!"
+    },
+    {
+      "character": "GRISHNÁK",
+      "text": "What about their legs? They don't need those. Ooh! They look tasty!"
+    },
+    {
+      "character": "UGLÚK",
+      "text": "Get back, scum! The prisoners go to Saruman. Alive and unspoiled."
+    },
+    {
+      "character": "GRISHNAKH",
+      "text": "Alive? Why alive? Do they give good sport?"
+    },
+    {
+      "character": "UGLÚK",
+      "text": "They have something. An Elvish weapon. The master wants it for the war."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "They think we have the Ring."
+    },
+    {
+      "character": "MERRY",
+      "text": "Shhh! As soon as they find out we don't, we're dead."
+    },
+    {
+      "character": "SNAGA",
+      "text": "Just a mouthful. A bit off the flank."
+    },
+    {
+      "character": "UGLÚK",
+      "text": "Looks like meat's back on the menu, boys!"
+    },
+    {
+      "character": "MERRY",
+      "text": "Pippin, let's go!"
+    },
+    {
+      "character": "GRISHNÁK",
+      "text": "Go on, call for help. Squeal! No one's gonna save you now!"
+    },
+    {
+      "character": "MERRY",
+      "text": "Pippin!"
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Argh!"
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "A red sun rises. Blood has been spilt this night."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Riders of Rohan! What news from the Mark?"
+    },
+    {
+      "character": "EOMER",
+      "text": "What business does an elf, a man and a dwarf have in the Riddermark?"
+    },
+    {
+      "character": "EOMER",
+      "text": "Speak quickly!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Give me your name, horsemaster, and I shall give you mine."
+    },
+    {
+      "character": "EOMER",
+      "text": "I would cut off your head — dwarf — if it stood but a little higher from the ground."
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "You would die before your stroke fell!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "I'm Aragorn, son of Arathorn."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "This is Gimli, son of Glóin, and Legolas, from the Woodland realm."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "We are friends of Rohan and of Théoden, your king."
+    },
+    {
+      "character": "EOMER",
+      "text": "Théoden no longer recognizes friend from foe."
+    },
+    {
+      "character": "EOMER",
+      "text": "Not even his own kin."
+    },
+    {
+      "character": "EOMER",
+      "text": "Saruman has poisoned the mind of the king and claimed lordship over this land. My company are those loyal to Rohan. And for that, we are banished."
+    },
+    {
+      "character": "EOMER",
+      "text": "The White Wizard is cunning. He walks here and there they say, as an old man, hooded and cloaked."
+    },
+    {
+      "character": "EOMER",
+      "text": "And everywhere his spies slip past our nets."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "We are no spies. We track a band of Uruk-hai westward across the plains. They have taken two of our friends captive."
+    },
+    {
+      "character": "EOMER",
+      "text": "The Uruks are destroyed. We slaughtered them during the night."
+    },
+    {
+      "character": "GIMLI",
+      "text": "But there were two hobbits, did you see two hobbits with them?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "They would be small, only children to your eyes."
+    },
+    {
+      "character": "EOMER",
+      "text": "We left none alive."
+    },
+    {
+      "character": "EOMER",
+      "text": "We piled the carcasses and burned them."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Dead?"
+    },
+    {
+      "character": "EOMER",
+      "text": "I am sorry."
+    },
+    {
+      "character": "EOMER",
+      "text": "Hasufel! Arod!"
+    },
+    {
+      "character": "EOMER",
+      "text": "May these horses bear you to better fortune than the former masters. [nods] Farewell."
+    },
+    {
+      "character": "EOMER",
+      "text": "Look for your friends, but do not trust the hope. It has forsaken these lands. We ride north!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "It's one of their little belts."
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "Hiro hyn hîdh ab wanath."
+    },
+    {
+      "character": "GIMLI",
+      "text": "We failed them."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "A Hobbit lay here, and the other."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "They crawled."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Their hands were bound."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Their bonds were cut."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "They ran over here… and were followed."
+    },
+    {
+      "character": "MERRY",
+      "text": "The belt! Run!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "The tracks lead away from the battle! Into… Fangorn Forest."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Fangorn! What madness drove them in there?"
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Did we lose him? I think we lost him."
+    },
+    {
+      "character": "GRISHNÁK",
+      "text": "I'm gonna rip off your filthy little heads! Come here!"
+    },
+    {
+      "character": "MERRY",
+      "text": "Trees! Climb a tree!"
+    },
+    {
+      "character": "MERRY",
+      "text": "He's gone."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Merry!"
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Argh!"
+    },
+    {
+      "character": "GRISHNÁK",
+      "text": "Let's put a maggot hole in your belly."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Run Merry!"
+    },
+    {
+      "character": "TREE",
+      "text": "Little orcs! Búrarum."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "It's talking Merry. The tree is talking."
+    },
+    {
+      "character": "TREE",
+      "text": "Tree! I am no tree! I am an Ent."
+    },
+    {
+      "character": "MERRY",
+      "text": "Treeherder! A shepherd of the forest."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Don't talk to it Merry. Don't encourage it."
+    },
+    {
+      "character": "TREE",
+      "text": "Treebeard some call me."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "And whose side are you on?"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Side? I am on nobody's side. Because nobody is on my side, little orc."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Nobody cares for the woods anymore."
+    },
+    {
+      "character": "MERRY",
+      "text": "We are not orcs. We are Hobbits!"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Hobbits? Never heard of a Hobbit before. Sounds like orc mischief to me."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "They come with fire, they come with axes. Gnawing, biting, breaking, hacking, burning! Destroyers and usurpers! Curse them!"
+    },
+    {
+      "character": "MERRY",
+      "text": "No! You don't understand. We are Hobbits, halflings. Shirefolk!"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Maybe you are, and maybe you aren't. The White Wizard will know."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "White Wizard?"
+    },
+    {
+      "character": "MERRY",
+      "text": "Saruman!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "See, see, we've led you out! Hurry hobbitses, hurry. Very lucky we find you."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Nice Hobbit."
+    },
+    {
+      "character": "SAM",
+      "text": "Whoa! It's a bog! He's led us into a swamp!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Swamp, yes yes. Come master. We will take you on safe paths, through the mist. Come Hobbits come! We move quickly."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "I found it. I did. The way through the marshes. Orcs don't use it. Orcs don't know it. They go round for miles and miles. Come quickly. Soft and quick as shadows we must be."
+    },
+    {
+      "character": "SAM",
+      "text": "I hate this place. It's too quiet. There's been no sight nor sound of a bird for two days."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "No, no birdses to eat. No crunchable birdses. We are famished! Yes! Famished we are, precious."
+    },
+    {
+      "character": "FRODO",
+      "text": "Here."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "What does it eats? Is it tasty?"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Aggh! It tries to chokes us! We can't eats Hobbit food! We must starve!"
+    },
+    {
+      "character": "SAM",
+      "text": "Well starve then, and good riddance!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Oh! Cruel Hobbit! It does not care if we be hungry. It does not care if we should die. Not like Master. Master cares. Master knows."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Yes, precious. Once it takes hold of us it never lets go."
+    },
+    {
+      "character": "FRODO",
+      "text": "Don't touch me."
+    },
+    {
+      "character": "SAM",
+      "text": "There are dead things! Dead faces in the water!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "All dead. All rotten. Elves and men and orcses. A great battle long ago."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "The Dead Marshes. Yes, yes! That is their name. This way. don't follow the lights."
+    },
+    {
+      "character": "SAM",
+      "text": "Ohh!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Careful now! Or Hobbits go down to join the dead ones, and light little candles of their own."
+    },
+    {
+      "character": "FRODO",
+      "text": "Gollum?"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Don't follow the lights!"
+    },
+    {
+      "character": "SAM",
+      "text": "Frodo! are you all right?"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "So bright, so beautiful."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Our Precious."
+    },
+    {
+      "character": "FRODO",
+      "text": "What did you say?"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Master should be resting. Master needs to keep up his strength."
+    },
+    {
+      "character": "FRODO",
+      "text": "Who are you?"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Mustn't ask us, not its business. (gollum gollum)"
+    },
+    {
+      "character": "FRODO",
+      "text": "Gandalf told me you were one of the River Folk."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Cold be heart and hand and bone. And called be travelers far from home."
+    },
+    {
+      "character": "FRODO",
+      "text": "He said your life was a sad story."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "They do not see what lies ahead when sun has failed and moon is dead."
+    },
+    {
+      "character": "FRODO",
+      "text": "You were not so different from a Hobbit once were you? — Sméagol."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "What did you call me?"
+    },
+    {
+      "character": "FRODO",
+      "text": "That was your name once, wasn't it? A long time ago."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "My — My name… Smé — Sméagol."
+    },
+    {
+      "character": "SAM",
+      "text": "Black Riders!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Hide! Hide!"
+    },
+    {
+      "character": "FRODO",
+      "text": "Argh!"
+    },
+    {
+      "character": "FRODO",
+      "text": "Argh!"
+    },
+    {
+      "character": "SAM",
+      "text": "C'mon Frodo, C'mon!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "They will see us! They will see us!"
+    },
+    {
+      "character": "SAM",
+      "text": "I thought they were dead?!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Dead? No, you cannot kill them. No."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Wraiths! Wraiths on wings!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "They are calling for It. They are calling for the Precious!"
+    },
+    {
+      "character": "SAM",
+      "text": "It's all right."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Hurry Hobbits. The Black Gate is very close."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Orc blood!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "These are strange tracks."
+    },
+    {
+      "character": "GIMLI",
+      "text": "The air is so close here."
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "This forest is old. Very old. Full of memory… and anger."
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "The trees are speaking to each other."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Gimli!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Huh?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Lower your axe."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Oh!"
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "They have feelings, my friend. The Elves began it: waking up the trees, teaching them to speak."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Talking trees. What do trees have to talk about, hmm? Except the consistency of squirrel droppings."
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "Aragorn, nad no ennas!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Man cenich?"
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "The White Wizard approaches."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Do not let him speak. He will put a spell on us!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "We must be quick."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Argh!"
+    },
+    {
+      "character": "WIZARD",
+      "text": "You are tracking the footsteps of two young Hobbits."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Where are they?"
+    },
+    {
+      "character": "WIZARD",
+      "text": "They passed this way, the day before yesterday. They met someone they did not expect. Does that comfort you?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "We must be quick."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Argh!"
+    },
+    {
+      "character": "WIZARD",
+      "text": "You are tracking the footsteps of two young Hobbits."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Where are they?"
+    },
+    {
+      "character": "WIZARD",
+      "text": "They passed this way, the day before yesterday. They met someone they did not expect. Does that comfort you?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Who are you? Show yourself!"
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "Forgive me. I mistook you for Saruman."
+    },
+    {
+      "character": "GANDALF",
+      "text": "I am Saruman. Or rather Saruman as he should have been."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "You fell!"
+    },
+    {
+      "character": "GANDALF",
+      "text": "Through fire. And water."
+    },
+    {
+      "character": "GANDALF",
+      "text": "From the lowest dungeon to the highest peak, I fought him, the Balrog of Morgoth."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Until at last, I threw down my enemy and smote his ruin upon the mountainside."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Darkness took me. And I strayed out of thought and time."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Stars wheeled overhead, and every day was as long as the life age of the earth."
+    },
+    {
+      "character": "GANDALF",
+      "text": "But it was not the end. I felt light in me again."
+    },
+    {
+      "character": "GANDALF",
+      "text": "I've been sent back until my task is done."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Gandalf!"
+    },
+    {
+      "character": "GANDALF",
+      "text": "Gandalf? Oh yes. That's what they used to call me. Gandalf the Grey. That was my name."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Gandalf!"
+    },
+    {
+      "character": "GANDALF",
+      "text": "I am Gandalf the White."
+    },
+    {
+      "character": "GANDALF",
+      "text": "And I come back to you now, at the turn of the tide."
+    },
+    {
+      "character": "GANDALF",
+      "text": "One stage of your journey is over, another begins. War has come to Rohan. We must ride to Edoras with all speed."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Edoras? That is no short distance!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "We hear of trouble in Rohan. It goes ill with the king."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Yes, and it will not be easily cured."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Then we have run all this way for nothing? Are we to leave those poor hobbits here in this horrid, dark, dank tree-infested…"
+    },
+    {
+      "character": "GIMLI",
+      "text": "I mean charming, quite charming forest."
+    },
+    {
+      "character": "GANDALF",
+      "text": "It was more than mere chance that brought Merry and Pippin to Fangorn. A great power has been sleeping here for many long years. The coming of Merry and Pippin will be like the falling of small stones that starts an avalanche in the mountains."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "In one thing you have not changed, dear friend."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Hmm?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "You still speak in riddles."
+    },
+    {
+      "character": "GANDALF",
+      "text": "A thing is about to happen here that has not happened since the Elder Days. The Ents are going to wake up and find that they are strong."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Strong? Oh, that's good."
+    },
+    {
+      "character": "GANDALF",
+      "text": "So stop your fretting Master Dwarf. Merry and Pippin are quite safe. In fact, they are far safer than you are about to be."
+    },
+    {
+      "character": "GIMLI",
+      "text": "This new Gandalf's more grumpy than the old one."
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "That is one of the Mearas, unless my eyes are cheated by some spell."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Shadowfax."
+    },
+    {
+      "character": "GANDALF",
+      "text": "He's the lord of all horses, and has been my friend through many dangers."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Oh rowan mine I saw you shine upon a summer's day.\nUpon your head how golden-red the crown you bore aloft."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Such a beautiful verse."
+    },
+    {
+      "character": "MERRY",
+      "text": "Is it much further?"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Bru-ra-hroom. Don't be hasty. You might call it far perhaps. My home lies deep in the forest near the roots of the mountain. I told Gandalf I would keep you safe and, safe is where I'll keep you. I believe you will enjoy this next one. It is one of my own compositions. Right, ahem."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Beneath the roof of sleeping leaves and the dreams of trees unfold\nWhen woodland halls are green and cool, and the wind is in the west\nCome back to me. Come back to me, And say my land is best."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Oh, oh. Sleep little Shirelings. Heed no nightly noise. Sleep 'til morning light."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "I have business in the forest. There are many to call. Many that must come. The shadow lies on Fangorn. The withering of all woods is drawing near. The trees have grown wild and dangerous. Anger festers in their hearts. They will harm you if they can. There are too few of us now. Too few of us left to manage them."
+    },
+    {
+      "character": "GANDALF",
+      "text": "The veiling shadow that glowers in the East takes shape. Sauron will suffer no rival. From the summit of Barad-Dûr his Eye watches ceaselessly. But he is not so mighty yet that he is above fear. Doubt ever gnaws at him. The rumor has reached him: the heir of Númenor still lives. Sauron fears you, Aragorn. He fears what you may become. And so he'll strike hard and fast at the world of men."
+    },
+    {
+      "character": "GANDALF",
+      "text": "He will use his puppet Saruman to destroy Rohan. War is coming. Rohan must defend itself and therein lies our first challenge, for Rohan is weak and ready to fall. The King's mind is enslaved. It's an old device of Saruman's. His hold over King Théoden is now very strong. Sauron and Saruman are tightening the noose."
+    },
+    {
+      "character": "GANDALF",
+      "text": "But for all their cunning, we have one advantage. The Ring remains hidden, and that we should seek to destroy it has not yet entered their darkest dreams. And so the weapon of the enemy is moving towards Mordor in the hands of a hobbit. Each day brings it closer to the fires of Mount Doom. We must trust now in Frodo. Everything depends upon speed and the secrecy of his quest."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Do not regret your decision to leave him. Frodo must finish this task alone."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "He is not alone. Sam went with him."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Did he? Did he indeed? Good. Yes, very good."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "The Black Gate of Mordor!"
+    },
+    {
+      "character": "SAM",
+      "text": "My old Gaffer would have a thing or two to say if he saw this."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Master says show him the way into Mordor, so good Sméagol does, master says so."
+    },
+    {
+      "character": "FRODO",
+      "text": "I did."
+    },
+    {
+      "character": "SAM",
+      "text": "That's it then. We cannot get past them."
+    },
+    {
+      "character": "EASTERLINGS",
+      "text": "Za dashu snaku Zigur, Durbgu nazgshu, Durbgu dashshu!"
+    },
+    {
+      "character": "SAM",
+      "text": "Look! The gate, it's opening!"
+    },
+    {
+      "character": "SAM",
+      "text": "I can see a way down."
+    },
+    {
+      "character": "FRODO",
+      "text": "Sam! No!"
+    },
+    {
+      "character": "SAM",
+      "text": "Argh!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Master!"
+    },
+    {
+      "character": "FRODO",
+      "text": "I do not ask you to come with me, Sam."
+    },
+    {
+      "character": "SAM",
+      "text": "I know, Mister Frodo. I doubt even these Elvish cloaks will help us in there."
+    },
+    {
+      "character": "FRODO",
+      "text": "Now!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "No! No! No Master! They'd catch you! They'd catch you. Don't take it to Him."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "He wants the Precious."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Always he's looking for it. And the Precious is wanting to go back to him."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "But we mustn't let Him have it."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "No! There is another way. More secret, and dark way."
+    },
+    {
+      "character": "SAM",
+      "text": "Why haven't you spoke of this before?!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Because Master did not ask!"
+    },
+    {
+      "character": "SAM",
+      "text": "He's up to something."
+    },
+    {
+      "character": "FRODO",
+      "text": "Are you saying that there is another way to Mordor?"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Yes. There's a path, and some stairs and then a tunnel."
+    },
+    {
+      "character": "FRODO",
+      "text": "He's led us this far Sam."
+    },
+    {
+      "character": "SAM",
+      "text": "Mister Frodo, no!"
+    },
+    {
+      "character": "FRODO",
+      "text": "He's been true to his word."
+    },
+    {
+      "character": "SAM",
+      "text": "No!"
+    },
+    {
+      "character": "FRODO",
+      "text": "Lead the way Sméagol."
+    },
+    {
+      "character": "FRODO",
+      "text": "Good Sméagol always helps."
+    },
+    {
+      "character": "MERRY",
+      "text": "Hello? Treebeard? Where has he gone?"
+    },
+    {
+      "character": "PIPPIN",
+      "text": "I had the loveliest dream last night. There was this large barrel, full of pipe-weed. And we smoked all of it. And then you were sick. I'd give anything for a whiff of Old Toby."
+    },
+    {
+      "character": "MERRY",
+      "text": "Did you hear that? There it is again. Something's not right here. Not right at all."
+    },
+    {
+      "character": "MERRY",
+      "text": "You just said something… treeish."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "No I didn't. I was just stretching."
+    },
+    {
+      "character": "MERRY",
+      "text": "You're taller."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Who?"
+    },
+    {
+      "character": "MERRY",
+      "text": "You!"
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Than what?"
+    },
+    {
+      "character": "MERRY",
+      "text": "Than me!"
+    },
+    {
+      "character": "PIPPIN",
+      "text": "I've always been taller than you."
+    },
+    {
+      "character": "MERRY",
+      "text": "Pippin, everyone knows I'm the tall one. You're the short one."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Please, Merry. You're what, three-foot-six? At the most? Whereas me, I'm pushing three-seven, three-eight."
+    },
+    {
+      "character": "MERRY",
+      "text": "Three-foot-eight? You did something."
+    },
+    {
+      "character": "MERRY",
+      "text": "I want some!"
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Merry, don't! Don't drink it. Merry! Treebeard said that you shouldn't have any."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "It could be dangerous! Give it back! Merry!"
+    },
+    {
+      "character": "PIPPIN",
+      "text": "What's happening?"
+    },
+    {
+      "character": "MERRY",
+      "text": "Gah! It's got my leg!"
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Merry!"
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Help!"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Away with you. You should not be waking. Eat earth. Dig deep. Drink water. Go to sleep. Away with you."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Come, the forest is waking up. It isn't safe."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "The trees have grown wild and dangerous. Anger festers in their hearts. Black are their thoughts. Strong is their hate. They will harm you if they can. There are too few of us now, too few of us Ents left to manage them."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Why are there so few of you when you have lived so long? Are there Ent children?"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Bru-ha-hroom. There have been no Entings for a terrible long count of years."
+    },
+    {
+      "character": "MERRY",
+      "text": "Why is that?"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "We lost the Entwives."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Oh, I'm sorry. How did they die?"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Die, no. We lost them. And now we cannot find them. I don't suppose you've seen Entwives in the Shire?"
+    },
+    {
+      "character": "MERRY",
+      "text": "Can't say that I have. You Pip?"
+    },
+    {
+      "character": "PIPPIN",
+      "text": "What do they look like?"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "I don't remember, now."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Edoras and the Golden Hall of Meduseld. There dwells Théoden, King of Rohan, whose mind is overthrown. Saruman's hold over King Théoden is now very strong."
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "My lord, you son, he is dead. My lord? Uncle? Will you not go to him? Will you do nothing."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Be careful what you say. Do not look for welcome here."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "Oh he, he must have died sometime in the night. What a tragedy for the king to lose his only son and heir."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "I understand his passing is hard to accept, especially now that your brother has deserted you."
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "Leave me alone snake!"
+    },
+    {
+      "character": "GRÍMA",
+      "text": "Oh but you are alone!"
+    },
+    {
+      "character": "GRÍMA",
+      "text": "Who knows what you have spoken to the darkness. In bitter watches of the night. When all your life seems to shrink. The walls of your bower closing in about you. A hatch to trammel some wild thing."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "So fair, so cold, like a morning pale spring still clinging to winter's chill."
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "Your words are poison."
+    },
+    {
+      "character": "GIMLI",
+      "text": "You'll find more cheer in a graveyard."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Ah."
+    },
+    {
+      "character": "HÁMA",
+      "text": "I cannot allow you before Théoden king so armed, Gandalf Grayhame. By order of… Gríma Wormtongue."
+    },
+    {
+      "character": "HÁMA",
+      "text": "Your staff."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Eh? Oh. No, you would not part an old man from his walking stick?"
+    },
+    {
+      "character": "GRÍMA",
+      "text": "My lord. Gandalf the Grey is coming. He is a herald of woe."
+    },
+    {
+      "character": "GANDALF",
+      "text": "The courtesy of your hall is somewhat lessened of late, Théoden King."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "He is not welcome."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Why should I welcome you, Gandalf Stormcrow?"
+    },
+    {
+      "character": "GRÍMA",
+      "text": "A just question my liege."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "Late is the hour in which this conjurer chooses to appear. Lathspell I name him. Ill news is in ill guest."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Be silent! Keep your forked tongue behind you teeth. I have not passed through fire and death to bandy crooked words with a witless worm!"
+    },
+    {
+      "character": "GRÍMA",
+      "text": "His staff! I told you to take the wizard's staff!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "I would stay still if I were you."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Théoden, Son of Théngel. Too long have you sat in the shadows."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "You have no power here Gandalf the Grey."
+    },
+    {
+      "character": "GANDALF",
+      "text": "I will draw you, Saruman, as poison is drawn from a wound."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Aah!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "I would stay still if I were you."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Harken to me! I release you from the spell."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "(Laughs.) \"You have no power here Gandalf the Grey."
+    },
+    {
+      "character": "GANDALF",
+      "text": "I will draw you, Saruman, as poison is drawn from a wound."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Aah!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Wait."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "If I go — Théoden dies."
+    },
+    {
+      "character": "GANDALF",
+      "text": "You did not kill me. You will not kill him."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Rohan is mine!"
+    },
+    {
+      "character": "GANDALF",
+      "text": "Be gone!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "I know your face. Èowyn — Èowyn."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Gandalf?"
+    },
+    {
+      "character": "GANDALF",
+      "text": "Breathe the free air again, my friend."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Dark have been my dreams of late."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Your fingers would remember their old strength better — if they grasped your sword."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "Argh! I've only ever served you my lord."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Your leechcraft would have had me crawling on all fours like a beast!"
+    },
+    {
+      "character": "GRÍMA",
+      "text": "Send me not from your side!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "No my lord! No my lord. Let him go."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Enough blood has been spilt on his account."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "Get out of my way!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Hail, Théoden, King!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Where is Théodred? Where is my son?"
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "Bealocwealm hafað fréone frecan forth onsended\ngiedd sculon singan gléomenn sorgiende"
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "on Meduselde þæt he ma no wære,\nÞæt he ma nowere is, þurh niedig rest."
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "And mægen deorost.\nBealo…"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Simbelmynë, ever has it grown on the tombs of my forebears. Now it shall cover the grave of my son."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Alas, that these evil days should be mine. The young perish and the old linger. That I should live to see the last days of my house."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Théodred's death was not of your making."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "No parent should have to bury their child."
+    },
+    {
+      "character": "GANDALF",
+      "text": "He was strong in life. His spirit will find its way to the halls of your fathers."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Westu hál. Ferðu, Théodred, Ferðu."
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "They had no warning. They were unarmed. Now the Wildmen are moving through westfold, burning as they go, every rick, cot and tree."
+    },
+    {
+      "character": "FREDA",
+      "text": "Where's mama?"
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "Hush."
+    },
+    {
+      "character": "GANDALF",
+      "text": "This is but a taste of the terror that Saruman will unleash. All the more potent for he is driven mad by the fear of Sauron."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Ride out and meet him head on. Draw him away from your women and children. You must fight."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "You have two thousand good men riding north as we speak. Èomer is loyal to you. His men will return and fight for their king."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "They will be three hundred leagues from here by now! Èomer cannot help us."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "I know what is that you want of me. But I would not bring further death to my people. I will not risk open war."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Open war is upon you, whether would risk it or not."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "When last I looked, Théoden, not Aragorn, was king of Rohan."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Burp!"
+    },
+    {
+      "character": "GANDALF",
+      "text": "Then what is the king's decision?"
+    },
+    {
+      "character": "HÁMA",
+      "text": "By order of the King, the city must empty. We make for the refuge of Helm's Deep. Do not burden yourself with treasures. Take only what provisions you need."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Helm's Deep! They flee to the mountains when they should stand and fight. Who will defend them if not their king?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "He is only doing what he thinks is best for his people. Helm's Deep has saved them in the past."
+    },
+    {
+      "character": "GANDALF",
+      "text": "There is no way out than that of ravine. Théoden is walking into a trap. He thinks he is leading them to safety, but what he'll get is a massacre."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Théoden has a strong hold but I fear for him. I fear for the survival of Rohan."
+    },
+    {
+      "character": "GANDALF",
+      "text": "He will need you before the end, Aragorn. The people of Rohan will need you. The defenses have to hold."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "They will hold."
+    },
+    {
+      "character": "GANDALF",
+      "text": "The Grey Pilgrim. That is what they used to call me. Three hundred lives of men I've walked this earth and now, I have no time."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Good luck. My search will not be in vain."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Look to my coming, at first light, on the fifth day. At dawn, look to the East."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Go."
+    },
+    {
+      "character": "ROHAN MAN",
+      "text": "That horse is half mad, my lord. There's nothing you can do. Leave him."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Fæste, stille nú, fæste, stille nú. Lac is drefed, gefrægon."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Hwæt nemnað ðe?"
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "His name is Brego. He was my cousin's horse."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Brego? Ðin nama is cynglic."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Man le trasta, Brego?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Man cenich?"
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "I've heard of the magic of Elves, but I did not look for it in a Ranger from the North. You speak as one of their own."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "I was raised in Rivendell, for a time."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Turn this fellow free. He has seen enough of war."
+    },
+    {
+      "character": "SARUMAN",
+      "text": "Gandalf the White. Gandalf the fool! Does he seek to humble me with his newfound piety?"
+    },
+    {
+      "character": "GRÍMA",
+      "text": "There were three who followed the wizard. An Elf, a Dwarf and a Man."
+    },
+    {
+      "character": "SARUMAN",
+      "text": "(Sniffs.) \"You stink of horse. The man, was he from Gondor?"
+    },
+    {
+      "character": "GRÍMA",
+      "text": "No, from the North. One of the Dúnedain Rangers I thought he was."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "His cloth was spoor. And yet he bore a strange ring. Two serpents with emerald eyes. One devouring, the other crowned with golden flowers."
+    },
+    {
+      "character": "SARUMAN",
+      "text": "The Ring of Barahir. So Gandalf  Greyhame  thinks he's found Isildur's heir, the lost King of Gondor. He is a fool. The line was broken years ago."
+    },
+    {
+      "character": "SARUMAN",
+      "text": "It matters not. The world of Men shall fall. It will begin at Edoras."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "I am ready, Gamling. Bring my horse."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "This is not a defeat. We will return."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "We will return."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "You have some skill with a blade."
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "Women of this country learned long ago that those without swords may still die upon them."
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "I fear neither death nor pain."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "What do you fear my lady?"
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "A cage. To stay behind bars until use and old age accept them. And all chance of valor has gone beyond recall or desire."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "You are a daughter of kings. A shieldmaiden of Rohan. I do not think that will be your fate."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "Théoden will not stay at Edoras. It is vulnerable, he knows this. He will expect an attack on the city. They will flee to Helm's Deep, the great fortress of Rohan."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "It is a dangerous road, take through the mountains. It will be slow."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "They will have women and children with them."
+    },
+    {
+      "character": "SARUMAN",
+      "text": "Send out your Warg riders."
+    },
+    {
+      "character": "SAM",
+      "text": "Hey stinker! Don't go getting too far ahead!"
+    },
+    {
+      "character": "FRODO",
+      "text": "Why do you do that?"
+    },
+    {
+      "character": "SAM",
+      "text": "What?"
+    },
+    {
+      "character": "FRODO",
+      "text": "Call him names? Run him down all the time."
+    },
+    {
+      "character": "SAM",
+      "text": "Because. Because that's what he is Mister Frodo. There's naught left in him but lies and deceit. It's the Ring he wants. It's all he cares about."
+    },
+    {
+      "character": "FRODO",
+      "text": "You have no idea what it did to him. What is still doing to him. I want to help him Sam."
+    },
+    {
+      "character": "SAM",
+      "text": "Why?"
+    },
+    {
+      "character": "FRODO",
+      "text": "Because I have to believe he can come back."
+    },
+    {
+      "character": "SAM",
+      "text": "You cannot save him, Mister Frodo."
+    },
+    {
+      "character": "FRODO",
+      "text": "What do you know about it? Nothing!"
+    },
+    {
+      "character": "FRODO",
+      "text": "I'm sorry Sam. I don't know why I said that."
+    },
+    {
+      "character": "SAM",
+      "text": "I do. It's the Ring. You can't take your eyes off it. I've seen you. You're not eating. You barely sleep. It's taking a hold of you Mister Frodo. You have to fight it."
+    },
+    {
+      "character": "FRODO",
+      "text": "I know what I must to do Sam. The Ring was entrusted to me. It's my task! Mine! My own!"
+    },
+    {
+      "character": "SAM",
+      "text": "Can't you hear yourself? Don't you know who you sound like?"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "We wants it, we needs it. Must have the Precious."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "They stole it from us. Sneaky little hobbitses. Wicked, tricksy, false!"
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "No! No! Master!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Yes. Precious first. They will cheat you, hurt you, lie!"
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Master's my friend."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "You don't have any friends. Nobody likes you."
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Not listening. Not listening."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "You're a liar, and a thief."
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "No."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Murderer!"
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Go away."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Go away?!"
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "I hate you, I hate you!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Where would you be without me? (gollum gollum). I saved us. It was me. We survived because of me!"
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Not anymore."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "What did you say?"
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Master looks after us now. We don't need you."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "What?"
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Leave now and never come back."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "No!"
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Leave now and never come back!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Argh!"
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Leave now and never come back!"
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "We told him to go away! And away he goes Precious. Gone, gone, gone, Sméagol is free!"
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Look! Look! See what Sméagol finds!"
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "They are young! They are tender and nice. Yes they are! Eat them. Eat them."
+    },
+    {
+      "character": "SAM",
+      "text": "Make him sick you will, behaving like that. There's only one way to eat a brace of coneys."
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Argh! What's he doing! Stupid fat hobbit. You ruins it!"
+    },
+    {
+      "character": "SAM",
+      "text": "What's to ruin? There's hardly any meat on them."
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "What's taters? Precious, what's taters? Huh?"
+    },
+    {
+      "character": "SAM",
+      "text": "Po-ta-toes! Boil them, mash them, stick them in a stew. Lovely big golden chips with a nice piece of fried fish."
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Phooh!"
+    },
+    {
+      "character": "SAM",
+      "text": "Even you couldn't say no to that."
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Oh yes we could! Spoiling nice fish!"
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Give it to us raw — and wriggling! You keep nasty chips!"
+    },
+    {
+      "character": "SAM",
+      "text": "You're hopeless."
+    },
+    {
+      "character": "SMÉGOL",
+      "text": "Wicked men; servants of Sauron. They are called to Mordor. The Dark One is gathering all armies to him. It won't be long now. It will soon be ready."
+    },
+    {
+      "character": "SAM",
+      "text": "Ready to do what?"
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "To make His war. The last war that will cover all the world in shadow."
+    },
+    {
+      "character": "FRODO",
+      "text": "We've got to keep moving. C'mon Sam."
+    },
+    {
+      "character": "SAM",
+      "text": "Mister Frodo! Look! It's an Oliphant! No one at home will believe this."
+    },
+    {
+      "character": "FRODO",
+      "text": "Sméagol?"
+    },
+    {
+      "character": "SAM",
+      "text": "Ah! Wait! We're innocent travelers!"
+    },
+    {
+      "character": "FARAMIR",
+      "text": "There are no travelers in this land, only servants of the Dark Tower."
+    },
+    {
+      "character": "FRODO",
+      "text": "We are bound to an errand of secrecy. Those that claim to oppose the enemy would do well not to hinder us."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "The enemy?"
+    },
+    {
+      "character": "FARAMIR",
+      "text": "His sense of duty was no less than yours, I deem. You wonder what his name is, where he came from, and if he was really evil at heart. What lies or threats led him on this long march from home. If he would not rather have stayed there in peace."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "War will make corpses of us all. Bind their hands."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "His sense of duty was no less than yours, I deem. You wonder what his name is, where he came from, and if he was really evil at heart. What lies or threats led him on this long march from home. If he would not rather have stayed there in peace."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "War will make corpses of us all. Bind their hands."
+    },
+    {
+      "character": "GIMLI",
+      "text": "It's true you don't see many dwarf women. And in fact, they are so alike in voice and appearance, they are often mistaken for dwarf men."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "It's the beards."
+    },
+    {
+      "character": "GIMLI",
+      "text": "And this in turn has given rise to the belief that there are no dwarf women. And the dwarves just spring out of holes in the ground!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Which is of course ridiculous. Whoa!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "It's all right! It's all right. Nobody panic. That was deliberate. It was deliberate."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "I have not seen my niece smile in a long time."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "She was a girl when they brought her father back dead. Cut down by Orcs."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "She watched her mother succumb to grief. And she was left alone to tend her king in growing fear. Doomed to wait upon an old man who should have loved her as a father."
+    },
+    {
+      "character": "EOWYN",
+      "text": "Gimli?"
+    },
+    {
+      "character": "GIMLI",
+      "text": "No, I couldn't. I really couldn't."
+    },
+    {
+      "character": "EOWYN",
+      "text": "I made some stew. It isn't much, but it's hot."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Thank you."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Mmm. It's good."
+    },
+    {
+      "character": "EOWYN",
+      "text": "Really?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Mmm."
+    },
+    {
+      "character": "EOWYN",
+      "text": "My Uncle told me a strange thing. He said that you rode to war with Thengel, my grandfather. But he must be mistaken."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "King Théoden has a good memory. He was only a small child at the time."
+    },
+    {
+      "character": "EOWYN",
+      "text": "Then you must be at least sixty. Seventy? But you cannot be eighty!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Eighty-seven."
+    },
+    {
+      "character": "EOWYN",
+      "text": "You are one of the Dúnedain. A descendant of Númenor, blessed with long life. It was said that your race had passed into legend."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "There are few of us left. The Northern Kingdom was destroyed long ago."
+    },
+    {
+      "character": "EOWYN",
+      "text": "I'm sorry. Please eat!"
+    },
+    {
+      "character": "ARWEN",
+      "text": "The light of the Evenstar does not wax and wane. It is mine to give to whom I will. Like my heart. Go to sleep."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "I am asleep. This is a dream."
+    },
+    {
+      "character": "ARWEN",
+      "text": "Then it is a good dream. Sleep."
+    },
+    {
+      "character": "ARWEN",
+      "text": "Sleep."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Minlû pedich nin, i aur hen telitha."
+    },
+    {
+      "character": "ARWEN",
+      "text": "Ú i vethed. Nâ i onnad. Boe bedich go Frodo. Han bâd lîn."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Dolen i vâd o nin."
+    },
+    {
+      "character": "ARWEN",
+      "text": "Si peliannen i vâd na dail lîn. Si boe ú-dhannathach."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Arwen."
+    },
+    {
+      "character": "ARWEN",
+      "text": "Ae ú-esteliach nad… estelio han. Estelio ammen."
+    },
+    {
+      "character": "EOWYN",
+      "text": "Where is she? The woman who gave you that jewel?"
+    },
+    {
+      "character": "ELROND",
+      "text": "Our time here is ending. Arwen's time is ending. Let her go. Let her take the ship into the West. Let her bear away her love for you to the undying lands, there to be ever green."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "But never more than a memory."
+    },
+    {
+      "character": "ELROND",
+      "text": "I will not leave my daughter here to die."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "She stays because she still has hope."
+    },
+    {
+      "character": "ELROND",
+      "text": "She stays for you! She belongs with her people."
+    },
+    {
+      "character": "ARWEN",
+      "text": "Nach gwannatha sin? Ma nathach hi gwannathach or minuial archened?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Ú-ethelithon."
+    },
+    {
+      "character": "ARWEN",
+      "text": "Estelio guru lîn ne dagor. Ethelithach."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Ú-bedin o gurth ne dagor."
+    },
+    {
+      "character": "ARWEN",
+      "text": "O man pedich?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Edra le men, men na guil edwen, haer o auth a nîr a naeth."
+    },
+    {
+      "character": "ARWEN",
+      "text": "Why are you saying this?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "I am mortal. You are elfkind. It was a dream Arwen, nothing more."
+    },
+    {
+      "character": "ARWEN",
+      "text": "I don't believe you."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "This belongs to you."
+    },
+    {
+      "character": "ARWEN",
+      "text": "It was a gift. Keep it."
+    },
+    {
+      "character": "EOWYN",
+      "text": "My lord?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "She is sailing to the undying lands, with all that is left of her kin."
+    },
+    {
+      "character": "GAMLING",
+      "text": "What is it? Háma?"
+    },
+    {
+      "character": "HÁMA",
+      "text": "I'm not sure."
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "A scout!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "What is it? What do you see?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Wargs! We are under attack!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "All riders to the head of the column!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "C'mon get me up here, I'm a fighter. Argh!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "You must lead the people to Helm's Deep and make haste."
+    },
+    {
+      "character": "EOWYN",
+      "text": "I can fight!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "No! You must do this — for me."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Follow me! Argh!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Forward, forward, march forward."
+    },
+    {
+      "character": "EOWYN",
+      "text": "Make for the lower ground. Stick together!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Bring your pretty face to my axe!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Argh! That one counts as mine!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Argh! Stinking creature. Argh!"
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "Aragorn!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Aragorn?"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Tell me what happened and I will ease your passing!"
+    },
+    {
+      "character": "ORC",
+      "text": "He's… (cough)… dead. (Laughs). He took a little tumble off the cliff."
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "You lie!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Get the wounded on horses. The wolves of Isengard will return."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Leave the dead."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Come."
+    },
+    {
+      "character": "VILLAGERS",
+      "text": "Helm's Deep!"
+    },
+    {
+      "character": "MOTHER",
+      "text": "Freda! Freda!"
+    },
+    {
+      "character": "EOWYN",
+      "text": "Where is the rest?"
+    },
+    {
+      "character": "MAN",
+      "text": "This is all we could save, my lady."
+    },
+    {
+      "character": "EOWYN",
+      "text": "Take it to the caves."
+    },
+    {
+      "character": "GUARD",
+      "text": "Make way for the king! Make way for Théoden. Make way for the King!"
+    },
+    {
+      "character": "EOWYN",
+      "text": "So few. So few of you have returned."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Our people are safe. We have paid for it with many lives."
+    },
+    {
+      "character": "GIMLI",
+      "text": "My lady…"
+    },
+    {
+      "character": "EOWYN",
+      "text": "Lord Aragorn, where is he?"
+    },
+    {
+      "character": "GIMLI",
+      "text": "He fell…"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Draw all our forces behind the wall. Bar the gate, and set a watch on the surround."
+    },
+    {
+      "character": "GUARD",
+      "text": "What of those who cannot fight my lord? The women and children?"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Get them into the caves. Saruman's arm would have grown long indeed if he thinks he can reach us here."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "Helm's Deep has but one weakness. It's outer wall is solid rock for except for a small culvert in space, which is little more than a drain."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "How? How can fire undo stone? What kind of device can break down a wall?"
+    },
+    {
+      "character": "SARUMAN",
+      "text": "If the wall is breached, Helm's Deep will fall."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "Even if it is breached, it would take a number beyond reckoning — thousands — to storm the keep."
+    },
+    {
+      "character": "SARUMAN",
+      "text": "Tens of thousands."
+    },
+    {
+      "character": "GRÍMA",
+      "text": "But my lord there is no such force."
+    },
+    {
+      "character": "SARUMAN",
+      "text": "A new power is rising. Its victory is at hand."
+    },
+    {
+      "character": "SARUMAN",
+      "text": "This night, the land will be stained with the blood of Rohan! March to Helm's Deep! Leave none alive!"
+    },
+    {
+      "character": "SARUMAN",
+      "text": "To war!"
+    },
+    {
+      "character": "SARUMAN",
+      "text": "There will be no dawn for Men."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Look! There's smoke to the south!"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "There is always smoke rising up from Isengard these days."
+    },
+    {
+      "character": "MERRY",
+      "text": "Isengard?"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "There was a time, when Saruman would walk in my woods, but now, he has a mind of metal and wheels."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "He no longer cares for growing things."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "What is it?"
+    },
+    {
+      "character": "MERRY",
+      "text": "It's Saruman's army! The war has started."
+    },
+    {
+      "character": "ARWEN",
+      "text": "May the grace of the Valar protect you."
+    },
+    {
+      "character": "ELROND",
+      "text": "Arwen. Tollen i lû. I chair gwannar na Valannor. Si bado, no círar."
+    },
+    {
+      "character": "ARWEN",
+      "text": "I've made my choice."
+    },
+    {
+      "character": "ELROND",
+      "text": "He is not coming back. Why do you linger when there is no hope?"
+    },
+    {
+      "character": "ARWEN",
+      "text": "There is still hope."
+    },
+    {
+      "character": "ELROND",
+      "text": "If Aragorn survives this war, You will still be parted."
+    },
+    {
+      "character": "ELROND",
+      "text": "If Sauron is defeated, and Aragorn made king and all that you hoped for comes true… you will still have to taste the bitterness of mortality."
+    },
+    {
+      "character": "ELROND",
+      "text": "Whether by the sword or the slow decay of time, Aragorn will die. And there will be no comfort for you. No comfort to ease the pain of his passing."
+    },
+    {
+      "character": "ELROND",
+      "text": "He will come to death. An image of the splendor of the kings of men in glory, undimmed before the breaking of the world."
+    },
+    {
+      "character": "ELROND",
+      "text": "But you, my daughter, you will linger on in darkness and in doubt. As night falling winter has come without a star."
+    },
+    {
+      "character": "ELROND",
+      "text": "Here you will dwell, bound to you grief, under the fading trees, until all the world has changed and the long years of your life are utterly spent."
+    },
+    {
+      "character": "ELROND",
+      "text": "Arwen… there is nothing for you here, only death."
+    },
+    {
+      "character": "ELROND",
+      "text": "Ah im, ú erin veleth lîn?"
+    },
+    {
+      "character": "ARWEN",
+      "text": "Gerich veleth nîn, ada."
+    },
+    {
+      "character": "GALADRIEL",
+      "text": "I amar prestar aen. Han mathon ne nen, han mathon ne chae a han noston ned wilith."
+    },
+    {
+      "character": "GALADRIEL",
+      "text": "The power of the enemy is growing. Sauron will use his puppet Saruman to destroy the people of Rohan."
+    },
+    {
+      "character": "GALADRIEL",
+      "text": "Isengard has been unleashed."
+    },
+    {
+      "character": "GALADRIEL",
+      "text": "The Eye of Sauron now turns to Gondor. The last free kingdom of men."
+    },
+    {
+      "character": "GALADRIEL",
+      "text": "His war on this country will come swiftly. He senses the Ring is close. The strength of the Ringbearer is failing. In his heart, Frodo begins to understand. The quest will claim his life."
+    },
+    {
+      "character": "GALADRIEL",
+      "text": "You know this. You have foreseen it. It is the risk we all took."
+    },
+    {
+      "character": "GALADRIEL",
+      "text": "In the gathering dark, the will of the Ring grows strong. It works hard now to find its way back into the hands of men. Men, who are so easily seduced by its power."
+    },
+    {
+      "character": "GALADRIEL",
+      "text": "The young captain of Gondor has but to extend his hand to take the Ring for his own and the world will fall. He is close now, so close to achieving his goal."
+    },
+    {
+      "character": "GALADRIEL",
+      "text": "For Sauron will have dominion over all life on this Earth, even until the ending of the world."
+    },
+    {
+      "character": "GALADRIEL",
+      "text": "The time of the elves is over. Do we leave Middle-Earth to this fate? Do we let them stand alone?"
+    },
+    {
+      "character": "FARAMIR",
+      "text": "What news?"
+    },
+    {
+      "character": "MADRIL",
+      "text": "Our scouts report Saruman has attacked Rohan. Théoden's people have fled to Helm's Deep. But we must look to our own borders. Faramir, orcs are on the move. Sauron is marshalling a"
+    },
+    {
+      "character": "GALADRIEL",
+      "text": "The time of the elves is over. Do we leave Middle-Earth to this fate? Do we let them stand alone?"
+    },
+    {
+      "character": "FARAMIR",
+      "text": "What news?"
+    },
+    {
+      "character": "MADRIL",
+      "text": "Our scouts report Saruman has attacked Rohan. Théoden's people have fled to Helm's Deep. But we must look to our own borders. Faramir, orcs are on the move. Sauron is marshalling an army. Easterlings and Southrons are passing through the Black Gate."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "How many?"
+    },
+    {
+      "character": "MADRIL",
+      "text": "Some thousands. More come every day."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Who's covering the river to the north?"
+    },
+    {
+      "character": "MADRIL",
+      "text": "We pulled five hundred men out of Osgiliath, but if the city is attacked, we won't hold it."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Saruman attacks from Isengard. Sauron from Mordor. The fight will come to men on both fronts. Gondor is weak. Sauron will strike us soon. And he will strike hard. He knows now we do not have the strength to repel him."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "My men tell me that you are orc spies."
+    },
+    {
+      "character": "SAM",
+      "text": "Spies! Now wait just a minute."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Well if you're not spies, then who are you?"
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Speak!"
+    },
+    {
+      "character": "FRODO",
+      "text": "We are hobbits of the Shire. Frodo Baggins is my name and this is Samwise Gamgee."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Your bodyguard?"
+    },
+    {
+      "character": "SAM",
+      "text": "His gardener."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "And where is your skulking friend? That gangrel creature. He had an ill-favored look."
+    },
+    {
+      "character": "FRODO",
+      "text": "There was no other."
+    },
+    {
+      "character": "FRODO",
+      "text": "We set out from Rivendell with seven companions. One we lost in Moria. Two were my kin. A dwarf there was also. And an elf. And two men. Aragorn, son of Arathorn and Boromir of Gondor."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "You were friend of Boromir?"
+    },
+    {
+      "character": "FRODO",
+      "text": "Yes, for my part."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "It would grieve you then, to learn that he is dead?"
+    },
+    {
+      "character": "FRODO",
+      "text": "Dead? How? When?"
+    },
+    {
+      "character": "FARAMIR",
+      "text": "As one of his companions, I had hoped you would tell me."
+    },
+    {
+      "character": "FRODO",
+      "text": "If something has happened to Boromir, we would have you tell us."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "His horn washed up upon the riverbank, about six days past. It was cloven in two."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "But more than this, I know it in my heart. He was my brother."
+    },
+    {
+      "character": "CROWD",
+      "text": "Boromir!"
+    },
+    {
+      "character": "CROWD",
+      "text": "Boromir!"
+    },
+    {
+      "character": "BOROMIR",
+      "text": "This city was once the jewel of our kingdom. A place of light, and beauty, and music. And so it shall be once more!"
+    },
+    {
+      "character": "BOROMIR",
+      "text": "Let the armies of Mordor know this: Never again will the land of my people fall into enemy hands."
+    },
+    {
+      "character": "BOROMIR",
+      "text": "The city of Osgiliath has been reclaimed. For Gondor!"
+    },
+    {
+      "character": "CROWD",
+      "text": "For Gondor!"
+    },
+    {
+      "character": "BOROMIR",
+      "text": "For Gondor!"
+    },
+    {
+      "character": "CROWD",
+      "text": "For Gondor!"
+    },
+    {
+      "character": "BOROMIR",
+      "text": "For Gondor!"
+    },
+    {
+      "character": "CROWD",
+      "text": "For Gondor!"
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Good speech. Nice and short."
+    },
+    {
+      "character": "BOROMIR",
+      "text": "Leaves more time for drinking!"
+    },
+    {
+      "character": "BOROMIR",
+      "text": "Break out the ale! These men are thirsty!"
+    },
+    {
+      "character": "BOROMIR",
+      "text": "Remember today, little brother. Today, life is good."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "What?"
+    },
+    {
+      "character": "FARAMIR",
+      "text": "He is here."
+    },
+    {
+      "character": "BOROMIR",
+      "text": "One moment of peace. Can he not give us that?"
+    },
+    {
+      "character": "DENETHOR",
+      "text": "Where is he? Where is Gondor's finest? Where is my first-born?"
+    },
+    {
+      "character": "BOROMIR",
+      "text": "Father!"
+    },
+    {
+      "character": "DENETHOR",
+      "text": "They say you vanquished the enemy almost single-handedly."
+    },
+    {
+      "character": "BOROMIR",
+      "text": "They exaggerate. The victory belongs to Faramir also."
+    },
+    {
+      "character": "DENETHOR",
+      "text": "But for Faramir, this city would still be standing. Were you not entrusted to protect it?"
+    },
+    {
+      "character": "FARAMIR",
+      "text": "I would have done, but our numbers were too few."
+    },
+    {
+      "character": "DENETHOR",
+      "text": "Oh, too few. You let the enemy walk in and take it on a whim. Always you cast a poor reflection on me."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "That is not my intent."
+    },
+    {
+      "character": "BOROMIR",
+      "text": "You give him no credit and yet he tries to do your will."
+    },
+    {
+      "character": "BOROMIR",
+      "text": "He loves you, Father."
+    },
+    {
+      "character": "DENETHOR",
+      "text": "Do not trouble me with Faramir. I know his uses, and they are few. We have more urgent things to speak of. Elrond of Rivendell has called a meeting. He will not say why, but I have guessed its purpose. It is rumored that the weapon of the enemy has been found."
+    },
+    {
+      "character": "BOROMIR",
+      "text": "The One Ring. Isildur's Bane."
+    },
+    {
+      "character": "DENETHOR",
+      "text": "It has fallen into the hands of the Elves. Everyone will try to claim it: Men, Dwarves, wizards. We cannot let that happen. This thing must come to Gondor."
+    },
+    {
+      "character": "BOROMIR",
+      "text": "Gondor."
+    },
+    {
+      "character": "DENETHOR",
+      "text": "It's dangerous, I know. Ever the Ring will seek to corrupt the hearts of lesser men. But you, you are strong and our need is great. It is our blood which is being spilled, our people who are dying. Sauron is biding his time. He's massing fresh armies. He will return. And when he does, we will be powerless to stop him. You must go. Bring me back this mighty gift."
+    },
+    {
+      "character": "BOROMIR",
+      "text": "No. My place is here with my people. Not in Rivendell."
+    },
+    {
+      "character": "DENETHOR",
+      "text": "Would you deny your own father?"
+    },
+    {
+      "character": "FARAMIR",
+      "text": "If there is need to go to Rivendell, send me in his stead."
+    },
+    {
+      "character": "DENETHOR",
+      "text": "You? Oh, I see. A chance for Faramir, captain of Gondor, to show his quality. I think not. I trust this mission only to your brother. The one who will not fail me."
+    },
+    {
+      "character": "BOROMIR",
+      "text": "Remember today, little brother."
+    },
+    {
+      "character": "MAN",
+      "text": "Captain Faramir. We found it."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "You must come with me. Now."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Down there."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "To enter the Forbidden Pool bears the penalty of death."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "They wait for my command. Shall they shoot?"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Rock and pool is nice and cool, so juicy sweet!\nI only wish to catch a fish, so juicy sweet!"
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Wait. This creature is bound to me. And I to him. He is our guide. Please, let me go down to him."
+    },
+    {
+      "character": "FRODO",
+      "text": "Sméagol. Master is here. Come, Sméagol. Trust master. Come."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "We must — go now?"
+    },
+    {
+      "character": "FRODO",
+      "text": "Sméagol, you must trust master. Follow me, come on. Come. Come, Sméagol. Nice Sméagol. That's it. Come on."
+    },
+    {
+      "character": "FRODO",
+      "text": "Don't hurt him! Sméagol don't struggle! Sméagol listen to me!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Master!"
+    },
+    {
+      "character": "FARAMIR",
+      "text": "That is enough."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Where are you leading them? Answer me!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Sméagol. Why does it cry, Sméagol?"
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Cruel men hurts us. Master tricksed us."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Of course he did. I told you he was tricksy. I told you he was false."
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Master is our friend — our friend."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Master betrayed us!"
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "No, not it's business. Leave us alone."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Filthy little hobbitses! They stole it from us!"
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "No… no."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "What did they steal?"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "My… Precious! Argh!"
+    },
+    {
+      "character": "SAM",
+      "text": "We have to get out of here. You go. Go now."
+    },
+    {
+      "character": "SAM",
+      "text": "You can do it. Use the Ring, Mister Frodo. Just this once. Put it on. Disappear."
+    },
+    {
+      "character": "FRODO",
+      "text": "I can't. You were right, Sam. You tried to tell me. I'm sorry. The Ring's taking me, Sam. If I put it on, he'll find me. He'll see."
+    },
+    {
+      "character": "SAM",
+      "text": "Mister Frodo…"
+    },
+    {
+      "character": "FARAMIR",
+      "text": "So… this is the answer to all the riddles. Here in the wild I have you. Two haflings and a host of men at my call."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "And the Ring of Power within my grasp."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "A chance for Faramir, captain of Gondor, to show his quality."
+    },
+    {
+      "character": "FRODO",
+      "text": "No!"
+    },
+    {
+      "character": "SAM",
+      "text": "Stop it! Leave him alone! Don't you understand?! He's got to destroy it. That's where we're going. To Mordor. To the Mountain of Fire."
+    },
+    {
+      "character": "MAN",
+      "text": "Osgiliath is under attack. They call for reinforcements."
+    },
+    {
+      "character": "SAM",
+      "text": "Please. It's such a burden. Will you not help him?"
+    },
+    {
+      "character": "MAN",
+      "text": "Captain?"
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Prepare to leave."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "The Ring will go to Gondor."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Mae carnen, Brego, mellon nîn."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Where is he! Where is he! Get out of my way! I'm gonna kill him! You are the luckiest, the cunningest, and most reckless man I ever knew!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Bless you, laddie!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Gimli, where is the king?"
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "Le abdollen."
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "You look terrible."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Hannon le."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "A great host, you say?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "All Isengard is emptied."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "How many?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Ten thousand strong at least."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Ten thousand?!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "It is an army bred for a single purpose: to destroy the world of Men."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "They will be here by nightfall."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Let them come."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "I want every man and strong lad able to bear arms, to be ready for battle by nightfall."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "We will cover the causeway and the gate from above. No army has ever breached the deeping wall or set foot inside the Hornburg."
+    },
+    {
+      "character": "GIMLI",
+      "text": "This is no rabble of mindless orcs. These are Uruk-hai. Their armor is thick and their shields broad."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "I have fought many wars, Master Dwarf. I know how to defend my own keep."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "They will break upon this fortress like water on rock. Saruman's hordes will pillage and burn, we've seen it before. Crops can be resown. Homes rebuilt. Within these walls, we will outlast them."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "They do not come to destroy Rohan's crops or villages. They come to destroy its people. Down to the last child!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "What would you have me do? Look at my men. Their courage hangs by a thread. If this is to be our end, then I would have them make such an end as to be worthy of remembrance!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Send out riders, my lord. You must call for aid."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "And who will come. Elves? Dwarves? We are not so lucky in our friends as you. The old alliances are dead."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Gondor will answer."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Gondor? Where was Gondor when the Westfold fell? Where was Gondor when our enemies closed in around us!?"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Where was Gon — No, my Lord Aragorn, we are alone."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Get the women and children into the caves."
+    },
+    {
+      "character": "GAMLING",
+      "text": "We need more time to lay provisions for a siege, lord —"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "There is no time. War is upon us!"
+    },
+    {
+      "character": "GAMLING",
+      "text": "Secure the gate."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "The Ents have not troubled about the wars of men and wizards for a very long time."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "But now something is about to happen that has not happened for an age:  Entmoot."
+    },
+    {
+      "character": "MERRY",
+      "text": "What's that?"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "It is a gathering."
+    },
+    {
+      "character": "MERRY",
+      "text": "A gathering of what?"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Beech, Oak, Chestnut, Ash. Good, good, good many have come."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Now we must decide if the Ents will go to war."
+    },
+    {
+      "character": "ROHAN MAN",
+      "text": "Come on people! Quickly, now!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "We'll place the reserves along the wall. They can support the archers from above the gate."
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "Aragorn, you must rest. You're no use to us half-alive."
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "Aragorn! I'm to be sent with the women into the caves."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "That is an honorable charge."
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "To mind the children, to find food and bedding when the men return. What renown is there in that?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "My lady, a time may come for valor without renown. Who then will your people look to in the last defense?"
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "Let me stand at your side."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "It is not in my power to command it."
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "You do not command the others to stay! They fight beside you because they would not be parted from you. Because they love you."
+    },
+    {
+      "character": "ÈOWYN",
+      "text": "I'm sorry."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Farmers, farriers, stable boys."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "These are no soldiers."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Most have seen too many winters!"
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "Or too few. Look at them. They're frightened. I can see it in their eyes."
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "Boe a hyn neled herain… dan caer menig!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Si beriathar hyn ammaeg na ned Edoras."
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "Aragorn, men i ndagor. Hýn ú ortheri. Natha daged aen!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Then I shall die as one them!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Let him go, lad. Let him be."
+    },
+    {
+      "character": "GAMLING",
+      "text": "Every villager able to wield a sword has been sent to the armory. My lord?"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Who am I,"
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "Aragorn, men i ndagor. Hýn ú ortheri. Natha daged aen! (They cannot win this fight. They are all going to die!)"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Then I shall die as one them!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Let him go, lad. Let him be."
+    },
+    {
+      "character": "GAMLING",
+      "text": "Every villager able to wield a sword has been sent to the armory. My lord?"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Who am I, Gamling?"
+    },
+    {
+      "character": "GAMLING",
+      "text": "You are our king, sire."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "And do you trust your king?"
+    },
+    {
+      "character": "GAMLING",
+      "text": "Your men, my lord, will follow you to whatever end."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "To whatever end."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Where is the horse and the rider. Where is the horn that was blowing."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "They have passed like rain on the mountains. Like wind in the meadow. The days have gone down in the west. Behind the hills, into shadow."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "How did it come to this."
+    },
+    {
+      "character": "MERRY",
+      "text": "It's been going for hours."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "They must have decided something by now."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Decided? No, we've only just finished saying good morning."
+    },
+    {
+      "character": "MERRY",
+      "text": "But it's nighttime already! You can't take forever."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Don't be hasty."
+    },
+    {
+      "character": "MERRY",
+      "text": "We're running out of time!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Give me your sword."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "What is your name?"
+    },
+    {
+      "character": "HÁLETH",
+      "text": "Háleth, son of Háma, my lord."
+    },
+    {
+      "character": "HÁLETH",
+      "text": "The men are saying that we will not live out the night. They say that it is hopeless."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "This is a good sword, Háleth, son of Háma."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "There is always hope."
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "We have trusted you this far and you have not led us astray. Forgive me. I was wrong to despair."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Ú-moe edamed, Legolas. (There is nothing to forgive, Legolas.)"
+    },
+    {
+      "character": "GIMLI",
+      "text": "If we had time, I'd get this adjusted."
+    },
+    {
+      "character": "GIMLI",
+      "text": "It's a little tight across the chest."
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "That is no orc horn!"
+    },
+    {
+      "character": "MAN",
+      "text": "Send for the king. Open the gate!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "How is this possible?"
+    },
+    {
+      "character": "HALDIR",
+      "text": "I bring word from Elrond of Rivendell. An alliance once existed between elves and men. Long ago we fought and died together."
+    },
+    {
+      "character": "HALDIR",
+      "text": "We come to honor that allegiance."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Mae govannen, Haldir! (Welcome, Haldir!)"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "You are most welcome."
+    },
+    {
+      "character": "HALDIR",
+      "text": "We are proud to fight alongside men, once more."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Argh. You could have picked a better spot."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Well lad, the luck you live by, let's hope it lasts the night."
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "Your friends are with you, Aragorn."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Let's hope they last the night."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "A Eruchîn, ú-dano i faelas a hyn an uben tanatha le faelas! (Show them no mercy! For you shall receive none!)"
+    },
+    {
+      "character": "GIMLI",
+      "text": "What's happening out there?"
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "Shall I describe it to you? Or would you like me to find you a box?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Dartho! (Hold!)"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "So it begins."
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "Faeg i-varv dîn na lanc a nu ranc. (Their armor is weak at the neck and under the arms.)"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Leithio i philinn! (Fire!)"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Anybody hit anything?"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Give them a volley."
+    },
+    {
+      "character": "GAMLING",
+      "text": "Fire!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Tangado a chadad! (Keep firing!)"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Come on! Send them to me!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Pendraid! (Ladders!)"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Good!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Legolas, two already!"
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "I'm on seventeen!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Argh! I'll have no pointy-ear outscoring me!"
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "Nineteen!"
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Merry."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "We have just agreed."
+    },
+    {
+      "character": "MERRY",
+      "text": "Yes?"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "I have told your names to the Entmoot and we have agreed: you are not orcs."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Well that's good news."
+    },
+    {
+      "character": "MERRY",
+      "text": "And what about Saruman? Have you come to a decision about him."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Now don't be hasty, Master Meriadoc."
+    },
+    {
+      "character": "MERRY",
+      "text": "Hasty?! Our friends are out there. They need our help! They cannot fight this war on their own."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "War, yes. It affects us all. But you must understand, young hobbit. It takes a long time to say anything in old Entish, and we never say anything unless it is worth taking a long time to say."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Seventeen. Eighteen. Nineteen. Twenty. Twenty-one. Twenty-two."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Northway! Nauthannen!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Is this it? Is this all you can conjure, Saruman?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Togo hon dad, Legolas! Dago hon! (Legolas, stop him! Kill him!)"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Brace the gates!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Hold them! Stand fast!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Gimli! Prepare to charge!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Hado i philinn! (Hurl the arrows!)"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Herio! (Charge!)"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "The Ents cannot hold back this war. We must weather such things as we have always done."
+    },
+    {
+      "character": "MERRY",
+      "text": "How can that be your decision?!"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "This is not our war."
+    },
+    {
+      "character": "MERRY",
+      "text": "But your part of this world! Aren't you?"
+    },
+    {
+      "character": "MERRY",
+      "text": "You must help. Please. You must do something."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "You are young and brave, master Merry. But your part in this tale is over. Go back to your home."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Maybe Treebeard's right. We don't belong here, Merry. It's too big for us. What can we do in the end?"
+    },
+    {
+      "character": "PIPPIN",
+      "text": "We've got the Shire. Maybe we should go home."
+    },
+    {
+      "character": "MERRY",
+      "text": "The fires of Isengard will spread. And the woods of Tuckburough and Buckland will burn. And all that was once green and good in this world will be gone."
+    },
+    {
+      "character": "MERRY",
+      "text": "There won't be a Shire, Pippin."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Aragorn, pull back to the gate!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Am Marad! (To the Keep!)"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Nan barad! Haldir! Nan barad! (Pull back! Haldir! Pull back!)"
+    },
+    {
+      "character": "GIMLI",
+      "text": "What are you doing? Stop it!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Haldir!"
+    },
+    {
+      "character": "GAMLING",
+      "text": "Brace the gate!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "To the gate! Draw your swords!"
+    },
+    {
+      "character": "GAMLING",
+      "text": "We can't hold much longer."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Hold them!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "How long do you need?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "As long as you can give me!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Gimli!"
+    },
+    {
+      "character": "GIMLI",
+      "text": "Come on. We can take 'em!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "It's a long way."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Toss me."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "What?"
+    },
+    {
+      "character": "GIMLI",
+      "text": "I cannot jump the distance so you have to toss me."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Eh… Don't tell the elf."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Not a word."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Shore up the door!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Gimli! Aragorn! Get out of there!"
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "Aragorn!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Pull everybody back. Pull them back!"
+    },
+    {
+      "character": "GAMLING",
+      "text": "Fall back! Fall back!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "They have broken through. The castle is breached! Retreat!"
+    },
+    {
+      "character": "GAMLING",
+      "text": "Fall back! Retreat! Retreat!"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "I will leave you at the western borders of the forest. You can make your way north to your homeland from there."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Wait! Stop! Stop! Turn around. Turn around. Take us south!"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "South? But that will lead you past — Isengard."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Yes. Exactly. If we go south we can slip past Saruman unnoticed. The closer we are to danger, the farther we are from harm. It's the last thing he'll expect."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Hmm. That doesn't make sense to me. But then, you are very small. Perhaps your right. South it is then."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Hold on, little Shirelings. I always like going south. Somehow it feels like going down hill."
+    },
+    {
+      "character": "MERRY",
+      "text": "Are you mad, we'll be caught."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "No we won't. Not this time."
+    },
+    {
+      "character": "MAN",
+      "text": "Look. Osgiliath burns. Mordor has come."
+    },
+    {
+      "character": "FRODO",
+      "text": "The Ring will not save Gondor. It has only the power to destroy."
+    },
+    {
+      "character": "FRODO",
+      "text": "Please, let me go."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Hurry."
+    },
+    {
+      "character": "FRODO",
+      "text": "Faramir, you must let me go!"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "And a little family of field mice that climb up sometimes and it tickle me awfully. They're always trying to get somewhere —"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Many of these trees were my friends. Creatures I had known from nut and acorn."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "I'm sorry, Treebeard."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "They had voices of their own."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Saruman! A wizard should know better!"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "There is no curse in elvish, entish or the tongues of men for this treachery."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Look at the trees, they're moving!"
+    },
+    {
+      "character": "MERRY",
+      "text": "Where are they going?"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "They have business with the orcs. My business is with Isengard tonight. With a rock and stone."
+    },
+    {
+      "character": "MERRY",
+      "text": "Yes!"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Rárum-rum! Come my friends. The Ents are going to war. It is likely that we go to our doom. The last march of the Ents."
+    },
+    {
+      "character": "MADRIL",
+      "text": "Faramir, orcs have taken the eastern shore. Their numbers are too great. By nightfall we'll be overrun."
+    },
+    {
+      "character": "SAM",
+      "text": "Mister Frodo!"
+    },
+    {
+      "character": "FRODO",
+      "text": "It's calling to him, Sam. His eye is almost on me."
+    },
+    {
+      "character": "SAM",
+      "text": "Hold on, Mister Frodo."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Take them to my father. Tell him, Faramir sends a mighty gift. A weapon that will change our fortunes in this war."
+    },
+    {
+      "character": "SAM",
+      "text": "You wanna know what happened to Boromir? You wanna know why your brother died?"
+    },
+    {
+      "character": "SAM",
+      "text": "He tried to take the Ring from Frodo. After swearing an oath to protect him. He tried to kill him! The Ring drove your brother mad!"
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Take them to my father. Tell him, Faramir sends a mighty gift. A weapon that will change our fortunes in this war."
+    },
+    {
+      "character": "SAM",
+      "text": "You wanna know what happened to Boromir? You wanna know why your brother died?"
+    },
+    {
+      "character": "SAM",
+      "text": "He tried to take the Ring from Frodo. After swearing an oath to protect him. He tried to kill him! The Ring drove your brother mad!"
+    },
+    {
+      "character": "SAM",
+      "text": "Mister Frodo?"
+    },
+    {
+      "character": "FRODO",
+      "text": "They're here. They've come."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Nazgûl!"
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Stay here. Keep out of sight. Take cover!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "The fortress is taken. It is over."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "You said this fortress would never fall while your men defend it. They still defend it. They have died defending it!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Is there no other way for the women and children to get out of the caves?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Is there no other way?"
+    },
+    {
+      "character": "GAMLING",
+      "text": "There is one passage. It leads into the mountains. But they will not get far. The Uruk-hai are too many."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Send word for the women and children to make for the mountain pass. And barricade the entrance!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "So much death. What can men do against such reckless hate?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Ride out with me."
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Ride out and meet them."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "For death and glory?"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "For Rohan. For your people."
+    },
+    {
+      "character": "GIMLI",
+      "text": "The sun is rising."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Look to my coming at first light on the fifth day. At dawn, look to the East."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Yes. Yes! The horn of Helm Hammerhand shall sound in the deep, one last time."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Yes!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Let this be the hour when we draw swords together."
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Fell deeds awake. Now for wrath. Now for ruin. And the red dawn!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Forð Eorlingas!"
+    },
+    {
+      "character": "ARAGORN",
+      "text": "Gandalf."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Théoden king stands alone."
+    },
+    {
+      "character": "ÈOMER",
+      "text": "Not alone."
+    },
+    {
+      "character": "ÈOMER",
+      "text": "Rohirrim!"
+    },
+    {
+      "character": "THÉODEN",
+      "text": "Èomer!"
+    },
+    {
+      "character": "ÈOMER",
+      "text": "To the king!"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "A hit. A fine hit."
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Break the dam! Release the river!"
+    },
+    {
+      "character": "MERRY",
+      "text": "Pippin, hold on!"
+    },
+    {
+      "character": "TREEBEARD",
+      "text": "Hold on, little hobbits!"
+    },
+    {
+      "character": "SAM",
+      "text": "What are you doing?"
+    },
+    {
+      "character": "SAM",
+      "text": "Where are you going!"
+    },
+    {
+      "character": "SAM",
+      "text": "It's me. It's your Sam."
+    },
+    {
+      "character": "SAM",
+      "text": "Don't you know your Sam?"
+    },
+    {
+      "character": "FRODO",
+      "text": "I can't do this, Sam."
+    },
+    {
+      "character": "SAM",
+      "text": "I know. It's all wrong. By rights we shouldn't even be here. But we are."
+    },
+    {
+      "character": "SAM",
+      "text": "It's like in the great stories, Mister Frodo. The ones that really mattered."
+    },
+    {
+      "character": "SAM",
+      "text": "Full of darkness and danger they were. And sometimes you didn't want to know the end. Because how could the end be happy. How could the world go back to the way it was when so much bad had happened."
+    },
+    {
+      "character": "SAM",
+      "text": "But in the end, it's only a passing thing, this shadow. Even darkness must pass. A new day will come. And when the sun shines it will shine out the clearer."
+    },
+    {
+      "character": "SAM",
+      "text": "Those were the stories that stayed with you. That meant something. Even if you were too small to understand why. But I think, Mister Frodo, I do understand. I know now. Folk in those stories had lots of chances of turning back only they didn't. Because they were holding on to something."
+    },
+    {
+      "character": "FRODO",
+      "text": "What are we holding on to, Sam?"
+    },
+    {
+      "character": "SAM",
+      "text": "That there's some good in this world, Mister Frodo. And it's worth fighting for."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "I think at last we understand one another, Frodo Baggins."
+    },
+    {
+      "character": "MADRIL",
+      "text": "You know the laws of our country. The laws of your father. If you let them go, your life will be forfeit."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Then it is forfeit. Release them."
+    },
+    {
+      "character": "ÈOMER",
+      "text": "Stay out of the forest! Keep away from the trees!"
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "Final count: fourty-two."
+    },
+    {
+      "character": "GIMLI",
+      "text": "Fourty-two?! That's not bad for a pointy-eared Elvish princeling."
+    },
+    {
+      "character": "GIMLI",
+      "text": "I myself am sitting pretty on fourty-three."
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "Fourty-three."
+    },
+    {
+      "character": "GIMLI",
+      "text": "He was already dead."
+    },
+    {
+      "character": "LEGOLAS",
+      "text": "He was twitching."
+    },
+    {
+      "character": "GIMLI",
+      "text": "He was twitching because he's got my axe embedded in his nervous system!"
+    },
+    {
+      "character": "MERRY",
+      "text": "He doesn't look too happy, does he?"
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Not too happy at all, Merry."
+    },
+    {
+      "character": "MERRY",
+      "text": "Still, I suppose the view would be quite nice form up there."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "Oh yes, a quality establishment. I hear the staff are very good."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "What are you doing?"
+    },
+    {
+      "character": "MERRY",
+      "text": "Nothing. The world's back to normal, that's all."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "No it isn't. I'm starving."
+    },
+    {
+      "character": "MERRY",
+      "text": "Good luck trying to find something decent around here. Probably only dead rats and moldy bread."
+    },
+    {
+      "character": "MERRY",
+      "text": "Saruman's storeroom!"
+    },
+    {
+      "character": "PIPPIN",
+      "text": "I don't believe it."
+    },
+    {
+      "character": "MERRY",
+      "text": "It can't be."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "It is."
+    },
+    {
+      "character": "MERRY",
+      "text": "Longbottom Leaf. The finest pipe-weed in South Farthing."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "It's perfect. One barrel each. Wait. Do you think we should share it with Treebeard?"
+    },
+    {
+      "character": "MERRY",
+      "text": "Share it? No. No. Dead plant and all that. Don't think he'd understand. Could be a distant relative."
+    },
+    {
+      "character": "PIPPIN",
+      "text": "I get it. Don't be hasty."
+    },
+    {
+      "character": "MERRY",
+      "text": "Exactly. Bar-hrum."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "This is the old sewer. Runs right under the river through to the edge of the city. You'll find cover in the woods there."
+    },
+    {
+      "character": "SAM",
+      "text": "Captain Faramir, you have shown your quality, sir. The very highest."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "The Shire must truly be a great realm, Master Gamgee, where gardeners are held in high honor. What road will you take once you reach the woods?"
+    },
+    {
+      "character": "FRODO",
+      "text": "Gollum says there's a path near Minas Morgul that climbs up into the mountains."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Cirith Ungol?"
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Is that it's name?"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "No. No! Yes."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Frodo, they say a dark terror dwells in the passes above Minas Morgul. You cannot go that way."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "It is the only way. Master says we must go to Mordor, so we must try."
+    },
+    {
+      "character": "FRODO",
+      "text": "I must."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "Go, Frodo. Go with the goodwill of all Men."
+    },
+    {
+      "character": "FRODO",
+      "text": "Thank you."
+    },
+    {
+      "character": "FARAMIR",
+      "text": "May death find you quickly if you bring them to harm."
+    },
+    {
+      "character": "SAM",
+      "text": "Come on. Keep up! Mister Frodo didn't mean for them Rangers to hurt you. You know that, don't you? He was tryin' to save you, see?"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Save me?"
+    },
+    {
+      "character": "SAM",
+      "text": "So there's no hard feelings. Forgive and forget."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "No, no. No hard feelings."
+    },
+    {
+      "character": "SAM",
+      "text": "Very decent of you. Very decent indeed, Gollum."
+    },
+    {
+      "character": "GANDALF",
+      "text": "Sauron's wrath will be terrible, his retribution swift."
+    },
+    {
+      "character": "GANDALF",
+      "text": "The battle for Helm's Deep is over. The battle for Middle-Earth is about to begin. All our hopes now lie with two little hobbits. Somewhere in the wilderness."
+    },
+    {
+      "character": "SAM",
+      "text": "I wonder if we'll ever be put into songs or tales."
+    },
+    {
+      "character": "FRODO",
+      "text": "What?"
+    },
+    {
+      "character": "SAM",
+      "text": "I wonder if people will ever say, 'Let's hear about Frodo and the Ring.' And they'll say 'Yes, that's one of my favorite stories. Frodo was really courageous, wasn't he, dad.' 'Yes, my boy, the most famousest of hobbits. And that's saying a lot.'"
+    },
+    {
+      "character": "FRODO",
+      "text": "You left out one of the chief characters. Samwise the Brave. I want to hear more about Sam."
+    },
+    {
+      "character": "FRODO",
+      "text": "Frodo wouldn't have got far without Sam."
+    },
+    {
+      "character": "SAM",
+      "text": "Now Mister Frodo, you shouldn't make fun. I was being serious."
+    },
+    {
+      "character": "FRODO",
+      "text": "So was I."
+    },
+    {
+      "character": "SAM",
+      "text": "Samwise the Brave."
+    },
+    {
+      "character": "FRODO",
+      "text": "Sméagol!"
+    },
+    {
+      "character": "SAM",
+      "text": "We're not gonna wait for you. Come on."
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Master — Master looks after us. Master wouldn't hurt us."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Master broke his promise!"
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Don't ask Sméagol. Poor, poor Sméagol."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Master betrayed us! Wicked, tricksy, false! We ought to ring his filthy little neck!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Kill him! Kill him! Kill them both. Then we take the Precious and we be the master."
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "But the fat hobbit. He knows. Eyes always watching."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Then we stabs them out. Put out his eyses. And make him crawl."
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Yes! Yes! Yes!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Kill them both."
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Yes! No. No. It's too risky, it's too risky."
+    },
+    {
+      "character": "SAM",
+      "text": "Where's he gone? Oi Gollum, where are you?"
+    },
+    {
+      "character": "FRODO",
+      "text": "Sméagol!"
+    },
+    {
+      "character": "GOLLUM",
+      "text": "We could let her do it."
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Yes. She could do it."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Yes, Precious she could. And then we takes it once they're dead."
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Once they're dead. Hush!"
+    },
+    {
+      "character": "SMÉAGOL",
+      "text": "Come on, hobbits. Long ways to go yet. Sméagol will show you the way."
+    },
+    {
+      "character": "GOLLUM",
+      "text": "Follow me."
+    }
+  ]
+}
