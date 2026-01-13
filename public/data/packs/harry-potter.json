@@ -13,7 +13,13 @@
     "hp-deathly-hallows-2"
   ],
   "theme": {
-    "primary": "#740001",
-    "secondary": "#d3a625"
+    "primary": "#d4af37",
+    "bgColor": "#2a0000",
+    "containerBg": "#fff5e6",
+    "accentColor": "#740001",
+    "btnText": "white",
+    "cardGradientStart": "#2a0000",
+    "cardGradientEnd": "#740001",
+    "cardBorder": "#d4af37"
   }
 }

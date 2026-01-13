@@ -9,22 +9,6 @@
   --script-line-alt: #fafafa;
 }
 
-body.theme-hp {
-  --primary-color: #d4af37;
-  --bg-color: #2a0000;
-  --container-bg: #fff5e6;
-  --accent-color: #740001;
-  --btn-text: white;
-}
-
-body.theme-the-lord-of-the-rings {
-  --primary-color: #d4af37;
-  --bg-color: #1a2412;
-  --container-bg: #f5f0e8;
-  --accent-color: #2d5016;
-  --btn-text: white;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -170,7 +154,14 @@ body {
 
 .footer-attempts {
   font-family: 'Courier New', Courier, monospace;
-  color: #666;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .footer-button-wrapper {
@@ -227,49 +218,6 @@ h2 {
 .pack-card .movie-count {
   color: #666;
   font-size: 0.9rem;
-}
-
-/* Themed pack cards */
-.pack-card[data-pack-id="harry-potter"] {
-  background: linear-gradient(135deg, #2a0000 0%, #740001 100%);
-  border-color: #d4af37;
-}
-
-.pack-card[data-pack-id="harry-potter"] h3 {
-  color: #d4af37;
-}
-
-.pack-card[data-pack-id="harry-potter"] .movie-count {
-  color: #d4af37;
-  opacity: 0.8;
-}
-
-.pack-card[data-pack-id="shrek"] {
-  background: linear-gradient(135deg, #4c6827 0%, #8c5a2b 100%);
-  border-color: #8c5a2b;
-}
-
-.pack-card[data-pack-id="shrek"] h3 {
-  color: #e0f0d0;
-}
-
-.pack-card[data-pack-id="shrek"] .movie-count {
-  color: #e0f0d0;
-  opacity: 0.8;
-}
-
-.pack-card[data-pack-id="the-lord-of-the-rings"] {
-  background: linear-gradient(135deg, #1a2412 0%, #2d5016 100%);
-  border-color: #d4af37;
-}
-
-.pack-card[data-pack-id="the-lord-of-the-rings"] h3 {
-  color: #d4af37;
-}
-
-.pack-card[data-pack-id="the-lord-of-the-rings"] .movie-count {
-  color: #d4af37;
-  opacity: 0.8;
 }
 
 /* Script formatting */

@@ -1,0 +1,16 @@
+{
+  "id": "shrek",
+  "name": "Shrek",
+  "type": "series",
+  "movies": ["shrek-1", "shrek-2", "shrek-3", "shrek-4"],
+  "theme": {
+    "primary": "#7cb342",
+    "bgColor": "#5d4037",
+    "containerBg": "#faf5e9",
+    "accentColor": "#558b2f",
+    "btnText": "white",
+    "cardGradientStart": "#5d4037",
+    "cardGradientEnd": "#6d4c41",
+    "cardBorder": "#7cb342"
+  }
+}

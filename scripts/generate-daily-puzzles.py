@@ -180,8 +180,7 @@ class PuzzleGenerator:
                 'end': end_date
             },
             'totalPuzzles': (datetime.fromisoformat(end_date) - datetime.fromisoformat(start_date)).days + 1,
-            'cycleLength': total_lines,
-            'theme': pack.get('theme', {})
+            'cycleLength': total_lines
         }
 
     def generate_for_pack(self, pack_id, days=365):
