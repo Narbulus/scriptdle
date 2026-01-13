@@ -4,7 +4,7 @@ export async function renderHome() {
   const app = document.getElementById('app');
 
   // Remove any active themes when returning to home
-  document.body.classList.remove('theme-hp');
+  document.body.classList.remove('theme-hp', 'theme-the-lord-of-the-rings');
 
   try {
     const response = await fetch('/data/index.json');
