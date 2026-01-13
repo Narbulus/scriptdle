@@ -27,7 +27,10 @@ __pycache__/
 venv/
 
 # Pipeline data (downloaded scripts, subtitles, outputs)
-data/
+/data/
+
+# But DO track the public game data
+!/public/data/
 
 # Git worktrees
 .worktrees/

@@ -1,0 +1,10 @@
+{
+  "id": "the-lord-of-the-rings",
+  "name": "The Lord of the Rings",
+  "type": "series",
+  "movies": ["the-lord-of-the-rings-fotr", "the-lord-of-the-rings-ttt", "the-lord-of-the-rings-rotk"],
+  "theme": {
+    "primary": "#d4af37",
+    "secondary": "#2d5016"
+  }
+}
