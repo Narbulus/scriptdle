@@ -32,6 +32,9 @@ export async function renderPlay(params) {
       };
       const scripts = { [movieId]: script };
 
+      // Set page title
+      document.title = `Scriptle - A daily ${script.title} movie quote game`;
+
       // Apply theme
       applyTheme(pack);
 
@@ -73,6 +76,10 @@ export async function renderPlay(params) {
         name: packData.name,
         theme: packData.theme
       };
+
+      // Set page title
+      document.title = `Scriptle - A daily ${packData.name} movie quote game`;
+
       applyTheme(pack);
 
       // Initialize daily game
