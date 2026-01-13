@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "generate:daily": "python3 scripts/generate-daily-puzzles.py --days 365",
+    "build": "npm run generate:daily && vite build",
     "preview": "vite preview",
     "generate-data": "python3 parse_all.py"
   },
