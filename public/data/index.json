@@ -1,7 +1,8 @@
 {
   "featured": [
     "harry-potter",
-    "the-lord-of-the-rings"
+    "the-lord-of-the-rings",
+    "shrek"
   ],
   "packs": [
     {
@@ -13,6 +14,11 @@
       "id": "the-lord-of-the-rings",
       "name": "The Lord of the Rings",
       "movieCount": 3
+    },
+    {
+      "id": "shrek",
+      "name": "Shrek",
+      "movieCount": 4
     }
   ]
 }

@@ -46,10 +46,17 @@ export async function renderPlay(params) {
       // Pack mode - use pre-generated daily puzzle
       const today = new Date().toISOString().split('T')[0];
 
+      // Fetch pack definition for theme
+      const packRes = await fetch(`/data/packs/${packId}.json`);
+      if (!packRes.ok) {
+        throw new Error(`Pack "${packId}" not found`);
+      }
+      const packData = await packRes.json();
+
       // Fetch manifest
       const manifestRes = await fetch(`/data/daily/${packId}/manifest.json`);
       if (!manifestRes.ok) {
-        throw new Error(`Pack "${packId}" not found or has no daily puzzles`);
+        throw new Error(`Pack "${packId}" has no daily puzzles`);
       }
       const manifest = await manifestRes.json();
 
@@ -60,11 +67,11 @@ export async function renderPlay(params) {
       }
       const dailyPuzzle = await puzzleRes.json();
 
-      // Apply theme from manifest
+      // Apply theme from pack definition
       const pack = {
         id: packId,
-        name: manifest.packName,
-        theme: manifest.theme
+        name: packData.name,
+        theme: packData.theme
       };
       applyTheme(pack);
 
@@ -93,19 +100,13 @@ export async function renderPlay(params) {
 }
 
 function applyTheme(pack) {
-  // Remove existing theme classes
-  document.body.classList.remove('theme-hp', 'theme-the-lord-of-the-rings');
-
-  // Apply pack-specific theme based on ID
-  if (pack.id === 'harry-potter' || pack.id.startsWith('hp-')) {
-    document.body.classList.add('theme-hp');
-  } else if (pack.id === 'the-lord-of-the-rings' || pack.id.startsWith('the-lord-of-the-rings-')) {
-    document.body.classList.add('theme-the-lord-of-the-rings');
-  }
-
-  // Could also use pack.theme for custom colors via CSS variables
+  // Apply theme dynamically via CSS variables
   if (pack.theme) {
-    document.documentElement.style.setProperty('--pack-primary', pack.theme.primary);
-    document.documentElement.style.setProperty('--pack-secondary', pack.theme.secondary);
+    const t = pack.theme;
+    document.documentElement.style.setProperty('--primary-color', t.primary || '#333');
+    document.documentElement.style.setProperty('--bg-color', t.bgColor || '#f4f4f4');
+    document.documentElement.style.setProperty('--container-bg', t.containerBg || 'white');
+    document.documentElement.style.setProperty('--accent-color', t.accentColor || '#555');
+    document.documentElement.style.setProperty('--btn-text', t.btnText || 'white');
   }
 }

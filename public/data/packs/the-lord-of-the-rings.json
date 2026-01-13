@@ -5,6 +5,12 @@
   "movies": ["the-lord-of-the-rings-fotr", "the-lord-of-the-rings-ttt", "the-lord-of-the-rings-rotk"],
   "theme": {
     "primary": "#d4af37",
-    "secondary": "#2d5016"
+    "bgColor": "#1a2412",
+    "containerBg": "#f5f0e8",
+    "accentColor": "#2d5016",
+    "btnText": "white",
+    "cardGradientStart": "#1a2412",
+    "cardGradientEnd": "#2d5016",
+    "cardBorder": "#d4af37"
   }
 }
