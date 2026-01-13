@@ -401,9 +401,7 @@ export class Game {
   }
 
   generateShareString(success) {
-    const date = new Date().toISOString().split('T')[0];
-    const attemptCount = success ? this.guessHistory.length : 'X';
-    let grid = `Scriptle (${this.pack.name}) ${date} ${attemptCount}/5\n\n`;
+    let grid = `Scriptle: ${this.pack.name}\n\n`;
 
     let movieRow = '';
     let charRow = '';
