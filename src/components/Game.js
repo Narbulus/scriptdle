@@ -114,11 +114,6 @@ export class Game {
     const target = this.allLines[this.targetIndex];
 
     this.container.innerHTML = `
-      <!-- Navigation Bar -->
-      <a href="/" data-link class="nav-bar nav-bar-link">
-        <div class="nav-logo">Scriptle</div>
-      </a>
-
       <!-- Script Title Section -->
       <div class="script-title-section">
         <div class="script-title">${this.pack.name}</div>
