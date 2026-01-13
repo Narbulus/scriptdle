@@ -1,0 +1,2496 @@
+{
+  "id": "shrek-1",
+  "title": "Shrek",
+  "year": 2001,
+  "characters": [
+    "BISHOP",
+    "BLIND MOUSE",
+    "CROWD",
+    "DONKEY",
+    "DWARF",
+    "DWARVES",
+    "FIONA",
+    "GINGY",
+    "GORDER",
+    "GUARD",
+    "GUARDS",
+    "LITTLE PIG",
+    "LORD FARQUAAD",
+    "MAGIC MIRROR",
+    "MAN",
+    "MERRYMAN",
+    "MERRYMEN",
+    "MONSIEUR HOOD",
+    "MOUSE 1",
+    "MOUSE 2",
+    "PINOCCHIO",
+    "SHREK",
+    "THE CAPTAIN",
+    "THELONIUS",
+    "WOLF",
+    "WOMAN",
+    "WOODEN PEOPLE"
+  ],
+  "lines": [
+    {
+      "character": "MOUSE 1",
+      "text": "Well, gents, it's a far cry from the farm, but what choice do we have?"
+    },
+    {
+      "character": "MOUSE 2",
+      "text": "It's not home, but it'll do just fine."
+    },
+    {
+      "character": "GORDER",
+      "text": "What a lovely bed."
+    },
+    {
+      "character": "SHREK",
+      "text": "Got ya."
+    },
+    {
+      "character": "GORDER",
+      "text": "I found some cheese."
+    },
+    {
+      "character": "SHREK",
+      "text": "Ow!"
+    },
+    {
+      "character": "GORDER",
+      "text": "Blah! Awful stuff."
+    },
+    {
+      "character": "BLIND MOUSE",
+      "text": "Is that you, Gorder?"
+    },
+    {
+      "character": "GORDER",
+      "text": "How did you know?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Enough! What are you doing in my house? Hey!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, no, no, no. Dead broad off the table!"
+    },
+    {
+      "character": "DWARF",
+      "text": "Where are we supposed to put her? The bed's taken."
+    },
+    {
+      "character": "SHREK",
+      "text": "Huh?"
+    },
+    {
+      "character": "WOLF",
+      "text": "What?"
+    },
+    {
+      "character": "SHREK",
+      "text": "I live in a swamp. I put up signs. I'm a terrifying ogre! What do I have to do get a little privacy?!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, no. Oh, no. No! No!"
+    },
+    {
+      "character": "SHREK",
+      "text": "WHAT ARE YOU DOING IN MY SWAMP?!?!"
+    },
+    {
+      "character": "SHREK",
+      "text": "All right, get out of here. All of you, move it! Come on! Let's go! Hapaya! Hapaya! Hey!"
+    },
+    {
+      "character": "DWARVES",
+      "text": "Quickly. Come on!"
+    },
+    {
+      "character": "SHREK",
+      "text": "No, no! No, no. Not there! Not there!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hey, don't look at me. I didn't invite them."
+    },
+    {
+      "character": "PINOCCHIO",
+      "text": "Well gosh, no one invited us."
+    },
+    {
+      "character": "SHREK",
+      "text": "What?!"
+    },
+    {
+      "character": "PINOCCHIO",
+      "text": "We were forced to come here!"
+    },
+    {
+      "character": "SHREK",
+      "text": "By who?!"
+    },
+    {
+      "character": "LITTLE PIG",
+      "text": "Lord Farquaad. He huffed and he puffed and he...signed an eviction notice."
+    },
+    {
+      "character": "SHREK",
+      "text": "All right. Who knows where this... \"Farquaad\" guy is?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, I do. I know where he is!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Does anyone else know where to find him?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Anyone at all?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Me! Me!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Anyone?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh! Oh, pick me! Oh, I know! I know! Me, me!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Okay, fine. Attention all...fairy tale things. Do not get comfortable! Your welcome is officially worn out! In fact, I'm gonna see this guy Farquaad right now and get you all off my land and back where you came from!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh! You! You're coming with me."
+    },
+    {
+      "character": "DONKEY",
+      "text": "All right, that's what I like to hear, man. Shrek and Donkey, 2 stalwart friends, off on a whirlwind big-city adventure. I love it!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "\"On the road again...\", sing it with me, Shrek!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "\"I can't wait to get on the road again.\""
+    },
+    {
+      "character": "SHREK",
+      "text": "What did I say about singing?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Can I whistle?"
+    },
+    {
+      "character": "SHREK",
+      "text": "No."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Well, can I hum it?"
+    },
+    {
+      "character": "SHREK",
+      "text": "All right, hum it."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "That's enough. He's ready to talk."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Run, run, run, as fast as you can. You can't catch me. I'm the gingerbread man!"
+    },
+    {
+      "character": "GINGY",
+      "text": "You're a monster!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "I'm not the monster here,\nyou are. You and the rest of that fairy tale trash, poisoning my perfect world. Now, tell me! Where are the others?!"
+    },
+    {
+      "character": "GINGY",
+      "text": "Eat me!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Ugh! I've tried to be fair to you creatures. Now my patience has reached its end! Tell me or I'll...!"
+    },
+    {
+      "character": "GINGY",
+      "text": "No, no, not the buttons. Not my gumdrop buttons!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "All right then. Who's hiding them?"
+    },
+    {
+      "character": "GINGY",
+      "text": "Okay, I'll tell you. Do you know the muffin man?"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "The muffin man?"
+    },
+    {
+      "character": "GINGY",
+      "text": "The muffin man."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Yes, I know the muffin man. Who lives on\nDrury Lane?"
+    },
+    {
+      "character": "GINGY",
+      "text": "Well, she's married to the muffin man."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "The muffin man?"
+    },
+    {
+      "character": "GINGY",
+      "text": "The muffin man!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "She's married to the muffin man."
+    },
+    {
+      "character": "THE CAPTAIN",
+      "text": "My lord! We've found it."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Then what are you waiting for? Bring it in!"
+    },
+    {
+      "character": "GINGY",
+      "text": "Ohhhh..."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Magic mirror..."
+    },
+    {
+      "character": "GINGY",
+      "text": "Don't tell him anything!"
+    },
+    {
+      "character": "GINGY",
+      "text": "No!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Evening. Mirror, mirror on the wall, is this not the most perfect kingdom of them all?"
+    },
+    {
+      "character": "MAGIC MIRROR",
+      "text": "Well, technically you're not a king."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Uh, Thelonious?"
+    },
+    {
+      "character": "MAGIC MIRROR",
+      "text": "What I mean is you're not a king\nyet. But you can become one. All you have to do is marry a princess."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Go on."
+    },
+    {
+      "character": "MAGIC MIRROR",
+      "text": "So, just sit back and relax, my lord, because it's time for you to meet today's eligible bachelorettes. And...here they are!"
+    },
+    {
+      "character": "MAGIC MIRROR",
+      "text": "Bachelorette number 1 is a mentally abused shut-in from a kingdom far, far away. She likes sushi and hot tubbing anytime! Her hobbies include cooking and cleaning for her 2 evil sisters. Please welcome...\nCinderella!"
+    },
+    {
+      "character": "MAGIC MIRROR",
+      "text": "Bachelorette number 2 is a cape-wearing girl from the land of fancy. Although she lives with 7 other men, she's not easy."
+    },
+    {
+      "character": "MAGIC MIRROR",
+      "text": "Just kiss her dead, frozen lips and find out what a live wire she is. Come on, give it up for Snow White!"
+    },
+    {
+      "character": "MAGIC MIRROR",
+      "text": "And last, but certainly not last, bachelorette number 3 is a fiery redhead from a\ndragon-guarded castle surrounded by hot boiling lava!"
+    },
+    {
+      "character": "MAGIC MIRROR",
+      "text": "But don't let that cool you off. She's a loaded pistol who likes pi\u00f1a coladas and getting caught in the rain. Yours for the rescuing,\nPrincess Fiona!"
+    },
+    {
+      "character": "MAGIC MIRROR",
+      "text": "So, will it be: bachelorette number 1, bachelorette number 2, or bachelorette number 3?"
+    },
+    {
+      "character": "GUARDS",
+      "text": "2! 2! 3! 3! 2! 2! 3!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "2? 3? 1? 3?"
+    },
+    {
+      "character": "THELONIUS",
+      "text": "3! Pick number 3, my lord!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Okay, okay! Uh... number 3!"
+    },
+    {
+      "character": "MAGIC MIRROR",
+      "text": "Lord Farquaad, you've chosen Princess Fiona."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Princess...Fiona...she's perfect. All I have to do is just find someone who can go..."
+    },
+    {
+      "character": "MAGIC MIRROR",
+      "text": "But I probably should mention the little thing that happens at night."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "I'll do it."
+    },
+    {
+      "character": "MAGIC MIRROR",
+      "text": "Yes, but after sunset..."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Silence! I will make this Princess Fiona my queen, and\nDuloc will finally have the perfect king! Captain, assemble your finest men. We're going to have a tournament!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "But that's it. That's it right there. That's Duloc. I told ya I'd find it."
+    },
+    {
+      "character": "SHREK",
+      "text": "So, that must be Lord Farquaad's castle."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Uh-huh. That's the place."
+    },
+    {
+      "character": "SHREK",
+      "text": "Do you think maybe he's compensating for something?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hey, wait. Wait up, Shrek."
+    },
+    {
+      "character": "MAN",
+      "text": "Hurry, darling. We're late. Hurry!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Hey, you!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Wait a second. Look, I'm not gonna eat you. I just-- I just --"
+    },
+    {
+      "character": "SHREK",
+      "text": "It's quiet. Too quiet. Where is everybody?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hey, look at this!"
+    },
+    {
+      "character": "WOODEN PEOPLE",
+      "text": "Welcome to Duloc, such a perfect town / Here we have some rules let us lay them down / Don't make waves, stay in line and we'll get along  fine / Duloc is perfect place / Please keep off of the grass / Shine your shoes, wipe your... face / Duloc is, Duloc is / Duloc is a perfect place."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Wow! Let's do that again!"
+    },
+    {
+      "character": "SHREK",
+      "text": "No! No! No, no, no! No."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Brave knights! You are the best and brightest in all the land, and today one of you shall prove himself better and brighter and more brutal than all the rest."
+    },
+    {
+      "character": "SHREK",
+      "text": "All right, you're going the right way for a smacked bottom."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Sorry about that."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "That champion shall have the honor-- no, no -- the privilege to go forth and rescue the lovely Princess Fiona from the fiery keep of the dragon. If for any reason the winner is unsuccessful, the first runner-up will take his place. And so on and so forth. Some of you may die, but it's a sacrifice I am willing to make."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Let the tournament begin!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Oh! What is that? It's hideous!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Ah, that's not very nice It's just a donkey."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Indeed. Knights, new plan! The one who kills the ogre will be named champion! Have at him!"
+    },
+    {
+      "character": "CROWD",
+      "text": "Get him!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, hey! Now come on! Hang on now."
+    },
+    {
+      "character": "CROWD",
+      "text": "Go ahead! Get him!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Indeed. Knights, new plan! The one who kills the ogre will be named champion! Have at him!"
+    },
+    {
+      "character": "CROWD",
+      "text": "Get him!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, hey! Now come on! Hang on now."
+    },
+    {
+      "character": "CROWD",
+      "text": "Go ahead! Get him!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Can't we just settle this over a pint?"
+    },
+    {
+      "character": "CROWD",
+      "text": "Kill the beast!"
+    },
+    {
+      "character": "SHREK",
+      "text": "No? All right then. Come on!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hey, Shrek, tag me! Tag me!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Yeah!"
+    },
+    {
+      "character": "WOMAN",
+      "text": "The chair! Give him the chair!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, yeah! Thank you! Thank you very much! I'm here 'til Thursday. Try the veal! Ha, ha!"
+    },
+    {
+      "character": "GUARD",
+      "text": "Shall I give the order, sir?"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "No, I have a better idea. People of Duloc! I give you our champion!"
+    },
+    {
+      "character": "SHREK",
+      "text": "What?"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Congratulations, ogre. You've won the honor of embarking on a great and noble quest."
+    },
+    {
+      "character": "SHREK",
+      "text": "Quest? I'm already on a quest. A quest to get my swamp back."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Your swamp?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Yeah, my swamp! Where you dumped those fairy tale creatures!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Indeed. All right, ogre. I'll make you a deal. Go on this quest for me, and I'll give you your swamp back."
+    },
+    {
+      "character": "SHREK",
+      "text": "Exactly the way it was?"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Down to the last slime-covered toadstool."
+    },
+    {
+      "character": "SHREK",
+      "text": "And the squatters?"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "As good as gone."
+    },
+    {
+      "character": "SHREK",
+      "text": "What kind of quest?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Okay, so let me get this straight. You're gonna go fight a dragon and rescue a princess just so Farquaad will give you back a swamp which you only don't have because he filled it full of freaks in the first place. Is that about right?"
+    },
+    {
+      "character": "SHREK",
+      "text": "You know, maybe there's a good reason donkeys shouldn't talk."
+    },
+    {
+      "character": "DONKEY",
+      "text": "I don't get it. Why don't you just pull some of that ogre stuff on him? Throttle him, lay siege to his fortress, grinds his bones to make your bread, the whole ogre trip."
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, I know what. Maybe I could have decapitated an entire village and put their heads on a pike, gotten a knife, cut open their spleen and drink their fluids. Does that sound good to you?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Uh, no, not really, no."
+    },
+    {
+      "character": "SHREK",
+      "text": "For your information, there's a lot more to ogres than people think."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Example?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Example? Okay, um, ogres are like onions."
+    },
+    {
+      "character": "DONKEY",
+      "text": "They stink?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Yes - - No!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "They make you cry?"
+    },
+    {
+      "character": "SHREK",
+      "text": "No!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, you leave them in the sun, they get all brown, start sproutin' little white hairs."
+    },
+    {
+      "character": "SHREK",
+      "text": "No! Layers! Onions have layers. Ogres have layers! Onions have layers. You get it? We both have layers."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, you both have layers. Oh. {sniffs} You know, not everybody likes onions. Cake! Everybody loves cakes! Cakes have layers."
+    },
+    {
+      "character": "SHREK",
+      "text": "I don't care... what everyone likes. Ogres are not like cakes."
+    },
+    {
+      "character": "DONKEY",
+      "text": "You know what else everybody likes? Parfaits. Have you ever met a person, you say, \"Let's get some parfait,\" they say, \"Hell no, I don't like no parfaits\"? Parfaits are delicious."
+    },
+    {
+      "character": "SHREK",
+      "text": "NO! You dense, irritating, miniature beast of burden! Ogres are like onions! End of story. Bye-bye. See you later."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Parfaits may be the most delicious thing on the whole damn planet."
+    },
+    {
+      "character": "SHREK",
+      "text": "You know, I think I preferred your humming."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Do you have a tissue or something? I'm making a mess. Just the word parfait makes me start slobbering."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Whew! Shrek! Did you do that? You gotta warn somebody before you just crack one off. My mouth was open and everything."
+    },
+    {
+      "character": "SHREK",
+      "text": "Believe me, Donkey, if it was me, you'd be dead. It's brimstone. We must be getting close."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Yeah, right, brimstone. Don't be talking about it's the brimstone. I know what I smell. It wasn't no brimstone. It didn't come off no stone neither."
+    },
+    {
+      "character": "SHREK",
+      "text": "Sure, it's big enough, but look at the location."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Uh, Shrek? Uh, remember when you said that ogres have layers?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, aye."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Well, I have a bit of a confession to make Donkeys don't have layers. We wear our fear right out there on our sleeves."
+    },
+    {
+      "character": "SHREK",
+      "text": "Wait a second. Donkeys don't have sleeves."
+    },
+    {
+      "character": "DONKEY",
+      "text": "You know what I mean."
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, you can't tell me you're afraid of heights."
+    },
+    {
+      "character": "DONKEY",
+      "text": "No, I'm just a little uncomfortable about being on a rickety bridge over a boiling lake of lava!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Come on, Donkey. I'm right here beside ya, okay? For emotional support. We'll just tackle this thing together one little baby step at a time."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Really?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Really, really."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Okay, that makes me feel so much better."
+    },
+    {
+      "character": "SHREK",
+      "text": "Just keep moving. And don't look down."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Okay, don't look down. Don't look down. Don't look down. Keep on moving. Don't look down."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Shrek! I'm lookin' down! Oh, God, I can't do this! Just let me off, please!"
+    },
+    {
+      "character": "SHREK",
+      "text": "But you're already halfway."
+    },
+    {
+      "character": "DONKEY",
+      "text": "But I know that half is safe!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Okay, fine. I don't have time for this. You go back."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Shrek, no! Wait!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Just, Donkey - - Let's have a dance then, shall we?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Don't do that!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, I'm sorry. Do what? Oh, this?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Yes, that!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Yes? Yes, do it. Okay."
+    },
+    {
+      "character": "DONKEY",
+      "text": "No, Shrek! No! Stop it!"
+    },
+    {
+      "character": "SHREK",
+      "text": "You said do it! I'm doing it."
+    },
+    {
+      "character": "DONKEY",
+      "text": "I'm gonna die. I'm gonna die. Shrek, I'm gonna die."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh!"
+    },
+    {
+      "character": "SHREK",
+      "text": "That'll do, Donkey. That'll do."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Cool. So where is this fire-breathing pain-in-the-neck anyway?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Inside, waiting for us to rescue her."
+    },
+    {
+      "character": "DONKEY",
+      "text": "I was talkin' about the dragon, Shrek."
+    },
+    {
+      "character": "DONKEY",
+      "text": "You afraid?"
+    },
+    {
+      "character": "SHREK",
+      "text": "No. But...."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, good. Me neither. 'Cause there's nothing wrong with being afraid. Fear's a sensible response to an unfamiliar situation. Unfamiliar dangerous situation, I might add. With a dragon that breathes fire and eats knights and breathes fire. It sure doesn't mean you're a coward if you're a little scared. I sure as heck ain't no coward. I know that."
+    },
+    {
+      "character": "SHREK",
+      "text": "Donkey, 2 things, okay? Shut. Up. Now go over there and see if you can find any stairs"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Stairs? I thought we was looking for the princess."
+    },
+    {
+      "character": "SHREK",
+      "text": "The princess will be up the stairs in the highest room in the tallest tower."
+    },
+    {
+      "character": "DONKEY",
+      "text": "What makes you think she'll be there?"
+    },
+    {
+      "character": "SHREK",
+      "text": "I read it in a book once."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Cool. You handle the dragon. I'll handle the stairs. I'll find those stairs. I'll whip their butt too. Those stairs won't know which way they're going."
+    },
+    {
+      "character": "DONKEY",
+      "text": "I'm gonna take drastic steps. Kick it to the curb. Don't mess with me. I'm the stair master. I've mastered the stairs. I wish I had a step right here. I'd step all over it."
+    },
+    {
+      "character": "SHREK",
+      "text": "Well, at least we know where the princess is. But where's the..."
+    },
+    {
+      "character": "DONKEY",
+      "text": "DRAGON!!!!!!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Donkey, look out!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Got ya!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "No. Oh, no, No! Oh, what large teeth you have! I mean white, sparkling teeth!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "I know you probably hear this all time from your food, but you must bleach, 'cause that is one dazzling smile you got there. Do I detect a hint of minty freshness?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "And you know what else? You know what else? You're-- You're--"
+    },
+    {
+      "character": "DONKEY",
+      "text": "--a girl dragon! Oh, sure! I mean, of course you're a girl dragon. You're just reeking of feminine beauty."
+    },
+    {
+      "character": "DONKEY",
+      "text": "What's the matter with you? You got something in your eye?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Ohh. Oh. Oh. Man, I'd really love to stay, but you know, I'm, uh...(coughs) I'm an asthmatic, and I don't know if it'd work out if you're gonna blow smoke rings and stuff. Shrek!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "No! Shrek! Shrek! Shrek!"
+    },
+    {
+      "character": "FIONA",
+      "text": "Wha...Wha..."
+    },
+    {
+      "character": "SHREK",
+      "text": "Wake up!"
+    },
+    {
+      "character": "FIONA",
+      "text": "What?!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Are you Princess Fiona?"
+    },
+    {
+      "character": "FIONA",
+      "text": "I am... awaiting a knight so bold as to rescue me."
+    },
+    {
+      "character": "SHREK",
+      "text": "Ah, that's nice. Now let's go!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Alright now I know you're making this up."
+    },
+    {
+      "character": "SHREK",
+      "text": "No, look."
+    },
+    {
+      "character": "SHREK",
+      "text": "There he is, and there's the group of hunters running away from his stench."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Man, that ain't nothing but a bunch of little dots."
+    },
+    {
+      "character": "SHREK",
+      "text": "You know, Donkey, sometimes things are more than they appear. Hmm?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Forget it."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hey, Shrek, what we gonna do when we get our swamp anyway?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Our swamp?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "You know, when we're through rescuing the princess and all that stuff."
+    },
+    {
+      "character": "SHREK",
+      "text": "We? Donkey, there's no we. There's no our. There's just me and my swamp. And the first thing I'm gonna do is build a ten-foot wall around my land."
+    },
+    {
+      "character": "DONKEY",
+      "text": "You cut me deep, Shrek. You cut me real deep just now."
+    },
+    {
+      "character": "DONKEY",
+      "text": "You know what I think? I think this whole wall thing is just a way to keep somebody out."
+    },
+    {
+      "character": "SHREK",
+      "text": "No, do ya think?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Are you hidin' something?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Never mind, Donkey."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, this is another one of those onion things, isn't it?"
+    },
+    {
+      "character": "SHREK",
+      "text": "No, this is one of those \"drop it and leave it alone\" things!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Why don't you want to talk about it?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Why do you want to talk about it?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Why are you blocking?"
+    },
+    {
+      "character": "SHREK",
+      "text": "I'm not blocking!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, yes, you are."
+    },
+    {
+      "character": "SHREK",
+      "text": "Donkey, I'm warning you..."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Who you trying to keep out?"
+    },
+    {
+      "character": "SHREK",
+      "text": "EVERYONE! OKAY?!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, now we're getting somewhere."
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh! For the love of Pete!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hey what's your problem Shrek? What you got against the whole world anyway, huh?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Look, I'm not the one with the problem, okay? It's the world that seems to have a problem with me! People take one look at me and go \"Aah! Help! Run! A big, stupid, ugly ogre!\" They judge me before they even know me. That's why I'm better off alone."
+    },
+    {
+      "character": "DONKEY",
+      "text": "You know what? When we met, I didn't think you was just a big, stupid, ugly ogre."
+    },
+    {
+      "character": "SHREK",
+      "text": "Yeah, I know."
+    },
+    {
+      "character": "DONKEY",
+      "text": "So, uh, are there any donkeys up there?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Well, there's, um, Gabby...the Small...and Annoying."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Okay, okay, I see it now. The big shiny one, right there. That one there?"
+    },
+    {
+      "character": "SHREK",
+      "text": "That's the moon."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, okay."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Again, show me again."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Mirror, mirror, show her to me. Show me the princess."
+    },
+    {
+      "character": "MAGIC MIRROR",
+      "text": "Hmm."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Ah...perfect."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Mmm, yeah, you know I like it like that. Come on, baby. I said I like it..."
+    },
+    {
+      "character": "SHREK",
+      "text": "Donkey, wake up."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Huh? What?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Wake up."
+    },
+    {
+      "character": "DONKEY",
+      "text": "What?"
+    },
+    {
+      "character": "FIONA",
+      "text": "Good morning. Uhmm... how do you like your eggs?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, good morning, Princess!"
+    },
+    {
+      "character": "SHREK",
+      "text": "What's all this about?"
+    },
+    {
+      "character": "FIONA",
+      "text": "You know, we kind of got off to a bad start yesterday and I wanted to make it up to you. I mean, after all, you did rescue me."
+    },
+    {
+      "character": "SHREK",
+      "text": "Uh, thanks."
+    },
+    {
+      "character": "FIONA",
+      "text": "Well, eat up. We've got a big day ahead of us."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Shrek!"
+    },
+    {
+      "character": "SHREK",
+      "text": "What? It's a compliment. Better out than in, I always say."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Well, it's no way to behave in front of a princess!"
+    },
+    {
+      "character": "FIONA",
+      "text": "Thanks."
+    },
+    {
+      "character": "DONKEY",
+      "text": "She's as nasty as you are."
+    },
+    {
+      "character": "SHREK",
+      "text": "You know, you're not exactly what I expected."
+    },
+    {
+      "character": "FIONA",
+      "text": "Well, maybe you shouldn't judge people before you get to know them."
+    },
+    {
+      "character": "MONSIEUR HOOD",
+      "text": "La liberte! Hey!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Princess!"
+    },
+    {
+      "character": "FIONA",
+      "text": "Oh! Wait wait--what are you doing?!"
+    },
+    {
+      "character": "MONSIEUR HOOD",
+      "text": "Be still, mon cherie, for I am you savior!  And I am rescuing you from this green..."
+    },
+    {
+      "character": "MONSIEUR HOOD",
+      "text": "...beast."
+    },
+    {
+      "character": "SHREK",
+      "text": "Hey! That's my princess! Go find your own!"
+    },
+    {
+      "character": "MONSIEUR HOOD",
+      "text": "Please, monster! Can't you see I'm a little busy here?"
+    },
+    {
+      "character": "FIONA",
+      "text": "Look, pal, I don't know who you think you are!"
+    },
+    {
+      "character": "MONSIEUR HOOD",
+      "text": "Oh! Of course! Oh, how rude. Please let me introduce myself."
+    },
+    {
+      "character": "MONSIEUR HOOD",
+      "text": "Oh, Merry Men!"
+    },
+    {
+      "character": "MERRYMEN",
+      "text": "Ta, dah, dah, dah, whoo."
+    },
+    {
+      "character": "MONSIEUR HOOD",
+      "text": "I steal from the rich and give to the needy."
+    },
+    {
+      "character": "MERRYMAN",
+      "text": "He takes a wee percentage,"
+    },
+    {
+      "character": "MONSIEUR HOOD",
+      "text": "But I'm not greedy. I rescue pretty damsels, man, I'm good."
+    },
+    {
+      "character": "MERRYMEN",
+      "text": "What a guy, Monsieur Hood."
+    },
+    {
+      "character": "MONSIEUR HOOD",
+      "text": "Break it down. I like an honest fight and a saucy little maid..."
+    },
+    {
+      "character": "MERRYMEN",
+      "text": "What he's basically saying is he likes to get..."
+    },
+    {
+      "character": "MONSIEUR HOOD",
+      "text": "Paid! So... When an ogre in the bush grabs a lady by the tush. That's bad."
+    },
+    {
+      "character": "MERRYMEN",
+      "text": "That's bad. That's bad. That's bad!"
+    },
+    {
+      "character": "MONSIEUR HOOD",
+      "text": "When a beauty's with a beast it makes me awfully mad!"
+    },
+    {
+      "character": "MERRYMEN",
+      "text": "He's mad, he's really, really mad!"
+    },
+    {
+      "character": "MONSIEUR HOOD",
+      "text": "I'll take my blade and ram it through your heart, keep your eyes on me, boys 'cause I'm about to start..."
+    },
+    {
+      "character": "FIONA",
+      "text": "Man, that was annoying!"
+    },
+    {
+      "character": "MERRYMAN",
+      "text": "Oh, you little--"
+    },
+    {
+      "character": "FIONA",
+      "text": "Uh, shall we?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Hold the phone."
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh! Whoa, whoa, whoa. Hold on now. Where did that come from?"
+    },
+    {
+      "character": "FIONA",
+      "text": "What?"
+    },
+    {
+      "character": "SHREK",
+      "text": "That! Back there. That was amazing! Where did you learn that?"
+    },
+    {
+      "character": "FIONA",
+      "text": "Well... when one lives alone, uh, one has to learn these things in case there's a...there's an arrow in your butt!"
+    },
+    {
+      "character": "SHREK",
+      "text": "What? Oh, would you look at that?"
+    },
+    {
+      "character": "FIONA",
+      "text": "Oh, no. This is all my fault. I'm so sorry."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Why? What's wrong?"
+    },
+    {
+      "character": "FIONA",
+      "text": "Shrek's hurt."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Shrek's hurt! Shrek's hurt?!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Donkey, I'm okay."
+    },
+    {
+      "character": "DONKEY",
+      "text": "You can't do this to me, Shrek. I'm too young for you to die! Keep your legs elevated! Turn your head and cough! Does anyone know the Heimlich?!"
+    },
+    {
+      "character": "FIONA",
+      "text": "Donkey! Calm down! If you want to help Shrek, run into the woods and find me a blue flower with red thorns."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Blue flower, red thorns. Okay, I'm on it. Blue flower, red thorns. Don't die, Shrek."
+    },
+    {
+      "character": "DONKEY",
+      "text": "And if you see a long tunnel, stay away from the light!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Donkey!"
+    },
+    {
+      "character": "FIONA",
+      "text": "Donkey!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, yeah. Right. Blue flower, red thorns. Blue flower, red thorns..."
+    },
+    {
+      "character": "SHREK",
+      "text": "What are the flowers for?"
+    },
+    {
+      "character": "FIONA",
+      "text": "For getting rid of Donkey."
+    },
+    {
+      "character": "SHREK",
+      "text": "Ah..."
+    },
+    {
+      "character": "FIONA",
+      "text": "Now you hold still, and I'll yank this thing out."
+    },
+    {
+      "character": "SHREK",
+      "text": "Ow! Hey! Easy with the yanking!"
+    },
+    {
+      "character": "FIONA",
+      "text": "Well, I'm sorry, but it has to come out."
+    },
+    {
+      "character": "SHREK",
+      "text": "No, it's tender."
+    },
+    {
+      "character": "FIONA",
+      "text": "Now, hold still."
+    },
+    {
+      "character": "SHREK",
+      "text": "What you're doing is the opposite of help."
+    },
+    {
+      "character": "FIONA",
+      "text": "Don't move."
+    },
+    {
+      "character": "SHREK",
+      "text": "Look, time out."
+    },
+    {
+      "character": "FIONA",
+      "text": "Would you..."
+    },
+    {
+      "character": "FIONA",
+      "text": "Okay. What do you propose we do?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Blue flower, red thorns. Blue flower, red thorns. Blue flower, red thorns. This would be so much easier if I wasn't color-blind! Blue flower, red thorns."
+    },
+    {
+      "character": "SHREK",
+      "text": "Owww!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hold on, Shrek! I'm coming!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Ow! Not good."
+    },
+    {
+      "character": "FIONA",
+      "text": "Okay. N--Okay. I can nearly see it...It's just about..."
+    },
+    {
+      "character": "SHREK",
+      "text": "Ow! Ohh!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Ahem."
+    },
+    {
+      "character": "SHREK",
+      "text": "Nothing happened."
+    },
+    {
+      "character": "SHREK",
+      "text": "We were just, uh..."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Look, if you wanted to be alone, all you had to do was ask, okay?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, come on! That's the last thing on my mind. The princess here was just--"
+    },
+    {
+      "character": "SHREK",
+      "text": "Uggghhh!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Ow!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hey, what's that? That's...is that blood?"
+    },
+    {
+      "character": "SHREK",
+      "text": "There it is, princess. Your future awaits you."
+    },
+    {
+      "character": "FIONA",
+      "text": "That's Duloc?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Yeah, I know. You know, Shrek thinks Lord Farquaad's compensating for something, which I think means he has a really..."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oww!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Um, I, uh-- I guess we better move on."
+    },
+    {
+      "character": "FIONA",
+      "text": "Sure. But, Shrek? I'm-- I'm worried about Donkey."
+    },
+    {
+      "character": "SHREK",
+      "text": "What?"
+    },
+    {
+      "character": "FIONA",
+      "text": "I mean, look at him. He, he doesn't look so good."
+    },
+    {
+      "character": "DONKEY",
+      "text": "What are you"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oww!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Um, I, uh-- I guess we better move on."
+    },
+    {
+      "character": "FIONA",
+      "text": "Sure. But, Shrek? I'm-- I'm worried about Donkey."
+    },
+    {
+      "character": "SHREK",
+      "text": "What?"
+    },
+    {
+      "character": "FIONA",
+      "text": "I mean, look at him. He, he doesn't look so good."
+    },
+    {
+      "character": "DONKEY",
+      "text": "What are you talking about? I'm fine."
+    },
+    {
+      "character": "FIONA",
+      "text": "Well that's what they always say and then...then...then the next thing you know, you're on your back. Dead."
+    },
+    {
+      "character": "SHREK",
+      "text": "You know, she's right. You look awful. Do you want to sit down?"
+    },
+    {
+      "character": "FIONA",
+      "text": "Uh, you know, I'll make you some tea."
+    },
+    {
+      "character": "DONKEY",
+      "text": "I didn't want to say nothing, but I got this twinge in my neck, and when I turn my head like this, look."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Ow! See?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Who's hungry? I'll find us some dinner."
+    },
+    {
+      "character": "FIONA",
+      "text": "I'll get the firewood."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hey, where you going? Oh, man, I can't feel my toes! (looks down) I don't have any toes! I think I need a hug."
+    },
+    {
+      "character": "FIONA",
+      "text": "Mmm. This is good. This is\nreally good. What is this?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Uh, weed rat. Rotisserie style."
+    },
+    {
+      "character": "FIONA",
+      "text": "No kidding. Well, this is delicious."
+    },
+    {
+      "character": "SHREK",
+      "text": "Well, they're also great in stews. Now, I don't mean to brag, but I make a mean weed rat stew."
+    },
+    {
+      "character": "FIONA",
+      "text": "I guess I'll be dining a little differently tomorrow night."
+    },
+    {
+      "character": "SHREK",
+      "text": "Maybe you can come visit me in the swamp sometime. I'll cook all kind of stuff for you. Swamp toad soup, fish eye tartare -- you name it."
+    },
+    {
+      "character": "FIONA",
+      "text": "Hmmm, I'd like that."
+    },
+    {
+      "character": "SHREK",
+      "text": "Um...princess?"
+    },
+    {
+      "character": "FIONA",
+      "text": "Yes...Shrek?"
+    },
+    {
+      "character": "SHREK",
+      "text": "I, um, I was wondering...are you...(sighs) Are you gonna eat that?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Man, isn't this romantic? Just look at that sunset."
+    },
+    {
+      "character": "FIONA",
+      "text": "Sunset?! Oh, no! I mean, it's late. I-It's very late."
+    },
+    {
+      "character": "SHREK",
+      "text": "What?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Wait a minute. I see what's going on here."
+    },
+    {
+      "character": "DONKEY",
+      "text": "You're afraid of the dark, aren't you?"
+    },
+    {
+      "character": "FIONA",
+      "text": "Yes! Yes, that's it. I'm terrified. You know, I'd better go inside."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Don't feel bad, Princess. I used to be afraid of the dark, too, until -- Hey, no, wait. I'm still afraid of the dark."
+    },
+    {
+      "character": "FIONA",
+      "text": "Good night."
+    },
+    {
+      "character": "SHREK",
+      "text": "Good night."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Ohh! Now I really see what's going on here."
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, what are you talkin' about?'"
+    },
+    {
+      "character": "DONKEY",
+      "text": "I don't even wanna hear it. Look, I'm an animal, and I got instincts. And I know you two were diggin' on each other. I could feel it."
+    },
+    {
+      "character": "SHREK",
+      "text": "You're crazy. I'm just bringing her back to Farquaad."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, come on, Shrek. Wake up and smell the pheromones. Just go on in and tell her how you feel."
+    },
+    {
+      "character": "SHREK",
+      "text": "I--there's nothing to tell. Besides, even if I did tell her that, well, you know-- and I'm not sayin' I do, 'cause I don't -- she's a princess, and I'm..."
+    },
+    {
+      "character": "DONKEY",
+      "text": "An ogre?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Yeah. An ogre."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hey, where you going?"
+    },
+    {
+      "character": "SHREK",
+      "text": "To get...more firewood."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Princess? Princess Fiona? Princess, where are you?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Princess?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "It's very spooky in here. I ain't playing no games."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Aah!"
+    },
+    {
+      "character": "FIONA",
+      "text": "Oh, no!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "No, No, help!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Shrek! Shrek! Shrek!"
+    },
+    {
+      "character": "FIONA",
+      "text": "No, it's okay! It's okay!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "What did you do with the princess?!"
+    },
+    {
+      "character": "FIONA",
+      "text": "Donkey! I'm the princess."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Aah!"
+    },
+    {
+      "character": "FIONA",
+      "text": "It's me, in this body."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, my God! You ate the princess! (to her stomach) Can you hear me?"
+    },
+    {
+      "character": "FIONA",
+      "text": "Donkey!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "(still aimed at her stomach) Listen, keep breathing! I'll get you out of there!"
+    },
+    {
+      "character": "FIONA",
+      "text": "No!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Shrek! Shrek! Shrek!"
+    },
+    {
+      "character": "FIONA",
+      "text": "This is me."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Princess...? What happened to you? You're, uh...uh...eh...different."
+    },
+    {
+      "character": "FIONA",
+      "text": "I'm ugly, okay?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Well, yeah! Well was it something you ate? 'Cause I told Shrek those rats was a bad idea. You are what you eat, I said. Now--"
+    },
+    {
+      "character": "FIONA",
+      "text": "No! I -- I've been this way as long as I can remember."
+    },
+    {
+      "character": "DONKEY",
+      "text": "What do you mean? Look, I ain't never seen you like this before."
+    },
+    {
+      "character": "FIONA",
+      "text": "It only happens when sun goes down."
+    },
+    {
+      "character": "FIONA",
+      "text": "\"By night one way, by day another. This shall be the norm... until you find true love's first kiss... and then take love's true form.\""
+    },
+    {
+      "character": "DONKEY",
+      "text": "Aww, that's beautiful. I didn't know you wrote poetry."
+    },
+    {
+      "character": "FIONA",
+      "text": "It's a spell. (sigh) When I was a little girl, a witch cast a spell on me. Every night I become this. This horrible, ugly beast!"
+    },
+    {
+      "character": "FIONA",
+      "text": "I was placed in a tower to await the day my true love would rescue me. That's why I have to marry Lord Farquaad tomorrow before the sun sets and he sees me...like this."
+    },
+    {
+      "character": "DONKEY",
+      "text": "All right, all right. Calm down. Look, it's not that bad. You're not that ugly. Well, ok, I ain't gonna lie. You are ugly. But you only look like this at night. Shrek's ugly 24/7."
+    },
+    {
+      "character": "FIONA",
+      "text": "But Donkey, I'm a\nprincess, and this is not how a princess is meant to look."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Princess, how 'bout if you don't marry Farquaad?"
+    },
+    {
+      "character": "FIONA",
+      "text": "I have to. Only my true love's kiss can break the spell."
+    },
+    {
+      "character": "DONKEY",
+      "text": "But, you know, um...you're kind of an ogre. And Shrek...well...you got a lot in common."
+    },
+    {
+      "character": "FIONA",
+      "text": "Shrek?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Princess, I-- Uh, how's it going, first of all? Good? Um, good for me too. I'm okay. I saw this flower and thought of you because it's pretty and-- well, I don't really like it but I thought you might like it 'cause you're pretty. But I like you anyway. I'd-- uh, uh...(sighs) I'm in trouble. Okay, here we go."
+    },
+    {
+      "character": "FIONA",
+      "text": "I can't just marry whoever I want. Take a good look at me, Donkey. I mean, really, who could ever love a beast so hideous and ugly? \"Princess\" and \"ugly\" don't go together. That's why I can't stay here with Shrek."
+    },
+    {
+      "character": "FIONA",
+      "text": "My only chance to live happily ever after is to marry my true love. Don't you see, Donkey? That's just how it has to be."
+    },
+    {
+      "character": "FIONA",
+      "text": "It's the only way to break the spell."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Well you at least gotta tell Shrek the truth."
+    },
+    {
+      "character": "FIONA",
+      "text": "No! You can't breathe a word. No one must ever know."
+    },
+    {
+      "character": "DONKEY",
+      "text": "What's the point of being able to talk if you gotta keep secrets?"
+    },
+    {
+      "character": "FIONA",
+      "text": "Promise you won't tell. Promise!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "All right, all right. I won't tell him. But you should."
+    },
+    {
+      "character": "DONKEY",
+      "text": "I just know before this is over, I'm gonna need a whole lot of serious therapy. Look at my eye twitching."
+    },
+    {
+      "character": "FIONA",
+      "text": "I tell him, I tell him not. I tell him, I tell him not..."
+    },
+    {
+      "character": "FIONA",
+      "text": "I tell him! Shrek!"
+    },
+    {
+      "character": "FIONA",
+      "text": "Shrek! There's something I want..."
+    },
+    {
+      "character": "FIONA",
+      "text": "Shrek! Are you all right?"
+    },
+    {
+      "character": "SHREK",
+      "text": "(Sarcastically) Perfect! Never been better."
+    },
+    {
+      "character": "FIONA",
+      "text": "I...I don't...there's something I have to tell you."
+    },
+    {
+      "character": "SHREK",
+      "text": "You don't have to tell me anything, princess. I heard enough last night."
+    },
+    {
+      "character": "FIONA",
+      "text": "You heard what I said?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Every word."
+    },
+    {
+      "character": "FIONA",
+      "text": "I thought you'd understand."
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, I understand. Like you said, \"Who could love a hideous, ugly beast?\""
+    },
+    {
+      "character": "FIONA",
+      "text": "But I thought that wouldn't matter to you."
+    },
+    {
+      "character": "SHREK",
+      "text": "Yeah? Well, it does."
+    },
+    {
+      "character": "SHREK",
+      "text": "Ah, right on time. Princess, I've brought you a little something."
+    },
+    {
+      "character": "DONKEY",
+      "text": "What'd I miss? What'd I miss?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Who said that? Couldn't have been a donkey."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Princess Fiona."
+    },
+    {
+      "character": "SHREK",
+      "text": "As promised. Now hand it over."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Very well, ogre. The deed to your swamp, cleared out, as agreed. Take it and go before I change my mind."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Forgive me, Princess, for startling you, but you startled\nme-- for I have never seen such a radiant beauty before. I am Lord Farquaad."
+    },
+    {
+      "character": "FIONA",
+      "text": "Lord Farquaad? Oh, no, no. Forgive me, my lord, for I was just saying a short..."
+    },
+    {
+      "character": "FIONA",
+      "text": "...farewell."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Oh, that is so sweet. You don't have to waste good manners on the ogre. It's not like it has feelings."
+    },
+    {
+      "character": "FIONA",
+      "text": "No, you're right. It doesn't."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Princess Fiona, beautiful, fair, flawless Fiona. I ask your hand in marriage."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Will you be the perfect bride for the perfect groom?"
+    },
+    {
+      "character": "FIONA",
+      "text": "Lord Farquaad, I accept. Nothing would make--"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Excellent! I'll start the plans, for tomorrow we wed!"
+    },
+    {
+      "character": "FIONA",
+      "text": "No!"
+    },
+    {
+      "character": "FIONA",
+      "text": "I mean--ah, why wait? Let's get married today. Before sunset."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Oh, anxious, are we? You're right. The sooner, the better. There's so much to do!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "There's the caterer, the cake, the band, the guest list. Captain, round up some guests!"
+    },
+    {
+      "character": "FIONA",
+      "text": "Fare thee well, ogre."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Shrek, what are you doing? You're letting her get away!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Yeah? So what?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Shrek there's something about her you don't know. Look, I-- I talked to her last night... She's --"
+    },
+    {
+      "character": "SHREK",
+      "text": "Yeah I know you talked to her last night. You're great pals, aren't ya? Now, if you two are such good friends, why don't you follow her home?!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "But Shrek, I-- I wanna go with you."
+    },
+    {
+      "character": "SHREK",
+      "text": "Hey I told you, didn't I? You're not coming home with me. I live alone! My swamp! Me! Nobody else! Understand? Nobody! Especially useless, pathetic, annoying, talking donkeys!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "But, I"
+    },
+    {
+      "character": "SHREK",
+      "text": "Yeah I know you talked to her last night. You're great pals, aren't ya? Now, if you two are such good friends, why don't you follow her home?!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "But Shrek, I-- I wanna go with you."
+    },
+    {
+      "character": "SHREK",
+      "text": "Hey I told you, didn't I? You're not coming home with me. I live alone! My swamp! Me! Nobody else! Understand? Nobody! Especially useless, pathetic, annoying, talking donkeys!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "But, I thought..."
+    },
+    {
+      "character": "SHREK",
+      "text": "Yeah, you... you know what? You thought wrong!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Shrek."
+    },
+    {
+      "character": "SHREK",
+      "text": "Donkey? What are you doing?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "I would think, of all people, you would recognize a wall when you see one."
+    },
+    {
+      "character": "SHREK",
+      "text": "Well, yeah. But the wall's supposed to go around my swamp, not through it."
+    },
+    {
+      "character": "DONKEY",
+      "text": "It is, around\nyour half. See that's your half, and this is my half."
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh!\nYour half? Hmm."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Yes, my half. I helped rescue the princess. I did half the work. I get half the booty. Now hand me that big ol' rock, the one that looks like your head."
+    },
+    {
+      "character": "SHREK",
+      "text": "Back off!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "No,\nyou back off."
+    },
+    {
+      "character": "SHREK",
+      "text": "This is my swamp!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Our swamp!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Let go, Donkey!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "You let go!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Stubborn jackass!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Smelly ogre."
+    },
+    {
+      "character": "SHREK",
+      "text": "Fine!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hey, hey, come back here. I'm not through with you yet."
+    },
+    {
+      "character": "SHREK",
+      "text": "Well, I'm through with you!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Uh-uh! You know, with you it's always \"me, me, me!\" Well, guess what! Now it's my turn! So you just shut up and pay attention!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "You are mean to me, you insult me and you don't appreciate anything that I do! You're always pushing me around or pushing me away."
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, yeah? Well, if I treated you so bad, how come you came back?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Because that's what friends do! They\nforgive each other!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, yeah. You're right, Donkey. I forgive you...FOR STABBING ME IN THE BACK!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Ohhhhh! You're so wrapped up in layers, onion boy, you're afraid of your own feelings."
+    },
+    {
+      "character": "SHREK",
+      "text": "Go away!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "See! There you are, doing it again just like you did to Fiona. And all she ever did was like you, maybe even love you."
+    },
+    {
+      "character": "SHREK",
+      "text": "Love me?! She said I was ugly! A hideous creature! I heard the two of you talking."
+    },
+    {
+      "character": "DONKEY",
+      "text": "She wasn't talkin' about you! She was talkin' about...uh...somebody else."
+    },
+    {
+      "character": "SHREK",
+      "text": "She wasn't talking about me? Well then who was she talking about?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Uh-uh, no way. I ain't saying anything. You don't wanna listen to me. Right? Right?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Donkey!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "No!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Okay, look. I'm sorry, all right?"
+    },
+    {
+      "character": "SHREK",
+      "text": "I'm sorry. I guess I am just a big, stupid...ugly ogre. Can you forgive me?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hey, that's what friends are for, right?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Right. Friends?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Friends."
+    },
+    {
+      "character": "SHREK",
+      "text": "So, um, what\ndid Fiona say about me?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "What are you asking me for? Why don't you just go ask her?"
+    },
+    {
+      "character": "SHREK",
+      "text": "The wedding! We'll never make it in time."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Ha-ha-ha! Never fear, for where, there's a will, there's a way and I have a way."
+    },
+    {
+      "character": "SHREK",
+      "text": "Donkey?!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "I guess it's just my animal magnetism."
+    },
+    {
+      "character": "SHREK",
+      "text": "Aw, come here, you."
+    },
+    {
+      "character": "DONKEY",
+      "text": "All right, all right. Don't get all slobbery. No one likes a kiss ass. All right, hop on and hold on tight. I haven't had a chance to install the seat belts yet."
+    },
+    {
+      "character": "BISHOP",
+      "text": "People of Duloc, we gather here today to bear witness to the union...."
+    },
+    {
+      "character": "FIONA",
+      "text": "Um-"
+    },
+    {
+      "character": "BISHOP",
+      "text": "...of our new king..."
+    },
+    {
+      "character": "FIONA",
+      "text": "Excuse me. Could we just skip ahead to the \"I do's\"?"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Go on."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Go ahead, have some fun. If we need you, I'll whistle. How about that?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Shrek, wait, wait! Wait a minute! You wanna do this right, don't you?"
+    },
+    {
+      "character": "SHREK",
+      "text": "What are you talking about?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "There's a line, there's a line you gotta wait for. The priest is gonna say, \"Speak now or forever hold your peace.\" And that's when you say, \"I object!\""
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, I don't have time for this!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hey, wait. What are you doing? Listen to me!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Look, you love this woman, don't you?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Yes."
+    },
+    {
+      "character": "DONKEY",
+      "text": "You wanna hold her?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Yes."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Please her?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Yes!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "\"Then you got to, got to try a little tenderness\". The chicks love that romantic crap!"
+    },
+    {
+      "character": "SHREK",
+      "text": "All right! Cut it out! When does this guy say the line?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "We gotta check it out."
+    },
+    {
+      "character": "BISHOP",
+      "text": "And so, by the power vested in me..."
+    },
+    {
+      "character": "SHREK",
+      "text": "What do you see?!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "The whole town's in there."
+    },
+    {
+      "character": "BISHOP",
+      "text": "I now pronounce you husband and wife..."
+    },
+    {
+      "character": "DONKEY",
+      "text": "They're at the altar!"
+    },
+    {
+      "character": "BISHOP",
+      "text": "...king and queen."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Mother Fletcher! He already said it."
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, for the love of Pete!"
+    },
+    {
+      "character": "SHREK",
+      "text": "I object!"
+    },
+    {
+      "character": "FIONA",
+      "text": "Shrek?"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Oh, now what does he want?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Hi, everyone. Having a good time, are ya? I love Duloc, first of all. Very clean."
+    },
+    {
+      "character": "FIONA",
+      "text": "What are you doing here?"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Really, it's rude enough being alive when no one wants you, but showing up uninvited to a wedding..."
+    },
+    {
+      "character": "SHREK",
+      "text": "Fiona! I need to talk to you."
+    },
+    {
+      "character": "FIONA",
+      "text": "Oh, now you wanna talk? Well, it's a little late for that, so if you'll excuse me--"
+    },
+    {
+      "character": "SHREK",
+      "text": "But you can't marry him!"
+    },
+    {
+      "character": "FIONA",
+      "text": "And why not?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Because, because he's just marrying you so he can be king!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Outrageous! Fiona, don't listen to him--"
+    },
+    {
+      "character": "SHREK",
+      "text": "He's not your true love."
+    },
+    {
+      "character": "FIONA",
+      "text": "And what do you know about true love?!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Well, I--uh--I mean..."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Oh, this is precious. The ogre has fallen in love with the princess! Oh, good Lord."
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "An ogre and a princess!"
+    },
+    {
+      "character": "FIONA",
+      "text": "Shrek, is this true?"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Who cares?! It's preposterous! Fiona, my love, we're but a kiss away from our \"happily ever after.\" Now kiss me!"
+    },
+    {
+      "character": "FIONA",
+      "text": "\"By night one way, by day another.\" I wanted to show you before."
+    },
+    {
+      "character": "SHREK",
+      "text": "Well, uh, that explains a lot!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Ugh! It's disgusting! Guards! Guards! I order you to get them out of my sight now!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Get them! Get them both!"
+    },
+    {
+      "character": "FIONA",
+      "text": "No, no! Shrek!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "All this hocus-pocus alters nothing, this marriage is binding, and that makes me king! SEE?! SEE?!"
+    },
+    {
+      "character": "FIONA",
+      "text": "No, let go of me! Shrek!"
+    },
+    {
+      "character": "SHREK",
+      "text": "No!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Don't just stand there, you morons!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Get out of my way! Fiona!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Kill him if you have to--but get him!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Beast, I'll make you regret the day we met! I'll see you drawn and quartered! You'll beg for death to save you!"
+    },
+    {
+      "character": "FIONA",
+      "text": "No, Shrek!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "And as for you, my wife!"
+    },
+    {
+      "character": "SHREK",
+      "text": "Fiona!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "I'll have you locked back in that tower for the rest of your days! I am king!"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "I will have order! I will have perfection! I will have--"
+    },
+    {
+      "character": "LORD FARQUAAD",
+      "text": "Aaah! Aah!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "All right! Nobody move! I got a dragon here, and I'm not afraid to use it."
+    },
+    {
+      "character": "DONKEY",
+      "text": "I'm a donkey on the edge!"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Celebrity marriages. They never last, do they?"
+    },
+    {
+      "character": "DONKEY",
+      "text": "Go ahead, Shrek."
+    },
+    {
+      "character": "SHREK",
+      "text": "Uh, Fiona?"
+    },
+    {
+      "character": "FIONA",
+      "text": "Yes, Shrek?"
+    },
+    {
+      "character": "SHREK",
+      "text": "I -- I love you."
+    },
+    {
+      "character": "FIONA",
+      "text": "Really?"
+    },
+    {
+      "character": "SHREK",
+      "text": "Really, really."
+    },
+    {
+      "character": "FIONA",
+      "text": "I love you too."
+    },
+    {
+      "character": "FIONA",
+      "text": "\"Until you find true love's first kiss and then take love's true form. Take love's true form. Take love's true form.\""
+    },
+    {
+      "character": "SHREK",
+      "text": "Fiona? Fiona. Are you all right?"
+    },
+    {
+      "character": "FIONA",
+      "text": "Well, yes...But I don't understand. I'm supposed to be beautiful."
+    },
+    {
+      "character": "SHREK",
+      "text": "But you\nare beautiful."
+    },
+    {
+      "character": "DONKEY",
+      "text": "I was hoping this would be a happy ending."
+    },
+    {
+      "character": "GINGY",
+      "text": "God bless us, every one."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, that's funny. Oh. Oh. I can't breathe. I can't breathe."
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, that's funny. Oh. Oh. I can't breathe. I can't breathe."
+    }
+  ]
+}
