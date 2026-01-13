@@ -12,37 +12,43 @@ Perform these steps:
 
 2. **Create the branch name**: Use the format `spenhand/<feature-name>` (convert spaces to hyphens, lowercase).
 
-3. **Determine worktree path**: Create the worktree as a sibling directory:
-   - Current repo: `/Users/spencer.anderson/projects/scriptdle`
-   - Worktree: `/Users/spencer.anderson/projects/scriptdle-<feature-name>`
+3. **Determine paths**:
+   - Get the repo root: `git rev-parse --show-toplevel`
+   - Worktrees folder: `<repo-root>/.worktrees`
+   - Worktree path: `<repo-root>/.worktrees/<feature-name>`
 
-4. **Fetch latest main**:
+4. **Create worktrees folder if needed**:
+   ```bash
+   mkdir -p .worktrees
+   ```
+
+5. **Fetch latest main**:
    ```bash
    git fetch origin main
    ```
 
-5. **Create the worktree with new branch**:
+6. **Create the worktree with new branch**:
    ```bash
-   git worktree add -b spenhand/<feature-name> <worktree-path> origin/main
+   git worktree add -b spenhand/<feature-name> .worktrees/<feature-name> origin/main
    ```
 
-6. **Install dependencies in the new worktree**:
+7. **Install dependencies in the new worktree**:
    ```bash
-   cd <worktree-path> && npm install
+   cd .worktrees/<feature-name> && npm install
    ```
 
-7. **Report success**: Tell the user:
-   - The worktree path they should open in a new Claude Code session
-   - The branch name created
+8. **Change to the worktree directory**: Use `cd` to switch the current session to the new worktree. This is critical - the session should now be working from within the worktree.
+
+9. **Report success**: Tell the user:
+   - You are now working in the worktree
+   - The branch name created: `spenhand/<feature-name>`
    - Remind them to run `npm run dev` to start developing
-   - When done, they can push and create a PR, then clean up with:
-     ```bash
-     git worktree remove <worktree-path>
-     git branch -d spenhand/<feature-name>  # after PR is merged
-     ```
+   - When done, they can use `/cleanup-feature` from within the worktree to clean up and return to the main repo
 
 ## Example
 
-If the user runs `/feature add dark mode`, create:
+If the user runs `/feature add-dark-mode` from a repo at `/Users/me/projects/scriptdle`:
 - Branch: `spenhand/add-dark-mode`
-- Worktree: `/Users/spencer.anderson/projects/scriptdle-add-dark-mode`
+- Worktrees folder: `/Users/me/projects/scriptdle/.worktrees`
+- Worktree: `/Users/me/projects/scriptdle/.worktrees/add-dark-mode`
+- Session CDs into the worktree and continues working from there
