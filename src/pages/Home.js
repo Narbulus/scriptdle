@@ -3,6 +3,9 @@ import { router } from '../router.js';
 export async function renderHome() {
   const app = document.getElementById('app');
 
+  // Set page title for home
+  document.title = 'Scriptle - A daily movie quote game';
+
   // Reset CSS variables to defaults when returning to home
   document.documentElement.style.setProperty('--primary-color', '#333');
   document.documentElement.style.setProperty('--bg-color', '#f4f4f4');
