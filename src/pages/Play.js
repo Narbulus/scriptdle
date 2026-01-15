@@ -49,6 +49,10 @@ export async function renderPlay(params) {
       // Pack mode - use pre-generated daily puzzle
       const today = new Date().toISOString().split('T')[0];
 
+      // Fetch pack index to get all packs
+      const indexRes = await fetch('/data/index.json');
+      const indexData = indexRes.ok ? await indexRes.json() : { packs: [] };
+
       // Fetch pack definition for theme
       const packRes = await fetch(`/data/packs/${packId}.json`);
       if (!packRes.ok) {
@@ -89,7 +93,9 @@ export async function renderPlay(params) {
       const game = new GameDaily(
         document.getElementById('game-area'),
         manifest,
-        dailyPuzzle
+        dailyPuzzle,
+        indexData.packs,
+        packData
       );
       game.start();
 

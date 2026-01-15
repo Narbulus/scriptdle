@@ -1,0 +1,49 @@
+{
+  "id": "disney-pixar",
+  "name": "Disney & Pixar",
+  "type": "collection",
+  "movies": [
+    "toy-story",
+    "toy-story-2",
+    "toy-story-3",
+    "toy-story-4",
+    "finding-nemo",
+    "finding-dory",
+    "monsters-inc",
+    "monsters-university",
+    "incredibles-1",
+    "incredibles-2",
+    "cars",
+    "cars-2",
+    "cars-3",
+    "ratatouille",
+    "wreck-it-ralph",
+    "ralph-breaks-the-internet",
+    "frozen",
+    "frozen-2",
+    "tangled",
+    "moana",
+    "zootopia",
+    "big-hero-6",
+    "coco",
+    "encanto"
+  ],
+  "theme": {
+    "primary": "#e91e63",
+    "bgColor": "#880e4f",
+    "containerBg": "#ffffff",
+    "accentColor": "#c2185b",
+    "btnText": "white",
+    "cardGradientStart": "#ec407a",
+    "cardGradientEnd": "#d81b60",
+    "cardBorder": "#e91e63",
+    "cardText": "#fff9c4"
+  },
+  "tierMessages": {
+    "perfect": "A dream is a wish your heart makes!",
+    "good": "Adventure is out there!",
+    "average": "Ohana means family!",
+    "barely": "Let it go!",
+    "failure": "Dishonor on you, dishonor on your cow!"
+  }
+}

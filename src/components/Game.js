@@ -15,6 +15,7 @@ export class Game {
           movie: script.title,
           movieId: movieId,
           originalIndex: idx,
+          year: script.year,
         });
       });
     }
@@ -31,19 +32,34 @@ export class Game {
   }
 
   buildMetadata() {
-    const movies = new Set();
+    const movieYears = {};
     const characters = {};
 
     this.allLines.forEach(line => {
-      movies.add(line.movie);
+      if (!movieYears[line.movie]) {
+        movieYears[line.movie] = line.year;
+      }
       if (!characters[line.movie]) {
         characters[line.movie] = new Set();
       }
       characters[line.movie].add(line.character);
     });
 
+    // Sort movies by year (if available), then alphabetically
+    const sortedMovies = Object.keys(movieYears).sort((a, b) => {
+      const yearA = movieYears[a];
+      const yearB = movieYears[b];
+      // Movies with years come first, sorted by year
+      if (yearA && yearB) return yearA - yearB;
+      if (yearA && !yearB) return -1;
+      if (!yearA && yearB) return 1;
+      // Both without years - sort alphabetically
+      return a.localeCompare(b);
+    });
+
     return {
-      movies: Array.from(movies).sort(),
+      movies: sortedMovies,
+      movieYears: movieYears,
       characters: Object.fromEntries(
         Object.entries(characters).map(([m, chars]) => [m, Array.from(chars).sort()])
       ),
@@ -127,7 +143,11 @@ export class Game {
           <div class="movie-select-wrapper">
             <select id="movie-select">
               <option value="">Choose the Film</option>
-              ${this.metadata.movies.map(m => `<option value="${m}">${m}</option>`).join('')}
+              ${this.metadata.movies.map(m => {
+                const year = this.metadata.movieYears?.[m];
+                const label = year ? `${m} (${year})` : m;
+                return `<option value="${m}">${label}</option>`;
+              }).join('')}
             </select>
             <div id="movie-error" class="form-error"></div>
           </div>

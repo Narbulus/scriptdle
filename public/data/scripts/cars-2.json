@@ -1,0 +1,5563 @@
+{
+  "id": "cars-2",
+  "title": "Cars 2",
+  "year": 2011,
+  "characters": [
+    "ACER",
+    "ACER AND PETEY PACER",
+    "ALEX CARVILL",
+    "ALEXANDER",
+    "ANNOUNCER",
+    "AXLEROD",
+    "BLUE GREMLIN",
+    "BOAT",
+    "BODYGUARD",
+    "BODYGUARDS",
+    "BOMB",
+    "BRENT",
+    "CALLER",
+    "CASINO PITTY",
+    "CELINE DEPHARE",
+    "COMPUTER",
+    "CRABBY",
+    "CROWD",
+    "CROWD MEMBERS AROUND THE RACETRACK",
+    "DAISU",
+    "DARRELL",
+    "DAVID",
+    "EVERETT",
+    "FERRARI DEALER",
+    "FIAT FAN",
+    "FILLMORE",
+    "FINN",
+    "FLO",
+    "FRANCESCO",
+    "FRED PACER",
+    "GREEN GREMLIN",
+    "GREM",
+    "GREM AND ACER",
+    "GUIDO",
+    "HOLLEY",
+    "ITALIAN ANNOUNCER",
+    "IVAN",
+    "J. CURBY",
+    "JAPANESE TOILET ASSISTANT CARTOON",
+    "JEFF",
+    "JEROME RAMPED",
+    "LELAND",
+    "LEWIS",
+    "LIZZIE",
+    "LUIGI",
+    "MACK",
+    "MALE REPORTER",
+    "MAMA TOPOLINO",
+    "MARKET SELLER",
+    "MARKET SELLERS",
+    "MARY ESGOCAR",
+    "MATER",
+    "MCQUEEN",
+    "MEL",
+    "MIA AND TIA",
+    "MINNY",
+    "NICK CARTONE",
+    "OTIS",
+    "PEUGEOT FAN",
+    "PHOTOGRAPHER",
+    "PHOTOGRAPHER 1",
+    "PHOTOGRAPHER 2",
+    "PHOTOGRAPHER 3",
+    "POLICE OFFICER",
+    "PRESS LIAISON 2",
+    "PRINCE WHEELIAM",
+    "RAMONE",
+    "RIP",
+    "ROD",
+    "SALLY",
+    "SALLY AND FILLMORE",
+    "SARGE",
+    "SECURITY OFFICER",
+    "SHERIFF",
+    "SIDDELEY",
+    "SIR HARLEY GASSUP",
+    "STEPHENSON",
+    "TANNOY",
+    "THE QUEEN",
+    "TOMBER",
+    "TONY",
+    "TOWGA GREMLIN",
+    "TUBBS",
+    "TYLER GREMLIN",
+    "UCCHI",
+    "UNCLE TOPOLINO",
+    "VAN",
+    "VICTOR",
+    "VLADIMIR",
+    "Z\u00dcNDAPP"
+  ],
+  "lines": [
+    {
+      "character": "LELAND",
+      "text": "This is Agent Leland Turbo. I have a flash transmission for Agent Finn McMissile. Finn, my cover's been compromised. Everything's gone pear-shaped. You won't believe what I found out here."
+    },
+    {
+      "character": "LELAND",
+      "text": "This is bigger than anything we've ever seen, and no one even knows it exists!"
+    },
+    {
+      "character": "LELAND",
+      "text": "Finn, I need backup, but don't call the cavalry, it could blow the operation. And be careful. It's not safe out here."
+    },
+    {
+      "character": "ACER",
+      "text": "Let's go!"
+    },
+    {
+      "character": "LELAND",
+      "text": "Transmitting my grids now. Good luck!"
+    },
+    {
+      "character": "CRABBY",
+      "text": "All right, buddy, we're here. Right where you paid me to bring you. Question is, why?"
+    },
+    {
+      "character": "FINN",
+      "text": "I'm looking for a car."
+    },
+    {
+      "character": "CRABBY",
+      "text": "A car? Ha! Hey, pal, you can't get any further away from land than out here."
+    },
+    {
+      "character": "FINN",
+      "text": "Exactly where I want to be."
+    },
+    {
+      "character": "CRABBY",
+      "text": "Well, I got news for you, buddy. There's nobody out here but us."
+    },
+    {
+      "character": "TONY",
+      "text": "What are you doing out here?!"
+    },
+    {
+      "character": "CRABBY",
+      "text": "What does it look like, genius? I'm crabbing!"
+    },
+    {
+      "character": "TONY",
+      "text": "Well, turn around and go back where you came from!"
+    },
+    {
+      "character": "CRABBY",
+      "text": "Yeah, and who's gonna make me?"
+    },
+    {
+      "character": "CRABBY",
+      "text": "All right! All right! Don't get your prop in a twist! (turns around, as Tony heads back to the oil rigs) What a jerk. Sorry, buddy. Looks like it's the end of the line. (hears no answer) Buddy?"
+    },
+    {
+      "character": "TANNOY",
+      "text": "Incoming. All workers report to the loading dock."
+    },
+    {
+      "character": "FINN",
+      "text": "Leland Turbo, this is Finn McMissile. I'm at the rally point. Over."
+    },
+    {
+      "character": "GREM",
+      "text": "All right, fellas, you know the drill."
+    },
+    {
+      "character": "FINN",
+      "text": "Leland, it's Finn. Please respond. Over."
+    },
+    {
+      "character": "ACER",
+      "text": "Come on, guys. These crates aren't gonna unload themselves."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "Raus hier, get out of here. Too many cars here. Out of my way."
+    },
+    {
+      "character": "FINN",
+      "text": "Professor Z\u00fcndapp?"
+    },
+    {
+      "character": "ROD",
+      "text": "Here it is, Professor. You wanted to see this before we load it?"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "Ah, yes. Very carefully."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "Sehr gut."
+    },
+    {
+      "character": "ROD",
+      "text": "Oh! A TV camera. What does it actually do?"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "This camera is extremely dangerous."
+    },
+    {
+      "character": "FINN",
+      "text": "What are you up to now, Professor?"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "This is valuable equipment. Make sure it is properly secured for the voyage."
+    },
+    {
+      "character": "ROD",
+      "text": "You got it."
+    },
+    {
+      "character": "GREM",
+      "text": "Hey, Professor Z! This is one of those British spies we told you about."
+    },
+    {
+      "character": "ACER",
+      "text": "Yeah! This one we caught sticking his bumper where it didn't belong."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "Agent Leland Turbo."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "It's Finn McMissile! He's seen the camera! Kill him!"
+    },
+    {
+      "character": "TANNOY",
+      "text": "All hands on deck! All hands on deck!"
+    },
+    {
+      "character": "GREEN GREMLIN",
+      "text": "Whoa!"
+    },
+    {
+      "character": "GREEN GREMLIN",
+      "text": "Aah! Waargh!"
+    },
+    {
+      "character": "JEROME RAMPED",
+      "text": "Wha-?"
+    },
+    {
+      "character": "ACER",
+      "text": "He's getting away!"
+    },
+    {
+      "character": "TONY",
+      "text": "Not for long!"
+    },
+    {
+      "character": "GREM",
+      "text": "He's dead, Professor."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "Wunderbar! With Finn McMissile gone, who can stop us now?"
+    },
+    {
+      "character": "MATER",
+      "text": "Mater Tow Mater, that's who's here to help ya."
+    },
+    {
+      "character": "OTIS",
+      "text": "Hey, Mater! I, Oh, gosh. I'm so sorry. I, I thought I could make it this time, but, Smooth like pudding, huh? Who am I kidding? I'll always be a lemon."
+    },
+    {
+      "character": "MATER",
+      "text": "Well, dad-gum, you're leakin\u2019 oil again! Must be your gaskets."
+    },
+    {
+      "character": "MATER",
+      "text": "Hey, but look on the bright side. This is your tenth tow this month, so that means it's on the house!"
+    },
+    {
+      "character": "OTIS",
+      "text": "You're the only one that's nice to lemons like me, Mater."
+    },
+    {
+      "character": "MATER",
+      "text": "Hey, don't sweat it! Shoot, these things happen to everybody, Otis."
+    },
+    {
+      "character": "OTIS",
+      "text": "But you never leak oil!"
+    },
+    {
+      "character": "MATER",
+      "text": "Yeah, but I ain't perfect. Don't tell nobody either, but I think my rust is startin\u2019 to show through."
+    },
+    {
+      "character": "OTIS",
+      "text": "Hey! Is Lightning McQueen back yet?"
+    },
+    {
+      "character": "MATER",
+      "text": "Not yet."
+    },
+    {
+      "character": "OTIS",
+      "text": "He must be crazy excited about winning his fourth Piston Cup! Four! Wow!"
+    },
+    {
+      "character": "MATER",
+      "text": "Yeah, we're so dad-gum proud of him, but I sure wish he'd hurry up and get back, because we got a whole summer's worth of best friend fun to make up for. Just me and McQueen!"
+    },
+    {
+      "character": "OTIS",
+      "text": "Whoa, whoa, whoa!"
+    },
+    {
+      "character": "MATER",
+      "text": "McQueen!"
+    },
+    {
+      "character": "OTIS",
+      "text": "Mater! I'm in no hurry! You don't need to go so fast!"
+    },
+    {
+      "character": "MATER",
+      "text": "Hey, everybody! McQueen's back! McQueen's back! McQueen's back! McQueen's back! McQueen's back!"
+    },
+    {
+      "character": "OTIS",
+      "text": "Aaah! Ahh! Aaah! Oooh-hoo! Oooh-hah! Aah!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Oh, Lightning! Welcome home!"
+    },
+    {
+      "character": "FLO",
+      "text": "Good to have you back, honey!"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "Congratulations, man."
+    },
+    {
+      "character": "SARGE",
+      "text": "Welcome home, soldier."
+    },
+    {
+      "character": "SHERIFF",
+      "text": "The place wasn't the same without you, son."
+    },
+    {
+      "character": "LIZZIE",
+      "text": "What?! Did he go somewhere?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "It's good to be home, everybody."
+    },
+    {
+      "character": "MATER",
+      "text": "McQueen!"
+    },
+    {
+      "character": "OTIS",
+      "text": "Aah!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater!"
+    },
+    {
+      "character": "MATER",
+      "text": "McQueen!"
+    },
+    {
+      "character": "OTIS",
+      "text": "Oooh!"
+    },
+    {
+      "character": "OTIS",
+      "text": "Whoooa!"
+    },
+    {
+      "character": "RAMONE",
+      "text": "Hey, how far did you make it this time, Otis?"
+    },
+    {
+      "character": "OTIS",
+      "text": "Halfway to the county line."
+    },
+    {
+      "character": "RAMONE",
+      "text": "Ooh, not bad, man!"
+    },
+    {
+      "character": "OTIS",
+      "text": "I know! I can't believe it either!"
+    },
+    {
+      "character": "MATER",
+      "text": "McQueen! Welcome back!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater, it's so good to see you."
+    },
+    {
+      "character": "MATER",
+      "text": "You too, buddy! Oh, man, you ain't gon\u2019 believe the things I got planned for us!"
+    },
+    {
+      "character": "MACK",
+      "text": "Oh, these best friend greetings. They get longer every year!"
+    },
+    {
+      "character": "MATER",
+      "text": "You ready to have some serious fun?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Well, actually, I've got something to show you first."
+    },
+    {
+      "character": "MATER",
+      "text": "Wow! I can't believe they renamed the Piston Cup after our very own Doc Hudson!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I know Doc said these things were just old cups, but to have someone else win it just didn't feel right, you know?"
+    },
+    {
+      "character": "MATER",
+      "text": "Well, Doc would've been real proud of ya. That's for sure."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "All right, pal. I've been waiting all summer for this. What you got planned?"
+    },
+    {
+      "character": "MATER",
+      "text": "Ho-ho-ho! You sure you can handle it?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "C'mon, do you know who you're talking to? This is Lightning McQueen! I can handle anything."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Er, Mater?"
+    },
+    {
+      "character": "MATER",
+      "text": "Just remember, your brakes ain't gon\u2019 work on these!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater?"
+    },
+    {
+      "character": "MATER",
+      "text": "Ah, relax. These train tracks ain't been used in years!"
+    },
+    {
+      "character": "MATER",
+      "text": "Aaaah!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Faster, faster! Come on. Here we go! Faster!"
+    },
+    {
+      "character": "MATER",
+      "text": "Heh, heh. Heh, heh."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Ooh. Wow. Yeah, uh, I don't know. D-D-Do you think?"
+    },
+    {
+      "character": "MATER",
+      "text": "This is gon\u2019 be good!"
+    },
+    {
+      "character": "MATER",
+      "text": "Ah, ha, ha, ha, ha, ha!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Did you see that?"
+    },
+    {
+      "character": "MATER",
+      "text": "Uh-oh. This ain't gon\u2019 be good."
+    },
+    {
+      "character": "MATER",
+      "text": "Ha-ha! Boy, this was the best day ever! And my favorite souvenir, this new dent."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Boy, Mater, today was ah..."
+    },
+    {
+      "character": "MATER",
+      "text": "Shoot, that was nothin\u2019. Wait till you see what I got planned for tonight!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater, Mater, whoa! I was kinda thinking of just a quiet dinner."
+    },
+    {
+      "character": "MATER",
+      "text": "Hey, that's exactly what I was thinkin'."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "No, I-I meant with Sally, Mater."
+    },
+    {
+      "character": "MATER",
+      "text": "Even better! You, me, and Miss Sally goin' out for supper."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater, uh, I meant it would be just me and Sally."
+    },
+    {
+      "character": "MATER",
+      "text": "Oh."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "You know, just for tonight."
+    },
+    {
+      "character": "MATER",
+      "text": "Oh..."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "We'll do whatever you want tomorrow."
+    },
+    {
+      "character": "MATER",
+      "text": "OK."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Thanks for understanding."
+    },
+    {
+      "character": "MATER",
+      "text": "Yeah, sure. You go on and have fun now."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "All right, then. See you soon, amigo."
+    },
+    {
+      "character": "SALLY",
+      "text": "Ah, this is so nice."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I can't tell you how good it is to be here alone, just the two of us, finally. You and me."
+    },
+    {
+      "character": "MATER",
+      "text": "Ahem! Good evening."
+    },
+    {
+      "character": "SALLY",
+      "text": "Oh!"
+    },
+    {
+      "character": "MATER",
+      "text": "My name is Mater, and I'll be your waiter. Mater the waiter. That's funny right there."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Wha...? Mater? You work here?"
+    },
+    {
+      "character": "MATER",
+      "text": "Well, yeah, I work here. What'd you think? Do you think that I just snuck in here when nobody was lookin' and pretended to be your waiter just so I could hang out with you?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Oh, yeah. How ridiculous would that be?"
+    },
+    {
+      "character": "MATER",
+      "text": "Now, can I start you two lovebirds off with a couple of drinks?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Yes. I'll have my usual."
+    },
+    {
+      "character": "SALLY",
+      "text": "Oh, you know what? I'm gonna have that, too."
+    },
+    {
+      "character": "MATER",
+      "text": "Uh, Right. Your usual."
+    },
+    {
+      "character": "FILLMORE",
+      "text": "Thanks, man."
+    },
+    {
+      "character": "LUIGI",
+      "text": "Grazie, Guido!"
+    },
+    {
+      "character": "MATER",
+      "text": "Guido, what's McQueen's usual?"
+    },
+    {
+      "character": "GUIDO",
+      "text": "Come faccio a saperlo? (How do I know?)"
+    },
+    {
+      "character": "MATER",
+      "text": "Perfect! Give me two of \u2018em."
+    },
+    {
+      "character": "SARGE",
+      "text": "Quiet! My program's on."
+    },
+    {
+      "character": "MEL",
+      "text": "Tonight, on the Mel Dorado Show, His story gripped the world. Oil billionaire Miles Axlerod, in an attempt to beco"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "Thanks, man."
+    },
+    {
+      "character": "LUIGI",
+      "text": "Grazie, Guido!"
+    },
+    {
+      "character": "MATER",
+      "text": "Guido, what's McQueen's usual?"
+    },
+    {
+      "character": "GUIDO",
+      "text": "Come faccio a saperlo? (How do I know?)"
+    },
+    {
+      "character": "MATER",
+      "text": "Perfect! Give me two of \u2018em."
+    },
+    {
+      "character": "SARGE",
+      "text": "Quiet! My program's on."
+    },
+    {
+      "character": "AXLEROD",
+      "text": "Thank you, Mel. It is very, very good to be here. Now, listen to me. Big oil. It costs a fortune. Pollution is getting worse. I mean, come on, it's a fossil fuel. \"Fossil,\" as in dead dinosaurs. And we all know what happened to them. Alternative energy is the future. Trust me, Mel. After seeing Allinol in action at the World Grand Prix, nobody will ever go back to gasoline again."
+    },
+    {
+      "character": "MATER",
+      "text": "What happened to the dinosaurs, now?"
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "It is an honor, Signore Dorado, for you."
+    },
+    {
+      "character": "AXLEROD",
+      "text": "Of course we invited him, but apparently after his very long racing season he is taking some time off to rest."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "The Lightning McQueen would not have a chance against Francesco."
+    },
+    {
+      "character": "MATER",
+      "text": "Huh!"
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "I can go over 300 kilometers an hour. I-In miles, that is like, uh (stutters) way faster than McQueen."
+    },
+    {
+      "character": "CALLER",
+      "text": "Am I on? Hello?"
+    },
+    {
+      "character": "CALLER",
+      "text": "Hello?"
+    },
+    {
+      "character": "MATER",
+      "text": "Yeah, that Italian feller you got on there can't talk that way about Lightning McQueen. He's the bestest race car in the whole wide world."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "If he is, uh, how you say, uh, \"the bestest race car,\" then why must he rest? Huh?"
+    },
+    {
+      "character": "MATER",
+      "text": "'Cause he knows what's important. Every now and then he prefers just to slow down, enjoy life."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Oh! You heard it! Lightning McQueen prefers to be slow! Of course, this is not news to Francesco. When I want to go to sleep, I watch one of his races. After two laps, I am out cold."
+    },
+    {
+      "character": "MATER",
+      "text": "That ain't what I meant."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Hey, what's goin\u2019 on over there?"
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "He is afraid of Francesco."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "That's that Italian formula car. His name is..."
+    },
+    {
+      "character": "SALLY",
+      "text": "Francesco Bernoulli. No wonder there's a crowd."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Hey, why do you know his name? And don't say it like that. It's three syllables, not ten."
+    },
+    {
+      "character": "SALLY",
+      "text": "What? He's nice to look at. You know, open-wheeled and all."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "What's wrong with fenders?"
+    },
+    {
+      "character": "SALLY",
+      "text": "Nothing!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I thought you liked my fenders."
+    },
+    {
+      "character": "MATER",
+      "text": "Let me tell you something else, Mr. San Francisco."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater?"
+    },
+    {
+      "character": "MATER",
+      "text": "McQueen could drive circles around you."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Driving in circles is all he can-a do, no?"
+    },
+    {
+      "character": "MATER",
+      "text": "No. I mean, yes. I mean, he could beat you anywhere. Any time, any track."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Mel, can we move on? Francesco needs a caller who can provide a little more intellectual stimulation, like a dump truck."
+    },
+    {
+      "character": "MATER",
+      "text": "Ha-ha! That shows what you know. Dump trucks is dumb."
+    },
+    {
+      "character": "MATER",
+      "text": "Hey! Whoa!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Yeah, hi. This is Lightning McQueen."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "The Lightning McQueen, huh?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Look, I don't appreciate my best friend being insulted like that."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "McQueen, that was your best friend? Oh! This is the difference between you and Francesco. Francesco knows how good he is. He does not need to surround himself with tow trucks to prove it."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "And those are strong words from a car that is so fragile."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "FRAGILE! He calls-a Francesco fragile! Not-a so fast, McQueen!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "\"Not so fast.\" What is that? Your new motto?"
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Motto?! Questo \u00e8 tormo volto quevedo se questo programma ridicolo..!"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "Well, this sounds like something that needs to be settled on the race course. What do you say, Lightning McQueen? We've still got room for one more racer."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Well, I would love to. The only thing is, my crew is off for the season, so..."
+    },
+    {
+      "character": "GUIDO",
+      "text": "Pit stop."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "You know what? They just got back. Deal me in, baby. Ka-chow! Yeah!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I know, I know. I just got back, but we won't be long and..."
+    },
+    {
+      "character": "SALLY",
+      "text": "Oh! No, don't worry about me. I mean, I've got enough to do here. Mater's going to have a blast, though."
+    },
+    {
+      "character": "SALLY",
+      "text": "You're bringing Mater, right? You never bring Mater to any of your races."
+    },
+    {
+      "character": "MATER",
+      "text": "Ah."
+    },
+    {
+      "character": "SALLY",
+      "text": "Just let him sit in the pits. Give him a headset. Come on, it will be the thrill of a lifetime for him."
+    },
+    {
+      "character": "MATER",
+      "text": "Your drink, sir."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater."
+    },
+    {
+      "character": "MATER",
+      "text": "I didn't taste it!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "How'd you like to come and see the world with me?"
+    },
+    {
+      "character": "MATER",
+      "text": "You mean it?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Yeah. You got me into this thing. You're coming along!"
+    },
+    {
+      "character": "MATER",
+      "text": "All right!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Ka-chow!"
+    },
+    {
+      "character": "MATER",
+      "text": "Ha-ha!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Hey!"
+    },
+    {
+      "character": "MATER",
+      "text": "Hey, excuse me!"
+    },
+    {
+      "character": "MATER",
+      "text": "Domo arigato!"
+    },
+    {
+      "character": "MATER",
+      "text": "Yeah!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Ho-ho! Look at this! OK, now, Mater, remember, best behavior."
+    },
+    {
+      "character": "MATER",
+      "text": "You got it, buddy."
+    },
+    {
+      "character": "MATER",
+      "text": "Hey, what's that?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "No, Mater!"
+    },
+    {
+      "character": "LEWIS",
+      "text": "Hey, McQueen! Over here!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Lewis!"
+    },
+    {
+      "character": "JEFF",
+      "text": "Hey, Lightning! Can you believe this party?"
+    },
+    {
+      "character": "MATER",
+      "text": "Hey! You done good. You got all the leaves!"
+    },
+    {
+      "character": "JEFF",
+      "text": "Check out that tow truck!"
+    },
+    {
+      "character": "LEWIS",
+      "text": "Man, I wonder who that guy's with."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Ah... Will you guys excuse me just for one little second?"
+    },
+    {
+      "character": "MATER",
+      "text": "Ho-ho! Good job!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater!"
+    },
+    {
+      "character": "MATER",
+      "text": "Huh?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Listen, this isn't Radiator Springs."
+    },
+    {
+      "character": "MATER",
+      "text": "You're just realizin\u2019 that? Oh-ho! That jet lag really done a number on you."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater, look, things are different over here. Which means maybe you should, you know, act a little different, too."
+    },
+    {
+      "character": "MATER",
+      "text": "Different than what?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Well, just help me out here, buddy. I..."
+    },
+    {
+      "character": "MATER",
+      "text": "You need help? Shoot! Why didn't you just say so? That's what a tow truck does."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Yeah, I mean..."
+    },
+    {
+      "character": "MATER",
+      "text": "Hey, looky there! It's Mr. San Francisco. I'll introduce you."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater, no!"
+    },
+    {
+      "character": "MATER",
+      "text": "Look at me! I'm helping you already. Hey, Mr. San Francisco, I'd like you to meet..."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Ah, Lightning McQueen! Buona sera. (Good evening.)"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Erm, nice to meet you, Francesco."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Nice to meet you, too. You are very good-looking. Not as good as I thought, but you're good."
+    },
+    {
+      "character": "MATER",
+      "text": "Excuse me. Can I get a picture with you?"
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Ah, anything for McQueen's friend."
+    },
+    {
+      "character": "MATER",
+      "text": "Miss Sally is gon\u2019 flip when she sees this."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Sighs"
+    },
+    {
+      "character": "MATER",
+      "text": "She's Lightning McQueen's girlfriend."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Oooh!"
+    },
+    {
+      "character": "MATER",
+      "text": "She's a big fan of yours."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Hey, she has-a good taste."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater's prone to exaggeration. I wouldn't say she's a \"big fan\"."
+    },
+    {
+      "character": "MATER",
+      "text": "You're right. She's a huge fan!"
+    },
+    {
+      "character": "MATER",
+      "text": "She goes on and on about your open wheels here."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mentioning it once doesn't qualify as going on and on."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Francesco is familiar with this reaction to Francesco. Women respect a car that has-a nothing to hide."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Yeah, er..."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Let us have a toast."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Let's."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "I dedicate my win tomorrow to Miss Sally."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Oh. Sorry. I already dedicated my win tomorrow to her. So, if we both do it, it's really not so special. Besides, I don't have a drink."
+    },
+    {
+      "character": "MATER",
+      "text": "I'll go get you one. Hey, do you mind if I borrow a few bucks for one of them drinks?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "They're free, Mater."
+    },
+    {
+      "character": "MATER",
+      "text": "Free? Well, shoot, what am I doing here?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I should probably go keep an eye on him. See you at the race."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Yes, you will see Francesco, but not like this."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "You will see him like-a this as he drives away from you."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Ha! That's cute! So, you had one of those made up for all the racers?"
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "No."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Okay."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Ciao, McQueen!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "He is so getting beat tomorrow!"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "It is my absolute honor to introduce to you the competitors in the first ever World Grand Prix! From Brazil, number 8..."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "No."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Okay."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Ciao, McQueen!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "He is so getting beat tomorrow!"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "It is my absolute honor to introduce to you the competitors in the first ever World Grand Prix! From Brazil, number 8..."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Oh, hello."
+    },
+    {
+      "character": "FINN",
+      "text": "Hello."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "A Volkswagen Karmann Ghia has no radiator."
+    },
+    {
+      "character": "FINN",
+      "text": "That's because it's air-cooled."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Great. I'm Agent Shiftwell. Holley Shiftwell from the Tokyo station. I have a message from London."
+    },
+    {
+      "character": "FINN",
+      "text": "Not here. You must try the canap\u00e9s on the mezzanine."
+    },
+    {
+      "character": "FINN",
+      "text": "So, the lab boys analyzed the photo I sent? What did they learn about the camera?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "It appears to be a standard television camera. They said if you could get closer photos next time that would be great."
+    },
+    {
+      "character": "FINN",
+      "text": "This was London's message?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Oh, no. No. No, sir. Erm... The oil platforms you were on, turns out they're sitting on the biggest oil reserve in the world."
+    },
+    {
+      "character": "FINN",
+      "text": "How did we miss that?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "They've been scrambling everyone's satellites. The Americans actually discovered it just before you did. They placed an agent on that platform under deep cover. He was able to get a photo of the car who's running the entire operation."
+    },
+    {
+      "character": "FINN",
+      "text": "Great. Well, who is it? Has anyone seen the photo yet?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Nope, not yet. The American is here tonight to pass it to you. He'll signal you when he's ready."
+    },
+    {
+      "character": "FINN",
+      "text": "Good, good."
+    },
+    {
+      "character": "FINN",
+      "text": "Oh, no."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "What is it?"
+    },
+    {
+      "character": "FINN",
+      "text": "Change of plan. You're meeting the American."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "What? Me?"
+    },
+    {
+      "character": "FINN",
+      "text": "Those thugs down there were on the oil platform. If they see me, the whole mission is compromised."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "No, no, I'm technical. You see, I'm in diagnostics. I'm... I'm not a field agent."
+    },
+    {
+      "character": "FINN",
+      "text": "You are now."
+    },
+    {
+      "character": "MATER",
+      "text": "I'll take one of them. Thank you. Never know which one McQueen will have a hankering for."
+    },
+    {
+      "character": "MATER",
+      "text": "Hey. What you got here that's free?"
+    },
+    {
+      "character": "MATER",
+      "text": "How about that pistachio ice cream?"
+    },
+    {
+      "character": "DAISU",
+      "text": "No, no, wasabi."
+    },
+    {
+      "character": "MATER",
+      "text": "Oh, same old same old. What's up with you? That looks delicious!"
+    },
+    {
+      "character": "MATER",
+      "text": "Er...little more, please. It is free, right?"
+    },
+    {
+      "character": "MATER",
+      "text": "Keep it coming. A little more. Come on, let's go. It's free. You're gettin' there. Scoop, scoop."
+    },
+    {
+      "character": "MATER",
+      "text": "There ya go! Now that's a scoop of ice cream!"
+    },
+    {
+      "character": "DAISU",
+      "text": "\u304a\u6094\u3084\u307f\u3082\u3057\u3042\u308a\u307e\u3059\u3002 (My condolences.)"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "And now our last competitor. Number 95, Lightning McQueen!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Ka-chow! Thank you so much for having us, Sir Axlerod. I really look forward to racing. This is a great opportunity."
+    },
+    {
+      "character": "AXLEROD",
+      "text": "Oh, the pleasure is all ours, Lightning. You and your team bring excellence and professionalism to this competition."
+    },
+    {
+      "character": "MATER",
+      "text": "AAAAAAAAHHHHHHHHHHHH!!!!!!!!!!"
+    },
+    {
+      "character": "MATER",
+      "text": "Somebody get me water!"
+    },
+    {
+      "character": "MATER",
+      "text": "Aah! Oh, sweet relief! Sweet relief."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Mater:"
+    },
+    {
+      "character": "MATER",
+      "text": "Whatever you do, do not eat the free pistachio ice cream! It has turned!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Sir Axlerod,"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I can explain. This is Mater. He's..."
+    },
+    {
+      "character": "AXLEROD",
+      "text": "No, I know him!"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "This is the bloke that called in to the television show. You're the one I have to thank."
+    },
+    {
+      "character": "MATER",
+      "text": "No, thank you. This trip's been amazin'!"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "Ah! He's a little excited, isn't he?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater!"
+    },
+    {
+      "character": "MATER",
+      "text": "But wait, I... Oh, shoot!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater!"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "Has anyone got a towel?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater, you have to get a hold of yourself! You're making a scene!"
+    },
+    {
+      "character": "MATER",
+      "text": "But I never leak oil. Never."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Go take care of yourself right now!"
+    },
+    {
+      "character": "MATER",
+      "text": "Comin' through! Excuse me! Leakin' oil. Where's the bathroom?"
+    },
+    {
+      "character": "MATER",
+      "text": "Thank you. I gotta go."
+    },
+    {
+      "character": "MATER",
+      "text": "Oh, er..."
+    },
+    {
+      "character": "MATER",
+      "text": "Er..."
+    },
+    {
+      "character": "MATER",
+      "text": "Sorry, ladies."
+    },
+    {
+      "character": "MATER",
+      "text": "I'm leakin'."
+    },
+    {
+      "character": "MATER",
+      "text": "I never leak. I never leak. I never leak, I never leak, I never leak. Oh, oh, I never leak. Oooh!"
+    },
+    {
+      "character": "MATER",
+      "text": "I never leak, I never leak, never..."
+    },
+    {
+      "character": "MATER",
+      "text": "Wow-wee!"
+    },
+    {
+      "character": "MATER",
+      "text": "Oof!"
+    },
+    {
+      "character": "MATER",
+      "text": "What in the...?"
+    },
+    {
+      "character": "JAPANESE TOILET ASSISTANT CARTOON",
+      "text": "\u30d0\u30b9\u30eb\u30fc\u30e0\u306b\u3088\u3046\u3053\u305d\u3002\u9759\u304b\u306b\u5ea7\u3063\u3066\u3001\u79c1\u305f\u3061\u306f\u4ed5\u4e8b\u3092\u3055\u305b\u3066\u304f\u3060\u3055\u3044\u3002\u3053\u308c\u3089\u306e\u30aa\u30d7\u30b7\u30e7\u30f3\u306e\u3044\u305a\u308c\u304b\u3092\u9078\u629e\u3057\u3066\u304f\u3060\u3055\u3044\u3002\u3042\u306a\u305f\u306f\u3053\u306e\u30d3\u30c7\u30aa\u3092\u898b\u306a\u304c\u3089\u30ea\u30e9\u30c3\u30af\u30b9\u3067\u304d\u307e\u3059\u3002 (Welcome to the bathroom. Please quietly sit down and let us do the work. Please choose one of these options. Relax while you watch this video.)"
+    },
+    {
+      "character": "MATER",
+      "text": "Hey, that tickles!"
+    },
+    {
+      "character": "JAPANESE TOILET ASSISTANT CARTOON",
+      "text": "\u3042\u306a\u305f\u306e\u8981\u6c42\u304c\u53d7\u4fe1\u3055\u308c\u307e\u3057\u305f\u3002 (Your request was received.)"
+    },
+    {
+      "character": "MATER",
+      "text": "Waaargh! Aaaahh!"
+    },
+    {
+      "character": "ROD",
+      "text": "Okay, McMissile. I'm here. It's time for the drop."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "OK, so, the American has activated his tracking beacon."
+    },
+    {
+      "character": "FINN",
+      "text": "Roger that. Move in."
+    },
+    {
+      "character": "MATER",
+      "text": "Stop! Hey!"
+    },
+    {
+      "character": "JAPANESE TOILET ASSISTANT CARTOON",
+      "text": "(Sensha o tanoshinde kudasai or Enjoy your car-wash in Japanese)"
+    },
+    {
+      "character": "MATER",
+      "text": "Ah!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Oh, you've got to be joking."
+    },
+    {
+      "character": "FINN",
+      "text": "What's the problem, Shiftwell?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "He's in the loo."
+    },
+    {
+      "character": "FINN",
+      "text": "So, go in!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "I can't just go into the men's loo!"
+    },
+    {
+      "character": "FINN",
+      "text": "Time is of the essence, Shiftwell!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "All right."
+    },
+    {
+      "character": "MATER",
+      "text": "Oh! Whatever you do, I would not go in there!"
+    },
+    {
+      "character": "ACER",
+      "text": "Hey!"
+    },
+    {
+      "character": "MATER",
+      "text": "A Gremlin and a Pacer! No offense to your makes and models, but you guys break down harder than my cousin Betsy after she got left at the..."
+    },
+    {
+      "character": "MATER",
+      "text": "...altar! What the...?"
+    },
+    {
+      "character": "MATER",
+      "text": "Whoa. Are you OK?"
+    },
+    {
+      "character": "ROD",
+      "text": "I'm fine."
+    },
+    {
+      "character": "GREM",
+      "text": "Hey! Tow truck! We'd like to get to our private business here, if you don't mind."
+    },
+    {
+      "character": "MATER",
+      "text": "Oh, yeah, sorry. Don't let me get in the way of your private business. Oh, a little advice. When you hear a giggle and see that waterfall, you best press that green button."
+    },
+    {
+      "character": "GREM",
+      "text": "Thank you."
+    },
+    {
+      "character": "MATER",
+      "text": "It's to adjust the temperature."
+    },
+    {
+      "character": "ACER",
+      "text": "Got it!"
+    },
+    {
+      "character": "MATER",
+      "text": "And remember, it's in Celsius, not Fahrenheit."
+    },
+    {
+      "character": "GREM",
+      "text": "Get out of here!"
+    },
+    {
+      "character": "ACER",
+      "text": "Get out of here!"
+    },
+    {
+      "character": "MATER",
+      "text": "All right, then. And when she starts gigglin', prepare to be squirted!"
+    },
+    {
+      "character": "MATER",
+      "text": "'Scuse me, ma'am."
+    },
+    {
+      "character": "MATER",
+      "text": "Oh! Dad-gum pistachio ice cream!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "This cannot be him."
+    },
+    {
+      "character": "FINN",
+      "text": "Is he American?"
+    },
+    {
+      "character": "MATER",
+      "text": "Look out, ladies! Mater's fittin' to get funky!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Extremely."
+    },
+    {
+      "character": "FINN",
+      "text": "Then it's him."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Hello."
+    },
+    {
+      "character": "MATER",
+      "text": "Well, hello."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "A Volkswagen Karmann Ghia has no radiator."
+    },
+    {
+      "character": "MATER",
+      "text": "Well, of course it doesn't. That's 'cause it's air-cooled."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Perfect. Erm...I'm from the Tokyo Station."
+    },
+    {
+      "character": "MATER",
+      "text": "'Course, Karmann Ghias weren't the only ones. Besides the Beetles, you had your Type 3 Squarebacks with the Pancake motors."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Yeah, OK. I get it."
+    },
+    {
+      "character": "MATER",
+      "text": "And before both of them there's the Type 2 buses. My buddy Fillmore's one of them."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Listen! Erm... We should find somewhere more private."
+    },
+    {
+      "character": "MATER",
+      "text": "Uh... Gee, don't you think that's a little, uh...?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Yeah, you're right. Impossible to know which areas here are compromised. So, when can I see you again?"
+    },
+    {
+      "character": "MATER",
+      "text": "Well, let's see. Tomorrow I'll be out there at the races."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Got it. We'll rendezvous then."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "There you are. Where have you been?"
+    },
+    {
+      "character": "MATER",
+      "text": "What's a \"rendezvous\"?"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Er... It's like a date."
+    },
+    {
+      "character": "MATER",
+      "text": "A date?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater, what's going on?"
+    },
+    {
+      "character": "MATER",
+      "text": "Well, what's goin\u2019 on is I got me a date tomorrow."
+    },
+    {
+      "character": "GUIDO",
+      "text": "Non ci credo. (I don't believe it.)"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Guido don't believe you."
+    },
+    {
+      "character": "MATER",
+      "text": "Well, believe it. My new girlfriend just said so."
+    },
+    {
+      "character": "MATER",
+      "text": "Hey, there she is."
+    },
+    {
+      "character": "MATER",
+      "text": "Hey! Hey, lady! See you tomorrow!"
+    },
+    {
+      "character": "GUIDO",
+      "text": "Non ci credo. (I don't believe it.)"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Guido still don't believe you."
+    },
+    {
+      "character": "GREM",
+      "text": "I gotta admit, you tricked us real good."
+    },
+    {
+      "character": "ACER",
+      "text": "And we don't like being tricked."
+    },
+    {
+      "character": "ROD",
+      "text": "Acer:"
+    },
+    {
+      "character": "ACER",
+      "text": "Hey! What's so funny?"
+    },
+    {
+      "character": "ROD",
+      "text": "Well, you know, I was just wearing a disguise. You guys are stuck looking like that!"
+    },
+    {
+      "character": "ROD",
+      "text": "Allinol? Thanks, fellas! I hear this stuff is good for you."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "So you think. Allinol by itself is good for you."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "But after microscopic examination I have found that it has one small weakness. When hit with an electromagnetic pulse, it becomes extremely dangerous."
+    },
+    {
+      "character": "GREM",
+      "text": "Smile for the camera."
+    },
+    {
+      "character": "ROD",
+      "text": "Is that all you want? I got a whole act."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "You were very interested in this camera on the oil platform. Now, you will witness what it really does."
+    },
+    {
+      "character": "ROD",
+      "text": "Whatever you say, Professor."
+    },
+    {
+      "character": "ACER",
+      "text": "You talked up a lot of cars last night. Which one's your associate?"
+    },
+    {
+      "character": "ROD",
+      "text": "Your mother. Oh, no, I'm sorry, it was your sister. You know, I can't tell them apart these days."
+    },
+    {
+      "character": "GREM",
+      "text": "Could I start it now, Professor Z?"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "Go 50% power."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "This camera is actually an electromagnetic pulse emitter."
+    },
+    {
+      "character": "ACER",
+      "text": "What about her? Did you give it to her?"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "The Allinol is now heating to a boil, dramatically expanding, causing the engine block to crack under the stress, forcing oil into the combustion chamber."
+    },
+    {
+      "character": "ACER",
+      "text": "How about him?! Did you talk to him?"
+    },
+    {
+      "character": "ROD",
+      "text": "What do I care? I can replace an engine block!"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "You may be able to, but after full impact of the pulse..."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "unfortunately... there will be nothing to replace."
+    },
+    {
+      "character": "ACER",
+      "text": "How about him? Does he have it?"
+    },
+    {
+      "character": "ROD",
+      "text": "No!"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "That's him. He's the one."
+    },
+    {
+      "character": "GREM",
+      "text": "Roger that, Professor Z."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "Yes, sir. We believe the infiltrator has passed along sensitive information."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "I will take care of it before any damage can be done."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "The project is still on schedule. You will find the second a"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "That's him. He's the one."
+    },
+    {
+      "character": "GREM",
+      "text": "Roger that, Professor Z."
+    },
+    {
+      "character": "ROD",
+      "text": "No!"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "Yes, sir. We believe the infiltrator has passed along sensitive information."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "I will take care of it before any damage can be done."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "The project is still on schedule. You will find the second agent and kill him."
+    },
+    {
+      "character": "BRENT",
+      "text": "Japan, land of the rising sun, where ancient tradition meets modern technology. Welcome to the inaugural running of the World Grand Prix. I'm Brent Mustangburger here with racing legends Darrell Cartrip and David Hobbscap. There's never been a competition like this before. First, Allinol, making its debut tonight as the required fuel for all these great champions. Second, the course itself. And it's like nothing we've ever seen before. David, how exactly does this competition work?"
+    },
+    {
+      "character": "DAVID",
+      "text": "Well, Brent, all three of these street courses are classic round-the-house racetracks. This means that the LMP and formula cars should break out of the gate in spectacular fashion. Look for Francesco Bernoulli, in particular, to lead early. And with the series of technical turns throughout, GT and touring cars, like Spain's Miguel Camino, should make up some ground but I doubt it'll be enough to stop Francesco from absolutely running away with it."
+    },
+    {
+      "character": "DARRELL",
+      "text": "Whoa now. Just hold your horsepower. You forget the most important factor here - that early dirt track section of the course. The dirt is supposed to be the great equalizer in this race."
+    },
+    {
+      "character": "BRENT",
+      "text": "French rally car Raoul \u00c7aRoule is counting on a big boost headed through there."
+    },
+    {
+      "character": "DARRELL",
+      "text": "And don't forget Lightning McQueen. His mentor, the Hudson Hornet, was one of the greatest dirt track racers of all time. In my opinion, McQueen is the best all-around racer in this competition."
+    },
+    {
+      "character": "DAVID",
+      "text": "Really, Darrell, I think you need to clean your windshield. You're clearly not seeing this for what it is: Francesco's race to lose."
+    },
+    {
+      "character": "BRENT",
+      "text": "It's time to find out. The racers are locking into the grid."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Speed. I am speed."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Really? You are speed? Then Francesco is triple speed."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Francesco is triple speed."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Ho-ho! Francesco likes-a this McQueen! It's-a really getting him into the zone!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "He is so getting beat today!"
+    },
+    {
+      "character": "SARGE",
+      "text": "Your suspension sets look good."
+    },
+    {
+      "character": "LUIGI",
+      "text": "Tire pressure is excellent!"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "He's got plenty of fuel."
+    },
+    {
+      "character": "MATER",
+      "text": "And he's awesome!"
+    },
+    {
+      "character": "CROWD",
+      "text": "McQueen! McQueen! McQueen!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Why is he in the pits? He's so exposed."
+    },
+    {
+      "character": "FINN",
+      "text": "It's his cover. One of the best I've seen, too. Look at the detail on that rust. It must have cost him a fortune."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "But why hasn't he contacted us yet?"
+    },
+    {
+      "character": "FINN",
+      "text": "There's probably heat on him. Be patient."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Right, of course. He'll signal us when he can."
+    },
+    {
+      "character": "FINN",
+      "text": "And then we find out who's behind all this."
+    },
+    {
+      "character": "BRENT",
+      "text": "As they head into the palace hairpin, Francesco builds an early lead."
+    },
+    {
+      "character": "DARRELL",
+      "text": "Ah, hang on, boys. Here comes the dirt. Slipping and sliding, baby."
+    },
+    {
+      "character": "MATER",
+      "text": "McQueen, it's time to make your move! Get on the outside and show 'im what Doc done taught ya!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "10-4, Mater."
+    },
+    {
+      "character": "DAVID",
+      "text": "Oh, boy! Francesco's brought to a screeching halt!"
+    },
+    {
+      "character": "BRENT",
+      "text": "Lightning McQueen is the first to take advantage. And just like that, folks, Francesco's lead is left in the dust."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Nice call, Mater. Keep it up!"
+    },
+    {
+      "character": "DARRELL",
+      "text": "Whoo-hoo! Man, McQueen looks happier than a roll bar at a demolition derby!"
+    },
+    {
+      "character": "BRENT",
+      "text": "Everyone's jostling for position as we hit the asphalt again. Francesco lost a lot of momentum in the dirt."
+    },
+    {
+      "character": "DAVID",
+      "text": "Wow, he's got some serious work ahead of him if he wants to get back in this race."
+    },
+    {
+      "character": "BRENT",
+      "text": "Now, the racers hit the Rainbow Bridge, with its 360-degree loop."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "It is time."
+    },
+    {
+      "character": "GREM",
+      "text": "Roger that."
+    },
+    {
+      "character": "DARRELL",
+      "text": "Oh! Miguel Camino has blown an engine!"
+    },
+    {
+      "character": "BRENT",
+      "text": "Very unusual, Darrell. He's been so consistent all year."
+    },
+    {
+      "character": "GREM",
+      "text": "You gotta be kiddin\u2019 me!"
+    },
+    {
+      "character": "ACER",
+      "text": "What is it?"
+    },
+    {
+      "character": "GREM",
+      "text": "It's the tow truck from the bathroom."
+    },
+    {
+      "character": "ACER",
+      "text": "The one from the bathroom?"
+    },
+    {
+      "character": "GREM",
+      "text": "Yeah, the one the American agent passed the device to!"
+    },
+    {
+      "character": "ACER",
+      "text": "What about him?"
+    },
+    {
+      "character": "GREM",
+      "text": "What about him? He's in the pits!"
+    },
+    {
+      "character": "ACER",
+      "text": "Not for long!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Hold on. I think I've got something."
+    },
+    {
+      "character": "FINN",
+      "text": "What is it?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "It's the Pacer from the party last night. I'm cross-referencing with the photos from the oil derricks."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Yep. His VIN numbers match."
+    },
+    {
+      "character": "FINN",
+      "text": "Anyone with him? He won't be alone."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Conducting analysis on the target. He's not the only one here. Three, five... They're everywhere. And they're all closing in on..."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Oh, no! Finn? Finn, where are you?"
+    },
+    {
+      "character": "FINN",
+      "text": "Get him out of the pits! Now!"
+    },
+    {
+      "character": "MATER",
+      "text": "Wow! Some of them fellers is really loud!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Can you hear me? Over."
+    },
+    {
+      "character": "MATER",
+      "text": "Uh... What?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Get out of the pit now! Do you hear me?"
+    },
+    {
+      "character": "MATER",
+      "text": "Hey. I know you! You're that girl from the party last night. You wanna do our date right now?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Guys, a little too much chatter. Let's keep this line clear."
+    },
+    {
+      "character": "RIP",
+      "text": "AH!!!"
+    },
+    {
+      "character": "BRENT",
+      "text": "Smoke from number 10, Clutchgoneski!"
+    },
+    {
+      "character": "GREM",
+      "text": "Ha-ha-ha!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "There's no time for messing about! You've got to get out of the pits!"
+    },
+    {
+      "character": "MATER",
+      "text": "Well, is there gon\u2019 be cable where you is so I can watch the rest of the race?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "You're running out of time!"
+    },
+    {
+      "character": "FINN",
+      "text": "They're coming, Shiftwell! Get him out of there!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "I'm trying!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Get out now!"
+    },
+    {
+      "character": "MATER",
+      "text": "Well, I usually like to have a proper detailin' done before I meet a lady friend."
+    },
+    {
+      "character": "MATER",
+      "text": "Huh?"
+    },
+    {
+      "character": "ACER",
+      "text": "Finn McMissile?! But you're dead!"
+    },
+    {
+      "character": "FINN",
+      "text": "Then this shouldn't hurt at all."
+    },
+    {
+      "character": "ACER AND PETEY PACER",
+      "text": "Aaah!"
+    },
+    {
+      "character": "FINN",
+      "text": "Miss Shiftwell?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "I've got him in the back alleys east of the garages. Multiple assailants are closing in quickly."
+    },
+    {
+      "character": "FINN",
+      "text": "Keep him moving. I'm on my way!"
+    },
+    {
+      "character": "MATER",
+      "text": "Hey, new lady friend, you like flowers?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "What?!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "No! Don't go in anywhere. Just keep moving."
+    },
+    {
+      "character": "MATER",
+      "text": "Stay outside. Got you."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Outside?"
+    },
+    {
+      "character": "BRENT",
+      "text": "Whoa! McQueen suddenly moves to the outside!"
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Grazie di arrivederci!"
+    },
+    {
+      "character": "DARRELL",
+      "text": "I cannot believe what I just saw, Brent. That was a bonehead move to open up the inside like that!"
+    },
+    {
+      "character": "DAVID",
+      "text": "That move might have cost McQueen the victory!"
+    },
+    {
+      "character": "TYLER GREMLIN",
+      "text": "Sorry!"
+    },
+    {
+      "character": "ACER",
+      "text": "This time, I'm gonna make sure you stay dead!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "You're doing brilliantly. Now just stay focused."
+    },
+    {
+      "character": "MATER",
+      "text": "What's that? You want me to head toward that ruckus?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "No! Don't go down that street!"
+    },
+    {
+      "character": "TOWGA GREMLIN",
+      "text": "Ohh!"
+    },
+    {
+      "character": "FINN",
+      "text": "Hi-yah!"
+    },
+    {
+      "character": "MATER",
+      "text": "Wow! A live karate demonstration!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Stop it, Mater! Just sign off."
+    },
+    {
+      "character": "FRED PACER",
+      "text": "Aaargh!"
+    },
+    {
+      "character": "DAVID",
+      "text": "And here they come, the two leaders."
+    },
+    {
+      "character": "BRENT",
+      "text": "They're bumper to bumper as they approach the finish line!"
+    },
+    {
+      "character": "DAVID",
+      "text": "It's gonna be close!"
+    },
+    {
+      "character": "BRENT",
+      "text": "Francesco's the winner! McQueen's number two!"
+    },
+    {
+      "character": "MATER",
+      "text": "That was cool! Hey! Can I get your autograph?"
+    },
+    {
+      "character": "MATER",
+      "text": "Hey, where'd he go?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Our rendezvous has been jeopardized. Keep the device safe. We'll be in touch."
+    },
+    {
+      "character": "MATER",
+      "text": "Dad-gum, did I miss our date?"
+    },
+    {
+      "character": "PHOTOGRAPHER",
+      "text": "Francesco!"
+    },
+    {
+      "character": "DARRELL",
+      "text": "Francesco, over here. Hey, what was your strategy today?"
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Strategia? Francesco needs-a no strategy! It's-a very simple. You start the race, wait for Lightning McQueen to choke, pass him, then win. Francesco always-a wins. It's-a boring."
+    },
+    {
+      "character": "DARRELL",
+      "text": "I gotta tell you, dude, you wer"
+    },
+    {
+      "character": "PHOTOGRAPHER",
+      "text": "Francesco!"
+    },
+    {
+      "character": "DARRELL",
+      "text": "Francesco, over here. Hey, what was your strategy today?"
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Strategia? Francesco needs-a no strategy! It's-a very simple. You start the race, wait for Lightning McQueen to choke, pass him, then win. Francesco always-a wins. It's-a boring."
+    },
+    {
+      "character": "DARRELL",
+      "text": "I gotta tell you, dude, you were in trouble for a while. That dirt track section had you crawling."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "To truly crush one's dream, you must first raise their hopes very high."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater!"
+    },
+    {
+      "character": "MATER",
+      "text": "Hey, McQueen! What happened? Is the race over? You won, right?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater, why were you yelling things at me while I was racing?"
+    },
+    {
+      "character": "MATER",
+      "text": "Yellin\u2019? Oh, you thought... Oh, that's funny right there. No, see, that's 'cause I seen these two fellers doin\u2019 some sort of karate street performance. It was nutso. One of 'em even had a flame-thrower."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "A flame-thrower? What are you talking about? I... I don't understand. Where were you?"
+    },
+    {
+      "character": "MATER",
+      "text": "Goin\u2019 to meet my date."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Your date?"
+    },
+    {
+      "character": "MATER",
+      "text": "She started talkin' to me as a voice in my head, tellin' me where to go."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "What?!"
+    },
+    {
+      "character": "MATER",
+      "text": "Wait a minute. I didn't screw ya up, did I?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I lost the race because of you!"
+    },
+    {
+      "character": "MATER",
+      "text": "Oh. I'm sorry. I didn't mean to."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "An imaginary girlfriend?! Flame-throwers?! This is exactly why I don't bring you along to these things!"
+    },
+    {
+      "character": "MATER",
+      "text": "Maybe if I, I don't know, talk to somebody and explained what happened, I could help."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I don't need your help! I don't want your help!"
+    },
+    {
+      "character": "NICK CARTONE",
+      "text": "Hey, there he is!"
+    },
+    {
+      "character": "MALE REPORTER",
+      "text": "McQueen, you had it in the bag!"
+    },
+    {
+      "character": "NICK CARTONE",
+      "text": "Yeah! What happened?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I...I made a mistake. But I can assure you, it won't happen again."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Look, guys, we know what the problem is and we've taken care of it."
+    },
+    {
+      "character": "AXLEROD",
+      "text": "Allinol is safe! Alternative fuel is safe! There is no way my fuel caused these cars to flame out!"
+    },
+    {
+      "character": "DARRELL",
+      "text": "Well, the jury may still be out on whether Allinol caused these accidents, but one thing's for sure, Lightning McQueen blew this race!"
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Welcome to Tokyo International Airport."
+    },
+    {
+      "character": "FINN",
+      "text": "Come with me, please, sir."
+    },
+    {
+      "character": "MATER",
+      "text": "But I'm 'onna miss my plane."
+    },
+    {
+      "character": "FINN",
+      "text": "Right this way."
+    },
+    {
+      "character": "MATER",
+      "text": "Ah, doggone it. This is about my hook, ain't it? I know I should have checked it, but I can't, really."
+    },
+    {
+      "character": "MATER",
+      "text": "Look. It's attached to me."
+    },
+    {
+      "character": "MATER",
+      "text": "Hey, I know you. You're that feller from the karate demonstration."
+    },
+    {
+      "character": "FINN",
+      "text": "I never properly introduced myself. Finn McMissile. British intelligence."
+    },
+    {
+      "character": "MATER",
+      "text": "Tow Mater. Average intelligence."
+    },
+    {
+      "character": "FINN",
+      "text": "Who are you with? FBI? CIA?"
+    },
+    {
+      "character": "MATER",
+      "text": "Let's just say I'm AAA affiliated. I know some karate. I don't wanna brag or nuttin', but I got me a black fan belt. Hey, you wanna see some moves I made up?"
+    },
+    {
+      "character": "FINN",
+      "text": "You're being followed."
+    },
+    {
+      "character": "MATER",
+      "text": "This first one, I can reach into a car's hood pull out his battery, and show it to him before he stalls. I call it, \"What I accidentally did to my friend Luigi once.\""
+    },
+    {
+      "character": "MATER",
+      "text": "Hey! Hi-yah-pah! Hi-yah!"
+    },
+    {
+      "character": "GREM",
+      "text": "There he is!"
+    },
+    {
+      "character": "MATER",
+      "text": "Hi-hi-tah! Huh!"
+    },
+    {
+      "character": "MATER",
+      "text": "Look, I probably ought to go. I'm about to miss my flight."
+    },
+    {
+      "character": "FINN",
+      "text": "Don't worry. I've taken care of that."
+    },
+    {
+      "character": "MATER",
+      "text": "WHOA!"
+    },
+    {
+      "character": "FINN",
+      "text": "HANG ON!"
+    },
+    {
+      "character": "ACER",
+      "text": "grunts"
+    },
+    {
+      "character": "MATER",
+      "text": "Whoa-hah-hah! This is first-class service. You don't even have to go through the terminal!"
+    },
+    {
+      "character": "UCCHI",
+      "text": "\u4f55\u3084\u3063\u3066\u3093\u3060\u3088\uff1f (What are you doing?)"
+    },
+    {
+      "character": "MATER",
+      "text": "Your karate partners is back there. They kinda look like they tryin' to catch up!"
+    },
+    {
+      "character": "FINN",
+      "text": "Drive forward. Whatever you do, don't stop!"
+    },
+    {
+      "character": "MATER",
+      "text": "WHOA!"
+    },
+    {
+      "character": "EVERETT",
+      "text": "WHOA!"
+    },
+    {
+      "character": "GREM",
+      "text": "Whoa..."
+    },
+    {
+      "character": "GREM",
+      "text": "AAH!"
+    },
+    {
+      "character": "MATER",
+      "text": "Is everything okay back there?"
+    },
+    {
+      "character": "SIDDELEY",
+      "text": "Finn, it's Sid. I'm on approach."
+    },
+    {
+      "character": "FINN",
+      "text": "Roger that."
+    },
+    {
+      "character": "MATER",
+      "text": "'Member that whole thing about me not stoppin' no matter what?"
+    },
+    {
+      "character": "MATER",
+      "text": "Whoa! I knew I shoulda done carry-on!"
+    },
+    {
+      "character": "FINN",
+      "text": "Thanks, old boy!"
+    },
+    {
+      "character": "SIDDELEY",
+      "text": "You got it, mate."
+    },
+    {
+      "character": "MATER",
+      "text": "Hey, doggonit! Look, it's my imaginary girlfriend!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "COME ON! GET IN HERE!"
+    },
+    {
+      "character": "MATER",
+      "text": "I tell you what, you really do want this first date, don't ya?"
+    },
+    {
+      "character": "MATER",
+      "text": "That's a no-quit attitude right there!"
+    },
+    {
+      "character": "MATER",
+      "text": "What the...?"
+    },
+    {
+      "character": "SIDDELEY",
+      "text": "Aargh!"
+    },
+    {
+      "character": "FINN",
+      "text": "HOLD ON, SID!"
+    },
+    {
+      "character": "ACER",
+      "text": "AAAAAAAAARGGGGH!"
+    },
+    {
+      "character": "SIDDELEY",
+      "text": "Come on, Finn! It's now or never!"
+    },
+    {
+      "character": "MATER",
+      "text": "Whoa!"
+    },
+    {
+      "character": "SIDDELEY",
+      "text": "Hold on!"
+    },
+    {
+      "character": "MATER",
+      "text": "By the time you read this, I will be safely on an airplane flying home. I'm so sorry for what I did."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I don't want to be the cause of you losing any more races. I want you to go prove to the world what I already know. That you are the greatest race car in the whole wide world. Your best friend, Mater."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I didn't really want him to leave."
+    },
+    {
+      "character": "GUIDO",
+      "text": "sobs"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Wait, there's more here."
+    },
+    {
+      "character": "LUIGI",
+      "text": "PS. Please tell the hotel I didn't mean to order that movie. I thought it was just a preview and I didn't realize I was paying for it."
+    },
+    {
+      "character": "LUIGI",
+      "text": "PPS. That's funny right there. PP."
+    },
+    {
+      "character": "LUIGI",
+      "text": "There are a few more pages of PS's here."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Well, a-at least I know if he's at home, he'll be safe."
+    },
+    {
+      "character": "FINN",
+      "text": "Now that's how I like to start the day. You never feel more alive than when you're almost dead."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Yeah. I hope that device didn't fall off."
+    },
+    {
+      "character": "MATER",
+      "text": "Whoa! Oh-oh-oh! That's the closet I ever been to missin' my flight. That was..."
+    },
+    {
+      "character": "MATER",
+      "text": "Oh!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Still in one piece? Great."
+    },
+    {
+      "character": "MATER",
+      "text": "Boy, I've got to go to a doctor. I keep gettin' these sharp pains in my undercarriage."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Downloading the photo now."
+    },
+    {
+      "character": "MATER",
+      "text": "Hey, let me introduce you two. This here is Finn McSomethin' or other. He's a first-class VIP airport whatchamacallit. And, Finn, this here is my date."
+    },
+    {
+      "character": "MATER",
+      "text": "I never did get your name."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Oh, yes, sorry. It's Shiftwell. Holley Shiftwell."
+    },
+    {
+      "character": "MATER",
+      "text": "It's Shiftwell. Holley..."
+    },
+    {
+      "character": "FINN",
+      "text": "Finally. Time to see who's behind all this."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "What is this?"
+    },
+    {
+      "character": "MATER",
+      "text": "Well, that's one of the worst engines ever made. It's an old aluminium V8 with a Lucas electrical system and Whitworth bolts."
+    },
+    {
+      "character": "MATER",
+      "text": "Shoot, them Whitworth bolts is a pain, tell you what. Them ain't metric, they ain't inches."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Yes, OK, right, but whose engine is this, Mater?"
+    },
+    {
+      "character": "MATER",
+      "text": "Well, it's kinda hard to tell from this picture, ain't it?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "But you're the one who took it."
+    },
+    {
+      "character": "FINN",
+      "text": "Holley."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Oh. Right! Yes, of course. A good agent gets what he can, then gets out before he's killed. Sorry."
+    },
+    {
+      "character": "MATER",
+      "text": "Agent? You mean, like, insurance agent? Like..."
+    },
+    {
+      "character": "MATER",
+      "text": "\u266a Like a good neighbor, Mater is there! \u266a Wait! You mean secret agents! You guys is spies!"
+    },
+    {
+      "character": "FINN",
+      "text": "Holley, in how many makes and models did this type of engine appear?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "It was standard in seven models over a 12-year period. At least 35,000 cars were made with this engine."
+    },
+    {
+      "character": "MATER",
+      "text": "You're purty."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Yes, alright, thank you."
+    },
+    {
+      "character": "MATER",
+      "text": "And so nice."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Just pay attention."
+    },
+    {
+      "character": "FINN",
+      "text": "This seems like a dead end."
+    },
+    {
+      "character": "FINN",
+      "text": "If there was something in the photo that could narrow this down a bit, I'd be a lot happier."
+    },
+    {
+      "character": "MATER",
+      "text": "You might not be happy, but I bet this feller is. See how he's had most of his parts replaced? And see all them boxes over there? Them's all original parts. They ain't easy to come by."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Rare parts?"
+    },
+    {
+      "character": "FINN",
+      "text": "That's something we can track."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Exactly!"
+    },
+    {
+      "character": "FINN",
+      "text": "Well done, Mater. I would never have seen that. I know of a black-market parts dealer in Paris, a treacherous lowlife, but he's the only car in the world who can tell us whose engine this is. Mater, what would you say to setting up an informal task force on this one?"
+    },
+    {
+      "character": "MATER",
+      "text": "Wait. What?"
+    },
+    {
+      "character": "FINN",
+      "text": "That's right. And you obviously have plenty of experience in the field, Mater."
+    },
+    {
+      "character": "MATER",
+      "text": "Well, yeah, I live right next to one. I don't know, Finn. I ain't exactly been much help to anybody recently."
+    },
+    {
+      "character": "FINN",
+      "text": "You're helping me. Please, Mater."
+    },
+    {
+      "character": "MATER",
+      "text": "Well... Okay."
+    },
+    {
+      "character": "MATER",
+      "text": "But you know I'm just a tow truck, right?"
+    },
+    {
+      "character": "FINN",
+      "text": "Right. And I'm just in the import-export business. Siddeley?"
+    },
+    {
+      "character": "SIDDELEY",
+      "text": "Yes, Finn?"
+    },
+    {
+      "character": "FINN",
+      "text": "Paris! Tout de suite."
+    },
+    {
+      "character": "MATER",
+      "text": "Yeah, two of them sweets for me, too, Sid!"
+    },
+    {
+      "character": "MATER",
+      "text": "And you know, I always wanted to be a spy."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Really? Me, too."
+    },
+    {
+      "character": "SIDDELEY",
+      "text": "Afterburners, sir?"
+    },
+    {
+      "character": "FINN",
+      "text": "Is there any other way?"
+    },
+    {
+      "character": "MATER",
+      "text": "Ha ha ha!"
+    },
+    {
+      "character": "FINN",
+      "text": "Once we're inside, stay close. Don't bother checking VIN numbers with criminal records. They're all dodgy here."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "No VIN scans. Got it."
+    },
+    {
+      "character": "FINN",
+      "text": "Don't talk to anyone, don't look at anyone, and absolutely, positively no idling. Are we clear?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Yes, right. No idling. Yes, sir."
+    },
+    {
+      "character": "FINN",
+      "text": "Mater?"
+    },
+    {
+      "character": "FINN",
+      "text": "Once we're inside, stay close. Don't bother checking VIN numbers with criminal records. They're all dodgy here."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "No VIN scans. Got it."
+    },
+    {
+      "character": "FINN",
+      "text": "Don't talk to anyone, don't look at anyone, and absolutely, positively no idling. Are we clear?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Yes, right. No idling. Yes, sir."
+    },
+    {
+      "character": "FINN",
+      "text": "Mater?"
+    },
+    {
+      "character": "MATER",
+      "text": "Yeah, Finn?"
+    },
+    {
+      "character": "FINN",
+      "text": "We're not here to go shopping."
+    },
+    {
+      "character": "MATER",
+      "text": "Shoppin'? What do you mean? Why would I..."
+    },
+    {
+      "character": "MATER",
+      "text": "Dad-gum!"
+    },
+    {
+      "character": "MARKET SELLERS",
+      "text": "You gotta be kiddin' me. They got everything here. No! Look at them hoods! I could use a hood."
+    },
+    {
+      "character": "MATER",
+      "text": "Sorry, fellers. I gotta go!"
+    },
+    {
+      "character": "MATER",
+      "text": "Oh-oh-oh! Wow. Whoa. He-he!"
+    },
+    {
+      "character": "MATER",
+      "text": "Do what?"
+    },
+    {
+      "character": "MATER",
+      "text": "Excuse me. What are you selling?"
+    },
+    {
+      "character": "CELINE DEPHARE",
+      "text": "Headlights, monsieur, headlights?"
+    },
+    {
+      "character": "MATER",
+      "text": "What in the...? Ew!"
+    },
+    {
+      "character": "CELINE DEPHARE",
+      "text": "Two for one! I give you good price!"
+    },
+    {
+      "character": "MATER",
+      "text": "It's OK! I'm good, I'm good!"
+    },
+    {
+      "character": "FINN",
+      "text": "There you are."
+    },
+    {
+      "character": "MATER",
+      "text": "Man, there is some great bargains here!"
+    },
+    {
+      "character": "FINN",
+      "text": "Mater, get back!"
+    },
+    {
+      "character": "TOMBER",
+      "text": "Imb\u00e9cile!"
+    },
+    {
+      "character": "MATER",
+      "text": "HEY, WAIT FOR ME!"
+    },
+    {
+      "character": "TOMBER",
+      "text": "Ahhhhhh!"
+    },
+    {
+      "character": "TOMBER",
+      "text": "Ag-g-g-h!"
+    },
+    {
+      "character": "FINN",
+      "text": "Have you lost your mind?!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "But I thought...!"
+    },
+    {
+      "character": "FINN",
+      "text": "Mater, this chap needs a tow. Hook him up."
+    },
+    {
+      "character": "MATER",
+      "text": "Well, sure thing."
+    },
+    {
+      "character": "TOMBER",
+      "text": "You rusty piece of junk! Get your dirty hook off me!"
+    },
+    {
+      "character": "FINN",
+      "text": "Allez! Maintenant - vite! (Come on! Now - quickly!)"
+    },
+    {
+      "character": "TOMBER",
+      "text": "Electroshock! Are you kidding me?!"
+    },
+    {
+      "character": "FINN",
+      "text": "Easy, Tomber. This is her first field assignment. She didn't know you were my informant."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Informant?"
+    },
+    {
+      "character": "TOMBER",
+      "text": "A rookie, huh? I never liked new car smell."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "grumbles"
+    },
+    {
+      "character": "FINN",
+      "text": "Tomber was doing 20-to-life in a Moroccan impound the first time I saved him, if I recall correctly."
+    },
+    {
+      "character": "TOMBER",
+      "text": "Speaking of recalls, you're getting up there in mileage, aren't you, Finn?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "All right, we get it. You both know each other, you're both old. So, here you go, informant. Inform us."
+    },
+    {
+      "character": "TOMBER",
+      "text": "Beuck! That is the worst motor ever made."
+    },
+    {
+      "character": "TOMBER",
+      "text": "Wait. That oil filter. Those wheel bearings."
+    },
+    {
+      "character": "FINN",
+      "text": "Do those parts look familiar, Tomber?"
+    },
+    {
+      "character": "TOMBER",
+      "text": "They should. I sold them."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "To whom?"
+    },
+    {
+      "character": "TOMBER",
+      "text": "No idea. He's my best customer, but he always does his business over the phone. I was always wondering why he needs so many parts. Now I know."
+    },
+    {
+      "character": "MATER",
+      "text": "Well, a lemon needs parts. Ain't nothin' truer than that."
+    },
+    {
+      "character": "FINN",
+      "text": "Lemon?"
+    },
+    {
+      "character": "MATER",
+      "text": "Yeah, you know. Cars that don't ever work right. Lemons is a tow truck's bread and butter. Like 'em Gremlins and Pacers we run into at the party and the race and the airport."
+    },
+    {
+      "character": "FINN",
+      "text": "Holley, pull up the pictures from the oil platform. I want to know what other type of cars were out there."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Right. Let's see. Um... There were Hugos and Trunkovs."
+    },
+    {
+      "character": "MATER",
+      "text": "Are these cars considered lemons?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Is the Popemobile Catholic?"
+    },
+    {
+      "character": "FINN",
+      "text": "Finn, everyone involved in this plot is one of history's biggest loser cars."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "And they're all taking their orders from the car behind this engine."
+    },
+    {
+      "character": "TOMBER",
+      "text": "Ah! This explains it."
+    },
+    {
+      "character": "FINN",
+      "text": "What, Tomber?"
+    },
+    {
+      "character": "TOMBER",
+      "text": "Gremlin, Pacer, Hugo and Trunkov never get together, but they are having a secret meeting in two days."
+    },
+    {
+      "character": "FINN",
+      "text": "Where's this meeting taking place?"
+    },
+    {
+      "character": "TOMBER",
+      "text": "Porto Corsa, Italy."
+    },
+    {
+      "character": "MATER",
+      "text": "That's where the next race is!"
+    },
+    {
+      "character": "FINN",
+      "text": "Then there's a good chance our mystery engine will be there, too."
+    },
+    {
+      "character": "TOMBER",
+      "text": "Your chances are more than good. I just sent him a new clutch assembly yesterday... to Porto Corsa."
+    },
+    {
+      "character": "FINN",
+      "text": "Holley, contact Stephenson and have him meet us at Gare de Lyon. Good work."
+    },
+    {
+      "character": "MATER",
+      "text": "Boy, I'll tell you what. That three-wheeled feller had to be right about a big meetin'. You never see this many lemons in one town. 'Less there's a swap meet or somethin'."
+    },
+    {
+      "character": "MATER",
+      "text": "Hey, how'd you get all them pictures?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Well, I remotely reprogrammed Porto Corsa's red light cameras to do recognition scans."
+    },
+    {
+      "character": "MATER",
+      "text": "Wow. Not only is you the purtiest car I ever met, but you the smartest, too."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Thank you...I think."
+    },
+    {
+      "character": "MATER",
+      "text": "That's a familiar sight. A Hugo being towed. But he looks absolutely perfect!"
+    },
+    {
+      "character": "FINN",
+      "text": "Of course! They must be the heads of the lemon families."
+    },
+    {
+      "character": "MATER",
+      "text": "Makes sense. If I was rich and broke down every day, I'd hire me to tow me around all the time, too!"
+    },
+    {
+      "character": "FINN",
+      "text": "We've got to infiltrate that meeting. It's the only way to find out who's behind all this."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Hang on a minute."
+    },
+    {
+      "character": "MATER",
+      "text": "What?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Hold still."
+    },
+    {
+      "character": "MATER",
+      "text": "Ow!"
+    },
+    {
+      "character": "FINN",
+      "text": "Ah-ha. Good job, Miss Shiftwell."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Thank you, Finn."
+    },
+    {
+      "character": "MATER",
+      "text": "Boy, I sure wish my friends could see me now."
+    },
+    {
+      "character": "LUIGI",
+      "text": "Guido, your eyes do not deceive you. We are in Italy! We are home!"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "Hey, Luigi. Which way to the hotel, man?"
+    },
+    {
+      "character": "LUIGI",
+      "text": "What?! No friend of mine will stay in a hotel in-a my village. You will stay with my..."
+    },
+    {
+      "character": "UNCLE TOPOLINO",
+      "text": "Luigi! Guido!"
+    },
+    {
+      "character": "SARGE",
+      "text": "How do they do it? These are the same ingredients as back home, but it tastes so good."
+    },
+    {
+      "character": "FILLMORE",
+      "text": "It's organic, man."
+    },
+    {
+      "character": "SARGE",
+      "text": "sighs"
+    },
+    {
+      "character": "UNCLE TOPOLINO",
+      "text": "Hey, race car! You look so down, so low. Is like you have flat tires."
+    },
+    {
+      "character": "MAMA TOPOLINO",
+      "text": "speaks Italian"
+    },
+    {
+      "character": "UNCLE TOPOLINO",
+      "text": "She said you look like you are starving, that she's gonna make you a big meal and fatten you up."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Oh, no. Uh, M-Mama Topolino, please, y-you don't need to make a fuss."
+    },
+    {
+      "character": "UNCLE TOPOLINO",
+      "text": "Capisco. I understand. Is a problem, yes, between you and a friend?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "How did you know that?"
+    },
+    {
+      "character": "UNCLE TOPOLINO",
+      "text": "A wise car hears one word and understands two. That, and Luigi told me."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I brought my friend Mater along on the trip and...and I told him he needed to act different, that we weren't in Radiator Springs."
+    },
+    {
+      "character": "UNCLE TOPOLINO",
+      "text": "This Mater, is a close friend?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "He's my best friend."
+    },
+    {
+      "character": "UNCLE TOPOLINO",
+      "text": "Then why would you ask him to be someone else?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Oh... What did I do? I... I said some things during our fight, and..."
+    },
+    {
+      "character": "UNCLE TOPOLINO",
+      "text": "You know, back when Guido and Luigi used to work for me, they would fight over everything. They fight over what Ferrari was the best Ferrari, which one of them looked more like a Ferrari. There were even some non-Ferrari fights. So I tell them, \"Va bene, it's OK to fight. Everybody fights now and then, especially best friends. But you gotta make up fast. No fight more important than friendship.\""
+    },
+    {
+      "character": "UNCLE TOPOLINO",
+      "text": "Chi trova un'amico, trova un tesoro. (Who finds a friend, finds a treasure.)"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "What does that mean?"
+    },
+    {
+      "character": "MAMA TOPOLINO",
+      "text": "Whoever find a friend, find a treasure. Now, mangia. Eat!"
+    },
+    {
+      "character": "STEPHENSON",
+      "text": "Finn, one hour to Porto Corsa."
+    },
+    {
+      "character": "FINN",
+      "text": "Thank you, Stephenson."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Yeah, I think that should just about do it."
+    },
+    {
+      "character": "FINN",
+      "text": "Perfect."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "So, Mater, it's voice-activated. But, you know, everything's voice-activated these days."
+    },
+    {
+      "character": "MATER",
+      "text": "What? I thought you was supposed to be makin' me a disguise."
+    },
+    {
+      "character": "COMPUTER",
+      "text": "Voice recognized. Disguise program initiated."
+    },
+    {
+      "character": "MATER",
+      "text": "Cool! Hey, computer, make me a German truck."
+    },
+    {
+      "character": "COMPUTER",
+      "text": "Request acknowledged."
+    },
+    {
+      "character": "MATER",
+      "text": "Check it out! I'm wearing Materhosen. Make me a monster truck!"
+    },
+    {
+      "character": "COMPUTER",
+      "text": "Request acknowledged."
+    },
+    {
+      "character": "MATER",
+      "text": "What the...?"
+    },
+    {
+      "character": "MATER",
+      "text": "I vant to siphon your gas! Ha-ha! Now make me a taco truck!"
+    },
+    {
+      "character": "COMPUTER",
+      "text": "Request acknowledged."
+    },
+    {
+      "character": "MATER",
+      "text": "A funny car!"
+    },
+    {
+      "character": "COMPUTER",
+      "text": "Request acknowledged."
+    },
+    {
+      "character": "FINN",
+      "text": "The idea is to keep a low profile, Mater."
+    },
+    {
+      "character": "MATER",
+      "text": "So I just go in, pretend to be this truck."
+    },
+    {
+      "character": "FINN",
+      "text": "And leave the rest to us."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Now, hold still."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "First, I have to do the final fitting on your disguise."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Oh, dear. That's no good. Hm."
+    },
+    {
+      "character": "MATER",
+      "text": "Hey! What are you doin'?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "The disguise won't calibrate effectively without a smooth surface to graft onto."
+    },
+    {
+      "character": "MATER",
+      "text": "Oh, for a second there, I thought you was tryin' to fix my dents."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Yes, I was."
+    },
+    {
+      "character": "MATER",
+      "text": "Well, then, no, thank you. I don't get them dents buffed, pulled, filled or painted by nobody. They way too valuable."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Your dents are valuable? Really?"
+    },
+    {
+      "character": "MATER",
+      "text": "I come by each one of 'em with my best friend, Lightning McQueen. I don't fix these. I wanna remember these dents forever."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "So, you were being serious in Paris? McQueen isn't just part of your cover?"
+    },
+    {
+      "character": "FINN",
+      "text": "Friendships can be dangerous in our line of work, everyone."
+    },
+    {
+      "character": "MATER",
+      "text": "But my line of work is towin' and salvage."
+    },
+    {
+      "character": "FINN",
+      "text": "Right. And Miss Shiftwell's is designing iPhone apps."
+    },
+    {
+      "character": "MATER",
+      "text": "No, I meant for real. I..."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "No, no, it's OK. Say no more. I'll work around the dent."
+    },
+    {
+      "character": "MATER",
+      "text": "Oh..."
+    },
+    {
+      "character": "FINN",
+      "text": "In the meantime..."
+    },
+    {
+      "character": "FINN",
+      "text": "... you look a little light on weapons."
+    },
+    {
+      "character": "BRENT",
+      "text": "You are looking live at beautiful Porto Corsa, Italy, on the Italian Riviera. What a magnificent setting for the second race of the World Grand Prix!"
+    },
+    {
+      "character": "DAVID",
+      "text": "Well, Brent, they call this place the \"Gem of the Riviera,\" and it's easy to see why. With its secluded beaches and opulent casinos, Porto Corsa truly is a playground for the wealthy. And everyone who's anyone is here today, from the ultra-rich and super-famous to world leaders and important dignitaries."
+    },
+    {
+      "character": "DARRELL",
+      "text": "You aren't kidding, David. You can't do a three-point turn around here without bumping into some celebrity!"
+    },
+    {
+      "character": "BRENT",
+      "text": "Welcome, everyone, to the second race of the World Grand Prix, where the big news continues to be Allinol. Sir Miles Axlerod spoke to the press earlier today to answer questions about its safety."
+    },
+    {
+      "character": "AXLEROD",
+      "text": "An independent panel of scientists has determined that Allinol is completely safe, okay? Safe! There it is."
+    },
+    {
+      "character": "BRENT",
+      "text": "So the race will go on, folks."
+    },
+    {
+      "character": "DARRELL",
+      "text": "But the question everyone is asking: will the real Lightning McQueen show up today?"
+    },
+    {
+      "character": "BRENT",
+      "text": "Well, he'd better. Talk about a home track advantage. Francesco Bernoulli grew up racing on this course."
+    },
+    {
+      "character": "ITALIAN ANNOUNCER",
+      "text": "Signore e signori (Ladies and gentlemen), in the pole position, numero 1, Francesco!"
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Bellissima! (Beautiful) Thank you for your support! And your big mistake, McQueen!"
+    },
+    {
+      "character": "ITALIAN ANNOUNCER",
+      "text": "In secondo position, numero 95, Lightning-a McQueen-a!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "McQueen-a, is-a everything OK?"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "If you're worried about your fuel, man, don't. It's perfectly safe."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "No, guys, I just really wish Mater were here."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Bellissima! (Beautiful) Thank you for your support! And your big mistake, McQueen!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "McQueen-a, is-a everything OK?"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "If you're worried about your fuel, man, don't. It's perfectly safe."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "No, guys, I just really wish Mater were here."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Francesco understands, McQueen."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Oh, great, here it comes. What do you got, Francesco?"
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "For famous race cars like Francesco and, well, you, to be far away from home is not easy."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I think you forgot the insulting part of that insult."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Is-a no insult. When-a Francesco is away from home, he misses his mama, just like-a you miss your tow truck amico."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Gee,"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I maybe misjudged you, because that's exactly..."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Of course, I am at home, and my mama is right here."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Mama!"
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Don't worry, Mama, McQueen is very sad. I will beat his cry-baby bottom today!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "And there's the insult we were missing. Grazie."
+    },
+    {
+      "character": "BRENT",
+      "text": "Darrell, the racers are settling in as they head to the Italian countryside."
+    },
+    {
+      "character": "DARRELL",
+      "text": "Whoo, boy! This is gonna be a great race!"
+    },
+    {
+      "character": "ALEXANDER",
+      "text": "Gremlins. Man, those are some ugly cars. Look like someone stole their trunks!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Scusatemi, tutti. Signori. Mio nonno. (Excuse me, everyone. Gentlemen. My grandfather.) My grand-a father has-a broken down. If-a one of-a you would help, I would be so thankful."
+    },
+    {
+      "character": "IVAN",
+      "text": "Sounds like you need some roadside assistance."
+    },
+    {
+      "character": "ALEXANDER",
+      "text": "She was talking to me, Ivan!"
+    },
+    {
+      "character": "IVAN",
+      "text": "Oh, really? Prove it!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "No, no, no! Don't-a fight over me. Signore Tow Truck, per favore."
+    },
+    {
+      "character": "FINN",
+      "text": "Get ready, Mater. You're on any moment now."
+    },
+    {
+      "character": "MATER",
+      "text": "I don't know about this, guys, Finn. What if I screw things up?"
+    },
+    {
+      "character": "FINN",
+      "text": "Just apply the same level of dedication you've been using to play the idiot tow truck, and you'll be fine."
+    },
+    {
+      "character": "MATER",
+      "text": "It's just that them guys look purty tough and... Wait, did you say \"idiot\"? Is that how you see me?"
+    },
+    {
+      "character": "FINN",
+      "text": "That's how everyone sees you. Isn't that the idea? I tell you, that's the genius of it. No one realizes they're being fooled because they're too busy laughing at the fool. Brilliant!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Why aren't you in disguise?"
+    },
+    {
+      "character": "MATER",
+      "text": "I er..."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Come on! There's no time! Go!"
+    },
+    {
+      "character": "MATER",
+      "text": "OK. OK. Uh, computer, disguise!"
+    },
+    {
+      "character": "COMPUTER",
+      "text": "Request acknowledged."
+    },
+    {
+      "character": "ALEXANDER",
+      "text": "It's the boss. He's coming."
+    },
+    {
+      "character": "VICTOR",
+      "text": "Ivan!"
+    },
+    {
+      "character": "MATER",
+      "text": "Oh, er..."
+    },
+    {
+      "character": "VICTOR",
+      "text": "Ivan, why do you insult me so by making me wait here?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "He's in."
+    },
+    {
+      "character": "BRENT",
+      "text": "The racers are now making their way around the hairpin and headed downhill toward the casino bridge."
+    },
+    {
+      "character": "CASINO PITTY",
+      "text": "No more bets, please."
+    },
+    {
+      "character": "FERRARI DEALER",
+      "text": "Come on, fuzzy dice!"
+    },
+    {
+      "character": "CASINO PITTY",
+      "text": "Number four. Easy four."
+    },
+    {
+      "character": "FERRARI DEALER",
+      "text": "Yeah!"
+    },
+    {
+      "character": "MARY ESGOCAR",
+      "text": "Air freshener. Antenna balls. Spark-a plugs."
+    },
+    {
+      "character": "MATER",
+      "text": "Wow! This place looks like it's made outta gold!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "That's because it is, Mater. Now, be careful what you say."
+    },
+    {
+      "character": "MATER",
+      "text": "Why is that? What do you mean, \"Don't talk to ya\"? So you want me to stop talkin' to ya right now?"
+    },
+    {
+      "character": "ALEXANDER",
+      "text": "You are acting strange today, Ivan."
+    },
+    {
+      "character": "MATER",
+      "text": "I have no idea what you're talking about, \"Alexander Hugo, aka Chop Shop Alex.\" Hey, you got a lot of aka's, Alex. But I guess that makes sense, seein's how you's wanted in France, Germany, Czech Republic..."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Mater, stop it!"
+    },
+    {
+      "character": "ALEXANDER",
+      "text": "OK, OK, keep your voice down! You gonna make me arrested!"
+    },
+    {
+      "character": "ALEXANDER",
+      "text": "Don't mess with Ivan today. He's in a bad mood."
+    },
+    {
+      "character": "FINN",
+      "text": "He's so good!"
+    },
+    {
+      "character": "VLADIMIR",
+      "text": "Victor!"
+    },
+    {
+      "character": "TUBBS",
+      "text": "Hey, Victor!"
+    },
+    {
+      "character": "J. CURBY",
+      "text": "There you are!"
+    },
+    {
+      "character": "VLADIMIR",
+      "text": "Come in! Come in!"
+    },
+    {
+      "character": "J. CURBY",
+      "text": "Victor Hugo, I'm J. Curby Gremlin. From Detroit. It's good to see you!"
+    },
+    {
+      "character": "VICTOR",
+      "text": "Is the big boss here yet?"
+    },
+    {
+      "character": "VLADIMIR",
+      "text": "No, not yet."
+    },
+    {
+      "character": "TUBBS",
+      "text": "He's supposed to be here any minute."
+    },
+    {
+      "character": "FINN",
+      "text": "Here we go."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "Guten Tag."
+    },
+    {
+      "character": "TUBBS",
+      "text": "Ah, it's just the professor."
+    },
+    {
+      "character": "VICTOR",
+      "text": "Z\u00fcndapp! When is he coming?"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "He's already here."
+    },
+    {
+      "character": "AXLEROD",
+      "text": "Welcome, everyone. I wish I could be with you on this very special day, but my clutch assembly broke. You know how it is."
+    },
+    {
+      "character": "TUBBS",
+      "text": "Been there."
+    },
+    {
+      "character": "J. CURBY",
+      "text": "Forget about it!"
+    },
+    {
+      "character": "VLADIMIR",
+      "text": "We know how you feel."
+    },
+    {
+      "character": "FINN",
+      "text": "Descramble that voice."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "I'm trying. Oh, it's too sophisticated!"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "We are here to celebrate. Today, all your hard work pays off. The world turned their backs on cars like us. They stopped manufacturing us, stopped making our parts. The only thing they haven't stopped doing is laughing at us. They've called us terrible names: jalopy, rust bucket, heap, clunker, junker, beater, wreck, rattletrap, lemon. But their insults just give us strength. Because today, my friends, that all ends!"
+    },
+    {
+      "character": "DARRELL",
+      "text": "There's smoke on the casino bridge!"
+    },
+    {
+      "character": "MATER",
+      "text": "gasps"
+    },
+    {
+      "character": "DAVID",
+      "text": "Oh, no!"
+    },
+    {
+      "character": "BRENT",
+      "text": "It's Carla Veloso, the Brazilian race car!"
+    },
+    {
+      "character": "FINN",
+      "text": "What just happened?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "I'm working on it."
+    },
+    {
+      "character": "AXLEROD",
+      "text": "They laughed at us, but now it's our turn to laugh back."
+    },
+    {
+      "character": "DAVID",
+      "text": "Another crash! It's number 9, Nigel Gearsley!"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "Embrace your inner lemon. Let it drive you."
+    },
+    {
+      "character": "FINN",
+      "text": "Holley!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "I'm detecting an extremely strong electromagnetic pulse."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Finn, it's the camera!"
+    },
+    {
+      "character": "FINN",
+      "text": "Where?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "On the tower!"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "This was meant to be alternative fuel's greatest moment. After today, everyone will race back to gasoline. And we, the owners of the world's largest untapped oil reserve will become the most powerful cars in the world!"
+    },
+    {
+      "character": "FINN",
+      "text": "Get out of the way! Andate! (Go!)"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "They will come to us, and they will have no choice, because they will need us."
+    },
+    {
+      "character": "FINN",
+      "text": "Huh?"
+    },
+    {
+      "character": "FINN",
+      "text": "Whoa!"
+    },
+    {
+      "character": "ACER",
+      "text": "Ha-ha! We figured you might stop by!"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "And they will finally respect us! So hold your hoods high! After today, you will never again be ashamed of who you are!"
+    },
+    {
+      "character": "FINN",
+      "text": "NO!!!"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "LONG\u2026 LIVE\u2026 LEMONS!!!!!"
+    },
+    {
+      "character": "BRENT",
+      "text": "Oh, number 7 is loose! Shu Todoroki!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Finn?"
+    },
+    {
+      "character": "BRENT",
+      "text": "Bumper to bumper as they approach the finish line!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "That's what I'm talking about! Ka-chow!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Wh- What happened? Where are all the other cars?"
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "What is going on?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Oh, no!"
+    },
+    {
+      "character": "BRENT",
+      "text": "Sir Axlerod, is the final race in London still going to take place?"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "I suppose that..."
+    },
+    {
+      "character": "AXLEROD",
+      "text": "Look, the show must go on, as they say. But now is not the time to talk about..."
+    },
+    {
+      "character": "J. CURBY",
+      "text": "I can't believe this is really happening!"
+    },
+    {
+      "character": "VLADIMIR",
+      "text": "Shh! Quiet!"
+    },
+    {
+      "character": "BRENT",
+      "text": "And Allinol? Will you require all the racers to still run on Allinol?"
+    },
+    {
+      "character": "VLADIMIR",
+      "text": "chuckles"
+    },
+    {
+      "character": "VLADIMIR",
+      "text": "Here it comes!"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "I cannot, in good conscience, continue to risk the lives of any more race cars. The final race will not be run on Allinol."
+    },
+    {
+      "character": "BRENT",
+      "text": "There you have it, a clearly devastated Sir Miles Axlerod announcing that he will not require the cars to use Allinol for the final race."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "A toast! To the death of Allinol and alternative fuel forever!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Mater, abort the mission! They've got Finn. Get out of there. Get out of there right now!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "gasps"
+    },
+    {
+      "character": "IVAN",
+      "text": "How is your grandfather?"
+    },
+    {
+      "character": "ALEXANDER",
+      "text": "Isn't this a great party, Ivan, huh?"
+    },
+    {
+      "character": "MATER",
+      "text": "Oh, yeah, it's unbelievable."
+    },
+    {
+      "character": "ALEXANDER",
+      "text": "You are not leaving, are you?"
+    },
+    {
+      "character": "MATER",
+      "text": "Uh...of course I ain't leaving."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I'm just in shock like everybody..."
+    },
+    {
+      "character": "MATER",
+      "text": "McQueen?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Crashes are a part of racing, I know, but something like that should never happen."
+    },
+    {
+      "character": "DARRELL",
+      "text": "They're letting you choose your fuel for the final race. Do you have any idea what it's gonna be?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Allinol."
+    },
+    {
+      "character": "J. CURBY",
+      "text": "Did he just say Allinol?!"
+    },
+    {
+      "character": "DARRELL",
+      "text": "After today?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "My friend Fillmore says the fuel's safe. That's good enough for me. I didn't stand by a friend of mine recently. I'm not gonna make the same mistake twice."
+    },
+    {
+      "character": "BRENT",
+      "text": "So a surprising revelation from Lightning McQueen. He will use Allinol in the final race, despite what occurred today."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "Yes, sir."
+    },
+    {
+      "character": "AXLEROD",
+      "text": "...till Lightning McQueen is dead!"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "Of course."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "Allinol must be finished for good. McQueen cannot win the last race. Lightning McQueen must be killed!"
+    },
+    {
+      "character": "MATER",
+      "text": "No!"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "It's the American spy!"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "It's the American spy!"
+    },
+    {
+      "character": "MATER",
+      "text": "Dad-gum!"
+    },
+    {
+      "character": "COMPUTER",
+      "text": "Gatling gun. Request acknowledged."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "Down! Down! Everybody, down!"
+    },
+    {
+      "character": "MATER",
+      "text": "Shoot! I didn't mean..."
+    },
+    {
+      "character": "COMPUTER",
+      "text": "Request acknowledged."
+    },
+    {
+      "character": "MATER",
+      "text": "Whoa-oh-oh! Whoa!"
+    },
+    {
+      "character": "MATER",
+      "text": "Wait! Wait! I didn't mean that kind of shoot!"
+    },
+    {
+      "character": "COMPUTER",
+      "text": "Correction acknowledged. Deploying chute."
+    },
+    {
+      "character": "MATER",
+      "text": "Whoa-oa!"
+    },
+    {
+      "character": "MATER",
+      "text": "McQueen!"
+    },
+    {
+      "character": "BOAT",
+      "text": "Whoa! What's this?!"
+    },
+    {
+      "character": "MATER",
+      "text": "Whoa! McQueen! McQueen!"
+    },
+    {
+      "character": "MATER",
+      "text": "Whoa! Aah!"
+    },
+    {
+      "character": "MARKET SELLER",
+      "text": "Waugh!"
+    },
+    {
+      "character": "MATER",
+      "text": "Let me through! Let me through! You gotta let me in! I got to get through to warn McQueen!"
+    },
+    {
+      "character": "ALEX CARVILL",
+      "text": "You cannot-a come through here! Back up, signore!"
+    },
+    {
+      "character": "SECURITY OFFICER",
+      "text": "We have a lunatic at gate 9."
+    },
+    {
+      "character": "MATER",
+      "text": "No, listen! I was disguised as a tow truck to infiltrate this lemon-head meeting and my weapons system's done misinterpreted what I'm saying!"
+    },
+    {
+      "character": "SECURITY OFFICER",
+      "text": "I repeat. Lunatic at gate 9."
+    },
+    {
+      "character": "MATER",
+      "text": "McQueen! McQueen!"
+    },
+    {
+      "character": "FIAT FAN",
+      "text": "You are the champion!"
+    },
+    {
+      "character": "PEUGEOT FAN",
+      "text": "Right this way, signore."
+    },
+    {
+      "character": "MATER",
+      "text": "McQueen!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater?"
+    },
+    {
+      "character": "MATER",
+      "text": "McQueen!"
+    },
+    {
+      "character": "PHOTOGRAPHER 1",
+      "text": "Come over here, McQueen!"
+    },
+    {
+      "character": "PHOTOGRAPHER 2",
+      "text": "Here! Come on!"
+    },
+    {
+      "character": "PHOTOGRAPHER 3",
+      "text": "Give us a pose!"
+    },
+    {
+      "character": "MATER",
+      "text": "McQueen!"
+    },
+    {
+      "character": "ALEX CARVILL",
+      "text": "Back up, sir!"
+    },
+    {
+      "character": "SECURITY OFFICER",
+      "text": "Stop! Stop moving! Stop!"
+    },
+    {
+      "character": "ALEX CARVILL",
+      "text": "Hey! Hey! Hey! Where you going?! Oy! Stop! Ferma li! (Stop that!)"
+    },
+    {
+      "character": "MATER",
+      "text": "McQueen!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Wait that really sounded like..."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater! Mater?"
+    },
+    {
+      "character": "PEUGEOT FAN",
+      "text": "Signore?"
+    },
+    {
+      "character": "MATER",
+      "text": "McQueen! They're gonna kill you!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater!"
+    },
+    {
+      "character": "PEUGEOT FAN",
+      "text": "...signore, please!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Excuse me."
+    },
+    {
+      "character": "FIAT FAN",
+      "text": "No! No, where are you going?!"
+    },
+    {
+      "character": "PEUGEOT FAN",
+      "text": "Please, Mr. McQueen!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Scusi. Mater!"
+    },
+    {
+      "character": "MATER",
+      "text": "McQueen!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Scusi. Mater!"
+    },
+    {
+      "character": "CROWD",
+      "text": "Come on!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater! Mater, I'm so glad to see you! I'm so sorr..."
+    },
+    {
+      "character": "IVAN",
+      "text": "Lightning McQueen! I am a huge fan."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Oh! I'm sorry, I...I thought I heard..."
+    },
+    {
+      "character": "IVAN",
+      "text": "Yes, but that was me. I said, \"You killed out there today. You're the best.\""
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "What? Uh, I, I mean, thanks."
+    },
+    {
+      "character": "PEUGEOT FAN",
+      "text": "Right this way, signore."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I... I really thought I heard my friend."
+    },
+    {
+      "character": "IVAN",
+      "text": "In England, you'll be finished! At the finish line."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Wait, what?"
+    },
+    {
+      "character": "PRESS LIAISON 2",
+      "text": "Please, uh, the world press is waiting. You come-a with me, please."
+    },
+    {
+      "character": "MATER",
+      "text": "Let me go!"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "You actually care about that race car. A pity you didn't warn him in time."
+    },
+    {
+      "character": "MATER",
+      "text": "\"Idiot\"? Is that how you see me?"
+    },
+    {
+      "character": "FINN",
+      "text": "That's how everyone sees you. I tell you, that's the genius of it. No one realizes they're being fooled because they're too busy laughing at the fool. At the fool..."
+    },
+    {
+      "character": "MATER",
+      "text": "Hey, excuse me!"
+    },
+    {
+      "character": "MATER",
+      "text": "Domo arigato! Yeah!"
+    },
+    {
+      "character": "MATER",
+      "text": "You done good. You got all the leaves!"
+    },
+    {
+      "character": "JEFF",
+      "text": "Check out that tow truck!"
+    },
+    {
+      "character": "LEWIS",
+      "text": "I wonder who that guy's with."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Will you guys excuse me just for one little second?"
+    },
+    {
+      "character": "JEFF",
+      "text": "giggles"
+    },
+    {
+      "character": "MATER",
+      "text": "Now that's a scoop of ice cream!"
+    },
+    {
+      "character": "DAISU",
+      "text": "\u304a\u6094\u3084\u307f\u3082\u3057\u3042\u308a\u307e\u3059\u3002 (My condolences.)"
+    },
+    {
+      "character": "MATER",
+      "text": "Aargh!"
+    },
+    {
+      "character": "MATER",
+      "text": "Somebody get me water!"
+    },
+    {
+      "character": "MATER",
+      "text": "Aah! Oh, sweet relief!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater!"
+    },
+    {
+      "character": "MATER",
+      "text": "Sweet relief."
+    },
+    {
+      "character": "MATER",
+      "text": "But I never leak oil. Never!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater, you have to get a hold of yourself! You're making a scene!"
+    },
+    {
+      "character": "MATER",
+      "text": "Wait a minute. I didn't screw ya up, did I?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I lost the race because of you!"
+    },
+    {
+      "character": "MATER",
+      "text": "Maybe if I talked to somebody..."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I don't need your help! I don't want your help! Your help..."
+    },
+    {
+      "character": "MATER",
+      "text": "Bang the gong! Get it on!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Listen, this isn't Radiator Springs. This is exactly why I don't bring you along to these things!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "...you have to get a hold of yourself! You're making a scene!"
+    },
+    {
+      "character": "MATER",
+      "text": "Holley! Finn! Where are we?"
+    },
+    {
+      "character": "FINN",
+      "text": "We're in London, Mater, inside Big Bentley."
+    },
+    {
+      "character": "MATER",
+      "text": "Whoooooa!"
+    },
+    {
+      "character": "MATER",
+      "text": "Whoa!"
+    },
+    {
+      "character": "MATER",
+      "text": "Oh, this... This is all my fault."
+    },
+    {
+      "character": "FINN",
+      "text": "Don't be a fool, Mater."
+    },
+    {
+      "character": "MATER",
+      "text": "But I am, remember? You said so."
+    },
+    {
+      "character": "FINN",
+      "text": "When did I... Oh. Mater, I was complimenting you on what a good spy you are."
+    },
+    {
+      "character": "MATER",
+      "text": "I'M NOT A SPY!!!!"
+    },
+    {
+      "character": "MATER",
+      "text": "I've been trying to tell you that the whole time. I really am just a tow truck."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Finn, he's not joking."
+    },
+    {
+      "character": "FINN",
+      "text": "I know."
+    },
+    {
+      "character": "MATER",
+      "text": "You were right, Finn. I'm a fool. And what's happened to McQueen is 'cause I'm such a big one. This is all my fault."
+    },
+    {
+      "character": "GREM",
+      "text": "Good. You're up."
+    },
+    {
+      "character": "ACER",
+      "text": "And just in time!"
+    },
+    {
+      "character": "GREM",
+      "text": "Professor Z wanted you to have a front-row seat, for the death of Lightning McQueen."
+    },
+    {
+      "character": "MATER",
+      "text": "He's still alive?"
+    },
+    {
+      "character": "ACER",
+      "text": "Not for much longer!"
+    },
+    {
+      "character": "MATER",
+      "text": "Whoa!"
+    },
+    {
+      "character": "MATER",
+      "text": "Huh?"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "What happened?!"
+    },
+    {
+      "character": "GREM",
+      "text": "I don't know, Professor."
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "continues talking as Acer and Grem argue"
+    },
+    {
+      "character": "ACER",
+      "text": "What did you do?"
+    },
+    {
+      "character": "GREM",
+      "text": "I didn't do nothing! Ssh, I'm talking to the professor. Uh, what's that, Professor Z?"
+    },
+    {
+      "character": "ACER",
+      "text": "You broke it!"
+    },
+    {
+      "character": "GREM",
+      "text": "Quiet!"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "...go to the back-up plan!"
+    },
+    {
+      "character": "GREM",
+      "text": "I understand, sir. Yes."
+    },
+    {
+      "character": "ACER",
+      "text": "What did he say?"
+    },
+    {
+      "character": "GREM",
+      "text": "We go to the back-up plan."
+    },
+    {
+      "character": "MATER",
+      "text": "Back-up plan?"
+    },
+    {
+      "character": "GREM",
+      "text": "We snuck a bomb in McQueen's pit."
+    },
+    {
+      "character": "ACER",
+      "text": "The next time he makes a stop, instead of saying \"ka-chow\", he's gonna go \"ka-boom\"!"
+    },
+    {
+      "character": "GREM",
+      "text": "Don't feel bad, tow truck. You couldn't have saved him."
+    },
+    {
+      "character": "ACER",
+      "text": "Oh, wait, you could have!"
+    },
+    {
+      "character": "MATER",
+      "text": "Dad-gum lemons!"
+    },
+    {
+      "character": "COMPUTER",
+      "text": "Request acknowledged."
+    },
+    {
+      "character": "GREM",
+      "text": "chuckles"
+    },
+    {
+      "character": "GREM",
+      "text": "What? You didn't think we'd take your bullets?"
+    },
+    {
+      "character": "ACER",
+      "text": "That's right! You got nothing!"
+    },
+    {
+      "character": "GREM",
+      "text": "Who's the lemon now, huh?"
+    },
+    {
+      "character": "FINN",
+      "text": "Nice try, Mater."
+    },
+    {
+      "character": "MATER",
+      "text": "Dad-gum... Dad-gum... Dad-gum."
+    },
+    {
+      "character": "COMPUTER",
+      "text": "Request... Request... Request... Request..."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Mater!"
+    },
+    {
+      "character": "MATER",
+      "text": "Whoa!"
+    },
+    {
+      "character": "MATER",
+      "text": "I gotta get y'all out of there!"
+    },
+    {
+      "character": "FINN",
+      "text": "There's no time! McQueen needs your help, Mater."
+    },
+    {
+      "character": "MATER",
+      "text": "But I can't! I'm just a tow truck!"
+    },
+    {
+      "character": "FINN",
+      "text": "It's up to you. Go to the pits and get everyone out. You can do that."
+    },
+    {
+      "character": "MATER",
+      "text": "What about you guys?"
+    },
+    {
+      "character": "FINN",
+      "text": "We'll be OK."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Go and get some more dents, Mater."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "So, we'll be OK? Really?"
+    },
+    {
+      "character": "FINN",
+      "text": "He wouldn't have left if I'd told him the truth."
+    },
+    {
+      "character": "FINN",
+      "text": "Argh! Being killed by a clock."
+    },
+    {
+      "character": "FINN",
+      "text": "Gives a whole new meaning to \"Your time has come.\""
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Time? That's it!"
+    },
+    {
+      "character": "FINN",
+      "text": "What are you doing?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Trying to turn back time."
+    },
+    {
+      "character": "FINN",
+      "text": "Argh!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Oof! If I can just reverse the polarity."
+    },
+    {
+      "character": "FINN",
+      "text": "What are you doing?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Trying to turn back time."
+    },
+    {
+      "character": "FINN",
+      "text": "Argh!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Oof! If I can just reverse the polarity."
+    },
+    {
+      "character": "FINN",
+      "text": "Good job! Quick thinking, Holley!"
+    },
+    {
+      "character": "MATER",
+      "text": "What's everybody on the wrong side of the road for?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Oh, no!"
+    },
+    {
+      "character": "FINN",
+      "text": "Drive! Burn rubber!"
+    },
+    {
+      "character": "FINN",
+      "text": "We've got to get to the course. Calculate the fastest way to..."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Done!"
+    },
+    {
+      "character": "FINN",
+      "text": "Oh. Miss Shiftwell."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "They're standard issue now."
+    },
+    {
+      "character": "FINN",
+      "text": "You kids get all the good hardware."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Oh, no, that's Mater's."
+    },
+    {
+      "character": "FINN",
+      "text": "I knew his escape was too easy."
+    },
+    {
+      "character": "POLICE OFFICER",
+      "text": "Come back here! Stop!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Mater?"
+    },
+    {
+      "character": "MATER",
+      "text": "Everybody, get out! Get out now! Y'all gotta get out of the pits!"
+    },
+    {
+      "character": "MATER",
+      "text": "Hey, what are you guys doin\u2019 here?"
+    },
+    {
+      "character": "SALLY",
+      "text": "We're here because of you, Mater."
+    },
+    {
+      "character": "FLO",
+      "text": "Is everything OK?"
+    },
+    {
+      "character": "MATER",
+      "text": "No, everything's not OK! There's a bomb in here! Y'all gotta get out! Now!"
+    },
+    {
+      "character": "SALLY AND FILLMORE",
+      "text": "A bomb?!"
+    },
+    {
+      "character": "FINN",
+      "text": "Mater!"
+    },
+    {
+      "character": "MATER",
+      "text": "Finn! You're OK!"
+    },
+    {
+      "character": "FINN",
+      "text": "Listen to me! Mater, the bomb is on you! They knew you'd try to help McQueen. When we were knocked out, they planted it in your air filter!"
+    },
+    {
+      "character": "MATER",
+      "text": "Uh-oh."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater! There you are!"
+    },
+    {
+      "character": "MATER",
+      "text": "Stop right there!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Oh, man, I've been so worried about you."
+    },
+    {
+      "character": "MATER",
+      "text": "Don't come any closer!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Are you OK?"
+    },
+    {
+      "character": "MATER",
+      "text": "No, I'm not OK! Stay away from me!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "No, wait! Wait!"
+    },
+    {
+      "character": "BRENT",
+      "text": "Hold everything! A tow truck has just raced onto the track, and he's driving backwards!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater, wait!"
+    },
+    {
+      "character": "DAVID",
+      "text": "Normally an emergency vehicle on the track means there's been an accident."
+    },
+    {
+      "character": "BRENT",
+      "text": "Wait, wait! Lightning McQueen is chasing him!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater, wait!"
+    },
+    {
+      "character": "MATER",
+      "text": "Stay back! If you get close to me, you're gon\u2019 get hurt real bad!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I know I made you feel that way before, but none of that matters! Because we're best friends!"
+    },
+    {
+      "character": "BRENT",
+      "text": "And McQueen seems to be having a conversation with the tow truck."
+    },
+    {
+      "character": "DARRELL",
+      "text": "I don't know who that truck is, Brent, but I'll tell you what, he's got to be the world's best backwards driver."
+    },
+    {
+      "character": "MATER",
+      "text": "McQueen, you don't get it! I'm the bomb!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Yes, Mater! You are the bomb! That's what I'm trying to say here! You've always been the bomb and you'll always be the bomb."
+    },
+    {
+      "character": "MATER",
+      "text": "Stay away!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "No! Never!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I'm not letting you get away again!"
+    },
+    {
+      "character": "MATER",
+      "text": "Gotta keep away from McQueen!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Oh, my gosh!"
+    },
+    {
+      "character": "MATER",
+      "text": "Aaaaaaaahhhhh!!!!"
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "What is happening?! It's a bad dream!"
+    },
+    {
+      "character": "BRENT",
+      "text": "Any Lightning McQueen just blasted away, hooked to the now rocket-propelled tow truck."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "WHAT IS HAPPENING?!?!"
+    },
+    {
+      "character": "TONY",
+      "text": "Hurry, Professor!"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "Aah!"
+    },
+    {
+      "character": "FINN",
+      "text": "Argh! Do you really think I'm going to let you float away, Professor?!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Never!"
+    },
+    {
+      "character": "BLUE GREMLIN",
+      "text": "Hey, they're coming your way."
+    },
+    {
+      "character": "GREM",
+      "text": "Let's go!"
+    },
+    {
+      "character": "ACER",
+      "text": "cackles"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "Give it up, McMissile!!"
+    },
+    {
+      "character": "MATER",
+      "text": "McQueen, let go!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Mater, stop!"
+    },
+    {
+      "character": "MATER",
+      "text": "No way! You could get hurt!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Oh, no."
+    },
+    {
+      "character": "GREM AND ACER",
+      "text": "Aaaaahhh!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Mater, we've got to get that bomb off you."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Bomb?"
+    },
+    {
+      "character": "MATER",
+      "text": "Yeah, they strapped it to me to kill you as a back-up plan."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Back-up plan? Mater, who put a bomb on you?"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "You! Why didn't my death ray kill you?!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Death ray?!"
+    },
+    {
+      "character": "FINN",
+      "text": "Turn off the bomb, Z\u00fcndapp!"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "Are you all so dense? It's voice-activated. Everything is voice-activated these days."
+    },
+    {
+      "character": "MATER",
+      "text": "Deactivate! Deactivate!"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "Oops! Did I forget to mention that it can only be disarmed by the one who activated it?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Say it!"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "Deactivate."
+    },
+    {
+      "character": "MATER",
+      "text": "Wha...?!"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "I'm not the one who activated it. Would anyone else like to try?"
+    },
+    {
+      "character": "Z\u00dcNDAPP",
+      "text": "Ah!"
+    },
+    {
+      "character": "FINN",
+      "text": "You read my mind."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "scoffs He was getting on my nerves."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "What do we do?"
+    },
+    {
+      "character": "VICTOR",
+      "text": "It's very simple! You blow up."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I'm gonna go out on a limb here. These are the guys that want me dead, correct?"
+    },
+    {
+      "character": "VLADIMIR",
+      "text": "It's nothing personal."
+    },
+    {
+      "character": "MATER",
+      "text": "Fellers, listen. I know what you're goin\u2019 through. Everybody's been laughin\u2019 at me my whole life too. But becoming powerful and rich beyond your wildest dreams ain't gon\u2019 make you feel better."
+    },
+    {
+      "character": "J. CURBY",
+      "text": "Yeah, but it's worth a shot!"
+    },
+    {
+      "character": "GUIDO",
+      "text": "Pit stop!"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Not today, boys!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Wh... What's he saying? What's wrong?"
+    },
+    {
+      "character": "LUIGI",
+      "text": "None of his wrenches fit the bolts!"
+    },
+    {
+      "character": "MATER",
+      "text": "I get it. I get it! I know what needs to be done."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Then do it!"
+    },
+    {
+      "character": "MATER",
+      "text": "What? No. I can't do it. Look, nobody takes me seriously. I know that now. This ain't Radiator Springs."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Yes, it is. Look, you're yourself in Radiator Springs. Be yourself here. And if...if people aren't taking you seriously, then they need to change, not you. I know that now because I was wrong before. Now, you can do this. You're the bomb."
+    },
+    {
+      "character": "MATER",
+      "text": "Thanks, buddy."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "No, no, no, you're the actual bomb. Now, let's go!"
+    },
+    {
+      "character": "MATER",
+      "text": "Oh, right! Hang on!"
+    },
+    {
+      "character": "FINN",
+      "text": "Where's he going?"
+    },
+    {
+      "character": "MATER",
+      "text": "Computer!"
+    },
+    {
+      "character": "COMPUTER",
+      "text": "Yes, Agent Mater?"
+    },
+    {
+      "character": "MATER",
+      "text": "I need that thing you done before to get me away from McQueen!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Uh, Mater?"
+    },
+    {
+      "character": "MATER",
+      "text": "Now I need you to do the chute! The second kind, not the first!"
+    },
+    {
+      "character": "COMPUTER",
+      "text": "Deploying chute."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Ah... Aah!"
+    },
+    {
+      "character": "THE QUEEN",
+      "text": "Who's winning the race?"
+    },
+    {
+      "character": "BODYGUARD",
+      "text": "Back off! Back away!"
+    },
+    {
+      "character": "THE QUEEN",
+      "text": "Ooh! It's Lightning McQueen!"
+    },
+    {
+      "character": "BODYGUARD",
+      "text": "Get back!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "No, no, it's OK! OK, t-tell 'em, Mater. Explain."
+    },
+    {
+      "character": "MATER",
+      "text": "Okay! Somebody's been sabotagin\u2019 the racers and hurtin' the cars, and I know who. Oh, wait. Your Majesty."
+    },
+    {
+      "character": "BODYGUARDS",
+      "text": "Bomb! It's a bomb!"
+    },
+    {
+      "character": "BODYGUARDS",
+      "text": "Freeze! Everybody, down! Back up! Move it!"
+    },
+    {
+      "character": "BODYGUARD",
+      "text": "Get off the stage! Move it!"
+    },
+    {
+      "character": "FINN",
+      "text": "Hold your fire! He can't disarm it!"
+    },
+    {
+      "character": "BODYGUARDS",
+      "text": "Bomb! It's a bomb!"
+    },
+    {
+      "character": "BODYGUARDS",
+      "text": "Freeze! Everybody, down! Back up! Move it!"
+    },
+    {
+      "character": "CROWD MEMBERS AROUND THE RACETRACK",
+      "text": "Aaaaaahhh!!!!!"
+    },
+    {
+      "character": "BODYGUARD",
+      "text": "Get off the stage! Move it!"
+    },
+    {
+      "character": "FINN",
+      "text": "Hold your fire! He can't disarm it! Mater, I don't know what you're doing, but stand down now!"
+    },
+    {
+      "character": "MATER",
+      "text": "This ain't nothin\u2019 at all like Radiator Springs."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater, just cut to the chase!"
+    },
+    {
+      "character": "MATER",
+      "text": "Okay. It's him!"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "What?! Me? You've got to be crazy."
+    },
+    {
+      "character": "MATER",
+      "text": "I figured it out when I realized y'all attached this tickin\u2019 time bomb with Whitworth bolts - the same bolts that hold together that old British engine from the photograph. Holley! Show that picture."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "OK."
+    },
+    {
+      "character": "MATER",
+      "text": "And then I remembered what they say about old British engines: if there ain't no oil under 'em, there ain't no oil in 'em."
+    },
+    {
+      "character": "AXLEROD",
+      "text": "What is he talking about?"
+    },
+    {
+      "character": "MATER",
+      "text": "It was you leakin\u2019 oil at the party in Japan. You just blamed it on me."
+    },
+    {
+      "character": "AXLEROD",
+      "text": "Electric cars don't use oil, ya twit!"
+    },
+    {
+      "character": "MATER",
+      "text": "Then you're fakin' it. You didn't convert to no electric."
+    },
+    {
+      "character": "MATER",
+      "text": "We pop that hood, we gon\u2019 see that engine from that picture right there."
+    },
+    {
+      "character": "AXLEROD",
+      "text": "This lorry's crazy! He's going to kill us all!"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "Stay away!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "But Sir Axlerod created the race, Mater. Why would he want to hurt anyone?"
+    },
+    {
+      "character": "MATER",
+      "text": "To make Allinol look bad so everybody'd go back to usin\u2019 oil. I mean, he said it himself with that dee-sguised voice."
+    },
+    {
+      "character": "AXLEROD",
+      "text": "Dee-sguised voice?! What are you talking about? You're nuts, you are!"
+    },
+    {
+      "character": "PRINCE WHEELIAM",
+      "text": "This is going nowhere fast. We really should go, Grandmother."
+    },
+    {
+      "character": "THE QUEEN",
+      "text": "One moment, I'd like to see where this is going."
+    },
+    {
+      "character": "FINN",
+      "text": "Mater, he created Allinol."
+    },
+    {
+      "character": "MATER",
+      "text": "Yeah, but what if he found that huge oil field just as the world was tryna find some\u2019n else? What if he came up with Allinol just to make alternative fuel look bad?"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "\"What if?\" You're basing this on a \"what if\"?!"
+    },
+    {
+      "character": "BODYGUARD",
+      "text": "Okay, that's it!"
+    },
+    {
+      "character": "BODYGUARD",
+      "text": "Come on, lads, clear out."
+    },
+    {
+      "character": "AXLEROD",
+      "text": "Wait! Somebody save me! The lorry's crazy! Keep away, you idiot!"
+    },
+    {
+      "character": "FINN",
+      "text": "Mater?!"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Mater!"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "Someone do something!"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "You're insane, you are!"
+    },
+    {
+      "character": "AXLEROD",
+      "text": "DEACTIVATE!!!!!"
+    },
+    {
+      "character": "BOMB",
+      "text": "Bomb deactivated. Have a nice day, Sir Axlerod."
+    },
+    {
+      "character": "FINN",
+      "text": "The engine from the photo."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "It's a perfect match."
+    },
+    {
+      "character": "AXLEROD",
+      "text": "How did the tow truck figure it out?"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "And it's official. You're coming to all my races from now on."
+    },
+    {
+      "character": "MATER",
+      "text": "Now you're talkin'!"
+    },
+    {
+      "character": "MATER",
+      "text": "Hyeeugh!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Mater, let's go! You're on."
+    },
+    {
+      "character": "SIR HARLEY GASSUP",
+      "text": "Your Majesties, may I present for the investiture of honorary knighthood of the British Realm, Tow Mater of Radiator Springs!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Go get 'em, buddy."
+    },
+    {
+      "character": "THE QUEEN",
+      "text": "We hereby dub thee Sir Tow Mater."
+    },
+    {
+      "character": "CROWD",
+      "text": "Sir? Shoot, you can just call me Mater, Your Majesty. I don't wanna hear none of this \"sir\" business. By the way, have y'all met each other? Queen, McQueen. McQueen, Queen. McQueen, McMissile. McMissile, McQueen. Queen, McMissile."
+    },
+    {
+      "character": "MATER",
+      "text": "So there we was, my rocket jets goin\u2019 full blast, McQueen hangin\u2019 on for dear life when suddenly them two nasty lemons come out of nowheres, guns drawed. We was goners. But then, out of nowhere this beautiful spy car swoops in from the sky to save us!"
+    },
+    {
+      "character": "MINNY",
+      "text": "That's a very entertaining story, young man."
+    },
+    {
+      "character": "VAN",
+      "text": "Oh, Minny, please. Come on! None of this happened! Rocket jets, flying spy cars..."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "No, you're quite right! It does sound a bit far-fetched."
+    },
+    {
+      "character": "MATER",
+      "text": "Holley! What are you doin' here?"
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Hello, Mater! It's so good to see you again."
+    },
+    {
+      "character": "MATER",
+      "text": "Finn!"
+    },
+    {
+      "character": "FINN",
+      "text": "Our satellites picked up an urgent communiqu\u00e9."
+    },
+    {
+      "character": "LUIGI",
+      "text": "So you got-a my email."
+    },
+    {
+      "character": "MATER",
+      "text": "Oh, man. Y'all is gon\u2019 have a great time!"
+    },
+    {
+      "character": "MATER",
+      "text": "Everybody, this here's Finn McMissile. He's a secret agent. Don't tell nobody! And this is Holley Shiftwell. She's..."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "I'm Mater's girlfriend. It's so nice to meet you all."
+    },
+    {
+      "character": "GUIDO",
+      "text": "Guido believe you now."
+    },
+    {
+      "character": "FLO",
+      "text": "Whoa, honey. You got a nasty dent there."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Yeah."
+    },
+    {
+      "character": "VAN",
+      "text": "Was that from when you swooped in and you saved them in London?"
+    },
+    {
+      "character": "MINNY",
+      "text": "Van!"
+    },
+    {
+      "character": "VAN",
+      "text": "What? I'm just asking!"
+    },
+    {
+      "character": "FLO",
+      "text": "Ah, don't you worry, sweet pea. My baby Ramone can get that fixed up for you in no time."
+    },
+    {
+      "character": "RAMONE",
+      "text": "Yeah, sure thing, man. No problemo. Just let me go get my tools."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Oh, no, no. I-I'm keeping that dent. It's way too valuable."
+    },
+    {
+      "character": "MATER",
+      "text": "A valuable dent? Oh, she's as crazy as Mater!"
+    },
+    {
+      "character": "LIZZIE",
+      "text": "Oh, those two are perfect for each other."
+    },
+    {
+      "character": "MACK",
+      "text": "You know, there's one thing I still don't get. The bad guys hit me with the beam from the camera, right? So, why didn't I, you know..."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Explode in a fiery inferno?"
+    },
+    {
+      "character": "MATER",
+      "text": "Yeah."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "We couldn't figure that one out, either."
+    },
+    {
+      "character": "FINN",
+      "text": "Our investigation proved that Allinol was actually gasoline and Axlerod engineered it so that when it got hit by the beam, it would explode."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Wait a second, Fillmore. You said my fuel was safe!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "If you're implying that I switched out that rot-gut excuse for alternative fuel with my all-natural, sustainable, organic biofuel just because I never trusted Axlerod, you're dead wrong, man! It was him!"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "Once big oil, always big oil, man."
+    },
+    {
+      "character": "SARGE",
+      "text": "Tree-hugger."
+    },
+    {
+      "character": "FILLMORE",
+      "text": "The Radiator Springs Grand Prix is about to begin. All spectators, clear the starting line."
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Man, I can't wait to get rockin'. This is gonna be wicked!"
+    },
+    {
+      "character": "LEWIS",
+      "text": "Yeah, we should do this every year."
+    },
+    {
+      "character": "JEFF",
+      "text": "Yeah, I just figured we never found out who the world's fastest car is. Plus, no press, yes trophy, just racing. The way I like it."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Francesco likes it like this, too."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Francesco, I'd like you to meet..."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Signorina Sally. It is official. Lightning McQueen is the luckiest car in the world."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Why, thank you."
+    },
+    {
+      "character": "SALLY",
+      "text": "Which he will have to be to have a chance against Francesco today!"
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "See you at the finish line, Mc..."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "What is that?"
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Ah, just something I had made up for the occasion."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Is-a good, McQueen. Very funny. Was-a funnier when I did it, but it's-a very funny. What are you going to do next? Are you going to take off your fenders? Try it. You'll like it."
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "So, he's not so good-looking."
+    },
+    {
+      "character": "SALLY",
+      "text": "Yeah. Nice try."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "I'm serious!"
+    },
+    {
+      "character": "SALLY",
+      "text": "That's why I love you, Sally."
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Wish me luck!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "You don't need it!"
+    },
+    {
+      "character": "SALLY",
+      "text": "Ooh-hm! That Francesco is fine-looking!"
+    },
+    {
+      "character": "FLO",
+      "text": "And those open wheels."
+    },
+    {
+      "character": "SALLY",
+      "text": "Ooh, I'm gonna have to go get myself some coolant!"
+    },
+    {
+      "character": "FLO",
+      "text": "Go, Lightning!"
+    },
+    {
+      "character": "MIA AND TIA",
+      "text": "Go, Stickers!"
+    },
+    {
+      "character": "SALLY",
+      "text": "Right on, man!"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "Go get 'em, tiger!"
+    },
+    {
+      "character": "FLO",
+      "text": "Bravo, bravo!"
+    },
+    {
+      "character": "GUIDO",
+      "text": "Go, Lightning, go!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Go, McQueen! Whoo-hoo!"
+    },
+    {
+      "character": "MATER",
+      "text": "Finn? Time to go. Siddeley's gassed, geared and ready to fly."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "You're leavin' already?"
+    },
+    {
+      "character": "MATER",
+      "text": "We've got another mission, Mater. Just stopped by here to pick something up."
+    },
+    {
+      "character": "FINN",
+      "text": "Somethin' tells me you're not talkin' about souvenir bumper stickers."
+    },
+    {
+      "character": "MATER",
+      "text": "Her Majesty asked for you personally, Mater."
+    },
+    {
+      "character": "FINN",
+      "text": "But I told y'all before, I'm not a spy."
+    },
+    {
+      "character": "MATER",
+      "text": "We know."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Spy or not, you're still the smartest, most honest chap we've ever met."
+    },
+    {
+      "character": "FINN",
+      "text": "Don't forget massively charming."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "Well, thanks."
+    },
+    {
+      "character": "MATER",
+      "text": "But as much fun as it was hangin' with y'all, this..."
+    },
+    {
+      "character": "MATER",
+      "text": "This is home."
+    },
+    {
+      "character": "MATER",
+      "text": "That's all right. We understand."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "But I'll be back. You still owe me that first date."
+    },
+    {
+      "character": "HOLLEY",
+      "text": "And if there's ever anything I can do for you, just let me know."
+    },
+    {
+      "character": "FINN",
+      "text": "Well, I sure appreciate that. Thank you. Actually, there is one thing."
+    },
+    {
+      "character": "MATER",
+      "text": "Whoo-hoo!"
+    },
+    {
+      "character": "MATER",
+      "text": "Whoo-ee! I'll be doggone!"
+    },
+    {
+      "character": "MATER",
+      "text": "Whoa, whoa, whoa!"
+    },
+    {
+      "character": "OTIS",
+      "text": "Thanks, Mater!"
+    },
+    {
+      "character": "OTIS",
+      "text": "Ha-ha-ha! Whoo!"
+    },
+    {
+      "character": "MATER",
+      "text": "Impossible!"
+    },
+    {
+      "character": "FRANCESCO",
+      "text": "Ha-ha!"
+    },
+    {
+      "character": "MATER",
+      "text": "Mater!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Check it out. They let me keep the rockets!"
+    },
+    {
+      "character": "MATER",
+      "text": "I'll see you at the finish line, buddy!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "Not if I see you first!"
+    },
+    {
+      "character": "MATER",
+      "text": "Yippee!"
+    }
+  ]
+}

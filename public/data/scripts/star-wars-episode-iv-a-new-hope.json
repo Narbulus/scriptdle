@@ -1,0 +1,279 @@
+{
+  "id": "star-wars-episode-iv-a-new-hope",
+  "title": "Star Wars: Episode IV - A New Hope",
+  "year": 1977,
+  "characters": [
+    "ARE YOU SURE",
+    "C-3PO",
+    "COMMENCE PRIMARY IGNITION",
+    "DARTH VADER",
+    "FIGHTERS COMING IN",
+    "GET CLEAR",
+    "HAN",
+    "HAN SOLO",
+    "HE'LL BE ALL RIGHT",
+    "HEY",
+    "HURRY",
+    "HURRY UP",
+    "I CAN'T STAY WITH YOU",
+    "I JUST KNEW IT",
+    "I KNEW YOU'D COME BACK",
+    "I'LL WORRY ABOUT THE TOWER",
+    "I'M HIT",
+    "INCREASE SPEED",
+    "LOOK OUT",
+    "LUKE",
+    "OBI-WAN",
+    "OH, MY",
+    "OH, NO",
+    "R2",
+    "REBEL BASE",
+    "REBEL BASE IN RANGE",
+    "SAY SOMETHING",
+    "SEE IF YOU CAN'T LOCK IT DOWN",
+    "SIR",
+    "SORRY",
+    "STAND BY",
+    "THE DEATH STAR HAS CLEARED THE PLANET",
+    "THEY'RE COMING IN MUCH FASTER THIS TIME",
+    "WATCH YOURSELF",
+    "WE CAN'T HOLD THEM",
+    "WE'LL GET TO WORK ON HIM RIGHT AWAY",
+    "WHAT ABOUT THAT TOWER",
+    "YOU CAN REPAIR HIM, CAN'T YOU",
+    "YOU CAN'T DO ANY MORE GOOD BACK THERE",
+    "YOU MAY FIRE WHEN READY",
+    "YOU MUST REPAIR HIM",
+    "YOU WORRY ABOUT THOSE FIGHTERS"
+  ],
+  "lines": [
+    {
+      "character": "ARE YOU SURE",
+      "text": "Are you sure the computer can hit it?"
+    },
+    {
+      "character": "WATCH YOURSELF",
+      "text": "Watch yourself."
+    },
+    {
+      "character": "INCREASE SPEED",
+      "text": "Increase speed, full throttle."
+    },
+    {
+      "character": "WHAT ABOUT THAT TOWER",
+      "text": "What about that tower?"
+    },
+    {
+      "character": "YOU WORRY ABOUT THOSE FIGHTERS",
+      "text": "You worry about those fighters!"
+    },
+    {
+      "character": "I'LL WORRY ABOUT THE TOWER",
+      "text": "I'll worry about the tower!"
+    },
+    {
+      "character": "R2",
+      "text": "R2, that stabilizer's broken loose again."
+    },
+    {
+      "character": "SEE IF YOU CAN'T LOCK IT DOWN",
+      "text": "See if you can't lock it down."
+    },
+    {
+      "character": "FIGHTERS COMING IN",
+      "text": "Fighters coming in.3."
+    },
+    {
+      "character": "I'M HIT",
+      "text": "I'm hit!"
+    },
+    {
+      "character": "I CAN'T STAY WITH YOU",
+      "text": "I can't stay with you!"
+    },
+    {
+      "character": "GET CLEAR",
+      "text": "Get clear, Wedge."
+    },
+    {
+      "character": "YOU CAN'T DO ANY MORE GOOD BACK THERE",
+      "text": "You can't do any more good back there."
+    },
+    {
+      "character": "SORRY",
+      "text": "Sorry."
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Let him go. Stay on the leader."
+    },
+    {
+      "character": "HURRY",
+      "text": "Hurry, Luke."
+    },
+    {
+      "character": "THEY'RE COMING IN MUCH FASTER THIS TIME",
+      "text": "They're coming in much faster this time."
+    },
+    {
+      "character": "WE CAN'T HOLD THEM",
+      "text": "We can't hold them."
+    },
+    {
+      "character": "LUKE",
+      "text": "R2, try and increase the power."
+    },
+    {
+      "character": "HURRY UP",
+      "text": "Hurry up, Luke! Quick! Quick!"
+    },
+    {
+      "character": "REBEL BASE",
+      "text": "Rebel base, 30 seconds and closing."
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "I'm on the leader."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Hang on, R2."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Use the Force, Luke. Let go, Luke."
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "The Force is strong with this one."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Luke, trust me."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "His computer's off. Luke, you switched off your targeting computer! What's wrong?"
+    },
+    {
+      "character": "LUKE",
+      "text": "Nothing. I'm all right."
+    },
+    {
+      "character": "LUKE",
+      "text": "I've lost R2!"
+    },
+    {
+      "character": "THE DEATH STAR HAS CLEARED THE PLANET",
+      "text": "The Death Star has cleared the planet."
+    },
+    {
+      "character": "REBEL BASE IN RANGE",
+      "text": "Rebel base in range."
+    },
+    {
+      "character": "YOU MAY FIRE WHEN READY",
+      "text": "You may fire when ready."
+    },
+    {
+      "character": "COMMENCE PRIMARY IGNITION",
+      "text": "Commence primary ignition."
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "I have you now."
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "What?!"
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Yahoo!"
+    },
+    {
+      "character": "LOOK OUT",
+      "text": "Look out!"
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "You're all clear, kid! Now let's blow this thing and go home!"
+    },
+    {
+      "character": "STAND BY",
+      "text": "Stand by."
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Great shot, kid! That was one in a million!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Remember, the Force will be with you always."
+    },
+    {
+      "character": "LUKE",
+      "text": "Luke!"
+    },
+    {
+      "character": "HEY",
+      "text": "Hey!"
+    },
+    {
+      "character": "HEY",
+      "text": "Hey!"
+    },
+    {
+      "character": "I KNEW YOU'D COME BACK",
+      "text": "I knew you'd come back."
+    },
+    {
+      "character": "I JUST KNEW IT",
+      "text": "I just knew it."
+    },
+    {
+      "character": "HAN",
+      "text": "Well, I wasn't going to let you get all the credit and take all the reward."
+    },
+    {
+      "character": "HEY",
+      "text": "Hey, I knew there was more to you than money."
+    },
+    {
+      "character": "OH, NO",
+      "text": "Oh, no!"
+    },
+    {
+      "character": "OH, MY",
+      "text": "Oh, my."
+    },
+    {
+      "character": "R2",
+      "text": "R2, can you hear me?"
+    },
+    {
+      "character": "SAY SOMETHING",
+      "text": "Say something."
+    },
+    {
+      "character": "YOU CAN REPAIR HIM, CAN'T YOU",
+      "text": "You can repair him, can't you?"
+    },
+    {
+      "character": "WE'LL GET TO WORK ON HIM RIGHT AWAY",
+      "text": "We'll get to work on him right away."
+    },
+    {
+      "character": "YOU MUST REPAIR HIM",
+      "text": "You must repair him."
+    },
+    {
+      "character": "SIR",
+      "text": "Sir, if any of my circuits or gears will help, I'll gladly donate them."
+    },
+    {
+      "character": "HE'LL BE ALL RIGHT",
+      "text": "He'll be all right."
+    }
+  ]
+}

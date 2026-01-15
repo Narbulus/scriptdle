@@ -1,0 +1,2756 @@
+{
+  "id": "cars-3",
+  "title": "Cars 3",
+  "year": 2017,
+  "characters": [
+    "2ND ANNOUNCER",
+    "ALBERT",
+    "ANNOUNCER",
+    "ANNOUNCER OVER P.A.",
+    "APB",
+    "ARVY",
+    "BILL",
+    "BOB CUTLASS",
+    "BOBBY SWIFT",
+    "BRICK YARDLEY",
+    "CABBI TAXI",
+    "CAL",
+    "CAL WEATHERS",
+    "CAR",
+    "CHICK HICKS",
+    "CROWD",
+    "CRUZ",
+    "CRUZ RAMIREZ",
+    "DANNY SWERVEZ",
+    "DARRELL CARTRIP",
+    "DOC HUDSON",
+    "DR. DAMAGE",
+    "DUSTY RUST-EZE",
+    "FAN",
+    "FAREGAME",
+    "FEMALE RACER",
+    "FLOOR WAXER",
+    "GUIDO",
+    "HAMILTON",
+    "JACKSON STORM",
+    "JEFF GORVETTE",
+    "JIMBO",
+    "LES",
+    "LIGHTNING",
+    "LIGHTNING AND CRUZ",
+    "LIGHTNING MCQUEEN",
+    "LOUISE \"BARNSTORMER\" NASH",
+    "LOUISE NASH",
+    "LUIGI",
+    "MACK",
+    "MADDY MCGEAR",
+    "MATER",
+    "MIKE JOYRIDE",
+    "MISS FRITTER",
+    "MR. DRIPPY",
+    "NATALIE CERTAIN",
+    "PATTY",
+    "RACER",
+    "REPORTER",
+    "REPORTER 1",
+    "REPORTER 2",
+    "REPORTER 3",
+    "RIVER SCOTT",
+    "ROSCOE",
+    "RV FAN",
+    "SALLY",
+    "SALLY CARRERA",
+    "SHANNON SPOKES",
+    "SMOKEY",
+    "STERLING",
+    "STRIP \"THE KING\" WEATHERS",
+    "STUDENT",
+    "STUDENT GABR\u00cdEL",
+    "STUDENT KURT",
+    "STUDENT RONALD",
+    "SUPERFLY",
+    "T-BONE",
+    "TACO",
+    "TEX",
+    "TEX DINOCO",
+    "VITOLINE SPONSOR"
+  ],
+  "lines": [
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ok. Here we go. Focus. Speed, I am speed."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "One winner, forty-two losers. I eat losers for breakfast."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Did I use to say that?"
+    },
+    {
+      "character": "MATER",
+      "text": "Yes, sir. You did!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Aah!"
+    },
+    {
+      "character": "MATER",
+      "text": "Oh, shoot. You can say that all the time."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mater, what are you doing in here?"
+    },
+    {
+      "character": "MATER",
+      "text": "Well, I just don't want you to be lonely."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Well, thank you. But, I was just preparing for a race. I need a little quiet."
+    },
+    {
+      "character": "MATER",
+      "text": "Oh, right. You got it, buddy!"
+    },
+    {
+      "character": "MATER",
+      "text": "Hey, everybody! Listen up! My best friend, Lightning McQueen, needs quiet! Perfect quiet!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Okay, now where was I?"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "That ain't racing. That wasn't even a Sunday drive. It was one lap - racing is 500 of those. Everybody's fighting to move up, lap after lap. Inside, outside, never touching. Now that's racing."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Well, I can't argue with THE Doc Hudson."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "How true? (chuckles)"
+    },
+    {
+      "character": "MACK",
+      "text": "Hey, Lightning! Are you ready?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh yeah. Lightning's ready."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "This one's for you, Doc."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Go, Stickers!"
+    },
+    {
+      "character": "MATER",
+      "text": "Excuse me. Pardon me. Best friend comin' through. Go, McQueen! Whoo-hoo!"
+    },
+    {
+      "character": "MADDY MCGEAR",
+      "text": "Lightning McQueen!"
+    },
+    {
+      "character": "ALBERT",
+      "text": "Go, 95! (honks) Woohoo!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, Cal! Your blinkers on!"
+    },
+    {
+      "character": "CAL WEATHERS",
+      "text": "What? No it's not. Hey! Hey! Your... blinkers on."
+    },
+    {
+      "character": "BOBBY SWIFT",
+      "text": "Good comeback, Cal!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Into the pits, go Lightning McQueen, Bobby Swift and Cal Weathers. These three are fun to watch, aren't they, Darrell?"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "You know, Bob, I can't tell they have more fun on their off-two track."
+    },
+    {
+      "character": "GUIDO",
+      "text": "[shouts something in Italian as McQueen drives away]"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Getting a car wash too, Cal?"
+    },
+    {
+      "character": "CAL WEATHERS",
+      "text": "No. You're getting a car wash, McQueen."
+    },
+    {
+      "character": "STRIP \"THE KING\" WEATHERS",
+      "text": "Good comeback, Cal."
+    },
+    {
+      "character": "SHANNON SPOKES",
+      "text": "Lightning, how do you keep your focus racing against Bobby and Cal?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I think the key is we respect each other. Theses guys are real class acts--"
+    },
+    {
+      "character": "BOBBY SWIFT",
+      "text": "Congratulations, cupcake!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "They are gonna pay."
+    },
+    {
+      "character": "CAL WEATHERS",
+      "text": "Thank you, Shannon. It was a great boost and I was--"
+    },
+    {
+      "character": "CAL WEATHERS",
+      "text": "Hey! Hey!"
+    },
+    {
+      "character": "CAL WEATHERS",
+      "text": "Guido."
+    },
+    {
+      "character": "GUIDO",
+      "text": "Pit stop."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "[laughs]"
+    },
+    {
+      "character": "BOBBY SWIFT",
+      "text": "[laughs]"
+    },
+    {
+      "character": "CAL WEATHERS",
+      "text": "Oh, ha-ha. Laugh it up. Real funny."
+    },
+    {
+      "character": "GUIDO",
+      "text": "[speaking Italian]"
+    },
+    {
+      "character": "LUIGI",
+      "text": "[cheers]"
+    },
+    {
+      "character": "MATER",
+      "text": "Keep it goin', buddy!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Whoo-hoo!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, are my sponsors happy today?"
+    },
+    {
+      "character": "DUSTY RUST-EZE",
+      "text": "Stop winning for crying out loud. We're running out of bumper cream to sell. [he and Rusty laugh]"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, big Tex, how's my favorite competitor?"
+    },
+    {
+      "character": "TEX DINOCO",
+      "text": "We were thinking of booting Cal off the Dinoco team and replacing him with you."
+    },
+    {
+      "character": "CAL WEATHERS",
+      "text": "I know you can hear me, right? I'm right here."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Bye, Cal. See you next week. Or not."
+    },
+    {
+      "character": "TEX DINOCO",
+      "text": "Come on, Cal. I'm joking."
+    },
+    {
+      "character": "MATER",
+      "text": "Go, little buddy. And big buddy too! Whoo-oo!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "How's the view back there, Bobby?"
+    },
+    {
+      "character": "BOBBY SWIFT",
+      "text": "Well, you better not blink. I'll blow right past ya."
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Well, we are witnessing some got races out there today, Darrell."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Okay, let's see what you got!"
+    },
+    {
+      "character": "BOBBY SWIFT",
+      "text": "Woohoo!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Holy cow!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "It's Jackson Strom for the win. A huge upset!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Neither Lightning nor Bobby ever saw him comin'."
+    },
+    {
+      "character": "ANNOUNCER OVER P.A.",
+      "text": "It's one thing to start fast, but we haven't seen anyone cross the line... with that kinda speed and power since a young... Lightning McQueen first arrived on the scene."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, Bobby. Who is that?"
+    },
+    {
+      "character": "BOBBY SWIFT",
+      "text": "Oh, um... That's, uh, Jackson Storm."
+    },
+    {
+      "character": "CAL WEATHERS",
+      "text": "Yeah, he's one of the rookies."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Huh?"
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "Thank you, guys. Thank you. No, I appreciate it. Thank you very much."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey! Jackson Storm, right? Great race today."
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "Wow! Thank you, Mr. McQueen. You have no idea what a pleasure it is for me to finally beat you."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Thanks. Wait a minute. Did you say \"meet\" or \"beat\"?"
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "I think you heard me."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Uh, what?"
+    },
+    {
+      "character": "REPORTER",
+      "text": "Storm, can we get some pictures?"
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "Yeah, yeah. Come on. Let's get a picture. Ya know what? Get a ton of pictures because champ here has been a role model of mine... for years now. And I mean a lot of years. Right. I love this guy."
+    },
+    {
+      "character": "REPORTER",
+      "text": "Storm, give us a quote What's your top speed?"
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "I think I touched a nerve."
+    },
+    {
+      "character": "CHICK HICKS",
+      "text": "Welcome back to Chick's Picks with Chick Hicks. I'm your host, former and forever, Piston Cup champion, Chick Hicks. Doo-doo-doo-doo. This just in... Rookie Jackson Storm slams the proverbial door on Lightning McQueen. [laughs] Oh. I couldn't have enjoyed it more if I'd beaten McQueen myself. Oh, wait, I have. [chuckles] But enough about me. Here to tell you how it happened is professional number cruncher, Miss Natalie Certain."
+    },
+    {
+      "character": "NATALIE CERTAIN",
+      "text": "It's a pleasure to be here, Chick. And actually, I prefer term \"Statistical Analyst\"."
+    },
+    {
+      "character": "CHICK HICKS",
+      "text": "Right. So, who is this mysterious newcomer, Jackson Storm? And why is he so darn fast?"
+    },
+    {
+      "character": "NATALIE CERTAIN",
+      "text": "It's no mystery is you study the data, Mr. Hicks. Jackson Storm is part of the next generation of high-tech racers. Unlike the veterans of yesterday--"
+    },
+    {
+      "character": "CHICK HICKS",
+      "text": "[stammers] Old-timers like this guy? [laughs]"
+    },
+    {
+      "character": "NATALIE CERTAIN",
+      "text": "Um... Right. Storm achieves his top speeds be exploiting the numbers. I refer, of course, to racin' data. Tire pressure, downforce, weight distribution, aerodynamics, and... next-gens like Storm are taking advantage. The racing world is changing."
+    },
+    {
+      "character": "CHICK HICKS",
+      "text": "And for the better it if means my old pal, Lightning, is down for the count. Am I right, Certain?"
+    },
+    {
+      "character": "NATALIE CERTAIN",
+      "text": "Well, if I'm certain of anything, Chick, it's that this season is about to get even more interesting."
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "I'll tell ya what, Darrell, Jackson Storm has certainly made an impact. We've got six more next-generation rookies in the field."
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "With six veterans fired to clear the way."
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "Morning, champ. How's our living legend today?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Uh... Still very much alive, thank you. -And I would appreciate--"
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "You know, I can't believe I get to race the Lightning McQueen."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "[sighs]"
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "In the farewell season."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What are you talking about?"
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "Oh, green flag. Good luck out there, champ. You're gonna need it."
+    },
+    {
+      "character": "NATALIE CERTAIN",
+      "text": "One reason Storm and the next-gens are more efficient: their ability to hole the optimum racing line every single lap."
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Win number three for the rookie sensation."
+    },
+    {
+      "character": "NATALIE CERTAIN",
+      "text": "Storm's in a class of his own. And a big reason for that: training on the newest cutting-edge simulators. These machines create a... virtual racing experience so real racers never even have to go outside."
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Storm's ability to hold that line is like nothing we've ever seen."
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Four in a row? Are you kidding me?"
+    },
+    {
+      "character": "NATALIE CERTAIN",
+      "text": "2% lower drag coefficient."
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Oh, what a finish!"
+    },
+    {
+      "character": "NATALIE CERTAIN",
+      "text": "5% increase downforce."
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Lucky number seven."
+    },
+    {
+      "character": "NATALIE CERTAIN",
+      "text": "1.2% higher top speed."
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Amazing! Nine!"
+    },
+    {
+      "character": "CHICK HICKS",
+      "text": "Piston Cup winner, Chick Hicks here with the racer takin' the circuit... by storm. Jackson Storm. Another easy win over old \"Ka-chow\". Or should I say, \"Caboose\"? 'Cause he's always in the back. Am I right?"
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "No, no, no, Chick. McQueen is a crafty veteran champ. He's the elder statesman of the sport. Ya know? Takes everything I got to beat him."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "You gotta be kidding me."
+    },
+    {
+      "character": "REPORTER 1",
+      "text": "What changes are you gonna make to get McQueen back to top?"
+    },
+    {
+      "character": "REPORTER 2",
+      "text": "Will McQueen try new training methods?"
+    },
+    {
+      "character": "REPORTER 3",
+      "text": "Is he prepared to retire?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Come on, guys. Let's not overreact. It's just s slump. We'll get 'em next week Okay, that's enough. No comment."
+    },
+    {
+      "character": "REPORTER 3",
+      "text": "Not even about Cal Weathers retiring?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Wait, what?"
+    },
+    {
+      "character": "REPORTER 1",
+      "text": "Cal Weathers. He's hanging up his Light-years."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No. No comment on that either."
+    },
+    {
+      "character": "REPORTER 3",
+      "text": "Wait a minute."
+    },
+    {
+      "character": "NATALIE CERTAIN",
+      "text": "more changes ahead Chick every week we've seen veteran racers either retire like cal Weathers tonight or fired to make room for these younger faster racers and it's not over yet"
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Hello racing fan welcome to the Los Angeles 500 final race of the Piston Cup season."
+    },
+    {
+      "character": "BRICK YARDLEY",
+      "text": "You can't do this! I have race for you guys in almost ten years!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Brick?"
+    },
+    {
+      "character": "VITOLINE SPONSOR",
+      "text": "Sorry, Brick. My mind's made up and I'm giving your number to someone new."
+    },
+    {
+      "character": "BRICK YARDLEY",
+      "text": "Hey! I have two wins last year!"
+    },
+    {
+      "character": "VITOLINE SPONSOR",
+      "text": "All sports changed..."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, Bobby. Do you know what's happening with Brick... huh? Hey... wait, you're not Bobby."
+    },
+    {
+      "character": "DANNY SWERVEZ",
+      "text": "Name's Danny, bro."
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "Hey, Champ! Where did all your friends go?"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "A final check of his tires as Storm settles into the pole position"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Boogity, boogity, boogity. let's end this season's With a great race"
+    },
+    {
+      "character": "MATER",
+      "text": "That's it, buddy!"
+    },
+    {
+      "character": "SHANNON SPOKES",
+      "text": "Forty laps to go, 40 laps to go and race leader Jackson Storm is making his way on the pit road with McQueen on his tail a good stop here could mean the difference between victory and defeat."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Come on! Come on! Come on! Come on! Faster, Guido, I need to get back out there before he does! Guido, hurry up!"
+    },
+    {
+      "character": "GUIDO",
+      "text": "But, but, but..."
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "what a pitstop by McQueen man, he just got the lead"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "can he hold on it"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "(panting)"
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "Hey, McQueen! you all right? Listen, don't you worry, pal. You've got a good run. Enjoy your retirement!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Storm takes back the lead!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Unbelievable! McQueen is fading! McQueen is fading! Fading fast!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No! No! No! No! NO!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "(gasps)"
+    },
+    {
+      "character": "MIKE JOYRIDE",
+      "text": "Welcome to Piston. cup around-the-clock where we do nothing but talk racing let's get to it starting of course with Lightning McQueen the season start just two weeks away there's still no official announcement but with number 95 coming off his worst year on record don't shoot the messenger here folks I think it's safe to assume that Lightning McQueen's racing days are over meanwhile Jackson Storm is looking even faster than...."
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "The number six and the number 12 cars are still fighting it out to the lead. but wait, here he comes it's the fabulous Hudson hornet knocking at their door what's he got up his sleeve today and there it is with one incredible move he has passed them the hornet takes this decisive lead. he's left the pack behind his crew chief Smokey is loving it.. It's unbelievable! Oh no, he's in trouble! The Hudson Hornet has lost control!"
+    },
+    {
+      "character": "2ND ANNOUNCER",
+      "text": "What should been a scene of jubilation has turned tragic here today folks. Has we await news on the Hudson Hornet condition, after such a devastating crash we can only hope that this race today wasn't his last."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "when I finally got put together and went back expecting a big welcome, you know what they said? You're history, moved right on to the next rookie standing in line there was a lot left in me. I never got a chance to show"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Hey, Stickers."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, Sal."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "How are you feeling?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah, great. Really, really great."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Thinking about Doc again?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah. You know they told him when he was done. He didn't decide. I don't wan"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Hey, Stickers."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, Sal."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "How are you feeling?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah, great. Really, really great."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Thinking about Doc again?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah. You know they told him when he was done. He didn't decide. I don't want what happened to Doc... to happen to me."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "But that hasn't happened."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No. But I can't go out on the track and do the same old thing! It won't work!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Then chance it up, try something new."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I don\u2019t know, Sally, I..."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Don\u2019t fear failure. Be afraid of not having the chance. You have the chance. Doc didn\u2019t. And you can either take it or you can do what you been doing. Sitting. In here. For months. and by the way I love what you've done with the place I mean the monster movie Lightning and the musky air freshener and don't let anyone tell you you're not working that primer because wow, I have never found you more attractive and now that I've been in here for a couple of minutes the stench I'm getting kind of used to it"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Okay, Sal, I get it. I get it."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "I miss you, Lightning. We all do."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Try something new, huh."
+    },
+    {
+      "character": "MATER",
+      "text": "hey, did it work Miss Sally did you set him straight with your lawyerly powers of persuasion is he ready to start training?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Well, stinky- Stickers."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yes, Mater, I am."
+    },
+    {
+      "character": "MATER",
+      "text": "Whoo-hoo!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I decide when I'm done."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "I was hoping you'd say that."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Okay, but I got an idea and I'm gonna need to talk to Rusty and Dusty, All right?"
+    },
+    {
+      "character": "MATER",
+      "text": "oh, I'll get them on the horn *Chuckles* get It? on the horn? *Honks And Laughs* oops, Hold on, got a sneeze. *Gasp* dad-gum, I lost it. hey, I'll see you at Flo's. *Sneezes Loudly* I found it... Hey, watch your step."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "You\u2019re driving a little tense again, Ronald!"
+    },
+    {
+      "character": "STUDENT RONALD",
+      "text": "No no no, I\u2019m cool, I\u2019m cool...!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Do your exercise!"
+    },
+    {
+      "character": "STUDENT RONALD",
+      "text": "I am a fluffy cloud, I am a fluffy cloud...!!! I am a fluffy..."
+    },
+    {
+      "character": "STUDENT RONALD",
+      "text": "...cloud..."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "There you go!"
+    },
+    {
+      "character": "STUDENT KURT",
+      "text": "You\u2019re a cloud!"
+    },
+    {
+      "character": "STUDENT RONALD",
+      "text": "Shut up, Kurt!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Here comes the bugs, Kurt! You ready?"
+    },
+    {
+      "character": "STUDENT KURT",
+      "text": "Hey, I kept my eyes open this time!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Gotta see that track! Oh no, homesick again, Gabr\u00edel?"
+    },
+    {
+      "character": "STUDENT GABR\u00cdEL",
+      "text": "S\u00ed..."
+    },
+    {
+      "character": "STUDENT GABR\u00cdEL",
+      "text": "Santa Sesilia! M\u00ed publo!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Win for them."
+    },
+    {
+      "character": "STERLING",
+      "text": "She train young racers to push through their own obstacles. Tailor-made for each one. Now she\u2019s gonna work with you."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Let\u2019s go! Let\u2019s go! You guys got to work through this stuff... So when your big chance comes along you can take it."
+    },
+    {
+      "character": "STERLING",
+      "text": "Hey, Cruz!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Oh, hey, Mr. Sterling!"
+    },
+    {
+      "character": "STERLING",
+      "text": "I'd like to introduce you to Lightning McQueen."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I hear you're the maestro."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Mr. Sterling, did you say Lightning McQueen was here? Because..."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "I don't see him anywhere."
+    },
+    {
+      "character": "LUIGI",
+      "text": "Uh... but he's right here."
+    },
+    {
+      "character": "LUIGI",
+      "text": "Do you not see him?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Nope. Still don't see him."
+    },
+    {
+      "character": "LUIGI",
+      "text": "But he is right in front of you! IT IS LIGHTNING MCQUEEN!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "He's obviously an imposter."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "He looks old, and broken down."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "With flabby tires!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I do not!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Use that!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Whoa! Oh, yeah. I see. I can use that energy for motivation, right?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "It's all about motivation, Mr. McQueen. You can use anything negative as fuel to push through to the positive!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I've been pretty positive since I was a rookie."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "I am so excited that I get to train you. I grew up watching you on TV!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Huh, is that right?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "These young guys are great and all, but I like a challenge."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Haha."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Not that much older but \u2014"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "In fact, I call you my...\"Senior Project\"."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "We need to loosen those ancient joints! First, the wheels! And forward! And rest! And forward! And rest! Join me! Rest!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "And rest!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Is all this resting necessary?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "We\u2019re working you in slowly! And reach for you lunch!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Wha... hey, when I do..."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Reach for your lunch! Now reach..."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Shouldn\u2019t we be..."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "To the front! What is there?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I-I don't think this is--"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "It's your lunch!!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Now backwards! Is lunch there?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "When do we go on the simulator?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Good morning, Mr. McQueen. Looking good."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "AHH!!!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Why?..."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "This'll get oil to places it hasn't been in a long time!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Is that a... drip pan?!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Just in case."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "How old do you think I am?!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Visualize yourself driving fast on a steep hill. I\u2019ll be back in a few."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Visuali-\u2013"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Wait, wait, Cruz!! A few what!?! I just wanna go on the simulator!"
+    },
+    {
+      "character": "STUDENT",
+      "text": "How\u2019s it hangin\u2019... Drip Pan?"
+    },
+    {
+      "character": "STUDENT",
+      "text": "Kurt: 'Sup?"
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "WHOA!!!!!"
+    },
+    {
+      "character": "FLOOR WAXER",
+      "text": "You\u2019re all washed up, McQueen."
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "I-I\u2019m sorry, what?"
+    },
+    {
+      "character": "FLOOR WAXER",
+      "text": "I said, floor\u2019s all washed up, we\u2019re clean."
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "Oh, right. [Chuckles to himself]"
+    },
+    {
+      "character": "STERLING",
+      "text": "Thank you very much."
+    },
+    {
+      "character": "CRUZ",
+      "text": "Uh... Good luck."
+    },
+    {
+      "character": "STERLING",
+      "text": "Hey! Lightning! Come in, got something to show ya. You ready?"
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "Uh... for what? [He enters; Sterling shows him of array of Lightning McQueen-themed merchandise] Wow."
+    },
+    {
+      "character": "STERLING",
+      "text": "You are about to become the best brand in racing. We are talking saturation on all continents for every demographic. Movie deals, infomercials, product endorsements!"
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "Mudflaps?"
+    },
+    {
+      "character": "STERLING",
+      "text": "Of course! We'll be rich beyond belief! You think you're famous now?"
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "Thought you'd be mad about the simulator, I mean th-this is all great, Mr. Sterling, I guess, but... I don't know. I never really thought of myself as a brand."
+    },
+    {
+      "character": "STERLING",
+      "text": "Oh, nor do I. I'm a fan, maybe your most avid. I think of this as your legacy."
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "That... that sounds like something that happens after you're... [with sudden realization] ...done racing. [Long pause] Mr. Sterling, what is this about?"
+    },
+    {
+      "character": "STERLING",
+      "text": "Look, Lightning. [inhales] I'm not gonna race you."
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "What? What do you mean, not race me?"
+    },
+    {
+      "character": "STERLING",
+      "text": "Hold on, hold on."
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "I'm not going to Florida?"
+    },
+    {
+      "character": "STERLING",
+      "text": "Lightning! You have no idea how excited I was to get you here because I knew. I knew you'd be back! Was gonna be the comeback story of the year, but... your speed and performance just aren't where they need to be. I'm sorry."
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "Wha... we're talking about speed on a simulator! Listen to how crazy that sounds!"
+    },
+    {
+      "character": "STERLING",
+      "text": "Look, I'm trying to help you. As your sponsor, yes, but also as your friend. Your racing days are coming to an end. Every time you lose, you damage yourself."
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "Damage the brand, you mean?"
+    },
+    {
+      "character": "STERLING",
+      "text": "Oh, Lightning, come on! You've done the work, now move on the next phase and reap the reward!"
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "The racing is the reward, not the stuff! I - I don't wanna cash in, I - I wanna feel the rush of moving 200 miles an hour! Inches from the other guys, pushing myself faster than I thought I'd go! That's the reward, Mr. Sterling!"
+    },
+    {
+      "character": "STERLING",
+      "text": "Oh, Lightning, come on."
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "Look, I can do this! I - I - I can, I promise! I - I - I'll train like I did with Doc! I-I'll get my tires dirty on every dirt track from here to Florida! I - I can start right there on Fireball Beach, where all the old greats used to race!"
+    },
+    {
+      "character": "STERLING",
+      "text": "Get your tires dirty? That's how you're gonna get faster than Storm?"
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "Yes! Exactly! I mean \u2014 sacred dirt, right? Mr. Sterling, if you care about my legacy, the one that Doc started, you'll let me do this! I promise you! I will win!"
+    },
+    {
+      "character": "STERLING",
+      "text": "I don't know. What you're asking is too risky."
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "Come on, you'll like it, I can tell! It's got that little comeback story of the year feel, doesn't it?!"
+    },
+    {
+      "character": "STERLING",
+      "text": "One race? [Lightning nods] If you don't win at Florida, you retire?"
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "Look, if I don't win, I'll sell all the mudflaps you got. But if I do win, I decide when I'm done. Deal?"
+    },
+    {
+      "character": "STERLING",
+      "text": "Deal."
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "Thank you, Mr. Sterling. You won't be sorry."
+    },
+    {
+      "character": "STERLING",
+      "text": "Just one thing, and this is only because I don't like taking chances: you're taking someone with you."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "You talked him into it. Way to go Mr. McQueen!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Cruz!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "You could talk a snowmobile into an air conditioner!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "You're going with me with that thing?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Yeah, you still need my help. You're brittle like a fossil."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I don't need a trainer out here Cruz"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "You're old what if you have fallen on this beach and can't get up"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Well, life's a beach. And then you drive."
+    },
+    {
+      "character": "LUIGI",
+      "text": "ha ha McQueen.."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Heh, thank you."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "This is beautiful! I can see why Mr. Sterling said you wanted to train out here. As soon as this thing is booted up, we'll get you on the treadmill and I'll track your speed."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What?! No!! The whole idea is gettin\u2019 my tires dirty! Real racing! I\u2019m not drivin\u2019 on that when I got the sand, and the whole Earth!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Oh, okay..."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Luigi, let\u2019s do this."
+    },
+    {
+      "character": "LUIGI",
+      "text": "Welcome racers, to Fireball Beach! Historical for today's great test of speed! Our finish line will be the abandoned pier in the distance!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "All right...quicker than quick..."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "...faster than fast. I... am... speed..."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "That is great self-motivation! Did you come up with that?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah, I did!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "On your mark, get set... GO!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Whoo-hoo-hoo-hoo! There you go! Felt good!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, what was my speed?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "I don't know. I can only track you on the treadmill."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No treadmills!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Oh. What about Hamilton?"
+    },
+    {
+      "character": "HAMILTON",
+      "text": "Hamilton here."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Who's \"Hamilton\"?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "My electronic personal assistant. Y'know, like on your phone. [chuckles; pause] You do have a phone, don't you?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Race cars don't have phones, Cruz."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Hamilton, track Mr. McQueen's Speed and report it."
+    },
+    {
+      "character": "HAMILTON",
+      "text": "Tracking."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "I\u2019ll stay as close as I can. Your suit will transmit your speeds to Hamilton."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Fine, whatever! Let\u2019s do this. [Back at the start] Quicker that quick, faster than fast, I am speed! C\u2019mon, Luigi!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "On your mark, get-a set... and go!"
+    },
+    {
+      "character": "HAMILTON",
+      "text": "46 miles per hour. 53 miles... Out of range. Out of range. Out of range."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Huh. That\u2019s odd, I didn\u2019t go!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "On sand, you gotta ease into your start, so your tires can grab, okay?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Okay!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "You do work for race cars, don\u2019t you?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Yeah, but never outside."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "A'right, let\u2019s go again!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Go!"
+    },
+    {
+      "character": "HAMILTON",
+      "text": "54 miles per hour."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "There you go!"
+    },
+    {
+      "character": "HAMILTON",
+      "text": "75 miles per hour. Out of ranger. Out of range. Out of range."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Huh?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Sorry! Got stuck!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Go again!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Go."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Sorry."
+    },
+    {
+      "character": "LUIGI",
+      "text": "Go."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Ohhhhhhhh...!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Go...."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "The beach ate me."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "All right, Cruz, pick a line on the compacted sand. Ya gotta have traction or you\u2019re gonna spin out!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Let\u2019s do this thing!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "On your mark, get set, go."
+    },
+    {
+      "character": "HAMILTON",
+      "text": "122 miles per hour. 134 miles... Out of range. Out of range. Out of range."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "NOW WHAT?!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "I don\u2019t wanna hit a crab!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "You gotta be kidding me..."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "What? It was cute!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ugh!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "All right, one last chance to try this before it gets dark! Now you\u2019re gonna take off slow to let your tires grab."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Yes."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "And pick a straight line on the hard sand so you don\u2019t spit out!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Uh-huh!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "And alllllll of the crabbies have gone night-night!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Mr. McQueen..."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "All right, let\u2019s go again!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "And go..."
+    },
+    {
+      "character": "HAMILTON",
+      "text": "150 miles per hour. 175 miles per hour. 196 miles per hour."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Woohoohoo!! All right! Finally! You made it! Congratulations, how\u2019d I do?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "You topped out at 198."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "198, That\u2019s it?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Still slower than Storm."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Wasted my whole day."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "I wouldn't say that. It did feel great to be out here doing real racing."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "This isn't real racing. We're on a beach! All you do is go straight. How am I gonna get faste"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Woohoohoo!! All right! Finally! You made it! Congratulations, how\u2019d I do?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "You topped out at 198."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "198, That\u2019s it?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Still slower than Storm."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Wasted my whole day."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "I wouldn't say that. It did feel great to be out here doing real racing."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "This isn't real racing. We're on a beach! All you do is go straight. How am I gonna get faster if I don't...? [reads the sign] \"Thunder Hollow\". Thunder Hollow! There's a dirt track there! That's what I need! To race against actual racers."
+    },
+    {
+      "character": "LUIGI",
+      "text": "No! Too public! If the press finds you, there will be like many, many bugs on you."
+    },
+    {
+      "character": "GUIDO",
+      "text": "Paparazzi."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Guys, I really need this!"
+    },
+    {
+      "character": "MACK",
+      "text": "Ah, just leave it to me, boss. I am a master of disguise."
+    },
+    {
+      "character": "FEMALE RACER",
+      "text": "All right! Next!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "[coughs and spits]"
+    },
+    {
+      "character": "MACK",
+      "text": "You, sir, are officially incognito. Nobody's bothering you."
+    },
+    {
+      "character": "LUIGI",
+      "text": "The great Lightning McQueen."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I can feel it, guys. Tonight is the night I find my speed!"
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Racers, get on over to the starting line! Pronto!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "All right! No more straight lines. Just a good old-fashioned oval."
+    },
+    {
+      "character": "ROSCOE",
+      "text": "Hey, now! You that out-of-towner?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Uh, yes. That's me! Chester Whipplefilter."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "And I'm Frances Beltline."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Cruz, what are you doing?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "I'm your trainer. I'm going to track your speed from the infield, Whipplefilter."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Fine. Just stay out of the way. Excuse me, sir. what are the other racers?"
+    },
+    {
+      "character": "ROSCOE",
+      "text": "Oh, they'll be along. We always let our guests started right up front."
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Welcome, y'all, to Thunder Hollow Speedway for tonight's edition of Crazy Eight!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Did he say Crazy Eight? Whoa."
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Race fans! It's time to meet tonight's challengers!"
+    },
+    {
+      "character": "ARVY",
+      "text": "Have a nice trip."
+    },
+    {
+      "character": "APB",
+      "text": "Protect and swerve!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Cruz, this isn't what I thought it was. Come on! Follow me and we'll slip out!"
+    },
+    {
+      "character": "ROSCOE",
+      "text": "Rule number 1: Gate closes, you race."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Wait, no, no, no! I'm not a racer!!"
+    },
+    {
+      "character": "ROSCOE",
+      "text": "Rule number 2: Last car standin' wins! And rule number 3: No cursing. It's Family Night."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Excuse me? Sir...?!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Wait! No! I'm just a trainer!"
+    },
+    {
+      "character": "RACER",
+      "text": "Whoo!"
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "And make way for the undefeated Crazy Eight champion, the Diva of Demolition, Miss Fritter!"
+    },
+    {
+      "character": "MISS FRITTER",
+      "text": "Boo! [laughs] Lookie here, boys. We got us a couple of rookies. I'm gonna call you Muddy Britches and you Lemonade."
+    },
+    {
+      "character": "ARVY",
+      "text": "Hey, neither one of them has a single dent."
+    },
+    {
+      "character": "MISS FRITTER",
+      "text": "Oh, I'm gonna fix that!"
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "All right, everybody! Let's go racing!"
+    },
+    {
+      "character": "MISS FRITTER",
+      "text": "[cackles] I'm about to commit a moving violation."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ow!"
+    },
+    {
+      "character": "MISS FRITTER",
+      "text": "[grunts]"
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Boo!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Cruz!"
+    },
+    {
+      "character": "RACER",
+      "text": "Ha-ha! Watch out."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What are you doing? Got to keep moving!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "I shouldn't be out here! [shrieks]"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Move, Cruz! Move!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "What do I do? I can't steer!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Turn right to go left! Turn right to go left!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "That doesn't make any sense!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Turn right to go left!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Whoa!"
+    },
+    {
+      "character": "BILL",
+      "text": "Hey, Patty."
+    },
+    {
+      "character": "PATTY",
+      "text": "Oh, hey, Bill!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ahhhh! [yelps]"
+    },
+    {
+      "character": "T-BONE",
+      "text": "Whoo-hoo! Look, Ma, I can drive... Oh, man!"
+    },
+    {
+      "character": "ARVY",
+      "text": "Nice day for a drive, huh?"
+    },
+    {
+      "character": "FAREGAME",
+      "text": "Hey, buddy! Get the [honks] out of my way!"
+    },
+    {
+      "character": "ARVY",
+      "text": "Whoo-hoo!"
+    },
+    {
+      "character": "FAREGAME",
+      "text": "Hey! I'm driving..."
+    },
+    {
+      "character": "ARVY",
+      "text": "Oh, look at my new hat!"
+    },
+    {
+      "character": "SUPERFLY",
+      "text": "[whooping] I'm flying! No! I'm not flying..."
+    },
+    {
+      "character": "CAR",
+      "text": "Get it. Get it."
+    },
+    {
+      "character": "FAN",
+      "text": "I got it!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Cruz!"
+    },
+    {
+      "character": "DR. DAMAGE",
+      "text": "Oh."
+    },
+    {
+      "character": "CABBI TAXI",
+      "text": "Hey, buddy! Move it!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Turn right to go left. Turn right to go left. Whoa, whoa. Whoa!"
+    },
+    {
+      "character": "MISS FRITTER",
+      "text": "Here I come, boy!"
+    },
+    {
+      "character": "TACO",
+      "text": "No, no, no!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Oh, no."
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Buckle up, everybody! It's Fritter Time!"
+    },
+    {
+      "character": "MISS FRITTER",
+      "text": "Fritter! Fritter! Fritter!"
+    },
+    {
+      "character": "MR. DRIPPY",
+      "text": "We love you, Miss Fritter."
+    },
+    {
+      "character": "MISS FRITTER",
+      "text": "Oh, yeah! Your license plate's gonna look real nice in my collection."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Oh, boy."
+    },
+    {
+      "character": "JIMBO",
+      "text": "Run!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, no."
+    },
+    {
+      "character": "MISS FRITTER",
+      "text": "Remember, obey all appropriate street signs."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Cruz!"
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Oh, my gracious! Miss Fritter's down!"
+    },
+    {
+      "character": "MISS FRITTER",
+      "text": "Nobody touches him. He is mine!"
+    },
+    {
+      "character": "RV FAN",
+      "text": "You go get it now, Whipplefilter!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Come on, McQueen. You can do it. Come on, Lightning, keep going!"
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Miss Fritter is looking to get upright, folks. She is not pleased."
+    },
+    {
+      "character": "CAR",
+      "text": "Get up! Get up!"
+    },
+    {
+      "character": "CROWD",
+      "text": "Fritter! Fritter!"
+    },
+    {
+      "character": "MISS FRITTER",
+      "text": "You about to feel the wrath of the Lower Belleville County Unified School District! Oh! What the... Wait... [screams] No, no, no! No! No!"
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Ladies and gentleman, we have a winner! Frances Beltline!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Is that me? That's me! I won! I won!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Cruz! Cruz! No!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Ahhh! Watch out!"
+    },
+    {
+      "character": "MR. DRIPPY",
+      "text": "Whoa, whoa! [whimpers]"
+    },
+    {
+      "character": "RV FAN",
+      "text": "Whipplefilter! It's Lightning McQueen!"
+    },
+    {
+      "character": "CAR",
+      "text": "McQueen!"
+    },
+    {
+      "character": "FAN",
+      "text": "Fans here still buzzing over tonight's unexpected appearance of Lightning McQueen."
+    },
+    {
+      "character": "MISS FRITTER",
+      "text": "He was always been my favorite! My garage is filled with head to toe in 95 posters."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "So, trophy's kind of nice. Don't you think?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "I mean, I know you got a billion of them, so you would know."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Stop! Just stop! Okay, Cruz? You don't even know. You don't even have one clue!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Hey! I was just trying to \u2014"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Do you know what happens if I lose this race?! Every mile of this trip was to get me faster than Jackson Storm. Faster! I start off getting nowhere for a week , on a simulator! I lose a whole day with you on Fireball Beach! And then, I waste tonight in the crosshairs of Miss Fritter! I'm stuck in the same speed I was a month ago! I can't get any faster, because I'm too busy TAKING CARE OF MY TRAINER!!!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "This is my last chance, Cruz! Last! Final! Finito! If I lose, I'd never get to do this again! If you were a racer , you'd know what I'm talking about, but you're not! So you don't!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Mack, pull over!"
+    },
+    {
+      "character": "MACK",
+      "text": "What? Now?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "NOW! (angrily presses the button to open the door with sparks flowing)"
+    },
+    {
+      "character": "MACK",
+      "text": "AH! Okay, okay! Pulling over! Pulling over!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Ask me if I dreamed of being a trainer, Mr. McQueen, go ahead! Ask me if I got up, in the dark, to run laps before school every day! Ask me if I saved every penny to buy a ticket to the races when they came to town. Ask me if I did that so that I could be a trainer someday. Ask me."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Did you..."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "NO! I wanted to become a racer forever! Because of you! I used to watch you on TV, flying through the air. You seemed so... fearless. Dream small, Cruz. That\u2019s what my family used to say. Dream small, or not at all. They were just trying to protect me. But I was the fastest kid in town, and I was gonna prove them wrong."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What happened?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "When I got to my first race, I figured it out."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What...?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "That I didn\u2019t belong. The other racers looked nothing like me, they\u2026 they were bigger, and stronger and so\u2026 confident. And when they started their engines, that was it. I knew I\u2019d never be a racer. I just left. It was my one shot, and I didn't take it."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Yeah, so, I'm gonna head back to the training center. I think we both know it's for the best."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "But can I ask you something? What was it like for you? When you showed up to your first race. How did you know you could do it?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I don't know. I guess I just never thought that I couldn't."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "I wish I knew what that felt like."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Good luck, Mr. McQueen."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Cruz. Cruz, wait."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Champion for the ages"
+    },
+    {
+      "character": "CHICK HICKS",
+      "text": "Chick Hicks here coming to you live from Chick Hicks studios where i'm joined once again by next-gen racing expert, Natalie Certain"
+    },
+    {
+      "character": "NATALIE CERTAIN",
+      "text": "thanks Chick, Piston Cup champion Jackson Storm set a new record today when he pulled off the fastest lap ever recorded an unprecedented 213 miles an hour."
+    },
+    {
+      "character": "CHICK HICKS",
+      "text": "Wow! So what do you think, Certain? Stormy boy gonna start the the season with another win."
+    },
+    {
+      "character": "NATALIE CERTAIN",
+      "text": "Highly likely, Chick. Based on his recent run times and forecasted track temperature on race day, Storm's chances of being are 95.2 percent."
+    },
+    {
+      "character": "CHICK HICKS",
+      "text": "That low, huh? Oh, and in case you missed it, talk of the track tonight is Lightning McQueen, finding yet another to embrass himself at a demolition derby. Woah! Almost makes me feel sorry for the guy, not really. (chuckles) Here's what his new sponsor had to say."
+    },
+    {
+      "character": "STERLING",
+      "text": "Everyone, relax. The 95's gonna race. Lightning's just taking a somewhat unconventional approach to this race. It's one of the things his fans love about him."
+    },
+    {
+      "character": "CHICK HICKS",
+      "text": "Yeah, right! Talk about humiliating. If I were old ka-chow... I wouldn't even bother to show up in Florida."
+    },
+    {
+      "character": "NATALIE CERTAIN",
+      "text": "That could be for the best, chick. Even if he does race... McQueen's probability of winning is 1.2%."
+    },
+    {
+      "character": "CHICK HICKS",
+      "text": "Oh."
+    },
+    {
+      "character": "NATALIE CERTAIN",
+      "text": "Numbers never lie. I'm willing to predict tonight that lightning McQueen's racing... Career will be over within the week. It might even be over now."
+    },
+    {
+      "character": "CHICK HICKS",
+      "text": "I mean, I knew his career was stuck in the mud!..."
+    },
+    {
+      "character": "MATER",
+      "text": "What's it? There we go, somebody's interrupting genius. Well, hey there, buddy!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mater!"
+    },
+    {
+      "character": "MATER",
+      "text": "You know, I was just thinking of you and here you are looking right at me. You see me okay? Wait a second, hold on. Let me see here. That better?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Looking you straight in the eye there, pal. Hey, sorry about calling so late,"
+    },
+    {
+      "character": "MATER",
+      "text": "Not for me it's not. I'm always burning that midnight oil so get me caught up on everything."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Well, actually kind of hoping I might hear what's going on back home."
+    },
+    {
+      "character": "MATER",
+      "text": "Well, not much, but if you don't count Sarge and Fillmore trying to run the tire shop, but tell Luigi not to worry Sarge is gonna track down every last tire that Fillmore done gived away. Other than that, everything's good."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "How's Sally?"
+    },
+    {
+      "character": "MATER",
+      "text": "Oh, she's fine, keepin' busy at the cone. She misses you. Well, shoot, we all do when you're on the road."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah. You know, I've been kind of thinking about that. You know, what would you do when I'm not on the road anymore?"
+    },
+    {
+      "character": "MATER",
+      "text": "What do you mean, \"not on the road\"?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Well... you know... Mater, I can\u2019t do this forever."
+    },
+    {
+      "character": "MATER",
+      "text": "Huh?!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I... I\u2019m just not getting anywhere with the training, with anything, I\u2019ve gotten slower, not faster."
+    },
+    {
+      "character": "MATER",
+      "text": "Shoot, buddy, it\u2019ll work out! Just tell me what the problem is and I\u2019ll Stay right here with you, till we fix it."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "That\u2019s just it, Mater, I don\u2019t know... and feel like I\u2019m all out of ideas..."
+    },
+    {
+      "character": "MATER",
+      "text": "Hmm... All right, let me think. Oh. You know what I'd do?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What?"
+    },
+    {
+      "character": "MATER",
+      "text": "I don't know. I got nothin'. I guess ain't Doc when it comes to that."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I\u2019d give anything to talk to him right now."
+    },
+    {
+      "character": "MATER",
+      "text": "Yep, there was nobody smarter than old Doc. Well, except for, maybe, whoever taught him."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah... Wait, what?"
+    },
+    {
+      "character": "MATER",
+      "text": "I mean, everybody was taught by somebody, right? Take my cousin, Doyle. He taught me how to sing and whistle at the same time, he was very musical that way."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Smokey? Mater, you\u2019re brilliant."
+    },
+    {
+      "character": "MATER",
+      "text": "Ah, well, ha-ha, it\u2019s all about the shape of your teeth."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I get to go to Thomasville!"
+    },
+    {
+      "character": "MATER",
+      "text": "Oh, well, good. You know me, buddy, I'm always happy to help. Think I'm better at that than most folks. You know, talkin' and stuff."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, Cruz!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "You won't talk me out of this, Mr. McQueen! I'm going back! I resign as your trainer!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Okay. I accept you resignation."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Bye."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Okay."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "But since you've cleaned your calendar, why don't you come with us? I'm looking for someone named Smokey hoping he can help me. Maybe he can help you too."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Nah."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Come on."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I fixed it."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "No. Thanks anyway, but I'm done."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Okay. But maybe this will change your mind."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hit it!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "First, I'm gonna loosen up these ancient joints!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "No, please don't."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I'm sorry, I'm sorry~ I'm sorry that I yelled~ It wasn't your fault that I almost got killed~"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Stop."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "And now you're leaving~"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Okay, I'll go."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "And you won't get on the ramp~ You won't get on the ramp~"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "I said, I'll go. Just stop."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Ho do you know Smokey's going to be here?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I don't."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Oh. Do you know if he's even alive?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Nope."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Okay? So tell me this: how do you know if it's Smokey? Is there such..."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Wait. Mack, pull over! Back it up! Back it up. Good to see you, Doc."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Okay, I'll go."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "And you won't get on the ramp~ You won't get on the ramp~"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "I said, I'll go. Just stop."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Ho do you know Smokey's going to be here?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I don't."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Oh. Do you know if he's even alive?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Nope."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Okay? So tell me this: how do you know if it's Smokey? Is there such..."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Wait. Mack, pull over! Back it up! Back it up. Good to see you, Doc."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Hey, isn't that your old crew chief?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, Cruz? You want to check out the home track of the greatest racer ever?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Aren't we supposed to be looking for Smokey? Oh, that's right, he's dead."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "We don't know that."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Are you sure you have time for this?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "For this, I do. Wow! If this track could talk. Cruz, what do you say? Let's take a lap. Oh, yeah!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Oh, whoa!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yes! You nailed it!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Way easier without the school bus of death trying to kill us!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah, no kidding!"
+    },
+    {
+      "character": "SMOKEY",
+      "text": "Was starting to think I might never meet you."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Smokey?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "He is alive."
+    },
+    {
+      "character": "SMOKEY",
+      "text": "I know why you're here. You're thirsty. I'll tell you what, these folks are gonna get a kick out of meeting Hud's boy."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Who's Hud? Oh, Doc Hudson! Right."
+    },
+    {
+      "character": "SMOKEY",
+      "text": "Hey! Act civilized. We got company. Hey, Les. How's that back axle treating you?"
+    },
+    {
+      "character": "LES",
+      "text": "Hey, sugar. Welcome to Thomasville."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "[laughing] Would you look at that?"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "What?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Three of the biggest racing legends ever! Junior \"Midnight\" Moon. River Scott. Louise..."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Louise \"Barnstormer\" Nash? She had 38 wins!"
+    },
+    {
+      "character": "LOUISE \"BARNSTORMER\" NASH",
+      "text": "Well, as I live and breathe. If it ain't Lightning McQueen."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ms. Nash, it's a pleasure to meet you..."
+    },
+    {
+      "character": "LOUISE \"BARNSTORMER\" NASH",
+      "text": "You've had a tough year, haven't you?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, uh..."
+    },
+    {
+      "character": "RIVER SCOTT",
+      "text": "Shouldn't you be running practice laps in Florida by now?"
+    },
+    {
+      "character": "SMOKEY",
+      "text": "Lesson 1: you're old. Accept it."
+    },
+    {
+      "character": "CRUZ",
+      "text": "I told him that."
+    },
+    {
+      "character": "SMOKEY",
+      "text": "He's probably losin' his hearing."
+    },
+    {
+      "character": "CRUZ",
+      "text": "[shouting] He said you're old and losing!"
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "[annoyed] I heard him!"
+    },
+    {
+      "character": "SMOKEY",
+      "text": "You'll never be as fast as Storm. But you can be smarter than him."
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "Okay, what do I do?"
+    },
+    {
+      "character": "SMOKEY",
+      "text": "They said you were in a...demolition derby."
+    },
+    {
+      "character": "LIGHTNING",
+      "text": "Yeah! It was terrible! And I was \u2014"
+    },
+    {
+      "character": "SMOKEY",
+      "text": "Sure? 'Cause there's not a scratch on ya. [Lightning looks around to see absolutely no damage] Funny what a racer can do when he's not overthinking things."
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Welcome to racing's greatest day we're beachside at the Florida international speedway to kick off a new season of Piston Cup racing it's the Florida 500."
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "43 cars in a quarter million fans await today's intense contest of strategy, skill but most of all speed. This crowd is in for one great day of racing."
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "I'm Bob Cutlass joined as always by my broadcasting partner Darrell Cartrip and stat sensation Natalie Certain."
+    },
+    {
+      "character": "NATALIE CERTAIN",
+      "text": "I've never seen the numbers lineup for Storm like they do today Bob Storm should be ninety six point eight percent unstoppable."
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Well, don't overlook Lightning McQueen."
+    },
+    {
+      "character": "MISS FRITTER",
+      "text": "Whipple Filter."
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "We've heard stories of the unusual way McQueen trained to get here now the question is did it work?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Speed. I am... speed."
+    },
+    {
+      "character": "MACK",
+      "text": "Hey boss, they are calling the racers to the track."
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Jeff Gorvette, How does today's talent stack up?"
+    },
+    {
+      "character": "JEFF GORVETTE",
+      "text": "Oh I think we're in for a treat today these racers... Hey, McQueen. Win one for us old guys..."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Will do, Jeff..."
+    },
+    {
+      "character": "MATER",
+      "text": "Hey there, Buddy."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, guys."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Stickers."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey Sal."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Are you okay?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah yeah... Absolutely."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Listen, you\u2019re gonna do great today. And no matter what happens... I\u2019m going to move onto the next rookie and forget I ever knew you."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I\u2019m glad you\u2019re here."
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "[to Cruz wearing her Storm getup] Oh ho ho ho, wow! Nice costume! Come here, let's get a picture. It's so great to meet my number one fan."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "[scoffs] What a jerk."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "[drives up to Jackson] She's not a fan, Storm."
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "Oh, hey there, champ. I heard you're selling mudflaps after today. Is that true? You put me down for the first case, okay?"
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "Would you stop that? You\u2019re taking me off my line!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "This is it! Final Lap!"
+    },
+    {
+      "character": "SMOKEY",
+      "text": "Come on, Cruz!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Uh, oh! My GPS is saying i have slow traffic in my way."
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Uh, you're angry!"
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "I am not angry!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "You know, you can use that anger to push through."
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "I SAID I'M NOT ANGRY!!!"
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "I don't think so!"
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "NO!!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Cruz! Get outta there!"
+    },
+    {
+      "character": "JACKSON STORM",
+      "text": "You don't belong on this track!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "YES... I... DO!!!"
+    },
+    {
+      "character": "STERLING",
+      "text": "Cruz!...I knew you had something, and now look at you. A winner. I could use you as a racer on our team. We could \u2014"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "Sorry, Mr. Sterling. I would never race for you. I quit."
+    },
+    {
+      "character": "TEX",
+      "text": "[honks as he and Strip Weathers drive up] Well then, race for me!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Tex!"
+    },
+    {
+      "character": "TEX",
+      "text": "Miss Cruz, I would be tickled pink to have you race for Team Dinoco. As you know, we have a long history of great racers... 'cept for Cal."
+    },
+    {
+      "character": "CAL",
+      "text": "[peeking out] Uh, guys? I'm still right here!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Team Dinoco, Cruz!"
+    },
+    {
+      "character": "STERLING",
+      "text": "[sarcastically] Hire her. I don't care. Lightning, now that you're retired, I need you first thing Monday morning for a photo shoot."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "[sadly] Yeah, alright, Mr. Sterling."
+    },
+    {
+      "character": "SMOKEY",
+      "text": "Whoa! Hang on, now!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What? Why is my name up there?"
+    },
+    {
+      "character": "SMOKEY",
+      "text": "You started the race, that's how it works."
+    },
+    {
+      "character": "STERLING",
+      "text": "Wait, wait, now, wait a minute... no!"
+    },
+    {
+      "character": "SALLY",
+      "text": "Uh... Lightning wins, he decides when he's done racing. That was the deal. Hi, I'm his lawyer."
+    },
+    {
+      "character": "MATER",
+      "text": "[singsonging] That was the deal! You are not a nice guy! But seriously, I gotta say you do make a quality mudflap on an affordable price."
+    },
+    {
+      "character": "TEX",
+      "text": "Ahem! Hey, Sterling, why don't you and I take a drive and talk?"
+    },
+    {
+      "character": "TEX",
+      "text": "Billionaire to billionaire..."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Kid's got a lot of stuff...eh, Doc?"
+    },
+    {
+      "character": "SALLY",
+      "text": "[driving up to Lighting] Well, she had a great teacher."
+    },
+    {
+      "character": "SALLY",
+      "text": "And now, you get to decide when you're done racing. So what's it gonna be, Stinky...uh, Stickers?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "[chuckling confidently] Oh, I'm gonna keep racing. But before that, I had something I wanna do..."
+    },
+    {
+      "character": "LUIGI",
+      "text": "Welcome all, to historical Willy's-a Butte! For today's great exhibition of speed!"
+    },
+    {
+      "character": "CRUZ RAMIREZ",
+      "text": "[giggles] Thanks, guys!"
+    },
+    {
+      "character": "LOUISE NASH",
+      "text": "Nice paint, kiddo!"
+    },
+    {
+      "character": "MATER",
+      "text": "[pushes his way forward wearing a Dinoco hat] Pardon me! Big hat, comin' through! Git-r-done, 51! Woooohoo!!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Oh, it's perfect, it's very old school."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Did someone just say \"old school\"?"
+    },
+    {
+      "character": "SMOKEY",
+      "text": "Whoa-ho!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Trying something new! I like it!"
+    },
+    {
+      "character": "CRUZ",
+      "text": "Wow, subtle..."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Figured if I'm gonna be your crew chief, I'd better do it in style."
+    },
+    {
+      "character": "CRUZ",
+      "text": "What's Mr. Sterling gonna say?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I'm actually more worried about what Tex is gonna say, considering he uh... bought Rust-Eze. Thanks, Tex!"
+    },
+    {
+      "character": "TEX",
+      "text": "[honks] I made that Sterling fella a Texas-sized offer!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "So, ready to start training?"
+    },
+    {
+      "character": "CRUZ",
+      "text": "I don't know... you ready to lose again?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ohh! Hope you got your fluffy cloud!"
+    },
+    {
+      "character": "CRUZ",
+      "text": "I hope you got your drip pan!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Got my drip pan, and I've... takin' my nap?!"
+    },
+    {
+      "character": "CRUZ",
+      "text": "Bring it on, old man!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "[waves his flag] GO!"
+    },
+    {
+      "character": "LIGHTNING AND CRUZ",
+      "text": "Wahoo!!"
+    },
+    {
+      "character": "MATER",
+      "text": "[singing] \u266a My cup holder's happy, my tank is full. My engine's running like a Brahma bull. My bumpers are polished and talk about luck. I just got a date with an ice cream truck. \u266a"
+    },
+    {
+      "character": "MATER",
+      "text": "Huh?"
+    },
+    {
+      "character": "MATER",
+      "text": "Aah! Shoot. Hey, McQueen, you still there? McQueen? Ugh. Technology!"
+    }
+  ]
+}

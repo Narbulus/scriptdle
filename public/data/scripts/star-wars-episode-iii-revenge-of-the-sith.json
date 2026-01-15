@@ -1,0 +1,4772 @@
+{
+  "id": "star-wars-episode-iii-revenge-of-the-sith",
+  "title": "Star Wars: Episode III - Revenge of the Sith",
+  "year": 2005,
+  "characters": [
+    "AAYLA",
+    "ANAKIN",
+    "ANAKIN/OBI-WAN",
+    "AT-ST CLONE SERGEANT",
+    "BAIL (HOLOGRAM)",
+    "BAIL ORGANA",
+    "BANA BREEMU",
+    "BATTLE DROID",
+    "BLY",
+    "BODYGUARD",
+    "BODYGUARD 1",
+    "C-3PO",
+    "CAPTAIN",
+    "CAPTAIN ANTILLES",
+    "CAPTAIN TYPHO",
+    "CHI EEKWAY",
+    "CLONE CAPTAIN",
+    "CLONE COMMANDER APPO",
+    "CLONE COMMANDER BACARA",
+    "CLONE COMMANDER CODY",
+    "CLONE COMMANDER GREE",
+    "CLONE COMMANDER THIRE",
+    "CLONE PILOT",
+    "CLONE PILOT 2",
+    "CLONE SERGEANT",
+    "CLONE TROOPER",
+    "COUNT DOOKU",
+    "CREATURE",
+    "CUNTT DOOKU",
+    "DARTH SIDIOUS",
+    "DARTH SLDIOUS",
+    "DARTH VADER",
+    "DROID 1",
+    "DROID 2",
+    "FANG ZAR",
+    "FIRESHIP PILOT",
+    "GENERAL GREVIOUS",
+    "GENERAL GRIEVOUS",
+    "GIDDEAN DANU",
+    "GUARD",
+    "JAR JAR",
+    "KI-ADI-MUNDI",
+    "MACE",
+    "MACE WINDU",
+    "MAS AMEDDA",
+    "MEDICAL DROID",
+    "MON MOTHMA",
+    "MON MOTMA",
+    "MOTEE",
+    "NUTE GUNRAY",
+    "OBI-WAN",
+    "ODD BALL",
+    "PADME",
+    "PALPATINE",
+    "PALPATINE (V.O.)",
+    "PILOT",
+    "PLO KOON",
+    "QUI -GON",
+    "QUI-GON",
+    "ROYAL GUARD",
+    "RUNE HAAKO",
+    "SUPER BATTLE DROID",
+    "SUPER BATTLE DROID 1",
+    "SUPER BATTLE DROID 2",
+    "SUPER BATTLE DROID G21",
+    "SUPER BATTLE DROID R77",
+    "TERR TANEEL",
+    "TION MEDON",
+    "WRANGLER",
+    "YODA",
+    "YOUNGLINGS"
+  ],
+  "lines": [
+    {
+      "character": "ANAKIN",
+      "text": "There isn't a droid made that can out fly you, Master, and no other way to get to the Chancellor ..."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Look out, four droids inbound (The two jedi fighters swerve in unison as four trade federation droid drop fighters attack. After several clever moves by the Jedi, two of the federation droid drop fighters collide with each other in a ball of flame. He struggles to maintain control of his ship.) We've got to split them up."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Break left, fly through the guns on that tower."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Easy for you to say, why am I always the bait?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Don't worry. I'm coming around behind you."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Anakin, they're all over me!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Dead ahead! Closing, lock onto him, R-2 (R-2 beeps his reply as he swoops in for the kill. He blasts one of the droid drop fighters. It explodes. continues and laughs) We got him, R-2! (He blasts away at the second droid drop fighter as R-2 beeps an angry warning.) I copy, R-2."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I'm going down on the deck."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Good idea, I need some room to maneuver. (Obi-Wan dives toward the surface of one of the larger Trade Federation Battleships and is forced to fly through a maelstrom of laser flack. He skims the surface, followed by the droid drop fighter, which is followed by him. continuing) Cut right. Do you hear me?! Cut right. Don't let him get a handle on you. Come on, R-2, lock on! Lock on!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Hurry up! I don't like this! (He flies through a narrow gap between two towers on a Battleship. The droid drop fighter hits one of his wings with a laser blast, and parts of the ship go flying around his Astro Droid, R-4. continuing) Ouch! (R-4 beeps a blue streak. continuing) Don't even try to fix it, R-4. I've shut it down."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "We're locked on, we've got him (He drops in behind the droid drop fighter and blows him apart. R-2 squeals with delight. continuing) Yeah! We got him, good going, R-2."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Next time, you're the bait. Now let's find the Command Ship and get on with it."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Lock onto them, R-2. Master, General Grievous's ship is directly ahead. (R-2 beeps a reply, and it reads out in his cockpit. continuing) The one crawling with vulture droids."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I see it. Oh, this is going to be easy."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Come on, Master."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Not this time. There's too much at stake. We need help. Odd Ball, do you copy?"
+    },
+    {
+      "character": "ODD BALL",
+      "text": "Copy, Red Leader."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Mark my position and form your squad up behind me."
+    },
+    {
+      "character": "ODD BALL",
+      "text": "We're on your tail, General Kenobi. Set S-foils in attack position."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "This is where the fun begins. Ten Vulture Droids straight ahead, coming down the left side."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Add five Tri-fighters on the right..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm going head-to-head. See you."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Take it easy, Anakin."
+    },
+    {
+      "character": "ODD BALL",
+      "text": "I'm on your right, Red Leader."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Incoming!!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Five more on the right!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Here we go."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I'm going high and right."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Hang on. There are four more of them."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Stay with me, swing back and right, help me engage. Back off. Let them pass between us."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm coming around. I'm coming around on your tail."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "All right, engage and hurry. These droids are all over me like a rash."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "How many back there. R-2? (R-2 beeps) Three, (continuing) Four, that's not good."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Anakin, you have four on your tail."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I know. I know!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Four more closing from your left."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I know. I know!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Break right and go high."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm going low and left."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "He still has much to learn."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Hang on, R-2. Obi-Wan, do you copy? I'm going to pull them through the needle ..."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Too dangerous. First Jedi rule: \"Survive.\""
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Sorry, no choice. Come down here and thin them out a little."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Just keep me steady, hold on, not yet, now break left."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "You'll never get through there, Anakin. It's too tight."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Easy, R-2, we've done this before."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Use the Force, think yourself through, the ship will follow."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Wrong thought, R-2."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm through."
+    },
+    {
+      "character": "ODD BALL",
+      "text": "There are too many of them."
+    },
+    {
+      "character": "CLONE PILOT 2",
+      "text": "I'm on your wing. Break left. Break left. They're all over me. Get them off my ..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm going to go help them out!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "No, no! They are doing their job so we can do ours. Head for the Command Ship!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Missiles! Pull up!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "They overshot us ..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "They're coming around!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "All right, R-4. No, no. Nothing too fancy."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Surge all power units. R-2! Stand by the reverse thrusters."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "We got 'em. Artoo!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Flying is for droids."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I'm hit! Anakin?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I see them, Buzz Droids."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "R-4, be careful. You have one ..."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Oh dear. They're shutting down all the controls."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Move to the right so I can get a clear shot at them."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "The mission. Get to the Command Ship. Get the Chancellor! I'm running out of tricks here."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "In the name of ..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Steady, steady ..."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Anakin, hold your fire, hold your fire. You're not helping here."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I agree, bad idea. Swing right, ease over, steady..."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Wait, wait, I can't see a thing! My cockpit's fogging. They're all over me, Anakin."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Move to the right."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Hold on, Anakin. You're going to get us both killed! Get out of here. There's nothing more you can do."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm not leaving without you, Master."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Blast it, I can't see, my controls are gone."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Get them, R-2. Watch out!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "R-2, hit the buzz droid's center eye."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Yeah, you got him!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Great, R-2."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Stay on my wing, the General's Command Ship is dead ahead. Easy, pull up. Head for the hangar."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Have you noticed the shields are still up?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Oh?!?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Sorry, Master."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Oh, I have a bad feeling about this."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "R-2, locate the Chancellor."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Tap into the ship's computers."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "The Chancellor's signal is coming from right there. The observation platform at the top of that spire."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I sense Count Dooku..."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I sense a trap."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Next move?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Spring the trap."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "R-2, go back. I need you to stay with the ship."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Here, take this, and wait for orders."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "What's the situation, Captain?"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Two Jedi have landed in the main hangar bay."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "Just as Count Dooku predicted."
+    },
+    {
+      "character": "BODYGUARD 1",
+      "text": "General Kenobi, Anakin Skywalker. We've been waiting for you."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "We are here to relieve you of Chancellor Palpatine, not join him."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Anakin..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Ready."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "...fuel. The slightest charge from our sabers will send this ship into oblivion. That's why they've stopped shooting."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Well then, we're safe for the time being."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Your idea of safe is not the same as mine."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "...fuel. The slightest charge from our sabers will send this ship into oblivion. That's why they've stopped shooting."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Well then, we're safe for the time being."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Your idea of safe is not the same as mine."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "They're sealing this section off."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Six droids coming our way!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Keep moving. There must be vents. This way."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "We'll never get through that. It's too small!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I found our escape vent."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Anakin, this is no time for jokes. We're in serious trouble here."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Only in your mind. My Master. Look, no structure."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Here's a way out."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "That won't hold when the fuel hits those power dischargers."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "The blast will break the hull. This side's pressurized."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "You still have much to learn, Anakin."
+    },
+    {
+      "character": "SUPER BATTLE DROID R77",
+      "text": "I have a bad feeling about this."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "All right, you win. I have much to learn. Let's go!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Destroyers!!"
+    },
+    {
+      "character": "BATTLE DROID",
+      "text": "Drop your weapons! I said drop 'em."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Did you press the stop button?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "No, did you?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "No!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Well, there's more than one way out of here."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "We don't want to get out, we want to get moving. R-2, R-2. Do you copy? Activate elevator (looks at control panel) 31174..."
+    },
+    {
+      "character": "SUPER BATTLE DROID 1",
+      "text": "What's that?"
+    },
+    {
+      "character": "SUPER BATTLE DROID 2",
+      "text": "Get back to work. It's nothing."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "R-2?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Always on the move."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "R-2, switch on the comlink. R-2, do you hear me? R-2, we gave you a job to do! R-2."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Stop, stop! R-2, we need to be going up."
+    },
+    {
+      "character": "DROID 1",
+      "text": "Hands up, Jedi! Don't move."
+    },
+    {
+      "character": "DROID 2",
+      "text": "Roger, roger."
+    },
+    {
+      "character": "SUPER BATTLE DROID 1",
+      "text": "There it is again."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "R-2, do you copy? R-2, do you hear me? R-2, we need to be going up, not down."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Stop. R-2! We need to go up! Stop, stop!"
+    },
+    {
+      "character": "SUPER BATTLE DROID 1",
+      "text": "Hey you!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Now, that's better..."
+    },
+    {
+      "character": "SUPER BATTLE DROID 1",
+      "text": "You stupid little astro droid!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Oh, it's you..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What was that all about?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Well, R-2 has been..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "No loose wire jokes. He's doing the best he can."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Did I say anything?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "He's trying!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I didn't say anything!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Chancellor."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Are you all right?"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Count Dooku."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "This time we will do it together."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I was about to say that."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Get help! You're no match for him. He's a Sith Lord."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Chancellor Palpatine, Sith Lords are our specialty."
+    },
+    {
+      "character": "COUNT DOOKU",
+      "text": "Your swords, please, Master Jedi. We don't want to make a mess of things in front of the Chancellor."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "You won't get away this time, Dooku."
+    },
+    {
+      "character": "COUNT DOOKU",
+      "text": "I've been looking forward to this."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "My powers have doubled since the last time we met, Count."
+    },
+    {
+      "character": "CUNTT DOOKU",
+      "text": "Good. Twice the pride, double the fall."
+    },
+    {
+      "character": "COUNT DOOKU",
+      "text": "Your moves are clumsy, Kenobi, too predictable. You'll have to do better."
+    },
+    {
+      "character": "COUNT DOOKU",
+      "text": "I sense great fear in you, Skywalker. You have hate, you have anger, but you don't use them."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Good, Anakin, good. I knew you could do it. Kill him. Kill him now!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I shouldn't..."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Do it!!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "...I couldn't stop myself."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "You did well, Anakin. He was too dangerous to be kept alive."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Yes, but he was an unarmed prisoner."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I shouldn't have done that, Chancellor. It's not the Jedi way."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "It is only natural. He cut off your arm, and you wanted revenge. It wasn't the first time, Anakin. Remember what you told me about your mother and the Sand People. Now, we must leave before more security droids arrive."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Anakin, there is no time. We must get off the ship before it's too late."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "He seems to be all right. No broken bones, breathing's all right."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Leave him, or we'll never make it."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "His fate will be the same as ours."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "Prepare for attack."
+    },
+    {
+      "character": "PILOT",
+      "text": "All batteries fire! Fire!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "The elevator's not working, (into his comlink) R-2..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "...Activate Elevator 3224."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "R-2, do you copy? R-2, come in!"
+    },
+    {
+      "character": "PILOT",
+      "text": "Reverse stabilizers."
+    },
+    {
+      "character": "PILOT",
+      "text": "Magnetize! Magnetize!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "We can't wait. Come on, we have to be fast."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "Fire the emergency booster engines."
+    },
+    {
+      "character": "PILOT",
+      "text": "Leveling out, sir."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "E"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Easy. We're in a bit of a situation."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Did I miss something?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Hold on."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "What is that?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Oops."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "R-2, R-2, shut down the elevator!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Too late! Jump!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Let's see if we can find something in the hangar bay that's still flyable. Come on."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "R-2, get down here. R-2, do you copy?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "None of those ships will get us anywhere."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I agree."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "What are we going to do?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I don't know."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Don't look at me. I don't know."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Here, Chancellor, lock this around your waist, and hold on."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "We'll head toward the bridge and see if we can find an escape pod."
+    },
+    {
+      "character": "ANAKIN/OBI-WAN",
+      "text": "Well, that was close."
+    },
+    {
+      "character": "BODYGUARD",
+      "text": "General, we found the Jedi. They're in hallway 328."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "Activate ray shields."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Ray shields!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Wait a minute, how'd this happen! We're smarter than this."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Apparently not, Master. This is the oldest trap in the book. Well, I was distracted."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Oh, so all of a sudden it's my fault."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You're the Master. I'm just a hero."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I'm open to suggestions here."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Why don't we let them take us to General Grievous. Perhaps with Count Dooku's demise, we can negotiate our release."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I say patience."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Patience! That's your plan, is it?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Yes, R-2 will be along in a few moments, and he'll release the ray shields."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "See! No problem."
+    },
+    {
+      "character": "SUPER BATTLE DROID",
+      "text": "Don't move, dummy. Ouch! Zap this."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Do you have a plan B?"
+    },
+    {
+      "character": "GENERAL GREVIOUS",
+      "text": "Oh yes. General Kenobi, the Negotiator. We've been waiting for you. That wasn't much of a rescue."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "That depends upon your point of view. Hah!"
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "And Anakin Skywalker, I was expecting someone with your reputation to be a little older."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "General Grievous. Supreme Commander of the Droid Armies. You're shorter than I expected."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "Ahhhh, Jedi scum..."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Anakin, try not to upset him. We have a job to do."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "Your lightsabers will make a fine addition to my collection."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Not this time. And this time you won't escape."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "R-2."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "Crush them! Make them suffer!"
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "Stay and watch your stations."
+    },
+    {
+      "character": "PILOT",
+      "text": "Sir, we are falling out of orbit. All aft control cells are dead."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "Stay on course. Don't bother with them. Keep the ship in orbit."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "You lose, General Kenobi."
+    },
+    {
+      "character": "PILOT",
+      "text": "The ship is breaking up!"
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "We've run out of time."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "The hull is burning up!"
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "Time to abandon ship."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "All the escape pods have been launched."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Grievous. Can you fly a cruiser like this?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You mean, do I know how to land what's left of this thing?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Well?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Under the circumstances, I'd say the ability to pilot this thing is irrelevant. Strap yourselves in."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Steady. Attitude, eighteen degrees."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Pressure rising. We've got to slow this wreck down. Open all hatches, extend all flaps, and drag fins."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Temp steady. Hatches open, flaps extended, drag fins."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "We lost something."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Not to worry, we're still flying half the ship."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Now we're really picking up speed. I'm going to shift a few degrees and see if I can slow us down."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Careful, we're heating up-twelve thousand, thirteen thousand..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What's our speed?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Eight plus sixty-forty. Eight plus sixty-twenty. Eight plus sixty. Temp ten thousand, nine thousand, we're in the atmosphere..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Grab that. Keep us level."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Steady. Steady."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Easy, Artoo. Hang on, this may get a little rough. We lost our heat shields."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Five thousand. Three thousand. Two thousand. Fireships on the left and the right."
+    },
+    {
+      "character": "FIRESHIP PILOT",
+      "text": "We'll take you in."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Copy that. Landing strip's straight ahead."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "We're coming in too hot."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Easy-easy."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Another happy landing."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Are you coming, Master?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Oh no. I'm not brave enough for politics. I have to report to the Council. Besides, someone needs to be the poster boy."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Hold on, this whole operation was your idea. You planned it. You led the rescue operation. You have to be the one to take the bows this time."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Sorry, old friend. Let us not forget that you rescued me from the Buzz Droids. And you killed Count Dooku. And you rescued the Chancellor, carrying me unconscious on your back, and you managed to land that bucket of bolts safely..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "All because of your training, Master. You deserve all those speeches of your greatness."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "...the endless speeches. Anakin, let's be fair. Today, you are the hero, and you deserve your glorious day with the politicians."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "All right. But you owe me, and not for saving your skin for the tenth time..."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Ninth time, that business on Cato Nemoidia doesn't count. I'll see you at the briefing."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Chancellor Palpatine, what a welcome sight! Are you all right?"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Yes, thanks to your two Jedi Knights. They killed Count Dooku, but General Grievous has escaped once again."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "General Grievous will run and hide as he always does. He is a coward."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "That maybe true, but with Count Dooku dead, he is the leader of the Droid Army, and I assure you, the Senate will vote to continue the war as long as Grievous is alive."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Then the Jedi Council will make finding Grievous our highest priority."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "Skywalker, the Republic cannot praise you enough."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Thank you, Senator Organa. The kidnapping was a bold move by the Separatists, but it was a mistake that Obi-Wan and I were able to take advantage of."
+    },
+    {
+      "character": "C-3PO",
+      "text": "It couldn't possibly be as bad as all that."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "Skywalker, the Republic cannot praise you enough."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Thank you, Senator Organa. The kidnapping was a bold move by the Separatists, but it was a mistake that Obi-Wan and I were able to take advantage of."
+    },
+    {
+      "character": "C-3PO",
+      "text": "It couldn't possibly be as bad as all that."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Well, there, I agree with you. In fact, I could do with a tune-up myself."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "The end of Count Dooku will surely bring an end to this war, and an end to the Chancellor's draconian security measures."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I wish that were so, but the fighting is going to continue until General Grievous is spare parts. The Chancellor is very clear about that."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "I'll do everything I can with the Senate."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Excuse me."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "Certainly."
+    },
+    {
+      "character": "PADME",
+      "text": "Oh, Anakin! Thank goodness, you're back."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I missed you, Padme. I've missed you so."
+    },
+    {
+      "character": "PADME",
+      "text": "There were whispers that you'd been killed. I've been living with unbearable dread."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm back, I'm all right. It feels like we've been apart for a lifetime. And it might have been. If the Chancellor hadn't been kidnapped. I don't think they would have ever brought us back from the Outer Rim sieges."
+    },
+    {
+      "character": "PADME",
+      "text": "Wait, not here..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Yes, here! I'm tired of all this deception. I don't care if they know we're married."
+    },
+    {
+      "character": "PADME",
+      "text": "Anakin, don't say things like that. You're important to the Republic, to ending this war. I love you more than anything, but I won't let you give up your life as a Jedi for me."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I've given my life to the Jedi order, but I'd only give up my life, for you."
+    },
+    {
+      "character": "PADME",
+      "text": "I wouldn't like that. I wouldn't like that one bit. Patience, my handsome Jedi. Come to me later."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Are you all right? You're trembling. What's going on?"
+    },
+    {
+      "character": "PADME",
+      "text": "I'm just excited to see you."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "That's not it. I sense more, what is it?"
+    },
+    {
+      "character": "PADME",
+      "text": "Nothing, nothing..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You're frightened. (a little angry) Tell me what's going on!"
+    },
+    {
+      "character": "PADME",
+      "text": "You've been gone five months. it's been very hard for me. I've never felt so alone. There's..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "...Is there someone else?"
+    },
+    {
+      "character": "PADME",
+      "text": "No! Why do you think that? Your jealousy upsets me so much, Anakin. I do nothing to betray you, yet you still don't trust me. Nothing has changed."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm afraid of losing you, Padme, that's all."
+    },
+    {
+      "character": "PADME",
+      "text": "I will never stop loving you, Anakin. My only fear is losing you."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "It's just that I've never seen you like this..."
+    },
+    {
+      "character": "PADME",
+      "text": "Something wonderful has happened."
+    },
+    {
+      "character": "PADME",
+      "text": "I'm Annie, I'm pregnant."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "That's, that's wonderful."
+    },
+    {
+      "character": "PADME",
+      "text": "What are we going to do?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "We're not going to worry about anything right now, all right? This is a happy moment. The happiest moment of my life."
+    },
+    {
+      "character": "SUPER BATTLE DROID G21",
+      "text": "The planet is secure, sir. The population is under control."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "Good. Where is the Separatist Council?"
+    },
+    {
+      "character": "SUPER BATTLE DROID G21",
+      "text": "This way, sir..."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "Yes, Lord Sidious."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "General Grievous, I suggest you move the Separatist leaders to Mustafar."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "It will be done, My Lord."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "The end of the war is near, General, and I promise you, victory is assured."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "But the loss of Count Dooku?"
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "His death was a necessary loss, which will ensure our victory. Soon I will have a new apprentice, one far younger and more powerful than Lord Tyranus."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "...every second I was thinking of you. Protecting the endless, nameless Outer Rim settlements became a torture, the battles were easy, the longing became unbearable. I've never been so happy as I am at this moment."
+    },
+    {
+      "character": "PADME",
+      "text": "Annie, I want to have our baby back home on Naboo. We could go to the lake country where no one would know, where we would be safe. I could go early-and fix up the baby's room. I know the perfect spot, right by the gardens."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You are so beautiful!"
+    },
+    {
+      "character": "PADME",
+      "text": "It's only because I'm so in love..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "No, it's because I'm so in love with you."
+    },
+    {
+      "character": "PADME",
+      "text": "So, love has blinded you?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Well, that's not exactly what I meant..."
+    },
+    {
+      "character": "PADME",
+      "text": "But it's probably true!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I haven't laughed in so long..."
+    },
+    {
+      "character": "PADME",
+      "text": "Neither have I."
+    },
+    {
+      "character": "PADME",
+      "text": "Anakin, help me! Help, Anakin! Anakin, I love you. I love you."
+    },
+    {
+      "character": "PADME",
+      "text": "Anakin??"
+    },
+    {
+      "character": "PADME",
+      "text": "What's bothering you?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Nothing..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I remember when I gave this to you."
+    },
+    {
+      "character": "PADME",
+      "text": "Anakin, how long is it going to take for us to be honest with each other?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "It was a dream."
+    },
+    {
+      "character": "PADME",
+      "text": "Bad?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Like the ones I used to have about my mother just before she died."
+    },
+    {
+      "character": "PADME",
+      "text": "And?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "It was about you."
+    },
+    {
+      "character": "PADME",
+      "text": "Tell me."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "It was only a dream."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You die in childbirth..."
+    },
+    {
+      "character": "PADME",
+      "text": "And the baby?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I don't know."
+    },
+    {
+      "character": "PADME",
+      "text": "It was only a dream."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "...I won't let this one become real, Padme."
+    },
+    {
+      "character": "PADME",
+      "text": "Anakin, this baby will change our lives. I doubt the Queen will continue to allow me to serve in the Senate, and if the Council discovers you are the father, you will be expelled from the Jedi Order."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I know."
+    },
+    {
+      "character": "PADME",
+      "text": "Anakin, do you think Obi-Wan might be able to help us?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Have you told him anything?"
+    },
+    {
+      "character": "PADME",
+      "text": "No, but he's your mentor, your best friend, he must suspect something."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "He's been a father to me, but he's still on the Council. Don't tell him anything!"
+    },
+    {
+      "character": "PADME",
+      "text": "I won't, Anakin."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I don't need his help. Our baby is a blessing, not a problem."
+    },
+    {
+      "character": "YODA",
+      "text": "Premonitions, premonitions. Hmmmm, these visions you have..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "They are of pain, suffering, death..."
+    },
+    {
+      "character": "YODA",
+      "text": "Yourself you speak of, or someone you know?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Someone..."
+    },
+    {
+      "character": "YODA",
+      "text": "...close to you?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Yes."
+    },
+    {
+      "character": "YODA",
+      "text": "Careful you must be when sensing the future, Anakin. The fear of loss is a path to the dark side."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I won't let these visions come true, Master Yoda."
+    },
+    {
+      "character": "YODA",
+      "text": "Death is a natural part of life. Rejoice for those around you who transform into the Force. Mourn them, do not. Miss them, do not. Attachment leads to jealousy. The shadow of greed, that is."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What must I do, Master Yoda?"
+    },
+    {
+      "character": "YODA",
+      "text": "Train yourself to let go of everything you fear to lose."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "You missed the report on the Outer Rim sieges."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm sorry, I was held up. I have no excuse."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "In short, they are going very well. Saleucami has fallen, and Master Vos has moved his troops to Boz Pity."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What's wrong then?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "The Senate is expected to vote more executive powers to the Chancellor today."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Well, that can only mean less deliberating and more action. Is that bad? It will make it easier for us to end this war."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Anakin, be careful of your friend Palpatine."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Be careful of what?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "He has requested your presence."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What for?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "He would not say."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "He didn't inform the Jedi Council? That's unusual, isn't it?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "All of this is unusual, and it's making me feel uneasy. You're probably aware that relations between the Council and the Chancellor are stressed."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I know the Council has grown wary of the Chancellor's power, mine also for that matter. Aren't we all working together to save the Republic? Why all this distrust?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "The Force grows dark, Anakin, and we are all affected by it. Be wary of your feelings."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Anakin, this afternoon the Senate is going to call on me to take direct control of the Jedi Council."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "The Jedi will no longer report to the Senate?"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "They will report to me personally. The Senate is too unfocused to conduct a war. This will bring a quick end to things."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I agree, but the Jedi Council may not see it that way."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "There are times when we must all endure adjustments to the constitution in the name of security."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "With all due respect, sir, the Council is in no mood for more constitutional amendments."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Thank you, my friend, but in this case, I have no choice. This war must be won."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Everyone will agree on that."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Anakin, I've known you since you were a small boy. I have advised you over the years when I could. I am very proud of your accomplishments. You have won many battles the Jedi Council thought were lost and you saved my life. I hope you trust me, Anakin."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Of course."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I need your help, son."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What do you mean?"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I fear the Jedi. The Council keeps pushing for more control. They're shrouded in secrecy and obsessed with maintaining their autonomy, ideals. I find simply incomprehensible in a democracy."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I can assure you that the Jedi are dedicated to the values of the Republic, sir."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Nevertheless, their actions will speak more loudly than their words. I'm depending on you."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "For what? I don't understand."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "To be the eyes, ears, and voice of the Republic."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Anakin, I'm appointing you to be my personal representative on the Jedi Council."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Me? A Master? I am overwhelmed, sir, but the Council elects its own members. They will never accept this."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I think they will, they need you more than you know."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "Now that he has control of the Jedi Council, the Chancellor has appointed Governors to oversee all star systems in the Republic."
+    },
+    {
+      "character": "FANG ZAR",
+      "text": "When did this happen?"
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "The decree was posted this morning."
+    },
+    {
+      "character": "PADME",
+      "text": "Do you think he will dismantle the Senate?"
+    },
+    {
+      "character": "MON MOTHMA",
+      "text": "Why bother? As a practical matter, the Senate no longer exists."
+    },
+    {
+      "character": "GIDDEAN DANU",
+      "text": "The constitution is in shreds. Amendment after amendment, executive directives, sometimes a dozen in one day."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "We can't let a thousand years of democracy disappear without a fight."
+    },
+    {
+      "character": "TERR TANEEL",
+      "text": "What are you suggesting?"
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "I apologize. I didn't mean to sound like a Separatist."
+    },
+    {
+      "character": "MON MOTHMA",
+      "text": "We are not Separatists trying to leave the Republic. We are loyalists, trying to preserve democracy in the Republic."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "It has become increasingly clear to many of us that the Chancellor has become an enemy of democracy."
+    },
+    {
+      "character": "PADME",
+      "text": "I can't believe it has come to this! Chancellor Palpatine is one of my oldest advisors. He served as my Ambassador when I was Queen."
+    },
+    {
+      "character": "GIDDEAN DANU",
+      "text": "Senator, I fear you underestimate the amount of corruption that has taken hold in the Senate."
+    },
+    {
+      "character": "MON MOTHMA",
+      "text": "The Chancellor has played the Senators well. They know where the power lies, and they will do whatever it takes to share in it. Palpatine has become a dictator and we have helped him to do it."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "We can't sit around debating any longer, we have decided to do what we can to stop it. Senator Mon Mothma and I are putting together an organization..."
+    },
+    {
+      "character": "PADME",
+      "text": "Say no more. Senator Organa. I understand. At this point, it's better to leave some things unsaid."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "Yes. I agree and we must not discuss this with anyone, without everyone in this group agreeing."
+    },
+    {
+      "character": "MON MOTHMA",
+      "text": "That means those closest to you, even family, no one can be told."
+    },
+    {
+      "character": "PADME",
+      "text": "Agreed."
+    },
+    {
+      "character": "MACE",
+      "text": "Anakin Skywalker, we have approved your appointment to the Council as the Chancellor's personal representative."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I will do my best to uphold the principles of the Jedi Order."
+    },
+    {
+      "character": "YODA",
+      "text": "Allow this appointment lightly, the Council does not. Disturbing is this move by Chancellor Palpatine."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I understand."
+    },
+    {
+      "character": "MACE",
+      "text": "You are on this Council, but we do not grant you the rank of Master."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What?! How can you do this?? This is outrageous, it's unfair. I'm more powerful than any of you. How can you be on the Council and no"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I will do my best to uphold the principles of the Jedi Order."
+    },
+    {
+      "character": "YODA",
+      "text": "Allow this appointment lightly, the Council does not. Disturbing is this move by Chancellor Palpatine."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I understand."
+    },
+    {
+      "character": "MACE",
+      "text": "You are on this Council, but we do not grant you the rank of Master."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What?! How can you do this?? This is outrageous, it's unfair. I'm more powerful than any of you. How can you be on the Council and not be a Master?"
+    },
+    {
+      "character": "MACE",
+      "text": "Take a seat, young Skywalker."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Forgive me, Master."
+    },
+    {
+      "character": "KI-ADI-MUNDI",
+      "text": "We have surveyed all systems in the Republic and have found no sign of General Grievous."
+    },
+    {
+      "character": "YODA",
+      "text": "Hiding in the Outer Rim, Grievous is. The outlying systems, you must sweep."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "It may take some time, we do not have many ships to spare."
+    },
+    {
+      "character": "MACE",
+      "text": "We cannot take ships from the front line."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "And yet, it would be fatal for us to allow the droid armies to regroup."
+    },
+    {
+      "character": "YODA",
+      "text": "Master Kenobi, our spies contact, you must, and then wait."
+    },
+    {
+      "character": "KI-ADI-MUNDI",
+      "text": "What about the droid attack on the Wookiees?"
+    },
+    {
+      "character": "MACE",
+      "text": "It is critical we send an attack group there, immediately!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "He's right, that is a system we cannot afford to lose. It's the main navigation route for the southwestern quadrant."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I know that system well. It would take us little time to drive the droids off that planet."
+    },
+    {
+      "character": "MACE",
+      "text": "Skywalker, your assignment is here with the Chancellor, and Kenobi must find General Grievous."
+    },
+    {
+      "character": "YODA",
+      "text": "Go, I will. Good relations with the Wookiees, I have."
+    },
+    {
+      "character": "MACE",
+      "text": "It is settled then. Yoda will take a battalion of clones to reinforce the Wookiees on Kashyyyk. May the Force be with us all."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What kind of nonsense is this, put me on the Council and not make me a Master!?? That's never been done in the history of the Jedi. It's insulting!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Calm down, Anakin. You have been given a great honor. To be on the Council at your age. It's never happened before. Listen to me, Anakin. The fact of the matter is you're too close to the Chancellor. The Council doesn't like it when he interferes in Jedi affairs."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I swear to you, I didn't ask to be put on the Council..."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "But it's what you wanted! Your friendship with Chancellor Palpatine seems to have paid off."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "That has nothing to do with this."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Anakin, regardless of how it happened, you find yourself in a delicate situation."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You mean divided loyalties."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I warned you there was tension between the Council and the Chancellor. I was very clear. Why didn't you listen? You walked right into it."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "The Council is upset I'm the youngest to ever serve."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "No, it is not. Anakin, I worry when you speak of jealousy and pride. Those are not Jedi thoughts. They're dangerous, dark thoughts."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Master, you of all people should have confidence in my abilities. I know where my loyalties lie."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I hope so..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I sense there's more to this talk than you're saying."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Anakin, the only reason the Council has approved your appointment is because the Chancellor trusts you."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "And?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Anakin, look, I am on your side. I didn't want to see you put in this situation."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What situation?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "The Council wants you to report on all of the Chancellor's dealings. They want to know what he's up to."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "They want me to spy on the Chancellor? That's treason!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "We are at war, Anakin. The Jedi Council is sworn to uphold the principles of the Republic, even if the Chancellor does not."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Why didn't the Council give me this assignment when we were in session?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "This assignment is not to be on record. The Council asked me to approach you on this personally."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "The Chancellor is not a bad man, Obi-Wan. He befriended me. He's watched out for me ever since I arrived here."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "That is why you must help us, Anakin. Our allegiance is to the Senate, not to its leader who has managed to stay in office long after his term has expired."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Master, the Senate demanded that he stay longer."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Yes, but use your feelings, Anakin. Something is out of place."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You're asking me to do something against the Jedi Code. Against the Republic. Against a mentor and a friend. That's what's out of place here. Why are you asking this of me?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "The Council is asking you."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Anakin did not take to his assignment with much enthusiasm."
+    },
+    {
+      "character": "YODA",
+      "text": "Too much under the sway of the Chancellor, he is. Much anger there is in him. Too much pride in his powers."
+    },
+    {
+      "character": "MACE",
+      "text": "It's very dangerous, putting them together. I don't think the boy can handle it. I don't trust him."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "He'll be all right. I trust him with my life."
+    },
+    {
+      "character": "MACE",
+      "text": "I wish I did."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "With all due respect, Master, is he not the Chosen One? Is he not to destroy the Sith and bring balance to the Force?"
+    },
+    {
+      "character": "MACE",
+      "text": "So the prophecy says."
+    },
+    {
+      "character": "YODA",
+      "text": "A prophecy that misread could have been."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "He will not let me down. He never has."
+    },
+    {
+      "character": "YODA",
+      "text": "I hope right you are. And now destroy the Droid armies on Kashyyyk, I will. May the Force be with you."
+    },
+    {
+      "character": "PADME",
+      "text": "Thank you, Captain."
+    },
+    {
+      "character": "CAPTAIN TYPHO",
+      "text": "Rest well. My Lady."
+    },
+    {
+      "character": "PADME",
+      "text": "I'll be up in a while."
+    },
+    {
+      "character": "MOTEE",
+      "text": "Yes, my lady."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Is there anything I might do for you, my lady?"
+    },
+    {
+      "character": "PADME",
+      "text": "Yes, make sure all the security droids are working. Thank you, C-3PO."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Beautiful, isn't it?"
+    },
+    {
+      "character": "PADME",
+      "text": "You startled me."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "How are you feeling?"
+    },
+    {
+      "character": "PADME",
+      "text": "He keeps kicking."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "He?! Why do you think it's a boy?"
+    },
+    {
+      "character": "PADME",
+      "text": "My motherly intuition."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Whoa! With a kick that strong, it's got to be a girl."
+    },
+    {
+      "character": "PADME",
+      "text": "I heard about your appointment. Anakin. I'm so proud of you."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I may be on the Council, but they refused to accept me as a Jedi Master."
+    },
+    {
+      "character": "PADME",
+      "text": "Patience. In time, they will recognize your skills."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "They still treat me as if I were a Padawan learner, they fear my power, that's the problem."
+    },
+    {
+      "character": "PADME",
+      "text": "Anakin..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Sometimes, I wonder what's happening to the Jedi Order. I think this war is destroying the principles of the Republic."
+    },
+    {
+      "character": "PADME",
+      "text": "Have you ever considered that we may be on the wrong side?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What do you mean?"
+    },
+    {
+      "character": "PADME",
+      "text": "What if the democracy we thought we were serving no longer exists, and the Republic has become the very evil we have been fighting to destroy?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I don't believe that. And you're sounding like a Separatist!"
+    },
+    {
+      "character": "PADME",
+      "text": "Anakin, this war represents a failure to listen. Now, you're closer to the Chancellor than anyone. Please, please ask him to stop the fighting and let diplomacy resume."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Don't ask me to do that, Padme. Make a motion in the Senate, where that kind of a request belongs. I'm not your errand boy. I'm not anyone's errand boy!"
+    },
+    {
+      "character": "PADME",
+      "text": "What is it?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Nothing."
+    },
+    {
+      "character": "PADME",
+      "text": "Don't do this, don't shut me out. Let me help you."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You can't help me. I'm trying to help you."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I sense there are things you are not telling me."
+    },
+    {
+      "character": "PADME",
+      "text": "I sense there are things you are not telling me."
+    },
+    {
+      "character": "PADME",
+      "text": "Hold me like you did by the lake on Naboo, so long ago when there was nothing but our love. No politics, no plotting, no war."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You wanted to see me, Chancellor."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Yes, Anakin! Come closer. I have good news. Our Clone Intelligence Units have discovered the location of General Grievous. He is hiding in the Utapau system."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "At last, we'll be able to capture that monster and end this war."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I would worry about the collective wisdom of the Council if they didn't select you for this assignment. You are the best choice by far, but they can't always be trusted to do the right thing."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "They try."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Sit down, (to his aides) Leave us."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Anakin, you know I'm not able to rely on the Jedi Council. If they haven't included you in their plot, they soon will."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm not sure I understand."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "You must sense what I have come to suspect, the Jedi Council want control of the Republic, they're planning to betray me."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I don't think..."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Anakin, search your feelings. You know, don't you?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I know they don't trust you..."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Or the Senate, or the Republic, or democracy for that matter."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I have to admit my trust in them has been shaken."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Why? They asked you to do something that made you feel dishonest, didn't they?"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "They asked you to spy on me, didn't they?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I don't know. I don't know what to say."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Remember back to your early teachings. Anakin. \"All those who gain power are afraid to lose it.\" Even the Jedi."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "The Jedi use their power for good."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Good is a point of view, Anakin. And the Jedi point of view is not the only valid one. The Dark Lords of the Sith believe in security and justice also, yet they are considered by the Jedi to be..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "...evil."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "...from a Jedi's point of view. The Sith and the Jedi are similar in almost every way, including their quest for greater power. The difference between the two is the Sith are not afraid of the dark side of the Force. That is why they are more powerful."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "The Sith rely on their passion for their strength. They think inward, only about themselves."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "And the Jedi don't?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "The Jedi are selfless, they only care about others."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Or so you've been trained to believe. Why is it, then, that they have asked you to do something you feel is wrong?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm not sure it's wrong."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Have they asked you to betray the Jedi code? The Constitution? A friendship? Your own values? Think. Consider their motives. Keep your mind clear of assumptions. The fear of losing power is a weakness of both the Jedi and the Sith."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Did you ever hear the tragedy of Darth Plague is \"the wise\"?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "No."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I thought not. It's not a story the Jedi would tell you. It's a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midi-chlorians to create life. He had such a knowledge of the dark side that he could even keep the ones he cared about from dying."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "He could actually save people from death?"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "The dark side of the Force is a pathway to many abilities some consider to be unnatural."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What happened to him?"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "He became so powerful, the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. (smiles) Plague is never saw it coming. It's ironic he could save others from death, but not himself."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Is it possible to learn this power?"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Not from a Jedi."
+    },
+    {
+      "character": "KI-ADI-MUNDI",
+      "text": "Palpatine thinks General Grievous is on Utapau. We have had no reports of this from our agents."
+    },
+    {
+      "character": "MACE",
+      "text": "How could the Chancellor have come by this information and we know nothing about it? We have had contact with Baron Papanoida and he said no one was there."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "A partial message was intercepted in a diplomatic packet from the Chairman of Utapau."
+    },
+    {
+      "character": "YODA",
+      "text": "Act on this, we must. The capture of General Grievous will end this war. Quickly and decisively, we should proceed."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Does everyone agree?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "The Chancellor has requested that I lead the campaign."
+    },
+    {
+      "character": "MACE",
+      "text": "The Council will make up its own mind who is to go, not the Chancellor."
+    },
+    {
+      "character": "KI-ADI-MUNDI",
+      "text": "Yes, this decision is ours to make."
+    },
+    {
+      "character": "YODA",
+      "text": "A Master is needed, with more experience."
+    },
+    {
+      "character": "MACE",
+      "text": "Given our resources, I recommend we send only one Jedi, Master Kenobi."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "He was not so successful the last time he met Grievous."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "No offense, my Master, but I'm only stating a fact."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Oh no, you're quite right, but I do have the most experience with his ways of combat."
+    },
+    {
+      "character": "YODA",
+      "text": "Obi-Wan, my choice is."
+    },
+    {
+      "character": "KI-ADI-MUNDI",
+      "text": "I concur. Master Kenobi should go."
+    },
+    {
+      "character": "YODA",
+      "text": "I agree."
+    },
+    {
+      "character": "MACE",
+      "text": "Very well. Council is adjourned."
+    },
+    {
+      "character": "MACE",
+      "text": "Obi-Wan, prepare two clone brigades as quickly as you can. If this report is true, there's no telling how many battle droids he may have with him."
+    },
+    {
+      "character": "CLONE COMMANDER GREE",
+      "text": "The droids have started up their main power generators."
+    },
+    {
+      "character": "YODA",
+      "text": "Then now the time is, Commander."
+    },
+    {
+      "character": "CLONE COMMANDER GREE",
+      "text": "Yes, sir."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Has Anakin been to see you?"
+    },
+    {
+      "character": "PADME",
+      "text": "Several times. I was so happy to hear he was accepted on the Jedi Council."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I know, he deserves it. He is impatient, strong willed, very opinionated, but truly gifted."
+    },
+    {
+      "character": "PADME",
+      "text": "You're not just here to say hello. Something is wrong, isn't it?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "You should be a Jedi, Padme."
+    },
+    {
+      "character": "PADME",
+      "text": "You're not very good at hiding your feelings."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "It's Anakin. He's becoming moody and detached. He's been put in a difficult position as the Chancellor's representative, but I think it's more than that. I was hoping he may have talked to you."
+    },
+    {
+      "character": "PADME",
+      "text": "Why would he talk to me about his work?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Neither of you is very good at hiding your feelings either."
+    },
+    {
+      "character": "PADME",
+      "text": "Don't give me that look."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I know how he feels about you."
+    },
+    {
+      "character": "PADME",
+      "text": "What did he say?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Nothing. He didn't have to."
+    },
+    {
+      "character": "PADME",
+      "text": "I don't know what you're talking about."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I know you both too well. I can see you two are in love. Padme, I'm worried about him."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I fear your relationship has confused him. He's changed considerably since we returned..."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Padme, I'm not telling the Council about any of this. I, I hope I didn't upset you. We're all friends, I care about both of you..."
+    },
+    {
+      "character": "PADME",
+      "text": "Thank you, Obi-Wan."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Please do what you can to help him."
+    },
+    {
+      "character": "PADME",
+      "text": "We cannot let this turn into another war."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "Absolutely, that is the last thing we want."
+    },
+    {
+      "character": "MON MOTMA",
+      "text": "We are hoping to form an alliance in the Senate to stop the Chancellor from further subverting the constitution, that's all."
+    },
+    {
+      "character": "PADME",
+      "text": "I know a Jedi I feel it would be wise to consult."
+    },
+    {
+      "character": "BANA BREEMU",
+      "text": "That would be dangerous."
+    },
+    {
+      "character": "MON MOTMA",
+      "text": "We don't know where the Jedi stand in all this."
+    },
+    {
+      "character": "PADME",
+      "text": "I only wish to discuss this with one, one I trust."
+    },
+    {
+      "character": "GIDDEAN DANU",
+      "text": "Going against the Chancellor without the support of the Jedi is risky."
+    },
+    {
+      "character": "PADME",
+      "text": "The Jedi aren't any happier with the situation than we are..."
+    },
+    {
+      "character": "CHI EEKWAY",
+      "text": "Patience, Senator."
+    },
+    {
+      "character": "FANG ZAR",
+      "text": "We have so many Senators on our side, surely that will persuade the Chancellor."
+    },
+    {
+      "character": "BANA BREEMU",
+      "text": "When you present the \"petition of the two thousand\" to the Chancellor, things may change."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "Let us see what we can accomplish in the Senate, before we include the Jedi."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You're going to need me on this one, Master."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Oh, I agree. However it may turn out just to be a wild bantha chase."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Master!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Master, I've disappointed you. I have not been very appreciative of your training. I have been arrogant, and I apologize. I've just been so frustrated with the Council. Your friendship means everything to me."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "You are strong and wise, Anakin, and I am very proud of you. I have trained you since you were a small boy. I have taught you everything I know. And you have become a far greater Jedi than I could ever hope to be, and you have saved my life more times than I can remember. But be patient, Anakin. It won't be long before the Council makes you a Jedi Master."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Don't worry. I have enough clones with me to take three systems the size of Utapau. I think I'll be able to handle the situation, even without your help."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Well, there's always a first time."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Obi-Wan, may the Force be with you."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Good-bye, old friend. May the Force be with you."
+    },
+    {
+      "character": "CLONE COMMANDER CODY",
+      "text": "Fortunately, most of the cities are concentrated on this small continent here on the far side."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I'll keep them distracted until you get there. Just don't take too long."
+    },
+    {
+      "character": "CLONE COMMANDER CODY",
+      "text": "Come on, boss, when have I ever let you down?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Cato Nemoidia, for starters."
+    },
+    {
+      "character": "CLONE COMMANDER CODY",
+      "text": "That was Anakin who was late. I believe."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Very well, the burden is on me not to destroy all the droids before you get there."
+    },
+    {
+      "character": "CLONE COMMANDER CODY",
+      "text": "I'm counting on you."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Well, Anakin, did you see your friend off?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "He will soon have Grievous's head."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "We can only hope the Council didn't make a mistake."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "The Council was very sure in its decision."
+    },
+    {
+      "character": "JAR JAR",
+      "text": "Helloo Annie. Good en to see yousa..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Hi, Jar Jar."
+    },
+    {
+      "character": "JAR JAR",
+      "text": "Oopsin da Chancellor!! So sorry, Your Highness, sir."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "There are rumors in the Senate about Master Kenobi. Many believe he is not fit for this assignment."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Not fit? Why would anyone think that?"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "They say his mind has become fogged by the influence of a certain female Senator."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "That's ridiculous. Who?!?"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "No one knows who she is, only that she is a Senator."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "That's impossible. I would know."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Sometimes the closest are the ones who cannot see."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Idle Senate gossip is rarely true and never accurate. I'm sure your Master will do fine."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Save your energy."
+    },
+    {
+      "character": "PADME",
+      "text": "I can't!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Don't give up, Padme. Don't give up..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I sense someone familiar. Obi-Wan's been here, hasn't he?"
+    },
+    {
+      "character": "PADME",
+      "text": "He came by this morning."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What did he want?"
+    },
+    {
+      "character": "PADME",
+      "text": "He's worried about you."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You told him about us, didn't you?"
+    },
+    {
+      "character": "PADME",
+      "text": "He's your best friend, Anakin. He says you're under a lot of stress."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "And he's not?"
+    },
+    {
+      "character": "PADME",
+      "text": "You have been moody lately."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm not moody..."
+    },
+    {
+      "character": "PADME",
+      "text": "Anakin! Don't do this again."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I don't know. I feel lost."
+    },
+    {
+      "character": "PADME",
+      "text": "Lost? What do you mean? You're always so sure of yourself. I don't understand."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Obi-Wan and the Council don't trust me."
+    },
+    {
+      "character": "PADME",
+      "text": "They trust you with their lives. Obi-Wan loves you as a son."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Something's happening. I'm not the Jedi I should be. I am one of the most powerful Jedi, but I'm not satisfied. I want more, and I know I shouldn't."
+    },
+    {
+      "character": "PADME",
+      "text": "You expect too much of yourself."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I have found a way to save you."
+    },
+    {
+      "character": "PADME",
+      "text": "Save me?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "From my nightmares."
+    },
+    {
+      "character": "PADME",
+      "text": "Is that what's bothering you?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I won't lose you, Padme."
+    },
+    {
+      "character": "PADME",
+      "text": "I'm not going to die in childbirth, Annie. I promise you."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "No, I promise you! I am becoming so powerful with my new knowledge of the Force, I will be able to keep you from dying."
+    },
+    {
+      "character": "PADME",
+      "text": "You don't need more power, Anakin. I believe you can protect me against anything, just as you are."
+    },
+    {
+      "character": "TION MEDON",
+      "text": "Greetings, young Jedi. What brings you to our remote sanctuary?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Unfortunately, the war."
+    },
+    {
+      "character": "TION MEDON",
+      "text": "There is no war here unless you've brought it with you."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "With your kind permission, I should like some fuel and to use your city as a base as I search nearby systems for General Grievous."
+    },
+    {
+      "character": "TION MEDON",
+      "text": "He is here! We are being held hostage. They are watching us."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I understand."
+    },
+    {
+      "character": "TION MEDON",
+      "text": "The tenth level, thousands of Battle Droids..."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Tell your people to take shelter. If you have warriors, now is the time."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Geenine, take the Fighter back to the ship. I'm staying here. Tell Cody I've made contact."
+    },
+    {
+      "character": "TION MEDON",
+      "text": "I told you, all he wanted was fuel."
+    },
+    {
+      "character": "BODYGUARD",
+      "text": "What was his name?"
+    },
+    {
+      "character": "TION MEDON",
+      "text": "He didn't say."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I need transportation."
+    },
+    {
+      "character": "WRANGLER",
+      "text": "You need transportation."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Get it for me."
+    },
+    {
+      "character": "WRANGLER",
+      "text": "I will get it for you."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "This one."
+    },
+    {
+      "character": "WRANGLER",
+      "text": "Boga. She answers to Boga."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Good girl, Boga."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "It won't be long before the armies of the Republic track us here. I am sending you to the Mustafar system in the Outer Rim. It is a volcanic planet which generates a great deal of scanning interference. You will be safe there."
+    },
+    {
+      "character": "NUTE GUNRAY",
+      "text": "Safe? Chancellor Palpatine managed to escape your grip, General, without Count Dooku. I have doubts about your ability to keep us safe."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "Be thankful, Viceroy, you have not found yourself in my grip. Your ship is waiting."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Hello, there!"
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "General Kenobi, you are a bold one. I find your behavior bewildering. Surely you realize you're doomed, (to droids) Kill him!"
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "Enough of this."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "Back away. I will deal with this Jedi slime myself."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Your move."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "You fool. I have been trained in your Jedi arts by Count Dooku himself. Attack, Kenobi."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "You forget I trained the Jedi that defeated Count Dooku!"
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "You fool. I have been trained in your Jedi arts by Count Dooku himself. Attack, Kenobi."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "You forget I trained the Jedi that defeated Count Dooku!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I may not defeat your droids, but my troops certainly will."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "Army or not, you must realize you are doomed."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I don't think so."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I understand your reservations completely, Senator, and I assure you the appointment of Governors will in no way compete with the duties of the Senate."
+    },
+    {
+      "character": "PADME",
+      "text": "May I take it then, that there will be no further amendments to the Constitution?"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I want this terrible conflict to end as much as you do, My Lady, and when it does I guarantee an immediate return to democracy..."
+    },
+    {
+      "character": "PADME",
+      "text": "You are pursuing a diplomatic solution to the war, then."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "You must trust me to do the right things, Senator. That is why I am here."
+    },
+    {
+      "character": "FANG ZAR",
+      "text": "But surely..."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I have said I will do what is right, that should be enough for your committee."
+    },
+    {
+      "character": "PADME",
+      "text": "On behalf of the \"delegation of two thousand,\" I thank you, Chancellor."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I thank you for bringing this to my attention, Senator."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Their sincerity is to be admired, although I sense there is more to their request than they are telling us."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What do you mean?"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "They are not to be trusted."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Surely Senator Amidala can be trusted..."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "These are unstable times for the Republic, Anakin. Some see instability as an opportunity. Senator Amidala is hiding something. I can see it in her eyes."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm sure you're mistaken."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I'm surprised your Jedi insights are not more sensitive to such things."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I simply don't sense betrayal in Senator Amidala."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Yes, you do, but you don't seem to want to admit it. There is much conflict in you, Anakin."
+    },
+    {
+      "character": "CLONE COMMANDER CODY",
+      "text": "Master Windu, may I interrupt? General Kenobi has made contact with General Grievous, and we have begun our attack."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Thank you, Commander. Anakin, deliver this report to the Chancellor. His reaction will give us a clue to his intentions."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Yes, Master."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "I sense a plot to destroy the Jedi. The dark side of the Force surrounds the Chancellor."
+    },
+    {
+      "character": "KI-ADI-MUNDI",
+      "text": "If he does not give up his emergency powers after the destruction of Grievous, then he should be removed from office."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "That could be a dangerous move, the Jedi Council would have to take control of the Senate in order to secure a peaceful transition..."
+    },
+    {
+      "character": "KI-ADI-MUNDI",
+      "text": "...and replace the Congress with Senators who are not filled with greed and corruption."
+    },
+    {
+      "character": "YODA",
+      "text": "To a dark place this line of thought will carry us. Hmmmmm, great care we must take."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Chancellor, we have just received a report from Master Kenobi. He has engaged General Grievous."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "We can only hope that Master Kenobi is up to the challenge."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I should be there with him."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "It is upsetting to me to see that the Council doesn't seem to fully appreciate your talents. Don't you wonder why they won't make you a Jedi Master?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I wish I knew. More and more I get the feeling that I am being excluded from the Council. I know there are things about the Force that they are not telling me."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "They don't trust you, Anakin. They see your future. They know your power will be too strong to control. Anakin, you must break through the fog of lies the Jedi have created around you. Let me help you to know the subtleties of the Force."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "How do you know the ways of the Force?"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "My mentor taught me everything about the Force, even the nature of the dark side."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You know the dark side?!?"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Anakin, if one is to understand the great mystery, one must study all its aspects, not just the dogmatic, narrow view of the Jedi. If you wish to become a complete and wise leader, you must embrace a larger view of the Force. Be careful of the Jedi, Anakin. (pausing) They fear you. In time they will destroy you. Let me train you."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I won't be a pawn in your political game. The Jedi are my family."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Only through me can you achieve a power greater than any Jedi. Learn to know the dark side of the Force, Anakin, and you will be able to save your wife from certain death."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What did you say?"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Use my knowledge, I beg you..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You're a Sith Lord!"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I know what has been troubling you. Listen to me. Don't continue to be a pawn of the Jedi Council! Ever since I've known you, you've been searching for a life greater than that of an ordinary Jedi, a life of significance, of conscience."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You're wrong!"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Are you going to kill me?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I would certainly like to."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I know you would. I can feel your anger. It gives you focus, makes you stronger."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I am going to turn you over to the Jedi Council."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Of course you should. But you're not sure of their intentions, are you? What if I am right and they are plotting to take over the Republic?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I will quickly discover the truth of all this."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "You have great wisdom, Anakin. Know the power of the dark side. The power to save Padme."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I am not going anywhere. You have time to decide my fate. Perhaps you'll reconsider and help me rule the galaxy for the good of all..."
+    },
+    {
+      "character": "GENERAL GRIEVOUS",
+      "text": "Prepare to move out of orbit. I will be up in a few moments."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "So uncivilized..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Master Windu, I must talk to you."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "What is it, Skywalker? We are in a hurry. We have just received word that Obi-Wan has destroyed General Grievous. We are on our way to make sure the Chancellor returns emergency powers back to the Senate."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "He won't give up his power. I've just learned a terrible truth. I think Chancellor Palpatine is a Sith Lord."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "A Sith Lord?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Yes. The one we have been looking for."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "How do you know this?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "He knows the ways of the Force. He has been trained to use the dark side."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Are you sure?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Absolutely."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Then our worst fears have been realized. We must move quickly if the Jedi Order is to survive."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Master, the Chancellor is very powerful. You will need my help if you are going to arrest him."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "For your own good, stay out of this affair. I sense a great deal of confusion in you, young Skywalker. There is much fear that clouds your judgment."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I must go, Master."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "No. If what you told me is true, you will have gained my trust, but for now remain here."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Yes, Master."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Wait for us in the Council Chamber until we return."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Yes, Master."
+    },
+    {
+      "character": "PALPATINE (V.O.)",
+      "text": "You do know, don't you, if the Jedi destroy me, any chance of saving her will be lost."
+    },
+    {
+      "character": "PADME",
+      "text": "I truly, deeply love you. Before I die. I want you to know."
+    },
+    {
+      "character": "C-3PO",
+      "text": "My Lady, are you, Are you all right?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I can't do this. I can't let her die."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Master Windu. I take it General Grievous has been destroyed then. I must say, you're here sooner than expected."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "In the name of the Galactic Senate of the Republic, you are under arrest, Chancellor."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Are you threatening me, Master Jedi?"
+    },
+    {
+      "character": "MACE",
+      "text": "The Senate will decide your fate."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I am the Senate!"
+    },
+    {
+      "character": "MACE",
+      "text": "Not yet!"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "It's treason, then."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Are you threatening me, Master Jedi?"
+    },
+    {
+      "character": "MACE",
+      "text": "The Senate will decide your fate."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I am the Senate!"
+    },
+    {
+      "character": "MACE",
+      "text": "Not yet!"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "It's treason, then."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "You are under arrest, My Lord."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Anakin! I told you it would come to this. I was right. The Jedi are taking over."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "You old fool. The oppression of the Sith will never return. Your plot to regain control of the Republic is over, you have lost..."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "No! No! You will die!"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "He is a traitor, Anakin."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "He's the traitor. Stop him!"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Come to your senses, boy. The Jedi are in revolt. They will betray you, just as they betrayed me."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Aarrrrggghhhhh."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "You are not one of them, Anakin. Don't let him kill me."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Aarrrrggghhhhh."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I am your pathway to power. I have the power to save the one you love. You must choose. You must stop him."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Don't listen to him, Anakin."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Help me! Don't let him kill me. I can't hold on any longer. Ahhhhhhh, ahhhhhhh, ahhhhhhh."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I can't. I give up. Help me. I am weak. I am too weak. Don't kill me. I give up. I'm dying. I can't hold on any longer."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "You Sith disease. I am going to end this once and for all."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You can't kill him, Master. He must stand trial."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "He has too much control of the Senate and the Courts. He is too dangerous to be kept alive."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I'm too weak. Don't kill me. Please."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "It is not the Jedi way."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "He must live."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Please don't, please don't."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I need him."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Please don't."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "No!!!"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Power!"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Unlimited power!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What have I done?"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "You are fulfilling your destiny, Anakin. Become my apprentice. Learn to use the dark side of the Force."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I will do whatever you ask."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Good."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Just help me save Padme's life. I can't live without her. I won't let her die. I want the power to stop death."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "To cheat death is a power only one has achieved, but if we work together, I know we can discover the secret."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I pledge myself to your teachings. To the ways of the Sith."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Good. Good. The Force is strong with you. A powerful Sith you will become. Henceforth, you shall be known as Darth Vader."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Thank you. my Master."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Rise, Darth Vader."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Because the Council did not trust you, my young apprentice, I believe you are the only Jedi with no knowledge of this plot. When the Jedi learn what has transpired here, they will kill us, along with all the Senators."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I agree. The Jedi's next move will be against the Senate."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Every single Jedi, including your friend Obi-Wan Kenobi, is now an enemy of the Republic. You understand that, don't you?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I understand, Master."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "We must move quickly. The Jedi are relentless; if they are not all destroyed, it will be civil war without end. First, I want you to go to the Jedi Temple. We will catch them off balance. Do what must be done, Lord Vader. Do not hesitate. Show no mercy. Only then will you be strong enough with the dark side to save Padme."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What about the other Jedi spread across the galaxy?"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Their betrayal will be dealt with. After you have killed all the Jedi in the Temple, go to the Mustafar system. Wipe out Viceroy Gunray and the other Separatist leaders. Once more, the Sith will rule the galaxy, and we shall have peace."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Commander, contact your troops. Tell them to move to the higher levels."
+    },
+    {
+      "character": "CLONE COMMANDER CODY",
+      "text": "Very good, sir."
+    },
+    {
+      "character": "CLONE COMMANDER CODY",
+      "text": "Oh, by the way, I think you'll be needing this."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Thank you, Cody, (smiling) Now let's get a move on. We've got a battle to win here."
+    },
+    {
+      "character": "CLONE COMMANDER CODY",
+      "text": "Yes, sir!"
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "Commander Cody, the time has come. Execute Order Sixty-Six."
+    },
+    {
+      "character": "CLONE COMMANDER CODY",
+      "text": "It will be done, My Lord."
+    },
+    {
+      "character": "CLONE COMMANDER CODY",
+      "text": "Blast him!"
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "Commander 1138..."
+    },
+    {
+      "character": "CLONE COMMANDER BACARA",
+      "text": "Yes, sir."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "The time has come. Execute Order Sixty-Six."
+    },
+    {
+      "character": "CLONE COMMANDER BACARA",
+      "text": "It will be done, My Lord."
+    },
+    {
+      "character": "AAYLA",
+      "text": "Steady, steady."
+    },
+    {
+      "character": "AAYLA",
+      "text": "Bly, do you think they're Droids?"
+    },
+    {
+      "character": "BLY",
+      "text": "No."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "Execute Order Sixty-Six."
+    },
+    {
+      "character": "CLONE PILOT",
+      "text": "It will be done, My Lord."
+    },
+    {
+      "character": "PLO KOON",
+      "text": "There they are. Land on the nearest platform."
+    },
+    {
+      "character": "CLONE COMMANDER GREE",
+      "text": "Yes, My Lord."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "The time has come. Execute Order Sixty-Six."
+    },
+    {
+      "character": "CLONE COMMANDER GREE",
+      "text": "It will be done, My Lord."
+    },
+    {
+      "character": "YOUNGLINGS",
+      "text": "Master Skywalker, there are too many of them. What are we going to do?"
+    },
+    {
+      "character": "C-3PO",
+      "text": "The Chancellor's office indicated Master Anakin returned to the Jedi Temple. Don't worry, My Lady. I am sure he will be all right."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "What's going on here?!?"
+    },
+    {
+      "character": "CLONE SERGEANT",
+      "text": "There's been a rebellion. Don't worry, sir, the situation is under control."
+    },
+    {
+      "character": "CLONE SERGEANT",
+      "text": "I'm sorry, sir. No one is allowed entry."
+    },
+    {
+      "character": "CLONE SERGEANT",
+      "text": "It's time for you to leave, sir."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "And so it is."
+    },
+    {
+      "character": "CLONE COMMANDER APPO",
+      "text": "Get him! Shoot him!"
+    },
+    {
+      "character": "AT-ST CLONE SERGEANT",
+      "text": "Everyone out of there!"
+    },
+    {
+      "character": "CREATURE",
+      "text": "Wookiee good, eat Wookiee. (crazy little laugh)"
+    },
+    {
+      "character": "CLONE SERGEANT",
+      "text": "Did you find something?"
+    },
+    {
+      "character": "CREATURE",
+      "text": "It's nothing, nothing. (laughs)"
+    },
+    {
+      "character": "CLONE SERGEANT",
+      "text": "It's nothing, nothing. All these Wookiees are dead. Move to the east."
+    },
+    {
+      "character": "CLONE TROOPER",
+      "text": "Yes, sir."
+    },
+    {
+      "character": "CREATURE",
+      "text": "Right you are, Chewbacca. Faster that will be."
+    },
+    {
+      "character": "YODA",
+      "text": "Stink, this mud does. A moment to bathe, give me."
+    },
+    {
+      "character": "YODA",
+      "text": "Not far, are we, from the emergency ship. Quickly..."
+    },
+    {
+      "character": "YODA",
+      "text": "Good-bye. Chewbacca and Tarfful, miss you I will. Good friends you are. For your help, much gratitude and respect, I have."
+    },
+    {
+      "character": "ROYAL GUARD",
+      "text": "Identification..."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "Senator Bail Organa of Alderaan."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "Were you able to get hold of a Jedi homing beacon?"
+    },
+    {
+      "character": "CAPTAIN ANTILLES",
+      "text": "Yes, sir. We've encountered no opposition. The clones are still a bit confused. It appears no one is in command."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "That will change soon. Hopefully we will be able to intercept a few Jedi before they walk into this catastrophe."
+    },
+    {
+      "character": "CLONE CAPTAIN",
+      "text": "Did you find Kenobi?"
+    },
+    {
+      "character": "CLONE TROOPER",
+      "text": "No one could have survived that fall."
+    },
+    {
+      "character": "CLONE CAPTAIN",
+      "text": "Start loading your men on the ship."
+    },
+    {
+      "character": "CLONE TROOPER",
+      "text": "Yes, sir."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Emergency Code Nine Thirteen, I have no contact on any frequency. Are there any Jedi out there? Anywhere."
+    },
+    {
+      "character": "BAIL (HOLOGRAM)",
+      "text": "Kenobi..."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I've locked on. Repeat."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "Master Kenobi??"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Senator Organa! My Clone Troops turned on me. I need help."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "We have just rescued Master Yoda. It appears this ambush has happened everywhere. We're sending you our coordinates."
+    },
+    {
+      "character": "C-3PO",
+      "text": "My Lady, there's a Jedi fighter docking on the veranda."
+    },
+    {
+      "character": "PADME",
+      "text": "Are you all right? I heard there was an attack on the Jedi Temple, you can see the smoke from here."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm fine. I'm fine. I came to see if you and the baby are safe."
+    },
+    {
+      "character": "PADME",
+      "text": "Captain Typho's here, we're safe. What's happening?"
+    },
+    {
+      "character": "C-3PO",
+      "text": "What is going on?"
+    },
+    {
+      "character": "C-3PO",
+      "text": "Hush! Not so loud!"
+    },
+    {
+      "character": "C-3PO",
+      "text": "You can't be anymore confused than I am."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "The situation is not good. The Jedi have tried to overthrow the Republic..."
+    },
+    {
+      "character": "PADME",
+      "text": "I can't believe that!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I couldn't either at first, but it's true. I saw Master Windu attempt to assassinate the Chancellor myself."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Something important is going on! I heard a rumor they are going to banish all droids."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Shhhhhh, not so loud."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Whatever it is, we'll be the last to know."
+    },
+    {
+      "character": "PADME",
+      "text": "Anakin, what are you going to do?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I will not betray the Republic, my loyalties lie with the Chancellor and with the Senate, and with you."
+    },
+    {
+      "character": "PADME",
+      "text": "What about Obi-Wan?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I don't know. Many Jedi have been killed. We can only hope that he's remained loyal to the Chancellor."
+    },
+    {
+      "character": "PADME",
+      "text": "How could this have happened?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "The Republic is unstable, Padme. The Jedi aren't the only ones trying to take advantage of the situation. There are also traitors in the Senate."
+    },
+    {
+      "character": "PADME",
+      "text": "What are you saying?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You need to distance yourself from your friends in the Senate. The Chancellor said they will be dealt with when this conflict is over."
+    },
+    {
+      "character": "PADME",
+      "text": "What if they start an inquisition? I've opposed this war. What will you do if I become a suspect?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "That won't happen. I won't let it."
+    },
+    {
+      "character": "PADME",
+      "text": "Oh, Anakin, I'm afraid."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Have faith, my love. Everything will soon be set right. The Chancellor has given me a very important mission. The Separatists have gathered in the Mustafar system. I'm going there to end this war. Wait for me until I return, things will be different, I promise."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Please, wait for me."
+    },
+    {
+      "character": "PADME",
+      "text": "I will."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Well, he is under a lot of stress, Artoo."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Take care, my little friend."
+    },
+    {
+      "character": "C-3PO",
+      "text": "My Lady, is there anything I might do?"
+    },
+    {
+      "character": "PADME",
+      "text": "No thank you, C-3PO."
+    },
+    {
+      "character": "C-3PO",
+      "text": "A snack, perhaps?"
+    },
+    {
+      "character": "PADME",
+      "text": "No."
+    },
+    {
+      "character": "C-3PO",
+      "text": "I feel so helpless."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "You made it."
+    },
+    {
+      "character": "YODA",
+      "text": "Master Kenobi, dark times are these. Good to see you. it is."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "You were attacked by your Clones, also?"
+    },
+    {
+      "character": "YODA",
+      "text": "With the help of the Wookiees, barely escape, I did."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "How many other Jedi managed to survive?"
+    },
+    {
+      "character": "YODA",
+      "text": "Heard from no one, have we."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "I saw thousands of troops attack the Jedi Temple. That's why I went looking for Yoda."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Have we had any contact from the Temple?"
+    },
+    {
+      "character": "YODA",
+      "text": "Received a coded retreat message, we have."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "It requests all Jedi to return to the Temple. It says that the war is over."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Well, then we must go back! If there are other stragglers, they will fall into the trap and be killed."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "It's too dangerous to return."
+    },
+    {
+      "character": "YODA",
+      "text": "Suggest dismantling the coded signal, do you?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Yes, Master. There is too much at stake here, and we need a clearer picture of what has happened."
+    },
+    {
+      "character": "YODA",
+      "text": "I agree. In a dark place we find ourselves, a little more knowledge might light our way."
+    },
+    {
+      "character": "NUTE GUNRAY",
+      "text": "The plan has gone as you had promised, My Lord."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "You have done well, Viceroy. When my new apprentice, Darth Vader, arrives, he will take care of you."
+    },
+    {
+      "character": "PILOT",
+      "text": "We are receiving a message from the Chancellor's office, sir."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "Send it through."
+    },
+    {
+      "character": "PILOT",
+      "text": "Yes, sir."
+    },
+    {
+      "character": "MAS AMEDDA",
+      "text": "Senator Organa, the Supreme Chancellor of the Republic requests your presence at a special session of Congress."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "Tell the Chancellor I will be there."
+    },
+    {
+      "character": "MAS AMEDDA",
+      "text": "Very well. He will be expecting you."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "It could be a trap."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "No, I don't think so. The Chancellor will not be able to control the thousands of star systems without keeping the Senate intact."
+    },
+    {
+      "character": "YODA",
+      "text": "If a special session of Congress there is, easier for us to enter the Jedi Temple it will be."
+    },
+    {
+      "character": "GUARD",
+      "text": "Welcome back, Senator. May I see your clearance?"
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "Certainly."
+    },
+    {
+      "character": "GUARD",
+      "text": "Thank you, you may proceed. We will take custody of the Jedi."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "It would be better if we stayed with the Senator."
+    },
+    {
+      "character": "GUARD",
+      "text": "It would be better if they stayed with you."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "R-2, stay with the ship."
+    },
+    {
+      "character": "NUTE GUNRAY",
+      "text": "Welcome, Lord Vader. We've been expecting you."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "There are several battalions of Clone Troopers on every level. Many are dressed as Jedi."
+    },
+    {
+      "character": "YODA",
+      "text": "Dismantle the coded signal quickly. That group back there, soon discovered will be."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "...and the Jedi Rebellion has been foiled."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "I was held up. What's happening?"
+    },
+    {
+      "character": "PADME",
+      "text": "The Chancellor has been elaborating on a plot by the Jedi, to overthrow the Senate."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "That's not true!"
+    },
+    {
+      "character": "PADME",
+      "text": "He's been presenting evidence all afternoon."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "And the Senate will go along with it, just like they always do."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "The remaining Jedi will be hunted down and defeated. (applause) Any collaborators will suffer the same fate. (applause) These have been trying times, but we have passed the test."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Not even the younglings survived."
+    },
+    {
+      "character": "YODA",
+      "text": "Killed not by clones, this Padawan. By a lightsaber, he was."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Who?? Who could have done this?"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "The attempt on my life has left me scarred and deformed, but I assure you my resolve has never been stronger."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "The war is over. (applause) The Separatists have been defeated, (applause) and the Jedi rebellion has been foiled. We stand on the threshold of a new beginning."
+    },
+    {
+      "character": "PADME",
+      "text": "Well, this is the moment we discover if he intends to return the Republic to a democracy."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "In order to ensure our security and continuing stability, the Republic will be reorganized into the first Galactic Empire, for a safe and secure society which I assure you will last for ten thousand years."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "In order to ensure our security and continuing stability, the Republic will be reorganized into the first Galactic Empire, for a safe and secure society which I assure you will last for ten thousand years."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "An empire that will continue to be ruled by this august body, and a sovereign ruler chosen for life . . ."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "An empire ruled by the majority . . . Ruled by a new constitution . . ."
+    },
+    {
+      "character": "PADME",
+      "text": "So this is how liberty dies, with thunderous applause . . ."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "We cannot let this happen."
+    },
+    {
+      "character": "PADME",
+      "text": "Not now! There will be a time."
+    },
+    {
+      "character": "RUNE HAAKO",
+      "text": "Stop! Enough, this is not right!"
+    },
+    {
+      "character": "NUTE GUNRAY",
+      "text": "The war is over. Lord Sidious promised us peace ... we only want . . ."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I've recalibrated the code warning all surviving Jedi to stay away."
+    },
+    {
+      "character": "YODA",
+      "text": "Good . . . For the Clones to discover the recalibration, a long time it will take. To change it back, longer still. Hurry."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Wait, Master. There is something I must know . . ."
+    },
+    {
+      "character": "YODA",
+      "text": "If into the security recordings you go, only pain will you find."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I must know the truth, Master."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "It can't be . . . It can't be . . ."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "The traitors have been taken care of, Lord Sidious."
+    },
+    {
+      "character": "DARTH SLDIOUS",
+      "text": "Good . . . good . . . You have done well, my new apprentice. Do you feel your power growing?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Yes, My Master."
+    },
+    {
+      "character": "DARTH SLDIOUS",
+      "text": "Now, Lord Vader, now go and bring peace to the Empire."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I can't watch any more."
+    },
+    {
+      "character": "YODA",
+      "text": "Destroy the Sith, we must."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Send me to kill the Emperor. I will not kill Anakin."
+    },
+    {
+      "character": "YODA",
+      "text": "To fight this Lord Sidious, strong enough, you are not."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "He is like my brother ... I cannot do it."
+    },
+    {
+      "character": "YODA",
+      "text": "Twisted by the dark side, young Skywalker has become. The boy you trained, gone he is . . . Consumed by Darth Vader."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "How could it have come to this?"
+    },
+    {
+      "character": "YODA",
+      "text": "To question, no time there is."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I do not know where the Emperor has sent him. I don't know where to look."
+    },
+    {
+      "character": "YODA",
+      "text": "Use your feelings, Obi-Wan, and find him, you will. Visit the new Emperor, my task is. May the Force be with you."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "May the Force be with you, Master Yoda."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Hello, might I help you . . . Oh, it's you, Master Kenobi. Come in, quickly."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Has Anakin been here . . . ?"
+    },
+    {
+      "character": "C-3PO",
+      "text": "Yes . . . right after the attack on the Jedi Temple."
+    },
+    {
+      "character": "PADME",
+      "text": "Master Kenobi . . ."
+    },
+    {
+      "character": "PADME",
+      "text": "Oh, Obi-Wan, thank goodness . . . you're alive."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "The Republic has fallen. Padme . . . The Jedi Order is no more . . ."
+    },
+    {
+      "character": "PADME",
+      "text": "I know, it's hard to believe everything to which we've dedicated our lives is gone."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I believe we have been part of a plot hundreds of years in the making."
+    },
+    {
+      "character": "PADME",
+      "text": "The Senate is still intact, there is some hope."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "No. Padme . . . It's over . . . The Sith now rule the galaxy as they did before the Republic."
+    },
+    {
+      "character": "PADME",
+      "text": "The Sith!?!?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I'm here looking for Anakin . . . When was the last time you saw him?"
+    },
+    {
+      "character": "PADME",
+      "text": "Yesterday."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "And do you know where he is now?"
+    },
+    {
+      "character": "PADME",
+      "text": "No."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Padme, I need your help. He's in grave danger."
+    },
+    {
+      "character": "PADME",
+      "text": "From the Sith?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "From himself . . . Padme, Anakin has turned to the dark side."
+    },
+    {
+      "character": "PADME",
+      "text": "You're wrong! How could you even say that?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I have seen a security hologram of him killing younglings."
+    },
+    {
+      "character": "PADME",
+      "text": "Not Anakin! He couldn't!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "He was deceived by a lie. We all were. It appears that the Chancellor is behind everything, including the war. Palpatine is the Sith Lord we've been looking for. After the death of Count Dooku, Anakin became his new apprentice."
+    },
+    {
+      "character": "PADME",
+      "text": "I don't believe you ... I can't."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Padme, I must find him."
+    },
+    {
+      "character": "PADME",
+      "text": "You're going to kill him, aren't you?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "He has become a very great threat."
+    },
+    {
+      "character": "PADME",
+      "text": "I can't . . ."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Anakin is the father, isn't he?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I'm so sorry."
+    },
+    {
+      "character": "CAPTAIN TYPHO",
+      "text": "My Lady, let me come with you."
+    },
+    {
+      "character": "PADME",
+      "text": "There is no danger. The fighting is over, and . . . this is personal."
+    },
+    {
+      "character": "CAPTAIN TYPHO",
+      "text": "As you wish, My Lady . . . but I strongly disagree."
+    },
+    {
+      "character": "PADME",
+      "text": "I'll be all right, Captain."
+    },
+    {
+      "character": "PADME",
+      "text": "This is something I must do myself. Besides, Threepio will look after me."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh, dear."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Green light. Do you know that I think I'm beginning to get the hang of this flying business."
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "The Separatists are taken care of, My Master."
+    },
+    {
+      "character": "DARTH SLDIOUS",
+      "text": "It is finished, then. You have restored peace and justice to the galaxy. You have done well, Lord Vader."
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Thank you, My Master."
+    },
+    {
+      "character": "DARTH SLDIOUS",
+      "text": "Send a message to the ships of the Trade Federation. Tell them the Separatist leaders have been wiped out. Grievous and Dooku have been destroyed. All droid units must shut down immediately."
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Very good, My Lord."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Padme, I saw your ship . . ."
+    },
+    {
+      "character": "PADME",
+      "text": "Oh, Anakin!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "It's all right, you're safe now. What are you doing out here?"
+    },
+    {
+      "character": "PADME",
+      "text": "I was so worried about you. Obi-Wan told me terrible things."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What things?"
+    },
+    {
+      "character": "PADME",
+      "text": "He said you have turned to the dark side . . . that you killed younglings."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Obi-Wan is trying to turn you against me."
+    },
+    {
+      "character": "PADME",
+      "text": "He cares about us."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Us??!"
+    },
+    {
+      "character": "PADME",
+      "text": "He knows . . . He wants to help you."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Is Obi-Wan going to protect you? He can't ... he can't help you. He's not strong enough."
+    },
+    {
+      "character": "PADME",
+      "text": "Anakin, all I want is your love."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Love won't save you, Padme. Only my new powers can do that."
+    },
+    {
+      "character": "PADME",
+      "text": "At what cost? You are a good person. Don't do this."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I won't lose you the way I lost my mother! I've become more powerful than any Jedi has ever dreamed of and I've done it for you. To protect you."
+    },
+    {
+      "character": "PADME",
+      "text": "Come away with me. Help me raise our child. Leave everything else behind while we still can."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Don't you see, we don't have to run away anymore. I have brought peace to the Republic. I am more powerful than the Chancellor. I can overthrow him, and together you and I can rule the galaxy. Make things the way we want them to be."
+    },
+    {
+      "character": "PADME",
+      "text": "I don't believe what I'm hearing . . . Obi-Wan was right. You've changed."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I don't want to hear any more about Obi-Wan. The Jedi turned against me. Don't you turn against me."
+    },
+    {
+      "character": "PADME",
+      "text": "I don't know you anymore. Anakin, you're breaking my heart. I'll never stop loving you, but you are going down a path I can't follow."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Because of Obi-Wan?"
+    },
+    {
+      "character": "PADME",
+      "text": "Because of what you've done . . . what you plan to do. Stop, stop now. Come back! I love you."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Liar!"
+    },
+    {
+      "character": "PADME",
+      "text": "No!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You're with him. You've betrayed me! You brought him here to kill me!"
+    },
+    {
+      "character": "PADME",
+      "text": "NO! Anakin. I swear ... I ..."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Let her go, Anakin."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What have you and she been up to?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Let her go!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You turned her against me."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "You have done that yourself."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You will not take her from me."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Your anger and your lust for power have already done that."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "You have allowed this Dark Lord to twist your mind until now . . . until now you have become the very thing you swore to destroy."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Don't lecture me, Obi-Wan. I see through the lies of the Jedi. I do not fear the dark side as you do. I have brought peace, justice, freedom, and security to my new Empire."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Your new Empire?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Don't make me kill you."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Anakin, my allegiance is to the Republic ... to democracy."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "If you're not with me, you're my enemy."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Only a Sith Lord deals in absolutes. I will do what I must."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You will try."
+    },
+    {
+      "character": "C-3PO",
+      "text": "What are you doing? You're going to hurt her. Wait!!"
+    },
+    {
+      "character": "DARTH SLDIOUS",
+      "text": "Master Yoda, you survived."
+    },
+    {
+      "character": "YODA",
+      "text": "Surprised?"
+    },
+    {
+      "character": "DARTH SLDIOUS",
+      "text": "Your arrogance blinds you, Master Yoda. Now you will experience the full power of the dark side."
+    },
+    {
+      "character": "DARTH SLDIOUS",
+      "text": "I have waited a long time for this moment, my little green friend. At last, the Jedi are no more."
+    },
+    {
+      "character": "YODA",
+      "text": "Not if anything I have to say about it, Lord Sidious."
+    },
+    {
+      "character": "YODA",
+      "text": "At an end your rule is and not short enough it was, I must say."
+    },
+    {
+      "character": "YODA",
+      "text": "If so powerful you are, why leave??"
+    },
+    {
+      "character": "DARTH SLDIOUS",
+      "text": "You will not stop me. Darth Vader will become more powerful than either of us."
+    },
+    {
+      "character": "YODA",
+      "text": "Faith in your new apprentice, misplaced may be, as is your faith in the dark side of the Force."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Don't make me destroy you, Master. You're no match for the dark si"
+    },
+    {
+      "character": "YODA",
+      "text": "Faith in your new apprentice, misplaced may be, as is your faith in the dark side of the Force."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Don't make me destroy you, Master. You're no match for the dark side."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I've heard that before, Anakin . . . but I never thought I'd hear it from you."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "The flaw of power is arrogance."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You hesitate . . . the flaw of compassion."
+    },
+    {
+      "character": "YODA",
+      "text": "Destroy you I will, just as Master Kenobi, your apprentice will destroy."
+    },
+    {
+      "character": "YODA",
+      "text": "Hurry. Careful timing we will need."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "There aren't many troops on this side. Activate your homing beacon when you're ready."
+    },
+    {
+      "character": "CLONE COMMANDER THIRE",
+      "text": "There is no sign of his body, sir."
+    },
+    {
+      "character": "MAS AMEDDA",
+      "text": "Then he is not dead."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Double your search."
+    },
+    {
+      "character": "CLONE COMMANDER THIRE",
+      "text": "Yes sir. Right away, sir."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Tell Captain Kagi to prepare my shuttle for immediate takeoff."
+    },
+    {
+      "character": "MAS AMEDDA",
+      "text": "Yes, Master."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I sense Lord Vader is in danger."
+    },
+    {
+      "character": "YODA",
+      "text": "Into exile I must go. Failed, I have."
+    },
+    {
+      "character": "C-3PO",
+      "text": "I am being careful. I've got a good hold on her, but . . . I'm worried about my back. I hope it's able to hold up under this weight."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I have failed you, Anakin. I was never able to teach you to think."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I should have known the Jedi were plotting to take over . . ."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "From the Sith!!! Anakin, Chancellor Palpatine is evil."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "From the Jedi point of view! From my point of view, the Jedi are evil."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Well, then you are lost!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "This is the end for you, My Master. I wish it were otherwise."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "It's over, Anakin. I have the high ground."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You underestimate my power!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Don't try it."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": ". . . You were the Chosen One! It was said that you would, destroy the Sith, not join them. It was you who would bring balance to the Force, not leave it in Darkness."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I hate you!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "You were my brother, Anakin. I loved you."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Master Kenobi! We have Miss Padme on board. Please, please hurry. We should leave this dreadful place."
+    },
+    {
+      "character": "PADME",
+      "text": "Obi-Wan? Is Anakin all right?"
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "Anakin! Anakin! There he is. He's still alive. Get a medical capsule, immediately."
+    },
+    {
+      "character": "CLONE CAPTAIN",
+      "text": "Yes sir. Right away."
+    },
+    {
+      "character": "YODA",
+      "text": "Failed to stop the Sith Lord, I have. Still much to learn, there is ..."
+    },
+    {
+      "character": "QUI -GON",
+      "text": "Patience. You will have time. I did not. When I became one with the Force I made a great discovery. With my training, you will be able to merge with the Force at will. Your physical self will fade away, but you will still retain your consciousness. You will become more powerful than any Sith."
+    },
+    {
+      "character": "YODA",
+      "text": "Eternal consciousness."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "The ability to defy oblivion can be achieved, but only for oneself. It was accomplished by a Shaman of the Whills. It is a state acquired through compassion, not greed."
+    },
+    {
+      "character": "YODA",
+      "text": ". . . to become one with the Force, and influence still have . . . A power greater than all, it is."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "You will learn to let go of everything. No attachment, no thought of self. No physical self."
+    },
+    {
+      "character": "YODA",
+      "text": "A great Jedi Master, you have become, Qui-Gon Jinn. Your apprentice I gratefully become."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "Excuse me, Master Yoda. Obi-Wan Kenobi has made contact."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "We'll take her to the medical center, quickly."
+    },
+    {
+      "character": "MEDICAL DROID",
+      "text": "Medically, she is completely healthy. For reasons we can't explain, we are losing her."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "She's dying?"
+    },
+    {
+      "character": "MEDICAL DROID",
+      "text": "We don't know why. She has lost the will to live. We need to operate quickly if we are to save the babies."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "Babies??!!"
+    },
+    {
+      "character": "MEDICAL DROID",
+      "text": "She's carrying twins."
+    },
+    {
+      "character": "YODA",
+      "text": "Save them, we must. They are our last hope."
+    },
+    {
+      "character": "C-3PO",
+      "text": "It s some kind of reproductive process, I think."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "Babies??!!"
+    },
+    {
+      "character": "MEDICAL DROID",
+      "text": "She's carrying twins."
+    },
+    {
+      "character": "YODA",
+      "text": "Save them, we must. They are our last hope."
+    },
+    {
+      "character": "C-3PO",
+      "text": "It s some kind of reproductive process, I think."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Don't give up, Padme."
+    },
+    {
+      "character": "MEDICAL DROID",
+      "text": "It's a boy."
+    },
+    {
+      "character": "PADME",
+      "text": "Luke . . ."
+    },
+    {
+      "character": "MEDICAL DROID",
+      "text": "... and a girl."
+    },
+    {
+      "character": "PADME",
+      "text": ". . . Leia."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "You have twins, Padme They need you . . . hang on."
+    },
+    {
+      "character": "PADME",
+      "text": "I can't . . ."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Save your energy."
+    },
+    {
+      "character": "PADME",
+      "text": "Obi-Wan . . . there . . . is good in him. I know there is ... still . . ."
+    },
+    {
+      "character": "MEDICAL DROID",
+      "text": "My Lord, the construction is finished ... he lives."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "Good. Good."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "Lord Vader, can you hear me?"
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Yes, My Master."
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Where is Padme? Is she safe, is she all right?"
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "I'm afraid she died. ... it seems in your anger, you killed her."
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "I couldn't have! She was alive! I felt her! She was alive! It's impossible! No!!!"
+    },
+    {
+      "character": "YODA",
+      "text": "Pregnant, she must still appear. Hidden, safe, the children must be kept."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "We must take them somewhere the Sith will not sense their presence."
+    },
+    {
+      "character": "YODA",
+      "text": "Split up, they should be."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "My wife and I will take the girl. We've always talked of adopting a baby girl. She will be loved with us."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "And what of the boy?"
+    },
+    {
+      "character": "YODA",
+      "text": "To Tatooine. To his family, send him."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I will take the child and watch over him. Master Yoda, do you think Anakin's twins will be able to defeat Darth Sidious?"
+    },
+    {
+      "character": "YODA",
+      "text": "Strong the Force runs, in the Skywalker line. Hope, we can . . . Done, it is. Until the time is right, disappear we will."
+    },
+    {
+      "character": "YODA",
+      "text": "Master Kenobi, wait a moment. In your solitude on Tatooine, training I have for you."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Training??"
+    },
+    {
+      "character": "YODA",
+      "text": "An old friend has learned the path to immortality."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Who?"
+    },
+    {
+      "character": "YODA",
+      "text": "One who has returned from the netherworld of the Force to train me . . . your old Master, Qui-Gon Jinn."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Qui-Gon? But, how could he accomplish this?"
+    },
+    {
+      "character": "YODA",
+      "text": "The secret of the Ancient Order of the Whills, he studied. How to commune with him. I will teach you."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I will be able to talk with him?"
+    },
+    {
+      "character": "YODA",
+      "text": "How to join the Force, he will train you. Your consciousness you will retain, when one with the Force. Even your physical self, perhaps."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "Captain Antilles."
+    },
+    {
+      "character": "CAPTAIN ANTILLES",
+      "text": "Yes, Your Highness."
+    },
+    {
+      "character": "BAIL ORGANA",
+      "text": "I'm placing these droids in your care. Treat them well. Clean them up. Have the Protocol Droid's mind wiped."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh, no."
+    }
+  ]
+}

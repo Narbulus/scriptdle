@@ -1,0 +1,4346 @@
+{
+  "id": "star-wars-episode-i-the-phantom-menace",
+  "title": "Star Wars: Episode I - The Phantom Menace",
+  "year": 1999,
+  "characters": [
+    "AKS MOE",
+    "AMEE",
+    "AMIDALA",
+    "ANAKIN",
+    "ANNOUNCER",
+    "ASSEMBLY",
+    "BATTLE DROID",
+    "BATTLE DROID 1",
+    "BATTLE DROID 2",
+    "BEED",
+    "BIBBLE",
+    "BODE",
+    "BOSS NASS",
+    "BRAVO THREE",
+    "BRAVO TWO",
+    "C-3PO",
+    "C3PO",
+    "CAPTAIN",
+    "CAPTAIN TARPALS",
+    "CROWD",
+    "DARTH MAUL",
+    "DARTH SIDIOUS",
+    "DOFINE",
+    "DROID",
+    "FODE",
+    "GUARD",
+    "GUARD DROID",
+    "GUNGAN GENERAL",
+    "GUNGAN LOOKOUT",
+    "JABBA",
+    "JAR JAR",
+    "JAR JAR BINKS",
+    "JIRA",
+    "KI-ADI-MUNDI",
+    "KITSTER",
+    "LOTT DOD",
+    "MACE WINDU",
+    "MAS AMEDDA",
+    "NUTE",
+    "OBI-WAN",
+    "ODY",
+    "OOM-9",
+    "PADME",
+    "PALPATINE",
+    "PANAKA",
+    "PILOT",
+    "PILOT 1",
+    "PILOT 2",
+    "PILOT 3",
+    "QUI-GON",
+    "RABE",
+    "RIC OLIE",
+    "RUNE",
+    "SABE",
+    "SEBULBA",
+    "SEEK",
+    "SHMI",
+    "TC-14",
+    "TEY HOW",
+    "VALORUM",
+    "VENDOR",
+    "WALD",
+    "WATTO",
+    "WATTOO",
+    "YODA"
+  ],
+  "lines": [
+    {
+      "character": "QUI-GON",
+      "text": "Captain."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Yes, sir?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Tell them we wish to board at once."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "With all due respect, the ambassadors for the supreme chancellor wish to board immediately."
+    },
+    {
+      "character": "NUTE",
+      "text": "Yes, of course. As you know, our blockade is perfectly legal, and we'd be happy to receive the ambassadors."
+    },
+    {
+      "character": "TC-14",
+      "text": "I'm TC-14 at your service. This way, please."
+    },
+    {
+      "character": "TC-14",
+      "text": "We are greatly honoured by your visit, Ambassadors. Make yourselves comfortable. My master will be with you shortly."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I have a bad feeling about this."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I don't sense anything."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "It's not about the mission, Master, it's something elsewhere, elusive."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Don't centre on your anxieties, Obi-Wan. Keep your concentration here and now, where it belongs."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "But Master Yoda said I should be mindful of the future."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "But not at the expense of the moment. Be mindful of the living Force, young Padawan."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Yes, Master. How do you think this trade viceroy will deal with the chancellor's demands?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "These Federation types are cowards. The negotiations will be short."
+    },
+    {
+      "character": "NUTE",
+      "text": "What? What did you say?"
+    },
+    {
+      "character": "TC-14",
+      "text": "The ambassadors are Jedi knights, I believe."
+    },
+    {
+      "character": "DOFINE",
+      "text": "I knew it! They're here to force a settlement, eh."
+    },
+    {
+      "character": "NUTE",
+      "text": "Distract them. I will contact Lord Sidious."
+    },
+    {
+      "character": "DOFINE",
+      "text": "Are you brain-dead? I'm not going in there with two Jedi."
+    },
+    {
+      "character": "DOFINE",
+      "text": "Send a droid."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Is it in their nature to make us wait this long?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "No. I sense an unusual amount of fear for something as trivial as this trade dispute."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "What is it?"
+    },
+    {
+      "character": "DOFINE",
+      "text": "This scheme of yours has failed, Lord Sidious. The blockade is finished. We dare not go against these Jedi."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "Viceroy, I don't want this stunted slime in my sight again."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "This turn of events is unfortunate. We must accelerate our plans. Begin landing your troops."
+    },
+    {
+      "character": "NUTE",
+      "text": "My lord, is that legal?"
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "I will make it legal."
+    },
+    {
+      "character": "NUTE",
+      "text": "And the Jedi?"
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "The chancellor should never have brought them into this. Kill them immediately."
+    },
+    {
+      "character": "NUTE",
+      "text": "Yes. Yes, my lord. Uh, as you wish."
+    },
+    {
+      "character": "PILOT",
+      "text": "Captain, look!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Shields up!"
+    },
+    {
+      "character": "TC-14",
+      "text": "Sorry."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Dioxis."
+    },
+    {
+      "character": "NUTE",
+      "text": "They must be dead by now. Destroy what's left of them."
+    },
+    {
+      "character": "TC-14",
+      "text": "Oh! Excuse me."
+    },
+    {
+      "character": "BATTLE DROID 1",
+      "text": "Check it out, Corporal. We'll cover you."
+    },
+    {
+      "character": "BATTLE DROID 2",
+      "text": "Roger, roger."
+    },
+    {
+      "character": "BATTLE DROID",
+      "text": "Uh-oh. Blast them."
+    },
+    {
+      "character": "NUTE",
+      "text": "What is going on down there?"
+    },
+    {
+      "character": "TEY HOW",
+      "text": "We lost the transmission, sir."
+    },
+    {
+      "character": "RUNE",
+      "text": "Have you ever encountered a Jedi knight before, sir?"
+    },
+    {
+      "character": "NUTE",
+      "text": "Well, no, but I don't. Seal off the bridge."
+    },
+    {
+      "character": "TEY HOW",
+      "text": "Yes, sir."
+    },
+    {
+      "character": "RUNE",
+      "text": "That won't be enough, sir."
+    },
+    {
+      "character": "NUTE",
+      "text": "I want droidekas up here at once!"
+    },
+    {
+      "character": "RUNE",
+      "text": "We will not survive this."
+    },
+    {
+      "character": "NUTE",
+      "text": "Close the blast doors!"
+    },
+    {
+      "character": "RUNE",
+      "text": "That will hold them."
+    },
+    {
+      "character": "RUNE",
+      "text": "They are still coming through."
+    },
+    {
+      "character": "NUTE",
+      "text": "This is impossible!"
+    },
+    {
+      "character": "RUNE",
+      "text": "Where are those droidekas?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Master! Destroyers!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "They have shield generators!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "It's a standoff. Let's go."
+    },
+    {
+      "character": "RUNE",
+      "text": "They're no match for droidekas."
+    },
+    {
+      "character": "TEY HOW",
+      "text": "Sir! They've gone up the ventilation shaft."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Battle droids."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "It's an invasion army."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "This is an odd play for the Trade Federation. We've got to warn the Naboo and contact Chancellor Valorum. Let's split up. Stow aboard separate ships and meet down on the planet."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "You were right about one thing, Master."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "The negotiations were short."
+    },
+    {
+      "character": "TEY HOW",
+      "text": "Sir, a transmission from the planet."
+    },
+    {
+      "character": "RUNE",
+      "text": "It's Queen Amidala herself."
+    },
+    {
+      "character": "NUTE",
+      "text": "At last we are getting results. Again you come before us, Your Highness."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "You will not be so pleased when you hear what I have to say, Viceroy. Your trade boycott of our planet has ended."
+    },
+    {
+      "character": "NUTE",
+      "text": "I was not aware of such failure."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "I have word that the chancellor's ambassadors are with you now… and that you have been commanded to reach settlement."
+    },
+    {
+      "character": "NUTE",
+      "text": "I know nothing of any ambassadors. You must be mistaken."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "Beware, Viceroy. The Federation has gone too far this time."
+    },
+    {
+      "character": "NUTE",
+      "text": "We would never do anything without the approval of the senate. You assume too much."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "We will see."
+    },
+    {
+      "character": "RUNE",
+      "text": "She's right. The senate will never..."
+    },
+    {
+      "character": "NUTE",
+      "text": "It's too late now."
+    },
+    {
+      "character": "RUNE",
+      "text": "Do you think she suspects an attack?"
+    },
+    {
+      "character": "NUTE",
+      "text": "I don't know. But we must move quickly to disrupt all communications down there."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Negotiations haven't started because the ambassadors aren't there? How could that be true? I have assurances from the chancellor his ambassadors did arrive. It must, handiwork, negotiate, ambassadors, nobody would..."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "Senator Palpatine. What's happening?"
+    },
+    {
+      "character": "BIBBLE",
+      "text": "A communications disruption can mean only one thing: Invasion."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "The Federation would not dare go that far."
+    },
+    {
+      "character": "PANAKA",
+      "text": "The senate would revoke their trade franchise, and they'd be finished."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "We must continue to rely on negotiation."
+    },
+    {
+      "character": "BIBBLE",
+      "text": "Negotiation? We've lost all communications. And where are the chancellor's ambassadors?"
+    },
+    {
+      "character": "PANAKA",
+      "text": "This is a dangerous situation, Your Highness. Our security volunteers will be no match against a battle-hardened Federation army."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "I will not condone a course of action that will lead us to war."
+    },
+    {
+      "character": "BATTLE DROID",
+      "text": "Yes, Viceroy?"
+    },
+    {
+      "character": "RUNE",
+      "text": "Captain, we've searched the ship, and there is no trace of the Jedi. They may have gotten on one of your landing craft."
+    },
+    {
+      "character": "BATTLE DROID",
+      "text": "If they're down here, sir, we'll find them."
+    },
+    {
+      "character": "NUTE",
+      "text": "Use caution. These Jedi are not to be underestimated."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Oh, no!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Get away! Get out of here! Get down!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Ay-yee-yee! Wha!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Was'n dat? Hey, wait!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Oh, mooie-mooie, I love you."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "You almost got us killed. Are you brainless?"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "I spake."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "The ability to speak does not make you intelligent. Now, get out of here."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "No, no, mesa stay. Mesa culled Jar Jar Binks. Mesa your humble servant."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "That won't be necessary."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Oh, but it 'tis. 'Tis demanded by the gods, it 'tis."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Oh, no!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Stay down!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "You saved my again."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "What's this?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "A local. Let's get out of here before more droids show up."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "More? \"More\" did you spake?"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Ex-squeeze-me, but de mostest safest place would be Gunga City. Is where I grew up. 'Tis a hidden city."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "A city?"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Uh-huh."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Can you take us there?"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Uh, on second thought, no. Not really, no."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "No?"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "'Tis embarrassing, but, uh, my afraid my've been banished. My forgotten. Da bosses would do terrible tings to me. Terrible tings to me if me goen back dare."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "You hear that?"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Yah."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "That is the sound of a thousand terrible things heading this way."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "If they find us, they will crush us, grind us into tiny pieces, and blast us into oblivion."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Oh. Yousa point is well seen. Dis way. Hurry!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "How much further?"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Wesa goen underwater, okeyday? Ah, my warning you. Gungans no liken outsiders, so don't spect a warm welcome."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Oh, don't worry. This hasn't been our day for warm welcomes."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Yousa follow me now, okeyday?"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "So good bein home!"
+    },
+    {
+      "character": "CAPTAIN TARPALS",
+      "text": "Hey, yousa. Stopa dare!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Heyo-dales, Cap'n Tarpals. Mesa back."
+    },
+    {
+      "character": "CAPTAIN TARPALS",
+      "text": "Noah gain, Jar Jar. Yousa goen tada bosses. Yousa in big dudu dis time."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "So good bein home!"
+    },
+    {
+      "character": "CAPTAIN TARPALS",
+      "text": "Hey, yousa. Stopa dare!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Heyo-dales, Cap'n Tarpals. Mesa back."
+    },
+    {
+      "character": "CAPTAIN TARPALS",
+      "text": "Noah gain, Jar Jar. Yousa goen tada bosses. Yousa in big dudu dis time."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "How wude."
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Yousa cannot bees hair. Dis army of Mackineeks up dare is new weesong."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "A droid army is about to attack the Naboo. We must warn them."
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Wesa no like da Naboo."
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Da Naboo tink day so smarty. Day tink day brains so big."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Once those droids take control of the surface, they will take control of you."
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Mesa no tink so. Day not know of uss-en."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "You and the Naboo form a symbiont circle. What happens to one of you will affect the other. You must understand this."
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Wesa no carrrre-nn about da Naboo."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Then speed us on our way."
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Wesa ganna speed yous away."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "We could use a transport."
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Wesa give yousa una bongo."
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Da speediest way tooda Naboo 'tis goen through the planet core."
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Now go."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Thank you for your help. We leave in peace."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "So, master, what's a bongo?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "A transport, I hope."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Deysa setten yousa up. Goen through da planet core? Bad bombin'. Mmm, any help here would be hot."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Master, we're short on time."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "We'll need a navigator to get us through the planet's core. This Gungan may be of help."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "What is to become of Jar Jar Binks here?"
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Hisen to be pune-ished."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I saved his life. He owes me what you call a \"life-debt.\""
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Your gods demand that his life belongs to me now."
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Binks…"
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "...yousa havena live play with thisen hisen?"
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Begone wit him!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Count me outta dis one. Better dead here than dead in da core. Yee gods! What mesa sayin?"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Dis is nutsen. Oh, gooberfish!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Why were you banished, Jar Jar?"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "It's a longo tale-o, buta a small part of it would be mesa..."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "...clumsy."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "You were banished because you were clumsy?"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Ahh, yousa might'n be sayin dat."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Mesa caused mabee one, twoy lettle bitty axadentes, huh? Yud-say boom da gasser, den crashin der boss's heyblibber, den banished."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Uh-oh!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Big gooberfish! Huge-o teeth!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "There's always a bigger fish."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Mesa tink we goen back now."
+    },
+    {
+      "character": "NUTE",
+      "text": "The invasion is on schedule, my lord."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "I have the senate bogged down in procedures. They will have no choice but to accept your control of the system."
+    },
+    {
+      "character": "NUTE",
+      "text": "The queen has great faith that the senate will side with her."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "Queen Amidala is young and naive. You will find controlling her will not be difficult."
+    },
+    {
+      "character": "NUTE",
+      "text": "Yes, my lord."
+    },
+    {
+      "character": "RUNE",
+      "text": "You didn't tell him about the missing Jedi."
+    },
+    {
+      "character": "NUTE",
+      "text": "No need to report that to him until we have something to report."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Where wesa goin?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Don't worry. The Force will guide us."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Oh, maxi big, da Force. Well, dat smells stinkowiff."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "We're losing power."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Ohhh, no!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Wesa dyin' here."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Just relax. We're not in trouble yet."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "What \"yet\"?"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Monsters out dare. Leak'n in here. All sink'n and no power? Whena yousa tinkin wesa in trouble?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Power's back."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Huh? Ahh! Monster's back!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Relax."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "You overdid it."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Horrible."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Head for that outcropping."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Oh, boy."
+    },
+    {
+      "character": "BATTLE DROID",
+      "text": "Viceroy, we have captured the queen."
+    },
+    {
+      "character": "NUTE",
+      "text": "Ah, victory."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Mmm, dis'n loverly."
+    },
+    {
+      "character": "BIBBLE",
+      "text": "How will you explain this invasion to the senate?"
+    },
+    {
+      "character": "NUTE",
+      "text": "The queen and I will sign a treaty that will legitimize our occupation here. I have assurances it will be ratified by the senate."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "I will not cooperate."
+    },
+    {
+      "character": "NUTE",
+      "text": "Now, now, Your Highness. In time, your people's suffering will persuade you to see our point of view."
+    },
+    {
+      "character": "NUTE",
+      "text": "Commander."
+    },
+    {
+      "character": "BATTLE DROID",
+      "text": "Yes, sir."
+    },
+    {
+      "character": "NUTE",
+      "text": "Process them."
+    },
+    {
+      "character": "BATTLE DROID",
+      "text": "Captain, take them to Camp 4."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Roger, roger."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Whoops! Whoo-ooo-ooo!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "We should leave the street, Your Highness."
+    },
+    {
+      "character": "PANAKA",
+      "text": "Get their weapons."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Yousa guys bombad!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "We're ambassadors for the supreme chancellor."
+    },
+    {
+      "character": "BIBBLE",
+      "text": "Your negotiations seemed to have failed, Ambassador."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "The negotiations never took place. It's urgent that we make contact with the Republic."
+    },
+    {
+      "character": "PANAKA",
+      "text": "They've knocked out all our communications."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Do you have transports?"
+    },
+    {
+      "character": "PANAKA",
+      "text": "In the main hangar. This way."
+    },
+    {
+      "character": "PANAKA",
+      "text": "There are too many of them."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "That won't be a problem. Your Highness, under the circumstances, I suggest you come to Coruscant with us."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "Thank you, Ambassador, but my place is with my people."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "They will kill you if you stay."
+    },
+    {
+      "character": "BIBBLE",
+      "text": "They wouldn't dare."
+    },
+    {
+      "character": "PANAKA",
+      "text": "They need her to sign a treaty to make this invasion legal. They can't afford to kill her."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "There is something else behind all this, Your Highness. There's no logic in the Federation's move here. My feelings tell me they will destroy you."
+    },
+    {
+      "character": "BIBBLE",
+      "text": "Our only hope is for the senate to side with us. Senator Palpatine will need your help."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "Either choice presents great danger..."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "...to us all."
+    },
+    {
+      "character": "PADME",
+      "text": "We are brave, Your Highness."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "If you are to leave, Your Highness, it must be now."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "Then I will plead our case to the senate. Be careful, Governor."
+    },
+    {
+      "character": "PANAKA",
+      "text": "We'll need to free those pilots."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I'll deal with that."
+    },
+    {
+      "character": "GUARD DROID",
+      "text": "Halt."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I'm ambassador to the supreme chancellor. I'm taking these people to Coruscant."
+    },
+    {
+      "character": "GUARD DROID",
+      "text": "Where are you taking them?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "To Coruscant."
+    },
+    {
+      "character": "GUARD DROID",
+      "text": "Coruscant? Uh, that doesn't compute. Uh, wait. (points) Uh, you're under arrest."
+    },
+    {
+      "character": "PANAKA",
+      "text": "Come on. Move!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Go!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Now, stay here and keep out of trouble."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Hello, boyos."
+    },
+    {
+      "character": "RIC OLIE",
+      "text": "There's the blockade."
+    },
+    {
+      "character": "RIC OLIE",
+      "text": "The shield generator's been hit!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "How wude!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "We're losing droids fast."
+    },
+    {
+      "character": "PANAKA",
+      "text": "If we can't get the shield generator fixed, we'll be sitting ducks."
+    },
+    {
+      "character": "RIC OLIE",
+      "text": "The shields are gone."
+    },
+    {
+      "character": "RIC OLIE",
+      "text": "The power's back!"
+    },
+    {
+      "character": "RIC OLIE",
+      "text": "That little droid did it. He bypassed the main power drive. Deflector shields up at maximum."
+    },
+    {
+      "character": "RIC OLIE",
+      "text": "There's not enough power to get us to Coruscant. The hyperdrive is leaking."
+    },
+    {
+      "character": "PANAKA",
+      "text": "We'll have to land somewhere to refuel and repair the ship."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "We'll have to land somewhere to refuel and repair the ship."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Here, Master. Tatooine."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "It's small, out of the way, poor. The Trade Federation have no presence there."
+    },
+    {
+      "character": "PANAKA",
+      "text": "How can you be sure?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "It's controlled by the Hutts."
+    },
+    {
+      "character": "PANAKA",
+      "text": "You can't take Her Royal Highness there. The Hutts are gangsters. If they discovered her..."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "It'd be no"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "We'll have to land somewhere to refuel and repair the ship."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Here, Master. Tatooine."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "It's small, out of the way, poor. The Trade Federation have no presence there."
+    },
+    {
+      "character": "PANAKA",
+      "text": "How can you be sure?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "It's controlled by the Hutts."
+    },
+    {
+      "character": "PANAKA",
+      "text": "You can't take Her Royal Highness there. The Hutts are gangsters. If they discovered her..."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "It'd be no different than if we landed on a system controlled by the Federation, except that the Hutts aren't looking for her, which gives us the advantage."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "And Queen Amidala, has she signed the treaty?"
+    },
+    {
+      "character": "NUTE",
+      "text": "She has disappeared, my lord. One Naboo cruiser got past the blockade."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "I want that treaty signed."
+    },
+    {
+      "character": "NUTE",
+      "text": "My lord, it's impossible to locate the ship. It's out of our range."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "Not for a Sith."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "This is my apprentice Darth Maul."
+    },
+    {
+      "character": "DARTH MAUL",
+      "text": "He will find your lost ship."
+    },
+    {
+      "character": "NUTE",
+      "text": "This is getting out of hand. Now there are two of them."
+    },
+    {
+      "character": "RUNE",
+      "text": "We should not have made this bargain."
+    },
+    {
+      "character": "PANAKA",
+      "text": "An extremely well-put-together little droid, Your Highness. Without a doubt, it saved the ship, as well as our lives."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "It is to be commended. What is its number?"
+    },
+    {
+      "character": "PANAKA",
+      "text": "R2-D2, Your Highness."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "Thank you, R2-D2."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "Padme."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "Clean this droid up as best you can. It deserves our gratitude."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "Continue, Captain."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Your Highness, with your permission, we're heading for a remote planet called Tatooine. It's in a system far beyond the reach of the Trade Federation."
+    },
+    {
+      "character": "PANAKA",
+      "text": "I do not agree with the Jedi on this."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "You must trust my judgment, Your Highness."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Hello."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Sorry. Husa are yousa?"
+    },
+    {
+      "character": "PADME",
+      "text": "I'm Padme."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Mesa Jar Jar Binks."
+    },
+    {
+      "character": "PADME",
+      "text": "You're a Gungan, aren't you?"
+    },
+    {
+      "character": "PADME",
+      "text": "How'd you end up here with us?"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "My no know. Mesa day starten pitty okeyday witda brisky morning munchen. Den boom! Getten berry scared and grabben dat Jedi, and pow, mesa here."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Mesa getten berry, berry scared."
+    },
+    {
+      "character": "RIC OLIE",
+      "text": "That's it. Tatooine."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "There's a settlement."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Land near the outskirts. We don't want to attract attention."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "The hyperdrive generator's gone, Master. We'll need a new one."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "That'll complicate things. Be wary. I sense a disturbance in the Force."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I feel it also, Master."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Don't let them send any transmissions."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "The sun doen murder to mesa skin."
+    },
+    {
+      "character": "PANAKA",
+      "text": "Wait!"
+    },
+    {
+      "character": "PANAKA",
+      "text": "Wait."
+    },
+    {
+      "character": "PANAKA",
+      "text": "Her Highness commands you to take her handmaiden with you."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "No more commands from Her Highness today, Captain. The spaceport is not going to be pleasant."
+    },
+    {
+      "character": "PANAKA",
+      "text": "The queen wishes it. She's curious about the planet."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "This is not a good idea. Stay close to me."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Moisture farms, for the most part. Some indigenous tribes and scavengers. The few spaceports like this one are havens for those that don't wish to be found."
+    },
+    {
+      "character": "PADME",
+      "text": "Like us."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Dissen berry, berry bad."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Oh, icky, icky goo!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "We'll try one of the smaller dealers."
+    },
+    {
+      "character": "WATTO",
+      "text": "Good day to you. What do you want?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I need parts for a J-type 327 Nubian."
+    },
+    {
+      "character": "WATTO",
+      "text": "Ah, yes! Nubian. We have lots of that. Boy, get in here now!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "My droid has a readout of what I need."
+    },
+    {
+      "character": "WATTO",
+      "text": "What took you so long?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I was cleaning the fan switches."
+    },
+    {
+      "character": "WATTO",
+      "text": "Watch the store. I've got some selling to do. So, let me take thee out back, huh? We'll find what you need."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Don't touch anything."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Are you an angel?"
+    },
+    {
+      "character": "PADME",
+      "text": "What?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "An angel. I heard the deep space pilots talk about them. They're the most beautiful creatures in the universe. They live on the moons of lego, I think."
+    },
+    {
+      "character": "PADME",
+      "text": "You're a funny little boy. How do you know so much?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I listen to all the traders and star pilots who come through here. I'm a pilot, you know, and someday I'm gonna fly away from this place."
+    },
+    {
+      "character": "PADME",
+      "text": "You're a pilot?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Mm-hmm. All my life."
+    },
+    {
+      "character": "PADME",
+      "text": "How long have you been here?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Since I was very little. Three, I think. My mom and I were sold to Gardulla the Hutt but she lost us betting on the Podraces."
+    },
+    {
+      "character": "PADME",
+      "text": "You're a slave?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm a person, and my name is Anakin."
+    },
+    {
+      "character": "PADME",
+      "text": "I'm sorry."
+    },
+    {
+      "character": "PADME",
+      "text": "I don't fully understand. This is a strange place to me."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Where, wheres yousa goin?"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "I got ya."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Hey!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "What?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Hit the nose."
+    },
+    {
+      "character": "WATTO",
+      "text": "A T-14 hyperdrive generator. Thee in luck. I'm the only one hereabouts who has one. But, uh, thee might as well buy a new ship. It would be cheaper, I think, huh? Saying of which, how's thee gonna pay for all this, huh?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I have 20,000 Republic dataries."
+    },
+    {
+      "character": "WATTO",
+      "text": "Republic credits? Republic credits are no good out here. I need something more real."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I don't have anything else, but credits will do fine."
+    },
+    {
+      "character": "WATTO",
+      "text": "No, they won't."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Credits will do fine."
+    },
+    {
+      "character": "WATTO",
+      "text": "No, they won't! What, you think you're some kind of Jedi, waving your hand around like that? I'm a Toydarian. Mind tricks don't work on me. Only money. No money, no parts, no deal. And no one else has a T-14 hyperdrive, I promise you that."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Wouldn't have lasted long anyways if I wasn't so good at building things."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "We're leaving. Jar Jar."
+    },
+    {
+      "character": "PADME",
+      "text": "I'm glad to have met you, Anakin."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I was glad to meet you too."
+    },
+    {
+      "character": "WATTO",
+      "text": "Outlanders. They think we know nothing."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "They seemed nice to me."
+    },
+    {
+      "character": "WATTO",
+      "text": "Clean the racks. Then you can go home."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Yippee!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "And you're sure there's nothing left on board?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "A few containers of supplies. The queen's wardrobe, maybe, but not enough for you to barter with, not in the amount you're talking about."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "All right. I'm sure another solution will present itself. I'll check back later."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Noah gain. Noah gain. Da beings hereabouts, cawazy! Wesa be wobbed un crunched."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Not likely. We have nothing of value. That's our problem."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Huh? Oh, mooie-mooie!"
+    },
+    {
+      "character": "VENDOR",
+      "text": "Are you going to pay for that? It costs seven wupiupi."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Oops."
+    },
+    {
+      "character": "SEBULBA",
+      "text": "Chuba!"
+    },
+    {
+      "character": "SEBULBA",
+      "text": "Is this yours?"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Who, mesa..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Careful, Sebulba. He's a big-time outlander. I'd hate to see you diced before we race again."
+    },
+    {
+      "character": "SEBULBA",
+      "text": "Next time we race, boy, it will be the end of you. If you weren't a slave, I'd squash you now."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Yeah, it'd be a pity if you had to pay for me."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Hi."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Hi there."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Your buddy here was about to be turned into orange goo. He picked a fight with a Dug, an especially dangerous Dug called Sebulba."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Mesa haten crunchen. Das da las ting mesa want."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Nevertheless, the boy is right. You were heading into trouble. Thanks, my young friend."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "But, but, but mesa doen nutten!"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "This storm will slow them down."
+    },
+    {
+      "character": "PANAKA",
+      "text": "Looks pretty bad."
+    },
+    {
+      "character": "PANAKA",
+      "text": "Panaka."
+    },
+    {
+      "character": "PILOT",
+      "text": "Receiving a message from home."
+    },
+    {
+      "character": "PANAKA",
+      "text": "We'll be right there."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Here, you'll like these pallies. Here."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Thank you."
+    },
+    {
+      "character": "JIRA",
+      "text": "Oh, my bones are aching. Storm's coming up, Ani. You better get home quick."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Do you have shelter?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "We'll head back to our ship."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Is it far?"
+    },
+    {
+      "character": "PADME",
+      "text": "It's on the outskirts."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You'll never reach the outskirts in time. Sandstorms are very, very dangerous. Come on. I'll take you to my place."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Mom! Mom, I'm home!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Ah, dissen cosy."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "These are my friends, Mom."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Hello."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I'm Qui-Gon Jinn."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm building a droid. You wanna see?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Your son was kind enough to offer us shelter."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Come on. I'll show you 3PO."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Isn't he great? He's not finished yet."
+    },
+    {
+      "character": "PADME",
+      "text": "He's wonderful."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You really like him? He's a protocol droid to help Mom. Watch."
+    },
+    {
+      "character": "DROID",
+      "text": "Oh, oh, uh, where is everybody?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Whoops."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh, hello. I am C-3PO, human cyborg relations. How might I serve you?"
+    },
+    {
+      "character": "PADME",
+      "text": "He's perfect."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh. Perfect."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "When the storm is over, I'll show you my racer. I'm building a Podracer."
+    },
+    {
+      "character": "C-3PO",
+      "text": "I'm not sure this floor is entirely stable."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh, hello. I don't believe we have been introduced."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh, hello. I am C-3PO, human cyborg relations. How might I serve you?"
+    },
+    {
+      "character": "PADME",
+      "text": "He's perfect."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh. Perfect."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "When the storm is over, I'll show you my racer. I'm building a Podracer."
+    },
+    {
+      "character": "C-3PO",
+      "text": "I'm not sure this floor is entirely stable."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh, hello. I don't believe we have been introduced."
+    },
+    {
+      "character": "C-3PO",
+      "text": "R2-D2. A pleasure to meet you. I am C-3PO, human cyborg relations."
+    },
+    {
+      "character": "C-3PO",
+      "text": "I beg your pardon, but what do you mean, \"naked\"?"
+    },
+    {
+      "character": "C-3PO",
+      "text": "My parts are showing? My goodness! Oh!"
+    },
+    {
+      "character": "BIBBLE",
+      "text": "The death toll is catastrophic. We must bow to their wishes. You must contact me."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "It's a trick. Send no reply. Send no transmissions of any kind."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "It sounds like bait to establish a connection trace."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "What if it is true, and the people are dying?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Either way, we're running out of time."
+    },
+    {
+      "character": "DARTH MAUL",
+      "text": "Tatooine is sparsely populated. If the trace was correct, I will find them quickly, Master."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "Move against the Jedi first. You will then have no difficulty in taking the queen to Naboo to sign the treaty."
+    },
+    {
+      "character": "DARTH MAUL",
+      "text": "At last we will reveal ourselves to the Jedi. At last we will have revenge."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "You have been well-trained, my young apprentice. They will be no match for you."
+    },
+    {
+      "character": "SHMI",
+      "text": "All slaves have a transmitter placed inside their bodies somewhere."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I've been working on a scanner to try and locate mine."
+    },
+    {
+      "character": "SHMI",
+      "text": "Any attempt to escape..."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "And they blow you up! Boom!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "How wude!"
+    },
+    {
+      "character": "PADME",
+      "text": "I can't believe there's still slavery in the galaxy."
+    },
+    {
+      "character": "PADME",
+      "text": "The Republic's antislavery laws..."
+    },
+    {
+      "character": "SHMI",
+      "text": "The Republic doesn't exist out here. We must survive on our own."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Excuse me."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Has anybody ever seen a Podrace?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "They have Podracing on Malastare. Very fast, very dangerous."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm the only human who can do it. You must have Jedi reflexes if you race pods."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Don't do that again."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You're a Jedi knight, aren't you?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "What makes you think that?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I saw your laser sword. Only Jedis carry that kind of weapon."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Perhaps I killed a Jedi and took it from him."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I don't think so. No one can kill a Jedi."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I wish that were so."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I had a dream I was a Jedi. I came back here and freed all the slaves. Have you come to free us?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "No, I'm afraid not."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I think you have. Why else would you be here?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I can see there's no fooling you, Anakin."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "We're on our way to Coruscant, the central system in the Republic on a very important mission."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "How did you end up out here in the outer rim?"
+    },
+    {
+      "character": "PADME",
+      "text": "Our ship was damaged, and we're stranded here until we can repair it."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I can help. I can fix anything."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I believe you can. But first we must acquire the parts we need."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Wit no-nutten mula to trade."
+    },
+    {
+      "character": "PADME",
+      "text": "These junk dealers must have a weakness of some kind."
+    },
+    {
+      "character": "SHMI",
+      "text": "Gambling. Everything here revolves around betting on those awful races."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Podracing. Greed can be a powerful ally."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I built a racer. It's the fastest ever. There's a big race tomorrow on Boonta Eve. You could enter my pod."
+    },
+    {
+      "character": "SHMI",
+      "text": "Anakin, Watto won't let you."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Watto doesn't know I've built it. You could make him think it was yours and get him to let me pilot it for you."
+    },
+    {
+      "character": "SHMI",
+      "text": "I don't want you to race. It's awful. I die every time Watto makes you do it."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "But, Mom, I love it. The prize money would more than pay for the parts they need."
+    },
+    {
+      "character": "SHMI",
+      "text": "Anakin."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Your mother's right. Is there anyone friendly to the Republic who can help us?"
+    },
+    {
+      "character": "SHMI",
+      "text": "No."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Mom, you say the biggest problem in this universe is nobody helps each other."
+    },
+    {
+      "character": "PADME",
+      "text": "I'm sure Qui-Gon doesn't want to put your son in danger. We'll find some other way."
+    },
+    {
+      "character": "SHMI",
+      "text": "No. There is no other way. I may not like it, but he can help you. He was meant to help you."
+    },
+    {
+      "character": "PADME",
+      "text": "Are you sure about this? Trusting our fate to a boy we hardly know? The queen will not approve."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "The queen doesn't need to know."
+    },
+    {
+      "character": "PADME",
+      "text": "Well, I don't approve."
+    },
+    {
+      "character": "WATTO",
+      "text": "The boy tells me you want to sponsor him in the race. How can you do this? Not on the Republic credits, I think, huh?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "My ship will be the entry fee."
+    },
+    {
+      "character": "WATTO",
+      "text": "Oh, not bad! Not bad, huh? A Nubian, huh?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "It's in good order, except for the parts I need."
+    },
+    {
+      "character": "WATTO",
+      "text": "What would the boy ride? He smashed up my pod in the last race. It would take some long time to fix it."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "It wasn't my fault, really. Sebulba flashed me with his vents. I actually saved the pod, mostly."
+    },
+    {
+      "character": "WATTO",
+      "text": "Mmm. That you did, huh. (laughs) The boy's good. No doubts there, huh?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I have acquired a pod in a game of chance, the fastest ever built."
+    },
+    {
+      "character": "WATTO",
+      "text": "I hope you didn't kill anyone I know for it, huh?"
+    },
+    {
+      "character": "WATTO",
+      "text": "So, you supply the pod and the entry fee, and I supply the boy. We split the winnings, um, 50-50, I think, huh?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "If it's going to be 50-50, I suggest you front the cash for the entry. If we win, you keep all the winnings, minus the cost of the parts I need. And if we lose, you keep my ship. Either way, you win."
+    },
+    {
+      "character": "WATTO",
+      "text": "Deal!"
+    },
+    {
+      "character": "WATTO",
+      "text": "Your friend is a foolish one, me thinks."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "What if this plan fails, Master? We could be stuck here a very long time."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Well, it's too dangerous to call for help, and a ship without a power supply isn't going to get us anywhere. And there's something about this boy."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "You should be very proud of your son."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "He gives without any thought of reward."
+    },
+    {
+      "character": "SHMI",
+      "text": "He knows nothing of greed. He has a..."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "He has special powers."
+    },
+    {
+      "character": "SHMI",
+      "text": "Yes."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "He can see things before they happen. That's why he appears to have such quick reflexes. It's a Jedi trait."
+    },
+    {
+      "character": "SHMI",
+      "text": "He deserves better than a slave's life."
+    },
+    {
+      "character": "C3PO",
+      "text": "Why, certainly."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Had he been born in the Republic, we would have identified him early."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "The Force is unusually strong with him. That much is clear. Who was his father?"
+    },
+    {
+      "character": "SHMI",
+      "text": "There was no father. I carried him, I gave birth, I raised him. I can't explain what happened."
+    },
+    {
+      "character": "SHMI",
+      "text": "Can you help him?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I don't know. I didn't actually come here to free slaves."
+    },
+    {
+      "character": "KITSTER",
+      "text": "Wow, a real astro droid! How do you get so lucky?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "That isn't the half of it. I'm in the Boonta race tomorrow."
+    },
+    {
+      "character": "KITSTER",
+      "text": "What? With this?"
+    },
+    {
+      "character": "WALD",
+      "text": "You're such a joker, Ani."
+    },
+    {
+      "character": "AMEE",
+      "text": "You've been working on that for years."
+    },
+    {
+      "character": "SEEK",
+      "text": "It's never gonna run."
+    },
+    {
+      "character": "KITSTER",
+      "text": "Come on. Let's go and play ball. Keep racing, Ani. You're gonna be bug squash."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Hey, JarJar. Keep away from those energy binders. If your hand gets caught in the beam, it's gonna go numb for hours."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Sorry. Okay."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "My tongue is fat. My tongue, wrench. Where is de wrench?"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Oh, dare it is. Hey. Uh-oh. Uh, Ani. I'm stuck. Ani..."
+    },
+    {
+      "character": "C3PO",
+      "text": "You know, I find that Jar Jar creature to be a little odd."
+    },
+    {
+      "character": "KITSTER",
+      "text": "You don't even know if this thing's gonna run."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "It will."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I think it's time we found out. Here, use this power charge."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Yes, sir!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Come on, Kitster. Let's move away."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "My, my mouth. Ani, I'm stuck."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Uh, hey. My tongue is fat, Ani."
+    },
+    {
+      "character": "C3PO",
+      "text": "You're quite right. He's very odd indeed."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Oh. Th-thank you. Go."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "It's working! It's working!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Stay still, Ani. Let me clean this cut."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "There's so many. Do they all have a system of planets?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Most of them."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Has anyone been to 'em all?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Not likely."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I wanna be the first one to see 'em all."
+    },
+    {
+      "character": "SHMI",
+      "text": "Ani, bedtime!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "There we are. Good as new."
+    },
+    {
+      "character": "SHMI",
+      "text": "Ani, I'm not gonna tell you again."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What are you doing?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Checking your blood for infections. Go on. You have a big day tomorrow."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Sleep well, Ani."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Obi-Wan?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Yes, Master?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I need an analysis of this blood sample I'm sending you."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Wait a minute."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I need a midi-chlorian count."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "The reading is off the chart. Over 20,000. Even Master Yoda doesn't have a midi-chlorian count that high."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "No Jedi has."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "What does that mean?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I'm not sure."
+    },
+    {
+      "character": "WATTO",
+      "text": "I wanna see your spaceship the moment the race is over."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Patience, my blue friend. You'll have your winnings before the suns set. And we'll be far away from here."
+    },
+    {
+      "character": "WATTO",
+      "text": "Not if your ship belongs to me, I think, huh? (laughs) I warn you, no funny business."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "You don't think Anakin can win?"
+    },
+    {
+      "character": "WATTO",
+      "text": "Don't get me wrong, no. I have great faith in the boy. He's a credit to your race, but Sebulba there is going to win, I think."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Oh, no!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Why do you think that?"
+    },
+    {
+      "character": "WATTO",
+      "text": "He always wins! (laughs) I am betting heavily on Sebulba."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I'll take that bet."
+    },
+    {
+      "character": "WATTO",
+      "text": "You what?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I'll wager my new racing pod against, say, the boy and his mother."
+    },
+    {
+      "character": "WATTO",
+      "text": "No pod is worth two slaves, not by a long shot."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "The boy, then."
+    },
+    {
+      "character": "WATTOO",
+      "text": "Hmm. Well, uh, we'll let fate decide, huh?"
+    },
+    {
+      "character": "WATTO",
+      "text": "I just happen to have a chance cube here. Blue, it's the boy. Red, his mother."
+    },
+    {
+      "character": "WATTO",
+      "text": "You won this small toss, outlander, but you won't win the race! So it makes little difference!"
+    },
+    {
+      "character": "WATTO",
+      "text": "I just happen to have a chance cube here. Blue, it's the boy. Red, his mother."
+    },
+    {
+      "character": "WATTO",
+      "text": "You won this small toss, outlander, but you won't win the race! So it makes little difference!"
+    },
+    {
+      "character": "WATTO",
+      "text": "Better stop your friend's betting or I'll end up owning him too."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What'd he mean by that?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I'll tell you later. Good morning."
+    },
+    {
+      "character": "C3PO",
+      "text": "Oh, my. Space travel sounds rather perilous."
+    },
+    {
+      "character": "C3PO",
+      "text": "I can assure you, they will never get me onto one of those dreadful starships."
+    },
+    {
+      "character": "KITSTER",
+      "text": "This is so wizard, Ani. I'm sure you'll do it this time."
+    },
+    {
+      "character": "PADME",
+      "text": "Do what?"
+    },
+    {
+      "character": "KITSTER",
+      "text": "Finish the race, of course."
+    },
+    {
+      "character": "PADME",
+      "text": "You've never won a race?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Well, not exactly."
+    },
+    {
+      "character": "PADME",
+      "text": "Not even finished?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Kitster's right. I will this time."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Of course you will."
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "We have perfect weather today for the Boonta classic. The most hazardous of all Podraces."
+    },
+    {
+      "character": "FODE",
+      "text": "That's absolutely right. And a big turnout here from all corners of the outer rim territories. I see the contestants are making their way out onto the starting grid."
+    },
+    {
+      "character": "BEED",
+      "text": "I see Ben Quadinaros from the Tund System."
+    },
+    {
+      "character": "FODE",
+      "text": "And Gasgano in the new Ord Pedrovia."
+    },
+    {
+      "character": "BODE",
+      "text": "Two-time winner Boles Roor."
+    },
+    {
+      "character": "FODE",
+      "text": "Two-time winner Sebulba!"
+    },
+    {
+      "character": "BODE",
+      "text": "And in the front row, nearside pole position, Mawhonic!"
+    },
+    {
+      "character": "BODE",
+      "text": "A hearty hello to Clegg Holdfast and his Voltec KT9 Wasp!"
+    },
+    {
+      "character": "BODE",
+      "text": "And back again, it's the mighty Dud Bolt with that incredible racing machine, the Vulptereen 327."
+    },
+    {
+      "character": "BODE",
+      "text": "And hoping for a big win today, Ody Mandrell, with his record-setting pit droid team."
+    },
+    {
+      "character": "BODE",
+      "text": "And a late entry, young Anakin Skywalker, a local boy. I see the flags are moving out onto the track."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Pee-yuusa!"
+    },
+    {
+      "character": "SHMI",
+      "text": "Be safe."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I will, Mom. I promise."
+    },
+    {
+      "character": "SEBULBA",
+      "text": "You won't walk away from this one, you slave scum."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Don't count on it, slime ball."
+    },
+    {
+      "character": "SEBULBA",
+      "text": "You're bantha fodder!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "You all set, Ani?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Yep."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Right."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Remember, concentrate on the moment. Feel, don't think. Use your instincts."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I will."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "May the Force be with you."
+    },
+    {
+      "character": "FODE",
+      "text": "His honor, our glorious host, Jabba the Hutt has entered the arena. Jabba the Hutt."
+    },
+    {
+      "character": "JABBA",
+      "text": "Welcome, race fans! Begin the race!"
+    },
+    {
+      "character": "FODE",
+      "text": "The power couplings are being activated."
+    },
+    {
+      "character": "BODE",
+      "text": "Hey, it looks like they're clearing the grid."
+    },
+    {
+      "character": "SHMI",
+      "text": "Is he nervous?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "He's fine."
+    },
+    {
+      "character": "PADME",
+      "text": "You Jedi are far too reckless. The queen is not..."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "The queen trusts my judgment, young handmaiden. You should too."
+    },
+    {
+      "character": "PADME",
+      "text": "You assume too much."
+    },
+    {
+      "character": "BODE",
+      "text": "Start your engines."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Oh, dissen gonna be messy. Me no watch'n!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Oh, no! No!"
+    },
+    {
+      "character": "BODE",
+      "text": "Wait. Little Skywalker has stalled."
+    },
+    {
+      "character": "BODE",
+      "text": "Well, it looks like Quadinaros is having engine trouble also."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Come on, Ani!"
+    },
+    {
+      "character": "BODE",
+      "text": "And there goes Skywalker!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Go, Ani, go!"
+    },
+    {
+      "character": "BODE",
+      "text": "He will be hard-pressed to catch up with the leaders."
+    },
+    {
+      "character": "BODE",
+      "text": "Looks like a few Tusken Raiders are camped out on the canyon dune turn."
+    },
+    {
+      "character": "BODE",
+      "text": "Ooh, there goes Quadinaros' power coupling."
+    },
+    {
+      "character": "ODY",
+      "text": "Oh, no!"
+    },
+    {
+      "character": "C3PO",
+      "text": "Where is Master Anakin?"
+    },
+    {
+      "character": "PADME",
+      "text": "Look. Here he comes."
+    },
+    {
+      "character": "BODE",
+      "text": "It looks like Skywalker is moving up in the field."
+    },
+    {
+      "character": "KITSTER",
+      "text": "Yay! Yippee!"
+    },
+    {
+      "character": "C3PO",
+      "text": "He has to complete two more circuits? Oh, dear."
+    },
+    {
+      "character": "BODE",
+      "text": "Skywalker's spinning out of control!"
+    },
+    {
+      "character": "BODE",
+      "text": "Oh, I don't care what universe you're from. That's gotta hurt!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Here he comes!"
+    },
+    {
+      "character": "BODE",
+      "text": "At the start of the third and final lap, Sebulba's in the lead followed closely by Skywalker!"
+    },
+    {
+      "character": "KITSTER",
+      "text": "Go, Ani!"
+    },
+    {
+      "character": "BODE",
+      "text": "Skywalker's been forced onto the service ramp!"
+    },
+    {
+      "character": "BEED",
+      "text": "It's Skywalker!"
+    },
+    {
+      "character": "CROWD",
+      "text": "Sebulba!"
+    },
+    {
+      "character": "BEED",
+      "text": "Amazing! A quick control thrust, and he's back on course!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Did he crash-ed?"
+    },
+    {
+      "character": "BEED",
+      "text": "Skywalker's in trouble! Sebulba takes the lead!"
+    },
+    {
+      "character": "BEED",
+      "text": "He's catching Sebulba!"
+    },
+    {
+      "character": "FODE",
+      "text": "Inkabunga."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Careful, Ani. Careful, Ani!"
+    },
+    {
+      "character": "BEED",
+      "text": "That little human being is out of his mind!"
+    },
+    {
+      "character": "FODE",
+      "text": "They're neck and neck!"
+    },
+    {
+      "character": "BEED",
+      "text": "They're side by side!"
+    },
+    {
+      "character": "FODE",
+      "text": "Shoulder to shoulder!"
+    },
+    {
+      "character": "KITSTER",
+      "text": "Yippee! Yippee! Yay!"
+    },
+    {
+      "character": "C3PO",
+      "text": "I can't believe it."
+    },
+    {
+      "character": "BEED",
+      "text": "The crowds are going nuts!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Yay, Ani!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Mom, I did it! Yay!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Good going, Ani!"
+    },
+    {
+      "character": "PADME",
+      "text": "We owe you everything, Ani."
+    },
+    {
+      "character": "SHMI",
+      "text": "It's so wonderful, Ani. You have brought hope to those who have none. I'm so very proud of you."
+    },
+    {
+      "character": "WATTO",
+      "text": "You! You swindled me. You knew the boy was going to do it. Somehow you knew it. I lost everything."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Whenever you gamble, my friend, eventually you lose. (starts leaving) Bring the parts to the main hangar. I'll come by your shop later on so you can release the boy."
+    },
+    {
+      "character": "WATTO",
+      "text": "You can't have him. It wasn't a fair bet."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Would you like to discuss it with the Hutts? I'm sure they can settle this."
+    },
+    {
+      "character": "WATTO",
+      "text": "Take him."
+    },
+    {
+      "character": "WATTO",
+      "text": "o do it. Somehow you knew it. I lost everything."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Whenever you gamble, my friend, eventually you lose. Bring the parts to the main hangar. I'll come by your shop later on so you can release the boy."
+    },
+    {
+      "character": "WATTO",
+      "text": "You can't have him. It wasn't a fair bet."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Would you like to discuss it with the Hutts? I'm sure they can settle this."
+    },
+    {
+      "character": "WATTO",
+      "text": "Take him."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Hidoe!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Well, we have all the essential parts we need. I'm going back. Some unfinished business. I won't be long."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Why do I sense we've picked up another pathetic life-form?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "It's the boy who's responsible for getting us these parts. Get this hyperdrive generator installed."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Yes, Master. That shouldn't take long."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Come on. Hup!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Hey. These are yours."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Yes!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Mom, we sold the pod! Look at all the money we have!"
+    },
+    {
+      "character": "SHMI",
+      "text": "My goodness! But that's so wonderful, Ani."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "And he has been freed."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "You're no longer a slave."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Did you hear that?"
+    },
+    {
+      "character": "SHMI",
+      "text": "Now you can make your dreams come true, Ani. You are free."
+    },
+    {
+      "character": "SHMI",
+      "text": "Will you take him with you? Is he to become a Jedi?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Yes. Our meeting was not a coincidence. Nothing happens by accident."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You mean I get to come with you in your starship?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Anakin, training to become a Jedi is not an easy challenge, and even if you succeed, it's a hard life."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "But I wanna go. It's what I've always dreamed of doing. Can I go, Mom?"
+    },
+    {
+      "character": "SHMI",
+      "text": "Anakin, this path has been placed before you. The choice is yours alone."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I wanna do it."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Then pack your things. We haven't much time."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Yippee!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What about Mom? Is she free too?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I tried to free your mother, Ani, but Watto wouldn't have it."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You're coming with us, aren't you, Mom?"
+    },
+    {
+      "character": "SHMI",
+      "text": "Son, my place is here. My future is here. It is time for you to let go."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I don't want things to change."
+    },
+    {
+      "character": "SHMI",
+      "text": "But you can't stop the change any more than you can stop the suns from setting. Oh, I love you."
+    },
+    {
+      "character": "SHMI",
+      "text": "Now hurry."
+    },
+    {
+      "character": "SHMI",
+      "text": "Thank you."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I'll watch after him. You have my word. Will you be all right?"
+    },
+    {
+      "character": "SHMI",
+      "text": "Yeah."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh! Oh my! Oh! Hello, Master Anakin."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Well, 3PO, I've been freed and I'm going away in a starship."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Master Anakin, you are my maker and I wish you well. However, I should prefer it if I were a little more completed."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm sorry I wasn't able to finish you, 3PO, give you coverings and all. I'm gonna miss working on you. You've been a great pal. I'll make sure Mom doesn't sell you or anything."
+    },
+    {
+      "character": "C3PO",
+      "text": "Sell me?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Bye."
+    },
+    {
+      "character": "C3PO",
+      "text": "Oh, my."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I can't do it, Mom. I just can't do it."
+    },
+    {
+      "character": "SHMI",
+      "text": "Ani."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Will I ever see you again?"
+    },
+    {
+      "character": "SHMI",
+      "text": "What does your heart tell you?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I hope so. Yes. I guess."
+    },
+    {
+      "character": "SHMI",
+      "text": "Then we will see each other again."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I will come back and free you, Mom. I promise."
+    },
+    {
+      "character": "SHMI",
+      "text": "Now, be brave, and don't look back. Don't look back."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Qui-Gon, sir, wait! I'm tired!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Anakin! Drop!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Go! Tell them to take off!"
+    },
+    {
+      "character": "PANAKA",
+      "text": "Qui-Gon's in trouble."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Take off. Over there. Fly low."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Are you all right?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I think so."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "What was it?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I'm not sure, but it was well-trained in the Jedi arts. My guess is it was after the queen."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What are we gonna do about it?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "We shall be patient. Anakin Skywalker, meet Obi-Wan Kenobi."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Hi. You're a Jedi too? Pleased to meet you."
+    },
+    {
+      "character": "NUTE",
+      "text": "Your queen is lost, your people are starving, and you, Governor, are going to die much sooner than your people, I'm afraid."
+    },
+    {
+      "character": "BIBBLE",
+      "text": "This invasion will gain you nothing. We're a democracy. The people have decided."
+    },
+    {
+      "character": "NUTE",
+      "text": "Take him away."
+    },
+    {
+      "character": "OOM-9",
+      "text": "My troops are in position to begin searching the swamps for these rumoured underwater villages. They will not stay hidden for long."
+    },
+    {
+      "character": "BIBBLE",
+      "text": "The death toll is catastrophic. We must bow to their wishes. You must contact me."
+    },
+    {
+      "character": "PADME",
+      "text": "You all right?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "It's very cold."
+    },
+    {
+      "character": "PADME",
+      "text": "You come from a warm planet, Ani. A little too warm for my taste. Space is cold."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You seem sad."
+    },
+    {
+      "character": "PADME",
+      "text": "The queen is worried. Her people are suffering, dying. She must convince the senate to intervene, or I'm not sure what'll happen."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I made this for you, so you'd remember me. I carved it out of a japor snippet. It'll bring you good fortune."
+    },
+    {
+      "character": "PADME",
+      "text": "It's beautiful. But I don't need this to remember you by. Many things will change when we reach the capital, Ani, but my caring for you will remain."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I care for you, too, only l..."
+    },
+    {
+      "character": "PADME",
+      "text": "Miss your mother."
+    },
+    {
+      "character": "RIC OLIE",
+      "text": "Coruscant. The entire planet is one big city. There's Chancellor Valorum's shuttle. And look over there, Senator Palpatine is waiting for us."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "It is a great gift to see you alive, Your Majesty. With the communications breakdown, we've been very concerned. I'm anxious to hear your report on the situation. May I present Supreme Chancellor Valorum."
+    },
+    {
+      "character": "VALORUM",
+      "text": "Welcome, Your Highness. It's an honour to finally meet you in person."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "Thank you, Supreme Chancellor."
+    },
+    {
+      "character": "VALORUM",
+      "text": "I must relay to you how distressed everyone is over the current situation. I've called for a special session of the senate to hear your position."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "I'm grateful for your concern, Chancellor."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "There is a question of procedure, but I'm confident we can overcome it."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I must speak with the Jedi Council immediately. The situation has become much more complicated."
+    },
+    {
+      "character": "PADME",
+      "text": "Ani, come on."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Da queen's a bein grossly nice, mesa tinks. Pitty hot."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "There is no civility, only politics. The Republic is not what it once was. The senate is full of greedy, squabbling delegates. There is no interest in the common good. I must be frank, Your Majesty. There is little chance the senate will act on the invasion."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "Chancellor Valorum seems to think there is hope."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "If I may say so, Your Majesty, the chancellor has little real power. He is mired by baseless accusations of corruption. The bureaucrats are in charge now."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "What options have we?"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Our best choice would be to push for the election of a stronger supreme chancellor, one who could control the bureaucrats and give us justice. You could call for a vote of no confidence in Chancellor Valorum."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "He has been our strongest supporter."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Our only other choice would be to submit a plea to the courts."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "The courts take even longer to decide things than the senate."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "Our people are dying, Senator. We must do something quickly to stop the Federation."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "To be realistic, Your Majesty, I think we're going to have to accept Federation control, for the time being."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "That is something I cannot do."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "He was trained in the Jedi arts. My only conclusion can be that it was a Sith lord."
+    },
+    {
+      "character": "KI-ADI-MUNDI",
+      "text": "Impossible. The Sith have been extinct for a millennium."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "I do not believe the Sith could have returned without us knowing."
+    },
+    {
+      "character": "YODA",
+      "text": "Ah, hard to see, the dark side is."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "We will use all our resources to unravel this mystery. We will discover the identity of your attacker. May the Force be with you."
+    },
+    {
+      "character": "YODA",
+      "text": "Master Qui-Gon. More to say have you?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "With your permission, my master, I have encountered a vergence in the Force."
+    },
+    {
+      "character": "YODA",
+      "text": "A vergence, you say?"
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Located around a person?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "A boy. His cells have the highest concentration of midi-chlorians I have seen in a life-form. It is possible he was conceived by the midi-chlorians."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "You refer to the prophecy of the one who will bring balance to the Force. You believe it's this boy?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I don't presume to..."
+    },
+    {
+      "character": "YODA",
+      "text": "But you do. Revealed your opinion is."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I request the boy be tested, Master."
+    },
+    {
+      "character": "YODA",
+      "text": "Oh? Trained as a Jedi you request for him, hmm?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Finding him was the will of the Force. I have no doubt of that."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Bring him before us, then."
+    },
+    {
+      "character": "GUARD",
+      "text": "The boy's here to see Padme."
+    },
+    {
+      "character": "RABE",
+      "text": "Let him in."
+    },
+    {
+      "character": "RABE",
+      "text": "I'm sorry, Ani, but Padme's not here right now."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "Who is it?"
+    },
+    {
+      "character": "RABE",
+      "text": "Anakin Skywalker to see Padme, Your Highness."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "I've sent Padme on an errand."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm on my way to the Jedi temple to start my training, I hope. I may never see her again, so I came to say goodbye."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "We will tell her for you. We are sure her heart goes with you."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Thank you, Your Highness."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "I've sent Padme on an errand."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm on my way to the Jedi temple to start my training, I hope. I may never see her again, so I came to say goodbye."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "We will tell her for you. We are sure her heart goes with you."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Thank you, Your Highness."
+    },
+    {
+      "character": "VALORUM",
+      "text": "The chair recognizes the senator from the sovereign system of Naboo."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Supreme Chancellor, delegates of the senate, a tragedy has occurred which started right here with the taxation of trade routes and has now engulfed our entire planet in the oppression of the Trade Federation."
+    },
+    {
+      "character": "LOTT DOD",
+      "text": "This is outrageous! I object to the senator's statements."
+    },
+    {
+      "character": "VALORUM",
+      "text": "The chair does not recognize the senator from the Trade Federation at this time."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "To state our allegations, I present Queen Amidala, recently elected ruler of the Naboo, who speaks on our behalf."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "Honourable representatives of the Republic, I come to you under the gravest of circumstances. The Naboo system has been invaded by the droid armies of the Trade..."
+    },
+    {
+      "character": "LOTT DOD",
+      "text": "I object! There is no proof! This is incredible. We recommend a commission be sent to Naboo to ascertain the truth."
+    },
+    {
+      "character": "AKS MOE",
+      "text": "The Congress of Malastare concurs with the honourable delegate from the Trade Federation. A commission must be appointed."
+    },
+    {
+      "character": "VALORUM",
+      "text": "The point..."
+    },
+    {
+      "character": "MAS AMEDDA",
+      "text": "Excuse me, Chancellor."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Enter the bureaucrat. The true rulers of the Republic. And on the payroll of the Trade Federation, I might add. This is where Chancellor Valorum's strength will disappear."
+    },
+    {
+      "character": "VALORUM",
+      "text": "The point is conceded. Will you defer your motion to allow a commission to explore the validity of your accusations?"
+    },
+    {
+      "character": "AMIDALA",
+      "text": "I will not defer. I've come before you to resolve this attack on our sovereignty now. I was not elected to watch my people suffer and die while you discuss this invasion in a committee."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "If this body is not capable of action, I suggest new leadership is needed. I move for a vote of no confidence in Chancellor Valorum's leadership."
+    },
+    {
+      "character": "ASSEMBLY",
+      "text": "Vote now! Vote now! Vote now! Vote now! Vote now!"
+    },
+    {
+      "character": "MAS AMEDDA",
+      "text": "Order!"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Now they will elect a new chancellor, a strong chancellor, one who will not let our tragedy continue."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "The boy will not pass the council's test, Master. He's too old."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Anakin will become a Jedi, I promise you."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Do not defy the council, Master, not again."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I shall do what I must, Obi-Wan."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "If you would just follow the code, you would be on the council. They will not go along with you this time."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "You still have much to learn, my young apprentice."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "A ship. A cup. A ship. A speeder."
+    },
+    {
+      "character": "YODA",
+      "text": "Hmmm. How feel you?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Cold, sir."
+    },
+    {
+      "character": "YODA",
+      "text": "Afraid are you?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "No, sir."
+    },
+    {
+      "character": "YODA",
+      "text": "See through you we can."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Be mindful of your feelings."
+    },
+    {
+      "character": "KI-ADI-MUNDI",
+      "text": "Your thoughts dwell on your mother."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I miss her."
+    },
+    {
+      "character": "YODA",
+      "text": "Hmm. Afraid to lose her, I think, mmm?"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What has that got to do with anything?"
+    },
+    {
+      "character": "YODA",
+      "text": "Everything. Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering."
+    },
+    {
+      "character": "YODA",
+      "text": "I sense much fear in you."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Yousa tinking yousa people ganna die?"
+    },
+    {
+      "character": "AMIDALA",
+      "text": "I don't know."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Gungans get pasted too, eh?"
+    },
+    {
+      "character": "AMIDALA",
+      "text": "I hope not."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Gungans no die'n without a fght. Wesa warriors. Wesa got a grand army. Dat's why you no liken us, mesa tinks."
+    },
+    {
+      "character": "PANAKA",
+      "text": "Your Highness? Your Highness, Senator Palpatine has been nominated to succeed Valorum as supreme chancellor."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "A surprise, to be sure, but a welcome one. Your Majesty, if I am elected, I promise to put an end to corruption."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "Who else has been nominated?"
+    },
+    {
+      "character": "PANAKA",
+      "text": "Bail Antilles of Alderaan and Ainlee Teem of Malastare."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I feel confident our situation will create a strong sympathy vote for us."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I will be chancellor."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "I fear by the time you have control of the bureaucrats, Senator, there'll be nothing left of our people, our way of life."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I understand your concern, Your Majesty. Unfortunately, the Federation has possession of our planet."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "Senator, this is your arena. I feel I must return to mine. I've decided to go back to Naboo."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Go back? But, Your Majesty, be realistic. They'll force you to sign the treaty."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "I will sign no treaty, Senator. My fate will be no different than that of our people. Captain."
+    },
+    {
+      "character": "PANAKA",
+      "text": "Your Highness."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "Ready my ship."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Please, Your Majesty. Stay here where it's safe."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "It is clear to me now that the Republic no longer functions. I pray you will bring sanity and compassion back to the senate."
+    },
+    {
+      "character": "KI-ADI-MUNDI",
+      "text": "The Force is strong with him."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "He is to be trained, then?"
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "No, he will not be trained."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "No?"
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "He is too old."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "He is the chosen one. You must see it."
+    },
+    {
+      "character": "YODA",
+      "text": "Clouded this boy's future is."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I will train him, then. I take Anakin as my Padawan learner."
+    },
+    {
+      "character": "YODA",
+      "text": "An apprentice you have, Qui-Gon. Impossible to take on a second."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "The code forbids it."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Obi-Wan is ready."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I am ready to face the trials."
+    },
+    {
+      "character": "YODA",
+      "text": "Our own counsel we will keep on who is ready."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "He is headstrong and he has much to learn of the living Force, but he is capable. There is little more he can learn from me."
+    },
+    {
+      "character": "YODA",
+      "text": "Young Skywalker's fate will be decided later."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Now is not the time for this. The senate is voting for a new supreme chancellor, and Queen Amidala is returning home, which puts pressure on the Federation and could widen the confrontation."
+    },
+    {
+      "character": "KI-ADI-MUNDI",
+      "text": "And draw out the queen's attacker."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Go with the queen to Naboo and discover the identity of this dark warrior. This is the clue we need to unravel the mystery of the Sith."
+    },
+    {
+      "character": "YODA",
+      "text": "May the Force be with you."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "It's not disrespect, Master. It's the truth."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "From your point of view."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "The boy is dangerous. They all sense it. Why can't you?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "His fate is uncertain. He's not dangerous. The council will decide Anakin's future. That should be enough for you. Now get on board."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Qui-Gon, sir, I don't want to be a problem."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "You won't be, Ani. I'm not allowed to train you, so I want you to watch me and be mindful. Always remember: Your focus determines your reality. Stay close to me and you'll be safe."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Master, sir, I heard Yoda talking about midi-chlorians. I've been wondering… What are midi-chlorians?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Midi-chlorians are a microscopic life-form that resides within all living cells."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "They live inside me?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Inside your cells, yes. And we are symbionts with them."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Symbionts?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Life-forms living together for mutual advantage. Without the midi-chlorians, life could not exist and we would have no knowledge of the Force. They continually speak to us, telling us the will of the Force. When you learn to quiet your mind, you'll hear them speaking to you."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I don't understand."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "With time and training, Ani, you will. You will."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Your Majesty, it is our pleasure to continue to serve and protect you."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "I welcome your help. Senator Palpatine fears that the Federation means to destroy me."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I assure you I will not allow that to happen."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Wesa goin' home!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Come on, R2."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "Is the planet secure?"
+    },
+    {
+      "character": "NUTE",
+      "text": "We have taken over the last pockets of primitive life-forms. We are in complete control of the planet now."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "Good. I will see to it that in the senate things stay as they are. I am sending my apprentice, Darth Maul, to join you."
+    },
+    {
+      "character": "NUTE",
+      "text": "Yes, my lord."
+    },
+    {
+      "character": "RUNE",
+      "text": "A Sith here?"
+    },
+    {
+      "character": "RIC OLIE",
+      "text": "Those are the forward stabilizers."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "And those two control the pitch?"
+    },
+    {
+      "character": "RIC OLIE",
+      "text": "You catch on pretty quick."
+    },
+    {
+      "character": "PANAKA",
+      "text": "As soon as we land, the Federation will arrest you and force you to sign the treaty."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "I agree. I'm not sure what you wish to accomplish by this."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "I will take back what's ours."
+    },
+    {
+      "character": "PANAKA",
+      "text": "There are too few of us, Your Highness. We have no army."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "And I can only protect you. I can't fight a war for you."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "Jar Jar Binks."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Mesa, Your Highness?"
+    },
+    {
+      "character": "AMIDALA",
+      "text": "Yes. I need your help."
+    },
+    {
+      "character": "RIC OLIE",
+      "text": "I have one battleship on my scope."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "It's a droid control ship."
+    },
+    {
+      "character": "PANAKA",
+      "text": "They've probably spotted us."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "We haven't much time."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Jar Jar is on his way to the Gungan city, Master."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Good."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Do you think the queen's idea will work?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "The Gungans will not be easily swayed. And we cannot use our power to help her."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "I'm sorry for my behaviour, Master. It's not my place to disagree with you about the boy. And I am grateful you think I'm ready to take the trials."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "You've been a good apprentice, Obi-Wan. And you're a much wiser man than I am. I foresee you will become a great Jedi knight."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Desa nobody dare! The Gungan city is deserted! Some kinda fight, mesa tinks."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Do you think they have been taken to the camps?"
+    },
+    {
+      "character": "PANAKA",
+      "text": "More likely they were wiped out."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Mesa no tink so."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Do you know where they are, Jar Jar?"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "When in trouble, Gungans go to sacred place. Mesa show you. Come on. Mesa show you!"
+    },
+    {
+      "character": "CAPTAIN TARPALS",
+      "text": "Your Honour, Queen Amidala of the Naboo."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Heyo dadee Big Boss Nass, Your Honour."
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Jar Jar Binks. Who's da uss-en uthers?"
+    },
+    {
+      "character": "AMIDALA",
+      "text": "I am Queen Amidala of the Naboo. I come before you in peace."
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Ah, Naboo biggen. Yousa bringen da Mackineeks. Yousa all bombad."
+    },
+    {
+      "character": "AMIDALA",
+      "text": "We have searched you out because we wish to form an alliance."
+    },
+    {
+      "character": "PADME",
+      "text": "Your Honour."
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Whosa dis?"
+    },
+    {
+      "character": "PADME",
+      "text": "I am Queen Amidala."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Huh?"
+    },
+    {
+      "character": "PADME",
+      "text": "This is my decoy, my protection, my loyal bodyguard. I'm sorry for my deception, but it was necessary to protect myself. Although we do not always agree, Your Honour, our two great societies have always lived in peace."
+    },
+    {
+      "character": "PADME",
+      "text": "Your Honour."
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Whosa dis?"
+    },
+    {
+      "character": "PADME",
+      "text": "I am Queen Amidala."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Huh?"
+    },
+    {
+      "character": "PADME",
+      "text": "This is my decoy, my protection, my loyal bodyguard. I'm sorry for my deception, but it was necessary to protect myself. Although we do not always agree, Your Honour, our two great societies have always lived in peace."
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Ah."
+    },
+    {
+      "character": "PADME",
+      "text": "The Trade Federation has destroyed all that we have worked so hard to build. If we do not act quickly, all will be lost forever. I ask you to help us."
+    },
+    {
+      "character": "PADME",
+      "text": "No, I beg you to help us. We are your humble servants. Our fate is in your hands."
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Yousa no tinken yousa greater den da Gungans? Mesa lika dis! Maybe wesa being friends."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Yippee! Yahoo!"
+    },
+    {
+      "character": "NUTE",
+      "text": "We've sent our patrols. We already located their starship in the swamp. It won't be long, my lord."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "This is an unexpected move for her. It's too aggressive. Lord Maul, be mindful. Let them make the first move."
+    },
+    {
+      "character": "DARTH MAUL",
+      "text": "Yes, my master."
+    },
+    {
+      "character": "GUNGAN LOOKOUT",
+      "text": "Deysa comin!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "All right!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "They're here!"
+    },
+    {
+      "character": "PADME",
+      "text": "Good. They made it."
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Yousa doen grand. Jar Jar bring uss-en and da Naboo together."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Oh, no, no, no."
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "So, wesa make you bombad general."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "General?!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Captain."
+    },
+    {
+      "character": "PANAKA",
+      "text": "Your Highness."
+    },
+    {
+      "character": "PADME",
+      "text": "What is the situation?"
+    },
+    {
+      "character": "PANAKA",
+      "text": "Almost everyone's in camps. A few hundred police and guards formed an underground resistance movement. I brought back as many of the leaders as I could. The Federation army's also much larger than we thought and much stronger. Your Highness, this is a battle I do not think that we can win."
+    },
+    {
+      "character": "PADME",
+      "text": "The battle is a diversion. The Gungans must draw the droid army away from the cities. R2."
+    },
+    {
+      "character": "PADME",
+      "text": "We can enter the city using the secret passages on the waterfall side. Once we get to the main entrance, Captain Panaka will create a diversion. Then we can enter the palace and capture the viceroy. Without the viceroy, they will be lost and confused. What do you think, Master Jedi?"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "The viceroy will be well-guarded."
+    },
+    {
+      "character": "PANAKA",
+      "text": "The difficulty is getting into the throne room. Once we're inside, we shouldn't have a problem."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "There is a possibility, with this diversion, many Gungans will be killed."
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Wesa ready to do our-san part."
+    },
+    {
+      "character": "PADME",
+      "text": "We have a plan which should immobilize the droid army. We will send what pilots we have to knock out the droid control ship orbiting the planet."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "A well-conceived plan. However, there's great risk. The weapons on your fighters may not penetrate the shields."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "There's an even bigger danger. If the viceroy escapes, Your Highness, he will return with another droid army."
+    },
+    {
+      "character": "PADME",
+      "text": "Well, that is why we must not fail to get the viceroy. Everything depends on it."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "She is more foolish than I thought."
+    },
+    {
+      "character": "NUTE",
+      "text": "We are sending all troops to meet this army assembling near the swamp. It appears to be made up of primitives."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "This will work to our advantage."
+    },
+    {
+      "character": "NUTE",
+      "text": "I have your approval to proceed, then, my lord?"
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "Wipe them out. All of them."
+    },
+    {
+      "character": "GUNGAN LOOKOUT",
+      "text": "Halt!"
+    },
+    {
+      "character": "GUNGAN LOOKOUT",
+      "text": "Starting up the shield."
+    },
+    {
+      "character": "BATTLE DROID",
+      "text": "Open fire."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Once we get inside, you find a safe place to hide and stay there."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Sure."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Stay there."
+    },
+    {
+      "character": "BATTLE DROID",
+      "text": "Roger, roger."
+    },
+    {
+      "character": "NUTE",
+      "text": "I thought the battle was going to take place far from here. This is too close."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Ani, find cover. Quick!"
+    },
+    {
+      "character": "PADME",
+      "text": "Get to your ships!"
+    },
+    {
+      "character": "PILOT 1",
+      "text": "Fighters straight ahead."
+    },
+    {
+      "character": "PILOT 2",
+      "text": "Roger, Bravo Leader."
+    },
+    {
+      "character": "PILOT 3",
+      "text": "Roger, Bravo Leader."
+    },
+    {
+      "character": "BATTLE DROID",
+      "text": "Cease fire."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Steady. Steady."
+    },
+    {
+      "character": "NUTE",
+      "text": "Activate the droids."
+    },
+    {
+      "character": "RUNE",
+      "text": "Yes, sir."
+    },
+    {
+      "character": "CAPTAIN TARPALS",
+      "text": "Ouch time."
+    },
+    {
+      "character": "GUNGAN GENERAL",
+      "text": "Fire!"
+    },
+    {
+      "character": "PADME",
+      "text": "My guess is the viceroy's in the throne room."
+    },
+    {
+      "character": "PANAKA",
+      "text": "Red group! Blue group! Everybody, this way!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Hey, wait for me!"
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Anakin, stay where you are. You'll be safe there."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "But l..."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Stay in that cockpit."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "We'll handle this."
+    },
+    {
+      "character": "PADME",
+      "text": "We'll take the long way."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "We gotta do something, R2."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm trying to! I don't know where the trigger is!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Oops, wrong one. Maybe it's this one."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Nope. Wait. Here it is."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Yeah!"
+    },
+    {
+      "character": "PADME",
+      "text": "Let's go!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "It's on automatic pilot."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Try to override it."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Look, there they are. That's where the autopilot's taking us."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Dumb droid. Take that! Get off! Get off! Get off! Get off! Ooh! Ooh! Modie!"
+    },
+    {
+      "character": "RIC OLIE",
+      "text": "The deflector shield is too strong."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "This is tense! Whoa! R2, get us off this autopilot. It's gonna get us both killed."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "You did it, R2! Okay, let's go left."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Go back? Qui-Gon told me to stay in this cockpit, so that's what I'm gonna do."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'll try spinning. That's a good trick."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I know we're in trouble. Just hang on."
+    },
+    {
+      "character": "PANAKA",
+      "text": "Go!"
+    },
+    {
+      "character": "PANAKA",
+      "text": "Ascension guns!"
+    },
+    {
+      "character": "PADME",
+      "text": "We don't have time for this, Captain."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Retreat! Retreat!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Dis is nutsen."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Uh-oh. Big boomers."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Retreat! Retreat!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Dis is nutsen."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Uh-oh. Big boomers."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Give me a lift!"
+    },
+    {
+      "character": "CAPTAIN TARPALS",
+      "text": "Jar Jar, usen da booma!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "What? Mesa no have a booma!"
+    },
+    {
+      "character": "CAPTAIN TARPALS",
+      "text": "Here. Taken dis one."
+    },
+    {
+      "character": "CAPTAIN TARPALS",
+      "text": "Jar Jar! Jump, Jar Jar, jump!"
+    },
+    {
+      "character": "PADME",
+      "text": "Put down your weapons. They win this round."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "We're hit, R2!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "I'm trying to stop! I'm trying to stop!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Everything's overheated."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Oops. This is not good."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "NNNOOOOOOOOOOO!!!!!!!!"
+    },
+    {
+      "character": "CAPTAIN TARPALS",
+      "text": "No giben up, General Jar Jar. Mesa think of something."
+    },
+    {
+      "character": "BATTLE DROID",
+      "text": "Hands up."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "My give up. My give up."
+    },
+    {
+      "character": "CAPTAIN TARPALS",
+      "text": "(with his hands up)"
+    },
+    {
+      "character": "NUTE",
+      "text": "Your little insurrection is at an end, Your Highness. Time for you to sign the treaty and end this pointless debate in the senate."
+    },
+    {
+      "character": "SABE",
+      "text": "Viceroy! Your occupation here has ended."
+    },
+    {
+      "character": "NUTE",
+      "text": "After her. This one's a decoy."
+    },
+    {
+      "character": "PADME",
+      "text": "Captain!"
+    },
+    {
+      "character": "PANAKA",
+      "text": "Jam the doors."
+    },
+    {
+      "character": "PADME",
+      "text": "Now, Viceroy, we will discuss a new treaty."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Yes! We have power. Shields up."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Take this!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "And this!"
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Oops."
+    },
+    {
+      "character": "TEY HOW",
+      "text": "We're losing power. There seems to be a problem with the main reactor."
+    },
+    {
+      "character": "DOFINE",
+      "text": "Impossible! Nothing can get through our shield."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Let's get outta here."
+    },
+    {
+      "character": "BRAVO TWO",
+      "text": "What's that? It's blowing up from the inside!"
+    },
+    {
+      "character": "RIC OLIE",
+      "text": "We didn't hit it."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "Now, this is Podracing."
+    },
+    {
+      "character": "BRAVO THREE",
+      "text": "Look, one of ours, out of the main hold!"
+    },
+    {
+      "character": "JAR JAR",
+      "text": "What the, was'n they doing?"
+    },
+    {
+      "character": "CAPTAIN TARPALS",
+      "text": "The control ship has been destroyed. Look!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "They all broke-ed."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "No, it's, it's too late. It's..."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "No."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "Obi-Wan. Promise. Promise me you will train the boy."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Yes, Master."
+    },
+    {
+      "character": "QUI-GON",
+      "text": "He is the chosen one. He will bring balance. Train him."
+    },
+    {
+      "character": "PADME",
+      "text": "Now, Viceroy, you're going to have to go back to the senate and explain all this."
+    },
+    {
+      "character": "PANAKA",
+      "text": "I think you can kiss your trade franchise goodbye."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "We are indebted to you for your bravery, Obi-Wan Kenobi. And you, young Skywalker. We will watch your career with great interest."
+    },
+    {
+      "character": "PADME",
+      "text": "Congratulations on your election, Chancellor."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Your boldness has saved our people, Your Majesty. It's you who should be congratulated. Together we shall bring peace and prosperity to the Republic."
+    },
+    {
+      "character": "YODA",
+      "text": "Confer on you the level of Jedi knight the council does. But agree with your taking this boy as your Padawan learner, I do not."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Qui-Gon believed in him."
+    },
+    {
+      "character": "YODA",
+      "text": "The chosen one the boy may be. Nevertheless, grave danger I fear in his training."
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "Master Yoda, I gave Qui-Gon my word. I will train Anakin. Without the approval of the council, if I must."
+    },
+    {
+      "character": "YODA",
+      "text": "Qui-Gon's defiance I sense in you. Need that you do not. Agree with you the council does. Your apprentice Skywalker will be."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "What will happen to me now?"
+    },
+    {
+      "character": "OBI-WAN",
+      "text": "The council have granted me permission to train you. You will be a Jedi, I promise."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "There's no doubt: the mysterious warrior was a Sith."
+    },
+    {
+      "character": "YODA",
+      "text": "Always two there are. No more, no less. A master and an apprentice."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "But which was destroyed? The master or the apprentice?"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Hidoe, everybody!"
+    },
+    {
+      "character": "BOSS NASS",
+      "text": "Peace!"
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Yahoo!"
+    }
+  ]
+}
