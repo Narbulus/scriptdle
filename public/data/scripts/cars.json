@@ -1,0 +1,5303 @@
+{
+  "id": "cars",
+  "title": "Cars",
+  "year": 2006,
+  "characters": [
+    "ABOMINABLE SNOWPLOW",
+    "ANDRETTI",
+    "BALLOON",
+    "BIGGEST FAN",
+    "BOB CUTLASS",
+    "BOOST",
+    "BRIAN",
+    "BROKEN CAR",
+    "BUZZ LIGHTYEAR CAR",
+    "CAMERAMEN",
+    "CHICK",
+    "CHICK CREW",
+    "CHICK'S COACH",
+    "CHICK'S CREW",
+    "CHUCK MANIFOLD",
+    "DARRELL CARTRIP",
+    "DJ",
+    "DOC HUDSON",
+    "DOUG",
+    "DUSTY",
+    "FAN",
+    "FANS",
+    "FILLMORE",
+    "FLIK CAR",
+    "FLO",
+    "FOLK",
+    "FOLKS",
+    "FRED",
+    "GUIDO",
+    "GUYS",
+    "HAMM CAR",
+    "HARV",
+    "HOUSER BOON",
+    "JAY LIMO",
+    "JUNIOR",
+    "KATHY COPTER",
+    "KORI TURBOWITZ",
+    "LARRY",
+    "LIGHTNING MCQUEEN",
+    "LIGHTNING MCQUEEN'S CREW",
+    "LIZZIE",
+    "LUIGI",
+    "LYNDA WEATHERS",
+    "MACK",
+    "MATER",
+    "MCQUEEN",
+    "MIA",
+    "MIA & TIA",
+    "MICHAEL SCHUMACHER",
+    "MIKE CAR",
+    "MINNY",
+    "NEWSMAN DALE",
+    "NOT CHUCK",
+    "P.T. CAR",
+    "PETERBILT",
+    "RADIATOR SPRINGS FOLKS",
+    "RADIO",
+    "RAMONE",
+    "RED",
+    "RICHARD CLAYTON KENSINGTON",
+    "RUSTY",
+    "RUSTY CAR 1",
+    "RUSTY CAR 2",
+    "RUSTY CAR 3",
+    "SALLY",
+    "SALLY CARRERA",
+    "SARGE",
+    "SECURITY",
+    "SHERIFF",
+    "SKIP RICTER",
+    "SMALL AIRPLANE",
+    "SNOT ROD",
+    "SPONSOR",
+    "SULLEY TRUCK",
+    "SVEN",
+    "TEX",
+    "THE KING",
+    "THE KING'S COACH",
+    "TIA",
+    "TJ HUMMER",
+    "TOW MATER",
+    "TUNER TEAM",
+    "TV CREW",
+    "VAN",
+    "WINGO",
+    "WOODY CAR"
+  ],
+  "lines": [
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Okay, here we go. Focus. Speed. I am speed."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "One winner. 42 losers. I eat losers for breakfast."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Breakfast? Wait, maybe I should have had breakfast? A little breakie could be good for me. No, no, no, stay focused. Speed!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I'm faster than fast, quicker than quick! I am Lightning!"
+    },
+    {
+      "character": "MACK",
+      "text": "Hey Lightning, you ready?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "\u2018 (Real Gone\u201d by Sheryl Crow plays in the background as the trailer door opens ) Oh, yeah. Lightning's ready."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ka-chow!"
+    },
+    {
+      "character": "BRIAN",
+      "text": "Get your antenna balls here!"
+    },
+    {
+      "character": "DOUG",
+      "text": "You got that right, Slick."
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Welcome back to the Dinoco 400, I'm Bob Cutlass, here with my good friend, Darrell Cartrip, we're midway through what may turn out to be a historic day for racing."
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Bob, my oil pressure's through the roof right now. If this gets anymore exciting, they're gonna have to throw me out of the booth!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Right you are, Darrell. Three cars are tied for the season points lead, heading into the final race of the season. And the winner of this race Darrell, will win the season title and, the Piston Cup. Does The King, Strip Weathers, have one more victory in him before retirement?"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "He's been Dinoco's golden boy for years! Can he win them one last Piston Cup?"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "And, as always, in the second place spot we find Chick Hicks. He's been chasing that tailfin his entire career."
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Chick thought this was his year, Bob. His chance to finally emerge from The King's shadow. But the last thing he expected was... Lightning McQueen!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "You know, I don't think anybody expected this. The rookie sensation came into the season unknown. But everyone knows him now."
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Will he be the first rookie to win a Piston Cup and land Dinoco?"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "The legend, the runner up, and the rookie! Three cars, one champion!"
+    },
+    {
+      "character": "CHICK",
+      "text": "No, you don't."
+    },
+    {
+      "character": "CHICK",
+      "text": "Hey!"
+    },
+    {
+      "character": "LARRY",
+      "text": "Ooh. What a ride!"
+    },
+    {
+      "character": "CHICK",
+      "text": "["
+    },
+    {
+      "character": "LARRY",
+      "text": "Go get 'em, McQueen! Go get 'em!"
+    },
+    {
+      "character": "FANS",
+      "text": "We love you, Lightning!"
+    },
+    {
+      "character": "CHICK",
+      "text": "Dinoco's all mine. ["
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Trouble, turn-3!"
+    },
+    {
+      "character": "CHICK",
+      "text": "Get through that, Young McQueen!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Oh, a huge crash behind the leaders!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Wait a second, Darrell. McQueen is in the wreckage."
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "There's no way the rookie can make it through! Not in one piece that is."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah....."
+    },
+    {
+      "character": "MIA & TIA",
+      "text": "Lightning, ahh!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Look at that, McQueen made it through!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Man, a spectacular move by Lightning McQueen."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah! Ka-chow!"
+    },
+    {
+      "character": "FANS",
+      "text": "McQueen! McQueen! McQueen! McQueen! McQueen! McQueen! McQueen!"
+    },
+    {
+      "character": "FAN",
+      "text": "Yeah McQueen! Ka-chow!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "While everyone else heads into the pits, McQueen stays out to take the lead!"
+    },
+    {
+      "character": "BROKEN CAR",
+      "text": "Don't take me out coach. I CAN STILL RACE!"
+    },
+    {
+      "character": "CHICK",
+      "text": "What do you think boys? A thing of beauty."
+    },
+    {
+      "character": "CHICK'S COACH",
+      "text": "McQueen made it through!"
+    },
+    {
+      "character": "CHICK",
+      "text": "What?!"
+    },
+    {
+      "character": "CHICK'S COACH",
+      "text": "He's not pitting!"
+    },
+    {
+      "character": "CHICK",
+      "text": "Come on, you gotta get me out there! Let's go! Get me back out there! Come on!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "McQueen's not going into the pits!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "You know the rookie just fired his crew chief. That's the third one this season!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Well, he says he likes working alone, Darrell."
+    },
+    {
+      "character": "CHICK'S COACH",
+      "text": "Go, go, go, go, go and go!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Looks like Chick got caught up in the pits."
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Yeah, after a stop like that, he's got a lot of ground to make up. Get ready boys, we're coming to the restart! ["
+    },
+    {
+      "character": "CHICK",
+      "text": "Come on, come on, come on!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN'S CREW",
+      "text": "We need tires now! Come on, let's go!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No, no, no, no! No tires, just gas!"
+    },
+    {
+      "character": "NOT CHUCK",
+      "text": "WHAT?! YOU NEED TIRES, YOU IDIOT!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Looks like it's all gas-and-go's for McQueen today."
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "That's right. No tires again."
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "And normally I'd say that's a short-term gain, long-term loss, but it sure is working for him. Hey, he obviously knows something we don't know."
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "This is it, Darrell, one lap to go and Lightning McQueen has a huge lead."
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Ah, he's got it in the bag. Call in the dogs and put out the fire! We're gonna crown us a new champion!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Checkered flag, here I come!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Oh, no! McQueen has blown a tire!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "And with only one turn to go! Can he make it?!"
+    },
+    {
+      "character": "NOT CHUCK",
+      "text": "YOU FOOL! ["
+    },
+    {
+      "character": "THE KING'S COACH",
+      "text": "McQueen's blown a tire, McQueen's blown a tire! Go, go, go, go, go, go! ["
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ahh!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "He's lost another tire! The King and Chick are coming up fast!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "They're entering turn-3."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Come on! ["
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "I don't believe what I'm watching, Bob! Lightning McQueen is 100 feet from his Piston Cup! ["
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "The King and Chick rounding turn-4. ["
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "And down the stretch they come! And it's... and it's...! ["
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "It's too close to call! Too close to call!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "I don't believe it! I don't believe it!"
+    },
+    {
+      "character": "MIA & TIA",
+      "text": "Lightning! ["
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "The most spectacular, amazing unequivocally, unbelievable ending in the history of the world! And we don't even know who won!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "I don't believe! I don't believe! I don't believe! Look at that! ["
+    },
+    {
+      "character": "RICHARD CLAYTON KENSINGTON",
+      "text": "Hey, no cameras! Get outta here! ["
+    },
+    {
+      "character": "KORI TURBOWITZ",
+      "text": "We're here in Victory Lane, awaiting the race results. McQueen, that was quite a risky move, not taking tires."
+    },
+    {
+      "character": "NOT CHUCK",
+      "text": "Tell me about it."
+    },
+    {
+      "character": "KORI TURBOWITZ",
+      "text": "Are you sorry you don't have a crew chief out there?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, Kori, there's a lot more to racing than just winning. I mean, taking the race by a full lap, where's the entertainment in that? No, no, no, I wanted to give folks a little sizzle."
+    },
+    {
+      "character": "NOT CHUCK",
+      "text": "Sizzle?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Am I sorry I don't have a crew chief? No, I'm not. Cause I'm a one-man show."
+    },
+    {
+      "character": "NOT CHUCK",
+      "text": "What? (sarcastically) Oh, yeah, right."
+    },
+    {
+      "character": "KORI TURBOWITZ",
+      "text": "(to the TV audience) That was a very confident Lightning McQueen. Coming to you live from Victory Lane, I'm Kori Turbowitz."
+    },
+    {
+      "character": "CAMERAMEN",
+      "text": "Hey, get out of the shot!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yo, Chuck, what are you doing? You're blocking the camera! Everyone wants to see the bolt!"
+    },
+    {
+      "character": "NOT CHUCK",
+      "text": "WHAT?!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Now, back away."
+    },
+    {
+      "character": "NOT CHUCK",
+      "text": "THAT'S IT! Come on, guys!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "OOWWWWW! Whoa, team! Where are you going?"
+    },
+    {
+      "character": "NOT CHUCK",
+      "text": "We QUIT , Mr. One-Man-Show!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, oh, oh, oh, okay, leave. Fine! (laughs) How will I ever find anyone else who knows how to fill me up with gas?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Adios, Chuck!"
+    },
+    {
+      "character": "NOT CHUCK",
+      "text": "AND MY NAME'S NOT CHUCK!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, whatever."
+    },
+    {
+      "character": "CHICK",
+      "text": "Hey, Lightning! Yo, Young McQueen, seriously, that was some pretty perfectly nice racin' out there. ["
+    },
+    {
+      "character": "CHICK",
+      "text": "BY ME! ["
+    },
+    {
+      "character": "CHICK",
+      "text": "Welcome to the Chick era, baby! The Piston Cup, it's mine, dude. It's mine. Hey, fellas, how do you think I'm look in Dinoco blue? DINOCO BLUE! ["
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "In your dreams, Thunder."
+    },
+    {
+      "character": "CHICK",
+      "text": "Yeah, right. Thunder? What's he talkin' about, \"Thunder\"?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "You know, because thunder always comes after... Lightning ! ["
+    },
+    {
+      "character": "CHICK",
+      "text": "Who here knew about the thunder thing?"
+    },
+    {
+      "character": "CHICK'S CREW",
+      "text": "I didn't."
+    },
+    {
+      "character": "CAMERAMEN",
+      "text": "Give us the bolt! That's right. Right in the lens. Show me the bolt, baby! Smile, McQueen! Show me the bolt, McQueen! That's it!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "You know, because thunder always comes after..."
+    },
+    {
+      "character": "CHICK",
+      "text": "Who here knew about the thunder thing?"
+    },
+    {
+      "character": "CHICK'S CREW",
+      "text": "I didn't."
+    },
+    {
+      "character": "CAMERAMEN",
+      "text": "Give us the bolt! That's right. Right in the lens. Show me the bolt, baby! Smile, McQueen! Show me the bolt, McQueen! That's it!"
+    },
+    {
+      "character": "TEX",
+      "text": "Oh, we that was one close finish. You sure made Dinoco proud. Thank you, King."
+    },
+    {
+      "character": "THE KING",
+      "text": "Well, Tex, you've been good to me all these years. It's the least I could do."
+    },
+    {
+      "character": "LYNDA WEATHERS",
+      "text": "Whatever happens, you're a winner to me, you old daddy rabbit."
+    },
+    {
+      "character": "THE KING",
+      "text": "Thanks, dear. We wouldn't be nothing without you."
+    },
+    {
+      "character": "MIA",
+      "text": "I'm Mia."
+    },
+    {
+      "character": "TIA",
+      "text": "I'm Tia."
+    },
+    {
+      "character": "MIA & TIA",
+      "text": "We're like your biggest fans!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I love being me."
+    },
+    {
+      "character": "SECURITY",
+      "text": "Okay, girls, that's it."
+    },
+    {
+      "character": "MIA & TIA",
+      "text": "We love you, Lightning, we love you, more!"
+    },
+    {
+      "character": "THE KING",
+      "text": "Hey, buddy. You're one gutsy racer."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, hey, Mr. The King."
+    },
+    {
+      "character": "THE KING",
+      "text": "You got more talent in one lug nut than a lot of cars has got in their whole body."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Really? Oh, that..."
+    },
+    {
+      "character": "THE KING",
+      "text": "But you're stupid."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Excuse me?"
+    },
+    {
+      "character": "THE KING",
+      "text": "This ain't a one-man deal, kid. You need to wise-up and get yourself a good crew chief and a good team. And you ain't gonna win unless you got good folks behind you, and you let them do their job, like they should. Like I tell the boys at the shop..."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "A good team, Yeah."
+    },
+    {
+      "character": "THE KING",
+      "text": "If you figure that out, you just gonna be, okay?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, yeah, that is spectacular advice. Thank you, Mr. The King! Oh!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Ladies and gentlemen, for the first time in Piston Cup history..."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "A rookie has won the Piston Cup."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "YES!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "...We have a 3-way tie!"
+    },
+    {
+      "character": "CHICK",
+      "text": "Hey, Young McQueen, that must be really embarrassing, but I wouldn't be worry about it, because I didn't do it!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Piston Cup officials have determined that a tiebreaker race between the three leaders will be held in California in one week."
+    },
+    {
+      "character": "CHICK",
+      "text": "Well, thank you! Thanks to all of you out there! Thank you! Hey, rook, first one to California gets Dinoco all to himself. No, not me! No, you rock, and you know that!"
+    },
+    {
+      "character": "BALLOON",
+      "text": "Oh, yeah! Whoo!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "First one to California gets Dinoco all to himself. Oh, we'll see who gets there first, Chick."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Huh?"
+    },
+    {
+      "character": "MACK",
+      "text": "Hey, kid! Congrats on the tie."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I don't want to talk about it. Come on, let's go, Mack. Saddle up. What'd you do with my trailer?"
+    },
+    {
+      "character": "MACK",
+      "text": "I parked it at your sponsor's tent."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What?!"
+    },
+    {
+      "character": "MACK",
+      "text": "You gotta make your personal appearance."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No. No! No, no, no!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yes, yes, yes! Lightning McQueen here. And I use Rust-eze Medicated Bumper Ointment, new rear end formula! Nothing soothes rusty bumper like Rust-ezzzzzeeee. Wow! Look at that shine! Use Rust-eze and you too can look like me! Ka-chow!"
+    },
+    {
+      "character": "RUSTY",
+      "text": "I met this car from Swampscott. He was so rusty he didn't even cast a shadow."
+    },
+    {
+      "character": "DUSTY",
+      "text": "You could see his dirty undercarriage."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I hate rusty cars! This is not good for my image!"
+    },
+    {
+      "character": "MACK",
+      "text": "They did give you your big break. Besides, it's in your contract."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, will you stop please? Just go get hooked up."
+    },
+    {
+      "character": "DUSTY",
+      "text": "Winter is a grand old time."
+    },
+    {
+      "character": "RUSTY",
+      "text": "Of this there are no ifs or buts."
+    },
+    {
+      "character": "DUSTY",
+      "text": "But remember, all that salt and grime..."
+    },
+    {
+      "character": "RUSTY",
+      "text": "Can rust your bolts and freeze your..."
+    },
+    {
+      "character": "DUSTY",
+      "text": "Hey, look! There he is!"
+    },
+    {
+      "character": "DUSTY",
+      "text": "Our almost champ! Victory ran to your rear end in here, kid."
+    },
+    {
+      "character": "RUSTY CAR 1",
+      "text": "Lightning McQueen, you are wicked fast!"
+    },
+    {
+      "character": "RUSTY CAR 2",
+      "text": "That race was a pisser!"
+    },
+    {
+      "character": "RUSTY CAR 3",
+      "text": "You were booking, McQueen!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Give me a little room, guys."
+    },
+    {
+      "character": "FRED",
+      "text": "You're my hero, Mr. McQueen!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yes, I know! Fred, Fred, thank you!"
+    },
+    {
+      "character": "FRED",
+      "text": "He knows my name!"
+    },
+    {
+      "character": "FRED",
+      "text": "HE KNOWS MY NAME!"
+    },
+    {
+      "character": "DUSTY",
+      "text": "Looking good, Freddie!"
+    },
+    {
+      "character": "RUSTY",
+      "text": "Thanks to you, Lightning, we had a banner year!"
+    },
+    {
+      "character": "DUSTY",
+      "text": "We might clear enough to buy you some headlights."
+    },
+    {
+      "character": "RUSTY",
+      "text": "Are you saying he doesn't have headlights?"
+    },
+    {
+      "character": "DUSTY",
+      "text": "That's what I'm telling ya. It's just stickers!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Well, you know, race cars don't need headlights, because the track is always lit."
+    },
+    {
+      "character": "RUSTY",
+      "text": "Yeah, well, so is my brother, but he still needs headlights!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ladies and gentlemen, Lightning McQueen!"
+    },
+    {
+      "character": "FAN",
+      "text": "Free bird!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "You know, the Rust-eze Medicated Bumper Ointment team ran a great race today. And remember, with a little Rust-eze... Well, and an insane amount of luck, you too can look like me... Ka-chow."
+    },
+    {
+      "character": "RUSTY",
+      "text": "Hey, kid."
+    },
+    {
+      "character": "DUSTY",
+      "text": "We love ya. And we're looking forward to another great year. Just like this year!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Not on your life."
+    },
+    {
+      "character": "RUSTY",
+      "text": "Don't drive like my brother!"
+    },
+    {
+      "character": "DUSTY",
+      "text": "Oh yeah, don't drive like my brother!"
+    },
+    {
+      "character": "MACK",
+      "text": "California, here we come!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Dinoco, here we come."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh... Oh, I needed this... Hello?"
+    },
+    {
+      "character": "HARV",
+      "text": "Is this Lightning McQueen, the world's fastest racing machine?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Is this Harv, the world's greatest agent?"
+    },
+    {
+      "character": "HARV",
+      "text": "And it is such a honor to be your agent and it almost hurts to take 10% of your winnings and merchandising and ancillary rights in perpetuity anyway. What a race! Huh, champ?! I did-- I didn't see it, but I heard you were great."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Um... Thanks, Harv."
+    },
+    {
+      "character": "HARV",
+      "text": "Listen, they're giving you 20 tickets for the tiebreaker thing in Cali. I'll pass 'em on to your friends. You shoot me the names. You let Harv rock it for you, alright, baby?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Right! Friends! Yes, there's, um..."
+    },
+    {
+      "character": "HARV",
+      "text": "Okay, I get it, Mr. Popular, so many friends you can't even narrow it down, hey, when you get to town, you better make time for your best friend, you gotta break bread with your mishpocheh here."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah, yeah, that would be great! We should totally..."
+    },
+    {
+      "character": "HARV",
+      "text": "Okay, I gotta jump, kid. L-Let me know how it goes. I'm out."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What?! A minivan?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, come on, Mack, you're in the slow lane, this is Lightning McQueen you're hauling here!"
+    },
+    {
+      "character": "MACK",
+      "text": "Just stopping off for a quick breather, kid. Old Mack needs a rest."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Absolutely not. We're driving straight to all night till we get to California, we agreed to it!"
+    },
+    {
+      "character": "MACK",
+      "text": "All night?! May I remind you, federal DOT regs sta-"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Come on, I need to get there before Chick get hang with Dinoco."
+    },
+    {
+      "character": "MACK",
+      "text": "All those sleeping trucks! Hey, kid, I don't know if I can make it."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, sure you can, Mack. Look, it'll be easy, I'll stay up with you!"
+    },
+    {
+      "character": "MACK",
+      "text": "All night?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "All night long."
+    },
+    {
+      "character": "BOOST",
+      "text": "Hey, yo, DJ!"
+    },
+    {
+      "character": "DJ",
+      "text": "What up?!"
+    },
+    {
+      "character": "BOOST",
+      "text": "We got ourselves a nodder!"
+    },
+    {
+      "character": "DJ",
+      "text": "Pretty music."
+    },
+    {
+      "character": "BOOST",
+      "text": "Yo, Wingo! Lane change, man!"
+    },
+    {
+      "character": "WINGO",
+      "text": "Right back at ya!"
+    },
+    {
+      "character": "SNOT ROD",
+      "text": "Yeah!"
+    },
+    {
+      "character": "BOOST",
+      "text": "Oops! I missed!"
+    },
+    {
+      "character": "SNOT ROD",
+      "text": "You going on vacation?"
+    },
+    {
+      "character": "TUNER TEAM",
+      "text": "You going on vacation?"
+    },
+    {
+      "character": "WINGO",
+      "text": "Right back at ya!"
+    },
+    {
+      "character": "SNOT ROD",
+      "text": "Yeah!"
+    },
+    {
+      "character": "BOOST",
+      "text": "Oops! I missed!"
+    },
+    {
+      "character": "SNOT ROD",
+      "text": "You going on vacation?"
+    },
+    {
+      "character": "BOOST",
+      "text": "Oh no, Snot Rod!"
+    },
+    {
+      "character": "WINGO",
+      "text": "He's gonna blow!"
+    },
+    {
+      "character": "SNOT ROD",
+      "text": "Ah...ah...ah...achoo!!!"
+    },
+    {
+      "character": "MACK",
+      "text": "GESUNDHEIT! One should never drive while drowsy."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mack!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mack!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mack! Hey, Mack! Mack!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mack! Mack, wait for me!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "MACK!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mack! Mack!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mack! Mack... ...wait up!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mack. Mack! Mack!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What? You're not Mack."
+    },
+    {
+      "character": "PETERBILT",
+      "text": "Mack?! I ain't no Mack, I'm a Peterbilt for dang sake! Turn on your lights, you moron!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mack...the Interstate!"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Not in my town, you don't."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, no. Oh, maybe he can help me!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "He's shooting at me! Why is he shooting at me?"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "I haven't gone this fast in years."
+    },
+    {
+      "character": "SHERIFF",
+      "text": "I'm gonna blow a gasket or somethin'."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Serpentine, serpentine, serpentine!"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "What the?! Crazy hot-rodder!"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "I'm telling you, man, every third blink is slower."
+    },
+    {
+      "character": "SARGE",
+      "text": "The sixties weren't good to you, were they?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What?! That's not the Interstate!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ow, ow, ow, ow!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "AAAAAAH!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No, no, no, no!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ow!"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "I'm not the only one seeing this, right?"
+    },
+    {
+      "character": "SARGE",
+      "text": "Incoming!"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "Whoa, man!"
+    },
+    {
+      "character": "SARGE",
+      "text": "No!"
+    },
+    {
+      "character": "RAMONE",
+      "text": "Hey, you scratch my paint!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Whoa, whoa, whoa, whoa!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "My tires!"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "Fly away, Stanley, be free!"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Boy, you're in a heap of trouble."
+    },
+    {
+      "character": "KORI TURBOWITZ",
+      "text": "We're live at the Los Angeles International Speedway as the first competitor, Lightning McQueen, is arriving at the track."
+    },
+    {
+      "character": "CAMERAMEN",
+      "text": "Is it true he's gonna pose for Car girl? Lightning, what's your strategy?"
+    },
+    {
+      "character": "MACK",
+      "text": "What? Did I forget to wipe my mud flaps?"
+    },
+    {
+      "character": "NEWSMAN DALE",
+      "text": "McQueen's driver arrived in California, but McQueen was missing."
+    },
+    {
+      "character": "SKIP RICTER",
+      "text": "Race car Lightning McQueen was reported missing. He scheduled to race an unprecedented..."
+    },
+    {
+      "character": "SPONSOR",
+      "text": "Sponsor stated they have no idea where he is."
+    },
+    {
+      "character": "JUNIOR",
+      "text": "I just hope Lightning's okay, I sure hate to see anything bad happen to him."
+    },
+    {
+      "character": "JAY LIMO",
+      "text": "I don't know what's harder to find, Lightning green or a crew chief who'll work for him!"
+    },
+    {
+      "character": "SVEN",
+      "text": "Lightning McQueen must be found at all costs!"
+    },
+    {
+      "character": "CHUCK MANIFOLD",
+      "text": "They're all asking the same question: Where is McQueen?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, boy. Oh... Where am I?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Morning, Sleeping Beauty!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "AH!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Ha, ha! Boy, I was wondering when you\u2019re gonna wake up!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Take whatever you want! Just don't hurt me!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "A parking boot? Why do I have a parking boot on?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What are you\u2014\u2014 What's going on here? Please!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "You're funny, I like you already. My name's Mater."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mater?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Yeah, like \"tuh-mater\", but without the \"tuh\". What's your name?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Y\u2014\u2014 You don't know my name?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Nuh\u2026 No, I know your name. Is your name \"Mater\", too?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What? Look, I need to get to California as fast as possible. Where am I?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Where are you? Shoot! You're in Radiator Springs! The cutest little town in Carburetor County."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, great. Just great!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Well, if you think that's great, you should see the rest of the town."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "You know? I'd love to see the rest of the town. So if you could just open the gate, take this boot off, you and me, we go cruising, check out the local scene, you know?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Dad-gum!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "How'd that be, Tow Mater?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Cool!"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Mater!"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "What did I tell you about talking to the accused?!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "To not to."
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Well, quit yer yapping and tow this delinquent road hazard to traffic court."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Well, we'll talk later, Mater. \"Later, Mater.\" That's funny!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ah!"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "The Radiator Springs Traffic Court will come to order!"
+    },
+    {
+      "character": "RAMONE",
+      "text": "Hey, you scratched my paint! I ought take a blowtorch to you, man!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "You broke-a the road! You a very bad car!"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "Fascist!"
+    },
+    {
+      "character": "SARGE",
+      "text": "Commie!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Officer, talk to me, babe. How long is this gonna take? I gotta get to California, pronto."
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Where's your lawyer?!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I don't know. Tahiti maybe. He's got a timeshare there."
+    },
+    {
+      "character": "SHERIFF",
+      "text": "When a defendant has no lawyer, the court will assign one to him. HEY! Anyone want to be his lawyer?!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Shoot, I'll do it, Sheriff!"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "All rise! The Honorable Doc Hudson presiding."
+    },
+    {
+      "character": "LUIGI",
+      "text": "Show Off."
+    },
+    {
+      "character": "SHERIFF",
+      "text": "May Doc have mercy on your soul."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Alright, I wanna know who's responsible for wrecking my town, Sheriff. I wanna his hood on a platter! I'm gonna put him in jail till he rots! No, check that. I'm gonna put him in jail till the jail rots on top of him, and then I'm gonna move him to a new jail and let that jail rot. I'm-- Throw him out of here, Sheriff. I want him out of my courtroom. I want him out of our town! Case dismissed."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yes!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Boy, I'm purty good at this lawyerin' stuff."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Sorry, I'm late, your honor!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Holy porsche! She's gotta be from my attorney's office!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, thanks for coming, we're all set. He's letting me go."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "He's letting you go?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah, your job's pretty easy today. All you have to do now is stand there and let me look at"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Holy porsche!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, thanks for coming, we're all set. He's letting me go."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "He's letting you go?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah, your job's pretty easy today. All you have to do now is stand there and let me look at you. Listen, I'm gonna cut to the chase. Me, you, dinner."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Pi-cha-kow!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ta-chow! Ah...! I know, I get that reaction a lot. I create feelings in others that they themselves don't understand."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, I'm sorry. Did I scare you?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Well, a little bit, but I'll be alright."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Okay, I'm gonna go talk to the judge."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Do what you gotta do, baby. Oh, but listen, be careful. Folks around here are not firing on all cylinders, if you know what I mean."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Ka-ching!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "I'll keep that in mind."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Hey, there, Mater."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Howdy, Sally."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Hi, folks!"
+    },
+    {
+      "character": "FOLKS",
+      "text": "Good morning, Sally!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Do you know her?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "She's the town attorney and my fiancee."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "I'm just kidding, she just like me for my body."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Doc, you look great this morning! Did you do something different with your side view mirrors?"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "What do you want, Sally?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Come on, make this guy fix the road. The town needs this."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "No. I know his type. Race car. That's the last thing this town needs."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Okay, I didn't want to have to do this, Doc. But you leave me no choice."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Fellow citizens, you're all aware of our town's proud history."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Here she goes again."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Radiator Springs, the glorious jewel strung on the necklace of Route 66, the mother road! It is our job and our pleasure to take care of the travelers on our stretch of that road."
+    },
+    {
+      "character": "SARGE",
+      "text": "Travelers? What travelers?"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "Ignore him."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "But how, I ask you, are we to care for those travelers if there is no road for them to drive on?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Luigi, what do you have at your store?"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Tires."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "And if no one can get to you?"
+    },
+    {
+      "character": "LUIGI",
+      "text": "I won't sell any.... tires. I will lose everything!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Flo, what do you have at your store?"
+    },
+    {
+      "character": "FLO",
+      "text": "I have gas. Lotsa gas!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Okay, boys, stay with me. And, and, Flo, what'll happen if no one can come to your station to buy gas?"
+    },
+    {
+      "character": "FLO",
+      "text": "I'll go outta business and we'll have to leave town!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "And what's gonna happen to all of us if Flo leaves town and closes her station?"
+    },
+    {
+      "character": "FOLKS",
+      "text": "Without gas, we're done for!"
+    },
+    {
+      "character": "LIZZIE",
+      "text": "What?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "So, don't you think the car responsible should fix our road?"
+    },
+    {
+      "character": "LIZZIE",
+      "text": "The only guy strong enough to fix that road is Big Al!"
+    },
+    {
+      "character": "RAMONE",
+      "text": "Lizzie, the guy left, like, 15 years ago."
+    },
+    {
+      "character": "LIZZIE",
+      "text": "Then why are you bringing him up, you lemon?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Oh, he can do it. He's got the horsepower. So, what do you want him to do?"
+    },
+    {
+      "character": "FOLKS",
+      "text": "Fix the road!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Because we are a town worth fixing!"
+    },
+    {
+      "character": "FOLKS",
+      "text": "Yeah!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Order in the court! Seems like my mind has been changed for me."
+    },
+    {
+      "character": "FOLKS",
+      "text": "Yeah!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No!"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "Nice ruling."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I am so not take you to dinner."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "That's OK, Stickers. You can take Bessie."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Oh, man, you got to work with Bessie, I'd give my left 2-Lug Nuts for something like that."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Bessie? Who's Bessie?"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "This here is Bessie, finest Road-Paving Machine ever built."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "I'm hereby sentencing you to community service. You're gonna fix the road under my supervision."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What?! This place is crazy!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Hey, I know this may be a bad time right now, but you owe me $32,000 in legal fees."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What?"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "So we're gonna hitch you up to sweet Bessie, and you're gonna pull her nice."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "You've gotta be kidding me!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "You start there where the road begins, you finish down there where the road ends."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Holy shoot!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Whoa, whoa, whoa! How long is this gonna take?"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Well, fella does it right, should take him about 5 days."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "5 days? But I should be in California schmoozing Dinoco right now!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Then if I were you, I'd quit yapping and start working! Hook him up, Mater."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Okay-dokey."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Race Now!!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Maybe I should've, uh, hooked him up to Bessie... and then, uh... then took the boot off."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Whoo-hoo! Goodbye, Radiator Springs, and goodbye, Bessie! California, here I come! Yeah! Oh, fell that wind! Yes!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No, no, no, no, no! Outta gas? How can I be outta gas?"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Boy, we ain't as dumb as you think we are."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "But, but, but how did...? How did--? You--?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "We siphoned your gas while you were passed out."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Ka-chow!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ow, ow, ow, ow!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Why the tires are here?"
+    },
+    {
+      "character": "GUIDO",
+      "text": "Sono sempre stati qui. (They have always been here)"
+    },
+    {
+      "character": "LUIGI",
+      "text": "They were better well before."
+    },
+    {
+      "character": "GUIDO",
+      "text": "Stai sempre a parlare. (You're always talking)"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Guido!"
+    },
+    {
+      "character": "LIZZIE",
+      "text": "Red, can you move over? I want to get look at that sexy hot rod."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "You know, I used to be a purty good whistler. I can't do it now of course, on account of sometimes I get fluid built up in my engine block, but Doc said he's gonna fix it dough. He can fix about anything. That's why we made him the judge. Boy, you shoulda heard me on \"giddy-up, oom papa mow mow.\" Now, I'm not one to brag, but people come purty far to see me get low on the mow-mow."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ah! Aw, Perfect. That's just great!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Hey, what's wrong?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "My lucky sticker's all dirty."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "That ain't nothing, I'll clean it for you!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No, no, no, no, no! That won\u2019t be necessary."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey! Hey, big fella! Yeah, you in the red!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I could use a little hose down. Help me wash this off."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Where\u2019s he going?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Oh, he's still a little bit shy, and he hates you for killin' his flowers."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I shouldn't have to put up with this. I'm a precision instrument of speed and aerodynamics."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "You hurt your what?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I\u2019m a very famous race car!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "You are a famous race car? A real race car?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yes, I'm a real race car. What do you think? Look at me."
+    },
+    {
+      "character": "LUIGI",
+      "text": "I have followed racing my entire life, my whole life!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Then you know who I am. I'm Lightning McQueen."
+    },
+    {
+      "character": "LUIGI",
+      "text": "Lightening McQueen?!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yes! Yes!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "I must scream it to the world! My excitement from the top of someplace very high! Do you know many Ferraris?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No, no, no, no. They race on the European circuit. I'm in the Piston Cup!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What?"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Luigi follow only the Ferraris."
+    },
+    {
+      "character": "FLO",
+      "text": "Is that what I think it is?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Customers. Customers! Customers, everyone! Customers! Okay..."
+    },
+    {
+      "character": "LIZZIE",
+      "text": "Customers?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "All right, everybody calm down, it's been a long time. Just remember what we rehearsed. Make sure your \"Open, please come in\" signs are out. And you all know what to do. All right, nobody panics, here we go!"
+    },
+    {
+      "character": "MINNY",
+      "text": "Van, I just don't see any on-ramp anywhere."
+    },
+    {
+      "character": "VAN",
+      "text": "Minny, I know exactly where we are."
+    },
+    {
+      "character": "MINNY",
+      "text": "Yeah, we're in the middle of nowhere."
+    },
+    {
+      "character": "VAN",
+      "text": "Honey, please."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Hello. Welcome to Radiator Springs, gateway to Ornament Valley. Legendary for it's quality service and friendly hospitality. How can we help you?"
+    },
+    {
+      "character": "VAN",
+      "text": "We don't need anything, thank you very much."
+    },
+    {
+      "character": "MINNY",
+      "text": "Whoa, honey, ask her direction to the interstate."
+    },
+    {
+      "character": "VAN",
+      "text": "There's no need to ask for directions. Minny, I know exactly where we're going."
+    },
+    {
+      "character": "MINNY",
+      "text": "He did the same thing on our trip to Shakopee. You know, we were headed over there for the Crazy Days, and we..."
+    },
+    {
+      "character": "VAN",
+      "text": "Okay, okay. Really. We're just peachy, okay?"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "What you really need is the sweet taste of my homemade, organic fuel."
+    },
+    {
+      "character": "VAN",
+      "text": "No, it doesn't agree with my tank."
+    },
+    {
+      "character": "MINNY",
+      "text": "We're just trying to find the interstate!"
+    },
+    {
+      "character": "SARGE",
+      "text": "Good to see you, soldier! Come on by Sarge's Surplus Hut for all your government surplus needs."
+    },
+    {
+      "character": "MINNY",
+      "text": "Oh, honey, surplus"
+    },
+    {
+      "character": "VAN",
+      "text": "I think we have too much surplus."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "I do have a map over the Cozy Cone Motel. And if you do stay, we offer a free Lincoln continental breakfast."
+    },
+    {
+      "character": "MINNY",
+      "text": "Honey, she's got a map!"
+    },
+    {
+      "character": "VAN",
+      "text": "I don't need a map, I have the GPS. Never need a map again, thank you!"
+    },
+    {
+      "character": "FLO",
+      "text": "How 'bout somethin' to drink? Stop at Flo's V8 Cafe. Finest fuel on Route 66."
+    },
+    {
+      "character": "VAN",
+      "text": "No, we just top off."
+    },
+    {
+      "character": "LUIGI",
+      "text": "And if you need tires, stop by Luigi's Casa Della Tires, home of the Leaning Tower of Tires."
+    },
+    {
+      "character": "MINNY",
+      "text": "We're just trying to find the interstate."
+    },
+    {
+      "character": "RAMONE",
+      "text": "But you do need a paint job man. Ramone will paint you up right. 'Ay! Anything you want! You know, like a flame job!"
+    },
+    {
+      "character": "MINNY",
+      "text": "No, thanks."
+    },
+    {
+      "character": "RAMONE",
+      "text": "Maybe gold flames? You like old school pinstripin'? Von Dutch style, huh?"
+    },
+    {
+      "character": "MINNY",
+      "text": "Oh, honey! Look! Von Dutch!"
+    },
+    {
+      "character": "VAN",
+      "text": "Okay, no."
+    },
+    {
+      "character": "VAN",
+      "text": "We're gonna be going now, OKAY t"
+    },
+    {
+      "character": "LIZZIE",
+      "text": "A little somethin' to remember us by!"
+    },
+    {
+      "character": "VAN",
+      "text": "Okay!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Come back soon, okay? I mean, you know where we are!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Tell your friends!"
+    },
+    {
+      "character": "VAN",
+      "text": "Okay yes. You bet."
+    },
+    {
+      "character": "MINNY",
+      "text": "Thanks again, folks. Bye-bye now."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Psst. Psst. Hey, hey, hey, hey. I know how to get to the interstate!"
+    },
+    {
+      "character": "MINNY",
+      "text": "Oh, do ya?"
+    },
+    {
+      "character": "VAN",
+      "text": "Minny, no."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah, yeah,yeah. No, not really. But listen. I'm Lightning McQueen, the famous race car. I'm being held here against my will."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "And I need you to call my team, so they can rescue me, and get me to California in time for me to win The Piston Cup. Do you understand?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No, no, no, no, no! No, it's the truth! I'm telling you! You gotta help me! Don't leave me here! I'm in hillbilly hall!! My IQ's dropping by the second!! I\u2019m becoming ONE OF THEM!!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No, no, no, no, no! No, it's the truth! I'm telling you! You gotta help me! Don't leave me here! I'm in hillbilly hall!! My IQ's dropping by the second!! I\u2019m becoming ONE OF THEM!!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Okay, don't worry. They know where we are now. They're gonna tell their friends. You'll see."
+    },
+    {
+      "character": "RADIO",
+      "text": "And we'll be back for our Hank Williams marathon..."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "That's good."
+    },
+    {
+      "character": "RADIO",
+      "text": "...after a Piston Cup update. Still no sign of Lightning McQueen. Meanwhile, Chick Hicks arrived in California and today became the first car to spend practice time on the track."
+    },
+    {
+      "character": "CHICK",
+      "text": "Yeah, well it's just nice to get out here before the other competitors. You know, get a head start. Gives me an edge."
+    },
+    {
+      "character": "CHICK",
+      "text": "Yeah! Hey, McQueen... Eat your heart out."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh! Mater, let me get this straight. I can go when this road is done. That's the deal, right?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "That's what they done did said."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Okay, outta my way. I got a road to finished."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "HE'S DONE!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Done?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Ahmhm."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "It's only been an hour."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I'm done. Look, I'm finished. Just say thank you, and I'll be on my way. That's all I gotta say."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Whoo-hoo! I'm the first one on the new road! Uh, oh\u2014\u2014"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "It rides purty smooth."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "It looks awful!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Well, it matches the rest of the town."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Oh!"
+    },
+    {
+      "character": "RED",
+      "text": "Bah-ha-ha-ha-ha"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Red?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Who do you think you are?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Look, Doc said when I finish, I could go. That was the deal."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "The deal was you fix the road. Not make it worse. Now, scrape it off! Start over again."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, look, grandpa, I'm not a bulldozer. I'm a race car."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Oh, ho, ho! Is that right? Then why don't we just have a little race? Me and you."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "What?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Me and you. Is that a joke?"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "If you win, you go and I fix the road. If I win, you do the road my way."
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Doc, what're you doin'?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I don't mean to be rude here Doc, but you probably go zero to sixty in like what? Three-point-five years?"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Then I reckon you ain't got nothin' to worry about."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "You know what old timer? That's a wonderful idea. Let's race."
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Gentlemen, this will be a one-lap race. You will drive to Willy's Butte, go around Willy's Butte and come back. There will be no bumpin', no cheatin', no spittin', no bittin', no road rage, no maimin', no oil slickin', no pushin', no shovin', no backstabbin', no road-hoggin' and no lollygaggin'."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Speed. I'm speed. Float like a Cadillac, sting like a Beemer."
+    },
+    {
+      "character": "LUIGI",
+      "text": "My friend Guido, he dream to give a real race car a pit stop!"
+    },
+    {
+      "character": "GUIDO",
+      "text": "Pit stop!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "The race is only one lap, guys. Uno lappo! Don't need any help. I work solo mio."
+    },
+    {
+      "character": "LUIGI",
+      "text": "Fine. Race your way."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No pit stoppo. Comprendo?"
+    },
+    {
+      "character": "GUIDO",
+      "text": "Okay."
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Gentlemen! Start your engines!"
+    },
+    {
+      "character": "RAMONE",
+      "text": "Hijole! Check that out!"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "Whoa."
+    },
+    {
+      "character": "FLO",
+      "text": "Emm, emm."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Great idea, Doc. Now the road will never get done."
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Luigi?"
+    },
+    {
+      "character": "LUIGI",
+      "text": "On your mark, get set. Uno for the money, due for the show, tre to get ready, and quattro to..."
+    },
+    {
+      "character": "LUIGI",
+      "text": "I can't believe it..."
+    },
+    {
+      "character": "LUIGI",
+      "text": "GO!!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Yee ha! Ha ha ha!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Yeah."
+    },
+    {
+      "character": "LUIGI",
+      "text": "Huh?"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Doc, the flag means go. Remember the flag. Here we go. Go."
+    },
+    {
+      "character": "RAMONE",
+      "text": "Um... Doc, what are you doing, man?"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Oh, dear. It would seem I'm off to a poor start. Well, better late than never."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Come on, Mater. Might need a little help."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Um, okay."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "You got your tow cable?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Well, yeah. I always got my tow cable. Why?"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Oh, just in case."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "AH ,OW, OW, OW, OW, NO, NO, NO, NO, NO, NO, NO!!"
+    },
+    {
+      "character": "RAMONE",
+      "text": "Oh, man! Ow!"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "Whoa. Bad trip, man."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Hey! Was that floating like a Cadillac, or was that stinging like a Beemer? I'm confused."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "chuckles"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "You drive like you fix roads."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Lousy!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Have fun fishing, Mater."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "I'm startin' to think he knowed you was gonna crash!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Thank you, Mater. Thank you."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I can make a little turn on dirt. You think?"
+    },
+    {
+      "character": "RAMONE",
+      "text": "Hey, ese! You need a new paint job, man!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No, thank you."
+    },
+    {
+      "character": "FILLMORE",
+      "text": "How 'bout some organic fuel?"
+    },
+    {
+      "character": "SARGE",
+      "text": "That freak juice?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Pass."
+    },
+    {
+      "character": "FLO",
+      "text": "Whoo! Watchin' him workin' is makin' me thirsty."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Nah, not me, Flo. I'm on one of them there special diets. I'm a precisional instrument of speed and air-matics."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "\"You race like you fix roads.\""
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I'll show him! I will show him!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Music. Sweet music."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Maybe this wasn't such a good idea."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Radiator Springs, a happy place!!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Whoa, okay, Bessie you think that's FUNNY?! GREAT! I'M TALKIN' TO BESSIE NOW!! I'M TALKIN' TO BESSIE!!!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Wow!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Mornin', Sally! Hey, look at this here fancy new road that Lightnin' McQueen done just made!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Yes! Ahmm. Amazing!"
+    },
+    {
+      "character": "RAMONE",
+      "text": "Yeah!"
+    },
+    {
+      "character": "FLO",
+      "text": "Oh, Ramone, Mama ain't seen you that low in years."
+    },
+    {
+      "character": "RAMONE",
+      "text": "I haven't seen a road like this in years."
+    },
+    {
+      "character": "FLO",
+      "text": "Well, then let's cruise, baby."
+    },
+    {
+      "character": "RAMONE",
+      "text": "Low and slow."
+    },
+    {
+      "character": "LUIGI",
+      "text": "E Bellissima ! It's beautiful! Guido, look, it's a like it was paved by angels. Oh!!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Oh, I tell you what. I bet even the roads on the moon ain't this smooth."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Doc, look at this! Should a tossed him into the cactus a lot sooner, huh?"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Well, he ain't finished yet. Still got a long way to go."
+    },
+    {
+      "character": "LUIGI",
+      "text": "Guido, look at Luigi!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "This is fantastico!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "That looks like fun! Mater, I got dibs, next turn!"
+    },
+    {
+      "character": "LIZZIE",
+      "text": "Hey, Luigi, this new road makes your place look like a dump."
+    },
+    {
+      "character": "LUIGI",
+      "text": "That crazy old terrible woman. She's right!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "shrieks and sliding along the tarmac and back the other way"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Guido!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Huh. That punk actually did a good job."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Well, now... where the heck is he?"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Sheriff! Is he making another run for it?"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "No, no. He ran outta asphalt in the middle of the night, asked me if he could come down here. All he's trying to do is make that there turn."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "NO NO NO NO!! Aw, great!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Perfect turns on every track I've ever raced on."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Sheriff, why don't you go get yourself a quart of oil at Flo's. I'll keep an eye on him."
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Well, thanks, Doc. I've been feeling a quart low."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "AAH!!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, great. Wha"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "This ain't asphalt, son. This is dirt."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "AAH!!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "This ain't asphalt, son. This is dirt."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, great. What do you want? You hear to gloat?"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "You don't have three-wheel brakes, so you got to pitch it hard, break it loose and then just drive it with the throttle. Give it too much, you'll be outta the dirt and into the tulips."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "So you're a judge, a doctor and a racing expert."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "I'll put it simple. If you goin' hard enough left, you'll find yourself turnin' right."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ooh, right, that makes perfect sense. Turn right to go left! Yes! Thank you! Or should I say, \" No thank you\"?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Because in Opposite World, maybe that really means, \" Thank you\"!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Crazy grandpa car. What an idiot!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Turn right to go left."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mm..."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Whoa!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ow! Oh, that--"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Owwwwwwwwww!!!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Turn right to go left. Guess what. I tried it. You know what? This crazy thing happened... I went right!"
+    },
+    {
+      "character": "LIZZIE",
+      "text": "You keep talking to yourself, people'll think you crazy!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Thanks for the tip."
+    },
+    {
+      "character": "LIZZIE",
+      "text": "What? I wasn't talking to you!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Oh, Guido, e bellissimo!"
+    },
+    {
+      "character": "GUIDO",
+      "text": "Che cosa? (What?)"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "It looks great! This is great!"
+    },
+    {
+      "character": "GUIDO",
+      "text": "Ah, ti piace, eh? Si, si, bellissimo. (Oh, you like it, huh? Yes, yes, beautiful.)"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Oh, no!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "HUH?!"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Mater?!"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "I need you to watch the prisoner tonight."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Well, Dad Gum! Wait a minute, what if he tries to run again?"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Just let him run outta gas and tow him on back. But keep an eye on him."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Yes, sir!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "While I'm stuck here paving this stinking road, Chick's in California schmoozing dinoco. My dinoco!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "WHOA WHOA WHOA ! Who's touching me?!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "You have a slow leak. Guido, he fix. You make a such a nice new road. You come to my shop. Luigi take a good care of you. Even though you not a Ferrari."
+    },
+    {
+      "character": "LUIGI",
+      "text": "You buy four tires, I give you a full size spare absolutely free!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Look, I get all my tires for free."
+    },
+    {
+      "character": "LUIGI",
+      "text": "I like your style, Eu? You drive the hard bargain. Okay, Luigi make you a new deal. You buy one tire, I give you three for free!"
+    },
+    {
+      "character": "FLO",
+      "text": "Aw... Would you look at that? Ramone, Ramone!"
+    },
+    {
+      "character": "RAMONE",
+      "text": "(chuckles)"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Then Luigi make you a new deal."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No, no, no, no. Deal me out. Pass. No, thank you."
+    },
+    {
+      "character": "LUIGI",
+      "text": "No, no, no, no. This is it, my last offer. You buy one tire, I give you 7-a snow tire for all free! Done. You interested, you call me. You know where I am."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Stop!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Oh, Red! You missed a spot, see it right there? On the hood right there."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No, no!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "NO!!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Stop, stop! That's cold!!! Help, please, stop!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Thanks, Red."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What was that for?!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Do you wanna stay at the Cozy Cone or what?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Huh?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "And if you do, you gotta be clean. 'Cause even here in hillbilly hell we have standards."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What, I--? I don't get it."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Nothing I just thought I'd say thank you for doing a great job. So I thought I'd let you stay with me. I mean, not with me! But there. Not with me there, but there in your own Cozy Cone. And I'd be in my cone, and it's..."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Wait. Wait, you're being nice to me."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "I mean if you want to stay at the dirty impound, that's, that's fine. You know, I understand you criminal types."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No, no, no, no. That's okay. Yeah, the Cozy Cone."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Eu, it's newly refurbished."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah, it's like a clever little twist the motel's made out of caution cones, which, of course, cars usually try to avoid, now we're gonna stay in them."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "That's funny."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Figure that all out on your own, did you?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Cone number one, if you want."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, do I spy a little pinstriping tattoo back there?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "OH!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "That's just a--"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "OH!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Oh, you saw that?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Yeah! Just gonna be going."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Gonna..."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Yeah."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "You know, I once knew this girl Doreen . Good-looking girl! Looked just like a jaguar , only she was a truck! You know, I used to crash into her, just so I could spoke to her!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What are you talking about?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "I don't know. Hey, I know something we can do tonight, 'cause I'm in charge of watching you!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No, Mater, I gotta finish this road, and I have to get out of here."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Well, that's all right, Mr. I Can't Turn On Dirt. You probably couldn't handle it anyway."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Whoa, whoa, easy now, Mater. You know who you're talking to? This is Lightning McQueen. I can handle anything."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mater, I'm not doing this."
+    },
+    {
+      "character": "MATER",
+      "text": "Oh, come on, you'll love it!"
+    },
+    {
+      "character": "MATER",
+      "text": "Tractor-tippin's fun!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "This is ridiculous."
+    },
+    {
+      "character": "MATER",
+      "text": "Alright, listen, when I say go, we go, but don't let Frank catch you. GO!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Whoa! Whoa, whoa, whoa! Wait, Wait, Wait! W--Wh--Who's Frank?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mater! Wait, Mater!"
+    },
+    {
+      "character": "MATER",
+      "text": "Okay, here's what you do, you just sneak up in front of them, and then honk. And they do the rest. Watch this."
+    },
+    {
+      "character": "MATER",
+      "text": "I swear, tractors is so dumb! I tell you what, buddy, it don't get much better than this."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yep, you're living the dream, Mater boy."
+    },
+    {
+      "character": "MATER",
+      "text": "I don't care who you are, that's funny right there."
+    },
+    {
+      "character": "MATER",
+      "text": "Ah, your turn, bud."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mater, I can't. I don't even have a horn."
+    },
+    {
+      "character": "MATER",
+      "text": "Baby."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I'm not a baby."
+    },
+    {
+      "character": "MATER",
+      "text": "(Clucking)"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Fine. Stop, stop, okay? Alright, I'll do something."
+    },
+    {
+      "character": "MATER",
+      "text": "That's Frank."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "AHHHHHHH!"
+    },
+    {
+      "character": "MATER",
+      "text": "RUN!!"
+    },
+    {
+      "character": "MATER",
+      "text": "He's gonna get ya!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Customers!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Tomorrow night we can go look for the ghost light!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I can't wait, Mater."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Oh, yeah, I'm telling you!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Oh, boy, you gotta admit that was fun!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, Yeah Yeah."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Well, we better get you back to the impound lot."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "You know, actually, Sally's gonna let me stay at the motel."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Aw. Getting cozy at the Cone, is we?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, co-No, No, Are you kidding? Besides, she can't stand me."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "And I don't like her, to be honest."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Yeah, you probably right: \" HEY, LOOK, THERE'S MISS SALLY! \""
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Where-Where?!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "You're in love with Miss Sally!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No, I'm not."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Yes, you do."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No way."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Way."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Come on, look..."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "You're in love with Miss Sally! You're in love with Miss Sally!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Okay, that's real mature Mater, real grown up."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "You love her! You love her, you love her! You love her, You love her, You love her!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Wait... Alright, okay, Mater, Mater, Mater, no!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Will you stop that?!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Stop what?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "That's driving backwards stuff. It's creeping me out. You're gonna wreck on something."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Wreck? Shoot, I'm the world's best backwards driver! You just watch this right here, lover boy."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What are you doing?! Watch out, Look out! Mater?!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mater!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mater! *"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, take it easy, Mater!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "LIGHTNING MCQUEEN"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "He's nuts!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Mater!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Mater!"
+    },
+    {
+      "character": "SALLY",
+      "text": "Hey, take it easy, Mater!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "No need to watch where I'm goin'!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Just need to know where I've been."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Whoa, that was incredible! How'd you do that?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Rear view mirrors. We'll get you some, and I'll teach you if you want."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah, maybe I'll use it in my big race."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "What's so important about this race of yours, anyway?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "It's not just a race. We're talking about the Piston Cup! I've been dreaming about it my whole life! I'll be the first rookie in history ever to win it. And when I do, we're talkin' big new sponsor, with private helicopters. No more medicated bumper ointment. No more rusty old cars."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "What's wrong with rusty old cars?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Well, I don't mean you, Mater. I mean other old cars. You know? Not like you. I like you."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Nah, it's okay, buddy."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Hey, you think maybe one day I can get a ride in one of them helicopters? I mean, I've always wanted to ride in one of them fancy helicopters."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah, yeah, yeah, sure, sure."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "You mean it?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, yeah. Anything you say."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "I knew it. I knowed I made a good choice!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "In what?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "My best friend."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "See you tomorrow, buddy!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Whoa, whoa, whoa."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Now then..."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Number 1, number 1!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, Number 1!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ha, this is nice."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Hey, Stickers!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "I'm sorry!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "WHOA! You scared me, you gotta be careful."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "I scared myself scaring you scaring me."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I mean, I wasn't like \"scared\" scared."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "No, of course not. Not."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I was more..."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Just I overheard you talking to Mater."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "When? Just, just now? What, what did, what did you hear?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Oh, just something about a helicopter ride."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, yeah. Yeah, he got a kick out of that, didn't he?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Did you mean it?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "That you'll get him a ride."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, who knows? I mean first things first. I gotta get outta here and make the race."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Uh-huh. You know Mater trusts you."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah, okay."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Did you mean that?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Was it just a \"Yeah, okay\", or \"Yeah...okay\" or \"Yea-yeah, okay\"?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Look, I'm exhausted. It's kinda been a long day."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Yeah, okay. Good night."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ah... Hey, thank you."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "What did you just say?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "You know, thanks for letting me stay here. It's nice to be out of the impound, and this is... It's great. Newly refurbished, right?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Yeah."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Good night."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Good night."
+    },
+    {
+      "character": "SARGE",
+      "text": "Will you turn that disrespectful junk off?!"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "Respect the classics, man. It's Hendrix!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "NO!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I gotta get outta here!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, have you seen the Sheriff?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh! Oh, my gosh. Oh!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Hey! What are you doing?"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Get a good peak, City Boy?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I, a.. a.. I just need my daily gas ration from the Sheriff."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Wait for him at Flo's! Now get outta here!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I\u2019ve been trying to get out of here for three days!"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Hope you enjoyed the show."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Whoa ho, Doc. Time to clean out the garage, buddy, come on."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What? He has a Piston Cup?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, my gosh. Three Piston Cups?"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Sign says stay out!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "You You've three Piston Cups. How could you have?"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "I knew you couldn't drive. I didn't know you couldn't read."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "You're the Hudson Hornet!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Wait over at Flo's, like I told you."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Of course. I can't believe I didn't see it before! You're The Fabulous Hudson Hornet! You still to hold the record for most wins in single season! Oh, we gotta talk. You gotta show me your tricks. Please."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "I already tried that."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "And you won the championship three times! Look at those trophies!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "You look. All I see is a bunch of empty cups."
+    },
+    {
+      "character": "FILLMORE",
+      "text": "You know, some automotive yoga could really lower your RPM's, man."
+    },
+    {
+      "character": "SARGE",
+      "text": "Oh, take a car wash, hippie."
+    },
+    {
+      "character": "FLO",
+      "text": "Yeah, look at my husband, y'all. WHOO! That's your color!"
+    },
+    {
+      "character": "RAMONE",
+      "text": "Yellow, baby."
+    },
+    {
+      "character": "FLO",
+      "text": "Mm! You smoking hot!"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "There he is!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh My Gosh! Did you know Doc is a famous race-car?!"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Doc? Our Doc?"
+    },
+    {
+      "character": "SARGE",
+      "text": "Not Doc Hudson."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No no no no no, it's true! He's a real racing legend. He's The Fabulous Hudson Hornet!"
+    },
+    {
+      "character": "FLO",
+      "text": "Fabulous? I never seen Doc drive more than 20 miles an hour. I mean, have you ever seen him race?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No, but I wish I could have of... They say he was amazing, he wins three Piston Cups!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "POOOHHH!!!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "He did what in his cup?!"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "I think the heat's starting to get to the boy!"
+    },
+    {
+      "character": "LIZZIE",
+      "text": "Well, I'll say! Look how red he is!"
+    },
+    {
+      "character": "RAMONE",
+      "text": "Yeah, I think he needs a new coat of poly, man."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Are you sick, buddy?"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "You are looking a little peaked."
+    },
+    {
+      "character": "RAMONE",
+      "text": "Yeah, he needs a new coat of poly for sure!"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Hey-Hey! What are you doing?!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "It's okay, Sheriff. You can trust me, right?"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "I trust you, all right. It's him I'm worried about."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Mm... I trust him."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Come on, let's take a drive."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "A drive?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Yeah, a drive. Don't you big city race cars ever just take a drive?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Uh, No. No, we don't."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Hey, Stickers! Do you comin' or what?"
+    },
+    {
+      "character": "FLO",
+      "text": "Mm-hm!"
+    },
+    {
+      "character": "FLO",
+      "text": "And you thought he was gonna run."
+    },
+    {
+      "character": "RAMONE",
+      "text": "Hey, can you believe it, man? He actually thought Doc was a famous race-car!"
+    },
+    {
+      "character": "RAMONE",
+      "text": "That's so too much!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Okay, you got me out here. Where are we going?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "I don't know."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "WHOA!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yes!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Wow! What is this place?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Wheel Well. Used to be the most popular stop on the mother road."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "This place?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Yeah, imagine...Oh, imagine what it must have been like to stay here."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "You know, I don't get you. How does a Porsche wind up in a place like this?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Well, it's really pretty simple. I was..."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Yeah, imagine...Oh, imagine what it must have been like to stay here."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "You know, I don't get you. How does a Porsche wind up in a place like this?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Well, it's really pretty simple. I was... ...an attorney in LA living life in the fast lane, and."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ah, you were, were you? Were you rich?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "What?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Just... clues to the puzzle."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Yeah, okay. Well, that was my life. And you know what? It never felt......happy."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah. I mean...really?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Yeah. So I left California. Just drove and drove and finally broke down right here. Doc fixed me up, Flo took me in. Well, they all did. And I never left."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah. You know, I understand. You need a little R & R. Recharge and old batteries. But you know, after a while, why didn't you go back?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "I fell in love."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Yep."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Corvette?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "No. I fell in love with this."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Whoa. Look at that. Look, they're driving right by. They don't even know what they're missing!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Well, it didn't used to be that way."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, yeah?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Yeah. 40 years ago, that Interstate down there didn't exist."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Really?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Yeah. Back then, cars came across the country a whole different way."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "How do you mean?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Well, the road didn't cut through land like that Interstate. It moved with the land, you know? It rose, it fell, it curved."
+    },
+    {
+      "character": "FOLK",
+      "text": "Mornin'! Nice day, huh?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Cars didn't drive on it to make a great time. They drove on it to have a great time."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Well, what happened?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "The town got bypassed just to save ten minutes of driving."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "How great would it have been to see this place in its heyday!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Oh, I can't tell you how many times I've dreamed of that. But one of these days, we'll find a way to get it back on the map."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah. Hey, listen, thanks for the drive. I had a great time. It's kinda nice to slow down every once in a while."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "You're welcome."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Hey, listen, listen! If anybody asks you, we was out smashing mailboxes, okay?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Wha... What?"
+    },
+    {
+      "character": "RAMONE",
+      "text": "Oh, man, the paint's still wet!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "No No No No, Get out of the store!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Hey?!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "DON'T EAT THE RADIAL! Here, take-a the snow tires."
+    },
+    {
+      "character": "SHERIFF",
+      "text": "MATER!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "I wasn't tractor-tipping!"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "THEN WHERE DID ALL THESE GOL-DURN TRACTORS COME FROM?!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "WHOA, BOY! WHOA!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey! Hey, guys, There's one going this way!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I got it!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Come here, little tractor, come here."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah, that's a good tractor."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No, no, no, no, come here."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What are you doing? You're not supposed to go wandering off all--alone."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What are you doing with those old racing tires?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Come on, Doc, drive."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Yeah."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Wow!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "You're amazing!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What are you doing? Doc, wait!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Giddy-up right in there! Come on, Rusty. WHEE-HE!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Doc, hold it! Seriously, your driving's incredible!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Wonderful. Now, go away."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, I mean it. You've still got it!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "I'm asking you to leave."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Come on. I'm a race car, you're a much older race car, but under the hood you and I are the same."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "We are not the same! Understand? Now, get out."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "How could a car like you quit at the top of your game?"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "You think I quit?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Right. Your big wreck in 54."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "They quit on me. When I finally got put together, I went back expecting a big welcome. You know what they said? \"You're history.\" Moved right on to the next rookie standing in line. There was a lot left in me. I never got a chance to show 'em. I keep that to remind me never to go back, I just never expected that that world would find me here."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, look, Doc, I'm not 'em."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Oh, yeah?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No, I'm not."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "When is the last time you cared about something except yourself, hot rod? You name me one time. And I will take it all back."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Uh-huh? I didn't think so. These are good folk around here, who care about one another. I don't want 'em depending on someone they can't count on."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, like you? You've been here how long and your friends don't even know who you are? Who's caring about only himself?"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Just finish that road and get outta here!"
+    },
+    {
+      "character": "SARGE",
+      "text": "Will you turn that disrespectful junk off?!"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "Respect the classics, man."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "He's done. He must've finished it while we was all sleeping."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Good riddance."
+    },
+    {
+      "character": "FLO",
+      "text": "He's gone?"
+    },
+    {
+      "character": "SARGE",
+      "text": "Well, we wouldn't want him to miss that race of his."
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Ramone"
+    },
+    {
+      "character": "RAMONE",
+      "text": "Oh, dude, are you crying?"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "NO! I'M HAPPY! I DON'T HAVE TO WATCH HIM EVERY SECOND OF THE DAY ANYMORE! I'M GLAD HE'S GONE!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What's wrong with Red?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Oh, he's just sad because you left town, and went to your big race to win the Piston Cup that you've always dreamed about your whole life and get that big ol' sponsor and that fancy helicopter you was talking about."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Wait a minute! I knowed you wouldn't leave without saying goodbye."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Sheriff"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "What are you doing here, son? You're gonna miss your race. Don't worry. I'll give you a police escort, and we'll make up the time."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Thank you, Sheriff. But you know I can't go just yet."
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Well, why not?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I'm not sure these tires... ...can get me all the way to California."
+    },
+    {
+      "character": "GUIDO",
+      "text": "Pit stop?!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah, does anybody know what time Luigi's opens?"
+    },
+    {
+      "character": "LUIGI",
+      "text": "I can't-a believe it!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Four new tires! Grazien, Mr. Lightning. Grazien!"
+    },
+    {
+      "character": "FLO",
+      "text": "Would you look at that!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Our first real customers in years! I am filled with tears of ecstasy,"
+    },
+    {
+      "character": "LUIGI",
+      "text": "I can't-a believe it!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Four new tires! Grazien, Mr. Lightning. Grazien!"
+    },
+    {
+      "character": "FLO",
+      "text": "Would you look at that!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Our first real customers in years! I am filled with tears of ecstasy, for this is the most glorious day of my life!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Alright, Luigi, give me the best set of black walls you've got."
+    },
+    {
+      "character": "LUIGI",
+      "text": "NO, No, No, No! You don't-a know what you want. Luigi know what you want."
+    },
+    {
+      "character": "LUIGI",
+      "text": "Black wall tires. They blend into the pavement. But-a this:"
+    },
+    {
+      "character": "LUIGI",
+      "text": "\"White-Wall Tires\"! They say, \"Look at me! Here I am! Love me.\""
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Alright, you're the expert."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, and don't forget the spare."
+    },
+    {
+      "character": "LUIGI",
+      "text": "Perfetto. Guido!"
+    },
+    {
+      "character": "GUIDO",
+      "text": "Peet stop!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "What did Luigi tell you, Huh?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Wow, you were right! Better than a Ferrari, huh?"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Eh, no."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Wow! This organic fuel is great! Why haven't I heard about it before?"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "It's a conspiracy, man! The oil companies got a grip on the government!!"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "They're feeding us a bunch of lies, man!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Okay, I'll take a case."
+    },
+    {
+      "character": "RAMONE",
+      "text": "Aw, yeah. Ka-chow."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Here she comes!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Okay, places, everybody. Hurry! Act natural."
+    },
+    {
+      "character": "FOLKS",
+      "text": "Hi, Sally!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "All right, what's going on?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Ladies and gentle cars, please welcome the new:"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "WOW!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "What do you think? Radiator Springs looks pretty good on me."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "I'll say."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Ka-chow. You're gonna fit right in in California. Oh, my goodness, it looks like you've helped everybody in town."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah, everybody except one."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, is it getting dark out?"
+    },
+    {
+      "character": "LIZZIE",
+      "text": "Wh...What?! Wha--What'd he say?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Let me say that again. Is it getting dark out?!"
+    },
+    {
+      "character": "LIZZIE",
+      "text": "Now, what was I supposed to do after that?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "They fixed their neon."
+    },
+    {
+      "character": "FLO",
+      "text": "Low and slow?"
+    },
+    {
+      "character": "RAMONE",
+      "text": "Oh, yeah, baby!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Just like in its heyday, right?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "It's even better than I pictured it. Thank you."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Shall we cruise?"
+    },
+    {
+      "character": "LIZZIE",
+      "text": "Oh, thank you, dear. I'd love to!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "No no no!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Lizzie!"
+    },
+    {
+      "character": "LIZZIE",
+      "text": "I remember when Stanley first asked me to take a drive with him."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Hey, \"Miss Sally.\" May I have this cruise?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Of course, Mater."
+    },
+    {
+      "character": "SHERIFF",
+      "text": "A-A-Ah!"
+    },
+    {
+      "character": "LIZZIE",
+      "text": "...and again and I said, \"no,\" and he asked me again, and I said, \"no...\""
+    },
+    {
+      "character": "LIZZIE",
+      "text": "...but, oh, he was a persistent little bugger for a two-cylinder..."
+    },
+    {
+      "character": "LIZZIE",
+      "text": "...finally I said, \"alright, one little drive...\""
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "OH!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Dah ha ha ha ha ha!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Thanks, Mater."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Good evening, you two!"
+    },
+    {
+      "character": "LIZZIE",
+      "text": "Oh, Stanley, I wish you could see this."
+    },
+    {
+      "character": "FLO",
+      "text": "Is that what I think it is?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Oh, I don't know, Flo. I haven't had a chance to find out."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "But I am going to find out. Hello."
+    },
+    {
+      "character": "FLO",
+      "text": "Not that! That!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Customers?"
+    },
+    {
+      "character": "FLO",
+      "text": "Customers, everybody! And a lot of them! You know what to do, just like we rehearsed!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "It's the Ghost-Light!"
+    },
+    {
+      "character": "KATHY COPTER",
+      "text": "We have found McQueen! We have found McQueen!"
+    },
+    {
+      "character": "CAMERAMEN",
+      "text": "McQueen, over here, kid!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, wait......Excuse me."
+    },
+    {
+      "character": "CAMERAMEN",
+      "text": "Is it true you've been in rehab?! Did you have a nervous breakdown, McQueen?!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I'm sorry, what?"
+    },
+    {
+      "character": "CAMERAMEN",
+      "text": "McQueen's wearing whitewalls! Are the tires you wearing are turning balding?!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Stickers, McQueen!"
+    },
+    {
+      "character": "CAMERAMEN",
+      "text": "Was Lightning McQueen your prisoner?!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Shoot, no, we're best buds! I ain't bragging or nothing, but I was in charge of hunting him down if he tried to escape."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Sally, Sally!"
+    },
+    {
+      "character": "KORI TURBOWITZ",
+      "text": "McQueen, will you still race for the Piston Cup?!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Stickers?!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Sally!"
+    },
+    {
+      "character": "CAMERAMEN",
+      "text": "Come on, give us some bolt!"
+    },
+    {
+      "character": "MACK",
+      "text": "YOU'RE HERE!"
+    },
+    {
+      "character": "MACK",
+      "text": "Thank the manufacturer, you're alive!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mack?!"
+    },
+    {
+      "character": "MACK",
+      "text": "You're here! I can't believe it!"
+    },
+    {
+      "character": "MACK",
+      "text": "You are a sight for sore headlights! I'm so sorry I lost you, boss. I'll make it up to you..."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mack, I, I can't believe you're here!"
+    },
+    {
+      "character": "HARV",
+      "text": "Is that the world's fastest racing machine?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Is that \"Harv\"?"
+    },
+    {
+      "character": "MACK",
+      "text": "Yeah, he's in the back."
+    },
+    {
+      "character": "HOUSER BOON",
+      "text": "Show us the bolt, McQueen!"
+    },
+    {
+      "character": "MACK",
+      "text": "GET BACK, YOU OIL-THIRSTY PARASITES!"
+    },
+    {
+      "character": "HOUSER BOON",
+      "text": "Hey, where's the old McQueen?"
+    },
+    {
+      "character": "MACK",
+      "text": "Actually, this is my good side here."
+    },
+    {
+      "character": "CAMERAMEN",
+      "text": "Show us the bolt!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Harv! Harv!"
+    },
+    {
+      "character": "CAMERAMEN",
+      "text": "Give us the bolt!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Harv?"
+    },
+    {
+      "character": "CAMERAMEN",
+      "text": "Come on!"
+    },
+    {
+      "character": "HARV",
+      "text": "Kid, I'm over here!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "How you doing, buddy?"
+    },
+    {
+      "character": "HARV",
+      "text": "My star client disappears off the face of the Earth! How do you think I'm doing?!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Harv, I can explain."
+    },
+    {
+      "character": "HARV",
+      "text": "I'm doing great! You're everywhere, baby, radio, TV, the papers! You can't buy this kind of publicity! What do you need me for?! That's just a figure of speech by the way you signed a contract. Where are you?! I can't even find you on my GPS."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I'm in this little town called Radiator Springs. You know Route 66? It's still here!"
+    },
+    {
+      "character": "HARV",
+      "text": "Yeah, that's great, kid. Playtime is over, pal."
+    },
+    {
+      "character": "HARV",
+      "text": "While the world's been trying to find you, Dinoco has had no one to woo. Who are they gonna woo?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Chick..."
+    },
+    {
+      "character": "HARV",
+      "text": "Bingo, in fact, check out what's on the plasma right now."
+    },
+    {
+      "character": "CAMERAMEN",
+      "text": "Show us the thunder!"
+    },
+    {
+      "character": "CHICK",
+      "text": "You want thunder?"
+    },
+    {
+      "character": "CHICK",
+      "text": "You want thunder?!"
+    },
+    {
+      "character": "CHICK",
+      "text": "Ka-chicka, ka-chicka! Ka-chicka!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Hey, that's my bit!"
+    },
+    {
+      "character": "HARV",
+      "text": "You've gotta get to Cali, pronto! Just get out of Radiation Stinks now, or Dinoco is history, you hear me?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Just give me a second here, Harv."
+    },
+    {
+      "character": "HARV",
+      "text": "No, no, wait, where are you going?! Get in the trailer, baby! Kid, you wa... You want a bigger trailer?!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Sally, I want you to, look, I wish--"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Thank you. Thanks for everything."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "It was just a road."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "No. It was much more than that."
+    },
+    {
+      "character": "MACK",
+      "text": "Hey, kid! We gotta go! Harv's going CRAZY! He's gonna have me fired if I don't get you in the truck right now!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mack, just hold it for..."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "You should go."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I know, but..."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Good luck in California. I hope you find what you're looking for."
+    },
+    {
+      "character": "CAMERAMEN",
+      "text": "McQueen, come on!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Sally!"
+    },
+    {
+      "character": "CAMERAMEN",
+      "text": "Show us the bolt, McQueen! The bolt! Hey, Lightning, show us the bolt! Where's the old McQueen?!"
+    },
+    {
+      "character": "HARV",
+      "text": "Come on, kid, get in the trailer. That's it. That's right, kid, let's go! You're a big shining star. You're a superstar. If you don't mind, You don't have belong there, anyway."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Whoa Wait Whoa Whoa Wait Wait!"
+    },
+    {
+      "character": "CAMERAMEN",
+      "text": "Hey, guys! McQueen's leaving in the truck!"
+    },
+    {
+      "character": "KORI TURBOWITZ",
+      "text": "Hey, are you Doc Hudson?"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Yeah."
+    },
+    {
+      "character": "KORI TURBOWITZ",
+      "text": "Thanks for the call."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "You called them?"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "It's best for everyone, Sally."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Best for everyone,"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "or best for you?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "I didn't get to say goodbye to him."
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Hello, race fans, and welcome to what has become, quite simply, the biggest event in the history of racing. A three way battle for the Piston Cup!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Bob, there's a crowd of nearly 200,000 cars here at the Los Angeles International Speedway. Tickets to this race are hotter than a black leather seat on a hot summer day!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "The King, Chick Hicks and Lightning McQueen in a 200-lap, winner-takes-all, tiebreaker race."
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "And Bob, you know I got a lotta miles on me, but let me tell you something buddy. I never thought I'd see anything like this. Whoo! Man, this is exciting!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "And Bob, you know I got a lotta miles on me, but let me tell you something buddy. I never thought I'd see anything like this. Whoo! Man, this is exciting!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "In fact, the country has almost shut down, to watch what many experts are calling the race of the century."
+    },
+    {
+      "character": "JUNIOR",
+      "text": "Hey, King! Good luck in your last race. You've sure been an inspiration to me."
+    },
+    {
+      "character": "THE KING",
+      "text": "Thanks, Junior. Appreciate it."
+    },
+    {
+      "character": "LYNDA WEATHERS",
+      "text": "Hey, be careful out there, okay?"
+    },
+    {
+      "character": "THE KING",
+      "text": "Yeah, man."
+    },
+    {
+      "character": "MIA",
+      "text": "Oh! He's so hot!"
+    },
+    {
+      "character": "TIA",
+      "text": "I know, right?"
+    },
+    {
+      "character": "CHICK",
+      "text": "Oh, yeah. You wanna know the forecast? I'll give you the forecast. A 100 percent chance of THUNDER!"
+    },
+    {
+      "character": "CHICK",
+      "text": "Ka-chicka! Ka-chicka! Say it with me!"
+    },
+    {
+      "character": "SECURITY",
+      "text": "Hey, you! No admittance without a garage pass."
+    },
+    {
+      "character": "FRED",
+      "text": "Oh, it's okay. Lightning McQueen knows me!"
+    },
+    {
+      "character": "ANDRETTI",
+      "text": "Hey, Marco, it's a beautiful day for a race, isn't it?"
+    },
+    {
+      "character": "SECURITY",
+      "text": "Absolutely, Mr. Andretti."
+    },
+    {
+      "character": "ANDRETTI",
+      "text": "And good morning to you uh Fred."
+    },
+    {
+      "character": "FRED",
+      "text": "Mario Andretti he knows my name! You gotta let me in now!"
+    },
+    {
+      "character": "SECURITY",
+      "text": "Sorry, sir."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Okay, here we go. Focus. Speed."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I am speed."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Victory. 1 winner, 2 losers."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Speed, speed, speed, speed..."
+    },
+    {
+      "character": "MACK",
+      "text": "Hey, Lightning, you ready?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Y-yeah, yeah, yeah, I'm uh... I'm ready."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Mack, thanks for being my pit crew today."
+    },
+    {
+      "character": "MACK",
+      "text": "Ahh. Don't worry about it, kid. It's the least I could do. After all, \"Gas Can\" is my middle name."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "It is?"
+    },
+    {
+      "character": "MACK",
+      "text": "Ahh, not really."
+    },
+    {
+      "character": "SMALL AIRPLANE",
+      "text": "Uh-oh!"
+    },
+    {
+      "character": "TV CREW",
+      "text": "Nelson! Zoom in. Ready, 16? Take 16."
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "And there he is, Lightning McQueen! Missing all week, and then he turns up in the middle of nowhere! In a little town called Radiator Springs."
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Wearing whitewall tires, of all things."
+    },
+    {
+      "character": "CHICK",
+      "text": "Ka-chicka, Ka-chicka, Ka-chicka! Hey, where you been, Young McQueen? I've been kinda lonely. Nobody to hang out with. I mean, except the Dinoco folks. Oh, and the twins. Of course. You know the twins, the ones that used to be your fans, but now they're my fans. Anyway, listen to what the twins think..."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "AAH! Shoot!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Boogity, boogity, boogity, boys! Let's go racing!"
+    },
+    {
+      "character": "LYNDA WEATHERS",
+      "text": "Come on, you can do it!"
+    },
+    {
+      "character": "TEX",
+      "text": "Come on, keep making us proud, boy!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Fifty laps down, and The King is still holding a slim lead."
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Hey, McQueen's got a run on him! He's looking to the inside!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Oh, Chick slammed the door on him!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Chick's not making it easy on him today."
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Oh, man, he lost so much momentum, and now he's gonna have to chase him back down!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "AH!!!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "OH!!! McQueen spins out in the infield!"
+    },
+    {
+      "character": "CHICK",
+      "text": "Just me and the old man, fellas. McQueen just doesn't have it today."
+    },
+    {
+      "character": "MACK",
+      "text": "Hey, kid, you all alright?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I don't know, Mack. I...I don't think I'm-"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "I didn't come all this way to see you quit."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Doc?"
+    },
+    {
+      "character": "GUYS",
+      "text": "Lightning McQueen"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Guys, you're here! I can't believe this!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "I knew you needed a crew chief, but I didn't know it was this bad."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I thought you said you'd never come back."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Well, I really didn't have a choice. Mater didn't get to say goodbye."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Goodbye! Okay, I'm good."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Doc Hudson"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Alright, if you can drive as good as you can fix a road, then you can win this race with your eyes shut. Now, get back out there!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Hot snot, we are back in business! Guido! Luigi! You're goin' up against professional pit crews boys, you're gonna have to be fast."
+    },
+    {
+      "character": "LUIGI",
+      "text": "They will not know what bit them!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Kid, you can beat these guys. Find a groove that works for you and get that lap back!"
+    },
+    {
+      "character": "CHICK'S CREW",
+      "text": "Is that? Oh, wow. That's him!"
+    },
+    {
+      "character": "TV CREW",
+      "text": "Is that--? That's the Hudson Hornet! Bob, Darrell, the Hudson Hornet's back!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Darrell, it appears McQueen has got himself a pit crew. And look who he has for a crew chief!"
+    },
+    {
+      "character": "FANS",
+      "text": "Whoa! Look, man. It's the Hudson Hornet!"
+    },
+    {
+      "character": "BIGGEST FAN",
+      "text": "Whoa!"
+    },
+    {
+      "character": "FANS",
+      "text": "Well, dip me in axle grease and call me Slick! It surely is!"
+    },
+    {
+      "character": "BIGGEST FAN",
+      "text": "Bob Cutlass"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Wow, this is history in the making. Nobody has seen the racing legend in over fifty years!"
+    },
+    {
+      "character": "LIZZIE",
+      "text": "Hey, Doc! Come look at this fellow on the radio! He looks just like you!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "McQueen passes them on the inside!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "But he's still nearly a lap down!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Can he catch up to them with only sixty laps to go?"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "You're going great, kid. Just keep your head on."
+    },
+    {
+      "character": "GUIDO",
+      "text": "Vai, vai, vai! (Go, go, go!)"
+    },
+    {
+      "character": "CHICK'S CREW",
+      "text": "Hey, shrimpie, where did McQueen find us, huh? Those round things are called tires, and they go UNDER THE CAR!"
+    },
+    {
+      "character": "GUIDO",
+      "text": "Con chi credi di parlare?! Ma, con chi stai parlando?!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "No, no, no! You will have your chance, Guido. You will have your chance."
+    },
+    {
+      "character": "CHICK",
+      "text": "Oh, kid's just trying to be a hero, huh? Well, what do you think of this?!"
+    },
+    {
+      "character": "CHICK",
+      "text": "Yeah, that's it kid."
+    },
+    {
+      "character": "CHICK",
+      "text": "WHAT?!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Whoa! Git-R-Done!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "I taught him that. KA CHOW!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "What a move by McQueen, he's caught up to the leaders!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Oh, yeah. This is what it's all about. A three-way battle for the lead, with ten to go!"
+    },
+    {
+      "character": "TEX",
+      "text": "Look at that boy go out there!"
+    },
+    {
+      "character": "CHICK",
+      "text": "No you don't! Doc, I'm flat! I'm flat!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Doc, I'm flat! I'm flat!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Can you get back to the pits?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah, yeah. I think so."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Hey, got a yellow. Bring it in. Don't tear yourself up, kid."
+    },
+    {
+      "character": "MACK",
+      "text": "We've gotta get him back out there fast or we're gonna be a lap down and we'll never win this race!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Guido, it's time."
+    },
+    {
+      "character": "CHICK CREW",
+      "text": "Hey, tiny, you're gonna clean his windshield?!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "I don't believe it!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "That was the fastest pit stop I've ever seen!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "It was a great stop, but he's still gotta beat that pace car out!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "It's gonna be close!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Yeah!"
+    },
+    {
+      "character": "BIGGEST FAN",
+      "text": "Yeah, baby!"
+    },
+    {
+      "character": "FANS",
+      "text": "Yeah!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Yay! He's back in the race!"
+    },
+    {
+      "character": "GUIDO",
+      "text": "Pit stop."
+    },
+    {
+      "character": "LUIGI",
+      "text": "Guido, you did it!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Way to go, Guido!"
+    },
+    {
+      "character": "RAMONE",
+      "text": "Yeah!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "This is it. We're heading into the final lap and McQueen is right behind the leaders. What a comeback!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "A hundred and ninety-nine laps, and, baby, it all comes down to this!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "This is it, kiddo. You've got four turns left, one at a time. Drive it in deep and hope it sticks. GO!"
+    },
+    {
+      "character": "CHICK",
+      "text": "We'll see about that!"
+    },
+    {
+      "character": "CHICK",
+      "text": "OW!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "McQueen's going inside!"
+    },
+    {
+      "character": "CHICK",
+      "text": "Chick and The King are loose!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "I think McQueen is out of the race!"
+    },
+    {
+      "character": "MCQUEEN",
+      "text": "McQueen saved it!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "He's back on the track!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Float like a Cadillac..."
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "I think McQueen is out of the race!"
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "He's back on the track!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Float like a Cadillac..."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Sting like a Beemer!"
+    },
+    {
+      "character": "BIGGEST FAN",
+      "text": "Ka-chow, ka-chow, ka..."
+    },
+    {
+      "character": "RADIATOR SPRINGS FOLKS",
+      "text": "Yaaaaaay!"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Lightning McQueen is gonna win the Piston Cup!"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Come on, you've got it, you've got it, Stickers!"
+    },
+    {
+      "character": "CHICK",
+      "text": "Argh! I am not coming in behind you again, old man!"
+    },
+    {
+      "character": "LYNDA WEATHERS",
+      "text": "Oh no!"
+    },
+    {
+      "character": "CHICK",
+      "text": "Yeah!! Whoo-hoo!!"
+    },
+    {
+      "character": "CHICK",
+      "text": "I won, baby! Yeah! Oh, yeah!"
+    },
+    {
+      "character": "FLO",
+      "text": "What's he up to, Doc?"
+    },
+    {
+      "character": "THE KING",
+      "text": "What are you doing, kid?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I think The King should finish his last race."
+    },
+    {
+      "character": "THE KING",
+      "text": "You just gave up the Piston Cup, you know that?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ah, this grumpy old racecar I know once told me something. It's just an empty cup."
+    },
+    {
+      "character": "BOB CUTLASS",
+      "text": "Darrell, is pushing on the last lap legal?"
+    },
+    {
+      "character": "DARRELL CARTRIP",
+      "text": "Hey, man. He's not really pushing him. He's just giving him a little bump draft."
+    },
+    {
+      "character": "CHICK",
+      "text": "Whoo!"
+    },
+    {
+      "character": "CHICK",
+      "text": "Hey! What?! What's going on?!"
+    },
+    {
+      "character": "FAN",
+      "text": "That's what I call racing right there."
+    },
+    {
+      "character": "LUIGI",
+      "text": "Bravo il mio amico! (Well done my friend!)"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Way to go, buddy!"
+    },
+    {
+      "character": "FILLMORE",
+      "text": "There's a lotta love out there, you know, man?"
+    },
+    {
+      "character": "SARGE",
+      "text": "Don't embarrass me, Fillmore."
+    },
+    {
+      "character": "LIZZIE",
+      "text": "That's my hot rod."
+    },
+    {
+      "character": "CHICK",
+      "text": "Come on, baby, bring it out! Bring out the Piston Cup. Ka-chicka, ka-chicka!"
+    },
+    {
+      "character": "CHICK",
+      "text": "Yeah-ha-ha! Now, that's what I'm talking about! Hey! How come the only one celebrating is me, huh?! Where are the girls?! Bring on the confetti!"
+    },
+    {
+      "character": "CHICK",
+      "text": "Ow! Ow!!"
+    },
+    {
+      "character": "CHICK",
+      "text": "Easy with the confetti. What's going on? Come on, snap some pictures. I gotta go sign my deal with Dinoco! Ka-chicka! Say it with me."
+    },
+    {
+      "character": "CHICK",
+      "text": "Ka-chicka, ka-chicka, ka-chicka!"
+    },
+    {
+      "character": "CAMERAMEN",
+      "text": "Boo!"
+    },
+    {
+      "character": "MIA & TIA",
+      "text": "Boo!"
+    },
+    {
+      "character": "CHICK",
+      "text": "What's wrong with everybody?!"
+    },
+    {
+      "character": "CHICK",
+      "text": "Ow! Where's the happiness?!"
+    },
+    {
+      "character": "CHICK",
+      "text": "Hey! This is the start of the Chick era!"
+    },
+    {
+      "character": "LYNDA WEATHERS",
+      "text": "Thanks, Lightning."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "You're welcome."
+    },
+    {
+      "character": "FAN",
+      "text": "Way to go, King! You're still the car!"
+    },
+    {
+      "character": "BIGGEST FAN",
+      "text": "You're The King! Yeah!"
+    },
+    {
+      "character": "RUSTY",
+      "text": "You made us proud, kid!"
+    },
+    {
+      "character": "MACK",
+      "text": "Congrats on the loss, me bucko!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "You got a lotta stuff, kid."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Thanks, Doc."
+    },
+    {
+      "character": "TEX",
+      "text": "Son, that was some real racin' out there. How'd you like to become the new face of Dinoco?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "But I didn't win."
+    },
+    {
+      "character": "TEX",
+      "text": "Lightning, there's a whole lot more to racing than just winning."
+    },
+    {
+      "character": "DUSTY",
+      "text": "He was so rusty, when he drove down the street, buzzards used to circle the car!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Thank, you, Mr. Tex, but...but these Rust-eze guys over there gave me my big break. I'm gonna stick with them."
+    },
+    {
+      "character": "TEX",
+      "text": "Well, I sure can respect that. Still, you know, if there's ever anything I can do for you, just let me know."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I sure appreciate that, thank you... Actually, there is one thing..."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "WHOO-HOO!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Hey, look at me! I'm flying, by golly! Whoo-hoo!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "I'm happier than a tornado in a trailer park!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "I think it's about-a time we redecorate."
+    },
+    {
+      "character": "MICHAEL SCHUMACHER",
+      "text": "CHOW!"
+    },
+    {
+      "character": "MICHAEL SCHUMACHER",
+      "text": "Hi, Lightning McQueen told me this was the best place in the world to get tires. How about setting me and my friends up with three or four sets each?"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Guido! There is a real Michael Schumacher Ferrari in my store."
+    },
+    {
+      "character": "LUIGI",
+      "text": "A REAL FERRARI!"
+    },
+    {
+      "character": "LUIGI",
+      "text": "Push me, Guido, push me in the face! This is the most glorious day of my life!"
+    },
+    {
+      "character": "MICHAEL SCHUMACHER",
+      "text": "Whoa,"
+    },
+    {
+      "character": "MICHAEL SCHUMACHER",
+      "text": "Spero che il tuo amico si riprenda. Mi dicono che siete fantastici. (I hope your friend gets better. I hear you guys are amazing.)"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Just passing through?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Actually, I thought I'd stop and stay awhile, I hear this place is back on the map."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "It is?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah, there's some rumor floating around that some hotshot Piston Cup racecar is setting up his big racing headquarters here."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Really? Ah, well, there goes the town."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "You know, I really missed you, Sally."
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Well, I create feelings in others they themselves don't understand and, blah, blah, blah, blah, blah, blah..."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "McQueen and Sally parked beneath the tree, K-I-S-S... uhh... I-N-G!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Great timing, Mater!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Hepnon, hiphep, hilililly! Wheeeeeee!!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "He's my best friend. What're you gonna do?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "So, Stickers. Last one to Flo's buys?"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I don't know. Why don't we just take a drive?"
+    },
+    {
+      "character": "SALLY CARRERA",
+      "text": "Hmm, nah."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Yeah!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Ka-Chow!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "YEEEEEEHHEEEEEEEEE!!!!!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "All right, everybody please keep together now. We is now entering the Doc Hudson wing of the museum."
+    },
+    {
+      "character": "JUNIOR",
+      "text": "Whoa. Unbelievable. That many wins in a single season."
+    },
+    {
+      "character": "THE KING",
+      "text": "He's the real deal, Junior. The Hudson Hornet was my inspiration."
+    },
+    {
+      "character": "LYNDA WEATHERS",
+      "text": "Excuse me, son. Is Doc Hudson here today?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Sorry, Mrs. The King, I think Doc went out for a drive or something."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Whoo-ooh!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Yeah!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Whoo-hoo!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Well, you sure ain't no dirt boy."
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Not today, old man. I know all your tricks."
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Ye-YEAH!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Doc! Doc!"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Whoo-ah! Not all my tricks, rookie!"
+    },
+    {
+      "character": "SARGE",
+      "text": "Attention! Kiss the pavement goodbye, gentlemen. When I'm finished with you, you'll have mud in places you didn't know you had!"
+    },
+    {
+      "character": "TJ HUMMER",
+      "text": "Yo, I've never been off-road!"
+    },
+    {
+      "character": "SARGE",
+      "text": "Well, that's gonna change right now! About face!"
+    },
+    {
+      "character": "SARGE",
+      "text": "Drop and give me 20 miles!"
+    },
+    {
+      "character": "SARGE",
+      "text": "Go Go Go Go Go Go Go Go!"
+    },
+    {
+      "character": "TJ HUMMER",
+      "text": "Man, now I got dirt in my rims!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Huh?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Look at this! It's my hood, it's my hood, I ain't seen this thing in 20 years!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Well, it fits perfectly. How do I look?"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Nah, dang."
+    },
+    {
+      "character": "WOODY CAR",
+      "text": "YOU ARE A TOY CAR!!!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR CAR",
+      "text": "You are a sad, strange little wagon and you have my pity. Farewell!"
+    },
+    {
+      "character": "WOODY CAR",
+      "text": "Oh, yeah?! Well, good riddance, you loony!"
+    },
+    {
+      "character": "HAMM CAR",
+      "text": "Hey, I hate to break up the road rally, guys, but they're here! Birthday guests at three o'clock!"
+    },
+    {
+      "character": "MACK",
+      "text": "HohohoOh, man! Whoever does the voice of that piggy truck, I'm telling ya, he's one great actor!"
+    },
+    {
+      "character": "MIKE CAR",
+      "text": "We're banished, genius! Stuck out here in this wasteland without chains!"
+    },
+    {
+      "character": "SULLEY TRUCK",
+      "text": "But, Mike, the Boomobile's in trouble! She needs our help!"
+    },
+    {
+      "character": "MIKE CAR",
+      "text": "You're still not listening!"
+    },
+    {
+      "character": "ABOMINABLE SNOWPLOW",
+      "text": "Welcome to the Himalayas! Snow cone?"
+    },
+    {
+      "character": "MACK",
+      "text": "Oh, that Abominable Snowplow is quite the comic thespian!"
+    },
+    {
+      "character": "FLIK CAR",
+      "text": "Just get in there! Go, go, go, go!"
+    },
+    {
+      "character": "FLIK CAR",
+      "text": "Circus cars?! How can you be circus cars?!"
+    },
+    {
+      "character": "P.T. CAR",
+      "text": "These are the lousiest circus cars in the world, and they're gonna make me rich!"
+    },
+    {
+      "character": "MACK",
+      "text": "Wait a minute here. They're just using the same actor over and over. What kind of a cut rate production is this?"
+    },
+    {
+      "character": "MINNY",
+      "text": "Oh, for the love of Chrysler, can we please ask someone for directions?"
+    },
+    {
+      "character": "VAN",
+      "text": "No! There's an on ramp close! I know it, I can feel it"
+    },
+    {
+      "character": "VAN",
+      "text": "Ah ha ha ha ha ha ha ha ha oh"
+    }
+  ]
+}

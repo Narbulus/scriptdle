@@ -1,0 +1,4014 @@
+{
+  "id": "toy-story",
+  "title": "Toy Story",
+  "year": 1995,
+  "characters": [
+    "ALIEN",
+    "ALIENS",
+    "ANDY",
+    "ANDY'S MOM",
+    "ATTENDANT",
+    "BO PEEP",
+    "BOTH",
+    "BOY",
+    "BOY 2",
+    "BUZZ (VOICE BOX)",
+    "BUZZ LIGHTYEAR",
+    "BUZZ'S VOICE BOX",
+    "CHILD",
+    "FEMALE PA",
+    "FEMALE WORKER",
+    "FRIEND #1",
+    "FRIEND #2",
+    "HAMM",
+    "HAMM, MR. POTATO HEAD, AND SLINKY",
+    "HANNAH",
+    "KIDS",
+    "LENNY",
+    "LYLE LOVETT",
+    "MAN",
+    "MR. POTATO HEAD",
+    "MR. SHARK",
+    "MR. SPELL",
+    "MRS. DAVIS",
+    "P.A.",
+    "PIZZA DELIVERER",
+    "RANDY NEWMAN",
+    "REX",
+    "REX AND SLINKY",
+    "ROBOT",
+    "ROBOT GUARDS",
+    "SARGE",
+    "SHERIFF WOODY",
+    "SID",
+    "SID PHILLIPS",
+    "SID'S MOM",
+    "SLINKY",
+    "SOLDIER",
+    "TOYS",
+    "TV BUZZ",
+    "TV BUZZ'S VOICE BOX",
+    "VO",
+    "WOMAN",
+    "WOODY",
+    "WOODY'S VOICE BOX"
+  ],
+  "lines": [
+    {
+      "character": "ANDY",
+      "text": "Alright, everyone! This is a stick-up! Don't anybody move! Now empty that safe!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Money, money, money!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Stop it! Stop it, you mean old potato!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Quiet, Bo Peep! Or your sheep will get run over!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Help! Baa! Help us!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Oh, no! Not my sheep! Somebody do something!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Reach for the sky!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Oh, no! Sheriff Woody!"
+    },
+    {
+      "character": "WOODY",
+      "text": "I'm here to stop you, One-Eyed Bart!"
+    },
+    {
+      "character": "ANDY",
+      "text": "D'oh! How\u2019d you know it was me?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Are you gonna come quietly?"
+    },
+    {
+      "character": "ANDY",
+      "text": "You can't touch me, sheriff! I've brought my attack dog... (puts Slinky Dog in front of Mr. Potato Head (One-Eyed Bart) ...with a built in forcefield!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Well, I brought my dinosaur who eats forcefield dogs!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Arr rawr rawr!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Yipe, yipe-yipe-yipe!"
+    },
+    {
+      "character": "WOODY",
+      "text": "You're going to jail, Bart. Say goodbye to the wife and tater tots."
+    },
+    {
+      "character": "ANDY",
+      "text": "You saved the day again, Woody."
+    },
+    {
+      "character": "WOODY",
+      "text": "You're my favorite deputy."
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "\u266a You've got a friend in me. \u266a"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "\u266a You've got a friend in me. \u266a"
+    },
+    {
+      "character": "ANDY",
+      "text": "Come on, let's wrangle up the cattle."
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "\u266a When the road looks rough ahead \u266a"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "\u266a And you're miles and miles from your nice warm bed, \u266a"
+    },
+    {
+      "character": "ANDY",
+      "text": "Round \u2019em up, Cowboy!"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "\u266a You just remember what your old pal said. \u266a"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "\u266a Boy, you've got a friend in me. \u266a"
+    },
+    {
+      "character": "ANDY",
+      "text": "Yee-haw!"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "\u266a Yeah, you've got a friend in me. \u266a"
+    },
+    {
+      "character": "ANDY",
+      "text": "Hey, cowboy."
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "\u266a Some other folks might be a little bit smarter than I am \u266a"
+    },
+    {
+      "character": "ANDY",
+      "text": "Neigh!"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "\u266a Bigger and stronger, too \u266a"
+    },
+    {
+      "character": "ANDY",
+      "text": "Come on, Woody!"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "\u266a Maybe \u266a"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "\u266a But none of them will ever love you the way I do. \u266a"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "\u266a t's me and you, boy. \u266a"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "\u266a And as the years go by, \u266a"
+    },
+    {
+      "character": "ANDY",
+      "text": "Whoa!"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "\u266a Our friendship will never die. \u266a"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "\u266a You're gonna see, it's our destiny. \u266a"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "\u266a You've got a friend in me. \u266a"
+    },
+    {
+      "character": "ANDY",
+      "text": "Alright!"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "\u266a Yeah, you've got a friend in me. \u266a"
+    },
+    {
+      "character": "ANDY",
+      "text": "Score!"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "\u266a You've got a friend in me. \u266a"
+    },
+    {
+      "character": "ANDY",
+      "text": "Wow! Cool!"
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "What do you think?"
+    },
+    {
+      "character": "ANDY",
+      "text": "Oh, this looks great, Mom!"
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "Okay, birthday boy."
+    },
+    {
+      "character": "ANDY",
+      "text": "We saw it at the store, I asked you for it! Wow, look at that! That's so- Oh, my gosh, you got-"
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "I hope I have enough places. One, two-- Four. Yeah, I think that's gonna be enough."
+    },
+    {
+      "character": "ANDY",
+      "text": "Can we leave this up until we move?"
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "Well, sure. We can leave it up."
+    },
+    {
+      "character": "ANDY",
+      "text": "Yeah!"
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "Now go get Molly. Your friends are gonna be here any minute."
+    },
+    {
+      "character": "ANDY",
+      "text": "Okay. (grabs Woody) It's party time, Woody."
+    },
+    {
+      "character": "ANDY",
+      "text": "Yee-haw!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Howdy, little lady."
+    },
+    {
+      "character": "ANDY",
+      "text": "Somebody's poisoned the waterhole."
+    },
+    {
+      "character": "ANDY",
+      "text": "Come on, Molly. Oh, you're gettin\u2019 heavy."
+    },
+    {
+      "character": "ANDY",
+      "text": "See you later, Woody."
+    },
+    {
+      "character": "WOODY",
+      "text": "Pull my string, the birthday party's today? Okay, everybody. Coast is clear."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Ages 3 and up. It's on my box. Ages 3 and up. (puts his hat and nose back in their respective places) I'm not supposed to be babysitting Princess Drool."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Hey, Hamm. Look, I'm Picasso!"
+    },
+    {
+      "character": "HAMM",
+      "text": "I don't get it."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "You uncultured swine! What're you lookin' at, ya hockey puck?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Hey, Sarge, have you seen Slinky?"
+    },
+    {
+      "character": "SARGE",
+      "text": "Sir! No, sir!"
+    },
+    {
+      "character": "WOODY",
+      "text": "OK. Hey, thank you. At ease."
+    },
+    {
+      "character": "WOODY",
+      "text": "Hey, uh, Slinky?"
+    },
+    {
+      "character": "SLINKY",
+      "text": "Right here, Woody. I'm red this time."
+    },
+    {
+      "character": "WOODY",
+      "text": "No. Slink."
+    },
+    {
+      "character": "SLINKY",
+      "text": "Oh, well, all right. You can be red if you want."
+    },
+    {
+      "character": "WOODY",
+      "text": "N-Not now, Slink. I got some bad news."
+    },
+    {
+      "character": "SLINKY",
+      "text": "Bad news?!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Shhh!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Just gather everyone up for a staff meeting and be happy."
+    },
+    {
+      "character": "SLINKY",
+      "text": "Got it."
+    },
+    {
+      "character": "WOODY",
+      "text": "Be happy."
+    },
+    {
+      "character": "SLINKY",
+      "text": "Ha, ha, ha, ha, ha."
+    },
+    {
+      "character": "WOODY",
+      "text": "Staff meeting, everybody! Snake, Robot, podium duty. Staff meeting, guys. Your turn to podium duty."
+    },
+    {
+      "character": "ROBOT",
+      "text": "Hey!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Hey, Etch. Draw!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh! Got me again. Etch, you've been workin\u2019 on that draw. Fastest knobs in the West."
+    },
+    {
+      "character": "SLINKY",
+      "text": "Got a staff meeting you guys. Come on. Let's go."
+    },
+    {
+      "character": "WOODY",
+      "text": "Now, where is that... Oh. Hey, who moved my doodle pad way over here?"
+    },
+    {
+      "character": "REX",
+      "text": "Roaaaaar!"
+    },
+    {
+      "character": "WOODY",
+      "text": "How're you doin', Rex?"
+    },
+    {
+      "character": "REX",
+      "text": "Were ya scared? Tell me honestly."
+    },
+    {
+      "character": "WOODY",
+      "text": "I was close to being scared that time."
+    },
+    {
+      "character": "REX",
+      "text": "I'm going for fearsome here, but I just don't feel it. I think I'm just coming across off as annoying."
+    },
+    {
+      "character": "WOODY",
+      "text": "Ow! Oh, hi, Bo. Hi."
+    },
+    {
+      "character": "BO PEEP",
+      "text": "I wanted to thank you, Woody, for saving my flock."
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, hey, it was, uh, nothin'."
+    },
+    {
+      "character": "BO PEEP",
+      "text": "What do you say I get someone else to watch the sheep tonight?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, yeah!"
+    },
+    {
+      "character": "BO PEEP",
+      "text": "Remember, I'm just a couple of blocks away."
+    },
+    {
+      "character": "SLINKY",
+      "text": "Come on, come on. Smaller toys up front."
+    },
+    {
+      "character": "SLINKY",
+      "text": "Hey, Woody, come on."
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, thanks, Mike."
+    },
+    {
+      "character": "WOODY",
+      "text": "Ok. Whoa, whoa. Step back."
+    },
+    {
+      "character": "HAMM",
+      "text": "For crying out loud."
+    },
+    {
+      "character": "WOODY",
+      "text": "Thank you."
+    },
+    {
+      "character": "WOODY",
+      "text": "Hello? Check. That better? Great. Everybody hear me? Up on the shelf, can you hear me? Great. OK. First item today: Uh, oh, yeah. Has everyone picked a moving buddy?"
+    },
+    {
+      "character": "REX",
+      "text": "What?"
+    },
+    {
+      "character": "HAMM",
+      "text": "Moving buddy? You can't be serious."
+    },
+    {
+      "character": "REX",
+      "text": "I didn't know we were supposed to have one already."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Do we have to hold hands?"
+    },
+    {
+      "character": "WOODY",
+      "text": "You guys think this is a big joke. We've only got one week left before the move. I don't want any toys left behind. A moving buddy. If you don't have one, get one! All right, next. Uh, oh, yes. Tuesday night's plastic corrosion awareness meeting was, I think, a big success. And we wanna thank Mr. Spell for putting that on for us. Thank you, Mr. Spell."
+    },
+    {
+      "character": "MR. SPELL",
+      "text": "You're welcome."
+    },
+    {
+      "character": "WOODY",
+      "text": "OK. Uh, oh, yes. One, uh, minor note here."
+    },
+    {
+      "character": "WOODY",
+      "text": "Andy's birthday party has been moved to today."
+    },
+    {
+      "character": "REX",
+      "text": "What do you mean the party's today? His birthday's not until next week!"
+    },
+    {
+      "character": "HAMM",
+      "text": "What's going on down there? Is his mom losing her marbles?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Well, obviously she wanted to have the party before the move."
+    },
+    {
+      "character": "WOODY",
+      "text": "I'm not worried. You shouldn't be worried."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Of course, Woody ain't worried. He's been Andy's favorite since kindergarten."
+    },
+    {
+      "character": "SLINKY",
+      "text": "Hey, hey. Come on, Potato Head."
+    },
+    {
+      "character": "SLINKY",
+      "text": "If Woody says it's all right then, well, darn it, it's good enough for me. Woody has never steered us wrong before."
+    },
+    {
+      "character": "WOODY",
+      "text": "Come on, guys. Every Christmas and birthday, we go through this."
+    },
+    {
+      "character": "REX",
+      "text": "But what if Andy gets another dinosaur, a mean one? I just don't think I could take that kind of rejection."
+    },
+    {
+      "character": "WOODY",
+      "text": "Hey, listen, no one's getting replaced. This is Andy we're talking about. It doesn't matter how much we're played with."
+    },
+    {
+      "character": "WOODY",
+      "text": "What matters is that we're here for Andy when he needs us. That's what we're made for, right?"
+    },
+    {
+      "character": "HAMM",
+      "text": "Pardon me. I hate to break up the staff meeting but..."
+    },
+    {
+      "character": "HAMM",
+      "text": "THEY'RE HERE!!!!!!!!! BIRTHDAY GUESTS AT THREE O'CLOCK!!!!!"
+    },
+    {
+      "character": "REX",
+      "text": "Stay calm, everyone!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Hey!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Uh, meeting adjourned."
+    },
+    {
+      "character": "HAMM",
+      "text": "Ho, boy! Will you take a look at all those presents?"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "I can't see a thing."
+    },
+    {
+      "character": "HAMM",
+      "text": "Yes, sir, we're next month's garage sale fodder for sure!"
+    },
+    {
+      "character": "REX",
+      "text": "Any dinosaur shaped ones?!"
+    },
+    {
+      "character": "HAMM",
+      "text": "Oh, for crying out loud. They're all in boxes, you idiot."
+    },
+    {
+      "character": "REX",
+      "text": "They're getting bigger."
+    },
+    {
+      "character": "SLINKY",
+      "text": "Wait, there's a nice little one over there."
+    },
+    {
+      "character": "CHILD",
+      "text": "Hi!"
+    },
+    {
+      "character": "MR. SPELL",
+      "text": "Spell: trash can."
+    },
+    {
+      "character": "REX",
+      "text": "We're doomed!"
+    },
+    {
+      "character": "WOODY",
+      "text": "All right! All right! If I send out the troops, will you all calm down?"
+    },
+    {
+      "character": "REX",
+      "text": "Yes! Yes! We promise!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Ok! Save your batteries."
+    },
+    {
+      "character": "HAMM",
+      "text": "Very good, Woody. That's using the old noodle."
+    },
+    {
+      "character": "WOODY",
+      "text": "Sergeant, establish a recon post downstairs. Code Red! You know what to do."
+    },
+    {
+      "character": "SARGE",
+      "text": "Yes, sir!"
+    },
+    {
+      "character": "SARGE",
+      "text": "All right, men. You heard him. Code Red! Repeat, we are at Code Red. Recon plan Charlie. Execute! Let's move! Move, move, move, move!"
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "OK, come on, kids. Everyone in the living room. It's almost time for the presents."
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "Ok, who's hungry?"
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "Here come the chips. I've got Cool Ranch and Barbecue!"
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "Ow! What in the world. Oh! I thought I told him to pick these up."
+    },
+    {
+      "character": "REX",
+      "text": "Shouldn't they be there by now? What's taking them so long?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Hey, these guys are professionals. They're the best. Come on! They're not lying down on the job."
+    },
+    {
+      "character": "SOLDIER",
+      "text": "G-G-Go on without me! J-Just go!"
+    },
+    {
+      "character": "SARGE",
+      "text": "A good soldier never leaves a man behind."
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "Ok, everybody, come on."
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "Everybody settle down. Now, kids. Everybody. You sit in a circle. No, Andy. Andy, you sit in the middle there. Good. And which present are you gonna open first?"
+    },
+    {
+      "character": "BOY",
+      "text": "Mine!"
+    },
+    {
+      "character": "SARGE",
+      "text": "There they are."
+    },
+    {
+      "character": "SARGE",
+      "text": "Come in, Mother Bird. This is Alpha Bravo."
+    },
+    {
+      "character": "WOODY",
+      "text": "This is it! This is it! Quiet, quiet!"
+    },
+    {
+      "character": "SARGE",
+      "text": "Come in, Mother Bird. All right, Andy's opening the first present now."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Mrs. Potato Head! Mrs. Potato Head! Mrs. Potato Head!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Hey, I can dream, can't I?"
+    },
+    {
+      "character": "SARGE",
+      "text": "The bow's coming off. He's ripping the wrapping paper. It's a, it's, It's a, a lunch box. We've got a lunch box here."
+    },
+    {
+      "character": "WOODY",
+      "text": "A lunch box?"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Lunch box?"
+    },
+    {
+      "character": "SLINKY",
+      "text": "For"
+    },
+    {
+      "character": "WOODY",
+      "text": "This is it! This is it! Quiet, quiet!"
+    },
+    {
+      "character": "SARGE",
+      "text": "Come in, Mother Bird. All right, Andy's opening the first present now."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Mrs. Potato Head! Mrs. Potato Head! Mrs. Potato Head!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Hey, I can dream, can't I?"
+    },
+    {
+      "character": "SARGE",
+      "text": "The bow's coming off. He's ripping the wrapping paper. It's a, it's, It's a, a lunch box. We've got a lunch box here."
+    },
+    {
+      "character": "WOODY",
+      "text": "A lunch box?"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Lunch box?"
+    },
+    {
+      "character": "SLINKY",
+      "text": "For lunch. (laughs)"
+    },
+    {
+      "character": "SARGE",
+      "text": "Ok, second present. It appears to be, ok, it's bed sheets."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Who invited that kid?"
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "Oh! Only one left."
+    },
+    {
+      "character": "SARGE",
+      "text": "Ok, we're on the last present now."
+    },
+    {
+      "character": "WOODY",
+      "text": "Last present!"
+    },
+    {
+      "character": "SARGE",
+      "text": "It's a big one. It's a, it's a board game! Repeat, Battleship!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Whew!"
+    },
+    {
+      "character": "HAMM",
+      "text": "Hallelujah! Yeah! All right!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Hey, watch it!"
+    },
+    {
+      "character": "HAMM",
+      "text": "Sorry there, old spud head."
+    },
+    {
+      "character": "SARGE",
+      "text": "Mission accomplished. Well done, men. Pack it up. We're going home."
+    },
+    {
+      "character": "WOODY",
+      "text": "So did I tell ya? Huh? Nothing to worry about."
+    },
+    {
+      "character": "SLINKY",
+      "text": "I knew you were right all along, Woody. Never doubted ya for a second."
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "Wait a minute. Oh! What do we have here? Oooh!"
+    },
+    {
+      "character": "SARGE",
+      "text": "Wait! Turn that thing back on!"
+    },
+    {
+      "character": "SARGE",
+      "text": "Come in, Mother Bird! Come in, Mother Bird! Mom has pulled a surprise present from the closet. Andy's opening it. He's really excited about this one."
+    },
+    {
+      "character": "ANDY",
+      "text": "Mom, what is it?"
+    },
+    {
+      "character": "SARGE",
+      "text": "It's a huge package."
+    },
+    {
+      "character": "SARGE",
+      "text": "Oh, get outta the, one of the kids is in the way. I can't see."
+    },
+    {
+      "character": "SARGE",
+      "text": "It's a..."
+    },
+    {
+      "character": "KIDS",
+      "text": "Wow!"
+    },
+    {
+      "character": "REX",
+      "text": "It's a what? What is it?"
+    },
+    {
+      "character": "REX",
+      "text": "Oh, no!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Oh, ya big lizard! Now we'll never know what it is!"
+    },
+    {
+      "character": "HAMM",
+      "text": "Way to go, Rex!"
+    },
+    {
+      "character": "WOODY",
+      "text": "No, Turn them around! Turn them around!"
+    },
+    {
+      "character": "HAMM",
+      "text": "He's putting them in backwa... Here, you're putting them in backwards!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Plus is positive, minus is negative! Oh, let me!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Let's go to my room, guys!"
+    },
+    {
+      "character": "SARGE",
+      "text": "Red alert! Red alert! Andy is coming upstairs!"
+    },
+    {
+      "character": "WOODY",
+      "text": "There!"
+    },
+    {
+      "character": "SARGE",
+      "text": "Juvenile intrusion! Repeat, resume your positions now!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Andy's coming, everybody! Back to your places! Hurry!"
+    },
+    {
+      "character": "HAMM",
+      "text": "Get to your places! Get to your places!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Where's my ear? Who's seen my ear? Did you see my ear?"
+    },
+    {
+      "character": "REX",
+      "text": "Out of my way! Here I come! Here I come!"
+    },
+    {
+      "character": "FRIEND #1",
+      "text": "Hey, look, its lasers light up!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Take that, Zurg!"
+    },
+    {
+      "character": "FRIEND #2",
+      "text": "Quick, make a space! This is where the spaceship lands!"
+    },
+    {
+      "character": "ANDY",
+      "text": "He does all that and he does a karate-chop action!"
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "Come on down, guys! It's time for games! We've got prizes!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Oh, yeah!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "What is it?"
+    },
+    {
+      "character": "BO PEEP",
+      "text": "Can you see it?"
+    },
+    {
+      "character": "SLINKY",
+      "text": "What the heck is up there?"
+    },
+    {
+      "character": "REX",
+      "text": "Woody, who's up there with ya?"
+    },
+    {
+      "character": "SLINKY",
+      "text": "Woody? What are you doin\u2019 under the bed?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Uh, nothin'. Uh, nothin'. I'm sure Andy was just a little excited, that's all. Too much cake and ice cream, I suppose. It's just a mistake."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Well, that mistake is sitting in your spot, Woody. (chuckles)"
+    },
+    {
+      "character": "REX",
+      "text": "Have you been replaced?!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Hey, what did I tell you earlier? No one is getting replaced. Now, let's all be polite and give whatever it is up there a nice, big Andy's-room welcome."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Buzz Lightyear to Star Command. Come in, Star Command."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Star Command, come in! Do you read me?"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Why don't they answer?"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "My ship!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Blast! This'll take weeks to repair."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Buzz Lightyear mission log, stardate 4-0-7-2. My ship has run off course en route to sector 12. I've crash-landed on a strange planet. The impact must've awoken me from hypersleep."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Terrain seems a bit unstable."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "No readout yet if the air is breathable. And there seems to be no sign of intelligent life anywhere."
+    },
+    {
+      "character": "WOODY",
+      "text": "Hello!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Whoa! H-hey! Whoa, whoa, whoa, whoa, whoa! Did I frighten you? Didn't mean to."
+    },
+    {
+      "character": "WOODY",
+      "text": "Sorry. Howdy. My name is Woody. And this is Andy's room. That's all I wanted to say. And also, there has been a bit of a mix up. This is my spot, see, the bed here."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Local law enforcement. It's about time you got here. I'm Buzz Lightyear, Space Ranger, Universe Protection Unit. My ship has crash-landed here by mistake."
+    },
+    {
+      "character": "WOODY",
+      "text": "Yes, it is a mistake because, you see, the bed here is my spot."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "I need to repair my turbo boosters. Do you people still use fossil fuels, or have you discovered crystallic fusion?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Well, let's see. We've got double-A's."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Watch yourself!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Halt! Who goes there?!"
+    },
+    {
+      "character": "REX",
+      "text": "Don't shoot! It's okay. Friends."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Do you know these lifeforms?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Yes! (spits) They're Andy's toys."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "All right, everyone, you're clear to come up."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "I am Buzz Lightyear. I come in peace."
+    },
+    {
+      "character": "REX",
+      "text": "Oh, I'm so glad you're not a dinosaur."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Wh-why, thank you! Now, thank you all for your kind welcome."
+    },
+    {
+      "character": "REX",
+      "text": "Say, what's that button do?"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "I'II show you."
+    },
+    {
+      "character": "BUZZ (VOICE BOX)",
+      "text": "Buzz Lightyear to the rescue!"
+    },
+    {
+      "character": "SLINKY",
+      "text": "Hey, Woody's got somethin\u2019 like that. His is a pull string. Only it's...."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Only it sounds like a car ran over it."
+    },
+    {
+      "character": "HAMM",
+      "text": "Oh, yeah, but not like this one. This is a quality sound system. Probably all copper wiring, huh? So, uh, where you from? Singapore? Hong Kong?"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Well, no. Actually, I-I'm stationed up in the Gamma Quadrant of Sector 4."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "As a member of the elite Universe Protection Unit of the Space Ranger Corps, I protect the galaxy from the threat of invasion from the evil Emperor Zurg, sworn enemy of the Galactic Alliance."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Oh, really? I'm from Playskool."
+    },
+    {
+      "character": "REX",
+      "text": "And I'm from Mattel. Well, I'm not really from Mattel. I'm actually from a smaller company that was purchased in a leverage buyout."
+    },
+    {
+      "character": "WOODY",
+      "text": "You'd think they'd never seen a new toy before."
+    },
+    {
+      "character": "BO PEEP",
+      "text": "Well, sure. Look at him! He's got more gadgets on him than a Swiss Army knife."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Ah, ah, ah, ah! Please be careful. You don't wanna be in the way when my laser goes off."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Hey, a laser! How come you don't have a laser, Woody?"
+    },
+    {
+      "character": "WOODY",
+      "text": "It's not a laser! It's a, it's a little light bulb that blinks."
+    },
+    {
+      "character": "HAMM",
+      "text": "What's with him?"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Laser envy."
+    },
+    {
+      "character": "WOODY",
+      "text": "All right, that's enough! Look, we're all very impressed with Andy's new toy."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Toy?"
+    },
+    {
+      "character": "WOODY",
+      "text": "T-O-Y. Toy."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Excuse me, but I-I think the word you're searching for is Space Ranger."
+    },
+    {
+      "character": "WOODY",
+      "text": "The word I'm searching for I can't say because there's preschool toys present."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Gettin' kinda tense, aren't ya?"
+    },
+    {
+      "character": "REX",
+      "text": "Uh, Mr. Lightyear, uh, now, I'm curious. What does a space ranger actually do?"
+    },
+    {
+      "character": "WOODY",
+      "text": "He's not a space ranger! He doesn't fight evil or, or shoot lasers or fly."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Excuse me!"
+    },
+    {
+      "character": "HAMM",
+      "text": "Oh, impressive wingspan! Very good!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, what? What? These are plastic. He can't fly!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "They are a tellurium-carbonic alloy, and I can fly."
+    },
+    {
+      "character": "WOODY",
+      "text": "No, you can't."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Yes, I can."
+    },
+    {
+      "character": "WOODY",
+      "text": "You can't."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Can!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Can't! Can't! Can't!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "I tell you, I could fly around this room with my eyes closed!"
+    },
+    {
+      "character": "WOODY",
+      "text": "OK, then, Mr. Light Beer, prove it."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "All right, then, I will! Stand back, everyone!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "To infinity and beyond!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Can!"
+    },
+    {
+      "character": "REX",
+      "text": "Whoa! Oh, wow, you flew magnificently!"
+    },
+    {
+      "character": "BO PEEP",
+      "text": "I found my moving buddy."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Thank you! Th-Thank you all! Thank you!"
+    },
+    {
+      "character": "WOODY",
+      "text": "That wasn't flying! That was falling with style."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Man, the dolls must really go for you. Can you teach me that?"
+    },
+    {
+      "character": "SLINKY",
+      "text": "Golly Bob-Howdy!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, shut up! You know, in a couple days, everything will be just the way it was. They'll see."
+    },
+    {
+      "character": "WOODY",
+      "text": "They'll see. I'm still Andy's favorite toy."
+    },
+    {
+      "character": "ANDY",
+      "text": "Buzz Lightyear to the rescue!"
+    },
+    {
+      "character": "REX",
+      "text": "Strange things are happening to me... \u266a"
+    },
+    {
+      "character": "WOODY",
+      "text": "Finally!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Hey, who's got my hat?"
+    },
+    {
+      "character": "MR. SHARK",
+      "text": "Look, I'm Woody. Howdy, howdy, howdy."
+    },
+    {
+      "character": "WOODY",
+      "text": "Gimme that!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Finally!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Hey, who's got my hat?"
+    },
+    {
+      "character": "MR. SHARK",
+      "text": "Look, I'm Woody. Howdy, howdy, howdy."
+    },
+    {
+      "character": "WOODY",
+      "text": "Gimme that!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Say there, Lizard and Stretchy Dog, let me show you something. It looks as though I've been accepted into your culture. Your chief, Andy inscribed his name on me."
+    },
+    {
+      "character": "REX AND SLINKY",
+      "text": "Wow!"
+    },
+    {
+      "character": "REX",
+      "text": "With permanent ink too!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Well, I must get back to repairing my ship."
+    },
+    {
+      "character": "BO PEEP",
+      "text": "Don't let it get to you, Woody."
+    },
+    {
+      "character": "WOODY",
+      "text": "Uh, let what? I don't, uh. What do you mean? Who?"
+    },
+    {
+      "character": "BO PEEP",
+      "text": "I know Andy's excited about Buzz. But you know he'll always have a special place for you."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Yeah, like the attic."
+    },
+    {
+      "character": "WOODY",
+      "text": "All right, that's it!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Hmm. Unidirectional bonding strip."
+    },
+    {
+      "character": "ROBOT",
+      "text": "Mr. Lightyear wants more tape."
+    },
+    {
+      "character": "WOODY",
+      "text": "Listen, Light Snack, you stay away from Andy. He's mine, and no one is taking him away from me."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "What are you talking about? Where's that bonding strip?"
+    },
+    {
+      "character": "WOODY",
+      "text": "And another thing: Stop with this spaceman thing! It's getting on my nerves!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Are you saying you wanna lodge a complaint with Star Command?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh-ho, okay! Ooh, well, so you wanna do it the hard way, huh?"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Don't even think about it, cowboy."
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, yeah, tough guy?"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "The air isn't toxic. How dare you open a spaceman's helmet on an uncharted planet! My eyeballs could've been sucked from their sockets!"
+    },
+    {
+      "character": "WOODY",
+      "text": "You actually think you're the Buzz Lightyear? Oh, all this time I thought it was an act! Hey, guys, look! It's the real Buzz Lightyear!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "You're mocking me, aren't you?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, no, no. No, no, no, no, no. Buzz, look, an alien!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Where?!"
+    },
+    {
+      "character": "SID PHILLIPS",
+      "text": "Yes!"
+    },
+    {
+      "character": "SLINKY",
+      "text": "Whoa!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Uh-oh."
+    },
+    {
+      "character": "SLINKY",
+      "text": "It's Sid!"
+    },
+    {
+      "character": "SID",
+      "text": "Don't move!"
+    },
+    {
+      "character": "REX",
+      "text": "I thought he was at summer camp."
+    },
+    {
+      "character": "HAMM",
+      "text": "They must've kicked him out early this year."
+    },
+    {
+      "character": "REX",
+      "text": "Oh, no, not Sid!"
+    },
+    {
+      "character": "SID",
+      "text": "Incoming!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Who is it this time?"
+    },
+    {
+      "character": "WOODY",
+      "text": "I, I can't, I can't tell. Hey, where's Lenny?"
+    },
+    {
+      "character": "LENNY",
+      "text": "Right here, Woody."
+    },
+    {
+      "character": "REX",
+      "text": "Oh, no, I can't bear to watch one of these again."
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, no, it's a Combat Carl."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "What's going on?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Nothing that concerns you spacemen, just us toys."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "I'd better take a look anyway."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Why is that soldier strapped to an explosive device?"
+    },
+    {
+      "character": "WOODY",
+      "text": "That's why: Sid."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Hmm, sure is a hairy fella."
+    },
+    {
+      "character": "WOODY",
+      "text": "No, no, that's Scud, you idiot!"
+    },
+    {
+      "character": "WOODY",
+      "text": "That is Sid."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "You mean that happy child?"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "That ain't no happy child."
+    },
+    {
+      "character": "REX",
+      "text": "He tortures toys, just for fun!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Well, then, we've got to do something."
+    },
+    {
+      "character": "BO PEEP",
+      "text": "What are you doing? Get down from there!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "I'm gonna teach that boy a lesson."
+    },
+    {
+      "character": "WOODY",
+      "text": "Yeah, sure. You go ahead. Melt him with your scary laser."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Be careful with that, it's extremely dangerous."
+    },
+    {
+      "character": "LENNY",
+      "text": "He's lighting it! He's lighting it!"
+    },
+    {
+      "character": "LENNY",
+      "text": "HIT THE DIRT!!!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "LOOK OUT!"
+    },
+    {
+      "character": "SID",
+      "text": "Yes! He's gone! He's history!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "I could've stopped him."
+    },
+    {
+      "character": "WOODY",
+      "text": "Buzz, I would love to see you try."
+    },
+    {
+      "character": "WOODY",
+      "text": "Of course I'd love to see you as a crater."
+    },
+    {
+      "character": "BO PEEP",
+      "text": "The sooner we move, the better."
+    },
+    {
+      "character": "ANDY",
+      "text": "To infinity and beyond!"
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "Oh, all this packing makes me hungry. What would you say to dinner at, uh, oh, Pizza Planet?"
+    },
+    {
+      "character": "ANDY",
+      "text": "Pizza Planet?! Oh, cool!"
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "Go wash your hands and I'll get Molly ready."
+    },
+    {
+      "character": "ANDY",
+      "text": "Can I bring some toys?"
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "You can bring one toy."
+    },
+    {
+      "character": "ANDY",
+      "text": "Just one?!"
+    },
+    {
+      "character": "WOODY",
+      "text": "One toy?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Will Andy pick me?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Don't count on it?!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Buzz!! Oh, Buzz, Buzz Lightyear!! Buzz Lightyear, thank goodness! We've got trouble!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Trouble?! Where?!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Down there. Just down there. A helpless toy, it's, it's trapped, Buzz!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Then we have no time to lose!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "I don't see anything."
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, he's there. Just, just keep looking."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "What kind of a toy...?"
+    },
+    {
+      "character": "HAMM, MR. POTATO HEAD, AND SLINKY",
+      "text": "Buzz!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Buzz!"
+    },
+    {
+      "character": "SLINKY",
+      "text": "I don't see him in the driveway! I think he bounced into Sid's yard."
+    },
+    {
+      "character": "REX",
+      "text": "Oh, Buzz!"
+    },
+    {
+      "character": "REX",
+      "text": "Hey, everyone! RC's trying to say something! What is it, boy?"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "He's sayin' that this was no accident."
+    },
+    {
+      "character": "BO PEEP",
+      "text": "What do you mean?"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "I mean Humpty Dumpty was pushed..."
+    },
+    {
+      "character": "SLINKY",
+      "text": "No!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "By Woody!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Wait a minute. You, you don't think I meant to knock Buzz out the window, do you Potato Head?"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "That's Mr. Potato Head to you, you back-stabbing murderer!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Now, it was an accident, guys. C'mon now, you,you gotta believe me."
+    },
+    {
+      "character": "SLINKY",
+      "text": "We believe you, Woody."
+    },
+    {
+      "character": "SLINKY",
+      "text": "Right, Rex?"
+    },
+    {
+      "character": "REX",
+      "text": "Well, ye, no, I don't like confrontations!"
+    },
+    {
+      "character": "SARGE",
+      "text": "Where's your honor, dirtbag?! You're an absolute disgrace! You don't deserve to-- Hey!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "You couldn't handle Buzz cuttin' in on your playtime, could ya, Woody? Didn't want to face the fact that Buzz just might be Andy's new favorite toy. So you got rid of him."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Well, what if Andy starts playin' with me more, Woody, huh? You gonna knock me outta the window too?!"
+    },
+    {
+      "character": "HAMM",
+      "text": "I don't think we should give him the chance."
+    },
+    {
+      "character": "SARGE",
+      "text": "There he is, men. Frag him!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Let's string him up by his pull string!"
+    },
+    {
+      "character": "HAMM",
+      "text": "I got dibs on his hat!"
+    },
+    {
+      "character": "BO PEEP",
+      "text": "Would you boys stop it?!"
+    },
+    {
+      "character": "HAMM",
+      "text": "Tackle him!"
+    },
+    {
+      "character": "WOODY",
+      "text": "No, no, no, no! Wait! Wait! I can explain everything!"
+    },
+    {
+      "character": "BO PEEP",
+      "text": "Boys, stop it!!"
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "Andy, come on!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Okay, Mom, be right down. I've got to get Buzz."
+    },
+    {
+      "character": "HAMM",
+      "text": "Retreat!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Mom, do you know where Buzz is?"
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "No, I haven't seen him."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Psssst!"
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "Andy, I'm heading out the door."
+    },
+    {
+      "character": "ANDY",
+      "text": "But, Mom, I can't find him!"
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "Well, honey, just grab some other toy. Now come on!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Okay."
+    },
+    {
+      "character": "ANDY",
+      "text": "I couldn't find my Buzz. I know I left him right there."
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "Honey, I'm sure he's around. You'll find him."
+    },
+    {
+      "character": "SLINKY",
+      "text": "It's too short. We need more monkeys!"
+    },
+    {
+      "character": "REX",
+      "text": "There aren't any more! That's the whole barrel."
+    },
+    {
+      "character": "REX",
+      "text": "Buzz, the monkeys aren't working. We're formulating another plan, so stay calm! Oh, where could he be?"
+    },
+    {
+      "character": "ANDY",
+      "text": "Can I pump the gas?"
+    },
+    {
+      "character": "ANDY'S MOM",
+      "text": "Sure! I'll even let you drive."
+    },
+    {
+      "character": "ANDY",
+      "text": "Yeah?"
+    },
+    {
+      "character": "ANDY'S MOM",
+      "text": "Yeah, when you're sixteen."
+    },
+    {
+      "character": "ANDY",
+      "text": "Yuk, yuk, yuk. Funny, mom."
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, great. How am I gonna convince those guys it was an accident?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Buzz?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Buzz! You're alive! This is great! Oh, I'm saved! I'm saved! Andy'll find you here, he'll take us back to the room, and then you can tell everyone that this was all just a big mistake."
+    },
+    {
+      "character": "WOODY",
+      "text": "Huh, right? Buddy?"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "I just want you to know that even though you tried to terminate me, revenge is not an idea we promote on my planet."
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, that's good."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "But we're not on my planet, are we?"
+    },
+    {
+      "character": "WOODY",
+      "text": "No."
+    },
+    {
+      "character": "WOODY",
+      "text": "Okay. Come on! You want a piece of me?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Ow!"
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "Next stop..."
+    },
+    {
+      "character": "ANDY",
+      "text": "Pizza Planet! Yeah!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Andy!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Doesn't he realize that I'm not there?"
+    },
+    {
+      "character": "WOODY",
+      "text": "I'm lost! I'm a lost toy!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Buzz Lightyear Mission Log. The local sheriff and I seem to be at a huge refueling station of some sort."
+    },
+    {
+      "character": "WOODY",
+      "text": "You!"
+    },
+    {
+      "character": "WOODY",
+      "text": "I'm lost! (cries) I'm a lost toy!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Buzz Lightyear Mission Log. The local sheriff and I seem to be at a huge refueling station of some sort."
+    },
+    {
+      "character": "WOODY",
+      "text": "You!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "According to my navi-computer, the--"
+    },
+    {
+      "character": "WOODY",
+      "text": "Shut up! Just shut up, you idiot!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Sheriff, this is no time to panic."
+    },
+    {
+      "character": "WOODY",
+      "text": "This is the perfect time to panic! I'm lost, Andy is gone, they\u2019re gonna move from their house in two days, and it\u2019s all your fault!!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "My-- My fault?! If you hadn't pushed me out of the window in the first place--"
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, yeah?! Well, if you hadn't shown up in your stupid little cardboard spaceship and taken away everything that was important to me--"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Don't talk to me about importance! Because of you, the security of this entire universe is in jeopardy!"
+    },
+    {
+      "character": "WOODY",
+      "text": "WHAT?! What are you talking about?!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Right now, poised at the edge of the galaxy, Emperor Zurg has been secretly building a weapon with the destructive capacity to annihilate an entire planet! I, alone, have information that reveals his weapon's only weakness. And you, my friend, are responsible for delaying my rendezvous with Star Command!"
+    },
+    {
+      "character": "WOODY",
+      "text": "YOU ARE A TOY!!!! You aren\u2019t the real Buzz Lightyear! You're an-- you're an action figure!! You are a child's plaything!!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "You are a sad, strange little man. And you have my pity. (turning around and walking away from Woody) Farewell."
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, yeah?! Well, good riddance, ya loony!"
+    },
+    {
+      "character": "WOODY",
+      "text": "\"Rendezvous with Star Command\"."
+    },
+    {
+      "character": "PIZZA DELIVERER",
+      "text": "Hey, Gas Dude!"
+    },
+    {
+      "character": "ATTENDANT",
+      "text": "You talking to me?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Pizza Planet? (realizing it's a way to reunite with Andy) Andy!"
+    },
+    {
+      "character": "PIZZA DELIVERER",
+      "text": "Yeah, man, can you help me? Do you know where Cutting Boulevard is?"
+    },
+    {
+      "character": "ATTENDANT",
+      "text": "Just a moment."
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, no. I can't show my face in that room without Buzz. Buzz!! Buzz, come back!!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Go away!"
+    },
+    {
+      "character": "WOODY",
+      "text": "No, Buzz, you've gotta come back!! I..."
+    },
+    {
+      "character": "WOODY",
+      "text": "I found a spaceship!!"
+    },
+    {
+      "character": "WOODY",
+      "text": "It's a spaceship, Buzz!"
+    },
+    {
+      "character": "PIZZA DELIVERER",
+      "text": "Come on, man, hurry up! Um, like, the pizzas are getting cold here!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Now, you're sure this space freighter will return to its port of origin once it jettisons its food supply?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Uh-huh. And when we get there, we'll be able to find a way to transport you home."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Well then, let's climb aboard."
+    },
+    {
+      "character": "WOODY",
+      "text": "No, no, no, wait, Buzz, Buzz, let's get in the back. No one will see us there."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Negative. There are no restraining harnesses in the cargo area. We'll be much safer in the cockpit."
+    },
+    {
+      "character": "WOODY",
+      "text": "Yeah, but Buzz! Buzz!"
+    },
+    {
+      "character": "PIZZA DELIVERER",
+      "text": "So that's two lefts, and then a right, huh?"
+    },
+    {
+      "character": "ATTENDANT",
+      "text": "Yeah."
+    },
+    {
+      "character": "PIZZA DELIVERER",
+      "text": "Okay, thanks for the directions."
+    },
+    {
+      "character": "WOODY",
+      "text": "Buzz!"
+    },
+    {
+      "character": "WOODY",
+      "text": "It's much safer in the cockpit than the cargo bay. What an idiot!"
+    },
+    {
+      "character": "P.A.",
+      "text": "Next shuttle lift-off scheduled for T-minus 30 minutes and counting."
+    },
+    {
+      "character": "ROBOT GUARDS",
+      "text": "You are clear to enter. Welcome to Pizza Planet."
+    },
+    {
+      "character": "FEMALE PA",
+      "text": "The white zone is for eating pizza only. The white zone is for..."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Sheriff. Sheriff?"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "There you are."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Now the entrance is heavily guarded. We need a way to get inside."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Great idea, Woody. I like your thinking."
+    },
+    {
+      "character": "ROBOT GUARDS",
+      "text": "You are clear to enter. Welcome to Pizza Planet."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Okay. Now! Quickly, Sheriff, the airlock is closing!"
+    },
+    {
+      "character": "FEMALE WORKER",
+      "text": "Jones, party of five: Your shuttle is now boarding at counter 12."
+    },
+    {
+      "character": "BOY",
+      "text": "Hey, Mom! Can we have some tokens?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Ow! Watch where you're going!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Sorry."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "What a spaceport! Good work, Woody!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Mom, can I play Black Hole? Please, please, please?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Andy!"
+    },
+    {
+      "character": "MRS. DAVIS",
+      "text": "What's Black Hole?"
+    },
+    {
+      "character": "ANDY",
+      "text": "Oh, it's so cool..."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Now we need to find a ship that's headed for Sector 12."
+    },
+    {
+      "character": "WOODY",
+      "text": "Wait a minute! No, no, no! Buzz! This way! There's a special ship. I just saw it!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "You mean it has hyperdrive?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Hyperactive hyperdrive, and astro, uh, turf."
+    },
+    {
+      "character": "WOODY",
+      "text": "C'mon, c'mon, that's it..."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Where is it? I don't see the --"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Spaceship!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Alright Buzz, get ready, and..."
+    },
+    {
+      "character": "WOODY",
+      "text": "Okay, Buzz, when I say \"go,\" we're gonna jump in the basket."
+    },
+    {
+      "character": "WOODY",
+      "text": "Buzz!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Dooh! No!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Hey, Mom, if I eat all of my pizza, can I have some alien slime?"
+    },
+    {
+      "character": "WOODY",
+      "text": "This cannot be happening to me!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Buzz!"
+    },
+    {
+      "character": "ALIENS",
+      "text": "A stranger! From the outside! Oooooooh..."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Greetings! I am Buzz Lightyear. I come in peace."
+    },
+    {
+      "character": "ALIENS",
+      "text": "Tell us! What is it like outside?"
+    },
+    {
+      "character": "P.A.",
+      "text": "Before your space journey, re-energize yourself with a slice of pepperoni, now boarding at counter three."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "This is an intergalactic emergency! I need to commandeer your vessel to Sector 12! Who's in charge here?"
+    },
+    {
+      "character": "ALIENS",
+      "text": "The claaaaaaaaaw!"
+    },
+    {
+      "character": "ALIENS",
+      "text": "The claw is our master. The claw chooses who will go and who will stay."
+    },
+    {
+      "character": "WOODY",
+      "text": "This is ludicrous."
+    },
+    {
+      "character": "SID",
+      "text": "Hey, bozo, you got a brain in there? Ha-ha, take that!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, no! Sid!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Get down!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "What's gotten into you, Sheriff? I was--"
+    },
+    {
+      "character": "WOODY",
+      "text": "You are the one that decided to climb into this--"
+    },
+    {
+      "character": "ALIENS",
+      "text": "Shhhhhh! The claw. It moves."
+    },
+    {
+      "character": "ALIENS",
+      "text": "I have been chosen! Farewell, my friends! I go on to a better place."
+    },
+    {
+      "character": "SID",
+      "text": "Gotcha!"
+    },
+    {
+      "character": "SID",
+      "text": "A Buzz Lightyear?! No way!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Buzz! No!"
+    },
+    {
+      "character": "SID",
+      "text": "Hey!"
+    },
+    {
+      "character": "ALIENS",
+      "text": "He has been chosen! He must go!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Hey! What are you doing? Stop it! Stop it, you zealots!"
+    },
+    {
+      "character": "ALIENS",
+      "text": "He must go! Do not fight the claw! Do not anger the claw! He has been chosen!"
+    },
+    {
+      "character": "SID",
+      "text": "Alright! Double prizes!"
+    },
+    {
+      "character": "SID",
+      "text": "Let's go home and play. (laughs)"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Sheriff, I can see your dwelling from here! You're almost home."
+    },
+    {
+      "character": "ALIEN",
+      "text": "Nirvana is coming! The mystic portal awaits!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Will you be quiet? You guys don't get it, do you? Once we go into Sid's house, we won't be coming out."
+    },
+    {
+      "character": "SID",
+      "text": "Whoa, Scud! Hey, boy. Sit! Good boy!"
+    },
+    {
+      "character": "SID",
+      "text": "Hey, I got something for you, boy."
+    },
+    {
+      "character": "WOODY",
+      "text": "Freeze!"
+    },
+    {
+      "character": "SID",
+      "text": "Ready, set, now!"
+    },
+    {
+      "character": "SID",
+      "text": "Hannah! Hey, Hannah!"
+    },
+    {
+      "character": "HANNAH",
+      "text": "What?"
+    },
+    {
+      "character": "SID",
+      "text": "Did I get my package in the mail?"
+    },
+    {
+      "character": "HANNAH",
+      "text": "I don't know."
+    },
+    {
+      "character": "SID",
+      "text": "What do you mean you don't know?"
+    },
+    {
+      "character": "HANNAH",
+      "text": "I don't know."
+    },
+    {
+      "character": "SID",
+      "text": "Oh, no, Hannah!"
+    },
+    {
+      "character": "HANNAH",
+      "text": "What?"
+    },
+    {
+      "character": "SID",
+      "text": "Look! Janie!"
+    },
+    {
+      "character": "HANNAH",
+      "text": "Hey!"
+    },
+    {
+      "character": "SID",
+      "text": "She's sick!"
+    },
+    {
+      "character": "HANNAH",
+      "text": "No, she's not!"
+    },
+    {
+      "character": "SID",
+      "text": "I'll have to perform one of my operations!"
+    },
+    {
+      "character": "HANNAH",
+      "text": "No! Don't touch her! No!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Not Sid's room! Not there..."
+    },
+    {
+      "character": "HANNAH",
+      "text": "Sid! Give her back! Sid!"
+    },
+    {
+      "character": "HANNAH",
+      "text": "Sid!"
+    },
+    {
+      "character": "SID",
+      "text": "Oh, no! We have a sick patient here, nurse! Prepare the OR stat!"
+    },
+    {
+      "character": "HANNAH",
+      "text": "Sid! No! Sid, give her back! Give her back now! I'm telling!"
+    },
+    {
+      "character": "SID",
+      "text": "Patient is prepped. No one's ever attempted a double bypass brain transplant before."
+    },
+    {
+      "character": "SID",
+      "text": "Now for the tricky part. Pliers!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "I don't believe that man's ever been to medical school."
+    },
+    {
+      "character": "SID",
+      "text": "Doctor, you've done it! Hannah?"
+    },
+    {
+      "character": "SID",
+      "text": "Janie's all better now."
+    },
+    {
+      "character": "HANNAH",
+      "text": "Mom! Mom!"
+    },
+    {
+      "character": "SID",
+      "text": "She's lying! Whatever she says, it's not true!"
+    },
+    {
+      "character": "WOODY",
+      "text": "We are gonna die. I'm outta here!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Locked."
+    },
+    {
+      "character": "WOODY",
+      "text": "There's gotta be another way out of here."
+    },
+    {
+      "character": "WOODY",
+      "text": "Uh, Buzz? W-W-Was that you?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Hey! Hi, there, little fellah! Come out here. Do you know a way out of here?"
+    },
+    {
+      "character": "WOODY",
+      "text": "B-B-B-Buzz!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "They're cannibals."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Mayday! Mayday! Come in, Star Command! Send reinforcements! Star Command, do you copy?"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "I've set my laser from stun to kill."
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, great, great! Yeah, and if anyone attacks us, we can blink 'em to death."
+    },
+    {
+      "character": "REX",
+      "text": "Hey, you guys! I think I've found him. Buzz! Is that you?!"
+    },
+    {
+      "character": "REX",
+      "text": "Whiskers! Will you get out of here?! You're interfering with the search and rescue."
+    },
+    {
+      "character": "REX",
+      "text": "Look! They're home!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Mom, have you seen Woody?"
+    },
+    {
+      "character": "ANDY'S MOM",
+      "text": "Where was the last place you left him?"
+    },
+    {
+      "character": "ANDY",
+      "text": "Right here in the van."
+    },
+    {
+      "character": "REX",
+      "text": "Whiskers! Will you get out of here?! You're interfering with the search and rescue."
+    },
+    {
+      "character": "REX",
+      "text": "Look! They're home!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Mom, have you seen Woody?"
+    },
+    {
+      "character": "ANDY'S MOM",
+      "text": "Where was the last place you left him?"
+    },
+    {
+      "character": "ANDY",
+      "text": "Right here in the van."
+    },
+    {
+      "character": "ANDY'S MOM",
+      "text": "I'm sure he's there. You're just not looking hard enough."
+    },
+    {
+      "character": "ANDY",
+      "text": "He's not here, Mom. Woody's gone."
+    },
+    {
+      "character": "BO PEEP",
+      "text": "Woody's gone?"
+    },
+    {
+      "character": "HAMM",
+      "text": "Ah, boy, the weasel ran away."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Huh?! Huh?! I told you he was guilty!"
+    },
+    {
+      "character": "REX",
+      "text": "Who would've thought he was capable of such atrocities?!"
+    },
+    {
+      "character": "BO PEEP",
+      "text": "Oh, Slink, I hope he's okay."
+    },
+    {
+      "character": "SID",
+      "text": "Oh, a survivor. Where is the rebel base? Talk!"
+    },
+    {
+      "character": "SID",
+      "text": "I can see your will is strong."
+    },
+    {
+      "character": "SID",
+      "text": "Well, we have ways of making you talk."
+    },
+    {
+      "character": "SID",
+      "text": "Where are your rebel friends now?"
+    },
+    {
+      "character": "SID'S MOM",
+      "text": "Sid, your Pop Tarts are ready!"
+    },
+    {
+      "character": "SID",
+      "text": "Alright!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Daaaaaagggggghhhhh!!!!!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Are you all right? I'm proud of you, Sheriff. A lesser man would've talked under such torture."
+    },
+    {
+      "character": "WOODY",
+      "text": "I sure hope this isn't permanent."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Still no word from Star Command. We're not that far from the spaceport."
+    },
+    {
+      "character": "WOODY",
+      "text": "The door! It's open! We're free!!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Woody, we don't know what's out there!"
+    },
+    {
+      "character": "WOODY",
+      "text": "I'll tell you wha--"
+    },
+    {
+      "character": "WOODY",
+      "text": "They're gonna eat us, Buzz! Do something! Quick!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Shield your eyes!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "It's not working! I recharged it before I left. It should be good for hours..."
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, you idiot! You're a toy! Use your karate chop action!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Get away! Hoo-cha! Hoo-cha!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Hey! Hey!! How are you doing that? Stop that!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Back! Back, you savages! Back!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Woody, stop it!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Sorry, guys, but dinner's cancelled!"
+    },
+    {
+      "character": "WOODY",
+      "text": "There's no place like home! There's no place like home! There's no place like home!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Another stunt like that, cowboy, you're going to get us killed."
+    },
+    {
+      "character": "WOODY",
+      "text": "Don't tell me what to do!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Shhh!"
+    },
+    {
+      "character": "WOODY'S VOICE BOX",
+      "text": "Yeeeehaaaw!! Giddy-up partner! We got to get this wagon train a movin'!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Split up!"
+    },
+    {
+      "character": "VO",
+      "text": "Calling Buzz Lightyear. Come in Buzz Lightyear. This is Star Command. Buzz Lightyear! Do you read me?"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Star Command!"
+    },
+    {
+      "character": "CHILD",
+      "text": "Buzz Lightyear responding! Read you loud and clear!"
+    },
+    {
+      "character": "VO",
+      "text": "Buzz Lightyear, Planet Earth needs your help!"
+    },
+    {
+      "character": "BOY 2",
+      "text": "On the way!"
+    },
+    {
+      "character": "TV BUZZ'S VOICE BOX",
+      "text": "There's a secret mission in uncharted space."
+    },
+    {
+      "character": "BUZZ'S VOICE BOX",
+      "text": "There's a secret mission in uncharted space."
+    },
+    {
+      "character": "TV BUZZ",
+      "text": "To Infinity and Beyond!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "To infinity and beyond!"
+    },
+    {
+      "character": "HANNAH",
+      "text": "Mom! Mom, have you seen my Sally doll?"
+    },
+    {
+      "character": "SID'S MOM",
+      "text": "What, dear? What was that?"
+    },
+    {
+      "character": "HANNAH",
+      "text": "Never mind!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Buzz, the coast is clear."
+    },
+    {
+      "character": "WOODY",
+      "text": "Buzz, where are you?"
+    },
+    {
+      "character": "BUZZ'S VOICE BOX",
+      "text": "There's a secret mission in uncharted space. Let's go."
+    },
+    {
+      "character": "HANNAH",
+      "text": "Really? That is so interesting."
+    },
+    {
+      "character": "HANNAH",
+      "text": "Would you like some tea, Mrs. Nesbitt?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Buzz."
+    },
+    {
+      "character": "HANNAH",
+      "text": "It's so nice you could join us on such late notice."
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, no."
+    },
+    {
+      "character": "HANNAH",
+      "text": "What a lovely hat, Mrs. Nesbitt. It goes quite well with your head."
+    },
+    {
+      "character": "WOODY",
+      "text": "Hannah! Oh, Hannah!"
+    },
+    {
+      "character": "HANNAH",
+      "text": "Mom? Please excuse me, ladies. I'II be right back."
+    },
+    {
+      "character": "HANNAH",
+      "text": "What is it, Mom? Mom, where are you?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Buzz. Hey, Buzz, are you okay?"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "GONE!! It's all gone! All of it's gone! Bye-bye! Whoo-hoo! See ya!"
+    },
+    {
+      "character": "WOODY",
+      "text": "What happened to you?"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "One minute you're defending the whole galaxy..."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "...and suddenly you find yourself suckin' down Darjeeling with... Marie Antoinette and her little sister."
+    },
+    {
+      "character": "WOODY",
+      "text": "I think you've had enough tea for today. Let's get you out of here, Buzz."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Don't you get it?! You see the hat?! I am Mrs. Nesbitt!!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Snap out of it, Buzz!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "I-I-I... I'm sorry. You're right. I'm just a little depressed, that's all. I can get through this."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Oh, I\u2019m a sham!!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Shhhh! Quiet, Buzz!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Look at me! I can't even fly out of a window! But, the hat looked good. Tell me the hat looked good! The apron is a bit much, it's not my color..."
+    },
+    {
+      "character": "WOODY",
+      "text": "\"Out the window\"! Buzz, you're a genius!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Come on, this way!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Years of academy training, wasted!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "B3."
+    },
+    {
+      "character": "HAMM",
+      "text": "Miss. G6."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Ohhh! You sunk it!"
+    },
+    {
+      "character": "HAMM",
+      "text": "Heh-heh."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Are you peeking?"
+    },
+    {
+      "character": "HAMM",
+      "text": "Oh, quit your whining and pay up."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "How 'bout three out of five?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Hey guys! Guys! Hey!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Son of a building block! It's Woody."
+    },
+    {
+      "character": "HAMM",
+      "text": "He's in the psycho's bedroom!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Hi!"
+    },
+    {
+      "character": "HAMM",
+      "text": "Everyone, it's Woody!"
+    },
+    {
+      "character": "BO PEEP",
+      "text": "Woody?"
+    },
+    {
+      "character": "REX",
+      "text": "You're kidding?"
+    },
+    {
+      "character": "SLINKY",
+      "text": "Woody!"
+    },
+    {
+      "character": "WOODY",
+      "text": "We're gonna get outta here, Buzz. Buzz?"
+    },
+    {
+      "character": "REX",
+      "text": "Hey, look!"
+    },
+    {
+      "character": "BO PEEP",
+      "text": "Woody!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Boy, am I glad to see you guys!"
+    },
+    {
+      "character": "SLINKY",
+      "text": "I knew you'd come back, Woody!"
+    },
+    {
+      "character": "BO PEEP",
+      "text": "What are you doing over there?"
+    },
+    {
+      "character": "WOODY",
+      "text": "It's a long story, Bo. I'll explain later. Here, catch this!"
+    },
+    {
+      "character": "SLINKY",
+      "text": "I got it, Woody!"
+    },
+    {
+      "character": "REX",
+      "text": "He got it, Woody!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Good going, Slink! Now, just, just tie it on to something."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Wait! Wait! I got a better idea: How about we don't?!"
+    },
+    {
+      "character": "SLINKY",
+      "text": "Hey!"
+    },
+    {
+      "character": "BO PEEP",
+      "text": "Potato Head."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Did you all take stupid pills this morning?! Have you forgotten what he did to Buzz? And now you want to let him back over here?"
+    },
+    {
+      "character": "WOODY",
+      "text": "No, no, no! You got... You got it all wrong, Potato Head. Yeah. Besides, Buzz is fine. Buzz is right here. He's with me."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "You are a liar!"
+    },
+    {
+      "character": "WOODY",
+      "text": "No, I'm not. Buzz, come over here and you just tell the nice toys that you're not dead."
+    },
+    {
+      "character": "WOODY",
+      "text": "Just a sec. Buzz, Will you get up here and give us a hand?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Ha ha. That's very funny, Buzz. This is serious!!"
+    },
+    {
+      "character": "REX",
+      "text": "Hey, Woody. Where'd ya go?"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "He's lying! Buzz ain't there."
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, hi, Buzz! Why don't you say \"hello\" to the guys over there?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Hiya, fellas. To infinity and beyond!"
+    },
+    {
+      "character": "REX",
+      "text": "Hey look! It's Buzz!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Yeah, hey Buzz. Let's show the guys our new secret best-friends hand shake. Gimme five, man!"
+    },
+    {
+      "character": "HAMM",
+      "text": "Something's screwy here."
+    },
+    {
+      "character": "WOODY",
+      "text": "So, you see? We're friends now, guys. Aren't we, Buzz?"
+    },
+    {
+      "character": "WOODY",
+      "text": "You bet. Gimme a hug."
+    },
+    {
+      "character": "WOODY",
+      "text": "Ha, ha, oh, I love you, too."
+    },
+    {
+      "character": "SLINKY",
+      "text": "See? It is Buzz. Now give back the lights, Potato Head."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Wait just a minute! What are you trying to pull?!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Nothing!"
+    },
+    {
+      "character": "HAMM",
+      "text": "Something's screwy here."
+    },
+    {
+      "character": "WOODY",
+      "text": "So, you see? We're friends now, guys. Aren't we, Buzz? You bet. Gimme a hug."
+    },
+    {
+      "character": "WOODY",
+      "text": "Ha, ha, oh, I love you, too."
+    },
+    {
+      "character": "SLINKY",
+      "text": "See? It is Buzz. Now give back the lights, Potato Head."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Wait just a minute! What are you trying to pull?!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Nothing!"
+    },
+    {
+      "character": "HAMM",
+      "text": "Oh, that is disgusting!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Murderer!"
+    },
+    {
+      "character": "WOODY",
+      "text": "No! No, no, no, no!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "You murdering dog!"
+    },
+    {
+      "character": "WOODY",
+      "text": "No, it's not what you think! I swear!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Save it for the jury! I hope Sid pulls your voice-box out, ya creep!"
+    },
+    {
+      "character": "WOODY",
+      "text": "No, no! No, no, don\u2019t leave, don\u2019t leave! You\u2019ve gotta help us, please! You don\u2019t know what it\u2019s like over here!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Come on. Let's get out of here."
+    },
+    {
+      "character": "HAMM",
+      "text": "Go back to your lives, citizens. Show's over."
+    },
+    {
+      "character": "WOODY",
+      "text": "Come back! Slink! Slink, please! Please, listen to me!"
+    },
+    {
+      "character": "WOODY",
+      "text": "No! No, come back! Slinky!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Buzz!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Go away, you disgusting freaks!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Alright, back! Back, you cannibals! Aah! Ooh!"
+    },
+    {
+      "character": "WOODY",
+      "text": "He is still alive, and you're not gonna get him, you monsters! What are you doing?!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Hey! Hey, they fixed you!"
+    },
+    {
+      "character": "WOODY",
+      "text": "But... but they're cannibals. We saw them eat those other toys."
+    },
+    {
+      "character": "WOODY",
+      "text": "Uh, sorry. I, I thought that you were gonna (laughs nervously) you know, eat my friend."
+    },
+    {
+      "character": "WOODY",
+      "text": "Hey! No, no, wait! Hey! What's wrong?"
+    },
+    {
+      "character": "SID'S MOM",
+      "text": "Sid?"
+    },
+    {
+      "character": "SID",
+      "text": "Not now, Mom, I'm busy!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Sid!"
+    },
+    {
+      "character": "SID'S MOM",
+      "text": "You left the door open!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Buzz! C'mon, get up! Use your legs!"
+    },
+    {
+      "character": "SID",
+      "text": "Hannah left it open!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Fine! Let Sid trash you! But don't blame me!"
+    },
+    {
+      "character": "SID",
+      "text": "It came! It finally came!"
+    },
+    {
+      "character": "SID",
+      "text": "The big one."
+    },
+    {
+      "character": "SID",
+      "text": "\"Extremely dangerous. Keep out of reach of children.\" Cool What am I gonna blow? Man, hey, where's that wimpy cowboy doll?"
+    },
+    {
+      "character": "SID",
+      "text": "Yes! I've always wanted to put a spaceman into orbit. Ha-ha."
+    },
+    {
+      "character": "SID",
+      "text": "Oh, no..."
+    },
+    {
+      "character": "SID",
+      "text": "Aw, man!"
+    },
+    {
+      "character": "SID",
+      "text": "Sid Phillips reporting. Launch of the shuttle has been delayed due to adverse weather conditions at the launch site. Tomorrow's forecast..."
+    },
+    {
+      "character": "SID",
+      "text": "Sunny. Ha-ha-ha. Sweet dreams."
+    },
+    {
+      "character": "ANDY'S MOM",
+      "text": "I looked everywhere, honey, but all I could find was your hat."
+    },
+    {
+      "character": "ANDY",
+      "text": "But what if we leave them behind?"
+    },
+    {
+      "character": "ANDY'S MOM",
+      "text": "Oh, don't worry, honey, I'm sure we'll find Woody and Buzz before we leave tomorrow."
+    },
+    {
+      "character": "REX",
+      "text": "Aaaah! I need air!"
+    },
+    {
+      "character": "REX",
+      "text": "Aa-a-a-a-ah! (coughs)"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Will you quit moving around?!"
+    },
+    {
+      "character": "REX",
+      "text": "I'm sorry. It's just that I get so nervous before I travel."
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "How did I get stuck with you as a moving buddy?"
+    },
+    {
+      "character": "REX",
+      "text": "Everyone else was picked."
+    },
+    {
+      "character": "BO PEEP",
+      "text": "Oh, Woody, if only you could see how much Andy misses you."
+    },
+    {
+      "character": "WOODY",
+      "text": "Psst! Psst! Hey, Buzz!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Hey! Get over here and see if you can get this tool box off me."
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, come on, Buzz, I- Buzz, I can't do this without you. I need your help."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "I can't help. I can't help anyone."
+    },
+    {
+      "character": "WOODY",
+      "text": "Why, sure you can, Buzz. You can get us out of here and then I'll get that rocket off you, and we'll make a break for Andy's house."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Andy's house. Sid's house. What's the difference?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh, Buzz, you've had a big fall. You must not be thinking clearly."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "No, Woody, for the first time I am thinking clearly. You were right all along. I'm not a Space Ranger. I'm just a toy. A stupid little insignificant toy."
+    },
+    {
+      "character": "WOODY",
+      "text": "Woah hey. Being a toy is a lot better than being a, a Space Ranger."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Yeah, right."
+    },
+    {
+      "character": "WOODY",
+      "text": "No, it is. Look, over in that house is a kid who thinks you are the greatest, and it's not because you're a Space Ranger, pal, it's because you're a toy. You are his toy."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "But why would Andy want me?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Why would Andy want you?! Look at you! You're a Buzz Lightyear. Any other toy would give up his moving parts just to be you. You've got wings, you glow in the dark, you talk, your helmet does that, that whoosh thing, you are a cool toy. As a matter of fact you're too cool. I mean, I mean what chance does a toy like me have against a Buzz Lightyear action figure? All I can do is..."
+    },
+    {
+      "character": "WOODY'S VOICE BOX",
+      "text": "There's a snake in my boot."
+    },
+    {
+      "character": "WOODY",
+      "text": "Why would Andy ever want to play with me, when he's got you?"
+    },
+    {
+      "character": "WOODY",
+      "text": "I'm the one that should be strapped to that rocket."
+    },
+    {
+      "character": "WOODY",
+      "text": "Listen, Buzz, forget about me. You should get outta here while you can."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Come on, Sheriff. There's a kid over in that house who needs us. Now let's get you out of this thing."
+    },
+    {
+      "character": "WOODY",
+      "text": "Yes, sir!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Come on, Buzz! We can do it!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Woody! It's the moving van."
+    },
+    {
+      "character": "WOODY",
+      "text": "We've got to get out of here now."
+    },
+    {
+      "character": "WOODY",
+      "text": "C'mon, Buzz."
+    },
+    {
+      "character": "WOODY",
+      "text": "Alright!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Buzz! Hey! I'm out!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Almost there!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Woody? Are you alright?!"
+    },
+    {
+      "character": "WOODY",
+      "text": "No, I'm fine. I'm OK."
+    },
+    {
+      "character": "SID",
+      "text": "Oh, yeah! Time for lift-off!"
+    },
+    {
+      "character": "SID",
+      "text": "To infinity and beyond! Whoo-hoo!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Aaah! Back! Back! Down! Down! Okay, what do I do? Come on Woody, think!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Guys!"
+    },
+    {
+      "character": "WOODY",
+      "text": "No, no, no! Wait! Wait! Listen! Please! There's a good toy down there and he's. he's going to be blown to bits in a few minutes all because of me. I've gotta save him! But I need your help."
+    },
+    {
+      "character": "WOODY",
+      "text": "Please. He's my friend. He's the only one I've got."
+    },
+    {
+      "character": "WOODY",
+      "text": "Thank you. Okay. I think I know what to do. We're going to have to break a few rules, but if it works, it'll help everybody."
+    },
+    {
+      "character": "SID",
+      "text": "Houston to Mission Control. Come in, Control. Launch pad is being constructed! Heh-heh."
+    },
+    {
+      "character": "WOODY",
+      "text": "All right, listen up. I need Pump Boy here, Ducky here. Legs?"
+    },
+    {
+      "character": "WOODY",
+      "text": "You're with Ducky. RollerBob and I don't move till we get the signal. Clear?"
+    },
+    {
+      "character": "WOODY",
+      "text": "OK. Let's move!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Wind the frog."
+    },
+    {
+      "character": "WOODY",
+      "text": "Wait for the signal."
+    },
+    {
+      "character": "WOODY",
+      "text": "Go!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Alright, let's go. Now!"
+    },
+    {
+      "character": "HANNAH",
+      "text": "I'm coming. I'm coming."
+    },
+    {
+      "character": "HANNAH",
+      "text": "Scud!"
+    },
+    {
+      "character": "HANNAH",
+      "text": "Stupid dog!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Lean back!!"
+    },
+    {
+      "character": "HANNAH",
+      "text": "Scud!"
+    },
+    {
+      "character": "HANNAH",
+      "text": "Stupid dog!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Lean back!!"
+    },
+    {
+      "character": "SID",
+      "text": "Uh, Mission Control, is the launchpad construction complete? (simulated static) Uh, Roger, rocket is now secured to guide wire. We are currently obtaining the ignition sticks. Countdown will commence momentarily. Stand by (simulated static)"
+    },
+    {
+      "character": "WOODY",
+      "text": "Let's go."
+    },
+    {
+      "character": "SID",
+      "text": "Hey, Mom! Where are the matches? Oh, oh, wait, here they are. Never mind!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Woody! Great! Help me out of this thing!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Shh!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "What?"
+    },
+    {
+      "character": "WOODY",
+      "text": "It's Ok. Everything's under control."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Woody, what are you doing?!"
+    },
+    {
+      "character": "SID",
+      "text": "(as astronaut) Houston, all systems are go. [Buzz freezes] Requesting permission to launch --(spotting Woody) Hey! How'd you get out here? [He picks Woody up and look at him for a moment] Oh, well. You and I can have a cookout later. Ha-ha-ha... [He puts Woody on a barbecue grill and put a match in his holster then turn back to Buzz to proceed with his plan to blow him up] Houston, do we have permission to launch? -- (simulated static) Uh, Roger, permission granted. You are confirmed at T minus 10 seconds...and counting. 10! 9! 8! 7! 6! 5! 4! 3! 2! 1!"
+    },
+    {
+      "character": "WOODY'S VOICE BOX",
+      "text": "Reach for the sky!"
+    },
+    {
+      "character": "SID",
+      "text": "Huh?"
+    },
+    {
+      "character": "WOODY'S VOICE BOX",
+      "text": "This town ain't big enough for the two of us!"
+    },
+    {
+      "character": "SID",
+      "text": "What?"
+    },
+    {
+      "character": "WOODY'S VOICE BOX",
+      "text": "Somebody's poisoned the water hole."
+    },
+    {
+      "character": "SID",
+      "text": "It's busted."
+    },
+    {
+      "character": "WOODY",
+      "text": "(through voice box) Who are you callin' busted, Buster?!"
+    },
+    {
+      "character": "WOODY",
+      "text": "(through voice box) That's right. [As Woody's voice box continues to talk, Sid looks at his pull string. It is not moving.] I'm talkin' to you, Sid Phillips! [Sid gets increasingly frightened and confused]"
+    },
+    {
+      "character": "SID",
+      "text": "Wha-"
+    },
+    {
+      "character": "WOODY",
+      "text": "(through voice box) We don't like bein' blown up, Sid. Or smashed. Or ripped apart."
+    },
+    {
+      "character": "SID",
+      "text": "\"W-w-w-we\"?"
+    },
+    {
+      "character": "WOODY",
+      "text": "(through voice box) That's right! Your toys!"
+    },
+    {
+      "character": "WOODY",
+      "text": "(through voice box) From now on, you must take good care of your toys! Because if you don't, we'll find out, Sid. We toys... can see everything."
+    },
+    {
+      "character": "WOODY",
+      "text": "So play nice."
+    },
+    {
+      "character": "WOODY",
+      "text": "Ha-ha! We did it! We did it! Ha-ha! Yes!"
+    },
+    {
+      "character": "SID",
+      "text": "The toys! The toys are alive! N-N-Nice toy..."
+    },
+    {
+      "character": "HANNAH",
+      "text": "What's wrong, Sid?! Don't you wanna play with Sally?!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Nice work, fellas. Good job. Comin' out of the ground -- what a touch! That was a stroke of genius!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Woody.[Woody turns around and sees Buzz who's still affixed to Sid's launchpad. Buzz extends his hand to Woody] Thanks."
+    },
+    {
+      "character": "ANDY'S MOM",
+      "text": "Everybody say, \"Bye, house.\""
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Woody, the van!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Bye, house."
+    },
+    {
+      "character": "WOODY",
+      "text": "We gotta run! Thanks, guys!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Quick!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Just go! I'll catch up!"
+    },
+    {
+      "character": "SHERIFF WOODY",
+      "text": "Aaaah!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Aaaah!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Come on!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "You can do it, Woody!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Whew, I made it! (laughs)"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "(gasps)"
+    },
+    {
+      "character": "WOODY",
+      "text": "Aaaaaah!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Get away, you stupid dog! Down! Down! Aah! Aah!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Hold on, Woody!"
+    },
+    {
+      "character": "WOODY",
+      "text": "I can't do it! Take care of Andy for me!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "No!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Buzz!"
+    },
+    {
+      "character": "TOYS",
+      "text": "What?"
+    },
+    {
+      "character": "REX",
+      "text": "Are we there already? Woody!"
+    },
+    {
+      "character": "SLINKY",
+      "text": "Woody?! How'd you--"
+    },
+    {
+      "character": "HAMM",
+      "text": "How did you--"
+    },
+    {
+      "character": "HAMM",
+      "text": "What's going on? What's he taking?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Ah-hah! There you are!!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Hey! What's he doing?"
+    },
+    {
+      "character": "REX",
+      "text": "He's at it again!"
+    },
+    {
+      "character": "WOODY",
+      "text": "(laughs)"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Get him!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Ah-h!! Ah-h! No, no!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Whoa-Whoa-Whoa...!"
+    },
+    {
+      "character": "WOODY",
+      "text": "No, no, no! Wait! (as Rocky spins him) Whoa-Whoa-Whoa...!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Whoa-Whoa-Whoa...!"
+    },
+    {
+      "character": "HAMM",
+      "text": "Pig pile!!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Aaaah!"
+    },
+    {
+      "character": "WOMAN",
+      "text": "Get out of that car!"
+    },
+    {
+      "character": "MAN",
+      "text": "Move it!"
+    },
+    {
+      "character": "WOODY",
+      "text": "No! Wait! You Don\u2019t Understand! Buzz is out there! We've gotta help him!!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Toss him overboard!"
+    },
+    {
+      "character": "WOODY",
+      "text": "No, no, no, wait! Ah!"
+    },
+    {
+      "character": "REX",
+      "text": "Hooray!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "So long, Woody!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Oh! Woody!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Oh! Well, thanks for the ride."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Look out!!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Now let's catch up to that truck!"
+    },
+    {
+      "character": "LENNY",
+      "text": "Guys! Guys! Woody riding RC! And Buzz is with them!"
+    },
+    {
+      "character": "TOYS",
+      "text": "What?!"
+    },
+    {
+      "character": "BO PEEP",
+      "text": "It is Buzz! Woody was telling the truth!"
+    },
+    {
+      "character": "SLINKY",
+      "text": "What have we done?!"
+    },
+    {
+      "character": "REX",
+      "text": "Great. Now I have guilt."
+    },
+    {
+      "character": "WOODY",
+      "text": "We're almost there!"
+    },
+    {
+      "character": "BO PEEP",
+      "text": "Rocky, the ramp!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Look out!"
+    },
+    {
+      "character": "SLINKY",
+      "text": "Quick! Hold on to my tail!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Attaboy, Slink!"
+    },
+    {
+      "character": "SLINKY",
+      "text": "Woody!!"
+    },
+    {
+      "character": "SLINKY",
+      "text": "Woody, speed up!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Speed up!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "The batteries! They're running out!"
+    },
+    {
+      "character": "SLINKY",
+      "text": "Whoa! Whoa! Whoa! Aah!"
+    },
+    {
+      "character": "SLINKY",
+      "text": "I can't hold on much longer!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Slink! Hang on!"
+    },
+    {
+      "character": "SLINKY",
+      "text": "Aaaaaaah! Ouch!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Great!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Woody! The rocket!"
+    },
+    {
+      "character": "WOODY",
+      "text": "The match! [He pull out the match from his holster that Sid had put there earlier] Yes! Thank you, Sid!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Great!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Woody! The rocket!"
+    },
+    {
+      "character": "WOODY",
+      "text": "The match! Yes! Thank you, Sid!"
+    },
+    {
+      "character": "WOODY",
+      "text": "No! No, no, no! No! Oh, no, no, no, no, no, no, no! No..."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Woody! What are you doing?!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Hold still, Buzz! Ha-ha! Ha-ha!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "You did it! Next stop: Andy!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Wait a minute, I just lit a rocket. Rockets explode!"
+    },
+    {
+      "character": "SLINKY",
+      "text": "I shoulda held on longer."
+    },
+    {
+      "character": "LENNY",
+      "text": "Look! Look! It's Woody and Buzz! Comin' up fast!"
+    },
+    {
+      "character": "REX",
+      "text": "Woody!"
+    },
+    {
+      "character": "REX",
+      "text": "Aah! Take cover!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Aaah! This is the part where we blow up!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Not today!"
+    },
+    {
+      "character": "WOODY",
+      "text": "AAAH!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Hey, Buzz! You're flying!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "This isn't flying! This is falling with style!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Ha-ha! To infinity and beyond!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Uh, Buzz? We missed the truck!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "We're not aiming for the truck!"
+    },
+    {
+      "character": "ANDY",
+      "text": "Hey! Wow!"
+    },
+    {
+      "character": "ANDY'S MOM",
+      "text": "What? What is it?"
+    },
+    {
+      "character": "ANDY",
+      "text": "Woody! Buzz!"
+    },
+    {
+      "character": "ANDY'S MOM",
+      "text": "Oh, great, you found them. Where were they?"
+    },
+    {
+      "character": "ANDY",
+      "text": "Here, in the car!"
+    },
+    {
+      "character": "ANDY'S MOM",
+      "text": "See? Now, what did I tell you? Right where you left them."
+    },
+    {
+      "character": "ANDY",
+      "text": "Which one can I open first?"
+    },
+    {
+      "character": "ANDY'S MOM",
+      "text": "Let's let Molly open one."
+    },
+    {
+      "character": "SARGE",
+      "text": "Frankincense, this is Myrrh. Come in, Frankincense."
+    },
+    {
+      "character": "HAMM",
+      "text": "Hey, heads up everybody! It's showtime."
+    },
+    {
+      "character": "REX",
+      "text": "Oh! It's time!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Whoooooah! Oh! Bo! There's gotta be a less painful way to get my attention."
+    },
+    {
+      "character": "BO PEEP",
+      "text": "Merry Christmas, Sheriff."
+    },
+    {
+      "character": "WOODY",
+      "text": "Say, isn't that mistletoe?"
+    },
+    {
+      "character": "BO PEEP",
+      "text": "Mm-hmmmmm."
+    },
+    {
+      "character": "REX",
+      "text": "Maybe Andy'll get another dinosaur, like a leaf-eater. That way, I could play the, uh, dominant predator. Ha ha ha!"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Quiet, everyone, quiet!"
+    },
+    {
+      "character": "SARGE",
+      "text": "Molly's first present is... Mrs. Potato Head. Repeat. A Mrs. Potato Head."
+    },
+    {
+      "character": "HAMM",
+      "text": "Way to go, Idaho!"
+    },
+    {
+      "character": "MR. POTATO HEAD",
+      "text": "Gee, I better shave."
+    },
+    {
+      "character": "SARGE",
+      "text": "Come in, Frankincense. Andy is now opening his first present it\u2019s a-- (Static)"
+    },
+    {
+      "character": "WOODY",
+      "text": "Buzz. Buzz Lightyear. You are not worried, are you?"
+    },
+    {
+      "character": "SARGE",
+      "text": "I can't quite make out. -- (Static)"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Me? No, no, no, no... Mm-mmm."
+    },
+    {
+      "character": "SARGE",
+      "text": "...A large box. It's it's... -- (Static)"
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Are you?"
+    },
+    {
+      "character": "WOODY",
+      "text": "Now, Buzz, what could Andy possibly get that is worse than you?"
+    },
+    {
+      "character": "ANDY",
+      "text": "Oh, what is it? What is it?"
+    },
+    {
+      "character": "ANDY",
+      "text": "Wow, a puppy!"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "You've got a friend in me"
+    },
+    {
+      "character": "LYLE LOVETT",
+      "text": "You've got a friend in me"
+    },
+    {
+      "character": "LYLE LOVETT",
+      "text": "When the road looks rough ahead"
+    },
+    {
+      "character": "LYLE LOVETT",
+      "text": "And you're miles and miles"
+    },
+    {
+      "character": "LYLE LOVETT",
+      "text": "From your nice warm bed"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "You just remember what your old pal said"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "Boy, you've got a friend in me"
+    },
+    {
+      "character": "LYLE LOVETT",
+      "text": "Yeah, you've got a friend in me"
+    },
+    {
+      "character": "LYLE LOVETT",
+      "text": "You've got a friend in me"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "You've got a friend in me"
+    },
+    {
+      "character": "LYLE LOVETT",
+      "text": "If you've got troubles,"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "and I've got 'em too"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "There isn't anything I wouldn't do for you"
+    },
+    {
+      "character": "LYLE LOVETT",
+      "text": "We stick together, we can see it through"
+    },
+    {
+      "character": "LYLE LOVETT",
+      "text": "'Cause you've got a friend in me"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "You've got a friend in me"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "Some other folks might be"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "A little bit smarter than I am"
+    },
+    {
+      "character": "LYLE LOVETT",
+      "text": "Bigger and stronger too,"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "maybe"
+    },
+    {
+      "character": "LYLE LOVETT",
+      "text": "But none of them will ever love you"
+    },
+    {
+      "character": "LYLE LOVETT",
+      "text": "The way I do,"
+    },
+    {
+      "character": "BOTH",
+      "text": "it's me and you, boy"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "And as the years go by"
+    },
+    {
+      "character": "LYLE LOVETT",
+      "text": "Our friendship will never die"
+    },
+    {
+      "character": "BOTH",
+      "text": "You're gonna see it's our destiny"
+    },
+    {
+      "character": "RANDY NEWMAN",
+      "text": "You've got a friend in me"
+    },
+    {
+      "character": "LYLE LOVETT",
+      "text": "You've got a friend in me"
+    },
+    {
+      "character": "BOTH",
+      "text": "You've got a friend in me"
+    }
+  ]
+}

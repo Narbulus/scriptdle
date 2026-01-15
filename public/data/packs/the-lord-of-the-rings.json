@@ -11,6 +11,14 @@
     "btnText": "white",
     "cardGradientStart": "#1a2412",
     "cardGradientEnd": "#2d5016",
-    "cardBorder": "#d4af37"
+    "cardBorder": "#d4af37",
+    "cardText": "#ffd54f"
+  },
+  "tierMessages": {
+    "perfect": "You shall pass!",
+    "good": "Well done, friend!",
+    "average": "A wizard arrives precisely when he means to",
+    "barely": "One does not simply...",
+    "failure": "You shall not pass!"
   }
 }

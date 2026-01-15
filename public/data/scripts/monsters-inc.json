@@ -1,0 +1,2026 @@
+{
+  "id": "monsters-inc",
+  "title": "Monsters, Inc.",
+  "year": 2001,
+  "characters": [
+    "ANIMATRONIC BOY",
+    "BLOBBY",
+    "BOO",
+    "CDA AGENT",
+    "CDA AGENT #1",
+    "CDA AGENT #2",
+    "CDA AGENT #3",
+    "CDA AGENT #4",
+    "CDA AGENT #82472",
+    "CDA AGENTS",
+    "CDA HELICOPTER PILOT",
+    "CELIA",
+    "CHARLIE",
+    "CHARLIE, WAXFORD AND FRANK",
+    "COMPUTER VOICE",
+    "COMPUTERIZED VOICE",
+    "DAY CARE WORKER",
+    "EMPLOYEE #1",
+    "EMPLOYEE #2",
+    "FRANK",
+    "FUNGUS",
+    "GEORGE",
+    "INTERVIEWEE #1",
+    "INTERVIEWEE #2",
+    "JERRY",
+    "JOSH RIVERA",
+    "LEAD CDA AGENT",
+    "MIKE",
+    "MOTHER",
+    "NEEDLEMAN",
+    "NEWSCASTER",
+    "NICK SCHMIDT",
+    "RANDALL",
+    "RANDOM ASSISTANT",
+    "RICKY",
+    "ROZ",
+    "SCIENTIST",
+    "SMITTY",
+    "SNEEZING MONSTER",
+    "SULLEY",
+    "SULLEY AND MIKE",
+    "TONY",
+    "WARD",
+    "WARD'S ASSISTANT",
+    "WATERNOOSE"
+  ],
+  "lines": [
+    {
+      "character": "SNEEZING MONSTER",
+      "text": "Aw, nuts."
+    },
+    {
+      "character": "TONY",
+      "text": "Hey, fellas!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Hey, Tony! Hey, hey, hey! Tony! Pow-pow-pow-pow-pow!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Tony! Bada-bing!"
+    },
+    {
+      "character": "TONY",
+      "text": "I hear somebody's close to breaking the all-time scare record."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Aw, just trying to make sure there's enough scream to go around."
+    },
+    {
+      "character": "TONY",
+      "text": "Hey! On the house."
+    },
+    {
+      "character": "MIKE",
+      "text": "Hey, thanks!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Grazie!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Bada-bing! Follow me!"
+    },
+    {
+      "character": "BLOBBY",
+      "text": "Oh, great."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Hey, Ted! Good morning!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "See that, Mikey? Ted's walkin' to work."
+    },
+    {
+      "character": "MIKE",
+      "text": "Big deal. Guy takes five steps and he's there."
+    },
+    {
+      "character": "RICKY",
+      "text": "Mornin', Sulley!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Mornin', Ricky!"
+    },
+    {
+      "character": "JERRY",
+      "text": "Hey, it's the Sullster!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "See ya on the scare floor, buddy!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Hey, Marge! How was jury duty?"
+    },
+    {
+      "character": "EMPLOYEE #1",
+      "text": "Mornin', Sulley!"
+    },
+    {
+      "character": "EMPLOYEE #2",
+      "text": "How ya doin', big guy?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "'Ey!"
+    },
+    {
+      "character": "NEEDLEMAN",
+      "text": "Hey! It's still leaning to the left!"
+    },
+    {
+      "character": "SMITTY",
+      "text": "It is not!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Hey, fellas! Hey, Jerry!"
+    },
+    {
+      "character": "JERRY",
+      "text": "Morning!"
+    },
+    {
+      "character": "NEEDLEMAN",
+      "text": "Hey, Mr. Sullivan!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Guys, I told you, call me Sulley."
+    },
+    {
+      "character": "SMITTY",
+      "text": "I don't think so."
+    },
+    {
+      "character": "NEEDLEMAN",
+      "text": "We just wanted to wish you good luck today."
+    },
+    {
+      "character": "MIKE",
+      "text": "Hey, hey, hey, hey, hey, hey. Come on, get lost, you two. You're makin' him lose his focus."
+    },
+    {
+      "character": "NEEDLEMAN",
+      "text": "Oh, sorry."
+    },
+    {
+      "character": "SULLEY",
+      "text": "See you later, fellas."
+    },
+    {
+      "character": "SMITTY",
+      "text": "Go get 'em, Mr. Sullivan!"
+    },
+    {
+      "character": "NEEDLEMAN",
+      "text": "Quiet! You'll make him lose his focus."
+    },
+    {
+      "character": "SMITTY",
+      "text": "Oh, no. Sorry!"
+    },
+    {
+      "character": "NEEDLEMAN",
+      "text": "Shut up!"
+    },
+    {
+      "character": "CELIA",
+      "text": "Monsters, Inc., please hold. Monsters, Inc., I'll connect you. Ms. Fearmonger is on vacation, would you like her voicemail?"
+    },
+    {
+      "character": "MIKE",
+      "text": "Oh, Schmoopsie-Poo!"
+    },
+    {
+      "character": "CELIA",
+      "text": "Googly Bear!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Happy birthday."
+    },
+    {
+      "character": "CELIA",
+      "text": "Oh, Googly-Woogly, you remembered!"
+    },
+    {
+      "character": "CELIA",
+      "text": "Hey, Sulley-Wulley."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Oh, hey, Celia... Welia. Happy birthday."
+    },
+    {
+      "character": "CELIA",
+      "text": "Thanks. So, uh, are we going anywhere special tonight?"
+    },
+    {
+      "character": "MIKE",
+      "text": "I just got us into a little place called, um... \"Harryhausen's.\""
+    },
+    {
+      "character": "CELIA",
+      "text": "Harryhausen's?!"
+    },
+    {
+      "character": "CELIA",
+      "text": "But it's impossible to get a reservation there."
+    },
+    {
+      "character": "MIKE",
+      "text": "Not for Googly Bear."
+    },
+    {
+      "character": "MIKE",
+      "text": "I will see you at quittin' time and not a minute later."
+    },
+    {
+      "character": "CELIA",
+      "text": "OK, sweetheart."
+    },
+    {
+      "character": "MIKE",
+      "text": "Think romantical thoughts."
+    },
+    {
+      "character": "MIKE",
+      "text": "You and me, me and you, both of us together!"
+    },
+    {
+      "character": "MIKE",
+      "text": "You know, pal, she's the one. That's it. She is the one!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "I'm happy for you."
+    },
+    {
+      "character": "MIKE",
+      "text": "Oh, and, uh, thanks for hookin' me up with those reservations."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Oh, no problem. They're under the name \"Googly Bear.\""
+    },
+    {
+      "character": "MIKE",
+      "text": "Oh, good id- You know, that wasn't very funny."
+    },
+    {
+      "character": "MIKE",
+      "text": "What the...?"
+    },
+    {
+      "character": "RANDALL",
+      "text": "WAZOWSKI!"
+    },
+    {
+      "character": "MIKE",
+      "text": "AHHHHHH!!"
+    },
+    {
+      "character": "RANDALL",
+      "text": "What do ya know? It scares little kids and little monsters."
+    },
+    {
+      "character": "MIKE",
+      "text": "I wasn't scared, I have... allergies."
+    },
+    {
+      "character": "RANDALL",
+      "text": "Uh-huh, sure."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Hey, Randall. Save it for the scare floor, will ya?"
+    },
+    {
+      "character": "RANDALL",
+      "text": "I'm in the zone today, Sullivan. Gonna be doing some serious scaring, putting up some big numbers."
+    },
+    {
+      "character": "MIKE",
+      "text": "Wow, Randall, that's great. That should make it even more humiliating when we break the record first. Ha-ha!"
+    },
+    {
+      "character": "RANDALL",
+      "text": "Shh, shh, shh, shh, shh. Do you hear that?"
+    },
+    {
+      "character": "RANDALL",
+      "text": "It's the winds of change."
+    },
+    {
+      "character": "MIKE",
+      "text": "\"You hear it? You hear the winds of cha--?\" What a creep. One of these days, I am really... gonna let you teach that guy a lesson."
+    },
+    {
+      "character": "MIKE",
+      "text": "Chalooby. Baby."
+    },
+    {
+      "character": "MIKE",
+      "text": "Good morning, Roz, my succulent little garden snail. And who will we be scaring today?"
+    },
+    {
+      "character": "ROZ",
+      "text": "Wazowski! You didn't file your paperwork last night."
+    },
+    {
+      "character": "MIKE",
+      "text": "Oh, that darn paperwork! Wouldn't it be easier if it all just blew away?"
+    },
+    {
+      "character": "ROZ",
+      "text": "Don't let it happen again."
+    },
+    {
+      "character": "MIKE",
+      "text": "Yes, well, uh, I'll try to be less careless."
+    },
+    {
+      "character": "ROZ",
+      "text": "I'm watching you, Wazowski. Alllways watching. Always."
+    },
+    {
+      "character": "MIKE",
+      "text": "Ooh, she's nuts."
+    },
+    {
+      "character": "CELIA",
+      "text": "All scare floors are now active. Assistants, please report to your stations."
+    },
+    {
+      "character": "JERRY",
+      "text": "OK, people, Eastern Seaboard comin' online. We got scarers comin' out!"
+    },
+    {
+      "character": "NEEDLEMAN",
+      "text": "Oh, they're so awesome!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Hey, may the best monster win."
+    },
+    {
+      "character": "RANDALL",
+      "text": "I plan to."
+    },
+    {
+      "character": "JERRY",
+      "text": "We are on in seven, six,"
+    },
+    {
+      "character": "JERRY",
+      "text": "five, four, three, two..."
+    },
+    {
+      "character": "MIKE",
+      "text": "You're the boss, you're the boss, you're the big hairy boss."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Oh, I'm feelin' good today, Mikey!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Yeah!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Whoa! Attaboy. Attaboy. Another door comin' right up."
+    },
+    {
+      "character": "FUNGUS",
+      "text": "You're still behind, Randall. You know, maybe I should realign the scream intake valve...?"
+    },
+    {
+      "character": "RANDALL",
+      "text": "JUST GET ME ANOTHER DOOR!"
+    },
+    {
+      "character": "FUNGUS",
+      "text": "Aah! A door! Yes! Door!"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "Well, Jerry, what's the damage so far?"
+    },
+    {
+      "character": "JERRY",
+      "text": "We may actually make our quota today, sir."
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "Hmm. First time in a month."
+    },
+    {
+      "character": "WARD'S ASSISTANT",
+      "text": "What happened?"
+    },
+    {
+      "character": "WARD",
+      "text": "The kid almost touched me! She got this close to me!"
+    },
+    {
+      "character": "WARD'S ASSISTANT",
+      "text": "She wasn't scared of you? She was only six!"
+    },
+    {
+      "character": "WARD",
+      "text": "I COULD'VE BEEN DEAD!! I COULD HAVE DIED!"
+    },
+    {
+      "character": "WARD'S ASSISTANT",
+      "text": "Keep it together, man!"
+    },
+    {
+      "character": "WARD'S ASSISTANT",
+      "text": "Hey, we got a dead door over here!"
+    },
+    {
+      "character": "NEEDLEMAN",
+      "text": "We're coming! Look out!"
+    },
+    {
+      "character": "SMITTY",
+      "text": "Out of the way! Excuse us."
+    },
+    {
+      "character": "NEEDLEMAN",
+      "text": "Coming through."
+    },
+    {
+      "character": "JERRY",
+      "text": "We've lost fifty-eight doors this week, sir."
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "Oh, kids these days. They just don't get scared like they used to."
+    },
+    {
+      "character": "NEEDLEMAN",
+      "text": "Let 'er rip!"
+    },
+    {
+      "character": "JOSH RIVERA",
+      "text": "*Ululating*"
+    },
+    {
+      "character": "FUNGUS",
+      "text": "Uh, sir?"
+    },
+    {
+      "character": "RANDALL",
+      "text": "WHAT?!"
+    },
+    {
+      "character": "FUNGUS",
+      "text": "L-look!"
+    },
+    {
+      "character": "CELIA",
+      "text": "Attention. We have a new scare leader, Randall Boggs."
+    },
+    {
+      "character": "CHARLIE, WAXFORD AND FRANK",
+      "text": "Nice job! You took the lead! You did it! Look at those numbers!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Slumber party."
+    },
+    {
+      "character": "CELIA",
+      "text": "Never mind."
+    },
+    {
+      "character": "CHARLIE, WAXFORD AND FRANK",
+      "text": "What?!"
+    },
+    {
+      "character": "RANDALL",
+      "text": "Hey, watch it!"
+    },
+    {
+      "character": "CHARLIE, WAXFORD AND FRANK",
+      "text": "That was awesome! How did you do that? You're going to the hall of fame for sure!"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "Well, James, that was an impressive display."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Oh, just doin' my job, Mr. Waternoose. Of course, I did learn from the best."
+    },
+    {
+      "character": "RANDALL",
+      "text": "If I don't see a new door in my station in five seconds (rising his voice), I WILL PERSONALLY PUT YOU THRO UGH THE SHREDDER!!!"
+    },
+    {
+      "character": "FUNGUS",
+      "text": "Aaaaah!"
+    },
+    {
+      "character": "CHARLIE",
+      "text": "Hey, Wazowski, nice job. Those numbers are pretty sweet."
+    },
+    {
+      "character": "MIKE",
+      "text": "Are they? You know, I hadn't even noticed. And, uh, how's Georgie doin'?"
+    },
+    {
+      "character": "CHARLIE",
+      "text": "He's doin' great! I love workin' with that big guy."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Keep the doors comin', Charlie. I'm on a roll today."
+    },
+    {
+      "character": "CHARLIE",
+      "text": "George and I are like brothers."
+    },
+    {
+      "character": "CHARLIE",
+      "text": "23-19!! WE HAVE A 23-19!!!!"
+    },
+    {
+      "character": "COMPUTER VOICE",
+      "text": "Red alert! Red alert! Red alert! Red alert! Red alert!"
+    },
+    {
+      "character": "COMPUTER VOICE",
+      "text": "George Sanderson, please remain motionless. Prepare for decontamination."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Get it off! Get it off!"
+    },
+    {
+      "character": "JERRY",
+      "text": "Duck and cover, people!"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "Oh, not the CDA!"
+    },
+    {
+      "character": "CDA AGENT #1",
+      "text": "Move, Move, Move! Coming through, please. Stand aside."
+    },
+    {
+      "character": "CDA AGENT #2",
+      "text": "Please clear the contaminated area"
+    },
+    {
+      "character": "MIKE",
+      "text": "Let's get out of here!"
+    },
+    {
+      "character": "CDA HELICOPTER PILOT",
+      "text": "Please remain calm. This is not a drill."
+    },
+    {
+      "character": "CDA AGENT",
+      "text": "We have an 835 in progress. Please advise."
+    },
+    {
+      "character": "CELIA",
+      "text": "Michael? Michael!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Celia!"
+    },
+    {
+      "character": "CDA AGENT",
+      "text": "Please come with me."
+    },
+    {
+      "character": "CELIA",
+      "text": "Ow, stop pushing!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Hey! Get your hands off my Schmoopsie-Poo!"
+    },
+    {
+      "character": "CDA AGENT",
+      "text": "Building clear. Ready for decontamination."
+    },
+    {
+      "character": "MIKE",
+      "text": "Well, I don't think that date could have gone any worse!"
+    },
+    {
+      "character": "NEWSCASTER",
+      "text": "If witnesses are to be believed, there has been a child security breach for the first time in monster history."
+    },
+    {
+      "character": "CDA AGENT",
+      "text": "We can neither confirm nor deny the presence of a human child here tonight."
+    },
+    {
+      "character": "NICK SCHMIDT",
+      "text": "Well, a kid flew right over me and blasted a car with its laser vision!"
+    },
+    {
+      "character": "INTERVIEWEE #1",
+      "text": "I tried to run from it, but it picked me up with its mind powers and shook me like a doll!"
+    },
+    {
+      "character": "INTERVIEWEE #2",
+      "text": "It's true! I saw the whole thing!"
+    },
+    {
+      "character": "SCIENTIST",
+      "text": "It is my professional opinion, that now is the time TO PANI-!"
+    },
+    {
+      "character": "BOO",
+      "text": "Oh-oh."
+    },
+    {
+      "character": "MIKE",
+      "text": "Oh, it's coming! It's coming!"
+    },
+    {
+      "character": "BOO",
+      "text": "Boo!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "AAAH!"
+    },
+    {
+      "character": "MIKE",
+      "text": "AAAH!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Aaaaaaah!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Aaaaaaah!"
+    },
+    {
+      "character": "MIKE",
+      "text": "No, no, no, no, no, no, no, no! Come here, kid!"
+    },
+    {
+      "character": "MIKE",
+      "text": "gasps) No, don't touch those, you little--!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Oh, now those were alphabetized... It's okay, it's all right. As long as it doesn't come near us, we're gonna be okay."
+    },
+    {
+      "character": "MIKE",
+      "text": "AAH!!"
+    },
+    {
+      "character": "MIKE",
+      "text": "AAAAAAAAAH!!!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Oh, you like this? Fetch!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Hey, hey, that's it! No one touches Little Mikey."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Mike, give her the bear."
+    },
+    {
+      "character": "MIKE",
+      "text": "Oh, no."
+    },
+    {
+      "character": "MIKE",
+      "text": "Make it stop, Sulley! MAKE IT STOP!!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Here! See the bear? Ooh, nice bear!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Sulley!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Oh, he's a happy bear, and he's not crying, and neither should you, or we'll be in trouble, 'cause they're gonna find us, so please stop crying, right now, right now..."
+    },
+    {
+      "character": "MIKE",
+      "text": "Good! Good, Sulley, keep it up, you're doin' great!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Oooh, ah, the happy bear, he has no care..."
+    },
+    {
+      "character": "SULLEY",
+      "text": "BWAAAAAAH! YAAAH! It touched me!! She touched me! Aaah!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Sulley, the bear! The bear! Give it the\u2026"
+    },
+    {
+      "character": "MIKE",
+      "text": "Whoahhhhh!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "What was that?"
+    },
+    {
+      "character": "MIKE",
+      "text": "I have no idea. But it would be really great if it didn't\u2026do it\u2026again."
+    },
+    {
+      "character": "BOO",
+      "text": "Shhhh."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Shhhh!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "How could I do this? How could I be so stupid? This could destroy the company."
+    },
+    {
+      "character": "MIKE",
+      "text": "The company? Who cares about the company? What about us?! That thing is a KILLING MACHINE!"
+    },
+    {
+      "character": "BOO",
+      "text": "La la la la la la la la\u2026"
+    },
+    {
+      "character": "MIKE",
+      "text": "I bet it's just waiting for us to fall asleep, and then, WHAM!! Oh, we're easy prey, my friend, easy prey! We're sitting targets!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Okay, look, I think I have a plan here. Using mainly spoons, we dig a tunnel under the city and release it into the wild."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Spoons."
+    },
+    {
+      "character": "MIKE",
+      "text": "That's it. I'm out of ideas. We're closed. Hot air balloon? Too expensive. Giant slingshot? Too conspicuous. Enormous wooden horse? Too Greek!"
+    },
+    {
+      "character": "BOO",
+      "text": "[gibberish] Looka dooko teeko peeka!"
+    },
+    {
+      "character": "MIKE",
+      "text": "No plan... no plan... can't think... can't think. Flat-lining...flat-lining..."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Uh, Mike, I think she's getting tired."
+    },
+    {
+      "character": "MIKE",
+      "text": "Well, then why don't you find some place for it to sleep WHILE I THINK OF A PLAN!!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Are you sleepy? You wanna sleep? Is that what you want? Huh?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Okay, all right, making a nice little area for you to--"
+    },
+    {
+      "character": "SULLEY",
+      "text": "No, hey, hey, that's my bed. You're going to get your germs all over it."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Fine. My chair's more comfortable, anyway."
+    },
+    {
+      "character": "SULLEY",
+      "text": "What?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "It's just a closet. Will you go to sleep?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Hey, that looks like Randall. Randall's your monster. You think he's gonna come through the closet and scare you. Oh, boy, how do I explain this? Uh, it's empty . See?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "No monster in here."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Well, now there is. But I'm not gonna scare you."
+    },
+    {
+      "character": "SULLEY",
+      "text": "I'm off duty."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Okay, how 'bout I sit here until you fall asleep?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Go ahead. Go to sleep. Hmm-hmm. Now. Now, go."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Uh, you... go... to... sleep!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Hey, Mike, this might sound crazy, but I don't think that kid's dangerous."
+    },
+    {
+      "character": "MIKE",
+      "text": "Really? Well, in that case, let's keep it. I always wanted a pet that could KILL ME!!!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Now, look, what if we just put her back in her door?"
+    },
+    {
+      "character": "MIKE",
+      "text": "What?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Mike, think about it. If we send her back, it's like it never happened. Everything goes back to normal."
+    },
+    {
+      "character": "MIKE",
+      "text": "Is that a joke? Tell me you're joking."
+    },
+    {
+      "character": "MIKE",
+      "text": "Sulley, I'd like to think that given the circumstances, I have been extremely forgiving up 'til now, but that is a horrible idea! What are we gonna do, march right out into public with that thing? Then I guess we just waltz right up to the factory, right?"
+    },
+    {
+      "character": "MIKE",
+      "text": "I can't believe we are waltzing right up to the factory! Sulley, a mop, a couple of lights, and some chair fabric are not gonna fool anyone. Just think about a few names, will you? Loch Ness, Big Foot, The Abominable Snowman. They all got one thing in common, pal: banishment! We could be next!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Don't panic. We can do this."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Hey! How you doing, Frank?"
+    },
+    {
+      "character": "FRANK",
+      "text": "Hey, guys."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Everything's going to be okay."
+    },
+    {
+      "character": "CDA AGENT #1",
+      "text": "Number One wants this place dusted for prints."
+    },
+    {
+      "character": "CDA AGENT #2",
+      "text": "Careful with that."
+    },
+    {
+      "character": "CDA AGENT #3",
+      "text": "I got a good view from here."
+    },
+    {
+      "character": "CDA AGENT #4",
+      "text": "A little lower..."
+    },
+    {
+      "character": "LEAD CDA AGENT",
+      "text": "This was recovered at the scene."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Don't panic. Don't panic."
+    },
+    {
+      "character": "MIKE",
+      "text": "Don't tell me not to panic. Everything is not okay. It's not okay!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Just keep it together. Stay calm."
+    },
+    {
+      "character": "BOO",
+      "text": "Boo!"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "Gentlemen, safety is our number one concern. Now if there's anything that--"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "Not now, not now, I'm-- seeing Boo ) Oh, hello, little one. Where did you come from?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Mr. Waternoose!"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "Ah, James. Is this one yours?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Ah, actually, that's my uh, cousin's sister's daughter, sir."
+    },
+    {
+      "character": "MIKE",
+      "text": "Yeah, it's, ah, \"Bring An Obscure Relative to Work Day\"."
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "Hmm, must have missed the memo. Well, listen, James, why don't you stop by the simulator after lunch today and give us the scare demonstration we talked about, huh?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Oh! Sir, uh... today might be a little--"
+    },
+    {
+      "character": "CDA AGENT",
+      "text": "Excuse me, Mr. Waternoose..."
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "Yes, yes, I'm coming."
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "All right, then, I'll see you this afternoon, James. That is, if these gentlemen hadn't shut us down."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Oh, boy."
+    },
+    {
+      "character": "MIKE",
+      "text": "Oh, a scare demo. Well, that is great. Why am I the last to know? We can bring your cousin's sister's daughter along. She'll be a big hit."
+    },
+    {
+      "character": "CDA AGENTS",
+      "text": "What the...? Hey! No! Halt! Stop him! Hold him down! Let him go!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Come on, the coast is clear. Okay, all we have to do is get rid of that \"thing.\" So wait here, while I get its card key."
+    },
+    {
+      "character": "SULLEY",
+      "text": "But she can't stay here. This is the men's room."
+    },
+    {
+      "character": "MIKE",
+      "text": "That is the weirdest thing you have ever said. It's fine. It's okay. Look, it loves it here! It's dancing with joy!"
+    },
+    {
+      "character": "MIKE",
+      "text": "I'll be right back with its door key."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Haha! That's a cute little dance you've got. It almost looks like you gotta--"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Ohh."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Uh, are you done in there?"
+    },
+    {
+      "character": "BOO",
+      "text": "YAHH! GWAA!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Ah! Sorry! Sorry."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Okay, you're finished now, right? Hello?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Ohh."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Uh, are you done in there?"
+    },
+    {
+      "character": "BOO",
+      "text": "YAHH! GWAA!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Ah! Sorry! Sorry."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Okay, you're finished now, right? Hello?"
+    },
+    {
+      "character": "BOO",
+      "text": "Boo!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Whew!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Where did she go? Did she disappear? Did she turn invisible? I just have no idea."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Gotcha!"
+    },
+    {
+      "character": "BOO",
+      "text": "Boo!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Hey, you're good!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Be relaxed, be relaxed, be relaxed."
+    },
+    {
+      "character": "MIKE",
+      "text": "Roz, my tender, oozing blossom, you're looking fabulous today. Is that a new haircut?"
+    },
+    {
+      "character": "MIKE",
+      "text": "Come on, tell me. It's a new haircut, isn't it? That's gotta be a new haircut. New makeup? You had a lift? You had a tuck? You had something? Something has been inserted in you that makes you look like..."
+    },
+    {
+      "character": "MIKE",
+      "text": "Listen, I need a favor. Randall was working late last night out on the scare floor. I really need the key for the door he was using."
+    },
+    {
+      "character": "ROZ",
+      "text": "Well, isn't that nice? But guess what? You didn't turn in your paperwork last night."
+    },
+    {
+      "character": "MIKE",
+      "text": "He didn't... I mean I... no p-p-paperwork?!"
+    },
+    {
+      "character": "ROZ",
+      "text": "This office is now closed."
+    },
+    {
+      "character": "MIKE",
+      "text": "YAAAAAAAAAAAAAAH!!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Ready or not, here I come!! I'm gettin' warmer, any second now! FEE, FI, FOE-"
+    },
+    {
+      "character": "MIKE",
+      "text": "WHAT ARE YOU DOING?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Uh, um, I'm lookin' for the kid."
+    },
+    {
+      "character": "MIKE",
+      "text": "You lost it?!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "No, no, she was just...."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Here she is. Hey, what's the matter?"
+    },
+    {
+      "character": "RANDALL",
+      "text": "Look, I already told your buddies I haven't seen anything!"
+    },
+    {
+      "character": "CDA AGENT",
+      "text": "Alright. Carry on."
+    },
+    {
+      "character": "FUNGUS",
+      "text": "Randall!"
+    },
+    {
+      "character": "RANDALL",
+      "text": "Aah!"
+    },
+    {
+      "character": "FUNGUS",
+      "text": "Thank goodness. What are we going to do about the child?!"
+    },
+    {
+      "character": "RANDALL",
+      "text": "Will you... shh!"
+    },
+    {
+      "character": "FUNGUS",
+      "text": "THE FRONT PAGE! It's on the front page! The child! The one you were after!"
+    },
+    {
+      "character": "RANDALL",
+      "text": "Will you be quiet?! Don't you think I'm aware of the situation? I was up all night trying to find it!"
+    },
+    {
+      "character": "FUNGUS",
+      "text": "I did a simple calculation factoring in the size of the sushi restaurant. The child... MAY HAVE... ESCAPED!"
+    },
+    {
+      "character": "RANDALL",
+      "text": "Yeah, well, until we know for sure, we're gonna act like nothing happened, understand? You just get the machine up and running, I'll take care of the kid. And when I find whoever let it out, they're DEAD!"
+    },
+    {
+      "character": "FUNGUS",
+      "text": "Oh!"
+    },
+    {
+      "character": "RANDALL",
+      "text": "Why are you still here?"
+    },
+    {
+      "character": "RANDALL",
+      "text": "COME ON! GO! MOVE! NOW!"
+    },
+    {
+      "character": "FUNGUS",
+      "text": "Oh! Ow! Ow! I'm not here!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "They're gone."
+    },
+    {
+      "character": "BOO",
+      "text": "Ew."
+    },
+    {
+      "character": "MIKE",
+      "text": "This is bad. This is so very bad."
+    },
+    {
+      "character": "SULLEY",
+      "text": "What were they talking about a machine?"
+    },
+    {
+      "character": "MIKE",
+      "text": "Who cares?! Oh!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Look, don't panic. All we have to do is call her door down and send her home."
+    },
+    {
+      "character": "MIKE",
+      "text": "You're right, you're right. We're just two regular Joes on our way to work. We will blend right in."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Top of the mornin', fellas!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Hey, what's shakin', bacon?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Did you lose weight? Or a limb? You have her card key, right?"
+    },
+    {
+      "character": "MIKE",
+      "text": "Of course I have her card key. I told you I'd get her card key. I went and got her card key, and now I have her card key."
+    },
+    {
+      "character": "MIKE",
+      "text": "OK, here we go."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Take care of yourself. Try not to run through anymore closets."
+    },
+    {
+      "character": "MIKE",
+      "text": "Mike, that's not her door."
+    },
+    {
+      "character": "MIKE",
+      "text": "What're you talkin' about? Of course it's her door. It's her door."
+    },
+    {
+      "character": "SULLEY",
+      "text": "No, her door was white,"
+    },
+    {
+      "character": "MIKE",
+      "text": "No."
+    },
+    {
+      "character": "SULLEY",
+      "text": "and it had flowers on it."
+    },
+    {
+      "character": "MIKE",
+      "text": "No. It must've been dark last night, because this is its door."
+    },
+    {
+      "character": "MIKE",
+      "text": "Hey, you hear that? Sounds like fun in there. OK, send me a postcard, kid. That's Mike Wazowski, care of 22 Mike-Wazowski-You-Got-Your-Life-Back Lane."
+    },
+    {
+      "character": "BOO",
+      "text": "Mowki Kowski."
+    },
+    {
+      "character": "MIKE",
+      "text": "Very good. Now, bon voyage."
+    },
+    {
+      "character": "MIKE",
+      "text": "Bye-bye. Come on."
+    },
+    {
+      "character": "MIKE",
+      "text": "Look at the stick. See the stick? Go get the stick. Go fetch."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Mike, this isn't Boo's door."
+    },
+    {
+      "character": "MIKE",
+      "text": "\"Boo?\" What's \"Boo?\""
+    },
+    {
+      "character": "SULLEY",
+      "text": "That's... what I decided to call her. Is there a problem?"
+    },
+    {
+      "character": "MIKE",
+      "text": "Sulley, you're not supposed to name it. Once you name it, you start getting attached to it! NOW, PUT THAT THING BACK WHERE IT CAME FROM, OR SO HELP ME..."
+    },
+    {
+      "character": "MIKE",
+      "text": "Oh, hey! We're rehearsing a-a scene for the upcoming company play called, uh... \" Put That Thing Back Where It Came From, Or So Help Me\". Heh, heh... it's a musical!"
+    },
+    {
+      "character": "MIKE",
+      "text": "\u266a Put that thing back where it came from, or so help me... \u266a"
+    },
+    {
+      "character": "SULLEY",
+      "text": "\u266a Bom, bom, bom, bom... \u266a"
+    },
+    {
+      "character": "MIKE",
+      "text": "\u266a So help me! So help me! \u266a And cut. Heh, heh. We're still working on it. It's a work in progress. But hey, we need ushers!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Sulley, I've had enough. Now, say goodbye to--..."
+    },
+    {
+      "character": "MIKE",
+      "text": "Where'd it go? What'd you do with it?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Where is she? Aah! Boo!"
+    },
+    {
+      "character": "MIKE",
+      "text": "I don't believe it. She got away from you again?! Well, that is just-- Wait a minute, the sun is coming up. This is perfect! Ha-ha! She's gone!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Hey, hey, hey, hey, where are you going?"
+    },
+    {
+      "character": "MIKE",
+      "text": "Sulley, please, don't blow this. Not when we're so close to breaking the record."
+    },
+    {
+      "character": "MIKE",
+      "text": "Somebody else will find the kid. It'll be their problem, not ours. She's out of our hair!"
+    },
+    {
+      "character": "RANDALL",
+      "text": "What are you two doing?"
+    },
+    {
+      "character": "RANDOM ASSISTANT",
+      "text": "They're rehearsing a play."
+    },
+    {
+      "character": "MIKE",
+      "text": "\u266a She's out of our hair! \u266a"
+    },
+    {
+      "character": "RANDALL",
+      "text": "Can it, Wazowski! So, what do you think of that kid getting out, Sullivan? Pretty crazy, huh?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Oh, yeah! Crazy. Heh!"
+    },
+    {
+      "character": "RANDALL",
+      "text": "Word on the street is the kid's been traced back to this factory. You haven't seen anything, have you?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Uh, well... uh... er, uh..."
+    },
+    {
+      "character": "MIKE",
+      "text": "No! No way! But, if it was an inside job, I'd put my money on Waxford."
+    },
+    {
+      "character": "RANDALL",
+      "text": "Waxford?"
+    },
+    {
+      "character": "MIKE",
+      "text": "Yeah, the one at station six. You know, he's got them shifty eyes."
+    },
+    {
+      "character": "RANDALL",
+      "text": "Hey, Waxford!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Sulley!"
+    },
+    {
+      "character": "CELIA",
+      "text": "Michael Wazowski!!!"
+    },
+    {
+      "character": "CELIA",
+      "text": "Last night was one of the worst nights of my entire life, bar-none!"
+    },
+    {
+      "character": "CELIA",
+      "text": "I thought you cared about me!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Honey, please. Schmoopsie, I thought you liked sushi.."
+    },
+    {
+      "character": "CELIA",
+      "text": "Sushi?! Sushi?!!"
+    },
+    {
+      "character": "CELIA",
+      "text": "You think this is about sushi!?!?"
+    },
+    {
+      "character": "MIKE",
+      "text": "Schmoopsie... Ah, ah, ah... Shh, shh, shhh!"
+    },
+    {
+      "character": "RANDALL",
+      "text": "Wazowski!"
+    },
+    {
+      "character": "CELIA",
+      "text": "Michael! Mike... Men."
+    },
+    {
+      "character": "MIKE",
+      "text": "Breathe... Keep breathing...."
+    },
+    {
+      "character": "MIKE",
+      "text": "YIPE!"
+    },
+    {
+      "character": "RANDALL",
+      "text": "Where's the kid?"
+    },
+    {
+      "character": "MIKE",
+      "text": "Kid? Heh. What kid?"
+    },
+    {
+      "character": "RANDALL",
+      "text": "It's here in the factory, isn't it?"
+    },
+    {
+      "character": "MIKE",
+      "text": "You're not pinning this on me. It never would have gotten out, if you hadn't been cheating last night!"
+    },
+    {
+      "character": "RANDALL",
+      "text": "Cheating! I-- Cheating. Right. OK, I think I know how to make this all go away. What happens when the whistle blows in 5 minutes?"
+    },
+    {
+      "character": "MIKE",
+      "text": "Uh, I get a time-out?"
+    },
+    {
+      "character": "RANDALL",
+      "text": "Everyone goes to lunch."
+    },
+    {
+      "character": "RANDALL",
+      "text": "Which means the scare floor will be..."
+    },
+    {
+      "character": "MIKE",
+      "text": "...Painted?"
+    },
+    {
+      "character": "RANDALL",
+      "text": "Empty! It'll be empty, you idiot! See that clock?"
+    },
+    {
+      "character": "RANDALL",
+      "text": "When the big hand is pointing up,..."
+    },
+    {
+      "character": "RANDALL",
+      "text": "...and the little hand is pointing up,..."
+    },
+    {
+      "character": "RANDALL",
+      "text": "...the kid's door will be in my station. But when the big hand points down..."
+    },
+    {
+      "character": "MIKE",
+      "text": "Ooooh!"
+    },
+    {
+      "character": "RANDALL",
+      "text": "...the door will be gone. You have until then to put the kid back. Get the picture?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Boo!"
+    },
+    {
+      "character": "CDA AGENT #1",
+      "text": "Hey, you! Halt!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Uh..."
+    },
+    {
+      "character": "CDA AGENT #2",
+      "text": "He's the one."
+    },
+    {
+      "character": "CDA AGENT #1",
+      "text": "The one from the commercial."
+    },
+    {
+      "character": "CDA AGENT #2",
+      "text": "Affirmative, that's him."
+    },
+    {
+      "character": "CDA AGENT #1",
+      "text": "Can we get an autograph?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Oh! Oh, sure... no problem."
+    },
+    {
+      "character": "CDA AGENT #1",
+      "text": "If you could make that out to Bethany, my daughter..."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Ah, yes! Let's see.... \"From your scary friend... Best wishes...\""
+    },
+    {
+      "character": "NEEDLEMAN",
+      "text": "...so then I said, \"if you talk to me like that again, we're through.\""
+    },
+    {
+      "character": "SMITTY",
+      "text": "Oh! What'd she say?"
+    },
+    {
+      "character": "NEEDLEMAN",
+      "text": "You know my mom. She sent me to my room."
+    },
+    {
+      "character": "CDA AGENT #1",
+      "text": "Thanks a lot."
+    },
+    {
+      "character": "SULLEY",
+      "text": "See you guys later. Take it easy."
+    },
+    {
+      "character": "NEEDLEMAN",
+      "text": "Bottoms up!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "NO!!!"
+    },
+    {
+      "character": "DAY CARE WORKER",
+      "text": "Oh. Well, hello there. What's your name?"
+    },
+    {
+      "character": "BOO",
+      "text": "Mike Wazowski."
+    },
+    {
+      "character": "RANDALL",
+      "text": "OOH! OW! AAH!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Care to do the honors, Mikey?"
+    },
+    {
+      "character": "MIKE",
+      "text": "With pleasure."
+    },
+    {
+      "character": "SULLEY",
+      "text": "That's right, Boo. You did it! You beat him."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Come on!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Okay, Boo, it's time to go home. Take care of yourself and be a good girl, okay?"
+    },
+    {
+      "character": "MIKE",
+      "text": "Oh, no!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "The power's out. Make her laugh again."
+    },
+    {
+      "character": "MIKE",
+      "text": "All right, I got a move here. It'll bring down the house. Up!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Heh?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Sorry, she didn't see that."
+    },
+    {
+      "character": "MIKE",
+      "text": "What?! What'd you do, forget to check if her stupid hood was up, ya big dope?!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Uncle Mike, try not to yell in front of her. You know we still need her to laugh."
+    },
+    {
+      "character": "MIKE",
+      "text": "Right. Hey Boo, just kiddin'. Look!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Hello, Boo!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Funny, right? See, with the... These are the jokes, kid."
+    },
+    {
+      "character": "MIKE",
+      "text": "Whoa! What's happening?!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Hold on!"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "When the door lands in this station, cut the power. You'll have the child, and the criminals responsible for this whole mess."
+    },
+    {
+      "character": "MIKE",
+      "text": "Great. A welcoming committee! What are we gonna do?"
+    },
+    {
+      "character": "CDA AGENT",
+      "text": "This is the CDA. Come out slowly with the child in plain sight."
+    },
+    {
+      "character": "MIKE",
+      "text": "Okay, okay! You got us. Here we are. Here's the kid. I'm cooperatin'. But before you take us away, I have one thing to say:"
+    },
+    {
+      "character": "MIKE",
+      "text": "Catch!"
+    },
+    {
+      "character": "CDA AGENTS",
+      "text": "23-19! We have a toxic projectile! Isolate the contaminate!"
+    },
+    {
+      "character": "CDA AGENT #82472",
+      "text": "Halt! After the suspect!"
+    },
+    {
+      "character": "CDA AGENT #2",
+      "text": "Cover the area! Bring in reinforcements!"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "Stop him!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Come on."
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "Don't let THEM GET AWAY! WHAT...?!"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "NO, WAIT, WAIT! COME BACK! He has the child!"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "SULLIVAN! SULLIVAN! GIVE ME THE CHILD!"
+    },
+    {
+      "character": "BOO",
+      "text": "I am not going!"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "GIVE HER TO ME!"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "Open this door! OPEN THIS DOOR!"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "HEY! SULLIVAN!"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "Don't do it!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Come on!"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "DON'T GO IN THAT ROOM!"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "OHHH NOOO!!!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "I think we stopped him, Boo. You're safe now. You be a good girl, okay?"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "This has gone far enough, James."
+    },
+    {
+      "character": "SULLEY",
+      "text": "She's home now! Just leave her alone!"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "I can't do that! She's seen too much. You both have."
+    },
+    {
+      "character": "SULLEY",
+      "text": "It doesn't have to be this way."
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "I have no choice! Times have changed! Scaring isn't enough anymore!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "But kidnapping children?!"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "I'll kidnap a THOUSAND children before I let this company die, and I'll SILENCE ANYONE WHO GETS IN MY WAY!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "NO!"
+    },
+    {
+      "character": "ANIMATRONIC BOY",
+      "text": "Good night, mom."
+    },
+    {
+      "character": "MOTHER",
+      "text": "Good night, sweetheart."
+    },
+    {
+      "character": "ANIMATRONIC BOY",
+      "text": "Good night, mom. Good night, mom."
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "What, wh-what is this? What? Who? Huh?"
+    },
+    {
+      "character": "COMPUTERIZED VOICE",
+      "text": "Simulation terminated. Simulation terminated."
+    },
+    {
+      "character": "MIKE",
+      "text": "Well, I don't know about the rest of you guys, but I spotted several big mistakes."
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "B-but... H-How'd--?"
+    },
+    {
+      "character": "MIKE",
+      "text": "You know what? Let's watch my favorite part again, shall we?"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "I'll kidnap a THOUSAND children before I let this company die! I'll kidnap a THOUSAND children before I let this company die! I'll kidnap a THOUSAND children before I let this company die!"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "What...?! Wha...?!"
+    },
+    {
+      "character": "CDA AGENT",
+      "text": "I'll get him. Alright, come with us, sir."
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "Wh-what are you doing?! Take your hands off me! You can't arrest me!"
+    },
+    {
+      "character": "WATERNOOSE",
+      "text": "I hope you're happy, Sullivan! You destroyed this company! Monsters Incorporated is dead! Where will everyone get their scream now?! The energy crisis will only get worse, because of you!"
+    },
+    {
+      "character": "LEAD CDA AGENT",
+      "text": "Stay where you are. Number One wants to talk to you."
+    },
+    {
+      "character": "ROZ",
+      "text": "Hello, boys."
+    },
+    {
+      "character": "SULLEY AND MIKE",
+      "text": "Roz?"
+    },
+    {
+      "character": "ROZ",
+      "text": "Two and a half years of undercover work were almost wasted when you intercepted that child, Mr. Sullivan. Of course, without your help, I never would have known that this went all the way up to Waternoose."
+    },
+    {
+      "character": "ROZ",
+      "text": "Now, about the girl..."
+    },
+    {
+      "character": "SULLEY",
+      "text": "I just wanna send her home."
+    },
+    {
+      "character": "ROZ",
+      "text": "Very good. Bring me a door shredder."
+    },
+    {
+      "character": "SULLEY",
+      "text": "What, you mean... You mean, I can't see her again?"
+    },
+    {
+      "character": "ROZ",
+      "text": "That's the way it has to be. I'll give you five minutes."
+    },
+    {
+      "character": "MIKE",
+      "text": "Well, so long, kid."
+    },
+    {
+      "character": "BOO",
+      "text": "Mike Wazowski!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Ah, Boo, it's been fun."
+    },
+    {
+      "character": "MIKE",
+      "text": "Go ahead. Go grow up."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Uh... Boo... um... Oh, look at that. Yeah, you know-- Oh, that's cute. Yeah... uh... Boo..."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Well, that's very nice."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Come here, you!"
+    },
+    {
+      "character": "SULLEY",
+      "text": "\u266a Oh, he's a happy bear... \u266a"
+    },
+    {
+      "character": "BOO",
+      "text": "Dars byargs lub."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Nothing's coming out of the closet to scare you anymore. Right?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Yeah. Good-bye, Boo."
+    },
+    {
+      "character": "BOO",
+      "text": "Kitty."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Kitty has to go."
+    },
+    {
+      "character": "BOO",
+      "text": "Boo!"
+    },
+    {
+      "character": "BOO",
+      "text": "Kitty?"
+    },
+    {
+      "character": "ROZ",
+      "text": "None of this ever happened, gentlemen. And I don't wanna see any paperwork on this."
+    },
+    {
+      "character": "CDA AGENT",
+      "text": "Take him away."
+    },
+    {
+      "character": "SMITTY",
+      "text": "I bet we get the rest of the day off."
+    },
+    {
+      "character": "NEEDLEMAN",
+      "text": "YOU IDIOT! They're gonna shut down the factory!"
+    },
+    {
+      "character": "MIKE",
+      "text": "I'm tellin' ya, pal, when that wall went up, you should've seen the look on Waternoose's face. Hoo-hoo! I hope we get a copy of that tape."
+    },
+    {
+      "character": "MIKE",
+      "text": "Hey, you alright? Come on, pal, cheer up. We did it! We got Boo home. Ah, sure we put the factory in the toilet, and... gee, hundreds of people will be outta work now. Not to mention the angry mob that'll come after us when there's no more power, but hey! At least we had some laughs, right?"
+    },
+    {
+      "character": "SULLEY",
+      "text": "Laughs."
+    },
+    {
+      "character": "MIKE",
+      "text": "Hey, is this thing on? Hello. Hello. Testing, testing."
+    },
+    {
+      "character": "MIKE",
+      "text": "Hey, good evening, how are you? Nice to see you. I'll tell you, it's great to be here in... your room. Where are you from?"
+    },
+    {
+      "character": "MIKE",
+      "text": "Never mind. You're in kindergarten, right? Oh, I love kindergarten. Best three years of my life."
+    },
+    {
+      "character": "MIKE",
+      "text": "of my life. But I love sports. Dodge-ball was the best. Oh, yeah, I was the fastest one out there. Of course I was the ball..."
+    },
+    {
+      "character": "MIKE",
+      "text": "...but I... was the ball... see? All right."
+    },
+    {
+      "character": "MIKE",
+      "text": "Huh?"
+    },
+    {
+      "character": "MIKE",
+      "text": "Hey, thanks a lot! I'll be here all week. Remember to tip your waitresses."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Great job, Mikey. You filled your quota on the first kid of the day."
+    },
+    {
+      "character": "MIKE",
+      "text": "Not bad, huh? You know, only somebody with perfect comedic timing could produce this much energy in one shot."
+    },
+    {
+      "character": "SULLEY",
+      "text": "Uh-huh. And the fact that laughter is ten times more powerful than scream had nothing to do with it?"
+    },
+    {
+      "character": "CELIA",
+      "text": "Oh, Googly Bear...! Come here, you!"
+    },
+    {
+      "character": "MIKE",
+      "text": "Schmoopsie-Poo!"
+    },
+    {
+      "character": "CELIA",
+      "text": "Googly..."
+    },
+    {
+      "character": "CELIA",
+      "text": "Girls, girls! Ple- stop, stop, stop. Michael, you're such a charmer."
+    },
+    {
+      "character": "MIKE",
+      "text": "Hey, did you bring the magazine?"
+    },
+    {
+      "character": "CELIA",
+      "text": "They just delivered a whole box."
+    },
+    {
+      "character": "MIKE",
+      "text": "Let me see it! Ha ha ha! Sulley and I made the cover, right?"
+    }
+  ]
+}
