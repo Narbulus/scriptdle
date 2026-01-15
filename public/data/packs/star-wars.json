@@ -1,0 +1,31 @@
+{
+  "id": "star-wars",
+  "name": "Star Wars",
+  "type": "series",
+  "movies": [
+    "star-wars-episode-i-the-phantom-menace",
+    "star-wars-episode-ii-attack-of-the-clones",
+    "star-wars-episode-iii-revenge-of-the-sith",
+    "star-wars-episode-vii-the-force-awakens",
+    "star-wars-episode-viii-the-last-jedi",
+    "star-wars-episode-ix-the-rise-of-skywalker"
+  ],
+  "theme": {
+    "primary": "#FFE81F",
+    "bgColor": "#000000",
+    "containerBg": "#1a1a2e",
+    "accentColor": "#c41e3a",
+    "btnText": "black",
+    "cardGradientStart": "#000000",
+    "cardGradientEnd": "#1a1a2e",
+    "cardBorder": "#FFE81F",
+    "cardText": "#FFE81F"
+  },
+  "tierMessages": {
+    "perfect": "Strong with the Force, you are!",
+    "good": "The Force is with you!",
+    "average": "A Jedi in training",
+    "barely": "Much to learn, you have",
+    "failure": "Failed, you have"
+  }
+}

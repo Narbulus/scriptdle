@@ -1,10 +1,52 @@
 {
   "featured": [
+    "star-wars",
     "harry-potter",
+    "toy-story",
     "the-lord-of-the-rings",
-    "shrek"
+    "shrek",
+    "incredibles",
+    "finding-nemo",
+    "monsters-inc"
+  ],
+  "categories": [
+    {
+      "id": "classics",
+      "name": "Classics",
+      "packs": ["star-wars", "harry-potter", "the-lord-of-the-rings"]
+    },
+    {
+      "id": "animated",
+      "name": "Animated",
+      "packs": ["toy-story", "shrek", "incredibles", "finding-nemo", "monsters-inc"]
+    }
   ],
   "packs": [
+    {
+      "id": "star-wars",
+      "name": "Star Wars",
+      "movieCount": 6
+    },
+    {
+      "id": "toy-story",
+      "name": "Toy Story",
+      "movieCount": 4
+    },
+    {
+      "id": "incredibles",
+      "name": "The Incredibles",
+      "movieCount": 2
+    },
+    {
+      "id": "finding-nemo",
+      "name": "Finding Nemo",
+      "movieCount": 2
+    },
+    {
+      "id": "monsters-inc",
+      "name": "Monsters Inc",
+      "movieCount": 2
+    },
     {
       "id": "harry-potter",
       "name": "Harry Potter",

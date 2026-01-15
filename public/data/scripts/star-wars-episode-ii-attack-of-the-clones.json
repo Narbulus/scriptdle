@@ -1,0 +1,1390 @@
+{
+  "id": "star-wars-episode-ii-attack-of-the-clones",
+  "title": "Star Wars: Episode II - Attack of the Clones",
+  "year": 2002,
+  "characters": [
+    "AIDE",
+    "ALIEN DRIVER",
+    "ALIEN DRIVER 2",
+    "ANAKIN",
+    "ANAKIN SKYWALKER",
+    "BARFLY",
+    "BOUNTY HUNTER",
+    "CAPTAIN",
+    "CAPTAIN TYPHO",
+    "CLONE COMMANDER",
+    "CLONE TROOPER",
+    "CORDE",
+    "COUNT DOOKU",
+    "DARTH SIDIOUS",
+    "DEXTER JETTSTER",
+    "DORME",
+    "DROID WAITRESS",
+    "GUARD",
+    "JAR JAR BINKS",
+    "KI-ADI-MUNDI",
+    "MACE WINDU",
+    "NUTE GUNRAY",
+    "OBI WAN KENOBI",
+    "OBI-WAN KENOBI",
+    "PADME",
+    "PALPATINE",
+    "PILOT",
+    "YODA",
+    "ZAM WESELL"
+  ],
+  "lines": [
+    {
+      "character": "CAPTAIN",
+      "text": "Senator, we're making our final approach into Coruscant."
+    },
+    {
+      "character": "PADME",
+      "text": "Very good, Lieutenant."
+    },
+    {
+      "character": "PADME",
+      "text": "We made it."
+    },
+    {
+      "character": "PADME",
+      "text": "I guess I was wrong."
+    },
+    {
+      "character": "PADME",
+      "text": "There was no danger at all."
+    },
+    {
+      "character": "PADME",
+      "text": "Corde."
+    },
+    {
+      "character": "CORDE",
+      "text": "Milady, I'm so sorry. I've failed you, Senator."
+    },
+    {
+      "character": "PADME",
+      "text": "No."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Milady, you're still in danger here."
+    },
+    {
+      "character": "PADME",
+      "text": "I shouldn't have come back."
+    },
+    {
+      "character": "PADME",
+      "text": "This vote is very important."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "You did your duty. Corde did hers. Now, come."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Senator Amidala, please."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I don't know how much longer I can hold off the vote, my friends. More and more star systems are joining the separatists."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "If they do break away--"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I will not let this Republic that has stood for a thousand years be split in two. My negotiations will not fail."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "If they do, you must realize there aren't enough Jedi to protect the Republic. We're keepers of the peace, not soldiers."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Master Yoda, do you think it will really come to war?"
+    },
+    {
+      "character": "YODA",
+      "text": "The dark side clouds everything. Impossible to see the future is."
+    },
+    {
+      "character": "AIDE",
+      "text": "The Loyalist Committee has arrived, Your Honour."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Good. Send them in. We will discuss this matter later."
+    },
+    {
+      "character": "YODA",
+      "text": "Senator Amidala, your tragedy on the landing platform– terrible. Seeing you alive brings warm feelings to my heart."
+    },
+    {
+      "character": "PADME",
+      "text": "Do you have any idea who was behind this attack?"
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Our intelligence points to disgruntled spice miners on the moons of Naboo."
+    },
+    {
+      "character": "PADME",
+      "text": "I think that Count Dooku was behind it."
+    },
+    {
+      "character": "KI-ADI-MUNDI",
+      "text": "He is a political idealist, not a murderer."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "You know, milady, Count Dooku was once a Jedi. He couldn't assassinate anyone. It's not in his character."
+    },
+    {
+      "character": "YODA",
+      "text": "But for certain, Senator, in grave danger you are."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Master Jedi, may I suggest the senator be placed under the protection of your graces?"
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Do you really think that's a wise decision under these stressful times?"
+    },
+    {
+      "character": "PADME",
+      "text": "Chancellor, if I may comment, I do not believe--"
+    },
+    {
+      "character": "PALPATINE",
+      "text": "The situation is that serious? No, but I do, Senator. I realize all too well that additional security might be disruptive for you, but perhaps someone you're familiar with. An old friend, like Master Kenobi."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "That's possible. He's just returned from a border dispute on Ansion."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "Do it for me, milady. Please? The thought of losing you is unbearable."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "I will have Obi-Wan report to you immediately, milady."
+    },
+    {
+      "character": "PADME",
+      "text": "Thank you, Master Windu."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "You seem a little on edge."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Not at all."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "I haven't felt you this tense since we fell into that nest of gundarks."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "You fell into that nightmare, Master, and I rescued you, remember?"
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Oh... yes."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "You're sweating. Relax. Take a deep breath."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I haven't seen her in ten years, Master."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Obi? Obi! Mesa so smilen to seein yousa!"
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Good to see you again, Jar Jar."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Senator Padme."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Mesa palos here! Lookie, lookie, Senator. Desa Jedi arriven."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "It's a great pleasure to see you again, milady."
+    },
+    {
+      "character": "PADME",
+      "text": "It has been far too long, Master Kenobi. Ani? My goodness, you've grown."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "So have you. Grown more beautiful, I mean. Well, for a senator, I mean."
+    },
+    {
+      "character": "PADME",
+      "text": "Ani, you'll always be that little boy I knew on Tatooine."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Our presence here will be invisible, milady, I can assure you."
+    },
+    {
+      "character": "CAPTAIN TYPHO",
+      "text": "I'm Captain Typho of Her Majesty's security service."
+    },
+    {
+      "character": "CAPTAIN TYPHO",
+      "text": "Queen Jamillia has been informed of your assignment."
+    },
+    {
+      "character": "CAPTAIN TYPHO",
+      "text": "I am grateful you are here, Master Kenobi."
+    },
+    {
+      "character": "CAPTAIN TYPHO",
+      "text": "The situation is more dangerous than the senator will admit."
+    },
+    {
+      "character": "PADME",
+      "text": "I don't need more security. I need answers. I want to know who's trying to kill me."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "We are here to protect you, Senator, not to start an investigation."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "We will find out who's trying to kill you, Padme. I promise you."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "We will not exceed our mandate, my young Padawan learner."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I meant that in the interest of protecting her, Master, of course."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "We will not go through this exercise again, Anakin, and you will pay attention to my lead."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Why?"
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "What?"
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Why else do you think we were assigned to her if not to find the killer?"
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Protection is a job for local security, not Jedi."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "It's overkill, Master. Investigation is implied in our mandate."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "We will do exactly as the council has instructed."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "And you will learn your place, young one."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Perhaps with merely your presence, the mystery surrounding this threat will be revealed."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Now, if you'll excuse me, I will retire."
+    },
+    {
+      "character": "PADME",
+      "text": "I know I'll feel better having you here."
+    },
+    {
+      "character": "CAPTAIN TYPHO",
+      "text": "I'll have an officer stationed on every floor and I'll be in the control centre downstairs."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Mesa busten wit happiness seein yousa again, Ani."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "She hardly even recognized me,Jar Jar."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I've thought about her every day since we parted and she's forgotten me completely."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Shesa happy. Happier den mesa seein her in a longo time."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "You're focusing on the negative, Anakin. Be mindful of your thoughts."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "She was pleased to see us."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Now, let's check the security."
+    },
+    {
+      "character": "ZAM WESELL",
+      "text": "I hit the ship, but they used a decoy."
+    },
+    {
+      "character": "ZAM WESELL",
+      "text": "We'll have to try something more subtle this time, Zam."
+    },
+    {
+      "character": "BOUNTY HUNTER",
+      "text": "My client is getting impatient."
+    },
+    {
+      "character": "BOUNTY HUNTER",
+      "text": "Take these. Be careful."
+    },
+    {
+      "character": "BOUNTY HUNTER",
+      "text": "They're very poisonous."
+    },
+    {
+      "character": "BOUNTY HUNTER",
+      "text": "And, Zam, there can be no mistakes this time."
+    },
+    {
+      "character": "CAPTAIN TYPHO",
+      "text": "Captain Typho has more than enough men downstairs."
+    },
+    {
+      "character": "CAPTAIN TYPHO",
+      "text": "No assassin would try that way."
+    },
+    {
+      "character": "GUARD",
+      "text": "Any activity up here?"
+    },
+    {
+      "character": "GUARD",
+      "text": "Quiet as a tomb."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I don't like just waiting here for something to happen to her."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "What's going on?"
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "She covered the cameras."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I don't think she liked me watching her."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "What is she thinking?"
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "She programmed R2 to warn us if there is an intruder."
+    },
+    {
+      "character": "ZAM WESELL",
+      "text": "There are many other ways to kill a senator."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I know, but we also want to catch this assassin, don't we, Master?"
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "You're using her as bait."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "It was her idea."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Don't worry."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "No harm will come to her."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I can sense everything going on in that room."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Trust me."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "It's too risky."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Besides, your senses aren't that attuned, my young apprentice."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "And yours are?"
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Possibly."
+    },
+    {
+      "character": "PADME",
+      "text": "You look tired."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I don't sleep well any more."
+    },
+    {
+      "character": "PADME",
+      "text": "Because of your mother?"
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I don't know why I keep dreaming about her."
+    },
+    {
+      "character": "PADME",
+      "text": "Dreams pass in time."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I'd much rather dream about Padme."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Just being around her again is intoxicating."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Be mindful of your thoughts, Anakin. They betray you."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "You've made a commitment to the Jedi order, a commitment not easily broken."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "And don't forget, she's a politician."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "They're not to be trusted."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "She's not like the others in the senate, Master."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "It is my experience that senators focus only on pleasing those who fund their campaigns and they're in no means scared of forgetting the niceties of democracy in order to get those funds."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Not another lecture."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "At least not on the economics of politics."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "And besides, you're generalizing."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "The chancellor doesn't appear to be corrupt."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Palpatine is a politician."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "I have observed that he is very clever in following the passions and the prejudices of the senators."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I think he's a good man--"
+    },
+    {
+      "character": "PADME",
+      "text": "I sense it too."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Stay here!"
+    },
+    {
+      "character": "PADME",
+      "text": "Are you all right, milady?"
+    },
+    {
+      "character": "ALIEN DRIVER",
+      "text": "What the--"
+    },
+    {
+      "character": "ALIEN DRIVER 2",
+      "text": "Jedi poo doo!"
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "What took you so long?"
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Oh, you know, Master. I couldn't find a speeder I liked... There he is. With the open cockpit and the right speed capabilities."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "If you spent as long practising your sabre techniques as you do your wit… you would rival Master Yoda as a swordsman."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I thought I already did."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "Only in your mind, my very young apprentice."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "Pull up, Anakin. Pull up!"
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "You know I don't like it when you do that."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Sorry, Master. I forgot you don't like flying."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "I don't mind flying, but what you're doing is suicide!"
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "Anakin! How many times have I told you stay away from power couplings!"
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "That was good!"
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "Where are you going?"
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "He went that way."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Master, if we keep this chase going any longer, that creep is gonna end up deep-fried, and, personally, I'd like to find out who he is and who he's working for."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "This is a short cut... I think."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "Well, you've lost him."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I'm deeply sorry, Master."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "That was some short cut, Anakin. He went completely the other way. Once again you've proved--"
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "If you'll excuse me."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "I hate it when he does that."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "Anakin!"
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "She went into the club, Master."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "Patience. Use the Force. Think."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Sorry, Master."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "He went in there to hide, not to run."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Yes, Master."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "Next time, try not to lose it."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Yes, Master."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "This weapon is your life."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I try, Master."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "Why do I get the feeling you're going to be the death of me?"
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Don't say that, Master. You're the closest thing I have to a father."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "Then why don't you listen to me?"
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I am trying."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "Can you see him?"
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I think he is a she, and I think she is a changeling."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "In that case, be extra careful. Go and find her."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Where are you going, Master?"
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "For a drink."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "Thank you."
+    },
+    {
+      "character": "BARFLY",
+      "text": "You wanna buy some death sticks?"
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "You don't want to sell me death sticks."
+    },
+    {
+      "character": "BARFLY",
+      "text": "I don't want to sell you death sticks."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "You want to go home and rethink your life."
+    },
+    {
+      "character": "BARFLY",
+      "text": "I want to go home and rethink my life."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "Easy."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "Jedi business."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "Go back to your drinks."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "Do you know who it was you were trying to kill?"
+    },
+    {
+      "character": "ZAM WESELL",
+      "text": "It was a senator from Naboo."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "And who hired you?"
+    },
+    {
+      "character": "ZAM WESELL",
+      "text": "It was just a job."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Who hired you? Tell us. Tell us now!"
+    },
+    {
+      "character": "ZAM WESELL",
+      "text": "It was a bounty hunter called--"
+    },
+    {
+      "character": "ZAM WESELL",
+      "text": "Wee shahnit... sleemo."
+    },
+    {
+      "character": "OBI WAN KENOBI",
+      "text": "Toxic dart."
+    },
+    {
+      "character": "YODA",
+      "text": "Track down this bounty hunter you must, Obi-Wan."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Most importantly, find out who he's working for."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "What about Senator Amidala? She will still need protecting."
+    },
+    {
+      "character": "YODA",
+      "text": "Handle that your Padawan will."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Anakin, escort the senator back to her home planet of Naboo. She'll be safer there. And don't use registered transport. Travel as refugees."
+    },
+    {
+      "character": "ANAKIN",
+      "text": "As the leader of the opposition, it will be very difficult to get Senator Amidala to leave the capital."
+    },
+    {
+      "character": "YODA",
+      "text": "Until caught this killer is, our judgement she must respect."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Anakin, go to the senate and ask Chancellor Palpatine to speak with her about this matter."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I will talk with her. Senator Amidala will not refuse an executive order. I know her well enough to assure you of that."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Thank you, Your Excellency."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "And so, they've finally given you an assignment. Your patience has paid off."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Your guidance more than my patience."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "You don't need guidance, Anakin. In time, you will learn to trust your feelings. Then you will be invincible. I have said it many times: You are the most gifted Jedi I have ever met."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Thank you, Your Excellency."
+    },
+    {
+      "character": "PALPATINE",
+      "text": "I see you becoming the greatest of all the Jedi, Anakin. Even more powerful than Master Yoda."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "I am concerned for my Padawan. He is not ready to be given this assignment on his own yet."
+    },
+    {
+      "character": "YODA",
+      "text": "The council is confident in its decision, Obi-Wan."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "The boy has exceptional skills."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "But he still has much to learn, Master. His abilities have made him, well, arrogant."
+    },
+    {
+      "character": "YODA",
+      "text": "Yes. A flaw more and more common among Jedi. Too sure of themselves they are. Even the older, more experienced ones."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Remember, Obi-Wan, if the prophecy is true, your apprentice is the only one who can bring the Force back into balance."
+    },
+    {
+      "character": "PADME",
+      "text": "I'm taking an extended leave of absence. It will be your responsibility to take my place in the senate. Representative Binks, I know I can count on you."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Mesa honoured to be taking on dissa heavy burden. Mesa accept this with muy, muy humility and--"
+    },
+    {
+      "character": "PADME",
+      "text": "Jar Jar, I don't wish to hold you up. I'm sure you have a great deal to do."
+    },
+    {
+      "character": "JAR JAR BINKS",
+      "text": "Of course. Milady."
+    },
+    {
+      "character": "PADME",
+      "text": "I do not like this idea of hiding."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Don't worry. Now that the council has ordered an investigation it won't take Master Obi-Wan long to find this bounty hunter."
+    },
+    {
+      "character": "PADME",
+      "text": "I haven't worked for a year to defeat the Military Creation Act to not be here when its fate is decided."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Sometimes we must let go of our pride and do what is requested of us."
+    },
+    {
+      "character": "PADME",
+      "text": "Anakin, you've grown up."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Master Obi-Wan manages not to see it. Don't get me wrong. Obi-Wan is a great mentor. As wise as Master Yoda and as powerful as Master Windu. I am truly thankful to be his apprentice. In some ways– a lot of ways– I'm really ahead of him. I'm ready for the trials, but he feels that I'm too unpredictable. He won't let me move on."
+    },
+    {
+      "character": "PADME",
+      "text": "That must be frustrating."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "It's worse. He's overly critical. He never listens. He doesn't understand. It's not fair!"
+    },
+    {
+      "character": "PADME",
+      "text": "All mentors have a way of seeing more of our faults than we would like. It's the only way we grow."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I know."
+    },
+    {
+      "character": "PADME",
+      "text": "Anakin, don't try to grow up too fast."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "But I am grown up. You said it yourself."
+    },
+    {
+      "character": "PADME",
+      "text": "Please don't look at me like that."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Why not?"
+    },
+    {
+      "character": "PADME",
+      "text": "It makes me feel uncomfortable."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Sorry, milady."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Be safe, milady."
+    },
+    {
+      "character": "PADME",
+      "text": "Thank you, Captain."
+    },
+    {
+      "character": "PADME",
+      "text": "Take good care of Dorme."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "The threat's on you two now."
+    },
+    {
+      "character": "GUARD",
+      "text": "He'll be safe with me."
+    },
+    {
+      "character": "DORME",
+      "text": "You'll be fine."
+    },
+    {
+      "character": "DORME",
+      "text": "It's not me, milady."
+    },
+    {
+      "character": "PADME",
+      "text": "I worry about you."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "What if they realize you've left the capital?"
+    },
+    {
+      "character": "PADME",
+      "text": "Well, then my Jedi protector will have to prove how good he is."
+    },
+    {
+      "character": "PADME",
+      "text": "Anakin, don't do anything without first consulting either myself or the council."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Yes, Master."
+    },
+    {
+      "character": "PADME",
+      "text": "I'll get to the bottom of this plot quickly, milady."
+    },
+    {
+      "character": "PADME",
+      "text": "You'll be back here in no time."
+    },
+    {
+      "character": "PADME",
+      "text": "I'll be most grateful for your speed, Master Jedi."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "It's time to go."
+    },
+    {
+      "character": "PADME",
+      "text": "I know."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Anakin, may the Force be with you."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "May the Force be with you, Master."
+    },
+    {
+      "character": "PADME",
+      "text": "Suddenly I'm afraid."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "This is my first assignment on my own. I am too. Don't worry. We have R2 with us."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "I do hope he doesn't try anything foolish."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "I'd be more concerned about her doing something than him."
+    },
+    {
+      "character": "DROID WAITRESS",
+      "text": "Someone to see ya, honey!"
+    },
+    {
+      "character": "DEXTER JETTSTER",
+      "text": "Jedi, by the looks of him."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Hello, Dex."
+    },
+    {
+      "character": "DEXTER JETTSTER",
+      "text": "Take a seat. I'll be right with ya."
+    },
+    {
+      "character": "DEXTER JETTSTER",
+      "text": "You wanna cup o' jawa juice?"
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Oh, yes. Thank you."
+    },
+    {
+      "character": "DEXTER JETTSTER",
+      "text": "Old buddy! So, my friend, what can I do for ya?"
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "You can tell me what this is."
+    },
+    {
+      "character": "DEXTER JETTSTER",
+      "text": "Well, whattaya know! I ain't seen one of these since I was prospectin' on Subterrel, beyond the outer rim."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Can you tell me where it came from?"
+    },
+    {
+      "character": "DEXTER JETTSTER",
+      "text": "This baby belongs to them cloners."
+    },
+    {
+      "character": "DEXTER JETTSTER",
+      "text": "What you got here is a Kamino sabredart."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "I wonder why it didn't show up in the analysis archives."
+    },
+    {
+      "character": "DEXTER JETTSTER",
+      "text": "It's these funny little cuts on the side that give it away."
+    },
+    {
+      "character": "DEXTER JETTSTER",
+      "text": "Those analysis droids only focus on symbols."
+    },
+    {
+      "character": "DEXTER JETTSTER",
+      "text": "I should think that you Jedi would have more respect for the difference between knowledge and wisd"
+    },
+    {
+      "character": "NUTE GUNRAY",
+      "text": "This is not looking good at all!"
+    },
+    {
+      "character": "NUTE GUNRAY",
+      "text": "We must get the starships back into space."
+    },
+    {
+      "character": "NUTE GUNRAY",
+      "text": "We have to order a retreat."
+    },
+    {
+      "character": "COUNT DOOKU",
+      "text": "My master will never allow the Republic to get away with this treachery."
+    },
+    {
+      "character": "NUTE GUNRAY",
+      "text": "I'm sending my warriors to hide in the catacombs."
+    },
+    {
+      "character": "NUTE GUNRAY",
+      "text": "The Jedi must not find our designs for the ultimate weapon."
+    },
+    {
+      "character": "NUTE GUNRAY",
+      "text": "If they find out what we are planning to build, we're doomed."
+    },
+    {
+      "character": "NUTE GUNRAY",
+      "text": "I will take the designs with me to Coruscant."
+    },
+    {
+      "character": "NUTE GUNRAY",
+      "text": "They will be much safer there with my master."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Concentrate all your fire on the nearest starship."
+    },
+    {
+      "character": "PILOT",
+      "text": "Yes, sir."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Move all quadrants to sector 51 5."
+    },
+    {
+      "character": "PILOT",
+      "text": "Look over there!"
+    },
+    {
+      "character": "PILOT",
+      "text": "It's Dooku! Shoot him down!"
+    },
+    {
+      "character": "PILOT",
+      "text": "We're out of rockets, sir."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Follow him!"
+    },
+    {
+      "character": "PILOT",
+      "text": "We're gonna need some help!"
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "There isn't time!"
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Anakin and I can handle this!"
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Put the ship down!"
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Don't let your personal feelings get in the way!"
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Follow that speeder!"
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Lower the ship!"
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I can't take Dooku alone!"
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I need you! If we catch him, we can end this war right now!"
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "We have a job to do!"
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I don't care! Put the ship down!"
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "You will be expelled from the Jedi order!"
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I can't leave her!"
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Come to your senses!"
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "What do you think Padme would do were she in your position?"
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "She would do her duty."
+    },
+    {
+      "character": "CLONE COMMANDER",
+      "text": "The droid army is in full retreat."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Well done, Commander."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Bring me a ship."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "You're gonna pay for all the Jedi that you killed today, Dooku."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "We'll take him together."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I'm taking him now!"
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "No, Anakin! No!"
+    },
+    {
+      "character": "COUNT DOOKU",
+      "text": "As you see, my Jedi powers are far beyond yours. Now... back down."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "I don't think so."
+    },
+    {
+      "character": "COUNT DOOKU",
+      "text": "Master Kenobi, you disappoint me. Yoda holds you in such high esteem. Surely you can do better."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "Are you all right?"
+    },
+    {
+      "character": "PADME",
+      "text": "Uh-huh."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "We'd better get back to the forward command centre."
+    },
+    {
+      "character": "PADME",
+      "text": "No. No. Gather what troops you can. We've got to get to that hangar. Get a transport. Hurry!"
+    },
+    {
+      "character": "CLONE TROOPER",
+      "text": "Right away."
+    },
+    {
+      "character": "COUNT DOOKU",
+      "text": "Brave of you, boy. But I would have thought you had learned your lesson."
+    },
+    {
+      "character": "ANAKIN SKYWALKER",
+      "text": "I am a slow learner."
+    },
+    {
+      "character": "COUNT DOOKU",
+      "text": "Master Yoda."
+    },
+    {
+      "character": "YODA",
+      "text": "Count Dooku."
+    },
+    {
+      "character": "COUNT DOOKU",
+      "text": "You have interfered with our affairs for the last time."
+    },
+    {
+      "character": "YODA",
+      "text": "Powerful you have become, Dooku. The dark side I sense in you."
+    },
+    {
+      "character": "COUNT DOOKU",
+      "text": "I've become more powerful than any Jedi. Even you."
+    },
+    {
+      "character": "YODA",
+      "text": "Much to learn you still have."
+    },
+    {
+      "character": "COUNT DOOKU",
+      "text": "It is obvious that this contest cannot be decided by our knowledge of the Force, but by our skills with a lightsaber."
+    },
+    {
+      "character": "YODA",
+      "text": "Fought well you have, my old Padawan."
+    },
+    {
+      "character": "COUNT DOOKU",
+      "text": "This is just the beginning."
+    },
+    {
+      "character": "COUNT DOOKU",
+      "text": "The Force is with us, Master Sidious."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "Welcome home, Lord Tyranus. You have done well."
+    },
+    {
+      "character": "COUNT DOOKU",
+      "text": "I have good news for you, my lord. The war has begun."
+    },
+    {
+      "character": "DARTH SIDIOUS",
+      "text": "Excellent. Everything is going as planned."
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Do you believe what Count Dooku said about Sidious controlling the senate? It doesn't feel right."
+    },
+    {
+      "character": "YODA",
+      "text": "Joined the dark side Dooku has. Lies, deceit, creating mistrust are his ways now."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Nevertheless, I feel we should keep a closer eye on the senate."
+    },
+    {
+      "character": "YODA",
+      "text": "I agree."
+    },
+    {
+      "character": "MACE WINDU",
+      "text": "Where is your apprentice?"
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "On his way to Naboo, escorting Senator Amidala home. I have to admit that without the clones, it would not have been a victory."
+    },
+    {
+      "character": "YODA",
+      "text": "Victory? Victory, you say? Master Obi-Wan, not victory. The shroud of the dark side has fallen. Begun the Clone War has."
+    }
+  ]
+}

@@ -20,6 +20,14 @@
     "btnText": "white",
     "cardGradientStart": "#2a0000",
     "cardGradientEnd": "#740001",
-    "cardBorder": "#d4af37"
+    "cardBorder": "#d4af37",
+    "cardText": "#ffd54f"
+  },
+  "tierMessages": {
+    "perfect": "Outstanding! First try!",
+    "good": "Excellent work, wizard!",
+    "average": "Exceeds Expectations",
+    "barely": "Acceptable",
+    "failure": "Troll..."
   }
 }

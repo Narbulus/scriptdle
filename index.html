@@ -5,6 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scriptle</title>
   <link rel="icon" type="image/png" href="/favicon.png">
+
+  <!-- Load theme data (synchronous, no module) -->
+  <script src="/themes.js"></script>
+
+  <!-- Apply theme immediately based on URL -->
+  <script>
+    (function() {
+      // Parse URL to get pack ID
+      const pathMatch = window.location.pathname.match(/^\/play\/([^\/]+)/);
+      if (pathMatch && window.SCRIPTLE_THEMES) {
+        const packId = pathMatch[1];
+        const theme = window.SCRIPTLE_THEMES[packId];
+
+        if (theme) {
+          // Apply theme CSS variables immediately
+          const root = document.documentElement;
+          root.style.setProperty('--primary-color', theme.primary);
+          root.style.setProperty('--bg-color', theme.bgColor);
+          root.style.setProperty('--container-bg', theme.containerBg || theme.bgColor);
+          root.style.setProperty('--accent-color', theme.accentColor || theme.primary);
+          root.style.setProperty('--btn-text', theme.btnText);
+        }
+      }
+    })();
+  </script>
+
   <link rel="stylesheet" href="/src/styles/main.css">
 </head>
 <body>

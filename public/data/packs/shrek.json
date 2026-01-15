@@ -11,6 +11,14 @@
     "btnText": "white",
     "cardGradientStart": "#5d4037",
     "cardGradientEnd": "#6d4c41",
-    "cardBorder": "#7cb342"
+    "cardBorder": "#7cb342",
+    "cardText": "#c5e1a5"
+  },
+  "tierMessages": {
+    "perfect": "Ogres have layers!",
+    "good": "That'll do, Donkey!",
+    "average": "Not bad for an ogre",
+    "barely": "Better out than in",
+    "failure": "Get out of my swamp!"
   }
 }

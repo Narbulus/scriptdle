@@ -1,0 +1,3512 @@
+{
+  "id": "star-wars-episode-vii-the-force-awakens",
+  "title": "Star Wars: Episode VII - The Force Awakens",
+  "year": 2015,
+  "characters": [
+    "ADMIRAL ACKBAR",
+    "ADMIRAL STATURA",
+    "BALA-TIK",
+    "BAZINE",
+    "BRANCE",
+    "C-3PO",
+    "CAPTAIN PHASMA",
+    "COLONEL DATOO",
+    "DR. KALONIA",
+    "ELLO ASTY",
+    "FINN",
+    "FIRST ORDER COLONEL",
+    "FIRST ORDER OFFICER",
+    "FN-2187",
+    "GA-97",
+    "GENERAL HUX",
+    "GENERAL STATURA",
+    "HAN",
+    "JESS",
+    "KAYDEL KO CONNIX",
+    "KYLO REN",
+    "LEIA",
+    "LIEUTENANT BASTIAN",
+    "LIEUTENANT MITAKA",
+    "LOR SAN TEKKA",
+    "MAJOR EMATT",
+    "MAZ",
+    "MEDIC",
+    "NIV LEK",
+    "OFFICER",
+    "OFFICER TABALA ZO",
+    "POE",
+    "RAZOO QIN-FEE",
+    "REAR ADMIRAL GULCH",
+    "REY",
+    "REY AND FINN",
+    "SENIOR TROOPER",
+    "SNAP",
+    "SNOKE",
+    "STAR DESTROYER TECHNICIAN",
+    "STARKILLER TECHNICIAN",
+    "STORMTROOPER",
+    "STORMTROOPER #1",
+    "STORMTROOPER #4",
+    "STORMTROOPER #5",
+    "STORMTROOPER FN-9330",
+    "TASU LEECH",
+    "TECHNICIAN #1",
+    "TROOPER GUARD #2",
+    "UNKAR",
+    "UNKAR PLUTT",
+    "VOBER DAND",
+    "YOLO ZIFF",
+    "YOUNG GIRL",
+    "YOUNG TECHNICIAN"
+  ],
+  "lines": [
+    {
+      "character": "LOR SAN TEKKA",
+      "text": "This will begin to make things right. I've traveled too far, and seen too much, to ignore the despair in the galaxy. Without the Jedi, there can be no balance in the Force."
+    },
+    {
+      "character": "POE",
+      "text": "Well, because of you, now we have a chance. The General's been after this for a long time."
+    },
+    {
+      "character": "LOR SAN TEKKA",
+      "text": "\"The General.\" To me, she's royalty. Well, she certainly is that."
+    },
+    {
+      "character": "POE",
+      "text": "We've got company."
+    },
+    {
+      "character": "POE",
+      "text": "You have to hide."
+    },
+    {
+      "character": "LOR SAN TEKKA",
+      "text": "You have to leave. Go!"
+    },
+    {
+      "character": "POE",
+      "text": "Come on, BB-8! Hurry!"
+    },
+    {
+      "character": "POE",
+      "text": "I see them!"
+    },
+    {
+      "character": "POE",
+      "text": "You take this. It's safer with you than it is with me. You get as far away from here as you can. Do you hear me? (BB-8 beeps, hesitates) I'll come back for you! It will be alright."
+    },
+    {
+      "character": "SENIOR TROOPER",
+      "text": "Stay here."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Look how old you've become."
+    },
+    {
+      "character": "LOR SAN TEKKA",
+      "text": "Something far worse has happened to you."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "You know what I've come for."
+    },
+    {
+      "character": "LOR SAN TEKKA",
+      "text": "I know where you come from. Before you called yourself Kylo Ren."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "The map to Skywalker. We know you've found it, and now you're going to give it to the First Order."
+    },
+    {
+      "character": "LOR SAN TEKKA",
+      "text": "The First Order rose from the dark side, you did not."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "I'll show you the dark side."
+    },
+    {
+      "character": "LOR SAN TEKKA",
+      "text": "You may try, but you cannot deny the truth that is your family."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "You're so right."
+    },
+    {
+      "character": "POE",
+      "text": "So, who talks first? You talk first?"
+    },
+    {
+      "character": "KYLO REN",
+      "text": "The old man gave it to you."
+    },
+    {
+      "character": "POE",
+      "text": "It's just very hard to understand you with all the..."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Search him."
+    },
+    {
+      "character": "POE",
+      "text": "...Apparatus."
+    },
+    {
+      "character": "STORMTROOPER #1",
+      "text": "Nothing, sir."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Put him on board."
+    },
+    {
+      "character": "CAPTAIN PHASMA",
+      "text": "Sir, the villagers."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Kill them all."
+    },
+    {
+      "character": "CAPTAIN PHASMA",
+      "text": "On my command!"
+    },
+    {
+      "character": "CAPTAIN PHASMA",
+      "text": "Fire!"
+    },
+    {
+      "character": "POE",
+      "text": "All right. All right!"
+    },
+    {
+      "character": "CAPTAIN PHASMA",
+      "text": "FN-2187. Submit your blaster for inspection."
+    },
+    {
+      "character": "FN-2187",
+      "text": "Yes, Captain."
+    },
+    {
+      "character": "CAPTAIN PHASMA",
+      "text": "And who gave you permission to remove that helmet?"
+    },
+    {
+      "character": "FN-2187",
+      "text": "I'm sorry, Captain."
+    },
+    {
+      "character": "CAPTAIN PHASMA",
+      "text": "Report to my division at once."
+    },
+    {
+      "character": "UNKAR",
+      "text": "What you've brought me today is worth, hmmm, one quarter portion."
+    },
+    {
+      "character": "REY",
+      "text": "Tal'ama parqual!"
+    },
+    {
+      "character": "REY",
+      "text": "Parqual zatana!"
+    },
+    {
+      "character": "REY",
+      "text": "Noma."
+    },
+    {
+      "character": "REY",
+      "text": "Shhhh."
+    },
+    {
+      "character": "REY",
+      "text": "That's just Teedo. Wants you for parts. He has no respect for anyone. Your antenna's bent. (considers BB-8 for the first time, straightening the antenna) Where do you come from? (BB-8 beeps) Classified. Really? Me too. Big secret. (points to horizon) Niima Outpost is that way, stay off Kelvin Ridge. Keep away from the Sinking Fields in the north, you'll drown in the san"
+    },
+    {
+      "character": "REY",
+      "text": "Shhhh."
+    },
+    {
+      "character": "REY",
+      "text": "That's just Teedo. Wants you for parts. He has no respect for anyone. Your antenna's bent. (considers BB-8 for the first time, straightening the antenna) Where do you come from?"
+    },
+    {
+      "character": "REY",
+      "text": "Classified. Really? Me too. Big secret. (points to horizon) Niima Outpost is that way, stay off Kelvin Ridge. Keep away from the Sinking Fields in the north, you'll drown in the sand. (stands, heads off)"
+    },
+    {
+      "character": "REY",
+      "text": "Don't follow me. Town is that way."
+    },
+    {
+      "character": "REY",
+      "text": "No!"
+    },
+    {
+      "character": "REY",
+      "text": "In the morning, you go."
+    },
+    {
+      "character": "REY",
+      "text": "You're welcome."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "I had no idea we had the best pilot in the Resistance on board. Comfortable?"
+    },
+    {
+      "character": "POE",
+      "text": "Not really."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "I'm impressed. No one has been able to get out of you what you did with the map."
+    },
+    {
+      "character": "POE",
+      "text": "Might wanna rethink your technique."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Where is it?"
+    },
+    {
+      "character": "POE",
+      "text": "The Resistance will not be intimidated by you."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Where is it?"
+    },
+    {
+      "character": "KYLO REN",
+      "text": "It's in a droid. A BB unit."
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "Well then. If it's on Jakku, we'll soon have it."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "I leave that to you."
+    },
+    {
+      "character": "REY",
+      "text": "Don't give up. He still might show up. Whoever it is you're waiting for. Classified. I know all about waiting."
+    },
+    {
+      "character": "REY",
+      "text": "For my family. They'll be back. One day. Come on."
+    },
+    {
+      "character": "UNKAR",
+      "text": "These five pieces are worth. Let me see here. One half portion."
+    },
+    {
+      "character": "REY",
+      "text": "Last week they were a half portion each."
+    },
+    {
+      "character": "UNKAR",
+      "text": "What about the droid?"
+    },
+    {
+      "character": "REY",
+      "text": "What about him?"
+    },
+    {
+      "character": "UNKAR",
+      "text": "I'll pay for him."
+    },
+    {
+      "character": "UNKAR",
+      "text": "Sixty portions."
+    },
+    {
+      "character": "REY",
+      "text": "Actually, the droid's not for sale. (to BB-8) Come on."
+    },
+    {
+      "character": "UNKAR",
+      "text": "Follow the girl and get that droid."
+    },
+    {
+      "character": "STORMTROOPER",
+      "text": "Ren wants the prisoner."
+    },
+    {
+      "character": "STORMTROOPER",
+      "text": "Turn here."
+    },
+    {
+      "character": "STORMTROOPER",
+      "text": "Listen carefully: you do exactly as I say, I can get you out of here."
+    },
+    {
+      "character": "POE",
+      "text": "If, what...?"
+    },
+    {
+      "character": "FN-2187",
+      "text": "This is a rescue, I'm helping you escape. Can you fly a Tie fighter?"
+    },
+    {
+      "character": "POE",
+      "text": "You with the Resistance...?!"
+    },
+    {
+      "character": "FN-2187",
+      "text": "What? (that's crazy) No no no! I'm breaking you out. Can you fly a Tie fighter?"
+    },
+    {
+      "character": "POE",
+      "text": "I can fly anything. Why, why are you helping me?"
+    },
+    {
+      "character": "FN-2187",
+      "text": "Because it's the right thing to do."
+    },
+    {
+      "character": "POE",
+      "text": "You need a pilot."
+    },
+    {
+      "character": "FN-2187",
+      "text": "I need a pilot."
+    },
+    {
+      "character": "POE",
+      "text": "We're gonna do this."
+    },
+    {
+      "character": "FN-2187",
+      "text": "Yeah?"
+    },
+    {
+      "character": "FN-2187",
+      "text": "Okay, stay calm, stay calm."
+    },
+    {
+      "character": "POE",
+      "text": "I am calm."
+    },
+    {
+      "character": "FN-2187",
+      "text": "I'm talking to myself. (beat) Not yet. Okay, go. This way."
+    },
+    {
+      "character": "POE",
+      "text": "I always wanted to fly one of these things. Can ya shoot?"
+    },
+    {
+      "character": "FN-2187",
+      "text": "Blasters, I can!"
+    },
+    {
+      "character": "POE",
+      "text": "Okay, same principal! Use the toggle on the left to switch between missiles, cannons, and mag pulse, use the site on the right to aim, triggers to fire!"
+    },
+    {
+      "character": "FN-2187",
+      "text": "This is very complicated."
+    },
+    {
+      "character": "POE",
+      "text": "I can fix this."
+    },
+    {
+      "character": "STAR DESTROYER TECHNICIAN",
+      "text": "We have an unsanctioned departure from bay two."
+    },
+    {
+      "character": "FIRST ORDER COLONEL",
+      "text": "Alert General Hux and stop that fighter."
+    },
+    {
+      "character": "POE",
+      "text": "I got it!"
+    },
+    {
+      "character": "POE",
+      "text": "Woooahhh! This thing really moves. All right, we gotta take out as many cannons as we can or we're not gonna get very far!"
+    },
+    {
+      "character": "FN-2187",
+      "text": "All right!"
+    },
+    {
+      "character": "POE",
+      "text": "I'm gonna get us in position, just stay sharp!"
+    },
+    {
+      "character": "POE",
+      "text": "Up ahead! Up ahead! You see it? I've got us dead centered. It's a clean shot."
+    },
+    {
+      "character": "FN-2187",
+      "text": "Okay, got it."
+    },
+    {
+      "character": "FN-2187",
+      "text": "Yes! You see that?! Did you see that?"
+    },
+    {
+      "character": "POE",
+      "text": "I saw it! Hey, what's your name?"
+    },
+    {
+      "character": "FN-2187",
+      "text": "FN-2187!"
+    },
+    {
+      "character": "POE",
+      "text": "FN-whaa?"
+    },
+    {
+      "character": "FN-2187",
+      "text": "That's the only name they ever gave me!"
+    },
+    {
+      "character": "POE",
+      "text": "Well I ain't using it! FN, huh? Finn. I'm gonna call you Finn! That all right?"
+    },
+    {
+      "character": "FINN",
+      "text": "\"Finn.\" Yeah, \"Finn\", I like that! I like that!"
+    },
+    {
+      "character": "POE",
+      "text": "I'm Poe. Poe Dameron."
+    },
+    {
+      "character": "FINN",
+      "text": "Good to meet you, Poe!"
+    },
+    {
+      "character": "POE",
+      "text": "Good to meet you too, Finn!"
+    },
+    {
+      "character": "LIEUTENANT MITAKA",
+      "text": "Sir, they've taken out our turbo lasers..."
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "Use the ventral cannons."
+    },
+    {
+      "character": "LIEUTENANT MITAKA",
+      "text": "Yes, sir. Bringing them online..."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "General Hux. Is it the Resistance pilot?"
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "Yes, and he had help. (vexed) From one of our own."
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "We're checking the registers now to identify which Stormtrooper it was."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "...The one from the village. FN-2187."
+    },
+    {
+      "character": "LIEUTENANT MITAKA",
+      "text": "Sir. Ventral cannons hot."
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "Fire."
+    },
+    {
+      "character": "POE",
+      "text": "One's coming towards you. My right, your left. Do you see it?"
+    },
+    {
+      "character": "FINN",
+      "text": "Hold on! I see it!"
+    },
+    {
+      "character": "POE",
+      "text": "Nice shot."
+    },
+    {
+      "character": "FINN",
+      "text": "Where are you going?"
+    },
+    {
+      "character": "POE",
+      "text": "We're going back to Jakku. That's where."
+    },
+    {
+      "character": "FINN",
+      "text": "No no no! We can't go back to Jakku! We need to get outta this system!"
+    },
+    {
+      "character": "POE",
+      "text": "I got to get to my droid before the First Order does!"
+    },
+    {
+      "character": "FINN",
+      "text": "What, a droid?!"
+    },
+    {
+      "character": "POE",
+      "text": "That's right. He's a BB unit! Orange and white: one of a kind."
+    },
+    {
+      "character": "FINN",
+      "text": "I don't care what color he is! No droid can be that important!"
+    },
+    {
+      "character": "POE",
+      "text": "This one is, pal."
+    },
+    {
+      "character": "FINN",
+      "text": "We need to get as far away from the First Order as we can! We go back to Jakku, we die!"
+    },
+    {
+      "character": "POE",
+      "text": "That droid's got a map that leads straight to Luke Skywalker!"
+    },
+    {
+      "character": "FINN",
+      "text": "Oh, you gotta be kidding me!!! I..."
+    },
+    {
+      "character": "CAPTAIN PHASMA",
+      "text": "FN-2187 reported to my division, was evaluated and sent to Reconditioning."
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "No prior signs of non-conformity?"
+    },
+    {
+      "character": "CAPTAIN PHASMA",
+      "text": "This was his first offense."
+    },
+    {
+      "character": "TECHNICIAN #1",
+      "text": "General. They've been hit."
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "Destroyed?"
+    },
+    {
+      "character": "TECHNICIAN #1",
+      "text": "Disabled. They were headed back to Jakku, the fighter's projected to crash in the Goazon badlands."
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "They were going back for the droid...send a squad to the wreckage."
+    },
+    {
+      "character": "FINN",
+      "text": "Poe! Poe!"
+    },
+    {
+      "character": "FINN",
+      "text": "Poe!!! Poe!"
+    },
+    {
+      "character": "FINN",
+      "text": "Poe!!! Poe!!!"
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "Supreme Leader Snoke was explicit. Capture the droid if we can, but destroy it if we must."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "How capable are your soldiers, General?"
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "I won't have you question my methods."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "They're obviously skilled at committing high treason. Perhaps Leader Snoke should consider using a clone army."
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "My men are exceptionally trained, programmed from birth..."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Then they should have no problem retrieving the droid. Unharmed."
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "Careful, Ren. That your \"personal interests\" not interfere with orders from Leader Snoke."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "I want that map. For your sake, I suggest you get it."
+    },
+    {
+      "character": "FINN",
+      "text": "Water... water... water..."
+    },
+    {
+      "character": "FINN",
+      "text": "Awgh, Gah!"
+    },
+    {
+      "character": "REY",
+      "text": "Who? Him?"
+    },
+    {
+      "character": "REY",
+      "text": "What's your hurry, thief?"
+    },
+    {
+      "character": "FINN",
+      "text": "What...?! Thief?"
+    },
+    {
+      "character": "FINN",
+      "text": "Ow! Hey! What?!"
+    },
+    {
+      "character": "REY",
+      "text": "The jacket! This droid says you stole it!"
+    },
+    {
+      "character": "FINN",
+      "text": "I've had a pretty messed up day, alright?! So, I'd appreciate it you stop accusing me, ow!!! (BB-8 has zapped him again) Stop it!"
+    },
+    {
+      "character": "REY",
+      "text": "Where'd you get it? It belongs to his master."
+    },
+    {
+      "character": "FINN",
+      "text": "It belonged to Poe Dameron. That was his name, right?"
+    },
+    {
+      "character": "FINN",
+      "text": "He was captured by the First Order! I helped him escape but our ship crashed. (reliving it) Poe didn't make it. (sees BB-8 is sad, rolls off) Look, I tried to help him. I'm sorry..."
+    },
+    {
+      "character": "REY",
+      "text": "So you're with the Resistance?"
+    },
+    {
+      "character": "FINN",
+      "text": "It belonged to Poe Dameron. That was his name, right?"
+    },
+    {
+      "character": "FINN",
+      "text": "He was captured by the First Order! I helped him escape but our ship crashed. (reliving it) Poe didn't make it. (sees BB-8 is sad, rolls off) Look, I tried to help him. I'm sorry..."
+    },
+    {
+      "character": "REY",
+      "text": "So you're with the Resistance?"
+    },
+    {
+      "character": "FINN",
+      "text": "Obviously. Yes. I am. I'm with the Resistance, yeah. (whispers) I'm with the Resistance."
+    },
+    {
+      "character": "REY",
+      "text": "I've never met a Resistance fighter before."
+    },
+    {
+      "character": "FINN",
+      "text": "Well, this is what we look like. Some of us. Others look different."
+    },
+    {
+      "character": "REY",
+      "text": "BB-8 says he's on a secret mission, he has to get back to your base."
+    },
+    {
+      "character": "FINN",
+      "text": "Apparently, he's carrying a map that leads to Luke Skywalker, and everyone's after it."
+    },
+    {
+      "character": "REY",
+      "text": "Luke Skywalker? I thought he was a myth."
+    },
+    {
+      "character": "REY",
+      "text": "What is it?"
+    },
+    {
+      "character": "REY",
+      "text": "What are you doing?!"
+    },
+    {
+      "character": "FINN",
+      "text": "Come on!"
+    },
+    {
+      "character": "FINN",
+      "text": "Come on, BB-8!"
+    },
+    {
+      "character": "REY",
+      "text": "Let go of me!"
+    },
+    {
+      "character": "FINN",
+      "text": "No, we gotta move!"
+    },
+    {
+      "character": "REY",
+      "text": "I know how to run without you holding my hand! BB-8 stay close! This way!"
+    },
+    {
+      "character": "STORMTROOPER",
+      "text": "Call in the air strike!"
+    },
+    {
+      "character": "REY",
+      "text": "They're shooting at both of us!"
+    },
+    {
+      "character": "FINN",
+      "text": "Yeah, they saw you with me! You're marked!"
+    },
+    {
+      "character": "REY",
+      "text": "Well, thanks for that!"
+    },
+    {
+      "character": "FINN",
+      "text": "I'm not the one who chased you down with a stick! Does anyone have blasters around here?!"
+    },
+    {
+      "character": "REY",
+      "text": "Are you okay?"
+    },
+    {
+      "character": "REY",
+      "text": "Stop taking my hand!"
+    },
+    {
+      "character": "REY",
+      "text": "Hey!"
+    },
+    {
+      "character": "FINN",
+      "text": "Are you okay?"
+    },
+    {
+      "character": "REY",
+      "text": "Yeah. (extends her hand) Follow me."
+    },
+    {
+      "character": "FINN",
+      "text": "We can't outrun them!"
+    },
+    {
+      "character": "REY",
+      "text": "We might in that quad-jumper!"
+    },
+    {
+      "character": "FINN",
+      "text": "We need a pilot!"
+    },
+    {
+      "character": "REY",
+      "text": "We've got one!"
+    },
+    {
+      "character": "FINN",
+      "text": "You?! (then, indicates one off-camera) What about that ship?"
+    },
+    {
+      "character": "REY",
+      "text": "That one's garbage!"
+    },
+    {
+      "character": "REY",
+      "text": "The garbage'll do!"
+    },
+    {
+      "character": "REY",
+      "text": "Gunner position's down there!"
+    },
+    {
+      "character": "FINN",
+      "text": "Y'ever fly this thing?"
+    },
+    {
+      "character": "REY",
+      "text": "No! This ship hasn't been flown in years!"
+    },
+    {
+      "character": "FINN",
+      "text": "Great. (reacts to seat) Whoa! I can do this, I can do this..."
+    },
+    {
+      "character": "REY",
+      "text": "I can do this, I can do this..."
+    },
+    {
+      "character": "UNKAR",
+      "text": "Hey!!!! That's miiiiiine!!!"
+    },
+    {
+      "character": "FINN",
+      "text": "Whoa! Hey! Oh! Stay low! Stay low!"
+    },
+    {
+      "character": "REY",
+      "text": "What?"
+    },
+    {
+      "character": "FINN",
+      "text": "Stay low! It confuses their tracking!"
+    },
+    {
+      "character": "REY",
+      "text": "BB-8, hold on!"
+    },
+    {
+      "character": "REY",
+      "text": "I'm going low!!!"
+    },
+    {
+      "character": "REY",
+      "text": "What are you doing back there? Are you ever gonna fire back?!"
+    },
+    {
+      "character": "FINN",
+      "text": "I'm working on it! Are the shields up?"
+    },
+    {
+      "character": "REY",
+      "text": "Not so easy without a co-pilot!"
+    },
+    {
+      "character": "FINN",
+      "text": "Try sitting in this thing!"
+    },
+    {
+      "character": "FINN",
+      "text": "We need cover, quick!"
+    },
+    {
+      "character": "REY",
+      "text": "We're about to get some! (to herself) I hope."
+    },
+    {
+      "character": "FINN",
+      "text": "Damn it!"
+    },
+    {
+      "character": "FINN",
+      "text": "Come on... come on..."
+    },
+    {
+      "character": "REY",
+      "text": "Nice shot!"
+    },
+    {
+      "character": "FINN",
+      "text": "I'm getting pretty good at this!"
+    },
+    {
+      "character": "FINN",
+      "text": "The cannon's stuck in forward position, I can't move it! You gotta lose 'em!"
+    },
+    {
+      "character": "REY",
+      "text": "Get ready!"
+    },
+    {
+      "character": "FINN",
+      "text": "Okay! For what?"
+    },
+    {
+      "character": "FINN",
+      "text": "Are we really doing this?!"
+    },
+    {
+      "character": "REY",
+      "text": "Oh no!"
+    },
+    {
+      "character": "FINN",
+      "text": "Whooo!"
+    },
+    {
+      "character": "FINN",
+      "text": "Now that was some flying! How did you do that?! No one trained you? No one? That was amazing! (beat) You set me up for it! (cocky) That was pretty good."
+    },
+    {
+      "character": "REY",
+      "text": "Good shooting! Thanks! I, I don't know! I've flown some ships, but I've never left the planet! Your last shot was dead on. You got him with one blast! (laughs) It was perfect!"
+    },
+    {
+      "character": "REY",
+      "text": "You're ok. He's with the Resistance. He's going to get you home. We both will. (to Finn) I don't know your name."
+    },
+    {
+      "character": "FINN",
+      "text": "Finn. What's yours."
+    },
+    {
+      "character": "REY",
+      "text": "I'm Rey."
+    },
+    {
+      "character": "FINN",
+      "text": "Rey..."
+    },
+    {
+      "character": "REY",
+      "text": "Help me with this! Quick!"
+    },
+    {
+      "character": "FINN",
+      "text": "Whoa! What's going on?"
+    },
+    {
+      "character": "LIEUTENANT MITAKA",
+      "text": "Sir. We were unable to acquire the droid on Jakku."
+    },
+    {
+      "character": "LIEUTENANT MITAKA",
+      "text": "It escaped capture aboard a stolen Corellian YT model freighter."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "The droid stole a freighter?"
+    },
+    {
+      "character": "LIEUTENANT MITAKA",
+      "text": "Not exactly, sir. It had help."
+    },
+    {
+      "character": "LIEUTENANT MITAKA",
+      "text": "We have no confirmation, but we believe FN-2187 may have been helped in the escape..."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Anything else?"
+    },
+    {
+      "character": "LIEUTENANT MITAKA",
+      "text": "The two were accompanied by a girl."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "What girl?"
+    },
+    {
+      "character": "REY",
+      "text": "It's the motivator! Grab me a Harris wrench, check in there!"
+    },
+    {
+      "character": "FINN",
+      "text": "How bad is it?!"
+    },
+    {
+      "character": "REY",
+      "text": "If we wanna live, not good!"
+    },
+    {
+      "character": "FINN",
+      "text": "They're hunting for us now, we gotta get outta this system!"
+    },
+    {
+      "character": "REY",
+      "text": "BB-8 said the location of the Resistance Base is \"need to know\", if I'm taking you there, I need to know!"
+    },
+    {
+      "character": "FINN",
+      "text": "This?"
+    },
+    {
+      "character": "FINN",
+      "text": "You gotta tell us where the base is. (BB-8 beeps) I don't speak that. Alright, between us, I'm not with the Resistance, okay? (BB-8 backs up) I'm just trying to get away from the First Order, but you tell us where your base is, I'll get there first, deal?! (BB-8 cocks his head) Droid, please."
+    },
+    {
+      "character": "REY",
+      "text": "Pilex driver, hurry!"
+    },
+    {
+      "character": "FINN",
+      "text": "So where's your base?"
+    },
+    {
+      "character": "FINN",
+      "text": "Go on BB-8, tell her. (quietly) Please!"
+    },
+    {
+      "character": "REY",
+      "text": "The Ileenium system?"
+    },
+    {
+      "character": "FINN",
+      "text": "Yeah, the Ileenium system, that's the one, get us there as fast as you can."
+    },
+    {
+      "character": "REY",
+      "text": "I'll drop you two at Ponemah Terminal. I need the bonding tape, hurry!"
+    },
+    {
+      "character": "FINN",
+      "text": "What about you?"
+    },
+    {
+      "character": "REY",
+      "text": "I gotta get back to Jakku!"
+    },
+    {
+      "character": "FINN",
+      "text": "Back to Jak--?! Why does everyone always wanna go back to Jakku?!"
+    },
+    {
+      "character": "REY",
+      "text": "No, that one! No. No. The one I'm pointing to! No. No. No. If we don't patch it up, the propulsion tank will overflow and flood the ship with poisonous gas!"
+    },
+    {
+      "character": "FINN",
+      "text": "This?"
+    },
+    {
+      "character": "REY",
+      "text": "Yes!"
+    },
+    {
+      "character": "FINN",
+      "text": "Hey. Rey. You're a pilot, you can fly anywhere! Why go back?! You got a family? You got a boyfriend? Cute boyfriend?"
+    },
+    {
+      "character": "REY",
+      "text": "None of your business, that's why!"
+    },
+    {
+      "character": "FINN",
+      "text": "...That can't be good."
+    },
+    {
+      "character": "REY",
+      "text": "No, it can't be..."
+    },
+    {
+      "character": "REY",
+      "text": "Someone's locked onto us. all controls are overridden."
+    },
+    {
+      "character": "REY",
+      "text": "Get off. Get off! See anything?"
+    },
+    {
+      "character": "FINN",
+      "text": "...Oh no."
+    },
+    {
+      "character": "FINN",
+      "text": "It's the First Order."
+    },
+    {
+      "character": "REY",
+      "text": "What do we do, there must be something..."
+    },
+    {
+      "character": "FINN",
+      "text": "You said poisonous gas..."
+    },
+    {
+      "character": "REY",
+      "text": "Yeah, but I fixed that..."
+    },
+    {
+      "character": "FINN",
+      "text": "Can you unfix it?"
+    },
+    {
+      "character": "REY",
+      "text": "C'mon BB-8."
+    },
+    {
+      "character": "FINN",
+      "text": "I got it."
+    },
+    {
+      "character": "REY",
+      "text": "Oooh..."
+    },
+    {
+      "character": "FINN",
+      "text": "I'm okay. BB-8 get off me..."
+    },
+    {
+      "character": "REY",
+      "text": "You think this'll work on the Stormtroopers?"
+    },
+    {
+      "character": "FINN",
+      "text": "Yeah. Their masks filter out smoke, not toxins."
+    },
+    {
+      "character": "REY",
+      "text": "C'mon BB-8."
+    },
+    {
+      "character": "FINN",
+      "text": "I got it."
+    },
+    {
+      "character": "REY",
+      "text": "Oooh..."
+    },
+    {
+      "character": "FINN",
+      "text": "I'm okay. BB-8 get off me..."
+    },
+    {
+      "character": "REY",
+      "text": "You think this'll work on the Stormtroopers?"
+    },
+    {
+      "character": "FINN",
+      "text": "Yeah. Their masks filter out smoke, not toxins."
+    },
+    {
+      "character": "FINN",
+      "text": "Hurry!"
+    },
+    {
+      "character": "REY",
+      "text": "I'm hurrying!"
+    },
+    {
+      "character": "HAN",
+      "text": "Chewie, we're home."
+    },
+    {
+      "character": "HAN",
+      "text": "Where are the others? Where's the pilot?"
+    },
+    {
+      "character": "REY",
+      "text": "...I'm the pilot..."
+    },
+    {
+      "character": "HAN",
+      "text": "You?"
+    },
+    {
+      "character": "REY",
+      "text": "No, it's true: we're the only ones on board."
+    },
+    {
+      "character": "FINN",
+      "text": "You can understand that thing?"
+    },
+    {
+      "character": "HAN",
+      "text": "And \"that thing\" can understand you too, so watch it. Come on outta there."
+    },
+    {
+      "character": "HAN",
+      "text": "Where'd you get this ship?"
+    },
+    {
+      "character": "REY",
+      "text": "Niima Outpost."
+    },
+    {
+      "character": "HAN",
+      "text": "Jakku?! That junkyard?"
+    },
+    {
+      "character": "FINN",
+      "text": "Thank you! Junkyard!"
+    },
+    {
+      "character": "HAN",
+      "text": "Told ya we should've double-checked the Western Reaches! (to Rey) Who had it, Ducain?"
+    },
+    {
+      "character": "REY",
+      "text": "I stole it from Unkar Plutt. He stole it from the Irving Boys, who stole it from Ducain."
+    },
+    {
+      "character": "HAN",
+      "text": "Who stole it from me! Well, you tell him Han Solo just stole back the Millennium Falcon for good."
+    },
+    {
+      "character": "REY",
+      "text": "This is the Millennium Falcon? You're Han Solo?"
+    },
+    {
+      "character": "HAN",
+      "text": "I used to be."
+    },
+    {
+      "character": "FINN",
+      "text": "Han Solo? The Rebellion General?"
+    },
+    {
+      "character": "REY",
+      "text": "No, the smuggler!"
+    },
+    {
+      "character": "FINN",
+      "text": "Wasn't he a war hero?!"
+    },
+    {
+      "character": "REY",
+      "text": "This is the ship that made the Kessel Run in fourteen parsecs...!"
+    },
+    {
+      "character": "HAN",
+      "text": "Twelve! Fourteen."
+    },
+    {
+      "character": "HAN",
+      "text": "Hey! Some moof-milker put a compressor on the ignition line!"
+    },
+    {
+      "character": "REY",
+      "text": "Unkar Plutt did. I thought it was a mistake too, puts too much stress on the hyperdrive..."
+    },
+    {
+      "character": "HAN",
+      "text": "...Stress on the hyperdrive... (who is she? Then:) Chewie, throw them in a pod, we'll drop them at the nearest inhabited planet."
+    },
+    {
+      "character": "REY",
+      "text": "Wait! No, we need your help!"
+    },
+    {
+      "character": "HAN",
+      "text": "My help?"
+    },
+    {
+      "character": "REY",
+      "text": "This droid has to get to the Resistance base as soon as possible!"
+    },
+    {
+      "character": "FINN",
+      "text": "He's carrying a map to Luke Skywalker."
+    },
+    {
+      "character": "FINN",
+      "text": "You are the Han Solo that fought with the Rebellion. You knew him."
+    },
+    {
+      "character": "HAN",
+      "text": "Yeah, I knew him. I knew Luke."
+    },
+    {
+      "character": "HAN",
+      "text": "Don't tell me a Rathtar's gotten loose..."
+    },
+    {
+      "character": "FINN",
+      "text": "Wait, a what?! Did you just say Rathtars? Hey!"
+    },
+    {
+      "character": "FINN",
+      "text": "You're not hauling Rathtars on this freighter, are you?"
+    },
+    {
+      "character": "HAN",
+      "text": "I'm hauling Rathtars."
+    },
+    {
+      "character": "HAN",
+      "text": "Oh great. It's the Guavian Death Gang, they must've tracked us from Nantoon."
+    },
+    {
+      "character": "REY",
+      "text": "What's a Rathtar?"
+    },
+    {
+      "character": "HAN",
+      "text": "They're big and dangerous..."
+    },
+    {
+      "character": "FINN",
+      "text": "Y'ever heard of the Trillia Massacre?!"
+    },
+    {
+      "character": "REY",
+      "text": "No."
+    },
+    {
+      "character": "FINN",
+      "text": "Good."
+    },
+    {
+      "character": "HAN",
+      "text": "I got three of 'em going to King Prana."
+    },
+    {
+      "character": "FINN",
+      "text": "Three?! How'd you get them on board?"
+    },
+    {
+      "character": "HAN",
+      "text": "I used to have a bigger crew."
+    },
+    {
+      "character": "HAN",
+      "text": "Get below deck and stay there until I say so, don't even think about taking the Falcon."
+    },
+    {
+      "character": "REY",
+      "text": "What about BB-8?"
+    },
+    {
+      "character": "HAN",
+      "text": "He stays with me until I get rid of the gang, then you can have him back and be on your way."
+    },
+    {
+      "character": "FINN",
+      "text": "What about the Rathtars... where are you keeping them?"
+    },
+    {
+      "character": "HAN",
+      "text": "There's one."
+    },
+    {
+      "character": "REY",
+      "text": "What are you gonna do?"
+    },
+    {
+      "character": "HAN",
+      "text": "Same thing I always do: talk my way out of it. (Chewie moan-talks) Yes, I do. Every time."
+    },
+    {
+      "character": "BALA-TIK",
+      "text": "Han Solo. You are a dead man."
+    },
+    {
+      "character": "HAN",
+      "text": "Bala-Tik. What's the problem?"
+    },
+    {
+      "character": "BALA-TIK",
+      "text": "The problem is we loaned you fifty thousand for this job."
+    },
+    {
+      "character": "REY",
+      "text": "Can you see them?"
+    },
+    {
+      "character": "FINN",
+      "text": "No."
+    },
+    {
+      "character": "BALA-TIK",
+      "text": "I heard you also borrowed fifty thousand from Kanjiklub."
+    },
+    {
+      "character": "HAN",
+      "text": "You know you can't trust those little freaks! How long've we known each other?"
+    },
+    {
+      "character": "REY",
+      "text": "They have blasters..."
+    },
+    {
+      "character": "FINN",
+      "text": "A lot of them."
+    },
+    {
+      "character": "BALA-TIK",
+      "text": "The question is how much longer will we know each other? Not long. We want our money back now."
+    },
+    {
+      "character": "HAN",
+      "text": "Ya think hunting Rathtars is cheap? I spent that money."
+    },
+    {
+      "character": "BALA-TIK",
+      "text": "Kanjiklub wants their investment back, too."
+    },
+    {
+      "character": "HAN",
+      "text": "I never made a deal with Kanjiklub!"
+    },
+    {
+      "character": "BALA-TIK",
+      "text": "Tell that to Kanjiklub."
+    },
+    {
+      "character": "HAN",
+      "text": "Tasu Leech. Good to see you."
+    },
+    {
+      "character": "TASU LEECH",
+      "text": "Wrong again, Solo. It's over for you."
+    },
+    {
+      "character": "HAN",
+      "text": "Boys. You're both gonna get what I promised! Have I ever not delivered for you before?"
+    },
+    {
+      "character": "BALA-TIK",
+      "text": "Yeah."
+    },
+    {
+      "character": "TASU LEECH",
+      "text": "Twice!"
+    },
+    {
+      "character": "HAN",
+      "text": "What was the second time?"
+    },
+    {
+      "character": "BALA-TIK",
+      "text": "Your game is old. There's no one in the galaxy left for you to swindle."
+    },
+    {
+      "character": "TASU LEECH",
+      "text": "Nowhere left for you to hide."
+    },
+    {
+      "character": "BALA-TIK",
+      "text": "That BB unit, the First Order is looking for one just like it. And two fugitives."
+    },
+    {
+      "character": "HAN",
+      "text": "First I've heard of it."
+    },
+    {
+      "character": "RAZOO QIN-FEE",
+      "text": "Search the freighter."
+    },
+    {
+      "character": "REY",
+      "text": "Wait wait wait wait. If we close the blast doors in that corridor, we can trap both gangs!"
+    },
+    {
+      "character": "FINN",
+      "text": "Close the blast doors from here?"
+    },
+    {
+      "character": "REY",
+      "text": "Resetting the fuses should do it."
+    },
+    {
+      "character": "HAN",
+      "text": "... I got a bad feeling about this..."
+    },
+    {
+      "character": "REY",
+      "text": "Oh no."
+    },
+    {
+      "character": "FINN",
+      "text": "Oh no, what?"
+    },
+    {
+      "character": "REY",
+      "text": "Wrong fuses."
+    },
+    {
+      "character": "BALA-TIK",
+      "text": "Kill them! And take the droid!"
+    },
+    {
+      "character": "FINN",
+      "text": "This was a mistake!"
+    },
+    {
+      "character": "REY",
+      "text": "Huge!"
+    },
+    {
+      "character": "REY",
+      "text": "What do they look like?"
+    },
+    {
+      "character": "FINN",
+      "text": "They look like that."
+    },
+    {
+      "character": "FINN",
+      "text": "This way!"
+    },
+    {
+      "character": "REY",
+      "text": "Are you sure?"
+    },
+    {
+      "character": "FINN",
+      "text": "Rey!"
+    },
+    {
+      "character": "REY",
+      "text": "Finn!!!!"
+    },
+    {
+      "character": "REY",
+      "text": "Finn!"
+    },
+    {
+      "character": "FINN",
+      "text": "It had me! But the door...!"
+    },
+    {
+      "character": "REY",
+      "text": "That was lucky!"
+    },
+    {
+      "character": "HAN",
+      "text": "I got the door. Cover us!"
+    },
+    {
+      "character": "HAN",
+      "text": "Chewie! You okay?"
+    },
+    {
+      "character": "HAN",
+      "text": "Wow. Come on! Come on!"
+    },
+    {
+      "character": "REY",
+      "text": "Han!"
+    },
+    {
+      "character": "HAN",
+      "text": "You, close the door behind us! (to Finn) You take care of Chewie!"
+    },
+    {
+      "character": "HAN",
+      "text": "Hey, where are you going?"
+    },
+    {
+      "character": "REY",
+      "text": "Unkar Plutt installed a fuel pump too, if we don't prime that we're not going anywhere."
+    },
+    {
+      "character": "HAN",
+      "text": "I hate that guy."
+    },
+    {
+      "character": "REY",
+      "text": "And you could use a co-pilot."
+    },
+    {
+      "character": "HAN",
+      "text": "I got one, he's back there."
+    },
+    {
+      "character": "HAN",
+      "text": "Watch the thrust, we're going out of here at lightspeed..."
+    },
+    {
+      "character": "REY",
+      "text": "From inside the hangar? Is that even possible?"
+    },
+    {
+      "character": "HAN",
+      "text": "I never ask that question until after I've done it."
+    },
+    {
+      "character": "HAN",
+      "text": "This is not how I thought this day was gonna go, angle the shields. Hang on back there!"
+    },
+    {
+      "character": "FINN",
+      "text": "No problem!"
+    },
+    {
+      "character": "HAN",
+      "text": "Come on baby, don't let me down!"
+    },
+    {
+      "character": "HAN",
+      "text": "What?!"
+    },
+    {
+      "character": "REY",
+      "text": "Compressor."
+    },
+    {
+      "character": "HAN",
+      "text": "Inform the First Order that Han Solo has the droid they want. And it's aboard the Millennium Falcon."
+    },
+    {
+      "character": "SNOKE",
+      "text": "The droid will soon be delivered to the Resistance..."
+    },
+    {
+      "character": "SNOKE",
+      "text": "...leading them to the last Jedi. If Skywalker returns, the new Jedi will rise."
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "Supreme Leader, I take full responsibility for th..."
+    },
+    {
+      "character": "SNOKE",
+      "text": "General! Our strategy must now change."
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "The weapon. It is ready. I believe the time has come to use it. We shall destroy the government that supports the Resistance, the Republic. Without their friends to protect them, the Resistance will be vulnerable, and we will stop them before they reach Skywalker"
+    },
+    {
+      "character": "SNOKE",
+      "text": "Go. Oversee preparations."
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "Yes, Supreme Leader."
+    },
+    {
+      "character": "SNOKE",
+      "text": "General! Our strategy must now change."
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "The weapon. It is ready. I believe the time has come to use it. We shall destroy the government that supports the Resistance, the Republic. Without their friends to protect them, the Resistance will be vulnerable, and we will stop them before they reach Skywalker"
+    },
+    {
+      "character": "SNOKE",
+      "text": "Go. Oversee preparations."
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "Yes, Supreme Leader."
+    },
+    {
+      "character": "SNOKE",
+      "text": "There's been an awakening. Have you felt it?"
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Yes."
+    },
+    {
+      "character": "SNOKE",
+      "text": "There's something more. The droid we seek is aboard the Millennium Falcon. In the hands of your father, Han Solo."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "He means nothing to me."
+    },
+    {
+      "character": "SNOKE",
+      "text": "Even you, master of the Knights of Ren, have never faced such a test."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "By the grace of your training, I will not be seduced."
+    },
+    {
+      "character": "SNOKE",
+      "text": "We shall see. We shall see."
+    },
+    {
+      "character": "HAN",
+      "text": "Electrical overload!"
+    },
+    {
+      "character": "REY",
+      "text": "I can fix that!"
+    },
+    {
+      "character": "HAN",
+      "text": "The coolant's leaking!"
+    },
+    {
+      "character": "REY",
+      "text": "Try transferring auxiliary power to the secondary tank..."
+    },
+    {
+      "character": "HAN",
+      "text": "...Secondary tank, I got it!"
+    },
+    {
+      "character": "FINN",
+      "text": "Chewie, come on! I need help with this giant hairy thing! Stop moving! Chewie!"
+    },
+    {
+      "character": "HAN",
+      "text": "You hurt Chewie, you're gonna deal with me!"
+    },
+    {
+      "character": "FINN",
+      "text": "Hurt him?! He almost killed me six times! Which is fine."
+    },
+    {
+      "character": "HAN",
+      "text": "This hyperdrive blows there's gonna be pieces of us in three different systems."
+    },
+    {
+      "character": "HAN",
+      "text": "What'd you do?"
+    },
+    {
+      "character": "REY",
+      "text": "I by-passed the compressor."
+    },
+    {
+      "character": "HAN",
+      "text": "Move, Ball."
+    },
+    {
+      "character": "HAN",
+      "text": "Nah, don't say that, you did great. Just rest."
+    },
+    {
+      "character": "HAN",
+      "text": "Good job, kid. And thanks."
+    },
+    {
+      "character": "FINN",
+      "text": "You're welcome."
+    },
+    {
+      "character": "HAN",
+      "text": "So, fugitives, huh?"
+    },
+    {
+      "character": "REY",
+      "text": "The First Order wants the map. (re: Finn and BB-8) Finn is with the Resistance (shrugs) I'm just a scavenger."
+    },
+    {
+      "character": "HAN",
+      "text": "Let's see whatcha got."
+    },
+    {
+      "character": "REY",
+      "text": "Go ahead."
+    },
+    {
+      "character": "HAN",
+      "text": "This map's not complete. It's just a piece. Ever since Luke disappeared, people have been looking for him."
+    },
+    {
+      "character": "REY",
+      "text": "Why'd he leave?"
+    },
+    {
+      "character": "HAN",
+      "text": "He was training a new generation of Jedi. One boy, an apprentice turned against him, destroyed it all. Luke felt responsible. He walked away from everything."
+    },
+    {
+      "character": "FINN",
+      "text": "Do you know what happened to him?"
+    },
+    {
+      "character": "HAN",
+      "text": "There're a lot of rumors. Stories. The people who knew him the best think he went looking for the first Jedi temple."
+    },
+    {
+      "character": "REY",
+      "text": "The Jedi were real?"
+    },
+    {
+      "character": "HAN",
+      "text": "I used to wonder that myself. Thought it was a bunch of mumbo-jumbo, magical power holding together good, evil, the dark side and the light. (beat) 'Crazy thing is, it's true. The Force, the Jedi, all of it. It's all true."
+    },
+    {
+      "character": "HAN",
+      "text": "No, you rest. (to Rey and Finn) You want my help? You're getting it. Gonna see an old friend. She'll get your droid home. This is our stop."
+    },
+    {
+      "character": "REY",
+      "text": "... I didn't know there was this much green in the whole galaxy..."
+    },
+    {
+      "character": "FINN",
+      "text": "Hey, Solo, I'm not sure what we're walking into here..."
+    },
+    {
+      "character": "HAN",
+      "text": "D'you just call me \"Solo\"?"
+    },
+    {
+      "character": "FINN",
+      "text": "Sorry. Han, Mr. Solo. You should know, I'm a big deal in the Resistance. Which puts a real target on my back. Are there any conspirators here? First Order sympathizers?"
+    },
+    {
+      "character": "HAN",
+      "text": "Listen big deal, you've got another problem. Women always figure out the truth."
+    },
+    {
+      "character": "HAN",
+      "text": "Always."
+    },
+    {
+      "character": "HAN",
+      "text": "You might need this."
+    },
+    {
+      "character": "REY",
+      "text": "I think I can handle myself."
+    },
+    {
+      "character": "HAN",
+      "text": "I know you do. That's why I'm giving it to you. Take it."
+    },
+    {
+      "character": "HAN",
+      "text": "You know how to use one of these?"
+    },
+    {
+      "character": "REY",
+      "text": "Yeah, you pull the trigger."
+    },
+    {
+      "character": "HAN",
+      "text": "There's a little bit more to it than that. You got a lot to learn. You got a name?"
+    },
+    {
+      "character": "REY",
+      "text": "Rey."
+    },
+    {
+      "character": "HAN",
+      "text": "Rey. I've been thinking about bringing on some more crew, Rey. A second mate. Someone to help out. Someone who can keep up with Chewie and me, appreciates the Falcon."
+    },
+    {
+      "character": "REY",
+      "text": "Are you offering me a job?"
+    },
+    {
+      "character": "HAN",
+      "text": "I wouldn't be nice to you. It doesn't pay much."
+    },
+    {
+      "character": "REY",
+      "text": "You're offering me a job."
+    },
+    {
+      "character": "HAN",
+      "text": "I'm thinking about it."
+    },
+    {
+      "character": "HAN",
+      "text": "Well?"
+    },
+    {
+      "character": "REY",
+      "text": "If you were, I'd be flattered. But I have to get home."
+    },
+    {
+      "character": "HAN",
+      "text": "Jakku?"
+    },
+    {
+      "character": "REY",
+      "text": "I've already been away too long."
+    },
+    {
+      "character": "HAN",
+      "text": "Chewie, check out the ship as best you can. It's too bad. Chewie kind of likes you."
+    },
+    {
+      "character": "FINN",
+      "text": "Solo, why are we here again?"
+    },
+    {
+      "character": "HAN",
+      "text": "To get your droid on a clean ship."
+    },
+    {
+      "character": "REY",
+      "text": "Clean?"
+    },
+    {
+      "character": "HAN",
+      "text": "Do you think it was luck that Chewie and I found the Falcon? If we can find it on our scanners, the First Order's not far behind. Want to get BB-8 to the Resistance? Maz Kanata is our best bet."
+    },
+    {
+      "character": "FINN",
+      "text": "We can trust her, right?"
+    },
+    {
+      "character": "HAN",
+      "text": "Relax, kid. She's run this watering hole for a thousand years. Maz is a bit of an acquired taste, so let me do the talking. And whatever you do, don't stare..."
+    },
+    {
+      "character": "REY AND FINN",
+      "text": "At what?"
+    },
+    {
+      "character": "HAN",
+      "text": "Any of it."
+    },
+    {
+      "character": "MAZ",
+      "text": "Han Solo!"
+    },
+    {
+      "character": "HAN",
+      "text": "Oh boy. Hey, Maz!"
+    },
+    {
+      "character": "MAZ",
+      "text": "Where's my boyfriend?"
+    },
+    {
+      "character": "HAN",
+      "text": "Chewie's working on the Falcon."
+    },
+    {
+      "character": "MAZ",
+      "text": "I like that Wookiee. I assume you need something. Desperately. Let's get to it."
+    },
+    {
+      "character": "GA-97",
+      "text": "Alert the Resistance. Their missing droid is here!"
+    },
+    {
+      "character": "BAZINE",
+      "text": "Inform the First Order, I've found the droid."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Forgive me. I feel it again. The pull to the light. Supreme Leader senses it. Show me again, the power of the darkness, and I will let nothing stand in our way. Show me, Grandfather, and I will finish what you started."
+    },
+    {
+      "character": "MAZ",
+      "text": "A map to Skywalker himself? You're right back in the mess."
+    },
+    {
+      "character": "HAN",
+      "text": "Maz, I need you to get this droid to Leia."
+    },
+    {
+      "character": "MAZ",
+      "text": "Hmm. No. You've been running away from this fight for too long. Han, nyakee nago wadda. Go home!"
+    },
+    {
+      "character": "HAN",
+      "text": "Leia doesn't want to see me."
+    },
+    {
+      "character": "FINN",
+      "text": "Please, we came here for your help."
+    },
+    {
+      "character": "REY",
+      "text": "What fight?"
+    },
+    {
+      "character": "MAZ",
+      "text": "The only fight: against the dark side. Through the ages, I've seen evil take many forms. The Sith. The Empire. Today, it is the First Order. Their shadow is spreading across the galaxy. We must face them. Fight them. All of us."
+    },
+    {
+      "character": "FINN",
+      "text": "There is no fight against the First Order! Not one we can win. Look around. There's no chance we haven't been recognized already. I bet you the First Order is on their way right..."
+    },
+    {
+      "character": "FINN",
+      "text": "What's this? What are you doing?"
+    },
+    {
+      "character": "FINN",
+      "text": "Solo, what is she doing?"
+    },
+    {
+      "character": "HAN",
+      "text": "I don't know, but it ain't good."
+    },
+    {
+      "character": "MAZ",
+      "text": "If you live long enough you see the same eyes in different people. I'm looking at the eyes of a man who wants to run."
+    },
+    {
+      "character": "FINN",
+      "text": "You don't know a thing about me. Where I'm from. What I've seen. You don't know the First Order like I do. They'll slaughter us. We all need to run."
+    },
+    {
+      "character": "MAZ",
+      "text": "You see those two? They'll trade work for transportation to the Outer Rim. There, you can disappear."
+    },
+    {
+      "character": "REY",
+      "text": "Finn!"
+    },
+    {
+      "character": "FINN",
+      "text": "Come with me."
+    },
+    {
+      "character": "REY",
+      "text": "What about BB-8? We're not done yet. We have to get him back to your base."
+    },
+    {
+      "character": "FINN",
+      "text": "I can't."
+    },
+    {
+      "character": "HAN",
+      "text": "Keep it, kid."
+    },
+    {
+      "character": "MAZ",
+      "text": "Who's the girl?"
+    },
+    {
+      "character": "FINN",
+      "text": "I was told you could get me to the Outer Rim."
+    },
+    {
+      "character": "REY",
+      "text": "What are you doing?"
+    },
+    {
+      "character": "FINN",
+      "text": "Don't leave without me."
+    },
+    {
+      "character": "REY",
+      "text": "You can't just go. I won't let you."
+    },
+    {
+      "character": "FINN",
+      "text": "I'm not who you think I am."
+    },
+    {
+      "character": "REY",
+      "text": "Finn, what are you talking about?"
+    },
+    {
+      "character": "FINN",
+      "text": "I'm not Resistance. I'm not a hero. I'm a Stormtrooper. (stops her) Like all of them, I was taken from a family I'll never know. And raised to do one thing (emotional) But my first battle, I made a choice. I wasn't going to kill for them. So I ran. Right into you. And you looked at me like no one ever had. I was ashamed of what I was. But I'm done with the First Order. I'm never going back. Rey, come with me."
+    },
+    {
+      "character": "REY",
+      "text": "Don't go."
+    },
+    {
+      "character": "FINN",
+      "text": "Take care of yourself. Please."
+    },
+    {
+      "character": "YOUNG GIRL",
+      "text": "No!"
+    },
+    {
+      "character": "YOUNG GIRL",
+      "text": "No, come back!"
+    },
+    {
+      "character": "UNKAR PLUTT",
+      "text": "Quiet, girl!"
+    },
+    {
+      "character": "REY",
+      "text": "What was that? I shouldn't have gone in there."
+    },
+    {
+      "character": "MAZ",
+      "text": "That lightsaber was Luke's. And his father's before him and now, it calls to you!"
+    },
+    {
+      "character": "REY",
+      "text": "I have to get back to Jakku."
+    },
+    {
+      "character": "MAZ",
+      "text": "Han told me. Dear child. I see your eyes. You already know the truth. Whomever you're waiting for on Jakku, they're never coming back. But, there's someone who still could."
+    },
+    {
+      "character": "REY",
+      "text": "Luke."
+    },
+    {
+      "character": "MAZ",
+      "text": "The belonging you seek is not behind you. It is ahead. I am no Jedi, but I know the Force. It moves through and surrounds every living thing. Close your eyes. Feel it. The light. It's always been there. It will guide you. The saber. Take it."
+    },
+    {
+      "character": "REY",
+      "text": "I'm never touching that again. I don't want any part of this."
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "Today is the end of the Republic! The end of a regime that acquiesces to disorder! At this very moment, in a system far from here the New Republic lies to the galaxy while secretly supporting the treachery of the loathsome Resistance. This fierce machine which you have built, upon which we stand, will bring an end to the Senate! To their cherished fleet! All remaining systems will bow to the First Order! And will remember this, as the last day of the Republic!"
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "Fire!"
+    },
+    {
+      "character": "FINN",
+      "text": "It was the Republic."
+    },
+    {
+      "character": "FINN",
+      "text": "The First Order, they've done it. Where's Rey?"
+    },
+    {
+      "character": "REY",
+      "text": "What are you doing? You have to go back. BB-8. No, you can't, you have to go back, you're too important. They'll help you."
+    },
+    {
+      "character": "MAZ",
+      "text": "I've had this for ages..."
+    },
+    {
+      "character": "MAZ",
+      "text": "Kept it locked away."
+    },
+    {
+      "character": "HAN",
+      "text": "Where'd you get that?"
+    },
+    {
+      "character": "MAZ",
+      "text": "A good question for another time. Take it! Find your friend!"
+    },
+    {
+      "character": "MAZ",
+      "text": "Those beasts! They're here!"
+    },
+    {
+      "character": "STORMTROOPER",
+      "text": "FN-417, hold position!"
+    },
+    {
+      "character": "REY",
+      "text": "Safety!"
+    },
+    {
+      "character": "STORMTROOPER #4",
+      "text": "Sir, the droid was spotted heading west, with a girl."
+    },
+    {
+      "character": "REY",
+      "text": "You have to keep going, stay out of sight, I'll try to fight 'em off. I hope so, too."
+    },
+    {
+      "character": "HAN",
+      "text": "Come on, Chewie!"
+    },
+    {
+      "character": "MAZ",
+      "text": "Rey and BB-8, they need you. Now go."
+    },
+    {
+      "character": "FINN",
+      "text": "I need a weapon."
+    },
+    {
+      "character": "MAZ",
+      "text": "You have one!"
+    },
+    {
+      "character": "HAN",
+      "text": "Hey, can I try that?"
+    },
+    {
+      "character": "HAN",
+      "text": "I like this thing."
+    },
+    {
+      "character": "STORMTROOPER",
+      "text": "Traitor!"
+    },
+    {
+      "character": "HAN",
+      "text": "You okay, Big deal?"
+    },
+    {
+      "character": "FINN",
+      "text": "Thanks!"
+    },
+    {
+      "character": "STORMTROOPER",
+      "text": "Don't move! TK-338, we have targets in custody!"
+    },
+    {
+      "character": "STORMTROOPER",
+      "text": "We have incoming at two-eight-point-six! Move! Dispatch! Move! Scramble all squads! Repeat, scramble all squads! Anti-air cover en route to our position!"
+    },
+    {
+      "character": "HAN",
+      "text": "It's the Resistance."
+    },
+    {
+      "character": "POE",
+      "text": "Go straight ahead and don't let these dogs scare you!"
+    },
+    {
+      "character": "JESS",
+      "text": "Copy that!"
+    },
+    {
+      "character": "SNAP",
+      "text": "We're with you, Poe!"
+    },
+    {
+      "character": "HAN",
+      "text": "Quick!"
+    },
+    {
+      "character": "FINN",
+      "text": "Woohoo! Yeah! That's one helluva pilot!"
+    },
+    {
+      "character": "POE",
+      "text": "Woohoo!"
+    },
+    {
+      "character": "KYLO REN",
+      "text": "The girl I've heard so much about."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "The droid."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Where is it?"
+    },
+    {
+      "character": "STORMTROOPER",
+      "text": "Request air support!"
+    },
+    {
+      "character": "KYLO REN",
+      "text": "The map. You've seen it."
+    },
+    {
+      "character": "STORMTROOPER #5",
+      "text": "Sir, Resistance fighters! We need more troops."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Pull the division out. Forget the droid. We have what we need."
+    },
+    {
+      "character": "STORMTROOPER",
+      "text": "Pull back the tree line!"
+    },
+    {
+      "character": "FINN",
+      "text": "No!! Rey!!!"
+    },
+    {
+      "character": "FINN",
+      "text": "No, no, no, no, Rey!!"
+    },
+    {
+      "character": "FINN",
+      "text": "He took her! Did you see that? He took her. She's gone!"
+    },
+    {
+      "character": "HAN",
+      "text": "Yeah, yeah, I know..."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Goodness! Han Solo! It is I, See-Threepio! You probably don't recognize me because of the red arm. Look who it is! Did you see who? Oh. Excuse me, Prin, uh, General. Sorry. Come along, BB-8. Quickly. Yes, I must get my proper arm reinstalled."
+    },
+    {
+      "character": "HAN",
+      "text": "You changed your hair."
+    },
+    {
+      "character": "LEIA",
+      "text": "Same jacket."
+    },
+    {
+      "character": "HAN",
+      "text": "No, new jacket."
+    },
+    {
+      "character": "HAN",
+      "text": "I saw him. Leia, I saw our son. He was here."
+    },
+    {
+      "character": "FINN",
+      "text": "Poe. Poe Dameron."
+    },
+    {
+      "character": "FINN",
+      "text": "You're alive!"
+    },
+    {
+      "character": "POE",
+      "text": "So are you!"
+    },
+    {
+      "character": "FINN",
+      "text": "What happened to you?"
+    },
+    {
+      "character": "POE",
+      "text": "What happened? I got thrown from the crash, woke up at night, no you, no ship, nothing..."
+    },
+    {
+      "character": "POE",
+      "text": "BB-8 says that you saved him."
+    },
+    {
+      "character": "FINN",
+      "text": "No, no, no. It wasn't just me."
+    },
+    {
+      "character": "POE",
+      "text": "You completed my mission, Finn. That's my jacket?"
+    },
+    {
+      "character": "FINN",
+      "text": "Oh here."
+    },
+    {
+      "character": "POE",
+      "text": "No, no, no. Keep it. It suits you."
+    },
+    {
+      "character": "FINN",
+      "text": "Poe. Poe Dameron."
+    },
+    {
+      "character": "FINN",
+      "text": "You're alive!"
+    },
+    {
+      "character": "POE",
+      "text": "So are you!"
+    },
+    {
+      "character": "FINN",
+      "text": "What happened to you?"
+    },
+    {
+      "character": "POE",
+      "text": "What happened? I got thrown from the crash, woke up at night, no you, no ship, nothing..."
+    },
+    {
+      "character": "POE",
+      "text": "BB-8 says that you saved him."
+    },
+    {
+      "character": "FINN",
+      "text": "No, no, no. It wasn't just me."
+    },
+    {
+      "character": "POE",
+      "text": "You completed my mission, Finn. That's my jacket?"
+    },
+    {
+      "character": "FINN",
+      "text": "Oh here."
+    },
+    {
+      "character": "POE",
+      "text": "No, no, no. Keep it. It suits you. You're a good man, Finn."
+    },
+    {
+      "character": "FINN",
+      "text": "Poe, I need your help."
+    },
+    {
+      "character": "POE",
+      "text": "General Organa. Sorry to interrupt, this is Finn, he needs to talk to you."
+    },
+    {
+      "character": "LEIA",
+      "text": "And I need to talk to him. That was incredibly brave, what you did. Renouncing the First Order, saving this man's life."
+    },
+    {
+      "character": "FINN",
+      "text": "Thank you, ma'am, but a friend of mine was taken prisoner..."
+    },
+    {
+      "character": "LEIA",
+      "text": "Han told me about the girl, I'm sorry."
+    },
+    {
+      "character": "POE",
+      "text": "Finn's familiar with the weapon that destroyed the Hosnian system. He worked on the base."
+    },
+    {
+      "character": "LEIA",
+      "text": "We're desperate for anything you can tell us."
+    },
+    {
+      "character": "FINN",
+      "text": "That's where my friend was taken, I've got to get there, fast."
+    },
+    {
+      "character": "LEIA",
+      "text": "And I will do everything I can to help, but first you must tell us all you know."
+    },
+    {
+      "character": "DR. KALONIA",
+      "text": "That sounds very scary."
+    },
+    {
+      "character": "DR. KALONIA",
+      "text": "You must be so brave."
+    },
+    {
+      "character": "C-3PO",
+      "text": "General, I regret to inform you, but this map recovered from BB-8 is only partially complete. And even worse, it matches no charted system on record. We simply do not have enough information to locate Master Luke."
+    },
+    {
+      "character": "LEIA",
+      "text": "I can't believe I was so foolish to think that I could just find Luke and bring him home."
+    },
+    {
+      "character": "HAN",
+      "text": "Leia..."
+    },
+    {
+      "character": "LEIA",
+      "text": "Don't do that."
+    },
+    {
+      "character": "HAN",
+      "text": "Do what?"
+    },
+    {
+      "character": "LEIA",
+      "text": "Anything."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Princesses."
+    },
+    {
+      "character": "HAN",
+      "text": "I'm trying to be helpful!"
+    },
+    {
+      "character": "LEIA",
+      "text": "When did that ever help? And don't say the Death Star."
+    },
+    {
+      "character": "C-3PO",
+      "text": "BB-8. You're wasting your time."
+    },
+    {
+      "character": "C-3PO",
+      "text": "It is very doubtful that R2 would have the rest of the map in his backup data."
+    },
+    {
+      "character": "C-3PO",
+      "text": "I am afraid not. R2-D2 has been in low power mode ever since Master Luke went away. Sadly, he may never be his old self again."
+    },
+    {
+      "character": "HAN",
+      "text": "Listen to me, will you? I know every time you, every time you look at me, you're reminded of him."
+    },
+    {
+      "character": "LEIA",
+      "text": "You think I want to forget him? I want him back!"
+    },
+    {
+      "character": "HAN",
+      "text": "There was nothing we could've done. (hard for him to say) There was too much Vader in him."
+    },
+    {
+      "character": "LEIA",
+      "text": "That's why I wanted him to train with Luke. I just never should have sent him away. That's when I lost him. That's when I lost you both."
+    },
+    {
+      "character": "HAN",
+      "text": "We both had to deal with it in our own way. I went back to the only thing I was ever good at."
+    },
+    {
+      "character": "LEIA",
+      "text": "We both did."
+    },
+    {
+      "character": "HAN",
+      "text": "We lost our son, forever."
+    },
+    {
+      "character": "LEIA",
+      "text": "No. (long beat) It was Snoke."
+    },
+    {
+      "character": "LEIA",
+      "text": "He seduced our son to the dark side. But we can still save him. Me. You."
+    },
+    {
+      "character": "HAN",
+      "text": "If Luke couldn't reach him, how could I?"
+    },
+    {
+      "character": "LEIA",
+      "text": "Luke is a Jedi, you're his father. There's still light in him. I know it."
+    },
+    {
+      "character": "GENERAL STATURA",
+      "text": "General, the reconnaissance report on the enemy base is coming."
+    },
+    {
+      "character": "REY",
+      "text": "Where am I?"
+    },
+    {
+      "character": "KYLO REN",
+      "text": "You're my guest."
+    },
+    {
+      "character": "REY",
+      "text": "Where are the others?"
+    },
+    {
+      "character": "KYLO REN",
+      "text": "You mean the murderers, traitors and thieves you call friends? (Rey stares at him) You'll be relieved to hear that I have no idea."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "You still want to kill me."
+    },
+    {
+      "character": "REY",
+      "text": "That happens when you're being hunted by a creature in a mask."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Tell me about the droid."
+    },
+    {
+      "character": "REY",
+      "text": "He's a BB unit with a selenium drive and a thermal hyperscan vindicator."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "He's carrying a section of a navigational chart. We have the rest, recovered from archives of the Empire. We need the last piece. And somehow, you convinced the droid to show it to you. You. A scavenger."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "You know I can take whatever I want."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "You're so lonely, so afraid to leave. (then, slight smile) At night, desperate to sleep, you imagine an ocean. I see it. I see the island."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "And Han Solo. You feel like he's the father you never had. He would've disappointed you."
+    },
+    {
+      "character": "REY",
+      "text": "Get out of my head."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "I know you've seen the map. It's in there and now you'll give it to me. Don't be afraid. I feel it too."
+    },
+    {
+      "character": "REY",
+      "text": "I'm not giving you anything."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "We'll see."
+    },
+    {
+      "character": "REY",
+      "text": "You, you're afraid that you will never be as strong as Darth Vader!"
+    },
+    {
+      "character": "SNOKE",
+      "text": "This scavenger, resisted you?"
+    },
+    {
+      "character": "KYLO REN",
+      "text": "She's strong with the Force, untrained but, stronger than she knows."
+    },
+    {
+      "character": "SNOKE",
+      "text": "And the droid?"
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "Ren believed it was no longer valuable to us."
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "That the girl was all we needed. As a result, the droid has most likely been returned to the hands of the enemy. They may have the map already."
+    },
+    {
+      "character": "SNOKE",
+      "text": "Then the Resistance must be destroyed before they get to Skywalker."
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "We have their location. We tracked their reconnaissance ship to the Ileenium system."
+    },
+    {
+      "character": "SNOKE",
+      "text": "Good. Then we will crush them once and for all. Prepare the weapon."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Supreme Leader. I can get the map from the girl. I just need your guidance."
+    },
+    {
+      "character": "SNOKE",
+      "text": "If what you say about this girl is true, bring her to me."
+    },
+    {
+      "character": "REY",
+      "text": "You will remove these restraints. And leave this cell, with the door open."
+    },
+    {
+      "character": "TROOPER GUARD #2",
+      "text": "What did you say?"
+    },
+    {
+      "character": "REY",
+      "text": "You will remove these restraints. And leave this cell, with the door open."
+    },
+    {
+      "character": "TROOPER GUARD #2",
+      "text": "I'll tighten those restraints, scavenger scum!"
+    },
+    {
+      "character": "REY",
+      "text": "You will remove these restraints. And leave this cell, with the door open."
+    },
+    {
+      "character": "TROOPER GUARD #2",
+      "text": "I will remove these restraints. And leave this cell, with the door open."
+    },
+    {
+      "character": "REY",
+      "text": "And you will drop your weapon."
+    },
+    {
+      "character": "TROOPER GUARD #2",
+      "text": "And I'll drop my weapon."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "No!"
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "Begin charging the weapon!"
+    },
+    {
+      "character": "STARKILLER TECHNICIAN",
+      "text": "Yes, sir. Weapon charging."
+    },
+    {
+      "character": "POE",
+      "text": "The scan data from Snap's reconnaissance flight confirms Finn's report."
+    },
+    {
+      "character": "SNAP",
+      "text": "They've somehow created a hyper lightspeed weapon built within the planet itself."
+    },
+    {
+      "character": "BRANCE",
+      "text": "A laser cannon?"
+    },
+    {
+      "character": "SNAP",
+      "text": "We're not sure how to describe a weapon of this scale."
+    },
+    {
+      "character": "MAJOR EMATT",
+      "text": "It's another Death Star."
+    },
+    {
+      "character": "POE",
+      "text": "I wish that were the case, Major."
+    },
+    {
+      "character": "POE",
+      "text": "This was the Death Star."
+    },
+    {
+      "character": "POE",
+      "text": "This is Starkiller Base."
+    },
+    {
+      "character": "HAN",
+      "text": "So it's big."
+    },
+    {
+      "character": "ADMIRAL ACKBAR",
+      "text": "How is it possible to power a weapon of this size?"
+    },
+    {
+      "character": "FINN",
+      "text": "It uses the power of the sun. As the weapon is charged, the sun is drained until it disappears."
+    },
+    {
+      "character": "LEIA",
+      "text": "The First Order: they're charging the weapon again, now. (then, heart sinking) Our system is the next target."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh my. Without the Republic fleet, we're doomed."
+    },
+    {
+      "character": "HAN",
+      "text": "Okay, how do we blow it up? (all eyes on him) There's always a way to do that."
+    },
+    {
+      "character": "LEIA",
+      "text": "Han's right."
+    },
+    {
+      "character": "ADMIRAL STATURA",
+      "text": "In order for that amount of power to be contained, that base would need some kind of thermal oscillator..."
+    },
+    {
+      "character": "FINN",
+      "text": "There is one."
+    },
+    {
+      "character": "FINN",
+      "text": "Precinct 47. Here."
+    },
+    {
+      "character": "ADMIRAL STATURA",
+      "text": "If we can destroy that oscillator, it might de-stabilize the core and cripple the weapon."
+    },
+    {
+      "character": "MAJOR EMATT",
+      "text": "...Maybe the planet."
+    },
+    {
+      "character": "POE",
+      "text": "We'll go in there and we'll hit that oscillator with everything we got."
+    },
+    {
+      "character": "ADMIRAL ACKBAR",
+      "text": "They have defensive shields that our ships cannot penetrate."
+    },
+    {
+      "character": "HAN",
+      "text": "We disable the shields."
+    },
+    {
+      "character": "HAN",
+      "text": "Kid, you worked there, what do you got?"
+    },
+    {
+      "character": "FINN",
+      "text": "I can do it."
+    },
+    {
+      "character": "HAN",
+      "text": "I like this guy."
+    },
+    {
+      "character": "FINN",
+      "text": "I can disable the shields. But I have to be there, on the planet--"
+    },
+    {
+      "character": "HAN",
+      "text": "We'll get you there."
+    },
+    {
+      "character": "LEIA",
+      "text": "Han, how?"
+    },
+    {
+      "character": "HAN",
+      "text": "If I told you, you wouldn't like it."
+    },
+    {
+      "character": "POE",
+      "text": "So we disable the shields, take out the oscillator and we blow up their big gun. All right. Let's go!"
+    },
+    {
+      "character": "HAN",
+      "text": "Chewie, check that donal capitator. Come on. Let's go. Finn, be careful with those, they're explosives."
+    },
+    {
+      "character": "FINN",
+      "text": "Now you tell me?"
+    },
+    {
+      "character": "LEIA",
+      "text": "No matter how much we fought, I've always hated watching you leave."
+    },
+    {
+      "character": "HAN",
+      "text": "That's what I did it. So you'd miss me."
+    },
+    {
+      "character": "LEIA",
+      "text": "I did miss you."
+    },
+    {
+      "character": "HAN",
+      "text": "It wasn't all bad, was it? Huh? Some of it was good."
+    },
+    {
+      "character": "LEIA",
+      "text": "Pretty good."
+    },
+    {
+      "character": "HAN",
+      "text": "Some things never change."
+    },
+    {
+      "character": "LEIA",
+      "text": "True. You still drive me crazy."
+    },
+    {
+      "character": "HAN",
+      "text": "If you see our son again, bring him home."
+    },
+    {
+      "character": "STORMTROOPER",
+      "text": "Sir, sensors triggered in hangar 718. We'r"
+    },
+    {
+      "character": "HAN",
+      "text": "It wasn't all bad, was it? Huh? Some of it was good."
+    },
+    {
+      "character": "LEIA",
+      "text": "Pretty good."
+    },
+    {
+      "character": "HAN",
+      "text": "Some things never change."
+    },
+    {
+      "character": "LEIA",
+      "text": "True. You still drive me crazy."
+    },
+    {
+      "character": "LEIA",
+      "text": "If you see our son again, bring him home."
+    },
+    {
+      "character": "STORMTROOPER",
+      "text": "Sir, sensors triggered in hangar 718. We're searching the area."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "She's just beginning to test her powers. The longer it takes to find her, the more dangerous she becomes."
+    },
+    {
+      "character": "FINN",
+      "text": "How are we getting in?"
+    },
+    {
+      "character": "HAN",
+      "text": "Their shields have a fractional refresh rate. Keeps anything traveling slower than lightspeed from getting through."
+    },
+    {
+      "character": "FINN",
+      "text": "We're gonna make our landing approach at lightspeed?!"
+    },
+    {
+      "character": "HAN",
+      "text": "Alright, Chewie, get ready."
+    },
+    {
+      "character": "HAN",
+      "text": "And Now!"
+    },
+    {
+      "character": "HAN",
+      "text": "I am pulling up!!!"
+    },
+    {
+      "character": "HAN",
+      "text": "I get any higher, they'll see us!"
+    },
+    {
+      "character": "OFFICER",
+      "text": "Sir, she was not found in hangar 718 but all troops are on alert."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Put every hangar on lock-down. She's going to try to steal a ship to..."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Han Solo..."
+    },
+    {
+      "character": "FINN",
+      "text": "The flooding tunnels are over that ridge. We'll get in that way."
+    },
+    {
+      "character": "HAN",
+      "text": "What was your job when you were based here?"
+    },
+    {
+      "character": "FINN",
+      "text": "Sanitation."
+    },
+    {
+      "character": "HAN",
+      "text": "Sanitation? Then how do you know how to disable the shields?"
+    },
+    {
+      "character": "FINN",
+      "text": "I don't. I'm just here to get Rey."
+    },
+    {
+      "character": "HAN",
+      "text": "People are counting on us! The galaxy is counting on us...!"
+    },
+    {
+      "character": "FINN",
+      "text": "Solo, we'll figure it out! We'll use the Force!"
+    },
+    {
+      "character": "HAN",
+      "text": "That's not how the Force works...!"
+    },
+    {
+      "character": "HAN",
+      "text": "Oh really, you're cold?"
+    },
+    {
+      "character": "FINN",
+      "text": "Come on!"
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "Report."
+    },
+    {
+      "character": "FIRST ORDER OFFICER",
+      "text": "Weapon charged in fifteen minutes, sir."
+    },
+    {
+      "character": "STORMTROOPER FN-9330",
+      "text": "Hey!"
+    },
+    {
+      "character": "HAN",
+      "text": "The longer we're here, less luck we're going to have. The shields?"
+    },
+    {
+      "character": "FINN",
+      "text": "I have an idea about that."
+    },
+    {
+      "character": "FINN",
+      "text": "Remember me?"
+    },
+    {
+      "character": "CAPTAIN PHASMA",
+      "text": "FN-2187."
+    },
+    {
+      "character": "FINN",
+      "text": "Not anymore. The name's Finn, and I'm in charge. I'm in charge now, Phasma. I'm in charge."
+    },
+    {
+      "character": "HAN",
+      "text": "Bring it down. Bring it down."
+    },
+    {
+      "character": "FINN",
+      "text": "Follow me."
+    },
+    {
+      "character": "FINN",
+      "text": "You want me to blast that bucket off your head? Lower the shields."
+    },
+    {
+      "character": "CAPTAIN PHASMA",
+      "text": "You're making a big mistake."
+    },
+    {
+      "character": "FINN",
+      "text": "Do it."
+    },
+    {
+      "character": "FINN",
+      "text": "Solo, if this works, we're not going to have a lot of time to find Rey."
+    },
+    {
+      "character": "HAN",
+      "text": "Don't worry kid, we won't leave here without her."
+    },
+    {
+      "character": "CAPTAIN PHASMA",
+      "text": "You can't be so stupid as to think this will be easy. My troops will storm this block and kill you all."
+    },
+    {
+      "character": "FINN",
+      "text": "I disagree. What do we do with her?"
+    },
+    {
+      "character": "HAN",
+      "text": "Is there a garbage chute? Trash compactor?"
+    },
+    {
+      "character": "FINN",
+      "text": "Yeah, there is..."
+    },
+    {
+      "character": "OFFICER",
+      "text": "General, their shields are down!"
+    },
+    {
+      "character": "C-3PO",
+      "text": "Thank the Maker!"
+    },
+    {
+      "character": "LEIA",
+      "text": "Han did it! Send them in!"
+    },
+    {
+      "character": "ADMIRAL STATURA",
+      "text": "Give Poe full authorization to attack."
+    },
+    {
+      "character": "REAR ADMIRAL GULCH",
+      "text": "Black Leader, go to sub-lights. On your call."
+    },
+    {
+      "character": "POE",
+      "text": "Roger, base, red squad, blue squad, take my lead."
+    },
+    {
+      "character": "YOLO ZIFF",
+      "text": "Dropping out of lightspeed."
+    },
+    {
+      "character": "POE",
+      "text": "Almost in range! Hit the target dead center, as many runs as we can get!"
+    },
+    {
+      "character": "SNAP",
+      "text": "Approaching target."
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "Dispatch all squadrons..."
+    },
+    {
+      "character": "COLONEL DATOO",
+      "text": "Yes, General."
+    },
+    {
+      "character": "POE",
+      "text": "Let's light it up!"
+    },
+    {
+      "character": "LIEUTENANT BASTIAN",
+      "text": "Direct hit!"
+    },
+    {
+      "character": "ELLO ASTY",
+      "text": "But no damage!"
+    },
+    {
+      "character": "POE",
+      "text": "Yeah, we gotta keep hitting it! Another bombing run! Remember, when that sun is gone, that weapon will be ready to fire! But as long as there's light, we got a chance."
+    },
+    {
+      "character": "POE",
+      "text": "Guys, we got a lot of company!"
+    },
+    {
+      "character": "FINN",
+      "text": "We'll use the charges to blow that blast door. I'll go in and draw fire, but I'm gonna need cover."
+    },
+    {
+      "character": "HAN",
+      "text": "You sure you're up for this?"
+    },
+    {
+      "character": "FINN",
+      "text": "Hell no, I'll go in find and try to find Rey. (improvising, fast) The troopers'll be on our tail. We have to be ready for that. There's an access tunnel that'll leads. (Han starts pointing with his chin to something behind Finn) Why are you doing that? Why are you doing this? I'm trying to come up with a plan."
+    },
+    {
+      "character": "ADMIRAL ACKBAR",
+      "text": "The Oscillator's still standing."
+    },
+    {
+      "character": "OFFICER",
+      "text": "X-wings coming back for another round of attacks!"
+    },
+    {
+      "character": "HAN",
+      "text": "Are you all right?"
+    },
+    {
+      "character": "REY",
+      "text": "Yeah."
+    },
+    {
+      "character": "HAN",
+      "text": "Good."
+    },
+    {
+      "character": "FINN",
+      "text": "What happened, did he hurt you?"
+    },
+    {
+      "character": "REY",
+      "text": "Finn. What are you doing here?!"
+    },
+    {
+      "character": "FINN",
+      "text": "We came back for you."
+    },
+    {
+      "character": "FINN",
+      "text": "What'd he say?"
+    },
+    {
+      "character": "REY",
+      "text": "...That it was your idea."
+    },
+    {
+      "character": "REY",
+      "text": "Thank you."
+    },
+    {
+      "character": "FINN",
+      "text": "How did you get away?"
+    },
+    {
+      "character": "REY",
+      "text": "I can't explain it. And you wouldn't believe it."
+    },
+    {
+      "character": "HAN",
+      "text": "Escape now. Hug later."
+    },
+    {
+      "character": "SNAP",
+      "text": "I got one behind me. See it?"
+    },
+    {
+      "character": "JESS",
+      "text": "Yeah, I'm on it!"
+    },
+    {
+      "character": "JESS",
+      "text": "Furillo's been hit!"
+    },
+    {
+      "character": "SNAP",
+      "text": "Watch out for ground fire!"
+    },
+    {
+      "character": "HAN",
+      "text": "They're in trouble. We can't leave. (to Finn, re: Chewie) My friend here has a bag full of explosives. Let's use them."
+    },
+    {
+      "character": "KAYDEL KO CONNIX",
+      "text": "General, are you seeing this?"
+    },
+    {
+      "character": "VOBER DAND",
+      "text": "Two more X-wings down. That's half our fleet destroyed."
+    },
+    {
+      "character": "C-3PO",
+      "text": "And their weapon will be fully charged in 10 minutes! It would take a miracle to save us now."
+    },
+    {
+      "character": "HAN",
+      "text": "That girl knows her stuff."
+    },
+    {
+      "character": "HAN",
+      "text": "We'll set the charges at every other column."
+    },
+    {
+      "character": "HAN",
+      "text": "You're right. That's a better idea. (checks his detonator) You take the top. (Chewie does) I'll go down below. Detonator. We'll meet back here."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Find them."
+    },
+    {
+      "character": "HAN",
+      "text": "Ben!"
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Han Solo. I've been waiting for this day for a long time."
+    },
+    {
+      "character": "HAN",
+      "text": "Take off that mask"
+    },
+    {
+      "character": "HAN",
+      "text": "Ben!"
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Han Solo. I've been waiting for this day for a long time."
+    },
+    {
+      "character": "HAN",
+      "text": "Take off that mask. You don't need it."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "What do you think you'll see if I do?"
+    },
+    {
+      "character": "HAN",
+      "text": "The face of my son."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Your son is gone. He was weak and foolish, like his father. So I destroyed him."
+    },
+    {
+      "character": "HAN",
+      "text": "That's what Snoke wants you to believe but it's not true. My son is alive."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "No. The Supreme Leader is wise."
+    },
+    {
+      "character": "HAN",
+      "text": "Snoke is using you for your power. When he gets what he wants, he'll crush you, you know it's true."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "It's too late."
+    },
+    {
+      "character": "HAN",
+      "text": "No it's not. Leave here with me. Come home. We miss you."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "I'm being torn apart. I want to be free of this pain."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "I know what I have to do, but I don't know if I have the strength to do it. Will you help me?"
+    },
+    {
+      "character": "HAN",
+      "text": "Yes. Anything."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Thank you."
+    },
+    {
+      "character": "FINN",
+      "text": "Solo."
+    },
+    {
+      "character": "REY",
+      "text": "No, no."
+    },
+    {
+      "character": "ADMIRAL ACKBAR",
+      "text": "The Oscillator's been damaged but is still functional."
+    },
+    {
+      "character": "OFFICER TABALA ZO",
+      "text": "Admiral, their weapon will fire in two minutes."
+    },
+    {
+      "character": "FINN",
+      "text": "The Falcon's this way."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "We're not done yet."
+    },
+    {
+      "character": "REY",
+      "text": "You're a monster!"
+    },
+    {
+      "character": "KYLO REN",
+      "text": "It's just us now. Han Solo can't save you."
+    },
+    {
+      "character": "FINN",
+      "text": "Rey! Rey! Rey, Rey, Oh no. Oh no no no..."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "Traitor!"
+    },
+    {
+      "character": "KYLO REN",
+      "text": "That lightsaber. It belongs to me!"
+    },
+    {
+      "character": "FINN",
+      "text": "Come get it."
+    },
+    {
+      "character": "NIV LEK",
+      "text": "We just lost R-1!"
+    },
+    {
+      "character": "JESS",
+      "text": "We're overwhelmed! What do we do? It isn't working!"
+    },
+    {
+      "character": "YOLO ZIFF",
+      "text": "Black Leader, there's a brand new hole in that oscillator. Looks like our friends got in!"
+    },
+    {
+      "character": "POE",
+      "text": "Red Four! Red Six! Cover us!"
+    },
+    {
+      "character": "LIEUTENANT BASTIAN",
+      "text": "I'm on it!"
+    },
+    {
+      "character": "ELLO ASTY",
+      "text": "Roger!"
+    },
+    {
+      "character": "POE",
+      "text": "Everybody else, hit the target hard! Give it everything you got!"
+    },
+    {
+      "character": "POE",
+      "text": "I need some help here! I need some help!"
+    },
+    {
+      "character": "LIEUTENANT BASTIAN",
+      "text": "I'm coming in!"
+    },
+    {
+      "character": "JESS",
+      "text": "Watch out!"
+    },
+    {
+      "character": "ELLO ASTY",
+      "text": "I'm hit!"
+    },
+    {
+      "character": "POE",
+      "text": "All teams, I'm going in! Pull up and cover me!"
+    },
+    {
+      "character": "NIV LEK",
+      "text": "Copy that, Black Leader! Good luck, Poe!"
+    },
+    {
+      "character": "STARKILLER TECHNICIAN",
+      "text": "Weapon at full capacity in thirty seconds."
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "Prepare to fire."
+    },
+    {
+      "character": "KYLO REN",
+      "text": "You need a teacher! I can show you the ways of the Force!"
+    },
+    {
+      "character": "REY",
+      "text": "The Force."
+    },
+    {
+      "character": "COLONEL DATOO",
+      "text": "Lieutenant, get back to your station!"
+    },
+    {
+      "character": "YOUNG TECHNICIAN",
+      "text": "Just look. We won't survive, even Hux has gone!"
+    },
+    {
+      "character": "GENERAL HUX",
+      "text": "The fuel cells have ruptured. The collapse of the planet has begun."
+    },
+    {
+      "character": "SNOKE",
+      "text": "Leave the base at once and come to me with Kylo Ren. (grim) It is time to complete his training."
+    },
+    {
+      "character": "REY",
+      "text": "Finn! Finn..."
+    },
+    {
+      "character": "POE",
+      "text": "All teams! I got eyes on them!"
+    },
+    {
+      "character": "SNAP",
+      "text": "Yes!"
+    },
+    {
+      "character": "POE",
+      "text": "Our job's done here. Let's go home!"
+    },
+    {
+      "character": "MEDIC",
+      "text": "Easy, easy. He's hurt. We've got a heartbeat."
+    },
+    {
+      "character": "C-3PO",
+      "text": "R2-D2! You've come back! You found what? How dare you call me that! (he swats R2-D2, who continues beeping) Find Master Luke how? Come, R2! We must go tell the others at once!"
+    },
+    {
+      "character": "C-3PO",
+      "text": "General? Excuse me, General?"
+    },
+    {
+      "character": "C-3PO",
+      "text": "R2-D2 may contain some much needed good news."
+    },
+    {
+      "character": "LEIA",
+      "text": "Tell me."
+    },
+    {
+      "character": "POE",
+      "text": "Yeah, all right, buddy, hold on."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh! The map! It is complete!"
+    },
+    {
+      "character": "LEIA",
+      "text": "Luke."
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh my dear friend. How I've missed you."
+    },
+    {
+      "character": "REY",
+      "text": "We'll see each other again. I believe that. Thank you, my friend."
+    },
+    {
+      "character": "LEIA",
+      "text": "Rey."
+    },
+    {
+      "character": "LEIA",
+      "text": "May the Force be with you."
+    },
+    {
+      "character": "LEIA",
+      "text": "Rey."
+    },
+    {
+      "character": "LEIA",
+      "text": "May the Force be with you."
+    }
+  ]
+}

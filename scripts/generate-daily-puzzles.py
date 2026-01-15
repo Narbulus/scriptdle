@@ -105,25 +105,35 @@ class PuzzleGenerator:
                     'text': line['text'],
                     'movie': script['title'],
                     'movieId': movie_id,
-                    'originalIndex': idx
+                    'originalIndex': idx,
+                    'year': script.get('year')
                 })
 
         return all_lines
 
     def build_metadata(self, all_lines):
         """Build character lists per movie"""
-        movies = set()
+        movies_with_year = {}  # movie title -> year
         characters_by_movie = {}
 
         for line in all_lines:
             movie = line['movie']
-            movies.add(movie)
+            if movie not in movies_with_year:
+                movies_with_year[movie] = line.get('year')
             if movie not in characters_by_movie:
                 characters_by_movie[movie] = set()
             characters_by_movie[movie].add(line['character'])
 
+        # Sort movies by year (if available), then alphabetically
+        # Movies without year go to the end
+        sorted_movies = sorted(
+            movies_with_year.keys(),
+            key=lambda m: (movies_with_year[m] is None, movies_with_year[m] or 0, m)
+        )
+
         return {
-            'movies': sorted(list(movies)),
+            'movies': sorted_movies,
+            'movieYears': {movie: year for movie, year in movies_with_year.items() if year},
             'charactersByMovie': {
                 movie: sorted(list(chars))
                 for movie, chars in characters_by_movie.items()
@@ -138,7 +148,7 @@ class PuzzleGenerator:
         target_line = all_lines[target_index]
         context_before = all_lines[target_index - 1] if target_index > 0 else None
         context_after = []
-        for i in range(1, 6):
+        for i in range(1, 4):  # Changed from 6 to 4 (only 3 lines after)
             if target_index + i < len(all_lines):
                 context_after.append(all_lines[target_index + i])
 
@@ -171,7 +181,7 @@ class PuzzleGenerator:
 
     def generate_manifest(self, pack, start_date, end_date, total_lines):
         """Generate manifest file for a pack"""
-        return {
+        manifest = {
             'packId': pack['id'],
             'packName': pack['name'],
             'generatedAt': datetime.now().isoformat(),
@@ -182,6 +192,12 @@ class PuzzleGenerator:
             'totalPuzzles': (datetime.fromisoformat(end_date) - datetime.fromisoformat(start_date)).days + 1,
             'cycleLength': total_lines
         }
+
+        # Include tierMessages if present in pack definition
+        if 'tierMessages' in pack:
+            manifest['tierMessages'] = pack['tierMessages']
+
+        return manifest
 
     def generate_for_pack(self, pack_id, days=365):
         """Generate daily puzzles for a pack"""
@@ -243,6 +259,39 @@ class PuzzleGenerator:
         print(f"Date range: {start_date} to {end_date}")
         print(f"Output directory: {pack_daily_dir}")
 
+    def generate_themes_file(self):
+        """Generate themes.js file with all pack themes"""
+        print(f"\n{'='*60}")
+        print(f"Generating themes.js...")
+        print(f"{'='*60}")
+
+        # Find all pack files
+        pack_files = list(self.packs_dir.glob('*.json'))
+        themes = {}
+
+        for pack_file in pack_files:
+            pack_id = pack_file.stem
+            try:
+                pack = self.load_pack(pack_id)
+                if 'theme' in pack:
+                    themes[pack_id] = pack['theme']
+                    print(f"  Loaded theme for {pack_id}")
+            except Exception as e:
+                print(f"  Warning: Failed to load theme for {pack_id}: {e}")
+
+        # Generate JavaScript file
+        js_content = "// Auto-generated theme data - DO NOT EDIT\n"
+        js_content += "// Run 'python scripts/generate-daily-puzzles.py' to regenerate\n\n"
+        js_content += "window.SCRIPTLE_THEMES = " + json.dumps(themes, indent=2) + ";\n"
+
+        # Write to public directory
+        themes_file = Path('public/themes.js')
+        with open(themes_file, 'w', encoding='utf-8') as f:
+            f.write(js_content)
+
+        print(f"\nGenerated themes.js with {len(themes)} pack(s)")
+        print(f"Output file: {themes_file}")
+
     def generate_all(self, days=365):
         """Generate puzzles for all packs"""
         # Find all pack files
@@ -257,6 +306,9 @@ class PuzzleGenerator:
             except Exception as e:
                 print(f"Error generating puzzles for {pack_id}: {e}")
                 raise
+
+        # Generate themes file
+        self.generate_themes_file()
 
         print(f"\n{'='*60}")
         print(f"Generation complete!")
@@ -275,6 +327,8 @@ def main():
 
     if args.pack:
         generator.generate_for_pack(args.pack, args.days)
+        # Also regenerate themes file
+        generator.generate_themes_file()
     else:
         generator.generate_all(args.days)
 
