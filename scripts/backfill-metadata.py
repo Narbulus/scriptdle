@@ -71,8 +71,9 @@ def backfill_script_metadata(script_file: Path, dry_run: bool = False) -> bool:
     has_line_count = 'lineCount' in script_data
     has_character_count = 'characterCount' in script_data
     has_top_cast_count = 'topCastCount' in script_data
+    has_top_cast = 'topCast' in script_data
 
-    if has_line_count and has_character_count and has_top_cast_count:
+    if has_line_count and has_character_count and has_top_cast_count and has_top_cast:
         print(f"  ✓ {script_file.name} - Already has metadata")
         return False
 
@@ -88,6 +89,8 @@ def backfill_script_metadata(script_file: Path, dry_run: bool = False) -> bool:
         script_data['characterCount'] = len(characters)
     if not has_top_cast_count:
         script_data['topCastCount'] = len(top_cast)
+    if not has_top_cast:
+        script_data['topCast'] = top_cast
 
     # Save if not dry run
     if not dry_run:
