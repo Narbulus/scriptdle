@@ -501,7 +501,8 @@ export class GameDaily {
   }
 
   generateShareString(success) {
-    let grid = `Scriptle: ${this.pack.name}\n\n`;
+    // Use dash instead of colon - iOS interprets colon as URL scheme and encodes everything
+    let grid = `Scriptle - ${this.pack.name}\n\n`;
 
     let movieRow = '';
     let charRow = '';
