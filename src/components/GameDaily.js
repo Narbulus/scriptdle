@@ -524,10 +524,9 @@ export class GameDaily {
 
   generateShareData(success) {
     const text = this.generateShareString(success);
-    // Don't include URL - just like Wordle, only share the emoji grid
-    // This prevents iOS share sheet from URL-encoding the text
+    const url = window.location.href;
     return {
-      text: text
+      text: text + '\n\n' + url
     };
   }
 
@@ -745,8 +744,11 @@ export class GameDaily {
     const shareData = this.generateShareData(success);
     const shareText = shareData.text;
 
-    // Try native share first if available (just like Wordle)
-    if (navigator.share) {
+    // Detect mobile devices
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+    // On mobile, use native share sheet; on desktop, copy to clipboard
+    if (isMobile && navigator.share) {
       try {
         await navigator.share(shareData);
         return;
@@ -757,7 +759,7 @@ export class GameDaily {
       }
     }
 
-    // Try modern clipboard API (works on HTTPS)
+    // Copy to clipboard (desktop or mobile fallback)
     if (navigator.clipboard && window.isSecureContext) {
       try {
         await navigator.clipboard.writeText(shareText);
@@ -768,28 +770,7 @@ export class GameDaily {
       }
     }
 
-    // Fallback for iOS and older browsers - use textarea method
-    try {
-      const textarea = document.createElement('textarea');
-      textarea.value = shareText;
-      textarea.style.position = 'fixed';
-      textarea.style.opacity = '0';
-      document.body.appendChild(textarea);
-      textarea.focus();
-      textarea.select();
-
-      const successful = document.execCommand('copy');
-      document.body.removeChild(textarea);
-
-      if (successful) {
-        this.showCopiedFeedback();
-        return;
-      }
-    } catch (err) {
-      console.error('Textarea fallback failed:', err);
-    }
-
-    // Final fallback - show in alert for manual copy
+    // Final fallback - show in alert
     alert('Copy this to share:\n\n' + shareText);
   }
 
