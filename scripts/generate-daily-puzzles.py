@@ -48,29 +48,50 @@ class PuzzleGenerator:
         """Get seed from date string - matches Game.js getDateSeed exactly"""
         return self.hash_string(date_str)
 
-    def select_target_index(self, pack_id, date_str, total_lines):
+    def build_significant_lines_index(self, scripts, all_lines):
         """
-        Select target line index for a given pack and date.
-        Matches Game.js selectTarget() logic exactly.
+        Build index of line indices where character is significant.
+        Returns list of indices into all_lines array.
         """
+        # Build set of significant characters per movie
+        significant_by_movie = {}
+        for movie_id, script in scripts.items():
+            movie_title = script['title']
+            significant_by_movie[movie_title] = set(script.get('topCast', []))
+
+        # Find indices of lines from significant characters
+        significant_indices = []
+        for idx, line in enumerate(all_lines):
+            movie = line['movie']
+            character = line['character']
+            if character in significant_by_movie.get(movie, set()):
+                # Also check padding: need 1 before, 3 after
+                if idx >= 1 and idx < len(all_lines) - 3:
+                    significant_indices.append(idx)
+
+        return significant_indices
+
+    def select_target_index(self, pack_id, date_str, significant_indices):
+        """
+        Select target line index from significant character lines only.
+        """
+        if not significant_indices:
+            raise ValueError("No significant character lines available!")
+
         date_seed = self.get_date_seed(date_str)
         pack_hash = self.hash_string(pack_id)
         combined_seed = date_seed + pack_hash
 
         rng = self.mulberry32(combined_seed)
 
-        # Need padding for context lines
-        min_index = 1
-        max_index = total_lines - 6
-
-        if max_index < min_index:
-            return 0
-
+        # Select from filtered pool
         random_value = rng()
-        target_index = min_index + int(random_value * (max_index - min_index))
+        selected_idx = int(random_value * len(significant_indices))
+
+        target_index = significant_indices[selected_idx]
 
         print(f"  Date: {date_str}, DateSeed: {date_seed}, PackHash: {pack_hash}, Combined: {combined_seed}")
-        print(f"  RNG value: {random_value:.6f}, Target index: {target_index}, Total lines: {total_lines}")
+        print(f"  RNG value: {random_value:.6f}, Target index: {target_index}, Significant lines: {len(significant_indices)}")
 
         return target_index
 
@@ -111,38 +132,39 @@ class PuzzleGenerator:
 
         return all_lines
 
-    def build_metadata(self, all_lines):
-        """Build character lists per movie"""
-        movies_with_year = {}  # movie title -> year
-        characters_by_movie = {}
+    def build_metadata(self, all_lines, scripts):
+        """Build metadata with significant characters only"""
+        movies_with_year = {}
+        significant_by_movie = {}
 
-        for line in all_lines:
-            movie = line['movie']
-            if movie not in movies_with_year:
-                movies_with_year[movie] = line.get('year')
-            if movie not in characters_by_movie:
-                characters_by_movie[movie] = set()
-            characters_by_movie[movie].add(line['character'])
+        # Get significant characters from script metadata
+        for movie_id, script in scripts.items():
+            movie_title = script['title']
+            significant_by_movie[movie_title] = script.get('topCast', [])
+            movies_with_year[movie_title] = script.get('year')
+
+        # Collect all movie titles from lines
+        movies = set(line['movie'] for line in all_lines)
 
         # Sort movies by year (if available), then alphabetically
         # Movies without year go to the end
         sorted_movies = sorted(
-            movies_with_year.keys(),
-            key=lambda m: (movies_with_year[m] is None, movies_with_year[m] or 0, m)
+            movies,
+            key=lambda m: (movies_with_year.get(m) is None, movies_with_year.get(m) or 0, m)
         )
 
         return {
             'movies': sorted_movies,
-            'movieYears': {movie: year for movie, year in movies_with_year.items() if year},
+            'movieYears': {m: year for m, year in movies_with_year.items() if year},
             'charactersByMovie': {
-                movie: sorted(list(chars))
-                for movie, chars in characters_by_movie.items()
+                movie: sorted(significant_by_movie.get(movie, []))
+                for movie in sorted_movies
             }
         }
 
-    def generate_daily_puzzle(self, pack_id, date_str, all_lines, metadata):
+    def generate_daily_puzzle(self, pack_id, date_str, all_lines, significant_indices, metadata):
         """Generate puzzle data for a specific date"""
-        target_index = self.select_target_index(pack_id, date_str, len(all_lines))
+        target_index = self.select_target_index(pack_id, date_str, significant_indices)
 
         # Extract target line and context
         target_line = all_lines[target_index]
@@ -209,11 +231,13 @@ class PuzzleGenerator:
         pack = self.load_pack(pack_id)
         scripts = self.load_scripts(pack['movies'])
 
-        # Flatten lines and build metadata
+        # Flatten lines and build significant lines index
         all_lines = self.flatten_lines(scripts)
-        metadata = self.build_metadata(all_lines)
+        significant_indices = self.build_significant_lines_index(scripts, all_lines)
+        metadata = self.build_metadata(all_lines, scripts)
 
         print(f"Total lines: {len(all_lines)}")
+        print(f"Significant character lines: {len(significant_indices)}")
         print(f"Movies: {len(metadata['movies'])}")
 
         # Create output directory
@@ -231,7 +255,7 @@ class PuzzleGenerator:
             date_str = current_date.isoformat()
 
             # Generate puzzle
-            puzzle_data = self.generate_daily_puzzle(pack_id, date_str, all_lines, metadata)
+            puzzle_data = self.generate_daily_puzzle(pack_id, date_str, all_lines, significant_indices, metadata)
 
             # Write puzzle file
             puzzle_file = pack_daily_dir / f'{date_str}.json'
