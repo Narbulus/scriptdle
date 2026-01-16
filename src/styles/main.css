@@ -26,7 +26,17 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  animation: fadeIn 0.15s ease-in;
+}
+
+#nav-bar-container {
+  /* Nav container - inherits styling from child .nav-bar */
+}
+
+#content-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* No animation - instant swap per user preference */
 }
 
 #game-area {

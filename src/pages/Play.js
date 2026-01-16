@@ -2,19 +2,19 @@ import { Game } from '../components/Game.js';
 import { GameDaily } from '../components/GameDaily.js';
 
 export async function renderPlay(params) {
-  const app = document.getElementById('app');
-  const { packId, movieId, singleMovie } = params;
+  const { packId, movieId, singleMovie, navContainer, contentContainer } = params;
 
-  app.innerHTML = `
-    <div class="container">
-      <!-- Navigation Bar - Always visible -->
-      <a href="/" data-link class="nav-bar nav-bar-link">
-        <div class="nav-logo">Scriptle</div>
-      </a>
+  // Render nav in persistent container
+  navContainer.innerHTML = `
+    <a href="/" data-link class="nav-bar nav-bar-link">
+      <div class="nav-logo">Scriptle</div>
+    </a>
+  `;
 
-      <div id="loading" style="text-align:center; font-family:sans-serif; padding: 3rem;">Loading...</div>
-      <div id="game-area" style="display:none;"></div>
-    </div>
+  // Render loading state in content container
+  contentContainer.innerHTML = `
+    <div id="loading" style="text-align:center; font-family:sans-serif; padding: 3rem;">Loading...</div>
+    <div id="game-area" style="display:none;"></div>
   `;
 
   try {
@@ -49,42 +49,47 @@ export async function renderPlay(params) {
       // Pack mode - use pre-generated daily puzzle
       const today = new Date().toISOString().split('T')[0];
 
-      // Fetch pack index to get all packs
-      const indexRes = await fetch('/data/index.json');
-      const indexData = indexRes.ok ? await indexRes.json() : { packs: [] };
+      // Fetch pack data and manifest in parallel (independent requests)
+      const [packRes, manifestRes] = await Promise.all([
+        fetch(`/data/packs/${packId}.json`),
+        fetch(`/data/daily/${packId}/manifest.json`)
+      ]);
 
-      // Fetch pack definition for theme
-      const packRes = await fetch(`/data/packs/${packId}.json`);
       if (!packRes.ok) {
         throw new Error(`Pack "${packId}" not found`);
       }
-      const packData = await packRes.json();
-
-      // Fetch manifest
-      const manifestRes = await fetch(`/data/daily/${packId}/manifest.json`);
       if (!manifestRes.ok) {
         throw new Error(`Pack "${packId}" has no daily puzzles`);
       }
-      const manifest = await manifestRes.json();
 
-      // Fetch today's puzzle
-      const puzzleRes = await fetch(`/data/daily/${packId}/${today}.json`);
-      if (!puzzleRes.ok) {
-        throw new Error(`Daily puzzle not available for ${today}. Please try again later or contact support.`);
-      }
-      const dailyPuzzle = await puzzleRes.json();
+      const [packData, manifest] = await Promise.all([
+        packRes.json(),
+        manifestRes.json()
+      ]);
 
-      // Apply theme from pack definition
+      // Apply theme immediately (before fetching puzzle)
       const pack = {
         id: packId,
         name: packData.name,
         theme: packData.theme
       };
-
-      // Set page title
       document.title = `Scriptle - A daily ${packData.name} movie quote game`;
-
       applyTheme(pack);
+
+      // Fetch puzzle and index in parallel
+      const [puzzleRes, indexRes] = await Promise.all([
+        fetch(`/data/daily/${packId}/${today}.json`),
+        fetch('/data/index.json')
+      ]);
+
+      if (!puzzleRes.ok) {
+        throw new Error(`Daily puzzle not available for ${today}. Please try again later or contact support.`);
+      }
+
+      const [dailyPuzzle, indexData] = await Promise.all([
+        puzzleRes.json(),
+        indexRes.ok ? indexRes.json() : Promise.resolve({ packs: [] })
+      ]);
 
       // Initialize daily game
       document.getElementById('loading').style.display = 'none';
@@ -105,10 +110,13 @@ export async function renderPlay(params) {
 
   } catch (e) {
     console.error('Failed to load game:', e);
-    document.getElementById('loading').innerHTML = `
-      <span style="color:red; font-weight:bold;">Error loading game data.</span><br><br>
-      ${e.message || 'Pack or movie not found.'}
-    `;
+    const loading = contentContainer.querySelector('#loading');
+    if (loading) {
+      loading.innerHTML = `
+        <span style="color:red; font-weight:bold;">Error loading game data.</span><br><br>
+        ${e.message || 'Pack or movie not found.'}
+      `;
+    }
   }
 }
 
