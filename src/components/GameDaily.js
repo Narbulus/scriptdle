@@ -523,9 +523,10 @@ export class GameDaily {
 
   generateShareData(success) {
     const text = this.generateShareString(success);
-    const url = window.location.href + ' '; // Extra space at end helps iOS
+    // Don't include URL - just like Wordle, only share the emoji grid
+    // This prevents iOS share sheet from URL-encoding the text
     return {
-      text: text + '\n\n' + url
+      text: text
     };
   }
 
@@ -743,12 +744,8 @@ export class GameDaily {
     const shareData = this.generateShareData(success);
     const shareText = shareData.text;
 
-    // Skip navigator.share on iOS due to Copy button URL encoding bug
-    // Go straight to clipboard for reliable copying
-    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-
-    // Try native share first if available (but skip on iOS)
-    if (navigator.share && !isIOS) {
+    // Try native share first if available (just like Wordle)
+    if (navigator.share) {
       try {
         await navigator.share(shareData);
         return;
