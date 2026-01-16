@@ -82,6 +82,10 @@ export class GameDaily {
     // Show share container
     document.getElementById('game-controls').style.display = 'none';
     document.getElementById('share-container').style.display = 'flex';
+
+    // Update final attempt counter
+    const finalCount = document.getElementById('attempt-count-final');
+    if (finalCount) finalCount.textContent = this.currentAttempt;
   }
 
   reconstructGuessHistory(savedProgress) {
@@ -152,12 +156,19 @@ export class GameDaily {
           <div id="char-error" class="form-error"></div>
           <div class="footer-actions">
             <button id="guess-btn">Make Your Guess</button>
-            <div class="footer-attempts"><span id="attempt-count">${this.currentAttempt}</span>/5 Attempts</div>
+            <div class="footer-meta">
+              <div class="footer-attempts"><span id="attempt-count">${this.currentAttempt}</span>/5 Attempts</div>
+              <a href="/" data-link class="footer-more-movies">More Movies</a>
+            </div>
           </div>
         </div>
 
-        <div id="share-container" style="display: ${this.gameOver ? 'flex' : 'none'};">
+        <div id="share-container" style="display: ${this.gameOver ? 'flex' : 'none'}; flex-direction: column; align-items: center; gap: 1rem;">
           <button id="share-btn">Share Results</button>
+          <div class="footer-meta">
+            <div class="footer-attempts"><span id="attempt-count-final">${this.currentAttempt}</span>/5 Attempts</div>
+            <a href="/" data-link class="footer-more-movies">More Movies</a>
+          </div>
         </div>
 
         <div id="other-packs-container"></div>
@@ -446,6 +457,8 @@ export class GameDaily {
       this.renderScript();
       document.getElementById('game-controls').style.display = 'none';
       document.getElementById('share-container').style.display = 'flex';
+      const finalCount = document.getElementById('attempt-count-final');
+      if (finalCount) finalCount.textContent = this.currentAttempt;
     } else {
       this.currentAttempt++;
       document.getElementById('attempt-count').textContent = this.currentAttempt;
@@ -457,6 +470,8 @@ export class GameDaily {
         this.renderScript();
         document.getElementById('game-controls').style.display = 'none';
         document.getElementById('share-container').style.display = 'flex';
+        const finalCount = document.getElementById('attempt-count-final');
+        if (finalCount) finalCount.textContent = this.currentAttempt;
       } else {
         let msg = 'Incorrect.';
         if (movieCorrect) msg = 'Movie is correct! Character is wrong.';
@@ -712,24 +727,7 @@ export class GameDaily {
   }
 
   renderOtherPacks() {
-    const container = document.getElementById('other-packs-container');
-    if (!container) return;
-
-    container.innerHTML = `
-      <div style="text-align: center;">
-        <a href="/" data-link style="
-          font-family: 'Courier New', Courier, monospace;
-          color: var(--primary-color);
-          text-decoration: none;
-          font-size: 1rem;
-          font-style: italic;
-          opacity: 0.7;
-          transition: opacity 0.2s;
-        " onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.7'">
-          More Movies
-        </a>
-      </div>
-    `;
+    // No longer needed - "More Movies" is now inline with attempt counter
   }
 
   async shareResults() {
@@ -760,7 +758,28 @@ export class GameDaily {
       }
     }
 
-    // Fallback - show in alert for manual copy
+    // Fallback for iOS and older browsers - use textarea method
+    try {
+      const textarea = document.createElement('textarea');
+      textarea.value = shareText;
+      textarea.style.position = 'fixed';
+      textarea.style.opacity = '0';
+      document.body.appendChild(textarea);
+      textarea.focus();
+      textarea.select();
+
+      const successful = document.execCommand('copy');
+      document.body.removeChild(textarea);
+
+      if (successful) {
+        this.showCopiedFeedback();
+        return;
+      }
+    } catch (err) {
+      console.error('Textarea fallback failed:', err);
+    }
+
+    // Final fallback - show in alert for manual copy
     alert('Copy this to share:\n\n' + shareText);
   }
 

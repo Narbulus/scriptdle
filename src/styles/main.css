@@ -211,13 +211,40 @@ body {
   gap: 1rem;
 }
 
+.footer-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  gap: 2rem;
+}
+
 .footer-attempts {
   font-family: 'Courier New', Courier, monospace;
   font-size: 1rem;
   font-weight: bold;
+  font-style: normal;
   color: var(--primary-color);
   text-transform: uppercase;
   letter-spacing: 0.05em;
+}
+
+.footer-more-movies {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  color: var(--primary-color);
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.footer-more-movies:hover {
+  opacity: 1;
 }
 
 .footer-button-wrapper {
@@ -306,6 +333,15 @@ h2 {
   height: 44px;
   background-size: contain;
   background-repeat: no-repeat;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
+}
+
+.completion-badge.emoji-badge {
+  background-image: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
 }
 
@@ -567,15 +603,17 @@ button:active {
 }
 
 #share-btn {
-  background: #28a745;
+  background: var(--primary-color);
+  color: var(--btn-text);
   font-weight: bold;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
 }
 
 #share-btn:hover {
-  background: #218838;
+  filter: brightness(1.2);
 }
 
 #share-preview {
