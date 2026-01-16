@@ -22,8 +22,8 @@ export async function renderHome() {
       const stored = localStorage.getItem(key);
       if (!stored) return null;
       const data = JSON.parse(stored);
-      if (data.gameOver && data.success) {
-        return { attempts: data.attempts };
+      if (data.gameOver) {
+        return { attempts: data.attempts, success: data.success };
       }
       return null;
     } catch (err) {
@@ -69,10 +69,24 @@ export async function renderHome() {
       // Check if pack is completed today
       const completion = getCompletionStatus(pack.id);
       const today = new Date().toISOString().split('T')[0];
-      const flowerSeed = stringToSeed(pack.id + today);
+      const badgeSeed = stringToSeed(pack.id + today);
       const cardColor = theme ? theme.cardGradientStart : '#cccccc';
-      const flowerSvg = generateFlower(flowerSeed, cardColor);
-      const badge = completion ? `<div class="completion-badge" style="background-image: url('${flowerSvg}');"></div>` : '';
+
+      let badge = '';
+      if (completion) {
+        if (completion.success) {
+          // Success: show flower
+          const flowerSvg = generateFlower(badgeSeed, cardColor);
+          badge = `<div class="completion-badge" style="background-image: url('${flowerSvg}');"></div>`;
+        } else {
+          // Failure: show random emoji sticker
+          const failEmojis = ['💀', '🙊', '🤡', '🤨', '🫣'];
+          const emojiIndex = badgeSeed % failEmojis.length;
+          const emoji = failEmojis[emojiIndex];
+          const rotation = (badgeSeed % 30) - 15; // Random rotation between -15 and +15 degrees
+          badge = `<div class="completion-badge emoji-badge" style="transform: rotate(${rotation}deg);">${emoji}</div>`;
+        }
+      }
 
       return `
         <a href="/play/${pack.id}" data-link class="pack-card" data-pack-id="${pack.id}" style="${cardStyle}">
