@@ -1,8 +1,7 @@
 import { router } from '../router.js';
 import { generateFlower, stringToSeed } from '../utils/flowerGenerator.js';
 
-export async function renderHome() {
-  const app = document.getElementById('app');
+export async function renderHome({ navContainer, contentContainer }) {
 
   // Set page title for home
   document.title = 'Scriptle - A daily movie quote game';
@@ -118,25 +117,29 @@ export async function renderHome() {
       `).join('');
     };
 
-    app.innerHTML = `
-      <div class="container">
-        <div class="nav-bar nav-bar-centered">
-          <div class="nav-logo">Scriptle</div>
-        </div>
+    // Render nav bar in persistent container
+    navContainer.innerHTML = `
+      <div class="nav-bar nav-bar-centered">
+        <div class="nav-logo">Scriptle</div>
+      </div>
+    `;
 
-        <div class="script-title-section" style="flex: 1;">
-          ${renderCategories()}
-        </div>
+    // Render content in swappable container
+    contentContainer.innerHTML = `
+      <div class="script-title-section" style="flex: 1;">
+        ${renderCategories()}
       </div>
     `;
   } catch (e) {
     console.error('Failed to load pack index:', e);
-    app.innerHTML = `
-      <div class="container">
-        <h1>Scriptle</h1>
-        <p style="text-align: center; color: red;">
-          Failed to load game data. Please try again later.
-        </p>
+    navContainer.innerHTML = `
+      <div class="nav-bar nav-bar-centered">
+        <div class="nav-logo">Scriptle</div>
+      </div>
+    `;
+    contentContainer.innerHTML = `
+      <div style="text-align: center; color: red; padding: 3rem;">
+        Failed to load game data. Please try again later.
       </div>
     `;
   }

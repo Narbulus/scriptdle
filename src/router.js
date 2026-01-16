@@ -50,7 +50,14 @@ function handleRoute() {
   const matched = matchRoute(path);
 
   if (matched) {
-    matched.handler(matched.params);
+    const navContainer = document.getElementById('nav-bar-container');
+    const contentContainer = document.getElementById('content-area');
+
+    matched.handler({
+      ...matched.params,
+      navContainer,
+      contentContainer
+    });
   } else {
     // 404 - redirect to home
     navigate('/', true);
@@ -58,6 +65,16 @@ function handleRoute() {
 }
 
 function init() {
+  const app = document.getElementById('app');
+
+  // Create persistent shell structure
+  app.innerHTML = `
+    <div class="container">
+      <div id="nav-bar-container"></div>
+      <div id="content-area"></div>
+    </div>
+  `;
+
   // Handle browser back/forward
   window.addEventListener('popstate', handleRoute);
 
