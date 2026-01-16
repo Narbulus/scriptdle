@@ -748,7 +748,7 @@
     },
     {
       "character": "MIKE",
-      "text": "Sulley, the bear! The bear! Give it the\u2026"
+      "text": "Sulley, the bear! The bear! Give it the…"
     },
     {
       "character": "MIKE",
@@ -760,7 +760,7 @@
     },
     {
       "character": "MIKE",
-      "text": "I have no idea. But it would be really great if it didn't\u2026do it\u2026again."
+      "text": "I have no idea. But it would be really great if it didn't…do it…again."
     },
     {
       "character": "BOO",
@@ -780,7 +780,7 @@
     },
     {
       "character": "BOO",
-      "text": "La la la la la la la la\u2026"
+      "text": "La la la la la la la la…"
     },
     {
       "character": "MIKE",
@@ -1320,15 +1320,15 @@
     },
     {
       "character": "MIKE",
-      "text": "\u266a Put that thing back where it came from, or so help me... \u266a"
+      "text": "♪ Put that thing back where it came from, or so help me... ♪"
     },
     {
       "character": "SULLEY",
-      "text": "\u266a Bom, bom, bom, bom... \u266a"
+      "text": "♪ Bom, bom, bom, bom... ♪"
     },
     {
       "character": "MIKE",
-      "text": "\u266a So help me! So help me! \u266a And cut. Heh, heh. We're still working on it. It's a work in progress. But hey, we need ushers!"
+      "text": "♪ So help me! So help me! ♪ And cut. Heh, heh. We're still working on it. It's a work in progress. But hey, we need ushers!"
     },
     {
       "character": "MIKE",
@@ -1368,7 +1368,7 @@
     },
     {
       "character": "MIKE",
-      "text": "\u266a She's out of our hair! \u266a"
+      "text": "♪ She's out of our hair! ♪"
     },
     {
       "character": "RANDALL",
@@ -1896,7 +1896,7 @@
     },
     {
       "character": "SULLEY",
-      "text": "\u266a Oh, he's a happy bear... \u266a"
+      "text": "♪ Oh, he's a happy bear... ♪"
     },
     {
       "character": "BOO",
@@ -2022,5 +2022,8 @@
       "character": "MIKE",
       "text": "Let me see it! Ha ha ha! Sulley and I made the cover, right?"
     }
-  ]
+  ],
+  "lineCount": 493,
+  "characterCount": 45,
+  "topCastCount": 14
 }

@@ -490,7 +490,7 @@
     },
     {
       "character": "MOLLY WEASLEY",
-      "text": "Harry, dear, go on upstairs-\u2014 quietly, if you please. They're all up there."
+      "text": "Harry, dear, go on upstairs-— quietly, if you please. They're all up there."
     },
     {
       "character": "HERMIONE GRANGER",
@@ -1266,7 +1266,7 @@
     },
     {
       "character": "ALBUS DUMBLEDORE",
-      "text": "Additionally, we have Professor Umbridge, who has kindly agreed to fill the post of Defense Against the Dark Arts-\u2014"
+      "text": "Additionally, we have Professor Umbridge, who has kindly agreed to fill the post of Defense Against the Dark Arts-—"
     },
     {
       "character": "DOLORES UMBRIDGE",
@@ -2938,7 +2938,7 @@
     },
     {
       "character": "SEVERUS SNAPE",
-      "text": "Semper-\u2014\u2014"
+      "text": "Semper-——"
     },
     {
       "character": "JAMES POTTER",
@@ -3062,7 +3062,7 @@
     },
     {
       "character": "GRISELDA MARCHBANKS",
-      "text": "Pressure of exams. It happens. Take a breath, and maybe you'll be ready to go back in. Time is nearly up, but--\u2014"
+      "text": "Pressure of exams. It happens. Take a breath, and maybe you'll be ready to go back in. Time is nearly up, but--—"
     },
     {
       "character": "HARRY POTTER",
@@ -3786,7 +3786,7 @@
     },
     {
       "character": "BELLATRIX LESTRANGE",
-      "text": "Silence! How dare you utter that name from your half\u2014-blood mouth!"
+      "text": "Silence! How dare you utter that name from your half—-blood mouth!"
     },
     {
       "character": "HARRY POTTER",
@@ -3858,7 +3858,7 @@
     },
     {
       "character": "BELLATRIX LESTRANGE",
-      "text": "Avada-\u2014"
+      "text": "Avada-—"
     },
     {
       "character": "NEVILLE LONGBOTTOM",
@@ -4334,7 +4334,7 @@
     },
     {
       "character": "HARRY POTTER",
-      "text": "He barely taught me, though. I always felt more open to it after the lessons. Like he was trying to open me to Voldemort\u2014-"
+      "text": "He barely taught me, though. I always felt more open to it after the lessons. Like he was trying to open me to Voldemort—-"
     },
     {
       "character": "ALBUS DUMBLEDORE",
@@ -4696,5 +4696,8 @@
       "character": "HARRY POTTER",
       "text": "Something worth fighting for"
     }
-  ]
+  ],
+  "lineCount": 1157,
+  "characterCount": 63,
+  "topCastCount": 35
 }

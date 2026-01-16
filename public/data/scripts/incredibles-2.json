@@ -512,7 +512,7 @@
     },
     {
       "character": "BOB",
-      "text": "Well, yeah, I was\u2014AM!"
+      "text": "Well, yeah, I was—AM!"
     },
     {
       "character": "DASH",
@@ -644,7 +644,7 @@
     },
     {
       "character": "BOB",
-      "text": "\u201cOne of us\"?"
+      "text": "“One of us\"?"
     },
     {
       "character": "HELEN",
@@ -672,7 +672,7 @@
     },
     {
       "character": "HELEN",
-      "text": "Yeah. We can't count on anyone else now, Bob. It's just us. We can't wait for\u2014"
+      "text": "Yeah. We can't count on anyone else now, Bob. It's just us. We can't wait for—"
     },
     {
       "character": "LUCIUS",
@@ -788,7 +788,7 @@
     },
     {
       "character": "MAN",
-      "text": "I\u2019m-I'm your biggest fan. Shoot!"
+      "text": "I’m-I'm your biggest fan. Shoot!"
     },
     {
       "character": "WINSTON",
@@ -2762,5 +2762,8 @@
       "character": "VIOLET",
       "text": "STOP! Let us out! Here, large popcorn, small soda. Save me a seat, center, about eight rows back. I'll be back before the previews are over!"
     }
-  ]
+  ],
+  "lineCount": 678,
+  "characterCount": 45,
+  "topCastCount": 17
 }

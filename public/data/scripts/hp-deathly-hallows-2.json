@@ -993,7 +993,7 @@
     },
     {
       "character": "HARRY POTTER",
-      "text": "I had no reason not to \u2014-"
+      "text": "I had no reason not to —-"
     },
     {
       "character": "ABERFORTH DUMBLEDORE",
@@ -1569,7 +1569,7 @@
     },
     {
       "character": "HARRY POTTER",
-      "text": "I'll end your pain, Helena. Tell me where it is and I'll destroy it, I swear, on my mother's memory \u2014-"
+      "text": "I'll end your pain, Helena. Tell me where it is and I'll destroy it, I swear, on my mother's memory —-"
     },
     {
       "character": "HELENA RAVENCLAW",
@@ -2903,5 +2903,8 @@
       "character": "ALBUS POTTER",
       "text": "Ready."
     }
-  ]
+  ],
+  "lineCount": 712,
+  "characterCount": 50,
+  "topCastCount": 20
 }

@@ -113,7 +113,7 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "\u2018 (Real Gone\u201d by Sheryl Crow plays in the background as the trailer door opens ) Oh, yeah. Lightning's ready."
+      "text": "‘ (Real Gone” by Sheryl Crow plays in the background as the trailer door opens ) Oh, yeah. Lightning's ready."
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -1161,7 +1161,7 @@
     },
     {
       "character": "TOW MATER",
-      "text": "Ha, ha! Boy, I was wondering when you\u2019re gonna wake up!"
+      "text": "Ha, ha! Boy, I was wondering when you’re gonna wake up!"
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -1173,7 +1173,7 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "What are you\u2014\u2014 What's going on here? Please!"
+      "text": "What are you—— What's going on here? Please!"
     },
     {
       "character": "TOW MATER",
@@ -1189,11 +1189,11 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "Y\u2014\u2014 You don't know my name?"
+      "text": "Y—— You don't know my name?"
     },
     {
       "character": "TOW MATER",
-      "text": "Nuh\u2026 No, I know your name. Is your name \"Mater\", too?"
+      "text": "Nuh… No, I know your name. Is your name \"Mater\", too?"
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -1705,7 +1705,7 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "No, no, no, no, no! That won\u2019t be necessary."
+      "text": "No, no, no, no, no! That won’t be necessary."
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -1717,7 +1717,7 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "Where\u2019s he going?"
+      "text": "Where’s he going?"
     },
     {
       "character": "TOW MATER",
@@ -1733,7 +1733,7 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "I\u2019m a very famous race car!"
+      "text": "I’m a very famous race car!"
     },
     {
       "character": "LUIGI",
@@ -1953,11 +1953,11 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "No, no, no, no, no! No, it's the truth! I'm telling you! You gotta help me! Don't leave me here! I'm in hillbilly hall!! My IQ's dropping by the second!! I\u2019m becoming ONE OF THEM!!"
+      "text": "No, no, no, no, no! No, it's the truth! I'm telling you! You gotta help me! Don't leave me here! I'm in hillbilly hall!! My IQ's dropping by the second!! I’m becoming ONE OF THEM!!"
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "No, no, no, no, no! No, it's the truth! I'm telling you! You gotta help me! Don't leave me here! I'm in hillbilly hall!! My IQ's dropping by the second!! I\u2019m becoming ONE OF THEM!!"
+      "text": "No, no, no, no, no! No, it's the truth! I'm telling you! You gotta help me! Don't leave me here! I'm in hillbilly hall!! My IQ's dropping by the second!! I’m becoming ONE OF THEM!!"
     },
     {
       "character": "SALLY CARRERA",
@@ -2017,7 +2017,7 @@
     },
     {
       "character": "TOW MATER",
-      "text": "Whoo-hoo! I'm the first one on the new road! Uh, oh\u2014\u2014"
+      "text": "Whoo-hoo! I'm the first one on the new road! Uh, oh——"
     },
     {
       "character": "TOW MATER",
@@ -3197,7 +3197,7 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "I\u2019ve been trying to get out of here for three days!"
+      "text": "I’ve been trying to get out of here for three days!"
     },
     {
       "character": "SHERIFF",
@@ -5299,5 +5299,8 @@
       "character": "VAN",
       "text": "Ah ha ha ha ha ha ha ha ha oh"
     }
-  ]
+  ],
+  "lineCount": 1302,
+  "characterCount": 86,
+  "topCastCount": 35
 }

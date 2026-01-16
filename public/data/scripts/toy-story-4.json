@@ -2525,7 +2525,7 @@
     },
     {
       "character": "WOODY",
-      "text": "Bo, my kid really needs this toy. Will you help me? For old times\u2019 sake."
+      "text": "Bo, my kid really needs this toy. Will you help me? For old times’ sake."
     },
     {
       "character": "BO PEEP",
@@ -2841,7 +2841,7 @@
     },
     {
       "character": "DUCKY",
-      "text": "Wait, you\u2019re the space ranger of the galactic world of time?!"
+      "text": "Wait, you’re the space ranger of the galactic world of time?!"
     },
     {
       "character": "DUCKY",
@@ -2877,7 +2877,7 @@
     },
     {
       "character": "BUZZ LIGHTYEAR",
-      "text": "Yeah, don\u2019t leave us right there!"
+      "text": "Yeah, don’t leave us right there!"
     },
     {
       "character": "DUCKY",
@@ -2917,7 +2917,7 @@
     },
     {
       "character": "BUNNY",
-      "text": "Come on, Woody. It\u2019s gonna be okay."
+      "text": "Come on, Woody. It’s gonna be okay."
     },
     {
       "character": "WOODY",
@@ -2933,7 +2933,7 @@
     },
     {
       "character": "BUNNY",
-      "text": "Yeah. It is. You know what? Let\u2019s keep asking each other, until we think of something."
+      "text": "Yeah. It is. You know what? Let’s keep asking each other, until we think of something."
     },
     {
       "character": "WOODY",
@@ -2941,7 +2941,7 @@
     },
     {
       "character": "BUNNY & WOODY",
-      "text": "Let\u2019s do this!"
+      "text": "Let’s do this!"
     },
     {
       "character": "WOODY AND BO PEEP",
@@ -2993,7 +2993,7 @@
     },
     {
       "character": "DUCKY",
-      "text": "That\u2019s wonderful."
+      "text": "That’s wonderful."
     },
     {
       "character": "BUNNY",
@@ -3053,11 +3053,11 @@
     },
     {
       "character": "BO PEEP",
-      "text": "I\u2019m uh\u2026"
+      "text": "I’m uh…"
     },
     {
       "character": "WOODY",
-      "text": "Uh. Uh\u2026"
+      "text": "Uh. Uh…"
     },
     {
       "character": "BO PEEP",
@@ -3315,5 +3315,8 @@
       "character": "DUKE CABOOM",
       "text": "Yes!"
     }
-  ]
+  ],
+  "lineCount": 811,
+  "characterCount": 66,
+  "topCastCount": 32
 }

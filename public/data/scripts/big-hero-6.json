@@ -184,7 +184,7 @@
     },
     {
       "character": "ABIGAIL",
-      "text": "We've invited all these people. Might as well give \u2018em a show."
+      "text": "We've invited all these people. Might as well give ‘em a show."
     },
     {
       "character": "PERSON",
@@ -924,7 +924,7 @@
     },
     {
       "character": "FRED'S FATHER",
-      "text": "I wear \u2018em front, I wear \u2018em back. I go inside out, then I go front and back."
+      "text": "I wear ‘em front, I wear ‘em back. I go inside out, then I go front and back."
     },
     {
       "character": "FRED",
@@ -934,5 +934,8 @@
       "character": "FRED'S FATHER",
       "text": "We have a lot to talk about."
     }
-  ]
+  ],
+  "lineCount": 228,
+  "characterCount": 17,
+  "topCastCount": 9
 }

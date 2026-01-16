@@ -2241,7 +2241,7 @@
     },
     {
       "character": "MIKE",
-      "text": "Monsters like you have everything! You don\u2019t have to be good. You can mess up over and over again, and the whole world still loves you!"
+      "text": "Monsters like you have everything! You don’t have to be good. You can mess up over and over again, and the whole world still loves you!"
     },
     {
       "character": "SULLEY",
@@ -2287,5 +2287,8 @@
       "character": "MIKE",
       "text": "No!"
     }
-  ]
+  ],
+  "lineCount": 558,
+  "characterCount": 50,
+  "topCastCount": 22
 }
