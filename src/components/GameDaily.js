@@ -518,8 +518,15 @@ export class GameDaily {
     }
 
     grid += movieRow + '\n' + charRow;
-    grid += '\n\n' + window.location.href;
     return grid;
+  }
+
+  generateShareData(success) {
+    const text = this.generateShareString(success);
+    return {
+      text: text,
+      url: window.location.href
+    };
   }
 
   updateSharePreview() {
@@ -733,12 +740,13 @@ export class GameDaily {
   async shareResults() {
     const lastGuess = this.guessHistory[this.guessHistory.length - 1];
     const success = lastGuess && lastGuess.movie && lastGuess.char;
-    const shareText = this.generateShareString(success);
+    const shareData = this.generateShareData(success);
+    const shareText = shareData.text + '\n\n' + shareData.url;
 
     // Try native share first if available (works on mobile with HTTPS)
     if (navigator.share) {
       try {
-        await navigator.share({ text: shareText });
+        await navigator.share(shareData);
         return;
       } catch (err) {
         if (err.name === 'AbortError') return; // User cancelled
