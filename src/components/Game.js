@@ -454,15 +454,45 @@ export class Game {
     const success = lastGuess && lastGuess.movie && lastGuess.char;
     const shareText = this.generateShareString(success);
 
-    try {
-      await navigator.clipboard.writeText(shareText);
-      const btn = document.getElementById('share-btn');
-      const original = btn.textContent;
-      btn.textContent = 'Copied!';
-      setTimeout(() => btn.textContent = original, 2000);
-    } catch (err) {
-      console.error('Failed to copy:', err);
-      alert('Failed to copy to clipboard.\n\n' + shareText);
+    // Try modern clipboard API first (works on HTTPS)
+    if (navigator.clipboard && window.isSecureContext) {
+      try {
+        await navigator.clipboard.writeText(shareText);
+        const btn = document.getElementById('share-btn');
+        const original = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(() => btn.textContent = original, 2000);
+        return;
+      } catch (err) {
+        console.error('Clipboard API failed:', err);
+      }
     }
+
+    // Fallback for iOS and older browsers - use textarea method
+    try {
+      const textarea = document.createElement('textarea');
+      textarea.value = shareText;
+      textarea.style.position = 'fixed';
+      textarea.style.opacity = '0';
+      document.body.appendChild(textarea);
+      textarea.focus();
+      textarea.select();
+
+      const successful = document.execCommand('copy');
+      document.body.removeChild(textarea);
+
+      if (successful) {
+        const btn = document.getElementById('share-btn');
+        const original = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(() => btn.textContent = original, 2000);
+        return;
+      }
+    } catch (err) {
+      console.error('Textarea fallback failed:', err);
+    }
+
+    // Final fallback - show in alert for manual copy
+    alert('Failed to copy to clipboard.\n\n' + shareText);
   }
 }
