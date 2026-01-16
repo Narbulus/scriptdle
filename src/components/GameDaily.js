@@ -523,9 +523,9 @@ export class GameDaily {
 
   generateShareData(success) {
     const text = this.generateShareString(success);
+    const url = window.location.href;
     return {
-      text: text,
-      url: window.location.href
+      text: text + '\n\n' + url
     };
   }
 
@@ -741,7 +741,7 @@ export class GameDaily {
     const lastGuess = this.guessHistory[this.guessHistory.length - 1];
     const success = lastGuess && lastGuess.movie && lastGuess.char;
     const shareData = this.generateShareData(success);
-    const shareText = shareData.text + '\n\n' + shareData.url;
+    const shareText = shareData.text;
 
     // Try native share first if available (works on mobile with HTTPS)
     if (navigator.share) {
