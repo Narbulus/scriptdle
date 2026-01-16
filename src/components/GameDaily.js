@@ -523,8 +523,9 @@ export class GameDaily {
 
   generateShareData(success) {
     const text = this.generateShareString(success);
+    const url = window.location.href + ' '; // Extra space at end helps iOS
     return {
-      text: text
+      text: text + '\n\n' + url
     };
   }
 
@@ -742,8 +743,12 @@ export class GameDaily {
     const shareData = this.generateShareData(success);
     const shareText = shareData.text;
 
-    // Try native share first if available (works on mobile with HTTPS)
-    if (navigator.share) {
+    // Skip navigator.share on iOS due to Copy button URL encoding bug
+    // Go straight to clipboard for reliable copying
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+
+    // Try native share first if available (but skip on iOS)
+    if (navigator.share && !isIOS) {
       try {
         await navigator.share(shareData);
         return;
