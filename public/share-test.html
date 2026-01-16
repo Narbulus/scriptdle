@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Share Test Playground</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+      font-size: 16px;
+      border: 2px solid #333;
+      background: white;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+    button:active {
+      background: #f0f0f0;
+    }
+    .description {
+      font-size: 14px;
+      color: #666;
+      margin-top: -5px;
+      margin-bottom: 15px;
+    }
+    .result {
+      background: #f5f5f5;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 20px;
+      white-space: pre-wrap;
+      font-family: monospace;
+      font-size: 12px;
+    }
+    h1 {
+      text-align: center;
+    }
+    hr {
+      margin: 30px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>🧪 Share Test Playground</h1>
+
+  <h2>Test 1: Basic emoji text (like Wordle)</h2>
+  <button onclick="shareTest1()">Share Test 1</button>
+  <div class="description">Just emoji grid with title, no URL</div>
+
+  <h2>Test 2: Without colon in title</h2>
+  <button onclick="shareTest2()">Share Test 2</button>
+  <div class="description">Remove colon from "Scriptle: Movie" format</div>
+
+  <h2>Test 3: Wordle's exact emoji characters</h2>
+  <button onclick="shareTest3()">Share Test 3</button>
+  <div class="description">Use ⬛🟩⬜ instead of ⚫🟢⚪</div>
+
+  <h2>Test 4: Different line breaks</h2>
+  <button onclick="shareTest4()">Share Test 4</button>
+  <div class="description">Use \r\n instead of \n</div>
+
+  <h2>Test 5: Template literal</h2>
+  <button onclick="shareTest5()">Share Test 5</button>
+  <div class="description">Build string with template literal</div>
+
+  <h2>Test 6: Unicode normalization</h2>
+  <button onclick="shareTest6()">Share Test 6</button>
+  <div class="description">Normalize unicode characters</div>
+
+  <h2>Test 7: Exact Wordle copy</h2>
+  <button onclick="shareTest7()">Share Test 7</button>
+  <div class="description">Copy Wordle's exact output format</div>
+
+  <hr>
+
+  <div id="result" class="result" style="display: none;">
+    <strong>Intercepted data:</strong><br>
+    <span id="result-text"></span>
+  </div>
+
+  <script>
+    // Intercept to show what we're sharing
+    const originalShare = navigator.share;
+    if (navigator.share) {
+      navigator.share = function(data) {
+        const resultDiv = document.getElementById('result');
+        const resultText = document.getElementById('result-text');
+        resultDiv.style.display = 'block';
+        resultText.textContent = JSON.stringify(data, null, 2);
+
+        return originalShare.call(navigator, data).catch(e => {
+          console.log('Share cancelled or failed:', e);
+        });
+      };
+    }
+
+    // Test 1: Basic like Wordle
+    async function shareTest1() {
+      const text = 'Scriptle: Harry Potter\n\n⚫⚫⚫⚫⚫\n🟢🟢🟢⚫⚫';
+      await navigator.share({ text });
+    }
+
+    // Test 2: No colon
+    async function shareTest2() {
+      const text = 'Scriptle Harry Potter\n\n⚫⚫⚫⚫⚫\n🟢🟢🟢⚫⚫';
+      await navigator.share({ text });
+    }
+
+    // Test 3: Wordle emoji
+    async function shareTest3() {
+      const text = 'Scriptle: Harry Potter\n\n⬛⬛⬛⬛⬛\n🟩🟩🟩⬛⬛';
+      await navigator.share({ text });
+    }
+
+    // Test 4: Different line breaks
+    async function shareTest4() {
+      const text = 'Scriptle: Harry Potter\r\n\r\n⚫⚫⚫⚫⚫\r\n🟢🟢🟢⚫⚫';
+      await navigator.share({ text });
+    }
+
+    // Test 5: Template literal
+    async function shareTest5() {
+      const title = 'Scriptle: Harry Potter';
+      const row1 = '⚫⚫⚫⚫⚫';
+      const row2 = '🟢🟢🟢⚫⚫';
+      const text = `${title}\n\n${row1}\n${row2}`;
+      await navigator.share({ text });
+    }
+
+    // Test 6: Unicode normalization
+    async function shareTest6() {
+      const text = 'Scriptle: Harry Potter\n\n⚫⚫⚫⚫⚫\n🟢🟢🟢⚫⚫';
+      const normalized = text.normalize('NFC');
+      await navigator.share({ text: normalized });
+    }
+
+    // Test 7: Exact Wordle format
+    async function shareTest7() {
+      const text = 'Wordle 1,672 3/6\n\n⬛⬛⬛⬛⬛\n⬛🟩🟨🟩⬛\n🟩🟩🟩🟩🟩';
+      await navigator.share({ text });
+    }
+  </script>
+</body>
+</html>
