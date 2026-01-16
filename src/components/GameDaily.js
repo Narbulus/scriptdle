@@ -523,9 +523,8 @@ export class GameDaily {
 
   generateShareData(success) {
     const text = this.generateShareString(success);
-    const url = window.location.href;
     return {
-      text: text + '\n\n' + url
+      text: text
     };
   }
 
