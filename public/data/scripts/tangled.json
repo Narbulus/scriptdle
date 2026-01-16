@@ -35,7 +35,7 @@
     },
     {
       "character": "MOTHER GOTHEL",
-      "text": "\u266aFlower gleam and glow, let your power shine. Make the clock reverse, bring back what once was mine, what once was mine.\u266a"
+      "text": "♪Flower gleam and glow, let your power shine. Make the clock reverse, bring back what once was mine, what once was mine.♪"
     },
     {
       "character": "FLYNN",
@@ -51,7 +51,7 @@
     },
     {
       "character": "MOTHER GOTHEL",
-      "text": "\u266aFlower, gleam and glow, let your powers shine, make the clock re----\u266a"
+      "text": "♪Flower, gleam and glow, let your powers shine, make the clock re----♪"
     },
     {
       "character": "FLYNN",
@@ -59,7 +59,7 @@
     },
     {
       "character": "RAPUNZEL",
-      "text": "\u266a...save what was lost, bring back what once was mine, what once was mine.\u266a"
+      "text": "♪...save what was lost, bring back what once was mine, what once was mine.♪"
     },
     {
       "character": "FLYNN",
@@ -211,7 +211,7 @@
     },
     {
       "character": "MOTHER GOTHEL",
-      "text": "So, mother, earlier I was saying tomorrow\u2019s a pretty big day, and you didn't really respond, So I'm just going to tell you. It's my birthday! TADA!"
+      "text": "So, mother, earlier I was saying tomorrow’s a pretty big day, and you didn't really respond, So I'm just going to tell you. It's my birthday! TADA!"
     },
     {
       "character": "RAPUNZEL",
@@ -219,7 +219,7 @@
     },
     {
       "character": "MOTHER GOTHEL",
-      "text": "That's the funny thing about birthdays. They're kind of an annual thing. Mother, I'm turning eighteen. And I wanted to ask, what I really want for this birthday. Actually, what I\u2019ve wanted for...quite a few birthdays now..."
+      "text": "That's the funny thing about birthdays. They're kind of an annual thing. Mother, I'm turning eighteen. And I wanted to ask, what I really want for this birthday. Actually, what I’ve wanted for...quite a few birthdays now..."
     },
     {
       "character": "RAPUNZEL",
@@ -379,7 +379,7 @@
     },
     {
       "character": "MOTHER GOTHEL",
-      "text": "I brought back parsnips. I\u2018m going to make hazelnut soup for dinner, your favorite. Surprise!"
+      "text": "I brought back parsnips. I‘m going to make hazelnut soup for dinner, your favorite. Surprise!"
     },
     {
       "character": "RAPUNZEL",
@@ -1733,5 +1733,8 @@
       "character": "RAPUNZEL",
       "text": "And we're living happily ever after."
     }
-  ]
+  ],
+  "lineCount": 428,
+  "characterCount": 16,
+  "topCastCount": 9
 }
