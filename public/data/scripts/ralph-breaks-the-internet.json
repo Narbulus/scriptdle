@@ -25,7 +25,7 @@
     "MAYBE",
     "MO",
     "MOANA",
-    "MO\u2019S MOTHER",
+    "MO’S MOTHER",
     "MR. SPAMLEY",
     "PYRO",
     "Q*BERT",
@@ -1460,7 +1460,7 @@
       "text": "Come on, Felix. Let's get to work, Buddy."
     },
     {
-      "character": "MO\u2019S MOTHER",
+      "character": "MO’S MOTHER",
       "text": "Hey, Mo! Did you like the movie, sweetie?"
     },
     {
@@ -1468,7 +1468,7 @@
       "text": "Well, there was a scene in the trailer that wasn't in the movie. And that makes me sad."
     },
     {
-      "character": "MO\u2019S MOTHER",
+      "character": "MO’S MOTHER",
       "text": "Oh, that's too bad! Maybe playing your game would cheer you up."
     },
     {
@@ -1507,5 +1507,8 @@
       "character": "RALPH",
       "text": "No, the kitty gets the milkshake! The bunny gets the pancake!"
     }
-  ]
+  ],
+  "lineCount": 366,
+  "characterCount": 38,
+  "topCastCount": 11
 }
