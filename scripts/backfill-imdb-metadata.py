@@ -65,7 +65,7 @@ def fetch_omdb_metadata(title: str, year: Optional[int], api_key: str) -> Option
     url = f"{base_url}?{urllib.parse.urlencode(params)}"
 
     try:
-        with urllib.request.urlopen(url, timeout=10) as response:
+        with urllib.request.urlopen(url, timeout=30) as response:
             data = json.loads(response.read().decode())
             if data.get("Response") == "True":
                 return data
@@ -172,11 +172,11 @@ def main():
             changed = backfill_movie(script_file, api_key, args.dry_run)
             if changed:
                 updated_count += 1
-                # Add delay to respect API rate limits
-                if not args.dry_run:
-                    time.sleep(0.1)  # 100ms delay
             else:
                 skipped_count += 1
+            # Add delay to respect API rate limits (after every request)
+            if not args.dry_run:
+                time.sleep(1.0)  # 1 second delay
         except Exception as e:
             print(f"  ✗ Unexpected error with {script_file.name}: {e}")
             failed_count += 1
