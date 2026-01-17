@@ -1,5 +1,6 @@
 import { renderHome } from './pages/Home.js';
 import { renderPlay } from './pages/Play.js';
+import { track } from './utils/analytics.js';
 
 const routes = {
   '/': renderHome,
@@ -50,6 +51,8 @@ function handleRoute() {
   const matched = matchRoute(path);
 
   if (matched) {
+    track('page_view', { page_path: path });
+
     const navContainer = document.getElementById('nav-bar-container');
     const contentContainer = document.getElementById('content-area');
 

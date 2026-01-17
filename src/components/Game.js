@@ -1,3 +1,5 @@
+import { track } from '../utils/analytics.js';
+
 export class Game {
   constructor(container, pack, scripts) {
     this.container = container;
@@ -67,6 +69,7 @@ export class Game {
   }
 
   start() {
+    track('game_start', { pack_id: this.pack.id, game_type: 'pack' });
     this.selectTarget();
     this.render();
     this.bindEvents();
@@ -374,6 +377,13 @@ export class Game {
 
     this.guessHistory.push({ movie: movieCorrect, char: charCorrect });
 
+    track('guess', {
+      pack_id: this.pack.id,
+      attempt: this.guessHistory.length,
+      movie_correct: movieCorrect,
+      char_correct: charCorrect
+    });
+
     if (movieCorrect) {
       this.movieLocked = true;
       movieSelect.disabled = true;
@@ -383,6 +393,11 @@ export class Game {
     }
 
     if (movieCorrect && charCorrect) {
+      track('game_complete', {
+        pack_id: this.pack.id,
+        success: true,
+        attempts: this.guessHistory.length
+      });
       this.showMessage(`Correct! It was ${target.character} in ${target.movie}.`, 'success');
       this.gameOver = true;
       this.renderScript();
@@ -393,6 +408,11 @@ export class Game {
       document.getElementById('attempt-count').textContent = this.currentAttempt;
 
       if (this.currentAttempt >= 5) {
+        track('game_complete', {
+          pack_id: this.pack.id,
+          success: false,
+          attempts: this.guessHistory.length
+        });
         this.showMessage(`Game Over! It was ${target.character} in ${target.movie}.`, 'error');
         this.gameOver = true;
         this.renderScript();
@@ -450,6 +470,8 @@ export class Game {
   }
 
   async copyShare() {
+    track('share', { pack_id: this.pack.id, method: 'clipboard' });
+
     const lastGuess = this.guessHistory[this.guessHistory.length - 1];
     const success = lastGuess && lastGuess.movie && lastGuess.char;
     const shareText = this.generateShareString(success);

@@ -1,7 +1,4 @@
-/**
- * GameDaily - Simplified game class for pre-generated daily puzzles
- * No RNG, no full script access - only the minimal puzzle data
- */
+import { track } from '../utils/analytics.js';
 
 const STORAGE_VERSION = 2;
 
@@ -28,7 +25,7 @@ export class GameDaily {
   }
 
   start() {
-    // Check if already completed or in progress
+    track('game_start', { pack_id: this.pack.id, game_type: 'daily' });
     const savedProgress = this.loadProgress();
     if (savedProgress) {
       // Restore state
@@ -442,6 +439,13 @@ export class GameDaily {
 
     this.guessHistory.push({ movie: movieCorrect, char: charCorrect });
 
+    track('guess', {
+      pack_id: this.pack.id,
+      attempt: this.guessHistory.length,
+      movie_correct: movieCorrect,
+      char_correct: charCorrect
+    });
+
     if (movieCorrect) {
       this.movieLocked = true;
       movieSelect.disabled = true;
@@ -451,6 +455,11 @@ export class GameDaily {
     }
 
     if (movieCorrect && charCorrect) {
+      track('game_complete', {
+        pack_id: this.pack.id,
+        success: true,
+        attempts: this.guessHistory.length
+      });
       this.showMessage(`Correct! It was ${target.character} in ${target.movie}.`, 'success');
       this.gameOver = true;
       this.saveProgress();
@@ -464,6 +473,11 @@ export class GameDaily {
       document.getElementById('attempt-count').textContent = this.currentAttempt;
 
       if (this.currentAttempt >= 5) {
+        track('game_complete', {
+          pack_id: this.pack.id,
+          success: false,
+          attempts: this.guessHistory.length
+        });
         this.showMessage(`Game Over! It was ${target.character} in ${target.movie}.`, 'error');
         this.gameOver = true;
         this.saveProgress();
@@ -744,25 +758,23 @@ export class GameDaily {
     const shareData = this.generateShareData(success);
     const shareText = shareData.text;
 
-    // Detect mobile devices
     const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
-    // On mobile, use native share sheet; on desktop, copy to clipboard
     if (isMobile && navigator.share) {
       try {
         await navigator.share(shareData);
+        track('share', { pack_id: this.pack.id, method: 'native' });
         return;
       } catch (err) {
-        if (err.name === 'AbortError') return; // User cancelled
+        if (err.name === 'AbortError') return;
         console.error('Share failed:', err);
-        // Fall through to clipboard
       }
     }
 
-    // Copy to clipboard (desktop or mobile fallback)
     if (navigator.clipboard && window.isSecureContext) {
       try {
         await navigator.clipboard.writeText(shareText);
+        track('share', { pack_id: this.pack.id, method: 'clipboard' });
         this.showCopiedFeedback();
         return;
       } catch (err) {
@@ -770,7 +782,6 @@ export class GameDaily {
       }
     }
 
-    // Final fallback - show in alert
     alert('Copy this to share:\n\n' + shareText);
   }
 
