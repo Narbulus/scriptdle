@@ -1,3 +1,7 @@
+/**
+ * GameDaily - Simplified game class for pre-generated daily puzzles
+ * No RNG, no full script access - only the minimal puzzle data
+ */
 import { track } from '../utils/analytics.js';
 
 const STORAGE_VERSION = 2;
@@ -22,6 +26,9 @@ export class GameDaily {
     this.gameOver = false;
     this.movieLocked = false;
     this.guessHistory = [];
+
+    // Modal cache
+    this.packMoviesCache = null;
   }
 
   start() {
@@ -116,7 +123,7 @@ export class GameDaily {
       <!-- Script Title Section -->
       <div class="script-title-section">
         <div class="script-title">${this.pack.name}</div>
-        <div id="subtitle-message" class="script-subtitle">${this.metadata.movies.length} Movies</div>
+        <a id="movies-subtitle-link" class="script-subtitle script-subtitle-link">${this.metadata.movies.length} Movies</a>
       </div>
 
       <!-- Main Script Area -->
@@ -169,6 +176,20 @@ export class GameDaily {
         </div>
 
         <div id="other-packs-container"></div>
+
+        <!-- View Movies Modal -->
+        <div id="movies-modal" class="modal-overlay" style="display: none;">
+          <div class="modal-container">
+            <div class="modal-header">
+              <h2 class="modal-title">${this.pack.name}</h2>
+              <button id="modal-close" class="modal-close-btn">&times;</button>
+            </div>
+            <div class="modal-content">
+              <div id="movies-loading">Loading movies...</div>
+              <div id="movies-list" style="display: none;"></div>
+            </div>
+          </div>
+        </div>
       </div>
     `;
 
@@ -398,6 +419,41 @@ export class GameDaily {
     if (shareBtn) {
       shareBtn.addEventListener('click', () => this.shareResults());
     }
+
+    // View Movies modal - subtitle link
+    const moviesSubtitleLink = document.getElementById('movies-subtitle-link');
+    if (moviesSubtitleLink) {
+      moviesSubtitleLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        this.openMoviesModal();
+      });
+    }
+
+    // Modal close button
+    const modalClose = document.getElementById('modal-close');
+    if (modalClose) {
+      modalClose.addEventListener('click', () => this.closeMoviesModal());
+    }
+
+    // Close on overlay click
+    const modalOverlay = document.getElementById('movies-modal');
+    if (modalOverlay) {
+      modalOverlay.addEventListener('click', (e) => {
+        if (e.target === modalOverlay) {
+          this.closeMoviesModal();
+        }
+      });
+    }
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        const modal = document.getElementById('movies-modal');
+        if (modal && modal.style.display === 'flex') {
+          this.closeMoviesModal();
+        }
+      }
+    });
   }
 
   submitGuess() {
@@ -439,13 +495,6 @@ export class GameDaily {
 
     this.guessHistory.push({ movie: movieCorrect, char: charCorrect });
 
-    track('guess', {
-      pack_id: this.pack.id,
-      attempt: this.guessHistory.length,
-      movie_correct: movieCorrect,
-      char_correct: charCorrect
-    });
-
     if (movieCorrect) {
       this.movieLocked = true;
       movieSelect.disabled = true;
@@ -455,11 +504,6 @@ export class GameDaily {
     }
 
     if (movieCorrect && charCorrect) {
-      track('game_complete', {
-        pack_id: this.pack.id,
-        success: true,
-        attempts: this.guessHistory.length
-      });
       this.showMessage(`Correct! It was ${target.character} in ${target.movie}.`, 'success');
       this.gameOver = true;
       this.saveProgress();
@@ -473,11 +517,6 @@ export class GameDaily {
       document.getElementById('attempt-count').textContent = this.currentAttempt;
 
       if (this.currentAttempt >= 5) {
-        track('game_complete', {
-          pack_id: this.pack.id,
-          success: false,
-          attempts: this.guessHistory.length
-        });
         this.showMessage(`Game Over! It was ${target.character} in ${target.movie}.`, 'error');
         this.gameOver = true;
         this.saveProgress();
@@ -758,23 +797,25 @@ export class GameDaily {
     const shareData = this.generateShareData(success);
     const shareText = shareData.text;
 
+    // Detect mobile devices
     const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
+    // On mobile, use native share sheet; on desktop, copy to clipboard
     if (isMobile && navigator.share) {
       try {
         await navigator.share(shareData);
-        track('share', { pack_id: this.pack.id, method: 'native' });
         return;
       } catch (err) {
-        if (err.name === 'AbortError') return;
+        if (err.name === 'AbortError') return; // User cancelled
         console.error('Share failed:', err);
+        // Fall through to clipboard
       }
     }
 
+    // Copy to clipboard (desktop or mobile fallback)
     if (navigator.clipboard && window.isSecureContext) {
       try {
         await navigator.clipboard.writeText(shareText);
-        track('share', { pack_id: this.pack.id, method: 'clipboard' });
         this.showCopiedFeedback();
         return;
       } catch (err) {
@@ -782,6 +823,7 @@ export class GameDaily {
       }
     }
 
+    // Final fallback - show in alert
     alert('Copy this to share:\n\n' + shareText);
   }
 
@@ -791,5 +833,108 @@ export class GameDaily {
     const original = btn.textContent;
     btn.textContent = 'Copied!';
     setTimeout(() => btn.textContent = original, 2000);
+  }
+
+  // Modal methods
+
+  async fetchPackMovies() {
+    if (this.packMoviesCache) {
+      return this.packMoviesCache;
+    }
+
+    const moviesList = [];
+
+    for (const movieId of this.packData.movies) {
+      try {
+        const response = await fetch(`/data/scripts/${movieId}.json`);
+        const script = await response.json();
+
+        moviesList.push({
+          id: movieId,
+          title: script.title,
+          year: script.year,
+          imdbId: script.imdbId,
+          poster: script.poster
+        });
+      } catch (e) {
+        console.error(`Failed to load movie ${movieId}:`, e);
+      }
+    }
+
+    this.packMoviesCache = moviesList;
+    return moviesList;
+  }
+
+  renderMoviesList(movies) {
+    const listContainer = document.getElementById('movies-list');
+
+    listContainer.innerHTML = movies.map(movie => {
+      const mainUrl = movie.imdbId
+        ? `https://www.imdb.com/title/${movie.imdbId}/`
+        : null;
+      const castUrl = movie.imdbId
+        ? `https://www.imdb.com/title/${movie.imdbId}/fullcredits/?ref_=tt_cst_sm`
+        : null;
+
+      return `
+        <div class="movie-item">
+          ${movie.poster && movie.poster !== 'N/A'
+            ? `<img src="${movie.poster}" alt="${movie.title}" class="movie-poster-thumb">`
+            : `<div class="movie-poster-placeholder"></div>`
+          }
+          <div class="movie-info">
+            <div class="movie-title">${movie.title} (${movie.year || 'Unknown'})</div>
+            <div class="movie-links">
+              ${mainUrl
+                ? `<a href="${mainUrl}" target="_blank" rel="noopener noreferrer" class="movie-imdb-link">
+                     Details →
+                   </a>`
+                : `<span class="movie-no-link">IMDB unavailable</span>`
+              }
+              ${castUrl
+                ? `<a href="${castUrl}" target="_blank" rel="noopener noreferrer" class="movie-imdb-link">
+                     Cast →
+                   </a>`
+                : ``
+              }
+            </div>
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  async openMoviesModal() {
+    const modal = document.getElementById('movies-modal');
+    const loading = document.getElementById('movies-loading');
+    const list = document.getElementById('movies-list');
+
+    // Update modal title
+    const title = document.querySelector('.modal-title');
+    title.textContent = this.pack.name;
+
+    // Show modal
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+
+    // Load movies
+    loading.style.display = 'block';
+    list.style.display = 'none';
+
+    try {
+      const movies = await this.fetchPackMovies();
+      this.renderMoviesList(movies);
+      loading.style.display = 'none';
+      list.style.display = 'block';
+    } catch (e) {
+      loading.textContent = 'Error loading movies';
+      console.error('Failed to load pack movies:', e);
+    }
+  }
+
+  closeMoviesModal() {
+    const modal = document.getElementById('movies-modal');
+    modal.style.display = 'none';
+    document.body.style.overflow = '';
   }
 }
