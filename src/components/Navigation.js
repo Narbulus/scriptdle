@@ -22,9 +22,10 @@ export function Navigation({ showBackButton = false }) {
   // Center - logo (clickable, navigates to home)
   const center = document.createElement('div');
   center.className = 'nav-center';
-  const logo = document.createElement('button');
+  const logo = document.createElement('div');
   logo.className = 'nav-logo';
   logo.textContent = 'Scriptle';
+  logo.style.cursor = 'pointer';
   logo.onclick = (e) => {
     e.preventDefault();
     router.navigate('/');
