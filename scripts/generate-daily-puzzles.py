@@ -347,15 +347,12 @@ def main():
     parser.add_argument('--days', type=int, default=365, help='Number of days to generate (default: 365)')
     parser.add_argument('--pack', type=str, help='Generate for specific pack only')
     parser.add_argument('--data-dir', type=str, default='public/data', help='Data directory path')
-    parser.add_argument('--themes-only', action='store_true', help='Only regenerate themes.js file')
 
     args = parser.parse_args()
 
     generator = PuzzleGenerator(data_dir=args.data_dir)
 
-    if args.themes_only:
-        generator.generate_themes_file()
-    elif args.pack:
+    if args.pack:
         generator.generate_for_pack(args.pack, args.days)
         # Also regenerate themes file
         generator.generate_themes_file()
