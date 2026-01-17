@@ -180,15 +180,12 @@ export class GameDaily {
         <div id="movies-modal" class="modal-overlay" style="display: none;">
           <div class="modal-container">
             <div class="modal-header">
-              <h2 class="modal-title">Movies in ${this.pack.name}</h2>
+              <h2 class="modal-title">${this.pack.name}</h2>
               <button id="modal-close" class="modal-close-btn">&times;</button>
             </div>
             <div class="modal-content">
               <div id="movies-loading">Loading movies...</div>
               <div id="movies-list" style="display: none;"></div>
-            </div>
-            <div class="modal-footer">
-              <p class="modal-disclaimer">Links take you to IMDB</p>
             </div>
           </div>
         </div>
@@ -871,8 +868,11 @@ export class GameDaily {
     const listContainer = document.getElementById('movies-list');
 
     listContainer.innerHTML = movies.map(movie => {
-      const imdbUrl = movie.imdbId
+      const mainUrl = movie.imdbId
         ? `https://www.imdb.com/title/${movie.imdbId}/`
+        : null;
+      const castUrl = movie.imdbId
+        ? `https://www.imdb.com/title/${movie.imdbId}/fullcredits/?ref_=tt_cst_sm`
         : null;
 
       return `
@@ -883,12 +883,20 @@ export class GameDaily {
           }
           <div class="movie-info">
             <div class="movie-title">${movie.title} (${movie.year || 'Unknown'})</div>
-            ${imdbUrl
-              ? `<a href="${imdbUrl}" target="_blank" rel="noopener noreferrer" class="movie-imdb-link">
-                   View on IMDB →
-                 </a>`
-              : `<span class="movie-no-link">IMDB link unavailable</span>`
-            }
+            <div class="movie-links">
+              ${mainUrl
+                ? `<a href="${mainUrl}" target="_blank" rel="noopener noreferrer" class="movie-imdb-link">
+                     Details →
+                   </a>`
+                : `<span class="movie-no-link">IMDB unavailable</span>`
+              }
+              ${castUrl
+                ? `<a href="${castUrl}" target="_blank" rel="noopener noreferrer" class="movie-imdb-link">
+                     Cast →
+                   </a>`
+                : ``
+              }
+            </div>
           </div>
         </div>
       `;
@@ -902,7 +910,7 @@ export class GameDaily {
 
     // Update modal title
     const title = document.querySelector('.modal-title');
-    title.textContent = `Movies in ${this.pack.name}`;
+    title.textContent = this.pack.name;
 
     // Show modal
     modal.style.display = 'flex';

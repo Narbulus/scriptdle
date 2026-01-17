@@ -657,18 +657,8 @@ button:active {
   flex: 1;
 }
 
-.modal-footer {
-  padding: 1rem 1.5rem;
-  border-top: 1px solid #ddd;
-  background: var(--bg-color);
-  text-align: center;
-}
-
-.modal-disclaimer {
-  font-size: 0.875rem;
-  color: #666;
-  margin: 0;
-  font-style: italic;
+.modal-body {
+  /* Default empty container for modal content */
 }
 
 /* Movie List Items */
@@ -689,15 +679,7 @@ button:active {
   display: flex;
   gap: 1rem;
   padding: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
   background: white;
-  transition: all 0.2s;
-}
-
-.movie-item:hover {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  border-color: var(--primary-color);
 }
 
 .movie-poster-thumb {
@@ -728,6 +710,12 @@ button:active {
   font-weight: bold;
   font-size: 1rem;
   color: var(--primary-color);
+}
+
+.movie-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .movie-imdb-link {

@@ -85,9 +85,9 @@ def backfill_movie(script_file: Path, api_key: str, dry_run: bool) -> bool:
     try:
         script_data = load_json(script_file)
 
-        # Check if imdbId already exists
-        if script_data.get('imdbId'):
-            print(f"  ✓ {script_data.get('title', script_file.stem)} - Already has IMDB ID: {script_data['imdbId']}")
+        # Check if metadata already exists (skip if has both imdbId and poster)
+        if script_data.get('imdbId') and script_data.get('poster'):
+            print(f"  ✓ {script_data.get('title', script_file.stem)} - Already has IMDB metadata")
             return False
 
         title = script_data.get('title')
@@ -176,7 +176,7 @@ def main():
                 skipped_count += 1
             # Add delay to respect API rate limits (after every request)
             if not args.dry_run:
-                time.sleep(1.0)  # 1 second delay
+                time.sleep(2.5)  # 2.5 second delay for generous backoff
         except Exception as e:
             print(f"  ✗ Unexpected error with {script_file.name}: {e}")
             failed_count += 1
