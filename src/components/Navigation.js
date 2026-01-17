@@ -19,12 +19,16 @@ export function Navigation({ showBackButton = false }) {
     leftSide.appendChild(backButton);
   }
 
-  // Center - logo
+  // Center - logo (clickable, navigates to home)
   const center = document.createElement('div');
   center.className = 'nav-center';
-  const logo = document.createElement('div');
+  const logo = document.createElement('button');
   logo.className = 'nav-logo';
   logo.textContent = 'Scriptle';
+  logo.onclick = (e) => {
+    e.preventDefault();
+    router.navigate('/');
+  };
   center.appendChild(logo);
 
   // Right side - results link
