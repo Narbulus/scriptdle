@@ -6,21 +6,13 @@ import {
 } from '../utils/completionTracker.js';
 import { generateFlower } from '../utils/flowerGenerator.js';
 
-export function renderCollection() {
-  const app = document.getElementById('app');
-  app.innerHTML = '';
-  app.appendChild(Collection());
-}
-
-function Collection() {
-  const container = document.createElement('div');
-  container.className = 'page';
-
-  // Add navigation
+export function renderCollection({ navContainer, contentContainer }) {
+  // Render nav bar in persistent container using Navigation component
+  navContainer.innerHTML = '';
   const nav = Navigation({ showBackButton: true });
-  container.appendChild(nav);
+  navContainer.appendChild(nav);
 
-  // Main content
+  // Render content in swappable container
   const content = document.createElement('div');
   content.className = 'collection-container';
 
@@ -36,9 +28,8 @@ function Collection() {
   const resultsSection = createResultsSection();
   content.appendChild(resultsSection);
 
-  container.appendChild(content);
-
-  return container;
+  contentContainer.innerHTML = '';
+  contentContainer.appendChild(content);
 }
 
 function createCalendarSection() {
