@@ -1,21 +1,35 @@
 import { Game } from '../components/Game.js';
 import { GameDaily } from '../components/GameDaily.js';
+import { Navigation } from '../components/Navigation.js';
 
 export async function renderPlay(params) {
   const app = document.getElementById('app');
   const { packId, movieId, singleMovie } = params;
 
-  app.innerHTML = `
-    <div class="container">
-      <!-- Navigation Bar - Always visible -->
-      <a href="/" data-link class="nav-bar nav-bar-link">
-        <div class="nav-logo">Scriptle</div>
-      </a>
+  // Create container
+  const container = document.createElement('div');
+  container.className = 'container';
 
-      <div id="loading" style="text-align:center; font-family:sans-serif; padding: 3rem;">Loading...</div>
-      <div id="game-area" style="display:none;"></div>
-    </div>
-  `;
+  // Add navigation with back button
+  const nav = Navigation({ showBackButton: true });
+  container.appendChild(nav);
+
+  // Add loading and game area
+  const loadingDiv = document.createElement('div');
+  loadingDiv.id = 'loading';
+  loadingDiv.style.textAlign = 'center';
+  loadingDiv.style.fontFamily = 'sans-serif';
+  loadingDiv.style.padding = '3rem';
+  loadingDiv.textContent = 'Loading...';
+  container.appendChild(loadingDiv);
+
+  const gameAreaDiv = document.createElement('div');
+  gameAreaDiv.id = 'game-area';
+  gameAreaDiv.style.display = 'none';
+  container.appendChild(gameAreaDiv);
+
+  app.innerHTML = '';
+  app.appendChild(container);
 
   try {
     if (singleMovie && movieId) {

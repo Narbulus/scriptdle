@@ -107,7 +107,9 @@ function generateFlowerColors(cardColor, rng) {
 
 // Generate a flower SVG as a data URI
 export function generateFlower(seed, cardColor = '#cccccc') {
-  const rng = createSeededRng(seed);
+  // Convert string seed to number if necessary
+  const numericSeed = typeof seed === 'string' ? stringToSeed(seed) : seed;
+  const rng = createSeededRng(numericSeed);
 
   // Flower parameters - fixed total radius, varying internals
   const totalRadius = 45; // Consistent outer radius for all flowers

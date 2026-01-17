@@ -1,8 +1,10 @@
 import { renderHome } from './pages/Home.js';
 import { renderPlay } from './pages/Play.js';
+import { renderCollection } from './pages/Collection.js';
 
 const routes = {
   '/': renderHome,
+  '/collection': renderCollection,
   '/play/:packId': renderPlay,
   '/movie/:movieId': (params) => renderPlay({ ...params, singleMovie: true }),
 };

@@ -1,5 +1,6 @@
 import { router } from '../router.js';
 import { generateFlower, stringToSeed } from '../utils/flowerGenerator.js';
+import { Navigation } from '../components/Navigation.js';
 
 export async function renderHome() {
   const app = document.getElementById('app');
@@ -118,17 +119,22 @@ export async function renderHome() {
       `).join('');
     };
 
-    app.innerHTML = `
-      <div class="container">
-        <div class="nav-bar nav-bar-centered">
-          <div class="nav-logo">Scriptle</div>
-        </div>
+    const container = document.createElement('div');
+    container.className = 'container';
 
-        <div class="script-title-section" style="flex: 1;">
-          ${renderCategories()}
-        </div>
-      </div>
-    `;
+    // Add navigation
+    const nav = Navigation({ showBackButton: false });
+    container.appendChild(nav);
+
+    // Add content
+    const contentDiv = document.createElement('div');
+    contentDiv.className = 'script-title-section';
+    contentDiv.style.flex = '1';
+    contentDiv.innerHTML = renderCategories();
+    container.appendChild(contentDiv);
+
+    app.innerHTML = '';
+    app.appendChild(container);
   } catch (e) {
     console.error('Failed to load pack index:', e);
     app.innerHTML = `
