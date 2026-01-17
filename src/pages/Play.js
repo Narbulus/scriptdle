@@ -1,8 +1,7 @@
-import { Game } from '../components/Game.js';
 import { GameDaily } from '../components/GameDaily.js';
 
 export async function renderPlay(params) {
-  const { packId, movieId, singleMovie, navContainer, contentContainer } = params;
+  const { packId, navContainer, contentContainer } = params;
 
   // Render nav in persistent container
   navContainer.innerHTML = `
@@ -18,34 +17,7 @@ export async function renderPlay(params) {
   `;
 
   try {
-    if (singleMovie && movieId) {
-      // Single movie mode - use traditional full script loading
-      const scriptResponse = await fetch(`/data/scripts/${movieId}.json`);
-      const script = await scriptResponse.json();
-
-      const pack = {
-        id: movieId,
-        name: script.title,
-        type: 'single',
-        movies: [movieId],
-        theme: { primary: '#333', secondary: '#555' }
-      };
-      const scripts = { [movieId]: script };
-
-      // Set page title
-      document.title = `Scriptle - A daily ${script.title} movie quote game`;
-
-      // Apply theme
-      applyTheme(pack);
-
-      // Initialize traditional game
-      document.getElementById('loading').style.display = 'none';
-      document.getElementById('game-area').style.display = 'block';
-
-      const game = new Game(document.getElementById('game-area'), pack, scripts);
-      game.start();
-
-    } else if (packId) {
+    if (packId) {
       // Pack mode - use pre-generated daily puzzle
       const today = new Date().toISOString().split('T')[0];
 

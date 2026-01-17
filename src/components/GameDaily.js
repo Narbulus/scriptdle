@@ -25,6 +25,9 @@ export class GameDaily {
     this.gameOver = false;
     this.movieLocked = false;
     this.guessHistory = [];
+
+    // Modal cache
+    this.packMoviesCache = null;
   }
 
   start() {
@@ -119,7 +122,7 @@ export class GameDaily {
       <!-- Script Title Section -->
       <div class="script-title-section">
         <div class="script-title">${this.pack.name}</div>
-        <div id="subtitle-message" class="script-subtitle">${this.metadata.movies.length} Movies</div>
+        <a id="movies-subtitle-link" class="script-subtitle script-subtitle-link">${this.metadata.movies.length} Movies</a>
       </div>
 
       <!-- Main Script Area -->
@@ -172,6 +175,23 @@ export class GameDaily {
         </div>
 
         <div id="other-packs-container"></div>
+
+        <!-- View Movies Modal -->
+        <div id="movies-modal" class="modal-overlay" style="display: none;">
+          <div class="modal-container">
+            <div class="modal-header">
+              <h2 class="modal-title">Movies in ${this.pack.name}</h2>
+              <button id="modal-close" class="modal-close-btn">&times;</button>
+            </div>
+            <div class="modal-content">
+              <div id="movies-loading">Loading movies...</div>
+              <div id="movies-list" style="display: none;"></div>
+            </div>
+            <div class="modal-footer">
+              <p class="modal-disclaimer">Links take you to IMDB</p>
+            </div>
+          </div>
+        </div>
       </div>
     `;
 
@@ -401,6 +421,41 @@ export class GameDaily {
     if (shareBtn) {
       shareBtn.addEventListener('click', () => this.shareResults());
     }
+
+    // View Movies modal - subtitle link
+    const moviesSubtitleLink = document.getElementById('movies-subtitle-link');
+    if (moviesSubtitleLink) {
+      moviesSubtitleLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        this.openMoviesModal();
+      });
+    }
+
+    // Modal close button
+    const modalClose = document.getElementById('modal-close');
+    if (modalClose) {
+      modalClose.addEventListener('click', () => this.closeMoviesModal());
+    }
+
+    // Close on overlay click
+    const modalOverlay = document.getElementById('movies-modal');
+    if (modalOverlay) {
+      modalOverlay.addEventListener('click', (e) => {
+        if (e.target === modalOverlay) {
+          this.closeMoviesModal();
+        }
+      });
+    }
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        const modal = document.getElementById('movies-modal');
+        if (modal && modal.style.display === 'flex') {
+          this.closeMoviesModal();
+        }
+      }
+    });
   }
 
   submitGuess() {
@@ -780,5 +835,97 @@ export class GameDaily {
     const original = btn.textContent;
     btn.textContent = 'Copied!';
     setTimeout(() => btn.textContent = original, 2000);
+  }
+
+  // Modal methods
+
+  async fetchPackMovies() {
+    if (this.packMoviesCache) {
+      return this.packMoviesCache;
+    }
+
+    const moviesList = [];
+
+    for (const movieId of this.packData.movies) {
+      try {
+        const response = await fetch(`/data/scripts/${movieId}.json`);
+        const script = await response.json();
+
+        moviesList.push({
+          id: movieId,
+          title: script.title,
+          year: script.year,
+          imdbId: script.imdbId,
+          poster: script.poster
+        });
+      } catch (e) {
+        console.error(`Failed to load movie ${movieId}:`, e);
+      }
+    }
+
+    this.packMoviesCache = moviesList;
+    return moviesList;
+  }
+
+  renderMoviesList(movies) {
+    const listContainer = document.getElementById('movies-list');
+
+    listContainer.innerHTML = movies.map(movie => {
+      const imdbUrl = movie.imdbId
+        ? `https://www.imdb.com/title/${movie.imdbId}/`
+        : null;
+
+      return `
+        <div class="movie-item">
+          ${movie.poster && movie.poster !== 'N/A'
+            ? `<img src="${movie.poster}" alt="${movie.title}" class="movie-poster-thumb">`
+            : `<div class="movie-poster-placeholder"></div>`
+          }
+          <div class="movie-info">
+            <div class="movie-title">${movie.title} (${movie.year || 'Unknown'})</div>
+            ${imdbUrl
+              ? `<a href="${imdbUrl}" target="_blank" rel="noopener noreferrer" class="movie-imdb-link">
+                   View on IMDB →
+                 </a>`
+              : `<span class="movie-no-link">IMDB link unavailable</span>`
+            }
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  async openMoviesModal() {
+    const modal = document.getElementById('movies-modal');
+    const loading = document.getElementById('movies-loading');
+    const list = document.getElementById('movies-list');
+
+    // Update modal title
+    const title = document.querySelector('.modal-title');
+    title.textContent = `Movies in ${this.pack.name}`;
+
+    // Show modal
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+
+    // Load movies
+    loading.style.display = 'block';
+    list.style.display = 'none';
+
+    try {
+      const movies = await this.fetchPackMovies();
+      this.renderMoviesList(movies);
+      loading.style.display = 'none';
+      list.style.display = 'block';
+    } catch (e) {
+      loading.textContent = 'Error loading movies';
+      console.error('Failed to load pack movies:', e);
+    }
+  }
+
+  closeMoviesModal() {
+    const modal = document.getElementById('movies-modal');
+    modal.style.display = 'none';
+    document.body.style.overflow = '';
   }
 }

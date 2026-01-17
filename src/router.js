@@ -4,7 +4,6 @@ import { renderPlay } from './pages/Play.js';
 const routes = {
   '/': renderHome,
   '/play/:packId': renderPlay,
-  '/movie/:movieId': (params) => renderPlay({ ...params, singleMovie: true }),
 };
 
 function matchRoute(path) {
