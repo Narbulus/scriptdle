@@ -1389,5 +1389,28 @@
   ],
   "lineCount": 338,
   "characterCount": 29,
-  "topCastCount": 15
+  "topCastCount": 15,
+  "topCast": [
+    "ANAKIN SKYWALKER",
+    "OBI-WAN KENOBI",
+    "PADME",
+    "OBI WAN KENOBI",
+    "MACE WINDU",
+    "YODA",
+    "PALPATINE",
+    "COUNT DOOKU",
+    "DEXTER JETTSTER",
+    "CAPTAIN",
+    "NUTE GUNRAY",
+    "CAPTAIN TYPHO",
+    "ZAM WESELL",
+    "JAR JAR BINKS",
+    "PILOT"
+  ],
+  "imdbId": "tt0121765",
+  "poster": "https://m.media-amazon.com/images/M/MV5BNTgxMjY2YzUtZmVmNC00YjAwLWJlODMtNDBhNzllNzIzMjgxXkEyXkFqcGc@._V1_SX300.jpg",
+  "rated": "PG",
+  "runtime": "142 min",
+  "genre": "Action, Adventure, Fantasy",
+  "director": "George Lucas"
 }

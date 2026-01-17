@@ -3572,5 +3572,43 @@
   ],
   "lineCount": 881,
   "characterCount": 40,
+<<<<<<< HEAD
   "topCastCount": 26
+=======
+  "topCastCount": 26,
+  "topCast": [
+    "HARRY POTTER",
+    "HERMIONE GRANGER",
+    "RON WEASLEY",
+    "REMUS LUPIN",
+    "CORNELIUS FUDGE",
+    "ALBUS DUMBLEDORE",
+    "SIRIUS BLACK",
+    "RUBEUS HAGRID",
+    "SEVERUS SNAPE",
+    "FRED WEASLEY",
+    "GEORGE WEASLEY",
+    "DRACO MALFOY",
+    "MARGE DURSLEY",
+    "STANLEY SHUNPIKE",
+    "VERNON DURSLEY",
+    "NEVILLE LONGBOTTOM",
+    "MINERVA MCGONAGALL",
+    "ARTHUR WEASLEY",
+    "ROSMERTA",
+    "SEAMUS FINNIGAN",
+    "SYBILL TRELAWNEY",
+    "SHRUNKEN HEAD",
+    "MOLLY WEASLEY",
+    "PERCY WEASLEY",
+    "GHOST",
+    "PETER PETTIGREW"
+  ],
+  "imdbId": "tt0304141",
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_SX300.jpg",
+  "rated": "PG",
+  "runtime": "142 min",
+  "genre": "Adventure, Family, Fantasy",
+  "director": "Alfonso Cuarón"
+>>>>>>> Narbulus/bordeaux
 }

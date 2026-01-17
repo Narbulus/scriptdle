@@ -2906,5 +2906,37 @@
   ],
   "lineCount": 712,
   "characterCount": 50,
+<<<<<<< HEAD
   "topCastCount": 20
+=======
+  "topCastCount": 20,
+  "topCast": [
+    "HARRY POTTER",
+    "RON WEASLEY",
+    "HERMIONE GRANGER",
+    "ALBUS DUMBLEDORE",
+    "VOLDEMORT",
+    "SEVERUS SNAPE",
+    "NEVILLE LONGBOTTOM",
+    "GRIPHOOK",
+    "ABERFORTH DUMBLEDORE",
+    "LUNA LOVEGOOD",
+    "BELLATRIX LESTRANGE",
+    "GINNY WEASLEY",
+    "HELENA RAVENCLAW",
+    "BOGROD",
+    "GARRICK OLLIVANDER",
+    "SEAMUS FINNIGAN",
+    "GOBLIN",
+    "REMUS LUPIN",
+    "DRACO MALFOY",
+    "ALBUS POTTER"
+  ],
+  "imdbId": "tt1201607",
+  "poster": "https://m.media-amazon.com/images/M/MV5BOTA1Mzc2N2ItZWRiNS00MjQzLTlmZDQtMjU0NmY1YWRkMGQ4XkEyXkFqcGc@._V1_SX300.jpg",
+  "rated": "PG-13",
+  "runtime": "130 min",
+  "genre": "Adventure, Family, Fantasy",
+  "director": "David Yates"
+>>>>>>> Narbulus/bordeaux
 }
