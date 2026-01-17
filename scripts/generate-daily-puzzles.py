@@ -299,6 +299,9 @@ class PuzzleGenerator:
                 pack = self.load_pack(pack_id)
                 if 'theme' in pack:
                     themes[pack_id] = pack['theme']
+                    # Add metadata for optimistic rendering
+                    themes[pack_id]['name'] = pack.get('name', pack_id)
+                    themes[pack_id]['movieCount'] = len(pack.get('movies', []))
                     print(f"  Loaded theme for {pack_id}")
             except Exception as e:
                 print(f"  Warning: Failed to load theme for {pack_id}: {e}")

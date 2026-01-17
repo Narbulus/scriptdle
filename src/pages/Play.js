@@ -12,10 +12,25 @@ export async function renderPlay(params) {
   `;
 
   // Render loading state in content container
-  contentContainer.innerHTML = `
-    <div id="loading" style="text-align:center; font-family:sans-serif; padding: 3rem;">Loading...</div>
-    <div id="game-area" style="display:none;"></div>
-  `;
+  // Optimistically render header if theme data is available
+  const themeData = window.SCRIPTLE_THEMES?.[packId];
+
+  if (themeData && themeData.name) {
+    contentContainer.innerHTML = `
+      <div id="game-area">
+        <div class="script-title-section">
+          <div class="script-title">${themeData.name}</div>
+          <div class="script-subtitle">${themeData.movieCount} Movies</div>
+        </div>
+        <div id="loading" style="text-align:center; font-family:sans-serif; padding: 3rem;">Loading...</div>
+      </div>
+    `;
+  } else {
+    contentContainer.innerHTML = `
+      <div id="loading" style="text-align:center; font-family:sans-serif; padding: 3rem;">Loading...</div>
+      <div id="game-area" style="display:none;"></div>
+    `;
+  }
 
   try {
     if (singleMovie && movieId) {
