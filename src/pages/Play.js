@@ -1,15 +1,14 @@
 import { Game } from '../components/Game.js';
 import { GameDaily } from '../components/GameDaily.js';
+import { Navigation } from '../components/Navigation.js';
 
 export async function renderPlay(params) {
   const { packId, movieId, singleMovie, navContainer, contentContainer } = params;
 
-  // Render nav in persistent container
-  navContainer.innerHTML = `
-    <a href="/" data-link class="nav-bar nav-bar-link">
-      <div class="nav-logo">Scriptle</div>
-    </a>
-  `;
+  // Render nav in persistent container with Navigation component
+  navContainer.innerHTML = '';
+  const nav = Navigation({ showBackButton: true });
+  navContainer.appendChild(nav);
 
   // Render loading state in content container
   // Optimistically render header if theme data is available

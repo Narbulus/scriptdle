@@ -1,5 +1,6 @@
 import { router } from '../router.js';
 import { generateFlower, stringToSeed } from '../utils/flowerGenerator.js';
+import { Navigation } from '../components/Navigation.js';
 
 export async function renderHome({ navContainer, contentContainer }) {
 
@@ -117,12 +118,10 @@ export async function renderHome({ navContainer, contentContainer }) {
       `).join('');
     };
 
-    // Render nav bar in persistent container
-    navContainer.innerHTML = `
-      <div class="nav-bar nav-bar-centered">
-        <div class="nav-logo">Scriptle</div>
-      </div>
-    `;
+    // Render nav bar in persistent container using Navigation component
+    navContainer.innerHTML = '';
+    const nav = Navigation({ showBackButton: false });
+    navContainer.appendChild(nav);
 
     // Render content in swappable container
     contentContainer.innerHTML = `
@@ -132,11 +131,9 @@ export async function renderHome({ navContainer, contentContainer }) {
     `;
   } catch (e) {
     console.error('Failed to load pack index:', e);
-    navContainer.innerHTML = `
-      <div class="nav-bar nav-bar-centered">
-        <div class="nav-logo">Scriptle</div>
-      </div>
-    `;
+    navContainer.innerHTML = '';
+    const nav = Navigation({ showBackButton: false });
+    navContainer.appendChild(nav);
     contentContainer.innerHTML = `
       <div style="text-align: center; color: red; padding: 3rem;">
         Failed to load game data. Please try again later.
