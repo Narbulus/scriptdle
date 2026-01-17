@@ -299,6 +299,9 @@ class PuzzleGenerator:
                 pack = self.load_pack(pack_id)
                 if 'theme' in pack:
                     themes[pack_id] = pack['theme']
+                    # Add metadata for optimistic rendering
+                    themes[pack_id]['name'] = pack.get('name', pack_id)
+                    themes[pack_id]['movieCount'] = len(pack.get('movies', []))
                     print(f"  Loaded theme for {pack_id}")
             except Exception as e:
                 print(f"  Warning: Failed to load theme for {pack_id}: {e}")
@@ -344,12 +347,15 @@ def main():
     parser.add_argument('--days', type=int, default=365, help='Number of days to generate (default: 365)')
     parser.add_argument('--pack', type=str, help='Generate for specific pack only')
     parser.add_argument('--data-dir', type=str, default='public/data', help='Data directory path')
+    parser.add_argument('--themes-only', action='store_true', help='Only regenerate themes.js file')
 
     args = parser.parse_args()
 
     generator = PuzzleGenerator(data_dir=args.data_dir)
 
-    if args.pack:
+    if args.themes_only:
+        generator.generate_themes_file()
+    elif args.pack:
         generator.generate_for_pack(args.pack, args.days)
         # Also regenerate themes file
         generator.generate_themes_file()
