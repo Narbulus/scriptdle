@@ -87,7 +87,10 @@ def backfill_movie(script_file: Path, api_key: str, dry_run: bool) -> bool:
 
         # Check if metadata already exists (skip if has both imdbId and poster)
         if script_data.get('imdbId') and script_data.get('poster'):
-            print(f"  ✓ {script_data.get('title', script_file.stem)} - Already has IMDB metadata")
+            return False
+
+        # Skip if no imdbId at all
+        if not script_data.get('imdbId'):
             return False
 
         title = script_data.get('title')
@@ -103,19 +106,25 @@ def backfill_movie(script_file: Path, api_key: str, dry_run: bool) -> bool:
         omdb_data = fetch_omdb_metadata(title, year, api_key)
 
         if omdb_data:
-            # Add OMDB fields to script data
-            script_data['imdbId'] = omdb_data.get('imdbID')
-            script_data['poster'] = omdb_data.get('Poster')
-            script_data['rated'] = omdb_data.get('Rated')
-            script_data['runtime'] = omdb_data.get('Runtime')
-            script_data['genre'] = omdb_data.get('Genre')
-            script_data['director'] = omdb_data.get('Director')
+            # Add OMDB fields to script data (only update missing fields)
+            if not script_data.get('imdbId'):
+                script_data['imdbId'] = omdb_data.get('imdbID')
+            if not script_data.get('poster'):
+                script_data['poster'] = omdb_data.get('Poster')
+            if not script_data.get('rated'):
+                script_data['rated'] = omdb_data.get('Rated')
+            if not script_data.get('runtime'):
+                script_data['runtime'] = omdb_data.get('Runtime')
+            if not script_data.get('genre'):
+                script_data['genre'] = omdb_data.get('Genre')
+            if not script_data.get('director'):
+                script_data['director'] = omdb_data.get('Director')
 
             if dry_run:
-                print(f"    [DRY RUN] Would add IMDB ID: {omdb_data.get('imdbID')}")
+                print(f"    [DRY RUN] Would add poster: {omdb_data.get('Poster')}")
             else:
                 save_json(script_data, script_file)
-                print(f"    ✓ Added IMDB ID: {omdb_data.get('imdbID')}")
+                print(f"    ✓ Added poster: {omdb_data.get('Poster')[:50]}...")
 
             return True
         else:
