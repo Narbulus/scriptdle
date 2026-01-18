@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, beta ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Install Playwright Browsers
+      run: npx playwright install --with-deps
+
+    - name: Generate Daily Puzzles
+      run: npm run generate:daily
+
+    - name: Build
+      run: npm run build
+
+    - name: Test
+      run: npx playwright test

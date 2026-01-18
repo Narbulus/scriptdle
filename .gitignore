@@ -12,6 +12,12 @@ dist/
 # IDE
 .idea/
 .vscode/
+.claude/
+.conductor/
+.cursor/
+.playwright-mcp/
+playwright-report/
+test-results/
 *.swp
 *.swo
 

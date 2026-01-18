@@ -7,9 +7,11 @@
     "generate:daily": "python3 scripts/generate-daily-puzzles.py --days 365",
     "build": "npm run generate:daily && vite build",
     "preview": "vite preview",
+    "test": "playwright test",
     "generate-data": "python3 parse_all.py"
   },
   "devDependencies": {
+    "@playwright/test": "^1.57.0",
     "vite": "^5.4.0"
   }
 }

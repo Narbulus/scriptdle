@@ -2,31 +2,31 @@
 // Run 'python scripts/generate-daily-puzzles.py' to regenerate
 
 window.SCRIPTLE_THEMES = {
-  "star-wars": {
-    "primary": "#FFE81F",
-    "bgColor": "#000000",
-    "containerBg": "#1a1a2e",
-    "accentColor": "#c41e3a",
-    "btnText": "black",
-    "cardGradientStart": "#000000",
-    "cardGradientEnd": "#1a1a2e",
-    "cardBorder": "#FFE81F",
-    "cardText": "#FFE81F",
-    "name": "Star Wars",
-    "movieCount": 6
-  },
-  "monsters-inc": {
-    "primary": "#f3e5f5",
-    "bgColor": "#4a148c",
+  "finding-nemo": {
+    "primary": "#00acc1",
+    "bgColor": "#006064",
     "containerBg": "#ffffff",
-    "accentColor": "#ce93d8",
+    "accentColor": "#00838f",
     "btnText": "white",
-    "cardGradientStart": "#8e24aa",
-    "cardGradientEnd": "#6a1b9a",
-    "cardBorder": "#7b1fa2",
-    "cardText": "#f3e5f5",
-    "name": "Monsters Inc",
+    "cardGradientStart": "#26c6da",
+    "cardGradientEnd": "#0097a7",
+    "cardBorder": "#00acc1",
+    "cardText": "#fff9c4",
+    "name": "Finding Nemo",
     "movieCount": 2
+  },
+  "toy-story": {
+    "primary": "#4fc3f7",
+    "bgColor": "#1565c0",
+    "containerBg": "#ffffff",
+    "accentColor": "#29b6f6",
+    "btnText": "white",
+    "cardGradientStart": "#42a5f5",
+    "cardGradientEnd": "#1e88e5",
+    "cardBorder": "#1976d2",
+    "cardText": "#fff9c4",
+    "name": "Toy Story",
+    "movieCount": 4
   },
   "incredibles": {
     "primary": "#ff5722",
@@ -39,32 +39,6 @@ window.SCRIPTLE_THEMES = {
     "cardBorder": "#ff5722",
     "cardText": "#fff3e0",
     "name": "The Incredibles",
-    "movieCount": 2
-  },
-  "shrek": {
-    "primary": "#7cb342",
-    "bgColor": "#5d4037",
-    "containerBg": "#faf5e9",
-    "accentColor": "#558b2f",
-    "btnText": "white",
-    "cardGradientStart": "#5d4037",
-    "cardGradientEnd": "#6d4c41",
-    "cardBorder": "#7cb342",
-    "cardText": "#c5e1a5",
-    "name": "Shrek",
-    "movieCount": 4
-  },
-  "finding-nemo": {
-    "primary": "#00acc1",
-    "bgColor": "#006064",
-    "containerBg": "#ffffff",
-    "accentColor": "#00838f",
-    "btnText": "white",
-    "cardGradientStart": "#26c6da",
-    "cardGradientEnd": "#0097a7",
-    "cardBorder": "#00acc1",
-    "cardText": "#fff9c4",
-    "name": "Finding Nemo",
     "movieCount": 2
   },
   "harry-potter": {
@@ -93,18 +67,31 @@ window.SCRIPTLE_THEMES = {
     "name": "The Lord of the Rings",
     "movieCount": 3
   },
-  "toy-story": {
-    "primary": "#4fc3f7",
-    "bgColor": "#1565c0",
+  "star-wars": {
+    "primary": "#FFE81F",
+    "bgColor": "#000000",
+    "containerBg": "#1a1a2e",
+    "accentColor": "#c41e3a",
+    "btnText": "black",
+    "cardGradientStart": "#000000",
+    "cardGradientEnd": "#1a1a2e",
+    "cardBorder": "#FFE81F",
+    "cardText": "#FFE81F",
+    "name": "Star Wars",
+    "movieCount": 6
+  },
+  "monsters-inc": {
+    "primary": "#f3e5f5",
+    "bgColor": "#4a148c",
     "containerBg": "#ffffff",
-    "accentColor": "#29b6f6",
+    "accentColor": "#ce93d8",
     "btnText": "white",
-    "cardGradientStart": "#42a5f5",
-    "cardGradientEnd": "#1e88e5",
-    "cardBorder": "#1976d2",
-    "cardText": "#fff9c4",
-    "name": "Toy Story",
-    "movieCount": 4
+    "cardGradientStart": "#8e24aa",
+    "cardGradientEnd": "#6a1b9a",
+    "cardBorder": "#7b1fa2",
+    "cardText": "#f3e5f5",
+    "name": "Monsters Inc",
+    "movieCount": 2
   },
   "disney-pixar": {
     "primary": "#e91e63",
@@ -118,5 +105,18 @@ window.SCRIPTLE_THEMES = {
     "cardText": "#fff9c4",
     "name": "Disney & Pixar",
     "movieCount": 24
+  },
+  "shrek": {
+    "primary": "#7cb342",
+    "bgColor": "#5d4037",
+    "containerBg": "#faf5e9",
+    "accentColor": "#558b2f",
+    "btnText": "white",
+    "cardGradientStart": "#5d4037",
+    "cardGradientEnd": "#6d4c41",
+    "cardBorder": "#7cb342",
+    "cardText": "#c5e1a5",
+    "name": "Shrek",
+    "movieCount": 4
   }
 };
