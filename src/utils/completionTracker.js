@@ -1,9 +1,11 @@
+import { getCurrentDate, parseLocalDate } from './time.js';
+
 // Utility to track and retrieve completions across all packs
 
 const STORAGE_KEY_PREFIX = 'scriptle:';
 
 export function getTodaysCompletion() {
-  const today = new Date().toISOString().split('T')[0];
+  const today = getCurrentDate();
   return getCompletionForDate(today);
 }
 
@@ -62,7 +64,7 @@ export function getAllCompletions() {
   }
 
   // Sort by date (most recent first)
-  completions.sort((a, b) => new Date(b.date) - new Date(a.date));
+  completions.sort((a, b) => parseLocalDate(b.date) - parseLocalDate(a.date));
 
   return completions;
 }
@@ -90,16 +92,14 @@ export function getStreak() {
 
   // Group completions by date
   const dateSet = new Set(completions.map(c => c.date));
-  const sortedDates = Array.from(dateSet).sort((a, b) => new Date(b) - new Date(a));
+  const sortedDates = Array.from(dateSet).sort((a, b) => parseLocalDate(b) - parseLocalDate(a));
 
   let streak = 0;
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-
-  let checkDate = new Date(today);
+  const today = getCurrentDate();
+  let checkDate = parseLocalDate(today);
 
   for (let i = 0; i < sortedDates.length; i++) {
-    const dateStr = checkDate.toISOString().split('T')[0];
+    const dateStr = checkDate.getFullYear() + '-' + String(checkDate.getMonth() + 1).padStart(2, '0') + '-' + String(checkDate.getDate()).padStart(2, '0');
 
     if (dateSet.has(dateStr)) {
       streak++;

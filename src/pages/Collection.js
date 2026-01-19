@@ -1,35 +1,99 @@
-import { Navigation } from '../components/Navigation.js';
 import {
   getCompletionsByDate,
   getStreak,
   getAllCompletions
 } from '../utils/completionTracker.js';
 import { generateFlower } from '../utils/flowerGenerator.js';
+import { getCurrentDate, formatDateToLocal, parseLocalDate } from '../utils/time.js';
 
-export function renderCollection({ navContainer, contentContainer }) {
-  // Render nav bar in persistent container using Navigation component
-  navContainer.innerHTML = '';
-  const nav = Navigation({ showBackButton: true });
-  navContainer.appendChild(nav);
+// Global modal instance check
+let modalCreated = false;
 
-  // Render content in swappable container
+export function openCollectionModal() {
+  if (!modalCreated) {
+    createCollectionModal();
+    modalCreated = true;
+  }
+
+  const modal = document.getElementById('collection-modal');
+  if (modal) {
+    // Refresh content every time it opens to show latest data
+    refreshModalContent();
+    modal.style.display = 'flex';
+  }
+}
+
+function createCollectionModal() {
+  const modal = document.createElement('div');
+  modal.id = 'collection-modal';
+  modal.className = 'modal-overlay';
+  modal.style.display = 'none';
+
+  modal.innerHTML = `
+    <div class="modal-container">
+      <div class="modal-header">
+        <h2 class="modal-title">History</h2>
+        <button id="collection-modal-close" class="modal-close-btn">&times;</button>
+      </div>
+      <div class="modal-content">
+        <div id="collection-body" class="modal-body custom-scrollbar"></div>
+      </div>
+    </div>
+  `;
+
+  document.body.appendChild(modal);
+
+  // Bind events
+  const closeBtn = document.getElementById('collection-modal-close');
+  closeBtn.addEventListener('click', () => {
+    modal.style.display = 'none';
+  });
+
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      modal.style.display = 'none';
+    }
+  });
+
+  // Escape key support
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal.style.display === 'flex') {
+      modal.style.display = 'none';
+    }
+  });
+}
+
+function refreshModalContent() {
+  const body = document.getElementById('collection-body');
+  if (!body) return;
+
+  body.innerHTML = '';
+
   const content = document.createElement('div');
   content.className = 'collection-container';
+  content.style.padding = '0'; // Remove padding inside modal
 
-  // Streak counter (above calendar)
-  const streakSection = createStreakSection();
-  content.appendChild(streakSection);
+  // Streak
+  content.appendChild(createStreakSection());
 
-  // Calendar section
-  const calendarSection = createCalendarSection();
-  content.appendChild(calendarSection);
+  // Calendar
+  content.appendChild(createCalendarSection());
 
-  // Results list
-  const resultsSection = createResultsSection();
-  content.appendChild(resultsSection);
+  // Results
+  content.appendChild(createResultsSection());
 
-  contentContainer.innerHTML = '';
-  contentContainer.appendChild(content);
+  body.appendChild(content);
+}
+
+// Keep renderCollection for route compatibility (redirects to home + open modal ideally, 
+// but for now let's just make it show the modal and render a blank background or home)
+export function renderCollection({ navContainer, contentContainer }) {
+  // If navigated to directly, redirect to home and open modal
+  window.history.replaceState(null, '', '/');
+  // We need to reload or manually trigger home render, but simpler:
+  window.location.href = '/';
+  // Ideally we'd open the modal after reload, but persistence is tricky without params.
+  // For now, let's assumes users use the button.
 }
 
 function createCalendarSection() {
@@ -43,8 +107,7 @@ function createCalendarSection() {
   const completionsByDate = getCompletionsByDate();
 
   // Calculate the last 28 days (4 weeks)
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
+  const today = parseLocalDate(getCurrentDate());
 
   const days = [];
   for (let i = 27; i >= 0; i--) {
@@ -63,7 +126,7 @@ function createCalendarSection() {
 
   // Create calendar cells
   days.forEach(date => {
-    const dateStr = date.toISOString().split('T')[0];
+    const dateStr = formatDateToLocal(date);
     const dayCell = document.createElement('div');
     dayCell.className = 'calendar-day';
     dayCell.title = dateStr;
@@ -169,9 +232,8 @@ function formatPackName(packId) {
 }
 
 function formatDate(dateStr) {
-  const date = new Date(dateStr + 'T00:00:00');
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
+  const date = parseLocalDate(dateStr);
+  const today = parseLocalDate(getCurrentDate());
 
   const yesterday = new Date(today);
   yesterday.setDate(yesterday.getDate() - 1);

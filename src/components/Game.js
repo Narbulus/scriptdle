@@ -1,4 +1,5 @@
 import { track } from '../utils/analytics.js';
+import { getCurrentDate } from '../utils/time.js';
 
 export class Game {
   constructor(container, pack, scripts) {
@@ -77,7 +78,7 @@ export class Game {
 
   // Seeded RNG
   mulberry32(seed) {
-    return function() {
+    return function () {
       let t = seed += 0x6D2B79F5;
       t = Math.imul(t ^ (t >>> 15), t | 1);
       t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
@@ -86,7 +87,7 @@ export class Game {
   }
 
   getDateSeed() {
-    const today = new Date().toISOString().split('T')[0];
+    const today = getCurrentDate();
     let hash = 0;
     for (let i = 0; i < today.length; i++) {
       hash = ((hash << 5) - hash) + today.charCodeAt(i);
@@ -106,7 +107,7 @@ export class Game {
 
   selectTarget() {
     // Per-pack daily seed
-    const today = new Date().toISOString().split('T')[0];
+    const today = getCurrentDate();
     const dateSeed = this.getDateSeed();
     const packHash = this.hashString(this.pack.id);
     const combinedSeed = dateSeed + packHash;
@@ -147,10 +148,10 @@ export class Game {
             <select id="movie-select">
               <option value="">Choose the Film</option>
               ${this.metadata.movies.map(m => {
-                const year = this.metadata.movieYears?.[m];
-                const label = year ? `${m} (${year})` : m;
-                return `<option value="${m}">${label}</option>`;
-              }).join('')}
+      const year = this.metadata.movieYears?.[m];
+      const label = year ? `${m} (${year})` : m;
+      return `<option value="${m}">${label}</option>`;
+    }).join('')}
             </select>
             <div id="movie-error" class="form-error"></div>
           </div>

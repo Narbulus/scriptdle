@@ -1,0 +1,208 @@
+/* Completion Page Overhaul */
+#share-container {
+  flex: 1;
+  display: flex !important;
+  /* Force flex since we use it to structure the page */
+  flex-direction: column;
+  justify-content: space-between;
+  /* Push footer to bottom */
+  width: 100%;
+  /* min-height: 50vh; REMOVED for modal usage */
+}
+
+.completion-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.completion-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.completion-title {
+  font-size: 1.5rem;
+  /* Reduced from 2rem */
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--primary-color);
+  line-height: 1.2;
+}
+
+.completion-answer {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  color: var(--primary-color);
+  margin-top: 0.5rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.completion-answer strong {
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.completion-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+/* Badge in the middle of the row */
+.completion-flower {
+  width: 80px;
+  height: 80px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+  animation: popIn 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* Make it same visual weight as boxes */
+  flex-shrink: 0;
+}
+
+.completion-flower.emoji-badge {
+  font-size: 3rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+
+/* Stats boxes */
+.stat-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  /* Square, match flower rough size */
+  background: transparent;
+  border: none;
+  border-radius: 12px;
+  padding: 0.5rem;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.stat-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #333;
+  /* Darker for legibility */
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.share-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+#share-btn {
+  /* Inherit standard button styles from main.css */
+  width: auto;
+  min-width: 200px;
+}
+
+/* Footer Section */
+.completion-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: auto;
+  /* Push to bottom of flex container */
+  padding-top: 2rem;
+  border-top: none;
+  padding-bottom: 2rem;
+  /* Add some breathing room at very bottom */
+}
+
+/* Adjust countdown for footer context */
+#countdown-wrapper .countdown-container {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+#countdown-wrapper .countdown-label {
+  color: #999 !important;
+  font-size: 0.75rem !important;
+  margin-bottom: 0.25rem !important;
+}
+
+#countdown-wrapper .timer-display {
+  color: #333 !important;
+  font-size: 1.5rem !important;
+}
+
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Confetti element */
+.confetti {
+  pointer-events: none;
+  position: fixed;
+  z-index: 9999;
+}
+
+/* Mobile adjustments */
+@media (max-width: 400px) {
+  .completion-row {
+    gap: 0.75rem;
+  }
+
+  .stat-box {
+    width: 75px;
+    height: 75px;
+  }
+
+  .completion-flower {
+    width: 70px;
+    height: 70px;
+  }
+
+  .stat-value {
+    font-size: 1.25rem;
+  }
+}

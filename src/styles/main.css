@@ -1,3 +1,5 @@
+@import './completion.css';
+
 :root {
   --primary-color: #333;
   --bg-color: #f4f4f4;
@@ -49,6 +51,7 @@ body {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -167,7 +170,8 @@ body {
   margin: 0 auto;
   padding: 0 2rem;
   position: relative;
-  z-index: 0; /* Create stacking context so ::before with z-index: -1 stays above parent backgrounds */
+  z-index: 0;
+  /* Create stacking context so ::before with z-index: -1 stays above parent backgrounds */
 }
 
 .script-then {
@@ -219,6 +223,7 @@ body {
   display: flex;
   gap: 2rem;
   justify-content: center;
+  align-items: flex-start;
   width: 100%;
   max-width: 600px;
   margin-bottom: 1.5rem;
@@ -260,7 +265,6 @@ body {
   text-decoration: underline;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  opacity: 0.7;
   transition: opacity 0.2s;
 }
 
@@ -305,31 +309,63 @@ h2 {
   padding: 0 2rem;
 }
 
+/* Recent Puzzles Section */
+.recent-section {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.recent-heading {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding-left: 0.5rem;
+}
+
+.recent-grid {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  /* Hide scrollbar but allow scroll */
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE/Edge */
+}
+
+.recent-grid::-webkit-scrollbar {
+  display: none;
+  /* Chrome/Safari */
+}
+
+.recent-grid .pack-card {
+  min-width: 160px;
+  width: 160px;
+  flex-shrink: 0;
+}
+
 /* Home Page - Pack Grid */
 .pack-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 1rem;
-  margin-top: 0.75rem;
-  padding: 0 2rem 1rem;
+  width: 100%;
 }
 
 .pack-card {
-  background: var(--highlight);
-  border: 2px solid #ccc;
+  aspect-ratio: 3/4;
+  background-color: var(--container-bg);
+  border: 1px solid #ccc;
   border-radius: 8px;
-  padding: 1.5rem;
+  padding: 1rem;
   text-decoration: none;
   color: inherit;
   transition: transform 0.2s, box-shadow 0.2s;
-  font-family: 'Courier New', Courier, monospace;
-  position: relative;
-}
-
-.pack-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   border-color: var(--primary-color);
+  position: relative;
 }
 
 .pack-card h3 {
@@ -340,9 +376,84 @@ h2 {
   letter-spacing: 0.05em;
 }
 
+
 .pack-card .movie-count {
   color: #666;
   font-size: 0.9rem;
+}
+
+/* Pack List (Rows) */
+.pack-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+
+.pack-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--container-bg);
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.1s, filter 0.1s;
+  min-height: 3.5rem;
+}
+
+.pack-row:hover {
+  filter: brightness(0.95);
+  transform: translateX(4px);
+  /* border-color handled by inline style usually, or default */
+}
+
+.pack-row-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  align-items: flex-start;
+  /* Fix "offset" issue - ensure left alignment */
+  text-align: left;
+}
+
+.pack-row-name {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  line-height: 1.2;
+}
+
+.pack-row-count {
+  font-size: 0.8rem;
+  color: #888;
+  line-height: 1.2;
+  margin-left: 0;
+  /* Reinforce no indent */
+}
+
+.pack-row-badge {
+  width: 32px;
+  height: 32px;
+  margin-left: 1rem;
+}
+
+.pack-row-badge .completion-badge {
+  position: static;
+  /* Reset absolute positioning */
+  width: 100%;
+  height: 100%;
+  filter: none;
+  /* Maybe less shadow for rows */
+}
+
+.pack-row-badge .emoji-badge {
+  font-size: 24px;
 }
 
 .completion-badge {
@@ -440,6 +551,21 @@ h2 {
 }
 
 
+/* Keep it subtle but clickable */
+.footer-more-movies {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #888;
+  border-bottom: 1px dotted #888;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+.footer-more-movies:hover {
+  color: var(--primary-color);
+  border-bottom-color: var(--primary-color);
+}
+
 /* Reveal animation for context lines on win */
 .reveal-animate {
   animation: revealFadeIn 0.5s ease-out forwards;
@@ -450,6 +576,7 @@ h2 {
     opacity: 0;
     transform: translateY(-10px);
   }
+
   to {
     opacity: 0.6;
     transform: translateY(0);
@@ -477,16 +604,21 @@ select {
   border: none;
   border-bottom: 2px solid var(--primary-color);
   border-radius: 0;
-  padding: 0.5rem 2rem 0.5rem 0.5rem;
+  /* Ensure padding handles the arrow space (from wrapper) and text overlap */
+  padding: 0.5rem 2.5rem 0.5rem 0.5rem;
   cursor: pointer;
   color: var(--primary-color);
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   appearance: none;
+  -webkit-appearance: none;
   background-image: none;
   text-align: center;
-  white-space: normal;
+  /* Handle long titles gracefully (Bugfix) */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   line-height: 1.4;
   min-height: 2.5rem;
   position: relative;
@@ -646,7 +778,7 @@ button:active {
   white-space: pre-wrap;
   text-align: center;
   min-width: 200px;
-  box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Back link */
@@ -771,24 +903,7 @@ button:active {
   justify-content: flex-end;
 }
 
-.nav-back-button {
-  background: transparent;
-  color: var(--primary-color);
-  border: none;
-  padding: 0.5rem 1rem;
-  font-size: 0.9rem;
-  font-weight: bold;
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  transition: opacity 0.2s;
-}
 
-.nav-back-button:hover {
-  opacity: 0.7;
-  transform: none;
-  filter: none;
-}
 
 .nav-results-link {
   background: transparent;
@@ -807,6 +922,13 @@ button:active {
   opacity: 0.7;
   transform: none;
   filter: none;
+}
+
+/* Ensure nav buttons don't take full width on mobile */
+.nav-results-link,
+.nav-help-btn,
+.nav-back-button {
+  width: auto !important;
 }
 
 /* Collection Page */
@@ -956,6 +1078,7 @@ button:active {
     padding: 0.4rem 0.75rem;
   }
 }
+
 /* Modal Styles */
 .modal-overlay {
   position: fixed;
@@ -975,6 +1098,7 @@ button:active {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -997,6 +1121,7 @@ button:active {
     transform: translateY(30px);
     opacity: 0;
   }
+
   to {
     transform: translateY(0);
     opacity: 1;
@@ -1110,18 +1235,22 @@ button:active {
 }
 
 .movie-imdb-link {
-  color: var(--accent-color);
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #f5c518;
+  /* IMDB Yellow */
+  color: #000;
   text-decoration: none;
-  font-size: 0.875rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.25rem;
-  transition: color 0.2s;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: opacity 0.2s;
 }
 
 .movie-imdb-link:hover {
-  color: var(--primary-color);
-  text-decoration: underline;
+  opacity: 0.8;
+  text-decoration: none;
 }
 
 .movie-no-link {
@@ -1149,4 +1278,79 @@ button:active {
     padding: 0.75rem;
   }
 
+}
+
+/* Default Countdown Styles */
+.countdown-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.countdown-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  color: #666;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.timer-display {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.secondary-btn {
+  background: white;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.secondary-btn:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+.nav-help-btn {
+  background: transparent;
+  color: var(--primary-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: opacity 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-help-btn:hover {
+  opacity: 0.7;
+  transform: none;
+  filter: none;
+}
+
+.nav-help-icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 1;
 }

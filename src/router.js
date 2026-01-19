@@ -2,12 +2,15 @@ import { renderHome } from './pages/Home.js';
 import { renderPlay } from './pages/Play.js';
 import { track } from './utils/analytics.js';
 import { renderCollection } from './pages/Collection.js';
+import { renderLegal } from './pages/Legal.js';
+
 
 const routes = {
   '/': renderHome,
   '/collection': renderCollection,
   '/play/:packId': renderPlay,
   '/movie/:movieId': (params) => renderPlay({ ...params, singleMovie: true }),
+  '/legal': renderLegal,
 };
 
 function matchRoute(path) {

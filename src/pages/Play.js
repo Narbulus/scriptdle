@@ -1,6 +1,7 @@
 import { Game } from '../components/Game.js';
 import { GameDaily } from '../components/GameDaily.js';
 import { Navigation } from '../components/Navigation.js';
+import { getCurrentDate } from '../utils/time.js';
 
 export async function renderPlay(params) {
   const { packId, movieId, singleMovie, navContainer, contentContainer } = params;
@@ -61,7 +62,7 @@ export async function renderPlay(params) {
 
     } else if (packId) {
       // Pack mode - use pre-generated daily puzzle
-      const today = new Date().toISOString().split('T')[0];
+      const today = getCurrentDate();
 
       // Fetch pack data and manifest in parallel (independent requests)
       const [packRes, manifestRes] = await Promise.all([

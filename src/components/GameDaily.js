@@ -3,6 +3,11 @@
  * No RNG, no full script access - only the minimal puzzle data
  */
 import { track } from '../utils/analytics.js';
+import { Countdown } from './Countdown.js';
+import { fireConfetti } from '../utils/confetti.js';
+import { generateFlower, stringToSeed } from '../utils/flowerGenerator.js';
+import { getStreak } from '../utils/completionTracker.js';
+import { getCurrentDate } from '../utils/time.js';
 
 const STORAGE_VERSION = 2;
 
@@ -68,28 +73,122 @@ export class GameDaily {
       // Use requestAnimationFrame to ensure DOM is fully painted
       requestAnimationFrame(() => {
         requestAnimationFrame(() => {
-          this.showCompletionUI(savedProgress.success);
+          requestAnimationFrame(() => {
+            this.showCompletionUI(savedProgress.success, false);
+          });
         });
       });
     }
   }
 
-  showCompletionUI(success) {
-    // Show appropriate message
-    const target = this.puzzle.targetLine;
-    if (success) {
-      this.showMessage(`Correct! It was ${target.character} in ${target.movie}.`, 'success');
+  showCompletionUI(success, isNewCompletion = false) {
+    // Determine tier and message
+    const attemptCount = this.guessHistory.length;
+    let tier;
+    if (!success) {
+      tier = 'failure';
+    } else if (attemptCount === 1) {
+      tier = 'perfect';
+    } else if (attemptCount === 2) {
+      tier = 'good';
+    } else if (attemptCount === 3) {
+      tier = 'average';
     } else {
-      this.showMessage(`Game Over! It was ${target.character} in ${target.movie}.`, 'error');
+      tier = 'barely';
     }
 
-    // Show share container
-    document.getElementById('game-controls').style.display = 'none';
-    document.getElementById('share-container').style.display = 'flex';
+    const tierMessage = this.manifest.tierMessages?.[tier] || (success ? 'Puzzle Completed!' : 'Game Over');
 
-    // Update final attempt counter
-    const finalCount = document.getElementById('attempt-count-final');
-    if (finalCount) finalCount.textContent = this.currentAttempt;
+    // Generate flower/badge
+    const today = getCurrentDate();
+    const badgeSeed = stringToSeed(this.pack.id + today);
+    const theme = this.packData?.theme || this.manifest.theme || {};
+    const cardColor = theme.cardGradientStart || '#cccccc';
+
+    let badgeHtml = '';
+    if (success) {
+      const flowerSvg = generateFlower(badgeSeed, cardColor);
+      badgeHtml = `<div class="completion-flower" style="background-image: url('${flowerSvg}');"></div>`;
+
+      // Fire confetti only on new completion
+      if (isNewCompletion) {
+        // Create confetti palette from theme
+        const confettiColors = [
+          theme.primary,
+          theme.secondary,
+          theme.accentColor,
+          theme.cardGradientStart,
+          theme.cardGradientEnd,
+          '#ffffff' // Always add white for contrast
+        ].filter(c => c); // Remove undefined/null
+
+        // If we have at least 2 colors (white + one theme color), use them
+        // Otherwise fallback to default rainbow (handled by passing null/undefined/empty to fireConfetti if we wanted, but here we just pass what we have if length > 1)
+        fireConfetti(confettiColors.length > 1 ? confettiColors : null);
+      }
+    } else {
+      const failEmojis = ['💀', '🙊', '🤡', '🤨', '🫣'];
+      const emojiIndex = badgeSeed % failEmojis.length;
+      const emoji = failEmojis[emojiIndex];
+      badgeHtml = `<div class="completion-flower emoji-badge" style="display:flex; align-items:center; justify-content:center; font-size: 4rem;">${emoji}</div>`;
+    }
+
+    // Get stats
+    const streak = getStreak();
+
+    // Answer text
+    const target = this.puzzle.targetLine;
+    const answerText = `It was <strong>${target.character}</strong> in <br><em>${target.movie}</em>`;
+
+    // Hide game controls and show new completion UI
+    document.getElementById('game-controls').style.display = 'none';
+    const shareContainer = document.getElementById('share-container');
+    shareContainer.style.display = 'flex';
+
+    // Inject new UI structure
+    shareContainer.innerHTML = `
+      <div class="completion-content">
+        <div class="completion-header">
+          <h2 class="completion-title">${tierMessage}</h2>
+          <div class="completion-answer">${answerText}</div>
+        </div>
+        
+        <div class="completion-row">
+          <div class="stat-box">
+            <div class="stat-value">${streak}</div>
+            <div class="stat-label">Day Streak</div>
+          </div>
+          
+          ${badgeHtml}
+          
+          <div class="stat-box">
+            <div class="stat-value">${this.guessHistory.length}/5</div>
+            <div class="stat-label">Attempts</div>
+          </div>
+        </div>
+        
+        <div class="share-section">
+          <button id="share-btn">Share Results</button>
+          ${this.puzzle.imdbId
+        ? `<a href="https://www.imdb.com/title/${this.puzzle.imdbId}/" target="_blank" rel="noopener noreferrer" class="movie-imdb-link">View on IMDB</a>`
+        : ''}
+          <a href="/" data-link class="footer-more-movies" style="margin-top: 1rem; font-size: 0.9rem;">Back to Menu</a>
+        </div>
+      </div>
+      
+      <div id="countdown-area" class="completion-footer">
+        <div id="countdown-wrapper"></div>
+      </div>
+    `;
+
+    // Re-bind share button since we overwrote the innerHTML
+    document.getElementById('share-btn').addEventListener('click', () => this.shareResults());
+
+    // Add countdown
+    const countdownWrapper = document.getElementById('countdown-wrapper');
+    if (countdownWrapper) {
+      countdownWrapper.appendChild(Countdown());
+    }
   }
 
   reconstructGuessHistory(savedProgress) {
@@ -144,10 +243,10 @@ export class GameDaily {
               <select id="movie-select">
                 <option value="">Film</option>
                 ${this.metadata.movies.map(m => {
-                  const year = this.metadata.movieYears?.[m];
-                  const label = year ? `${m} (${year})` : m;
-                  return `<option value="${m}">${label}</option>`;
-                }).join('')}
+      const year = this.metadata.movieYears?.[m];
+      const label = year ? `${m} (${year})` : m;
+      return `<option value="${m}">${label}</option>`;
+    }).join('')}
               </select>
             </div>
             <div class="select-wrapper">
@@ -166,16 +265,11 @@ export class GameDaily {
             </div>
           </div>
         </div>
-
-        <div id="share-container" style="display: ${this.gameOver ? 'flex' : 'none'}; flex-direction: column; align-items: center; gap: 1rem;">
-          <button id="share-btn">Share Results</button>
-          <div class="footer-meta">
-            <div class="footer-attempts"><span id="attempt-count-final">${this.currentAttempt}</span>/5 Attempts</div>
-            <a href="/" data-link class="footer-more-movies">More Movies</a>
-          </div>
-        </div>
-
+        
         <div id="other-packs-container"></div>
+
+        <!-- Share Container (for completion UI) -->
+        <div id="share-container" style="display: ${this.gameOver ? 'flex' : 'none'}; flex-direction: column; align-items: center; gap: 1rem;"></div>
 
         <!-- View Movies Modal -->
         <div id="movies-modal" class="modal-overlay" style="display: none;">
@@ -489,6 +583,10 @@ export class GameDaily {
       return;
     }
 
+    // Clear any previous game messages (like "Incorrect")
+    const messageEl = document.getElementById('message');
+    if (messageEl) messageEl.style.display = 'none';
+
     const target = this.puzzle.targetLine;
     const movieCorrect = movieGuess === target.movie;
     const charCorrect = charGuess.toUpperCase() === target.character.toUpperCase();
@@ -504,14 +602,11 @@ export class GameDaily {
     }
 
     if (movieCorrect && charCorrect) {
-      this.showMessage(`Correct! It was ${target.character} in ${target.movie}.`, 'success');
+      // Don't show success message for win - go straight to completion UI
       this.gameOver = true;
       this.saveProgress();
       this.renderScript();
-      document.getElementById('game-controls').style.display = 'none';
-      document.getElementById('share-container').style.display = 'flex';
-      const finalCount = document.getElementById('attempt-count-final');
-      if (finalCount) finalCount.textContent = this.currentAttempt;
+      this.showCompletionUI(true, true);
     } else {
       this.currentAttempt++;
       document.getElementById('attempt-count').textContent = this.currentAttempt;
@@ -521,10 +616,7 @@ export class GameDaily {
         this.gameOver = true;
         this.saveProgress();
         this.renderScript();
-        document.getElementById('game-controls').style.display = 'none';
-        document.getElementById('share-container').style.display = 'flex';
-        const finalCount = document.getElementById('attempt-count-final');
-        if (finalCount) finalCount.textContent = this.currentAttempt;
+        this.showCompletionUI(false);
       } else {
         let msg = 'Incorrect.';
         if (movieCorrect) msg = 'Movie is correct! Character is wrong.';
@@ -688,7 +780,7 @@ export class GameDaily {
     // Determine tier
     const attemptCount = this.guessHistory.length;
     const success = this.guessHistory[this.guessHistory.length - 1]?.movie &&
-                    this.guessHistory[this.guessHistory.length - 1]?.char;
+      this.guessHistory[this.guessHistory.length - 1]?.char;
 
     let tier;
     if (!success) {
@@ -879,24 +971,24 @@ export class GameDaily {
       return `
         <div class="movie-item">
           ${movie.poster && movie.poster !== 'N/A'
-            ? `<img src="${movie.poster}" alt="${movie.title}" class="movie-poster-thumb">`
-            : `<div class="movie-poster-placeholder"></div>`
-          }
+          ? `<img src="${movie.poster}" alt="${movie.title}" class="movie-poster-thumb">`
+          : `<div class="movie-poster-placeholder"></div>`
+        }
           <div class="movie-info">
             <div class="movie-title">${movie.title} (${movie.year || 'Unknown'})</div>
             <div class="movie-links">
               ${mainUrl
-                ? `<a href="${mainUrl}" target="_blank" rel="noopener noreferrer" class="movie-imdb-link">
+          ? `<a href="${mainUrl}" target="_blank" rel="noopener noreferrer" class="movie-imdb-link">
                      Details →
                    </a>`
-                : `<span class="movie-no-link">IMDB unavailable</span>`
-              }
+          : `<span class="movie-no-link">IMDB unavailable</span>`
+        }
               ${castUrl
-                ? `<a href="${castUrl}" target="_blank" rel="noopener noreferrer" class="movie-imdb-link">
+          ? `<a href="${castUrl}" target="_blank" rel="noopener noreferrer" class="movie-imdb-link">
                      Cast →
                    </a>`
-                : ``
-              }
+          : ``
+        }
             </div>
           </div>
         </div>

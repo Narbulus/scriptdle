@@ -1,23 +1,42 @@
 import { router } from '../router.js';
+import { openCollectionModal } from '../pages/Collection.js';
+import { openHelpModal } from '../components/Help.js';
 
-export function Navigation({ showBackButton = false }) {
+export function Navigation({ showBackButton = false, showHelpButton = true }) {
   const nav = document.createElement('div');
   nav.className = 'nav-bar';
 
   // Left side - back button or empty space
   const leftSide = document.createElement('div');
   leftSide.className = 'nav-left';
+  leftSide.style.display = 'flex';
+  leftSide.style.gap = '1rem';
+  leftSide.style.alignItems = 'center';
 
-  if (showBackButton) {
-    const backButton = document.createElement('button');
-    backButton.className = 'nav-back-button';
-    backButton.innerHTML = '← Back';
-    backButton.onclick = (e) => {
+  // Help button (left side)
+  if (showHelpButton) {
+    const helpButton = document.createElement('button');
+    helpButton.className = 'nav-help-btn';
+    helpButton.title = 'How to Play';
+
+    const icon = document.createElement('span');
+    icon.className = 'nav-help-icon';
+    icon.textContent = '?';
+
+    const label = document.createElement('span');
+    label.textContent = 'HELP';
+
+    helpButton.appendChild(icon);
+    helpButton.appendChild(label);
+
+    helpButton.onclick = (e) => {
       e.preventDefault();
-      router.navigate('/');
+      openHelpModal();
     };
-    leftSide.appendChild(backButton);
+    leftSide.appendChild(helpButton);
   }
+
+  /* Back button removed */
 
   // Center - logo (clickable, navigates to home)
   const center = document.createElement('div');
@@ -38,10 +57,10 @@ export function Navigation({ showBackButton = false }) {
 
   const resultsLink = document.createElement('button');
   resultsLink.className = 'nav-results-link';
-  resultsLink.textContent = 'RESULTS';
+  resultsLink.textContent = 'HISTORY';
   resultsLink.onclick = (e) => {
     e.preventDefault();
-    router.navigate('/collection');
+    openCollectionModal();
   };
 
   rightSide.appendChild(resultsLink);
