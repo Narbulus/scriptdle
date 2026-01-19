@@ -2,23 +2,31 @@
   "featured": [
     "star-wars",
     "harry-potter",
-    "toy-story",
-    "the-lord-of-the-rings",
-    "shrek",
-    "incredibles",
-    "finding-nemo",
-    "monsters-inc"
+    "marvel",
+    "pixar",
+    "disney-classics",
+    "the-lord-of-the-rings"
   ],
   "categories": [
     {
       "id": "classics",
       "name": "Classics",
-      "packs": ["star-wars", "harry-potter", "the-lord-of-the-rings"]
+      "packs": [
+        "star-wars",
+        "harry-potter",
+        "the-lord-of-the-rings",
+        "bttf-trilogy",
+        "marvel"
+      ]
     },
     {
       "id": "animated",
       "name": "Animated",
-      "packs": ["toy-story", "shrek", "incredibles", "finding-nemo", "monsters-inc"]
+      "packs": [
+        "pixar",
+        "shrek",
+        "disney-classics"
+      ]
     }
   ],
   "packs": [
@@ -26,26 +34,6 @@
       "id": "star-wars",
       "name": "Star Wars",
       "movieCount": 6
-    },
-    {
-      "id": "toy-story",
-      "name": "Toy Story",
-      "movieCount": 4
-    },
-    {
-      "id": "incredibles",
-      "name": "The Incredibles",
-      "movieCount": 2
-    },
-    {
-      "id": "finding-nemo",
-      "name": "Finding Nemo",
-      "movieCount": 2
-    },
-    {
-      "id": "monsters-inc",
-      "name": "Monsters Inc",
-      "movieCount": 2
     },
     {
       "id": "harry-potter",
@@ -61,6 +49,26 @@
       "id": "shrek",
       "name": "Shrek",
       "movieCount": 4
+    },
+    {
+      "id": "bttf-trilogy",
+      "name": "Back to the Future",
+      "movieCount": 3
+    },
+    {
+      "id": "pixar",
+      "name": "Pixar",
+      "movieCount": 11
+    },
+    {
+      "id": "disney-classics",
+      "name": "Disney Classics",
+      "movieCount": 13
+    },
+    {
+      "id": "marvel",
+      "name": "Marvel",
+      "movieCount": 11
     }
   ]
 }

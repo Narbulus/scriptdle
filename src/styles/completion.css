@@ -40,7 +40,7 @@
 }
 
 .completion-answer {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   font-size: 1rem;
   color: var(--primary-color);
   margin-top: 0.5rem;
@@ -70,10 +70,19 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
-  animation: popIn 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  /* Make it same visual weight as boxes */
+  /* Removed popIn (moved to wrapper) */
   flex-shrink: 0;
+  /* Add sway animation and shadow */
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+  animation: sway 4s ease-in-out infinite;
+  transform-origin: center center;
+}
+
+.completion-badge-wrapper {
+  animation: popIn 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .completion-flower.emoji-badge {
@@ -95,7 +104,7 @@
   /* Square, match flower rough size */
   background: transparent;
   border: none;
-  border-radius: 12px;
+  border-radius: var(--radius-2xl);
   padding: 0.5rem;
 }
 
@@ -103,7 +112,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   color: var(--primary-color);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   line-height: 1;
   margin-bottom: 4px;
 }
@@ -112,7 +121,7 @@
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #333;
+  color: var(--text-primary);
   /* Darker for legibility */
   font-weight: bold;
   text-align: center;
@@ -157,13 +166,13 @@
 }
 
 #countdown-wrapper .countdown-label {
-  color: #999 !important;
+  color: var(--text-muted) !important;
   font-size: 0.75rem !important;
   margin-bottom: 0.25rem !important;
 }
 
 #countdown-wrapper .timer-display {
-  color: #333 !important;
+  color: var(--text-primary) !important;
   font-size: 1.5rem !important;
 }
 
@@ -176,6 +185,27 @@
   to {
     opacity: 1;
     transform: scale(1);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes sway {
+
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-5deg);
+  }
+
+  75% {
+    transform: rotate(5deg);
   }
 }
 

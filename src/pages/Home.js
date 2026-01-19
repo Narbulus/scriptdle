@@ -1,7 +1,6 @@
 import { router } from '../router.js';
 import { generateFlower, stringToSeed } from '../utils/flowerGenerator.js';
 import { Navigation } from '../components/Navigation.js';
-import { Countdown } from '../components/Countdown.js';
 import { getCurrentDate } from '../utils/time.js';
 
 export async function renderHome({ navContainer, contentContainer }) {
@@ -10,11 +9,7 @@ export async function renderHome({ navContainer, contentContainer }) {
   document.title = 'Scriptle - A daily movie quote game';
 
   // Reset CSS variables to defaults when returning to home
-  document.documentElement.style.setProperty('--primary-color', '#333');
-  document.documentElement.style.setProperty('--bg-color', '#f4f4f4');
-  document.documentElement.style.setProperty('--container-bg', 'white');
-  document.documentElement.style.setProperty('--accent-color', '#555');
-  document.documentElement.style.setProperty('--btn-text', 'white');
+  // (Removed to allow PaletteTester to control global theme)
 
 
   // Helper to check completion status
@@ -97,26 +92,28 @@ export async function renderHome({ navContainer, contentContainer }) {
       if (!pack) return '';
 
       const theme = packThemes[pack.id];
-      const rowStyle = theme ? `
-        background: linear-gradient(135deg, ${theme.cardGradientStart} 0%, ${theme.cardGradientEnd} 100%);
-        border-color: ${theme.cardBorder};
-      ` : '';
-      const nameStyle = theme ? `color: ${theme.cardText || theme.cardBorder};` : '';
-      const countStyle = theme ? `color: ${theme.cardText || theme.cardBorder}; opacity: 0.8;` : '';
 
-      // For rows, we check "today" for completion, or maybe general completion? 
-      // The requirement says "make flowers/emojis appear... also render them on the rows".
-      // Assuming we check TODAY's status for the general list, as that's the "Daily" mechanic.
-      // Or should we show if they have EVER beaten it? 
-      // Given "Scriptle" is a daily game, showing Today's status on the main list seems most appropriate 
-      // so they know what they have/haven't done today.
+      // Set pack card CSS custom properties
+      const themeVars = theme ? `
+        --pack-card-gradient-start: ${theme.cardGradientStart};
+        --pack-card-gradient-end: ${theme.cardGradientEnd};
+        --pack-card-border: ${theme.cardBorder};
+        --pack-card-text: ${theme.cardText || theme.primary};
+      ` : '';
+
+      // For rows, we check "today" for completion
       const badge = getBadgeHtml(packId, null); // null = defaults to today
 
       return `
-        <a href="/play/${pack.id}" data-link class="pack-row" data-pack-id="${pack.id}" style="${rowStyle}">
+        <a href="/play/${pack.id}"
+           data-link
+           data-theme="pack"
+           class="pack-row"
+           data-pack-id="${pack.id}"
+           style="${themeVars}">
           <div class="pack-row-content">
-            <span class="pack-row-name" style="${nameStyle}">${pack.name}</span>
-            <span class="pack-row-count" style="${countStyle}">${pack.movieCount} movies</span>
+            <span class="pack-row-name">${pack.name}</span>
+            <span class="pack-row-count">${pack.movieCount} movies</span>
           </div>
           ${badge ? `<div class="pack-row-badge">${badge}</div>` : ''}
         </a>
@@ -199,7 +196,7 @@ export async function renderHome({ navContainer, contentContainer }) {
         
         ${recentPacks.length > 0 ? `
           <div class="recent-section">
-            <h2 class="recent-heading">YOUR MOVIES</h2>
+            <h2 class="category-heading">Recently Played</h2>
             <div class="pack-list-container">
               ${recentPacks.map(item => renderPackRow(item.id)).join('')}
             </div>
@@ -207,16 +204,8 @@ export async function renderHome({ navContainer, contentContainer }) {
         ` : ''}
         
         ${renderCategories(recentPacks.map(p => p.id))}
-
-        <div id="home-countdown"></div>
       </div>
     `;
-
-    // Mount countdown
-    const countdownContainer = document.getElementById('home-countdown');
-    if (countdownContainer) {
-      countdownContainer.appendChild(Countdown());
-    }
   } catch (e) {
     console.error('Failed to load pack index:', e);
     navContainer.innerHTML = '';

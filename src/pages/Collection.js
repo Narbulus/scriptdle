@@ -27,6 +27,7 @@ function createCollectionModal() {
   const modal = document.createElement('div');
   modal.id = 'collection-modal';
   modal.className = 'modal-overlay';
+  modal.setAttribute('data-theme', 'main');
   modal.style.display = 'none';
 
   modal.innerHTML = `

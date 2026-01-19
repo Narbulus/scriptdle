@@ -135,22 +135,20 @@ export class Game {
 
     this.container.innerHTML = `
       <!-- Script Title Section -->
-      <div class="script-title-section">
+      <div class="script-title-section" data-theme="main">
         <div class="script-title">${this.pack.name}</div>
         <div class="script-subtitle">${this.metadata.movies.length} Movies</div>
       </div>
 
       <!-- Main Script Area -->
-      <div class="script-area">
+      <div class="script-area" data-theme="main">
         <div class="script-content">
           <!-- Movie Selector -->
           <div class="movie-select-wrapper">
             <select id="movie-select">
               <option value="">Choose the Film</option>
               ${this.metadata.movies.map(m => {
-      const year = this.metadata.movieYears?.[m];
-      const label = year ? `${m} (${year})` : m;
-      return `<option value="${m}">${label}</option>`;
+      return `<option value="${m}">${m}</option>`;
     }).join('')}
             </select>
             <div id="movie-error" class="form-error"></div>

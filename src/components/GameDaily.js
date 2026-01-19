@@ -60,10 +60,12 @@ export class GameDaily {
 
     // Restore movie selector if needed
     if (savedProgress && savedProgress.selectedMovie) {
-      const movieSelect = document.getElementById('movie-select');
       if (movieSelect) {
         movieSelect.value = savedProgress.selectedMovie;
         movieSelect.disabled = this.movieLocked;
+        if (this.movieLocked) {
+          movieSelect.parentElement.classList.add('correct');
+        }
         this.onMovieChange();
       }
     }
@@ -108,7 +110,10 @@ export class GameDaily {
     let badgeHtml = '';
     if (success) {
       const flowerSvg = generateFlower(badgeSeed, cardColor);
-      badgeHtml = `<div class="completion-flower" style="background-image: url('${flowerSvg}');"></div>`;
+      badgeHtml = `
+        <div class="completion-badge-wrapper">
+          <div class="completion-flower" style="background-image: url('${flowerSvg}');"></div>
+        </div>`;
 
       // Fire confetti only on new completion
       if (isNewCompletion) {
@@ -220,13 +225,13 @@ export class GameDaily {
 
     this.container.innerHTML = `
       <!-- Script Title Section -->
-      <div class="script-title-section">
+      <div class="script-title-section" data-theme="main">
         <div class="script-title">${this.pack.name}</div>
         <a id="movies-subtitle-link" class="script-subtitle script-subtitle-link">${this.metadata.movies.length} Movies</a>
       </div>
 
       <!-- Main Script Area -->
-      <div class="script-area">
+      <div class="script-area" data-theme="main">
         <div class="script-content">
           <!-- Script Lines -->
           <div id="script-display"></div>
@@ -243,9 +248,8 @@ export class GameDaily {
               <select id="movie-select">
                 <option value="">Film</option>
                 ${this.metadata.movies.map(m => {
-      const year = this.metadata.movieYears?.[m];
-      const label = year ? `${m} (${year})` : m;
-      return `<option value="${m}">${label}</option>`;
+      const title = this.metadata.movieTitles?.[m] || m;
+      return `<option value="${m}">${title}</option>`;
     }).join('')}
               </select>
             </div>
@@ -294,6 +298,7 @@ export class GameDaily {
       const movieSelect = document.getElementById('movie-select');
       movieSelect.value = target.movie;
       movieSelect.disabled = true;
+      movieSelect.parentElement.classList.add('correct');
     }
   }
 
@@ -587,8 +592,17 @@ export class GameDaily {
     const messageEl = document.getElementById('message');
     if (messageEl) messageEl.style.display = 'none';
 
+    let movieGuessTitle = movieGuess;
+
+    // Resolve ID to title if available
+    if (this.metadata.movieTitles && this.metadata.movieTitles[movieGuess]) {
+      movieGuessTitle = this.metadata.movieTitles[movieGuess];
+    }
+
     const target = this.puzzle.targetLine;
-    const movieCorrect = movieGuess === target.movie;
+
+    // Check against both title (primary) and ID (fallback)
+    const movieCorrect = movieGuessTitle === target.movie || movieGuess === target.movie;
     const charCorrect = charGuess.toUpperCase() === target.character.toUpperCase();
 
     this.guessHistory.push({ movie: movieCorrect, char: charCorrect });
@@ -596,6 +610,7 @@ export class GameDaily {
     if (movieCorrect) {
       this.movieLocked = true;
       movieSelect.disabled = true;
+      movieSelect.parentElement.classList.add('correct');
     } else if (!this.movieLocked) {
       movieSelect.value = '';
       this.onMovieChange();
@@ -975,7 +990,7 @@ export class GameDaily {
           : `<div class="movie-poster-placeholder"></div>`
         }
           <div class="movie-info">
-            <div class="movie-title">${movie.title} (${movie.year || 'Unknown'})</div>
+            <div class="movie-title">${movie.title}</div>
             <div class="movie-links">
               ${mainUrl
           ? `<a href="${mainUrl}" target="_blank" rel="noopener noreferrer" class="movie-imdb-link">

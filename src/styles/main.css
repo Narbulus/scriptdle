@@ -1,27 +1,261 @@
 @import './completion.css';
 
 :root {
-  --primary-color: #333;
-  --bg-color: #f4f4f4;
-  --container-bg: white;
-  --accent-color: #555;
-  --btn-text: white;
-  --highlight: #e2e2e2;
-  --script-bg: #ffffff;
-  --script-line-alt: #fafafa;
+  /* ========================================
+     DESIGN TOKENS (Global)
+     ======================================== */
+
+  /* Typography Scale */
+  --font-size-xs: 0.7rem;
+  /* labels, tiny text */
+  --font-size-sm: 0.85rem;
+  /* secondary text, captions */
+  --font-size-base: 1rem;
+  /* body text, buttons */
+  --font-size-lg: 1.25rem;
+  /* emphasized text */
+  --font-size-xl: 1.5rem;
+  /* headings */
+  --font-size-2xl: 1.75rem;
+  /* large headings */
+
+  /* Font Weights */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Letter Spacing */
+  --letter-spacing-tight: 0.05em;
+  --letter-spacing-normal: 0.1em;
+  --letter-spacing-wide: 0.15em;
+
+  /* Line Heights */
+  --line-height-tight: 1;
+  --line-height-snug: 1.2;
+  --line-height-normal: 1.4;
+  --line-height-relaxed: 1.6;
+
+  /* Spacing Scale */
+  --spacing-xs: 0.25rem;
+  /* 4px */
+  --spacing-sm: 0.5rem;
+  /* 8px */
+  --spacing-md: 0.75rem;
+  /* 12px */
+  --spacing-lg: 1rem;
+  /* 16px */
+  --spacing-xl: 1.5rem;
+  /* 24px */
+  --spacing-2xl: 2rem;
+  /* 32px */
+
+  /* Border Radii */
+  --radius-sm: 3px;
+  --radius-md: 4px;
+  --radius-lg: 6px;
+  --radius-xl: 8px;
+  --radius-2xl: 12px;
+  --radius-full: 50%;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.3);
+  --shadow-inset: inset 0 0 5px rgba(0, 0, 0, 0.1);
+
+  /* Transitions */
+  --transition-fast: 0.1s ease;
+  --transition-base: 0.2s ease;
+  --transition-slow: 0.3s ease;
+
+  /* Font Family */
+  --font-mono: 'Courier New', Courier, monospace;
+
+  /* ========================================
+     THEME COLORS
+     ======================================== */
+
+  /* Main Theme - home page UI, script area */
+  --main-bg: #f4f4f4;
+  --main-surface: #ffffff;
+  --main-surface-alt: #fafafa;
+  --main-text: #333;
+  --main-text-secondary: #555;
+  --main-text-muted: #999;
+  --main-text-error: #c00;
+  --main-nav-bg: #e0e0e0;
+  --main-placeholder-bg: #e0e0e0;
+
+  /* Pack Theme - pack-branded elements, game controls */
+  --pack-primary: #333;
+  --pack-bg: #f4f4f4;
+  --pack-surface: #ffffff;
+  --pack-accent: #555;
+  --pack-btn-text: #ffffff;
+  --pack-text: #333;
+  --pack-text-secondary: #555;
+  --pack-text-muted: #999;
+
+  /* Pack Card Theme - pack card specific styling */
+  --pack-card-gradient-start: #333;
+  --pack-card-gradient-end: #555;
+  --pack-card-border: #333;
+  --pack-card-text: #ffffff;
+
+  /* Palette Defaults (used by PaletteTester) */
+  --palette-nav-bg: var(--main-nav-bg);
+  --palette-text-primary: var(--main-text);
+  --palette-text-secondary: var(--main-text-secondary);
+  --palette-text-muted: var(--main-text-muted);
+  --palette-text-error: var(--main-text-error);
+
+  /* Inner Script Defaults */
+  --script-text-primary: var(--main-text);
+  --script-text-secondary: var(--main-text-secondary);
+  --script-text-muted: var(--main-text-muted);
 }
+
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   margin: 0;
   padding: 0;
   background: var(--bg-color);
   line-height: 1.2;
   transition: background 0.3s;
+}
+
+/* ========================================
+   THEME CONTEXT SCOPING
+   ======================================== */
+
+/* Main theme context - home page UI, script area */
+[data-theme="main"] {
+  background: var(--main-bg);
+  color: var(--main-text);
+
+  /* Legacy variable mapping for Main Theme */
+  --primary-color: var(--main-text);
+  --bg-color: var(--main-bg);
+  --game-content-bg: var(--main-bg);
+  --container-bg: var(--main-surface);
+  --accent-color: var(--main-text-secondary);
+  --btn-text: var(--main-surface);
+  --highlight: #e2e2e2;
+  --script-bg: var(--main-surface);
+  --script-line-alt: var(--main-surface-alt);
+  --placeholder-bg: var(--main-placeholder-bg);
+  --text-primary: var(--main-text);
+  --text-secondary: var(--main-text-secondary);
+  --text-muted: var(--main-text-muted);
+  --text-error: var(--main-text-error);
+}
+
+[data-theme="main"] .nav-bar {
+  background: var(--main-nav-bg);
+}
+
+[data-theme="main"] .footer-bar {
+  background: var(--main-nav-bg);
+}
+
+[data-theme="main"] .nav-logo,
+[data-theme="main"] .nav-back {
+  color: var(--main-text);
+}
+
+[data-theme="main"] .script-title,
+[data-theme="main"] .character-name {
+  color: var(--main-text);
+}
+
+[data-theme="main"] .script-subtitle,
+[data-theme="main"] .dialogue-text {
+  color: var(--main-text-secondary);
+}
+
+[data-theme="main"] .nav-help-btn,
+[data-theme="main"] .nav-results-link,
+[data-theme="main"] .footer-link,
+[data-theme="main"] .footer-countdown {
+  color: var(--main-text);
+}
+
+/* Pack theme context - pack cards, game UI */
+[data-theme="pack"] {
+  background: var(--pack-bg);
+  color: var(--pack-text);
+
+  /* Legacy variable mapping for Pack Theme */
+  --primary-color: var(--pack-primary);
+  --bg-color: var(--pack-bg);
+  --game-content-bg: var(--pack-bg);
+  --container-bg: var(--pack-surface);
+  --accent-color: var(--pack-accent);
+  --btn-text: var(--pack-btn-text);
+  --highlight: #e2e2e2;
+  --script-bg: var(--pack-surface);
+  --script-line-alt: var(--pack-surface);
+  /* Fallback, or need a pack alter tokens */
+  --placeholder-bg: #e0e0e0;
+  --text-primary: var(--pack-text);
+  --text-secondary: var(--pack-text-secondary);
+  --text-muted: var(--pack-text-muted);
+  --text-error: #c00;
+}
+
+[data-theme="pack"] .nav-bar {
+  background: var(--pack-bg);
+}
+
+[data-theme="pack"] .footer-bar {
+  background: var(--pack-bg);
+}
+
+[data-theme="pack"] .nav-logo,
+[data-theme="pack"] .nav-back {
+  color: var(--pack-text);
+}
+
+[data-theme="pack"] .nav-help-btn,
+[data-theme="pack"] .nav-results-link,
+[data-theme="pack"] .footer-link,
+[data-theme="pack"] .footer-countdown {
+  color: var(--pack-primary);
+}
+
+[data-theme="pack"] button {
+  background: var(--pack-primary);
+  color: var(--pack-btn-text);
+}
+
+/* Holistic Fix: Ensure buttons in a main-theme context (like modals) 
+   override the pack-theme styles from the body */
+[data-theme="main"] button {
+  background: transparent;
+  color: var(--main-text);
+  border-color: var(--main-text);
+}
+
+/* Override: keep nav/footer buttons as transparent text links */
+[data-theme="pack"] .nav-help-btn,
+[data-theme="pack"] .nav-results-link,
+[data-theme="pack"] .footer-link {
+  background: transparent;
+}
+
+.pack-row[data-theme="pack"] {
+  background: linear-gradient(135deg, var(--pack-card-gradient-start), var(--pack-card-gradient-end));
+  border-color: var(--pack-card-border);
+}
+
+.pack-row[data-theme="pack"] .pack-row-name,
+.pack-row[data-theme="pack"] .pack-row-count {
+  color: var(--pack-card-text);
 }
 
 .container {
@@ -82,20 +316,20 @@ body {
 }
 
 .nav-logo {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   font-size: 1.5rem;
   font-weight: bold;
-  color: var(--primary-color);
+  color: var(--text-primary);
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
 .nav-back {
-  color: var(--primary-color);
+  color: var(--text-primary);
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -110,7 +344,8 @@ body {
 
 /* Script title section */
 .script-title-section {
-  background: #f5f5f5;
+  background: var(--game-content-bg);
+  /* Use Palette theme for Header/Title section per user request */
   padding: 1rem 2rem 1rem;
   text-align: center;
   position: relative;
@@ -127,21 +362,23 @@ body {
 }
 
 .script-title {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   font-size: 1.75rem;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin: 0 0 0.25rem 0;
-  color: #000;
+  color: var(--script-text-primary);
+  /* Use Palette color for title */
 }
 
 .script-subtitle {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   font-size: 0.85rem;
   font-weight: 600;
   font-style: italic;
-  color: #999;
+  color: var(--script-text-muted);
+  /* Use Palette color for subtitle */
   text-transform: uppercase;
   letter-spacing: 0.15em;
   margin: 0.25rem 0 0 0;
@@ -175,11 +412,12 @@ body {
 }
 
 .script-then {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   font-size: 0.85rem;
   font-weight: 600;
   font-style: italic;
-  color: #999;
+  color: var(--script-text-muted);
+  /* Was #999 */
   text-transform: uppercase;
   letter-spacing: 0.15em;
   text-align: center;
@@ -247,7 +485,7 @@ body {
 }
 
 .footer-attempts {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   font-size: 1rem;
   font-weight: bold;
   font-style: normal;
@@ -257,7 +495,7 @@ body {
 }
 
 .footer-more-movies {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   font-size: 1rem;
   font-weight: bold;
   font-style: normal;
@@ -265,7 +503,7 @@ body {
   text-decoration: underline;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  transition: opacity 0.2s;
+  transition: opacity var(--transition-base);
 }
 
 .footer-more-movies:hover {
@@ -278,14 +516,14 @@ body {
 
 h1 {
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  color: var(--primary-color);
+  font-family: var(--font-mono);
+  color: var(--text-primary);
   margin-bottom: 2rem;
 }
 
 h2 {
-  font-family: 'Courier New', Courier, monospace;
-  color: var(--primary-color);
+  font-family: var(--font-mono);
+  color: var(--text-primary);
   margin-bottom: 1rem;
 }
 
@@ -299,12 +537,13 @@ h2 {
 }
 
 .category-heading {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  color: #666;
+  color: var(--text-secondary);
+  /* Was #666 */
   margin: 0;
   padding: 0 2rem;
 }
@@ -315,14 +554,7 @@ h2 {
   width: 100%;
 }
 
-.recent-heading {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-  color: #666;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  padding-left: 0.5rem;
-}
+
 
 .recent-grid {
   display: flex;
@@ -359,18 +591,18 @@ h2 {
   aspect-ratio: 3/4;
   background-color: var(--container-bg);
   border: 1px solid #ccc;
-  border-radius: 8px;
+  border-radius: var(--radius-xl);
   padding: 1rem;
   text-decoration: none;
   color: inherit;
   transition: transform 0.2s, box-shadow 0.2s;
-  border-color: var(--primary-color);
+  border-color: var(--text-primary);
   position: relative;
 }
 
 .pack-card h3 {
   margin: 0 0 0.5rem 0;
-  color: var(--primary-color);
+  color: var(--text-primary);
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.05em;
@@ -378,7 +610,8 @@ h2 {
 
 
 .pack-card .movie-count {
-  color: #666;
+  color: var(--text-secondary);
+  /* Was #666 */
   font-size: 0.9rem;
 }
 
@@ -397,7 +630,7 @@ h2 {
   justify-content: space-between;
   background-color: var(--container-bg);
   border: 1px solid #e0e0e0;
-  border-radius: 6px;
+  border-radius: var(--radius-lg);
   padding: 0.75rem 1rem;
   text-decoration: none;
   color: inherit;
@@ -421,16 +654,17 @@ h2 {
 }
 
 .pack-row-name {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   font-weight: bold;
   font-size: 1rem;
   text-transform: uppercase;
-  color: var(--primary-color);
+  color: var(--text-primary);
   line-height: 1.2;
 }
 
 .pack-row-count {
   font-size: 0.8rem;
+  font-weight: 600;
   color: #888;
   line-height: 1.2;
   margin-left: 0;
@@ -497,7 +731,7 @@ h2 {
   left: 50%;
   width: 100vw;
   transform: translateX(-50%);
-  background: #f5f5f5;
+  background: var(--script-line-alt);
   z-index: -1;
 }
 
@@ -509,8 +743,9 @@ h2 {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  color: #000;
-  font-family: 'Courier New', Courier, monospace;
+  color: var(--script-text-primary);
+  /* Was #000 */
+  font-family: var(--font-mono);
 }
 
 .dialogue-text {
@@ -518,8 +753,9 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   white-space: pre-wrap;
-  color: #000;
-  font-family: 'Courier New', Courier, monospace;
+  color: var(--script-text-primary);
+  /* Was #000 */
+  font-family: var(--font-mono);
   font-size: 1rem;
   line-height: 1.6;
 }
@@ -531,7 +767,7 @@ h2 {
 /* Placeholder for unrevealed clues */
 .shimmer-text {
   color: transparent;
-  background-color: #e0e0e0;
+  background-color: var(--placeholder-bg);
   border-radius: 3px;
   display: inline;
   font: inherit;
@@ -542,7 +778,7 @@ h2 {
 /* Character name placeholder - the answer we're guessing */
 .character-placeholder {
   display: inline-block;
-  background-color: #e0e0e0;
+  background-color: var(--placeholder-bg);
   border-radius: 3px;
   padding: 0 0.5rem;
   font: inherit;
@@ -598,7 +834,7 @@ h2 {
 
 /* Script-style selectors - underlined typewriter text */
 select {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   font-size: 1rem;
   background: transparent;
   border: none;
@@ -646,17 +882,25 @@ select {
   pointer-events: none;
   font-size: 0.75rem;
   color: var(--primary-color);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
+}
+
+/* Correct answer state - checkmark */
+.select-wrapper.correct::after {
+  content: '✓';
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 select:focus {
   outline: none;
-  border-bottom-color: #999;
+  border-bottom-color: var(--primary-color);
 }
 
 select:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+  border-bottom-color: var(--primary-color);
 }
 
 /* Movie selector in script */
@@ -667,9 +911,10 @@ select:disabled {
 }
 
 .form-error {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   font-size: 0.9rem;
-  color: #c00;
+  color: var(--text-error);
+  /* Was #c00 */
   margin-top: 0.5rem;
   display: none;
 }
@@ -682,11 +927,11 @@ button {
   padding: 0.75rem 2rem;
   font-size: 1rem;
   font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  border-radius: 4px;
-  transition: all 0.2s;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-base);
 }
 
 button:hover {
@@ -702,7 +947,7 @@ button:active {
   display: inline-block;
   min-width: 300px;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1rem;
@@ -712,7 +957,8 @@ button:active {
   border-radius: 0;
   padding: 0.5rem 2rem 0.5rem 0.5rem;
   cursor: pointer;
-  color: #000;
+  color: var(--text-primary);
+  /* Was #000 */
   appearance: none;
   background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23999' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -725,13 +971,13 @@ button:active {
 .char-select-inline:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  border-bottom-color: #e0e0e0;
+  border-bottom-color: #000;
 }
 
 .message {
   margin-top: 0;
   padding: 1rem;
-  border-radius: 4px;
+  border-radius: var(--radius-md);
   text-align: center;
   font-weight: bold;
 }
@@ -770,11 +1016,11 @@ button:active {
 }
 
 #share-preview {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   background: #fff;
   padding: 1rem;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: var(--radius-md);
   white-space: pre-wrap;
   text-align: center;
   min-width: 200px;
@@ -915,7 +1161,7 @@ button:active {
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  transition: opacity 0.2s;
+  transition: opacity var(--transition-base);
 }
 
 .nav-results-link:hover {
@@ -977,13 +1223,13 @@ button:active {
   width: 45px;
   height: 45px;
   border: none;
-  border-radius: 6px;
+  border-radius: var(--radius-lg);
   display: flex;
   align-items: center;
   justify-content: center;
   background: color-mix(in srgb, var(--primary-color) 8%, var(--bg-color));
   position: relative;
-  transition: all 0.2s;
+  transition: all var(--transition-base);
 }
 
 .calendar-day.empty {
@@ -1106,7 +1352,7 @@ button:active {
 
 .modal-container {
   background: var(--container-bg);
-  border-radius: 8px;
+  border-radius: var(--radius-xl);
   max-width: 600px;
   max-height: 80vh;
   width: 90%;
@@ -1138,7 +1384,7 @@ button:active {
 }
 
 .modal-title {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   font-size: 1.25rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -1153,7 +1399,7 @@ button:active {
   font-size: 2rem;
   line-height: 1;
   cursor: pointer;
-  color: var(--primary-color);
+  color: var(--text-primary);
   padding: 0;
   width: 32px;
   height: 32px;
@@ -1181,7 +1427,8 @@ button:active {
 #movies-loading {
   text-align: center;
   padding: 2rem;
-  color: #666;
+  color: var(--text-secondary);
+  /* Was #666 */
   font-size: 1rem;
 }
 
@@ -1202,7 +1449,7 @@ button:active {
   width: 60px;
   height: 90px;
   object-fit: cover;
-  border-radius: 4px;
+  border-radius: var(--radius-md);
   flex-shrink: 0;
 }
 
@@ -1210,7 +1457,7 @@ button:active {
   width: 60px;
   height: 90px;
   background: #e0e0e0;
-  border-radius: 4px;
+  border-radius: var(--radius-md);
   flex-shrink: 0;
 }
 
@@ -1240,12 +1487,13 @@ button:active {
   padding: 0.5rem 1rem;
   background-color: #f5c518;
   /* IMDB Yellow */
-  color: #000;
+  color: var(--text-primary);
+  /* Was #000 */
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: var(--radius-md);
   font-weight: bold;
   font-size: 0.9rem;
-  transition: opacity 0.2s;
+  transition: opacity var(--transition-base);
 }
 
 .movie-imdb-link:hover {
@@ -1255,7 +1503,8 @@ button:active {
 
 .movie-no-link {
   font-size: 0.875rem;
-  color: #999;
+  color: var(--text-muted);
+  /* Was #999 */
   font-style: italic;
 }
 
@@ -1292,13 +1541,14 @@ button:active {
 .countdown-label {
   font-size: 0.7rem;
   letter-spacing: 0.1em;
-  color: #666;
+  color: var(--text-secondary);
+  /* Was #666 */
   text-transform: uppercase;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
 }
 
 .timer-display {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   font-size: 1.2rem;
   font-weight: bold;
   color: var(--primary-color);
@@ -1310,9 +1560,9 @@ button:active {
   border: 1px solid var(--primary-color);
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
-  border-radius: 4px;
+  border-radius: var(--radius-md);
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all var(--transition-base);
 }
 
 .secondary-btn:hover {
@@ -1330,11 +1580,11 @@ button:active {
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  transition: opacity 0.2s;
+  transition: opacity var(--transition-base);
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
 }
 
 .nav-help-btn:hover {
@@ -1353,4 +1603,70 @@ button:active {
   justify-content: center;
   font-size: 12px;
   line-height: 1;
+}
+
+/* Footer Component */
+#footer-container {
+  /* Footer container at bottom of page */
+  margin-top: auto;
+}
+
+.footer-bar {
+  background: var(--bg-color);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-left,
+.footer-right,
+.footer-center {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.footer-left {
+  justify-content: flex-start;
+}
+
+.footer-center {
+  justify-content: center;
+}
+
+.footer-right {
+  justify-content: flex-end;
+}
+
+.footer-link {
+  background: transparent;
+  color: var(--primary-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity var(--transition-base);
+  font-family: var(--font-mono);
+}
+
+.footer-link:hover {
+  opacity: 0.7;
+}
+
+.footer-countdown {
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-family: var(--font-mono);
+  /* Fixed width to prevent jitter during countdown */
+  min-width: 90px;
+  text-align: center;
 }

@@ -3,6 +3,8 @@ import { renderPlay } from './pages/Play.js';
 import { track } from './utils/analytics.js';
 import { renderCollection } from './pages/Collection.js';
 import { renderLegal } from './pages/Legal.js';
+import { renderAbout } from './pages/About.js';
+import { Footer } from './components/Footer.js';
 
 
 const routes = {
@@ -11,6 +13,7 @@ const routes = {
   '/play/:packId': renderPlay,
   '/movie/:movieId': (params) => renderPlay({ ...params, singleMovie: true }),
   '/legal': renderLegal,
+  '/about': renderAbout,
 };
 
 function matchRoute(path) {
@@ -58,6 +61,13 @@ function handleRoute() {
   if (matched) {
     track('page_view', { page_path: path });
 
+    // Update theme context for page-specific styling
+    if (path === '/') {
+      document.body.setAttribute('data-theme', 'main');
+    } else {
+      document.body.setAttribute('data-theme', 'pack');
+    }
+
     const navContainer = document.getElementById('nav-bar-container');
     const contentContainer = document.getElementById('content-area');
 
@@ -80,8 +90,14 @@ function init() {
     <div class="container">
       <div id="nav-bar-container"></div>
       <div id="content-area"></div>
+      <div id="footer-container"></div>
     </div>
   `;
+
+  // Render footer (persistent across all pages)
+  const footerContainer = document.getElementById('footer-container');
+  const footer = Footer();
+  footerContainer.appendChild(footer);
 
   // Handle browser back/forward
   window.addEventListener('popstate', handleRoute);

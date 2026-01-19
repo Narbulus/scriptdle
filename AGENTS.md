@@ -12,3 +12,22 @@ All code changes must be tested and validated using the browser tool.
 
 ## Code Quality
 - **Reusable Components**: Prioritize creating and using reusable components. Avoid duplicating code or styles; abstract common patterns into shared components.
+
+---
+
+## Design System & Theming
+
+**Two-Tier Theming**: The app uses two independent themes that apply to different parts of the UI:
+
+- **Main Theme** applies to:
+  - Home/main menu screen (navigation, footer, background) — **except pack cards**
+  - Script area in game pages (header with pack name, dialogue quotes you guess)
+
+- **Pack Theme** applies to:
+  - Pack cards on the home screen
+  - All game page UI (navigation, footer, buttons, gameplay controls, title bar)
+  - **EXCEPT** menus/modals (Help, History, etc.) which must always use **Main Theme**
+
+- **Design Tokens**: Always use CSS custom properties from `src/styles/main.css` for spacing, typography, radii, shadows, and transitions instead of hardcoded values
+- **Theme Scoping**: Use `[data-theme="main"]` and `[data-theme="pack"]` selectors when styling colors for components
+- **Testing**: Verify new UI works on both home page and game page, and test theme switching between pages

@@ -1,0 +1,3492 @@
+{
+  "id": "black-panther",
+  "title": "Black Panther",
+  "year": null,
+  "characters": [
+    "AYO",
+    "BBC ANCHOR",
+    "BORDER TRIBE",
+    "BORDER TRIBE COMMANDER",
+    "BORDER TRIBE ELDER",
+    "BUCKY",
+    "CARGO TRUCK MILITANT",
+    "CIA AGENT",
+    "CROWD",
+    "DORA MILAJE 1",
+    "DRIVER",
+    "ELDERLY WOMAN",
+    "ELDERS, WARRIORS, DORA",
+    "FATHER",
+    "FRENCH AMBASSADOR",
+    "GRIOT",
+    "JAMES",
+    "JAMES (ZURI)",
+    "KILLMONGER",
+    "KLAUE",
+    "LIMBANI",
+    "LINDA",
+    "M'BAKU",
+    "MERCHANT TRIBE ELDER",
+    "MILITANT LEADER",
+    "MINING TRIBE ELDER",
+    "MUSEUM DIRECTOR",
+    "N'JOBU",
+    "NAKIA",
+    "NIGERIAN MILITANT #2",
+    "NIGERIAN WOMAN",
+    "OAKLAND KID #1",
+    "OAKLAND KID #2",
+    "OAKLAND KID #3",
+    "OKOYE",
+    "OKOYE'S PROJECTION",
+    "RAMONDA",
+    "RIVER TRIBE ELDER",
+    "ROSS",
+    "SECURITY GUARD",
+    "SHAMAN",
+    "SHURI",
+    "SHURI'S PROJECTION",
+    "SHURI/NAKIA",
+    "SON",
+    "SOUTH AFRICAN TOUGH",
+    "T'CHAKA",
+    "T'CHALLA",
+    "T'CHALLLA",
+    "THIRSTY GAMBLER",
+    "W'KABI",
+    "WAKANDAN CHILD",
+    "WAKANDAN CHILDREN",
+    "YOUNG BLACK KID",
+    "YOUNG KILLLMONGER",
+    "YOUNG KILLMONGER",
+    "YOUNG T'CHAKA",
+    "ZURI"
+  ],
+  "lines": [
+    {
+      "character": "SON",
+      "text": "Baba?"
+    },
+    {
+      "character": "FATHER",
+      "text": "Yes, my son?"
+    },
+    {
+      "character": "SON",
+      "text": "Tell me a story."
+    },
+    {
+      "character": "FATHER",
+      "text": "Which one?"
+    },
+    {
+      "character": "SON",
+      "text": "The story of home."
+    },
+    {
+      "character": "FATHER",
+      "text": "Millions of years ago, a meteorite made of vibranium, the strongest substance in the universe, struck the continent of Africa..."
+    },
+    {
+      "character": "FATHER",
+      "text": "...affecting the plant life around it. And when the time of man came, five tribes settled on it and called it Wakanda. The tribes lived in constant war with each other until a warrior shaman received a vision from the Panther goddess Bast who led him to the Heart-Shaped Herb, a plant that granted him super human strength, speed, and instincts."
+    },
+    {
+      "character": "FATHER",
+      "text": "The warrior became King and the first Black Panther, the protector of Wakanda. Four tribes agreed to live under the King's rule, but the Jabari tribe isolated themselves in the mountains."
+    },
+    {
+      "character": "FATHER",
+      "text": "The Wakandans used vibranium to develop technology more advanced than any other nation. But as Wakanda thrived, the world around it descended further into chaos."
+    },
+    {
+      "character": "FATHER",
+      "text": "To keep vibranium safe, the Wakandans vowed to hide in plain sight, keeping the truth of their power from the outside world."
+    },
+    {
+      "character": "SON",
+      "text": "And we still hide Baba?"
+    },
+    {
+      "character": "FATHER",
+      "text": "Yes."
+    },
+    {
+      "character": "SON",
+      "text": "Why?"
+    },
+    {
+      "character": "N'JOBU",
+      "text": "Hey look, if we get in and out quick won't be any worries. You in the van come in through from the west, come around the corner, land right here. Me and the twins pulling up right here, we leaving this car behind, ok? We corning..."
+    },
+    {
+      "character": "N'JOBU",
+      "text": "Hide the straps."
+    },
+    {
+      "character": "JAMES",
+      "text": "Is it the Feds?"
+    },
+    {
+      "character": "N'JOBU",
+      "text": "No."
+    },
+    {
+      "character": "JAMES",
+      "text": "It's two Grace Jones looking chicks, they're holding spears..."
+    },
+    {
+      "character": "N'JOBU",
+      "text": "Open it."
+    },
+    {
+      "character": "JAMES",
+      "text": "You serious?"
+    },
+    {
+      "character": "N'JOBU",
+      "text": "They won't knock again."
+    },
+    {
+      "character": "DORA MILAJE 1",
+      "text": "Who are you?"
+    },
+    {
+      "character": "N'JOBU",
+      "text": "Prince N'Jobu, son of Azzuri."
+    },
+    {
+      "character": "DORA MILAJE 1",
+      "text": "Prove to me you are one of us."
+    },
+    {
+      "character": "N'JOBU",
+      "text": "My King..."
+    },
+    {
+      "character": "YOUNG T'CHAKA",
+      "text": "Leave us."
+    },
+    {
+      "character": "N'JOBU",
+      "text": "This is James. I trust him with my life. He stays, with your permission, King T'Chaka."
+    },
+    {
+      "character": "YOUNG T'CHAKA",
+      "text": "As you wish. At ease..."
+    },
+    {
+      "character": "YOUNG T'CHAKA",
+      "text": "Come baby brother. Let me see how you're holding up."
+    },
+    {
+      "character": "YOUNG T'CHAKA",
+      "text": "You look strong."
+    },
+    {
+      "character": "N'JOBU",
+      "text": "Glory to Bast, I am in good health. How is home?"
+    },
+    {
+      "character": "YOUNG T'CHAKA",
+      "text": "Not so good, baby brother. There has been an attack. This man..."
+    },
+    {
+      "character": "YOUNG T'CHAKA",
+      "text": "This man, Ulysses Klaue, stole a quarter ton of vibranium from us and triggered a bomb at the border to escape. Many lives were lost. He knew where we hid the vibranium, and how to strike."
+    },
+    {
+      "character": "YOUNG T'CHAKA",
+      "text": "He had someone on the inside."
+    },
+    {
+      "character": "N'JOBU",
+      "text": "Why are you here?"
+    },
+    {
+      "character": "YOUNG T'CHAKA",
+      "text": "Because I want you look me in the eyes and tell me why you betrayed Wakanda."
+    },
+    {
+      "character": "N'JOBU",
+      "text": "I did no such thing."
+    },
+    {
+      "character": "YOUNG T'CHAKA",
+      "text": "Tell him who you are."
+    },
+    {
+      "character": "JAMES (ZURI)",
+      "text": "Zuri, Son of Badu."
+    },
+    {
+      "character": "N'JOBU",
+      "text": "What?"
+    },
+    {
+      "character": "N'JOBU",
+      "text": "James, James you lied to me? I invite you into my home and you were Wakandan this whole time?"
+    },
+    {
+      "character": "JAMES (ZURI)",
+      "text": "You betrayed Wakanda!"
+    },
+    {
+      "character": "N'JOBU",
+      "text": "How could you lie to me like..."
+    },
+    {
+      "character": "YOUNG T'CHAKA",
+      "text": "Stand down. Did you think that you were the only spy we sent here?"
+    },
+    {
+      "character": "YOUNG T'CHAKA",
+      "text": "Prince N'Jobu, you will return home at once, where you will face the council and inform them of your crimes."
+    },
+    {
+      "character": "BBC ANCHOR",
+      "text": "The tiny nation of Wakanda is mourning the death of its monarch, King T'Chaka. The beloved ruler was one of many confirmed dead after a terrorist attack at the United Nations a week ago. The Suspect has since been apprehended. Though it remains one of the poorest countries in the world, fortified by mountain ranges and an impenetrable rain forest, Wakanda does not engage in international trade or accept aid. The succession of the throne is expected to fall to the oldest of the King's two children, Prince T'Challa."
+    },
+    {
+      "character": "OKOYE",
+      "text": "My Prince, coming up on them now."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "No need, Okoye. I can handle this alone."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "I will get Nakia out as quickly as possible."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Just don't freeze when you see her."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "What are you talking about? I never freeze."
+    },
+    {
+      "character": "MILITANT LEADER",
+      "text": "Defense position!"
+    },
+    {
+      "character": "CARGO TRUCK MILITANT",
+      "text": "No games."
+    },
+    {
+      "character": "MILITANT LEADER",
+      "text": "What do you see?"
+    },
+    {
+      "character": "MILITANT LEADER",
+      "text": "Come in! Come in!"
+    },
+    {
+      "character": "NAKIA",
+      "text": "This one is just a boy, he got kidnapped as well."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Nakia, I, I wanted to..."
+    },
+    {
+      "character": "NIGERIAN MILITANT #2",
+      "text": "Hey!!!"
+    },
+    {
+      "character": "NIGERIAN MILITANT #2",
+      "text": "I have her! Don't move, I will shoot! I will shoot her right now!"
+    },
+    {
+      "character": "OKOYE",
+      "text": "You froze."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Nakia, I, I wanted to..."
+    },
+    {
+      "character": "NAKIA",
+      "text": "Why are you here? Eesh, you ruined my mission!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "My father is dead, Nakia."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "I will be crowned King tomorrow, and I wish for you to be there."
+    },
+    {
+      "character": "NAKIA",
+      "text": "Carry yourselves home now, and take the boy. Get him to his people."
+    },
+    {
+      "character": "NIGERIAN WOMAN",
+      "text": "Thank you."
+    },
+    {
+      "character": "OKOYE",
+      "text": "You will speak nothing of this day."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Sister Nakia. My Prince. We are home."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "This never gets old."
+    },
+    {
+      "character": "NAKIA",
+      "text": "Queen Mother, Princess. My comfort for your loss."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "Thank you, Nakia. It is so good to have you back with us."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Take her to the River Province to prepare her for the ceremony."
+    },
+    {
+      "character": "AYO",
+      "text": "Yes, general."
+    },
+    {
+      "character": "SHURI",
+      "text": "Did he freeze?"
+    },
+    {
+      "character": "OKOYE",
+      "text": "Like an antelope in headlights."
+    },
+    {
+      "character": "SHURI",
+      "text": "Like an antelope in headlights."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Are you finished?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "So surprised my little sister came to see me off before our big day."
+    },
+    {
+      "character": "SHURI",
+      "text": "You wish. I'm here for the emp beads, I've developed an update."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Update? No, it worked perfectly."
+    },
+    {
+      "character": "SHURI",
+      "text": "How many times do I have to teach you, just because something works, doesn't mean that it cannot be improved."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "You are teaching m"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Are you finished?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "So surprised my little sister came to see me off before our big day."
+    },
+    {
+      "character": "SHURI",
+      "text": "You wish. I'm here for the emp beads, I've developed an update."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Update? No, it worked perfectly."
+    },
+    {
+      "character": "SHURI",
+      "text": "How many times do I have to teach you, just because something works, doesn't mean that it cannot be improved."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "You are teaching me, what do you know?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "I cannot wait to see what kind of update you make to your ceremonial outfit."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "Shuri!"
+    },
+    {
+      "character": "SHURI",
+      "text": "Sorry mother."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "How are you feeling today, mama?"
+    },
+    {
+      "character": "RAMONDA",
+      "text": "Proud, your father and I would talk about this day all the time. He is with us, and it is your time to be King."
+    },
+    {
+      "character": "MUSEUM DIRECTOR",
+      "text": "Good morning! How can I help you?"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "I was just checking out these artifacts. They tell me you're the expert."
+    },
+    {
+      "character": "MUSEUM DIRECTOR",
+      "text": "You could say that."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "They're beautiful."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Where's this one from?"
+    },
+    {
+      "character": "MUSEUM DIRECTOR",
+      "text": "From the Bobo Ashanti Tribe, present day Ghana. 19th Century."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "For real? What about this one?"
+    },
+    {
+      "character": "MUSEUM DIRECTOR",
+      "text": "That one's from the Edo people of Benin. 16th Century."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Now, tell me about this one."
+    },
+    {
+      "character": "MUSEUM DIRECTOR",
+      "text": "Also from Benin. 7th Century. Fula tribe I believe."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Nah."
+    },
+    {
+      "character": "MUSEUM DIRECTOR",
+      "text": "I beg your pardon?"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "It was taken by British soldiers in Benin but it's from Wakanda and it's made out of vibranium. Don't trip, I'mma take it off your hands for you."
+    },
+    {
+      "character": "MUSEUM DIRECTOR",
+      "text": "These items aren't for sale."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "How do you think your ancestors got these? You think they paid a fair price? Or did they take it like they took everything else."
+    },
+    {
+      "character": "MUSEUM DIRECTOR",
+      "text": "Sir, I'm going to have to ask you to leave."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "You got all this security watching me ever since I walked in. But, you ain't checking for what you put in your body."
+    },
+    {
+      "character": "SECURITY GUARD",
+      "text": "Alright, mate. Let's have it. Come on, mate."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "I think she might not be feeling too good."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Hey! Hey somebody get some help! Come here! Call a doctor, please! Hey please, somebody come help!"
+    },
+    {
+      "character": "SECURITY GUARD",
+      "text": "Medical Emergency right away in the West African Exhibit please. Right away!"
+    },
+    {
+      "character": "LINDA",
+      "text": "I'm gonna take a break."
+    },
+    {
+      "character": "KLAUE",
+      "text": "Let's give the lady some space please."
+    },
+    {
+      "character": "LIMBANI",
+      "text": "Step back please, gents, step back please."
+    },
+    {
+      "character": "KLAUE",
+      "text": "Hey come here. Come here! It's ok. You can go, but just don't tell anyone, alright?"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Bro, why you 'aint just shoot him right here?"
+    },
+    {
+      "character": "KLAUE",
+      "text": "Because it's better to leave the crime scene more spread out, makes us look like amateurs."
+    },
+    {
+      "character": "KLAUE",
+      "text": "Now, let's see if you know what you're talking about ..."
+    },
+    {
+      "character": "KLAUE",
+      "text": "That's just a taste."
+    },
+    {
+      "character": "KLAUE",
+      "text": "Whoo. You're gonna be rich, boy."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "You better sell that quick."
+    },
+    {
+      "character": "KLAUE",
+      "text": "Oh it's already sold."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Whatever you try, the Wakandans'll probably show up."
+    },
+    {
+      "character": "KLAUE",
+      "text": "That'll make my day. I can kill two birds with one stone."
+    },
+    {
+      "character": "KLAUE",
+      "text": "You're not telling me that's vibranium too, eh?"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Nah, I'm just feeling it."
+    },
+    {
+      "character": "ELDERS, WARRIORS, DORA",
+      "text": "Ngu T'Challa Lo."
+    },
+    {
+      "character": "CROWD",
+      "text": "Ngu T'Challa Lo."
+    },
+    {
+      "character": "ZURI",
+      "text": "I, Zuri, Son of Badu, give to you, Prince T'Challa, the Black Panther!"
+    },
+    {
+      "character": "ZURI",
+      "text": "The Prince will now have the strength of the Black Panther stripped away."
+    },
+    {
+      "character": "ZURI",
+      "text": "Damaku..."
+    },
+    {
+      "character": "CROWD",
+      "text": "Damaku..."
+    },
+    {
+      "character": "ZURI",
+      "text": "Victory in ritual combat comes by yield or death. If any tribe wishes to put forth a warrior, I now offer a path to the throne."
+    },
+    {
+      "character": "MERCHANT TRIBE ELDER",
+      "text": "The Merchant Tribe will not challenge today."
+    },
+    {
+      "character": "BORDER TRIBE ELDER",
+      "text": "The Border tribe will not challenge today."
+    },
+    {
+      "character": "RIVER TRIBE ELDER",
+      "text": "The River Tribe will not challenge today."
+    },
+    {
+      "character": "MINING TRIBE ELDER",
+      "text": "The Mining Tribe will not challenge today."
+    },
+    {
+      "character": "ZURI",
+      "text": "Is there any member of royal blood who wishes to challenge for the throne?"
+    },
+    {
+      "character": "SHURI",
+      "text": "This corset is really uncomfortable. So could we all just wrap it up and go home?"
+    },
+    {
+      "character": "SHURI",
+      "text": "Are they Jabari?"
+    },
+    {
+      "character": "RAMONDA",
+      "text": "Yes."
+    },
+    {
+      "character": "ZURI",
+      "text": "M'Baku. What are you doing here?!"
+    },
+    {
+      "character": "M'BAKU",
+      "text": "It's challenge day."
+    },
+    {
+      "character": "M'BAKU",
+      "text": "We have watched and listened from the mountains. We have watched with disgust, as your technological advancements have been overseen by a child who scoffs at tradition."
+    },
+    {
+      "character": "M'BAKU",
+      "text": "And now you want to hand the nation over to this prince. (he steps nose to nose with T'Challa) Who could not even keep his own father safe. Hmm? We will not have it. I said we will not have it! (beat) I, M'Baku, leader of the Jabari wish to..."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "I accept your challenge, M'Baku."
+    },
+    {
+      "character": "M'BAKU",
+      "text": "Glory to Hanuman."
+    },
+    {
+      "character": "ZURI",
+      "text": "Let the challenge begin!"
+    },
+    {
+      "character": "M'BAKU",
+      "text": "Where is your God, now?!"
+    },
+    {
+      "character": "M'BAKU",
+      "text": "No powers. No claws. No special suit, oh! Just a boy, not fit to lead."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "Show him who you are!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "I am Prince T'Challa, son of King T'Chaka!l"
+    },
+    {
+      "character": "SHURI",
+      "text": "You can do this T'Challa!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Yield! Don't make me kill you."
+    },
+    {
+      "character": "M'BAKU",
+      "text": "I would rather die!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "What would the proud Jabari do without you?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "You have fought with honor, now yield! Your people need you."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Yield, man!"
+    },
+    {
+      "character": "ZURI",
+      "text": "I now present to you, King T'Challa the Black Panther!!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Zuri."
+    },
+    {
+      "character": "ZURI",
+      "text": "My King."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Wakanda forever!!"
+    },
+    {
+      "character": "ZURI",
+      "text": "Allow the Heart Shaped Herb to restore the powers of the Black Panther and take you to the Ancestral Plane."
+    },
+    {
+      "character": "ZURI",
+      "text": "T'Chaka, we call on you. Corne here to your son."
+    },
+    {
+      "character": "ZURI",
+      "text": "Darnaku."
+    },
+    {
+      "character": "ZURI",
+      "text": "Darnaku."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Baba!"
+    },
+    {
+      "character": "T'CHAKA",
+      "text": "My son."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "I am sorry."
+    },
+    {
+      "character": "T'CHAKA",
+      "text": "Stand up! You are a King."
+    },
+    {
+      "character": "T'CHAKA",
+      "text": "What is wrong my son?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "I am not ready, Baba."
+    },
+    {
+      "character": "T'CHAKA",
+      "text": "Have you not prepared to be King your whole life? Have you not trained and studied, been by my side?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "That is not what I am talking about. I am not ready to be without you."
+    },
+    {
+      "character": "T'CHAKA",
+      "text": "A man who has not prepared his children for his own death has failed as a father. (beat) Have I ever failed you?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Never. (beat) Tell me how to best protect Wakanda. I want to be a great King, Baba. Just like you."
+    },
+    {
+      "character": "T'CHAKA",
+      "text": "You're going to struggle. So you need to surround yourself with people you trust. You're a good man with a good heart. And it's hard for a good man to be King."
+    },
+    {
+      "character": "ZURI",
+      "text": "Breathe, T'Challa. Breathe!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "He was there! He was there. My father."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Come home, Nakia."
+    },
+    {
+      "character": "NAKIA",
+      "text": "I'm right here."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Stay."
+    },
+    {
+      "character": "NAKIA",
+      "text": "I came to support you, and to honor your father. But I can't stay. It's just ! found my calling out there. I've seen too many in need just to turn a blind eye. I can't be happy here knowing that there's people out there who have nothing."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "What would you have Wakanda do about it?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "Share what we have. We could provide aid and access to technology and refuge to those who need it, other countries do it, we do it better."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "We are not like these other countries, Nakia. If the world found out what we truly are, and what we possess, we could lose our way of life."
+    },
+    {
+      "character": "NAKIA",
+      "text": "Wakanda is strong enough to help others and protect ourselves at the same time."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "If you were not so stubborn you would make such a great queen."
+    },
+    {
+      "character": "NAKIA",
+      "text": "I would make a great queen because I am so stubborn."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Ah! So you admit it!"
+    },
+    {
+      "character": "NAKIA",
+      "text": "...if that's what I wanted!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Is that him? Glory to Bast, man, is he still growing?"
+    },
+    {
+      "character": "W'KABI",
+      "text": "Of course. I see Nakia is back, you guys going to work it out?"
+    },
+    {
+      "character": "W'KABI",
+      "text": "T'Challa, what's wrong?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Nakia thinks we should be doing more."
+    },
+    {
+      "character": "W'KABI",
+      "text": "More like what?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Foreign aid, refugee programs."
+    },
+    {
+      "character": "W'KABI",
+      "text": "You let refugees in, they bring their problems with them. And then Wakanda is like everywhere else."
+    },
+    {
+      "character": "W'KABI",
+      "text": "Now, if you said you wanted me and my men to go out there and clean up the world, then I'd be all for it."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "But waging war on other countries has never been our way."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "You too, huh?"
+    },
+    {
+      "character": "W'KABI",
+      "text": "Bast, are we in trouble?"
+    },
+    {
+      "character": "OKOYE",
+      "text": "My King. My love. You will never guess who just popped up on our radar."
+    },
+    {
+      "character": "OKOYE",
+      "text": "A misidentified Wakandan artifact was stolen yesterday from a British museum. We have learned Ulysses Klaue plans to sell the vibraniurn to an American buyer in South Korea tomorrow night."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Klaue has escaped our pursuits for almost 30 years. Not capturing him was perhaps my father's greatest regret. I wish to bring Klaue back here to stand trial."
+    },
+    {
+      "character": "MERCHANT TRIBE ELDER",
+      "text": "Wakanda does not need a warrior right now. We need a King."
+    },
+    {
+      "character": "W'KABI",
+      "text": "My parents were killed when he attacked. Not a day goes by when I do not think about what Klaue took from us, from me."
+    },
+    {
+      "character": "OKOYE",
+      "text": "It's too great an opportunity to pass."
+    },
+    {
+      "character": "W'KABI",
+      "text": "Take me with you. We'll take him down together side by side, eh?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "I need you here protecting the border."
+    },
+    {
+      "character": "W'KABI",
+      "text": "Then I ask, you kill him where he stands, or you bring him back to us."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "You have my word I will bring him back. (beat) We will proceed with the mission."
+    },
+    {
+      "character": "SHURI",
+      "text": "My, King."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Stop it. Stop it."
+    },
+    {
+      "character": "SHURI",
+      "text": "I've already sent a car ahead to Busan for you. (beat) Who are you taking with you to Korea?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Okoye. And Nakia as well."
+    },
+    {
+      "character": "SHURI",
+      "text": "You sure it's a good idea to take your ex on a mission?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Yes. We'll be fine. (beat) Besides, you will be on call, should we need backup."
+    },
+    {
+      "character": "SHURI",
+      "text": "I have great things to show you, brother. Here are your communication devices for Korea. Unlimited range, also equipped with audio surveillance system."
+    },
+    {
+      "character": "SHURI",
+      "text": "Check these out. Remote access Kimoyo beads. Updated to interface directly with my sand table."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "And what are these?"
+    },
+    {
+      "character": "SHURI",
+      "text": "The real question is what are those? Why do you have your toes out in my lab?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "What, you don't like my royal sandals? I wanted to go old school for my first day."
+    },
+    {
+      "character": "SHURI",
+      "text": "Yeah, I bet the elders loved that. Try them on."
+    },
+    {
+      "character": "SHURI",
+      "text": "Fully automated, like the old American movie Baba used to watch. And I made them completely sound absorbent."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Interesting..."
+    },
+    {
+      "character": "SHURI",
+      "text": "Guess what I call them."
+    },
+    {
+      "character": "SHURI",
+      "text": "Sneakers..."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Because you, never mind."
+    },
+    {
+      "character": "SHURI",
+      "text": "If you're going to take on Klaue you'll need the best the Design Group has to offer."
+    },
+    {
+      "character": "SHURI",
+      "text": "Exhibit A. Old tech."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Old...? Functional, but old. Eh, people are shooting at me, wait, let me put on my helmet..."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Enough..."
+    },
+    {
+      "character": "SHURI",
+      "text": "Now look at these."
+    },
+    {
+      "character": "SHURI",
+      "text": "Do you like that one?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Tempting. But the idea is to not be noticed. This one."
+    },
+    {
+      "character": "SHURI",
+      "text": "Now tell it to go on."
+    },
+    {
+      "character": "SHURI",
+      "text": "Oooh!! The entire suit sits within the teeth of the necklace. Strike it."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Anywhere?"
+    },
+    {
+      "character": "SHURI",
+      "text": "Mhm."
+    },
+    {
+      "character": "SHURI",
+      "text": "Not that hard, genius!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "You told me to strike it, you didn't say how hard."
+    },
+    {
+      "character": "SHURI",
+      "text": "I invite you to my lab, and you just kick things around."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Well maybe you should make it a little stronger, eh?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Wait a minute."
+    },
+    {
+      "character": "SHURI",
+      "text": "The nanites absorb the kinetic energy and hold it in place for redistribution."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Very nice."
+    },
+    {
+      "character": "SHURI",
+      "text": "Now strike it again, in the same spot."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "You are recording?"
+    },
+    {
+      "character": "SHURI",
+      "text": "For research purposes..."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Delete that footage..."
+    },
+    {
+      "character": "NAKIA",
+      "text": "This way."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Bast willing this goes quickly, and I can get this ridiculous thing off my head."
+    },
+    {
+      "character": "NAKIA",
+      "text": "It looks nice. Just whip it back and forth."
+    },
+    {
+      "character": "OKOYE",
+      "text": "What? It's a disgrace."
+    },
+    {
+      "character": "NAKIA",
+      "text": "Hello Sophia, good to see you."
+    },
+    {
+      "character": "ELDERLY WOMAN",
+      "text": "Who are these two?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "My friends from Kenya. Very deep pockets. They're good."
+    },
+    {
+      "character": "ELDERLY WOMAN",
+      "text": "Good for trouble, like you?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "Thank you."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Spread out. The buyer is likely already here."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "The woman outside, what trouble was she referring to?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "Ah, I got into a disagreement with some ivory traders. Made a bit of a mess."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "And will there be any trouble tonight, Ms. Kenyan heiress?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "Depends on how quickly we finish the mission..."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Can we please focus."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "The woman outside, what trouble was she referring to?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "Ah, I got into a disagreement with some ivory traders. Made a bit of a mess."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "And will there be any trouble tonight, Ms. Kenyan heiress?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "Depends on how quickly we finish the mission..."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Can we please focus."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Thank you."
+    },
+    {
+      "character": "NAKIA",
+      "text": "Over here. One whiskey, please. Eyes up. Americans. I count three."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Five. How could you miss \"Greased Lightning\" there behind you."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Six. Just spotted an old friend who works for the CIA. It just got a little more complicated."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Agent Ross."
+    },
+    {
+      "character": "ROSS",
+      "text": "Your highness."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "You are buying from Klaue..."
+    },
+    {
+      "character": "ROSS",
+      "text": "What I'm doing or not doing on behalf of the US government is of none of your concern. Now, whatever the hell you're up to, do me a favor and stay out of my way."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "I gave you Zemo."
+    },
+    {
+      "character": "ROSS",
+      "text": "And didn't I kept it under wraps that the King of a third world country runs around in a bulletproof cat suit. I'd say we were even."
+    },
+    {
+      "character": "ROSS",
+      "text": "You really need to leave, now."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Klaue is leaving out that door with me. You've been warned."
+    },
+    {
+      "character": "ROSS",
+      "text": "Hey, you won."
+    },
+    {
+      "character": "THIRSTY GAMBLER",
+      "text": "You know what, I think I'll just take these, bring them over here and hold on for safe keeping."
+    },
+    {
+      "character": "ROSS",
+      "text": "Ok heads up, the King of Wakanda is here. He cannot leave with Klaue."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Alright, vibranium from the attack on Sokovia links back to a person that I'm not actually saying I'm here to make a deal with but that deal will not be called off. When the dust settles you and I can work something out."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "I am not here to make a deal."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "I am not here to make a deal."
+    },
+    {
+      "character": "NAKIA",
+      "text": "Klaue plus 8!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "General."
+    },
+    {
+      "character": "OKOYE",
+      "text": "In position to secure our exit."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "And the vibranium."
+    },
+    {
+      "character": "NAKIA",
+      "text": "I don't see it yet."
+    },
+    {
+      "character": "OKOYE",
+      "text": "I thought there were no weapons allowed in here."
+    },
+    {
+      "character": "NAKIA",
+      "text": "There's not supposed to be."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Someone did not get the memo. Definitely armed."
+    },
+    {
+      "character": "ROSS",
+      "text": "Well that is quite the entourage. You got a mixtape coming out?"
+    },
+    {
+      "character": "KLAUE",
+      "text": "Yeah! Yeah, actually there is one."
+    },
+    {
+      "character": "KLAUE",
+      "text": "Yeah, I'll send you the soundcloud link if you like."
+    },
+    {
+      "character": "KLAUE",
+      "text": "Aye, Dave. Get him the link to the tape."
+    },
+    {
+      "character": "ROSS",
+      "text": "Please don't make me listen to your music. I just meant, you got a lot of people with you."
+    },
+    {
+      "character": "KLAUE",
+      "text": "Oh, you think they're for you?"
+    },
+    {
+      "character": "KLAUE",
+      "text": "Don't worry. I can do a deal with you all by myself, thank you very much."
+    },
+    {
+      "character": "NAKIA",
+      "text": "Six more, it's a set up."
+    },
+    {
+      "character": "KLAUE",
+      "text": "You got the diamonds?"
+    },
+    {
+      "character": "ROSS",
+      "text": "Ok, that's enough."
+    },
+    {
+      "character": "NAKIA",
+      "text": "We need to move on Klaue."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Stand down. We can't afford a shootout."
+    },
+    {
+      "character": "ROSS",
+      "text": "The vibranium?"
+    },
+    {
+      "character": "KLAUE",
+      "text": "I was going to buy a fancy suitcase, but I thought I'd save myself some money."
+    },
+    {
+      "character": "NAKIA",
+      "text": "It's now or never."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Stand down!"
+    },
+    {
+      "character": "SOUTH AFRICAN TOUGH",
+      "text": "Hey."
+    },
+    {
+      "character": "SOUTH AFRICAN TOUGH",
+      "text": "Hey!"
+    },
+    {
+      "character": "OKOYE",
+      "text": "I've been made."
+    },
+    {
+      "character": "KLAUE",
+      "text": "Get the diamonds, quick!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Murderer!"
+    },
+    {
+      "character": "KLAUE",
+      "text": "You know, you look just like your old man."
+    },
+    {
+      "character": "KLAUE",
+      "text": "I made it rain!"
+    },
+    {
+      "character": "KLAUE",
+      "text": "That was awesome! That was awesome! Let's go! Go, go, come on!"
+    },
+    {
+      "character": "NAKIA",
+      "text": "Do we just leave him?"
+    },
+    {
+      "character": "OKOYE",
+      "text": "He'll catch up."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Shuri!"
+    },
+    {
+      "character": "GRIOT",
+      "text": "Remote driving system activated."
+    },
+    {
+      "character": "SHURI",
+      "text": "Yes yes yes! Wait. Which side of the road is it?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "For Bast sake just drive!!!"
+    },
+    {
+      "character": "SHURI",
+      "text": "Okay okay, calm down brother!"
+    },
+    {
+      "character": "SHURI",
+      "text": "Woo! Let's go!"
+    },
+    {
+      "character": "KLAUE",
+      "text": "Put some music on! What do you think this is a funeral?"
+    },
+    {
+      "character": "KLAUE",
+      "text": "Hey, split up!"
+    },
+    {
+      "character": "OKOYE",
+      "text": "They're trying to lose us."
+    },
+    {
+      "character": "NAKIA",
+      "text": "We'll take the right."
+    },
+    {
+      "character": "SHURI",
+      "text": "We'll take the other two! I see a short cut."
+    },
+    {
+      "character": "SHURI",
+      "text": "We're not going to make it!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Keep going!"
+    },
+    {
+      "character": "SHURI",
+      "text": "Woo! Brother!"
+    },
+    {
+      "character": "SHURI",
+      "text": "Hey, what was that!?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Don't worry about it. You're doing great."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Guns. So primitive."
+    },
+    {
+      "character": "KLAUE",
+      "text": "It's a vibranium car you idiots!! Bullets won't penetrate!!"
+    },
+    {
+      "character": "NAKIA",
+      "text": "What are you doing?"
+    },
+    {
+      "character": "OKOYE",
+      "text": "Just drive."
+    },
+    {
+      "character": "NAKIA",
+      "text": "Eesh."
+    },
+    {
+      "character": "NAKIA",
+      "text": "Woo!"
+    },
+    {
+      "character": "KLAUE",
+      "text": "Oh shoot."
+    },
+    {
+      "character": "SHURI",
+      "text": "Hey, look at your suit! You've been taking bullets charging it up with kinetic energy!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Pull around the truck."
+    },
+    {
+      "character": "DRIVER",
+      "text": "Where'd he go!?"
+    },
+    {
+      "character": "SHURI",
+      "text": "You show off."
+    },
+    {
+      "character": "NAKIA",
+      "text": "There he is! Hold tight!"
+    },
+    {
+      "character": "KLAUE",
+      "text": "Right, let's have some fun."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Faster, Shuri."
+    },
+    {
+      "character": "SHURI",
+      "text": "I'm going as fast as I can!"
+    },
+    {
+      "character": "KLAUE",
+      "text": "Take a right, take a right!"
+    },
+    {
+      "character": "SHURI",
+      "text": "No no no no no no no!!"
+    },
+    {
+      "character": "SHURI",
+      "text": "Brother!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Klaue!!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Did you think we would forget!?"
+    },
+    {
+      "character": "KLAUE",
+      "text": "You savages didn't deserve it."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Look at me murderer! Where did you get this weapon?"
+    },
+    {
+      "character": "KLAUE",
+      "text": "Oh, mercy! King, mercy!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Did you think we would forget!?"
+    },
+    {
+      "character": "KLAUE",
+      "text": "You savages didn't deserve it."
+    },
+    {
+      "character": "KLAUE",
+      "text": "Oh, mercy! King, mercy!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Every breath you take is mercy from me."
+    },
+    {
+      "character": "OKOYE",
+      "text": "King!"
+    },
+    {
+      "character": "NAKIA",
+      "text": "The world watches."
+    },
+    {
+      "character": "ROSS",
+      "text": "Come on guys, let's go huh?"
+    },
+    {
+      "character": "KLAUE",
+      "text": "Hello! I can see you! I can, I can see you."
+    },
+    {
+      "character": "ROSS",
+      "text": "So, this is a big mess, huh? I figured we can go good cop bad cop. I'll talk to him first, then you guys go in..."
+    },
+    {
+      "character": "OKOYE",
+      "text": "We can't let him talk to Klaue alone."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Better to let him talk to Klaue alone for 5 minutes than to make a scene here."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "After your questioning, we will to take him back to Wakanda with us."
+    },
+    {
+      "character": "ROSS",
+      "text": "What? No. Look I like you, a lot. But he's in my custody now. He's not going anywhere. Listen, I'm doing you a favor by letting you even be in here."
+    },
+    {
+      "character": "OKOYE",
+      "text": "If he touches you again, I am going to impale him to this desk."
+    },
+    {
+      "character": "ROSS",
+      "text": "Does she speak English?"
+    },
+    {
+      "character": "OKOYE",
+      "text": "When she wants to."
+    },
+    {
+      "character": "ROSS",
+      "text": "I'm going in. And when I'm done, you guys are up."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Agent Ross."
+    },
+    {
+      "character": "ROSS",
+      "text": "Yeah."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "I do appreciate your help in Busan."
+    },
+    {
+      "character": "ROSS",
+      "text": "You see that? It's called diplomacy. You're welcome."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Okoye! Play nice."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Eh, Americans..."
+    },
+    {
+      "character": "KLAUE",
+      "text": "You know, you really shouldn't trust the Wakandans. I'm much more your speed."
+    },
+    {
+      "character": "ROSS",
+      "text": "I don't trust anybody, not in this job. But what I am interested in is that arm cannon out there. Where'd you get that?"
+    },
+    {
+      "character": "KLAUE",
+      "text": "It's an old mining tool that I made some adjustments to. But I can get you one if you'd like."
+    },
+    {
+      "character": "ROSS",
+      "text": "Why don't you give me the name of your supplier and I'll ask them."
+    },
+    {
+      "character": "KLAUE",
+      "text": "He's right outside, why don't you ask him yourself?"
+    },
+    {
+      "character": "ROSS",
+      "text": "T'Challa? You're telling me that weapon on your arm is from Wakanda?"
+    },
+    {
+      "character": "KLAUE",
+      "text": "Bingo. What do you actually know about Wakanda?"
+    },
+    {
+      "character": "ROSS",
+      "text": "Shepherds. Textiles. Cool outfits."
+    },
+    {
+      "character": "KLAUE",
+      "text": "It's all a front. Explorers searched for it for centuries. El Dorado: The Golden City. They thought they could find it in South America, but it was in Africa the whole time. A technological marvel. All because it was built on a mound of the most valuable metal known to man- Isipho- they call it. The gift. Vibranium ..."
+    },
+    {
+      "character": "ROSS",
+      "text": "Vibranium yeah. Strongest metal on Earth."
+    },
+    {
+      "character": "KLAUE",
+      "text": "It's not just a metal. They sew it into their clothes, it powers their city, their tech, their weapons..."
+    },
+    {
+      "character": "ROSS",
+      "text": "Weapons?"
+    },
+    {
+      "character": "KLAUE",
+      "text": "Oh yes. Makes my arm cannon look like a leaf blower."
+    },
+    {
+      "character": "ROSS",
+      "text": "That's a nice fairy tale but Wakanda is a third world country and you stole all their vibranium."
+    },
+    {
+      "character": "KLAUE",
+      "text": "I stole all of it?"
+    },
+    {
+      "character": "KLAUE",
+      "text": "All of it? I took a tiny piece of it. They have a mountain full of it. They've been mining it for thousands of years and still haven't scratched the surface. I'm the only outsider who's seen it, and got out of there alive. (beat) If you don't believe me, you ask your friend what his suit is made of, what his claws are made of..."
+    },
+    {
+      "character": "ROSS",
+      "text": "Your father told the UN that Klaue stole all the vibraniurn you had. But now he's telling me you have more?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "And you believe the word of an arms dealer, strapped to a chair."
+    },
+    {
+      "character": "NAKIA",
+      "text": "Where is that?"
+    },
+    {
+      "character": "CIA AGENT",
+      "text": "Back there."
+    },
+    {
+      "character": "ROSS",
+      "text": "How much more are you hiding?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "Something's happening out back."
+    },
+    {
+      "character": "KLAUE",
+      "text": "I see you took your time didn't you!"
+    },
+    {
+      "character": "OKOYE",
+      "text": "My King!"
+    },
+    {
+      "character": "OKOYE",
+      "text": "My King Nakia."
+    },
+    {
+      "character": "NAKIA",
+      "text": "He just jumped in front of me."
+    },
+    {
+      "character": "NAKIA",
+      "text": "I don't think he'll make it here, it hit his spine."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Give me a Kimoyo bead."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "This will stabilize him for now. Give him to us. We can save him."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Our missions was to bring back Klaue. We failed. This man is a foreign intelligence operative. How do we justify bringing him into our borders?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "He took a bullet for me."
+    },
+    {
+      "character": "OKOYE",
+      "text": "That was his choice."
+    },
+    {
+      "character": "NAKIA",
+      "text": "So now we are just supposed to let him die?"
+    },
+    {
+      "character": "OKOYE",
+      "text": "Let us consider that we heal him. It is his duty to report back to his country. And as King, it is your duty to protect ours."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "I am well aware of my duties, General. I cannot just let him die knowing we can save him."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Where exactly are we taking him?"
+    },
+    {
+      "character": "SHURI",
+      "text": "Great, another broken white boy for us to fix. This is going to be fun."
+    },
+    {
+      "character": "SHURI",
+      "text": "He will live."
+    },
+    {
+      "character": "SHURI",
+      "text": "W'Kabi is here."
+    },
+    {
+      "character": "W'KABI",
+      "text": "What's going on, brother? Where is Klaue?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "He's not here."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "He slipped through our hands."
+    },
+    {
+      "character": "W'KABI",
+      "text": "Slipped? For 30 years, your father was in power and did nothing. With you I thought it would be different. But it's more of the same."
+    },
+    {
+      "character": "LIMBANI",
+      "text": "Let's get going, boss."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "You always sell to the CIA?"
+    },
+    {
+      "character": "KLAUE",
+      "text": "I sell to the highest bidder. Don't you worry when I get back to Joburg and lay low for a bit, I'll make sure both you guys get paid."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Oh I ain't worried about the money, bro. I know you're good for it."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "On our way back, just drop us of in Wakanda."
+    },
+    {
+      "character": "KLAUE",
+      "text": "You don't wanna go there, boy."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Yeah I do."
+    },
+    {
+      "character": "KLAUE",
+      "text": "Drop it, or your little Bonnie and Clyde routine ends today. Put your gun down now!"
+    },
+    {
+      "character": "LINDA",
+      "text": "I'm sorry. I'm sorry, Erik."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "It's gonna be ok."
+    },
+    {
+      "character": "KLAUE",
+      "text": "...Y-You really wanna go to Wakanda? They're savages."
+    },
+    {
+      "character": "KLAUE",
+      "text": "This is what they do to people like us."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "I ain't worried about no brand. Check these out."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Each one is for a kill."
+    },
+    {
+      "character": "KLAUE",
+      "text": "You can scar yourself as much as you like. To them, you'll just be an outsider. You're crazy to think that you could walk in there."
+    },
+    {
+      "character": "KLAUE",
+      "text": "And to think I saw you as some crazy American."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Leave us."
+    },
+    {
+      "character": "ZURI",
+      "text": "So your mission did not go as planned."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "What happened to my Uncle N'Jobu? My father told me he disappeared, there was a man today wearing a ring identical to this one."
+    },
+    {
+      "character": "ZURI",
+      "text": "That is not possible."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "He helped Klaue escape from us and he was wearing this ring. My grandfather's ring. Do not tell me what is possible tell me the truth."
+    },
+    {
+      "character": "ZURI",
+      "text": "Some truths are too much to bear, T'Challa."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "That is not your choice to make. What happened to him?"
+    },
+    {
+      "character": "ZURI",
+      "text": "I promised the King to say nothing."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "I am your king now!!"
+    },
+    {
+      "character": "ZURI",
+      "text": "Your uncle took a War Dog assignment in America. Your father placed me there to observe, unbeknownst to him. Your uncle fell in love with an American woman. They had a child. The hardships he saw there radicalized your uncle."
+    },
+    {
+      "character": "N'JOBU",
+      "text": "I observed for as long as I could. Their leaders have been assassinated. Communities flooded with drugs and weapons; they are overly policed and incarcerated. All over the planet, our people suffer because they don't have the tools to fight back. With vibranium weapons, they could overthrow every country, and Wakanda could rule them all the right way."
+    },
+    {
+      "character": "ZURI",
+      "text": "He knew your father would not support this, so your uncle betrayed us."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "No..."
+    },
+    {
+      "character": "ZURI",
+      "text": "He helped Klaue steal the vibranium."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "No no no no no no..."
+    },
+    {
+      "character": "YOUNG T'CHAKA",
+      "text": "You will return home at once, where you will face the council and inform them of your crimes."
+    },
+    {
+      "character": "ZURI",
+      "text": "He drew his weapon on me!"
+    },
+    {
+      "character": "YOUNG T'CHAKA",
+      "text": "No!"
+    },
+    {
+      "character": "ZURI",
+      "text": "He knew your father would not support this, so your uncle betrayed us."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "No..."
+    },
+    {
+      "character": "ZURI",
+      "text": "He helped Klaue steal the vibranium."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "No no no no no no..."
+    },
+    {
+      "character": "YOUNG T'CHAKA",
+      "text": "You will return home at once, where you will face the council and inform them of your crimes."
+    },
+    {
+      "character": "ZURI",
+      "text": "He drew his weapon on me!"
+    },
+    {
+      "character": "YOUNG T'CHAKA",
+      "text": "No!"
+    },
+    {
+      "character": "ZURI",
+      "text": "Your father killed his own brother to save my life."
+    },
+    {
+      "character": "YOUNG T'CHAKA",
+      "text": "Speak nothing of this."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "And the child..."
+    },
+    {
+      "character": "ZURI",
+      "text": "We left him."
+    },
+    {
+      "character": "ZURI",
+      "text": "We had to maintain the lie."
+    },
+    {
+      "character": "W'KABI",
+      "text": "What is this?"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Just a 'lil gift."
+    },
+    {
+      "character": "W'KABI",
+      "text": "Who are you?"
+    },
+    {
+      "character": "ROSS",
+      "text": "Alright, where am I?"
+    },
+    {
+      "character": "SHURI",
+      "text": "Don't scare me like that, colonizer."
+    },
+    {
+      "character": "ROSS",
+      "text": "Colon-who? My name is Everett."
+    },
+    {
+      "character": "SHURI",
+      "text": "Yes, I know. Everett Ross former Air Force Pilot and now, CIA."
+    },
+    {
+      "character": "ROSS",
+      "text": "Right."
+    },
+    {
+      "character": "ROSS",
+      "text": "Ok, is this Wakanda?"
+    },
+    {
+      "character": "SHURI",
+      "text": "No, it's Kansas."
+    },
+    {
+      "character": "ROSS",
+      "text": "...How long ago was Korea?"
+    },
+    {
+      "character": "SHURI",
+      "text": "Yesterday."
+    },
+    {
+      "character": "ROSS",
+      "text": "I don't think so. Bullet wounds don't just magically heal overnight."
+    },
+    {
+      "character": "SHURI",
+      "text": "They do here. But not by magic, by technology. (beat) Don't touch anything. My brother will return soon."
+    },
+    {
+      "character": "ROSS",
+      "text": "These train things, that's magnetic levitation, right?"
+    },
+    {
+      "character": "SHURI",
+      "text": "Obviously."
+    },
+    {
+      "character": "ROSS",
+      "text": "Obviously, but I've never seen it this efficient. The light panels, what are they?"
+    },
+    {
+      "character": "SHURI",
+      "text": "Sonic stabilizers."
+    },
+    {
+      "character": "ROSS",
+      "text": "Sonic what?"
+    },
+    {
+      "character": "SHURI",
+      "text": "In its raw form, vibranium is too dangerous to be transported at that speed, so I developed a way to temporarily deactivate it."
+    },
+    {
+      "character": "ROSS",
+      "text": "There's vibranium on those trains?"
+    },
+    {
+      "character": "SHURI",
+      "text": "There is vibranium all around us. That's how I healed you."
+    },
+    {
+      "character": "OKOYE'S PROJECTION",
+      "text": "Where is T'Challa? His Kimoyo beads have been switched off."
+    },
+    {
+      "character": "SHURI",
+      "text": "Well we are not joined at the hip, Okoye."
+    },
+    {
+      "character": "OKOYE'S PROJECTION",
+      "text": "A man showed up at the border who claims to have killed Klaue."
+    },
+    {
+      "character": "SHURI",
+      "text": "What?"
+    },
+    {
+      "character": "OKOYE'S PROJECTION",
+      "text": "W'Kabi is transporting him as we speak to the palace. We need to find your brother."
+    },
+    {
+      "character": "SHURI",
+      "text": "An outsider?"
+    },
+    {
+      "character": "OKOYE'S PROJECTION",
+      "text": "No, a Wakandan."
+    },
+    {
+      "character": "ROSS",
+      "text": "He's not a Wakandan. He's one of ours."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "He killed his own brother, and left a child behind with nothing. What kind of King, what kind of man does that?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "No man is perfect. Not even your father."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "He didn't even give him a proper burial. My Uncle N'Jobu betrayed us, but my father may have created something even worse."
+    },
+    {
+      "character": "NAKIA",
+      "text": "Hey. Look at me. You can't let your father's mistakes define who you are. You get to decide what kind of King you are going to be."
+    },
+    {
+      "character": "SHURI'S PROJECTION",
+      "text": "Brother, you need to get here now."
+    },
+    {
+      "character": "ROSS",
+      "text": "Eric Stevens. Graduated Annapolis age 19. MIT for grad school. Joined the SEALs and went to Afghanistan where he racked up confirmed kills like it was a video game. They started calling him Killmonger. He joined a JSOC ghost unit. Now these guys are serious. They will drop off the grid so they can commit assassinations and take down governments."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Did he reveal anything about his identity?"
+    },
+    {
+      "character": "SHURI",
+      "text": "He has a War Dog tattoo but we have no record of him."
+    },
+    {
+      "character": "RIVER TRIBE ELDER",
+      "text": "Is this man Wakandan or not?"
+    },
+    {
+      "character": "MINING TRIBE ELDER",
+      "text": "Tell us what is going on."
+    },
+    {
+      "character": "T'CHALLLA",
+      "text": "Speak."
+    },
+    {
+      "character": "W'KABI",
+      "text": "Speak."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "I'm standing in your house. Serving justice to a man who stole your vibranium and murdered your people. Justice your King couldn't deliver."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "I don't care that you brought Klaue, the only reason I don't kill you where you stand is because I know who you are, now what do you want?"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "I want the throne."
+    },
+    {
+      "character": "MINING TRIBE ELDER",
+      "text": "My goodness."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Y'all sitting up here comfortable. Must feel good. There's about two billion people all over the world that looks like us but their lives are a lot harder, Wakanda has the tools to liberate them all."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "And what tools are those?"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Vibranium. Your weapons."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Our weapons will not be used to wage war on the world. It is not our way to be judge jury and executioner for people who are not our own."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Not your own? But didn't life start here, on this continent? So ain't all people your people?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "I am not King of all people. I am King of Wakanda. And it is my responsibility to make sure our people are safe and that vibranium does not fall into the hands of a person like you."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "Son, we have entertained this charlatan for too long. Reject his request."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Oh, I ain't requesting nothing! Ask who I am?"
+    },
+    {
+      "character": "SHURI",
+      "text": "You are Eric Stevens. An American black operative. A mercenary nicknamed Killmonger. That's who you are."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "That's not my name, Princess. Ask me, King?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "No."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Ask me."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Take him away."
+    },
+    {
+      "character": "RIVER TRIBE ELDER",
+      "text": "Who are you?"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "I am N'Jadaka, son of Prince N'Jobu."
+    },
+    {
+      "character": "MINING TRIBE ELDER",
+      "text": "The son of N'Jobu?"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "I found my daddy with Panther claws in his chest. You ain't the son of a King you're the son of a murderer!"
+    },
+    {
+      "character": "RAMONDA",
+      "text": "You're lying! Lies."
+    },
+    {
+      "character": "W'KABI",
+      "text": "I'm afraid not Queen Mother."
+    },
+    {
+      "character": "MINING TRIBE ELDER",
+      "text": "The descendant of N'Jobu."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Hey Auntie. I'm exercising my blood right to challenge for the mantles of King and Black Panther."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "Do not do this T'Challa."
+    },
+    {
+      "character": "BORDER TRIBE ELDER",
+      "text": "As the son of N'Jobu he is within his rights."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "He has no rights here."
+    },
+    {
+      "character": "RIVER TRIBE ELDER",
+      "text": "The challenge would take weeks to prepare."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Weeks? I don't need weeks. The whole country ain't gotta be there. I just need him, and somebody to get me out of these chains."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "T'Challa, what do you know of this?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "I accept your challenge."
+    },
+    {
+      "character": "SHURI",
+      "text": "He will never beat T'Challa. He should have just come to the first challenge and gotten it over with."
+    },
+    {
+      "character": "ZURI",
+      "text": "The King will now have the strength of the Black Panther stripped away."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Where is Agent Ross?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "I locked him in the office. He's not going anywhere."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "This is your last chance, throw down your weapons and we can handle this another way."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "I lived my entire life waiting for this moment. I trained, I lied, I killed, just to get here."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "I killed in America, Afghanistan, Iraq. I took life from my own brothers and sisters right here on the continent. And all this death, just so I can kill you."
+    },
+    {
+      "character": "ZURI",
+      "text": "Let the challenge begin."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Yield!"
+    },
+    {
+      "character": "SHURI",
+      "text": "Snap out of it T'Challa!"
+    },
+    {
+      "character": "NAKIA",
+      "text": "Get up."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "This is for my father."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Zuri, no."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Zuri."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "Zuri don't!"
+    },
+    {
+      "character": "ZURI",
+      "text": "I am the cause of your father's death. Not him. Take me."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "I'll take you both, Uncle James..."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "No! Zuri no! Zuri!! Noo!"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Is this your King? Huh?"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Is this your King? The Black Panther, who's supposed to lead you into the future."
+    },
+    {
+      "character": "SHURI",
+      "text": "Come on brother!"
+    },
+    {
+      "character": "AYO",
+      "text": "Is there nothing that can be done?"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Him? He's supposed to protect you."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "No."
+    },
+    {
+      "character": "NAKIA",
+      "text": "No!"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Nah. I'm your King."
+    },
+    {
+      "character": "NAKIA",
+      "text": "We have to go now! Queen mother, let's go!"
+    },
+    {
+      "character": "OKOYE",
+      "text": "The Queen Mother and Shuri, they are safe?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "Yes."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Thank you."
+    },
+    {
+      "character": "NAKIA",
+      "text": "We should get to them immediately."
+    },
+    {
+      "character": "OKOYE",
+      "text": "I cannot..."
+    },
+    {
+      "character": "NAKIA",
+      "text": "What..."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Though my heart is with you."
+    },
+    {
+      "character": "NAKIA",
+      "text": "We cannot turn over our nation to a man who showed up here only hours ago."
+    },
+    {
+      "character": "OKOYE",
+      "text": "He is of royal blood."
+    },
+    {
+      "character": "NAKIA",
+      "text": "He killed T'Challa."
+    },
+    {
+      "character": "OKOYE",
+      "text": "In ritual combat."
+    },
+    {
+      "character": "NAKIA",
+      "text": "Does that really matter?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "You are the greatest warrior Wakanda has. Help me overthrow him before he becomes too strong."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Overthrow?! Nakia, I am not a spy who can come and go as they so choose. I am loyal to the throne, no matter who sits upon it. What are you loyal to?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "I loved him. I love my country too."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Then you serve your country."
+    },
+    {
+      "character": "NAKIA",
+      "text": "No. I save my country."
+    },
+    {
+      "character": "ROSS",
+      "text": "What's wrong?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "The King is dead. Come with me, unless you want to join him."
+    },
+    {
+      "character": "SHURI",
+      "text": "First Baba, and now my brother. Mama, we didn't even get to bury him."
+    },
+    {
+      "character": "NAKIA",
+      "text": "The King is dead. Come with me, unless you want to join him."
+    },
+    {
+      "character": "SHURI",
+      "text": "First Baba, and now my brother. Mama, we didn't even get to bury him."
+    },
+    {
+      "character": "NAKIA",
+      "text": "It's me."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "Nakia. Who is this man?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "He's a friend of T'Challa's he saved my life."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "Where is Okoye?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "Okoye is not corning. She and Dora Milaje will serve the new King. (beat) Wait here."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "What has happened to our Wakanda?"
+    },
+    {
+      "character": "SHAMAN",
+      "text": "Allow the Heart Shaped Herb to give you the powers of the Black Panther and take you to the Ancestral Plane."
+    },
+    {
+      "character": "N'JOBU",
+      "text": "What did I tell you about going into my things? (playful smile) What did you find?"
+    },
+    {
+      "character": "YOUNG KILLLMONGER",
+      "text": "Your home."
+    },
+    {
+      "character": "N'JOBU",
+      "text": "I gave you a key hoping that you might see it someday"
+    },
+    {
+      "character": "N'JOBU",
+      "text": "Yes. The sunsets there are the most beautiful in the world. But I fear you still may not be welcome."
+    },
+    {
+      "character": "YOUNG KILLMONGER",
+      "text": "Why?"
+    },
+    {
+      "character": "N'JOBU",
+      "text": "They will say you are lost."
+    },
+    {
+      "character": "YOUNG KILLMONGER",
+      "text": "But, I'm right here."
+    },
+    {
+      "character": "N'JOBU",
+      "text": "No tears for me?"
+    },
+    {
+      "character": "YOUNG KILLMONGER",
+      "text": "Everybody dies. It's just life around here."
+    },
+    {
+      "character": "N'JOBU",
+      "text": "Well look at what I have done. I should have taken you back long ago."
+    },
+    {
+      "character": "N'JOBU",
+      "text": "Instead, we are both abandoned here."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Well maybe your home is the one that's lost. That's why they can't find us."
+    },
+    {
+      "character": "SHAMAN",
+      "text": "Breathe, my King. Breathe!"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "The Heart Shaped Herb did that?"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "This is all of it?"
+    },
+    {
+      "character": "SHAMAN",
+      "text": "Yes. So when it comes time for another King, we will be ready."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Another King, yeah go ahead and burn all that."
+    },
+    {
+      "character": "SHAMAN",
+      "text": "My King, we cannot do that. It is our tradition..."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "When I tell you to do something, I mean that shit. Burn it all!"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "You know, where I'm from, when black folks started revolutions, they never had the firepower or resources to fight their oppressors. Where was Wakanda? Hmm? Yeah, all that ends today. We got spies embedded in every nation on Earth. Already in place."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "I know how colonizers think. So we're gonna use their own strategy against them. We' re gonna send vibranium weapons out to our War Dogs. They'll arm oppressed people all over the world, so they can finally rise up and kill those in power, and their children and anyone else who takes their side. It's time they know the truth about us. We're warriors. The world's gonna start over and this time we're on top."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "The sun will never set on the Wakandan Empire."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Wakanda has survived for so long by fighting when only absolutely necessary."
+    },
+    {
+      "character": "W'KABI",
+      "text": "Wakanda has survived in the past this way, yes. But the world is changing, General. Elders, it is getting smaller. The outside world is catching up and soon it will be the conquerors, or the conquered. I'd rather be the former."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "You heard your orders. Let's get to it."
+    },
+    {
+      "character": "ROSS",
+      "text": "So where are we going again?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "We're taking the Heart Shaped Herb to Jabariland."
+    },
+    {
+      "character": "ROSS",
+      "text": "Heart Shaped Herb, what is that?"
+    },
+    {
+      "character": "SHURI",
+      "text": "It gives whoever takes it heightened abilities."
+    },
+    {
+      "character": "NAKIA",
+      "text": "It's what made T'Challa so strong."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "Nakia. I don't like this. The Herb belongs to us. We may be creating a bigger monster with M'Baku. (beat) Nakia, you should take it yourself."
+    },
+    {
+      "character": "NAKIA",
+      "text": "I'm a spy with no army. I wouldn't stand a chance."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "We'll go."
+    },
+    {
+      "character": "NAKIA",
+      "text": "Stay calm."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "My son was murdered in ritual combat."
+    },
+    {
+      "character": "M'BAKU",
+      "text": "Were the odds fair?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "Yes, but..."
+    },
+    {
+      "character": "M'BAKU",
+      "text": "So, it was less a murder than a defeat?"
+    },
+    {
+      "character": "SHURI",
+      "text": "Do not rub our noses in it..."
+    },
+    {
+      "character": "M'BAKU",
+      "text": "Silence! I make the pronouncements here, girl."
+    },
+    {
+      "character": "ROSS",
+      "text": "Look uh, your highness, the new King is a..."
+    },
+    {
+      "character": "M'BAKU",
+      "text": "You cannot talk. One more word and I will feed you to my children."
+    },
+    {
+      "character": "M'BAKU",
+      "text": "I'm kidding. We are vegetarians."
+    },
+    {
+      "character": "NAKIA",
+      "text": "Great Gorilla M'Baku. This is why we are here. To offer this to you. An outsider sits on our throne. Only you can help us stop him."
+    },
+    {
+      "character": "M'BAKU",
+      "text": "Come with me."
+    },
+    {
+      "character": "NAKIA",
+      "text": "Impossible. (beat) Is he breathing?"
+    },
+    {
+      "character": "M'BAKU",
+      "text": "He is in a coma, barely clinging to life."
+    },
+    {
+      "character": "M'BAKU",
+      "text": "One of our fishermen found him at the edge of the river border. He brought him to me."
+    },
+    {
+      "character": "SHURI",
+      "text": "Why do you have him in the snow?!"
+    },
+    {
+      "character": "M'BAKU",
+      "text": "It is the only thing keeping him from joining the ancestors."
+    },
+    {
+      "character": "SHURI",
+      "text": "We need to get him to my lab! I can heal him there."
+    },
+    {
+      "character": "M'BAKU",
+      "text": "Take him. He'll be dead in seconds."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "Nakia, the Herb."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "I call upon the ancestors. I call upon Bast. I am here with my son T'Challa. Heal him. We must bury him."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "Praise the ancestors."
+    },
+    {
+      "character": "NAKIA",
+      "text": "Praise the ancestors."
+    },
+    {
+      "character": "ROSS",
+      "text": "Praise the ancestors."
+    },
+    {
+      "character": "SHURI",
+      "text": "Praise the ancestors."
+    },
+    {
+      "character": "NAKIA",
+      "text": "Wake up, T'Challa. Wake up."
+    },
+    {
+      "character": "T'CHAKA",
+      "text": "My son."
+    },
+    {
+      "character": "T'CHAKA",
+      "text": "The time has come for you to come home and be reunited with me."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Why? Why didn't you bring the boy home?"
+    },
+    {
+      "character": "T'CHAKA",
+      "text": "Why, Baba?"
+    },
+    {
+      "character": "T'CHAKA",
+      "text": "He, he was the truth I chose to omit."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "You were wrong to abandon him."
+    },
+    {
+      "character": "T'CHAKA",
+      "text": "I chose my people. I chose Wakanda. Our future depended on..."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "You were wrong! All of you were wrong!!! To turn your backs on the rest of the world! We let the fear of our discovery stop us from doing what is right. No more! I cannot stay here with you. I cannot rest while he sits on the throne. He is a monster of our own making. I must take the mantle back, I must. I must right these wrongs."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Do you have a blanket?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "Killmonger has the full support of our military. And he burned the garden of the Heart Shaped Herb."
+    },
+    {
+      "character": "ROSS",
+      "text": "Of course he did."
+    },
+    {
+      "character": "ROSS",
+      "text": "That's what he was trained to do. His unit used to work with the CIA to destabilize foreign countries. They would always strike at transitions of power, like an election year or the death of a monarch. You get control of government, the military..."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Our resources. The Great Mound."
+    },
+    {
+      "character": "SHURI",
+      "text": "Our vibranium. All of my designs."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "He will send our weapons all over the world."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "You must get them out of Wakanda safely."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "What?"
+    },
+    {
+      "character": "SHURI",
+      "text": "What about you?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "The challenge will have to continue."
+    },
+    {
+      "character": "RAMONDA",
+      "text": "T'Challa, we will not leave Wakanda."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "It is my duty to keep you safe."
+    },
+    {
+      "character": "SHURI",
+      "text": "If he gets control of our technology, no where will be safe."
+    },
+    {
+      "character": "SHURI",
+      "text": "The Black Panther lives. And when he fights for the fate of Wakanda I will be right there beside him."
+    },
+    {
+      "character": "NAKIA",
+      "text": "As will I."
+    },
+    {
+      "character": "ROSS",
+      "text": "I'm in too."
+    },
+    {
+      "character": "ROSS",
+      "text": "What? You're gonna need all the help you can get."
+    },
+    {
+      "character": "M'BAKU",
+      "text": "Are you done? Are you, are you done?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Could you give me and Lord M'Baku a moment?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Thank you."
+    },
+    {
+      "character": "M'BAKU",
+      "text": "I owed you a great debt. A life for a life. Consider it paid."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Please allow my mother to stay here."
+    },
+    {
+      "character": "M'BAKU",
+      "text": "No harm will come to her I give you my word."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "You know I could use an army as well."
+    },
+    {
+      "character": "M'BAKU",
+      "text": "I bet you could. But no. I will give no Jabari lives towards your cause."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "It is our cause. It is for all of us."
+    },
+    {
+      "character": "M'BAKU",
+      "text": "Us? You are the first King to come here in centuries. And now you speak of us?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "I cannot speak for past Kings. But an enemy sits on the throne right now. We both know the power of vibranium. If Killmonger gets control of it, who do you think he will come for next?"
+    },
+    {
+      "character": "M'BAKU",
+      "text": "We will not help you."
+    },
+    {
+      "character": "W'KABI",
+      "text": "Everything is on schedule."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Have the spies been alerted?"
+    },
+    {
+      "character": "W'KABI",
+      "text": "Yes. Some have been resistant to our new mission. But the War Dogs in London, New York and Hong Kong are standing by."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "We'll strike there first. The others will come around."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Look at this. A handheld sonic cannon powerful enough to stop a tank. Untraceable by metal detectors, and we got thousands of them. The world's gonna find out exactly who we are."
+    },
+    {
+      "character": "OKOYE",
+      "text": "He lives..."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "N'Jadakalll!"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Wassup?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "I never yielded, and as you can see, I am not dead."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "All that challenge shit is over with. I'm the King now. (turns to Kingsguard) Get those planes in the air! Carry out the mission!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Shuri, now!"
+    },
+    {
+      "character": "SHURI",
+      "text": "Copy that."
+    },
+    {
+      "character": "SHURI",
+      "text": "Go! Go go go go go! Come on, Ross!"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "W'Kabi, kill this clown."
+    },
+    {
+      "character": "OKOYE",
+      "text": "W'Kabi, the challenge is not complete."
+    },
+    {
+      "character": "BORDER TRIBE COMMANDER",
+      "text": "What will we do?"
+    },
+    {
+      "character": "W'KABI",
+      "text": "Border Tribe!"
+    },
+    {
+      "character": "BORDER TRIBE",
+      "text": "Ay! Ay!"
+    },
+    {
+      "character": "W'KABI",
+      "text": "Phambili!"
+    },
+    {
+      "character": "SHURI",
+      "text": "Go! Go go go go go! Come on, Ross!"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "W'Kabi, kill this clown."
+    },
+    {
+      "character": "OKOYE",
+      "text": "W'Kabi, the challenge is not complete."
+    },
+    {
+      "character": "BORDER TRIBE COMMANDER",
+      "text": "What will we do?"
+    },
+    {
+      "character": "W'KABI",
+      "text": "Border Tribe!"
+    },
+    {
+      "character": "BORDER TRIBE",
+      "text": "Ay! Ay!"
+    },
+    {
+      "character": "W'KABI",
+      "text": "Phambili!"
+    },
+    {
+      "character": "OKOYE",
+      "text": "You! Your heart is so full of hatred you are not fit to be a King."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Ayo. The King."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "W'Kabi stop this! Stop this now!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Noo!!"
+    },
+    {
+      "character": "SHURI",
+      "text": "Nakia and I will get control of the Royal Talon with this."
+    },
+    {
+      "character": "ROSS",
+      "text": "Ok, so what do I do?"
+    },
+    {
+      "character": "SHURI",
+      "text": "You will have to fly it."
+    },
+    {
+      "character": "ROSS",
+      "text": "What?"
+    },
+    {
+      "character": "SHURI",
+      "text": "You were a great pilot. Don't worry, I'll guide you through it. It's just like riding a hoverbike."
+    },
+    {
+      "character": "ROSS",
+      "text": "You guys have hoverbikes?"
+    },
+    {
+      "character": "SHURI",
+      "text": "Nakia, take that."
+    },
+    {
+      "character": "NAKIA",
+      "text": "I'm not a Dora."
+    },
+    {
+      "character": "SHURI",
+      "text": "Just put it on, it's armor!"
+    },
+    {
+      "character": "SHURI",
+      "text": "Good luck, Agent Ross!"
+    },
+    {
+      "character": "ROSS",
+      "text": "Yeah I don't know what I'm doing..."
+    },
+    {
+      "character": "NAKIA",
+      "text": "We're counting on you!"
+    },
+    {
+      "character": "DORA MILAJE 1",
+      "text": "Wakanda Forever."
+    },
+    {
+      "character": "GRIOT",
+      "text": "Remote piloting system activated."
+    },
+    {
+      "character": "SHURI",
+      "text": "I made it American style for you! Get in!"
+    },
+    {
+      "character": "SHURI/NAKIA",
+      "text": "Yes!!"
+    },
+    {
+      "character": "SHURI",
+      "text": "Go! We can't let those weapons get beyond Wakanda."
+    },
+    {
+      "character": "ROSS",
+      "text": "Alright, I'm on it."
+    },
+    {
+      "character": "OKOYE",
+      "text": "Lock! Get him down!"
+    },
+    {
+      "character": "OKOYE",
+      "text": "Get the necklace!"
+    },
+    {
+      "character": "NAKIA",
+      "text": "Wakanda Forever!!"
+    },
+    {
+      "character": "ROSS",
+      "text": "Ok Shuri, I got them what do I do?"
+    },
+    {
+      "character": "SHURI",
+      "text": "Shoot them down genius!"
+    },
+    {
+      "character": "ROSS",
+      "text": "Alright..."
+    },
+    {
+      "character": "ROSS",
+      "text": "Here goes nothing."
+    },
+    {
+      "character": "ROSS",
+      "text": "Alright, I got them."
+    },
+    {
+      "character": "ROSS",
+      "text": "Oh shit shit shit."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "ShuriI!"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "What's up, Princess?"
+    },
+    {
+      "character": "SHURI",
+      "text": "You'll never be a true King."
+    },
+    {
+      "character": "SHURI",
+      "text": "Brother!!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Shuri!"
+    },
+    {
+      "character": "SHURI",
+      "text": "Brother!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Turn on the train on the bottom track!"
+    },
+    {
+      "character": "SHURI",
+      "text": "But the stabilizers will deactivate your suit, you won't have protection!"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Neither will he."
+    },
+    {
+      "character": "SHURI",
+      "text": "Okay!"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "I don't need a suit to kill you."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Your reign is over! You sat up there, safe and protected."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "You want to see us become just like the people you hate so much. Divide and conquer the land as they did!"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Nah, I learn from my enemies, beat them at their own game."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "You have become them! You will destroy the world, Wakanda included!"
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "The world took everything away from me! Everything I ever loved! But I'm gonna make sure we're even. I'm gonna track down anyone who would even think about being loyal to you! And I'm gonna put they ass in the dirt, right next to Zuri."
+    },
+    {
+      "character": "SHURI",
+      "text": "Nakia! Are you alright?"
+    },
+    {
+      "character": "NAKIA",
+      "text": "I'm ok. You?"
+    },
+    {
+      "character": "SHURI",
+      "text": "Yes."
+    },
+    {
+      "character": "NAKIA",
+      "text": "Let's go."
+    },
+    {
+      "character": "ROSS",
+      "text": "Shuri, I've lost one of them but two are on my tail."
+    },
+    {
+      "character": "ROSS",
+      "text": "What the hell was that?"
+    },
+    {
+      "character": "GRIOT",
+      "text": "The lab is under attack."
+    },
+    {
+      "character": "ROSS",
+      "text": "What? Where?"
+    },
+    {
+      "character": "GRIOT",
+      "text": "Deactivating hologram."
+    },
+    {
+      "character": "SHURI",
+      "text": "Ross! You have to get out of there now!"
+    },
+    {
+      "character": "ROSS",
+      "text": "How long have I got?"
+    },
+    {
+      "character": "GRIOT",
+      "text": "Glass integrity is at 50%"
+    },
+    {
+      "character": "ROSS",
+      "text": "Put me back in."
+    },
+    {
+      "character": "SHURI",
+      "text": "Ross! Ross?!"
+    },
+    {
+      "character": "W'KABI",
+      "text": "Surrender now! You have three seconds to lay down your weapons!"
+    },
+    {
+      "character": "W'KABI",
+      "text": "One... two..."
+    },
+    {
+      "character": "M'BAKU",
+      "text": "Witness the might of the Jabari firsthand!"
+    },
+    {
+      "character": "M'BAKU",
+      "text": "Abya!!!!"
+    },
+    {
+      "character": "OKOYE",
+      "text": "Phambili!!!!"
+    },
+    {
+      "character": "M'BAKU",
+      "text": "Abya!!!"
+    },
+    {
+      "character": "GRIOT",
+      "text": "Glass integrity is at 15%."
+    },
+    {
+      "character": "ROSS",
+      "text": "Shuril The last cargo ship is almost at the border, but they've got me trapped with some kind of cables."
+    },
+    {
+      "character": "SHURI",
+      "text": "Make an X with your arms!"
+    },
+    {
+      "character": "GRIOT",
+      "text": "Sonic overload initiated."
+    },
+    {
+      "character": "SHURI",
+      "text": "Now break it!"
+    },
+    {
+      "character": "GRIOT",
+      "text": "System rebooting in 5, 4, 3, 2..."
+    },
+    {
+      "character": "GRIOT",
+      "text": "1... system rebooted!"
+    },
+    {
+      "character": "ROSS",
+      "text": "Yes! We did it!"
+    },
+    {
+      "character": "SHURI",
+      "text": "Great! Now get out of there!"
+    },
+    {
+      "character": "OKOYE",
+      "text": "Drop your weapon."
+    },
+    {
+      "character": "W'KABI",
+      "text": "Would you kill me, my love?"
+    },
+    {
+      "character": "OKOYE",
+      "text": "For Wakanda? (she draws her weapon) Without question."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "This is it for you, cousin."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Hell of a move."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "My pops said Wakanda was the most beautiful thing he'd ever seen. He promised he was going to show it to me some day. Can you believe that? Kid from Oakland running around believing in fairy tales."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "It's beautiful."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Maybe we can still heal you."
+    },
+    {
+      "character": "KILLMONGER",
+      "text": "Why? So you can just lock me up? Nah. Just bury me in the ocean, with my ancestors that jumped from the ships, because they knew death was better than bondage."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Thank you. You saved me. You saved my family. Our nation."
+    },
+    {
+      "character": "NAKIA",
+      "text": "There is nothing to thank me for. It is our duty to, it was my duty to fight for what I love. I should have..."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "You can't blame me I almost died."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Stay. I think I know a way you can still fulfill your calling. Please stay."
+    },
+    {
+      "character": "SHURI",
+      "text": "When you said you would take me to California for the first time, I thought you meant Coachella, or Disneyland. Why here?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "This is where our father killed our uncle."
+    },
+    {
+      "character": "SHURI",
+      "text": "They are tearing it down. Good."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "They're not tearing it down, I bought this building."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "And that building, and that one over there. This will be the first Wakandan International Outreach Center."
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "Nakia will oversee the social outreach. And you will spearhead the science and information exchange."
+    },
+    {
+      "character": "SHURI",
+      "text": "You're kidding!"
+    },
+    {
+      "character": "OAKLAND KID #1",
+      "text": "What?! Man what the hell is that?"
+    },
+    {
+      "character": "OAKLAND KID #2",
+      "text": "That's like a Buggati space ship!"
+    },
+    {
+      "character": "OAKLAND KID #3",
+      "text": "Woah, it came out of nowhere!!! Did y'all see that?"
+    },
+    {
+      "character": "YOUNG BLACK KID",
+      "text": "What..."
+    },
+    {
+      "character": "OAKLAND KID #1",
+      "text": "We can take this back to the house y'all..."
+    },
+    {
+      "character": "OAKLAND KID #2",
+      "text": "We could pull up to school in this!"
+    },
+    {
+      "character": "OAKLAND KID #3",
+      "text": "Hey look, we can break it apart and we can sell it!"
+    },
+    {
+      "character": "OAKLAND KID #2",
+      "text": "On Ebay!"
+    },
+    {
+      "character": "OAKLAND KID #3",
+      "text": "Everybody get like a million a piece."
+    },
+    {
+      "character": "SHURI",
+      "text": "Uhhh I wouldn't do that if I were you guys..."
+    },
+    {
+      "character": "OAKLAND KID #1",
+      "text": "Where you come from?"
+    },
+    {
+      "character": "SHURI",
+      "text": "From Wakanda."
+    },
+    {
+      "character": "OAKLAND KID #1",
+      "text": "What is a Wakanda?"
+    },
+    {
+      "character": "YOUNG BLACK KID",
+      "text": "Hey yo! Is this yours? Who, who are you?"
+    },
+    {
+      "character": "T'CHALLA",
+      "text": "My name is King T'Challa, son of King T'Chaka. I am the sovereign ruler of the Nation of Wakanda and for the first time in our history we will be sharing our knowledge and resources with the outside world. Wakanda will no longer watch from the shadows. We cannot, we must not. We will work to be an example of how we as brothers and sisters on this Earth should treat each other. Now more than ever, illusions of division threaten our very existence. We all know the truth: more connects us than separates us. In times of crisis, the wise build bridges, while the foolish build barriers. We must find a way to look after one another, as if we were one single tribe."
+    },
+    {
+      "character": "FRENCH AMBASSADOR",
+      "text": "With all due respect, King T'Challa, what can a nation of farmers offer to the rest of the world?"
+    },
+    {
+      "character": "SHURI",
+      "text": "Are you playing around with that man again?"
+    },
+    {
+      "character": "WAKANDAN CHILD",
+      "text": "No. Nol"
+    },
+    {
+      "character": "SHURI",
+      "text": "You're teasing him again?"
+    },
+    {
+      "character": "WAKANDAN CHILDREN",
+      "text": "Emhlophe Ingcuka. (white wolf)"
+    },
+    {
+      "character": "SHURI",
+      "text": "Good morning, Sgt. Barnes."
+    },
+    {
+      "character": "BUCKY",
+      "text": "Bucky."
+    },
+    {
+      "character": "SHURI",
+      "text": "How are you feeling?"
+    },
+    {
+      "character": "BUCKY",
+      "text": "Good. Thank you."
+    },
+    {
+      "character": "SHURI",
+      "text": "Come. Much more for you to learn."
+    }
+  ],
+  "imdbId": "tt1825683",
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SX300.jpg",
+  "rated": "PG-13",
+  "runtime": "134 min",
+  "genre": "Action, Adventure, Sci-Fi",
+  "director": "Ryan Coogler",
+  "topSpeakingCast": [
+    "T'CHALLA",
+    "SHURI",
+    "NAKIA",
+    "KILLMONGER",
+    "ROSS",
+    "OKOYE",
+    "KLAUE",
+    "ZURI",
+    "M'BAKU",
+    "W'KABI",
+    "RAMONDA",
+    "N'JOBU",
+    "YOUNG T'CHAKA"
+  ]
+}

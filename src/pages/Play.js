@@ -51,7 +51,7 @@ export async function renderPlay(params) {
       document.title = `Scriptle - A daily ${script.title} movie quote game`;
 
       // Apply theme
-      applyTheme(pack);
+      applyPackTheme(pack);
 
       // Initialize traditional game
       document.getElementById('loading').style.display = 'none';
@@ -89,7 +89,7 @@ export async function renderPlay(params) {
         theme: packData.theme
       };
       document.title = `Scriptle - A daily ${packData.name} movie quote game`;
-      applyTheme(pack);
+      applyPackTheme(pack);
 
       // Fetch puzzle and index in parallel
       const [puzzleRes, indexRes] = await Promise.all([
@@ -135,14 +135,26 @@ export async function renderPlay(params) {
   }
 }
 
-function applyTheme(pack) {
-  // Apply theme dynamically via CSS variables
+function applyPackTheme(pack) {
+  // Apply pack theme dynamically via CSS variables
   if (pack.theme) {
     const t = pack.theme;
-    document.documentElement.style.setProperty('--primary-color', t.primary || '#333');
-    document.documentElement.style.setProperty('--bg-color', t.bgColor || '#f4f4f4');
-    document.documentElement.style.setProperty('--container-bg', t.containerBg || 'white');
-    document.documentElement.style.setProperty('--accent-color', t.accentColor || '#555');
-    document.documentElement.style.setProperty('--btn-text', t.btnText || 'white');
+    const root = document.documentElement;
+
+    // Only set pack-prefixed variables
+    root.style.setProperty('--pack-primary', t.primary || '#333');
+    root.style.setProperty('--pack-bg', t.bgColor || '#f4f4f4');
+    root.style.setProperty('--pack-surface', t.containerBg || '#ffffff');
+    root.style.setProperty('--pack-accent', t.accentColor || '#555');
+    root.style.setProperty('--pack-btn-text', t.btnText || '#ffffff');
+    root.style.setProperty('--pack-text', t.primary || '#333');
+    root.style.setProperty('--pack-text-secondary', t.accentColor || '#555');
+    root.style.setProperty('--pack-text-muted', t.muted || '#999');
+
+    // Pack card variables (for "Other Packs" sections or pack selection)
+    root.style.setProperty('--pack-card-gradient-start', t.cardGradientStart || t.bgColor || '#333');
+    root.style.setProperty('--pack-card-gradient-end', t.cardGradientEnd || t.bgColor || '#555');
+    root.style.setProperty('--pack-card-border', t.cardBorder || t.primary || '#333');
+    root.style.setProperty('--pack-card-text', t.cardText || '#ffffff');
   }
 }

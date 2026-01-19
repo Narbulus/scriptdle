@@ -1,0 +1,36 @@
+{
+  "id": "marvel",
+  "name": "Marvel",
+  "type": "series",
+  "movies": [
+    "iron-man",
+    "captain-america-the-first-avenger",
+    "thor",
+    "the-avengers-2012",
+    "guardians-of-the-galaxy",
+    "black-panther",
+    "spider-man-homecoming",
+    "doctor-strange",
+    "ant-man",
+    "captain-marvel",
+    "black-widow-film"
+  ],
+  "theme": {
+    "primary": "#c62828",
+    "bgColor": "#1a1a1a",
+    "containerBg": "#fafafa",
+    "accentColor": "#ffc107",
+    "btnText": "white",
+    "cardGradientStart": "#1a1a1a",
+    "cardGradientEnd": "#424242",
+    "cardBorder": "#c62828",
+    "cardText": "#ffc107"
+  },
+  "tierMessages": {
+    "perfect": "I am Iron Man",
+    "good": "I can do this all day",
+    "average": "We are Groot",
+    "barely": "With great power...",
+    "failure": "I still believe in heroes"
+  }
+}

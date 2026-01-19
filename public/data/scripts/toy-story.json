@@ -1,7 +1,7 @@
 {
   "id": "toy-story",
   "title": "Toy Story",
-  "year": 1995,
+  "year": null,
   "characters": [
     "ALIEN",
     "ALIENS",
@@ -16,13 +16,13 @@
     "BUZZ LIGHTYEAR",
     "BUZZ'S VOICE BOX",
     "CHILD",
-    "FEMALE PA",
-    "FEMALE WORKER",
     "FRIEND #1",
     "FRIEND #2",
     "HAMM",
     "HAMM, MR. POTATO HEAD, AND SLINKY",
     "HANNAH",
+    "HIT THE DIRT!!!",
+    "KID #2",
     "KIDS",
     "LENNY",
     "LYLE LOVETT",
@@ -31,13 +31,11 @@
     "MR. SHARK",
     "MR. SPELL",
     "MRS. DAVIS",
-    "P.A.",
     "PIZZA DELIVERER",
     "RANDY NEWMAN",
     "REX",
     "REX AND SLINKY",
     "ROBOT",
-    "ROBOT GUARDS",
     "SARGE",
     "SHERIFF WOODY",
     "SID",
@@ -49,6 +47,8 @@
     "TV BUZZ",
     "TV BUZZ'S VOICE BOX",
     "VO",
+    "VO 2",
+    "VO 3",
     "WOMAN",
     "WOODY",
     "WOODY'S VOICE BOX"
@@ -56,27 +56,27 @@
   "lines": [
     {
       "character": "ANDY",
-      "text": "Alright, everyone! This is a stick-up! Don't anybody move! Now empty that safe!"
+      "text": "\"Alright, everyone! This is a stick-up! Don't anybody move! Now empty that safe!\""
     },
     {
       "character": "ANDY",
-      "text": "Money, money, money!"
+      "text": "\"Money, money, money!\""
     },
     {
       "character": "ANDY",
-      "text": "Stop it! Stop it, you mean old potato!"
+      "text": "\"Stop it! Stop it, you mean old potato!\""
     },
     {
       "character": "ANDY",
-      "text": "Quiet, Bo Peep! Or your sheep will get run over!"
+      "text": "\"Quiet, Bo Peep! Or your sheep will get run over!\""
     },
     {
       "character": "ANDY",
-      "text": "Help! Baa! Help us!"
+      "text": "\"Help! Baa! Help us!\""
     },
     {
       "character": "ANDY",
-      "text": "Oh, no! Not my sheep! Somebody do something!"
+      "text": "\"Oh, no! Not my sheep! Somebody do something!\""
     },
     {
       "character": "WOODY",
@@ -84,39 +84,39 @@
     },
     {
       "character": "ANDY",
-      "text": "Oh, no! Sheriff Woody!"
-    },
-    {
-      "character": "WOODY",
-      "text": "I'm here to stop you, One-Eyed Bart!"
+      "text": "\"Oh, no! Sheriff Woody!\""
     },
     {
       "character": "ANDY",
-      "text": "D'oh! How’d you know it was me?"
-    },
-    {
-      "character": "WOODY",
-      "text": "Are you gonna come quietly?"
+      "text": "\"I'm here to stop you, One-Eyed Bart!\""
     },
     {
       "character": "ANDY",
-      "text": "You can't touch me, sheriff! I've brought my attack dog... (puts Slinky Dog in front of Mr. Potato Head (One-Eyed Bart) ...with a built in forcefield!"
-    },
-    {
-      "character": "WOODY",
-      "text": "Well, I brought my dinosaur who eats forcefield dogs!"
+      "text": "\"D'oh! How’d you know it was me?\""
     },
     {
       "character": "ANDY",
-      "text": "Arr rawr rawr!"
+      "text": "\"Are you gonna come quietly?\""
     },
     {
       "character": "ANDY",
-      "text": "Yipe, yipe-yipe-yipe!"
+      "text": "\"You can't touch me, sheriff! I've brought my attack dog... with a built in forcefield!\""
     },
     {
-      "character": "WOODY",
-      "text": "You're going to jail, Bart. Say goodbye to the wife and tater tots."
+      "character": "ANDY",
+      "text": "\"Well, I brought my dinosaur who eats forcefield dogs!\""
+    },
+    {
+      "character": "ANDY",
+      "text": "\"Arr-rawr-rawr!\""
+    },
+    {
+      "character": "ANDY",
+      "text": "Yipe-yipe-yipe-yipe!"
+    },
+    {
+      "character": "ANDY",
+      "text": "\"You're going to jail, Bart. Say goodbye to the wife and tater tots.\""
     },
     {
       "character": "ANDY",
@@ -128,23 +128,15 @@
     },
     {
       "character": "RANDY NEWMAN",
-      "text": "♪ You've got a friend in me. ♪"
-    },
-    {
-      "character": "RANDY NEWMAN",
-      "text": "♪ You've got a friend in me. ♪"
+      "text": "♪ You've got a friend in me. ♪ ♪ You've got a friend in me. ♪"
     },
     {
       "character": "ANDY",
-      "text": "Come on, let's wrangle up the cattle."
+      "text": "Come on, let's wrangle up the cattle!"
     },
     {
       "character": "RANDY NEWMAN",
-      "text": "♪ When the road looks rough ahead ♪"
-    },
-    {
-      "character": "RANDY NEWMAN",
-      "text": "♪ And you're miles and miles from your nice warm bed, ♪"
+      "text": "♪ When the road looks rough ahead ♪ ♪ And you're miles and miles from your nice warm bed, ♪"
     },
     {
       "character": "ANDY",
@@ -152,11 +144,7 @@
     },
     {
       "character": "RANDY NEWMAN",
-      "text": "♪ You just remember what your old pal said. ♪"
-    },
-    {
-      "character": "RANDY NEWMAN",
-      "text": "♪ Boy, you've got a friend in me. ♪"
+      "text": "♪ You just remember what your old pal said. ♪ ♪ Boy, you've got a friend in me. ♪"
     },
     {
       "character": "ANDY",
@@ -188,19 +176,7 @@
     },
     {
       "character": "RANDY NEWMAN",
-      "text": "♪ Maybe ♪"
-    },
-    {
-      "character": "RANDY NEWMAN",
-      "text": "♪ But none of them will ever love you the way I do. ♪"
-    },
-    {
-      "character": "RANDY NEWMAN",
-      "text": "♪ t's me and you, boy. ♪"
-    },
-    {
-      "character": "RANDY NEWMAN",
-      "text": "♪ And as the years go by, ♪"
+      "text": "♪ Maybe ♪ ♪ But none of them will ever love you the way I do. ♪ ♪ t's me and you, boy. ♪ ♪ And as the years go by, ♪"
     },
     {
       "character": "ANDY",
@@ -208,15 +184,7 @@
     },
     {
       "character": "RANDY NEWMAN",
-      "text": "♪ Our friendship will never die. ♪"
-    },
-    {
-      "character": "RANDY NEWMAN",
-      "text": "♪ You're gonna see, it's our destiny. ♪"
-    },
-    {
-      "character": "RANDY NEWMAN",
-      "text": "♪ You've got a friend in me. ♪"
+      "text": "♪ Our friendship will never die. ♪ ♪ You're gonna see, it's our destiny. ♪ ♪ You've got a friend in me. ♪"
     },
     {
       "character": "ANDY",
@@ -252,7 +220,7 @@
     },
     {
       "character": "ANDY",
-      "text": "We saw it at the store, I asked you for it! Wow, look at that! That's so- Oh, my gosh, you got-"
+      "text": "We saw it at the store, I asked you for it! Wow, look at that! That's so-- Oh, my gosh, you got--"
     },
     {
       "character": "MRS. DAVIS",
@@ -292,7 +260,7 @@
     },
     {
       "character": "ANDY",
-      "text": "Come on, Molly. Oh, you're gettin’ heavy."
+      "text": "(picks her up out of her crib) Come on, Molly. Oh, you're gettin’ heavy."
     },
     {
       "character": "ANDY",
@@ -552,10 +520,10 @@
     },
     {
       "character": "HAMM",
-      "text": "THEY'RE HERE!!!!!!!!! BIRTHDAY GUESTS AT THREE O'CLOCK!!!!!"
+      "text": "THEY'RE HERE!!!!!!!!! BIRTHDAY GUESTS AT THREE O'CLOCK!!!!!!!!!"
     },
     {
-      "character": "REX",
+      "character": "WOODY",
       "text": "Stay calm, everyone!"
     },
     {
@@ -836,11 +804,7 @@
     },
     {
       "character": "REX",
-      "text": "It's a what? What is it?"
-    },
-    {
-      "character": "REX",
-      "text": "Oh, no!"
+      "text": "It's a what?! What is it?!"
     },
     {
       "character": "MR. POTATO HEAD",
@@ -1063,6 +1027,10 @@
       "text": "Buzz Lightyear to the rescue!"
     },
     {
+      "character": "TOYS",
+      "text": "Oh!"
+    },
+    {
       "character": "SLINKY",
       "text": "Hey, Woody's got somethin’ like that. His is a pull string. Only it's...."
     },
@@ -1155,6 +1123,10 @@
       "text": "Excuse me!"
     },
     {
+      "character": "TOYS",
+      "text": "Ooh!"
+    },
+    {
       "character": "HAMM",
       "text": "Oh, impressive wingspan! Very good!"
     },
@@ -1220,7 +1192,7 @@
     },
     {
       "character": "WOODY",
-      "text": "That wasn't flying! That was falling with style."
+      "text": "That wasn't flying! That was falling with style!"
     },
     {
       "character": "MR. POTATO HEAD",
@@ -1241,10 +1213,6 @@
     {
       "character": "ANDY",
       "text": "Buzz Lightyear to the rescue!"
-    },
-    {
-      "character": "REX",
-      "text": "Strange things are happening to me... ♪"
     },
     {
       "character": "WOODY",
@@ -1495,7 +1463,7 @@
       "text": "He's lighting it! He's lighting it!"
     },
     {
-      "character": "LENNY",
+      "character": "HIT THE DIRT!!!",
       "text": "HIT THE DIRT!!!"
     },
     {
@@ -1564,7 +1532,7 @@
     },
     {
       "character": "WOODY",
-      "text": "Buzz!! Oh, Buzz, Buzz Lightyear!! Buzz Lightyear, thank goodness! We've got trouble!"
+      "text": "Buzz! Oh, Buzz, Buzz Lightyear! Buzz Lightyear, thank goodness! We've got trouble!"
     },
     {
       "character": "BUZZ LIGHTYEAR",
@@ -1615,6 +1583,10 @@
       "text": "He's sayin' that this was no accident."
     },
     {
+      "character": "TOYS",
+      "text": "Huh?"
+    },
+    {
       "character": "BO PEEP",
       "text": "What do you mean?"
     },
@@ -1629,6 +1601,10 @@
     {
       "character": "MR. POTATO HEAD",
       "text": "By Woody!"
+    },
+    {
+      "character": "TOYS",
+      "text": "What?!"
     },
     {
       "character": "WOODY",
@@ -1696,7 +1672,7 @@
     },
     {
       "character": "BO PEEP",
-      "text": "Boys, stop it!!"
+      "text": "Boys, stop it!"
     },
     {
       "character": "MRS. DAVIS",
@@ -1872,7 +1848,7 @@
     },
     {
       "character": "WOODY",
-      "text": "This is the perfect time to panic! I'm lost, Andy is gone, they’re gonna move from their house in two days, and it’s all your fault!!"
+      "text": "This is the perfect time to panic! I'm lost, Andy is gone, they’re gonna move from their house in two days, and it’s all your fault!"
     },
     {
       "character": "BUZZ LIGHTYEAR",
@@ -1896,7 +1872,7 @@
     },
     {
       "character": "WOODY",
-      "text": "YOU ARE A TOY!!!! You aren’t the real Buzz Lightyear! You're an-- you're an action figure!! You are a child's plaything!!"
+      "text": "YOU ARE A TOY!!!! You aren’t the real Buzz Lightyear! You're an-- you're an action figure! You are a child's plaything!"
     },
     {
       "character": "BUZZ LIGHTYEAR",
@@ -1932,7 +1908,7 @@
     },
     {
       "character": "WOODY",
-      "text": "Oh, no. I can't show my face in that room without Buzz. Buzz!! Buzz, come back!!"
+      "text": "Oh, no. I can't show my face in that room without Buzz. Buzz! Buzz, come back!"
     },
     {
       "character": "BUZZ LIGHTYEAR",
@@ -1940,11 +1916,11 @@
     },
     {
       "character": "WOODY",
-      "text": "No, Buzz, you've gotta come back!! I..."
+      "text": "No, Buzz, you've gotta come back! I..."
     },
     {
       "character": "WOODY",
-      "text": "I found a spaceship!!"
+      "text": "I found a spaceship!"
     },
     {
       "character": "WOODY",
@@ -1999,18 +1975,6 @@
       "text": "It's much safer in the cockpit than the cargo bay. What an idiot!"
     },
     {
-      "character": "P.A.",
-      "text": "Next shuttle lift-off scheduled for T-minus 30 minutes and counting."
-    },
-    {
-      "character": "ROBOT GUARDS",
-      "text": "You are clear to enter. Welcome to Pizza Planet."
-    },
-    {
-      "character": "FEMALE PA",
-      "text": "The white zone is for eating pizza only. The white zone is for..."
-    },
-    {
       "character": "BUZZ LIGHTYEAR",
       "text": "Sheriff. Sheriff?"
     },
@@ -2027,16 +1991,12 @@
       "text": "Great idea, Woody. I like your thinking."
     },
     {
-      "character": "ROBOT GUARDS",
+      "character": "BUZZ LIGHTYEAR",
       "text": "You are clear to enter. Welcome to Pizza Planet."
     },
     {
       "character": "BUZZ LIGHTYEAR",
       "text": "Okay. Now! Quickly, Sheriff, the airlock is closing!"
-    },
-    {
-      "character": "FEMALE WORKER",
-      "text": "Jones, party of five: Your shuttle is now boarding at counter 12."
     },
     {
       "character": "BOY",
@@ -2123,10 +2083,6 @@
       "text": "This cannot be happening to me!"
     },
     {
-      "character": "WOODY",
-      "text": "Buzz!"
-    },
-    {
       "character": "ALIENS",
       "text": "A stranger! From the outside! Oooooooh..."
     },
@@ -2137,10 +2093,6 @@
     {
       "character": "ALIENS",
       "text": "Tell us! What is it like outside?"
-    },
-    {
-      "character": "P.A.",
-      "text": "Before your space journey, re-energize yourself with a slice of pepperoni, now boarding at counter three."
     },
     {
       "character": "BUZZ LIGHTYEAR",
@@ -2480,7 +2432,7 @@
     },
     {
       "character": "SID",
-      "text": "Where are your rebel friends now?"
+      "text": "Where are your rebel friends now? (sinister chuckle)"
     },
     {
       "character": "SID'S MOM",
@@ -2508,7 +2460,7 @@
     },
     {
       "character": "WOODY",
-      "text": "The door! It's open! We're free!!"
+      "text": "The door! It's open! We're free!"
     },
     {
       "character": "BUZZ LIGHTYEAR",
@@ -2540,7 +2492,7 @@
     },
     {
       "character": "BUZZ LIGHTYEAR",
-      "text": "Hey! Hey!! How are you doing that? Stop that!"
+      "text": "Hey! Hey! How are you doing that? Stop that!"
     },
     {
       "character": "WOODY",
@@ -2572,7 +2524,7 @@
     },
     {
       "character": "WOODY'S VOICE BOX",
-      "text": "Yeeeehaaaw!! Giddy-up partner! We got to get this wagon train a movin'!"
+      "text": "Yeeeehaaaw! Giddy-up partner! We got to get this wagon train a movin'!"
     },
     {
       "character": "BUZZ LIGHTYEAR",
@@ -2599,6 +2551,34 @@
       "text": "On the way!"
     },
     {
+      "character": "VO 2",
+      "text": "The world's greatest superhero! Now the world's greatest toy! Buzz has it all! Locking wrist communicator!"
+    },
+    {
+      "character": "BOY",
+      "text": "Calling Buzz Lightyear!"
+    },
+    {
+      "character": "VO 2",
+      "text": "Karate chop action!"
+    },
+    {
+      "character": "KID #2",
+      "text": "Wow!"
+    },
+    {
+      "character": "VO 2",
+      "text": "Pulsating laser light!"
+    },
+    {
+      "character": "KID #2",
+      "text": "Total annihilation!"
+    },
+    {
+      "character": "VO 2",
+      "text": "Multi-phrase voice simulator!"
+    },
+    {
       "character": "TV BUZZ'S VOICE BOX",
       "text": "There's a secret mission in uncharted space."
     },
@@ -2607,8 +2587,24 @@
       "text": "There's a secret mission in uncharted space."
     },
     {
+      "character": "VO 2",
+      "text": "And best of all, high-pressure-space-wings!"
+    },
+    {
       "character": "TV BUZZ",
       "text": "To Infinity and Beyond!"
+    },
+    {
+      "character": "VO 3",
+      "text": "Not a flying toy."
+    },
+    {
+      "character": "VO 2",
+      "text": "Get your Buzz Lightyear action figure and save a galaxy near you!"
+    },
+    {
+      "character": "VO",
+      "text": "Available at all Al's Toy Barn outlets in the tri-county area."
     },
     {
       "character": "BUZZ LIGHTYEAR",
@@ -2668,7 +2664,7 @@
     },
     {
       "character": "HANNAH",
-      "text": "Mom? Please excuse me, ladies. I'II be right back."
+      "text": "Mom? (to her dolls) Please excuse me, ladies. I'II be right back."
     },
     {
       "character": "HANNAH",
@@ -2680,7 +2676,7 @@
     },
     {
       "character": "BUZZ LIGHTYEAR",
-      "text": "GONE!! It's all gone! All of it's gone! Bye-bye! Whoo-hoo! See ya!"
+      "text": "GONE!!! It's all gone! All of it's gone! Bye-bye! Whoo-hoo! See ya!"
     },
     {
       "character": "WOODY",
@@ -2696,11 +2692,11 @@
     },
     {
       "character": "WOODY",
-      "text": "I think you've had enough tea for today. Let's get you out of here, Buzz."
+      "text": "I think you've had enough tea for today. (helps Buzz up) Let's get you out of here, Buzz."
     },
     {
       "character": "BUZZ LIGHTYEAR",
-      "text": "Don't you get it?! You see the hat?! I am Mrs. Nesbitt!!"
+      "text": "Don't you get it?! You see the hat?! I am Mrs. Nesbitt! [Hysterical laughter]"
     },
     {
       "character": "WOODY",
@@ -2712,7 +2708,7 @@
     },
     {
       "character": "BUZZ LIGHTYEAR",
-      "text": "Oh, I’m a sham!!"
+      "text": "OH, I’M A SHAM!!!"
     },
     {
       "character": "WOODY",
@@ -2757,6 +2753,10 @@
     {
       "character": "HAMM",
       "text": "Oh, quit your whining and pay up."
+    },
+    {
+      "character": "HAMM",
+      "text": "No, no, not the ear. Gimme the nose. C'mon!"
     },
     {
       "character": "MR. POTATO HEAD",
@@ -2860,7 +2860,7 @@
     },
     {
       "character": "WOODY",
-      "text": "No, I'm not. Buzz, come over here and you just tell the nice toys that you're not dead."
+      "text": "No, I'm not. (to Buzz) Buzz, come over here and you just tell the nice toys that you're not dead."
     },
     {
       "character": "WOODY",
@@ -2868,7 +2868,7 @@
     },
     {
       "character": "WOODY",
-      "text": "Ha ha. That's very funny, Buzz. This is serious!!"
+      "text": "Ha ha. That's very funny, Buzz. (exploding) This is serious!"
     },
     {
       "character": "REX",
@@ -2900,11 +2900,7 @@
     },
     {
       "character": "WOODY",
-      "text": "So, you see? We're friends now, guys. Aren't we, Buzz?"
-    },
-    {
-      "character": "WOODY",
-      "text": "You bet. Gimme a hug."
+      "text": "So, you see? We're friends now, guys. Aren't we, Buzz? [as Buzz] You bet. Gimme a hug."
     },
     {
       "character": "WOODY",
@@ -2952,15 +2948,15 @@
     },
     {
       "character": "MR. POTATO HEAD",
-      "text": "Murderer!"
+      "text": "MURDERER!!!"
     },
     {
       "character": "WOODY",
-      "text": "No! No, no, no, no!"
+      "text": "NO!!! No, no, no, no!"
     },
     {
       "character": "MR. POTATO HEAD",
-      "text": "You murdering dog!"
+      "text": "You murdering dog!!!"
     },
     {
       "character": "WOODY",
@@ -2968,7 +2964,7 @@
     },
     {
       "character": "MR. POTATO HEAD",
-      "text": "Save it for the jury! I hope Sid pulls your voice-box out, ya creep!"
+      "text": "Save it for the jury! I hope Sid pulls your voice-box out! Ya creep!"
     },
     {
       "character": "WOODY",
@@ -2984,7 +2980,7 @@
     },
     {
       "character": "WOODY",
-      "text": "Come back! Slink! Slink, please! Please, listen to me!"
+      "text": "Oh, come back! Slink! Slink, please! Please, listen to me!"
     },
     {
       "character": "WOODY",
@@ -3060,7 +3056,7 @@
     },
     {
       "character": "SID",
-      "text": "\"Extremely dangerous. Keep out of reach of children.\" Cool What am I gonna blow? Man, hey, where's that wimpy cowboy doll?"
+      "text": "Extremely dangerous. Keep out of reach of children. Cool What am I gonna blow? Man, hey, where's that wimpy cowboy doll?"
     },
     {
       "character": "SID",
@@ -3191,6 +3187,10 @@
       "text": "Listen, Buzz, forget about me. You should get outta here while you can."
     },
     {
+      "character": "WOODY",
+      "text": "Buzz! What are you doing? We thought you were --"
+    },
+    {
       "character": "BUZZ LIGHTYEAR",
       "text": "Come on, Sheriff. There's a kid over in that house who needs us. Now let's get you out of this thing."
     },
@@ -3272,11 +3272,7 @@
     },
     {
       "character": "WOODY",
-      "text": "You're with Ducky. RollerBob and I don't move till we get the signal. Clear?"
-    },
-    {
-      "character": "WOODY",
-      "text": "OK. Let's move!"
+      "text": "You're with Ducky. OK. Let's move!"
     },
     {
       "character": "WOODY",
@@ -3289,10 +3285,6 @@
     {
       "character": "WOODY",
       "text": "Go!"
-    },
-    {
-      "character": "WOODY",
-      "text": "Alright, let's go. Now!"
     },
     {
       "character": "HANNAH",
@@ -3308,7 +3300,11 @@
     },
     {
       "character": "WOODY",
-      "text": "Lean back!!"
+      "text": "Alright, let's go. Now!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Lean back!"
     },
     {
       "character": "HANNAH",
@@ -3320,7 +3316,7 @@
     },
     {
       "character": "WOODY",
-      "text": "Lean back!!"
+      "text": "Lean back!"
     },
     {
       "character": "SID",
@@ -3356,7 +3352,7 @@
     },
     {
       "character": "SID",
-      "text": "(as astronaut) Houston, all systems are go. [Buzz freezes] Requesting permission to launch --(spotting Woody) Hey! How'd you get out here? [He picks Woody up and look at him for a moment] Oh, well. You and I can have a cookout later. Ha-ha-ha... [He puts Woody on a barbecue grill and put a match in his holster then turn back to Buzz to proceed with his plan to blow him up] Houston, do we have permission to launch? -- (simulated static) Uh, Roger, permission granted. You are confirmed at T minus 10 seconds...and counting. 10! 9! 8! 7! 6! 5! 4! 3! 2! 1!"
+      "text": "Houston, all systems are go. [Buzz freezes] Requesting permission to launch --(spotting Woody) Hey! How'd you get out here? [He picks Woody up and look at him for a moment] Oh, well. You and I can have a cookout later. Ha-ha-ha... [He puts Woody on a barbecue grill and put a match in his holster then turn back to Buzz to proceed with his plan to blow him up] Houston, do we have permission to launch? -- (simulated static) Uh, Roger, permission granted. You are confirmed at T minus 10 seconds..."
     },
     {
       "character": "WOODY'S VOICE BOX",
@@ -3384,11 +3380,15 @@
     },
     {
       "character": "WOODY",
-      "text": "(through voice box) Who are you callin' busted, Buster?!"
+      "text": "Who are you callin' busted, Buster?!"
     },
     {
       "character": "WOODY",
-      "text": "(through voice box) That's right. [As Woody's voice box continues to talk, Sid looks at his pull string. It is not moving.] I'm talkin' to you, Sid Phillips! [Sid gets increasingly frightened and confused]"
+      "text": "That's right."
+    },
+    {
+      "character": "WOODY",
+      "text": "I'm talkin' to you, Sid Phillips!"
     },
     {
       "character": "SID",
@@ -3396,7 +3396,7 @@
     },
     {
       "character": "WOODY",
-      "text": "(through voice box) We don't like bein' blown up, Sid. Or smashed. Or ripped apart."
+      "text": "We don't like bein' blown up, Sid. Or smashed. Or ripped apart."
     },
     {
       "character": "SID",
@@ -3404,11 +3404,11 @@
     },
     {
       "character": "WOODY",
-      "text": "(through voice box) That's right! Your toys!"
+      "text": "That's right! Your toys!"
     },
     {
       "character": "WOODY",
-      "text": "(through voice box) From now on, you must take good care of your toys! Because if you don't, we'll find out, Sid. We toys... can see everything."
+      "text": "From now on, you must take good care of your toys! Because if you don't, we'll find out, Sid. We toys... can see everything."
     },
     {
       "character": "WOODY",
@@ -3420,7 +3420,11 @@
     },
     {
       "character": "SID",
-      "text": "The toys! The toys are alive! N-N-Nice toy..."
+      "text": "The toys! The toys are alive!"
+    },
+    {
+      "character": "SID",
+      "text": "N-N-Nice toy..."
     },
     {
       "character": "HANNAH",
@@ -3432,7 +3436,11 @@
     },
     {
       "character": "BUZZ LIGHTYEAR",
-      "text": "Woody.[Woody turns around and sees Buzz who's still affixed to Sid's launchpad. Buzz extends his hand to Woody] Thanks."
+      "text": "Woody."
+    },
+    {
+      "character": "BUZZ LIGHTYEAR",
+      "text": "Thanks."
     },
     {
       "character": "ANDY'S MOM",
@@ -3504,10 +3512,6 @@
     },
     {
       "character": "WOODY",
-      "text": "Buzz!"
-    },
-    {
-      "character": "TOYS",
       "text": "What?"
     },
     {
@@ -3528,7 +3532,7 @@
     },
     {
       "character": "WOODY",
-      "text": "Ah-hah! There you are!!"
+      "text": "Ah-hah! There you are!"
     },
     {
       "character": "MR. POTATO HEAD",
@@ -3548,15 +3552,11 @@
     },
     {
       "character": "WOODY",
-      "text": "Ah-h!! Ah-h! No, no!"
-    },
-    {
-      "character": "BUZZ LIGHTYEAR",
-      "text": "Whoa-Whoa-Whoa...!"
+      "text": "Ah-h! Ah-h! No, no!"
     },
     {
       "character": "WOODY",
-      "text": "No, no, no! Wait! (as Rocky spins him) Whoa-Whoa-Whoa...!"
+      "text": "No, no, no! Wait! Whoa-Whoa-Whoa...!"
     },
     {
       "character": "BUZZ LIGHTYEAR",
@@ -3564,7 +3564,7 @@
     },
     {
       "character": "HAMM",
-      "text": "Pig pile!!"
+      "text": "Pig pile!"
     },
     {
       "character": "BUZZ LIGHTYEAR",
@@ -3580,7 +3580,7 @@
     },
     {
       "character": "WOODY",
-      "text": "No! Wait! You Don’t Understand! Buzz is out there! We've gotta help him!!"
+      "text": "No! Wait! You Don’t Understand! Buzz is out there! We've gotta help him!"
     },
     {
       "character": "MR. POTATO HEAD",
@@ -3608,7 +3608,7 @@
     },
     {
       "character": "BUZZ LIGHTYEAR",
-      "text": "Look out!!"
+      "text": "Look out!"
     },
     {
       "character": "WOODY",
@@ -3617,10 +3617,6 @@
     {
       "character": "LENNY",
       "text": "Guys! Guys! Woody riding RC! And Buzz is with them!"
-    },
-    {
-      "character": "TOYS",
-      "text": "What?!"
     },
     {
       "character": "BO PEEP",
@@ -3656,7 +3652,7 @@
     },
     {
       "character": "SLINKY",
-      "text": "Woody!!"
+      "text": "Woody!"
     },
     {
       "character": "SLINKY",
@@ -3696,7 +3692,11 @@
     },
     {
       "character": "WOODY",
-      "text": "The match! [He pull out the match from his holster that Sid had put there earlier] Yes! Thank you, Sid!"
+      "text": "The match!"
+    },
+    {
+      "character": "WOODY",
+      "text": "Yes! Thank you, Sid!"
     },
     {
       "character": "WOODY",
@@ -3764,7 +3764,7 @@
     },
     {
       "character": "BUZZ LIGHTYEAR",
-      "text": "This isn't flying! This is falling with style!"
+      "text": "This isn't flying. This is falling with style."
     },
     {
       "character": "WOODY",
@@ -3896,125 +3896,100 @@
     },
     {
       "character": "RANDY NEWMAN",
-      "text": "You've got a friend in me"
+      "text": "♪ You've got a friend in me ♪"
     },
     {
       "character": "LYLE LOVETT",
-      "text": "You've got a friend in me"
+      "text": "♪ You've got a friend in me ♪"
     },
     {
       "character": "LYLE LOVETT",
-      "text": "When the road looks rough ahead"
-    },
-    {
-      "character": "LYLE LOVETT",
-      "text": "And you're miles and miles"
-    },
-    {
-      "character": "LYLE LOVETT",
-      "text": "From your nice warm bed"
+      "text": "♪ When the road looks rough ahead ♪ ♪ And you're miles and miles ♪ ♪ From your nice warm bed ♪"
     },
     {
       "character": "RANDY NEWMAN",
-      "text": "You just remember what your old pal said"
-    },
-    {
-      "character": "RANDY NEWMAN",
-      "text": "Boy, you've got a friend in me"
+      "text": "♪ You just remember what your old pal said ♪ ♪ Boy, you've got a friend in me ♪"
     },
     {
       "character": "LYLE LOVETT",
-      "text": "Yeah, you've got a friend in me"
+      "text": "♪ Yeah, you've got a friend in me ♪"
     },
     {
       "character": "LYLE LOVETT",
-      "text": "You've got a friend in me"
+      "text": "♪ You've got a friend in me ♪"
     },
     {
       "character": "RANDY NEWMAN",
-      "text": "You've got a friend in me"
+      "text": "♪ You've got a friend in me ♪"
     },
     {
       "character": "LYLE LOVETT",
-      "text": "If you've got troubles,"
+      "text": "♪ If you've got troubles, ♪"
     },
     {
       "character": "RANDY NEWMAN",
-      "text": "and I've got 'em too"
-    },
-    {
-      "character": "RANDY NEWMAN",
-      "text": "There isn't anything I wouldn't do for you"
+      "text": "♪ and I've got 'em too ♪ ♪ There isn't anything I wouldn't do for you ♪"
     },
     {
       "character": "LYLE LOVETT",
-      "text": "We stick together, we can see it through"
-    },
-    {
-      "character": "LYLE LOVETT",
-      "text": "'Cause you've got a friend in me"
+      "text": "♪ We stick together, we can see it through ♪ ♪ 'Cause you've got a friend in me ♪"
     },
     {
       "character": "RANDY NEWMAN",
-      "text": "You've got a friend in me"
+      "text": "♪ You've got a friend in me ♪"
     },
     {
       "character": "RANDY NEWMAN",
-      "text": "Some other folks might be"
+      "text": "♪ Some other folks might be ♪ ♪ A little bit smarter than I am ♪"
+    },
+    {
+      "character": "LYLE LOVETT",
+      "text": "♪ Bigger and stronger too, ♪"
     },
     {
       "character": "RANDY NEWMAN",
-      "text": "A little bit smarter than I am"
+      "text": "♪ maybe ♪"
     },
     {
       "character": "LYLE LOVETT",
-      "text": "Bigger and stronger too,"
-    },
-    {
-      "character": "RANDY NEWMAN",
-      "text": "maybe"
-    },
-    {
-      "character": "LYLE LOVETT",
-      "text": "But none of them will ever love you"
-    },
-    {
-      "character": "LYLE LOVETT",
-      "text": "The way I do,"
+      "text": "♪ But none of them will ever love you ♪ ♪ The way I do, ♪"
     },
     {
       "character": "BOTH",
-      "text": "it's me and you, boy"
+      "text": "♪ it's me and you, boy ♪"
     },
     {
       "character": "RANDY NEWMAN",
-      "text": "And as the years go by"
+      "text": "♪ And as the years go by ♪"
     },
     {
       "character": "LYLE LOVETT",
-      "text": "Our friendship will never die"
+      "text": "♪ Our friendship will never die ♪"
     },
     {
       "character": "BOTH",
-      "text": "You're gonna see it's our destiny"
+      "text": "♪ You're gonna see it's our destiny ♪"
     },
     {
       "character": "RANDY NEWMAN",
-      "text": "You've got a friend in me"
+      "text": "♪ You've got a friend in me ♪"
     },
     {
       "character": "LYLE LOVETT",
-      "text": "You've got a friend in me"
+      "text": "♪ You've got a friend in me ♪"
     },
     {
       "character": "BOTH",
-      "text": "You've got a friend in me"
+      "text": "♪ You've got a friend in me ♪"
     }
   ],
-  "lineCount": 989,
-  "characterCount": 49,
-  "topCastCount": 19,
-  "topCast": [
+  "imdbId": "tt0114709",
+  "poster": "https://m.media-amazon.com/images/M/MV5BZTA3OWVjOWItNjE1NS00NzZiLWE1MjgtZDZhMWI1ZTlkNzYwXkEyXkFqcGc@._V1_SX300.jpg",
+  "rated": "G",
+  "runtime": "81 min",
+  "genre": "Animation, Adventure, Comedy",
+  "director": "John Lasseter",
+  "topSpeakingCast": [
     "WOODY",
     "BUZZ LIGHTYEAR",
     "ANDY",
@@ -4023,22 +3998,8 @@
     "SID",
     "SLINKY",
     "HAMM",
-    "RANDY NEWMAN",
     "SARGE",
     "HANNAH",
-    "MRS. DAVIS",
-    "BO PEEP",
-    "LYLE LOVETT",
-    "ANDY'S MOM",
-    "ALIENS",
-    "LENNY",
-    "PIZZA DELIVERER",
-    "WOODY'S VOICE BOX"
-  ],
-  "imdbId": "tt0114709",
-  "poster": "https://m.media-amazon.com/images/M/MV5BZTA3OWVjOWItNjE1NS00NzZiLWE1MjgtZDZhMWI1ZTlkNzYwXkEyXkFqcGc@._V1_SX300.jpg",
-  "rated": "G",
-  "runtime": "81 min",
-  "genre": "Animation, Adventure, Comedy",
-  "director": "John Lasseter"
+    "BO PEEP"
+  ]
 }

@@ -1,14 +1,14 @@
 import { Navigation } from '../components/Navigation.js';
 
 export function renderLegal({ navContainer, contentContainer }) {
-    // Render nav bar
-    navContainer.innerHTML = '';
-    const nav = Navigation({ showBackButton: true });
-    navContainer.appendChild(nav);
+  // Render nav bar
+  navContainer.innerHTML = '';
+  const nav = Navigation({ showBackButton: true });
+  navContainer.appendChild(nav);
 
-    // Render content
-    contentContainer.innerHTML = `
-    <div class="legal-container" style="max-width: 800px; margin: 0 auto; padding: 2rem; font-family: sans-serif; line-height: 1.6;">
+  // Render content
+  contentContainer.innerHTML = `
+    <div class="legal-container" style="max-width: 800px; margin: 0 auto; padding: 2rem; font-family: var(--font-mono); line-height: 1.6; color: var(--text-primary);">
       <h1>Legal Information</h1>
       
       <section style="margin-bottom: 3rem;">
@@ -27,7 +27,7 @@ export function renderLegal({ navContainer, contentContainer }) {
         <p><strong>Disclaimer:</strong> The Service is provided "AS IS" without royalties or warranties of any kind.</p>
       </section>
       
-      <div style="text-align: center; margin-top: 4rem; color: #666; font-size: 0.9rem;">
+      <div style="text-align: center; margin-top: 4rem; color: var(--text-secondary); font-size: 0.9rem;">
         &copy; 2026 Scriptle. All rights reserved.
       </div>
     </div>

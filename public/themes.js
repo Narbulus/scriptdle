@@ -2,44 +2,18 @@
 // Run 'python scripts/generate-daily-puzzles.py' to regenerate
 
 window.SCRIPTLE_THEMES = {
-  "finding-nemo": {
-    "primary": "#00acc1",
-    "bgColor": "#006064",
-    "containerBg": "#ffffff",
-    "accentColor": "#00838f",
+  "pixar": {
+    "primary": "#e63946",
+    "bgColor": "#1d3557",
+    "containerBg": "#f1faee",
+    "accentColor": "#f4a261",
     "btnText": "white",
-    "cardGradientStart": "#26c6da",
-    "cardGradientEnd": "#0097a7",
-    "cardBorder": "#00acc1",
-    "cardText": "#fff9c4",
-    "name": "Finding Nemo",
-    "movieCount": 2
-  },
-  "toy-story": {
-    "primary": "#4fc3f7",
-    "bgColor": "#1565c0",
-    "containerBg": "#ffffff",
-    "accentColor": "#29b6f6",
-    "btnText": "white",
-    "cardGradientStart": "#42a5f5",
-    "cardGradientEnd": "#1e88e5",
-    "cardBorder": "#1976d2",
-    "cardText": "#fff9c4",
-    "name": "Toy Story",
-    "movieCount": 4
-  },
-  "incredibles": {
-    "primary": "#ff5722",
-    "bgColor": "#bf360c",
-    "containerBg": "#ffffff",
-    "accentColor": "#ff6f00",
-    "btnText": "white",
-    "cardGradientStart": "#ff5722",
-    "cardGradientEnd": "#d84315",
-    "cardBorder": "#ff5722",
-    "cardText": "#fff3e0",
-    "name": "The Incredibles",
-    "movieCount": 2
+    "cardGradientStart": "#1d3557",
+    "cardGradientEnd": "#457b9d",
+    "cardBorder": "#e63946",
+    "cardText": "#f1faee",
+    "name": "Pixar",
+    "movieCount": 11
   },
   "harry-potter": {
     "primary": "#d4af37",
@@ -53,6 +27,46 @@ window.SCRIPTLE_THEMES = {
     "cardText": "#ffd54f",
     "name": "Harry Potter",
     "movieCount": 8
+  },
+  "bttf-trilogy": {
+    "primary": "#00d4ff",
+    "bgColor": "#1a1a2e",
+    "containerBg": "#fff8f0",
+    "accentColor": "#ff6b35",
+    "btnText": "white",
+    "cardGradientStart": "#1a1a2e",
+    "cardGradientEnd": "#16213e",
+    "cardBorder": "#00d4ff",
+    "cardText": "#00d4ff",
+    "name": "Back to the Future Trilogy",
+    "movieCount": 3
+  },
+  "disney-classics": {
+    "primary": "#d4af37",
+    "bgColor": "#6a1b9a",
+    "containerBg": "#fef9f3",
+    "accentColor": "#9c27b0",
+    "btnText": "white",
+    "cardGradientStart": "#6a1b9a",
+    "cardGradientEnd": "#8e24aa",
+    "cardBorder": "#d4af37",
+    "cardText": "#ffd54f",
+    "name": "Disney Classics",
+    "movieCount": 13
+  },
+  "marvel": {
+    "_comment": "TODO: Generate themed colors using Claude",
+    "primary": "#1976d2",
+    "bgColor": "#0d47a1",
+    "containerBg": "#ffffff",
+    "accentColor": "#1565c0",
+    "btnText": "white",
+    "cardGradientStart": "#1976d2",
+    "cardGradientEnd": "#1565c0",
+    "cardBorder": "#1976d2",
+    "cardText": "#ffffff",
+    "name": "Marvel",
+    "movieCount": 11
   },
   "the-lord-of-the-rings": {
     "primary": "#d4af37",
@@ -79,19 +93,6 @@ window.SCRIPTLE_THEMES = {
     "cardText": "#FFE81F",
     "name": "Star Wars",
     "movieCount": 6
-  },
-  "monsters-inc": {
-    "primary": "#f3e5f5",
-    "bgColor": "#4a148c",
-    "containerBg": "#ffffff",
-    "accentColor": "#ce93d8",
-    "btnText": "white",
-    "cardGradientStart": "#8e24aa",
-    "cardGradientEnd": "#6a1b9a",
-    "cardBorder": "#7b1fa2",
-    "cardText": "#f3e5f5",
-    "name": "Monsters Inc",
-    "movieCount": 2
   },
   "disney-pixar": {
     "primary": "#e91e63",

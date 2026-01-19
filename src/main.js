@@ -10,4 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   router.init();
+
+  // Initialize temporary palette tester
+  import('./components/PaletteTester.js').then(module => {
+    module.initPaletteTester();
+  });
 });

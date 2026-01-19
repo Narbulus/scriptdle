@@ -27,6 +27,7 @@ function createHelpModal() {
   const modal = document.createElement('div');
   modal.id = 'help-modal';
   modal.className = 'modal-overlay';
+  modal.setAttribute('data-theme', 'main');
   modal.style.display = 'none';
 
   modal.innerHTML = `
@@ -42,38 +43,34 @@ function createHelpModal() {
               Guess the <strong>MOVIE</strong> and the <strong>CHARACTER</strong> from the quote.
             </p>
             
-            <div id="demo-script-container" style="background: #fff; padding: 1.5rem; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 2rem; position: relative; overflow: hidden; min-height: 200px; display: flex; flex-direction: column; justify-content: center;">
+            <div id="demo-script-container" style="background: var(--container-bg); padding: 1.5rem; border: 1px solid var(--placeholder-bg); border-radius: 8px; margin-bottom: 2rem; position: relative; overflow: hidden; min-height: 200px; display: flex; flex-direction: column; justify-content: center;">
                   <!-- Animation content injected here -->
             </div>
             
             <div style="display: flex; flex-direction: column; gap: 1.5rem; text-align: left; margin-top: 1.5rem;">
               <div style="display: flex; gap: 1rem; align-items: flex-start;">
-                <div style="background: #333; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 0.8rem; font-weight: bold; margin-top: 2px;">1</div>
+                <div style="background: var(--text-primary); color: var(--btn-text); width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 0.8rem; font-weight: bold; margin-top: 2px;">1</div>
                 <div>
                   <strong>You have 5 attempts.</strong><br>
-                  <span style="font-size: 0.9rem; color: #666;">Guess the movie correctly to lock it in.</span>
+                  <span style="font-size: 0.9rem; color: var(--text-secondary);">Guess the movie correctly to lock it in.</span>
                 </div>
               </div>
 
               <div style="display: flex; gap: 1rem; align-items: flex-start;">
-                <div style="background: #333; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 0.8rem; font-weight: bold; margin-top: 2px;">2</div>
+                <div style="background: var(--text-primary); color: var(--btn-text); width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 0.8rem; font-weight: bold; margin-top: 2px;">2</div>
                 <div>
                   <strong>Each wrong guess reveals more of the script.</strong><br>
-                  <span style="font-size: 0.9rem; color: #666;">Reveals following lines from the movie.</span>
+                  <span style="font-size: 0.9rem; color: var(--text-secondary);">Reveals following lines from the movie.</span>
                 </div>
               </div>
 
                <div style="display: flex; gap: 1rem; align-items: flex-start;">
-                <div style="background: #333; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 0.8rem; font-weight: bold; margin-top: 2px;">3</div>
+                <div style="background: var(--text-primary); color: var(--btn-text); width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 0.8rem; font-weight: bold; margin-top: 2px;">3</div>
                 <div>
                   <strong>A new puzzle every day at midnight.</strong><br>
-                  <span style="font-size: 0.9rem; color: #666;">Come back to keep your streak alive!</span>
+                  <span style="font-size: 0.9rem; color: var(--text-secondary);">Come back to keep your streak alive!</span>
                 </div>
               </div>
-            </div>
-            
-            <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #eee; text-align: center;">
-              <a href="/legal" data-link style="font-size: 0.8rem; color: #888; text-decoration: none;">Privacy Policy & Terms</a>
             </div>
           </div>
         </div>
@@ -146,6 +143,9 @@ function startAnimation() {
 
   stopAnimation();
 
+  // Track if confetti has fired this session
+  let confettiFired = false;
+
   // Define the script lines (Target + Context)
   const lines = [
     { text: "I love you.", char: "LEIA", type: 'target' },
@@ -170,14 +170,14 @@ function startAnimation() {
       const fSize = isTitle ? '0.7rem' : '0.6rem';
       if (isTitle) {
         // Title: Full width grey bar with centered ???
-        overlayInner = `<span style="background-color: #e0e0e0; border-radius: 4px; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-weight: bold; color: #333; font-size: ${fSize}; letter-spacing: 1px;">???</span>`;
+        overlayInner = `<span style="background-color: var(--placeholder-bg); border-radius: 4px; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-weight: bold; color: var(--text-primary); font-size: ${fSize}; letter-spacing: 1px;">???</span>`;
       } else {
         // Character Name: Keep it full width for consistent masking feel
-        overlayInner = `<span style="background-color: #e0e0e0; border-radius: 4px; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-weight: bold; color: #333; font-size: ${fSize}; letter-spacing: 1px;">???</span>`;
+        overlayInner = `<span style="background-color: var(--placeholder-bg); border-radius: 4px; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-weight: bold; color: var(--text-primary); font-size: ${fSize}; letter-spacing: 1px;">???</span>`;
       }
     } else {
       // Grey Bar: Fills the space (width 100% of the text)
-      overlayInner = `<span style="background-color: #e0e0e0; border-radius: 4px; width: 100%; height: 1em; display: block;"></span>`;
+      overlayInner = `<span style="background-color: var(--placeholder-bg); border-radius: 4px; width: 100%; height: 1em; display: block;"></span>`;
     }
 
     // Transition Logic
@@ -198,7 +198,7 @@ function startAnimation() {
     const textContent = renderStableContent(line.text, isTextVisible, 'bar');
 
     // Use Flexbox for perfect centering, REMOVED leading whitespace in string to prevent alignment skew
-    return `<div class="script-line" style="display: flex; flex-direction: column; align-items: center; width: 100%; padding: 0.25rem 0; margin: 0;"><div class="character-name" style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.1rem; text-align: center; color: #000; letter-spacing: 0.5px; line-height: 1.2;">${charContent}</div><div class="dialogue-text" style="font-size: 0.8rem; text-align: center; color: #333; font-family: 'Courier New', monospace; line-height: 1.2;">${textContent}</div></div>`;
+    return `<div class="script-line" style="display: flex; flex-direction: column; align-items: center; width: 100%; padding: 0.25rem 0; margin: 0;"><div class="character-name" style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.1rem; text-align: center; color: var(--text-primary); letter-spacing: 0.5px; line-height: 1.2;">${charContent}</div><div class="dialogue-text" style="font-size: 0.8rem; text-align: center; color: var(--text-primary); font-family: var(--font-mono); line-height: 1.2;">${textContent}</div></div>`;
   };
 
   const render = (step) => {
@@ -223,7 +223,7 @@ function startAnimation() {
     // Title reveals on Win (Step 5)
     const titleContent = renderStableContent(realTitle, isWin, 'question', true);
 
-    html += `<div style="text-align: center; margin-bottom: 1rem; color: #000; font-weight: 900; font-size: 0.85rem; letter-spacing: 1px; font-family: 'Courier New', monospace; display: flex; justify-content: center; line-height: 1.2;">${titleContent}</div>`;
+    html += `<div style="text-align: center; margin-bottom: 1rem; color: var(--text-primary); font-weight: 900; font-size: 0.85rem; letter-spacing: 1px; font-family: var(--font-mono); display: flex; justify-content: center; line-height: 1.2;">${titleContent}</div>`;
 
     html += '<div style="flex: 1; display: flex; flex-direction: column; justify-content: center; position: relative; gap: 0.5rem; width: 100%;">';
 
@@ -241,8 +241,9 @@ function startAnimation() {
 
     container.innerHTML = html;
 
-    if (step === 5) {
+    if (step === 5 && !confettiFired) {
       fireMiniConfetti(container);
+      confettiFired = true;
     }
   };
 
