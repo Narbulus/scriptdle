@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "date": "2026-05-26",
+  "packId": "shrek",
+  "puzzle": {
+    "targetLine": {
+      "character": "FIONA",
+      "text": "Dad says I’m going away for a while. Must be like some finishing school or something.",
+      "movie": "Shrek 2"
+    },
+    "contextBefore": {
+      "character": "FIONA",
+      "text": "Dear Diary. Sleeping Beauty is having a slumber party tomorrow, but Dad says I can’t go. He never lets me out after sunset."
+    },
+    "contextAfter": [
+      {
+        "character": "FIONA",
+        "text": "Mom says that when I’m old enough, my Handsome Prince Charming will rescue me from my tower and bring me back to my family!"
+      },
+      {
+        "character": "FIONA",
+        "text": "And we'll all live happily ever after!"
+      },
+      {
+        "character": "FIONA",
+        "text": "Mrs. Fiona Charming."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "shrek-1",
+      "shrek-2",
+      "shrek-3",
+      "shrek-4"
+    ],
+    "movieYears": {
+      "shrek-1": 2001,
+      "shrek-2": 2004,
+      "shrek-3": 2007,
+      "shrek-4": 2010
+    },
+    "movieTitles": {
+      "shrek-1": "Shrek",
+      "shrek-2": "Shrek 2",
+      "shrek-3": "Shrek the Third",
+      "shrek-4": "Shrek Forever After"
+    },
+    "charactersByMovie": {
+      "shrek-1": [
+        "BISHOP",
+        "CROWD",
+        "DONKEY",
+        "FIONA",
+        "GINGY",
+        "LORD FARQUAAD",
+        "MAGIC MIRROR",
+        "MERRYMEN",
+        "MONSIEUR HOOD",
+        "SHREK"
+      ],
+      "shrek-2": [
+        "DONKEY",
+        "DORIS",
+        "FAIRY GODMOTHER",
+        "FIONA",
+        "GINGY",
+        "JEROME",
+        "JILL",
+        "JOAN",
+        "KING HAROLD",
+        "MAIDEN #1",
+        "MAIDEN #2",
+        "PINOCCHIO",
+        "PRINCE CHARMING",
+        "PUSS IN BOOTS",
+        "QUEEN LILLIAN",
+        "SHREK"
+      ],
+      "shrek-3": [
+        "ARTIE",
+        "CAPTAIN HOOK",
+        "CINDERELLA",
+        "CYCLOPS",
+        "DONKEY",
+        "DORIS",
+        "FIONA",
+        "GINGERBREAD MAN",
+        "GUINEVERE",
+        "KING HAROLD",
+        "KNIGHT (LANCELOT)",
+        "LANCELOT",
+        "MABEL",
+        "MERLIN",
+        "PIG #1",
+        "PINOCCHIO",
+        "PRINCE CHARMING",
+        "PUSS",
+        "QUEEN LILLIAN",
+        "RAPUNZEL",
+        "RUMPLESTILTSKIN",
+        "SHIP CAPTAIN",
+        "SHREK",
+        "SLEEPING BEAUTY",
+        "SNOW WHITE"
+      ],
+      "shrek-4": [
+        "BROGAN",
+        "BROOMSY",
+        "BUTTER PANTS",
+        "COOKIE",
+        "DONKEY",
+        "DONKEY'S VOICE",
+        "FELICIA",
+        "FIONA",
+        "GINGY",
+        "KING HAROLD",
+        "MUFFIN MAN",
+        "PINOCCHIO",
+        "PUSS",
+        "QUEEN LILLIAN",
+        "RUMPELSTILTSKIN",
+        "SHREK",
+        "TOUR GUIDE"
+      ]
+    }
+  }
+}

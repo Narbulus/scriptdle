@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-08-22",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "DORY",
+      "text": "You lost a tentacle? Well then you're not an octopus, you're a septopus. I may not remember, but I can count.",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "HANK",
+      "text": "No! No kids. Kids grab things. And I'm not losing another tentacle for you."
+    },
+    "contextAfter": [
+      {
+        "character": "HANK",
+        "text": "Hurry up!"
+      },
+      {
+        "character": "DORY",
+        "text": "Okay. Journey to the...Hey, look. Shells."
+      },
+      {
+        "character": "YOUNG DORY",
+        "text": "Hey, look. Shells! Daddy, here's a shell for you."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

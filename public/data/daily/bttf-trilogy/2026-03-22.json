@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-03-22",
+  "packId": "bttf-trilogy",
+  "puzzle": {
+    "targetLine": {
+      "character": "MARTY II",
+      "text": "Oh man. Doc, we don't belong here! Neither one of us! You know it could still be you that gets shot tomorrow!",
+      "movie": "Back to the Future Part III"
+    },
+    "contextBefore": {
+      "character": "DOC",
+      "text": "There's no point in denying it. I'm in love with Clara."
+    },
+    "contextAfter": [
+      {
+        "character": "MARTY II",
+        "text": "This tombstone could still be in your future!"
+      },
+      {
+        "character": "DOC",
+        "text": "Marty...the future isn't written. It can be changed; you know that! Anyone can make their future whatever they want it to be. I can't let this one little photograph determine my entire destiny. I have to live my life according to what I believe is right... in my heart."
+      },
+      {
+        "character": "MARTY II",
+        "text": "Doc...you're a scientist. So you tell me. What's the right thing to do, up here??"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "back-to-the-future",
+      "back-to-the-future-part-ii",
+      "back-to-the-future-part-iii"
+    ],
+    "movieYears": {},
+    "movieTitles": {
+      "back-to-the-future": "Back to the Future",
+      "back-to-the-future-part-ii": "Back to the Future Part II",
+      "back-to-the-future-part-iii": "Back to the Future Part III"
+    },
+    "charactersByMovie": {
+      "back-to-the-future": [
+        "BIFF",
+        "DOC",
+        "GEORGE",
+        "JENNIFER",
+        "LORRAINE",
+        "MARTY"
+      ],
+      "back-to-the-future-part-ii": [
+        "1955 BIFF",
+        "1985A BIFF",
+        "1985A LORRAINE",
+        "2015 BIFF",
+        "2015 MARTY (MARTY SR.)",
+        "ALL",
+        "BIFF",
+        "DOC",
+        "GRIFF",
+        "JENNIFER",
+        "LORRAINE",
+        "MARLENE",
+        "MARTY",
+        "MARTY JR.",
+        "MARTY MCFLY"
+      ],
+      "back-to-the-future-part-iii": [
+        "1955 DOC",
+        "BUFORD",
+        "CHESTER",
+        "CLARA",
+        "COLT GUN SALESMAN",
+        "DOC",
+        "JENNIFER",
+        "MAGGIE",
+        "MARTY II",
+        "SEAMUS"
+      ]
+    }
+  }
+}

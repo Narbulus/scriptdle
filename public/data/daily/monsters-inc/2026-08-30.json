@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-08-30",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "CLAIRE WHEELER",
+      "text": "Yeah, sorry. Doesn't look good. We have to move on. Your team doesn't qualify.",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "MIKE",
+      "text": "Please, anybody? I need one more monster. Just one more!"
+    },
+    "contextAfter": [
+      {
+        "character": "MIKE",
+        "text": "Bup, bup, bup, bup! You tell them what to do, but not me. So long, Coach. (Turns and clicks his teeth at a pair of female monsters, who giggle.)"
+      },
+      {
+        "character": "MIKE",
+        "text": "Okay, Oozmas..."
+      },
+      {
+        "character": "MIKE",
+        "text": "Ah! Boy, we need to get you a bell. Listen up! \"If a kid hears you coming, they'll call mom or dad. Then you better run fast, or things will get bad.\""
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-12-06",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "MIKE",
+      "text": "Me too!",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "SULLEY",
+      "text": "Look, it's Screaming Bob Gunderson! I still have his rookie card."
+    },
+    "contextAfter": [
+      {
+        "character": "SULLEY",
+        "text": "He doesn't have the speed anymore..."
+      },
+      {
+        "character": "MIKE AND SULLEY",
+        "text": "But his technique is flawless."
+      },
+      {
+        "character": "MIKE",
+        "text": "You collected scare cards, huh?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

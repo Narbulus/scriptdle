@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-03-03",
+  "packId": "bttf-trilogy",
+  "puzzle": {
+    "targetLine": {
+      "character": "SEAMUS",
+      "text": "Martin used to let men provoke him into fightin'. He was concerned people would tink him a coward if he refused. That's how he got a bowie knife shoved through his belly in a saloon in Virginia City. Never considered the future, poor Martin, God rest his soul.",
+      "movie": "Back to the Future Part III"
+    },
+    "contextBefore": {
+      "character": "SEAMUS",
+      "text": "Had a brother."
+    },
+    "contextAfter": [
+      {
+        "character": "MAGGIE",
+        "text": "Sure hopin' you're considerin' the future, Mr. Eastwood."
+      },
+      {
+        "character": "MARTY II",
+        "text": "I think about it all the time."
+      },
+      {
+        "character": "CLARA",
+        "text": "And that crater in the middle northwest, out there all by itself like a starburst?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "back-to-the-future",
+      "back-to-the-future-part-ii",
+      "back-to-the-future-part-iii"
+    ],
+    "movieYears": {},
+    "movieTitles": {
+      "back-to-the-future": "Back to the Future",
+      "back-to-the-future-part-ii": "Back to the Future Part II",
+      "back-to-the-future-part-iii": "Back to the Future Part III"
+    },
+    "charactersByMovie": {
+      "back-to-the-future": [
+        "BIFF",
+        "DOC",
+        "GEORGE",
+        "JENNIFER",
+        "LORRAINE",
+        "MARTY"
+      ],
+      "back-to-the-future-part-ii": [
+        "1955 BIFF",
+        "1985A BIFF",
+        "1985A LORRAINE",
+        "2015 BIFF",
+        "2015 MARTY (MARTY SR.)",
+        "ALL",
+        "BIFF",
+        "DOC",
+        "GRIFF",
+        "JENNIFER",
+        "LORRAINE",
+        "MARLENE",
+        "MARTY",
+        "MARTY JR.",
+        "MARTY MCFLY"
+      ],
+      "back-to-the-future-part-iii": [
+        "1955 DOC",
+        "BUFORD",
+        "CHESTER",
+        "CLARA",
+        "COLT GUN SALESMAN",
+        "DOC",
+        "JENNIFER",
+        "MAGGIE",
+        "MARTY II",
+        "SEAMUS"
+      ]
+    }
+  }
+}

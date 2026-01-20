@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-06-19",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "RANDALL",
+      "text": "Uh-huh, sure.",
+      "movie": "Monsters, Inc."
+    },
+    "contextBefore": {
+      "character": "MIKE",
+      "text": "I wasn't scared, I have... allergies."
+    },
+    "contextAfter": [
+      {
+        "character": "SULLEY",
+        "text": "Hey, Randall. Save it for the scare floor, will ya?"
+      },
+      {
+        "character": "RANDALL",
+        "text": "I'm in the zone today, Sullivan. Gonna be doing some serious scaring, putting up some big numbers."
+      },
+      {
+        "character": "MIKE",
+        "text": "Wow, Randall, that's great. That should make it even more humiliating when we break the record first. Ha-ha!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

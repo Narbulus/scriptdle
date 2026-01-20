@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-12-23",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "BOB",
+      "text": "Fire! Yeah!",
+      "movie": "The Incredibles"
+    },
+    "contextBefore": {
+      "character": "BOB",
+      "text": "WOOO-HOO!"
+    },
+    "contextAfter": [
+      {
+        "character": "LUCIUS",
+        "text": "Is that everybody!?"
+      },
+      {
+        "character": "BOB",
+        "text": "Yeah, that’s everyone!"
+      },
+      {
+        "character": "LUCIUS",
+        "text": "It better be ."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

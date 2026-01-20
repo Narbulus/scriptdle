@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-08-05",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "MARLIN",
+      "text": "A light?",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "DORY",
+      "text": "I see... I see a light."
+    },
+    "contextAfter": [
+      {
+        "character": "DORY",
+        "text": "Yeah. Over there. Hey, conscience. Am I dead?"
+      },
+      {
+        "character": "MARLIN",
+        "text": "No, I see it too. What is it?"
+      },
+      {
+        "character": "DORY",
+        "text": "It’s so pretty."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

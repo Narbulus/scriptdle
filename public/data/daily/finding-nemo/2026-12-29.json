@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-12-29",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "TAD",
+      "text": "I know what that is. Oh, oh. Sandy Plankton saw one. He called, he said it was called, uhh, a butt!",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "NEMO",
+      "text": "What’s that?"
+    },
+    "contextAfter": [
+      {
+        "character": "PEARL",
+        "text": "Wow! That’s a pretty big butt."
+      },
+      {
+        "character": "SHELDON",
+        "text": "Oh, look at me. I’m gonna go touch the butt! [sneezes] Whoa!!"
+      },
+      {
+        "character": "SHELDON",
+        "text": "Oh, yeah? Let’s see you get closer."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-02-27",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "DORY",
+      "text": "Hey! Have you seen an orange fish swim by? It looks just like him!",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "BOTH",
+      "text": "Hey!!"
+    },
+    "contextAfter": [
+      {
+        "character": "NEMO",
+        "text": "But bigger!"
+      },
+      {
+        "character": "BERNIE",
+        "text": "Yeah, I saw I'm, Bluey. But I’m not telling you where he went. And there’s no way you’re gonna make me!"
+      },
+      {
+        "character": "SEAGULLS",
+        "text": "Mine!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

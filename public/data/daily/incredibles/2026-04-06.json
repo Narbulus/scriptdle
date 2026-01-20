@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-04-06",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "BOB",
+      "text": "We'll be sitting on the other side of the theater. Not watching you.",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "HELEN",
+      "text": "We're all going to a movie, too, Tony. Don't mind us."
+    },
+    "contextAfter": [
+      {
+        "character": "VIOLET",
+        "text": "He's kidding. They are only dropping us off at the theater. They have other things to do!"
+      },
+      {
+        "character": "TONY",
+        "text": "So, you guys are close, I guess."
+      },
+      {
+        "character": "VIOLET",
+        "text": "Yeah, I guess."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

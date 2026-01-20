@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-05-04",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "EVELYN",
+      "text": "Eh, he was surly...and the pizza was cold.",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "ELASTIGIRL",
+      "text": "But it doesn't bother you that an innocent man is in jail?"
+    },
+    "contextAfter": [
+      {
+        "character": "ELASTIGIRL",
+        "text": "I counted on you."
+      },
+      {
+        "character": "EVELYN",
+        "text": "That's why you failed."
+      },
+      {
+        "character": "ELASTIGIRL",
+        "text": "What?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

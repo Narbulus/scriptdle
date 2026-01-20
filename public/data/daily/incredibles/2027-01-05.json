@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2027-01-05",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "RICK",
+      "text": "Sure, kid.",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "TONY",
+      "text": "No, they'd only think I was hiding something. You know what I mean?"
+    },
+    "contextAfter": [
+      {
+        "character": "TONY",
+        "text": "I like this girl, Mr. Dicker, I'm supposed to go out with her Friday night. Now, things are just gonna be weird. [sighs] I wish I could forget I ever saw her in that suit."
+      },
+      {
+        "character": "RICK",
+        "text": "You will, kid. You will."
+      },
+      {
+        "character": "MR. INCREDIBLE",
+        "text": "COME ON!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

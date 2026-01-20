@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-02-22",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "FLUKE",
+      "text": "Oh, that is a good one.",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "RUDDER",
+      "text": "Yeah."
+    },
+    "contextAfter": [
+      {
+        "character": "RUDDER",
+        "text": "Oh yeah, isn't it?"
+      },
+      {
+        "character": "FLUKE",
+        "text": "Yeah. It's one of my favorites."
+      },
+      {
+        "character": "NEMO",
+        "text": "Excuse us. Hello! We're trying to..."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

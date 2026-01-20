@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "date": "2027-01-11",
+  "packId": "shrek",
+  "puzzle": {
+    "targetLine": {
+      "character": "ARTIE",
+      "text": "So wait, I’m really the only heir?",
+      "movie": "Shrek the Third"
+    },
+    "contextBefore": {
+      "character": "SHREK",
+      "text": "Absolutely. Now clean out your locker, kid. You’ve got a kingdom to run."
+    },
+    "contextAfter": [
+      {
+        "character": "SHREK",
+        "text": "The one and only."
+      },
+      {
+        "character": "ARTIE",
+        "text": "Give me just a second."
+      },
+      {
+        "character": "ARTIE",
+        "text": "My good people, I think there’s a lesson here for all of us. Maybe the next time you’re about to dunk a kid’s head in a chamber pot, you’ll stop and think, hey, maybe this guy has feelings. Maybe I should cut him some slack. Because maybe, just maybe… this guy’s gonna turn out to be, uh…I dunno…a King. And maybe his first royal decree will be to banish everyone who ever picked on him -- that’s right, I’m looking at you, jousting team."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "shrek-1",
+      "shrek-2",
+      "shrek-3",
+      "shrek-4"
+    ],
+    "movieYears": {
+      "shrek-1": 2001,
+      "shrek-2": 2004,
+      "shrek-3": 2007,
+      "shrek-4": 2010
+    },
+    "movieTitles": {
+      "shrek-1": "Shrek",
+      "shrek-2": "Shrek 2",
+      "shrek-3": "Shrek the Third",
+      "shrek-4": "Shrek Forever After"
+    },
+    "charactersByMovie": {
+      "shrek-1": [
+        "BISHOP",
+        "CROWD",
+        "DONKEY",
+        "FIONA",
+        "GINGY",
+        "LORD FARQUAAD",
+        "MAGIC MIRROR",
+        "MERRYMEN",
+        "MONSIEUR HOOD",
+        "SHREK"
+      ],
+      "shrek-2": [
+        "DONKEY",
+        "DORIS",
+        "FAIRY GODMOTHER",
+        "FIONA",
+        "GINGY",
+        "JEROME",
+        "JILL",
+        "JOAN",
+        "KING HAROLD",
+        "MAIDEN #1",
+        "MAIDEN #2",
+        "PINOCCHIO",
+        "PRINCE CHARMING",
+        "PUSS IN BOOTS",
+        "QUEEN LILLIAN",
+        "SHREK"
+      ],
+      "shrek-3": [
+        "ARTIE",
+        "CAPTAIN HOOK",
+        "CINDERELLA",
+        "CYCLOPS",
+        "DONKEY",
+        "DORIS",
+        "FIONA",
+        "GINGERBREAD MAN",
+        "GUINEVERE",
+        "KING HAROLD",
+        "KNIGHT (LANCELOT)",
+        "LANCELOT",
+        "MABEL",
+        "MERLIN",
+        "PIG #1",
+        "PINOCCHIO",
+        "PRINCE CHARMING",
+        "PUSS",
+        "QUEEN LILLIAN",
+        "RAPUNZEL",
+        "RUMPLESTILTSKIN",
+        "SHIP CAPTAIN",
+        "SHREK",
+        "SLEEPING BEAUTY",
+        "SNOW WHITE"
+      ],
+      "shrek-4": [
+        "BROGAN",
+        "BROOMSY",
+        "BUTTER PANTS",
+        "COOKIE",
+        "DONKEY",
+        "DONKEY'S VOICE",
+        "FELICIA",
+        "FIONA",
+        "GINGY",
+        "KING HAROLD",
+        "MUFFIN MAN",
+        "PINOCCHIO",
+        "PUSS",
+        "QUEEN LILLIAN",
+        "RUMPELSTILTSKIN",
+        "SHREK",
+        "TOUR GUIDE"
+      ]
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "date": "2026-08-03",
+  "packId": "the-lord-of-the-rings",
+  "puzzle": {
+    "targetLine": {
+      "character": "GRÍMA",
+      "text": "Oh but you are alone!",
+      "movie": "The Two Towers"
+    },
+    "contextBefore": {
+      "character": "ÈOWYN",
+      "text": "Leave me alone snake!"
+    },
+    "contextAfter": [
+      {
+        "character": "GRÍMA",
+        "text": "Who knows what you have spoken to the darkness. In bitter watches of the night. When all your life seems to shrink. The walls of your bower closing in about you. A hatch to trammel some wild thing."
+      },
+      {
+        "character": "GRÍMA",
+        "text": "So fair, so cold, like a morning pale spring still clinging to winter's chill."
+      },
+      {
+        "character": "ÈOWYN",
+        "text": "Your words are poison."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "the-lord-of-the-rings-fotr",
+      "the-lord-of-the-rings-ttt",
+      "the-lord-of-the-rings-rotk"
+    ],
+    "movieYears": {
+      "the-lord-of-the-rings-fotr": 2001,
+      "the-lord-of-the-rings-ttt": 2002,
+      "the-lord-of-the-rings-rotk": 2003
+    },
+    "movieTitles": {
+      "the-lord-of-the-rings-fotr": "The Fellowship of the Ring",
+      "the-lord-of-the-rings-ttt": "The Two Towers",
+      "the-lord-of-the-rings-rotk": "The Return of the King"
+    },
+    "charactersByMovie": {
+      "the-lord-of-the-rings-fotr": [
+        "ARAGORN",
+        "ARWEN",
+        "BILBO",
+        "BOROMIR",
+        "CELEBORN",
+        "ELROND",
+        "ELVES",
+        "FRODO",
+        "GALADRIEL",
+        "GANDALF",
+        "GIMLI",
+        "GOLLUM",
+        "HALDIR",
+        "LEGOLAS",
+        "MERRY",
+        "MERRY AND PIPPIN",
+        "PIPPIN",
+        "SAM",
+        "SARUMAN",
+        "STRIDER"
+      ],
+      "the-lord-of-the-rings-ttt": [
+        "ARAGORN",
+        "ARWEN",
+        "BOROMIR",
+        "CROWD",
+        "DENETHOR",
+        "ELROND",
+        "EOMER",
+        "EOWYN",
+        "FARAMIR",
+        "FRODO",
+        "GALADRIEL",
+        "GAMLING",
+        "GANDALF",
+        "GIMLI",
+        "GOLLUM",
+        "GRÍMA",
+        "LEGOLAS",
+        "MADRIL",
+        "MAN",
+        "MAUHÚR",
+        "MERRY",
+        "MOTHER",
+        "PIPPIN",
+        "SAM",
+        "SARUMAN",
+        "SMÉAGOL",
+        "THÉODEN",
+        "TREEBEARD",
+        "UGLÚK",
+        "ÈOMER",
+        "ÈOWYN"
+      ],
+      "the-lord-of-the-rings-rotk": [
+        "ARAGORN",
+        "ARWEN",
+        "BILBO",
+        "DENETHOR",
+        "ELROND",
+        "EOMER",
+        "EOWYN",
+        "FARAMIR",
+        "FRODO",
+        "GAMLING",
+        "GANDALF",
+        "GIMLI",
+        "GOLLUM",
+        "GORBAG",
+        "GOTHMOG",
+        "LEGOLAS",
+        "MERRY",
+        "ORC CAPTAIN",
+        "PIPPIN",
+        "SAM",
+        "SARUMAN",
+        "SHAGRAT",
+        "SMÉAGOL",
+        "SOLDIER",
+        "THE KING OF THE DEAD",
+        "THEODEN",
+        "THÉODEN",
+        "WITCH-KING",
+        "ÉOMER",
+        "ÉOWYN"
+      ]
+    }
+  }
+}

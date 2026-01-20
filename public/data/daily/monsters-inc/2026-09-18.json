@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-09-18",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "MIKE",
+      "text": "AAH!!",
+      "movie": "Monsters, Inc."
+    },
+    "contextBefore": {
+      "character": "MIKE",
+      "text": "Oh, now those were alphabetized... It's okay, it's all right. As long as it doesn't come near us, we're gonna be okay."
+    },
+    "contextAfter": [
+      {
+        "character": "MIKE",
+        "text": "AAAAAAAAAH!!!"
+      },
+      {
+        "character": "SULLEY",
+        "text": "Oh, you like this? Fetch!"
+      },
+      {
+        "character": "MIKE",
+        "text": "Hey, hey, that's it! No one touches Little Mikey."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

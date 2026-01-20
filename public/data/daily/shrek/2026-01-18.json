@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "date": "2026-01-18",
+  "packId": "shrek",
+  "puzzle": {
+    "targetLine": {
+      "character": "SNOW WHITE",
+      "text": "Had we just stayed put like I suggested, we could be sipping tea out of little heart-shaped cups…",
+      "movie": "Shrek the Third"
+    },
+    "contextBefore": {
+      "character": "PRINCE CHARMING",
+      "text": "You really do have a way with children, Shrek."
+    },
+    "contextAfter": [
+      {
+        "character": "CINDERELLA",
+        "text": "Yeah… yeah, heart shaped cups."
+      },
+      {
+        "character": "SNOW WHITE",
+        "text": "Eating crumpets smothered with loganberries."
+      },
+      {
+        "character": "CINDERELLA",
+        "text": "Yeah… loganberries."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Shrek",
+      "Shrek 2",
+      "Shrek the Third",
+      "Shrek Forever After"
+    ],
+    "movieYears": {
+      "Shrek": 2001,
+      "Shrek 2": 2004,
+      "Shrek the Third": 2007,
+      "Shrek Forever After": 2010
+    },
+    "charactersByMovie": {
+      "Shrek": [
+        "BISHOP",
+        "CROWD",
+        "DONKEY",
+        "FIONA",
+        "GINGY",
+        "LORD FARQUAAD",
+        "MAGIC MIRROR",
+        "MERRYMEN",
+        "MONSIEUR HOOD",
+        "SHREK"
+      ],
+      "Shrek 2": [
+        "DONKEY",
+        "DORIS",
+        "FAIRY GODMOTHER",
+        "FIONA",
+        "GINGY",
+        "JEROME",
+        "JILL",
+        "JOAN",
+        "KING HAROLD",
+        "MAIDEN #1",
+        "MAIDEN #2",
+        "PINOCCHIO",
+        "PRINCE CHARMING",
+        "PUSS IN BOOTS",
+        "QUEEN LILLIAN",
+        "SHREK"
+      ],
+      "Shrek the Third": [
+        "ARTIE",
+        "CAPTAIN HOOK",
+        "CINDERELLA",
+        "CYCLOPS",
+        "DONKEY",
+        "DORIS",
+        "FIONA",
+        "GINGERBREAD MAN",
+        "GUINEVERE",
+        "KING HAROLD",
+        "KNIGHT (LANCELOT)",
+        "LANCELOT",
+        "MABEL",
+        "MERLIN",
+        "PIG #1",
+        "PINOCCHIO",
+        "PRINCE CHARMING",
+        "PUSS",
+        "QUEEN LILLIAN",
+        "RAPUNZEL",
+        "RUMPLESTILTSKIN",
+        "SHIP CAPTAIN",
+        "SHREK",
+        "SLEEPING BEAUTY",
+        "SNOW WHITE"
+      ],
+      "Shrek Forever After": [
+        "BROGAN",
+        "BROOMSY",
+        "BUTTER PANTS",
+        "COOKIE",
+        "DONKEY",
+        "DONKEY'S VOICE",
+        "FELICIA",
+        "FIONA",
+        "GINGY",
+        "KING HAROLD",
+        "MUFFIN MAN",
+        "PINOCCHIO",
+        "PUSS",
+        "QUEEN LILLIAN",
+        "RUMPELSTILTSKIN",
+        "SHREK",
+        "TOUR GUIDE"
+      ]
+    }
+  }
+}

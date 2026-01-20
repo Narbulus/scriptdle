@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-09-30",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "DORY",
+      "text": "Hey...",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "NIGEL",
+      "text": "I’m sorry. Truly, I am."
+    },
+    "contextAfter": [
+      {
+        "character": "MARLIN",
+        "text": "Dory. If it wasn’t for you, I never even would have made it here. So, thank you."
+      },
+      {
+        "character": "DORY",
+        "text": "Hey, wait a minute. Wait! Where are you going?"
+      },
+      {
+        "character": "MARLIN",
+        "text": "It’s over, Dory. We were too late. Nemo’s gone and I’m going home now."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

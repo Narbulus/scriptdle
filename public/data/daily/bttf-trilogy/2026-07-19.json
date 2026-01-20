@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-07-19",
+  "packId": "bttf-trilogy",
+  "puzzle": {
+    "targetLine": {
+      "character": "DOC",
+      "text": "...but in the future, we don't need horses. We have motorized carriages called auto-mo-biles.",
+      "movie": "Back to the Future Part III"
+    },
+    "contextBefore": {
+      "character": "BUFORD",
+      "text": "I'm hungry."
+    },
+    "contextAfter": [
+      {
+        "character": "OLD TIMER (JEB)",
+        "text": "If everybody's got one of these auto-whatsits, does anybody walk or run anymore?"
+      },
+      {
+        "character": "DOC",
+        "text": "Of course we run. But for recreation, for fun."
+      },
+      {
+        "character": "OLD TIMER (JEB)",
+        "text": "Run for fun? Ha-ha, what the hell kinda fun is that?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "back-to-the-future",
+      "back-to-the-future-part-ii",
+      "back-to-the-future-part-iii"
+    ],
+    "movieYears": {},
+    "movieTitles": {
+      "back-to-the-future": "Back to the Future",
+      "back-to-the-future-part-ii": "Back to the Future Part II",
+      "back-to-the-future-part-iii": "Back to the Future Part III"
+    },
+    "charactersByMovie": {
+      "back-to-the-future": [
+        "BIFF",
+        "DOC",
+        "GEORGE",
+        "JENNIFER",
+        "LORRAINE",
+        "MARTY"
+      ],
+      "back-to-the-future-part-ii": [
+        "1955 BIFF",
+        "1985A BIFF",
+        "1985A LORRAINE",
+        "2015 BIFF",
+        "2015 MARTY (MARTY SR.)",
+        "ALL",
+        "BIFF",
+        "DOC",
+        "GRIFF",
+        "JENNIFER",
+        "LORRAINE",
+        "MARLENE",
+        "MARTY",
+        "MARTY JR.",
+        "MARTY MCFLY"
+      ],
+      "back-to-the-future-part-iii": [
+        "1955 DOC",
+        "BUFORD",
+        "CHESTER",
+        "CLARA",
+        "COLT GUN SALESMAN",
+        "DOC",
+        "JENNIFER",
+        "MAGGIE",
+        "MARTY II",
+        "SEAMUS"
+      ]
+    }
+  }
+}

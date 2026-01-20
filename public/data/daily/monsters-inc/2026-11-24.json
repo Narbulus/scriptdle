@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-11-24",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "MIKE",
+      "text": "Let's get out of here!",
+      "movie": "Monsters, Inc."
+    },
+    "contextBefore": {
+      "character": "CDA AGENT #2",
+      "text": "Please clear the contaminated area"
+    },
+    "contextAfter": [
+      {
+        "character": "CDA HELICOPTER PILOT",
+        "text": "Please remain calm. This is not a drill."
+      },
+      {
+        "character": "CDA AGENT",
+        "text": "We have an 835 in progress. Please advise."
+      },
+      {
+        "character": "CELIA",
+        "text": "Michael? Michael!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-03-04",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "DEB",
+      "text": "He’s scared to death.",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "BLOAT",
+      "text": "Slow down, little fella. There’s nothing to worry about."
+    },
+    "contextAfter": [
+      {
+        "character": "NEMO",
+        "text": "I want to go home! Do you know where my dad is?"
+      },
+      {
+        "character": "PEACH",
+        "text": "Honey, your dad’s probably back at the pet store."
+      },
+      {
+        "character": "NEMO",
+        "text": "Pet store?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

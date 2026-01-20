@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "date": "2026-09-27",
+  "packId": "the-lord-of-the-rings",
+  "puzzle": {
+    "targetLine": {
+      "character": "SAM",
+      "text": "What do we do now?",
+      "movie": "The Fellowship of the Ring"
+    },
+    "contextBefore": {
+      "character": "BUTTERBUR",
+      "text": "Gandalf? Gandalf? Oh yes! I remember: elderly chap, big gray beard, pointy hat… Not seen him for six months."
+    },
+    "contextAfter": [
+      {
+        "character": "FRODO",
+        "text": "Sam. He'll be here. He'll come."
+      },
+      {
+        "character": "MAN",
+        "text": "Get, get out of my way."
+      },
+      {
+        "character": "MERRY",
+        "text": "This my friend, is a pint."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "the-lord-of-the-rings-fotr",
+      "the-lord-of-the-rings-ttt",
+      "the-lord-of-the-rings-rotk"
+    ],
+    "movieYears": {
+      "the-lord-of-the-rings-fotr": 2001,
+      "the-lord-of-the-rings-ttt": 2002,
+      "the-lord-of-the-rings-rotk": 2003
+    },
+    "movieTitles": {
+      "the-lord-of-the-rings-fotr": "The Fellowship of the Ring",
+      "the-lord-of-the-rings-ttt": "The Two Towers",
+      "the-lord-of-the-rings-rotk": "The Return of the King"
+    },
+    "charactersByMovie": {
+      "the-lord-of-the-rings-fotr": [
+        "ARAGORN",
+        "ARWEN",
+        "BILBO",
+        "BOROMIR",
+        "CELEBORN",
+        "ELROND",
+        "ELVES",
+        "FRODO",
+        "GALADRIEL",
+        "GANDALF",
+        "GIMLI",
+        "GOLLUM",
+        "HALDIR",
+        "LEGOLAS",
+        "MERRY",
+        "MERRY AND PIPPIN",
+        "PIPPIN",
+        "SAM",
+        "SARUMAN",
+        "STRIDER"
+      ],
+      "the-lord-of-the-rings-ttt": [
+        "ARAGORN",
+        "ARWEN",
+        "BOROMIR",
+        "CROWD",
+        "DENETHOR",
+        "ELROND",
+        "EOMER",
+        "EOWYN",
+        "FARAMIR",
+        "FRODO",
+        "GALADRIEL",
+        "GAMLING",
+        "GANDALF",
+        "GIMLI",
+        "GOLLUM",
+        "GRÍMA",
+        "LEGOLAS",
+        "MADRIL",
+        "MAN",
+        "MAUHÚR",
+        "MERRY",
+        "MOTHER",
+        "PIPPIN",
+        "SAM",
+        "SARUMAN",
+        "SMÉAGOL",
+        "THÉODEN",
+        "TREEBEARD",
+        "UGLÚK",
+        "ÈOMER",
+        "ÈOWYN"
+      ],
+      "the-lord-of-the-rings-rotk": [
+        "ARAGORN",
+        "ARWEN",
+        "BILBO",
+        "DENETHOR",
+        "ELROND",
+        "EOMER",
+        "EOWYN",
+        "FARAMIR",
+        "FRODO",
+        "GAMLING",
+        "GANDALF",
+        "GIMLI",
+        "GOLLUM",
+        "GORBAG",
+        "GOTHMOG",
+        "LEGOLAS",
+        "MERRY",
+        "ORC CAPTAIN",
+        "PIPPIN",
+        "SAM",
+        "SARUMAN",
+        "SHAGRAT",
+        "SMÉAGOL",
+        "SOLDIER",
+        "THE KING OF THE DEAD",
+        "THEODEN",
+        "THÉODEN",
+        "WITCH-KING",
+        "ÉOMER",
+        "ÉOWYN"
+      ]
+    }
+  }
+}

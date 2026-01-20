@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-09-06",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "MARLIN",
+      "text": "Nemo? Well, we’ll name one Nemo, but I’d like most of them to be Marlin Junior.",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "CORAL",
+      "text": "I like Nemo."
+    },
+    "contextAfter": [
+      {
+        "character": "CORAL",
+        "text": "Just think that in a couple of days, we’re going to be parents!"
+      },
+      {
+        "character": "MARLIN",
+        "text": "Yeah. What if they don’t like me?"
+      },
+      {
+        "character": "CORAL",
+        "text": "Marlin..."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

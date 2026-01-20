@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-05-20",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "DORY",
+      "text": "Oh no! How long do I have? I have to find my family.",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "HANK",
+      "text": "Why else would you be in quarantine?"
+    },
+    "contextAfter": [
+      {
+        "character": "HANK",
+        "text": "All right. Now don't get hysterical...Uh-oh. Not good."
+      },
+      {
+        "character": "DORY",
+        "text": "What? What is it? What happened? What's that?"
+      },
+      {
+        "character": "HANK",
+        "text": "That there is bad news. It's a transport tag for fish who can't cut it inside the institute. They get transferred to permanent digs. An aquarium. In Cleveland. Fish in here, go back in the ocean. Cleveland fish, stay there forever."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

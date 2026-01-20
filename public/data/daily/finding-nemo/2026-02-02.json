@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-02-02",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "HANK",
+      "text": "So what exhibit are you from?",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "DORY",
+      "text": "You mean I'm from here? My parents are here. I have to get to them."
+    },
+    "contextAfter": [
+      {
+        "character": "DORY",
+        "text": "Wait. I'm from an exhibit? Which one? I have to get there."
+      },
+      {
+        "character": "HANK",
+        "text": "Hmm. That's a hard one, kid. Unless... nah. Never work. It's too crazy."
+      },
+      {
+        "character": "DORY",
+        "text": "What do you mean? Just tell me. I'm okay with crazy."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-11-20",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "HELEN",
+      "text": "Take that off before somebody sees you.",
+      "movie": "The Incredibles"
+    },
+    "contextBefore": {
+      "character": "HELEN",
+      "text": "Just a second."
+    },
+    "contextAfter": [
+      {
+        "character": "VIOLET",
+        "text": "But you’re packing one just like it. Are you hiding something?"
+      },
+      {
+        "character": "HELEN",
+        "text": "Oh, please, honey. I’m on the phone..."
+      },
+      {
+        "character": "DASH",
+        "text": "Yikes!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

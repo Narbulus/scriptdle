@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-11-16",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "DORY",
+      "text": "You know me?",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "DESTINY",
+      "text": "Dory, it's me! Destiny!"
+    },
+    "contextAfter": [
+      {
+        "character": "DESTINY",
+        "text": "Of course! We talked through the pipes when we were little. We were pipe pals!"
+      },
+      {
+        "character": "DORY",
+        "text": "We were?"
+      },
+      {
+        "character": "DESTINY",
+        "text": "Aw, you're so pretty."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

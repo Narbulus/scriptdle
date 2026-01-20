@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "date": "2026-06-01",
+  "packId": "shrek",
+  "puzzle": {
+    "targetLine": {
+      "character": "KING HAROLD",
+      "text": "No, really, I’m fine.",
+      "movie": "Shrek 2"
+    },
+    "contextBefore": {
+      "character": "FAIRY GODMOTHER",
+      "text": "Sourdough soft taco, then? What do you want?"
+    },
+    "contextAfter": [
+      {
+        "character": "PRISCILLA",
+        "text": "Your order, Fairy Godmother."
+      },
+      {
+        "character": "PRISCILLA",
+        "text": "And this comes with the Medieval Meal."
+      },
+      {
+        "character": "FAIRY GODMOTHER",
+        "text": "There you are, dear."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "shrek-1",
+      "shrek-2",
+      "shrek-3",
+      "shrek-4"
+    ],
+    "movieYears": {
+      "shrek-1": 2001,
+      "shrek-2": 2004,
+      "shrek-3": 2007,
+      "shrek-4": 2010
+    },
+    "movieTitles": {
+      "shrek-1": "Shrek",
+      "shrek-2": "Shrek 2",
+      "shrek-3": "Shrek the Third",
+      "shrek-4": "Shrek Forever After"
+    },
+    "charactersByMovie": {
+      "shrek-1": [
+        "BISHOP",
+        "CROWD",
+        "DONKEY",
+        "FIONA",
+        "GINGY",
+        "LORD FARQUAAD",
+        "MAGIC MIRROR",
+        "MERRYMEN",
+        "MONSIEUR HOOD",
+        "SHREK"
+      ],
+      "shrek-2": [
+        "DONKEY",
+        "DORIS",
+        "FAIRY GODMOTHER",
+        "FIONA",
+        "GINGY",
+        "JEROME",
+        "JILL",
+        "JOAN",
+        "KING HAROLD",
+        "MAIDEN #1",
+        "MAIDEN #2",
+        "PINOCCHIO",
+        "PRINCE CHARMING",
+        "PUSS IN BOOTS",
+        "QUEEN LILLIAN",
+        "SHREK"
+      ],
+      "shrek-3": [
+        "ARTIE",
+        "CAPTAIN HOOK",
+        "CINDERELLA",
+        "CYCLOPS",
+        "DONKEY",
+        "DORIS",
+        "FIONA",
+        "GINGERBREAD MAN",
+        "GUINEVERE",
+        "KING HAROLD",
+        "KNIGHT (LANCELOT)",
+        "LANCELOT",
+        "MABEL",
+        "MERLIN",
+        "PIG #1",
+        "PINOCCHIO",
+        "PRINCE CHARMING",
+        "PUSS",
+        "QUEEN LILLIAN",
+        "RAPUNZEL",
+        "RUMPLESTILTSKIN",
+        "SHIP CAPTAIN",
+        "SHREK",
+        "SLEEPING BEAUTY",
+        "SNOW WHITE"
+      ],
+      "shrek-4": [
+        "BROGAN",
+        "BROOMSY",
+        "BUTTER PANTS",
+        "COOKIE",
+        "DONKEY",
+        "DONKEY'S VOICE",
+        "FELICIA",
+        "FIONA",
+        "GINGY",
+        "KING HAROLD",
+        "MUFFIN MAN",
+        "PINOCCHIO",
+        "PUSS",
+        "QUEEN LILLIAN",
+        "RUMPELSTILTSKIN",
+        "SHREK",
+        "TOUR GUIDE"
+      ]
+    }
+  }
+}

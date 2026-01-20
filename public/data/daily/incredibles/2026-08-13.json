@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-08-13",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "EVELYN",
+      "text": "No, no, no! Put him down!",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "EVELYN",
+      "text": "A Super baby?"
+    },
+    "contextAfter": [
+      {
+        "character": "ELASTIGIRL",
+        "text": "No!"
+      },
+      {
+        "character": "ELASTIGIRL",
+        "text": "Hold Jack-Jack."
+      },
+      {
+        "character": "EVELYN",
+        "text": "Grab her!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

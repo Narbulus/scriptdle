@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-02-25",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "SULLEY",
+      "text": "You're darn right.",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "MIKE",
+      "text": "You know, it did feel different! I feel like it's all coming together. Yep. This time tomorrow, the whole school is finally gonna see what Mike Wazowski can do."
+    },
+    "contextAfter": [
+      {
+        "character": "ALL THE STUDENTS",
+        "text": "Monsters University, we give our heart to you. Wherever children are dreaming, we'll bring the nightmares too. Oh, Monsters University, Alma Mater hail to you."
+      },
+      {
+        "character": "CLAIRE WHEELER",
+        "text": "Welcome to the final competition of the Scare Games."
+      },
+      {
+        "character": "SHERRI SQUIBBLES",
+        "text": "Woo! Yeah! Hooray!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

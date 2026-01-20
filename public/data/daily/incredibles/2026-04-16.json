@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-04-16",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "BOB (MR. INCREDIBLE)",
+      "text": "I should’ve told you I was fired, I admit it. But I didn’t want you to worry.",
+      "movie": "The Incredibles"
+    },
+    "contextBefore": {
+      "character": "DASH",
+      "text": "Uh-oh."
+    },
+    "contextAfter": [
+      {
+        "character": "HELEN (ELASTIGIRL)",
+        "text": "You didn’t want me to worry? And now we’re running for our lives through some godforsaken jungle!"
+      },
+      {
+        "character": "BOB (MR. INCREDIBLE)",
+        "text": "You keep trying to pick a fight, but I’m still just happy you’re alive."
+      },
+      {
+        "character": "GUARD",
+        "text": "I know you’re there, Little Miss Disappear."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

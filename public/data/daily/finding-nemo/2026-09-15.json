@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-09-15",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "BRUCE",
+      "text": "Right, then. Today’s meeting is step five: Bring a Fish Friend. Now, do you all have your friends?",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "CHUM",
+      "text": "Dolphins, Yeah! They think they’re so cute. \"Oh, look at me. I’m a flipping little dolphin! Let me flip for you. Ain’t I something?\""
+    },
+    "contextAfter": [
+      {
+        "character": "ANCHOR",
+        "text": "Got mine."
+      },
+      {
+        "character": "DORY",
+        "text": "Hey there!"
+      },
+      {
+        "character": "BRUCE",
+        "text": "How about you, Chum?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

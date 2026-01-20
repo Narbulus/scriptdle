@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-08-11",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "BOB",
+      "text": "Violet, are you okay?",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "TONY",
+      "text": "Is she all right?"
+    },
+    "contextAfter": [
+      {
+        "character": "VIOLET",
+        "text": "Nothing to see here."
+      },
+      {
+        "character": "BOB",
+        "text": "Yeah, more napkins would be good."
+      },
+      {
+        "character": "VIOLET",
+        "text": "I'm fine, I'm fine. It happens all the time here."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

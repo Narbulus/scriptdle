@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-02-17",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "SULLEY",
+      "text": "Ah, actually, that's my uh, cousin's sister's daughter, sir.",
+      "movie": "Monsters, Inc."
+    },
+    "contextBefore": {
+      "character": "WATERNOOSE",
+      "text": "Ah, James. Is this one yours?"
+    },
+    "contextAfter": [
+      {
+        "character": "MIKE",
+        "text": "Yeah, it's, ah, \"Bring An Obscure Relative to Work Day\"."
+      },
+      {
+        "character": "WATERNOOSE",
+        "text": "Hmm, must have missed the memo. Well, listen, James, why don't you stop by the simulator after lunch today and give us the scare demonstration we talked about, huh?"
+      },
+      {
+        "character": "SULLEY",
+        "text": "Oh! Sir, uh... today might be a little--"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

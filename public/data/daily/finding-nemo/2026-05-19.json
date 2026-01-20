@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-05-19",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "NEMO",
+      "text": "*Nemo becomes flushed into something* Aah!!!",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "GILL",
+      "text": "Sharkbait. Tell your Dad, I said hi."
+    },
+    "contextAfter": [
+      {
+        "character": "GILL",
+        "text": "Go get him."
+      },
+      {
+        "character": "SHERMAN",
+        "text": "[groans]"
+      },
+      {
+        "character": "BLOAT",
+        "text": "He did it!!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

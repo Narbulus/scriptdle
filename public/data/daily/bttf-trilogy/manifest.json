@@ -1,0 +1,18 @@
+{
+  "packId": "bttf-trilogy",
+  "packName": "Back to the Future",
+  "generatedAt": "2026-01-19T21:29:28.083618",
+  "dateRange": {
+    "start": "2026-01-19",
+    "end": "2027-01-18"
+  },
+  "totalPuzzles": 365,
+  "cycleLength": 2321,
+  "tierMessages": {
+    "perfect": "Great Scott! First try!",
+    "good": "This is heavy!",
+    "average": "Where we're going, we don't need roads",
+    "barely": "1.21 gigawatts?!",
+    "failure": "Your future hasn't been written yet"
+  }
+}

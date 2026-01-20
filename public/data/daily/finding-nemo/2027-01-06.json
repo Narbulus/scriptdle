@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2027-01-06",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "NEMO",
+      "text": "Bye, Dad!",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "MARLIN",
+      "text": "Bye, Nemo!"
+    },
+    "contextAfter": [
+      {
+        "character": "MARLIN",
+        "text": "Bye, son! Be safe."
+      },
+      {
+        "character": "BOB",
+        "text": "Hey, you’re doing pretty well for a first timer."
+      },
+      {
+        "character": "MARLIN",
+        "text": "Well, you can’t hold onto them forever, can you?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

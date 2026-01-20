@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-03-07",
+  "packId": "bttf-trilogy",
+  "puzzle": {
+    "targetLine": {
+      "character": "DOC",
+      "text": "Unfortunately, no, it requires something with a little more kick: plutonium.",
+      "movie": "Back to the Future"
+    },
+    "contextBefore": {
+      "character": "MARTY",
+      "text": "This is uh, this is heavy duty, Doc, this is great. Uh, does it run on regular unleaded gasoline?"
+    },
+    "contextAfter": [
+      {
+        "character": "MARTY",
+        "text": "Uh, plutonium, wait a minute, are you tellin’ me that this sucker's nuclear?"
+      },
+      {
+        "character": "DOC",
+        "text": "Hey, hey, keep rolling, keep rolling there. No, no, no, no, this sucker's electrical. But I need a nuclear reaction to generate the one point twenty-one gigawatts of electricity."
+      },
+      {
+        "character": "MARTY",
+        "text": "Doc, you don't just walk into a store and ask for plutonium. Did you rip this off?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "back-to-the-future",
+      "back-to-the-future-part-ii",
+      "back-to-the-future-part-iii"
+    ],
+    "movieYears": {},
+    "movieTitles": {
+      "back-to-the-future": "Back to the Future",
+      "back-to-the-future-part-ii": "Back to the Future Part II",
+      "back-to-the-future-part-iii": "Back to the Future Part III"
+    },
+    "charactersByMovie": {
+      "back-to-the-future": [
+        "BIFF",
+        "DOC",
+        "GEORGE",
+        "JENNIFER",
+        "LORRAINE",
+        "MARTY"
+      ],
+      "back-to-the-future-part-ii": [
+        "1955 BIFF",
+        "1985A BIFF",
+        "1985A LORRAINE",
+        "2015 BIFF",
+        "2015 MARTY (MARTY SR.)",
+        "ALL",
+        "BIFF",
+        "DOC",
+        "GRIFF",
+        "JENNIFER",
+        "LORRAINE",
+        "MARLENE",
+        "MARTY",
+        "MARTY JR.",
+        "MARTY MCFLY"
+      ],
+      "back-to-the-future-part-iii": [
+        "1955 DOC",
+        "BUFORD",
+        "CHESTER",
+        "CLARA",
+        "COLT GUN SALESMAN",
+        "DOC",
+        "JENNIFER",
+        "MAGGIE",
+        "MARTY II",
+        "SEAMUS"
+      ]
+    }
+  }
+}

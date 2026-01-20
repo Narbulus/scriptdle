@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-10-23",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "PROF. KNIGHT",
+      "text": "I should've known. I expect big things from you.",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "SULLEY",
+      "text": "Yeah. He's my dad."
+    },
+    "contextAfter": [
+      {
+        "character": "SULLEY",
+        "text": "(In a country accent) Welp. You won't be disappointed."
+      },
+      {
+        "character": "MIKE",
+        "text": "Um, I'm sorry. S-should I keep going?"
+      },
+      {
+        "character": "PROF. KNIGHT",
+        "text": "Nah, nah... Mr. Sullivan's covered it."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

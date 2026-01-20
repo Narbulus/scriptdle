@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "date": "2026-09-06",
+  "packId": "toy-story",
+  "puzzle": {
+    "targetLine": {
+      "character": "MR. POTATO HEAD",
+      "text": "I'm a married spud. I'm a married spud. I'm a married spud.",
+      "movie": "Toy Story 2"
+    },
+    "contextBefore": {
+      "character": "TOUR GUIDE BARBIE",
+      "text": "I'm Tour Guide Barbie! Please keep your hands, arms, and accessories inside the car and no flash photography! Thank you!"
+    },
+    "contextAfter": [
+      {
+        "character": "HAMM",
+        "text": "Then make room for the single fellas!"
+      },
+      {
+        "character": "TOUR GUIDE BARBIE",
+        "text": "To our right, is the Hot Wheels aisle. Developed in 1967, (that year has also been said the following Toy Story film when Barbie was about to rip Ken's Nehru jacket) the original series had 16 cars, including the Corvette."
+      },
+      {
+        "character": "SLINKY",
+        "text": "I beg your pardon, ma'am. But, where's Al's office?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Toy Story",
+      "Toy Story 2",
+      "Toy Story 3",
+      "Toy Story 4"
+    ],
+    "movieYears": {
+      "Toy Story": 1995,
+      "Toy Story 2": 1999,
+      "Toy Story 3": 2010,
+      "Toy Story 4": 2019
+    },
+    "charactersByMovie": {
+      "Toy Story": [
+        "ALIENS",
+        "ANDY",
+        "ANDY'S MOM",
+        "BO PEEP",
+        "BUZZ LIGHTYEAR",
+        "HAMM",
+        "HANNAH",
+        "LENNY",
+        "LYLE LOVETT",
+        "MR. POTATO HEAD",
+        "MRS. DAVIS",
+        "PIZZA DELIVERER",
+        "RANDY NEWMAN",
+        "REX",
+        "SARGE",
+        "SID",
+        "SLINKY",
+        "WOODY",
+        "WOODY'S VOICE BOX"
+      ],
+      "Toy Story 2": [
+        "AL",
+        "ALIENS",
+        "ANDY",
+        "BO PEEP",
+        "BUZZ LIGHTYEAR",
+        "EMPEROR ZURG",
+        "HAMM",
+        "JESSIE",
+        "MAN",
+        "MR. POTATO HEAD",
+        "MRS. POTATO HEAD",
+        "REX",
+        "SLINKY",
+        "STINKY PETE",
+        "TOUR GUIDE BARBIE",
+        "TV WOODY",
+        "UTILITY BELT BUZZ",
+        "WHEEZY",
+        "WOODY"
+      ],
+      "Toy Story 3": [
+        "ALIENS",
+        "ANDY",
+        "ANDY DAVIS",
+        "ANDY'S MOM",
+        "BARBIE",
+        "BONNIE ANDERSON",
+        "BONNIE'S MOM",
+        "BUTTERCUP",
+        "BUZZ LIGHTYEAR",
+        "CHATTER TELEPHONE",
+        "CHUCKLES",
+        "DOLLY",
+        "HAMM",
+        "JESSIE",
+        "KEN",
+        "LOTSO",
+        "MOLLY",
+        "MR. POTATO HEAD",
+        "MR. PRICKLEPANTS",
+        "MRS. ANDERSON",
+        "MRS. DAVIS",
+        "MRS. POTATO HEAD",
+        "ONE EYED BART",
+        "REX",
+        "SLINKY",
+        "STRETCH",
+        "TOYS",
+        "TRIXIE",
+        "TWITCH",
+        "WOODY"
+      ],
+      "Toy Story 4": [
+        "BO PEEP",
+        "BONNIE",
+        "BUNNY",
+        "BUTTERCUP",
+        "BUZZ",
+        "BUZZ'S VOICE BOX",
+        "CAR OWNER",
+        "CHAIROL BURNETT",
+        "COMBAT CARL #1",
+        "DOLLY",
+        "DUCKY",
+        "DUKE CABOOM",
+        "FORKY",
+        "GABBY GABBY",
+        "GIGGLE MCDIMPLES",
+        "HAMM",
+        "HARMONY",
+        "HARMONY'S MOM",
+        "JESSIE",
+        "JULIA",
+        "LARRY",
+        "MELEPHANT BROOKS",
+        "MISS WENDY",
+        "MR. POTATO HEAD",
+        "MRS. DAVIS",
+        "OLD TIMER",
+        "REX",
+        "SLINKY DOG",
+        "TRIXIE",
+        "WOODY",
+        "WOODY'S VOICE BOX",
+        "YOUNG ANDY"
+      ]
+    }
+  }
+}

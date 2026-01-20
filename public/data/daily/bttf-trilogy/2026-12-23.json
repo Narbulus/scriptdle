@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-12-23",
+  "packId": "bttf-trilogy",
+  "puzzle": {
+    "targetLine": {
+      "character": "CLARA",
+      "text": "I will...see you again, won't I?",
+      "movie": "Back to the Future Part III"
+    },
+    "contextBefore": {
+      "character": "DOC",
+      "text": "You're quite welcome."
+    },
+    "contextAfter": [
+      {
+        "character": "DOC",
+        "text": "Of course, you'll see lots of me, I'm sure, I have a shop in town. I'm a local scientist...uh...uh...uh…blacksmith."
+      },
+      {
+        "character": "CLARA",
+        "text": "Science? What sort of science? Astronomy? Chemistry?"
+      },
+      {
+        "character": "DOC",
+        "text": "Actually I'm a student of all sciences."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "back-to-the-future",
+      "back-to-the-future-part-ii",
+      "back-to-the-future-part-iii"
+    ],
+    "movieYears": {},
+    "movieTitles": {
+      "back-to-the-future": "Back to the Future",
+      "back-to-the-future-part-ii": "Back to the Future Part II",
+      "back-to-the-future-part-iii": "Back to the Future Part III"
+    },
+    "charactersByMovie": {
+      "back-to-the-future": [
+        "BIFF",
+        "DOC",
+        "GEORGE",
+        "JENNIFER",
+        "LORRAINE",
+        "MARTY"
+      ],
+      "back-to-the-future-part-ii": [
+        "1955 BIFF",
+        "1985A BIFF",
+        "1985A LORRAINE",
+        "2015 BIFF",
+        "2015 MARTY (MARTY SR.)",
+        "ALL",
+        "BIFF",
+        "DOC",
+        "GRIFF",
+        "JENNIFER",
+        "LORRAINE",
+        "MARLENE",
+        "MARTY",
+        "MARTY JR.",
+        "MARTY MCFLY"
+      ],
+      "back-to-the-future-part-iii": [
+        "1955 DOC",
+        "BUFORD",
+        "CHESTER",
+        "CLARA",
+        "COLT GUN SALESMAN",
+        "DOC",
+        "JENNIFER",
+        "MAGGIE",
+        "MARTY II",
+        "SEAMUS"
+      ]
+    }
+  }
+}

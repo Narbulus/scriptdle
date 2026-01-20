@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "date": "2026-01-15",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "NIGEL",
+      "text": "I got something to tell you!",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "MARLIN",
+      "text": "Keep going! He’s crazy!!"
+    },
+    "contextAfter": [
+      {
+        "character": "SEAGULL",
+        "text": "Mine."
+      },
+      {
+        "character": "NIGEL",
+        "text": "OK. Don’t make any sudden moves. Hop inside my mouth if you want to live."
+      },
+      {
+        "character": "MARLIN",
+        "text": "Hop in your mouth? And how does that make me live?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Dory": 2016,
+      "Finding Nemo": 2003
+    },
+    "charactersByMovie": {
+      "Finding Dory": [
+        "BAILEY",
+        "CAROL",
+        "CHARLIE",
+        "DESTINY",
+        "DORY",
+        "FEMALE AQUARIST",
+        "FEMALE AQUARIST 2",
+        "FEMALE EDUCATOR",
+        "FLUKE",
+        "HANK",
+        "HERMIT CRABS",
+        "JENNY",
+        "MALE AQUARIST",
+        "MALE AQUARIST 2",
+        "MALE EMPLOYEE",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SICK FISH",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ],
+      "Finding Nemo": [
+        "ALL",
+        "ANCHOR",
+        "ANGLERFISH",
+        "BARBARA",
+        "BERNIE",
+        "BILL",
+        "BLOAT",
+        "BOB",
+        "BOB, TED",
+        "BOTH",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "CRAB 1",
+        "CRAB 2",
+        "CRAB KID",
+        "DARLA",
+        "DEB",
+        "DIVER #2",
+        "DORY",
+        "DR. PHILLIP SHERMAN",
+        "FISH",
+        "FISH 1",
+        "FISH KIDS",
+        "FISH MOM",
+        "GERALD",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "JIMMY",
+        "KATHY",
+        "KIDS",
+        "MARLIN",
+        "MR. JOHANNSEN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PATIENT",
+        "PEACH",
+        "PEARL",
+        "PELICAN",
+        "PELICAN 1",
+        "PELICAN 2",
+        "PELICANS",
+        "SEAGULL",
+        "SEAGULLS",
+        "SHARKS",
+        "SHELDON",
+        "SHERMAN",
+        "SQUIRT",
+        "TAD",
+        "TED"
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-12-22",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "MARLIN",
+      "text": "Now go! Hurry!!",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "NEMO",
+      "text": "Lucky fin!"
+    },
+    "contextAfter": [
+      {
+        "character": "NEMO",
+        "text": "Tell all of the fish to swim down!!"
+      },
+      {
+        "character": "MARLIN",
+        "text": "Well?! You heard my son! Come on!"
+      },
+      {
+        "character": "NEMO",
+        "text": "Dory! We have to tell everybody to..."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

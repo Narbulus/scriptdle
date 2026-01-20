@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-01-25",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "CHET ALEXANDER",
+      "text": "This guy hates charity!",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "JOHNNY WORTHINGTON",
+      "text": "You want us to stop raising money for charity? That's not cool."
+    },
+    "contextAfter": [
+      {
+        "character": "MIKE",
+        "text": "I want you to stop making us look like fools!"
+      },
+      {
+        "character": "JOHNNY WORTHINGTON",
+        "text": "Hey, you're making yourselves look like fools. Let's be honest, boys. You're never gonna be real scarers. Because real scarers look like us. But hey, if you really want to work for a scare company, they're always... hiring in the mail-room."
+      },
+      {
+        "character": "MIKE",
+        "text": "Guys! Hold on! Hey, hey, hey, wait a second. Don't listen to him! We just need to keep trying!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

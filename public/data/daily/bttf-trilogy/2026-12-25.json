@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-12-25",
+  "packId": "bttf-trilogy",
+  "puzzle": {
+    "targetLine": {
+      "character": "DOC",
+      "text": "We can wait until winter...when the lake freezes over...",
+      "movie": "Back to the Future Part III"
+    },
+    "contextBefore": {
+      "character": "DOC",
+      "text": "I know, I know, I know! I wish...wait. I've got it! We can roll it down a steep hill...no, we'd never find a smooth enough surface. Unless...of course...ice."
+    },
+    "contextAfter": [
+      {
+        "character": "MARTY II",
+        "text": "Winter! Doc! Monday! It's three days away!"
+      },
+      {
+        "character": "DOC",
+        "text": "Wait. Let's just think this thing through logically. We know it can't run on its own power, and we know we can't pull it. But if we can figure out a way to push it up to 88 mph...huh?"
+      },
+      {
+        "character": "DOC",
+        "text": "That's it!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "back-to-the-future",
+      "back-to-the-future-part-ii",
+      "back-to-the-future-part-iii"
+    ],
+    "movieYears": {},
+    "movieTitles": {
+      "back-to-the-future": "Back to the Future",
+      "back-to-the-future-part-ii": "Back to the Future Part II",
+      "back-to-the-future-part-iii": "Back to the Future Part III"
+    },
+    "charactersByMovie": {
+      "back-to-the-future": [
+        "BIFF",
+        "DOC",
+        "GEORGE",
+        "JENNIFER",
+        "LORRAINE",
+        "MARTY"
+      ],
+      "back-to-the-future-part-ii": [
+        "1955 BIFF",
+        "1985A BIFF",
+        "1985A LORRAINE",
+        "2015 BIFF",
+        "2015 MARTY (MARTY SR.)",
+        "ALL",
+        "BIFF",
+        "DOC",
+        "GRIFF",
+        "JENNIFER",
+        "LORRAINE",
+        "MARLENE",
+        "MARTY",
+        "MARTY JR.",
+        "MARTY MCFLY"
+      ],
+      "back-to-the-future-part-iii": [
+        "1955 DOC",
+        "BUFORD",
+        "CHESTER",
+        "CLARA",
+        "COLT GUN SALESMAN",
+        "DOC",
+        "JENNIFER",
+        "MAGGIE",
+        "MARTY II",
+        "SEAMUS"
+      ]
+    }
+  }
+}

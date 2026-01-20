@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-12-27",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "LUCIUS",
+      "text": "I’d like one, yes. We keep sneakin' out to do this, and... you remember Gazerbeam?",
+      "movie": "The Incredibles"
+    },
+    "contextBefore": {
+      "character": "BOB",
+      "text": "You need an invitation ?"
+    },
+    "contextAfter": [
+      {
+        "character": "BOB",
+        "text": "Yeah. There was somethin' about him in the paper."
+      },
+      {
+        "character": "LUCIUS",
+        "text": "He had trouble adjusting to civilian life, too."
+      },
+      {
+        "character": "BOB",
+        "text": "When’s the last time you saw him?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

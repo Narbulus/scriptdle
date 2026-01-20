@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-09-03",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "NIGEL",
+      "text": "Root canal. What did he use to open?",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "PEACH",
+      "text": "Root canal, and it’s a doozy."
+    },
+    "contextAfter": [
+      {
+        "character": "PEACH",
+        "text": "Gator-Glidden drill."
+      },
+      {
+        "character": "NIGEL",
+        "text": "He seems to be favoring that one. Hope he doesn’t get surplus sealer at the portal terminus. Hello! Who’s this?"
+      },
+      {
+        "character": "DEB",
+        "text": "New guy."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

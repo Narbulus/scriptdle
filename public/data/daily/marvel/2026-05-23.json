@@ -1,0 +1,210 @@
+{
+  "version": 1,
+  "date": "2026-05-23",
+  "packId": "marvel",
+  "puzzle": {
+    "targetLine": {
+      "character": "PHIL COULSON",
+      "text": "We're sweeping every wirelessly accessible camera on the planet. Cellphones, laptops. If it's connected to a satellite, it's eyes and ears for us.",
+      "movie": "The Avengers (2012)"
+    },
+    "contextBefore": {
+      "character": "BRUCE BANNER",
+      "text": "Oh yeah where are you with that?"
+    },
+    "contextAfter": [
+      {
+        "character": "NATASHA ROMANOFF",
+        "text": "That's still not gonna find them in time."
+      },
+      {
+        "character": "BRUCE BANNER",
+        "text": "You have to narrow the field. How many spectrometers do you have access to?"
+      },
+      {
+        "character": "NICK FURY",
+        "text": "How many do you need?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "black-widow-film",
+      "ant-man",
+      "black-panther",
+      "captain-america-the-first-avenger",
+      "captain-marvel",
+      "doctor-strange",
+      "guardians-of-the-galaxy",
+      "iron-man",
+      "spider-man-homecoming",
+      "the-avengers-2012",
+      "thor"
+    ],
+    "movieYears": {
+      "black-widow-film": 2021
+    },
+    "movieTitles": {
+      "iron-man": "Iron Man",
+      "captain-america-the-first-avenger": "Captain America: The First Avenger",
+      "thor": "Thor",
+      "the-avengers-2012": "The Avengers (2012)",
+      "guardians-of-the-galaxy": "Guardians of the Galaxy",
+      "black-panther": "Black Panther",
+      "spider-man-homecoming": "Spider-Man: Homecoming",
+      "doctor-strange": "Doctor Strange",
+      "ant-man": "Ant-Man",
+      "captain-marvel": "Captain Marvel",
+      "black-widow-film": "Black Widow"
+    },
+    "charactersByMovie": {
+      "black-widow-film": [
+        "ALEXEI",
+        "DREYKOV",
+        "MELINA",
+        "NATASHA",
+        "RICK MASON",
+        "YELENA"
+      ],
+      "ant-man": [
+        "DARREN CROSS",
+        "DAVE",
+        "DR. HANK PYM",
+        "HOPE VAN DYNE",
+        "KURT",
+        "LUIS",
+        "PAXTON",
+        "SCOTT LANG"
+      ],
+      "black-panther": [
+        "KILLMONGER",
+        "KLAUE",
+        "M'BAKU",
+        "N'JOBU",
+        "NAKIA",
+        "OKOYE",
+        "RAMONDA",
+        "ROSS",
+        "SHURI",
+        "T'CHALLA",
+        "W'KABI",
+        "YOUNG T'CHAKA",
+        "ZURI"
+      ],
+      "captain-america-the-first-avenger": [
+        "BRANDT",
+        "BUCKY",
+        "CHURCH KEEPER",
+        "COLONEL PHILLIPS",
+        "DR. ERSKINE",
+        "EXAMINER",
+        "FURY",
+        "GUY",
+        "PEGGY",
+        "PHILLIPS",
+        "RED SKULL",
+        "S.H.I.E.L.D. LIEUTENANT",
+        "SCHMIDT",
+        "STEVE",
+        "WOMAN"
+      ],
+      "captain-marvel": [
+        "CAROL",
+        "COULSON",
+        "DIRECTOR",
+        "FURY",
+        "GENERAL TALOS",
+        "KORATH",
+        "LAWSON",
+        "MARIA",
+        "MINN-ERVA",
+        "MONICA",
+        "SUPREME INTELLIGENCE",
+        "TALOS",
+        "VERS",
+        "YON-ROGG"
+      ],
+      "doctor-strange": [
+        "CHRISTINE",
+        "CHRISTINE PALMER",
+        "DOCTOR STRANGE",
+        "DR. STEPHEN STRANGE",
+        "KAECILIUS",
+        "MORDO",
+        "THE ANCIENT ONE",
+        "WONG"
+      ],
+      "guardians-of-the-galaxy": [
+        "CORPSMAN DEY",
+        "DENARIAN SAAL",
+        "DRAX",
+        "GAMORA",
+        "GROOT",
+        "KORATH",
+        "NEBULA",
+        "NOVA PRIME",
+        "PETER QUILL",
+        "ROCKET",
+        "RONAN",
+        "THANOS",
+        "THE BROKER",
+        "THE COLLECTOR",
+        "YONDU UDONTA"
+      ],
+      "iron-man": [
+        "AGENT COULSON",
+        "CHRISTINE EVERHART",
+        "JAMES RHODES",
+        "JARVIS",
+        "OBADIAH STANE",
+        "PEPPER POTTS",
+        "TONY STARK",
+        "YINSEN"
+      ],
+      "spider-man-homecoming": [
+        "AARON",
+        "BRICE",
+        "FLASH",
+        "HAPPY",
+        "KAREN",
+        "LIZ",
+        "MASON",
+        "MAY",
+        "MICHELLE",
+        "NED",
+        "PETER",
+        "SCHULTZ",
+        "SUIT LADY",
+        "TONY",
+        "TOOMES"
+      ],
+      "the-avengers-2012": [
+        "BRUCE BANNER",
+        "CLINT BARTON",
+        "ERIK SELVIG",
+        "LOKI",
+        "MARIA HILL",
+        "NATASHA ROMANOFF",
+        "NICK FURY",
+        "PEPPER POTTS",
+        "PHIL COULSON",
+        "STEVE ROGERS",
+        "THOR",
+        "TONY STARK"
+      ],
+      "thor": [
+        "DARCY",
+        "ERIK",
+        "FANDRAL",
+        "HEIMDALL",
+        "JANE",
+        "LAUFEY",
+        "LOKI",
+        "ODIN",
+        "SIF",
+        "THOR",
+        "VOLSTAGG"
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-02-14",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "DORY",
+      "text": "Cleveland? No! I can't go to the Cleveland. I have to get to the Jewel of Morro Bay, California and find my family.",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "HANK",
+      "text": "That there is bad news. It's a transport tag for fish who can't cut it inside the institute. They get transferred to permanent digs. An aquarium. In Cleveland. Fish in here, go back in the ocean. Cleveland fish, stay there forever."
+    },
+    "contextAfter": [
+      {
+        "character": "HANK",
+        "text": "That's this place. The Marine Life Institute. The Jewel of Morro Bay, California. You're here."
+      },
+      {
+        "character": "DORY",
+        "text": "You mean I'm from here? My parents are here. I have to get to them."
+      },
+      {
+        "character": "HANK",
+        "text": "So what exhibit are you from?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

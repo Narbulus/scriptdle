@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-04-09",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "HELEN",
+      "text": "E, I just...",
+      "movie": "The Incredibles"
+    },
+    "contextBefore": {
+      "character": "E",
+      "text": "This project has completely confiscated my life, darling. Consumed me as only hero work can. My best work, I must admit. Simple, elegant, yet bold. You will die."
+    },
+    "contextAfter": [
+      {
+        "character": "E",
+        "text": "I did Robert’s suit, and it turned out so beautiful, I had to continue."
+      },
+      {
+        "character": "HELEN",
+        "text": "E, it’s great to see you, but I gotta tell you I have no idea what you’re talking about. I just..."
+      },
+      {
+        "character": "E",
+        "text": "Yes, words are useless. Gobble gobble gobble gobble gobble! Too much of it, darling. TOO MUCH! That is why I show you my work. That is why you are here!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-08-22",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "SULLEY",
+      "text": "Yeah!",
+      "movie": "Monsters, Inc."
+    },
+    "contextBefore": {
+      "character": "SULLEY",
+      "text": "Oh, I'm feelin' good today, Mikey!"
+    },
+    "contextAfter": [
+      {
+        "character": "MIKE",
+        "text": "Whoa! Attaboy. Attaboy. Another door comin' right up."
+      },
+      {
+        "character": "FUNGUS",
+        "text": "You're still behind, Randall. You know, maybe I should realign the scream intake valve...?"
+      },
+      {
+        "character": "RANDALL",
+        "text": "JUST GET ME ANOTHER DOOR!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

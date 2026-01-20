@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-03-29",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "DEB",
+      "text": "He was her present last year.",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "BUBBLES",
+      "text": "Poor Chuckles."
+    },
+    "contextAfter": [
+      {
+        "character": "BLOAT",
+        "text": "Hitched a ride on the porcelain express."
+      },
+      {
+        "character": "PEACH",
+        "text": "She's a fish killer!"
+      },
+      {
+        "character": "NEMO",
+        "text": "[scared] I can’t go with that girl! I have to get back to my dad! [gets sucked into a tube] Aah!!! Daddy!!! Help me!!!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

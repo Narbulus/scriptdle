@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-12-16",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "VIOLET",
+      "text": "Let me try. I want him.",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "DASH",
+      "text": "My turn. I get to blast him first!"
+    },
+    "contextAfter": [
+      {
+        "character": "DASH",
+        "text": "Give him to me."
+      },
+      {
+        "character": "BOB",
+        "text": "Hey, I'm just demonstrating. No firing the baby around the house, you understand? This is potentially dangerous and we're trying to teach him to control his powers, okay? Stop. See the screen."
+      },
+      {
+        "character": "VIOLET",
+        "text": "He vanished! That's really cool!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

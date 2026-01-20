@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2027-01-03",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "DARLA",
+      "text": "Why are you sleeping?!",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "GILL",
+      "text": "Quick! To the top of Mt. Wannahockaloogie!!!"
+    },
+    "contextAfter": [
+      {
+        "character": "PEACH",
+        "text": "Hurry!!!"
+      },
+      {
+        "character": "GILL",
+        "text": "Bloat!! Ring of Fire!!!!"
+      },
+      {
+        "character": "DARLA",
+        "text": "Fishy!! Get it out!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-10-10",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "RANDY",
+      "text": "Come on, Mike. Let's just move.",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "SULLEY",
+      "text": "Don't mind at all."
+    },
+    "contextAfter": [
+      {
+        "character": "MIKE",
+        "text": "Stay out of my way. Unlike you, I had to work hard to get into the scare program."
+      },
+      {
+        "character": "SULLEY",
+        "text": "That's because you don't belong here."
+      },
+      {
+        "character": "MIKE",
+        "text": "That's what I thought."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

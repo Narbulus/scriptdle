@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-05-30",
+  "packId": "bttf-trilogy",
+  "puzzle": {
+    "targetLine": {
+      "character": "JENNIFER",
+      "text": "She's just trying to keep you respectable.",
+      "movie": "Back to the Future"
+    },
+    "contextBefore": {
+      "character": "MARTY",
+      "text": "No, get outta town, my mom thinks I'm goin’ camping with the guys. Well, Jennifer, my mother would freak out if she knew I was goin’ up there with you. And I'd get this standard lecture about how she never did that kind of stuff when she was a kid. Now look, I think the woman was born a nun."
+    },
+    "contextAfter": [
+      {
+        "character": "MARTY",
+        "text": "Well, she's not doin’ a very good job."
+      },
+      {
+        "character": "JENNIFER",
+        "text": "Terrible..."
+      },
+      {
+        "character": "CLOCK WOMAN",
+        "text": "Save the clock tower! Mayor Wilson is sponsoring an initiative to replace that clock. (points to the stopped clock on the old courthouse building) Thirty years ago, lightning struck that clock tower, and the clock hasn't run since. We at the Hill Valley Preservation Society think it should be preserved exactly the way it is, as part of our history and heritage."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "back-to-the-future",
+      "back-to-the-future-part-ii",
+      "back-to-the-future-part-iii"
+    ],
+    "movieYears": {},
+    "movieTitles": {
+      "back-to-the-future": "Back to the Future",
+      "back-to-the-future-part-ii": "Back to the Future Part II",
+      "back-to-the-future-part-iii": "Back to the Future Part III"
+    },
+    "charactersByMovie": {
+      "back-to-the-future": [
+        "BIFF",
+        "DOC",
+        "GEORGE",
+        "JENNIFER",
+        "LORRAINE",
+        "MARTY"
+      ],
+      "back-to-the-future-part-ii": [
+        "1955 BIFF",
+        "1985A BIFF",
+        "1985A LORRAINE",
+        "2015 BIFF",
+        "2015 MARTY (MARTY SR.)",
+        "ALL",
+        "BIFF",
+        "DOC",
+        "GRIFF",
+        "JENNIFER",
+        "LORRAINE",
+        "MARLENE",
+        "MARTY",
+        "MARTY JR.",
+        "MARTY MCFLY"
+      ],
+      "back-to-the-future-part-iii": [
+        "1955 DOC",
+        "BUFORD",
+        "CHESTER",
+        "CLARA",
+        "COLT GUN SALESMAN",
+        "DOC",
+        "JENNIFER",
+        "MAGGIE",
+        "MARTY II",
+        "SEAMUS"
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "packId": "harry-potter",
+  "packName": "Harry Potter",
+  "generatedAt": "2026-01-19T21:29:27.992917",
+  "dateRange": {
+    "start": "2026-01-19",
+    "end": "2027-01-18"
+  },
+  "totalPuzzles": 365,
+  "cycleLength": 7444,
+  "tierMessages": {
+    "perfect": "Outstanding! First try!",
+    "good": "Excellent work, wizard!",
+    "average": "Exceeds Expectations",
+    "barely": "Acceptable",
+    "failure": "Troll..."
+  }
+}

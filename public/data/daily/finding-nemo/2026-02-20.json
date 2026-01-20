@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-02-20",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "NEMO",
+      "text": "Bye, Dad! Oh! Oh, Mr. Ray! Wait. I forgot Something. I Love You Dad.",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "MARLIN",
+      "text": "Bye, son! Have fun!!"
+    },
+    "contextAfter": [
+      {
+        "character": "MARLIN",
+        "text": "I love you too, son."
+      },
+      {
+        "character": "NEMO",
+        "text": "Uh, Dad, you can let go now."
+      },
+      {
+        "character": "MARLIN",
+        "text": "Sorry! Now go have an adventure!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

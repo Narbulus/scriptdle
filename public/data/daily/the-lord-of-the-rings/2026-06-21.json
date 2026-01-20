@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "date": "2026-06-21",
+  "packId": "the-lord-of-the-rings",
+  "puzzle": {
+    "targetLine": {
+      "character": "GANDALF",
+      "text": "A thousand years this city has stood. Now, at the whim of a madman it will fall. The White Tree, the tree of the king, will never bloom again.",
+      "movie": "The Return of the King"
+    },
+    "contextBefore": {
+      "character": "GANDALF",
+      "text": "He would even use his grief as a cloak."
+    },
+    "contextAfter": [
+      {
+        "character": "PIPPIN",
+        "text": "Why are they still guarding it?"
+      },
+      {
+        "character": "GANDALF",
+        "text": "They guard it because they have hope. A faint and fading hope that one day it will flower. A King will come, and this city will be as it once was, before it fell into decay."
+      },
+      {
+        "character": "GANDALF",
+        "text": "The old wisdom bourne out of the west was forsaken. Kings made made tombs more splendid than the houses of the living, and counted the old names of their descent dearer than the names of their sons."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "the-lord-of-the-rings-fotr",
+      "the-lord-of-the-rings-ttt",
+      "the-lord-of-the-rings-rotk"
+    ],
+    "movieYears": {
+      "the-lord-of-the-rings-fotr": 2001,
+      "the-lord-of-the-rings-ttt": 2002,
+      "the-lord-of-the-rings-rotk": 2003
+    },
+    "movieTitles": {
+      "the-lord-of-the-rings-fotr": "The Fellowship of the Ring",
+      "the-lord-of-the-rings-ttt": "The Two Towers",
+      "the-lord-of-the-rings-rotk": "The Return of the King"
+    },
+    "charactersByMovie": {
+      "the-lord-of-the-rings-fotr": [
+        "ARAGORN",
+        "ARWEN",
+        "BILBO",
+        "BOROMIR",
+        "CELEBORN",
+        "ELROND",
+        "ELVES",
+        "FRODO",
+        "GALADRIEL",
+        "GANDALF",
+        "GIMLI",
+        "GOLLUM",
+        "HALDIR",
+        "LEGOLAS",
+        "MERRY",
+        "MERRY AND PIPPIN",
+        "PIPPIN",
+        "SAM",
+        "SARUMAN",
+        "STRIDER"
+      ],
+      "the-lord-of-the-rings-ttt": [
+        "ARAGORN",
+        "ARWEN",
+        "BOROMIR",
+        "CROWD",
+        "DENETHOR",
+        "ELROND",
+        "EOMER",
+        "EOWYN",
+        "FARAMIR",
+        "FRODO",
+        "GALADRIEL",
+        "GAMLING",
+        "GANDALF",
+        "GIMLI",
+        "GOLLUM",
+        "GRÍMA",
+        "LEGOLAS",
+        "MADRIL",
+        "MAN",
+        "MAUHÚR",
+        "MERRY",
+        "MOTHER",
+        "PIPPIN",
+        "SAM",
+        "SARUMAN",
+        "SMÉAGOL",
+        "THÉODEN",
+        "TREEBEARD",
+        "UGLÚK",
+        "ÈOMER",
+        "ÈOWYN"
+      ],
+      "the-lord-of-the-rings-rotk": [
+        "ARAGORN",
+        "ARWEN",
+        "BILBO",
+        "DENETHOR",
+        "ELROND",
+        "EOMER",
+        "EOWYN",
+        "FARAMIR",
+        "FRODO",
+        "GAMLING",
+        "GANDALF",
+        "GIMLI",
+        "GOLLUM",
+        "GORBAG",
+        "GOTHMOG",
+        "LEGOLAS",
+        "MERRY",
+        "ORC CAPTAIN",
+        "PIPPIN",
+        "SAM",
+        "SARUMAN",
+        "SHAGRAT",
+        "SMÉAGOL",
+        "SOLDIER",
+        "THE KING OF THE DEAD",
+        "THEODEN",
+        "THÉODEN",
+        "WITCH-KING",
+        "ÉOMER",
+        "ÉOWYN"
+      ]
+    }
+  }
+}

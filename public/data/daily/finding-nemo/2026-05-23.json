@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-05-23",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "NEMO",
+      "text": "No, you’re not! I did it!!",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "MARLIN",
+      "text": "Time for school! Time for school! Get up! Let’s go!! GO! I’m gonna win!!"
+    },
+    "contextAfter": [
+      {
+        "character": "MARLIN",
+        "text": "My own son beats me!"
+      },
+      {
+        "character": "MR. RAY",
+        "text": "Climb aboard, explorers!"
+      },
+      {
+        "character": "MARLIN",
+        "text": "So just then, the sea cucumber looks over to the mollusk and says: \"With 'FRONDS' (friends) like these, who need 'ANEMONES' (enemies)?!\""
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

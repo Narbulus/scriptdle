@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-01-27",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "CDA AGENT #2",
+      "text": "Cover the area! Bring in reinforcements!",
+      "movie": "Monsters, Inc."
+    },
+    "contextBefore": {
+      "character": "CDA AGENT #82472",
+      "text": "Halt! After the suspect!"
+    },
+    "contextAfter": [
+      {
+        "character": "WATERNOOSE",
+        "text": "Stop him!"
+      },
+      {
+        "character": "SULLEY",
+        "text": "Come on."
+      },
+      {
+        "character": "WATERNOOSE",
+        "text": "Don't let THEM GET AWAY! WHAT...?!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

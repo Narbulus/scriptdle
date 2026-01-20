@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "date": "2026-04-28",
+  "packId": "the-lord-of-the-rings",
+  "puzzle": {
+    "targetLine": {
+      "character": "FRODO",
+      "text": "No, Sam, I can't recall the taste of food.",
+      "movie": "The Return of the King"
+    },
+    "contextBefore": {
+      "character": "SAM",
+      "text": "And eating the first of the strawberries with cream. Do you remember the taste of strawberries?"
+    },
+    "contextAfter": [
+      {
+        "character": "FRODO",
+        "text": "Nor the sound of water. Or the touch of grass. I'm naked in the dark. There's nothing… no veil… between me and the wheel of fire! I can see him with my waking eyes!"
+      },
+      {
+        "character": "SAM",
+        "text": "Then let us be rid of it, once and for all! Come on, Mister Frodo. I can't carry it for you, but I can carry you! Come on!"
+      },
+      {
+        "character": "SAURON",
+        "text": "Aragorn… Elessar…"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "the-lord-of-the-rings-fotr",
+      "the-lord-of-the-rings-ttt",
+      "the-lord-of-the-rings-rotk"
+    ],
+    "movieYears": {
+      "the-lord-of-the-rings-fotr": 2001,
+      "the-lord-of-the-rings-ttt": 2002,
+      "the-lord-of-the-rings-rotk": 2003
+    },
+    "movieTitles": {
+      "the-lord-of-the-rings-fotr": "The Fellowship of the Ring",
+      "the-lord-of-the-rings-ttt": "The Two Towers",
+      "the-lord-of-the-rings-rotk": "The Return of the King"
+    },
+    "charactersByMovie": {
+      "the-lord-of-the-rings-fotr": [
+        "ARAGORN",
+        "ARWEN",
+        "BILBO",
+        "BOROMIR",
+        "CELEBORN",
+        "ELROND",
+        "ELVES",
+        "FRODO",
+        "GALADRIEL",
+        "GANDALF",
+        "GIMLI",
+        "GOLLUM",
+        "HALDIR",
+        "LEGOLAS",
+        "MERRY",
+        "MERRY AND PIPPIN",
+        "PIPPIN",
+        "SAM",
+        "SARUMAN",
+        "STRIDER"
+      ],
+      "the-lord-of-the-rings-ttt": [
+        "ARAGORN",
+        "ARWEN",
+        "BOROMIR",
+        "CROWD",
+        "DENETHOR",
+        "ELROND",
+        "EOMER",
+        "EOWYN",
+        "FARAMIR",
+        "FRODO",
+        "GALADRIEL",
+        "GAMLING",
+        "GANDALF",
+        "GIMLI",
+        "GOLLUM",
+        "GRÍMA",
+        "LEGOLAS",
+        "MADRIL",
+        "MAN",
+        "MAUHÚR",
+        "MERRY",
+        "MOTHER",
+        "PIPPIN",
+        "SAM",
+        "SARUMAN",
+        "SMÉAGOL",
+        "THÉODEN",
+        "TREEBEARD",
+        "UGLÚK",
+        "ÈOMER",
+        "ÈOWYN"
+      ],
+      "the-lord-of-the-rings-rotk": [
+        "ARAGORN",
+        "ARWEN",
+        "BILBO",
+        "DENETHOR",
+        "ELROND",
+        "EOMER",
+        "EOWYN",
+        "FARAMIR",
+        "FRODO",
+        "GAMLING",
+        "GANDALF",
+        "GIMLI",
+        "GOLLUM",
+        "GORBAG",
+        "GOTHMOG",
+        "LEGOLAS",
+        "MERRY",
+        "ORC CAPTAIN",
+        "PIPPIN",
+        "SAM",
+        "SARUMAN",
+        "SHAGRAT",
+        "SMÉAGOL",
+        "SOLDIER",
+        "THE KING OF THE DEAD",
+        "THEODEN",
+        "THÉODEN",
+        "WITCH-KING",
+        "ÉOMER",
+        "ÉOWYN"
+      ]
+    }
+  }
+}

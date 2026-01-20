@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-03-25",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "SHERMAN",
+      "text": "All right, go ahead and rinse.",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "BLOAT",
+      "text": "HEDSTRO-"
+    },
+    "contextAfter": [
+      {
+        "character": "GURGLE",
+        "text": "Ugh! The human mouth is a disgusting place."
+      },
+      {
+        "character": "PEACH",
+        "text": "Hey, Nigel."
+      },
+      {
+        "character": "NIGEL",
+        "text": "What did I miss? Am I late?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

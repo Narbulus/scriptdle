@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-11-24",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "DORY",
+      "text": "Who is it?",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "MARLIN",
+      "text": "There’s no way out! There’s got to be a way to escape!"
+    },
+    "contextAfter": [
+      {
+        "character": "MARLIN",
+        "text": "Dory, help me find a way out!"
+      },
+      {
+        "character": "DORY",
+        "text": "Sorry, you’ll have to come back later. We’re trying to escape."
+      },
+      {
+        "character": "MARLIN",
+        "text": "Okay, there's no way out. There’s gotta be a way out!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

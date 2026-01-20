@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-05-15",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "SULLEY",
+      "text": "Look, don't panic. All we have to do is call her door down and send her home.",
+      "movie": "Monsters, Inc."
+    },
+    "contextBefore": {
+      "character": "MIKE",
+      "text": "Who cares?! Oh!"
+    },
+    "contextAfter": [
+      {
+        "character": "MIKE",
+        "text": "You're right, you're right. We're just two regular Joes on our way to work. We will blend right in."
+      },
+      {
+        "character": "SULLEY",
+        "text": "Top of the mornin', fellas!"
+      },
+      {
+        "character": "MIKE",
+        "text": "Hey, what's shakin', bacon?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

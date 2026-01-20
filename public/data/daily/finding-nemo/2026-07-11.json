@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-07-11",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "HANK",
+      "text": "You were about to give me your tag.",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "DORY",
+      "text": "Mm-mm. Not a clue. What were we talking about?"
+    },
+    "contextAfter": [
+      {
+        "character": "DORY",
+        "text": "Well, I kind of like my tag. Why do you want it?"
+      },
+      {
+        "character": "HANK",
+        "text": "So I can go to...So I can go to Cleveland."
+      },
+      {
+        "character": "DORY",
+        "text": "Cleveland? I hear good things about Cleveland. Why do you want to go?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

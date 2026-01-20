@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "date": "2026-01-14",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "NIGEL",
+      "text": "Root canal. What did he use to open?",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "PEACH",
+      "text": "Root canal, and it’s a doozy."
+    },
+    "contextAfter": [
+      {
+        "character": "PEACH",
+        "text": "Gator-Glidden drill."
+      },
+      {
+        "character": "NIGEL",
+        "text": "He seems to be favoring that one. Hope he doesn’t get surplus sealer at the portal terminus. Hello! Who’s this?"
+      },
+      {
+        "character": "DEB",
+        "text": "New guy."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Dory": 2016,
+      "Finding Nemo": 2003
+    },
+    "charactersByMovie": {
+      "Finding Dory": [
+        "BAILEY",
+        "CAROL",
+        "CHARLIE",
+        "DESTINY",
+        "DORY",
+        "FEMALE AQUARIST",
+        "FEMALE AQUARIST 2",
+        "FEMALE EDUCATOR",
+        "FLUKE",
+        "HANK",
+        "HERMIT CRABS",
+        "JENNY",
+        "MALE AQUARIST",
+        "MALE AQUARIST 2",
+        "MALE EMPLOYEE",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SICK FISH",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ],
+      "Finding Nemo": [
+        "ALL",
+        "ANCHOR",
+        "ANGLERFISH",
+        "BARBARA",
+        "BERNIE",
+        "BILL",
+        "BLOAT",
+        "BOB",
+        "BOB, TED",
+        "BOTH",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "CRAB 1",
+        "CRAB 2",
+        "CRAB KID",
+        "DARLA",
+        "DEB",
+        "DIVER #2",
+        "DORY",
+        "DR. PHILLIP SHERMAN",
+        "FISH",
+        "FISH 1",
+        "FISH KIDS",
+        "FISH MOM",
+        "GERALD",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "JIMMY",
+        "KATHY",
+        "KIDS",
+        "MARLIN",
+        "MR. JOHANNSEN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PATIENT",
+        "PEACH",
+        "PEARL",
+        "PELICAN",
+        "PELICAN 1",
+        "PELICAN 2",
+        "PELICANS",
+        "SEAGULL",
+        "SEAGULLS",
+        "SHARKS",
+        "SHELDON",
+        "SHERMAN",
+        "SQUIRT",
+        "TAD",
+        "TED"
+      ]
+    }
+  }
+}

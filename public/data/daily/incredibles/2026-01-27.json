@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-01-27",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "BOB",
+      "text": "Ready? Laser eyes.",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "JACK-JACK",
+      "text": "Dada. Dada."
+    },
+    "contextAfter": [
+      {
+        "character": "BOB",
+        "text": "Stop."
+      },
+      {
+        "character": "DASH",
+        "text": "Wow!"
+      },
+      {
+        "character": "VIOLET",
+        "text": "Yeah! Yay, Jack-Jack!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

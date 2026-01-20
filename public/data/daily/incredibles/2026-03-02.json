@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-03-02",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "FROZONE",
+      "text": "Ms. Voyd. Drive safely.",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "VOYD",
+      "text": "Voyd."
+    },
+    "contextAfter": [
+      {
+        "character": "VOYD",
+        "text": "The thing is, he wants us to bring you, too."
+      },
+      {
+        "character": "FROZONE",
+        "text": "Hey."
+      },
+      {
+        "character": "FROZONE",
+        "text": "That isn't gonna hold them long! Dash, grab the baby!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

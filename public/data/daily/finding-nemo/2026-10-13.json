@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-10-13",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "ANCHOR",
+      "text": "There you are, Bruce, finally!",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "BRUCE",
+      "text": "Anchor! Chum!"
+    },
+    "contextAfter": [
+      {
+        "character": "BRUCE",
+        "text": "We got company."
+      },
+      {
+        "character": "ANCHOR",
+        "text": "It’s about time, mate."
+      },
+      {
+        "character": "CHUM",
+        "text": "We’ve already gone through all the snacks and I’m still starving!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

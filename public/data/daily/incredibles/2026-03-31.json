@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-03-31",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "VIOLET",
+      "text": "Wait, what? No.",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "DASH",
+      "text": "Hey...what if the Incredibile has ejector seats?"
+    },
+    "contextAfter": [
+      {
+        "character": "DASH",
+        "text": "Yeah, baby!"
+      },
+      {
+        "character": "VIOLET",
+        "text": "No, don't say anymore..."
+      },
+      {
+        "character": "DASH",
+        "text": "Max power! Launch!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

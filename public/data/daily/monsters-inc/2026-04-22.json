@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-04-22",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "SQUISHY",
+      "text": "Wow.",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "MIKE",
+      "text": "Exactly. There's no one type of scarer. The best scarers use their differences to their advantage."
+    },
+    "contextAfter": [
+      {
+        "character": "TERRY",
+        "text": "Terri, look. (camera pans to a three-headed monster.)"
+      },
+      {
+        "character": "DON CARLTON",
+        "text": "Hey, look at that old fella racking up the big numbers."
+      },
+      {
+        "character": "MIKE",
+        "text": "Don. That old fella is Earl \"The Terror\" Thompson!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

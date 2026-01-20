@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-03-05",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "VIOLET",
+      "text": "He vanished! That's really cool!",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "BOB",
+      "text": "Hey, I'm just demonstrating. No firing the baby around the house, you understand? This is potentially dangerous and we're trying to teach him to control his powers, okay? Stop. See the screen."
+    },
+    "contextAfter": [
+      {
+        "character": "BOB",
+        "text": "Okay, good. Use the thing. That's the current readout. Click it. See the readout? Dimension four. See the shape? That's the room. See where he is in relation? So, where is he?"
+      },
+      {
+        "character": "DASH",
+        "text": "He's...there!"
+      },
+      {
+        "character": "BOB",
+        "text": "Okay. Come out. Num-num cookie?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

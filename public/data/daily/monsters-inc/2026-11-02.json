@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-11-02",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "MIKE",
+      "text": "No!",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "REST OF OOZMA KAPPA",
+      "text": "Shhh!"
+    },
+    "contextAfter": [
+      {
+        "character": "TERRI AND TERRY",
+        "text": "5, 6, 7, 8! Da da da DAAA Da da da da da-a-a Over here!"
+      },
+      {
+        "character": "MONSTER",
+        "text": "Is that legal?"
+      },
+      {
+        "character": "BROCK PEARSON",
+        "text": "You better believe it, mop-top. The only rule is, don't get caught."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

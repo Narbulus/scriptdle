@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-06-23",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "NEMO",
+      "text": "Excuse us. Hello! We're trying to...",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "FLUKE",
+      "text": "Yeah. It's one of my favorites."
+    },
+    "contextAfter": [
+      {
+        "character": "MARLIN",
+        "text": "Son! Son. Those are sea lions.They are natural predators.They could pounce at any moment."
+      },
+      {
+        "character": "NEMO",
+        "text": "They don't look very pouncy."
+      },
+      {
+        "character": "MARLIN",
+        "text": "That's what they want you to think. Just get behind me and let me do the talking. Excuse me, we're worried about our friend. Is that a restaurant?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

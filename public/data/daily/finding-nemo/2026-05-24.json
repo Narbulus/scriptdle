@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-05-24",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "BLOAT",
+      "text": "It’s got a teardrop cross-section. Clearly a Hedstrom.",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "GURGLE",
+      "text": "That’s not a Hedstrom file. That’s a K-Flex."
+    },
+    "contextAfter": [
+      {
+        "character": "GURGLE",
+        "text": "No, K-Flex."
+      },
+      {
+        "character": "BLOAT",
+        "text": "Hedstrom!"
+      },
+      {
+        "character": "GURGLE",
+        "text": "K-FLEX!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

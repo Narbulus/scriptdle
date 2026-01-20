@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-09-29",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "VIOLET",
+      "text": "He looked at me.",
+      "movie": "The Incredibles"
+    },
+    "contextBefore": {
+      "character": "BOY 2",
+      "text": "Tony, I thought we were gonna go swimming."
+    },
+    "contextAfter": [
+      {
+        "character": "DASH",
+        "text": "Come on, Violet!"
+      },
+      {
+        "character": "BOB",
+        "text": "Darn kids. Sitting on the driveway."
+      },
+      {
+        "character": "BOB",
+        "text": "Oh, great."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

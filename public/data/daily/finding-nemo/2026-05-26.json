@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-05-26",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "ANCHOR",
+      "text": "He really doesn’t mean it, you know! He never even knew his father!!",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "MARLIN",
+      "text": "Well, then here! Read this now!"
+    },
+    "contextAfter": [
+      {
+        "character": "CHUM",
+        "text": "Don’t fall off the wagon!"
+      },
+      {
+        "character": "MARLIN",
+        "text": "Oh, no! It’s blocked!"
+      },
+      {
+        "character": "ANCHOR",
+        "text": "No, Bruce! Focus!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

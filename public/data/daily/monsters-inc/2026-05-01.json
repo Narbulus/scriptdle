@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-05-01",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "DON CARLTON",
+      "text": "Oh, hey there! Wanna join Oozma Kappa?",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "JOHNNY",
+      "text": "They look fun."
+    },
+    "contextAfter": [
+      {
+        "character": "SQUISHY",
+        "text": "We have cake!"
+      },
+      {
+        "character": "JOHNNY",
+        "text": "Go crazy."
+      },
+      {
+        "character": "MIKE",
+        "text": "Is that a joke?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-09-26",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "DORY",
+      "text": "Destiny? Really?",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "FEMALE EDUCATOR",
+      "text": "Our next guest has been here a very long time. She's a whale shark. Her name is destiny."
+    },
+    "contextAfter": [
+      {
+        "character": "FEMALE EDUCATOR",
+        "text": "You'll notice she's extremely nearsighted and has trouble navigating her environment. Oh! And here she comes now."
+      },
+      {
+        "character": "DORY",
+        "text": "Ooh! Destiny. You're a fish?"
+      },
+      {
+        "character": "DESTINY",
+        "text": "Wait. What?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

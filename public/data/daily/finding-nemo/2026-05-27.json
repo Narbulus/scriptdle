@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-05-27",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "MARLIN",
+      "text": "I’m sorry, Dory, but I do.",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "DORY",
+      "text": "No. No, you can’t! Stop! Please don’t go away. Please? No one’s ever stuck with me for so long before. And if you leave, if you leave…I just, I remember things better with you. I do. Look, P. Sherman, 42..! Ugh! I remember it, I do. It’s there, I know it is because when I look at you, I can feel it. And, I look at you and… I’m home. Please. I don’t want them to go away. I don’t want to forget."
+    },
+    "contextAfter": [
+      {
+        "character": "CRAB 1",
+        "text": "Manna from heavens!"
+      },
+      {
+        "character": "CRAB 2",
+        "text": "Sweet nectar of life!"
+      },
+      {
+        "character": "BOTH",
+        "text": "Hey!!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

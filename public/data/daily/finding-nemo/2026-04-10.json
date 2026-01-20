@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-04-10",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "DORY",
+      "text": "You mean like a party?",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "BRUCE",
+      "text": "Great! Then how’d you morsels like to come to a little... A little get-together I’m having?"
+    },
+    "contextAfter": [
+      {
+        "character": "BRUCE",
+        "text": "Yeah, yeah, right. A party! What do you say?"
+      },
+      {
+        "character": "DORY",
+        "text": "Oh, I love parties! That like sounds fun!"
+      },
+      {
+        "character": "MARLIN",
+        "text": "You know, parties are fun, and it’s tempting but can't because..."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

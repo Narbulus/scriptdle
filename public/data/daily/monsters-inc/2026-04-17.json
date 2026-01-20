@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-04-17",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "RANDALL",
+      "text": "Oh... sorry, I'm already on a team.",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "MIKE",
+      "text": "Randy! Randy, thank goodness! I need you on my team!"
+    },
+    "contextAfter": [
+      {
+        "character": "JOHNNY",
+        "text": "Boggs!"
+      },
+      {
+        "character": "RANDALL",
+        "text": "I'm finally in with the cool kids, Mike. Don't blow this for me."
+      },
+      {
+        "character": "JOHNNY",
+        "text": "Do the thing."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

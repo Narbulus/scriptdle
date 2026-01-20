@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-05-13",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "SULLEY",
+      "text": "Yeah, I'm a Sullivan! I'm the Sullivan who flunked every test, the one who got kicked out of the program, and the one who's so afraid to let everyone down that I cheated ... and I lied!",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "MIKE",
+      "text": "You'll never know what it's like to fail, because you were born a SULLIVAN!"
+    },
+    "contextAfter": [
+      {
+        "character": "SULLEY",
+        "text": "Mike, I'll never know how you feel..."
+      },
+      {
+        "character": "SULLEY",
+        "text": "...but you're not the only failure here."
+      },
+      {
+        "character": "SULLEY",
+        "text": "I act scary, Mike. But most of the time... I'm terrified."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

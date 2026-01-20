@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-07-11",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "WATERNOOSE",
+      "text": "I can't do that! She's seen too much. You both have.",
+      "movie": "Monsters, Inc."
+    },
+    "contextBefore": {
+      "character": "SULLEY",
+      "text": "She's home now! Just leave her alone!"
+    },
+    "contextAfter": [
+      {
+        "character": "SULLEY",
+        "text": "It doesn't have to be this way."
+      },
+      {
+        "character": "WATERNOOSE",
+        "text": "I have no choice! Times have changed! Scaring isn't enough anymore!"
+      },
+      {
+        "character": "SULLEY",
+        "text": "But kidnapping children?!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

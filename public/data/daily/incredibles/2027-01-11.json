@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2027-01-11",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "HELEN",
+      "text": "Oh. Bowling night. Say hello to Honey for me, Lucius.",
+      "movie": "The Incredibles"
+    },
+    "contextBefore": {
+      "character": "BOB",
+      "text": "It’s Wednesday."
+    },
+    "contextAfter": [
+      {
+        "character": "LUCIUS",
+        "text": "Will do. Good night, Helen. Good night, kids."
+      },
+      {
+        "character": "HELEN",
+        "text": "Don’t think you’ve avoided talking about your trip to the principal’s office, young man. Your father and I are still gonna discuss it."
+      },
+      {
+        "character": "DASH",
+        "text": "I’m not the only kid who’s been sent to the office, you know."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

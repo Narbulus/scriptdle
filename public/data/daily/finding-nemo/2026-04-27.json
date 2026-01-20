@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-04-27",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "MARLIN",
+      "text": "Me? I don’t have a problem.",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "BRUCE",
+      "text": "All right, anyone else? Hello, how ‘bout you, mate? What’s your problem?"
+    },
+    "contextAfter": [
+      {
+        "character": "BRUCE",
+        "text": "Oh, okay!"
+      },
+      {
+        "character": "SHARKS",
+        "text": "Denial!"
+      },
+      {
+        "character": "BRUCE",
+        "text": "Just start with your name."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

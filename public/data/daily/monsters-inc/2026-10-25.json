@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-10-25",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "JOHNNY",
+      "text": "Enjoy the attention while it lasts, boys. After you lose, no one will remember you.",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "BROCK PEARSON",
+      "text": "Which leads up to the final event! \"Every one of your skills will be put to the test. The Scare Simulator will prove who's the best.\" Tomorrow night you finally get to scare in front of the whole school!"
+    },
+    "contextAfter": [
+      {
+        "character": "MIKE",
+        "text": "Maybe. But when you lose, no one will let you forget it."
+      },
+      {
+        "character": "CHET",
+        "text": "Oh. Boy, that is a good point."
+      },
+      {
+        "character": "FEMALE MONSTER",
+        "text": "Hey, Oozmas! You guys are awesome!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

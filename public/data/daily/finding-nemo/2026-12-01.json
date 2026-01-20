@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-12-01",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "DORY",
+      "text": "Bye, Elmo!",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "SQUIRT",
+      "text": "Goodbye! See you later, dudes!!"
+    },
+    "contextAfter": [
+      {
+        "character": "MARLIN",
+        "text": "Nemo."
+      },
+      {
+        "character": "DORY",
+        "text": "Nemo! Bye, Nemo!!"
+      },
+      {
+        "character": "NEMO",
+        "text": "See you after school, Dory! Bye, dad!!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "packId": "pixar",
+  "packName": "Pixar",
+  "generatedAt": "2026-01-19T21:29:27.886648",
+  "dateRange": {
+    "start": "2026-01-19",
+    "end": "2027-01-18"
+  },
+  "totalPuzzles": 365,
+  "cycleLength": 8720,
+  "tierMessages": {
+    "perfect": "To infinity and beyond!",
+    "good": "Adventure is out there!",
+    "average": "Just keep swimming",
+    "barely": "We scare because we care",
+    "failure": "Remember me..."
+  }
+}

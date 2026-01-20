@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-11-06",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "MR. INCREDIBLE",
+      "text": "CRASH POSITIONS!",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "FROZONE",
+      "text": "HELEN! BRACE YOURSELVES!"
+    },
+    "contextAfter": [
+      {
+        "character": "ELASTIGIRL",
+        "text": "I missed Jack-Jack's first power?!"
+      },
+      {
+        "character": "MR. INCREDIBLE",
+        "text": "Actually, you missed the first 17."
+      },
+      {
+        "character": "EVELYN",
+        "text": "The fact that you saved me doesn't make you right."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

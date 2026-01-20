@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-06-28",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "CELIA",
+      "text": "Michael? Michael!",
+      "movie": "Monsters, Inc."
+    },
+    "contextBefore": {
+      "character": "CDA AGENT",
+      "text": "We have an 835 in progress. Please advise."
+    },
+    "contextAfter": [
+      {
+        "character": "MIKE",
+        "text": "Celia!"
+      },
+      {
+        "character": "CDA AGENT",
+        "text": "Please come with me."
+      },
+      {
+        "character": "CELIA",
+        "text": "Ow, stop pushing!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

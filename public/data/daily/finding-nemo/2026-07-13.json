@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-07-13",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "DORY",
+      "text": "That's... I'm... I... see, I can't because I'm no",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "HANK",
+      "text": "I'm not going with you. I won't fit. You have to go by yourself."
+    },
+    "contextAfter": [
+      {
+        "character": "MARLIN",
+        "text": "Wow!"
+      },
+      {
+        "character": "CORAL",
+        "text": "Mmm."
+      },
+      {
+        "character": "MARLIN",
+        "text": "Wow!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

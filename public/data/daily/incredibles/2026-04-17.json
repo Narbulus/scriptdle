@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-04-17",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "BOB",
+      "text": "Yeah, I know but...",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "VIOLET",
+      "text": "Aren't you glad we helped today?"
+    },
+    "contextAfter": [
+      {
+        "character": "VIOLET",
+        "text": "You said that you were proud of us."
+      },
+      {
+        "character": "BOB",
+        "text": "Well, yeah, I was—AM!"
+      },
+      {
+        "character": "DASH",
+        "text": "We wanna fight bad guys!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

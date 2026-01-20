@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-01-22",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "CHET ALEXANDER",
+      "text": "Way to go, Boggs!",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "JOHNNY WORTHINGTON",
+      "text": "Hearts?!"
+    },
+    "contextAfter": [
+      {
+        "character": "RANDALL",
+        "text": "That's the last time I lose to you... Sullivan!"
+      },
+      {
+        "character": "BROCK PEARSON",
+        "text": "Worthington and Wazowski to the starting line."
+      },
+      {
+        "character": "SULLEY",
+        "text": "Hey, don't worry about Hardscrabble. Don't worry about anyone else. Just go out there, and show 'em what Mike Wazowski can do."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

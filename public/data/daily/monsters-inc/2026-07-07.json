@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-07-07",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "JOHNNY",
+      "text": "Ah, Sulley, talk to your friend.",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "MIKE",
+      "text": "Is that a joke?"
+    },
+    "contextAfter": [
+      {
+        "character": "SULLEY",
+        "text": "Well, he's not really my friend, but sure. [to Mike] You heard him. This is a party for scare students."
+      },
+      {
+        "character": "MIKE",
+        "text": "I am a scare student."
+      },
+      {
+        "character": "SULLEY",
+        "text": "I mean for scare students who actually, you know, have a chance."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

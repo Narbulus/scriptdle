@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2027-01-10",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "HELEN (ELASTIGIRL)",
+      "text": "Wait a minute, wait a minute. You left Jack-Jack alone?!",
+      "movie": "The Incredibles"
+    },
+    "contextBefore": {
+      "character": "VIOLET/DASH",
+      "text": "...and I thought he'd try to sneak on the plane so I came here and you closed the doors before I could find him and then you took off and it's not my fault! You said, \"Something's up with Mom. We have to find out what!\" It was your idea! Your idea! Hundred percent all-yours, all-the-time idea!"
+    },
+    "contextAfter": [
+      {
+        "character": "VIOLET/DASH",
+        "text": "Yes, mom, I’m completely stupid...of course we got a sitter! Do you think I’m totally irresponsible? Thanks a lot! / No, we got someone, Mom. Someone great. We wouldn’t do that."
+      },
+      {
+        "character": "HELEN (ELASTIGIRL)",
+        "text": "All right! Well, who’d ya get?"
+      },
+      {
+        "character": "KARI",
+        "text": "You don’t have to worry about one single thing, Mrs. Parr. I’ve got this baby-sitting thing wired. I’ve taken courses and learned CPR and I got excellent marks and certificates..."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

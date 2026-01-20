@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-10-14",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "CDA AGENT #1",
+      "text": "The one from the commercial.",
+      "movie": "Monsters, Inc."
+    },
+    "contextBefore": {
+      "character": "CDA AGENT #2",
+      "text": "He's the one."
+    },
+    "contextAfter": [
+      {
+        "character": "CDA AGENT #2",
+        "text": "Affirmative, that's him."
+      },
+      {
+        "character": "CDA AGENT #1",
+        "text": "Can we get an autograph?"
+      },
+      {
+        "character": "SULLEY",
+        "text": "Oh! Oh, sure... no problem."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

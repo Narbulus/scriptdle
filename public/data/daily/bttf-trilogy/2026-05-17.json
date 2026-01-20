@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-05-17",
+  "packId": "bttf-trilogy",
+  "puzzle": {
+    "targetLine": {
+      "character": "MARTY II",
+      "text": "Who the hell is Clara??!!",
+      "movie": "Back to the Future Part III"
+    },
+    "contextBefore": {
+      "character": "MARTY II",
+      "text": "Check this out. \"Died, September 7th, 1885.\" That's one week after you wrote the letter! \"Erected in eternal memory by his beloved Clara.\""
+    },
+    "contextAfter": [
+      {
+        "character": "DOC",
+        "text": "Marty, please don't stand there!!"
+      },
+      {
+        "character": "MARTY II",
+        "text": "Oh, right, sorry. I gotta get another picture."
+      },
+      {
+        "character": "DOC",
+        "text": "\"...shot in the back by Buford Tannen over a matter of 80 dollars!\" What kind of a future do you call that?!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "back-to-the-future",
+      "back-to-the-future-part-ii",
+      "back-to-the-future-part-iii"
+    ],
+    "movieYears": {},
+    "movieTitles": {
+      "back-to-the-future": "Back to the Future",
+      "back-to-the-future-part-ii": "Back to the Future Part II",
+      "back-to-the-future-part-iii": "Back to the Future Part III"
+    },
+    "charactersByMovie": {
+      "back-to-the-future": [
+        "BIFF",
+        "DOC",
+        "GEORGE",
+        "JENNIFER",
+        "LORRAINE",
+        "MARTY"
+      ],
+      "back-to-the-future-part-ii": [
+        "1955 BIFF",
+        "1985A BIFF",
+        "1985A LORRAINE",
+        "2015 BIFF",
+        "2015 MARTY (MARTY SR.)",
+        "ALL",
+        "BIFF",
+        "DOC",
+        "GRIFF",
+        "JENNIFER",
+        "LORRAINE",
+        "MARLENE",
+        "MARTY",
+        "MARTY JR.",
+        "MARTY MCFLY"
+      ],
+      "back-to-the-future-part-iii": [
+        "1955 DOC",
+        "BUFORD",
+        "CHESTER",
+        "CLARA",
+        "COLT GUN SALESMAN",
+        "DOC",
+        "JENNIFER",
+        "MAGGIE",
+        "MARTY II",
+        "SEAMUS"
+      ]
+    }
+  }
+}

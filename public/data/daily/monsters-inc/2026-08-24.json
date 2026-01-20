@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-08-24",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "PROF. KNIGHT",
+      "text": "Results will be posted outside my office. Next!",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "PROF. KNIGHT",
+      "text": "Demonstrate."
+    },
+    "contextAfter": [
+      {
+        "character": "MIKE",
+        "text": "Focus. Johnson crackle and howl. Yes."
+      },
+      {
+        "character": "MIKE",
+        "text": "Hey. Do you mind?"
+      },
+      {
+        "character": "SULLEY",
+        "text": "Don't mind at all."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

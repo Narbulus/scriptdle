@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-06-16",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "HUPH",
+      "text": "You authorized payment on the Walker policy?!?",
+      "movie": "The Incredibles"
+    },
+    "contextBefore": {
+      "character": "HUPH",
+      "text": "PAAAAAAAAARRRRRRRRRRR!!!!!"
+    },
+    "contextAfter": [
+      {
+        "character": "BOB",
+        "text": "Someone broke into their house, Mr. Huph. (Bob scratches his left ear) Their policy clearly covers them against..."
+      },
+      {
+        "character": "HUPH",
+        "text": "I don't know wanna about their coverage, Bob. Don't tell me about their coverage. Tell me how you're keeping Insuricare in the black! Tell me how that's possible with you writing checks to every Harry Hardluck and Sally Sobstory THAT GIVES YOU A PHONE CALL!!"
+      },
+      {
+        "character": "PA ANNOUNCEMENT",
+        "text": "Morning break is over. Morning break is over."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

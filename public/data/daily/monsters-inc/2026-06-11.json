@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-06-11",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "SMITTY",
+      "text": "I bet we get the rest of the day off.",
+      "movie": "Monsters, Inc."
+    },
+    "contextBefore": {
+      "character": "CDA AGENT",
+      "text": "Take him away."
+    },
+    "contextAfter": [
+      {
+        "character": "NEEDLEMAN",
+        "text": "YOU IDIOT! They're gonna shut down the factory!"
+      },
+      {
+        "character": "MIKE",
+        "text": "I'm tellin' ya, pal, when that wall went up, you should've seen the look on Waternoose's face. Hoo-hoo! I hope we get a copy of that tape."
+      },
+      {
+        "character": "MIKE",
+        "text": "Hey, you alright? Come on, pal, cheer up. We did it! We got Boo home. Ah, sure we put the factory in the toilet, and... gee, hundreds of people will be outta work now. Not to mention the angry mob that'll come after us when there's no more power, but hey! At least we had some laughs, right?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

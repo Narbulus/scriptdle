@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-12-12",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "CHET ALEXANDER",
+      "text": "Hey, there he is!",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "PROF. KNIGHT",
+      "text": "Mr. Sullivan, nice work out there. I look forward to having you back in class."
+    },
+    "contextAfter": [
+      {
+        "character": "JOHNNY WORTHINGTON",
+        "text": "Looks like I was wrong about you. You're one of us after all."
+      },
+      {
+        "character": "CHET",
+        "text": "Way to go, Sulley! Welcome back, broham! You're one of us now, okay? So, anytime you want to come over and do whatever, you got a crew. You're a ROR, buddy!"
+      },
+      {
+        "character": "JOHNNY WORTHINGTON",
+        "text": "Hey! Where are you going?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

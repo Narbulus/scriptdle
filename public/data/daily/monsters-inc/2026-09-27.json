@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-09-27",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "SULLEY",
+      "text": "I don't need to know any of that stuff to scare.",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "DEAN",
+      "text": "I'm a seven year old boy..."
+    },
+    "contextAfter": [
+      {
+        "character": "DEAN",
+        "text": "That stuff would've informed you that this particular child is afraid of snakes, so a roar wouldn't make him scream, it would make him cry. Alerting his parents..."
+      },
+      {
+        "character": "DEAN",
+        "text": "...exposing the monster world, destroying life as we know it, and of course we can't have that. So, I'm afraid I cannot recommend that you continue in the Scaring Program. Good day."
+      },
+      {
+        "character": "SULLEY",
+        "text": "Wait, what? But I'm a Sullivan."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

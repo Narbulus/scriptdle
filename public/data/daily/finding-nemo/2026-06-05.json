@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-06-05",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "BLOAT",
+      "text": "Hedstrom!",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "GURGLE",
+      "text": "No, K-Flex."
+    },
+    "contextAfter": [
+      {
+        "character": "GURGLE",
+        "text": "K-FLEX!"
+      },
+      {
+        "character": "BLOAT",
+        "text": "HEDSTRO-"
+      },
+      {
+        "character": "SHERMAN",
+        "text": "All right, go ahead and rinse."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

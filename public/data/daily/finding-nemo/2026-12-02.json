@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-12-02",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "HANK",
+      "text": "No, no, no. If I just take your tag, I can take your place on the transport truck then you can go back inside, and find your family. All you have to do is give me the tag.",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "DORY",
+      "text": "Yes! Great idea. You take me to find them. Why didn't I think of that?"
+    },
+    "contextAfter": [
+      {
+        "character": "DORY",
+        "text": "What tag? There's a tag on my fin!"
+      },
+      {
+        "character": "HANK",
+        "text": "How could you forget you have a tag on your fin?"
+      },
+      {
+        "character": "DORY",
+        "text": "Oh no. I'm sorry. I... I suffer from short-term memory loss."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

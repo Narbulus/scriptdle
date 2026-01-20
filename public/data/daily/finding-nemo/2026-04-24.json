@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-04-24",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "BAILEY",
+      "text": "I know you're talking about me, Destiny.",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "DESTINY",
+      "text": "That's my neighbor, Bailey. He was brought in with a head injury."
+    },
+    "contextAfter": [
+      {
+        "character": "DESTINY",
+        "text": "He thinks he can't use his echolocation but I've overheard the doctors talking,"
+      },
+      {
+        "character": "BAILEY",
+        "text": "I'm right here."
+      },
+      {
+        "character": "DESTINY",
+        "text": "There's not a thing wrong with him."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

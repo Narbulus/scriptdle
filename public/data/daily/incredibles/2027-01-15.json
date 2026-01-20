@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2027-01-15",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "WINSTON",
+      "text": "Thank you, Ambassador, for your early and very crucial support. I can't think of anyone more deserving than you to be the first signature on the International Superhero Accord.",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "AMBASSADOR",
+      "text": "Thank you. Thank you so much."
+    },
+    "contextAfter": [
+      {
+        "character": "AMBASSADOR",
+        "text": "There it is!"
+      },
+      {
+        "character": "DASH",
+        "text": "HOLY COW!!"
+      },
+      {
+        "character": "VIOLET",
+        "text": "I know he's on fire! Just put him out!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

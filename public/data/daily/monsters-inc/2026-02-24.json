@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-02-24",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "SULLEY",
+      "text": "I'm gonna destroy that guy.",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "MIKE",
+      "text": "Hoohoo! I am on a roll!"
+    },
+    "contextAfter": [
+      {
+        "character": "JOHNNY",
+        "text": "Well, then, you'll get this back right away. It's time to start delivering... on that Sullivan name."
+      },
+      {
+        "character": "PROF. KNIGHT",
+        "text": "Today's final will judge your ability to assess a child's fear, and perform the appropriate scare. In the scare simulator."
+      },
+      {
+        "character": "PROF. KNIGHT",
+        "text": "The child's sensitivity level will be raised from bed wetter to heavy sleeper. So give it everything you've got. Dean Hardscrabble is with us this morning to see who will be moving on in the scaring program, and who will not."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

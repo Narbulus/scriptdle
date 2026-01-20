@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-02-18",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "DASH",
+      "text": "Nobody saw me. You could barely see it on the tape.",
+      "movie": "The Incredibles"
+    },
+    "contextBefore": {
+      "character": "HELEN",
+      "text": "He put a tack on the teacher’s chair... during class."
+    },
+    "contextAfter": [
+      {
+        "character": "BOB",
+        "text": "They caught you on tape and you still got away with it? Whoa! You must have been booking. How fast did you think you were going?"
+      },
+      {
+        "character": "HELEN",
+        "text": "Bob! We are not encouraging this."
+      },
+      {
+        "character": "BOB",
+        "text": "I’m not encouraging, I’m just asking how fast..."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

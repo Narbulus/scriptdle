@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-05-11",
+  "packId": "bttf-trilogy",
+  "puzzle": {
+    "targetLine": {
+      "character": "CLARA",
+      "text": "Yes, Emmett, I do understand. I understand that because you know I'm partial to the writings of Jules Verne you concocted those mendacities in order to take advantage of me!",
+      "movie": "Back to the Future Part III"
+    },
+    "contextBefore": {
+      "character": "DOC",
+      "text": "All right then. I'm from the future. I came here in a time machine that I invented and tomorrow I have to go back to the year 1985."
+    },
+    "contextAfter": [
+      {
+        "character": "CLARA",
+        "text": "Oh, I've heard some whoppers in my day but the fact that you'd expect me to entertain a notion like that is so...insulting and degrading! All you had to say is \"I don't love you and I don't wanna see you anymore.\" That at least would've been respectful!"
+      },
+      {
+        "character": "DOC",
+        "text": "But that's not the truth!"
+      },
+      {
+        "character": "CHESTER",
+        "text": "Emmett! What can I get you, the usual?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "back-to-the-future",
+      "back-to-the-future-part-ii",
+      "back-to-the-future-part-iii"
+    ],
+    "movieYears": {},
+    "movieTitles": {
+      "back-to-the-future": "Back to the Future",
+      "back-to-the-future-part-ii": "Back to the Future Part II",
+      "back-to-the-future-part-iii": "Back to the Future Part III"
+    },
+    "charactersByMovie": {
+      "back-to-the-future": [
+        "BIFF",
+        "DOC",
+        "GEORGE",
+        "JENNIFER",
+        "LORRAINE",
+        "MARTY"
+      ],
+      "back-to-the-future-part-ii": [
+        "1955 BIFF",
+        "1985A BIFF",
+        "1985A LORRAINE",
+        "2015 BIFF",
+        "2015 MARTY (MARTY SR.)",
+        "ALL",
+        "BIFF",
+        "DOC",
+        "GRIFF",
+        "JENNIFER",
+        "LORRAINE",
+        "MARLENE",
+        "MARTY",
+        "MARTY JR.",
+        "MARTY MCFLY"
+      ],
+      "back-to-the-future-part-iii": [
+        "1955 DOC",
+        "BUFORD",
+        "CHESTER",
+        "CLARA",
+        "COLT GUN SALESMAN",
+        "DOC",
+        "JENNIFER",
+        "MAGGIE",
+        "MARTY II",
+        "SEAMUS"
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-05-01",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "DORY",
+      "text": "What's echolocation?",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "BAILEY",
+      "text": "I hear every word you're saying about me."
+    },
+    "contextAfter": [
+      {
+        "character": "DESTINY",
+        "text": "Well, Bailey's head is supposed to put out a call, and the echo helps him find objects far away, oh, but apparently, he's still healing."
+      },
+      {
+        "character": "BAILEY",
+        "text": "Now I know you're talking about me. I really can't echolocate."
+      },
+      {
+        "character": "DESTINY",
+        "text": "Oh, I really can't have this conversation again, I just can't."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

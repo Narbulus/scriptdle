@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-01-22",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "HELEN (ELASTIGIRL)",
+      "text": "A rocket?",
+      "movie": "The Incredibles"
+    },
+    "contextBefore": {
+      "character": "MIRAGE",
+      "text": "Next time you gamble, bet your own life!"
+    },
+    "contextAfter": [
+      {
+        "character": "GUARD",
+        "text": "Hey!"
+      },
+      {
+        "character": "DASH",
+        "text": "Well, not that this isn’t fun, but I’m gonna go look around."
+      },
+      {
+        "character": "VIOLET",
+        "text": "What do you think is going on here? You think we’re on vacation or something? Mom and Dad’s lives could be in jeopardy. Or worse,"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "packId": "star-wars",
+  "packName": "Star Wars",
+  "generatedAt": "2026-01-19T21:29:28.476250",
+  "dateRange": {
+    "start": "2026-01-19",
+    "end": "2027-01-18"
+  },
+  "totalPuzzles": 365,
+  "cycleLength": 6267,
+  "tierMessages": {
+    "perfect": "Strong with the Force, you are!",
+    "good": "The Force is with you!",
+    "average": "A Jedi in training",
+    "barely": "Much to learn, you have",
+    "failure": "Failed, you have"
+  }
+}

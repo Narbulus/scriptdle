@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-09-15",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "HELEN",
+      "text": "Yes, yes, yes. It’s been a while. Listen, there’s only one person Bob would trust to patch his supersuit and that’s you.",
+      "movie": "The Incredibles"
+    },
+    "contextBefore": {
+      "character": "HELEN",
+      "text": "It’s been such a long time after all these years! So long!"
+    },
+    "contextAfter": [
+      {
+        "character": "E",
+        "text": "Yes, yes, yes. Marvelous, isn’t it? Much better than those horrible pajamas he used to wear. They are finished. When are you coming to see?"
+      },
+      {
+        "character": "HELEN",
+        "text": "Look, I’m calling about..."
+      },
+      {
+        "character": "E",
+        "text": "Don’t make me beg, darling. I won’t do it, you know."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

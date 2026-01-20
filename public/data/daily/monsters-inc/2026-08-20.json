@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-08-20",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "ART",
+      "text": "Unleash the beast, Don!",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "JOHNNY WORTHINGTON",
+      "text": "Hey Bruiser, you take it easy on Grandpa!"
+    },
+    "contextAfter": [
+      {
+        "character": "DON CARLTON",
+        "text": "Okay, then!"
+      },
+      {
+        "character": "REGGIE JACOBS",
+        "text": "YEAH!"
+      },
+      {
+        "character": "DON CARLTON",
+        "text": "Thanks for taking it easy on Grandpa."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-08-22",
+  "packId": "bttf-trilogy",
+  "puzzle": {
+    "targetLine": {
+      "character": "MARTY II",
+      "text": "Ten minutes?! Why do we have to cut these things so damn close?",
+      "movie": "Back to the Future Part III"
+    },
+    "contextBefore": {
+      "character": "CHESTER",
+      "text": "In about ten minutes, he's gonna be as sober as a priest on Sunday."
+    },
+    "contextAfter": [
+      {
+        "character": "CHESTER",
+        "text": "Here, stick this clothespin on his nose, and when he opens up his mouth, go ahead and pour it on down his gullet. Oh and stand back."
+      },
+      {
+        "character": "DOC",
+        "text": "WAHHHHH!! HOT! HOT!"
+      },
+      {
+        "character": "MARTY II",
+        "text": "He's still out!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "back-to-the-future",
+      "back-to-the-future-part-ii",
+      "back-to-the-future-part-iii"
+    ],
+    "movieYears": {},
+    "movieTitles": {
+      "back-to-the-future": "Back to the Future",
+      "back-to-the-future-part-ii": "Back to the Future Part II",
+      "back-to-the-future-part-iii": "Back to the Future Part III"
+    },
+    "charactersByMovie": {
+      "back-to-the-future": [
+        "BIFF",
+        "DOC",
+        "GEORGE",
+        "JENNIFER",
+        "LORRAINE",
+        "MARTY"
+      ],
+      "back-to-the-future-part-ii": [
+        "1955 BIFF",
+        "1985A BIFF",
+        "1985A LORRAINE",
+        "2015 BIFF",
+        "2015 MARTY (MARTY SR.)",
+        "ALL",
+        "BIFF",
+        "DOC",
+        "GRIFF",
+        "JENNIFER",
+        "LORRAINE",
+        "MARLENE",
+        "MARTY",
+        "MARTY JR.",
+        "MARTY MCFLY"
+      ],
+      "back-to-the-future-part-iii": [
+        "1955 DOC",
+        "BUFORD",
+        "CHESTER",
+        "CLARA",
+        "COLT GUN SALESMAN",
+        "DOC",
+        "JENNIFER",
+        "MAGGIE",
+        "MARTY II",
+        "SEAMUS"
+      ]
+    }
+  }
+}

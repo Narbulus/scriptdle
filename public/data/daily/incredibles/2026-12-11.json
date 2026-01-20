@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-12-11",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "DASH",
+      "text": "Yeah, baby!",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "VIOLET",
+      "text": "Yeah! Yay, Jack-Jack!"
+    },
+    "contextAfter": [
+      {
+        "character": "BOB",
+        "text": "And that's not all. Watch this. Jack-Jack, blaster ready?"
+      },
+      {
+        "character": "BOB",
+        "text": "Pew, pew, pew, pew, pew."
+      },
+      {
+        "character": "DASH",
+        "text": "No way."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-02-13",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "ELASTIGIRL",
+      "text": "Everybody, stop!",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "ELASTIGIRL",
+      "text": "Stop!"
+    },
+    "contextAfter": [
+      {
+        "character": "DASH",
+        "text": "Heads up, Dad!"
+      },
+      {
+        "character": "MR. INCREDIBLE",
+        "text": "Dash!"
+      },
+      {
+        "character": "ELASTIGIRL",
+        "text": "VIOLET! Who's watching Jack-Jack?!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

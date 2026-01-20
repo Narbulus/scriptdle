@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-11-23",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "CLAIRE WHEELER",
+      "text": "But be warned, each simulated scare has been set to the highest difficulty level.",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "BROCK PEARSON",
+      "text": "It's time to see how terrifying you really are! In the scare simulators!"
+    },
+    "contextAfter": [
+      {
+        "character": "SQUISHY",
+        "text": "The highest level?"
+      },
+      {
+        "character": "CLAIRE WHEELER",
+        "text": "First scarers to the starting line."
+      },
+      {
+        "character": "MIKE",
+        "text": "Okay, just like we planned. I'll go first, then Don..."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

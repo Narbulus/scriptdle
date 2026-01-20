@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-08-09",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "DESTINY",
+      "text": "Ugh.",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "BAILEY",
+      "text": "Can you please keep it down over there? My head hurts."
+    },
+    "contextAfter": [
+      {
+        "character": "DORY",
+        "text": "Who's that?"
+      },
+      {
+        "character": "DESTINY",
+        "text": "That's my neighbor, Bailey. He was brought in with a head injury."
+      },
+      {
+        "character": "BAILEY",
+        "text": "I know you're talking about me, Destiny."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

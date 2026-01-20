@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-07-24",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "WINSTON",
+      "text": "And I'm grateful for that.",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "ELASTIGIRL",
+      "text": "But it does make you alive."
+    },
+    "contextAfter": [
+      {
+        "character": "ELASTIGIRL",
+        "text": "I'm sorry, but she'll go to prison."
+      },
+      {
+        "character": "VIOLET",
+        "text": "Well, I'm sorry she's rich and will probably get no more than a slap on the wrist."
+      },
+      {
+        "character": "WINSTON",
+        "text": "First of all, Violet, I like you. And who knows what the future may bring, but I have a good feeling about all of you."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

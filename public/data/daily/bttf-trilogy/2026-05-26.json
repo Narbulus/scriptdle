@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-05-26",
+  "packId": "bttf-trilogy",
+  "puzzle": {
+    "targetLine": {
+      "character": "DOC",
+      "text": "Marty, let me see that photograph again.",
+      "movie": "Back to the Future Part III"
+    },
+    "contextBefore": {
+      "character": "MARTY II",
+      "text": "Yeah, it's lovely Doc. Listen, we gotta load the DeLorean; we gotta get ready to roll, alright? Hey look at that, the tombstone."
+    },
+    "contextAfter": [
+      {
+        "character": "DOC",
+        "text": "My name...it's vanished."
+      },
+      {
+        "character": "MARTY II",
+        "text": "Hey, that's great Doc! Don't you get it - we're goin' back to the future tomorrow, so everything's bein' erased!"
+      },
+      {
+        "character": "DOC",
+        "text": "But only my name is erased! The tombstone itself and the date still remain. That doesn't make sense. We know that this photograph represents what will happen if the events of today continue to run their course into tomorrow."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "back-to-the-future",
+      "back-to-the-future-part-ii",
+      "back-to-the-future-part-iii"
+    ],
+    "movieYears": {},
+    "movieTitles": {
+      "back-to-the-future": "Back to the Future",
+      "back-to-the-future-part-ii": "Back to the Future Part II",
+      "back-to-the-future-part-iii": "Back to the Future Part III"
+    },
+    "charactersByMovie": {
+      "back-to-the-future": [
+        "BIFF",
+        "DOC",
+        "GEORGE",
+        "JENNIFER",
+        "LORRAINE",
+        "MARTY"
+      ],
+      "back-to-the-future-part-ii": [
+        "1955 BIFF",
+        "1985A BIFF",
+        "1985A LORRAINE",
+        "2015 BIFF",
+        "2015 MARTY (MARTY SR.)",
+        "ALL",
+        "BIFF",
+        "DOC",
+        "GRIFF",
+        "JENNIFER",
+        "LORRAINE",
+        "MARLENE",
+        "MARTY",
+        "MARTY JR.",
+        "MARTY MCFLY"
+      ],
+      "back-to-the-future-part-iii": [
+        "1955 DOC",
+        "BUFORD",
+        "CHESTER",
+        "CLARA",
+        "COLT GUN SALESMAN",
+        "DOC",
+        "JENNIFER",
+        "MAGGIE",
+        "MARTY II",
+        "SEAMUS"
+      ]
+    }
+  }
+}

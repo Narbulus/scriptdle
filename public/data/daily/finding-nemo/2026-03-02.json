@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-03-02",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "MARLIN",
+      "text": "Answer the stripe question!",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "NEMO",
+      "text": "I’m fine."
+    },
+    "contextAfter": [
+      {
+        "character": "NEMO",
+        "text": "Three."
+      },
+      {
+        "character": "MARLIN",
+        "text": "No! See, something’s wrong with you. I have one, two, three. That’s all I have? Oh. You're okay. How’s the lucky fin?"
+      },
+      {
+        "character": "NEMO",
+        "text": "Lucky."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-12-17",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "MIKE",
+      "text": "♪ Put that thing back where it came from, or so help me... ♪",
+      "movie": "Monsters, Inc."
+    },
+    "contextBefore": {
+      "character": "MIKE",
+      "text": "Oh, hey! We're rehearsing a-a scene for the upcoming company play called, uh... \" Put That Thing Back Where It Came From, Or So Help Me\". Heh, heh... it's a musical!"
+    },
+    "contextAfter": [
+      {
+        "character": "SULLEY",
+        "text": "♪ Bom, bom, bom, bom... ♪"
+      },
+      {
+        "character": "MIKE",
+        "text": "♪ So help me! So help me! ♪ And cut. Heh, heh. We're still working on it. It's a work in progress. But hey, we need ushers!"
+      },
+      {
+        "character": "MIKE",
+        "text": "Sulley, I've had enough. Now, say goodbye to--..."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

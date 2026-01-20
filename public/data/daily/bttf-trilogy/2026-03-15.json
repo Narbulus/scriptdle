@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-03-15",
+  "packId": "bttf-trilogy",
+  "puzzle": {
+    "targetLine": {
+      "character": "CLARA",
+      "text": "Please, Emmett...you couldn't have read that when you were a little boy, it was only first published ten years ago.",
+      "movie": "Back to the Future Part III"
+    },
+    "contextBefore": {
+      "character": "DOC",
+      "text": "So do I. 20,000 Leagues Under the Sea, my absolute favorite. The first time I read that when I was a little boy, I wanted to meet Captain Nemo and..."
+    },
+    "contextAfter": [
+      {
+        "character": "DOC",
+        "text": "Oh, yes, well...I meant it made me feel like a boy."
+      },
+      {
+        "character": "DOC",
+        "text": "I never met a woman who liked Jules Verne before."
+      },
+      {
+        "character": "CLARA",
+        "text": "I never ever...met a man like you before."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "back-to-the-future",
+      "back-to-the-future-part-ii",
+      "back-to-the-future-part-iii"
+    ],
+    "movieYears": {},
+    "movieTitles": {
+      "back-to-the-future": "Back to the Future",
+      "back-to-the-future-part-ii": "Back to the Future Part II",
+      "back-to-the-future-part-iii": "Back to the Future Part III"
+    },
+    "charactersByMovie": {
+      "back-to-the-future": [
+        "BIFF",
+        "DOC",
+        "GEORGE",
+        "JENNIFER",
+        "LORRAINE",
+        "MARTY"
+      ],
+      "back-to-the-future-part-ii": [
+        "1955 BIFF",
+        "1985A BIFF",
+        "1985A LORRAINE",
+        "2015 BIFF",
+        "2015 MARTY (MARTY SR.)",
+        "ALL",
+        "BIFF",
+        "DOC",
+        "GRIFF",
+        "JENNIFER",
+        "LORRAINE",
+        "MARLENE",
+        "MARTY",
+        "MARTY JR.",
+        "MARTY MCFLY"
+      ],
+      "back-to-the-future-part-iii": [
+        "1955 DOC",
+        "BUFORD",
+        "CHESTER",
+        "CLARA",
+        "COLT GUN SALESMAN",
+        "DOC",
+        "JENNIFER",
+        "MAGGIE",
+        "MARTY II",
+        "SEAMUS"
+      ]
+    }
+  }
+}

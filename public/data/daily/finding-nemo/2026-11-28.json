@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-11-28",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "TAD",
+      "text": "Saved your life!",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "TAD",
+      "text": "Cool."
+    },
+    "contextAfter": [
+      {
+        "character": "PEARL",
+        "text": "[shrieks]"
+      },
+      {
+        "character": "PEARL",
+        "text": "Aww, you guys made me ink!"
+      },
+      {
+        "character": "NEMO",
+        "text": "What’s that?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

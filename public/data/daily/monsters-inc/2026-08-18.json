@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-08-18",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "RANDALL",
+      "text": "Word on the street is the kid's been traced back to this factory. You haven't seen anything, have you?",
+      "movie": "Monsters, Inc."
+    },
+    "contextBefore": {
+      "character": "SULLEY",
+      "text": "Oh, yeah! Crazy. Heh!"
+    },
+    "contextAfter": [
+      {
+        "character": "SULLEY",
+        "text": "Uh, well... uh... er, uh..."
+      },
+      {
+        "character": "MIKE",
+        "text": "No! No way! But, if it was an inside job, I'd put my money on Waxford."
+      },
+      {
+        "character": "RANDALL",
+        "text": "Waxford?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

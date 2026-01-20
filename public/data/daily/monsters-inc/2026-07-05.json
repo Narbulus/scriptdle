@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-07-05",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "DEAN HARDSCRABBLE",
+      "text": "Arrest him.",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "DON CARLTON",
+      "text": "Don Carlton. Sales. Folks, today is your lucky day. How many times have you asked yourself the following question...?"
+    },
+    "contextAfter": [
+      {
+        "character": "DON CARLTON",
+        "text": "Pardon?"
+      },
+      {
+        "character": "OFFICER",
+        "text": "Spread 'em, pops."
+      },
+      {
+        "character": "DON CARLTON",
+        "text": "You mind?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

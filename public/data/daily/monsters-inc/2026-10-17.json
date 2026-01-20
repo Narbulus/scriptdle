@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-10-17",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "CHET",
+      "text": "And would you like that with two sleeves, or four?",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "ART",
+      "text": "Yeah, but I'm pretty sure they read the quad."
+    },
+    "contextAfter": [
+      {
+        "character": "JOHNNY WORTHINGTON",
+        "text": "Thanks. Tell your friends."
+      },
+      {
+        "character": "MIKE",
+        "text": "Hey! What do you think you're doing?"
+      },
+      {
+        "character": "JOHNNY WORTHINGTON",
+        "text": "Raising a little money for charity."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

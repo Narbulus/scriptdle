@@ -1,0 +1,18 @@
+{
+  "packId": "disney-classics",
+  "packName": "Disney Classics",
+  "generatedAt": "2026-01-19T21:29:28.195947",
+  "dateRange": {
+    "start": "2026-01-19",
+    "end": "2027-01-18"
+  },
+  "totalPuzzles": 365,
+  "cycleLength": 9824,
+  "tierMessages": {
+    "perfect": "A dream is a wish your heart makes",
+    "good": "Let it go!",
+    "average": "Hakuna Matata",
+    "barely": "Be our guest!",
+    "failure": "How far I'll go..."
+  }
+}

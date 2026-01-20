@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-07-16",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "MARLIN",
+      "text": "I don't know. It sounds bad.",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "NEMO",
+      "text": "What are they doing?"
+    },
+    "contextAfter": [
+      {
+        "character": "DORY",
+        "text": "Are we there yet?"
+      },
+      {
+        "character": "HANK",
+        "text": "Sh. Keep it down!"
+      },
+      {
+        "character": "DORY",
+        "text": "Hank., I'm so glad I found you. It feels like... I... destiny."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

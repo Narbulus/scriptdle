@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-05-25",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "WATERNOOSE",
+      "text": "Yes, yes, I'm coming.",
+      "movie": "Monsters, Inc."
+    },
+    "contextBefore": {
+      "character": "CDA AGENT",
+      "text": "Excuse me, Mr. Waternoose..."
+    },
+    "contextAfter": [
+      {
+        "character": "WATERNOOSE",
+        "text": "All right, then, I'll see you this afternoon, James. That is, if these gentlemen hadn't shut us down."
+      },
+      {
+        "character": "SULLEY",
+        "text": "Oh, boy."
+      },
+      {
+        "character": "MIKE",
+        "text": "Oh, a scare demo. Well, that is great. Why am I the last to know? We can bring your cousin's sister's daughter along. She'll be a big hit."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

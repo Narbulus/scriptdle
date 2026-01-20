@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-06-05",
+  "packId": "bttf-trilogy",
+  "puzzle": {
+    "targetLine": {
+      "character": "1955 DOC",
+      "text": "Einstein?",
+      "movie": "Back to the Future Part III"
+    },
+    "contextBefore": {
+      "character": "1955 DOC",
+      "text": "\"Do not - I repeat - do not attempt to come back here to get me. I am perfectly happy living in the fresh air and wide-open spaces, and I fear that unnecessary time travel only risks further disruption of the space-time continuum. And please take care of - Einstein for me.\""
+    },
+    "contextAfter": [
+      {
+        "character": "MARTY II",
+        "text": "He's your dog, Doc - Einstein - it's what you call your dog...in 1985."
+      },
+      {
+        "character": "1955 DOC",
+        "text": "\"I know you will give him a good home. Remember to walk him twice a day and that he only likes canned dog food. These are my wishes. Please respect them and follow them. And so, Marty, I now say farewell and wish you Godspeed. You've been a good, kind, and loyal friend to me, and you made a real difference in my life. I will always treasure our relationship, and will think on you with fond memories, warm feelings and a special place in my heart. Your friend in time, 'Doc.' Emmett L. Brown. September 1st, 1885.\""
+      },
+      {
+        "character": "1955 DOC",
+        "text": "I never knew I could write anything so touching..."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "back-to-the-future",
+      "back-to-the-future-part-ii",
+      "back-to-the-future-part-iii"
+    ],
+    "movieYears": {},
+    "movieTitles": {
+      "back-to-the-future": "Back to the Future",
+      "back-to-the-future-part-ii": "Back to the Future Part II",
+      "back-to-the-future-part-iii": "Back to the Future Part III"
+    },
+    "charactersByMovie": {
+      "back-to-the-future": [
+        "BIFF",
+        "DOC",
+        "GEORGE",
+        "JENNIFER",
+        "LORRAINE",
+        "MARTY"
+      ],
+      "back-to-the-future-part-ii": [
+        "1955 BIFF",
+        "1985A BIFF",
+        "1985A LORRAINE",
+        "2015 BIFF",
+        "2015 MARTY (MARTY SR.)",
+        "ALL",
+        "BIFF",
+        "DOC",
+        "GRIFF",
+        "JENNIFER",
+        "LORRAINE",
+        "MARLENE",
+        "MARTY",
+        "MARTY JR.",
+        "MARTY MCFLY"
+      ],
+      "back-to-the-future-part-iii": [
+        "1955 DOC",
+        "BUFORD",
+        "CHESTER",
+        "CLARA",
+        "COLT GUN SALESMAN",
+        "DOC",
+        "JENNIFER",
+        "MAGGIE",
+        "MARTY II",
+        "SEAMUS"
+      ]
+    }
+  }
+}

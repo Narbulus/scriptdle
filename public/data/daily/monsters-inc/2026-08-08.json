@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-08-08",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "PROF. KNIGHT",
+      "text": "Outstanding!",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "MIKE",
+      "text": "Warts, boils and moles. In that order!"
+    },
+    "contextAfter": [
+      {
+        "character": "PROF. KNIGHT",
+        "text": "Ogre slump. Zombie snarl. Dominant silverback gorilla. That is some remarkable improvement, Michael."
+      },
+      {
+        "character": "PROF. KNIGHT",
+        "text": "One frightening face does not a scarer make, Mr. Sullivan."
+      },
+      {
+        "character": "MIKE",
+        "text": "A Tauntaun grimace with extra slobber!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

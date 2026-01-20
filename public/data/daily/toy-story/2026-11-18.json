@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "date": "2026-11-18",
+  "packId": "toy-story",
+  "puzzle": {
+    "targetLine": {
+      "character": "MR. POTATO HEAD",
+      "text": "Do we have to hold hands?",
+      "movie": "Toy Story"
+    },
+    "contextBefore": {
+      "character": "REX",
+      "text": "I didn't know we were supposed to have one already."
+    },
+    "contextAfter": [
+      {
+        "character": "WOODY",
+        "text": "You guys think this is a big joke. We've only got one week left before the move. I don't want any toys left behind. A moving buddy. If you don't have one, get one! All right, next. Uh, oh, yes. Tuesday night's plastic corrosion awareness meeting was, I think, a big success. And we wanna thank Mr. Spell for putting that on for us. Thank you, Mr. Spell."
+      },
+      {
+        "character": "MR. SPELL",
+        "text": "You're welcome."
+      },
+      {
+        "character": "WOODY",
+        "text": "OK. Uh, oh, yes. One, uh, minor note here."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Toy Story",
+      "Toy Story 2",
+      "Toy Story 3",
+      "Toy Story 4"
+    ],
+    "movieYears": {
+      "Toy Story": 1995,
+      "Toy Story 2": 1999,
+      "Toy Story 3": 2010,
+      "Toy Story 4": 2019
+    },
+    "charactersByMovie": {
+      "Toy Story": [
+        "ALIENS",
+        "ANDY",
+        "ANDY'S MOM",
+        "BO PEEP",
+        "BUZZ LIGHTYEAR",
+        "HAMM",
+        "HANNAH",
+        "LENNY",
+        "LYLE LOVETT",
+        "MR. POTATO HEAD",
+        "MRS. DAVIS",
+        "PIZZA DELIVERER",
+        "RANDY NEWMAN",
+        "REX",
+        "SARGE",
+        "SID",
+        "SLINKY",
+        "WOODY",
+        "WOODY'S VOICE BOX"
+      ],
+      "Toy Story 2": [
+        "AL",
+        "ALIENS",
+        "ANDY",
+        "BO PEEP",
+        "BUZZ LIGHTYEAR",
+        "EMPEROR ZURG",
+        "HAMM",
+        "JESSIE",
+        "MAN",
+        "MR. POTATO HEAD",
+        "MRS. POTATO HEAD",
+        "REX",
+        "SLINKY",
+        "STINKY PETE",
+        "TOUR GUIDE BARBIE",
+        "TV WOODY",
+        "UTILITY BELT BUZZ",
+        "WHEEZY",
+        "WOODY"
+      ],
+      "Toy Story 3": [
+        "ALIENS",
+        "ANDY",
+        "ANDY DAVIS",
+        "ANDY'S MOM",
+        "BARBIE",
+        "BONNIE ANDERSON",
+        "BONNIE'S MOM",
+        "BUTTERCUP",
+        "BUZZ LIGHTYEAR",
+        "CHATTER TELEPHONE",
+        "CHUCKLES",
+        "DOLLY",
+        "HAMM",
+        "JESSIE",
+        "KEN",
+        "LOTSO",
+        "MOLLY",
+        "MR. POTATO HEAD",
+        "MR. PRICKLEPANTS",
+        "MRS. ANDERSON",
+        "MRS. DAVIS",
+        "MRS. POTATO HEAD",
+        "ONE EYED BART",
+        "REX",
+        "SLINKY",
+        "STRETCH",
+        "TOYS",
+        "TRIXIE",
+        "TWITCH",
+        "WOODY"
+      ],
+      "Toy Story 4": [
+        "BO PEEP",
+        "BONNIE",
+        "BUNNY",
+        "BUTTERCUP",
+        "BUZZ",
+        "BUZZ'S VOICE BOX",
+        "CAR OWNER",
+        "CHAIROL BURNETT",
+        "COMBAT CARL #1",
+        "DOLLY",
+        "DUCKY",
+        "DUKE CABOOM",
+        "FORKY",
+        "GABBY GABBY",
+        "GIGGLE MCDIMPLES",
+        "HAMM",
+        "HARMONY",
+        "HARMONY'S MOM",
+        "JESSIE",
+        "JULIA",
+        "LARRY",
+        "MELEPHANT BROOKS",
+        "MISS WENDY",
+        "MR. POTATO HEAD",
+        "MRS. DAVIS",
+        "OLD TIMER",
+        "REX",
+        "SLINKY DOG",
+        "TRIXIE",
+        "WOODY",
+        "WOODY'S VOICE BOX",
+        "YOUNG ANDY"
+      ]
+    }
+  }
+}

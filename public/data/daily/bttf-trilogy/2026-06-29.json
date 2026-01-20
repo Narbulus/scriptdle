@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-06-29",
+  "packId": "bttf-trilogy",
+  "puzzle": {
+    "targetLine": {
+      "character": "MARTY II",
+      "text": "What do you mean, Doc? All the best stuff is made in Japan.",
+      "movie": "Back to the Future Part III"
+    },
+    "contextBefore": {
+      "character": "1955 DOC",
+      "text": "Unbelievable, that this piece of junk could be such a big problem. No wonder this circuit failed... it says, \"Made in Japan.\""
+    },
+    "contextAfter": [
+      {
+        "character": "1955 DOC",
+        "text": "Unbelievable!"
+      },
+      {
+        "character": "1955 DOC",
+        "text": "You know, when I was a kid, I always wanted to be a cowboy. Now, knowing I'll spend my future in the past it sounds like a wonderful way to spend my retirement years. It just occurred to me...since I end up in 1885 perhaps I'm now in the history books. I wonder...could I go to the library and look myself up in the old newspaper archives?"
+      },
+      {
+        "character": "MARTY II",
+        "text": "I dunno, Doc, you're the one who's always saying, you know, it's not too good to know too much about your own destiny."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "back-to-the-future",
+      "back-to-the-future-part-ii",
+      "back-to-the-future-part-iii"
+    ],
+    "movieYears": {},
+    "movieTitles": {
+      "back-to-the-future": "Back to the Future",
+      "back-to-the-future-part-ii": "Back to the Future Part II",
+      "back-to-the-future-part-iii": "Back to the Future Part III"
+    },
+    "charactersByMovie": {
+      "back-to-the-future": [
+        "BIFF",
+        "DOC",
+        "GEORGE",
+        "JENNIFER",
+        "LORRAINE",
+        "MARTY"
+      ],
+      "back-to-the-future-part-ii": [
+        "1955 BIFF",
+        "1985A BIFF",
+        "1985A LORRAINE",
+        "2015 BIFF",
+        "2015 MARTY (MARTY SR.)",
+        "ALL",
+        "BIFF",
+        "DOC",
+        "GRIFF",
+        "JENNIFER",
+        "LORRAINE",
+        "MARLENE",
+        "MARTY",
+        "MARTY JR.",
+        "MARTY MCFLY"
+      ],
+      "back-to-the-future-part-iii": [
+        "1955 DOC",
+        "BUFORD",
+        "CHESTER",
+        "CLARA",
+        "COLT GUN SALESMAN",
+        "DOC",
+        "JENNIFER",
+        "MAGGIE",
+        "MARTY II",
+        "SEAMUS"
+      ]
+    }
+  }
+}

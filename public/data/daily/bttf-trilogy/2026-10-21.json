@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-10-21",
+  "packId": "bttf-trilogy",
+  "puzzle": {
+    "targetLine": {
+      "character": "MARTY",
+      "text": "Ah, Jesus Christ! Jesus Christ, Doc, you disintegrated Einstein!",
+      "movie": "Back to the Future"
+    },
+    "contextBefore": {
+      "character": "DOC",
+      "text": "The temporal displacement occurred exactly 1:20 A.M. and zero seconds!"
+    },
+    "contextAfter": [
+      {
+        "character": "DOC",
+        "text": "Calm down, Marty!"
+      },
+      {
+        "character": "DOC",
+        "text": "I didn't disintegrate anything! The molecular structure of both Einstein and the car are completely intact."
+      },
+      {
+        "character": "MARTY",
+        "text": "Then, where the hell are they?!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "back-to-the-future",
+      "back-to-the-future-part-ii",
+      "back-to-the-future-part-iii"
+    ],
+    "movieYears": {},
+    "movieTitles": {
+      "back-to-the-future": "Back to the Future",
+      "back-to-the-future-part-ii": "Back to the Future Part II",
+      "back-to-the-future-part-iii": "Back to the Future Part III"
+    },
+    "charactersByMovie": {
+      "back-to-the-future": [
+        "BIFF",
+        "DOC",
+        "GEORGE",
+        "JENNIFER",
+        "LORRAINE",
+        "MARTY"
+      ],
+      "back-to-the-future-part-ii": [
+        "1955 BIFF",
+        "1985A BIFF",
+        "1985A LORRAINE",
+        "2015 BIFF",
+        "2015 MARTY (MARTY SR.)",
+        "ALL",
+        "BIFF",
+        "DOC",
+        "GRIFF",
+        "JENNIFER",
+        "LORRAINE",
+        "MARLENE",
+        "MARTY",
+        "MARTY JR.",
+        "MARTY MCFLY"
+      ],
+      "back-to-the-future-part-iii": [
+        "1955 DOC",
+        "BUFORD",
+        "CHESTER",
+        "CLARA",
+        "COLT GUN SALESMAN",
+        "DOC",
+        "JENNIFER",
+        "MAGGIE",
+        "MARTY II",
+        "SEAMUS"
+      ]
+    }
+  }
+}

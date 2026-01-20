@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-05-11",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "LUCIUS",
+      "text": "I’m just... getting... a drink.",
+      "movie": "The Incredibles"
+    },
+    "contextBefore": {
+      "character": "POLICE OFFICER",
+      "text": "I SAID FREEZE!!"
+    },
+    "contextAfter": [
+      {
+        "character": "POLICE OFFICER",
+        "text": "Alright. You’ve had your drink.... Now I want you to..."
+      },
+      {
+        "character": "LUCIUS",
+        "text": "I know. I know..."
+      },
+      {
+        "character": "LUCIUS",
+        "text": "Freeze."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

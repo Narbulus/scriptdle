@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-08-01",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "CHUM",
+      "text": "Remember, Bruce, fish are friends, not food!",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "ANCHOR",
+      "text": "You hold it together, mate!"
+    },
+    "contextAfter": [
+      {
+        "character": "BRUCE",
+        "text": "FOOD!!!"
+      },
+      {
+        "character": "MARLIN",
+        "text": "Dory, look out!"
+      },
+      {
+        "character": "BRUCE",
+        "text": "I’m havin' fish tonight!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-12-24",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "MONSTER",
+      "text": "What you did today was insane! That was awesome!",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "TRENTON HICKS",
+      "text": "These guys are crazy!"
+    },
+    "contextAfter": [
+      {
+        "character": "TERRI",
+        "text": "Thank you! Thank you, so much. Thank you."
+      },
+      {
+        "character": "MIKE",
+        "text": "Oozma Kappa, tonight, we party like SCARERS!!!!"
+      },
+      {
+        "character": "SQUISHY",
+        "text": "I never stayed up this late in my life!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

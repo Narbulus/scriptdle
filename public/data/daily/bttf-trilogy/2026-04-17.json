@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-04-17",
+  "packId": "bttf-trilogy",
+  "puzzle": {
+    "targetLine": {
+      "character": "MARTY",
+      "text": "I don't remember bars bein' on these windows.",
+      "movie": "Back to the Future Part II"
+    },
+    "contextBefore": {
+      "character": "DOC",
+      "text": "All right. Come on. Let's go, Einie. Don't worry. She'll be fine."
+    },
+    "contextAfter": [
+      {
+        "character": "DOC",
+        "text": "If you need me, I'll be back at my lab dismantling this thing."
+      },
+      {
+        "character": "MARTY",
+        "text": "Right. What the hell? Hey. Hey, wait. Wait a minute. What are you doing in my room?!"
+      },
+      {
+        "character": "LORRAINE",
+        "text": "Help! Rape! Mom! Okay. Okay. Dad, help!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "back-to-the-future",
+      "back-to-the-future-part-ii",
+      "back-to-the-future-part-iii"
+    ],
+    "movieYears": {},
+    "movieTitles": {
+      "back-to-the-future": "Back to the Future",
+      "back-to-the-future-part-ii": "Back to the Future Part II",
+      "back-to-the-future-part-iii": "Back to the Future Part III"
+    },
+    "charactersByMovie": {
+      "back-to-the-future": [
+        "BIFF",
+        "DOC",
+        "GEORGE",
+        "JENNIFER",
+        "LORRAINE",
+        "MARTY"
+      ],
+      "back-to-the-future-part-ii": [
+        "1955 BIFF",
+        "1985A BIFF",
+        "1985A LORRAINE",
+        "2015 BIFF",
+        "2015 MARTY (MARTY SR.)",
+        "ALL",
+        "BIFF",
+        "DOC",
+        "GRIFF",
+        "JENNIFER",
+        "LORRAINE",
+        "MARLENE",
+        "MARTY",
+        "MARTY JR.",
+        "MARTY MCFLY"
+      ],
+      "back-to-the-future-part-iii": [
+        "1955 DOC",
+        "BUFORD",
+        "CHESTER",
+        "CLARA",
+        "COLT GUN SALESMAN",
+        "DOC",
+        "JENNIFER",
+        "MAGGIE",
+        "MARTY II",
+        "SEAMUS"
+      ]
+    }
+  }
+}

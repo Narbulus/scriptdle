@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-06-07",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "NEMO",
+      "text": "Dad, you’re not gonna freak out like you did at the petting zoo, are you?",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "MARLIN",
+      "text": "Well, you know what, if I ever meet a sea turtle, I'll ask him. After I'm done talking to the shark, okay? Whoa, whoa, whoa! Hold on, hold on, wait to cross. [The traffic stopped because of that one red fish.] Hold my fin, hold my fin."
+    },
+    "contextAfter": [
+      {
+        "character": "MARLIN",
+        "text": "Hey, that snail was about to charge. Hmm, I wonder where we're supposed to go."
+      },
+      {
+        "character": "FISH KIDS",
+        "text": "Bye, Mom!"
+      },
+      {
+        "character": "FISH MOM",
+        "text": "I’ll pick you up after school."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-02-12",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "JOHNNY WORTHINGTON",
+      "text": "Hey! Where are you going?",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "CHET",
+      "text": "Way to go, Sulley! Welcome back, broham! You're one of us now, okay? So, anytime you want to come over and do whatever, you got a crew. You're a ROR, buddy!"
+    },
+    "contextAfter": [
+      {
+        "character": "DEAN HARDSCRABBLE",
+        "text": "You did what?"
+      },
+      {
+        "character": "SULLEY",
+        "text": "My team had nothing to do with it. It was all me. I cheated."
+      },
+      {
+        "character": "DEAN HARDSCRABBLE",
+        "text": "I expect you off campus by tomorrow."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

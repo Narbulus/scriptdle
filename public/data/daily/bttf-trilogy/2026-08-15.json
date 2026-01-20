@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-08-15",
+  "packId": "bttf-trilogy",
+  "puzzle": {
+    "targetLine": {
+      "character": "DOC",
+      "text": "What idiot dressed you in that outfit?",
+      "movie": "Back to the Future Part III"
+    },
+    "contextBefore": {
+      "character": "MARTY II",
+      "text": "Or hanged."
+    },
+    "contextAfter": [
+      {
+        "character": "MARTY II",
+        "text": "You did."
+      },
+      {
+        "character": "DOC",
+        "text": "\"Shot in the back by Buford Tannen over a matter of 80 dollars?!?!\" September seventh! That's this Monday! Now I wish I'd paid him off!"
+      },
+      {
+        "character": "DOC",
+        "text": "And who’s this beloved Clara? I don't know anyone named Clara."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "back-to-the-future",
+      "back-to-the-future-part-ii",
+      "back-to-the-future-part-iii"
+    ],
+    "movieYears": {},
+    "movieTitles": {
+      "back-to-the-future": "Back to the Future",
+      "back-to-the-future-part-ii": "Back to the Future Part II",
+      "back-to-the-future-part-iii": "Back to the Future Part III"
+    },
+    "charactersByMovie": {
+      "back-to-the-future": [
+        "BIFF",
+        "DOC",
+        "GEORGE",
+        "JENNIFER",
+        "LORRAINE",
+        "MARTY"
+      ],
+      "back-to-the-future-part-ii": [
+        "1955 BIFF",
+        "1985A BIFF",
+        "1985A LORRAINE",
+        "2015 BIFF",
+        "2015 MARTY (MARTY SR.)",
+        "ALL",
+        "BIFF",
+        "DOC",
+        "GRIFF",
+        "JENNIFER",
+        "LORRAINE",
+        "MARLENE",
+        "MARTY",
+        "MARTY JR.",
+        "MARTY MCFLY"
+      ],
+      "back-to-the-future-part-iii": [
+        "1955 DOC",
+        "BUFORD",
+        "CHESTER",
+        "CLARA",
+        "COLT GUN SALESMAN",
+        "DOC",
+        "JENNIFER",
+        "MAGGIE",
+        "MARTY II",
+        "SEAMUS"
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-03-28",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "DON CARLTON",
+      "text": "Mike. We appreciate everything you've done. But he's right. No matter how much we train, we'll never look like them. We're built...",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "SULLEY",
+      "text": "No! You need to STOP trying! You can train monsters like this all you want, but you can't change who they are!"
+    },
+    "contextAfter": [
+      {
+        "character": "DON CARLTON",
+        "text": "...for other things."
+      },
+      {
+        "character": "CHET ALEXANDER",
+        "text": "Sorry, squirt! Some monsters just aren't cut out for the big leagues. (leaves laughing)"
+      },
+      {
+        "character": "MIKE",
+        "text": "The big leagues...?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-09-10",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "HELEN",
+      "text": "Yes! They happened! But this, our family, is what’s happening now, Bob. And you are missing this! I can’t believe you don’t wanna go to your own son’s graduation!",
+      "movie": "The Incredibles"
+    },
+    "contextBefore": {
+      "character": "BOB",
+      "text": "Reliving the glory days is better than acting like they didn’t happen!"
+    },
+    "contextAfter": [
+      {
+        "character": "BOB",
+        "text": "It’s not a graduation. He’s moving from the fourth grade to the fifth grade."
+      },
+      {
+        "character": "HELEN",
+        "text": "It’s a ceremony!"
+      },
+      {
+        "character": "BOB",
+        "text": "It’s psychotic ! They keep creating new ways to celebrate mediocrity but if someone is genuinely exceptional, then —"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

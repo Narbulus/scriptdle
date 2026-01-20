@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-10-11",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "MARLIN",
+      "text": "Well, that's very specific, but something like that, yes. You just in general don't want to...Oh my goodness. Okay. There's a mistake. We're backing away. Let us live and we will...We'll worship you. We'll build a...Do you like a monument? Oh! Ooh! Whoa! Swim for your life! Nemo!",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "DORY",
+      "text": "Are you talking about like something with one big eye, tentacles, and a snappy thing?"
+    },
+    "contextAfter": [
+      {
+        "character": "DORY",
+        "text": "Nemo!"
+      },
+      {
+        "character": "NEMO",
+        "text": "Dad!"
+      },
+      {
+        "character": "MARLIN",
+        "text": "Nemo!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-06-13",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "MIKE",
+      "text": "The big leagues...?",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "CHET ALEXANDER",
+      "text": "Sorry, squirt! Some monsters just aren't cut out for the big leagues. (leaves laughing)"
+    },
+    "contextAfter": [
+      {
+        "character": "MIKE",
+        "text": "Guys? We're going on a little field trip."
+      },
+      {
+        "character": "SQUISHY",
+        "text": "Thanks, mom."
+      },
+      {
+        "character": "SHERRI SQUIBBLES",
+        "text": "Have fun, kids. I'll just be here listening to my tunes."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

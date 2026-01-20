@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-05-16",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "EVELYN",
+      "text": "Hey, I'm using the technology to destroy people's trust in it. Like I'm using superheroes.",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "ELASTIGIRL",
+      "text": "Worse than what you're doing?"
+    },
+    "contextAfter": [
+      {
+        "character": "ELASTIGIRL",
+        "text": "Who did I put in jail?"
+      },
+      {
+        "character": "EVELYN",
+        "text": "Pizza delivery guy. Seemed the right height, build. He gave you a pretty good fight. I should say I gave you a pretty good fight through him."
+      },
+      {
+        "character": "ELASTIGIRL",
+        "text": "But it doesn't bother you that an innocent man is in jail?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

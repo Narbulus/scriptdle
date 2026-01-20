@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-07-05",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "BOB",
+      "text": "What are you... You're putting him in the...",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "EDNA",
+      "text": "I am joking, Robert. I enjoyed the assignment. He is bright and I am stimulating. We deserve each other. Your child is a polymorph. Like all babies, he has enormous potential. It is not unknown for Supers to have more than one power when young but this little one has many. Yes, you have many powers! I understand your lack of sleep and coherency, Robert. Babies can be anything, and your child is no exception. He has pure, unlimited potential, Robert. He slept while I worked in a creative fever. Auntie Edna stayed up all night making sure you look fabulous in your many forms."
+    },
+    "contextAfter": [
+      {
+        "character": "EDNA",
+        "text": "...In the chamber, Robert. He is part of the demonstration and will be fine. Your challenge is to manage a baby who has multiple powers and no control over them, yes?"
+      },
+      {
+        "character": "BOB",
+        "text": "Huh. That sums it up."
+      },
+      {
+        "character": "EDNA",
+        "text": "I often work to music and I noticed the baby responds to it as well. Specifically, Mozart. I blended Kevlar with carbyne for durability under duress and cotton for comfort. Interwoven with these fabrics are a mesh of tiny sensors that monitor the baby's physical properties."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

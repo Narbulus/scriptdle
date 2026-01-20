@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-03-08",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "NEMO",
+      "text": "Me?",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "GILL",
+      "text": "‘Cause we’ve got him."
+    },
+    "contextAfter": [
+      {
+        "character": "GILL",
+        "text": "You see that filter?"
+      },
+      {
+        "character": "NEMO",
+        "text": "Yeah?"
+      },
+      {
+        "character": "GILL",
+        "text": "You’re the only one who can get in and out of that thing. What we need you to do is take a pebble inside and jam the gears. You do that and this tank’s gonna get filthier and filthier by the minute. Pretty soon, the dentist’ll have to clean the tank himself. And when he does, he’ll take us out of the tank, put us in the individual baggies, then we roll ourselves down the counter, out of the window, off the awning, into the bushes, across the street and into the harbor! It’s foolproof! Who’s with me?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

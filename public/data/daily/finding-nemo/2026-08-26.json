@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-08-26",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "MARLIN",
+      "text": "GET UP!!!",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "DORY",
+      "text": "Yes, I’m a natural blue…"
+    },
+    "contextAfter": [
+      {
+        "character": "DORY",
+        "text": "Look out! Sharks eat fish!!!"
+      },
+      {
+        "character": "DORY",
+        "text": "[coughing] Wow! Dusty."
+      },
+      {
+        "character": "MARLIN",
+        "text": "The mask! Where’s the mask?!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

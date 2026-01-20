@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-11-01",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "VIOLET",
+      "text": "Mom! Go. We've got this.",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "ELASTIGIRL",
+      "text": "I can't just go! What about the kids? Jack-Jack, who's gonna..."
+    },
+    "contextAfter": [
+      {
+        "character": "ELASTIGIRL",
+        "text": "Voyd, come with me."
+      },
+      {
+        "character": "MR. INCREDIBLE",
+        "text": "I'll go shut down the engine."
+      },
+      {
+        "character": "FROZONE",
+        "text": "I'll try to slow the ship from the bow."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

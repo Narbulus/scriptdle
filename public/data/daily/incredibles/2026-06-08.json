@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-06-08",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "BOB",
+      "text": "No, I'm doing this. I need to do this. You know where my suit and ties are?",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "HELEN",
+      "text": "I know it was hard on you. Maybe it's my turn at in the private sector and you take care of the kids..."
+    },
+    "contextAfter": [
+      {
+        "character": "HELEN",
+        "text": "Burned up when..."
+      },
+      {
+        "character": "BOTH",
+        "text": "The jet destroyed our house."
+      },
+      {
+        "character": "HELEN",
+        "text": "Yeah. We can't count on anyone else now, Bob. It's just us. We can't wait for—"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

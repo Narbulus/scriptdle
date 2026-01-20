@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-11-17",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "MIKE",
+      "text": "...but I... was the ball... see? All right.",
+      "movie": "Monsters, Inc."
+    },
+    "contextBefore": {
+      "character": "MIKE",
+      "text": "of my life. But I love sports. Dodge-ball was the best. Oh, yeah, I was the fastest one out there. Of course I was the ball..."
+    },
+    "contextAfter": [
+      {
+        "character": "MIKE",
+        "text": "Huh?"
+      },
+      {
+        "character": "MIKE",
+        "text": "Hey, thanks a lot! I'll be here all week. Remember to tip your waitresses."
+      },
+      {
+        "character": "SULLEY",
+        "text": "Great job, Mikey. You filled your quota on the first kid of the day."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

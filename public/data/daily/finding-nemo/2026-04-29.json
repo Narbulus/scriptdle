@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-04-29",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "YOUNG DORY",
+      "text": "Okay, mommy.",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "JENNY",
+      "text": "That's right, dear. Do you think you could find me another shell? Purple ones are my favorite."
+    },
+    "contextAfter": [
+      {
+        "character": "DORY",
+        "text": "Mommy. Purple shell. Purple shell! Hey, my home had a purple shell."
+      },
+      {
+        "character": "HANK",
+        "text": "So what? Half the exhibits here have purple shells in them."
+      },
+      {
+        "character": "DORY",
+        "text": "No, no, no. You don't understand. I remember her now. Purple shells were her favorite and she had this adorable giggle. And then my dad was really friendly."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

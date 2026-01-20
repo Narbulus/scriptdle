@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-06-27",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "GURGLE",
+      "text": "She wouldn’t stop shaking the bag.",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "NEMO",
+      "text": "[worried] What? What’s wrong with her?"
+    },
+    "contextAfter": [
+      {
+        "character": "BUBBLES",
+        "text": "Poor Chuckles."
+      },
+      {
+        "character": "DEB",
+        "text": "He was her present last year."
+      },
+      {
+        "character": "BLOAT",
+        "text": "Hitched a ride on the porcelain express."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

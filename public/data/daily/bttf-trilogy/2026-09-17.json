@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-09-17",
+  "packId": "bttf-trilogy",
+  "puzzle": {
+    "targetLine": {
+      "character": "MARTY MCFLY",
+      "text": "My father told me about it.",
+      "movie": "Back to the Future Part II"
+    },
+    "contextBefore": {
+      "character": "1985A BIFF",
+      "text": "How do you know about that?"
+    },
+    "contextAfter": [
+      {
+        "character": "1985A BIFF",
+        "text": "Your father?"
+      },
+      {
+        "character": "MARTY MCFLY",
+        "text": "Before he died."
+      },
+      {
+        "character": "1985A BIFF",
+        "text": "Oh yeah, right. So there I was, mindin' my own business. This crazy old codger with a cane shows up. He says he's my distant relative. I don't see any resemblance. So he says \"How would you like to be rich?\" So I said \"Sure.\" So he lays this book on me. He says this book will tell me the outcome of every sporting event till the end of the century. All I have to do is bet on the winner, and I'll never lose. So I said \"What's the catch?\" He says, \"No catch. Just keep it a secret.\" After that, he disappeared. I never saw him again. Oh, and he told me one more thing. He said, \"Someday a crazy, wild-eyed scientist, or a kid may show up askin' about that book. And if that ever happens...\" Funny. I never thought it would be you."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "back-to-the-future",
+      "back-to-the-future-part-ii",
+      "back-to-the-future-part-iii"
+    ],
+    "movieYears": {},
+    "movieTitles": {
+      "back-to-the-future": "Back to the Future",
+      "back-to-the-future-part-ii": "Back to the Future Part II",
+      "back-to-the-future-part-iii": "Back to the Future Part III"
+    },
+    "charactersByMovie": {
+      "back-to-the-future": [
+        "BIFF",
+        "DOC",
+        "GEORGE",
+        "JENNIFER",
+        "LORRAINE",
+        "MARTY"
+      ],
+      "back-to-the-future-part-ii": [
+        "1955 BIFF",
+        "1985A BIFF",
+        "1985A LORRAINE",
+        "2015 BIFF",
+        "2015 MARTY (MARTY SR.)",
+        "ALL",
+        "BIFF",
+        "DOC",
+        "GRIFF",
+        "JENNIFER",
+        "LORRAINE",
+        "MARLENE",
+        "MARTY",
+        "MARTY JR.",
+        "MARTY MCFLY"
+      ],
+      "back-to-the-future-part-iii": [
+        "1955 DOC",
+        "BUFORD",
+        "CHESTER",
+        "CLARA",
+        "COLT GUN SALESMAN",
+        "DOC",
+        "JENNIFER",
+        "MAGGIE",
+        "MARTY II",
+        "SEAMUS"
+      ]
+    }
+  }
+}

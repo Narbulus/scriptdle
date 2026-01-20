@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "date": "2026-01-15",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "SULLEY",
+      "text": "I-It was an accident.",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "MIKE",
+      "text": "I'm so sorry..."
+    },
+    "contextAfter": [
+      {
+        "character": "DEAN",
+        "text": "What? This? My one souvenir from a lifetime of scaring. Accidents happen, don't they? The important thing is, no one got hurt."
+      },
+      {
+        "character": "MIKE",
+        "text": "You're taking this remarkably well."
+      },
+      {
+        "character": "DEAN",
+        "text": "Now, let's continue with the exams."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "ANIMATRONIC BOY",
+        "BLOBBY",
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CDA AGENT #3",
+        "CDA AGENT #4",
+        "CDA AGENT #82472",
+        "CDA AGENTS",
+        "CDA HELICOPTER PILOT",
+        "CELIA",
+        "CHARLIE",
+        "CHARLIE, WAXFORD AND FRANK",
+        "COMPUTER VOICE",
+        "COMPUTERIZED VOICE",
+        "DAY CARE WORKER",
+        "EMPLOYEE #1",
+        "EMPLOYEE #2",
+        "FRANK",
+        "FUNGUS",
+        "GEORGE",
+        "INTERVIEWEE #1",
+        "INTERVIEWEE #2",
+        "JERRY",
+        "JOSH RIVERA",
+        "LEAD CDA AGENT",
+        "MIKE",
+        "MOTHER",
+        "NEEDLEMAN",
+        "NEWSCASTER",
+        "NICK SCHMIDT",
+        "RANDALL",
+        "RANDOM ASSISTANT",
+        "RICKY",
+        "ROZ",
+        "SCIENTIST",
+        "SMITTY",
+        "SNEEZING MONSTER",
+        "SULLEY",
+        "SULLEY AND MIKE",
+        "TONY",
+        "WARD",
+        "WARD'S ASSISTANT",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ALL THE STUDENTS",
+        "ART",
+        "BRITNEY DAVIS",
+        "BROCK",
+        "BROCK PEARSON",
+        "CARRIE WILLIAMS",
+        "CHEERLEADERS",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "DON CARLTON AND ART",
+        "ETA HISS HISS MEMBER",
+        "FAKE TEENAGER",
+        "FEMALE MONSTER",
+        "GIRL",
+        "HEATHER OLSON",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "KID",
+        "LIBRARIAN",
+        "M.I. GUARD",
+        "MIKE",
+        "MIKE AND SULLEY",
+        "MONSTER",
+        "MU SECURITY MONSTER",
+        "OFFICER",
+        "OOZMA KAPPA'S",
+        "OOZMA KAPPAS",
+        "PROF. KNIGHT",
+        "PROFESSOR",
+        "RANDALL",
+        "RANDY",
+        "REFEREE",
+        "REGGIE JACOBS",
+        "REST OF OOZMA KAPPA",
+        "ROY \"BIG RED\" O'GROWLAHAN",
+        "SHERIFF",
+        "SHERRI SQUIBBLES",
+        "SINGING MONSTER",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY",
+        "TERRY",
+        "TRENTON HICKS"
+      ]
+    }
+  }
+}

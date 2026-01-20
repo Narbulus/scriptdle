@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-11-02",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "BOB",
+      "text": "Bye, honey.",
+      "movie": "The Incredibles"
+    },
+    "contextBefore": {
+      "character": "HELEN",
+      "text": "Say no more. Go save the world one policy at a time, honey. Oh! I gotta go pick up the kids from school. See you tonight."
+    },
+    "contextAfter": [
+      {
+        "character": "BOB",
+        "text": "Excuse me. Where were we?"
+      },
+      {
+        "character": "MRS. HOGENSON",
+        "text": "I'm on a fixed income, and if you can't help me, I don't know what I'll do."
+      },
+      {
+        "character": "BOB",
+        "text": "All right, listen closely. I'd like to help you, but I can't . I'd like to tell you to take a copy of your policy to Norma Wilcox on..."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

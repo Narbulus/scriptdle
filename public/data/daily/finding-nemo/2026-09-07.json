@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-09-07",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "CHUM",
+      "text": "Nemo! [laughs] Nemo! [realizes] I don’t get it.",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "MARLIN",
+      "text": "Nemo!"
+    },
+    "contextAfter": [
+      {
+        "character": "BRUCE",
+        "text": "For a clownfish, he’s not that funny."
+      },
+      {
+        "character": "MARLIN",
+        "text": "No, no, no, no, he’s my son. He was taken by, by these divers."
+      },
+      {
+        "character": "DORY",
+        "text": "Oh, my. You poor fish."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

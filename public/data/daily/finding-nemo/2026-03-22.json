@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-03-22",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "DORY",
+      "text": "This way! He went this way! Quick!!",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "NEMO",
+      "text": "My father?! You know my father?! Where is he?!"
+    },
+    "contextAfter": [
+      {
+        "character": "BOTH",
+        "text": "Hey!!"
+      },
+      {
+        "character": "DORY",
+        "text": "Hey! Have you seen an orange fish swim by? It looks just like him!"
+      },
+      {
+        "character": "NEMO",
+        "text": "But bigger!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

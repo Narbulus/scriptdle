@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-04-19",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "BOB",
+      "text": "You know I’m retired from hero work.",
+      "movie": "The Incredibles"
+    },
+    "contextBefore": {
+      "character": "E",
+      "text": "Meta-Man, Express elevator! Dynaguy, snagged on takeoff! Splashdown, sucked into a vortex! NO CAPES! Now, go on. Your new suit will be finished before your next assignment."
+    },
+    "contextAfter": [
+      {
+        "character": "E",
+        "text": "As am I, Robert. Yet here we are."
+      },
+      {
+        "character": "BOB",
+        "text": "E, I only need a patch job. For... sentimental reasons."
+      },
+      {
+        "character": "E",
+        "text": "Fine. I will also fix the hobo suit...."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

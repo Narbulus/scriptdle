@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-03-22",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "MIKE",
+      "text": "Behold, the next winning fraternity of the Scare Games, the brothers, my brothers...of Oozma Kappa!",
+      "movie": "Monsters University"
+    },
+    "contextBefore": {
+      "character": "CLAIRE WHEELER",
+      "text": "Uh...you have to be in a fraternity to compete."
+    },
+    "contextAfter": [
+      {
+        "character": "SQUISHY",
+        "text": "Hi."
+      },
+      {
+        "character": "DEAN",
+        "text": "Mr. Wazowski, what are you doing?"
+      },
+      {
+        "character": "MIKE",
+        "text": "You just said the winners are the most fearsome monsters on campus. If I win, it means you kicked out the best scarer in the whole school."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

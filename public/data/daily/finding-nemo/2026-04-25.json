@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-04-25",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "MARLIN",
+      "text": "No, no! No! Dory! Dory, slow down! We're not being chased anymore.",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "NEMO",
+      "text": "Dad!"
+    },
+    "contextAfter": [
+      {
+        "character": "DORY",
+        "text": "Are you sure? Jenny and Charlie. Jenny and Charlie! I just remembered their names! We have to keep going. We're so close. Huh?"
+      },
+      {
+        "character": "MARLIN",
+        "text": "Nemo, are you hurt?"
+      },
+      {
+        "character": "DORY",
+        "text": "Oh my goodness! Nemo! Are you okay? What happened?"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

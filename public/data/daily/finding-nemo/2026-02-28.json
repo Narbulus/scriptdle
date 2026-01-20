@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-02-28",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "DORY",
+      "text": "A boat? Hey, I’ve seen a boat. It passed by not too long ago. It went ummm... This way! It went this way. Follow me!",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "MARLIN",
+      "text": "What're you talking about? You’re showing me which way the boat went!"
+    },
+    "contextAfter": [
+      {
+        "character": "MARLIN",
+        "text": "Wait a minute, wait a minute!! What is going on?! You already told me which way the boat was going!"
+      },
+      {
+        "character": "DORY",
+        "text": "I did? Oh, no."
+      },
+      {
+        "character": "MARLIN",
+        "text": "If this is some kind of practical joke, it’s not funny! And I know funny... I’m a clownfish!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

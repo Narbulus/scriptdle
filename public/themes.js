@@ -93,19 +93,6 @@ window.SCRIPTLE_THEMES = {
     "name": "Star Wars",
     "movieCount": 6
   },
-  "disney-pixar": {
-    "primary": "#e91e63",
-    "bgColor": "#880e4f",
-    "containerBg": "#ffffff",
-    "accentColor": "#c2185b",
-    "btnText": "white",
-    "cardGradientStart": "#ec407a",
-    "cardGradientEnd": "#d81b60",
-    "cardBorder": "#e91e63",
-    "cardText": "#fff9c4",
-    "name": "Disney & Pixar",
-    "movieCount": 24
-  },
   "shrek": {
     "primary": "#7cb342",
     "bgColor": "#5d4037",

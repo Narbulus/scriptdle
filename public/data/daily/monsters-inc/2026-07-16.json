@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-07-16",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "MIKE",
+      "text": "Well, I don't know about the rest of you guys, but I spotted several big mistakes.",
+      "movie": "Monsters, Inc."
+    },
+    "contextBefore": {
+      "character": "COMPUTERIZED VOICE",
+      "text": "Simulation terminated. Simulation terminated."
+    },
+    "contextAfter": [
+      {
+        "character": "WATERNOOSE",
+        "text": "B-but... H-How'd--?"
+      },
+      {
+        "character": "MIKE",
+        "text": "You know what? Let's watch my favorite part again, shall we?"
+      },
+      {
+        "character": "WATERNOOSE",
+        "text": "I'll kidnap a THOUSAND children before I let this company die! I'll kidnap a THOUSAND children before I let this company die! I'll kidnap a THOUSAND children before I let this company die!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

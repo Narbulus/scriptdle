@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2027-01-10",
+  "packId": "bttf-trilogy",
+  "puzzle": {
+    "targetLine": {
+      "character": "1985A BIFF",
+      "text": "Oh-ho, so go ahead! But think about this, Lorraine! Who's gonna pay for all your clothes, huh? And your jewelry, and your liquor? Who's gonna pay for your cosmetic surgery, Lorraine?",
+      "movie": "Back to the Future Part II"
+    },
+    "contextBefore": {
+      "character": "1985A LORRAINE",
+      "text": "Damn it, Biff! That's it. I'm leaving!"
+    },
+    "contextAfter": [
+      {
+        "character": "1985A LORRAINE",
+        "text": "You were the one who wanted me to get these--these... things! If you want 'em back, you can have 'em."
+      },
+      {
+        "character": "1985A BIFF",
+        "text": "Look, Lorraine. You walk out that door, and I won't only cut off you, I'll cut off your kids!"
+      },
+      {
+        "character": "1985A LORRAINE",
+        "text": "You wouldn't!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "back-to-the-future",
+      "back-to-the-future-part-ii",
+      "back-to-the-future-part-iii"
+    ],
+    "movieYears": {},
+    "movieTitles": {
+      "back-to-the-future": "Back to the Future",
+      "back-to-the-future-part-ii": "Back to the Future Part II",
+      "back-to-the-future-part-iii": "Back to the Future Part III"
+    },
+    "charactersByMovie": {
+      "back-to-the-future": [
+        "BIFF",
+        "DOC",
+        "GEORGE",
+        "JENNIFER",
+        "LORRAINE",
+        "MARTY"
+      ],
+      "back-to-the-future-part-ii": [
+        "1955 BIFF",
+        "1985A BIFF",
+        "1985A LORRAINE",
+        "2015 BIFF",
+        "2015 MARTY (MARTY SR.)",
+        "ALL",
+        "BIFF",
+        "DOC",
+        "GRIFF",
+        "JENNIFER",
+        "LORRAINE",
+        "MARLENE",
+        "MARTY",
+        "MARTY JR.",
+        "MARTY MCFLY"
+      ],
+      "back-to-the-future-part-iii": [
+        "1955 DOC",
+        "BUFORD",
+        "CHESTER",
+        "CLARA",
+        "COLT GUN SALESMAN",
+        "DOC",
+        "JENNIFER",
+        "MAGGIE",
+        "MARTY II",
+        "SEAMUS"
+      ]
+    }
+  }
+}

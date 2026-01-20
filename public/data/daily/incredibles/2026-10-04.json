@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-10-04",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "HELEN",
+      "text": "No, this'll work! This'll work! Lucius, try to buy us some time!",
+      "movie": "The Incredibles"
+    },
+    "contextBefore": {
+      "character": "VIOLET",
+      "text": "It doesn't work!"
+    },
+    "contextAfter": [
+      {
+        "character": "FROZONE",
+        "text": "Try the one next to it!"
+      },
+      {
+        "character": "BOB",
+        "text": "Honey!"
+      },
+      {
+        "character": "BOB",
+        "text": "Wait a minute. PRESS THAT BUTTON AGAIN!! NO, THE OTHER ONE!! T-THE FIRST ONE!!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

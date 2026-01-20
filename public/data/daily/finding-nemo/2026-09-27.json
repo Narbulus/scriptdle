@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-09-27",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "FLUKE",
+      "text": "Oh, we know a way.",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "MARLIN",
+      "text": "Desperately. Our friend is in there. Lost, alone. She's scared. She'll have no idea what to do."
+    },
+    "contextAfter": [
+      {
+        "character": "MARLIN",
+        "text": "You do?"
+      },
+      {
+        "character": "FLUKE",
+        "text": "Ooo-roo. Ooo-roo-roo."
+      },
+      {
+        "character": "RUDDER",
+        "text": "Ooo-roo. Ooo-roo."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

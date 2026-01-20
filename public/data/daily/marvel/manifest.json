@@ -1,0 +1,18 @@
+{
+  "packId": "marvel",
+  "packName": "Marvel",
+  "generatedAt": "2026-01-19T21:29:28.291892",
+  "dateRange": {
+    "start": "2026-01-19",
+    "end": "2027-01-18"
+  },
+  "totalPuzzles": 365,
+  "cycleLength": 9473,
+  "tierMessages": {
+    "perfect": "I am Iron Man",
+    "good": "I can do this all day",
+    "average": "We are Groot",
+    "barely": "With great power...",
+    "failure": "I still believe in heroes"
+  }
+}

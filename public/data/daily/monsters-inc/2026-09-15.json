@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-09-15",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "SMITTY",
+      "text": "It is not!",
+      "movie": "Monsters, Inc."
+    },
+    "contextBefore": {
+      "character": "NEEDLEMAN",
+      "text": "Hey! It's still leaning to the left!"
+    },
+    "contextAfter": [
+      {
+        "character": "SULLEY",
+        "text": "Hey, fellas! Hey, Jerry!"
+      },
+      {
+        "character": "JERRY",
+        "text": "Morning!"
+      },
+      {
+        "character": "NEEDLEMAN",
+        "text": "Hey, Mr. Sullivan!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

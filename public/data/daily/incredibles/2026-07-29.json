@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-07-29",
+  "packId": "incredibles",
+  "puzzle": {
+    "targetLine": {
+      "character": "HELEN",
+      "text": "Ah, jeez! More superhero trouble. We just came from the police station, Lucius.",
+      "movie": "Incredibles 2"
+    },
+    "contextBefore": {
+      "character": "LUCIUS",
+      "text": "Wants to talk with me, with you two, about hero stuff. I checked him out. He's legit. Trained under Dicker. He wants to meet."
+    },
+    "contextAfter": [
+      {
+        "character": "BOB",
+        "text": "When?"
+      },
+      {
+        "character": "LUCIUS",
+        "text": "Tonight. I'm going there now."
+      },
+      {
+        "character": "HELEN",
+        "text": "You enjoy, I'm sitting this one out."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Incredibles",
+      "Incredibles 2"
+    ],
+    "movieYears": {
+      "The Incredibles": 2004,
+      "Incredibles 2": 2018
+    },
+    "charactersByMovie": {
+      "The Incredibles": [
+        "BERNIE",
+        "BOB",
+        "BOB (MR. INCREDIBLE)",
+        "DASH",
+        "E",
+        "FROZONE",
+        "GUARD",
+        "HELEN",
+        "HELEN (ELASTIGIRL)",
+        "HUPH",
+        "KARI",
+        "LUCIUS",
+        "MIRAGE",
+        "POLICE OFFICER",
+        "SYNDROME",
+        "TONY",
+        "VIOLET"
+      ],
+      "Incredibles 2": [
+        "AMBASSADOR",
+        "BOB",
+        "DASH",
+        "EDNA",
+        "ELASTIGIRL",
+        "EVELYN",
+        "FROZONE",
+        "HELEN",
+        "LUCIUS",
+        "MR. INCREDIBLE",
+        "RICK",
+        "SCREENSLAVER",
+        "TONY",
+        "UNDERMINER",
+        "VIOLET",
+        "VOYD",
+        "WINSTON"
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-10-27",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "MIKE",
+      "text": "Be relaxed, be relaxed, be relaxed.",
+      "movie": "Monsters, Inc."
+    },
+    "contextBefore": {
+      "character": "SULLEY",
+      "text": "Hey, you're good!"
+    },
+    "contextAfter": [
+      {
+        "character": "MIKE",
+        "text": "Roz, my tender, oozing blossom, you're looking fabulous today. Is that a new haircut?"
+      },
+      {
+        "character": "MIKE",
+        "text": "Come on, tell me. It's a new haircut, isn't it? That's gotta be a new haircut. New makeup? You had a lift? You had a tuck? You had something? Something has been inserted in you that makes you look like..."
+      },
+      {
+        "character": "MIKE",
+        "text": "Listen, I need a favor. Randall was working late last night out on the scare floor. I really need the key for the door he was using."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}

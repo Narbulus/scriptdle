@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-01-31",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "DORY",
+      "text": "Well, I'm gonna get help. Okay? Okay? I can do that. I'll be... It'll be all right, Nemo. Hello? Someone?Hello? Anyone? Hello? Anyone?",
+      "movie": "Finding Dory"
+    },
+    "contextBefore": {
+      "character": "NEMO",
+      "text": "I'm okay."
+    },
+    "contextAfter": [
+      {
+        "character": "SIGOURNEY WEAVER",
+        "text": "Hello."
+      },
+      {
+        "character": "DORY",
+        "text": "Hello?"
+      },
+      {
+        "character": "SIGOURNEY WEAVER",
+        "text": "I'm Sigourney Weaver."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "date": "2026-01-18",
+  "packId": "the-lord-of-the-rings",
+  "puzzle": {
+    "targetLine": {
+      "character": "SAM",
+      "text": "Mister Frodo?",
+      "movie": "The Fellowship of the Ring"
+    },
+    "contextBefore": {
+      "character": "GALADRIEL",
+      "text": "…is as the footsteps of doom. You bring great evil here, Ring-bearer!"
+    },
+    "contextAfter": [
+      {
+        "character": "GIMLI",
+        "text": "Well, here is one Dwarf she won't ensnare so easily. I have the eyes of a hawk and the ears of a fox!"
+      },
+      {
+        "character": "GIMLI",
+        "text": "Oh…"
+      },
+      {
+        "character": "HALDIR",
+        "text": "The dwarf breathes so loud, we could have shot him in the dark."
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "The Fellowship of the Ring",
+      "The Two Towers",
+      "The Return of the King"
+    ],
+    "movieYears": {
+      "The Fellowship of the Ring": 2001,
+      "The Two Towers": 2002,
+      "The Return of the King": 2003
+    },
+    "charactersByMovie": {
+      "The Fellowship of the Ring": [
+        "ARAGORN",
+        "ARWEN",
+        "BILBO",
+        "BOROMIR",
+        "CELEBORN",
+        "ELROND",
+        "ELVES",
+        "FRODO",
+        "GALADRIEL",
+        "GANDALF",
+        "GIMLI",
+        "GOLLUM",
+        "HALDIR",
+        "LEGOLAS",
+        "MERRY",
+        "MERRY AND PIPPIN",
+        "PIPPIN",
+        "SAM",
+        "SARUMAN",
+        "STRIDER"
+      ],
+      "The Two Towers": [
+        "ARAGORN",
+        "ARWEN",
+        "BOROMIR",
+        "CROWD",
+        "DENETHOR",
+        "ELROND",
+        "EOMER",
+        "EOWYN",
+        "FARAMIR",
+        "FRODO",
+        "GALADRIEL",
+        "GAMLING",
+        "GANDALF",
+        "GIMLI",
+        "GOLLUM",
+        "GRÍMA",
+        "LEGOLAS",
+        "MADRIL",
+        "MAN",
+        "MAUHÚR",
+        "MERRY",
+        "MOTHER",
+        "PIPPIN",
+        "SAM",
+        "SARUMAN",
+        "SMÉAGOL",
+        "THÉODEN",
+        "TREEBEARD",
+        "UGLÚK",
+        "ÈOMER",
+        "ÈOWYN"
+      ],
+      "The Return of the King": [
+        "ARAGORN",
+        "ARWEN",
+        "BILBO",
+        "DENETHOR",
+        "ELROND",
+        "EOMER",
+        "EOWYN",
+        "FARAMIR",
+        "FRODO",
+        "GAMLING",
+        "GANDALF",
+        "GIMLI",
+        "GOLLUM",
+        "GORBAG",
+        "GOTHMOG",
+        "LEGOLAS",
+        "MERRY",
+        "ORC CAPTAIN",
+        "PIPPIN",
+        "SAM",
+        "SARUMAN",
+        "SHAGRAT",
+        "SMÉAGOL",
+        "SOLDIER",
+        "THE KING OF THE DEAD",
+        "THEODEN",
+        "THÉODEN",
+        "WITCH-KING",
+        "ÉOMER",
+        "ÉOWYN"
+      ]
+    }
+  }
+}

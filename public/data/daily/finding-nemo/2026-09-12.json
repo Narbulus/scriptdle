@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "date": "2026-09-12",
+  "packId": "finding-nemo",
+  "puzzle": {
+    "targetLine": {
+      "character": "MARLIN",
+      "text": "You just paddle your little tail right back here, Nemo! That’s right! You are in big trouble, young man! Do you hear me? Big...!",
+      "movie": "Finding Nemo"
+    },
+    "contextBefore": {
+      "character": "TAD",
+      "text": "He touched the butt!"
+    },
+    "contextAfter": [
+      {
+        "character": "MARLIN",
+        "text": "Big..."
+      },
+      {
+        "character": "PEARL",
+        "text": "(Shrieks)"
+      },
+      {
+        "character": "NEMO",
+        "text": "DADDY, HELP ME!!!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Finding Nemo",
+      "Finding Dory"
+    ],
+    "movieYears": {
+      "Finding Nemo": 2003,
+      "Finding Dory": 2016
+    },
+    "charactersByMovie": {
+      "Finding Nemo": [
+        "ANCHOR",
+        "BLOAT",
+        "BOB",
+        "BRUCE",
+        "BUBBLES",
+        "CHUM",
+        "CORAL",
+        "DARLA",
+        "DEB",
+        "DORY",
+        "GILL",
+        "GURGLE",
+        "JACQUES",
+        "MARLIN",
+        "MR. RAY",
+        "NEMO",
+        "NIGEL",
+        "PEACH",
+        "PEARL",
+        "SHERMAN",
+        "TAD"
+      ],
+      "Finding Dory": [
+        "BAILEY",
+        "DESTINY",
+        "DORY",
+        "FLUKE",
+        "HANK",
+        "MARLIN",
+        "NEMO",
+        "RUDDER",
+        "SIGOURNEY WEAVER",
+        "YOUNG DORY"
+      ]
+    }
+  }
+}

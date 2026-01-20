@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "date": "2026-03-11",
+  "packId": "monsters-inc",
+  "puzzle": {
+    "targetLine": {
+      "character": "SULLEY",
+      "text": "Go ahead. Go to sleep. Hmm-hmm. Now. Now, go.",
+      "movie": "Monsters, Inc."
+    },
+    "contextBefore": {
+      "character": "SULLEY",
+      "text": "Okay, how 'bout I sit here until you fall asleep?"
+    },
+    "contextAfter": [
+      {
+        "character": "SULLEY",
+        "text": "Uh, you... go... to... sleep!"
+      },
+      {
+        "character": "SULLEY",
+        "text": "Hey, Mike, this might sound crazy, but I don't think that kid's dangerous."
+      },
+      {
+        "character": "MIKE",
+        "text": "Really? Well, in that case, let's keep it. I always wanted a pet that could KILL ME!!!"
+      }
+    ]
+  },
+  "metadata": {
+    "movies": [
+      "Monsters, Inc.",
+      "Monsters University"
+    ],
+    "movieYears": {
+      "Monsters, Inc.": 2001,
+      "Monsters University": 2013
+    },
+    "charactersByMovie": {
+      "Monsters, Inc.": [
+        "BOO",
+        "CDA AGENT",
+        "CDA AGENT #1",
+        "CDA AGENT #2",
+        "CELIA",
+        "FUNGUS",
+        "JERRY",
+        "MIKE",
+        "NEEDLEMAN",
+        "RANDALL",
+        "ROZ",
+        "SMITTY",
+        "SULLEY",
+        "WATERNOOSE"
+      ],
+      "Monsters University": [
+        "ART",
+        "BROCK PEARSON",
+        "CHET",
+        "CHET ALEXANDER",
+        "CLAIRE WHEELER",
+        "DEAN",
+        "DEAN HARDSCRABBLE",
+        "DON",
+        "DON CARLTON",
+        "FAKE TEENAGER",
+        "JOHNNY",
+        "JOHNNY WORTHINGTON",
+        "MIKE",
+        "MONSTER",
+        "PROF. KNIGHT",
+        "RANDALL",
+        "RANDY",
+        "SHERRI SQUIBBLES",
+        "SQUISHY",
+        "SULLEY",
+        "TERRI",
+        "TERRI AND TERRY"
+      ]
+    }
+  }
+}
