@@ -319,6 +319,48 @@ class PuzzleGenerator:
         print(f"\nGenerated themes.js with {len(themes)} pack(s)")
         print(f"Output file: {themes_file}")
 
+    def generate_sitemap(self):
+        """Generate sitemap.xml file"""
+        print(f"\n{'='*60}")
+        print(f"Generating sitemap.xml...")
+        print(f"{'='*60}")
+
+        base_url = "https://www.scriptle.com"
+        today = datetime.now().date().isoformat()
+
+        # Static routes
+        urls = [
+            f"{base_url}/",
+            f"{base_url}/collection"
+        ]
+
+        # Pack routes
+        pack_files = list(self.packs_dir.glob('*.json'))
+        for pack_file in pack_files:
+            pack_id = pack_file.stem
+            urls.append(f"{base_url}/play/{pack_id}")
+
+        # Generate XML
+        xml_content = '<?xml version="1.0" encoding="UTF-8"?>\n'
+        xml_content += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+
+        for url in urls:
+            xml_content += '  <url>\n'
+            xml_content += f'    <loc>{url}</loc>\n'
+            xml_content += f'    <lastmod>{today}</lastmod>\n'
+            xml_content += '    <changefreq>daily</changefreq>\n'
+            xml_content += '  </url>\n'
+
+        xml_content += '</urlset>'
+
+        # Write to public directory
+        sitemap_file = Path('public/sitemap.xml')
+        with open(sitemap_file, 'w', encoding='utf-8') as f:
+            f.write(xml_content)
+
+        print(f"\nGenerated sitemap.xml with {len(urls)} URLs")
+        print(f"Output file: {sitemap_file}")
+
     def generate_all(self, days=365):
         """Generate puzzles for all packs"""
         # Find all pack files
@@ -336,6 +378,9 @@ class PuzzleGenerator:
 
         # Generate themes file
         self.generate_themes_file()
+
+        # Generate sitemap
+        self.generate_sitemap()
 
         print(f"\n{'='*60}")
         print(f"Generation complete!")
@@ -356,6 +401,8 @@ def main():
         generator.generate_for_pack(args.pack, args.days)
         # Also regenerate themes file
         generator.generate_themes_file()
+        # Also regenerate sitemap
+        generator.generate_sitemap()
     else:
         generator.generate_all(args.days)
 
