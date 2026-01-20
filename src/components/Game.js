@@ -31,7 +31,7 @@ export class Game {
     this.currentAttempt = 0;
     this.gameOver = false;
     this.movieLocked = false;
-    this.guessHistory = [];
+    this.guessStats = [];
   }
 
   buildMetadata() {
@@ -141,7 +141,7 @@ export class Game {
       </div>
 
       <!-- Main Script Area -->
-      <div class="script-area" data-theme="main">
+      <div class="script-area" data-theme="script">
         <div class="script-content">
           <!-- Movie Selector -->
           <div class="movie-select-wrapper">
@@ -374,11 +374,11 @@ export class Game {
     const movieCorrect = movieGuess === target.movie;
     const charCorrect = charGuess.toUpperCase() === target.character.toUpperCase();
 
-    this.guessHistory.push({ movie: movieCorrect, char: charCorrect });
+    this.guessStats.push({ movie: movieCorrect, char: charCorrect });
 
     track('guess', {
       pack_id: this.pack.id,
-      attempt: this.guessHistory.length,
+      attempt: this.guessStats.length,
       movie_correct: movieCorrect,
       char_correct: charCorrect
     });
@@ -395,7 +395,7 @@ export class Game {
       track('game_complete', {
         pack_id: this.pack.id,
         success: true,
-        attempts: this.guessHistory.length
+        attempts: this.guessStats.length
       });
       this.showMessage(`Correct! It was ${target.character} in ${target.movie}.`, 'success');
       this.gameOver = true;
@@ -410,7 +410,7 @@ export class Game {
         track('game_complete', {
           pack_id: this.pack.id,
           success: false,
-          attempts: this.guessHistory.length
+          attempts: this.guessStats.length
         });
         this.showMessage(`Game Over! It was ${target.character} in ${target.movie}.`, 'error');
         this.gameOver = true;
@@ -446,8 +446,8 @@ export class Game {
     let charRow = '';
 
     for (let i = 0; i < 5; i++) {
-      if (i < this.guessHistory.length) {
-        const guess = this.guessHistory[i];
+      if (i < this.guessStats.length) {
+        const guess = this.guessStats[i];
         movieRow += guess.movie ? '🟢' : '⚫';
         charRow += guess.char ? '🟢' : '⚫';
       } else {
@@ -462,7 +462,7 @@ export class Game {
   }
 
   updateSharePreview() {
-    const lastGuess = this.guessHistory[this.guessHistory.length - 1];
+    const lastGuess = this.guessStats[this.guessStats.length - 1];
     const success = lastGuess && lastGuess.movie && lastGuess.char;
     const shareText = this.generateShareString(success);
     document.getElementById('share-preview').textContent = shareText;
@@ -471,7 +471,7 @@ export class Game {
   async copyShare() {
     track('share', { pack_id: this.pack.id, method: 'clipboard' });
 
-    const lastGuess = this.guessHistory[this.guessHistory.length - 1];
+    const lastGuess = this.guessStats[this.guessStats.length - 1];
     const success = lastGuess && lastGuess.movie && lastGuess.char;
     const shareText = this.generateShareString(success);
 

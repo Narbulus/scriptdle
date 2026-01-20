@@ -43,7 +43,7 @@ function createHelpModal() {
               Guess the <strong>MOVIE</strong> and the <strong>CHARACTER</strong> from the quote.
             </p>
             
-            <div id="demo-script-container" style="background: var(--container-bg); padding: 1.5rem; border: 1px solid var(--placeholder-bg); border-radius: 8px; margin-bottom: 2rem; position: relative; overflow: hidden; min-height: 200px; display: flex; flex-direction: column; justify-content: center;">
+            <div id="demo-script-container" data-theme="script" style="background: var(--script-bg); padding: 1.5rem; border: 1px solid var(--placeholder-bg); border-radius: 8px; margin-bottom: 2rem; position: relative; overflow: hidden; min-height: 200px; display: flex; flex-direction: column; justify-content: center;">
                   <!-- Animation content injected here -->
             </div>
             
@@ -198,7 +198,7 @@ function startAnimation() {
     const textContent = renderStableContent(line.text, isTextVisible, 'bar');
 
     // Use Flexbox for perfect centering, REMOVED leading whitespace in string to prevent alignment skew
-    return `<div class="script-line" style="display: flex; flex-direction: column; align-items: center; width: 100%; padding: 0.25rem 0; margin: 0;"><div class="character-name" style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.1rem; text-align: center; color: var(--text-primary); letter-spacing: 0.5px; line-height: 1.2;">${charContent}</div><div class="dialogue-text" style="font-size: 0.8rem; text-align: center; color: var(--text-primary); font-family: var(--font-mono); line-height: 1.2;">${textContent}</div></div>`;
+    return `<div class="script-line" style="display: flex; flex-direction: column; align-items: center; width: 100%; padding: 0.25rem 0; margin: 0;"><div class="character-name" style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.1rem; text-align: center; color: var(--script-text-primary); letter-spacing: 0.5px; line-height: 1.2;">${charContent}</div><div class="dialogue-text" style="font-size: 0.8rem; text-align: center; color: var(--script-text-secondary); font-family: var(--font-mono); line-height: 1.2;">${textContent}</div></div>`;
   };
 
   const render = (step) => {
@@ -223,7 +223,7 @@ function startAnimation() {
     // Title reveals on Win (Step 5)
     const titleContent = renderStableContent(realTitle, isWin, 'question', true);
 
-    html += `<div style="text-align: center; margin-bottom: 1rem; color: var(--text-primary); font-weight: 900; font-size: 0.85rem; letter-spacing: 1px; font-family: var(--font-mono); display: flex; justify-content: center; line-height: 1.2;">${titleContent}</div>`;
+    html += `<div style="text-align: center; margin-bottom: 1rem; color: var(--script-text-primary); font-weight: 900; font-size: 0.85rem; letter-spacing: 1px; font-family: var(--font-mono); display: flex; justify-content: center; line-height: 1.2;">${titleContent}</div>`;
 
     html += '<div style="flex: 1; display: flex; flex-direction: column; justify-content: center; position: relative; gap: 0.5rem; width: 100%;">';
 

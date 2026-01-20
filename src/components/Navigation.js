@@ -1,5 +1,5 @@
 import { router } from '../router.js';
-import { openCollectionModal } from '../pages/Collection.js';
+import { openStatsModal } from '../pages/Stats.js';
 import { openHelpModal } from '../components/Help.js';
 
 export function Navigation({ showBackButton = false, showHelpButton = true }) {
@@ -57,10 +57,10 @@ export function Navigation({ showBackButton = false, showHelpButton = true }) {
 
   const resultsLink = document.createElement('button');
   resultsLink.className = 'nav-results-link';
-  resultsLink.textContent = 'HISTORY';
+  resultsLink.textContent = 'STATS';
   resultsLink.onclick = (e) => {
     e.preventDefault();
-    openCollectionModal();
+    openStatsModal();
   };
 
   rightSide.appendChild(resultsLink);

@@ -9,13 +9,13 @@ import { getCurrentDate, formatDateToLocal, parseLocalDate } from '../utils/time
 // Global modal instance check
 let modalCreated = false;
 
-export function openCollectionModal() {
+export function openStatsModal() {
   if (!modalCreated) {
-    createCollectionModal();
+    createStatsModal();
     modalCreated = true;
   }
 
-  const modal = document.getElementById('collection-modal');
+  const modal = document.getElementById('stats-modal');
   if (modal) {
     // Refresh content every time it opens to show latest data
     refreshModalContent();
@@ -23,9 +23,9 @@ export function openCollectionModal() {
   }
 }
 
-function createCollectionModal() {
+function createStatsModal() {
   const modal = document.createElement('div');
-  modal.id = 'collection-modal';
+  modal.id = 'stats-modal';
   modal.className = 'modal-overlay';
   modal.setAttribute('data-theme', 'main');
   modal.style.display = 'none';
@@ -33,11 +33,11 @@ function createCollectionModal() {
   modal.innerHTML = `
     <div class="modal-container">
       <div class="modal-header">
-        <h2 class="modal-title">History</h2>
-        <button id="collection-modal-close" class="modal-close-btn">&times;</button>
+        <h2 class="modal-title">Stats</h2>
+        <button id="stats-modal-close" class="modal-close-btn">&times;</button>
       </div>
       <div class="modal-content">
-        <div id="collection-body" class="modal-body custom-scrollbar"></div>
+        <div id="stats-body" class="modal-body custom-scrollbar"></div>
       </div>
     </div>
   `;
@@ -45,7 +45,7 @@ function createCollectionModal() {
   document.body.appendChild(modal);
 
   // Bind events
-  const closeBtn = document.getElementById('collection-modal-close');
+  const closeBtn = document.getElementById('stats-modal-close');
   closeBtn.addEventListener('click', () => {
     modal.style.display = 'none';
   });
@@ -65,13 +65,13 @@ function createCollectionModal() {
 }
 
 function refreshModalContent() {
-  const body = document.getElementById('collection-body');
+  const body = document.getElementById('stats-body');
   if (!body) return;
 
   body.innerHTML = '';
 
   const content = document.createElement('div');
-  content.className = 'collection-container';
+  content.className = 'stats-container';
   content.style.padding = '0'; // Remove padding inside modal
 
   // Streak
@@ -86,9 +86,9 @@ function refreshModalContent() {
   body.appendChild(content);
 }
 
-// Keep renderCollection for route compatibility (redirects to home + open modal ideally, 
+// Keep renderStats for route compatibility (redirects to home + open modal ideally, 
 // but for now let's just make it show the modal and render a blank background or home)
-export function renderCollection({ navContainer, contentContainer }) {
+export function renderStats({ navContainer, contentContainer }) {
   // If navigated to directly, redirect to home and open modal
   window.history.replaceState(null, '', '/');
   // We need to reload or manually trigger home render, but simpler:

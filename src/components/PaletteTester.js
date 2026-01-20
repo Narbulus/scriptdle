@@ -8,7 +8,7 @@ export function initPaletteTester() {
         return; // Don't initialize in production
     }
 
-    const palettes = [
+    const mainPalettes = [
         {
             name: 'Original',
             colors: {
@@ -361,7 +361,136 @@ export function initPaletteTester() {
         }
     ];
 
-    let currentIndex = 0;
+    const scriptPalettes = [
+        {
+            name: 'Original',
+            colors: {
+                '--script-bg': '#f4f4f4',
+                '--script-surface': '#ffffff',
+                '--script-surface-alt': '#fafafa',
+                '--script-text-primary': '#333',
+                '--script-text-secondary': '#555',
+                '--script-text-muted': '#999',
+                '--script-placeholder-bg': '#e0e0e0'
+            }
+        },
+        {
+            name: 'Antique Paper',
+            colors: {
+                '--script-bg': '#faebd7',
+                '--script-surface': '#fdf7ef',
+                '--script-surface-alt': '#faf0e0',
+                '--script-text-primary': '#5c4033',
+                '--script-text-secondary': '#8b6957',
+                '--script-text-muted': '#c4aead',
+                '--script-placeholder-bg': '#f0dec5'
+            }
+        },
+        {
+            name: 'Vanilla Cream',
+            colors: {
+                '--script-bg': '#fdfbf7',
+                '--script-surface': '#fffefc',
+                '--script-surface-alt': '#f9f8f4',
+                '--script-text-primary': '#4a4538',
+                '--script-text-secondary': '#6b6351',
+                '--script-text-muted': '#a39985',
+                '--script-placeholder-bg': '#f2eee5'
+            }
+        },
+        {
+            name: 'Drafting Blue',
+            colors: {
+                '--script-bg': '#f0f8ff',
+                '--script-surface': '#f5faff',
+                '--script-surface-alt': '#edf6ff',
+                '--script-text-primary': '#2c3e50',
+                '--script-text-secondary': '#4a6278',
+                '--script-text-muted': '#8ba0b5',
+                '--script-placeholder-bg': '#dbeaff'
+            }
+        },
+        {
+            name: 'Script Mint',
+            colors: {
+                '--script-bg': '#f0fff0',
+                '--script-surface': '#fafffa',
+                '--script-surface-alt': '#f0fcf0',
+                '--script-text-primary': '#2d4a3e',
+                '--script-text-secondary': '#4b7060',
+                '--script-text-muted': '#8ca89c',
+                '--script-placeholder-bg': '#dfffe0'
+            }
+        },
+        {
+            name: 'Warm Linen',
+            colors: {
+                '--script-bg': '#faf0e6',
+                '--script-surface': '#fdfcf8',
+                '--script-surface-alt': '#fbf3ea',
+                '--script-text-primary': '#594a3a',
+                '--script-text-secondary': '#857360',
+                '--script-text-muted': '#bdaea0',
+                '--script-placeholder-bg': '#f2e6d9'
+            }
+        },
+        {
+            name: 'Peach Puff',
+            colors: {
+                '--script-bg': '#ffdab9',
+                '--script-surface': '#fff0e0',
+                '--script-surface-alt': '#ffe4cc',
+                '--script-text-primary': '#664229',
+                '--script-text-secondary': '#8f6a4e',
+                '--script-text-muted': '#cca991',
+                '--script-placeholder-bg': '#ffceb0'
+            }
+        },
+        {
+            name: 'Mint Cream',
+            colors: {
+                '--script-bg': '#f5fffa',
+                '--script-surface': '#ffffff',
+                '--script-surface-alt': '#f0f9f3',
+                '--script-text-primary': '#2e5242',
+                '--script-text-secondary': '#547868',
+                '--script-text-muted': '#9db5aa',
+                '--script-placeholder-bg': '#e6f7ec'
+            }
+        },
+        {
+            name: 'Cool Slate',
+            colors: {
+                '--script-bg': '#f5f5f5',
+                '--script-surface': '#fafafa',
+                '--script-surface-alt': '#f2f2f2',
+                '--script-text-primary': '#333',
+                '--script-text-secondary': '#666',
+                '--script-text-muted': '#999',
+                '--script-placeholder-bg': '#e6e6e6'
+            }
+        },
+        {
+            name: 'Soft Rose',
+            colors: {
+                '--script-bg': '#fff0f5',
+                '--script-surface': '#fff5f8',
+                '--script-surface-alt': '#fff0f5',
+                '--script-text-primary': '#5e2d3e',
+                '--script-text-secondary': '#8a5c6d',
+                '--script-text-muted': '#c4a6b2',
+                '--script-placeholder-bg': '#ffe0ea'
+            }
+        }
+    ];
+
+    // Find default indices (Deep Ocean for main, Antique Paper for script)
+    let mainIndex = mainPalettes.findIndex(p => p.name === 'Deep Ocean');
+    let scriptIndex = scriptPalettes.findIndex(p => p.name === 'Antique Paper');
+
+    // Fallback to 0 if not found
+    if (mainIndex === -1) mainIndex = 0;
+    if (scriptIndex === -1) scriptIndex = 0;
 
     // Create container
     const container = document.createElement('div');
@@ -376,9 +505,10 @@ export function initPaletteTester() {
         zIndex: '10000',
         display: 'flex',
         flexDirection: 'column',
-        gap: '5px',
+        gap: '10px',
         fontFamily: '"Courier New", Courier, monospace',
-        boxShadow: '0 2px 10px rgba(0,0,0,0.2)'
+        boxShadow: '0 2px 10px rgba(0,0,0,0.2)',
+        minWidth: '200px'
     });
 
     // Label
@@ -387,23 +517,62 @@ export function initPaletteTester() {
     label.style.fontWeight = 'bold';
     label.style.textAlign = 'center';
     label.style.marginBottom = '5px';
+    label.style.fontSize = '14px';
     container.appendChild(label);
 
-    // Current Palette Name display
-    const nameDisplay = document.createElement('div');
-    nameDisplay.textContent = palettes[currentIndex].name;
-    nameDisplay.style.textAlign = 'center';
-    nameDisplay.style.marginBottom = '5px';
-    container.appendChild(nameDisplay);
+    // Main Theme Section
+    const mainSection = document.createElement('div');
+    mainSection.style.borderBottom = '1px solid #ccc';
+    mainSection.style.paddingBottom = '8px';
 
-    // Buttons container
-    const btnContainer = document.createElement('div');
-    Object.assign(btnContainer.style, {
+    const mainLabel = document.createElement('div');
+    mainLabel.textContent = 'Main Theme';
+    mainLabel.style.fontSize = '11px';
+    mainLabel.style.fontWeight = 'bold';
+    mainLabel.style.marginBottom = '3px';
+    mainLabel.style.color = '#666';
+    mainSection.appendChild(mainLabel);
+
+    const mainNameDisplay = document.createElement('div');
+    mainNameDisplay.textContent = mainPalettes[mainIndex].name;
+    mainNameDisplay.style.textAlign = 'center';
+    mainNameDisplay.style.marginBottom = '5px';
+    mainNameDisplay.style.fontSize = '12px';
+    mainSection.appendChild(mainNameDisplay);
+
+    const mainBtnContainer = document.createElement('div');
+    Object.assign(mainBtnContainer.style, {
         display: 'flex',
         justifyContent: 'space-between',
         gap: '5px'
     });
-    container.appendChild(btnContainer);
+    mainSection.appendChild(mainBtnContainer);
+
+    // Script Theme Section
+    const scriptSection = document.createElement('div');
+
+    const scriptLabel = document.createElement('div');
+    scriptLabel.textContent = 'Script Theme';
+    scriptLabel.style.fontSize = '11px';
+    scriptLabel.style.fontWeight = 'bold';
+    scriptLabel.style.marginBottom = '3px';
+    scriptLabel.style.color = '#666';
+    scriptSection.appendChild(scriptLabel);
+
+    const scriptNameDisplay = document.createElement('div');
+    scriptNameDisplay.textContent = scriptPalettes[scriptIndex].name;
+    scriptNameDisplay.style.textAlign = 'center';
+    scriptNameDisplay.style.marginBottom = '5px';
+    scriptNameDisplay.style.fontSize = '12px';
+    scriptSection.appendChild(scriptNameDisplay);
+
+    const scriptBtnContainer = document.createElement('div');
+    Object.assign(scriptBtnContainer.style, {
+        display: 'flex',
+        justifyContent: 'space-between',
+        gap: '5px'
+    });
+    scriptSection.appendChild(scriptBtnContainer);
 
     const createBtn = (text, onClick) => {
         const btn = document.createElement('button');
@@ -415,37 +584,64 @@ export function initPaletteTester() {
             backgroundColor: '#333',
             color: 'white',
             border: 'none',
-            borderRadius: '4px'
+            borderRadius: '4px',
+            flex: '1'
         });
         btn.onclick = onClick;
         return btn;
     };
 
-    const updatePalette = () => {
-        const palette = palettes[currentIndex];
-        nameDisplay.textContent = palette.name;
+    const updateMainPalette = () => {
+        const palette = mainPalettes[mainIndex];
+        mainNameDisplay.textContent = palette.name;
 
-        // Apply all colors in the palette
         Object.entries(palette.colors).forEach(([property, value]) => {
             document.documentElement.style.setProperty(property, value);
         });
     };
 
-    const prevBtn = createBtn('<', () => {
-        currentIndex = (currentIndex - 1 + palettes.length) % palettes.length;
-        updatePalette();
+    const updateScriptPalette = () => {
+        const palette = scriptPalettes[scriptIndex];
+        scriptNameDisplay.textContent = palette.name;
+
+        Object.entries(palette.colors).forEach(([property, value]) => {
+            document.documentElement.style.setProperty(property, value);
+        });
+    };
+
+    const mainPrevBtn = createBtn('<', () => {
+        mainIndex = (mainIndex - 1 + mainPalettes.length) % mainPalettes.length;
+        updateMainPalette();
     });
 
-    const nextBtn = createBtn('>', () => {
-        currentIndex = (currentIndex + 1) % palettes.length;
-        updatePalette();
+    const mainNextBtn = createBtn('>', () => {
+        mainIndex = (mainIndex + 1) % mainPalettes.length;
+        updateMainPalette();
     });
 
-    btnContainer.appendChild(prevBtn);
-    btnContainer.appendChild(nextBtn);
+    const scriptPrevBtn = createBtn('<', () => {
+        scriptIndex = (scriptIndex - 1 + scriptPalettes.length) % scriptPalettes.length;
+        updateScriptPalette();
+    });
+
+    const scriptNextBtn = createBtn('>', () => {
+        scriptIndex = (scriptIndex + 1) % scriptPalettes.length;
+        updateScriptPalette();
+    });
+
+    mainBtnContainer.appendChild(mainPrevBtn);
+    mainBtnContainer.appendChild(mainNextBtn);
+
+    scriptBtnContainer.appendChild(scriptPrevBtn);
+    scriptBtnContainer.appendChild(scriptNextBtn);
+
+    container.appendChild(mainSection);
+    container.appendChild(scriptSection);
 
     document.body.appendChild(container);
 
-    // Initialize with current selection
-    updatePalette();
+    // Initialize with current selections
+    updateMainPalette();
+    updateScriptPalette();
 }
+

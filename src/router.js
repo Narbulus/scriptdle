@@ -1,7 +1,7 @@
 import { renderHome } from './pages/Home.js';
 import { renderPlay } from './pages/Play.js';
 import { track } from './utils/analytics.js';
-import { renderCollection } from './pages/Collection.js';
+import { renderStats } from './pages/Stats.js';
 import { renderLegal } from './pages/Legal.js';
 import { renderAbout } from './pages/About.js';
 import { Footer } from './components/Footer.js';
@@ -9,7 +9,7 @@ import { Footer } from './components/Footer.js';
 
 const routes = {
   '/': renderHome,
-  '/collection': renderCollection,
+  '/stats': renderStats,
   '/play/:packId': renderPlay,
   '/movie/:movieId': (params) => renderPlay({ ...params, singleMovie: true }),
   '/legal': renderLegal,
