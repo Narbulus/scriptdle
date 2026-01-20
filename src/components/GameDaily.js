@@ -30,7 +30,7 @@ export class GameDaily {
     this.currentAttempt = 0;
     this.gameOver = false;
     this.movieLocked = false;
-    this.guessHistory = [];
+    this.guessStats = [];
 
     // Modal cache
     this.packMoviesCache = null;
@@ -42,15 +42,16 @@ export class GameDaily {
     if (savedProgress) {
       // Restore state
       this.gameOver = savedProgress.gameOver;
+      this.win = savedProgress.win || (savedProgress.gameOver && savedProgress.success);
       this.currentAttempt = savedProgress.attempts;
       this.movieLocked = savedProgress.movieLocked || false;
 
-      // Restore guess history
-      if (savedProgress.guessHistory) {
-        this.guessHistory = savedProgress.guessHistory;
+      // Restore guess stats
+      if (savedProgress.guessStats || savedProgress.guessHistory) {
+        this.guessStats = savedProgress.guessStats || savedProgress.guessHistory;
       } else {
         // Backward compatibility - reconstruct from old format
-        this.guessHistory = this.reconstructGuessHistory(savedProgress);
+        this.guessStats = this.reconstructGuessStats(savedProgress);
       }
     }
 
@@ -58,8 +59,17 @@ export class GameDaily {
     this.render();
     this.bindEvents();
 
+    // Enable transitions after initial render to prevent animation on load
+    requestAnimationFrame(() => {
+      const scriptArea = document.querySelector('.script-area');
+      if (scriptArea) {
+        scriptArea.classList.remove('no-transition');
+      }
+    });
+
     // Restore movie selector if needed
     if (savedProgress && savedProgress.selectedMovie) {
+      const movieSelect = document.getElementById('movie-select');
       if (movieSelect) {
         movieSelect.value = savedProgress.selectedMovie;
         movieSelect.disabled = this.movieLocked;
@@ -85,7 +95,7 @@ export class GameDaily {
 
   showCompletionUI(success, isNewCompletion = false) {
     // Determine tier and message
-    const attemptCount = this.guessHistory.length;
+    const attemptCount = this.guessStats.length;
     let tier;
     if (!success) {
       tier = 'failure';
@@ -145,33 +155,37 @@ export class GameDaily {
     const target = this.puzzle.targetLine;
     const answerText = `It was <strong>${target.character}</strong> in <br><em>${target.movie}</em>`;
 
+    // Hide game message on completion
+    const messageEl = document.getElementById('message');
+    if (messageEl) messageEl.style.display = 'none';
+
     // Hide game controls and show new completion UI
     document.getElementById('game-controls').style.display = 'none';
     const shareContainer = document.getElementById('share-container');
     shareContainer.style.display = 'flex';
 
-    // Inject new UI structure
+    // Inject new UI structure (compact - no countdown, already in footer)
     shareContainer.innerHTML = `
       <div class="completion-content">
         <div class="completion-header">
           <h2 class="completion-title">${tierMessage}</h2>
           <div class="completion-answer">${answerText}</div>
         </div>
-        
+
         <div class="completion-row">
           <div class="stat-box">
             <div class="stat-value">${streak}</div>
             <div class="stat-label">Day Streak</div>
           </div>
-          
+
           ${badgeHtml}
-          
+
           <div class="stat-box">
-            <div class="stat-value">${this.guessHistory.length}/5</div>
+            <div class="stat-value">${this.guessStats.length}/5</div>
             <div class="stat-label">Attempts</div>
           </div>
         </div>
-        
+
         <div class="share-section">
           <button id="share-btn">Share Results</button>
           ${this.puzzle.imdbId
@@ -180,58 +194,42 @@ export class GameDaily {
           <a href="/" data-link class="footer-more-movies" style="margin-top: 1rem; font-size: 0.9rem;">Back to Menu</a>
         </div>
       </div>
-      
-      <div id="countdown-area" class="completion-footer">
-        <div id="countdown-wrapper"></div>
-      </div>
     `;
 
     // Re-bind share button since we overwrote the innerHTML
     document.getElementById('share-btn').addEventListener('click', () => this.shareResults());
-
-    // Add countdown
-    const countdownWrapper = document.getElementById('countdown-wrapper');
-    if (countdownWrapper) {
-      countdownWrapper.appendChild(Countdown());
-    }
   }
 
-  reconstructGuessHistory(savedProgress) {
-    // Reconstruct a minimal guess history for rendering purposes
-    const history = [];
+  reconstructGuessStats(savedProgress) {
+    // Reconstruct a minimal guess stats for rendering purposes
+    const stats = [];
     const target = this.puzzle.targetLine;
 
     for (let i = 0; i < savedProgress.attempts; i++) {
       if (i === savedProgress.attempts - 1) {
         // Last guess - use actual success state
-        history.push({
+        stats.push({
           movie: savedProgress.success,
           char: savedProgress.success
         });
       } else {
         // Earlier guesses - assume they were wrong (for visual purposes only)
-        history.push({
+        stats.push({
           movie: false,
           char: false
         });
       }
     }
 
-    return history;
+    return stats;
   }
 
   render() {
     const target = this.puzzle.targetLine;
 
     this.container.innerHTML = `
-      <!-- Script Title Section -->
-      <div class="script-title-section" data-theme="main">
-        <div class="script-title">${this.pack.name}</div>
-        <a id="movies-subtitle-link" class="script-subtitle script-subtitle-link">${this.metadata.movies.length} Movies</a>
-      </div>
-
-      <!-- Main Script Area -->
-      <div class="script-area" data-theme="main">
+      <!-- Main Script Area - now starts at top -->
+      <div class="script-area no-transition" data-theme="script">
         <div class="script-content">
           <!-- Script Lines -->
           <div id="script-display"></div>
@@ -240,9 +238,13 @@ export class GameDaily {
 
       <!-- Footer with Controls -->
       <div class="game-footer">
-        <div id="message" class="message" style="display: none;"></div>
 
         <div id="game-controls" ${this.gameOver ? 'style="display:none;"' : ''}>
+          <!-- Pack Header Row - moved from top -->
+          <div class="pack-header-row">
+            ${this.pack.name.toUpperCase()} (<a id="movies-subtitle-link" class="pack-header-movies-link">${this.metadata.movies.length} MOVIES</a>)
+          </div>
+
           <div class="footer-selectors">
             <div class="select-wrapper">
               <select id="movie-select">
@@ -268,6 +270,7 @@ export class GameDaily {
               <a href="/" data-link class="footer-more-movies">More Movies</a>
             </div>
           </div>
+          <div id="message" class="message-overlay" style="display: none;"></div>
         </div>
         
         <div id="other-packs-container"></div>
@@ -296,15 +299,45 @@ export class GameDaily {
 
     if (this.movieLocked) {
       const movieSelect = document.getElementById('movie-select');
-      movieSelect.value = target.movie;
+      movieSelect.value = this.getMovieId(target.movie);
       movieSelect.disabled = true;
       movieSelect.parentElement.classList.add('correct');
     }
   }
 
+  getMovieId(title) {
+    if (!this.metadata.movies || !this.metadata.movieTitles) return title;
+
+    // Find the ID that maps to this title
+    const id = this.metadata.movies.find(m =>
+      this.metadata.movieTitles[m] === title || m === title
+    );
+
+    return id || title;
+  }
+
   renderScript() {
     const container = document.getElementById('script-display');
     container.innerHTML = '';
+
+    // Update script area expansion based on attempts
+    const scriptArea = document.querySelector('.script-area');
+    if (scriptArea) {
+      scriptArea.classList.remove('playing-0', 'expanded-1', 'expanded-2', 'expanded-full');
+      // Clear any inline style overrides
+      scriptArea.style.maxHeight = '';
+
+      if (this.gameOver) {
+        // Always show full script when game is over
+        scriptArea.classList.add('expanded-full');
+      } else if (this.currentAttempt >= 3) {
+        scriptArea.classList.add('expanded-2');
+      } else if (this.currentAttempt >= 1) {
+        scriptArea.classList.add('expanded-1');
+      } else {
+        scriptArea.classList.add('playing-0');
+      }
+    }
 
     if (this.gameOver) {
       // Show target line
@@ -358,6 +391,37 @@ export class GameDaily {
       const revealText2 = this.currentAttempt >= 3;
       const revealChar2 = this.currentAttempt >= 4;
       this.renderClueLine(this.puzzle.contextAfter[1], revealText2, revealChar2);
+    }
+
+    // Dynamically adjust script area height based on visible quotes
+    if (scriptArea) {
+      requestAnimationFrame(() => {
+        const allLines = container.querySelectorAll('.script-line');
+        const padding = 32; // Extra padding for visual breathing room
+
+        let targetHeight = 0;
+
+        if (this.currentAttempt === 0) {
+          // Show only first quote
+          if (allLines[0]) {
+            targetHeight = allLines[0].offsetHeight + padding;
+          }
+        } else if (this.currentAttempt >= 1 && this.currentAttempt < 3) {
+          // Show first + second quote (bottom of 2nd quote)
+          if (allLines[0] && allLines[1]) {
+            targetHeight = allLines[0].offsetHeight + allLines[1].offsetHeight + padding;
+          }
+        } else if (this.currentAttempt >= 3) {
+          // Show first + second + third quote (bottom of 3rd quote)
+          if (allLines[0] && allLines[1] && allLines[2]) {
+            targetHeight = allLines[0].offsetHeight + allLines[1].offsetHeight + allLines[2].offsetHeight + padding;
+          }
+        }
+
+        if (targetHeight > 0) {
+          scriptArea.style.maxHeight = `${targetHeight}px`;
+        }
+      });
     }
 
     // Trigger character dropdown update
@@ -605,7 +669,7 @@ export class GameDaily {
     const movieCorrect = movieGuessTitle === target.movie || movieGuess === target.movie;
     const charCorrect = charGuess.toUpperCase() === target.character.toUpperCase();
 
-    this.guessHistory.push({ movie: movieCorrect, char: charCorrect });
+    this.guessStats.push({ movie: movieCorrect, char: charCorrect });
 
     if (movieCorrect) {
       this.movieLocked = true;
@@ -619,6 +683,7 @@ export class GameDaily {
     if (movieCorrect && charCorrect) {
       // Don't show success message for win - go straight to completion UI
       this.gameOver = true;
+      this.win = true;
       this.saveProgress();
       this.renderScript();
       this.showCompletionUI(true, true);
@@ -640,7 +705,7 @@ export class GameDaily {
         this.saveProgress();
         this.renderScript();
         if (this.movieLocked) {
-          document.getElementById('movie-select').value = target.movie;
+          document.getElementById('movie-select').value = this.getMovieId(target.movie);
           document.getElementById('movie-select').disabled = true;
           this.onMovieChange();
           document.getElementById('char-select').value = '';
@@ -655,9 +720,31 @@ export class GameDaily {
       console.error('Message element not found');
       return;
     }
+
+    // Clear any existing fade timeout
+    if (this.messageTimeout) {
+      clearTimeout(this.messageTimeout);
+    }
+    if (this.messageFadeTimeout) {
+      clearTimeout(this.messageFadeTimeout);
+    }
+
+    // Reset state and show message
+    el.classList.remove('fading');
     el.textContent = msg;
-    el.className = 'message ' + type;
+    el.className = 'message-overlay ' + type;
     el.style.display = 'block';
+
+    // Auto-fade after 3 seconds
+    this.messageTimeout = setTimeout(() => {
+      el.classList.add('fading');
+
+      // Hide after fade animation completes (500ms transition)
+      this.messageFadeTimeout = setTimeout(() => {
+        el.style.display = 'none';
+        el.classList.remove('fading');
+      }, 500);
+    }, 3000);
   }
 
   generateShareString(success) {
@@ -668,8 +755,8 @@ export class GameDaily {
     let charRow = '';
 
     for (let i = 0; i < 5; i++) {
-      if (i < this.guessHistory.length) {
-        const guess = this.guessHistory[i];
+      if (i < this.guessStats.length) {
+        const guess = this.guessStats[i];
         movieRow += guess.movie ? '🟢' : '⚫';
         charRow += guess.char ? '🟢' : '⚫';
       } else {
@@ -793,9 +880,9 @@ export class GameDaily {
     if (!subtitle) return;
 
     // Determine tier
-    const attemptCount = this.guessHistory.length;
-    const success = this.guessHistory[this.guessHistory.length - 1]?.movie &&
-      this.guessHistory[this.guessHistory.length - 1]?.char;
+    const attemptCount = this.guessStats.length;
+    const success = this.guessStats[this.guessStats.length - 1]?.movie &&
+      this.guessStats[this.guessStats.length - 1]?.char;
 
     let tier;
     if (!success) {
@@ -817,7 +904,7 @@ export class GameDaily {
 
   saveProgress() {
     const key = `scriptle:${this.pack.id}:${this.date}`;
-    const lastGuess = this.guessHistory[this.guessHistory.length - 1];
+    const lastGuess = this.guessStats[this.guessStats.length - 1];
     const success = lastGuess?.movie && lastGuess?.char;
 
     // Get selected movie for restoring dropdown
@@ -826,10 +913,11 @@ export class GameDaily {
 
     const data = {
       v: STORAGE_VERSION,
-      attempts: this.guessHistory.length,  // Actual number of attempts, not index
+      attempts: this.guessStats.length,  // Actual number of attempts, not index
       success: this.gameOver ? success : null,
+      win: this.win,
       gameOver: this.gameOver,
-      guessHistory: this.guessHistory,
+      guessStats: this.guessStats,
       movieLocked: this.movieLocked,
       selectedMovie: selectedMovie,
       completedAt: this.gameOver ? new Date().toISOString() : null
@@ -899,7 +987,7 @@ export class GameDaily {
   }
 
   async shareResults() {
-    const lastGuess = this.guessHistory[this.guessHistory.length - 1];
+    const lastGuess = this.guessStats[this.guessStats.length - 1];
     const success = lastGuess && lastGuess.movie && lastGuess.char;
     const shareData = this.generateShareData(success);
     const shareText = shareData.text;
@@ -994,13 +1082,13 @@ export class GameDaily {
             <div class="movie-links">
               ${mainUrl
           ? `<a href="${mainUrl}" target="_blank" rel="noopener noreferrer" class="movie-imdb-link">
-                     Details →
+                     Details
                    </a>`
           : `<span class="movie-no-link">IMDB unavailable</span>`
         }
               ${castUrl
           ? `<a href="${castUrl}" target="_blank" rel="noopener noreferrer" class="movie-imdb-link">
-                     Cast →
+                     Cast
                    </a>`
           : ``
         }

@@ -4,19 +4,58 @@
   display: flex !important;
   /* Force flex since we use it to structure the page */
   flex-direction: column;
-  justify-content: space-between;
-  /* Push footer to bottom */
+  justify-content: flex-start;
+  /* Tighter layout - no push to bottom */
   width: 100%;
-  /* min-height: 50vh; REMOVED for modal usage */
+}
+
+/* Scene toggle button for reveal/hide script area */
+.scene-toggle {
+  font-family: var(--font-mono) !important;
+  font-size: 1rem !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  color: var(--primary-color) !important;
+  background: transparent !important;
+  border: none !important;
+  cursor: pointer;
+  padding: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.25rem !important;
+  text-decoration: none !important;
+  transition: opacity var(--transition-base) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  font-style: normal !important;
+}
+
+.scene-toggle:hover {
+  opacity: 0.7 !important;
+  filter: none !important;
+  transform: none !important;
+  background: transparent !important;
+}
+
+.scene-toggle-text {
+  text-decoration: underline;
+}
+
+.scene-toggle .caret {
+  font-size: 0.7rem;
+  margin-left: 0.25rem;
+  text-decoration: none;
 }
 
 .completion-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
+  /* Reduced from 2rem */
   width: 100%;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
+  /* Reduced from 2rem */
 }
 
 .completion-header {

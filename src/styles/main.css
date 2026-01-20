@@ -75,16 +75,16 @@
      THEME COLORS
      ======================================== */
 
-  /* Main Theme - home page UI, script area */
-  --main-bg: #f4f4f4;
-  --main-surface: #ffffff;
-  --main-surface-alt: #fafafa;
-  --main-text: #333;
-  --main-text-secondary: #555;
-  --main-text-muted: #999;
-  --main-text-error: #c00;
-  --main-nav-bg: #e0e0e0;
-  --main-placeholder-bg: #e0e0e0;
+  /* Main Theme - home page UI (Default: Deep Ocean) */
+  --main-bg: #0d1b2a;
+  --main-surface: #1b263b;
+  --main-surface-alt: #152031;
+  --main-text: #e0e1dd;
+  --main-text-secondary: #b0c4de;
+  --main-text-muted: #778da9;
+  --main-text-error: #f77f00;
+  --main-nav-bg: #2d4059;
+  --main-placeholder-bg: #324a63;
 
   /* Pack Theme - pack-branded elements, game controls */
   --pack-primary: #333;
@@ -102,17 +102,14 @@
   --pack-card-border: #333;
   --pack-card-text: #ffffff;
 
-  /* Palette Defaults (used by PaletteTester) */
-  --palette-nav-bg: var(--main-nav-bg);
-  --palette-text-primary: var(--main-text);
-  --palette-text-secondary: var(--main-text-secondary);
-  --palette-text-muted: var(--main-text-muted);
-  --palette-text-error: var(--main-text-error);
-
-  /* Inner Script Defaults */
-  --script-text-primary: var(--main-text);
-  --script-text-secondary: var(--main-text-secondary);
-  --script-text-muted: var(--main-text-muted);
+  /* Script Theme - script area and help modal example (Default: Antique Paper) */
+  --script-bg: #faebd7;
+  --script-surface: #fdf7ef;
+  --script-surface-alt: #faf0e0;
+  --script-text-primary: #5c4033;
+  --script-text-secondary: #8b6957;
+  --script-text-muted: #c4aead;
+  --script-placeholder-bg: #f0dec5;
 }
 
 
@@ -127,6 +124,8 @@ body {
   background: var(--bg-color);
   line-height: 1.2;
   transition: background 0.3s;
+  overflow-y: scroll;
+  /* Prevent horizontal jitter from scrollbar appearing/disappearing */
 }
 
 /* ========================================
@@ -146,8 +145,6 @@ body {
   --accent-color: var(--main-text-secondary);
   --btn-text: var(--main-surface);
   --highlight: #e2e2e2;
-  --script-bg: var(--main-surface);
-  --script-line-alt: var(--main-surface-alt);
   --placeholder-bg: var(--main-placeholder-bg);
   --text-primary: var(--main-text);
   --text-secondary: var(--main-text-secondary);
@@ -162,6 +159,11 @@ body {
 [data-theme="main"] .footer-bar {
   background: var(--main-nav-bg);
 }
+
+[data-theme="main"] .game-footer {
+  background: var(--main-nav-bg);
+}
+
 
 [data-theme="main"] .nav-logo,
 [data-theme="main"] .nav-back {
@@ -198,9 +200,6 @@ body {
   --accent-color: var(--pack-accent);
   --btn-text: var(--pack-btn-text);
   --highlight: #e2e2e2;
-  --script-bg: var(--pack-surface);
-  --script-line-alt: var(--pack-surface);
-  /* Fallback, or need a pack alter tokens */
   --placeholder-bg: #e0e0e0;
   --text-primary: var(--pack-text);
   --text-secondary: var(--pack-text-secondary);
@@ -215,6 +214,11 @@ body {
 [data-theme="pack"] .footer-bar {
   background: var(--pack-bg);
 }
+
+[data-theme="pack"] .game-footer {
+  background: var(--pack-bg);
+}
+
 
 [data-theme="pack"] .nav-logo,
 [data-theme="pack"] .nav-back {
@@ -258,15 +262,40 @@ body {
   color: var(--pack-card-text);
 }
 
+/* Script theme context - script area and help modal examples */
+[data-theme="script"] {
+  background: var(--script-bg);
+  color: var(--script-text-primary);
+  --placeholder-bg: var(--script-placeholder-bg);
+}
+
+[data-theme="script"] .script-area {
+  background: var(--script-bg);
+}
+
+[data-theme="script"] .script-line:nth-child(even)::before {
+  background: var(--script-surface-alt);
+}
+
+[data-theme="script"] .character-name {
+  color: var(--script-text-primary);
+}
+
+[data-theme="script"] .dialogue-text {
+  color: var(--script-text-secondary);
+}
+
+[data-theme="script"] .script-then {
+  color: var(--script-text-muted);
+}
+
+
 .container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-#nav-bar-container {
-  /* Nav container - inherits styling from child .nav-bar */
-}
 
 #content-area {
   flex: 1;
@@ -396,10 +425,37 @@ body {
 
 /* Script area */
 .script-area {
-  flex: 1;
-  background: var(--script-bg);
+  flex: 0 0 auto;
   padding: 0;
   overflow: hidden;
+  position: relative;
+  /* Base height fits about one quote - used for win-collapsed state */
+  /* Increased to ensure first quote is never obscured */
+  max-height: 200px;
+  transition: max-height 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.script-area.no-transition {
+  transition: none !important;
+}
+
+/* Playing states - show current clues */
+/* Note: playing-0 max-height may be overridden by JS for long first quotes */
+.script-area.playing-0 {
+  max-height: 450px;
+}
+
+.script-area.expanded-1 {
+  max-height: 380px;
+}
+
+.script-area.expanded-2 {
+  max-height: 500px;
+}
+
+/* Fully expanded state */
+.script-area.expanded-full {
+  max-height: 2000px;
 }
 
 .script-content {
@@ -416,8 +472,6 @@ body {
   font-size: 0.85rem;
   font-weight: 600;
   font-style: italic;
-  color: var(--script-text-muted);
-  /* Was #999 */
   text-transform: uppercase;
   letter-spacing: 0.15em;
   text-align: center;
@@ -433,6 +487,10 @@ body {
   align-items: center;
   gap: 0.5rem;
   flex: 1;
+  position: relative;
+  /* Shadow above to make controls float above script area */
+  box-shadow: 0 -8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 5;
 }
 
 #game-controls {
@@ -440,6 +498,33 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+
+/* Pack header row - moved from top to control area */
+.pack-header-row {
+  display: block;
+  text-align: center;
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 600px;
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.pack-header-movies-link {
+  color: inherit !important;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  display: inline-block;
+}
+
+.pack-header-movies-link:hover {
+  opacity: 0.7;
 }
 
 #other-packs-container {
@@ -544,7 +629,7 @@ h2 {
   letter-spacing: 0.15em;
   color: var(--text-secondary);
   /* Was #666 */
-  margin: 0;
+  margin: 0 0 0.75rem 0;
   padding: 0 2rem;
 }
 
@@ -629,7 +714,7 @@ h2 {
   align-items: center;
   justify-content: space-between;
   background-color: var(--container-bg);
-  border: 1px solid #e0e0e0;
+  border: 2px solid rgba(255, 255, 255, 0.15);
   border-radius: var(--radius-lg);
   padding: 0.75rem 1rem;
   text-decoration: none;
@@ -731,7 +816,6 @@ h2 {
   left: 50%;
   width: 100vw;
   transform: translateX(-50%);
-  background: var(--script-line-alt);
   z-index: -1;
 }
 
@@ -743,8 +827,6 @@ h2 {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  color: var(--script-text-primary);
-  /* Was #000 */
   font-family: var(--font-mono);
 }
 
@@ -753,15 +835,15 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   white-space: pre-wrap;
-  color: var(--script-text-primary);
-  /* Was #000 */
   font-family: var(--font-mono);
   font-size: 1rem;
   line-height: 1.6;
 }
 
 .context-line {
-  opacity: 0.6;
+  /* All quotes now have same strong color - no opacity fade */
+  /* Keeping class for potential future styling */
+  color: inherit;
 }
 
 /* Placeholder for unrevealed clues */
@@ -787,20 +869,7 @@ h2 {
 }
 
 
-/* Keep it subtle but clickable */
-.footer-more-movies {
-  font-size: 0.8rem;
-  text-decoration: none;
-  color: #888;
-  border-bottom: 1px dotted #888;
-  transition: color 0.2s;
-  cursor: pointer;
-}
-
-.footer-more-movies:hover {
-  color: var(--primary-color);
-  border-bottom-color: var(--primary-color);
-}
+/* Base height toggle for script lines handled in GameDaily.js */
 
 /* Reveal animation for context lines on win */
 .reveal-animate {
@@ -974,12 +1043,36 @@ button:active {
   border-bottom-color: #000;
 }
 
-.message {
-  margin-top: 0;
-  padding: 1rem;
+.message-overlay {
+  position: relative;
+  margin-top: 1rem;
+  width: auto;
+  min-width: 250px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.75rem 1.5rem;
   border-radius: var(--radius-md);
   text-align: center;
   font-weight: bold;
+  font-size: 0.9rem;
+  /* Floating appearance */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  /* Transition for show/hide and fade out */
+  transition: opacity 0.5s ease, transform 0.3s ease;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.message-overlay[style*="display: none"] {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+/* Fade out animation class for auto-hide */
+.message-overlay.fading {
+  opacity: 0;
+  transform: translateY(10px);
 }
 
 .success {
@@ -995,7 +1088,7 @@ button:active {
 /* Share */
 #share-container {
   text-align: center;
-  margin-top: 1.5rem;
+  margin-top: 0;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
@@ -1177,8 +1270,8 @@ button:active {
   width: auto !important;
 }
 
-/* Collection Page */
-.collection-container {
+/* Stats Page */
+.stats-container {
   max-width: 400px;
   margin: 0 auto;
   padding: 2rem;
@@ -1227,7 +1320,7 @@ button:active {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: color-mix(in srgb, var(--primary-color) 8%, var(--bg-color));
+  background: rgba(255, 255, 255, 0.1);
   position: relative;
   transition: all var(--transition-base);
 }
@@ -1289,9 +1382,9 @@ button:active {
   flex: 1;
 }
 
-/* Mobile Adjustments for Collection */
+/* Mobile Adjustments for Stats */
 @media (max-width: 600px) {
-  .collection-container {
+  .stats-container {
     padding: 1rem;
   }
 
@@ -1351,7 +1444,7 @@ button:active {
 }
 
 .modal-container {
-  background: var(--container-bg);
+  background: var(--main-surface);
   border-radius: var(--radius-xl);
   max-width: 600px;
   max-height: 80vh;
@@ -1376,11 +1469,11 @@ button:active {
 
 .modal-header {
   padding: 1.5rem;
-  border-bottom: 2px solid var(--primary-color);
+  border-bottom: 2px solid var(--main-text-secondary);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: var(--bg-color);
+  background: var(--main-bg);
 }
 
 .modal-title {
@@ -1389,46 +1482,46 @@ button:active {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--primary-color);
+  color: var(--main-text);
   margin: 0;
 }
 
 .modal-close-btn {
-  background: transparent;
-  border: none;
+  background: transparent !important;
+  border: none !important;
   font-size: 2rem;
   line-height: 1;
   cursor: pointer;
-  color: var(--text-primary);
-  padding: 0;
+  color: var(--main-text) !important;
+  padding: 0 !important;
   width: 32px;
   height: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: none !important;
 }
 
 .modal-close-btn:hover {
-  opacity: 0.7;
-  transform: none;
+  opacity: 0.7 !important;
+  transform: none !important;
+  filter: none !important;
+  background: transparent !important;
 }
 
 .modal-content {
   padding: 1.5rem;
   overflow-y: auto;
   flex: 1;
+  background: var(--main-surface);
 }
 
-.modal-body {
-  /* Default empty container for modal content */
-}
 
 /* Movie List Items */
 #movies-loading {
   text-align: center;
   padding: 2rem;
-  color: var(--text-secondary);
-  /* Was #666 */
+  color: var(--main-text-secondary);
   font-size: 1rem;
 }
 
@@ -1442,7 +1535,8 @@ button:active {
   display: flex;
   gap: 1rem;
   padding: 1rem;
-  background: white;
+  background: var(--main-surface);
+  border-radius: var(--radius-md);
 }
 
 .movie-poster-thumb {
@@ -1456,7 +1550,7 @@ button:active {
 .movie-poster-placeholder {
   width: 60px;
   height: 90px;
-  background: #e0e0e0;
+  background: var(--main-surface-alt);
   border-radius: var(--radius-md);
   flex-shrink: 0;
 }
@@ -1472,7 +1566,7 @@ button:active {
 .movie-title {
   font-weight: bold;
   font-size: 1rem;
-  color: var(--primary-color);
+  color: var(--main-text);
 }
 
 .movie-links {
@@ -1484,27 +1578,27 @@ button:active {
 .movie-imdb-link {
   display: inline-block;
   margin-top: 0.5rem;
-  padding: 0.5rem 1rem;
-  background-color: #f5c518;
-  /* IMDB Yellow */
-  color: var(--text-primary);
-  /* Was #000 */
-  text-decoration: none;
-  border-radius: var(--radius-md);
+  padding: 0;
+  background: transparent;
+  color: var(--main-text-secondary);
+  text-decoration: underline;
+  border-radius: 0;
   font-weight: bold;
   font-size: 0.9rem;
   transition: opacity var(--transition-base);
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .movie-imdb-link:hover {
-  opacity: 0.8;
-  text-decoration: none;
+  opacity: 0.7;
+  text-decoration: underline;
 }
 
 .movie-no-link {
   font-size: 0.875rem;
-  color: var(--text-muted);
-  /* Was #999 */
+  color: var(--main-text-muted);
   font-style: italic;
 }
 
