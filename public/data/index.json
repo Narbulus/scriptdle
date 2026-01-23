@@ -3,7 +3,7 @@
     "star-wars",
     "harry-potter",
     "marvel",
-    "pixar",
+    "pixar-classics",
     "disney-classics",
     "the-lord-of-the-rings"
   ],
@@ -23,7 +23,7 @@
       "id": "animated",
       "name": "Animated",
       "packs": [
-        "pixar",
+        "pixar-classics",
         "shrek",
         "disney-classics",
         "disney-pixar"
@@ -57,9 +57,9 @@
       "movieCount": 3
     },
     {
-      "id": "pixar",
-      "name": "Pixar",
-      "movieCount": 7
+      "id": "pixar-classics",
+      "name": "Pixar Classics",
+      "movieCount": 8
     },
     {
       "id": "disney-classics",
