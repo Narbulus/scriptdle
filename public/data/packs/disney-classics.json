@@ -10,12 +10,7 @@
     "aladdin-1992",
     "the-lion-king",
     "mulan-1998",
-    "hercules-1997",
-    "tangled",
-    "frozen-2013",
-    "moana",
-    "zootopia",
-    "encanto-2021"
+    "hercules-1997"
   ],
   "theme": {
     "primary": "#d4af37",
@@ -30,9 +25,9 @@
   },
   "tierMessages": {
     "perfect": "A dream is a wish your heart makes",
-    "good": "Let it go!",
+    "good": "Part of your world!",
     "average": "Hakuna Matata",
     "barely": "Be our guest!",
-    "failure": "How far I'll go..."
+    "failure": "A whole new world awaits..."
   }
 }

@@ -2,19 +2,6 @@
 // Run 'python scripts/generate-daily-puzzles.py' to regenerate
 
 window.SCRIPTLE_THEMES = {
-  "pixar": {
-    "primary": "#e63946",
-    "bgColor": "#1d3557",
-    "containerBg": "#f1faee",
-    "accentColor": "#f4a261",
-    "btnText": "white",
-    "cardGradientStart": "#1d3557",
-    "cardGradientEnd": "#457b9d",
-    "cardBorder": "#e63946",
-    "cardText": "#f1faee",
-    "name": "Pixar",
-    "movieCount": 11
-  },
   "harry-potter": {
     "primary": "#d4af37",
     "bgColor": "#2a0000",
@@ -52,7 +39,7 @@ window.SCRIPTLE_THEMES = {
     "cardBorder": "#d4af37",
     "cardText": "#ffd54f",
     "name": "Disney Classics",
-    "movieCount": 13
+    "movieCount": 8
   },
   "marvel": {
     "primary": "#c62828",
@@ -93,6 +80,19 @@ window.SCRIPTLE_THEMES = {
     "name": "Star Wars",
     "movieCount": 6
   },
+  "disney-pixar": {
+    "primary": "#4a90e2",
+    "bgColor": "#2c3e50",
+    "containerBg": "#f8f9fa",
+    "accentColor": "#e74c3c",
+    "btnText": "white",
+    "cardGradientStart": "#3498db",
+    "cardGradientEnd": "#9b59b6",
+    "cardBorder": "#4a90e2",
+    "cardText": "#ecf0f1",
+    "name": "Disney Pixar",
+    "movieCount": 9
+  },
   "shrek": {
     "primary": "#7cb342",
     "bgColor": "#5d4037",
@@ -105,5 +105,18 @@ window.SCRIPTLE_THEMES = {
     "cardText": "#c5e1a5",
     "name": "Shrek",
     "movieCount": 4
+  },
+  "pixar-classics": {
+    "primary": "#e63946",
+    "bgColor": "#1d3557",
+    "containerBg": "#f1faee",
+    "accentColor": "#f4a261",
+    "btnText": "white",
+    "cardGradientStart": "#1d3557",
+    "cardGradientEnd": "#457b9d",
+    "cardBorder": "#e63946",
+    "cardText": "#f1faee",
+    "name": "Pixar Classics",
+    "movieCount": 8
   }
 };

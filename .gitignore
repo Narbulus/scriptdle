@@ -39,8 +39,7 @@ venv/
 !/public/data/
 
 # Generated daily puzzles (built at deploy time)
-# Temporarily tracked until CF Pages build is fixed
-# public/data/daily/
+public/data/daily/
 
 # Git worktrees
 .worktrees/

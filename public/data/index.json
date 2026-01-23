@@ -25,7 +25,8 @@
       "packs": [
         "pixar",
         "shrek",
-        "disney-classics"
+        "disney-classics",
+        "disney-pixar"
       ]
     }
   ],
@@ -58,12 +59,17 @@
     {
       "id": "pixar",
       "name": "Pixar",
-      "movieCount": 11
+      "movieCount": 7
     },
     {
       "id": "disney-classics",
       "name": "Disney Classics",
-      "movieCount": 13
+      "movieCount": 8
+    },
+    {
+      "id": "disney-pixar",
+      "name": "Disney Pixar",
+      "movieCount": 9
     },
     {
       "id": "marvel",
