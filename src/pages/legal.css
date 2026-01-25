@@ -1,0 +1,19 @@
+.legal-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: var(--font-mono);
+    line-height: 1.6;
+    color: var(--text-primary);
+}
+
+.legal-section {
+    margin-bottom: 3rem;
+}
+
+.legal-footer {
+    text-align: center;
+    margin-top: 4rem;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}

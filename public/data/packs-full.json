@@ -1,0 +1,243 @@
+{
+  "featured": [
+    "star-wars",
+    "harry-potter",
+    "marvel",
+    "pixar-classics",
+    "disney-classics",
+    "the-lord-of-the-rings"
+  ],
+  "categories": [
+    {
+      "id": "classics",
+      "name": "Classics",
+      "packs": [
+        "star-wars",
+        "harry-potter",
+        "the-lord-of-the-rings",
+        "bttf-trilogy",
+        "marvel"
+      ]
+    },
+    {
+      "id": "animated",
+      "name": "Animated",
+      "packs": [
+        "pixar-classics",
+        "shrek",
+        "disney-classics",
+        "disney-pixar"
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "id": "star-wars",
+      "name": "Star Wars",
+      "movieCount": 6,
+      "theme": {
+        "primary": "#FFE81F",
+        "bgColor": "#000000",
+        "containerBg": "#1a1a2e",
+        "accentColor": "#c41e3a",
+        "btnText": "black",
+        "cardGradientStart": "#000000",
+        "cardGradientEnd": "#1a1a2e",
+        "cardBorder": "#FFE81F",
+        "cardText": "#FFE81F"
+      },
+      "tierMessages": {
+        "perfect": "Strong with the Force, you are!",
+        "good": "The Force is with you!",
+        "average": "A Jedi in training",
+        "barely": "Much to learn, you have",
+        "failure": "Failed, you have"
+      }
+    },
+    {
+      "id": "harry-potter",
+      "name": "Harry Potter",
+      "movieCount": 8,
+      "theme": {
+        "primary": "#d4af37",
+        "bgColor": "#2a0000",
+        "containerBg": "#fff5e6",
+        "accentColor": "#740001",
+        "btnText": "white",
+        "cardGradientStart": "#2a0000",
+        "cardGradientEnd": "#740001",
+        "cardBorder": "#d4af37",
+        "cardText": "#ffd54f"
+      },
+      "tierMessages": {
+        "perfect": "Outstanding! First try!",
+        "good": "Excellent work, wizard!",
+        "average": "Exceeds Expectations",
+        "barely": "Acceptable",
+        "failure": "Troll..."
+      }
+    },
+    {
+      "id": "the-lord-of-the-rings",
+      "name": "The Lord of the Rings",
+      "movieCount": 3,
+      "theme": {
+        "primary": "#d4af37",
+        "bgColor": "#1a2412",
+        "containerBg": "#f5f0e8",
+        "accentColor": "#2d5016",
+        "btnText": "white",
+        "cardGradientStart": "#1a2412",
+        "cardGradientEnd": "#2d5016",
+        "cardBorder": "#d4af37",
+        "cardText": "#ffd54f"
+      },
+      "tierMessages": {
+        "perfect": "You shall pass!",
+        "good": "Well done, friend!",
+        "average": "A wizard arrives precisely when he means to",
+        "barely": "One does not simply...",
+        "failure": "You shall not pass!"
+      }
+    },
+    {
+      "id": "shrek",
+      "name": "Shrek",
+      "movieCount": 4,
+      "theme": {
+        "primary": "#7cb342",
+        "bgColor": "#5d4037",
+        "containerBg": "#faf5e9",
+        "accentColor": "#558b2f",
+        "btnText": "white",
+        "cardGradientStart": "#5d4037",
+        "cardGradientEnd": "#6d4c41",
+        "cardBorder": "#7cb342",
+        "cardText": "#c5e1a5"
+      },
+      "tierMessages": {
+        "perfect": "Ogres have layers!",
+        "good": "That'll do, Donkey!",
+        "average": "Not bad for an ogre",
+        "barely": "Better out than in",
+        "failure": "Get out of my swamp!"
+      }
+    },
+    {
+      "id": "bttf-trilogy",
+      "name": "Back to the Future",
+      "movieCount": 3,
+      "theme": {
+        "primary": "#00d4ff",
+        "bgColor": "#1a1a2e",
+        "containerBg": "#fff8f0",
+        "accentColor": "#ff6b35",
+        "btnText": "white",
+        "cardGradientStart": "#1a1a2e",
+        "cardGradientEnd": "#16213e",
+        "cardBorder": "#00d4ff",
+        "cardText": "#00d4ff"
+      },
+      "tierMessages": {
+        "perfect": "Great Scott! First try!",
+        "good": "This is heavy!",
+        "average": "Where we're going, we don't need roads",
+        "barely": "1.21 gigawatts?!",
+        "failure": "Your future hasn't been written yet"
+      }
+    },
+    {
+      "id": "pixar-classics",
+      "name": "Pixar Classics",
+      "movieCount": 8,
+      "theme": {
+        "primary": "#e63946",
+        "bgColor": "#1d3557",
+        "containerBg": "#f1faee",
+        "accentColor": "#f4a261",
+        "btnText": "white",
+        "cardGradientStart": "#1d3557",
+        "cardGradientEnd": "#457b9d",
+        "cardBorder": "#e63946",
+        "cardText": "#f1faee"
+      },
+      "tierMessages": {
+        "perfect": "To infinity and beyond!",
+        "good": "I am speed!",
+        "average": "Just keep swimming",
+        "barely": "We scare because we care",
+        "failure": "Anyone can cook..."
+      }
+    },
+    {
+      "id": "disney-classics",
+      "name": "Disney Classics",
+      "movieCount": 8,
+      "theme": {
+        "primary": "#d4af37",
+        "bgColor": "#7d5a9b",
+        "containerBg": "#fef9f3",
+        "accentColor": "#9b5fa8",
+        "btnText": "white",
+        "cardGradientStart": "#7d5a9b",
+        "cardGradientEnd": "#8f62a3",
+        "cardBorder": "#d4af37",
+        "cardText": "#ffd54f"
+      },
+      "tierMessages": {
+        "perfect": "A dream is a wish your heart makes",
+        "good": "Part of your world!",
+        "average": "Hakuna Matata",
+        "barely": "Be our guest!",
+        "failure": "A whole new world awaits..."
+      }
+    },
+    {
+      "id": "disney-pixar",
+      "name": "Disney Pixar",
+      "movieCount": 9,
+      "theme": {
+        "primary": "#4a90e2",
+        "bgColor": "#2c3e50",
+        "containerBg": "#f8f9fa",
+        "accentColor": "#e74c3c",
+        "btnText": "white",
+        "cardGradientStart": "#3498db",
+        "cardGradientEnd": "#9b59b6",
+        "cardBorder": "#4a90e2",
+        "cardText": "#ecf0f1"
+      },
+      "tierMessages": {
+        "perfect": "Our fate lives within us!",
+        "good": "Adventure is out there!",
+        "average": "Let it go!",
+        "barely": "Just keep swimming",
+        "failure": "Remember me..."
+      }
+    },
+    {
+      "id": "marvel",
+      "name": "Marvel",
+      "movieCount": 11,
+      "theme": {
+        "primary": "#c62828",
+        "bgColor": "#1a1a1a",
+        "containerBg": "#fafafa",
+        "accentColor": "#ffc107",
+        "btnText": "white",
+        "cardGradientStart": "#1a1a1a",
+        "cardGradientEnd": "#424242",
+        "cardBorder": "#c62828",
+        "cardText": "#ffc107"
+      },
+      "tierMessages": {
+        "perfect": "I am Iron Man",
+        "good": "I can do this all day",
+        "average": "We are Groot",
+        "barely": "With great power...",
+        "failure": "I still believe in heroes"
+      }
+    }
+  ],
+  "generatedAt": "2026-01-25T17:08:48.955Z"
+}

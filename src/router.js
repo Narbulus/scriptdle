@@ -1,9 +1,9 @@
-import { renderHome } from './pages/Home.js';
-import { renderPlay } from './pages/Play.js';
+import { renderHome } from './pages/Home.jsx';
+import { renderPlay } from './pages/Play.jsx';
 import { track } from './utils/analytics.js';
-import { renderStats } from './pages/Stats.js';
-import { renderLegal } from './pages/Legal.js';
-import { renderAbout } from './pages/About.js';
+import { renderStats } from './pages/Stats.jsx';
+import { renderLegal } from './pages/Legal.jsx';
+import { renderAbout } from './pages/About.jsx';
 import { Footer } from './components/Footer.js';
 
 
@@ -11,7 +11,6 @@ const routes = {
   '/': renderHome,
   '/stats': renderStats,
   '/play/:packId': renderPlay,
-  '/movie/:movieId': (params) => renderPlay({ ...params, singleMovie: true }),
   '/legal': renderLegal,
   '/about': renderAbout,
 };

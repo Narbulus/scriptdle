@@ -4,14 +4,23 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "generate:packs": "node scripts/generate-packs-full.js",
     "generate:daily": "python3 scripts/generate-daily-puzzles.py --days 365",
-    "build": "npm run generate:daily && vite build",
+    "build": "npm run generate:packs && npm run generate:daily && vite build",
     "preview": "vite preview",
     "test": "playwright test",
-    "generate-data": "python3 parse_all.py"
+    "generate-data": "python3 parse_all.py",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@playwright/test": "^1.57.0",
+    "@preact/preset-vite": "^2.10.2",
+    "husky": "^9.1.7",
     "vite": "^5.4.0"
+  },
+  "dependencies": {
+    "@preact/signals": "^2.6.1",
+    "preact": "^10.28.2",
+    "preact-router": "^4.1.2"
   }
 }

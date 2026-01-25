@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import preact from '@preact/preset-vite';
 
 export default defineConfig({
   root: '.',
@@ -13,6 +14,7 @@ export default defineConfig({
     host: true,
   },
   plugins: [
+    preact(),
     {
       name: 'html-transform',
       transformIndexHtml(html) {

@@ -1,5 +1,5 @@
 import { router } from '../router.js';
-import { openStatsModal } from '../pages/Stats.js';
+import { openStatsModal } from '../pages/Stats.jsx';
 import { openHelpModal } from '../components/Help.js';
 
 export function Navigation({ showBackButton = false, showHelpButton = true }) {
