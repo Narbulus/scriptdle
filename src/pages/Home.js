@@ -108,14 +108,15 @@ export async function renderHome({ navContainer, contentContainer }) {
         <a href="/play/${pack.id}"
            data-link
            data-theme="pack"
+           data-testid="pack-row"
            class="pack-row"
            data-pack-id="${pack.id}"
            style="${themeVars}">
           <div class="pack-row-content">
-            <span class="pack-row-name">${pack.name}</span>
-            <span class="pack-row-count">${pack.movieCount} movies</span>
+            <span class="pack-row-name" data-testid="pack-name">${pack.name}</span>
+            <span class="pack-row-count" data-testid="pack-count">${pack.movieCount} movies</span>
           </div>
-          ${badge ? `<div class="pack-row-badge">${badge}</div>` : ''}
+          ${badge ? `<div class="pack-row-badge" data-testid="pack-badge">${badge}</div>` : ''}
         </a>
       `;
     };

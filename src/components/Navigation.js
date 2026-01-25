@@ -5,6 +5,7 @@ import { openHelpModal } from '../components/Help.js';
 export function Navigation({ showBackButton = false, showHelpButton = true }) {
   const nav = document.createElement('div');
   nav.className = 'nav-bar';
+  nav.setAttribute('data-testid', 'nav-bar');
 
   // Left side - back button or empty space
   const leftSide = document.createElement('div');
@@ -18,6 +19,7 @@ export function Navigation({ showBackButton = false, showHelpButton = true }) {
     const helpButton = document.createElement('button');
     helpButton.className = 'nav-help-btn';
     helpButton.title = 'How to Play';
+    helpButton.setAttribute('data-testid', 'help-button');
 
     const icon = document.createElement('span');
     icon.className = 'nav-help-icon';
@@ -45,6 +47,7 @@ export function Navigation({ showBackButton = false, showHelpButton = true }) {
   logo.className = 'nav-logo';
   logo.textContent = 'Scriptle';
   logo.style.cursor = 'pointer';
+  logo.setAttribute('data-testid', 'nav-logo');
   logo.onclick = (e) => {
     e.preventDefault();
     router.navigate('/');
@@ -58,6 +61,7 @@ export function Navigation({ showBackButton = false, showHelpButton = true }) {
   const resultsLink = document.createElement('button');
   resultsLink.className = 'nav-results-link';
   resultsLink.textContent = 'STATS';
+  resultsLink.setAttribute('data-testid', 'stats-button');
   resultsLink.onclick = (e) => {
     e.preventDefault();
     openStatsModal();

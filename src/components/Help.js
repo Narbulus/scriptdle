@@ -34,7 +34,7 @@ function createHelpModal() {
     <div class="modal-container" style="max-width: 500px;">
       <div class="modal-header">
         <h2 class="modal-title">How To Play</h2>
-        <button id="help-modal-close" class="modal-close-btn">&times;</button>
+        <button id="help-modal-close" class="modal-close-btn" data-testid="modal-close">&times;</button>
       </div>
       <div class="modal-content">
         <div class="modal-body custom-scrollbar">

@@ -187,7 +187,7 @@ export class GameDaily {
         </div>
 
         <div class="share-section">
-          <button id="share-btn">Share Results</button>
+          <button id="share-btn" data-testid="share-button">Share Results</button>
           ${this.puzzle.imdbId
         ? `<a href="https://www.imdb.com/title/${this.puzzle.imdbId}/" target="_blank" rel="noopener noreferrer" class="movie-imdb-link">View on IMDB</a>`
         : ''}
@@ -229,25 +229,25 @@ export class GameDaily {
 
     this.container.innerHTML = `
       <!-- Main Script Area - now starts at top -->
-      <div class="script-area no-transition" data-theme="script">
+      <div class="script-area no-transition" data-theme="script" data-testid="script-area">
         <div class="script-content">
           <!-- Script Lines -->
-          <div id="script-display"></div>
+          <div id="script-display" data-testid="script-display"></div>
         </div>
       </div>
 
       <!-- Footer with Controls -->
-      <div class="game-footer">
+      <div class="game-footer" data-testid="game-footer">
 
-        <div id="game-controls" ${this.gameOver ? 'style="display:none;"' : ''}>
+        <div id="game-controls" data-testid="game-controls" ${this.gameOver ? 'style="display:none;"' : ''}>
           <!-- Pack Header Row - moved from top -->
-          <div class="pack-header-row">
-            ${this.pack.name.toUpperCase()} (<a id="movies-subtitle-link" class="pack-header-movies-link">${this.metadata.movies.length} MOVIES</a>)
+          <div class="pack-header-row" data-testid="pack-header">
+            ${this.pack.name.toUpperCase()} (<a id="movies-subtitle-link" class="pack-header-movies-link" data-testid="movies-link">${this.metadata.movies.length} MOVIES</a>)
           </div>
 
           <div class="footer-selectors">
             <div class="select-wrapper">
-              <select id="movie-select">
+              <select id="movie-select" data-testid="movie-select">
                 <option value="">Film</option>
                 ${this.metadata.movies.map(m => {
       const title = this.metadata.movieTitles?.[m] || m;
@@ -256,27 +256,27 @@ export class GameDaily {
               </select>
             </div>
             <div class="select-wrapper">
-              <select id="char-select" disabled>
+              <select id="char-select" data-testid="char-select" disabled>
                 <option value="">Character</option>
               </select>
             </div>
           </div>
-          <div id="movie-error" class="form-error"></div>
-          <div id="char-error" class="form-error"></div>
+          <div id="movie-error" class="form-error" data-testid="movie-error"></div>
+          <div id="char-error" class="form-error" data-testid="char-error"></div>
           <div class="footer-actions">
-            <button id="guess-btn">Make Your Guess</button>
+            <button id="guess-btn" data-testid="guess-button">Make Your Guess</button>
             <div class="footer-meta">
-              <div class="footer-attempts"><span id="attempt-count">${this.currentAttempt}</span>/5 Attempts</div>
+              <div class="footer-attempts" data-testid="attempts-counter"><span id="attempt-count">${this.currentAttempt}</span>/5 Attempts</div>
               <a href="/" data-link class="footer-more-movies">More Movies</a>
             </div>
           </div>
-          <div id="message" class="message-overlay" style="display: none;"></div>
+          <div id="message" class="message-overlay" data-testid="game-message" style="display: none;"></div>
         </div>
         
         <div id="other-packs-container"></div>
 
         <!-- Share Container (for completion UI) -->
-        <div id="share-container" style="display: ${this.gameOver ? 'flex' : 'none'}; flex-direction: column; align-items: center; gap: 1rem;"></div>
+        <div id="share-container" data-testid="share-container" style="display: ${this.gameOver ? 'flex' : 'none'}; flex-direction: column; align-items: center; gap: 1rem;"></div>
 
         <!-- View Movies Modal -->
         <div id="movies-modal" class="modal-overlay" style="display: none;">

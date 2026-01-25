@@ -4,6 +4,7 @@ import { getTimeUntilMidnight } from '../utils/time.js';
 export function Footer() {
   const footer = document.createElement('div');
   footer.className = 'footer-bar';
+  footer.setAttribute('data-testid', 'footer-bar');
 
   // Left side - About link
   const leftSide = document.createElement('div');
