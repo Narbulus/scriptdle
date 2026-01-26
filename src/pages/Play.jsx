@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'preact/hooks';
 import { Game } from '../components/game/Game.jsx';
-import { getCurrentDate } from '../utils/time.js';
+import { loadAllGameData, getPackData } from '../services/dataLoader.js';
 
 export function Play({ packId }) {
     const [data, setData] = useState(null);
@@ -16,46 +16,35 @@ export function Play({ packId }) {
                 setLoading(true);
                 setError(null);
 
-                const today = getCurrentDate();
+                // Load all game data (cached after first load)
+                await loadAllGameData();
 
-                // 1. Fetch Pack & Manifest
-                const [packRes, manifestRes] = await Promise.all([
-                    fetch(`/data/packs/${packId}.json`),
-                    fetch(`/data/daily/${packId}/manifest.json`)
-                ]);
+                // Get this pack's data from cache
+                const packData = getPackData(packId);
 
-                if (!packRes.ok) throw new Error(`Pack "${packId}" not found`);
-                if (!manifestRes.ok) throw new Error(`Pack "${packId}" has no daily puzzles`);
+                if (!packData) {
+                    throw new Error(`Pack "${packId}" not found`);
+                }
 
-                const [packData, manifest] = await Promise.all([
-                    packRes.json(),
-                    manifestRes.json()
-                ]);
+                if (!packData.manifest) {
+                    throw new Error(`Pack "${packId}" has no daily puzzles`);
+                }
+
+                if (!packData.dailyPuzzle) {
+                    throw new Error('Daily puzzle not available');
+                }
 
                 // Apply theme immediately
-                applyTheme(packData.theme);
+                applyTheme(packData.packData.theme);
 
                 // Update Title
-                document.title = `Scriptle - A daily ${packData.name} movie quote game`;
-
-                // 2. Fetch Puzzle & Index (for other packs)
-                const [puzzleRes, indexRes] = await Promise.all([
-                    fetch(`/data/daily/${packId}/${today}.json`),
-                    fetch('/data/packs-full.json')
-                ]);
-
-                if (!puzzleRes.ok) throw new Error('Daily puzzle not available');
-
-                const [dailyPuzzle, indexData] = await Promise.all([
-                    puzzleRes.json(),
-                    indexRes.ok ? indexRes.json() : { packs: [] }
-                ]);
+                document.title = `Scriptle - A daily ${packData.packData.name} movie quote game`;
 
                 setData({
-                    dailyPuzzle,
-                    manifest,
-                    allPacks: indexData.packs,
-                    packData
+                    dailyPuzzle: packData.dailyPuzzle,
+                    manifest: packData.manifest,
+                    allPacks: packData.allPacks,
+                    packData: packData.packData
                 });
 
             } catch (err) {

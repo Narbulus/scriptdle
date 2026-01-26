@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'preact/hooks';
 import { PackList } from '../components/home/PackList.jsx';
 import { getCurrentDate } from '../utils/time.js';
+import { loadAllGameData } from '../services/dataLoader.js';
 
 export function Home() {
     const [data, setData] = useState(null);
@@ -13,10 +14,9 @@ export function Home() {
         async function loadData() {
             try {
                 setLoading(true);
-                // Fetch packs
-                const response = await fetch('/data/packs-full.json');
-                if (!response.ok) throw new Error('Failed to load packs');
-                const packsData = await response.json();
+
+                // Load all game data (cached after first load)
+                const gameData = await loadAllGameData();
 
                 const today = getCurrentDate();
                 const todayStats = {};
@@ -51,22 +51,17 @@ export function Home() {
                     }
                 }
 
-                const validPackIds = new Set(packsData.packs.map(p => p.id));
+                const validPackIds = new Set(gameData.packs.map(p => p.id));
                 const recentList = Object.entries(recentMap)
                     .filter(([id]) => validPackIds.has(id))
                     .sort((a, b) => b[1].localeCompare(a[1]))
                     .slice(0, 4)
                     .map(([id]) => id);
 
-                const packThemes = {};
-                for (const p of packsData.packs) {
-                    if (p.theme) packThemes[p.id] = p.theme;
-                }
-
                 setData({
-                    packs: packsData.packs,
-                    categories: packsData.categories,
-                    packThemes
+                    packs: gameData.packs,
+                    categories: gameData.categories,
+                    packThemes: gameData.packThemes
                 });
                 setHistory({
                     today: todayStats,
