@@ -13,13 +13,19 @@ export function Completion({ puzzle, pack, packTheme }) {
 
     // Tier Message
     const tierMessages = pack.tierMessages || {};
-    let tierMessage = success ? 'Puzzle Completed!' : 'Game Over';
+    const tierMessage = getTierMessage(success, attempts, tierMessages);
 
-    if (!success) tierMessage = tierMessages.failure || 'Game Over';
-    else if (attempts === 1) tierMessage = tierMessages.perfect || 'Puzzle Completed!';
-    else if (attempts === 2) tierMessage = tierMessages.good || 'Puzzle Completed!';
-    else if (attempts === 3) tierMessage = tierMessages.average || 'Puzzle Completed!';
-    else tierMessage = tierMessages.barely || 'Puzzle Completed!';
+    function getTierMessage(isSuccess, attemptCount, messages) {
+        if (!isSuccess) {
+            return messages.failure || 'Game Over';
+        }
+        switch (attemptCount) {
+            case 1: return messages.perfect || 'Puzzle Completed!';
+            case 2: return messages.good || 'Puzzle Completed!';
+            case 3: return messages.average || 'Puzzle Completed!';
+            default: return messages.barely || 'Puzzle Completed!';
+        }
+    }
 
     // Answer Text
     const target = puzzle.targetLine;

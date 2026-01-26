@@ -1,4 +1,3 @@
-import { computed } from "@preact/signals";
 import { generateFlower, stringToSeed } from '../../utils/flowerGenerator.js';
 
 export function PackRow({ pack, theme, completion }) {

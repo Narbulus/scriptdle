@@ -1,5 +1,4 @@
 import { render } from 'preact';
-import { useState, useEffect } from 'preact/hooks';
 import {
     getCompletionsByDate,
     getStreak,
@@ -7,7 +6,6 @@ import {
 } from '../utils/completionTracker.js';
 import { generateFlower } from '../utils/flowerGenerator.js';
 import { getCurrentDate, formatDateToLocal, parseLocalDate } from '../utils/time.js';
-import { Navigation } from '../components/Navigation.js';
 
 export function StatsContent() {
     const streak = getStreak();
@@ -97,35 +95,19 @@ export function StatsContent() {
     );
 }
 
-function StatsModal({ onClose }) {
-    // Close on Escape
-    useEffect(() => {
-        const handleEsc = (e) => {
-            if (e.key === 'Escape') onClose();
-        };
-        document.addEventListener('keydown', handleEsc);
-        return () => document.removeEventListener('keydown', handleEsc);
-    }, [onClose]);
+import { Modal } from '../components/common/Modal.jsx';
 
+function StatsModal({ onClose }) {
     return (
-        <div
-            className="modal-overlay"
-            data-theme="main"
-            style={{ display: 'flex' }}
-            onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}
+        <Modal
+            isOpen={true}
+            onClose={onClose}
+            title="Stats"
         >
-            <div className="modal-container">
-                <div className="modal-header">
-                    <h2 className="modal-title">Stats</h2>
-                    <button className="modal-close-btn" onClick={onClose}>&times;</button>
-                </div>
-                <div className="modal-content">
-                    <div className="modal-body custom-scrollbar">
-                        <StatsContent />
-                    </div>
-                </div>
+            <div className="modal-body custom-scrollbar">
+                <StatsContent />
             </div>
-        </div>
+        </Modal>
     );
 }
 
@@ -146,11 +128,6 @@ function formatDate(dateStr) {
     return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 }
 
-// ----------------------------------------------------------------------
-// Bridge
-// ----------------------------------------------------------------------
-
-// Standalone Modal Opener
 let modalContainer = null;
 
 export function openStatsModal() {
@@ -160,16 +137,10 @@ export function openStatsModal() {
         document.body.appendChild(modalContainer);
     }
 
-    const close = () => {
-        render(null, modalContainer); // Unmount
-    };
-
-    render(<StatsModal onClose={close} />, modalContainer);
+    render(<StatsModal onClose={() => render(null, modalContainer)} />, modalContainer);
 }
 
-// Page Renderer
-export function renderStats({ navContainer, contentContainer }) {
-    // If navigated to directly, render the page with the modal open?
-    // Original behavior: Redirect to home.
+export function Stats() {
     window.location.href = '/';
+    return null;
 }

@@ -1,32 +1,46 @@
-import { computed } from "@preact/signals";
+import { Modal } from '../common/Modal.jsx';
 
-export function MoviesModal({ isOpen, onClose, packName, movies, movieTitles }) {
-    if (!isOpen) return null;
-
+export function MoviesModal({ isOpen, onClose, packName, movies, movieTitles, movieYears, moviePosters }) {
     return (
-        <div id="movies-modal" className="modal-overlay" style={{ display: 'flex' }}>
-            <div className="modal-container">
-                <div className="modal-header">
-                    <h2 className="modal-title">{packName}</h2>
-                    <button
-                        id="modal-close"
-                        className="modal-close-btn"
-                        onClick={onClose}
-                    >
-                        &times;
-                    </button>
-                </div>
-                <div className="modal-content">
-                    <div id="movies-list" style={{ display: 'block' }}>
-                        {movies.map(movieId => {
-                            const title = movieTitles?.[movieId] || movieId;
-                            return (
-                                <div key={movieId} className="movie-item">{title}</div>
-                            );
-                        })}
-                    </div>
-                </div>
+        <Modal
+            isOpen={isOpen}
+            onClose={onClose}
+            title={packName}
+        >
+            <div id="movies-list">
+                {movies.map(movieId => {
+                    const title = movieTitles?.[movieId] || movieId;
+                    const year = movieYears?.[movieId];
+                    const poster = moviePosters?.[movieId];
+
+                    return (
+                        <div key={movieId} className="movie-item">
+                            {poster ? (
+                                <img
+                                    src={poster}
+                                    alt={title}
+                                    className="movie-poster-thumb"
+                                />
+                            ) : (
+                                <div className="movie-poster-placeholder" />
+                            )}
+                            <div className="movie-info">
+                                <div className="movie-title">{title} {year && `(${year})`}</div>
+                                <div className="movie-links">
+                                    <a
+                                        href={`https://www.imdb.com/find?q=${encodeURIComponent(title)}`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="movie-imdb-link"
+                                    >
+                                        IMDB
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    );
+                })}
             </div>
-        </div>
+        </Modal>
     );
 }

@@ -1,11 +1,8 @@
-import { render } from 'preact';
 import { useState, useEffect } from 'preact/hooks';
 import { Game } from '../components/game/Game.jsx';
-import { Navigation } from '../components/Navigation.js';
 import { getCurrentDate } from '../utils/time.js';
 
-// Preact Component that handles data loading
-function GameLoader({ packId }) {
+export function Play({ packId }) {
     const [data, setData] = useState(null);
     const [error, setError] = useState(null);
     const [loading, setLoading] = useState(true);
@@ -103,12 +100,6 @@ function GameLoader({ packId }) {
 
     return (
         <div id="game-area">
-            {/* Title rendering could be here or inside Game */}
-            <div className="script-title-section">
-                <div className="script-title">{data.packData.name}</div>
-                <div className="script-subtitle">{data.packData.movies?.length || 0} Movies</div>
-            </div>
-
             <Game
                 dailyPuzzle={data.dailyPuzzle}
                 manifest={data.manifest}
@@ -119,7 +110,6 @@ function GameLoader({ packId }) {
     );
 }
 
-// Helper to apply theme variables (migrated from logic in Play.js)
 function applyTheme(t) {
     if (!t) return;
     const root = document.documentElement;
@@ -139,21 +129,3 @@ function applyTheme(t) {
     root.style.setProperty('--pack-card-text', t.cardText || '#ffffff');
 }
 
-// ----------------------------------------------------------------------
-// Bridge Function (called by router.js)
-// ----------------------------------------------------------------------
-export function renderPlay(params) {
-    const { packId, navContainer, contentContainer } = params;
-
-    // 1. Render Navigation (Legacy)
-    navContainer.innerHTML = '';
-    // Navigation returns a DOM node
-    navContainer.appendChild(Navigation({ showBackButton: true }));
-
-    // 2. Mount Preact App
-    // Clear container
-    contentContainer.innerHTML = '';
-
-    // Render
-    render(<GameLoader packId={packId} />, contentContainer);
-}

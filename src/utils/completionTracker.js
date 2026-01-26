@@ -1,7 +1,5 @@
 import { getCurrentDate, parseLocalDate } from './time.js';
 
-// Utility to track and retrieve completions across all packs
-
 const STORAGE_KEY_PREFIX = 'scriptle:';
 
 export function getTodaysCompletion() {
@@ -10,7 +8,6 @@ export function getTodaysCompletion() {
 }
 
 export function getCompletionForDate(date) {
-  // Scan through all localStorage keys to find completions for this date
   for (let i = 0; i < localStorage.length; i++) {
     const key = localStorage.key(i);
 
@@ -19,7 +16,6 @@ export function getCompletionForDate(date) {
       if (parts.length === 3 && parts[2] === date) {
         const data = JSON.parse(localStorage.getItem(key));
 
-        // Only return if game is completed
         if (data && data.gameOver === true) {
           return {
             packId: parts[1],
@@ -49,7 +45,6 @@ export function getAllCompletions() {
         const date = parts[2];
         const data = JSON.parse(localStorage.getItem(key));
 
-        // Only include completed games
         if (data && data.gameOver === true) {
           completions.push({
             packId,
@@ -63,9 +58,7 @@ export function getAllCompletions() {
     }
   }
 
-  // Sort by date (most recent first)
   completions.sort((a, b) => parseLocalDate(b.date) - parseLocalDate(a.date));
-
   return completions;
 }
 
@@ -85,12 +78,10 @@ export function getCompletionsByDate() {
 
 export function getStreak() {
   const completions = getAllCompletions();
-
   if (completions.length === 0) {
     return 0;
   }
 
-  // Group completions by date
   const dateSet = new Set(completions.map(c => c.date));
   const sortedDates = Array.from(dateSet).sort((a, b) => parseLocalDate(b) - parseLocalDate(a));
 

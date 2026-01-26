@@ -1,13 +1,8 @@
-/**
- * theme.js
- * Reactive theme management using Preact Signals.
- */
-import { signal, effect, computed } from "@preact/signals";
+import { signal, effect } from "@preact/signals";
 
 export const themeMode = signal('main'); // 'main' | 'pack'
 export const currentPackTheme = signal(null); // { primary, bgColor, ... }
 
-// Defaults
 const DEFAULT_THEME = {
     primary: '#333333',
     bgColor: '#f4f4f4',
@@ -17,24 +12,16 @@ const DEFAULT_THEME = {
     muted: '#999999'
 };
 
-/**
- * Switch to the main application theme (home page look).
- */
 export function setMainTheme() {
     themeMode.value = 'main';
     currentPackTheme.value = null;
 }
 
-/**
- * Switch to a specific pack's theme.
- * @param {Object} themeData - Pack theme object from JSON
- */
 export function setPackTheme(themeData) {
     themeMode.value = 'pack';
     currentPackTheme.value = { ...DEFAULT_THEME, ...themeData };
 }
 
-// Automatically apply theme changes to the DOM
 effect(() => {
     const mode = themeMode.value;
     document.body.setAttribute('data-theme', mode);
@@ -59,10 +46,6 @@ effect(() => {
         root.style.setProperty('--pack-card-border', t.cardBorder || t.primary);
         root.style.setProperty('--pack-card-text', t.cardText || '#ffffff');
     } else {
-        // Optional: Reset variables or rely on CSS 'main' theme defaults
-        // Since 'data-theme="main"' handles most defaults via CSS, explicit unset might not be needed
-        // if the CSS uses :root[data-theme="pack"] namespace.
-        // However, clean up can be nice.
         const root = document.documentElement;
         const vars = [
             '--pack-primary', '--pack-bg', '--pack-surface', '--pack-accent',

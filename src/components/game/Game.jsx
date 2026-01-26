@@ -56,35 +56,9 @@ export function Game({ dailyPuzzle, manifest, allPacks, packData }) {
                     packName={pack.name}
                     movies={metadata.movies}
                     movieTitles={metadata.movieTitles}
+                    movieYears={metadata.movieYears}
+                    moviePosters={metadata.moviePosters}
                 />
-
-                {/* Other Packs Section */}
-                <div id="other-packs-container" style={{ marginTop: '2rem', padding: '1rem' }}>
-                    {/* Placeholder for other packs - can be implemented as a component later */}
-                    <h3 style={{ textAlign: 'center', opacity: 0.7, marginBottom: '1rem' }}>MORE PACKS</h3>
-                    <div className="pack-list-container">
-                        {otherPacks.map(p => (
-                            <a
-                                key={p.id}
-                                href={`/play/${p.id}`}
-                                className="pack-row"
-                                data-link
-                                data-theme="pack"
-                                style={{
-                                    '--pack-card-gradient-start': p.theme?.cardGradientStart || '#333',
-                                    '--pack-card-gradient-end': p.theme?.cardGradientEnd || '#555',
-                                    '--pack-card-border': p.theme?.cardBorder || '#777',
-                                    '--pack-card-text': p.theme?.cardText || '#fff',
-                                }}
-                            >
-                                <div className="pack-row-content">
-                                    <span className="pack-row-name">{p.name}</span>
-                                    <span className="pack-row-count">{p.movieCount} movies</span>
-                                </div>
-                            </a>
-                        ))}
-                    </div>
-                </div>
             </div>
         </div>
     );

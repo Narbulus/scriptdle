@@ -1,3 +1,12 @@
+/* Game container */
+.game-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 0;
+    flex: 1;
+}
+
 /* Script title section */
 .script-title-section {
     background: var(--game-content-bg);
@@ -18,23 +27,21 @@
 
 .script-title {
     font-family: var(--font-mono);
-    font-size: 1.75rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin: 0 0 0.25rem 0;
-    color: var(--script-text-primary);
+    color: var(--primary-color);
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.25rem;
 }
 
 .script-subtitle {
     font-family: var(--font-mono);
-    font-size: 0.85rem;
-    font-weight: 600;
-    font-style: italic;
-    color: var(--script-text-muted);
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: normal;
+    color: var(--primary-color);
     text-transform: uppercase;
-    letter-spacing: 0.15em;
-    margin: 0.25rem 0 0 0;
+    letter-spacing: 0.05em;
+    margin-top: 0;
 }
 
 .script-subtitle-link {
@@ -64,19 +71,24 @@
 
 /* Playing states */
 .script-area.playing-0 {
-    max-height: 450px;
+    max-height: 1000px;
 }
 
-.script-area.expanded-1 {
-    max-height: 380px;
+.script-area.playing-1 {
+    max-height: 1000px;
 }
 
-.script-area.expanded-2 {
-    max-height: 500px;
+.script-area.playing-2 {
+    max-height: 1000px;
+}
+
+.script-area.playing-3 {
+    max-height: 1000px;
 }
 
 /* Fully expanded state */
-.script-area.expanded-full {
+.script-area.playing-4,
+.script-area.playing-5 {
     max-height: 2000px;
 }
 
@@ -126,7 +138,7 @@
     text-align: center;
     margin-bottom: 2rem;
     width: 100%;
-    max-width: 600px;
+    /* max-width removed */
     font-family: var(--font-mono);
     font-size: 1rem;
     font-weight: bold;
@@ -147,17 +159,12 @@
     opacity: 0.7;
 }
 
-#other-packs-container {
-    margin-top: auto;
-    padding-top: 1rem;
-}
-
 .footer-controls {
     display: flex;
     align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 600px;
+    /* max-width removed */
     justify-content: space-between;
 }
 
@@ -168,7 +175,7 @@
     justify-content: center;
     align-items: flex-start;
     width: 100%;
-    max-width: 600px;
+    /* max-width removed */
     margin-bottom: 1.5rem;
 }
 
@@ -185,7 +192,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 600px;
+    /* max-width removed */
     gap: 2rem;
 }
 
@@ -345,7 +352,6 @@ select {
     position: relative;
     display: inline-block;
     flex: 1;
-    max-width: 250px;
 }
 
 .select-wrapper select {

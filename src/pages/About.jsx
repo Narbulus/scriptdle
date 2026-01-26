@@ -1,7 +1,4 @@
-import { render } from 'preact';
-import { Navigation } from '../components/Navigation.js';
-
-function AboutPage() {
+export function About() {
     return (
         <div className="legal-container">
             <h1>About Scriptle</h1>
@@ -33,10 +30,3 @@ function AboutPage() {
     );
 }
 
-export function renderAbout({ navContainer, contentContainer }) {
-    navContainer.innerHTML = '';
-    navContainer.appendChild(Navigation({ showBackButton: false }));
-
-    contentContainer.innerHTML = '';
-    render(<AboutPage />, contentContainer);
-}

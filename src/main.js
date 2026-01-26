@@ -1,4 +1,4 @@
-import { router } from './router.js';
+import { router } from './router.jsx';
 import { onDateChange } from './utils/time.js';
 import './styles/variables.css';
 import './styles/global.css';
@@ -17,9 +17,4 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   router.init();
-
-  // Initialize temporary palette tester
-  import('./components/PaletteTester.js').then(module => {
-    module.initPaletteTester();
-  });
 });

@@ -1,5 +1,3 @@
-import { computed } from "@preact/signals";
-
 /**
  * ScriptLine Component
  * Renders a single line of dialogue with configurable masking for character and text.

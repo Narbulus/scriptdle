@@ -1,8 +1,3 @@
-/**
- * Simple confetti utility
- * Creates a burst of colorful confetti
- */
-
 export function fireConfetti(customColors = null) {
   const colors = customColors || ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff'];
   const confettiCount = 100;
@@ -19,21 +14,14 @@ export function fireConfetti(customColors = null) {
     const sizeVal = Math.random() * 10 + 5;
     const size = sizeVal + 'px';
 
-    // Random shape
     const shapeRandom = Math.random();
     let borderRadius = '0';
     let clipPath = 'none';
 
     if (shapeRandom < 0.33) {
-      // Circle
       borderRadius = '50%';
-    } else if (shapeRandom < 0.66) {
-      // Square/Rectangle - already default
-    } else {
-      // Triangle
+    } else if (shapeRandom >= 0.66) {
       clipPath = 'polygon(50% 0%, 0% 100%, 100% 100%)';
-      // Increase size slightly for triangles so they don't look too small
-      // size is already set, but that's fine.
     }
 
     Object.assign(confetti.style, {
@@ -52,14 +40,12 @@ export function fireConfetti(customColors = null) {
 
     container.appendChild(confetti);
 
-    // cleanup
     setTimeout(() => {
       confetti.remove();
     }, parseFloat(animDuration) * 1000);
   }
 }
 
-// Inject styles if not present
 if (!document.getElementById('confetti-style')) {
   const style = document.createElement('style');
   style.id = 'confetti-style';

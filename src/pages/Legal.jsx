@@ -1,7 +1,4 @@
-import { render } from 'preact';
-import { Navigation } from '../components/Navigation.js';
-
-function LegalPage() {
+export function Legal() {
     return (
         <div className="legal-container">
             <h1>Legal Information</h1>
@@ -29,10 +26,3 @@ function LegalPage() {
     );
 }
 
-export function renderLegal({ navContainer, contentContainer }) {
-    navContainer.innerHTML = '';
-    navContainer.appendChild(Navigation({ showBackButton: true }));
-
-    contentContainer.innerHTML = '';
-    render(<LegalPage />, contentContainer);
-}

@@ -137,6 +137,7 @@ class PuzzleGenerator:
         """Build metadata with significant characters only"""
         movies_with_year = {}
         movies_with_title = {}
+        movies_with_poster = {}
         significant_by_movie = {}
 
         # Get significant characters from script metadata
@@ -146,6 +147,7 @@ class PuzzleGenerator:
             significant_by_movie[movie_id] = top_cast
             movies_with_year[movie_id] = script.get('year')
             movies_with_title[movie_id] = script.get('title')
+            movies_with_poster[movie_id] = script.get('poster')
 
         # Collect all movie IDs from lines
         movies = set(line['movieId'] for line in all_lines)
@@ -161,6 +163,7 @@ class PuzzleGenerator:
             'movies': sorted_movies,
             'movieYears': {m: year for m, year in movies_with_year.items() if year},
             'movieTitles': {m: title for m, title in movies_with_title.items() if title},
+            'moviePosters': {m: poster for m, poster in movies_with_poster.items() if poster},
             'charactersByMovie': {
                 movie: sorted(significant_by_movie.get(movie, []))
                 for movie in sorted_movies

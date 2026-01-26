@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'preact/hooks';
-import { computed } from "@preact/signals";
 import {
     currentAttempt,
-    maxAttempts,
     movieLocked,
     gameMessage,
     submitGuess,
@@ -97,97 +95,93 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
     const charOptions = selectedMovie ? (metadata.charactersByMovie[selectedMovie] || []) : [];
 
     return (
-        <div className="game-footer" data-testid="game-footer">
-            <div id="game-controls" data-testid="game-controls">
+        <div id="game-controls" data-testid="game-controls">
 
-                {/* Pack Header */}
-                <div className="pack-header-row" data-testid="pack-header">
-                    {pack.name.toUpperCase()} (
-                    <a
-                        id="movies-subtitle-link"
-                        className="pack-header-movies-link"
-                        data-testid="movies-link"
-                        href="#"
-                        onClick={(e) => { e.preventDefault(); onOpenMovies(); }}
-                    >
-                        {metadata.movies.length} MOVIES
-                    </a>
-                    )
-                </div>
-
-                {/* Selectors */}
-                <div className="footer-selectors">
-                    <div className={`select-wrapper ${movieLocked.value ? 'correct' : ''}`}>
-                        <select
-                            id="movie-select"
-                            data-testid="movie-select"
-                            value={selectedMovie}
-                            onChange={handleMovieChange}
-                            disabled={movieLocked.value}
-                        >
-                            <option value="">Film</option>
-                            {metadata.movies.map(m => (
-                                <option key={m} value={m}>{getMovieTitle(m)}</option>
-                            ))}
-                        </select>
-                    </div>
-
-                    <div className="select-wrapper">
-                        <select
-                            id="char-select"
-                            data-testid="char-select"
-                            value={selectedChar}
-                            onChange={handleCharChange}
-                            disabled={!selectedMovie}
-                        >
-                            <option value="">Character</option>
-                            {charOptions.map(c => (
-                                <option key={c} value={c}>{c}</option>
-                            ))}
-                        </select>
-                    </div>
-                </div>
-
-                {/* Errors */}
-                <div id="movie-error" className="form-error" data-testid="movie-error" style={{ display: movieError ? 'block' : 'none' }}>
-                    {movieError}
-                </div>
-                <div id="char-error" className="form-error" data-testid="char-error" style={{ display: charError ? 'block' : 'none' }}>
-                    {charError}
-                </div>
-
-                {/* Actions */}
-                <div className="footer-actions">
-                    <button
-                        id="guess-btn"
-                        data-testid="guess-button"
-                        onClick={handleSubmit}
-                    >
-                        Make Your Guess
-                    </button>
-
-                    <div className="footer-meta">
-                        <div className="footer-attempts" data-testid="attempts-counter">
-                            <span id="attempt-count">{currentAttempt.value}</span>/5 Attempts
-                        </div>
-                        <a href="/" data-link className="footer-more-movies">More Movies</a>
-                    </div>
-                </div>
-
-                {/* Global Game Message Overlay */}
-                {gameMessage.value && (
-                    <div
-                        id="message"
-                        className={`message-overlay ${gameMessage.value.type}`}
-                        data-testid="game-message"
-                        style={{ display: 'block' }}
-                    >
-                        {gameMessage.value.text}
-                    </div>
-                )}
+            {/* Pack Header */}
+            <div className="pack-header-row" data-testid="pack-header">
+                {pack.name.toUpperCase()} (
+                <a
+                    id="movies-subtitle-link"
+                    className="pack-header-movies-link"
+                    data-testid="movies-link"
+                    href="#"
+                    onClick={(e) => { e.preventDefault(); onOpenMovies(); }}
+                >
+                    {metadata.movies.length} MOVIES
+                </a>
+                )
             </div>
 
-            <div id="other-packs-container"></div>
+            {/* Selectors */}
+            <div className="footer-selectors">
+                <div className={`select-wrapper ${movieLocked.value ? 'correct' : ''}`}>
+                    <select
+                        id="movie-select"
+                        data-testid="movie-select"
+                        value={selectedMovie}
+                        onChange={handleMovieChange}
+                        disabled={movieLocked.value}
+                    >
+                        <option value="">Film</option>
+                        {metadata.movies.map(m => (
+                            <option key={m} value={m}>{getMovieTitle(m)}</option>
+                        ))}
+                    </select>
+                </div>
+
+                <div className="select-wrapper">
+                    <select
+                        id="char-select"
+                        data-testid="char-select"
+                        value={selectedChar}
+                        onChange={handleCharChange}
+                        disabled={!selectedMovie}
+                    >
+                        <option value="">Character</option>
+                        {charOptions.map(c => (
+                            <option key={c} value={c}>{c}</option>
+                        ))}
+                    </select>
+                </div>
+            </div>
+
+            {/* Errors */}
+            <div id="movie-error" className="form-error" data-testid="movie-error" style={{ display: movieError ? 'block' : 'none' }}>
+                {movieError}
+            </div>
+            <div id="char-error" className="form-error" data-testid="char-error" style={{ display: charError ? 'block' : 'none' }}>
+                {charError}
+            </div>
+
+            {/* Actions */}
+            <div className="footer-actions">
+                <button
+                    id="guess-btn"
+                    data-testid="guess-button"
+                    onClick={handleSubmit}
+                >
+                    Make Your Guess
+                </button>
+
+                <div className="footer-meta">
+                    <div className="footer-attempts" data-testid="attempts-counter">
+                        <span id="attempt-count">{currentAttempt.value}</span>/5 Attempts
+                    </div>
+                    <a href="/" data-link className="footer-more-movies">More Movies</a>
+                </div>
+            </div>
+
+            {/* Global Game Message Overlay */}
+            {gameMessage.value && (
+                <div
+                    id="message"
+                    className={`message-overlay ${gameMessage.value.type}`}
+                    data-testid="game-message"
+                    style={{ display: 'block' }}
+                >
+                    {gameMessage.value.text}
+                </div>
+            )}
         </div>
     );
 }

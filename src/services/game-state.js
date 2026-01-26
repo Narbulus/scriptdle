@@ -1,8 +1,3 @@
-/**
- * game-state.js
- * Reactive game state management.
- */
-
 import { signal, computed, batch } from "@preact/signals";
 import { saveGameState, getGameState } from "./storage.js";
 
@@ -15,17 +10,10 @@ export const isGameOver = signal(false);
 export const isWin = signal(false);
 export const movieLocked = signal(false);
 export const guessStats = signal([]); // Array<{movie: boolean, char: boolean}>
-export const gameMessage = signal(null); // { text, type: 'error'|'success' }
+export const gameMessage = signal(null);
 
-// Computed
 export const attemptsRemaining = computed(() => maxAttempts.value - currentAttempt.value);
 
-/**
- * Initialize game state for a specific pack/puzzle.
- * Loads from storage or resets to default.
- * @param {string} packId
- * @param {string} date
- */
 export function initGame(packId, date) {
     batch(() => {
         currentPackId.value = packId;
@@ -49,9 +37,6 @@ export function initGame(packId, date) {
     });
 }
 
-/**
- * Show a transient message
- */
 export function showMessage(text, type = 'error', duration = 3000) {
     gameMessage.value = { text, type };
     setTimeout(() => {
@@ -62,11 +47,6 @@ export function showMessage(text, type = 'error', duration = 3000) {
     }, duration);
 }
 
-/**
- * Record a guess attempt.
- * @param {boolean} movieCorrect
- * @param {boolean} charCorrect
- */
 export function submitGuess(movieCorrect, charCorrect) {
     if (isGameOver.value) return;
 
