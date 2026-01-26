@@ -1,4 +1,4 @@
-import { render } from 'preact';
+import { signal } from '@preact/signals';
 import {
     getCompletionsByDate,
     getStreak,
@@ -71,13 +71,13 @@ export function StatsContent() {
                     <p className="empty-state">No completions yet. Play a pack to get started!</p>
                 ) : (
                     <ul className="results-list">
-                        {completions.map((completion, idx) => {
+                        {completions.map((completion) => {
                             const dateFormatted = formatDate(completion.date);
                             const packName = formatPackName(completion.packId);
                             const result = completion.success ? `Win (${completion.attempts})` : `Loss (${completion.attempts})`;
 
                             return (
-                                <li key={idx} className="result-item">
+                                <li key={`${completion.packId}-${completion.date}`} className="result-item">
                                     {completion.success && (
                                         <span
                                             className="flower-bullet"
@@ -97,10 +97,10 @@ export function StatsContent() {
 
 import { Modal } from '../components/common/Modal.jsx';
 
-function StatsModal({ onClose }) {
+function StatsModal({ isOpen, onClose }) {
     return (
         <Modal
-            isOpen={true}
+            isOpen={isOpen}
             onClose={onClose}
             title="Stats"
         >
@@ -128,16 +128,19 @@ function formatDate(dateStr) {
     return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 }
 
-let modalContainer = null;
+const isStatsModalOpen = signal(false);
 
 export function openStatsModal() {
-    if (!modalContainer) {
-        modalContainer = document.createElement('div');
-        modalContainer.id = 'stats-modal-root';
-        document.body.appendChild(modalContainer);
-    }
+    isStatsModalOpen.value = true;
+}
 
-    render(<StatsModal onClose={() => render(null, modalContainer)} />, modalContainer);
+export function StatsModalContainer() {
+    return (
+        <StatsModal
+            isOpen={isStatsModalOpen.value}
+            onClose={() => isStatsModalOpen.value = false}
+        />
+    );
 }
 
 export function Stats() {

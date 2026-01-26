@@ -3,6 +3,7 @@ import { Modal } from '../common/Modal.jsx';
 export function MoviesModal({ isOpen, onClose, packName, movies, movieTitles, movieYears, moviePosters }) {
     return (
         <Modal
+            id="movies-modal"
             isOpen={isOpen}
             onClose={onClose}
             title={packName}

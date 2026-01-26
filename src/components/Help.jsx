@@ -1,37 +1,26 @@
-import { useState, useEffect, useRef } from 'preact/hooks';
+import { signal } from '@preact/signals';
+import { useEffect, useRef } from 'preact/hooks';
 import { Modal } from './common/Modal.jsx';
 
-let isHelpModalOpen = false;
-let setHelpModalOpenGlobal = null;
+const isHelpModalOpen = signal(false);
 
 export function openHelpModal() {
-  if (setHelpModalOpenGlobal) {
-    setHelpModalOpenGlobal(true);
-  }
+  isHelpModalOpen.value = true;
 }
 
 export function HelpModal() {
-  const [isOpen, setIsOpen] = useState(false);
   const animationIntervalRef = useRef(null);
   const stepRef = useRef(0);
   const confettiFiredRef = useRef(false);
 
   useEffect(() => {
-    setHelpModalOpenGlobal = setIsOpen;
-    isHelpModalOpen = isOpen;
-    return () => {
-      setHelpModalOpenGlobal = null;
-    };
-  }, [isOpen]);
-
-  useEffect(() => {
-    if (isOpen) {
+    if (isHelpModalOpen.value) {
       startAnimation();
     } else {
       stopAnimation();
     }
     return () => stopAnimation();
-  }, [isOpen]);
+  }, [isHelpModalOpen.value]);
 
   function stopAnimation() {
     if (animationIntervalRef.current) {
@@ -158,8 +147,9 @@ export function HelpModal() {
 
   return (
     <Modal
-      isOpen={isOpen}
-      onClose={() => setIsOpen(false)}
+      id="help-modal"
+      isOpen={isHelpModalOpen.value}
+      onClose={() => isHelpModalOpen.value = false}
       title="How To Play"
       theme="main"
     >

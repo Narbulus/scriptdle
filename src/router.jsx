@@ -1,7 +1,7 @@
 import { render } from 'preact';
 import { Home } from './pages/Home.jsx';
 import { Play } from './pages/Play.jsx';
-import { Stats } from './pages/Stats.jsx';
+import { Stats, StatsModalContainer } from './pages/Stats.jsx';
 import { Legal } from './pages/Legal.jsx';
 import { About } from './pages/About.jsx';
 import { Navigation } from './components/Navigation.jsx';
@@ -79,12 +79,14 @@ function init() {
       <div id="content-area"></div>
       <div id="footer-container"></div>
       <div id="help-modal-container"></div>
+      <div id="stats-modal-container"></div>
     </div>
   `;
 
   render(<Navigation />, document.getElementById('nav-bar-container'));
   render(<Footer />, document.getElementById('footer-container'));
   render(<HelpModal />, document.getElementById('help-modal-container'));
+  render(<StatsModalContainer />, document.getElementById('stats-modal-container'));
 
   window.addEventListener('popstate', handleRoute);
 
