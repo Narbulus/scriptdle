@@ -2,6 +2,7 @@ import { useState, useEffect } from 'preact/hooks';
 import {
     currentAttempt,
     movieLocked,
+    characterLocked,
     gameMessage,
     submitGuess,
     showMessage
@@ -27,6 +28,15 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
         }
     }, [movieLocked.value]);
 
+    // Sync locked character state
+    useEffect(() => {
+        if (characterLocked.value) {
+            // If character locked, ensure the correct character is selected
+            const correctChar = puzzle.targetLine.character;
+            setSelectedChar(correctChar);
+        }
+    }, [characterLocked.value]);
+
     // Helper to map Title -> ID
     const getMovieId = (title) => {
         if (!metadata.movies || !metadata.movieTitles) return title;
@@ -43,7 +53,10 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
 
     const handleMovieChange = (e) => {
         setSelectedMovie(e.target.value);
-        setSelectedChar(''); // Reset char when movie changes
+        // Don't reset char if it's locked
+        if (!characterLocked.value) {
+            setSelectedChar('');
+        }
         setMovieError('');
     };
 
@@ -77,6 +90,8 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
         // UI Feedback logic
         if (isMovieCorrect && !isCharCorrect) {
             showMessage('Movie is correct! Character is wrong.', 'error');
+        } else if (!isMovieCorrect && isCharCorrect) {
+            showMessage('Character is correct! Movie is wrong.', 'error');
         } else if (!isMovieCorrect) {
             showMessage('Incorrect. New clue revealed!', 'error');
         }
@@ -87,12 +102,22 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
         // If movie wasn't correct, reset selection?
         if (!isMovieCorrect && !movieLocked.value) {
             setSelectedMovie('');
+        }
+        // If character wasn't correct, reset selection?
+        if (!isCharCorrect && !characterLocked.value) {
             setSelectedChar('');
         }
     };
 
     // Derived state for Character Options
-    const charOptions = selectedMovie ? (metadata.charactersByMovie[selectedMovie] || []) : [];
+    // Include locked character even if no movie is selected
+    const charOptions = (() => {
+        if (characterLocked.value && !selectedMovie) {
+            // Show only the locked character when no movie selected
+            return [puzzle.targetLine.character];
+        }
+        return selectedMovie ? (metadata.charactersByMovie[selectedMovie] || []) : [];
+    })();
 
     return (
         <div id="game-controls" data-testid="game-controls">
@@ -129,13 +154,13 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
                     </select>
                 </div>
 
-                <div className="select-wrapper">
+                <div className={`select-wrapper ${characterLocked.value ? 'correct' : ''}`}>
                     <select
                         id="char-select"
                         data-testid="char-select"
                         value={selectedChar}
                         onChange={handleCharChange}
-                        disabled={!selectedMovie}
+                        disabled={!selectedMovie || characterLocked.value}
                     >
                         <option value="">Character</option>
                         {charOptions.map(c => (

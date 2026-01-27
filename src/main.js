@@ -5,6 +5,7 @@ import './styles/global.css';
 import './styles/themes.css';
 import './components/game/game.css';
 import './components/game/completion.css';
+import './components/menu.css';
 import './pages/home.css';
 import './pages/stats.css';
 import './pages/legal.css';

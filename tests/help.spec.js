@@ -6,6 +6,8 @@ test.describe('Help Modal', () => {
 
         test('opens when help button clicked', async ({ page }) => {
             await page.goto('/');
+
+            // Click help button directly
             await page.getByTestId('help-button').click();
 
             const modal = page.locator('#help-modal');
@@ -14,6 +16,8 @@ test.describe('Help Modal', () => {
 
         test('uses main theme', async ({ page }) => {
             await page.goto('/');
+
+            // Click help button
             await page.getByTestId('help-button').click();
 
             const modal = page.locator('#help-modal');
@@ -22,6 +26,8 @@ test.describe('Help Modal', () => {
 
         test('example animation loads', async ({ page }) => {
             await page.goto('/');
+
+            // Click help button
             await page.getByTestId('help-button').click();
 
             // Wait for demo script container to be visible
@@ -34,6 +40,8 @@ test.describe('Help Modal', () => {
 
         test('closes when X clicked', async ({ page }) => {
             await page.goto('/');
+
+            // Click help button
             await page.getByTestId('help-button').click();
 
             const modal = page.locator('#help-modal');
@@ -46,6 +54,8 @@ test.describe('Help Modal', () => {
 
         test('closes when clicking outside modal', async ({ page }) => {
             await page.goto('/');
+
+            // Click help button
             await page.getByTestId('help-button').click();
 
             const modal = page.locator('#help-modal');
@@ -66,7 +76,7 @@ test.describe('Help Modal', () => {
             await page.getByTestId('pack-row').first().click();
             await expect(page.locator('body')).toHaveAttribute('data-theme', 'pack');
 
-            // Open help modal
+            // Click help button
             await page.getByTestId('help-button').click();
 
             const modal = page.locator('#help-modal');

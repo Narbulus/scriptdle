@@ -1,5 +1,5 @@
 import { computed } from "@preact/signals";
-import { guessStats, currentAttempt, isWin } from '../../services/game-state.js';
+import { guessStats, currentAttempt, isWin, confettiShown, markConfettiShown } from '../../services/game-state.js';
 import { getStreak } from '../../utils/completionTracker.js';
 import { generateFlower, stringToSeed } from '../../utils/flowerGenerator.js';
 import { fireConfetti } from '../../utils/confetti.js';
@@ -30,9 +30,9 @@ export function Completion({ puzzle, pack, packTheme }) {
     // Answer Text
     const target = puzzle.targetLine;
 
-    // Fire confetti on mount if win
+    // Fire confetti on mount if win and not already shown
     useEffect(() => {
-        if (success) {
+        if (success && !confettiShown.value) {
             // Determine colors
             const theme = packTheme || {};
             const colors = [
@@ -45,6 +45,7 @@ export function Completion({ puzzle, pack, packTheme }) {
             ].filter(Boolean);
 
             fireConfetti(colors.length > 1 ? colors : null);
+            markConfettiShown();
         }
     }, [success]);
 

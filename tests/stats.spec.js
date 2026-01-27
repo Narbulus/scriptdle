@@ -10,7 +10,9 @@ test.describe('Stats Modal', () => {
             await page.reload();
             await page.waitForLoadState('networkidle');
 
-            await page.getByTestId('stats-button').click();
+            // Open menu and click stats
+            await page.getByTestId('menu-button').click();
+            await page.getByTestId('menu-stats').click();
 
             // Wait for modal to appear
             const modal = page.locator('.modal-overlay').filter({ hasText: /Stats|History|played/i });
@@ -40,7 +42,9 @@ test.describe('Stats Modal', () => {
             await page.reload();
             await page.waitForLoadState('networkidle');
 
-            await page.getByTestId('stats-button').click();
+            // Open menu and click stats
+            await page.getByTestId('menu-button').click();
+            await page.getByTestId('menu-stats').click();
 
             const modal = page.locator('.modal-overlay').filter({ hasText: /Stats|History/i });
             await expect(modal.first()).toBeVisible({ timeout: 5000 });
@@ -68,7 +72,9 @@ test.describe('Stats Modal', () => {
             await page.reload();
             await page.waitForLoadState('networkidle');
 
-            await page.getByTestId('stats-button').click();
+            // Open menu and click stats
+            await page.getByTestId('menu-button').click();
+            await page.getByTestId('menu-stats').click();
 
             const modal = page.locator('.modal-overlay').filter({ hasText: /Stats|History/i });
             await expect(modal.first()).toBeVisible({ timeout: 5000 });
@@ -83,7 +89,10 @@ test.describe('Stats Modal', () => {
 
         test('modal appears on home page', async ({ page }) => {
             await page.goto('/');
-            await page.getByTestId('stats-button').click();
+
+            // Open menu and click stats
+            await page.getByTestId('menu-button').click();
+            await page.getByTestId('menu-stats').click();
 
             const modal = page.locator('.modal-overlay').filter({ hasText: /Stats|History/i });
             await expect(modal.first()).toBeVisible({ timeout: 5000 });
@@ -94,8 +103,9 @@ test.describe('Stats Modal', () => {
             await page.getByTestId('pack-row').first().click();
             await page.waitForLoadState('networkidle');
 
-            // Open stats from game page
-            await page.getByTestId('stats-button').click();
+            // Open menu and click stats from game page
+            await page.getByTestId('menu-button').click();
+            await page.getByTestId('menu-stats').click();
 
             const modal = page.locator('.modal-overlay').filter({ hasText: /Stats|History/i });
             await expect(modal.first()).toBeVisible({ timeout: 5000 });
@@ -106,7 +116,10 @@ test.describe('Stats Modal', () => {
 
         test('closes when X clicked', async ({ page }) => {
             await page.goto('/');
-            await page.getByTestId('stats-button').click();
+
+            // Open menu and click stats
+            await page.getByTestId('menu-button').click();
+            await page.getByTestId('menu-stats').click();
 
             const modal = page.locator('.modal-overlay').filter({ hasText: /Stats|History/i });
             await expect(modal.first()).toBeVisible({ timeout: 5000 });

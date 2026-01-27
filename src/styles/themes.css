@@ -26,10 +26,6 @@
     background: var(--main-nav-bg);
 }
 
-[data-theme="main"] .footer-bar {
-    background: var(--main-nav-bg);
-}
-
 [data-theme="main"] .game-footer {
     background: var(--main-nav-bg);
 }
@@ -52,8 +48,7 @@
 
 [data-theme="main"] .nav-help-btn,
 [data-theme="main"] .nav-results-link,
-[data-theme="main"] .footer-link,
-[data-theme="main"] .footer-countdown {
+[data-theme="main"] .nav-menu-btn {
     color: var(--main-text);
 }
 
@@ -81,10 +76,6 @@
     background: var(--pack-bg);
 }
 
-[data-theme="pack"] .footer-bar {
-    background: var(--pack-bg);
-}
-
 [data-theme="pack"] .game-footer {
     background: var(--pack-bg);
 }
@@ -97,8 +88,7 @@
 
 [data-theme="pack"] .nav-help-btn,
 [data-theme="pack"] .nav-results-link,
-[data-theme="pack"] .footer-link,
-[data-theme="pack"] .footer-countdown {
+[data-theme="pack"] .nav-menu-btn {
     color: var(--pack-primary);
 }
 
@@ -115,10 +105,10 @@
     border-color: var(--main-text);
 }
 
-/* Override: keep nav/footer buttons as transparent text links */
+/* Override: keep nav buttons as transparent text links */
 [data-theme="pack"] .nav-help-btn,
 [data-theme="pack"] .nav-results-link,
-[data-theme="pack"] .footer-link {
+[data-theme="pack"] .nav-menu-btn {
     background: transparent;
 }
 

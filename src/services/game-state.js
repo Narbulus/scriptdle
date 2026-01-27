@@ -9,8 +9,10 @@ export const maxAttempts = signal(5);
 export const isGameOver = signal(false);
 export const isWin = signal(false);
 export const movieLocked = signal(false);
+export const characterLocked = signal(false);
 export const guessStats = signal([]); // Array<{movie: boolean, char: boolean}>
 export const gameMessage = signal(null);
+export const confettiShown = signal(false);
 
 export const attemptsRemaining = computed(() => maxAttempts.value - currentAttempt.value);
 
@@ -25,14 +27,18 @@ export function initGame(packId, date) {
             isGameOver.value = !!saved.gameOver;
             isWin.value = !!saved.success;
             movieLocked.value = !!saved.movieLocked;
+            characterLocked.value = !!saved.characterLocked;
             guessStats.value = saved.guessStats || [];
+            confettiShown.value = !!saved.confettiShown;
         } else {
             // Reset
             currentAttempt.value = 0;
             isGameOver.value = false;
             isWin.value = false;
             movieLocked.value = false;
+            characterLocked.value = false;
             guessStats.value = [];
+            confettiShown.value = false;
         }
     });
 }
@@ -58,6 +64,10 @@ export function submitGuess(movieCorrect, charCorrect) {
             movieLocked.value = true;
         }
 
+        if (charCorrect) {
+            characterLocked.value = true;
+        }
+
         if (movieCorrect && charCorrect) {
             // Win
             isWin.value = true;
@@ -78,7 +88,22 @@ export function submitGuess(movieCorrect, charCorrect) {
             gameOver: isGameOver.value,
             success: isWin.value,
             movieLocked: movieLocked.value,
-            guessStats: guessStats.value
+            characterLocked: characterLocked.value,
+            guessStats: guessStats.value,
+            confettiShown: confettiShown.value
         }, currentPuzzleDate.value);
     });
+}
+
+export function markConfettiShown() {
+    confettiShown.value = true;
+    saveGameState(currentPackId.value, {
+        attempts: currentAttempt.value,
+        gameOver: isGameOver.value,
+        success: isWin.value,
+        movieLocked: movieLocked.value,
+        characterLocked: characterLocked.value,
+        guessStats: guessStats.value,
+        confettiShown: confettiShown.value
+    }, currentPuzzleDate.value);
 }

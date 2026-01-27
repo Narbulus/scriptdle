@@ -15,9 +15,9 @@ test.describe('Home Page', () => {
             await expect(page.getByTestId('nav-logo')).toHaveText('Scriptle');
         });
 
-        test('displays footer', async ({ page }) => {
+        test('displays menu button', async ({ page }) => {
             await page.goto('/');
-            await expect(page.getByTestId('footer-bar')).toBeVisible();
+            await expect(page.getByTestId('menu-button')).toBeVisible();
         });
 
         test('displays pack rows', async ({ page }) => {
@@ -147,6 +147,8 @@ test.describe('Home Page', () => {
 
         test('help button opens help modal', async ({ page }) => {
             await page.goto('/');
+
+            // Click help button
             await page.getByTestId('help-button').click();
 
             const modal = page.locator('#help-modal');
@@ -156,7 +158,10 @@ test.describe('Home Page', () => {
 
         test('stats button opens stats modal', async ({ page }) => {
             await page.goto('/');
-            await page.getByTestId('stats-button').click();
+
+            // Open menu and click stats
+            await page.getByTestId('menu-button').click();
+            await page.getByTestId('menu-stats').click();
 
             // Stats modal is dynamically created - wait for any modal overlay
             const modal = page.locator('.modal-overlay').filter({ has: page.getByText(/Stats|History/i) });

@@ -147,6 +147,7 @@ test.describe('Game Play', () => {
                     version: 2,
                     attempts: 2,
                     movieLocked: true,
+                    characterLocked: false,
                     guessStats: [
                         { movie: true, char: false },
                         { movie: true, char: true }
@@ -181,6 +182,7 @@ test.describe('Game Play', () => {
                     version: 2,
                     attempts: 5,
                     movieLocked: false,
+                    characterLocked: false,
                     guessStats: [
                         { movie: false, char: false },
                         { movie: false, char: false },
@@ -216,6 +218,8 @@ test.describe('Game Play', () => {
                 localStorage.setItem(`scriptle:${packId}:${today}`, JSON.stringify({
                     version: 2,
                     attempts: 3,
+                    movieLocked: true,
+                    characterLocked: false,
                     gameOver: true,
                     success: true,
                     guessStats: [
@@ -250,6 +254,8 @@ test.describe('Game Play', () => {
                 localStorage.setItem(`scriptle:${packId}:${today}`, JSON.stringify({
                     version: 2,
                     attempts: 2,
+                    movieLocked: true,
+                    characterLocked: false,
                     gameOver: true,
                     success: true,
                     guessStats: [

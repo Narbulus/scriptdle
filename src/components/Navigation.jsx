@@ -1,22 +1,23 @@
 import { router } from '../router.jsx';
-import { openStatsModal } from '../pages/Stats.jsx';
-import { openHelpModal } from '../components/Help.jsx';
+import { openMenu } from './Menu.jsx';
+import { openHelpModal } from './Help.jsx';
+import { CircleHelp, Menu as MenuIcon } from 'lucide-preact';
 
-export function Navigation({ showHelpButton = true } = {}) {
+export function Navigation() {
   return (
     <div className="nav-bar" data-testid="nav-bar">
-      <div className="nav-left" style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-        {showHelpButton && (
-          <button
-            className="nav-help-btn"
-            title="How to Play"
-            data-testid="help-button"
-            onClick={() => openHelpModal()}
-          >
-            <span className="nav-help-icon">?</span>
-            <span>HELP</span>
-          </button>
-        )}
+      <div className="nav-left">
+        <button
+          className="nav-help-btn"
+          title="How to Play"
+          data-testid="help-button"
+          onClick={() => openHelpModal()}
+        >
+          <span className="nav-help-icon">
+            <CircleHelp size={20} strokeWidth={2} />
+          </span>
+          <span>HELP</span>
+        </button>
       </div>
 
       <div className="nav-center">
@@ -32,11 +33,15 @@ export function Navigation({ showHelpButton = true } = {}) {
 
       <div className="nav-right">
         <button
-          className="nav-results-link"
-          data-testid="stats-button"
-          onClick={() => openStatsModal()}
+          className="nav-menu-btn"
+          title="Menu"
+          data-testid="menu-button"
+          onClick={() => openMenu()}
         >
-          STATS
+          <span className="nav-menu-icon">
+            <MenuIcon size={20} strokeWidth={2} />
+          </span>
+          <span>MENU</span>
         </button>
       </div>
     </div>

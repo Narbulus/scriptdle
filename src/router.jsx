@@ -5,7 +5,7 @@ import { Stats, StatsModalContainer } from './pages/Stats.jsx';
 import { Legal } from './pages/Legal.jsx';
 import { About } from './pages/About.jsx';
 import { Navigation } from './components/Navigation.jsx';
-import { Footer } from './components/Footer.jsx';
+import { Menu } from './components/Menu.jsx';
 import { HelpModal } from './components/Help.jsx';
 import { track } from './utils/analytics.js';
 
@@ -77,14 +77,14 @@ function init() {
     <div class="container">
       <div id="nav-bar-container"></div>
       <div id="content-area"></div>
-      <div id="footer-container"></div>
+      <div id="menu-container"></div>
       <div id="help-modal-container"></div>
       <div id="stats-modal-container"></div>
     </div>
   `;
 
   render(<Navigation />, document.getElementById('nav-bar-container'));
-  render(<Footer />, document.getElementById('footer-container'));
+  render(<Menu />, document.getElementById('menu-container'));
   render(<HelpModal />, document.getElementById('help-modal-container'));
   render(<StatsModalContainer />, document.getElementById('stats-modal-container'));
 
