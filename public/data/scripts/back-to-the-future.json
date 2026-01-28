@@ -1,0 +1,2597 @@
+{
+  "id": "back-to-the-future",
+  "title": "Back to the Future",
+  "year": null,
+  "characters": [
+    "3-D",
+    "AUDITION JUDGE",
+    "BIFF",
+    "BOY",
+    "BOYFRIEND",
+    "CLOCK WOMAN",
+    "COP",
+    "DAVE",
+    "DIXON",
+    "DOC",
+    "GEORGE",
+    "GIRL",
+    "GIRLFRIEND",
+    "GIRLFRIEND #1",
+    "GIRLFRIEND #2",
+    "JENNIFER",
+    "KID",
+    "LIBYAN",
+    "LINDA",
+    "LORRAINE",
+    "LYNDA",
+    "MARTY",
+    "MARVIN BERRY",
+    "RADIO",
+    "RED",
+    "SKINHEAD",
+    "STARLIGHTER",
+    "STRICKLAND",
+    "TELEVISION",
+    "TV DOC"
+  ],
+  "lines": [
+    {
+      "character": "RADIO",
+      "text": "October is inventory time. So right now, Statler Toyota is making the best deals of the year on all 1985 model Toyotas. You won't find a better car with a better price with better service anywhere in Hill Valley..."
+    },
+    {
+      "character": "TELEVISION",
+      "text": "The Senate is expected to vote on this today. In other news, officials at The Pacific Nuclear Research Facility have denied the rumor that the case of missing plutonium was in fact stolen from their vault two weeks ago. A Libyan terrorist group had claimed responsibility for the alleged theft; however, the officials now infer the discrepancy to a simple clerical error. The FBI..."
+    },
+    {
+      "character": "MARTY",
+      "text": "Hey, Doc?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Doc. Hello, anybody home? Einstein, come here, boy. What's goin’ on? Wha-"
+    },
+    {
+      "character": "MARTY",
+      "text": "aw, God. Aw, Jesus. That's disgusting."
+    },
+    {
+      "character": "MARTY",
+      "text": "Whoa."
+    },
+    {
+      "character": "MARTY",
+      "text": "Rock and roll."
+    },
+    {
+      "character": "MARTY",
+      "text": "Yo."
+    },
+    {
+      "character": "DOC",
+      "text": "Marty, is that you?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Hey, hey, Doc, where are you?"
+    },
+    {
+      "character": "DOC",
+      "text": "Thank God I found you. Listen, can you meet me at Twin Pines Mall tonight at 1:15? I've made a major breakthrough; I'll need your assistance."
+    },
+    {
+      "character": "MARTY",
+      "text": "Wait a minute, wait a minute. 1:15 in the morning?"
+    },
+    {
+      "character": "DOC",
+      "text": "Yes."
+    },
+    {
+      "character": "MARTY",
+      "text": "What's goin' on? Where have you been all week?"
+    },
+    {
+      "character": "DOC",
+      "text": "Working."
+    },
+    {
+      "character": "MARTY",
+      "text": "Where's Einstein, is he with you?"
+    },
+    {
+      "character": "DOC",
+      "text": "Yeah, he's right here."
+    },
+    {
+      "character": "MARTY",
+      "text": "You know, Doc, you left your equipment on all week."
+    },
+    {
+      "character": "DOC",
+      "text": "My equipment, that reminds me, Marty, you better not hook up to the amplifier. There's a slight possibility for overload."
+    },
+    {
+      "character": "MARTY",
+      "text": "Yeah, I'll keep that in mind."
+    },
+    {
+      "character": "DOC",
+      "text": "Good, I'll see you tonight. Don't forget, now, 1:15 a.m., Twin Pines Mall."
+    },
+    {
+      "character": "MARTY",
+      "text": "Right."
+    },
+    {
+      "character": "DOC",
+      "text": "Are those my clocks I hear?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Yeah, it's 8:00."
+    },
+    {
+      "character": "DOC",
+      "text": "They're late. My experiment worked. They're all exactly twenty-five minutes slow."
+    },
+    {
+      "character": "MARTY",
+      "text": "Wait a minute. Wait a minute, Doc. Are you tellin’ me that it's 8:25?"
+    },
+    {
+      "character": "DOC",
+      "text": "Precisely."
+    },
+    {
+      "character": "MARTY",
+      "text": "Damn! I'm late for school!"
+    },
+    {
+      "character": "MARTY",
+      "text": "Hello, Jennifer."
+    },
+    {
+      "character": "JENNIFER",
+      "text": "Marty, don't go this way. Strickland's looking for you. If you're caught, it'll be four tardies in a row."
+    },
+    {
+      "character": "JENNIFER",
+      "text": "Alright, c'mon, I think we're safe."
+    },
+    {
+      "character": "MARTY",
+      "text": "Y'know this time it wasn't my fault. The Doc set all of his clocks twenty-five minutes slow."
+    },
+    {
+      "character": "STRICKLAND",
+      "text": "Doc?"
+    },
+    {
+      "character": "STRICKLAND",
+      "text": "Am I to understand you're still hanging around with Doctor Emmett Brown, McFly? A tardy slip for you, Miss Parker. And one for you, McFly. I believe that makes four in a row. Now let me give you a nickel's worth of advice, young man. This so called \"Doctor\" Brown is dangerous, he's a real nutcase. You hang around with him, you're gonna end up in big trouble."
+    },
+    {
+      "character": "MARTY",
+      "text": "Oh, yes sir."
+    },
+    {
+      "character": "STRICKLAND",
+      "text": "You got a real attitude problem, McFly. You're a slacker. You remind me of your father when he went here, he was a slacker too."
+    },
+    {
+      "character": "MARTY",
+      "text": "Can I go now, Mr. Strickland?"
+    },
+    {
+      "character": "STRICKLAND",
+      "text": "I noticed your band is on the roster for dance auditions after school today. Why even bother, McFly? You haven't got a chance. You're too much like your old man. No McFly ever amounted to anything in the history of Hill Valley."
+    },
+    {
+      "character": "MARTY",
+      "text": "Yeah, well, history's gonna change."
+    },
+    {
+      "character": "MARTY",
+      "text": "Alright, we're the pinheads."
+    },
+    {
+      "character": "AUDITION JUDGE",
+      "text": "Okay, that's enough. Now stop the microphone. I'm sorry, fellas. I'm afraid you're just too darn loud. Next, please. Where's the next group, please?"
+    },
+    {
+      "character": "MARTY",
+      "text": "\"Too loud\". I can't believe it. I'm never gonna get a chance to play in front of anybody."
+    },
+    {
+      "character": "JENNIFER",
+      "text": "Marty, one rejection isn't the end of the world."
+    },
+    {
+      "character": "MARTY",
+      "text": "Nah, I just don't think I'm cut out for music."
+    },
+    {
+      "character": "JENNIFER",
+      "text": "But you're good, Marty, you're really good. And this audition tape of yours is great, you gotta send it in to the record company. It's like Doc's always saying."
+    },
+    {
+      "character": "MARTY",
+      "text": "Yeah. I know, I know. \"If you put your mind to it, you could accomplish anything.\""
+    },
+    {
+      "character": "JENNIFER",
+      "text": "That's good advice, Marty."
+    },
+    {
+      "character": "MARTY",
+      "text": "Alright, okay, Jennifer. What if I send in the tape and they don't like it? I mean, what if they say I'm no good? What if they say, \"Get outta here, kid, you got no future.\" I mean, I just don't think I can take that kind of rejection. (sighs) Jesus, I'm beginning to sound like my old man."
+    },
+    {
+      "character": "JENNIFER",
+      "text": "C'mon, he's not that bad. At least he's letting you borrow the car tomorrow night."
+    },
+    {
+      "character": "MARTY",
+      "text": "Check out that four by four. That is hot. Someday, Jennifer, someday. Wouldn't it be great to take that truck up to the lake? Throw a couple of sleeping bags in the back. Lie out under the stars. (sighs, admiring it longingly)"
+    },
+    {
+      "character": "JENNIFER",
+      "text": "Stop it."
+    },
+    {
+      "character": "MARTY",
+      "text": "What?"
+    },
+    {
+      "character": "JENNIFER",
+      "text": "Does your mom know about tomorrow night?"
+    },
+    {
+      "character": "MARTY",
+      "text": "No, get outta town, my mom thinks I'm goin’ camping with the guys. Well, Jennifer, my mother would freak out if she knew I was goin’ up there with you. And I'd get this standard lecture about how she never did that kind of stuff when she was a kid. Now look, I think the woman was born a nun."
+    },
+    {
+      "character": "JENNIFER",
+      "text": "She's just trying to keep you respectable."
+    },
+    {
+      "character": "MARTY",
+      "text": "Well, she's not doin’ a very good job."
+    },
+    {
+      "character": "JENNIFER",
+      "text": "Terrible..."
+    },
+    {
+      "character": "CLOCK WOMAN",
+      "text": "Save the clock tower! Mayor Wilson is sponsoring an initiative to replace that clock. (points to the stopped clock on the old courthouse building) Thirty years ago, lightning struck that clock tower, and the clock hasn't run since. We at the Hill Valley Preservation Society think it should be preserved exactly the way it is, as part of our history and heritage."
+    },
+    {
+      "character": "MARTY",
+      "text": "Here you go, lady. There's a quarter."
+    },
+    {
+      "character": "CLOCK WOMAN",
+      "text": "Thank you, don't forget to take a flyer."
+    },
+    {
+      "character": "MARTY",
+      "text": "Right."
+    },
+    {
+      "character": "CLOCK WOMAN",
+      "text": "Save the clock tower."
+    },
+    {
+      "character": "MARTY",
+      "text": "Where were we?"
+    },
+    {
+      "character": "JENNIFER",
+      "text": "Right about here."
+    },
+    {
+      "character": "JENNIFER",
+      "text": "Jennifer!"
+    },
+    {
+      "character": "JENNIFER",
+      "text": "It's my dad."
+    },
+    {
+      "character": "MARTY",
+      "text": "Right."
+    },
+    {
+      "character": "JENNIFER",
+      "text": "I've gotta go."
+    },
+    {
+      "character": "MARTY",
+      "text": "I'll call you tonight."
+    },
+    {
+      "character": "JENNIFER",
+      "text": "I'll be at my grandma's. Here, let me give you the number."
+    },
+    {
+      "character": "JENNIFER",
+      "text": "Bye."
+    },
+    {
+      "character": "MARTY",
+      "text": "Perfect, just perfect."
+    },
+    {
+      "character": "BIFF",
+      "text": "I can't believe you'd loan me your car without telling me it had a blind spot. I could've been killed!"
+    },
+    {
+      "character": "GEORGE",
+      "text": "Now, now, Biff, now, I never noticed that the car had any blind spot before when I would drive it."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Hi, son."
+    },
+    {
+      "character": "BIFF",
+      "text": "What are you blind, McFly? It's there. How else do you explain that wreck out there?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "Now, Biff, um, can I assume that your insurance is gonna pay for the damage?"
+    },
+    {
+      "character": "BIFF",
+      "text": "My insurance? It's your car; your insurance should pay for it. Hey, I wanna know who's gonna pay for THIS?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "Now, now, Biff, now, I never noticed that the car had any blind spot before when I would drive it."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Hi, son."
+    },
+    {
+      "character": "BIFF",
+      "text": "What are you blind, McFly? It's there. How else do you explain that wreck out there?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "Now, Biff, um, can I assume that your insurance is gonna pay for the damage?"
+    },
+    {
+      "character": "BIFF",
+      "text": "My insurance? It's your car; your insurance should pay for it. Hey, I wanna know who's gonna pay for THIS?"
+    },
+    {
+      "character": "BIFF",
+      "text": "I spilled beer all over it when that car smashed into me. Who's gonna pay my cleaning bill?!"
+    },
+    {
+      "character": "GEORGE",
+      "text": "Uh?"
+    },
+    {
+      "character": "BIFF",
+      "text": "And where's my reports?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "Uh, well, I haven't finished those up yet, but you know, I figured since they weren't due till-"
+    },
+    {
+      "character": "BIFF",
+      "text": "Hello? Hello, anybody home? Think, McFly, think! I gotta have time to get ‘em re-typed. Do you realize what would happen if I hand in my reports in your handwriting ? I'll get fired. You wouldn't want that to happen would ya?"
+    },
+    {
+      "character": "BIFF",
+      "text": "WOULD YA?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "Of course not, Biff. Now I wouldn't want that to happen. Now, uh, I'll finish those reports up tonight, and I'll run ‘em on over first thing tomorrow, alright?"
+    },
+    {
+      "character": "BIFF",
+      "text": "Hey, not too early I sleep in on Saturday. Oh, McFly, your shoe's untied."
+    },
+    {
+      "character": "BIFF",
+      "text": "Don't be so gullible, McFly. You got the place fixed up nice, McFly."
+    },
+    {
+      "character": "BIFF",
+      "text": "I have your car towed all the way to your house, and all you've got for me is light beer?"
+    },
+    {
+      "character": "BIFF",
+      "text": "What are you lookin’ at, butthead? Say hi to your mom for me."
+    },
+    {
+      "character": "GEORGE",
+      "text": "I know what you're gonna say, son, and you're right, you're right, But Biff just happens to be my supervisor, and I'm afraid I'm not very good at confrontations."
+    },
+    {
+      "character": "MARTY",
+      "text": "But the car, Dad, I mean he wrecked it, he totaled it. I needed that car tomorrow night, Dad, I mean, do you have any idea how important this was, do you have any clue?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "I know, and all I could say is I'm sorry."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Believe me, Marty, you're better off not having to worry about all the aggravation and headaches of playing at that dance."
+    },
+    {
+      "character": "DAVE",
+      "text": "He's absolutely right, Marty. the last thing you need is headaches."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Kids, we're gonna have to eat this cake by ourselves, Uncle Joey didn't make parole again."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "I think it would be nice, if you all dropped him a line."
+    },
+    {
+      "character": "MARTY",
+      "text": "Uncle \"Jailbird\" Joey?"
+    },
+    {
+      "character": "DAVE",
+      "text": "He's your brother, Mom."
+    },
+    {
+      "character": "LINDA",
+      "text": "Yeah, I think it's a major embarrassment having an uncle in prison."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "We all make mistakes in life, children."
+    },
+    {
+      "character": "DAVE",
+      "text": "Goddamnit, I'm late."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "David, watch your mouth! You come here and kiss your mother before you go, come here."
+    },
+    {
+      "character": "DAVE",
+      "text": "C'mon, Mom, make it fast, I'll miss my bus. Hey see you tonight, Pop. Woo, time to change that oil."
+    },
+    {
+      "character": "LINDA",
+      "text": "Hey Marty, I'm not your answering service. While you were outside pouting about the car, Jennifer Parker called you twice."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "I don't like her, Marty. Any girl who calls a boy is just asking for trouble."
+    },
+    {
+      "character": "LINDA",
+      "text": "Oh Mom, there's nothing wrong with calling a boy."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "I think it's terrible. Girls chasing boys. When I was your age, I never chased a boy, or called a boy, or sat in a parked car with a boy."
+    },
+    {
+      "character": "LINDA",
+      "text": "Then how am I supposed to ever meet anybody?"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Well, it will just happen. Like the way I met your father."
+    },
+    {
+      "character": "LINDA",
+      "text": "That was so stupid, Grandpa hit him with the car."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "It was meant to be. Anyway, if Grandpa hadn't hit him, then none of you would have been born."
+    },
+    {
+      "character": "LINDA",
+      "text": "Yeah, well, I still don't understand what Dad was doing in the middle of the street."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "What was it, George, bird watching?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "What Lorraine, what?"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Anyway, Grandpa hit him with the car and brought him into the house. He seemed so helpless, like a little lost puppy, my heart just went out for him."
+    },
+    {
+      "character": "LINDA",
+      "text": "Yeah Mom, we know, you've told us this story a million times. You felt sorry for him, so you decided to go with him to The Fish Under the Sea Dance."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "No, it was The Enchantment Under the Sea Dance. Our first date. I'll never forget, it was the night of that terrible thunderstorm, remember George?"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Your father kissed me for the very first time on that dance floor. It was then I realized I was going to spend the rest of my life with him."
+    },
+    {
+      "character": "MARTY",
+      "text": "Hello."
+    },
+    {
+      "character": "DOC",
+      "text": "Marty, you didn't fall asleep, did you?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Uh Doc, uh no. No, don't be silly."
+    },
+    {
+      "character": "DOC",
+      "text": "Listen, this is very important, I forgot my video camera, could you stop by my place and pick it up on your way to the mall?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Um, yeah, I'm on my way."
+    },
+    {
+      "character": "MARTY",
+      "text": "Einstein, hey Einstein, where's the Doc, boy, huh?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Doc!"
+    },
+    {
+      "character": "DOC",
+      "text": "Marty, you made it!"
+    },
+    {
+      "character": "MARTY",
+      "text": "Yeah."
+    },
+    {
+      "character": "DOC",
+      "text": "Welcome to my latest experiment. This is the big one, the one I've been waiting for all my life."
+    },
+    {
+      "character": "MARTY",
+      "text": "Um, well it's a DeLorean, right?"
+    },
+    {
+      "character": "DOC",
+      "text": "Bear with me, Marty, all of your questions will be answered. Roll tape, we'll proceed."
+    },
+    {
+      "character": "MARTY",
+      "text": "Doc, is that a DEVO suit?"
+    },
+    {
+      "character": "DOC",
+      "text": "Never mind that now, never mind that now."
+    },
+    {
+      "character": "MARTY",
+      "text": "Alright, I'm ready."
+    },
+    {
+      "character": "DOC",
+      "text": "Good evening, I'm Doctor Emmett Brown. I'm standing in the parking lot of Twin Pines Mall. It's Saturday morning, October 26, 1985, 1:18 a.m. and this is temporal experiment number one. C'mon, Einey, hey hey boy, get in there, that a boy, in you go, get down, that's it."
+    },
+    {
+      "character": "DOC",
+      "text": "Please note that Einstein's clock is in complete synchronization with my control watch."
+    },
+    {
+      "character": "MARTY",
+      "text": "Right. Check, Doc."
+    },
+    {
+      "character": "DOC",
+      "text": "Good. Have a good trip Einstein, watch your head."
+    },
+    {
+      "character": "MARTY",
+      "text": "You have this thing hooked up to the car?"
+    },
+    {
+      "character": "DOC",
+      "text": "Watch this."
+    },
+    {
+      "character": "DOC",
+      "text": "Not me! The car! the car!"
+    },
+    {
+      "character": "DOC",
+      "text": "If my calculations are correct, when this baby hits eighty-eight miles per hour, you're gonna see some serious shit."
+    },
+    {
+      "character": "DOC",
+      "text": "Watch this, watch this."
+    },
+    {
+      "character": "DOC",
+      "text": "Ha! WHAT DID I TELL YOU?! 88 MILES PER HOUR!!!"
+    },
+    {
+      "character": "DOC",
+      "text": "The temporal displacement occurred exactly 1:20 A.M. and zero seconds!"
+    },
+    {
+      "character": "MARTY",
+      "text": "Ah, Jesus Christ! Jesus Christ, Doc, you disintegrated Einstein!"
+    },
+    {
+      "character": "DOC",
+      "text": "Calm down, Marty!"
+    },
+    {
+      "character": "DOC",
+      "text": "I didn't disintegrate anything! The molecular structure of both Einstein and the car are completely intact."
+    },
+    {
+      "character": "MARTY",
+      "text": "Then, where the hell are they?!"
+    },
+    {
+      "character": "DOC",
+      "text": "The appropriate question is, \" When the hell are they?\"! You see, Einstein has just become the world's first time-traveler! I sent him into the future. One minute into the future, to be exact. And at precisely 1:21 A.M. and zero seconds, we shall catch up with him and the time machine!"
+    },
+    {
+      "character": "MARTY",
+      "text": "Wait a minute. Wait a minute Doc, uh, are you tellin’ me you built a time machine... out of a DeLorean ?"
+    },
+    {
+      "character": "DOC",
+      "text": "The way I see it, if you're gonna build a time machine into a car, why not do it with some style? Besides, the stainless steel construction made the flux dispersal--"
+    },
+    {
+      "character": "DOC",
+      "text": "Look out!"
+    },
+    {
+      "character": "MARTY",
+      "text": "What, what is it, hot?"
+    },
+    {
+      "character": "DOC",
+      "text": "It's cold, damn cold!"
+    },
+    {
+      "character": "DOC",
+      "text": "Ha, ha, ha, Einstein, you little devil. Einstein's clock is exactly one minute behind mine, it's still ticking."
+    },
+    {
+      "character": "MARTY",
+      "text": "He's alright."
+    },
+    {
+      "character": "DOC",
+      "text": "He's fine, and he's completely unaware that anything happened. As far as he's concerned the trip was instantaneous. That's why Einstein's watch is exactly one minute behind mine. He skipped over that minute to instantly arrive at this moment in time. Come here, I'll show you how it works."
+    },
+    {
+      "character": "DOC",
+      "text": "First, you turn the time circuits on."
+    },
+    {
+      "character": "DOC",
+      "text": "This [Green numbers] readout tells you where you're going, this one [Red numbers] tells you where you are, this one [Yellow numbers] tells you where you were . You input the destination time on this keypad. Say, you wanna see the signing of the Declaration of Independence or witness the birth of Christ . Here's a red-letter date in the history of science, November 5, 1955. Yes, of course, November 5, 1955."
+    },
+    {
+      "character": "MARTY",
+      "text": "What, I don't get what happened."
+    },
+    {
+      "character": "DOC",
+      "text": "That was the day I invented time travel. I remember it vividly. I was standing on the edge of my toilet hanging a clock, the porcelain was wet, I slipped, hit my head on the edge of the sink. And when I came to, I had a revelation, a picture, a picture in my head, a picture of this."
+    },
+    {
+      "character": "DOC",
+      "text": "This is what makes time travel possible. The Flux Capacitor."
+    },
+    {
+      "character": "MARTY",
+      "text": "The Flux Capacitor."
+    },
+    {
+      "character": "DOC",
+      "text": "It's taken me almost thirty years and my entire family fortune to realize the vision of that day. My god, has it been that long? Things have certainly changed around here. I remember when this was all farmland as far as the eye could see. Old Man Peabody owned all of this. He had this crazy idea about breeding pine trees."
+    },
+    {
+      "character": "MARTY",
+      "text": "This is uh, this is heavy duty, Doc, this is great. Uh, does it run on regular unleaded gasoline?"
+    },
+    {
+      "character": "DOC",
+      "text": "Unfortunately, no, it requires something with a little more kick: plutonium."
+    },
+    {
+      "character": "MARTY",
+      "text": "Uh, plutonium, wait a minute, are you tellin’ me that this sucker's nuclear?"
+    },
+    {
+      "character": "DOC",
+      "text": "Hey, hey, keep rolling, keep rolling there. No, no, no, no, this sucker's electrical. But I need a nuclear reaction to generate the one point twenty-one gigawatts of electricity."
+    },
+    {
+      "character": "MARTY",
+      "text": "Doc, you don't just walk into a store and ask for plutonium. Did you rip this off?"
+    },
+    {
+      "character": "DOC",
+      "text": "Of course, from a group of Libyan Nationalists. They wanted me to build them a bomb, so I took their plutonium and in turn gave them a shoddy bomb casing full of used pinball machine parts."
+    },
+    {
+      "character": "MARTY",
+      "text": "Jesus."
+    },
+    {
+      "character": "DOC",
+      "text": "Let's get you into a radiation suit, we must prepare t"
+    },
+    {
+      "character": "MARTY",
+      "text": "Doc, you gotta help me. you were the only one who knows how your time machine works."
+    },
+    {
+      "character": "DOC",
+      "text": "Time machine, I haven't invented any time machine."
+    },
+    {
+      "character": "MARTY",
+      "text": "Okay, alright, I'll prove it to you. Look at my driver's license, expires 1987. Look at my birthday, for cryin’ out load, I haven't even been born yet. And look at this picture, my brother, my sister, and me. Look at the sweatshirt, Doc, Class of 1984."
+    },
+    {
+      "character": "DOC",
+      "text": "Pretty mediocre photographic fakery, they cut off your brother’s hair."
+    },
+    {
+      "character": "MARTY",
+      "text": "I'm tellin’ the truth, Doc, you gotta believe me."
+    },
+    {
+      "character": "DOC",
+      "text": "So tell me, future boy, who's president of the United States in 1985?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Ronald Reagan."
+    },
+    {
+      "character": "DOC",
+      "text": "Ronald Reagan, the actor? [Scoffs] Then who's vice president, Jerry Lewis? I suppose Jane Wyman is the first lady!"
+    },
+    {
+      "character": "MARTY",
+      "text": "Whoa, wait, Doc!"
+    },
+    {
+      "character": "DOC",
+      "text": "And Jack Benny is secretary of the Treasury!"
+    },
+    {
+      "character": "MARTY",
+      "text": "Look, you gotta listen to me."
+    },
+    {
+      "character": "DOC",
+      "text": "I’ve had enough practical jokes for one evening. Good night, future boy."
+    },
+    {
+      "character": "MARTY",
+      "text": "No wait, Doc, the bruise, the bruise on your head, I know how that happened, you told me the whole story. You were standing on your toilet, and you were hanging a clock, and you fell, and you hit your head on the sink, and that's when you came up with the idea for the flux capacitor, which makes time travel possible."
+    },
+    {
+      "character": "MARTY",
+      "text": "Something wrong with the starter, so I hid it."
+    },
+    {
+      "character": "DOC",
+      "text": "After I fell off my toilet, I drew this."
+    },
+    {
+      "character": "MARTY",
+      "text": "Flux capacitor."
+    },
+    {
+      "character": "DOC",
+      "text": "It works, ha ha ha ha, it works. I finally invent something that works."
+    },
+    {
+      "character": "MARTY",
+      "text": "Bet your ass it works."
+    },
+    {
+      "character": "DOC",
+      "text": "Well, now we gotta sneak this back into my laboratory, we've gotta get you home."
+    },
+    {
+      "character": "MARTY",
+      "text": "Okay Doc, this is it."
+    },
+    {
+      "character": "TV DOC",
+      "text": "Never mind that, never mind that now, never mind that, never mind-"
+    },
+    {
+      "character": "DOC",
+      "text": "Why that's me, look at me, I'm an old man."
+    },
+    {
+      "character": "TV DOC",
+      "text": "Good evening, I'm Doctor Emmet Brown, I'm standing here in the parking lot of-"
+    },
+    {
+      "character": "DOC",
+      "text": "Thank God I still got my hair. What on Earth is that thing I'm wearing?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Well, this is a radiation suit."
+    },
+    {
+      "character": "DOC",
+      "text": "Radiation suit, of course, cause all of the fallout from the atomic wars. This is truly amazing, a portable television studio. No wonder your president has to be an actor, he's gotta look good on television."
+    },
+    {
+      "character": "MARTY",
+      "text": "Whoa, this is it, this is the part comin’ up, Doc."
+    },
+    {
+      "character": "TV DOC",
+      "text": "No no no this sucker's electrical, but I need a nuclear reaction to generate the one point twenty-one gigawatts of electricity-"
+    },
+    {
+      "character": "DOC",
+      "text": "What did I just say?"
+    },
+    {
+      "character": "TV DOC",
+      "text": "No no no this sucker's electrical, but I need a nuclear reaction to generate the one point twenty-one gigawatts of electricity that I need…"
+    },
+    {
+      "character": "DOC",
+      "text": "One point twenty-one gigawatts!! One point twenty-one gigawatts!! Great Scott!!"
+    },
+    {
+      "character": "MARTY",
+      "text": "[running after him] What the hell is a gigawatt?!"
+    },
+    {
+      "character": "DOC",
+      "text": "How could I have been so careless? One point twenty-one gigawatts. ["
+    },
+    {
+      "character": "MARTY",
+      "text": "Doc, look, all we need is a little plutonium."
+    },
+    {
+      "character": "DOC",
+      "text": "I'm sure that in 1985, plutonium is available at every corner drug store, but in 1955, it's a little hard to come by. Marty, I'm sorry, but I'm afraid you're stuck here."
+    },
+    {
+      "character": "MARTY",
+      "text": "Whoa, whoa Doc, stuck here, I can't be stuck here, I got a life in 1985. I got a girl."
+    },
+    {
+      "character": "DOC",
+      "text": "Is she pretty?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Doc, she's beautiful. She's crazy about me. Look at this, look what she wrote me, Doc. That says it all. Doc, you're my only hope."
+    },
+    {
+      "character": "DOC",
+      "text": "Marty, I'm sorry, but the only power source capable of generating one point twenty-one gigawatts of electricity is a bolt of lightning."
+    },
+    {
+      "character": "MARTY",
+      "text": "What did you say?"
+    },
+    {
+      "character": "DOC",
+      "text": "A bolt of lightning, unfortunately, you never know when or where it's ever gonna strike."
+    },
+    {
+      "character": "MARTY",
+      "text": "We do now."
+    },
+    {
+      "character": "DOC",
+      "text": "This is it. This is the answer. It says here that a bolt of lightning is gonna strike the clock tower precisely at 10:04 p.m. next Saturday night. If we could somehow harness this bolt of lightning, channel it into the flux capacitor, it just might work. Next Saturday night, we're sending you back to the future."
+    },
+    {
+      "character": "MARTY",
+      "text": "Okay, alright, Saturday is good, Saturday's good, I could spend a week in 1955. I could hang out; you could show me around."
+    },
+    {
+      "character": "DOC",
+      "text": "Marty, that's completely out of the question, you must not leave this house. You must not see anybody or talk to anybody. Anything you do could have serious repercussions on future events. Do you understand?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Yeah, sure, okay."
+    },
+    {
+      "character": "DOC",
+      "text": "Marty, you interacted with anybody else today, besides me?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Um, yeah well, I might have sort of ran into my parents."
+    },
+    {
+      "character": "DOC",
+      "text": "Great Scott. Let me see that photograph again of your brother. Just as I thought, this proves my theory, look at your brother."
+    },
+    {
+      "character": "MARTY",
+      "text": "His head's gone, it's like it's been erased."
+    },
+    {
+      "character": "DOC",
+      "text": "Erased from existence."
+    },
+    {
+      "character": "MARTY",
+      "text": "Whoa, they really cleaned this place up, looks brand new."
+    },
+    {
+      "character": "DOC",
+      "text": "Now remember, according to my theory you interfered with your parent's first meeting. They don't meet, they don't fall in love, they won't get married, and they won’t have kids. That's why your older brother's disappeared from that photograph. Your sister will follow and unless you repair the damages, you will be next."
+    },
+    {
+      "character": "MARTY",
+      "text": "This sounds pretty heavy."
+    },
+    {
+      "character": "DOC",
+      "text": "Weight has nothing to do with it."
+    },
+    {
+      "character": "DOC",
+      "text": "Which one's your pop?"
+    },
+    {
+      "character": "MARTY",
+      "text": "That's him."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Okay, okay you guys, oh ha ha ha very funny. Hey, you guys are being real mature."
+    },
+    {
+      "character": "DOC",
+      "text": "Maybe you were adopted."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Okay, real mature, guys. Okay, Biff, will you pick up my books?"
+    },
+    {
+      "character": "STRICKLAND",
+      "text": "McFly."
+    },
+    {
+      "character": "MARTY",
+      "text": "That's Strickland. Jesus, didn't that guy ever have hair?"
+    },
+    {
+      "character": "STRICKLAND",
+      "text": "Shape up, man. You're a slacker. You wanna be a slacker for the rest of your life?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "No."
+    },
+    {
+      "character": "DOC",
+      "text": "What did your mother ever see in that kid?"
+    },
+    {
+      "character": "MARTY",
+      "text": "I don't know, Doc, I guess she felt sorry for him cause her did hit him with the car, hit me with the car."
+    },
+    {
+      "character": "DOC",
+      "text": "That's the Florence Nightingale effect. It happens in hospitals when nurses fall in love with their patients. Go to it, kid."
+    },
+    {
+      "character": "MARTY",
+      "text": "Hey George, buddy, hey, I've been lookin’ all over for you. You remember me, the guy who saved your life the other day?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "Yeah."
+    },
+    {
+      "character": "MARTY",
+      "text": "Good, there's somebody I'd like you to meet. Lorraine."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Calvin."
+    },
+    {
+      "character": "MARTY",
+      "text": "I'd like you to meet my good friend George McFly."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Hi, it's really a pleasure to meet you."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "How's your head?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Well, uh, good, fine."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Oh, I've been so worried about you ever since you ran off the other night. Are you okay? I'm sorry I have to go. Isn't he a dream boat?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Doc, she didn't even look at him."
+    },
+    {
+      "character": "DOC",
+      "text": "This is more serious than I thought. Apparently, your mother is amorously infatuated with you instead of your father."
+    },
+    {
+      "character": "MARTY",
+      "text": "Whoa, wait a minute, Doc, are you tellin’ me that my mother has got the hots for me?"
+    },
+    {
+      "character": "DOC",
+      "text": "Precisely."
+    },
+    {
+      "character": "MARTY",
+      "text": "Whoa, this is heavy."
+    },
+    {
+      "character": "DOC",
+      "text": "There's that word again, heavy. Why are things so heavy in the future. Is there a problem with the Earth's gravitational pull?"
+    },
+    {
+      "character": "MARTY",
+      "text": "What?"
+    },
+    {
+      "character": "DOC",
+      "text": "The only way we're gonna get those two to successfully meet is if they're alone together. So, you've got to get your father and mother to interact at some sort of social-"
+    },
+    {
+      "character": "MARTY",
+      "text": "What, well you mean like a date?"
+    },
+    {
+      "character": "DOC",
+      "text": "Right."
+    },
+    {
+      "character": "MARTY",
+      "text": "What kind of date? I don't know, what do kids do in the fifties?"
+    },
+    {
+      "character": "DOC",
+      "text": "Well, they're your parents, you must know them. What are their common interests. What do they like to do together?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Nothing."
+    },
+    {
+      "character": "DOC",
+      "text": "Look, there's a rhythmic ceremonial ritual coming up."
+    },
+    {
+      "character": "MARTY",
+      "text": "Of course, the Enchantment Under the Sea Dance they're supposed to go to this, that's where they kiss for the first time."
+    },
+    {
+      "character": "DOC",
+      "text": "Alright kid, you stick to your father like glue and make sure that he takes her to the dance."
+    },
+    {
+      "character": "MARTY",
+      "text": "George, buddy. remember that girl I introduced you to, Lorraine. What are you writing?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "Uh, stories, science fiction stories, about visitors coming down to Earth from another planet."
+    },
+    {
+      "character": "MARTY",
+      "text": "Get out of town, I didn't know you did anything creative. Ah, let me read some."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Oh, no no no, I never uh, I never let anybody read my stories."
+    },
+    {
+      "character": "MARTY",
+      "text": "Why not?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "Well, what if they didn't like them, what if they told me I was no good. I guess that would be pretty hard for somebody to understand."
+    },
+    {
+      "character": "MARTY",
+      "text": "Uh no, not hard at all. So anyway, George, now Lorraine, she really likes you. She told me to tell you that she wants you to ask her to the Enchantment Under the Sea Dance."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Really."
+    },
+    {
+      "character": "MARTY",
+      "text": "Oh yeah, all you gotta do is go over there and ask her."
+    },
+    {
+      "character": "GEORGE",
+      "text": "What, right here right now in the cafeteria? What is she said no? I don't know if I could take that kind of rejection. Besides, I think she'd rather go with somebody else."
+    },
+    {
+      "character": "MARTY",
+      "text": "Who?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "Biff."
+    },
+    {
+      "character": "BIFF",
+      "text": "C'mon, c'mon."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Leave me alone."
+    },
+    {
+      "character": "BIFF",
+      "text": "You want it, you know you want it, and you know you want me to give it to ya."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Shut your filthy mouth, I'm not that kind of girl."
+    },
+    {
+      "character": "BIFF",
+      "text": "Well maybe you are, and you just don't know it yet."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Get your meat hooks off of me."
+    },
+    {
+      "character": "MARTY",
+      "text": "You heard her she said get your meat hooks, off, uh please."
+    },
+    {
+      "character": "BIFF",
+      "text": "So what's it to you, butthead. You know you've been lookin’ for a..."
+    },
+    {
+      "character": "BIFF",
+      "text": "since you're new here, I'm gonna cut you a break, today. So why don't you make like a tree, and get out of here."
+    },
+    {
+      "character": "MARTY",
+      "text": "George."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Why do you keep following me around?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Look, George, I'm tellin’ you George, if you do not ask Lorraine to that dance, I'm gonna regret it for the rest of my life."
+    },
+    {
+      "character": "GEORGE",
+      "text": "But I can't go to the dance, I'll miss my favorite television program, Science Fiction Theater."
+    },
+    {
+      "character": "MARTY",
+      "text": "Yeah, but George, Lorraine wants to go with you. Give her a break."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Look, I'm just not ready to ask Lorraine out to the dance, and not you, nor anybody else on this planet is gonna make me change my mind."
+    },
+    {
+      "character": "MARTY",
+      "text": "Science Fiction Theater."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Who are you?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Silence Earthling. my name is Darth Vader. I am an extra-terrestrial from the planet Vulcan."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Marty. Marty. Marty."
+    },
+    {
+      "character": "MARTY",
+      "text": "Hey, George, buddy, you weren't at school, what have you been doin’ all day?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "I overslept; look, I need your help. I have to ask Lorraine out, but I don't know how to do it."
+    },
+    {
+      "character": "MARTY",
+      "text": "Alright, okay listen, keep your pants on, she's over in the cafe. God, how do you do this?"
+    },
+    {
+      "character": "MARTY",
+      "text": "What made you change your mind, George?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "Last night, Darth Vader came down from planet Vulcan. And he told me that if I didn't take Lorraine, that he'd melt my brain."
+    },
+    {
+      "character": "MARTY",
+      "text": "Yeah, well uh, let’s keep this brain melting stuff to ourselves, okay?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "Oh, yeah, yeah."
+    },
+    {
+      "character": "MARTY",
+      "text": "Alright, okay. Alright, there she is, George. Just go in there and invite her."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Okay, but I don't know what to say."
+    },
+    {
+      "character": "MARTY",
+      "text": "Just say anything, George, say whatever's natural, the first thing that comes to your mind."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Nothing's coming to my mind."
+    },
+    {
+      "character": "MARTY",
+      "text": "Jesus, George, it's a wonder I was ever born."
+    },
+    {
+      "character": "GEORGE",
+      "text": "What, what?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Nothing, nothing, nothing, Look, tell her destiny has brought you together, tell her that she's the most beautiful you have ever seen. Girls like that stuff. What, what are you doing George?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "I'm writing this down, this is good stuff."
+    },
+    {
+      "character": "MARTY",
+      "text": "Yeah okay."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Oh."
+    },
+    {
+      "character": "MARTY",
+      "text": "Let's go."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Oh."
+    },
+    {
+      "character": "MARTY",
+      "text": "Will you take care of that?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "Right. Lou, gimme a milk, chocolate."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Lorraine, my density has bought me to you."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "What?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "Oh, what I meant to say was-"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Hey, don't I know you from somewhere?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "Yes, yes, I'm George, George McFly, and I'm your density. I mean, I'm your destiny."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Oh."
+    },
+    {
+      "character": "BIFF",
+      "text": "Hey, McFly! I thought I told you never to come in here. Well, it's gonna cost you. How much money you got on you?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "Well, how much you want, Biff?"
+    },
+    {
+      "character": "BIFF",
+      "text": "Alright, punk, now-"
+    },
+    {
+      "character": "MARTY",
+      "text": "Whoa, whoa, Biff, what's that?"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "That's Calvin Klein, oh my God, he's a dream."
+    },
+    {
+      "character": "MARTY",
+      "text": "Whoa, whoa! Kid, kid, stop, stop, stop, stop."
+    },
+    {
+      "character": "KID",
+      "text": "Hey!"
+    },
+    {
+      "character": "MARTY",
+      "text": "I'll get it back to you, all right?"
+    },
+    {
+      "character": "KID",
+      "text": "You broke it! Get back here! Wow, look at him go!"
+    },
+    {
+      "character": "BIFF",
+      "text": "Let's get him."
+    },
+    {
+      "character": "BIFF",
+      "text": "To the car! To the car! Go, go!"
+    },
+    {
+      "character": "GIRL",
+      "text": "What's that thing he's on?"
+    },
+    {
+      "character": "BOY",
+      "text": "It's a board with wheels."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "He's an absolute dream."
+    },
+    {
+      "character": "BIFF",
+      "text": "Come on, come on, come on!"
+    },
+    {
+      "character": "MARTY",
+      "text": "Ah! Whoa!"
+    },
+    {
+      "character": "BIFF",
+      "text": "I'm gonna ram him."
+    },
+    {
+      "character": "BIFF",
+      "text": "Shit!"
+    },
+    {
+      "character": "MARTY",
+      "text": "Thanks a lot, kid."
+    },
+    {
+      "character": "BIFF",
+      "text": "I'm gonna get that son-of-a-bitch."
+    },
+    {
+      "character": "GIRLFRIEND #1",
+      "text": "Where does he come from?"
+    },
+    {
+      "character": "GIRLFRIEND #2",
+      "text": "Yeah, where does he live?"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "I don't know... but I'm gonna find out."
+    },
+    {
+      "character": "DOC",
+      "text": "My god, they found me. I don't know how but they found me. Run for it, Marty. My god, they found me. I don't know how but they found me. Run for it, Marty."
+    },
+    {
+      "character": "MARTY",
+      "text": "Doc."
+    },
+    {
+      "character": "DOC",
+      "text": "Oh, hi, Marty. I didn't hear you come in. Fascinating device, this video unit."
+    },
+    {
+      "character": "MARTY",
+      "text": "Listen, Doc, you know there's something I haven't told you about the night we made that tape."
+    },
+    {
+      "character": "DOC",
+      "text": "Please, Marty, don't tell me, no man should know too much about their own destiny."
+    },
+    {
+      "character": "MARTY",
+      "text": "You don't understand."
+    },
+    {
+      "character": "DOC",
+      "text": "I do understand. If I know too much about my own future I could endanger my own existence, just as you endangered yours."
+    },
+    {
+      "character": "MARTY",
+      "text": "You’re, you’re right."
+    },
+    {
+      "character": "DOC",
+      "text": "Let me show you my plan for sending you home. Please excuse the crudity of this model, I didn't have time to build it to scale or to paint it."
+    },
+    {
+      "character": "MARTY",
+      "text": "It’s good."
+    },
+    {
+      "character": "DOC",
+      "text": "Oh, thank you, thank you. Okay now, we run some industrial strength electrical cable from the top of the clocktower down to spreading it over the street between two lamp posts. Meanwhile, we out-fitted the vehicle with this big pole and hook which runs directly into the flux-capacitor. At the calculated moment, you start off from down the street driving toward the cable accelerating to eighty-eight miles per hour. According to the flyer, at !0:04 pm lightning will strike the clocktower sending one point twenty-one gigawatts into the flux-capacitor, sending you back to 1985. Alright now, watch this. You wind up the car and release it, I'll simulate the lightening. Ready, set, release."
+    },
+    {
+      "character": "MARTY",
+      "text": "You extol me with a lot of confidence, Doc."
+    },
+    {
+      "character": "DOC",
+      "text": "Don't worry, I'll take care of the lightn"
+    },
+    {
+      "character": "MARTY",
+      "text": "You extol me with a lot of confidence, Doc."
+    },
+    {
+      "character": "DOC",
+      "text": "Don't worry, I'll take care of the lightning, you take care of your pop. By the way, what happened today, did he ask her out?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Uh, I think so."
+    },
+    {
+      "character": "DOC",
+      "text": "What did she say?"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Hi, Marty."
+    },
+    {
+      "character": "MARTY",
+      "text": "Uh, Lorraine. How did you know I was here?"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "I followed you."
+    },
+    {
+      "character": "MARTY",
+      "text": "Oh, uh, this is my Doc, Uncle, Brown."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Hi."
+    },
+    {
+      "character": "MARTY",
+      "text": "Hello."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Marty, this may seem a little forward, but I was wondering if you would ask me to the Enchantment Under the Sea Dance on Saturday?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Uh, you mean nobody's asked you?"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "No, not yet."
+    },
+    {
+      "character": "MARTY",
+      "text": "What about George?"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "George McFly? Oh, he's kinda cute and all, but, well, I think a man should be strong, so he could stand up for himself, and protect the woman he loves. Don't you?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Yeah."
+    },
+    {
+      "character": "GEORGE",
+      "text": "I still don't understand, how am I supposed to go to the dance with her, if she's already going to the dance with you?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Cause, George, she wants to go to the dance with you, she just doesn't know it yet. That's why we gotta show her that you, George McFly, are a fighter. You're somebody who's gonna stand up for yourself, someone who's gonna protect her."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Yeah, but I never picked a fight in my entire life."
+    },
+    {
+      "character": "MARTY",
+      "text": "You're not gonna be picking a fight, Dad, dad dad daddy-o. You're coming to her rescue, right? Okay, let's go over the plan again. 8:55, where are you gonna be?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "I'm gonna be at the dance."
+    },
+    {
+      "character": "MARTY",
+      "text": "Right, and where am I gonna be?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "You're gonna be in the car with her."
+    },
+    {
+      "character": "MARTY",
+      "text": "Right, okay, so right around 9:00 she's gonna get very angry with me."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Why is she gonna get angry with you?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Well, because George, nice girls get angry when guys take advantage of them."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Ho, you mean you're gonna touch her on her-"
+    },
+    {
+      "character": "MARTY",
+      "text": "No, no, George, look, it's just an act, right? Okay, so 9:00…you're strolling through the parking lot, you see us struggling in the car, you walk up, you open the door and you say, your line, George."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Oh, uh, hey you, get your damn hands off her. Do you really think I oughta swear?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Yes, definitely, goddamnit George, swear. Okay, so now, you come up, you punch me in the stomach, I'm out for the count, right? And you and Lorraine live happily ever after."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Oh, you make it sound so easy. I just, I wish I wasn't so scared."
+    },
+    {
+      "character": "MARTY",
+      "text": "George, there's nothing to be scared of. All it takes is a little self-confidence. You know, if you put your mind to it, you could accomplish anything."
+    },
+    {
+      "character": "RADIO",
+      "text": "This Saturday night, mostly clear, with some scattered clouds. Lows in the upper forties."
+    },
+    {
+      "character": "DOC",
+      "text": "Are you sure about this storm?"
+    },
+    {
+      "character": "MARTY",
+      "text": "When could weathermen predict the weather, let alone the future."
+    },
+    {
+      "character": "DOC",
+      "text": "You know Marty, I'm gonna be very sad to see you go. You've really made a difference in my life; you've given me something to shoot for. Just knowing, that I'm gonna be around to see 1985, that I'm gonna succeed in this. That I'm gonna have a chance to travel through time. It's gonna be really hard waiting 30 years before I could talk to you about everything that's happened in the past few days. I'm really gonna miss you, Marty."
+    },
+    {
+      "character": "MARTY",
+      "text": "I'm really gonna miss you. Doc, about the future-"
+    },
+    {
+      "character": "DOC",
+      "text": "No, Marty, we've already agreed that having information about the future could be extremely dangerous. Even if your intentions are good, they could backfire drastically. Whatever you've got to tell me I'll find out through the natural course of time."
+    },
+    {
+      "character": "MARTY",
+      "text": "Dear Doctor Brown, on the night that I go back in time, you will be shot by terrorists. Please take whatever precautions are necessary to prevent this terrible disaster. Your friend, Marty."
+    },
+    {
+      "character": "COP",
+      "text": "Evening, Doctor Brown, what's with the wire?"
+    },
+    {
+      "character": "DOC",
+      "text": "Oh, just a little weather experiment."
+    },
+    {
+      "character": "COP",
+      "text": "What you got under here?"
+    },
+    {
+      "character": "DOC",
+      "text": "Oh no, don't touch that. That's some new specialized weather-sensing equipment."
+    },
+    {
+      "character": "COP",
+      "text": "You got a permit for that?"
+    },
+    {
+      "character": "DOC",
+      "text": "Of course I do. Just a second, let's see if I could find it."
+    },
+    {
+      "character": "MARTY",
+      "text": "Do you mind if we park for a while?"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "That's a great idea. I'd love to park."
+    },
+    {
+      "character": "MARTY",
+      "text": "Huh?"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Well, Marty, I'm almost eighteen-years-old, it's not like I've never parked before."
+    },
+    {
+      "character": "MARTY",
+      "text": "What?"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Marty, you seem so nervous, is something wrong?"
+    },
+    {
+      "character": "MARTY",
+      "text": "No no. Lorraine, Lorraine, what are you doing?"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "I swiped it from the old lady's liquor cabinet."
+    },
+    {
+      "character": "MARTY",
+      "text": "Yeah well, you shouldn't drink."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Why not?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Because, you might regret it later in life."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Marty, don't be such a square. Everybody who's anybody drinks."
+    },
+    {
+      "character": "MARTY",
+      "text": "Jesus, you smoke too?"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Marty, you're beginning to sound just like my mother."
+    },
+    {
+      "character": "MARVIN BERRY",
+      "text": "We're gonna take a little break but we'll be back in a while so, don't nobody go nowhere."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Marty, why are you so nervous?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Lorraine, have you ever, uh, been in a situation where you know you had to act a certain way but when you got there, you didn't know if you could go through with it?"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Oh, you mean how you're supposed to act on a first date."
+    },
+    {
+      "character": "MARTY",
+      "text": "Ah well, sort of."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "I think I know exactly what you mean."
+    },
+    {
+      "character": "MARTY",
+      "text": "You do?"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "You know what I do in those situations?"
+    },
+    {
+      "character": "MARTY",
+      "text": "What?"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "I don't worry."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "this is all wrong. I don't know what it is but when I kiss you, it's like kissing my brother. I guess that doesn't make any sense, does it?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Well, you mean, it makes perfect sense."
+    },
+    {
+      "character": "BIFF",
+      "text": "You cost three-hundred buck damage to my car, you son-of-a-bitch. And I'm gonna take it out of your ass. Hold him."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Let him go, Biff, you're drunk."
+    },
+    {
+      "character": "BIFF",
+      "text": "Well, looky what we have here. No no no, you're stayin’ right here with me."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Stop it."
+    },
+    {
+      "character": "BIFF",
+      "text": "C'mon."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Stop it."
+    },
+    {
+      "character": "BIFF",
+      "text": "C'mon."
+    },
+    {
+      "character": "MARTY",
+      "text": "Leave her alone, you bastard."
+    },
+    {
+      "character": "BIFF",
+      "text": "You guys, take him in back and I'll be right there. Well, c'mon, this ain't no peep show."
+    },
+    {
+      "character": "SKINHEAD",
+      "text": "Let's put him in there."
+    },
+    {
+      "character": "3-D",
+      "text": "Yeah."
+    },
+    {
+      "character": "SKINHEAD",
+      "text": "That's for messing up my hair."
+    },
+    {
+      "character": "STARLIGHTER",
+      "text": "The hell you doin’ to my car?"
+    },
+    {
+      "character": "3-D",
+      "text": "Hey beat it, spook, this don't concern you."
+    },
+    {
+      "character": "MARVIN BERRY",
+      "text": "Who are you callin’ spook, peckerwood?"
+    },
+    {
+      "character": "SKINHEAD",
+      "text": "Hey, hey listen guys. Look, I don't wanna mess with no reefer addicts, okay?"
+    },
+    {
+      "character": "MARTY",
+      "text": "C'mon, open up, let me out of here, Yo."
+    },
+    {
+      "character": "MARVIN BERRY",
+      "text": "Lorenzo, where're your keys?"
+    },
+    {
+      "character": "MARTY",
+      "text": "The keys are in the trunk."
+    },
+    {
+      "character": "MARVIN BERRY",
+      "text": "Say that again."
+    },
+    {
+      "character": "MARTY",
+      "text": "I said the keys are in here."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Hey you, get your damn hands off, oh."
+    },
+    {
+      "character": "BIFF",
+      "text": "I think you got the wrong car, McFly."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "George, help me, please."
+    },
+    {
+      "character": "BIFF",
+      "text": "Just turn around, McFly, and walk away. Are you deaf, McFly? Close the door and beat it."
+    },
+    {
+      "character": "GEORGE",
+      "text": "No, Biff, you leave her alone."
+    },
+    {
+      "character": "BIFF",
+      "text": "Alright, McFly, you're askin’ for it, and now you're gonna get it."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Biff, stop it. Biff, you're breaking his arm. Biff, stop."
+    },
+    {
+      "character": "MARVIN BERRY",
+      "text": "Give me a hand, Lorenzo."
+    },
+    {
+      "character": "MARVIN BERRY",
+      "text": "Ow, damnit, man, I sliced my hand."
+    },
+    {
+      "character": "MARTY",
+      "text": "Who's are these?"
+    },
+    {
+      "character": "STARLIGHTER",
+      "text": "Thanks, thanks a lot."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "You're gonna break his arm. Biff, leave him alone. Let him go. Let him go."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Are you okay?"
+    },
+    {
+      "character": "GIRLFRIEND",
+      "text": "Who is that guy?"
+    },
+    {
+      "character": "BOYFRIEND",
+      "text": "That's George McFly."
+    },
+    {
+      "character": "GIRLFRIEND",
+      "text": "That's George McFly?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Excuse me."
+    },
+    {
+      "character": "DOC",
+      "text": "The storm."
+    },
+    {
+      "character": "MARTY",
+      "text": "Hey guys, you gotta get back in there and finish the dance."
+    },
+    {
+      "character": "STARLIGHTER",
+      "text": "Hey man, look at Marvin's hand. He can't play with his hands like that, and we can't play without him."
+    },
+    {
+      "character": "MARTY",
+      "text": "Yeah, well look, Marvin, Marvin, you gotta play. See that's where they kiss for the first time on the dance floor. And if there's no music, they can't dance, and if they can't dance, they can't kiss, and if they can't kiss, they can't fall in love and I'm history."
+    },
+    {
+      "character": "MARVIN BERRY",
+      "text": "Hey man, the dance is over. Unless you know someone else who can play the guitar."
+    },
+    {
+      "character": "MARVIN BERRY",
+      "text": "This is for all you lovers out there."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "George, aren't you gonna kiss me?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "I, I don't know."
+    },
+    {
+      "character": "DIXON",
+      "text": "Scram, McFly."
+    },
+    {
+      "character": "STARLIGHTER",
+      "text": "Hey boy, are you alright?"
+    },
+    {
+      "character": "MARTY",
+      "text": "I can't play."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "George. George."
+    },
+    {
+      "character": "MARTY",
+      "text": "George."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Excuse me."
+    },
+    {
+      "character": "MARVIN BERRY",
+      "text": "Yeah man, that was good. Let's do another one."
+    },
+    {
+      "character": "MARTY",
+      "text": "Uh, well, I gotta go."
+    },
+    {
+      "character": "MARVIN BERRY",
+      "text": "C'mon man, let's do something that really cooks."
+    },
+    {
+      "character": "MARTY",
+      "text": "Something that really cooks. Alright, alright this is an oldie, but uh, it's an oldie where I come from. Alright guys, let's do some blues riff in B, watch me for the changes, and uh, try and keep up, okay?"
+    },
+    {
+      "character": "BOYFRIEND",
+      "text": "Hey George, heard you laid out Biff, nice going."
+    },
+    {
+      "character": "GIRLFRIEND",
+      "text": "George: you ever think of running for class president?"
+    },
+    {
+      "character": "MARVIN BERRY",
+      "text": "Chuck, Chuck, it’s your cousin. Your cousin Marvin."
+    },
+    {
+      "character": "MARVIN BERRY",
+      "text": "You know that new sound you're lookin’ for, well listen to this!"
+    },
+    {
+      "character": "MARTY",
+      "text": "I guess you guys aren't ready for that yet. But your kids are gonna love it."
+    },
+    {
+      "character": "MARTY",
+      "text": "Lorraine."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Marty, that was very interesting music."
+    },
+    {
+      "character": "MARTY",
+      "text": "Uh, yeah."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "I hope you don't mind but George asked if he could take me home."
+    },
+    {
+      "character": "MARTY",
+      "text": "Great good, good, Lorraine, I had a feeling about you two."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "I have a feeling too."
+    },
+    {
+      "character": "MARTY",
+      "text": "Listen, I gotta go but I wanted to tell you that it's been educational."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Marty, will we ever see you again?"
+    },
+    {
+      "character": "MARTY",
+      "text": "I guarantee it."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Well, Marty, I wanna thank you for all your good advice, I'll never forget it."
+    },
+    {
+      "character": "MARTY",
+      "text": "Right, George. Well, good luck you guys. Oh, one other thing, if you guys ever have kids and one of them when he's eight years old, accidentally sets fire to the living room rug, go easy on him."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Okay."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Marty, such a nice name."
+    },
+    {
+      "character": "DOC",
+      "text": "Damn, where is that kid. Damn. Damn damn. You're late, do you have no concept of time?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Hey c'mon, I had to change, you think I'm goin' back in that… zoot suit? The old man really came through, it worked."
+    },
+    {
+      "character": "DOC",
+      "text": "What?"
+    },
+    {
+      "character": "MARTY",
+      "text": "He laid out Biff in one punch. I never knew he had it in him. He never stood up to Biff in his life."
+    },
+    {
+      "character": "DOC",
+      "text": "Never?"
+    },
+    {
+      "character": "MARTY",
+      "text": "No, why, what's a matter?"
+    },
+    {
+      "character": "DOC",
+      "text": "Alright, let's set your destination time. This is the exact time you left. I'm gonna send you back at exactly the same time. It'll be like you never left. Now, I painted a white line on the street way over there, that's where you start from. I've calculated the distance and wind resistance fresh to active from the moment the lightning strikes, at exactly 7 minutes and 22 seconds. When this alarm goes off you hit the gas."
+    },
+    {
+      "character": "MARTY",
+      "text": "Right."
+    },
+    {
+      "character": "DOC",
+      "text": "Well, I guess that's everything."
+    },
+    {
+      "character": "MARTY",
+      "text": "Thanks."
+    },
+    {
+      "character": "DOC",
+      "text": "Thank you. In about thirty years."
+    },
+    {
+      "character": "MARTY",
+      "text": "I hope so."
+    },
+    {
+      "character": "DOC",
+      "text": "Don't worry. As long as you hit that wire with the connecting hook at precisely 88 miles per hour, the instance the lightning strikes the tower, everything will be fine."
+    },
+    {
+      "character": "MARTY",
+      "text": "Right."
+    },
+    {
+      "character": "DOC",
+      "text": "What's the meaning of this?"
+    },
+    {
+      "character": "MARTY",
+      "text": "You'll find out in thirty years."
+    },
+    {
+      "character": "DOC",
+      "text": "It's about the future, isn't it?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Wait a minute."
+    },
+    {
+      "character": "DOC",
+      "text": "It's information about the future isn't it. I warned you about this kid. The consequences could be disastrous."
+    },
+    {
+      "character": "MARTY",
+      "text": "Now that's a risk you'll have to take your life depends on it."
+    },
+    {
+      "character": "DOC",
+      "text": "No, I refuse to except the responsibility."
+    },
+    {
+      "character": "MARTY",
+      "text": "In that case, I'll tell you straight out."
+    },
+    {
+      "character": "DOC",
+      "text": "Oh, Great Scott. You get the cable; I'll throw the rope down to you."
+    },
+    {
+      "character": "MARTY",
+      "text": "Right, I got it."
+    },
+    {
+      "character": "DOC",
+      "text": "Ahh."
+    },
+    {
+      "character": "MARTY",
+      "text": "Doc."
+    },
+    {
+      "character": "DOC",
+      "text": "C'mon, c'mon let's go."
+    },
+    {
+      "character": "MARTY",
+      "text": "Alright, take it up, go. Doc."
+    },
+    {
+      "character": "DOC",
+      "text": "Huh?"
+    },
+    {
+      "character": "MARTY",
+      "text": "I have to tell you about the future."
+    },
+    {
+      "character": "DOC",
+      "text": "Huh?"
+    },
+    {
+      "character": "MARTY",
+      "text": "I have to tell ya about the future."
+    },
+    {
+      "character": "DOC",
+      "text": "Ahh."
+    },
+    {
+      "character": "MARTY",
+      "text": "On the night I go back in time, you get- Doc."
+    },
+    {
+      "character": "DOC",
+      "text": "Ohh, no."
+    },
+    {
+      "character": "MARTY",
+      "text": "No, Doc."
+    },
+    {
+      "character": "DOC",
+      "text": "Look at the time, you've got less than 4 minutes, please hurry."
+    },
+    {
+      "character": "MARTY",
+      "text": "Yeah."
+    },
+    {
+      "character": "MARTY",
+      "text": "Damn it, Doc, why did you have to tear up that letter? If only I had more time. Wait a minute, I got all the time I want I got a time machine, I'll just go back and warn him. 10 minutes oughta do it. Time-circuits on, flux-capacitor fluxing, engine running, alright."
+    },
+    {
+      "character": "MARTY",
+      "text": "No, no no no no, c'mon c'mon. C'mon c'mon, here we go, this time. Please, please, c'mon."
+    },
+    {
+      "character": "DOC",
+      "text": "Ahh."
+    },
+    {
+      "character": "MARTY",
+      "text": "Doc."
+    },
+    {
+      "character": "DOC",
+      "text": "Yoo."
+    },
+    {
+      "character": "RED",
+      "text": "Crazy drunk driver."
+    },
+    {
+      "character": "MARTY",
+      "text": "Wow, ah Red, you look great. Everything looks great. 1:24, I still got time."
+    },
+    {
+      "character": "MARTY",
+      "text": "Oh my god. No, no not again, c'mon, c'mon. Hey. Libyans."
+    },
+    {
+      "character": "MARTY",
+      "text": "No! Bastards!"
+    },
+    {
+      "character": "LIBYAN",
+      "text": "Go!"
+    },
+    {
+      "character": "MARTY",
+      "text": "Doc, Doc. Oh, no. You're alive. Bullet proof vest, how did you know, I never got a chance to tell you."
+    },
+    {
+      "character": "DOC",
+      "text": "Well, I figured, what the hell."
+    },
+    {
+      "character": "MARTY",
+      "text": "What about all that talk about screwing up future events, the space time continuum?"
+    },
+    {
+      "character": "MARTY",
+      "text": "About how far ahead are you going?"
+    },
+    {
+      "character": "DOC",
+      "text": "About 30 years, it's a nice round number."
+    },
+    {
+      "character": "MARTY",
+      "text": "Look me up when you get there, guess I'll be about 47."
+    },
+    {
+      "character": "DOC",
+      "text": "I will."
+    },
+    {
+      "character": "MARTY",
+      "text": "Take care."
+    },
+    {
+      "character": "DOC",
+      "text": "You too."
+    },
+    {
+      "character": "MARTY",
+      "text": "Alright, good-bye Einey. Oh, watch that re-entry, it's a little bumpy."
+    },
+    {
+      "character": "DOC",
+      "text": "You bet."
+    },
+    {
+      "character": "MARTY",
+      "text": "What a nightmare."
+    },
+    {
+      "character": "LYNDA",
+      "text": "Oh, if Paul calls me tell him I'm working at the boutique late tonight."
+    },
+    {
+      "character": "DAVE",
+      "text": "Lynda, first of all, I'm not your answering service. Second of all, somebody named Greg or Craig called you just a little while ago."
+    },
+    {
+      "character": "LYNDA",
+      "text": "Now which one was it, Greg or Craig?"
+    },
+    {
+      "character": "DAVE",
+      "text": "I don't know, I can't keep up with all of your boyfriends."
+    },
+    {
+      "character": "MARTY",
+      "text": "What the hell is this?"
+    },
+    {
+      "character": "LYNDA",
+      "text": "Breakfast."
+    },
+    {
+      "character": "DAVE",
+      "text": "What did you sleep in your clothes again last night?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Ye"
+    },
+    {
+      "character": "LYNDA",
+      "text": "Oh, if Paul calls me tell him I'm working at the boutique late tonight."
+    },
+    {
+      "character": "DAVE",
+      "text": "Lynda, first of all, I'm not your answering service. Second of all, somebody named Greg or Craig called you just a little while ago."
+    },
+    {
+      "character": "LYNDA",
+      "text": "Now which one was it, Greg or Craig?"
+    },
+    {
+      "character": "DAVE",
+      "text": "I don't know, I can't keep up with all of your boyfriends."
+    },
+    {
+      "character": "MARTY",
+      "text": "What the hell is this?"
+    },
+    {
+      "character": "LYNDA",
+      "text": "Breakfast."
+    },
+    {
+      "character": "DAVE",
+      "text": "What did you sleep in your clothes again last night?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Yeah, yeah what are you wearin’, Dave?"
+    },
+    {
+      "character": "DAVE",
+      "text": "Marty, I always wear a suit to the office. You alright?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Yeah."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "I think we need a rematch."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Oh, oh a rematch, why, were you cheating?"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "No."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Hello."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Good morning."
+    },
+    {
+      "character": "MARTY",
+      "text": "Mom, Dad."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Marty, are you alright?"
+    },
+    {
+      "character": "DAVE",
+      "text": "Did you hurt your head?"
+    },
+    {
+      "character": "MARTY",
+      "text": "You guys look great. Mom, you look so thin."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Why thank you, Marty."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Good morning, sleepyhead, good morning, Dave, Lynda."
+    },
+    {
+      "character": "DAVE",
+      "text": "Good morning, Mom."
+    },
+    {
+      "character": "LYNDA",
+      "text": "Good morning, Mom. Oh, Marty, I almost forgot, Jennifer Parker called."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Oh, I sure like her, Marty, she is such a sweet girl. Isn't tonight the night of the big date?"
+    },
+    {
+      "character": "MARTY",
+      "text": "What, what, ma?"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Well, aren't you going up to the lake tonight, you've been planning it for two weeks."
+    },
+    {
+      "character": "MARTY",
+      "text": "Well, ma, we talked about this, we're not gonna go to the lake, the car's wrecked."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Wrecked?"
+    },
+    {
+      "character": "DAVE",
+      "text": "Wrecked? When did this happen and-"
+    },
+    {
+      "character": "GEORGE",
+      "text": "Quiet down, I'm sure the car is fine."
+    },
+    {
+      "character": "DAVE",
+      "text": "Why am I always the last one to know about these things?"
+    },
+    {
+      "character": "GEORGE",
+      "text": "See, there's Biff out there waxing it right now. Now, Biff, I wanna make sure that we get two coats of wax this time, not just one."
+    },
+    {
+      "character": "BIFF",
+      "text": "Just finishin’ up the second coat now."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Now Biff, don't con me."
+    },
+    {
+      "character": "BIFF",
+      "text": "I'm, I'm sorry, Mr. McFly, I mean, I was just starting on the second coat."
+    },
+    {
+      "character": "GEORGE",
+      "text": "That Biff, what a character. Always trying to get away with something. Been on top of Biff ever since high school. Although, if it wasn't for him-"
+    },
+    {
+      "character": "LORRAINE",
+      "text": "We never would have fallen in love."
+    },
+    {
+      "character": "GEORGE",
+      "text": "That's right."
+    },
+    {
+      "character": "BIFF",
+      "text": "Mr. McFly, Mr. McFly, this just arrived, oh hi Marty. I think it's your new book."
+    },
+    {
+      "character": "LORRAINE",
+      "text": "Ah, honey, your first novel."
+    },
+    {
+      "character": "GEORGE",
+      "text": "Like I always told you, if you put your mind to it, you could accomplish anything."
+    },
+    {
+      "character": "BIFF",
+      "text": "Oh, oh Marty, here's your keys. You're all waxed up, ready for tonight."
+    },
+    {
+      "character": "MARTY",
+      "text": "Keys?"
+    },
+    {
+      "character": "JENNIFER",
+      "text": "How about a ride, Mister?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Jennifer, oh are you a sight for sore eyes. Let me look at you."
+    },
+    {
+      "character": "JENNIFER",
+      "text": "Marty, you're acting like you haven't seen me in a week."
+    },
+    {
+      "character": "MARTY",
+      "text": "I haven't."
+    },
+    {
+      "character": "JENNIFER",
+      "text": "You okay, is everything alright?"
+    },
+    {
+      "character": "MARTY",
+      "text": "Aw yeah, everything is great."
+    },
+    {
+      "character": "DOC",
+      "text": "Marty, you gotta come back with me."
+    },
+    {
+      "character": "MARTY",
+      "text": "Where?"
+    },
+    {
+      "character": "DOC",
+      "text": "Back to the future!"
+    },
+    {
+      "character": "MARTY",
+      "text": "Wait a minute, what are you doin’, Doc?"
+    },
+    {
+      "character": "DOC",
+      "text": "I need fuel. Go ahead, quick, get in the car."
+    },
+    {
+      "character": "MARTY",
+      "text": "No no no, Doc, I just got here, okay, Jennifer's here, we're gonna take the new truck for a spin."
+    },
+    {
+      "character": "DOC",
+      "text": "Well, bring her along. This concerns her too."
+    },
+    {
+      "character": "MARTY",
+      "text": "Wait a minute, Doc. What are you talkin’ about? What happens to us in the future? What, do we become assholes or somethin’?"
+    },
+    {
+      "character": "DOC",
+      "text": "No no no no no, Marty, both you and Jennifer turn out fine. It's your kids, Marty, something has gotta be done about your kids ."
+    },
+    {
+      "character": "MARTY",
+      "text": "Hey, Doc, we better back up, we don't have enough road to get up to 88."
+    },
+    {
+      "character": "DOC",
+      "text": "Roads? Where we're going, we don't need roads ."
+    }
+  ],
+  "imdbId": "tt0088763",
+  "poster": "https://m.media-amazon.com/images/M/MV5BZmM3ZjE0NzctNjBiOC00MDZmLTgzMTUtNGVlOWFlOTNiZDJiXkEyXkFqcGc@._V1_SX300.jpg",
+  "rated": "PG",
+  "runtime": "116 min",
+  "genre": "Adventure, Comedy, Sci-Fi",
+  "director": "Robert Zemeckis",
+  "topSpeakingCast": [
+    "MARTY",
+    "DOC",
+    "GEORGE",
+    "LORRAINE",
+    "BIFF",
+    "JENNIFER"
+  ]
+}

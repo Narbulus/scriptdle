@@ -1,0 +1,4022 @@
+{
+  "id": "a-bugs-life",
+  "title": "A Bug's Life",
+  "year": 1998,
+  "characters": [
+    "ALL",
+    "ANT",
+    "ANT 1",
+    "ANT 2",
+    "ANT 3",
+    "ANT 4",
+    "ANT 5",
+    "ANT BOY",
+    "ANT COUNCIL",
+    "ANT KID",
+    "ANT KID 1",
+    "ANT KIDS",
+    "ANTS",
+    "ANTS IN GRASSHOPPER COSTUMES",
+    "ANTS IN WARRIOR COSTUMES",
+    "ATTA",
+    "BLUE ANT BOY",
+    "BLUE/VIOLET ANT BOY",
+    "BLUEBERRY TROOP",
+    "BLUEBERRY TROOP 1",
+    "BLUEBERRY TROOP 2",
+    "CARTWHEELING ANTS",
+    "CIRCUS TROUPE",
+    "CORNELIUS",
+    "CREW MAN",
+    "CREW MAN 2",
+    "CREW MAN 3",
+    "CREW MAN 4",
+    "DIM",
+    "DOT",
+    "DR FLORA",
+    "DR SOIL",
+    "DR. FLORA",
+    "DR. FLORRA",
+    "DR. SOIL",
+    "FEMALE ANT",
+    "FLIK",
+    "FLIK AND DOT",
+    "FRANCIS",
+    "GIRL ANT",
+    "GRASSHOPPER",
+    "GRASSHOPPERS",
+    "GYPSY",
+    "HEIMLICH",
+    "HOPPER",
+    "JOHN LASSETER",
+    "MANNY",
+    "MOLT",
+    "MR SOIL",
+    "MR. SOIL",
+    "P.T FLEA",
+    "P.T.",
+    "P.T. FLEA",
+    "PRINCESS ATTA",
+    "QUEEN",
+    "QUEEN & DOT",
+    "ROLL",
+    "ROSIE",
+    "SLIM",
+    "SUNBATHING GRASSHOPPER",
+    "THORNY",
+    "THUMPER",
+    "TUCK",
+    "TUCK & ROLL",
+    "TUCK AND ROLL",
+    "TUCK/ROLL",
+    "VIOLET ANT BOY",
+    "WATERSKIING GRASSHOPPER",
+    "WOODY",
+    "YOU"
+  ],
+  "lines": [
+    {
+      "character": "ANT",
+      "text": "No, no, no. Oh, no. Oh, no."
+    },
+    {
+      "character": "ANT",
+      "text": "I’M LOST!!! Where's the line?! It just went away. What do I do?"
+    },
+    {
+      "character": "ANT",
+      "text": "Help!"
+    },
+    {
+      "character": "ANT",
+      "text": "We'll be stuck here forever!"
+    },
+    {
+      "character": "MR. SOIL",
+      "text": "Do not panic! Do not panic! We are trained professionals! Now, stay calm. We are going around the leaf."
+    },
+    {
+      "character": "ANT",
+      "text": "A-Around the leaf? I-I don't think we can do that."
+    },
+    {
+      "character": "MR. SOIL",
+      "text": "Oh, nonsense. This is nothing compared to the twig of '93. That's it. That's it. Good! You're doing great! There you go. There you go! Watch my eyes. Don't look away. And here's the line again."
+    },
+    {
+      "character": "ANT",
+      "text": "Thank you! Thank you, Mr. Soil!"
+    },
+    {
+      "character": "MR. SOIL",
+      "text": "Good job, everybody!"
+    },
+    {
+      "character": "DR. FLORA",
+      "text": "Oh, my. There's quite a gap, Mr. Soil. Shouldn't we tell the queen?"
+    },
+    {
+      "character": "MR. SOIL",
+      "text": "I don't think we need to involve the queen in this. She's got enough on her plate already, training her daughter."
+    },
+    {
+      "character": "DR. FLORA",
+      "text": "Oh, yes, Princess Atta. The poor dear."
+    },
+    {
+      "character": "ATTA",
+      "text": "Oh... Wind's died down. They'll be here soon."
+    },
+    {
+      "character": "QUEEN",
+      "text": "Just be confident, dear. You'll be fine."
+    },
+    {
+      "character": "ATTA",
+      "text": "Ah! There's a gap. There's a gap in the line! What are we gonna do?!"
+    },
+    {
+      "character": "THORNY",
+      "text": "It's okay, Your Highness. Gaps happen. We just lost a few inches, that's all."
+    },
+    {
+      "character": "ATTA",
+      "text": "Oh, right."
+    },
+    {
+      "character": "THORNY",
+      "text": "Your Highness, I can't count when you hover like that."
+    },
+    {
+      "character": "ATTA",
+      "text": "Oh, of course. I'm sorry. Go ahead."
+    },
+    {
+      "character": "QUEEN",
+      "text": "Guys, go shade someone else for a while. Okay, Atta. Now what do we do?"
+    },
+    {
+      "character": "ATTA",
+      "text": "Uh... Oh! Don't tell me. I know it. I know it. How Is It?"
+    },
+    {
+      "character": "QUEEN",
+      "text": "We relax!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Right."
+    },
+    {
+      "character": "QUEEN",
+      "text": "Oh, it’ll be fine. It's the same, year after year. They come, they eat, they leave. That's our lot in life. It's not a lot, but it's our life. Isn't that right, Aphie? Oh, you're such a cute little aphid."
+    },
+    {
+      "character": "VIOLET ANT BOY",
+      "text": "Ditch Dot!"
+    },
+    {
+      "character": "BLUE ANT BOY",
+      "text": "Yeah, yeah!"
+    },
+    {
+      "character": "DOT",
+      "text": "Hey, come back here!"
+    },
+    {
+      "character": "QUEEN",
+      "text": "Dot!"
+    },
+    {
+      "character": "DOT",
+      "text": "Yes, Mother."
+    },
+    {
+      "character": "QUEEN",
+      "text": "What did I tell you about trying to fly?"
+    },
+    {
+      "character": "DOT",
+      "text": "Not until my wings grow in."
+    },
+    {
+      "character": "QUEEN",
+      "text": "Right."
+    },
+    {
+      "character": "DOT",
+      "text": "But, Mom--"
+    },
+    {
+      "character": "ATTA",
+      "text": "Dot, you're a young queen ant, and your wings are too little to be--"
+    },
+    {
+      "character": "DOT",
+      "text": "I was talking to Mother. You're not the queen yet, Atta."
+    },
+    {
+      "character": "QUEEN",
+      "text": "Now, Dot, be nice to your sister."
+    },
+    {
+      "character": "DOT",
+      "text": "It's not my fault she's so stressed out."
+    },
+    {
+      "character": "ATTA",
+      "text": "I know, I know. I'm always acting like the sky is falling."
+    },
+    {
+      "character": "DR. SOIL",
+      "text": "Look out!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Ah!"
+    },
+    {
+      "character": "QUEEN",
+      "text": "Atta!"
+    },
+    {
+      "character": "THORNY",
+      "text": "Princess Atta!"
+    },
+    {
+      "character": "DR. FLORA",
+      "text": "Princess Atta! Princess Atta!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Oh!"
+    },
+    {
+      "character": "MR. SOIL",
+      "text": "Look out!"
+    },
+    {
+      "character": "DR. FLORA",
+      "text": "Hey! Stop that!"
+    },
+    {
+      "character": "MR. SOIL",
+      "text": "What do you think you're doing?"
+    },
+    {
+      "character": "DR. FLORA",
+      "text": "You could have killed somebody over here!"
+    },
+    {
+      "character": "FLIK",
+      "text": "I'm sorry! I'm sorry!"
+    },
+    {
+      "character": "THORNY",
+      "text": "Oh, it's Flik."
+    },
+    {
+      "character": "CORNELIUS",
+      "text": "groan"
+    },
+    {
+      "character": "FLIK",
+      "text": "I'm sorry, I'm sorry, I'm so sorry! Please forgive me. I'm sorry! Princess Atta!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Flik, what are you doing?"
+    },
+    {
+      "character": "FLIK",
+      "text": "Oh... Oh, this! This is my new idea for harvesting grain. No more picking individual kernels. You can just cut down the entire stalk!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Flik, we don't have time for this."
+    },
+    {
+      "character": "FLIK",
+      "text": "Exactly! We never have time to collect food for ourselves, because we spend all summer harvesting for the offering. But my invention will speed up production."
+    },
+    {
+      "character": "ATTA",
+      "text": "Another invention?"
+    },
+    {
+      "character": "FLIK",
+      "text": "Yeah, and I've got something for you, too."
+    },
+    {
+      "character": "ATTA",
+      "text": "Flik!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Since you're gonna be queen soon, you could use this to oversee production. Dr. Flora, if I may."
+    },
+    {
+      "character": "DR. FLORA",
+      "text": "Oh!"
+    },
+    {
+      "character": "ATTA",
+      "text": "This is all very nice, but--"
+    },
+    {
+      "character": "THORNY",
+      "text": "What?"
+    },
+    {
+      "character": "FLIK",
+      "text": "Just an ordinary blade of grass and a bead of dew, right?"
+    },
+    {
+      "character": "ATTA",
+      "text": "Flik, please."
+    },
+    {
+      "character": "FLIK",
+      "text": "Wrong! It is, in fact..."
+    },
+    {
+      "character": "FLIK",
+      "text": "...A telescope!"
+    },
+    {
+      "character": "QUEEN & DOT",
+      "text": "laughing"
+    },
+    {
+      "character": "ATTA",
+      "text": "It's very clever, Flik, but--"
+    },
+    {
+      "character": "FLIK",
+      "text": "Hello, princess! My, aren't you looking lovely this morning! Not, of course, that you would need a telescope to see that--"
+    },
+    {
+      "character": "THORNY",
+      "text": "All right, listen! The princess doesn't have time for this! You want to help us fill this thing? Then get rid of that machine, get back in line and pick grain like everybody else!"
+    },
+    {
+      "character": "CORNELIUS",
+      "text": "Like everybody else!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Please, Flik. Just go."
+    },
+    {
+      "character": "FLIK",
+      "text": "I'm sorry. I was-- I was really just trying... Trying to help."
+    },
+    {
+      "character": "CORNELIUS",
+      "text": "Harvester. Why, we've harvested the same way ever since I was a pupa."
+    },
+    {
+      "character": "ATTA",
+      "text": "Where were we?"
+    },
+    {
+      "character": "MR. SOIL",
+      "text": "The food pile, Your Highness."
+    },
+    {
+      "character": "ATTA",
+      "text": "Oh, yes. Yes."
+    },
+    {
+      "character": "DOT",
+      "text": "Hey, Flik! Flik, wait up!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Oh. Hello, princess."
+    },
+    {
+      "character": "DOT",
+      "text": "You can call me Dot. Here, you forgot this."
+    },
+    {
+      "character": "FLIK",
+      "text": "Thanks. You can keep it. I can...make another one."
+    },
+    {
+      "character": "DOT",
+      "text": "I like your inventions."
+    },
+    {
+      "character": "FLIK",
+      "text": "Really? Well, you're the first. I'm beginning to think nothing I do works."
+    },
+    {
+      "character": "DOT",
+      "text": "This works."
+    },
+    {
+      "character": "FLIK",
+      "text": "Great. One success. I'm never gonna make a difference."
+    },
+    {
+      "character": "DOT",
+      "text": "Me, neither. I'm a royal ant, and I can't even fly yet. I'm too little."
+    },
+    {
+      "character": "FLIK",
+      "text": "Oh, being little's not such a bad thing."
+    },
+    {
+      "character": "DOT",
+      "text": "Yes, it is."
+    },
+    {
+      "character": "FLIK",
+      "text": "No, it's not."
+    },
+    {
+      "character": "DOT",
+      "text": "Is, too!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Is not."
+    },
+    {
+      "character": "DOT",
+      "text": "Is, too."
+    },
+    {
+      "character": "FLIK",
+      "text": "Is not. Is not. Is not."
+    },
+    {
+      "character": "DOT",
+      "text": "Is, too. Is, too. Is, too."
+    },
+    {
+      "character": "FLIK",
+      "text": "Is not-- Oh... A seed. I need-- I need a seed. Uh..."
+    },
+    {
+      "character": "FLIK",
+      "text": "Uh, here, here."
+    },
+    {
+      "character": "FLIK",
+      "text": "Pretend-- Pretend that that's a seed."
+    },
+    {
+      "character": "DOT",
+      "text": "It's a rock."
+    },
+    {
+      "character": "FLIK",
+      "text": "Oh, I know it's a rock. I know. Uh, but let's just pretend for a minute that it's a seed, all right? We'll just use our imaginations. Now-Now do you see our tree? Everything that made that giant tree is already contained inside this tiny little seed. All it needs is some time, a little bit of sunshine and rain, and voila!"
+    },
+    {
+      "character": "DOT",
+      "text": "This rock will be a tree?"
+    },
+    {
+      "character": "FLIK",
+      "text": "Seed to tree. You've got to work with me, here, all right? Okay. Now, you might not feel like you can do much now, but that's just because, well, you're not a tree yet. You just have to give yourself some time. You're still a seed."
+    },
+    {
+      "character": "DOT",
+      "text": "But it's a rock."
+    },
+    {
+      "character": "FLIK",
+      "text": "I KNOW IT’S A ROCK! Don't you think I know a rock when I see a rock!? I've spent a lot of time around rocks!"
+    },
+    {
+      "character": "DOT",
+      "text": "You're weird, but I like you."
+    },
+    {
+      "character": "FLIK",
+      "text": "They're here."
+    },
+    {
+      "character": "ANTS",
+      "text": "They're here!"
+    },
+    {
+      "character": "ANT",
+      "text": "Run!"
+    },
+    {
+      "character": "DOT",
+      "text": "Mom! Where are you?!"
+    },
+    {
+      "character": "ANTS",
+      "text": "They're coming! Run!"
+    },
+    {
+      "character": "QUEEN",
+      "text": "Dot! Dot!"
+    },
+    {
+      "character": "DOT",
+      "text": "Mom! Mom!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Single file!"
+    },
+    {
+      "character": "QUEEN",
+      "text": "Thank heavens!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Please, everyone. Uh, food to the offering stone."
+    },
+    {
+      "character": "QUEEN",
+      "text": "Okay, everyone, single file! Food to the offering stone and into the anthill! Now let's go!"
+    },
+    {
+      "character": "ANT",
+      "text": "Go, go, go, go!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Come on! Keep moving, keep moving! Good! Okay. That's everyone."
+    },
+    {
+      "character": "FLIK",
+      "text": "Hey! Hey, wait for me!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Get the food to the offering stone, then into the anthill."
+    },
+    {
+      "character": "FLIK",
+      "text": "Huh?"
+    },
+    {
+      "character": "FLIK",
+      "text": "Ah! No! No, no, no, no, no, no, no!"
+    },
+    {
+      "character": "FLIK",
+      "text": "No! Oh! Oh!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Oh, no..."
+    },
+    {
+      "character": "FLIK",
+      "text": "Princess Atta! Princess Atta! Princess Atta...!"
+    },
+    {
+      "character": "ATTA",
+      "text": "They come, they eat, they leave. They come, they eat, they leave."
+    },
+    {
+      "character": "FLIK",
+      "text": "Excuse me. Excuse me, pardon me. Pardon me. Excuse me, coming through. Excuse me, excuse me. Sorry, sorry. Coming through. Princess Atta, there's something I need to tell you."
+    },
+    {
+      "character": "ATTA",
+      "text": "Not now, Flik."
+    },
+    {
+      "character": "FLIK",
+      "text": "But, your highness, it's about the offering!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Shh!"
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "Hey, what's goin' on?!"
+    },
+    {
+      "character": "MOLT",
+      "text": "Yeah! Where's the food?"
+    },
+    {
+      "character": "ATTA",
+      "text": "What did you do?!"
+    },
+    {
+      "character": "FLIK",
+      "text": "It was an accident?"
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "cackling"
+    },
+    {
+      "character": "GRASSHOPPERS",
+      "text": "whooping"
+    },
+    {
+      "character": "MOLT",
+      "text": "Boo! Where's the food?"
+    },
+    {
+      "character": "FLIK",
+      "text": "Hopper."
+    },
+    {
+      "character": "HOPPER",
+      "text": "So, where Is It? Where’s my food?!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Uh... I-Isn't it up...there?"
+    },
+    {
+      "character": "HOPPER",
+      "text": "What?"
+    },
+    {
+      "character": "ATTA",
+      "text": "The food was in a leaf sitting on top--"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Excuse me?"
+    },
+    {
+      "character": "ATTA",
+      "text": "Are you sure it's not up there?"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Are you saying I'm stupid?"
+    },
+    {
+      "character": "ATTA",
+      "text": "No."
+    },
+    {
+      "character": "HOPPER",
+      "text": "Do I look...stupid...to you? Let's just think about the logic, shall we? Let's just think about it for a second. If it was up there, would I be coming down here, to your level, looking for it?!"
+    },
+    {
+      "character": "ATTA",
+      "text": "I--"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Why am I even talking to you? You're not the queen. You don't smell like the queen."
+    },
+    {
+      "character": "QUEEN",
+      "text": "She's learning to take over from me, Hopper."
+    },
+    {
+      "character": "HOPPER",
+      "text": "Oh, I see. Under new management. So it's your fault."
+    },
+    {
+      "character": "ATTA",
+      "text": "No, i-it wasn't me. It was--"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Uh-uh-uh. First rule of leadership: everything is your fault."
+    },
+    {
+      "character": "ATTA",
+      "text": "But, but I--"
+    },
+    {
+      "character": "HOPPER",
+      "text": "It's a bug-eat-bug world out there, Princess. One of those circle-of-life kind of things. Now, let me tell you how things are supposed to work. The sun grows the food. The ants pick the food. The grasshoppers eat the food--"
+    },
+    {
+      "character": "MOLT",
+      "text": "And the birds eat the grasshoppers. Hey, like the one that nearly ate you, you 'member? You 'member-- Oh, you should've seen it."
+    },
+    {
+      "character": "HOPPER",
+      "text": "Molt."
+    },
+    {
+      "character": "MOLT",
+      "text": "This blue jay, he has him halfway down his throat, okay? And Hopper, Hopper's kicking and screaming, okay? And I'm scared, okay? I'm not going anywhere near, okay? Oh, come on! It's a great story!"
+    },
+    {
+      "character": "MOLT",
+      "text": "Ow! Ow! Ow! Ow! Ow! Ow-ow--"
+    },
+    {
+      "character": "HOPPER",
+      "text": "I swear, if I hadn't promised Mother on her deathbed that I wouldn't kill you, I would kill you."
+    },
+    {
+      "character": "MOLT",
+      "text": "And believe me, no one appreciates that more than I do."
+    },
+    {
+      "character": "HOPPER",
+      "text": "Shut up! I don't want to hear another word out of you while we're on this island. Do you understand me?"
+    },
+    {
+      "character": "MOLT",
+      "text": "whimper"
+    },
+    {
+      "character": "HOPPER",
+      "text": "I said, do you understand me?!"
+    },
+    {
+      "character": "MOLT",
+      "text": "Well, how can I answer? You said I couldn't say another word."
+    },
+    {
+      "character": "HOPPER",
+      "text": "growl"
+    },
+    {
+      "character": "MOLT",
+      "text": "Ah! Remember Ma!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Hey, I'm a compassionate insect. There's still a few months 'til the rains come, so you can all just try again."
+    },
+    {
+      "character": "QUEEN",
+      "text": "But, Hopper, since it's almost the rainy season, we need this time to gather food for ourselves."
+    },
+    {
+      "character": "HOPPER",
+      "text": "Listen, if you don't keep your end of the bargain, then I can't guarantee your safety. And there are insects out there that will take advantage of you. Someone could get hurt."
+    },
+    {
+      "character": "HOPPER",
+      "text": "snaps fingers"
+    },
+    {
+      "character": "DOT",
+      "text": "shivering"
+    },
+    {
+      "character": "THUMPER",
+      "text": "snarling, roars"
+    },
+    {
+      "character": "DOT",
+      "text": "gasps, panting, yelps"
+    },
+    {
+      "character": "HOPPER",
+      "text": "What's the matter? You scared of grasshoppers?"
+    },
+    {
+      "character": "DOT",
+      "text": "panicking"
+    },
+    {
+      "character": "THUMPER",
+      "text": "snarling"
+    },
+    {
+      "character": "FLIK",
+      "text": "Leave her alone!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "You want her? Go ahead. Take her."
+    },
+    {
+      "character": "DOT",
+      "text": "whimpering"
+    },
+    {
+      "character": "HOPPER",
+      "text": "No? Then get back in line."
+    },
+    {
+      "character": "HOPPER",
+      "text": "It seems to me that you ants are forgetting your place. So let's double the order of food."
+    },
+    {
+      "character": "FLIK",
+      "text": "gasp"
+    },
+    {
+      "character": "ATTA",
+      "text": "No! But, but, but--"
+    },
+    {
+      "character": "HOPPER",
+      "text": "We'll be back at the end of the season..."
+    },
+    {
+      "character": "HOPPER",
+      "text": "...When the last...leaf...falls."
+    },
+    {
+      "character": "HOPPER",
+      "text": "You ants have a nice summer. Let's ride!"
+    },
+    {
+      "character": "GRASSHOPPERS",
+      "text": "Yee-haw!"
+    },
+    {
+      "character": "MOLT",
+      "text": "laughs, pained grunt"
+    },
+    {
+      "character": "FLIK",
+      "text": "nervous chuckle"
+    },
+    {
+      "character": "ATTA",
+      "text": "Flik, what do you have to say for yourself?"
+    },
+    {
+      "character": "FLIK",
+      "text": "Sorry. I-- I'm sorry for the way I am. I didn't mean for things to go so wrong. I...especially didn't want to make you look bad, Princess."
+    },
+    {
+      "character": "ATTA",
+      "text": "Well, Flik, you did."
+    },
+    {
+      "character": "FLIK",
+      "text": "I was just trying to help."
+    },
+    {
+      "character": "MR. SOIL",
+      "text": "Then help us. Don't help us."
+    },
+    {
+      "character": "FLIK",
+      "text": "Help? Help? Help?"
+    },
+    {
+      "character": "ATTA",
+      "text": "Flik, you are sentenced to one month digging in the tunnels."
+    },
+    {
+      "character": "THORNY",
+      "text": "Uh, excuse me, Your Highness. Need I remind you of Flik's tunnel-within-a-tunnel project?"
+    },
+    {
+      "character": "FLIK",
+      "text": "Helpers to help us. That could-- That's it! We could..."
+    },
+    {
+      "character": "THORNY",
+      "text": "It took the whole engineering department two days to dig him out. Send him to Health and Ant Services."
+    },
+    {
+      "character": "DR. FLORA",
+      "text": "Heavens, no!"
+    },
+    {
+      "character": "FLIK",
+      "text": "We could leave the island. The riverbed's dry right now. We could just walk right across the riverbed. We could go get helpers. We could! We could leave, sure. We could go find helpers to help us. It's perfect!"
+    },
+    {
+      "character": "QUEEN",
+      "text": "Perfect? What's so perfect?"
+    },
+    {
+      "character": "FLIK",
+      "text": "Your Highness, don't you see? We could send someone to get help!"
+    },
+    {
+      "character": "ANT COUNCIL",
+      "text": "gasps"
+    },
+    {
+      "character": "ATTA",
+      "text": "Leave the island?"
+    },
+    {
+      "character": "QUEEN",
+      "text": "Now, why didn't I think of that? Oh! Because it's suicide!"
+    },
+    {
+      "character": "THORNY",
+      "text": "She's right! We never leave the island!"
+    },
+    {
+      "character": "CORNELIUS",
+      "text": "Never leave!"
+    },
+    {
+      "character": "THORNY",
+      "text": "There's snakes and birds and bigger bugs out there!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Exactly! Bigger bugs! We could find bigger bugs to come here and fight and forever rid us of Hopper and his gang!"
+    },
+    {
+      "character": "MR. SOIL",
+      "text": "Ludicrous!"
+    },
+    {
+      "character": "DR. FLORA",
+      "text": "Who would do a crazy thing like that?"
+    },
+    {
+      "character": "FLIK",
+      "text": "I'll volunteer. I'd be very happy to volunteer."
+    },
+    {
+      "character": "QUEEN",
+      "text": "You got a lot of spunk, kid, but no one's gonna help a bunch of ants."
+    },
+    {
+      "character": "DR. FLORA",
+      "text": "At least we could try. Oh, I-I could-- I could travel to the city. I could search there!"
+    },
+    {
+      "character": "ATTA",
+      "text": "If you went, you'd be on that silly search for weeks."
+    },
+    {
+      "character": "THORNY",
+      "text": "Royal huddle."
+    },
+    {
+      "character": "THORNY",
+      "text": "Great idea, princess. It's perfect."
+    },
+    {
+      "character": "CORNELIUS",
+      "text": "Exactly."
+    },
+    {
+      "character": "ATTA",
+      "text": "Wait a minute. What did we just decide here?"
+    },
+    {
+      "character": "MR. SOIL",
+      "text": "To let Flik leave."
+    },
+    {
+      "character": "CORNELIUS",
+      "text": "While we keep harvesting to meet Hopper's demands."
+    },
+    {
+      "character": "DR. FLORA",
+      "text": "You see? With Flik gone, he can't --"
+    },
+    {
+      "character": "ATTA",
+      "text": "He can't mess anything up!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Flik, after much deliberation, we have decided...to grant you your request."
+    },
+    {
+      "character": "FLIK",
+      "text": "Really?"
+    },
+    {
+      "character": "QUEEN",
+      "text": "Really?"
+    },
+    {
+      "character": "ATTA",
+      "text": "Uh, really."
+    },
+    {
+      "character": "FLIK",
+      "text": "Oh! Thank you,"
+    },
+    {
+      "character": "CORNELIUS",
+      "text": "Run for your lives!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Ta-da!"
+    },
+    {
+      "character": "MANNY",
+      "text": "Once again, our reputation precedes us."
+    },
+    {
+      "character": "FLIK",
+      "text": "Hey, everybody! Hey! I'm back! Hey, guys! Hey! Look. Look! Look who's There with me!"
+    },
+    {
+      "character": "DOT",
+      "text": "Flik! Flik! Flik! You're back! I knew you could do it!"
+    },
+    {
+      "character": "ANT 1",
+      "text": "Flik?"
+    },
+    {
+      "character": "ANT 2",
+      "text": "It's Flik!"
+    },
+    {
+      "character": "ANT 3",
+      "text": "What?"
+    },
+    {
+      "character": "ANT 4",
+      "text": "Yeah."
+    },
+    {
+      "character": "ANT 3",
+      "text": "No, it's not Flik."
+    },
+    {
+      "character": "ANT 5",
+      "text": "Flik?"
+    },
+    {
+      "character": "MR. SOIL",
+      "text": "Flik has returned!"
+    },
+    {
+      "character": "ATTA",
+      "text": "He's back?"
+    },
+    {
+      "character": "MR. SOIL",
+      "text": "And She's accompanied by savage insects!"
+    },
+    {
+      "character": "ATTA",
+      "text": "What? How? She wasn't supposed to actually find someone! Oh, look at this. Look at this. This is great. Look."
+    },
+    {
+      "character": "CORNELIUS",
+      "text": "Oh, my ticker!"
+    },
+    {
+      "character": "BLUE ANT BOY",
+      "text": "So, what are you supposed to be?"
+    },
+    {
+      "character": "VIOLET ANT BOY",
+      "text": "He's a stick, stupid. You hit bugs with him."
+    },
+    {
+      "character": "SLIM",
+      "text": "That's an oversimplification."
+    },
+    {
+      "character": "FRANCIS",
+      "text": "That's right, kids. Like this!"
+    },
+    {
+      "character": "SLIM",
+      "text": "No! Put me down! Oh!"
+    },
+    {
+      "character": "TUCK & ROLL",
+      "text": "Hey!"
+    },
+    {
+      "character": "DR. FLORA",
+      "text": "My, you just pop right open there, don't ya?"
+    },
+    {
+      "character": "ANT KIDS",
+      "text": "Ooh! Wow!"
+    },
+    {
+      "character": "ROSIE",
+      "text": "Kids, he's kind of ticklish."
+    },
+    {
+      "character": "DIM",
+      "text": "(laughing)"
+    },
+    {
+      "character": "ROSIE",
+      "text": "Let's come on out. Careful."
+    },
+    {
+      "character": "ANT KIDS",
+      "text": "(screaming and laughing)"
+    },
+    {
+      "character": "QUEEN",
+      "text": "Well, my boy, you came through! Aphie and I are very impressed."
+    },
+    {
+      "character": "FLIK",
+      "text": "Princess Atta! Hey! Hey, guys, this is Princess Atta! She's the one that sent me to find you!"
+    },
+    {
+      "character": "ANT KID 1",
+      "text": "Did you see that really big bug?"
+    },
+    {
+      "character": "DR. SOIL",
+      "text": "He looks absolutely ferocious!"
+    },
+    {
+      "character": "THORNY",
+      "text": "They're our ticket out of this mess!"
+    },
+    {
+      "character": "DR. FLORA",
+      "text": "They came just in time! So, Princess Atta, what... What do you think?"
+    },
+    {
+      "character": "ATTA",
+      "text": "No, no, no, wait! This was not supposed to happen."
+    },
+    {
+      "character": "SLIM",
+      "text": "Mayday, mayday. We're losing the job."
+    },
+    {
+      "character": "ATTA",
+      "text": "We don't fight grasshoppers!"
+    },
+    {
+      "character": "THORNY",
+      "text": "We don't, but they will."
+    },
+    {
+      "character": "CORNELIUS",
+      "text": "Bingo!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "We've gotta sweeten the deal. Your Majesty, ladies and gentlemen, boys and girls of all ages, our troupe here guarantees a performance like no other! Why, when your grasshopper friends get here, we are gonna knock them dead!"
+    },
+    {
+      "character": "SLIM",
+      "text": "These folks are sure hard up for entertainment."
+    },
+    {
+      "character": "ANT KID",
+      "text": "Come on, come on. Hurry!"
+    },
+    {
+      "character": "ANT KID",
+      "text": "Wow!"
+    },
+    {
+      "character": "QUEEN",
+      "text": "Honey, relax. You should be proud of yourself. Your instincts on that boy were right on the money. And to make our official welcome complete... Mr. Soil?"
+    },
+    {
+      "character": "MR. SOIL",
+      "text": "Yes, Your Highness?"
+    },
+    {
+      "character": "QUEEN",
+      "text": "He's our resident thespian. Last year he played the lead in Picnic."
+    },
+    {
+      "character": "MR. SOIL",
+      "text": "The children, and myself, have quickly put together a little presentation in honor of our guests. Dot, Reed, Daisy, Grub?"
+    },
+    {
+      "character": "GYPSY",
+      "text": "Oh, aren't they adorable! Ooh, they're cute!"
+    },
+    {
+      "character": "GIRL ANT",
+      "text": "The South Tunnel Elementary School second-grade class would like to present you with this, a mural we have drawn of you bugs helping us fight the grasshoppers away."
+    },
+    {
+      "character": "ROSIE",
+      "text": "Oh, look at the beautiful colors of the blood."
+    },
+    {
+      "character": "DOT",
+      "text": "We drew one of you dying because our teacher said it would be more dramatic."
+    },
+    {
+      "character": "CIRCUS TROUPE",
+      "text": "(gasps)"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "(whimpers)"
+    },
+    {
+      "character": "MR. SOIL",
+      "text": "I tell you a tale of heroes so bold, who vanquished our grasshopper enemies of old."
+    },
+    {
+      "character": "ANT BOY",
+      "text": "Look, the last leaf has fallen."
+    },
+    {
+      "character": "ANTS IN GRASSHOPPER COSTUMES",
+      "text": "We are the grasshoppers! Where's our food?!"
+    },
+    {
+      "character": "ANT BOY",
+      "text": "Who will come to save us poor ants?"
+    },
+    {
+      "character": "ANTS IN WARRIOR COSTUMES",
+      "text": "We are the warriors, here to defend you!"
+    },
+    {
+      "character": "ANT KID",
+      "text": "I die! Die! Die!"
+    },
+    {
+      "character": "ROLL",
+      "text": "Hail, the bugs!"
+    },
+    {
+      "character": "MR. SOIL",
+      "text": "Thank you, thank you! Oh, thank you!"
+    },
+    {
+      "character": "TUCK",
+      "text": "Hey, hey, hey!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "I say we go."
+    },
+    {
+      "character": "QUEEN",
+      "text": "Okay, honey. You're up."
+    },
+    {
+      "character": "ATTA",
+      "text": "(CLEARS THROAT) We're all very, very grateful to have..."
+    },
+    {
+      "character": "FLIK",
+      "text": "Here, here."
+    },
+    {
+      "character": "ATTA",
+      "text": "(amplified) ...the warriors..."
+    },
+    {
+      "character": "ANTS",
+      "text": "(laughing)"
+    },
+    {
+      "character": "ATTA",
+      "text": "Thanks. (amplified) First of all, I'd like to thank the warriors for helping us in our fight against the grasshoppers. Secondly, I would like to thank Flik..."
+    },
+    {
+      "character": "FLIK",
+      "text": "(amplified) Thank you, Your Highness. Sure, I'd like to take credit for all of this, but, well, that wouldn't be right. Because it was you, Princess Atta. You believed in me and you sent me on my quest."
+    },
+    {
+      "character": "SLIM",
+      "text": "You tell that ant that we need to talk to him right now."
+    },
+    {
+      "character": "ROSIE",
+      "text": "Okay, okay. All right."
+    },
+    {
+      "character": "FLIK",
+      "text": "Now, I know that I've made a lot of mistakes in the past. And I hope that this will make up..."
+    },
+    {
+      "character": "ROSIE",
+      "text": "Flik!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Not right now, Rosie. I'm making a speech. Now, I truly believe that these bugs are the answer to our..."
+    },
+    {
+      "character": "ROSIE",
+      "text": "Flik:"
+    },
+    {
+      "character": "FLIK",
+      "text": "No, there's no circus around here. So I... Huh?"
+    },
+    {
+      "character": "FLIK",
+      "text": "Your Highness, the warriors have called for a secret meeting to plan for a circus-- CIRCUMventing the oncoming hordes, so they can trapeze-- TRAP them with ease!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Shouldn't I come, too?"
+    },
+    {
+      "character": "FLIK",
+      "text": "No! Sorry, no, you see, it's classified in the DMZ. Gotta go A.S.A.P. You know, strictly B.Y.O.B. Bye! Sorry. Sorry I have to take the warriors away so early, but, you know, they have a lot to get done, with the battle looming and all. So, please, everyone, enjoy the party."
+    },
+    {
+      "character": "ATTA",
+      "text": "B.Y.O.B?"
+    },
+    {
+      "character": "FLIK",
+      "text": "Thanks again. Bye. Bye-bye. Okay, just... Just... Just get in there. Go! Go, go, go! Circus bugs?! How can you be circus bugs?!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "What?"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Hey, hey, hey. You said nothing about killing grasshoppers, pal. You lied to us!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Yeah!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Are you kidding? Do you know what this is? This, my friends, is false advertising."
+    },
+    {
+      "character": "MANNY",
+      "text": "How dare you! You, sir, are the charlatan in this scenario, touting your wares as a talent scout, preying upon the hungry souls of hapless artistes. Good day to you, sir."
+    },
+    {
+      "character": "FLIK",
+      "text": "Wait! No, no! Wait, wait, wait, wait, wait, wait, wait, wait! You can't go. You have got to help me. Give me some time. I'll come up with a plan."
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Just go tell them the truth!"
+    },
+    {
+      "character": "FLIK",
+      "text": "They can't... They can't know the truth. The truth, you see, is bad. I will be branded with this mistake for the rest of my life. My children's children will walk down the street, and people will point and say, \"Look! There goes the spawn of Flik, the loser!\" Oh... Oh, you know, all right, fine. Yeah, okay. Just go. But if you could just do me a little favor before you leave."
+    },
+    {
+      "character": "FLIK",
+      "text": "If you could just squish me, that would be great, because when they find out, I'm as good as dead."
+    },
+    {
+      "character": "ATTA",
+      "text": "Flik!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Huh?"
+    },
+    {
+      "character": "ATTA",
+      "text": "I really do think I should be part of this meeting. Flik!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Ah! Princess Atta! What a nice surprise."
+    },
+    {
+      "character": "ATTA",
+      "text": "Just what exactly is going on? I would like to speak with the so-called \"warriors.\""
+    },
+    {
+      "character": "FLIK",
+      "text": "You can't! They are in the middle of a top-secret meeting right now, and they really should not be disturbed now. Right, guys? Could you excuse me, please? Wait, wait, wait, wait! Please, don't go!"
+    },
+    {
+      "character": "ATTA",
+      "text": "I'm not going anywhere. What is going on? Flik? Flik! I knew it!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Wait! Wait, wait, wait, wait, wait, wait, wait, wait, wait! Please! Don't go! No!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Quick, he’s losin' it!"
+    },
+    {
+      "character": "FLIK",
+      "text": "No, no, no, no, no, no, no! You can't go! I'm desperate!"
+    },
+    {
+      "character": "SLIM",
+      "text": "Really? I couldn't tell."
+    },
+    {
+      "character": "DOT",
+      "text": "Hmm. Come on, wings. Aah! Help!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Mother, Flik is up to something."
+    },
+    {
+      "character": "FLIK",
+      "text": "No! No!"
+    },
+    {
+      "character": "SLIM",
+      "text": "Okay, Flik, time to put you down now. Get him off me. He's cutting off the circulation to my foot."
+    },
+    {
+      "character": "FLIK",
+      "text": "No, no, no, no!"
+    },
+    {
+      "character": "SLIM",
+      "text": "Let go!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Oh, please! Please! Don't go!"
+    },
+    {
+      "character": "ROSIE",
+      "text": "Put the stick down. Flik, I mean it now. Drop the stick. Drop it!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Aaah! Run!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Boy, he runs fast for a little guy."
+    },
+    {
+      "character": "TUCK & ROLL",
+      "text": "Tweet-tweet! Tweet-tweet!"
+    },
+    {
+      "character": "ATTA",
+      "text": "This way. There they are. A bird!"
+    },
+    {
+      "character": "DOT",
+      "text": "Aah! Flik!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Look!"
+    },
+    {
+      "character": "QUEEN",
+      "text": "Dot!"
+    },
+    {
+      "character": "DOT",
+      "text": "Flik!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Dot!"
+    },
+    {
+      "character": "QUEEN",
+      "text": "My baby!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Huh? I gotcha! I gotcha! I gotcha, I gotcha!"
+    },
+    {
+      "character": "QUEEN",
+      "text": "I can't see!"
+    },
+    {
+      "character": "CORNELIUS",
+      "text": "Somebody do something!"
+    },
+    {
+      "character": "THORNY",
+      "text": "Are they alright? Can anyone see? Are they alive?"
+    },
+    {
+      "character": "DR. FLORA",
+      "text": "I can't see!"
+    },
+    {
+      "character": "THORNY",
+      "text": "What is happening?"
+    },
+    {
+      "character": "DOT",
+      "text": "Flik! Aaah!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Dot?"
+    },
+    {
+      "character": "MANNY",
+      "text": "Good heavens, they're in trouble!"
+    },
+    {
+      "character": "SLIM",
+      "text": "Francis, Francis, Francis, Francis, Francis, Francis, Francis, Francis..."
+    },
+    {
+      "character": "FLIK",
+      "text": "You guys, I've got an idea!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Here! I've got it!"
+    },
+    {
+      "character": "DOT",
+      "text": "Please, ma'am, wake up! Wake up!"
+    },
+    {
+      "character": "DOT",
+      "text": "Help! Help!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Yoo-hoo! Mr. Early Bird! How about a nice, tasty worm on a stick?"
+    },
+    {
+      "character": "SLIM",
+      "text": "I'm going to snap. I'm going to snap."
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Nice and juicy, succulent..."
+    },
+    {
+      "character": "FLIK",
+      "text": "Let's go!"
+    },
+    {
+      "character": "FLIK",
+      "text": "There they are!"
+    },
+    {
+      "character": "DOT",
+      "text": "Flik! Help!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Okay."
+    },
+    {
+      "character": "DOT",
+      "text": "Flik!"
+    },
+    {
+      "character": "FLIK",
+      "text": "It's going to be okay, Dot."
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Bye-bye, birdie! Aah! HELP! I'M STUCK! PULL ME DOWN! SCHNELL, SCHNELL, SCHNELL!!!!"
+    },
+    {
+      "character": "ATTA",
+      "text": "The caterpillar's using himself as live bait!"
+    },
+    {
+      "character": "MR SOIL",
+      "text": "How brave!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "SLIM:"
+    },
+    {
+      "character": "SLIM",
+      "text": "Suck it in, man!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Ow! My leg!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "The bird! The bird! Look out for the bird!"
+    },
+    {
+      "character": "DOT",
+      "text": "Flik!"
+    },
+    {
+      "character": "TUCK/ROLL",
+      "text": "Up-a, up-a, up-a, up-a, up-a! Up-a, up-a, up-a, up-a, up-a!"
+    },
+    {
+      "character": "ROSIE",
+      "text": "What is that?"
+    },
+    {
+      "character": "MANNY",
+      "text": "That, my friends, is the sound of applause!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Applause! I'm in heaven."
+    },
+    {
+      "character": "BLUEBERRY TROOP",
+      "text": "Our Blueberry troop salutes you bugs for rescuing our smallest member, Princess Dot. And as a tribute to Miss Francis, we've changed our bandannas!"
+    },
+    {
+      "character": "DOT",
+      "text": "We voted you our honorary den mother!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "What?! Great."
+    },
+    {
+      "character": "TUCK & ROLL",
+      "text": "A-Ha, Thumbs up, thumbs up."
+    },
+    {
+      "character": "TUCK",
+      "text": "I don't know, Uh-oh."
+    },
+    {
+      "character": "DR FLORA",
+      "text": "All right, girls. Let's move your little keisters out of here now. The patient needs her rest, you know. Come on."
+    },
+    {
+      "character": "ATTA",
+      "text": "Excuse me, Flik. Can I talk to you just for a second?"
+    },
+    {
+      "character": "FLIK",
+      "text": "Oh, sure."
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Oww!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Again, thank you all very, very much."
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Oh, stop. You're too kind."
+    },
+    {
+      "character": "ALL",
+      "text": "Thank you."
+    },
+    {
+      "character": "ATTA",
+      "text": "You don't think I've offended the warriors, do you?"
+    },
+    {
+      "character": "FLIK",
+      "text": "You? No."
+    },
+    {
+      "character": "ATTA",
+      "text": "Oh, good. Because, you see, when you first brought them here, I thought you'd hired a bunch of clowns."
+    },
+    {
+      "character": "FLIK",
+      "text": "You did?"
+    },
+    {
+      "character": "ATTA",
+      "text": "Don't tell them I said that. Boy, that's all I'd need, another royal blunder like that."
+    },
+    {
+      "character": "FLIK",
+      "text": "Princess, you're doing a great job."
+    },
+    {
+      "character": "ATTA",
+      "text": "Thanks. You're sweet. You're wrong, but sweet. I know what everyone really thinks."
+    },
+    {
+      "character": "FLIK",
+      "text": "I don't follow you."
+    },
+    {
+      "character": "ATTA",
+      "text": "Everyone, the whole colony. Nobody really believes I can do this job. It's like they're all watching me, just... Just..."
+    },
+    {
+      "character": "FLIK",
+      "text": "Waiting for you to screw up."
+    },
+    {
+      "character": "ATTA",
+      "text": "Flik, I owe you an apology."
+    },
+    {
+      "character": "FLIK",
+      "text": "For what?"
+    },
+    {
+      "character": "ATTA",
+      "text": "Well, I haven't been that nice to you, and I'm sorry. If there's any way I can make it up to... Hey! I know! How would you like to be the queen's official aide to the warrior bugs?"
+    },
+    {
+      "character": "FLIK",
+      "text": "Me?"
+    },
+    {
+      "character": "ATTA",
+      "text": "Oh, sure. You've got a great rapport going with them, especially after that rescue. It was very brave."
+    },
+    {
+      "character": "FLIK",
+      "text": "Really? No, no..."
+    },
+    {
+      "character": "ATTA",
+      "text": "Well, not every bug would face a bird. I mean, even Hopper's afraid of them."
+    },
+    {
+      "character": "FLIK",
+      "text": "Yeah, well, I guess maybe I have..."
+    },
+    {
+      "character": "FLIK",
+      "text": "Say that again?"
+    },
+    {
+      "character": "ATTA",
+      "text": "I said, even Hopper's afraid of birds."
+    },
+    {
+      "character": "FLIK",
+      "text": "Thank you. Hopper's afraid of birds!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "And I don't blame him!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Oh, oh, oh, this is perfect. We can get rid of Hopper, and no one has to know that I messed up. You just keep pretending you're warriors."
+    },
+    {
+      "character": "ROSIE",
+      "text": "Whoa, Flik, honey. We are not about to fight grasshoppers, okay?"
+    },
+    {
+      "character": "FLIK",
+      "text": "You'll be gone before the grasshoppers ever arrive. It'll be easy. Here's what we do."
+    },
+    {
+      "character": "MANNY",
+      "text": "Nuh-uh-uh, not another word. I don't know what you're concocting in that little ant brain of yours, but we'll have no part of it."
+    },
+    {
+      "character": "VIOLET ANT BOY",
+      "text": "Excuse me? Could we get the warriors' autographs?"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Autographs? Yeah!"
+    },
+    {
+      "character": "BLUE ANT BOY",
+      "text": "Oh, wow! Great!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "So you fellas catch the action today?"
+    },
+    {
+      "character": "BLUE ANT BOY",
+      "text": "The bird went... and it just missed you!"
+    },
+    {
+      "character": "GYPSY",
+      "text": "Oh, aren't you sweet?"
+    },
+    {
+      "character": "VIOLET ANT BOY",
+      "text": "And the way you pretended to be stuck in that huge crack!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "That's just all part of the plan."
+    },
+    {
+      "character": "BLUE ANT BOY",
+      "text": "Yeah, yeah, yeah. And then you dive-bombed into the bush!"
+    },
+    {
+      "character": "MANNY",
+      "text": "There you go, my boy."
+    },
+    {
+      "character": "VIOLET ANT BOY",
+      "text": "Wow! Thanks!"
+    },
+    {
+      "character": "BLUE ANT BOY",
+      "text": "\"M-M-Maajor...\""
+    },
+    {
+      "character": "MANNY",
+      "text": "That's Major Manny, young cadet. I outrank everyone here, remember that."
+    },
+    {
+      "character": "BLUE/VIOLET ANT BOY",
+      "text": "Yes, sir!"
+    },
+    {
+      "character": "MANNY",
+      "text": "Dismissed!"
+    },
+    {
+      "character": "VIOLET ANT BOY",
+      "text": "Wow!"
+    },
+    {
+      "character": "BLUE ANT BOY",
+      "text": "When I grow up, I'm gonna be a praying mantis!"
+    },
+    {
+      "character": "VIOLET ANT BOY",
+      "text": "I'm gonna be a stick bug!"
+    },
+    {
+      "character": "BLUE ANT BOY",
+      "text": "Oh, they're all so cool, I can't Flick?"
+    },
+    {
+      "character": "MANNY",
+      "text": "Delightful lads. You were saying, Flik?"
+    },
+    {
+      "character": "FLIK",
+      "text": "All right. We are going to build a bird, a bird that we can operate from the inside, which would then be hoisted..."
+    },
+    {
+      "character": "MANNY",
+      "text": "...Hoisted above the anthill and hidden high in the tree. Then, right when Hopper and his gang are below, we'll launch the bird and scare off the grasshoppers. Now it's going to take..."
+    },
+    {
+      "character": "ATTA",
+      "text": "...Everyone's involvement to make this plan a reality. I know it's not our tradition to do things differently, but if our ancestors were able to build this anthill, we can certainly rally together to build this bird!"
+    },
+    {
+      "character": "THORNY",
+      "text": "Perfect!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Okay, hit your marks!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Hi, Flik."
+    },
+    {
+      "character": "FLIK",
+      "text": "Oh?"
+    },
+    {
+      "character": "ANT 1",
+      "text": "Do you mind passing the sugar crumbs?"
+    },
+    {
+      "character": "ANT 2",
+      "text": "Sure."
+    },
+    {
+      "character": "ANT 1",
+      "text": "Thank you."
+    },
+    {
+      "character": "ANT 3",
+      "text": "I love what you did with your antenna."
+    },
+    {
+      "character": "ANT 4",
+      "text": "Thank you."
+    },
+    {
+      "character": "DR. FLORA",
+      "text": "Oh, look. She's a natural mother."
+    },
+    {
+      "character": "FRANCIS",
+      "text": "All right, that's it! Out! Out! Everybody out!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Now you're gonna cry, right? You're gonna cry. See if I care. Go ahead and cry. Go ahead."
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Please, don't cry. Please."
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Eh?"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Ta-da!"
+    },
+    {
+      "character": "BLUEBERRY TROOP",
+      "text": "Yay, Francis!"
+    },
+    {
+      "character": "THORNY",
+      "text": "Okay, lower, lower..."
+    },
+    {
+      "character": "YOU",
+      "text": "got it. And that's it!"
+    },
+    {
+      "character": "TUCK",
+      "text": "Up, up, up, up, up, up, up, up!"
+    },
+    {
+      "character": "ROLL",
+      "text": "Up, up, up, up, up, up, up, up!"
+    },
+    {
+      "character": "ROSIE",
+      "text": "Grab it through the hole, chicken in the barn, two by two by, there's the yarn. Done!"
+    },
+    {
+      "character": "TUCK/ROLL",
+      "text": "Ruben Kincaid!"
+    },
+    {
+      "character": "ALL",
+      "text": "Hey! Hey!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Good job, guys! Nice work!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Up, down. Up, down. Up, down."
+    },
+    {
+      "character": "BLUEBERRY TROOP 1",
+      "text": "Hmm."
+    },
+    {
+      "character": "BLUEBERRY TROOP 2",
+      "text": "Hmm."
+    },
+    {
+      "character": "FRANCIS",
+      "text": "BLUEBERRY TROOP 1:"
+    },
+    {
+      "character": "BLUEBERRY TROOP 1",
+      "text": "Uh-uh-uh!"
+    },
+    {
+      "character": "BLUEBERRY TROOP 1",
+      "text": "Read them and weep."
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Huh?"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Flik, watch out!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Whoa!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Look! I'm a beautiful butterfly!"
+    },
+    {
+      "character": "ATTA",
+      "text": "There you go. Good job, fellas. Keep up the good work."
+    },
+    {
+      "character": "FLIK",
+      "text": "huh?"
+    },
+    {
+      "character": "ATTA",
+      "text": "Okay!"
+    },
+    {
+      "character": "TUCK",
+      "text": "You fired!"
+    },
+    {
+      "character": "ROLL",
+      "text": "You fired!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Yes!"
+    },
+    {
+      "character": "WATERSKIING GRASSHOPPER",
+      "text": "Wahoo! Look at me! I'm barefootin'! Wahoo!"
+    },
+    {
+      "character": "SUNBATHING GRASSHOPPER",
+      "text": "Yo, bugito! Dos granitos, pronto!"
+    },
+    {
+      "character": "WATERSKIING GRASSHOPPER",
+      "text": "You gotta try this, man!"
+    },
+    {
+      "character": "GRASSHOPPERS",
+      "text": "La cucaracha, la cucaracha, da da da da da da..."
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "We have more than enough food, and if we go all the way back there and it starts to rain, we might as well be suckin"
+    },
+    {
+      "character": "ATTA",
+      "text": "Okay!"
+    },
+    {
+      "character": "TUCK",
+      "text": "You fired!"
+    },
+    {
+      "character": "ROLL",
+      "text": "You fired!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Yes!"
+    },
+    {
+      "character": "WATERSKIING GRASSHOPPER",
+      "text": "Wahoo! Look at me! I'm barefootin'! Wahoo!"
+    },
+    {
+      "character": "SUNBATHING GRASSHOPPER",
+      "text": "Yo, bugito! Dos granitos, pronto!"
+    },
+    {
+      "character": "WATERSKIING GRASSHOPPER",
+      "text": "You gotta try this, man!"
+    },
+    {
+      "character": "GRASSHOPPERS",
+      "text": "La cucaracha, la cucaracha, da da da da da da..."
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "We have more than enough food, and if we go all the way back there and it starts to rain, we might as well be suckin' bug spray."
+    },
+    {
+      "character": "MOLT",
+      "text": "Ooh! Don't even say that! You know somethin'? You're making a lot of sense. I mean, why take the risk? You should tell Hopper."
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "Good idea! But, you know, it's really not our place. I mean, you're his brother. That makes you, like, uh... The vice president of the gang."
+    },
+    {
+      "character": "MOLT",
+      "text": "Wow! It kind of does, doesn't it? Okay, I'll tell him. Boy, I should talk to you guys more often."
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "What if Hopper doesn't like it?"
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "Then at least the genius will get smacked, and not us."
+    },
+    {
+      "character": "MOLT",
+      "text": "Vice President Molt. (chuckles)"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Yeah, that's good. Oh, that's good. A little lower. Lower, lower."
+    },
+    {
+      "character": "MOLT",
+      "text": "Heya, Hop."
+    },
+    {
+      "character": "HOPPER",
+      "text": "Go away."
+    },
+    {
+      "character": "MOLT",
+      "text": "That's fine. Then I won't tell you my idea."
+    },
+    {
+      "character": "HOPPER",
+      "text": "Good!"
+    },
+    {
+      "character": "MOLT",
+      "text": "Okay, okay. I'll tell you anyway. You see, I've been thinking, okay, which is something that I do. You know, being vice president and all. And thi-this is a thought, and it was mine: why go back to Ant Island at all? I mean, you don't even like grain."
+    },
+    {
+      "character": "HOPPER",
+      "text": "What?!"
+    },
+    {
+      "character": "MOLT",
+      "text": "You're right. I didn't think it was such a good idea, myself. Actually, it wasn't even my idea. It was Axle and Loco's! They talked fancy to me. I got confused!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Guys... Order another round, because we're stayin' here!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "What was I thinking? Going back to Ant Island. I mean, we just got here, and we have more than enough food to get us through the winter, right? Why go back?"
+    },
+    {
+      "character": "HOPPER",
+      "text": "But, there was that ant that stood up to me."
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "Yeah, but we can forget about him!"
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "Yeah, it was just one ant."
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "Ooh!"
+    },
+    {
+      "character": "ALL",
+      "text": "One ant!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "(laughs) Yeah, you're right! It's just one ant!"
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "Yeah, boss. They're puny!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Hmm, puny. Say, let's pretend this grain is a puny little ant."
+    },
+    {
+      "character": "HOPPER",
+      "text": "Did that hurt?"
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "(chuckles) Nope."
+    },
+    {
+      "character": "HOPPER",
+      "text": "Well, how 'bout this one?"
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "Are you kiddin'?"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Well, how 'bout this?"
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "(screaming, fades)"
+    },
+    {
+      "character": "HOPPER",
+      "text": "You let one ant stand up to us, then they all might stand up. Those puny little ants outnumber us a hundred to one. And if they ever figure that out, there goes our way of life! It's not about food. It's about keeping those ants in line. That's why we're going back!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Does anybody else want to stay?"
+    },
+    {
+      "character": "MOLT",
+      "text": "He's quite the motivational speaker, isn't he?"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Let's ride!"
+    },
+    {
+      "character": "ANT",
+      "text": "To the bird!"
+    },
+    {
+      "character": "ALL",
+      "text": "The bird!"
+    },
+    {
+      "character": "ALL",
+      "text": "Hey!"
+    },
+    {
+      "character": "DR FLORA",
+      "text": "Get down, rolly boys!"
+    },
+    {
+      "character": "SLIM",
+      "text": "How low can you go? Sing it now. How low can you go? How low can you go? Do it, princess. How low can you go?"
+    },
+    {
+      "character": "ROSIE",
+      "text": "And that's how my 12th husband died. So now I'm a widow. I mean, I've always been a black widow, but now I'm a black-widow widow."
+    },
+    {
+      "character": "MR SOIL",
+      "text": "Thorny! Any sign of those fiends?"
+    },
+    {
+      "character": "THORNY",
+      "text": "Let me check. No, not yet. But we'll be ready for them."
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Blueberries, dismissed! And quit beating the boys up. Those little raisins do grow on you."
+    },
+    {
+      "character": "FLIK",
+      "text": "Hey, how you guys doing? Some party, huh? Is that grain dip fresh or what? Okay. I've told everyone you'll be stationed deep in the command bunker. Party quiets down, I sneak you out the back way, and then you're out of here forever."
+    },
+    {
+      "character": "DIM",
+      "text": "Dim don't want to go."
+    },
+    {
+      "character": "ROSIE",
+      "text": "Well, if Dim stays, he's gonna need me here. He's not fully trained. I mean, house-trained."
+    },
+    {
+      "character": "FRANCIS",
+      "text": "I... I kind of promised the Blueberries I'd teach them canasta."
+    },
+    {
+      "character": "GYPSY",
+      "text": "It seems we've been booked for an extended engagement."
+    },
+    {
+      "character": "ATTA",
+      "text": "Will you look at this colony? Will you just look at this colony? I don't even recognize it."
+    },
+    {
+      "character": "CORNELIUS",
+      "text": "I feel 70 again!"
+    },
+    {
+      "character": "QUEEN",
+      "text": "Work that ab, baby!"
+    },
+    {
+      "character": "ATTA",
+      "text": "And I have you bugs to thank for it. So, thank you! And thank you for finding them, Flik."
+    },
+    {
+      "character": "FLIK",
+      "text": "Me? Oh... I'll get it. I mean, if you don't mind, I'll just, I'll just..."
+    },
+    {
+      "character": "ATTA",
+      "text": "It's all tangled up."
+    },
+    {
+      "character": "FLIK",
+      "text": "There."
+    },
+    {
+      "character": "ATTA",
+      "text": "I think I'll go check on the bird. Bird's this way."
+    },
+    {
+      "character": "FLIK",
+      "text": "Yeah, the bird's that way. (NERVOUS CHUCKLE) She... What?"
+    },
+    {
+      "character": "THORNY",
+      "text": "Jiminy H. Cricket!"
+    },
+    {
+      "character": "FLIK",
+      "text": "They're back!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Get ready, everybody! Get to your posts! Battle stations, everyone. This is not a drill! Come on, everyone. You know your jobs! Let's go, go, go, go! Agh!"
+    },
+    {
+      "character": "ANT",
+      "text": "Look out!"
+    },
+    {
+      "character": "P.T.",
+      "text": "Whoa, whoa, whoa there. Steady, girls. That's it."
+    },
+    {
+      "character": "ROSIE",
+      "text": "It's P.T.!"
+    },
+    {
+      "character": "DIM",
+      "text": "P.T.?"
+    },
+    {
+      "character": "P.T.",
+      "text": "Greetings and salutations! Ooh-boppa-doo and how do ya do? I am the great P.T. Flea! Heh-heh! I'm in need of your assis... Oh, let's just cut to the chase. Look, I've been goin' from anthill to anthill. I'm looking for a bunch of circus performers. Have you seen them?"
+    },
+    {
+      "character": "CORNELIUS",
+      "text": "Wait a second. Ain't that Staff Sergeant Slim?"
+    },
+    {
+      "character": "FLIK",
+      "text": "Nope! No, no, no. I'm sorry, no. I've never seen anyone like that around here."
+    },
+    {
+      "character": "SLIM",
+      "text": "Be quiet!"
+    },
+    {
+      "character": "FLIK",
+      "text": "No one has ever seen anyone like that around here. So you'll probably want to get going. I guess you've got a lot of other anthills to check into, so bye!"
+    },
+    {
+      "character": "P.T.",
+      "text": "Ah, guys, I've been looking all over for you! Flaming Death is a huge hit!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "P.T.!"
+    },
+    {
+      "character": "P.T. FLEA",
+      "text": "I'm serious! Word of mouth got around. The next day, there was a line of flies outside the tent, went on forever! It must have been a foot long!"
+    },
+    {
+      "character": "ROSIE",
+      "text": "P.T., no!"
+    },
+    {
+      "character": "P.T.",
+      "text": "So I figured it out. You guys burn me twice a night, I take a day off to heal. And then we do it all over again! We'll be the top circus act in the business!"
+    },
+    {
+      "character": "ATTA",
+      "text": "You mean, you're not warriors?"
+    },
+    {
+      "character": "P.T.",
+      "text": "Are you kidding? These guys are the lousiest circus bugs you've ever seen, and they're gonna make me rich!"
+    },
+    {
+      "character": "THORNY",
+      "text": "You mean to tell me that our entire defensive strategy was concocted by clowns?!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Hey, hey, hey, hey. We really thought Flik's idea was gonna work."
+    },
+    {
+      "character": "FRANCIS",
+      "text": "(realizes his mistake) Oops."
+    },
+    {
+      "character": "ATTA",
+      "text": "Tell me this isn't true!"
+    },
+    {
+      "character": "FLIK",
+      "text": "No, you don't... You don't..."
+    },
+    {
+      "character": "MR. SOIL",
+      "text": "This couldn't have happened at a more inopportune time! The last leaf is about to fall!"
+    },
+    {
+      "character": "FEMALE ANT",
+      "text": "We haven't collected any food for the grasshoppers!"
+    },
+    {
+      "character": "THORNY",
+      "text": "If Hopper finds out what we almost did--"
+    },
+    {
+      "character": "QUEEN",
+      "text": "Hopper is not going to find out! We're going to hide all this and pretend it never happened. You bugs were never here, so I suggest you all leave."
+    },
+    {
+      "character": "FLIK",
+      "text": "But the bird! Th-Th-The bird will work!"
+    },
+    {
+      "character": "QUEEN",
+      "text": "I never thought I'd see the day when an ant would put himself before the rest of his colony."
+    },
+    {
+      "character": "FLIK",
+      "text": "What?"
+    },
+    {
+      "character": "QUEEN",
+      "text": "The point is, Flik, you lied to us."
+    },
+    {
+      "character": "FLIK",
+      "text": "No, no, no! I... I just..."
+    },
+    {
+      "character": "ATTA",
+      "text": "You lied, Flik! You lied to her! You lied to the colony! You lied to me! And like an idiot, I believed you."
+    },
+    {
+      "character": "FLIK",
+      "text": "But I... I was just afraid that if you knew I'd gotten circus bugs..."
+    },
+    {
+      "character": "FLIK",
+      "text": "I just wanted to make a difference."
+    },
+    {
+      "character": "ATTA",
+      "text": "I want you to leave, Flik. And this time, don't come back."
+    },
+    {
+      "character": "P.T.",
+      "text": "Tough crowd. Yee-hah!"
+    },
+    {
+      "character": "DOT",
+      "text": "(sadly) Flik..."
+    },
+    {
+      "character": "ATTA",
+      "text": "That's it? But there's got to be more food on the island!"
+    },
+    {
+      "character": "THORNY",
+      "text": "If we give up any more, we'll starve."
+    },
+    {
+      "character": "ATTA",
+      "text": "Hopper won't accept this!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Mother, it's not enough. What do we do?"
+    },
+    {
+      "character": "QUEEN",
+      "text": "I... I don't know."
+    },
+    {
+      "character": "HOPPER",
+      "text": "You little termites! I give you a second chance, and this is all I get?!"
+    },
+    {
+      "character": "ATTA",
+      "text": "But, Hopper, we ran out of time!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Have you been playing all summer? You think this is a game?!"
+    },
+    {
+      "character": "ATTA",
+      "text": "No, no, please!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Well, guess what? You just lost."
+    },
+    {
+      "character": "HOPPER",
+      "text": "Not one ant sleeps, until we get every scrap of food on this island!"
+    },
+    {
+      "character": "MOLT",
+      "text": "Just do what he says, you don't want to make him mad. Believe me!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "No, no, no. You're staying with me, Your Highness."
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "Where do you think you're going?"
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "Get over there!"
+    },
+    {
+      "character": "DOT",
+      "text": "Quick! To the clubhouse."
+    },
+    {
+      "character": "DOT",
+      "text": "Hurry!"
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "Shut up a minute, will you?"
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "I think I heard something over here."
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "Have you checked over there?"
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "No, not yet."
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "Well then, get over there and check it out!"
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "Wait a minute."
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "Hey, I think I found something."
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "(chuckle) Cool. Hey, how do I look?"
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "Like an idiot."
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "I don't know, maybe it'll keep me dry in the rain."
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "You moron! We'll be out of here before it rains. Didn't you hear Hopper? After the ants pick all the food, he's gonna squish the queen to remind them who's boss. Then she's dead, they cry, boo-hoo, we go home. End of story."
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "Oh, cool. I love our job."
+    },
+    {
+      "character": "DOT",
+      "text": "Stay here. I'm going to get help."
+    },
+    {
+      "character": "DOT",
+      "text": "Yeah!"
+    },
+    {
+      "character": "P.T. FLEA",
+      "text": "♪ I'm gonna be rich, rich, rich, I'm gonna be rich, rich, rich, I'm gonna be the richest flea in the land! Ka-ching! The streets'll be paved with golden retrievers, I'm rich, rich, rich, that's who I am! ♪"
+    },
+    {
+      "character": "SLIM",
+      "text": "Poor fellow."
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Hey, maybe we can cheer him up a bit."
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Don't worry, Flik. The circus life isn't so bad."
+    },
+    {
+      "character": "SLIM",
+      "text": "Yes, you can be part of our act."
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Here! Like this."
+    },
+    {
+      "character": "SLIM",
+      "text": "Slapstick! Get it? I... I'm a walking stick. Oh, never mind."
+    },
+    {
+      "character": "DOT",
+      "text": "Flik!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Dot?"
+    },
+    {
+      "character": "DOT",
+      "text": "Flik, wait! Wait!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Dot, you're flying! What are you doin' here?"
+    },
+    {
+      "character": "DOT",
+      "text": "You have to go back. Hopper moved into the anthill, and his gang's eating everything!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Oh, no!"
+    },
+    {
+      "character": "MANNY",
+      "text": "Good heavens!"
+    },
+    {
+      "character": "DOT",
+      "text": "And I heard a grasshopper say that when they're finished, Hopper's gonna squish my mom!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Oh, not the queen!"
+    },
+    {
+      "character": "ROSIE",
+      "text": "We got to do something!"
+    },
+    {
+      "character": "SLIM",
+      "text": "How?"
+    },
+    {
+      "character": "ROSIE",
+      "text": "Come on, you guys, think!"
+    },
+    {
+      "character": "GYPSY",
+      "text": "I know. The bird."
+    },
+    {
+      "character": "MANNY",
+      "text": "Yes, of course."
+    },
+    {
+      "character": "SLIM",
+      "text": "The bird! That's brilliant."
+    },
+    {
+      "character": "FLIK",
+      "text": "(depressed) The bird won't work."
+    },
+    {
+      "character": "DOT",
+      "text": "What are you talking about? It was your idea. But you said that everything..."
+    },
+    {
+      "character": "FLIK",
+      "text": "(depressed) Forget everything I ever told you. All right, Dot? Let's face it. The colony is right. I just make things worse. That bird is a guaranteed failure."
+    },
+    {
+      "character": "FLIK",
+      "text": "Just like me."
+    },
+    {
+      "character": "MANNY",
+      "text": "You listen to me, my boy. I've made a living out of being a failure. And you, sir, are not a failure!"
+    },
+    {
+      "character": "ROSIE",
+      "text": "Oh, but Flik, you've done so many good things."
+    },
+    {
+      "character": "FLIK",
+      "text": "Oh, yeah? Okay, show me one thing I've done right."
+    },
+    {
+      "character": "DIM",
+      "text": "Us."
+    },
+    {
+      "character": "MANNY",
+      "text": "Dim is right, my boy. You have rekindled the long-dormant embers of purpose in our lives."
+    },
+    {
+      "character": "SLIM",
+      "text": "And if it wasn't for you, Francis would have never gotten in touch with his feminine side."
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Oh, yeah?! Well..."
+    },
+    {
+      "character": "FRANCIS",
+      "text": "You know what? He's right."
+    },
+    {
+      "character": "GYPSY",
+      "text": "Lieutenant Gypsy reporting for duty."
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Kid, say the word, and we'll follow you into battle."
+    },
+    {
+      "character": "MANNY",
+      "text": "We believe in you, my boy."
+    },
+    {
+      "character": "DOT",
+      "text": "Flik, please?"
+    },
+    {
+      "character": "FLIK",
+      "text": "Thanks, Dot."
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Hey, what's with the rock?"
+    },
+    {
+      "character": "SLIM",
+      "text": "Must be an ant thing."
+    },
+    {
+      "character": "FLIK",
+      "text": "All right, let's do it."
+    },
+    {
+      "character": "GYPSY",
+      "text": "That's the Flik we know and love."
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Ooh-whoo-whoo!"
+    },
+    {
+      "character": "MANNY",
+      "text": "We're on!"
+    },
+    {
+      "character": "ROSIE",
+      "text": "So, what do we do first?"
+    },
+    {
+      "character": "P.T. FLEA",
+      "text": "♪ Bugs will pay big bucks to see a bonfire that is starring me! ♪ Haha!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "P.T., look!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Money!"
+    },
+    {
+      "character": "P.T. FLEA",
+      "text": "Where, where? Whe..."
+    },
+    {
+      "character": "P.T. FLEA",
+      "text": "Aaaaaahhhhhh!!!"
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "All right, get moving! Get going. Move your abdomens, now!"
+    },
+    {
+      "character": "FLIK",
+      "text": "They're rounding everyone up."
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Hey! Turn your butt off."
+    },
+    {
+      "character": "P.T.",
+      "text": "Psst. Hey, guys! Get me outta this thing, will ya? I promise to start thinking about payin' ya."
+    },
+    {
+      "character": "P.T.",
+      "text": "Hey! Wait, wait! Okay, I'll pay ya! I'll pay ya!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Oh, no! They've finished collecting the food. We've gotta get the queen now. Once she's safe, we move on Gypsy's signal."
+    },
+    {
+      "character": "BLUEBERRY TROOP 1",
+      "text": "Someone's coming!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Hello, kids!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Ready to make some grasshoppers cry?"
+    },
+    {
+      "character": "DOT",
+      "text": "It's payback time, Blueberry-style."
+    },
+    {
+      "character": "BLUEBERRY TROOP 2",
+      "text": "Blueberries rock!"
+    },
+    {
+      "character": "SLIM",
+      "text": "Ladies and gentlebugs! Larvae of all stages! Rub your legs together for the world's greatest bug circus!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Wait a minute!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "I think I'm going to wet myself!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Steady..."
+    },
+    {
+      "character": "HOPPER",
+      "text": "What's goin' on here?"
+    },
+    {
+      "character": "ATTA",
+      "text": "Well..."
+    },
+    {
+      "character": "SLIM",
+      "text": "Uh, yes."
+    },
+    {
+      "character": "SLIM",
+      "text": "We were invited by Princess Atta as a surprise for your arrival."
+    },
+    {
+      "character": "HOPPER",
+      "text": "Squish 'em."
+    },
+    {
+      "character": "TUCK/ROLL",
+      "text": "(SINGING IN FOREIGN LANGUAGE)"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "I think I'm going to wet myself!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Steady..."
+    },
+    {
+      "character": "HOPPER",
+      "text": "What's goin' on here?"
+    },
+    {
+      "character": "ATTA",
+      "text": "Well..."
+    },
+    {
+      "character": "SLIM",
+      "text": "Uh, yes."
+    },
+    {
+      "character": "SLIM",
+      "text": "We were invited by Princess Atta as a surprise for your arrival."
+    },
+    {
+      "character": "HOPPER",
+      "text": "Squish 'em."
+    },
+    {
+      "character": "TUCK/ROLL",
+      "text": "(SINGING IN FOREIGN LANGUAGE)"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Now that's funny. I guess we could use a little entertainment. Looks like you did something right for once, princess."
+    },
+    {
+      "character": "SLIM",
+      "text": "On with the show!"
+    },
+    {
+      "character": "MOLT",
+      "text": "(singing) The circus, the circus, I love the circus."
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Ba-ba all gone! Baby wants pie!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Pie? He asked for it. Should I give it to him?"
+    },
+    {
+      "character": "MOLT",
+      "text": "Yeah! Give him pie! Give him pie! Yeah!"
+    },
+    {
+      "character": "SLIM",
+      "text": "Thank you, gentlemen. Always an intellectual treat. Say, how many roaches does it take to screw in a light bulb? Can't tell. As soon as the light goes on, they scatter!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Almost there."
+    },
+    {
+      "character": "MANNY",
+      "text": "From the most mysterious regions of uncharted Asia, I give you the Chinese Cabinet..."
+    },
+    {
+      "character": "FLIK",
+      "text": "Come on, girls. Quick. Quick."
+    },
+    {
+      "character": "MANNY",
+      "text": "...of Metamorphosis! Utilizing psychic vibrations, I shall select the perfect volunteer."
+    },
+    {
+      "character": "MOLT",
+      "text": "Pick me! No! Come on. I'm asking you with my brain."
+    },
+    {
+      "character": "MANNY",
+      "text": "Aha! Why, Your Majesty!"
+    },
+    {
+      "character": "QUEEN",
+      "text": "Me?"
+    },
+    {
+      "character": "HOPPER",
+      "text": "No, no. Thumper, down. Let her go. Maybe he'll saw her in half."
+    },
+    {
+      "character": "MANNY",
+      "text": "As you ascend the dung beetle to the unknown, put your trust in the mysteries that are beyond mere mortal comprehension."
+    },
+    {
+      "character": "HOPPER",
+      "text": "This is gonna be good!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Blueberries ready?"
+    },
+    {
+      "character": "ALL",
+      "text": "Ready."
+    },
+    {
+      "character": "BLUEBERRY TROOP",
+      "text": "Ready!"
+    },
+    {
+      "character": "MANNY",
+      "text": "I call upon the ancient Szechuan spirits to inhabit the body of our volunteer!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "No, no. Just stay in there, Your Majesty."
+    },
+    {
+      "character": "MANNY",
+      "text": "Transformation. Transformation! TRANSFORMATION!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Wow. Manny's getting good."
+    },
+    {
+      "character": "DR SOIL",
+      "text": "Not now."
+    },
+    {
+      "character": "CORNELIUS",
+      "text": "If it rains, that bird'll get ripped to shreds!"
+    },
+    {
+      "character": "MANNY",
+      "text": "And now, insectus... transformatus!"
+    },
+    {
+      "character": "MOLT",
+      "text": "Pretty!"
+    },
+    {
+      "character": "GYPSY",
+      "text": "Thank you, thank you. Thank you."
+    },
+    {
+      "character": "FLIK",
+      "text": "That's the signal. That's the signal! This is it, girls. Get ready to roll."
+    },
+    {
+      "character": "BLUE ANT BOY",
+      "text": "It's stuck!"
+    },
+    {
+      "character": "MOLT",
+      "text": "That was amazing! I have no... How did they do that? I have no idea where she went."
+    },
+    {
+      "character": "GYPSY",
+      "text": "Thank you. Thank you, thank you."
+    },
+    {
+      "character": "GRASSHOPPERS",
+      "text": "More! More! More! More! More!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Wait! Where is she?"
+    },
+    {
+      "character": "MANNY",
+      "text": "Well, now... Actually..."
+    },
+    {
+      "character": "GYPSY",
+      "text": "I'm sorry. A magician never reveals his secrets."
+    },
+    {
+      "character": "MOLT",
+      "text": "That's very true, Hoppy. I mean, where would the mystery be if we all knew how it was... Shutting up."
+    },
+    {
+      "character": "FLIK",
+      "text": "You can do it! You've got to make it work!"
+    },
+    {
+      "character": "VIOLET ANT BOY",
+      "text": "Hey!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "I said, where is she?!"
+    },
+    {
+      "character": "MANNY",
+      "text": "Ohh!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Hold on!"
+    },
+    {
+      "character": "DOT",
+      "text": "Bird! It's a bird!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Bird! It's a bird!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Yes!"
+    },
+    {
+      "character": "GRASSHOPPER",
+      "text": "Let's get outta here! Go!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Don't let it get me! Don't let it get me! Help me! Aaah!"
+    },
+    {
+      "character": "QUEEN",
+      "text": "DOT: Up, down, up, down. And turn!"
+    },
+    {
+      "character": "SLIM",
+      "text": "My eye! Help me!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Mmm! Boysenberry."
+    },
+    {
+      "character": "FLIK",
+      "text": "Huh? Aah! No, no, no, no, no!"
+    },
+    {
+      "character": "P.T.",
+      "text": "Oh, the pain!"
+    },
+    {
+      "character": "P.T.",
+      "text": "There goes my magic act!"
+    },
+    {
+      "character": "P.T.",
+      "text": "Flaming Death!"
+    },
+    {
+      "character": "SLIM",
+      "text": "No, P.T.!"
+    },
+    {
+      "character": "P.T.",
+      "text": "Yeah! A direct hit! Hee-hee-ha!"
+    },
+    {
+      "character": "DOT",
+      "text": "Flik!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Flik, help us!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Dot!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Okay! Everyone out! Hurry!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Where's Dot? Has anyone seen Dot?"
+    },
+    {
+      "character": "DOT",
+      "text": "Aah!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Whose idea was this?! Huh?! Was it yours, princess?"
+    },
+    {
+      "character": "ATTA",
+      "text": "Just get behind me, girls. It'll be okay."
+    },
+    {
+      "character": "FLIK",
+      "text": "Leave her alone, Hopper! The bird was my idea. I'm the one you want."
+    },
+    {
+      "character": "HOPPER",
+      "text": "Where do you get the gall to do this to me?"
+    },
+    {
+      "character": "FLIK",
+      "text": "You were... You were gonna squish the queen."
+    },
+    {
+      "character": "DOT",
+      "text": "It's true."
+    },
+    {
+      "character": "HOPPER",
+      "text": "I hate it when someone gives away the ending. You piece of dirt! No, I'm wrong. You're lower than dirt. You're an ant! (to the ants) Let this be a lesson to all you ants. Ideas are very dangerous things. You are mindless, soil-shoving losers, put on this earth to serve us!"
+    },
+    {
+      "character": "FLIK",
+      "text": "You're wrong, Hopper. (sniffs as he stands up) Ants are not meant to serve grasshoppers! I've seen these ants do great things. And year after year, they somehow manage to pick food for themselves and you. So-so who is the weaker species? Ants don't serve grasshoppers! It's you who need us!"
+    },
+    {
+      "character": "FLIK",
+      "text": "We're a lot stronger than you say we are."
+    },
+    {
+      "character": "FLIK",
+      "text": "And you know it, don't you?"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Well, princess!"
+    },
+    {
+      "character": "MOLT",
+      "text": "Um, Hopper? Um, I-I hate to interrupt, but um..."
+    },
+    {
+      "character": "HOPPER",
+      "text": "You ants stay back!"
+    },
+    {
+      "character": "MOLT",
+      "text": "Oh, this was such a bad idea!"
+    },
+    {
+      "character": "ATTA",
+      "text": "You see, Hopper, nature has a certain order. The ants pick the food, the ants keep the food and the grasshoppers leave!"
+    },
+    {
+      "character": "ATTA",
+      "text": "I'm so proud of you, Flik!"
+    },
+    {
+      "character": "TUCK AND ROLL",
+      "text": "Charge-a!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Where are you going? They're just ants!"
+    },
+    {
+      "character": "DOT",
+      "text": "No, bad grasshopper! Bad grasshopper! Go home!"
+    },
+    {
+      "character": "DOT",
+      "text": "Yeah!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Come back here, you cowards! Don't leave!"
+    },
+    {
+      "character": "FLIK",
+      "text": "To the cannon!"
+    },
+    {
+      "character": "ALL",
+      "text": "To the cannon!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "No! (yelling)"
+    },
+    {
+      "character": "FLIK",
+      "text": "Happy landings, Hopper!"
+    },
+    {
+      "character": "DIM",
+      "text": "Huh?"
+    },
+    {
+      "character": "FLIK",
+      "text": "Rain!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Flik!"
+    },
+    {
+      "character": "SLIM",
+      "text": "Quick! After them!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Aah! Slim!"
+    },
+    {
+      "character": "SLIM",
+      "text": "Francis! Francis, Francis, I'm stuck!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Where are ya?!"
+    },
+    {
+      "character": "SLIM",
+      "text": "I'm over here!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "Where?"
+    },
+    {
+      "character": "SLIM",
+      "text": "Here! I'm the only stick with eyeballs!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Help! Help! Help!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Get him!"
+    },
+    {
+      "character": "TUCK/ROLL",
+      "text": "Yes! Yes!"
+    },
+    {
+      "character": "FLIK",
+      "text": "No!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Go that way!"
+    },
+    {
+      "character": "ATTA",
+      "text": "But the anthill's over--"
+    },
+    {
+      "character": "FLIK",
+      "text": "I've got an idea!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "(yelling)"
+    },
+    {
+      "character": "ATTA",
+      "text": "Flik!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Come on!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "(screaming)"
+    },
+    {
+      "character": "FLIK",
+      "text": "There!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Come on! We've got to hide! No matter what happens, stay down!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Flik, no! What are you doing?"
+    },
+    {
+      "character": "FLIK",
+      "text": "Hopper!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "You think it's over?"
+    },
+    {
+      "character": "FLIK",
+      "text": "No, no, no, no! No, I-I can explain!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "All your little stunt did was buy them time!"
+    },
+    {
+      "character": "FLIK",
+      "text": "No, please! Please, Hopper!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "I'll get more grasshoppers and be back next season, but you won't!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Well, what's this? Another one of your little bird tricks?"
+    },
+    {
+      "character": "FLIK",
+      "text": "Yep."
+    },
+    {
+      "character": "HOPPER",
+      "text": "Are there a bunch of little girls in this one, too? Hello, girls!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "No! No! No, no, no, no!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "No! Aah! (yelling) No! Oh, no!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "No! Oh, no! No, no, no!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "THORNY: Come on, boys!"
+    },
+    {
+      "character": "ANT KID",
+      "text": "Hey, Princess Dot! Wait up!"
+    },
+    {
+      "character": "QUEEN",
+      "text": "I finally get a second to relax, and I got to get out of my chair. Come on! You can rub lotion on me later, shade boy."
+    },
+    {
+      "character": "CORNELIUS",
+      "text": "Yeah, hubba-hubba."
+    },
+    {
+      "character": "CIRCUS TROUPE",
+      "text": "Oh, thank you!"
+    },
+    {
+      "character": "MANNY",
+      "text": "Thank you."
+    },
+    {
+      "character": "GYPSY",
+      "text": "You're too kind."
+    },
+    {
+      "character": "SLIM",
+      "text": "The least we could do."
+    },
+    {
+      "character": "MANNY",
+      "text": "All in a day's work."
+    },
+    {
+      "character": "SLIM",
+      "text": "Any time."
+    },
+    {
+      "character": "ROSIE",
+      "text": "Dim!"
+    },
+    {
+      "character": "DIM",
+      "text": "Oh..."
+    },
+    {
+      "character": "ANT KIDS",
+      "text": "(moan)"
+    },
+    {
+      "character": "ROSIE",
+      "text": "I'm so sorry, kids. I wish you could come along, too."
+    },
+    {
+      "character": "BLUEBERRY TROOP",
+      "text": "(all crying with Dot)"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "I'm not gonna cry. I'm not gonna cry."
+    },
+    {
+      "character": "TUCK & ROLL",
+      "text": "(speaking foreign language)"
+    },
+    {
+      "character": "P.T. FLEA",
+      "text": "Hey, let's go. We got a schedule to keep. Come on. Let's go."
+    },
+    {
+      "character": "CARTWHEELING ANTS",
+      "text": "Hup, hup, hup, hup, hey!"
+    },
+    {
+      "character": "P.T. FLEA",
+      "text": "Hey, Tiny! Let's get this show packed up! We got paying customers hatching!"
+    },
+    {
+      "character": "MOLT",
+      "text": "Yes, Mr. Flea. Yes, sir. Of course, sir. Right away, sir. And, um, I just wanted to thank you for giving me a chance, because it's an honor to work with creative giants such as yourself."
+    },
+    {
+      "character": "MOLT",
+      "text": "Shutting up."
+    },
+    {
+      "character": "P.T. FLEA",
+      "text": "You sure you can't come on tour with us?"
+    },
+    {
+      "character": "FLIK",
+      "text": "Sorry. My place is here."
+    },
+    {
+      "character": "ATTA",
+      "text": "(quietly) Good answer."
+    },
+    {
+      "character": "P.T. FLEA",
+      "text": "Oh, well. Your loss. One minute, insects!"
+    },
+    {
+      "character": "ATTA",
+      "text": "I want to thank all of you for giving us back our hope, our dignity...and our lives."
+    },
+    {
+      "character": "SLIM",
+      "text": "And to you, Princess Atta. You have given us so much. Please accept this gift from us bugs to you ants."
+    },
+    {
+      "character": "MANNY",
+      "text": "For you!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Oh! (chuckles) It's a rock."
+    },
+    {
+      "character": "CORNELIUS",
+      "text": "What's with the rock?"
+    },
+    {
+      "character": "THORNY",
+      "text": "Must be a circus thing."
+    },
+    {
+      "character": "DOT",
+      "text": "(giggles)"
+    },
+    {
+      "character": "ROSIE",
+      "text": "Well, Flik, you really goofed up. (quavering) Thanks."
+    },
+    {
+      "character": "FLIK",
+      "text": "(quavering) Yeah. You, too."
+    },
+    {
+      "character": "DOT",
+      "text": "(giggles)"
+    },
+    {
+      "character": "P.T. FLEA",
+      "text": "(sniffles) All right. Now it's getting mushy. We're out of here!"
+    },
+    {
+      "character": "BLUE ANT BOY",
+      "text": "Whoa!"
+    },
+    {
+      "character": "ROSIE",
+      "text": "See you next season!"
+    },
+    {
+      "character": "SLIM",
+      "text": "See you, Flik!"
+    },
+    {
+      "character": "GYPSY",
+      "text": "Bye! We miss you already!"
+    },
+    {
+      "character": "TUCK",
+      "text": "You fired!"
+    },
+    {
+      "character": "ROLL",
+      "text": "You fired!"
+    },
+    {
+      "character": "SLIM",
+      "text": "(gasps) We forgot Heimlich!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "I'm finished! Finally, I'm a beautiful butterfly!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Mein wings! Oh, they're beautiful!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Heimlich! The wagon's taking off! You better start flying!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "I'm finished! Finally, I'm a beautiful butterfly!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "(grunt)"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Mein wings! Oh, they're beautiful!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Heimlich! The wagon's taking off! You better start flying!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "But I am flying! And from way up here, you all look like little ants!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Auf Wiedersehen!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Bye!"
+    },
+    {
+      "character": "MR. SOIL",
+      "text": "Thank You!"
+    },
+    {
+      "character": "THORNY",
+      "text": "Present stalks!"
+    },
+    {
+      "character": "THORNY",
+      "text": "Harvester, salute!"
+    },
+    {
+      "character": "JOHN LASSETER",
+      "text": "Speed."
+    },
+    {
+      "character": "CREW MAN",
+      "text": "Marker."
+    },
+    {
+      "character": "JOHN LASSETER",
+      "text": "And action."
+    },
+    {
+      "character": "HOPPER",
+      "text": "Are you saying I'm stupid?"
+    },
+    {
+      "character": "PRINCESS ATTA",
+      "text": "No?"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Do I look stupid to you?"
+    },
+    {
+      "character": "ATTA",
+      "text": "(LAUGHS) I'm sorry!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Are you saying I'm stupid?"
+    },
+    {
+      "character": "ATTA",
+      "text": "(LAUGHS) I'm sorry! I got it! No-no! Just do it again! I'm fine!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "Are you saying I'm stupid?"
+    },
+    {
+      "character": "ATTA",
+      "text": "YES!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "This is the 15th take. I cannot work like this. I will be in my trailer."
+    },
+    {
+      "character": "ATTA",
+      "text": "I need a break."
+    },
+    {
+      "character": "CREW MAN",
+      "text": "Marker."
+    },
+    {
+      "character": "ROSIE",
+      "text": "Whoa, Flick, Honey. We are not about to... Is someone hammering? Can we hold the work, please? People!"
+    },
+    {
+      "character": "SLIM",
+      "text": "Am I in this shot? You can? You can see me, right?"
+    },
+    {
+      "character": "JOHN LASSETER",
+      "text": "And action!"
+    },
+    {
+      "character": "FLIK",
+      "text": "To infinity and beyond!"
+    },
+    {
+      "character": "FLIK",
+      "text": "I'm sorry. I couldn't resist. Really. Can you blame me? Okay. Let's go for real now."
+    },
+    {
+      "character": "JOHN LASSETER",
+      "text": "Okay, cut!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Sorry."
+    },
+    {
+      "character": "MOLT",
+      "text": "Why can't we go back to Ant Island at all? I mean, you don't even like grain."
+    },
+    {
+      "character": "HOPPER",
+      "text": "What?"
+    },
+    {
+      "character": "MOLT",
+      "text": "You're right. I didn't think it was such a good idea, myself. Actually, it wasn't even my idea. It was my head..."
+    },
+    {
+      "character": "CREW MAN",
+      "text": "Watch it! Watch it!"
+    },
+    {
+      "character": "MOLT",
+      "text": "I'm sorry! I'm sorry! Is the camera broke? Oh! Oh! I'm sorry! I'm sorry! I'm sorry! Did I ruin the take?"
+    },
+    {
+      "character": "ATTA",
+      "text": "And thank you for finding them, Flik."
+    },
+    {
+      "character": "FLIK",
+      "text": "Me?"
+    },
+    {
+      "character": "ATTA",
+      "text": "Ow! Ow! Ow! Ow!"
+    },
+    {
+      "character": "FLIK",
+      "text": "Oh no!"
+    },
+    {
+      "character": "ATTA",
+      "text": "This really hurts, guy!"
+    },
+    {
+      "character": "FLIK",
+      "text": "I'm sorry! I soul!"
+    },
+    {
+      "character": "ATTA",
+      "text": "Can't we cut? Ow!"
+    },
+    {
+      "character": "DR. FLORRA",
+      "text": "So, is there a Mrs. Ant you have to tunnel home to? Oh! I'm sorry! I thought he was real. (LAUGHS) Oh, dear, put that thing in my car."
+    },
+    {
+      "character": "CREW MAN",
+      "text": "Marker."
+    },
+    {
+      "character": "ATTA",
+      "text": "Flik, after much deliberation... Whoa!"
+    },
+    {
+      "character": "ATTA",
+      "text": "(GROANING)"
+    },
+    {
+      "character": "SLIM",
+      "text": "I... Ow! Oh! My eye! Ow! No, no, seriously, I've got berry juice in my eye! It stings!"
+    },
+    {
+      "character": "HOPPER",
+      "text": "(LAUGHS)"
+    },
+    {
+      "character": "SLIM",
+      "text": "Stop acting! I'm serious! Oh, Stop the camera!"
+    },
+    {
+      "character": "QUEEN",
+      "text": "Uh-oh! A towel! I need a towel over here!"
+    },
+    {
+      "character": "FLIK",
+      "text": "(LAUGHING)"
+    },
+    {
+      "character": "FLIK",
+      "text": "Cut!"
+    },
+    {
+      "character": "THUMPER",
+      "text": "I'm sorry? I'm sorry? Can we cut? It's just that I don't think I'm coming across. Hmm? Oh! Oh! I know! I know! I could lather up a bunch of spit! Oh! Oh! That's good! I've got it, JL! Alright! One more for me!"
+    },
+    {
+      "character": "CREW MAN",
+      "text": "Speed!"
+    },
+    {
+      "character": "CREW MAN 2",
+      "text": "Marker!"
+    },
+    {
+      "character": "CREW MAN 3",
+      "text": "Action!"
+    },
+    {
+      "character": "P.T FLEA",
+      "text": "Spinning a web of safety and less, than 1-"
+    },
+    {
+      "character": "CREW MAN 4",
+      "text": "Cut!"
+    },
+    {
+      "character": "CREW MAN 2",
+      "text": "Slide. Marker."
+    },
+    {
+      "character": "CREW MAN 3",
+      "text": "And action."
+    },
+    {
+      "character": "SLIM",
+      "text": "(GASPS) Francis! Your boyfriend's from the plant. (LAUGHS) I'm sorry. He has something in his nose!"
+    },
+    {
+      "character": "FRANCIS",
+      "text": "What?"
+    },
+    {
+      "character": "SLIM",
+      "text": "They got."
+    },
+    {
+      "character": "CREW MAN 3",
+      "text": "And action."
+    },
+    {
+      "character": "MR SOIL",
+      "text": "I don't think we need to involve the queen in this. She's got enough on her plate already. Training her daughter?"
+    },
+    {
+      "character": "DR. FLORRA",
+      "text": "Oh, yes. Princess Abba. Abba! (BOTH LAUGH) Where are my platforms? Let's go disco."
+    },
+    {
+      "character": "DR. FLORRA",
+      "text": "Alright, let me try it again."
+    },
+    {
+      "character": "WOODY",
+      "text": "Okay. Tail slate it."
+    },
+    {
+      "character": "CREW MAN 2",
+      "text": "Action!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Aah! (GRUNTS, WHIMPERING)"
+    },
+    {
+      "character": "CREW MAN 2",
+      "text": "Marker."
+    },
+    {
+      "character": "CREW MAN 3",
+      "text": "Action."
+    },
+    {
+      "character": "HOPPER",
+      "text": "Do you understand me? I said do you understand me?"
+    },
+    {
+      "character": "MOLT",
+      "text": "I'm sorry. I'm sorry, he looked funny. He looked funny at me. Can we...? Uh... Just let me have another take."
+    },
+    {
+      "character": "HOPPER",
+      "text": "I said do you understand me?"
+    },
+    {
+      "character": "MOLT",
+      "text": "(LAUGHS) I'm sorry. I'm sorry, he made me laugh. Please, I'll do it right this time. Just once more."
+    },
+    {
+      "character": "HOPPER",
+      "text": "You know, I don't... I said do you understand me?"
+    },
+    {
+      "character": "MOLT",
+      "text": "(LAUGHING HYSTERICALLY)"
+    },
+    {
+      "character": "CREW MAN 3",
+      "text": "And action."
+    },
+    {
+      "character": "TUCK AND ROLL",
+      "text": "(SPEAKING FOREIGN LANGUAGE)"
+    },
+    {
+      "character": "TUCK AND ROLL",
+      "text": "(SPEAKING FOREIGN LANGUAGE, GRUNTING)"
+    },
+    {
+      "character": "TUCK AND ROLL",
+      "text": "(SPEAKING FOREIGN LANGUAGE)"
+    },
+    {
+      "character": "CREW MAN 2",
+      "text": "Marker."
+    },
+    {
+      "character": "SLIM",
+      "text": "(CHOKING) Oh, wait. Stop. I think I swallowed a bug."
+    },
+    {
+      "character": "FRANCIS",
+      "text": "(SNICKERING)"
+    },
+    {
+      "character": "CREW MAN 3",
+      "text": "And action."
+    },
+    {
+      "character": "FLIK",
+      "text": "Pretend this. Pretend this! That's a seed."
+    },
+    {
+      "character": "DOT",
+      "text": "Uh... What was my line again?"
+    },
+    {
+      "character": "FLIK",
+      "text": "It's a rock!"
+    },
+    {
+      "character": "FLIK AND DOT",
+      "text": "(LAUGH)"
+    },
+    {
+      "character": "DOT",
+      "text": "I'm sorry! I just keep forgetting!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "(SCREAMING)"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Ooh!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "Does this mean we can break for lunch?"
+    },
+    {
+      "character": "TUCK",
+      "text": "(SPEAKING FOREIGN LANGUAGE, BELCHES)"
+    },
+    {
+      "character": "ROLL",
+      "text": "(SNICKERING)"
+    },
+    {
+      "character": "TUCK AND ROLL",
+      "text": "(BELCHING)"
+    },
+    {
+      "character": "TUCK AND ROLL",
+      "text": "(PASSES GAS)"
+    },
+    {
+      "character": "ROSIE",
+      "text": "Okay, can we stop? Get me Cindy on the phone, will you?"
+    },
+    {
+      "character": "CREW MAN 3",
+      "text": "Okay, action!"
+    },
+    {
+      "character": "HEIMLICH",
+      "text": "(GULPS, YELLS)"
+    }
+  ],
+  "topSpeakingCast": [
+    "FLIK",
+    "ATTA",
+    "HOPPER",
+    "DOT",
+    "FRANCIS",
+    "SLIM",
+    "HEIMLICH",
+    "MOLT",
+    "QUEEN",
+    "GRASSHOPPER",
+    "MANNY",
+    "THORNY",
+    "ROSIE",
+    "MR. SOIL",
+    "CORNELIUS"
+  ],
+  "imdbId": "tt0120623",
+  "poster": "https://m.media-amazon.com/images/M/MV5BNGI3Mjc1ZjUtYTJhYS00NjBiLTgyYjctODU5NTNlMWJiYjYzXkEyXkFqcGc@._V1_SX300.jpg",
+  "rated": "G",
+  "runtime": "95 min",
+  "genre": "Animation, Adventure, Comedy",
+  "director": "John Lasseter, Andrew Stanton"
+}

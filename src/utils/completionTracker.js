@@ -1,14 +1,13 @@
-// Utility to track and retrieve completions across all packs
+import { getCurrentDate, parseLocalDate } from './time.js';
 
 const STORAGE_KEY_PREFIX = 'scriptle:';
 
 export function getTodaysCompletion() {
-  const today = new Date().toISOString().split('T')[0];
+  const today = getCurrentDate();
   return getCompletionForDate(today);
 }
 
 export function getCompletionForDate(date) {
-  // Scan through all localStorage keys to find completions for this date
   for (let i = 0; i < localStorage.length; i++) {
     const key = localStorage.key(i);
 
@@ -17,7 +16,6 @@ export function getCompletionForDate(date) {
       if (parts.length === 3 && parts[2] === date) {
         const data = JSON.parse(localStorage.getItem(key));
 
-        // Only return if game is completed
         if (data && data.gameOver === true) {
           return {
             packId: parts[1],
@@ -47,7 +45,6 @@ export function getAllCompletions() {
         const date = parts[2];
         const data = JSON.parse(localStorage.getItem(key));
 
-        // Only include completed games
         if (data && data.gameOver === true) {
           completions.push({
             packId,
@@ -61,9 +58,7 @@ export function getAllCompletions() {
     }
   }
 
-  // Sort by date (most recent first)
-  completions.sort((a, b) => new Date(b.date) - new Date(a.date));
-
+  completions.sort((a, b) => parseLocalDate(b.date) - parseLocalDate(a.date));
   return completions;
 }
 
@@ -83,23 +78,19 @@ export function getCompletionsByDate() {
 
 export function getStreak() {
   const completions = getAllCompletions();
-
   if (completions.length === 0) {
     return 0;
   }
 
-  // Group completions by date
   const dateSet = new Set(completions.map(c => c.date));
-  const sortedDates = Array.from(dateSet).sort((a, b) => new Date(b) - new Date(a));
+  const sortedDates = Array.from(dateSet).sort((a, b) => parseLocalDate(b) - parseLocalDate(a));
 
   let streak = 0;
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-
-  let checkDate = new Date(today);
+  const today = getCurrentDate();
+  let checkDate = parseLocalDate(today);
 
   for (let i = 0; i < sortedDates.length; i++) {
-    const dateStr = checkDate.toISOString().split('T')[0];
+    const dateStr = checkDate.getFullYear() + '-' + String(checkDate.getMonth() + 1).padStart(2, '0') + '-' + String(checkDate.getDate()).padStart(2, '0');
 
     if (dateSet.has(dateStr)) {
       streak++;

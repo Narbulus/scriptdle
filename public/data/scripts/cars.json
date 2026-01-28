@@ -1,11 +1,12 @@
 {
   "id": "cars",
   "title": "Cars",
-  "year": 2006,
+  "year": null,
   "characters": [
     "ABOMINABLE SNOWPLOW",
     "ANDRETTI",
     "BALLOON",
+    "BESSIE",
     "BIGGEST FAN",
     "BOB CUTLASS",
     "BOOST",
@@ -41,6 +42,7 @@
     "KATHY COPTER",
     "KORI TURBOWITZ",
     "LARRY",
+    "LIGHTNING",
     "LIGHTNING MCQUEEN",
     "LIGHTNING MCQUEEN'S CREW",
     "LIZZIE",
@@ -67,7 +69,6 @@
     "RUSTY CAR 1",
     "RUSTY CAR 2",
     "RUSTY CAR 3",
-    "SALLY",
     "SALLY CARRERA",
     "SARGE",
     "SECURITY",
@@ -84,6 +85,7 @@
     "TIA",
     "TJ HUMMER",
     "TOW MATER",
+    "TOW MATER'",
     "TUNER TEAM",
     "TV CREW",
     "VAN",
@@ -113,7 +115,7 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "‘ (Real Gone” by Sheryl Crow plays in the background as the trailer door opens ) Oh, yeah. Lightning's ready."
+      "text": "‘ Oh, yeah. Lightning's ready."
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -184,6 +186,10 @@
       "text": "Go get 'em, McQueen! Go get 'em!"
     },
     {
+      "character": "DOUG",
+      "text": "["
+    },
+    {
       "character": "FANS",
       "text": "We love you, Lightning!"
     },
@@ -197,11 +203,15 @@
     },
     {
       "character": "CHICK",
-      "text": "Get through that, Young McQueen!"
+      "text": "Get through that, McQueen!"
     },
     {
       "character": "BOB CUTLASS",
       "text": "Oh, a huge crash behind the leaders!"
+    },
+    {
+      "character": "FANS",
+      "text": "["
     },
     {
       "character": "BOB CUTLASS",
@@ -221,7 +231,7 @@
     },
     {
       "character": "DARRELL CARTRIP",
-      "text": "Look at that, McQueen made it through!"
+      "text": "["
     },
     {
       "character": "BOB CUTLASS",
@@ -245,7 +255,7 @@
     },
     {
       "character": "BROKEN CAR",
-      "text": "Don't take me out coach. I CAN STILL RACE!"
+      "text": "Don't take me out coach, I can still race!"
     },
     {
       "character": "CHICK",
@@ -328,6 +338,10 @@
       "text": "Ah, he's got it in the bag. Call in the dogs and put out the fire! We're gonna crown us a new champion!"
     },
     {
+      "character": "FANS",
+      "text": "Checkered flag, here I come!"
+    },
+    {
       "character": "LIGHTNING MCQUEEN",
       "text": "Checkered flag, here I come!"
     },
@@ -341,7 +355,7 @@
     },
     {
       "character": "NOT CHUCK",
-      "text": "YOU FOOL! ["
+      "text": "YOU FOOL!"
     },
     {
       "character": "THE KING'S COACH",
@@ -425,11 +439,11 @@
     },
     {
       "character": "NOT CHUCK",
-      "text": "What? (sarcastically) Oh, yeah, right."
+      "text": "What? Oh, yeah, right."
     },
     {
       "character": "KORI TURBOWITZ",
-      "text": "(to the TV audience) That was a very confident Lightning McQueen. Coming to you live from Victory Lane, I'm Kori Turbowitz."
+      "text": "That was a very confident Lightning McQueen. Coming to you live from Victory Lane, I'm Kori Turbowitz."
     },
     {
       "character": "CAMERAMEN",
@@ -457,11 +471,11 @@
     },
     {
       "character": "NOT CHUCK",
-      "text": "We QUIT , Mr. One-Man-Show!"
+      "text": "We QUIT, Mr. One-Man-Show!"
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "Oh, oh, oh, oh, okay, leave. Fine! (laughs) How will I ever find anyone else who knows how to fill me up with gas?"
+      "text": "Oh, oh, oh, oh, okay, leave. Fine! How will I ever find anyone else who knows how to fill me up with gas?"
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -496,8 +510,12 @@
       "text": "Yeah, right. Thunder? What's he talkin' about, \"Thunder\"?"
     },
     {
+      "character": "LIGHTNING",
+      "text": "You know, because thunder always comes after..."
+    },
+    {
       "character": "LIGHTNING MCQUEEN",
-      "text": "You know, because thunder always comes after... Lightning ! ["
+      "text": "Lightning! Pew, ka-ka-pow! ["
     },
     {
       "character": "CHICK",
@@ -510,6 +528,10 @@
     {
       "character": "CAMERAMEN",
       "text": "Give us the bolt! That's right. Right in the lens. Show me the bolt, baby! Smile, McQueen! Show me the bolt, McQueen! That's it!"
+    },
+    {
+      "character": "TEX",
+      "text": "["
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -1041,7 +1063,7 @@
     },
     {
       "character": "SHERIFF",
-      "text": "What the?! Crazy hot-rodder!"
+      "text": "What?! Crazy hot-rodder!"
     },
     {
       "character": "FILLMORE",
@@ -1245,7 +1267,11 @@
     },
     {
       "character": "TOW MATER",
-      "text": "Well, we'll talk later, Mater. \"Later, Mater.\" That's funny!"
+      "text": "Well, we'll talk later, Mater."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "\"Later, Mater.\" That's funny!"
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -1285,7 +1311,11 @@
     },
     {
       "character": "SHERIFF",
-      "text": "When a defendant has no lawyer, the court will assign one to him. HEY! Anyone want to be his lawyer?!"
+      "text": "When a defendant has no lawyer, the court will assign one to him. HEY!"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Anyone want to be his lawyer?!"
     },
     {
       "character": "TOW MATER",
@@ -1305,7 +1335,11 @@
     },
     {
       "character": "DOC HUDSON",
-      "text": "Alright, I wanna know who's responsible for wrecking my town, Sheriff. I wanna his hood on a platter! I'm gonna put him in jail till he rots! No, check that. I'm gonna put him in jail till the jail rots on top of him, and then I'm gonna move him to a new jail and let that jail rot. I'm-- Throw him out of here, Sheriff. I want him out of my courtroom. I want him out of our town! Case dismissed."
+      "text": "Alright, I wanna know who's responsible for wrecking my town, Sheriff. I wanna his hood on a platter! I'm gonna put him in jail till he rots! No, check that. I'm gonna put him in jail till the jail rots on top of him, and then I'm gonna move him to a new jail and let that jail rot. I'm--"
+    },
+    {
+      "character": "DOC HUDSON",
+      "text": "Throw him out of here, Sheriff. I want him out of my courtroom. I want him out of our town! Case dismissed."
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -1628,7 +1662,7 @@
       "text": "Race Now!!"
     },
     {
-      "character": "TOW MATER",
+      "character": "TOW MATER'",
       "text": "Maybe I should've, uh, hooked him up to Bessie... and then, uh... then took the boot off."
     },
     {
@@ -1658,6 +1692,18 @@
     {
       "character": "LIGHTNING MCQUEEN",
       "text": "Ow, ow, ow, ow!"
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Gentlemen."
+    },
+    {
+      "character": "SARGE",
+      "text": "Sheriff."
+    },
+    {
+      "character": "FILLMORE",
+      "text": "Hey, Sheriff."
     },
     {
       "character": "LUIGI",
@@ -1905,7 +1951,7 @@
     },
     {
       "character": "VAN",
-      "text": "We're gonna be going now, OKAY t"
+      "text": "We're gonna be going now, OKAY"
     },
     {
       "character": "LIZZIE",
@@ -1953,7 +1999,23 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "No, no, no, no, no! No, it's the truth! I'm telling you! You gotta help me! Don't leave me here! I'm in hillbilly hall!! My IQ's dropping by the second!! I’m becoming ONE OF THEM!!"
+      "text": "No, no, no, no, no! No, it's the truth! I'm telling you! You gotta help me!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Don't leave me here!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I'm in hillbilly hall!!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "My IQ's dropping by the second!!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I’m becoming ONE OF THEM!!"
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -2109,7 +2171,11 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "The race is only one lap, guys. Uno lappo! Don't need any help. I work solo mio."
+      "text": "The race is only one lap, guys. Uno lappo!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Don't need any help. I work solo mio."
     },
     {
       "character": "LUIGI",
@@ -2205,7 +2271,7 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "AH ,OW, OW, OW, OW, NO, NO, NO, NO, NO, NO, NO!!"
+      "text": "AH, OW, OW, OW, OW, NO, NO, NO, NO, NO, NO, NO!!"
     },
     {
       "character": "RAMONE",
@@ -2221,7 +2287,7 @@
     },
     {
       "character": "TOW MATER",
-      "text": "chuckles"
+      "text": "Doc Hudson"
     },
     {
       "character": "DOC HUDSON",
@@ -2276,8 +2342,16 @@
       "text": "Whoo! Watchin' him workin' is makin' me thirsty."
     },
     {
+      "character": "FLO",
+      "text": "Anybody else want somethin' to drink?"
+    },
+    {
       "character": "TOW MATER",
-      "text": "Nah, not me, Flo. I'm on one of them there special diets. I'm a precisional instrument of speed and air-matics."
+      "text": "Nah, not me, Flo. I'm on one of them there special diets."
+    },
+    {
+      "character": "TOW MATER",
+      "text": "I'm a precisional instrument of speed and air-matics."
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -2285,7 +2359,15 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "I'll show him! I will show him!"
+      "text": "I'll show him!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Aw, great!!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "I hate it!! Hey, hey, hey! Hate it!!!"
     },
     {
       "character": "DOC HUDSON",
@@ -2300,8 +2382,16 @@
       "text": "Radiator Springs, a happy place!!"
     },
     {
+      "character": "BESSIE",
+      "text": "clucking"
+    },
+    {
       "character": "LIGHTNING MCQUEEN",
       "text": "Whoa, okay, Bessie you think that's FUNNY?! GREAT! I'M TALKIN' TO BESSIE NOW!! I'M TALKIN' TO BESSIE!!!"
+    },
+    {
+      "character": "TOW MATER",
+      "text": "Tow Mater"
     },
     {
       "character": "SALLY CARRERA",
@@ -2337,7 +2427,7 @@
     },
     {
       "character": "LUIGI",
-      "text": "E Bellissima ! It's beautiful! Guido, look, it's a like it was paved by angels. Oh!!"
+      "text": "E Bellissima! It's beautiful! Guido, look, it's a like it was paved by angels. Oh!!"
     },
     {
       "character": "TOW MATER",
@@ -2369,7 +2459,11 @@
     },
     {
       "character": "LUIGI",
-      "text": "That crazy old terrible woman. She's right!"
+      "text": "That crazy old terrible woman."
+    },
+    {
+      "character": "LUIGI",
+      "text": "She's right!"
     },
     {
       "character": "SALLY CARRERA",
@@ -2377,7 +2471,7 @@
     },
     {
       "character": "LUIGI",
-      "text": "Guido!"
+      "text": "(starts crying) Guido!"
     },
     {
       "character": "DOC HUDSON",
@@ -2397,7 +2491,11 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "NO NO NO NO!! Aw, great!"
+      "text": "NO NO NO NO!!"
+    },
+    {
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Aw, great!"
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -2417,11 +2515,11 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "Oh, great. Wha"
+      "text": "This ain't asphalt, son. This is dirt."
     },
     {
-      "character": "DOC HUDSON",
-      "text": "This ain't asphalt, son. This is dirt."
+      "character": "LIGHTNING MCQUEEN",
+      "text": "Oh, great."
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -2449,11 +2547,7 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "Ooh, right, that makes perfect sense. Turn right to go left! Yes! Thank you! Or should I say, \" No thank you\"?"
-    },
-    {
-      "character": "LIGHTNING MCQUEEN",
-      "text": "Because in Opposite World, maybe that really means, \" Thank you\"!"
+      "text": "Ooh, right, that makes perfect sense. Turn right to go left! Yes! Thank you! Or should I say, \" No thank you\"? Because in Opposite World, maybe that really means, \" Thank you\"!"
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -2925,7 +3019,7 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "Mater! *"
+      "text": "Mater!"
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -2933,10 +3027,6 @@
     },
     {
       "character": "TOW MATER",
-      "text": "LIGHTNING MCQUEEN"
-    },
-    {
-      "character": "LIGHTNING MCQUEEN",
       "text": "He's nuts!"
     },
     {
@@ -2948,16 +3038,12 @@
       "text": "Mater!"
     },
     {
-      "character": "SALLY",
+      "character": "SALLY CARRERA",
       "text": "Hey, take it easy, Mater!"
     },
     {
       "character": "TOW MATER",
-      "text": "No need to watch where I'm goin'!"
-    },
-    {
-      "character": "TOW MATER",
-      "text": "Just need to know where I've been."
+      "text": "No need to watch where I'm goin'! Just need to know where I've been."
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -2989,11 +3075,7 @@
     },
     {
       "character": "TOW MATER",
-      "text": "Nah, it's okay, buddy."
-    },
-    {
-      "character": "TOW MATER",
-      "text": "Hey, you think maybe one day I can get a ride in one of them helicopters? I mean, I've always wanted to ride in one of them fancy helicopters."
+      "text": "Nah, it's okay, buddy. Hey, you think maybe one day I can get a ride in one of them helicopters? I mean, I've always wanted to ride in one of them fancy helicopters."
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -3045,11 +3127,7 @@
     },
     {
       "character": "SALLY CARRERA",
-      "text": "Hey, Stickers!"
-    },
-    {
-      "character": "SALLY CARRERA",
-      "text": "I'm sorry!"
+      "text": "Hey, Stickers! I'm sorry!"
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -3345,11 +3423,7 @@
     },
     {
       "character": "SALLY CARRERA",
-      "text": "Mm... I trust him."
-    },
-    {
-      "character": "SALLY CARRERA",
-      "text": "Come on, let's take a drive."
+      "text": "Mm... I trust him. Come on, let's take a drive."
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -3377,11 +3451,7 @@
     },
     {
       "character": "RAMONE",
-      "text": "Hey, can you believe it, man? He actually thought Doc was a famous race-car!"
-    },
-    {
-      "character": "RAMONE",
-      "text": "That's so too much!"
+      "text": "Hey, can you believe it, man? He actually thought Doc was a famous race-car! That's so too much!"
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -3393,11 +3463,7 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "WHOA!"
-    },
-    {
-      "character": "LIGHTNING MCQUEEN",
-      "text": "Yes!"
+      "text": "WHOA! Yes!"
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -3421,7 +3487,7 @@
     },
     {
       "character": "SALLY CARRERA",
-      "text": "Well, it's really pretty simple. I was..."
+      "text": "Well, it's really pretty simple. I was...an attorney in LA living life"
     },
     {
       "character": "SALLY CARRERA",
@@ -3609,7 +3675,7 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "What are you doing? You're not supposed to go wandering off all--alone."
+      "text": "What are you doing? You're not supposed to go wandering off all-- alone."
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -3625,11 +3691,7 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "Wow!"
-    },
-    {
-      "character": "LIGHTNING MCQUEEN",
-      "text": "You're amazing!"
+      "text": "Wow! You're amazing!"
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -3693,11 +3755,7 @@
     },
     {
       "character": "DOC HUDSON",
-      "text": "When is the last time you cared about something except yourself, hot rod? You name me one time. And I will take it all back."
-    },
-    {
-      "character": "DOC HUDSON",
-      "text": "Uh-huh? I didn't think so. These are good folk around here, who care about one another. I don't want 'em depending on someone they can't count on."
+      "text": "When is the last time you cared about something except yourself, hot rod? You name me one time. And I will take it all back. Uh-huh? I didn't think so. These are good folk around here, who care about one another. I don't want 'em depending on someone they can't count on."
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -3733,14 +3791,6 @@
     },
     {
       "character": "SHERIFF",
-      "text": "Ramone"
-    },
-    {
-      "character": "RAMONE",
-      "text": "Oh, dude, are you crying?"
-    },
-    {
-      "character": "SHERIFF",
       "text": "NO! I'M HAPPY! I DON'T HAVE TO WATCH HIM EVERY SECOND OF THE DAY ANYMORE! I'M GLAD HE'S GONE!"
     },
     {
@@ -3749,15 +3799,11 @@
     },
     {
       "character": "TOW MATER",
-      "text": "Oh, he's just sad because you left town, and went to your big race to win the Piston Cup that you've always dreamed about your whole life and get that big ol' sponsor and that fancy helicopter you was talking about."
-    },
-    {
-      "character": "TOW MATER",
-      "text": "Wait a minute! I knowed you wouldn't leave without saying goodbye."
+      "text": "Oh, he's just sad because you left town, and went to your big race to win the Piston Cup that you've always dreamed about your whole life and get that big ol' sponsor and that fancy helicopter you was talking about. Wait a minute! I knowed you wouldn't leave without saying goodbye."
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "Sheriff"
+      "text": "(chuckles)"
     },
     {
       "character": "SHERIFF",
@@ -3773,7 +3819,7 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "I'm not sure these tires... ...can get me all the way to California."
+      "text": "I'm not sure these tires...can get me all the way to California."
     },
     {
       "character": "GUIDO",
@@ -4553,10 +4599,6 @@
     },
     {
       "character": "GUYS",
-      "text": "Lightning McQueen"
-    },
-    {
-      "character": "LIGHTNING MCQUEEN",
       "text": "Guys, you're here! I can't believe this!"
     },
     {
@@ -4697,7 +4739,7 @@
     },
     {
       "character": "CHICK",
-      "text": "No you don't! Doc, I'm flat! I'm flat!"
+      "text": "No you don't!"
     },
     {
       "character": "LIGHTNING MCQUEEN",
@@ -4861,11 +4903,7 @@
     },
     {
       "character": "CHICK",
-      "text": "Yeah!! Whoo-hoo!!"
-    },
-    {
-      "character": "CHICK",
-      "text": "I won, baby! Yeah! Oh, yeah!"
+      "text": "Yeah!! Whoo-hoo!! I won, baby! Yeah! Oh, yeah!"
     },
     {
       "character": "FLO",
@@ -4897,11 +4935,7 @@
     },
     {
       "character": "CHICK",
-      "text": "Whoo!"
-    },
-    {
-      "character": "CHICK",
-      "text": "Hey! What?! What's going on?!"
+      "text": "Whoo! Hey! What?! What's going on?!"
     },
     {
       "character": "FAN",
@@ -4929,23 +4963,7 @@
     },
     {
       "character": "CHICK",
-      "text": "Come on, baby, bring it out! Bring out the Piston Cup. Ka-chicka, ka-chicka!"
-    },
-    {
-      "character": "CHICK",
-      "text": "Yeah-ha-ha! Now, that's what I'm talking about! Hey! How come the only one celebrating is me, huh?! Where are the girls?! Bring on the confetti!"
-    },
-    {
-      "character": "CHICK",
-      "text": "Ow! Ow!!"
-    },
-    {
-      "character": "CHICK",
-      "text": "Easy with the confetti. What's going on? Come on, snap some pictures. I gotta go sign my deal with Dinoco! Ka-chicka! Say it with me."
-    },
-    {
-      "character": "CHICK",
-      "text": "Ka-chicka, ka-chicka, ka-chicka!"
+      "text": "Come on, baby, bring it out! Bring out the Piston Cup. Ka-chicka, ka-chicka! Yeah-ha-ha! Now, that's what I'm talking about! Hey! How come the only one celebrating is me, huh?! Where are the girls?! Bring on the confetti! Ow! Ow!! Easy with the confetti. What's going on? Come on, snap some pictures. I gotta go sign my deal with Dinoco! Ka-chicka! Say it with me. Ka-chicka, ka-chicka, ka-chicka!"
     },
     {
       "character": "CAMERAMEN",
@@ -4957,15 +4975,7 @@
     },
     {
       "character": "CHICK",
-      "text": "What's wrong with everybody?!"
-    },
-    {
-      "character": "CHICK",
-      "text": "Ow! Where's the happiness?!"
-    },
-    {
-      "character": "CHICK",
-      "text": "Hey! This is the start of the Chick era!"
+      "text": "What's wrong with everybody?! Ow! Where's the happiness?! Hey! This is the start of the Chick era!"
     },
     {
       "character": "LYNDA WEATHERS",
@@ -5029,15 +5039,7 @@
     },
     {
       "character": "TOW MATER",
-      "text": "WHOO-HOO!"
-    },
-    {
-      "character": "TOW MATER",
-      "text": "Hey, look at me! I'm flying, by golly! Whoo-hoo!"
-    },
-    {
-      "character": "TOW MATER",
-      "text": "I'm happier than a tornado in a trailer park!"
+      "text": "WHOO-HOO! I'm happier than a tornado in a trailer park!"
     },
     {
       "character": "LUIGI",
@@ -5045,31 +5047,15 @@
     },
     {
       "character": "MICHAEL SCHUMACHER",
-      "text": "CHOW!"
-    },
-    {
-      "character": "MICHAEL SCHUMACHER",
-      "text": "Hi, Lightning McQueen told me this was the best place in the world to get tires. How about setting me and my friends up with three or four sets each?"
+      "text": "CHOW! Hi, Lightning McQueen told me this was the best place in the world to get tires. How about setting me and my friends up with three or four sets each?"
     },
     {
       "character": "LUIGI",
-      "text": "Guido! There is a real Michael Schumacher Ferrari in my store."
-    },
-    {
-      "character": "LUIGI",
-      "text": "A REAL FERRARI!"
-    },
-    {
-      "character": "LUIGI",
-      "text": "Push me, Guido, push me in the face! This is the most glorious day of my life!"
+      "text": "Guido! There is a real Michael Schumacher Ferrari in my store. A REAL FERRARI! Push me, Guido, push me in the face! This is the most glorious day of my life!"
     },
     {
       "character": "MICHAEL SCHUMACHER",
-      "text": "Whoa,"
-    },
-    {
-      "character": "MICHAEL SCHUMACHER",
-      "text": "Spero che il tuo amico si riprenda. Mi dicono che siete fantastici. (I hope your friend gets better. I hear you guys are amazing.)"
+      "text": "Whoa, Spero che il tuo amico si riprenda. Mi dicono che siete fantastici. (I hope your friend gets better. I hear you guys are amazing.)"
     },
     {
       "character": "SALLY CARRERA",
@@ -5129,11 +5115,7 @@
     },
     {
       "character": "LIGHTNING MCQUEEN",
-      "text": "Yeah!"
-    },
-    {
-      "character": "LIGHTNING MCQUEEN",
-      "text": "Ka-Chow!"
+      "text": "Yeah! Ka-Chow!"
     },
     {
       "character": "TOW MATER",
@@ -5201,15 +5183,7 @@
     },
     {
       "character": "SARGE",
-      "text": "Well, that's gonna change right now! About face!"
-    },
-    {
-      "character": "SARGE",
-      "text": "Drop and give me 20 miles!"
-    },
-    {
-      "character": "SARGE",
-      "text": "Go Go Go Go Go Go Go Go!"
+      "text": "Well, that's gonna change right now! About face! Drop and give me 20 miles!"
     },
     {
       "character": "TJ HUMMER",
@@ -5217,19 +5191,7 @@
     },
     {
       "character": "TOW MATER",
-      "text": "Huh?"
-    },
-    {
-      "character": "TOW MATER",
-      "text": "Look at this! It's my hood, it's my hood, I ain't seen this thing in 20 years!"
-    },
-    {
-      "character": "TOW MATER",
-      "text": "Well, it fits perfectly. How do I look?"
-    },
-    {
-      "character": "TOW MATER",
-      "text": "Nah, dang."
+      "text": "Huh? Look at this! It's my hood, it's my hood, I ain't seen this thing in 20 years! Well, it fits perfectly. How do I look? Nah, dang."
     },
     {
       "character": "WOODY CAR",
@@ -5273,11 +5235,7 @@
     },
     {
       "character": "FLIK CAR",
-      "text": "Just get in there! Go, go, go, go!"
-    },
-    {
-      "character": "FLIK CAR",
-      "text": "Circus cars?! How can you be circus cars?!"
+      "text": "Just get in there! Go, go, go, go! Circus cars?! How can you be circus cars?!"
     },
     {
       "character": "P.T. CAR",
@@ -5293,51 +5251,30 @@
     },
     {
       "character": "VAN",
-      "text": "No! There's an on ramp close! I know it, I can feel it"
-    },
-    {
-      "character": "VAN",
-      "text": "Ah ha ha ha ha ha ha ha ha oh"
+      "text": "No! There's an on ramp close! I know it, I can feel it Ah ha ha ha ha ha ha ha ha oh"
     }
   ],
-  "lineCount": 1302,
-  "characterCount": 86,
-  "topCastCount": 35,
-  "topCast": [
+  "imdbId": "tt0317219",
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTg5NzY0MzA2MV5BMl5BanBnXkFtZTYwNDc3NTc2._V1_SX300.jpg",
+  "rated": "G",
+  "runtime": "116 min",
+  "genre": "Animation, Adventure, Comedy",
+  "director": "John Lasseter, Joe Ranft",
+  "topSpeakingCast": [
     "LIGHTNING MCQUEEN",
     "SALLY CARRERA",
     "TOW MATER",
     "DOC HUDSON",
     "LUIGI",
-    "CHICK",
     "BOB CUTLASS",
     "SHERIFF",
+    "CHICK",
     "DARRELL CARTRIP",
     "MACK",
-    "RAMONE",
     "FLO",
+    "RAMONE",
     "LIZZIE",
-    "CAMERAMEN",
     "FILLMORE",
-    "SARGE",
-    "VAN",
-    "HARV",
-    "MINNY",
-    "THE KING",
-    "MATER",
-    "DUSTY",
-    "GUIDO",
-    "NOT CHUCK",
-    "RUSTY",
-    "KORI TURBOWITZ",
-    "TEX",
-    "LYNDA WEATHERS",
-    "BOOST",
-    "FOLKS",
-    "FANS",
-    "MIA & TIA",
-    "FRED",
-    "SNOT ROD",
-    "BIGGEST FAN"
+    "CAMERAMEN"
   ]
 }

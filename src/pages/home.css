@@ -1,0 +1,190 @@
+/* Categories */
+.category-section {
+    margin-bottom: 1.5rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.category-section:last-child {
+    margin-bottom: 0;
+}
+
+.category-heading {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--text-secondary);
+    margin: 0 0 0.75rem 0;
+    padding: 0 2rem;
+}
+
+/* Recent Puzzles Section */
+.recent-section {
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recent-grid {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+    /* Hide scrollbar but allow scroll */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE/Edge */
+}
+
+.recent-grid::-webkit-scrollbar {
+    display: none;
+    /* Chrome/Safari */
+}
+
+.recent-grid .pack-card {
+    min-width: 160px;
+    width: 160px;
+    flex-shrink: 0;
+}
+
+/* Home Page - Pack Grid */
+.pack-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+    width: 100%;
+}
+
+.pack-card {
+    aspect-ratio: 3/4;
+    background-color: var(--container-bg);
+    border: 1px solid #ccc;
+    border-radius: var(--radius-xl);
+    padding: 1rem;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-color: var(--text-primary);
+    position: relative;
+}
+
+.pack-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--text-primary);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+
+.pack-card .movie-count {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+/* Pack List (Rows) */
+.pack-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.pack-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--container-bg);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: var(--radius-lg);
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.1s, filter 0.1s;
+    min-height: 3.5rem;
+}
+
+.pack-row:hover {
+    filter: brightness(0.95);
+    transform: translateX(4px);
+}
+
+.pack-row-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.pack-row-name {
+    font-family: var(--font-mono);
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--text-primary);
+    line-height: 1.2;
+}
+
+.pack-row-count {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #888;
+    line-height: 1.2;
+    margin-left: 0;
+}
+
+.pack-row-badge {
+    width: 32px;
+    height: 32px;
+    margin-left: 1rem;
+}
+
+.pack-row-badge .completion-badge {
+    position: static;
+    width: 100%;
+    height: 100%;
+    filter: none;
+}
+
+.pack-row-badge .emoji-badge {
+    font-size: 24px;
+}
+
+.completion-badge {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    z-index: 10;
+    width: 44px;
+    height: 44px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
+}
+
+.completion-badge.emoji-badge {
+    background-image: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
+}
+
+.pack-card {
+    overflow: hidden;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .pack-grid {
+        grid-template-columns: 1fr;
+    }
+}

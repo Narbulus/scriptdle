@@ -1,7 +1,7 @@
 {
   "id": "moana",
   "title": "Moana",
-  "year": 2016,
+  "year": null,
   "characters": [
     "CHIEF TUI",
     "CHIEF TUI AND SINA",
@@ -1446,18 +1446,19 @@
       "text": "Shiny, I'm so shiny... Didn't help me though, did it? Still upside down here, just need a little push. Can we be real? If my name were Sebastian and I had a cool Jamaican accent, you'd totally help me. You would, you know you would."
     }
   ],
-  "lineCount": 357,
-  "characterCount": 12,
-  "topCastCount": 9,
-  "topCast": [
+  "imdbId": "tt3521164",
+  "poster": "https://m.media-amazon.com/images/M/MV5BMjI4MzU5NTExNF5BMl5BanBnXkFtZTgwNzY1MTEwMDI@._V1_SX300.jpg",
+  "rated": "PG",
+  "runtime": "107 min",
+  "genre": "Animation, Adventure, Comedy",
+  "director": "Ron Clements, John Musker, Don Hall",
+  "topSpeakingCast": [
     "MOANA",
     "MAUI",
     "CHIEF TUI",
     "GRAMMA TALA",
     "TAMATOA",
-    "VILLAGERS",
     "VILLAGER",
-    "SINA",
-    "OCEAN"
+    "VILLAGERS"
   ]
 }

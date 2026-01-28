@@ -1,0 +1,3638 @@
+{
+  "id": "aladdin-1992",
+  "title": "Aladdin (1992)",
+  "year": null,
+  "characters": [
+    "ABU",
+    "ABU AND IAGO",
+    "ACHMED",
+    "ALADDIN",
+    "BOTH",
+    "BYSTANDER 1",
+    "BYSTANDER 2",
+    "CAVE",
+    "CHORUS",
+    "CHORUS OF MEN",
+    "CHORUS OF WOMEN",
+    "DUPLICATE GENIES",
+    "FAROUK",
+    "FISH MERCHANT",
+    "GAZEEM",
+    "GENIE",
+    "GENIES",
+    "GIRLS",
+    "GUARD",
+    "GUARD 1",
+    "GUARD 2",
+    "GUARDS",
+    "HAREM GIRLS",
+    "HAREM OWNER",
+    "HARRY",
+    "IAGO",
+    "JAFAR",
+    "JASMINE",
+    "JUNE",
+    "LADY",
+    "MAJOR",
+    "MAN 1",
+    "MARCHERS",
+    "MELON MERCHANT",
+    "NECKLACE MERCHANT",
+    "NUT MERCHANT",
+    "OLD MAN",
+    "PEABO BRYSON",
+    "PEDDLER",
+    "PEDDLER (VO)",
+    "RAZOUL",
+    "REGINA BELLE",
+    "SHOPKEEPER 1",
+    "SULTAN",
+    "SWORDSMEN",
+    "WOMAN 1",
+    "WOMAN 3"
+  ],
+  "lines": [
+    {
+      "character": "PEDDLER",
+      "text": "♪ Oh I come from a land, from a faraway place ♪ ♪ Where the caravan camels roam ♪ ♪ Where it’s flat and immense, and the heat is intense ♪ (♪ Where they cut off your ear, if they don't like your face ♪) ♪ It's barbaric, but hey, it's home! ♪ ♪ When the wind's from the east, and the sun's from the west, and the sand in the glass is right ♪ ♪ Come on down, stop on by, hop a carpet and fly, to another Arabian night! ♪"
+    },
+    {
+      "character": "PEDDLER",
+      "text": "♪ Arabian nights, like Arabian days ♪ ♪ More often than not, are hotter than hot ♪ ♪ In a lot of good ways! ♪"
+    },
+    {
+      "character": "PEDDLER",
+      "text": "♪ Arabian nights, 'neath Arabian moons ♪ ♪ A fool off his guard, could fall and fall hard ♪ ♪ Out there on the dunes ♪"
+    },
+    {
+      "character": "PEDDLER",
+      "text": "Ah, salaam, and good evening to you, worthy friend. (waving) Please, please, come closer."
+    },
+    {
+      "character": "PEDDLER",
+      "text": "(uncomfortably) Ugh... Too close. A little too close."
+    },
+    {
+      "character": "PEDDLER",
+      "text": "Ah, there. Welcome to Agrabah... (lights a flame) City of mystery... (clutching his camel's head) Of enchantment..."
+    },
+    {
+      "character": "PEDDLER",
+      "text": "And the finest merchandise this side of the river Jordan, on sale today. Come on down. Heh, heh."
+    },
+    {
+      "character": "PEDDLER",
+      "text": "Look at this. Yes. Combination hookah and coffeemaker. (pressing it against a potato) Also makes julienne fries. Will not break. ("
+    },
+    {
+      "character": "PEDDLER",
+      "text": "(deadpan) It broke. (casting it aside) Ohh! Look at this. (pulls out a box) I have never seen one of these intact before. This is the famous Dead Sea Tupperware. Listen..."
+    },
+    {
+      "character": "PEDDLER",
+      "text": "Ah, still good."
+    },
+    {
+      "character": "PEDDLER",
+      "text": "(waving his hands) Wait, don’t go! (smiling) I can see that you’re only interested in the exceptionally rare. I think, then, you would be most rewarded to consider... this."
+    },
+    {
+      "character": "PEDDLER",
+      "text": "Do not be fooled by its commonplace appearance. Like so many things, it is not what is outside, but what is inside that counts."
+    },
+    {
+      "character": "PEDDLER",
+      "text": "(anxiously) This is no ordinary lamp! It once changed the course of a young man’s life. A young man who, like this lamp, was more than what he seemed. (peering around, whispering) A diamond in the rough. (smiling) Perhaps you would like to hear the tale?"
+    },
+    {
+      "character": "PEDDLER (VO)",
+      "text": "Where a dark man waits... with a dark purpose..."
+    },
+    {
+      "character": "JAFAR",
+      "text": "You... are late."
+    },
+    {
+      "character": "GAZEEM",
+      "text": "(bowing) A thousand apologies, O Patient One."
+    },
+    {
+      "character": "JAFAR",
+      "text": "You have it, then?"
+    },
+    {
+      "character": "GAZEEM",
+      "text": "I had to slit a few throats, but I got it."
+    },
+    {
+      "character": "GAZEEM",
+      "text": "Ah-ah-ahhh. (holding out his free hand) The treasure."
+    },
+    {
+      "character": "GAZEEM",
+      "text": "Ow!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Trust me, my pungent friend. You'll get what's coming to you."
+    },
+    {
+      "character": "IAGO",
+      "text": "What's coming to you. Awk!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Quickly, follow the trail!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Faster!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "At last, after all my years of searching... the Cave of Wonders."
+    },
+    {
+      "character": "IAGO",
+      "text": "Awk. Cave of Wonders!"
+    },
+    {
+      "character": "GAZEEM",
+      "text": "(whispering) By Allah..."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Now, remember. Bring me the lamp! The rest of the treasure is yours, but the lamp... is mine. [chuckles]"
+    },
+    {
+      "character": "IAGO",
+      "text": "Awk, the lamp. Awk, the lamp. ("
+    },
+    {
+      "character": "IAGO",
+      "text": "Jeez, where'd ya dig this bozo up?"
+    },
+    {
+      "character": "CAVE",
+      "text": "WHO DISTURBS MY SLUMBER?"
+    },
+    {
+      "character": "GAZEEM",
+      "text": "[thief gasps] It--it is I, Gazeem, a humble thief."
+    },
+    {
+      "character": "CAVE",
+      "text": "KNOW THIS. ONLY ONE MAY ENTER HERE. ONE WHOSE WORTH LIES FAR WITHIN. A DIAMOND IN THE ROUGH."
+    },
+    {
+      "character": "JAFAR",
+      "text": "What are you waiting for? Go on."
+    },
+    {
+      "character": "JAFAR",
+      "text": "NOOOOOOO!"
+    },
+    {
+      "character": "CAVE",
+      "text": "SEEK THEE OUT, THE DIAMOND - IN THE RIAMOND - IN THE ROUGH."
+    },
+    {
+      "character": "IAGO",
+      "text": "[coughing] I can't believe it. I just don't believe it! We're never gonna get a hold of that stupid lamp! Just forget it! Look at this. Look at this. I'm so ticked off that I'm molting. ("
+    },
+    {
+      "character": "JAFAR",
+      "text": "Patience, Iago. Patience. Gazeem was obviously less than worthy."
+    },
+    {
+      "character": "IAGO",
+      "text": "Oh, there's a big surprise. That's an incredi- I think I'm gonna have a heart attack and die from that surprise. What are we gonna do? We got a big problem here, a big-"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Yessss... Only one may enter. I must find this one, this... diamond in the rough."
+    },
+    {
+      "character": "RAZOUL",
+      "text": "Stop! Thief! I'll have your hands for a trophy, street rat!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "All this for a loaf of bread? Whoooaa!"
+    },
+    {
+      "character": "GUARD 1",
+      "text": "There he is!"
+    },
+    {
+      "character": "GUARD 2",
+      "text": "You won't get away so easy!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "You think that was easy?"
+    },
+    {
+      "character": "RAZOUL",
+      "text": "You two, over that way, and you, follow me. We'll find him."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Morning, ladies."
+    },
+    {
+      "character": "WOMAN 1",
+      "text": "Getting into trouble a little early today, aren't we, Aladdin?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Trouble? No way. You're only in trouble if you get caught."
+    },
+    {
+      "character": "RAZOUL",
+      "text": "Gotcha!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "I'm in trouble."
+    },
+    {
+      "character": "RAZOUL",
+      "text": "And this time... ("
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Perfect timing, Abu, as usual."
+    },
+    {
+      "character": "ABU",
+      "text": "Hello."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Come on. Let's get outta here. Gotta keep..."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "♪ One jump ahead of the breadline ♪ ♪ One swing ahead of the sword ♪ ♪ I steal only what I can’t afford ♪ That’s everything."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "♪ One jump ahead of the lawmen ♪ ♪ That's all and that's no joke ♪ ♪ These guys don't appreciate I'm broke! ♪"
+    },
+    {
+      "character": "GUARDS",
+      "text": "♪ Riffraff! ♪"
+    },
+    {
+      "character": "GUARDS",
+      "text": "♪ Street rat! ♪"
+    },
+    {
+      "character": "GUARDS",
+      "text": "♪ Scoundrel! ♪"
+    },
+    {
+      "character": "GUARDS",
+      "text": "♪ Take that! ♪"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "♪ Just a little snack, guys. ♪"
+    },
+    {
+      "character": "GUARDS",
+      "text": "♪ Rip him open, take it back, guys! ♪"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "♪ I can take a hint ♪ ♪ Gotta face the facts ♪"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "♪ You're my only friend, Abu! ♪"
+    },
+    {
+      "character": "HAREM GIRLS",
+      "text": "Who?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "♪ Oh, it's sad Aladdin's hit the bottom ♪"
+    },
+    {
+      "character": "HAREM OWNER",
+      "text": "♪ I'd blame parents, except he hasn't got 'em. ♪"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "♪ Gotta eat to live, ♪ ♪ Gotta steal to eat ♪ ♪ Tell you all about it when I got the time! ♪"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "♪ One jump ahead of the slowpokes. ♪ ♪ One skip ahead of my doom. ♪ ♪ Next time, gonna use a nom de plume. ♪"
+    },
+    {
+      "character": "RAZOUL",
+      "text": "There he is!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "♪ One jump ahead of the hitmen ♪ ♪ One hit ahead of the flock ♪ ♪ I think I'll take a stroll around the block ♪"
+    },
+    {
+      "character": "MAN 1",
+      "text": "♪ Stop, thief! ♪"
+    },
+    {
+      "character": "SHOPKEEPER 1",
+      "text": "♪ Vandal! ♪"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "♪ Abu! ♪"
+    },
+    {
+      "character": "WOMAN 3",
+      "text": "♪ Scandal! ♪"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "♪ Let's not be too hasty ♪"
+    },
+    {
+      "character": "LADY",
+      "text": "♪ Still I think he's RATHER TASTY! ♪"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "♪ Gotta eat to live, ♪ ♪ Gotta steal to eat ♪ ♪ Otherwise, we'd get along! ♪"
+    },
+    {
+      "character": "GUARDS",
+      "text": "WRONG!"
+    },
+    {
+      "character": "RAZOUL",
+      "text": "Get him!"
+    },
+    {
+      "character": "GUARD",
+      "text": "He's got a sword!"
+    },
+    {
+      "character": "RAZOUL",
+      "text": "You idiots. We've all got swords!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "♪ One jump ahead of the hoofbeats ♪"
+    },
+    {
+      "character": "GUARDS",
+      "text": "Vandal!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "♪ One hop ahead of the hump ♪"
+    },
+    {
+      "character": "GUARDS",
+      "text": "Street rat!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "♪ One trick ahead of disaster ♪"
+    },
+    {
+      "character": "GUARDS",
+      "text": "Scoundrel!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "♪ They're quick, but I'm much faster ♪"
+    },
+    {
+      "character": "GUARDS",
+      "text": "Take that!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "♪ Here goes, ♪ ♪ Better throw my hand in ♪ ♪ Wish me happy landin', ♪ ♪ All I gotta do is jump! ♪"
+    },
+    {
+      "character": "GUARDS",
+      "text": "Yuck! Oy!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "And now, esteemed effendi, we feast. All right."
+    },
+    {
+      "character": "ABU",
+      "text": "Yum, yum! Uh-oh."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "[sighs] Here. Go on. Take it."
+    },
+    {
+      "character": "ABU",
+      "text": "Ah, don’t. Huh?"
+    },
+    {
+      "character": "BYSTANDER 1",
+      "text": "On his way to the palace, I suppose."
+    },
+    {
+      "character": "BYSTANDER 2",
+      "text": "Another suitor for the princess."
+    },
+    {
+      "character": "ACHMED",
+      "text": "Out of my way, you filthy brat!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Hey, if I were as rich as you, I could afford some manners!"
+    },
+    {
+      "character": "ACHMED",
+      "text": "Oh--I teach you some manners!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Look at that, Abu. It’s not every day you see a horse with two rear ends!"
+    },
+    {
+      "character": "ACHMED",
+      "text": "Oh! You are a worthless street rat! You wer"
+    },
+    {
+      "character": "ACHMED",
+      "text": "Out of my way, you filthy brat!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Hey, if I were as rich as you, I could afford some manners!"
+    },
+    {
+      "character": "ACHMED",
+      "text": "Oh--I teach you some manners!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Look at that, Abu. It’s not every day you see a horse with two rear ends!"
+    },
+    {
+      "character": "ACHMED",
+      "text": "Oh! You are a worthless street rat! You were born a street rat, you’ll die a street rat, and only your fleas will mourn you."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "I’m not worthless. And I don’t have fleas. Come on, Abu. Let’s go home."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Someday, Abu, things are gonna change. We’ll be rich, live in a palace, and never have any problems at all."
+    },
+    {
+      "character": "ACHMED",
+      "text": "I’ve never been so insulted."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Oh, Prince Achmed. You’re not leaving so soon, are you?"
+    },
+    {
+      "character": "ACHMED",
+      "text": "Good luck marrying her off."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Oh, Jasmine. Jasmine! Jasmine!"
+    },
+    {
+      "character": "SULTAN",
+      "text": "Confound it, Rajah! So, this is why Prince Achmed stormed out!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Oh, father. Rajah was just playing with him, weren’t you Rajah?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "You were just playing with that overdressed, self-absorbed Prince Achmed, weren’t you?"
+    },
+    {
+      "character": "SULTAN",
+      "text": "Dearest, you’ve got to stop rejecting every suitor that comes to call. The law says you…"
+    },
+    {
+      "character": "BOTH",
+      "text": "…must be married to a prince."
+    },
+    {
+      "character": "SULTAN",
+      "text": "By your next birthday."
+    },
+    {
+      "character": "JASMINE",
+      "text": "The law is wrong."
+    },
+    {
+      "character": "SULTAN",
+      "text": "You’ve only got three more days!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Father, I hate being forced into this."
+    },
+    {
+      "character": "JASMINE",
+      "text": "If I do marry, I want it to be for love."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Jasmine, it’s not only this law."
+    },
+    {
+      "character": "SULTAN",
+      "text": "I…I’m not going to be around forever, and I just want to make sure you’re taken care of, provided for."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Please try to understand. I’ve never done a thing on my own."
+    },
+    {
+      "character": "JASMINE",
+      "text": "I’ve never had any real friends."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Except you, Rajah."
+    },
+    {
+      "character": "JASMINE",
+      "text": "I’ve never even been outside the palace walls."
+    },
+    {
+      "character": "SULTAN",
+      "text": "But Jasmine, you’re a princess."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Then maybe I don’t wanna be a princess anymore."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Oooohhh! Allah forbid you should have any daughters!"
+    },
+    {
+      "character": "SULTAN",
+      "text": "I don’t know where she gets it from. Her mother wasn’t nearly so picky."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Ooh, oh. Ah, Jafar--my most trusted advisor. I am in desperate need of your wisdom."
+    },
+    {
+      "character": "JAFAR",
+      "text": "My life is but to serve you, my lord."
+    },
+    {
+      "character": "SULTAN",
+      "text": "It’s this suitor business. Jasmine refuses to choose a husband. I’m at my wit’s-end."
+    },
+    {
+      "character": "IAGO",
+      "text": "Awk! Wit’s-end."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Oh, ha ha. Have a cracker, pretty Polly!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Your majesty certainly has a way with dumb animals."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Now then, perhaps I can divine a solution to this thorny problem."
+    },
+    {
+      "character": "SULTAN",
+      "text": "If anyone can help, it’s you."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Ah, but it would require the use of the mystic blue diamond."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Uh, my ring? But it’s been in the family for years."
+    },
+    {
+      "character": "JAFAR",
+      "text": "It is necessary to find the princess a suitor."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Don’t worry. Everything will be fine."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Everything…will be…fine."
+    },
+    {
+      "character": "JAFAR",
+      "text": "The diamond."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Here, Jafar. Whatever you need will be fine."
+    },
+    {
+      "character": "JAFAR",
+      "text": "You are most gracious, my liege. Now run along and play with your little toys."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Yes…that’ll be…pretty good."
+    },
+    {
+      "character": "IAGO",
+      "text": "I can’t take it anymore! If I gotta choke down on one more of those moldy, disgusting crackers…bam! Whack!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Calm yourself, Iago."
+    },
+    {
+      "character": "IAGO",
+      "text": "Then I’d grab him around the head. Whack! Whack!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Soon, I will be sultan, not that addlepated twit."
+    },
+    {
+      "character": "IAGO",
+      "text": "And then I stuff the crackers down his throat! Ha ha!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Oh, I’m sorry, Rajah. But I can’t stay here and have my life lived for me. I’ll miss you."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Good bye!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Okay, Abu. Go!"
+    },
+    {
+      "character": "MELON MERCHANT",
+      "text": "Try this, your taste buds will dance and sing."
+    },
+    {
+      "character": "ABU",
+      "text": "Blah blah blah blah!"
+    },
+    {
+      "character": "MELON MERCHANT",
+      "text": "Why, you. Get away from here, you filthy ape."
+    },
+    {
+      "character": "ABU",
+      "text": "Bye bye."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Nice goin’ Abu. Breakfast is served."
+    },
+    {
+      "character": "MELON MERCHANT",
+      "text": "Pretty lady, buy a pot. No finer pot in brass or silver."
+    },
+    {
+      "character": "NUT MERCHANT",
+      "text": "Sugar dates, sugar dates and figs! Sugar dates and pistachios!"
+    },
+    {
+      "character": "NECKLACE MERCHANT",
+      "text": "Would the lady like a necklace? A pretty necklace for a pretty lady."
+    },
+    {
+      "character": "FISH MERCHANT",
+      "text": "FRESH FISH! We catch ‘em, you buy ‘em!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "I don’t think so."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Oh, excuse me."
+    },
+    {
+      "character": "JASMINE",
+      "text": "I’m really very sorry."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Wow."
+    },
+    {
+      "character": "ABU",
+      "text": "Uh oh. Hello? Hello?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Oh, you must be hungry. Here you go."
+    },
+    {
+      "character": "FAROUK",
+      "text": "You’d better be able to pay for that."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Pay?"
+    },
+    {
+      "character": "FAROUK",
+      "text": "No one steals from my cart."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Oh, I’m sorry sir. I don’t have any money."
+    },
+    {
+      "character": "FAROUK",
+      "text": "Thief."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Please, if you let me go to the palace, I can get some from the Sultan."
+    },
+    {
+      "character": "FAROUK",
+      "text": "Do you know what the penalty is for stealing?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "No, no please."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Thank you kind sir. I’m so glad you’ve found her. I’ve been looking all over for you."
+    },
+    {
+      "character": "JASMINE",
+      "text": "What are you doing?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Just play along."
+    },
+    {
+      "character": "FAROUK",
+      "text": "You uh, know this girl?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Sadly, yes. She is my sister. She’s a little crazy."
+    },
+    {
+      "character": "FAROUK",
+      "text": "She said she knows the Sultan."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "She thinks the monkey is the Sultan."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Oh, wise Sultan. How may I serve you?"
+    },
+    {
+      "character": "ABU",
+      "text": "Well, blah blah blah blah blah blah blah."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Tragic, isn’t it? But, no harm done."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Now come along sis. Time to go see the doctor."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Oh, hello doctor. How are you?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "No, no, no. Not that one."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Come along, Sultan."
+    },
+    {
+      "character": "FAROUK",
+      "text": "Huh? What is it?"
+    },
+    {
+      "character": "FAROUK",
+      "text": "Come back here, you little thieves!"
+    },
+    {
+      "character": "IAGO",
+      "text": "With all due respect, Your Rottenness, couldn’t we just wait for a real storm?"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Save your breath, Iago. Faster."
+    },
+    {
+      "character": "IAGO",
+      "text": "Yes, O mighty Evil One."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Part, sands of time. Reveal to me the one who can enter the cave."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Yes... Yes! There he is. My diamond in the rough."
+    },
+    {
+      "character": "IAGO",
+      "text": "That’s him? That’s the clown we’ve been waitin’ for?"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Let’s have the guards extend him an invitation to the palace, shall we?"
+    },
+    {
+      "character": "IAGO",
+      "text": "Swell."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Almost there."
+    },
+    {
+      "character": "JASMINE",
+      "text": "I want to thank you for stopping that man."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Uh, forget it."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "So, uh, this is your first time in the marketplace, huh?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Is it that obvious?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Well, you do kinda stand out."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "I mean, uh, you don’t seem to know how dangerous Agrabah can be."
+    },
+    {
+      "character": "JASMINE",
+      "text": "I’m a fast learner."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Right. C’mon, this way."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Whoa. Watch your head there. Be careful."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Is this where you live?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Yep. Just me and Abu. Come and go as we please."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Fabulous."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Well, it’s not much, but it’s got a great view. Palace looks pretty amazing, huh?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Oh, it’s wonderful."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "I wonder what it would be like to live there, to have servants and valets…"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Oh, sure. People who tell you where to go and how to dress."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "It’s better than here. Always scraping for food and ducking the guards."
+    },
+    {
+      "character": "JASMINE",
+      "text": "You’re not free to make your own choices."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Sometimes you feel so--"
+    },
+    {
+      "character": "JASMINE",
+      "text": "You’re just--"
+    },
+    {
+      "character": "BOTH",
+      "text": "--trapped."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "So, uh, where’re you from?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "What does it matter? I ran away, and I am not going back."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Really? How come?"
+    },
+    {
+      "character": "ABU",
+      "text": "Why you...!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "My father’s forcing me to get married."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "That’s--that’s awful."
+    },
+    {
+      "character": "ABU",
+      "text": "Abu!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "What?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Abu says that--uh--that’s not fair."
+    },
+    {
+      "character": "ABU",
+      "text": "What?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Oh did he?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Yeah, of course."
+    },
+    {
+      "character": "JASMINE",
+      "text": "And does Abu have anything else to say?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Well, uh, he wishes there was something he could do to help."
+    },
+    {
+      "character": "ABU",
+      "text": "Oh, boy!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Hmm... tell him that’s very... sweet."
+    },
+    {
+      "character": "GUARD",
+      "text": "HERE YOU ARE!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "They’re after me!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "They’re after me?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "My father must have sent them--"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Do you trust me?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "What?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Do you trust me?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Yes…"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Then jump!"
+    },
+    {
+      "character": "RAZOUL",
+      "text": "We just keep running into each other, don’t we, street rat?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Run! Go! Get out of here!"
+    },
+    {
+      "character": "RAZOUL",
+      "text": "It’s the dungeon for you, boy."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Hey, get off of me!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Let go of him."
+    },
+    {
+      "character": "RAZOUL",
+      "text": "Look what we have here, men--a street mouse."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Unhand him, by order of the princess!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Run! Go! Get out of here!"
+    },
+    {
+      "character": "RAZOUL",
+      "text": "It’s the dungeon for you, boy."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Hey, get off of me!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Let go of him."
+    },
+    {
+      "character": "RAZOUL",
+      "text": "Look what we have here, men--a street mouse."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Unhand him, by order of the princess!"
+    },
+    {
+      "character": "RAZOUL",
+      "text": "Princess Jasmine."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "The princess?"
+    },
+    {
+      "character": "ABU",
+      "text": "The princess?"
+    },
+    {
+      "character": "RAZOUL",
+      "text": "What are you doing outside the palace? And with this street rat?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "That’s not your concern. Do as I command. Release him!"
+    },
+    {
+      "character": "RAZOUL",
+      "text": "Well, I would, princess, except my orders come from Jafar. You’ll have to take it up with him."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Believe me, I will."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Jafar?"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Oh, uh, princess."
+    },
+    {
+      "character": "IAGO",
+      "text": "Awk! Jafar, I’m stuck."
+    },
+    {
+      "character": "JAFAR",
+      "text": "How may I be of service to you?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "The guards just took a boy from the market, on your orders."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Your father’s charged me with keeping peace in Agrabah. The boy was a criminal."
+    },
+    {
+      "character": "JASMINE",
+      "text": "What was his crime?"
+    },
+    {
+      "character": "IAGO",
+      "text": "I can’t breathe, Jafar."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Why, kidnapping the princess, of course."
+    },
+    {
+      "character": "IAGO",
+      "text": "If you could just--"
+    },
+    {
+      "character": "IAGO",
+      "text": "-- ow, that hurt!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "He didn’t kidnap me! I ran away!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Oh, dear! Oh, how frightfully upsetting. Had I but known!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "What do you mean?"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Sadly, the boy’s sentence has already been carried out."
+    },
+    {
+      "character": "JASMINE",
+      "text": "What sentence?"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Death... ...by beheading."
+    },
+    {
+      "character": "JASMINE",
+      "text": "No!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "I am exceedingly sorry, princess."
+    },
+    {
+      "character": "JASMINE",
+      "text": "How could you?"
+    },
+    {
+      "character": "IAGO",
+      "text": "So, how did it go?"
+    },
+    {
+      "character": "JAFAR",
+      "text": "I think she took it... rather well."
+    },
+    {
+      "character": "JASMINE",
+      "text": "It’s all my fault, Rajah. I didn’t even know his name."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "She was the princess. I can’t believe it. I must have sounded so stupid to her!"
+    },
+    {
+      "character": "ABU",
+      "text": "Yoo-hoo! Aladdin? Hello!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Abu! Down here! Hey, c’mon--help me outta these."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Hey, she was in trouble. Ah, she was worth it."
+    },
+    {
+      "character": "ABU",
+      "text": "Yeah, yeah, yeah."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Don’t worry, Abu. I’ll never see her again. I’m a street rat, remember, and there’s a law. She’s gotta marry a prince. She deserves a prince."
+    },
+    {
+      "character": "ABU",
+      "text": "Ta-da!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "I’m a… I’m a fool."
+    },
+    {
+      "character": "OLD MAN",
+      "text": "You’re only a fool if you give up, boy."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Who are you?"
+    },
+    {
+      "character": "OLD MAN",
+      "text": "A lowly prisoner like yourself. But together, perhaps we can be more."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "I’m listening."
+    },
+    {
+      "character": "OLD MAN",
+      "text": "There is a cave, boy... a Cave of Wonders, filled with treasures beyond your wildest dreams. Treasure enough to impress even your princess, I’d wager."
+    },
+    {
+      "character": "IAGO",
+      "text": "Jafar, can ya hurry up? I’m dyin’ in here."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "But the law says that only a prince can…"
+    },
+    {
+      "character": "OLD MAN",
+      "text": "You’ve heard of the golden rule, haven’t you? Whoever has the gold makes the rules."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "So why would you share all this wonderful treasure with me?"
+    },
+    {
+      "character": "OLD MAN",
+      "text": "I need a young pair of legs and a strong back to go in after it."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Uh, one problem. It’s out there. We’re in here."
+    },
+    {
+      "character": "OLD MAN",
+      "text": "Mm-mm-mm. Things aren’t always what they seem. So… do we have a deal?"
+    },
+    {
+      "character": "ABU",
+      "text": "Oh, I don’t know."
+    },
+    {
+      "character": "CAVE",
+      "text": "WHO DISTURBS MY SLUMBER?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Uh, it is I, Aladdin."
+    },
+    {
+      "character": "CAVE",
+      "text": "PROCEED. TOUCH NOTHING BUT THE LAMP."
+    },
+    {
+      "character": "OLD MAN",
+      "text": "Remember, boy, first fetch me the lamp, and then, you shall have your reward!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Come on, Abu."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Would ya look at that?"
+    },
+    {
+      "character": "ABU",
+      "text": "Uh oh."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Heh, just a handful of this stuff would make me richer than the Sultan."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Abu!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Don’t… touch… anything. We gotta find that lamp."
+    },
+    {
+      "character": "ABU",
+      "text": "Huh?"
+    },
+    {
+      "character": "ABU",
+      "text": "Aladdin, Aladdin!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Abu, will you knock it off?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Abu! What are you, crazy?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "A magic carpet. Come on. Come on out. I'm not gonna hurt you."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Hey, take it easy, Abu. He’s not gonna bite. Thanks."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Hey, wait a minute, don’t go. Maybe you can help us."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "He-hey, whoa. You see, we’re tryin' to find this lamp."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "I think he knows where it is."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Wait here."
+    },
+    {
+      "character": "ABU",
+      "text": "Oh."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "This is it? This is what we came all the way down here to—"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Abu! No!"
+    },
+    {
+      "character": "CAVE",
+      "text": "INFIDELS!"
+    },
+    {
+      "character": "ABU",
+      "text": "Uh-oh!"
+    },
+    {
+      "character": "CAVE",
+      "text": "YOU HAVE TOUCHED THE FORBIDDEN TREASURE!!"
+    },
+    {
+      "character": "CAVE",
+      "text": "NOW YOU WILL NEVER AGAIN SEE THE LIGHT OF DAAAAAAAAAY!!!"
+    },
+    {
+      "character": "ABU",
+      "text": "Help, help, help!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Gotcha!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Whoa! Carpet, let's move!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Abu! A-Abu, this is no time to panic!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Start panicking!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Help me out!"
+    },
+    {
+      "character": "OLD MAN",
+      "text": "Throw me the lamp!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "I can’t hold on. Give me your hand!"
+    },
+    {
+      "character": "OLD MAN",
+      "text": "First, give me the lamp!"
+    },
+    {
+      "character": "OLD MAN",
+      "text": "Ha-ha-ha-ha! Yes! At last! Ha-ha-ha-ha!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "What are you doing?!"
+    },
+    {
+      "character": "OLD MAN",
+      "text": "Giving you your reward."
+    },
+    {
+      "character": "OLD MAN",
+      "text": "Your eternal reward."
+    },
+    {
+      "character": "JAFAR",
+      "text": "It's mine! It's all mine! I... Where is it? No!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "NOOOOOOO!!!!!!!!"
+    },
+    {
+      "character": "SULTAN",
+      "text": "Jasmine? Oh, dearest. What’s wrong?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Jafar…has…done something… terrible."
+    },
+    {
+      "character": "SULTAN",
+      "text": "There, there, my dear--we’ll set it right. Now... tell me everything."
+    },
+    {
+      "character": "ABU",
+      "text": "Oh, oh. Aladdin? Wake up. Aladdin."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Ohh, my head. We’re trapped. That two faced son-of-a-jackal! Well... whoever he was, he’s long gone with that lamp."
+    },
+    {
+      "character": "ABU",
+      "text": "Aha!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Heh! Why, you hairy little thief! Looks like such a... beat-up, worthless piece of junk. Hey, I-I think there’s something written here, but... it’s... i-it’s hard to make out."
+    },
+    {
+      "character": "GENIE",
+      "text": "Aaaaahhhhh! OY! Ten-thousand years will give ya such a crick in the neck! Hang on a second!"
+    },
+    {
+      "character": "GENIE",
+      "text": "Whaaa… wow! Does it feel good to be outta there. I’m tellin’ ya. Nice to be back, ladies and gentlemen. Hi, where ya from? What’s your name?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Uh, Al--uh--Aladdin."
+    },
+    {
+      "character": "GENIE",
+      "text": "Aladdin! Hello, Aladdin. Nice to have ya on the show. Can we call you ‘Al,’ or maybe just ‘Din?’ Or how 'bout ‘Laddi?’"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "I must have hit my head harder than I thought."
+    },
+    {
+      "character": "GENIE",
+      "text": "Do you smoke? Mind if I do?"
+    },
+    {
+      "character": "GENIE",
+      "text": "Oh, sorry Cheetah--hope I didn’t singe the fur! Yo, Rugman! Haven’t seen you in a few millennia! Slap me some tassel! Yeah! Yo yo!"
+    },
+    {
+      "character": "GENIE",
+      "text": "Say, you’re a lot smaller than my last master. Either that or I’m gettin’ bigger. Look at me from the side--do I look different to you?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Wait! Wait a minute. I’m--your master?"
+    },
+    {
+      "character": "GENIE",
+      "text": "That’s right! He can be taught! What would you wish of me, the ever impressive, the long contained, often imiti-totted, but never duplicated--"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Wait! Wait a minute. I’m--your master?"
+    },
+    {
+      "character": "GENIE",
+      "text": "That’s right! He can be taught! What would you wish of me, (as Arnold Schwarzenegger) the ever impressive, (inside a cube) the long contained, (as Señor Wences) often imiti-totted, (tosses the dummy aside) but never duplicated--"
+    },
+    {
+      "character": "DUPLICATE GENIES",
+      "text": "Duplicated, duplicated, duplicated, duplicated, duplicated, duplicated, duplicated, duplicated, duplicated…"
+    },
+    {
+      "character": "GENIE",
+      "text": "Genie of the Lamp! (as Ed Sullivan) Right here direct from the lamp, right here for your enjoyment wish fulfillment. Thank youuuuu!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Whoa Whoa Whoa! Wish fulfillment?"
+    },
+    {
+      "character": "GENIE",
+      "text": "Three wishes to be exact. And ix-nay on the wishing for more wishes. That’s it! THREE! Uno, dos, tres. No substitutions, exchanges or refunds."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Now I know I’m dreaming."
+    },
+    {
+      "character": "GENIE",
+      "text": "Master, I don't think you quite realize what you've got here. So why don't you just ruminate whilst I illuminate the possibilities!"
+    },
+    {
+      "character": "GENIE",
+      "text": "Well Ali Baba had them forty thieves Scheherazade had a thousand tales But master you in luck ‘cause up your sleeve You got a brand of magic never fails!"
+    },
+    {
+      "character": "GENIE",
+      "text": "You got some power in your corner now Some heavy ammunition in your camp You got some punch, pizzazz, yahoo and how See all you gotta do is rub that lamp And I’ll say"
+    },
+    {
+      "character": "GENIE",
+      "text": "Mister Aladdin sir What will your pleasure be? Let me take your order, jot it down You ain’t never had a friend like me No no no!"
+    },
+    {
+      "character": "GENIE",
+      "text": "Life is your restaurant And I’m your Maitre’d! C’mon, whisper what it is you want You ain’t never had a friend like me."
+    },
+    {
+      "character": "GENIE",
+      "text": "Yes sir, we pride ourselves on service You’re the boss, the king, the shah! Say what you wish, it’s yours! True dish How about a little more Baklava?"
+    },
+    {
+      "character": "GENIE",
+      "text": "Try some of column ‘A’ Try all of column ‘B’ I’m in the mood to help you dude You ain’t never had a friend like me"
+    },
+    {
+      "character": "GENIE",
+      "text": "Can your friends do this? Do your friends do that? Do your friends pull this out their little hat Can your friends go poof! Well looky here Can your friends go Abracadabra, let ‘er rip And then make the sucker disappear?"
+    },
+    {
+      "character": "GENIE",
+      "text": "So don’t you sit there slack jawed, buggy eyed I’m here to answer all your midday prayers You got me bona fide, certified You got a genie for a charge d’affairs! I got a powerful urge to help ya out So what you wish I really wanna know You got a wish that’s three miles long, no doubt So all you gotta do is rub like so, and oh!"
+    },
+    {
+      "character": "GENIE",
+      "text": "Mister Aladdin, sir, have a wish or two or three I’m on the job, you big nabob You ain’t never had a friend, never had a friend You ain’t never had a friend, never had a friend You ain’t never…had a… friend… like…me! You ain’t never had a friend like me, hah!"
+    },
+    {
+      "character": "GENIE",
+      "text": "So what’ll it be, master?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "You’re gonna grant me any three wishes I want?"
+    },
+    {
+      "character": "GENIE",
+      "text": "Uh, almost. There are a few provisos, a couple of quid pro quo."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Like?"
+    },
+    {
+      "character": "GENIE",
+      "text": "Ah, rule number one: I can’t kill anybody. So don’t ask. Rule number two: I can’t make anyone fall in love with anyone else. You little punim, there. Rule number three: I can’t bring people back from the dead. It’s not a pretty picture, I don’t like doing it! Other than that, you got it!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Ah, provisos? You mean limitations? On wishes? Some all powerful genie--can’t even bring people back from the dead. I don’t know, Abu--he probably can’t even get us out of this cave. Looks like we’re gonna have to find a way outta here--"
+    },
+    {
+      "character": "GENIE",
+      "text": "Excuse me? Are you lookin’ at me? Did you rub my lamp? Did you wake me up, did you bring me here? And all of a sudden, you’re walkin’ out on me? I don’t think so! Not right now. You’re gettin' your wishes, so SIDDOWN! In case of emergency, the exits are here, here, here, here, here, here, here, here, here, here, here, here, anywhere. Keep your hands and arms inside the carpet! WEEEE’RRRRRREEE…OUTTA HERE!"
+    },
+    {
+      "character": "SULTAN",
+      "text": "Jafar, this is an outrage. If it weren’t for all your years of loyal service… From now on, you are to discuss sentencing of prisoners with me, before they are beheaded."
+    },
+    {
+      "character": "JAFAR",
+      "text": "I assure you, your highness, it won’t happen again."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Jasmine, Jafar, now let’s put this whole messy business behind us. Please?"
+    },
+    {
+      "character": "JAFAR",
+      "text": "My most abject and humblest apologies to you as well, princess."
+    },
+    {
+      "character": "JASMINE",
+      "text": "At least some good will come of my being forced to marry. When I am queen, I will have the power to get rid of you."
+    },
+    {
+      "character": "SULTAN",
+      "text": "That’s nice. All settled, then. Now, Jasmine, getting back to this suitor business… Jasmine? Jasmine!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "If only I had gotten that lamp!"
+    },
+    {
+      "character": "IAGO",
+      "text": "\"I will have the power to get rid of you.\" D’oh! To think--we gotta keep kissin' up to that chump, and his chump daughter, for the rest of our lives."
+    },
+    {
+      "character": "JAFAR",
+      "text": "No, Iago. Only until she finds a chump husband. Then she’ll have us banished. Or beheaded."
+    },
+    {
+      "character": "BOTH",
+      "text": "Eeewww."
+    },
+    {
+      "character": "IAGO",
+      "text": "Oh, wait a minute, wait a minute! Jafar, what if you were the chump husband?"
+    },
+    {
+      "character": "JAFAR",
+      "text": "What?"
+    },
+    {
+      "character": "IAGO",
+      "text": "Okay, okay. You marry the princess, all right? And and, uh, you. Then you become the sultan!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Oh! Marry the shrew? I become the sultan. The idea has merit!"
+    },
+    {
+      "character": "IAGO",
+      "text": "Yes, merit. Yes! And then we drop papa-in-law and the little woman off a cliff. \"Yah. Kersplat!\""
+    },
+    {
+      "character": "JAFAR",
+      "text": "I love the way your foul little mind works!"
+    },
+    {
+      "character": "GENIE",
+      "text": "Thank you for choosing Magic Carpet for all your travel needs. Don’t stand until the rug has come to a complete stop. Thank you. Good bye now. Good bye, good bye! Thank you! Good bye! Well, now. How about that , Mr. doubting Mustafa?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Oh, you sure showed me. Now about my three wishes-"
+    },
+    {
+      "character": "GENIE",
+      "text": "Dost mine ears deceive me? Three? You are down by ONE, boy!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Ah, no--I never actually wished to get out of the cave. Heh. You did that on your own."
+    },
+    {
+      "character": "GENIE",
+      "text": "Well, I feel sheepish. All right, you baaaaad boy, but no more freebies."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Fair deal. So, three wishes. Hmm, I want them to be good. What would you wish for?"
+    },
+    {
+      "character": "GENIE",
+      "text": "Me? No one’s ever asked me that before. Well, in my case, ah, forget it."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "What?"
+    },
+    {
+      "character": "GENIE",
+      "text": "No, I can't. I..."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Come on, tell me."
+    },
+    {
+      "character": "GENIE",
+      "text": "Freedom."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "You’re a prisoner?"
+    },
+    {
+      "character": "GENIE",
+      "text": "It’s all part-and-parcel, the whole genie gig. PHENOMENAL COSMIC POWER! Itty bitty living space."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Aw, Genie, that’s terrible."
+    },
+    {
+      "character": "GENIE",
+      "text": "But oh--to be free. Not have to go \"Poof! What do you need? Poof! What do you need? Poof! What do you need?\" To be my own master, such a thing would be greater than all the magic and all the treasures in all the world! But what am I talking about? Let’s get real here. It’s not gonna happen. Genie, wake up and smell the hummus."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Why not?"
+    },
+    {
+      "character": "GENIE",
+      "text": "The only way I get outta this, is if my master wishes me out. So, you can guess how often that’s happened."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "I’ll do it. I’ll set you free."
+    },
+    {
+      "character": "GENIE",
+      "text": "Uh huh, yeah, right. Whoop!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "No, really, I promise. After I make my first two wishes, I use my third wish to set you free."
+    },
+    {
+      "character": "GENIE",
+      "text": "Well, here’s hopin’. All right. Let’s make some magic! So how ‘bout it? What is it you want most?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Well... there’s this girl."
+    },
+    {
+      "character": "GENIE",
+      "text": "Eehhh, wrong! I can’t make anybody fall in love, remember?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Oh, but--but Genie, she’s smart and--and fun, and…"
+    },
+    {
+      "character": "GENIE",
+      "text": "Pretty?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Beautiful! She’s got these eyes that just… and this hair, wow… and her smile. [sighs]"
+    },
+    {
+      "character": "GENIE",
+      "text": "Ami. C’est l’amour."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "But she’s the princess. To even have a chance, I’d have to be… Hey... can you make me a prince?"
+    },
+    {
+      "character": "GENIE",
+      "text": "Let’s see here. Chicken à la king? Nope. Alaskan king crab. Ow. I hate it when they do that. Caesar salad? Ah! Et tu, Brute? No. Aha. \"To make a prince.\" Now is that an official wish? Say the magic words!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Genie, I wish for you to make me a prince!"
+    },
+    {
+      "character": "GENIE",
+      "text": "All right! Woof woof woof woof! First, that fez and vest combo is much too third century. These patches--what are we trying to say--beggar? No! Let’s work with me here. I like it, muy macho! Now, still needs something. What does it say to me? It says mode of transportation. 'Scuse me, monkey boy! Aquí , over here!"
+    },
+    {
+      "character": "ABU",
+      "text": "Uh oh!"
+    },
+    {
+      "character": "GENIE",
+      "text": "Here he comes, and what better way to make your grand entrance on the streets of Agrabah, than riding your very own brand new camel! Watch out, they spit! Mmm, not enough. Still not enough. Let’s see. What do you need? Yes! Esalalumbo, shimin Dumbo ! Whoa!!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Abu, you look good."
+    },
+    {
+      "character": "GENIE",
+      "text": "He’s got the outfit, he’s got the elephant, but we’re not through yet. Hang on to your turban, kid, we’re gonna make you a star!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Sire, I have found a solution to the problem with your daughter."
+    },
+    {
+      "character": "IAGO",
+      "text": "Awk! The problem with your daughter!"
+    },
+    {
+      "character": "SULTAN",
+      "text": "Oh, really?"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Right here. \"If the princess has not chosen a husband by the appointed time, then the sultan shall choose for her.\""
+    },
+    {
+      "character": "SULTAN",
+      "text": "But Jasmine hated all those suitors!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Sire, I have found a solution to the problem with your daughter."
+    },
+    {
+      "character": "IAGO",
+      "text": "Awk! The problem with your daughter!"
+    },
+    {
+      "character": "SULTAN",
+      "text": "Oh, really?"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Right here. \"If the princess has not chosen a husband by the appointed time, then the sultan shall choose for her.\""
+    },
+    {
+      "character": "SULTAN",
+      "text": "But Jasmine hated all those suitors! How could I choose someone she hates?"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Not to worry, my liege. There is more. If, in the event a suitable prince cannot be found, a princess must then be wed to…hmm…interesting."
+    },
+    {
+      "character": "SULTAN",
+      "text": "What? Who?"
+    },
+    {
+      "character": "JAFAR",
+      "text": "The royal vizier! Why, that would be…me!"
+    },
+    {
+      "character": "SULTAN",
+      "text": "Why, I thought the law says that only a prince can marry a princess, I’m quite sure."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Desperate times call for desperate measures, my lord."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Yes…desperate measures…"
+    },
+    {
+      "character": "JAFAR",
+      "text": "You will order the princess to marry me."
+    },
+    {
+      "character": "SULTAN",
+      "text": "I…will order…the princess…to…(the spell breaks momentarily)…but you’re so old!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "The princess WILL marry me!"
+    },
+    {
+      "character": "SULTAN",
+      "text": "The princess will marry…(the spell is again broken, this time by the trumpet fanfare of \"Prince Ali\". What? What is that? That music! Hee hee hee! Jafar, you must come and see this!"
+    },
+    {
+      "character": "MARCHERS",
+      "text": "Make way for Prince Ali!"
+    },
+    {
+      "character": "SWORDSMEN",
+      "text": "Say hey! It’s Prince Ali!"
+    },
+    {
+      "character": "MAJOR",
+      "text": "Hey, clear the way in the old bazaar, hey you, let us through, it’s a bright new star, oh, come, be the first on your block to meet his eye! Make way, here he comes, Ring bells, bang the drums. You’re gonna love this guy"
+    },
+    {
+      "character": "MAJOR",
+      "text": "Prince Ali, fabulous he, Ali Ababwa! Genuflect, show some respect Down on one knee"
+    },
+    {
+      "character": "MAJOR",
+      "text": "Now try your best to stay calm Brush up your Sunday Salaam And come and meet his spectacular coterie."
+    },
+    {
+      "character": "MAJOR",
+      "text": "Prince Ali, mighty is he, Ali Ababwa! Strong as ten regular men, definitely He faced the galloping hordes A hundred bad guys with swords Who sent those goons to their lords, why Prince Ali!"
+    },
+    {
+      "character": "CHORUS OF MEN",
+      "text": "He’s got 75 golden camels!"
+    },
+    {
+      "character": "HARRY",
+      "text": "Don’t they look lovely, June?"
+    },
+    {
+      "character": "CHORUS OF WOMEN",
+      "text": "Purple peacocks, he’s got 53!"
+    },
+    {
+      "character": "JUNE",
+      "text": "Fabulous, Harry. I love the feathers."
+    },
+    {
+      "character": "GENIE",
+      "text": "When it comes to exotic-type mammals / Has he got a zoo / I’m telling you / It’s a world-class menagerie!"
+    },
+    {
+      "character": "GENIE",
+      "text": "Prince Ali, handsome is he / Ali Ababwa"
+    },
+    {
+      "character": "GIRLS",
+      "text": "{There’s no question this Ali’s alluring)"
+    },
+    {
+      "character": "GENIE",
+      "text": "That physique, how can I speak"
+    },
+    {
+      "character": "GIRLS",
+      "text": "(Never ordinary, never boring)"
+    },
+    {
+      "character": "GENIE",
+      "text": "Weak at the knee"
+    },
+    {
+      "character": "GIRLS",
+      "text": "(Everything about the man just plain impresses)"
+    },
+    {
+      "character": "GENIE",
+      "text": "Well, get on out in that square"
+    },
+    {
+      "character": "GIRLS",
+      "text": "(He’s a wonder, he’s a whiz, a wonder)"
+    },
+    {
+      "character": "GENIE",
+      "text": "Adjust your veil and prepare"
+    },
+    {
+      "character": "GIRLS",
+      "text": "(He’s about to pull my heart asunder)"
+    },
+    {
+      "character": "GENIE",
+      "text": "To gawk and grovel and stare at Prince Ali!"
+    },
+    {
+      "character": "GIRLS",
+      "text": "(And I absolutely love the way he dresses!)"
+    },
+    {
+      "character": "CHORUS",
+      "text": "He’s got 95 white Persian monkeys!"
+    },
+    {
+      "character": "CHORUS",
+      "text": "(He’s got the monkeys, let’s see the monkeys!)"
+    },
+    {
+      "character": "CHORUS",
+      "text": "And to view them, he charges no fee!"
+    },
+    {
+      "character": "CHORUS",
+      "text": "(He’s generous, so generous)"
+    },
+    {
+      "character": "CHORUS",
+      "text": "He’s got slaves, he’s got servants and flunkies!"
+    },
+    {
+      "character": "CHORUS",
+      "text": "(Proud to work for him)"
+    },
+    {
+      "character": "CHORUS",
+      "text": "They bow to his whim, love serving him They’re just lousy with loyalty to Ali! Prince Ali!"
+    },
+    {
+      "character": "CHORUS",
+      "text": "Prince Ali, Amorous he! Ali Ababwa!"
+    },
+    {
+      "character": "GENIE",
+      "text": "Heard your princess was a sight lovely to see!"
+    },
+    {
+      "character": "GENIE",
+      "text": "And that, good people, is why He got dolled up and dropped by"
+    },
+    {
+      "character": "CHORUS",
+      "text": "With 60 elephants, llamas galore With his bears and lions A brass band and more With his 40 fakirs, his cooks, his bakers His birds that warble on key Make way for Prince Ali!"
+    },
+    {
+      "character": "SULTAN",
+      "text": "Splendid, absolutely marvelous!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Ahem. Your majesty, I have journeyed from afar to seek your daughter’s hand."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Prince Ali Ababwa! Of course. I’m delighted to meet you. This is my royal vizier, Jafar. He’s delighted too."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Ecstatic. I’m afraid, Prince Abooboo--"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "--Ababwa!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Whatever. Right. You cannot just parade in here uninvited and expect to--"
+    },
+    {
+      "character": "SULTAN",
+      "text": "…by Allah, this is quite a remarkable device. I don’t suppose I might…"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Why certainly, your majesty. Allow me."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Sire, I must advise against this--"
+    },
+    {
+      "character": "SULTAN",
+      "text": "--Oh, button up, Jafar. Learn to have a little fun."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Just where did you say you were from?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Oh, much farther than you’ve traveled, I’m sure."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Try me."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Look out, Polly!"
+    },
+    {
+      "character": "IAGO",
+      "text": "Hey, watch it. Watch it with the dumb rug!"
+    },
+    {
+      "character": "SULTAN",
+      "text": "Out of the way, I’m coming in to land. Jafar, watch this!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Spectacular, Your Highness."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Ooh, lovely. Yes, I do seem to have a knack for it. This is a very impressive youth. And a prince besides. (Whispers to JAFAR) If we’re lucky, you won’t have to marry Jasmine after all."
+    },
+    {
+      "character": "JAFAR",
+      "text": "I don’t trust him, sire."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Nonsense. One thing I pride myself on Jafar, I’m an excellent judge of character."
+    },
+    {
+      "character": "IAGO",
+      "text": "Oh, excellent judge, yeah, sure. NOT!"
+    },
+    {
+      "character": "SULTAN",
+      "text": "Jasmine will like this one!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "And I’m pretty sure I’ll like Princess Jasmine."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Your Highness, no. I must intercede on Jasmine’s behalf. This boy is no different than the others. What makes him think he is worthy of the princess?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Your majesty, I am Prince Ali Ababwa! Just let her meet me. I will win your daughter!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "How dare you! All of you! Standing around deciding my future? I am not a prize to be won!"
+    },
+    {
+      "character": "SULTAN",
+      "text": "Oh, dear. Don’t worry, Prince Ali. Just give Jasmine time to cool down."
+    },
+    {
+      "character": "JAFAR",
+      "text": "I think it’s time to say good bye to Prince Abooboo."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "What am I gonna do? Jasmine won’t even let me talk to her. I should have known I couldn’t pull off this stupid prince wish."
+    },
+    {
+      "character": "GENIE",
+      "text": "So move! Hey. That’s a good move. I can’t believe it--I’m losing to a rug."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Genie, I need help."
+    },
+    {
+      "character": "GENIE",
+      "text": "All right, sparky, here’s the deal. You wanna court the little lady, you gotta be a straight shooter, do ya got it?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "What?"
+    },
+    {
+      "character": "GENIE",
+      "text": "Tell. Her. The. TRUTH!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "No way! If Jasmine found out I was really some crummy street rat... she’d laugh at me."
+    },
+    {
+      "character": "GENIE",
+      "text": "A woman appreciates a man who can make her laugh! Al, all joking aside, you really oughta be yourself."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Hey, that’s the last thing I wanna be. Okay, I’m gonna go see her. I gotta be smooth, cool, confident. How do I look?"
+    },
+    {
+      "character": "GENIE",
+      "text": "Like... a prince."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Princess Jasmine?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Who’s there?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "It’s me--Prince Ali. Ahem--Prince Ali Ababwa."
+    },
+    {
+      "character": "JASMINE",
+      "text": "I do not want to see you."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "No-no, please, please princess. Give me a chance."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Just leave me alone."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Down, kitty!"
+    },
+    {
+      "character": "GENIE",
+      "text": "So how’s our little beau doing?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "C'mon, good kitty, take off and go. Down, kitty."
+    },
+    {
+      "character": "JASMINE",
+      "text": "W-Wait, wait. Do I know you?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Uh, no, no."
+    },
+    {
+      "character": "JASMINE",
+      "text": "You remind me of someone I... met in the marketplace."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "The marketplace? I have servants that go to the marketplace for me. Why, I-I even have servants who go to the marketplace for my servants, so, it-it couldn’t have been me you met."
+    },
+    {
+      "character": "JASMINE",
+      "text": "No... I guess not."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Um, uh, Princess Jasmine? You’re very…"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Punctual!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Punctual?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Uh, uh, beautiful."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Hmm. I’m rich too, you know."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Yeah!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "The daughter of a sultan."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "I know."
+    },
+    {
+      "character": "JASMINE",
+      "text": "A fine prize for any prince to marry."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Uh, right. Right, a-a prince like me."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Right, a prince like you. And every other stuffed shirt, swaggering peacock I’ve met!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Just go! Jump off a balcony!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "What?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Buzz off!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Yeah, right!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "What?!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Uh... uh, you’re right. You aren’t just some prize to be won. You should be free to make your own choice. I’ll go now."
+    },
+    {
+      "character": "JASMINE",
+      "text": "No!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "What? What?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "How--how are you doing that?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "It’s a magic carpet."
+    },
+    {
+      "character": "JASMINE",
+      "text": "It’s lovely."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "You, uh... you don’t wanna go for a ride, do you? We could get out of the palace, see the world."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Is it safe?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Sure. Do you trust me?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "What?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Do you trust me?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Yes."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "I can show you the world Shining, shimmering, splendid. Tell me princess, now when did you last let your heart decide?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "I can open your eyes Take you wonder by wonder Over, sideways, and under On a magic carpet ride"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "A whole new world! A new fantastic point of view / No one to tell us no / Or where to go / Or say we’re only dreaming"
+    },
+    {
+      "character": "JASMINE",
+      "text": "A whole new world / A dazzling place I never knew / But when I’m way up here / It’s crystal clear / That now I’m in a whole new world with you!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Now I’m in a whole new world with you!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Unbelievable sights / Indescribable feeling / Soaring, tumbling, freewheeling / Through an endless diamond sky"
+    },
+    {
+      "character": "JASMINE",
+      "text": "A whole new world!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Don’t you dare close your eyes"
+    },
+    {
+      "character": "JASMINE",
+      "text": "A hundred thousand things to see"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Hold your breath--it gets better!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "I’m like a shooting star, I’ve come so far / I can’t go back to where I used to be!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "A whole new world!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Don’t you dare close your eyes"
+    },
+    {
+      "character": "JASMINE",
+      "text": "A hundred thousand things to see"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Hold your breath--it gets better!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "I’m like a shooting star, I’ve come so far / I can’t go back to where I used to be!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "A whole new world!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Every turn a surprise"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "With new horizons to pursue"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Every moment, red-letter"
+    },
+    {
+      "character": "BOTH",
+      "text": "I’ll chase them anywhere / There’s time to spare / Let me share this whole new world with you / A whole new world / That’s where we’ll be"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "A thrilling chase"
+    },
+    {
+      "character": "JASMINE",
+      "text": "A wondrous place"
+    },
+    {
+      "character": "BOTH",
+      "text": "For you and me!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "It’s all so magical."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Yeah."
+    },
+    {
+      "character": "JASMINE",
+      "text": "It’s a shame Abu had to miss this."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Nah. He hates fireworks. He doesn’t really like flying either. That is…oh no!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "You are the boy from the market! I knew it. Why did you lie to me?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Jasmine, I’m sorry."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Did you think I was stupid?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "No!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "That I wouldn’t figure it out?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "No. I mean, I hoped you wouldn’t. No, that’s not what I meant."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Who are you? Tell me the truth!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "The truth? The truth, um... the--the truth is, I sometimes dress as a commoner to escape the pressures of palace life. But I really am a prince!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Why didn’t you just tell me?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Well, you know, um…royalty going out into the city in disguise, it sounds a little strange, don’t you think?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Not that strange."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Good night, my handsome prince."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Sleep well, princess."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Yes! For the first time in my life, things are starting to go right."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Hey! What? Abu! Abu!"
+    },
+    {
+      "character": "ABU",
+      "text": "Yes?"
+    },
+    {
+      "character": "GUARD",
+      "text": "Hold him!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "I’m afraid you’ve worn out your welcome, Prince Abooboo."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Why, you dirty--"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Make sure he’s never found."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Ummhhh, hunnplh! Nmmpph, ummph, mmm mmm!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Unnnm...UNNNNN NNNNNH! Eerffmph! Hhmpph, hunh, unggh!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Umph, umph, MMMMMPPPPH! Uuhmpuh unnnhf?!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Ernnf, unnnfff, unnnh, Rrrrrrrrrrrrrrrrrrrrmrungh!!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Rhng? MMMMMmmmmm!"
+    },
+    {
+      "character": "GENIE",
+      "text": "Never fails. Get in the bath and there’s a rub at the lamp. Hello? Al? Al! Kid, snap out of it! You can’t cheat on this one! I can’t help you unless you make a wish. You have to say \"Genie I want you to save my life.\" Got it? Okay. C’mon Aladdin! I’ll take that as a yes. Wooga! Wooga! Up scope!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Genie, I--uh, I-uh…Thanks, Genie."
+    },
+    {
+      "character": "GENIE",
+      "text": "Oh, Al. I’m gettin’ kind of fond of you, kid. Not that I wanna pick out curtains or anything."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Jasmine!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Oh, father--I just had the most wonderful time. I’m so happy."
+    },
+    {
+      "character": "SULTAN",
+      "text": "You should be, Jasmine. I have chosen a husband for you."
+    },
+    {
+      "character": "JASMINE",
+      "text": "What?"
+    },
+    {
+      "character": "SULTAN",
+      "text": "You will wed Jafar."
+    },
+    {
+      "character": "JAFAR",
+      "text": "You’re speechless, I see. A fine quality in a wife."
+    },
+    {
+      "character": "JASMINE",
+      "text": "I will never marry you. Father, I choose Prince Ali!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Prince Ali left!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Better check your crystal ball again, Jafar!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Prince Ali!"
+    },
+    {
+      "character": "IAGO",
+      "text": "How in the he--uh, awk!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Tell 'em the truth, Jafar. You tried to have me killed!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "What? Ridiculous nonsense, Your Highness. He is obviously lying."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Obviously…lying."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Father, what’s wrong with you?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "I know what's wrong!"
+    },
+    {
+      "character": "SULTAN",
+      "text": "Oh, oh, oh my!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Your Highness, Jafar’s been controlling you with this!"
+    },
+    {
+      "character": "SULTAN",
+      "text": "What? Jafar?! You, you traitor!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Your majesty, all of this can be explained."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Guards! Guards!"
+    },
+    {
+      "character": "IAGO",
+      "text": "Well, that’s it--we’re dead, forget about it. Just dig a grave for both of us. We’re dead."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Arrest Jafar at once."
+    },
+    {
+      "character": "JAFAR",
+      "text": "This is not done yet, boy!"
+    },
+    {
+      "character": "SULTAN",
+      "text": "Find him! Search everywhere!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Jasmine, are you all right?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Yes."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Jafar, my most trusted counselor, plotting against me all this time. Just horrible. How will I ever- Can this be true? My daughter has finally chosen a suitor? Ha ha! Praise Allah! You brilliant boy, I could kiss you! I won’t--I’ll leave that to my--. You two will be wed at once! Yes, yes. And you’ll be happy and prosperous, and then my boy, you will be sultan!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Sultan?"
+    },
+    {
+      "character": "SULTAN",
+      "text": "Yes, a fine upstanding youth like yourself, a person of your unimpeachable moral character is exactly what this kingdom needs!"
+    },
+    {
+      "character": "IAGO",
+      "text": "We gotta get outta here! We gotta get-- I gotta start packing, your highness. Only essentials Travel light! Bring the guns, the weapons, the knives and uh, how about this picture? I don’t know--I think I’m making a weird face in it. Oh, boy. He’s cracked. He’s gone nuts. Jafar? Jafar, get a grip! Awk! Good grip."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Prince Ali is nothing more than that ragged urchin, Aladdin! He has the lamp, Iago."
+    },
+    {
+      "character": "IAGO",
+      "text": "Why that miserable--"
+    },
+    {
+      "character": "JAFAR",
+      "text": "But you are going to relieve him of it!"
+    },
+    {
+      "character": "IAGO",
+      "text": "Me?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Sultan? They want me to be sultan?"
+    },
+    {
+      "character": "GENIE",
+      "text": "Huzzah! Hail the conquerin' hero! Aladdin! You’ve just won the heart of the princess. What are you gonna do next?"
+    },
+    {
+      "character": "GENIE",
+      "text": "Genie... I can’t."
+    },
+    {
+      "character": "GENIE",
+      "text": "Sure ya can. You just go, \"Geeeeenie, IIIIIII wiiiiish you free.\""
+    },
+    {
+      "character": "ALADDIN",
+      "text": "I’m serious! Look, I’m sorry--I really am. But they wanna make me sultan--no! They wanna make Prince Ali sultan. Without you, I’m just Aladdin."
+    },
+    {
+      "character": "GENIE",
+      "text": "Al, you won!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Because of you! The only reason anyone thinks I’m worth anything is because of you. What if they find out I’m not really a prince? What if Jasmine finds out? I’d lose her. Genie, I-I can’t keep this up on my own. I... I can't wish you free."
+    },
+    {
+      "character": "GENIE",
+      "text": "Fine, I understand. After all, you’ve lied to everyone else. Hey, I was beginning to feel left out. Now if you’ll excuse me, master..."
+    },
+    {
+      "character": "ABU",
+      "text": "Ohhh..."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Genie, I’m really sorry. Well, fine! Then just...stay in there! What are you guys lookin' at? Look, I... I-I'm sorr--A-Abu, I’m sorry. I didn't... wait. Come on! What am I doing? Genie’s right. I... I-I gotta tell Jasmine the truth."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Ali, oh Ali--will you come here?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Well, here goes. Jasmine? Where are you?"
+    },
+    {
+      "character": "IAGO",
+      "text": "Ahem--Out in the menagerie, hurry."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "I'm coming."
+    },
+    {
+      "character": "IAGO",
+      "text": "Ya got a PROBLEM, pinky?! Jerk. Boy, Jafar’s gonna be happy to see you! Excellent work, Iago! Ah, go on. No, really--on a scale of one to ten, you... are an eleven! Oh, Jafar--you’re too kind. I’m embarrassed, I’m blushing."
+    },
+    {
+      "character": "SULTAN",
+      "text": "People of Agrabah, My daughter has finally chosen a suitor!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Jasmine?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Ali, where have you been?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Jasmine, there’s something I've gotta tell you."
+    },
+    {
+      "character": "JASMINE",
+      "text": "The whole kingdom has turned out for father's announcement!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "No! But Jasmine, listen to me, please! You don’t understand!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Good luck!"
+    },
+    {
+      "character": "SULTAN",
+      "text": "…Ali Ababwa!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Oh boy."
+    },
+    {
+      "character": "IAGO",
+      "text": "Look at them, cheering that little pipsqueak."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Let them cheer."
+    },
+    {
+      "character": "GENIE",
+      "text": "You know Al, I’m getting reallyyyyyy--I don’t think you’re him. Tonight, the role of Al will be played by a tall, dark and sinister ugly man."
+    },
+    {
+      "character": "JAFAR",
+      "text": "I am your master now!"
+    },
+    {
+      "character": "GENIE",
+      "text": "I was afraid of that…"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Genie, grant me my first wish. I wish to rule on high, as SULTAN!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Whoa!"
+    },
+    {
+      "character": "SULTAN",
+      "text": "Bless my soul. What is this? What is going on? Oh my goodness, what's happening?!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Father!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Heh heh heh!"
+    },
+    {
+      "character": "SULTAN",
+      "text": "Jafar, you... vile betrayer!"
+    },
+    {
+      "character": "IAGO",
+      "text": "That’s Sultan Vile Betrayer to you."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Oh yeah? Well, we’ll just see about that!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Finders-keepers, Abooboo."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Genie! No!"
+    },
+    {
+      "character": "GENIE",
+      "text": "Sorry, kid--I got a new master now."
+    },
+    {
+      "character": "SULTAN",
+      "text": "Jafar, I order you to stop!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Ah, but there’s a new order now... MY order! Finally, you will bow to me!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "We will NEVER bow to you!"
+    },
+    {
+      "character": "IAGO",
+      "text": "Why am I not surprised?"
+    },
+    {
+      "character": "JAFAR",
+      "text": "If you won't bow before a sultan, then you will cower before a SORCERER! Genie, my second wish: I wish to be the most powerful sorcerer IN THE WORLD!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Genie, stop!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "We will NEVER bow to you!"
+    },
+    {
+      "character": "IAGO",
+      "text": "Why am I not surprised?"
+    },
+    {
+      "character": "JAFAR",
+      "text": "If you won't bow before a sultan, then you will cower before a SORCERER! Genie, my second wish: I wish to be the most powerful sorcerer IN THE WORLD!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Genie, stop!"
+    },
+    {
+      "character": "IAGO",
+      "text": "Ladies and gentlemen, a warm Agrabah welcome for Sorcerer Jafar!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Now where were we? Ah, yes, abject humiliation! Oh, princess--there’s someone I’m dying to introduce you to."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Jafar, get your hands off her!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Prince Ali Yes, it is he, But not as you know him. Read my lips and come to grips With reality Yes, meet a blast from your past Whose lies were too good to last Say hello to your precious Prince Ali!"
+    },
+    {
+      "character": "IAGO",
+      "text": "Or should we say Aladdin?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Ali."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Jasmine..."
+    },
+    {
+      "character": "JASMINE",
+      "text": "What?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "I-I tried to tell you, I'm just--"
+    },
+    {
+      "character": "JAFAR",
+      "text": "So Ali turns out to be merely Aladdin Just a con, need I go on? Take it from me His personality flaws Give me adequate cause To send him packing on a one-way trip So his prospects take a terminal dip His assets frozen, the venue chosen Is the ends of the Earth, whoopeeeeeeeee! So looooooooooooong,"
+    },
+    {
+      "character": "IAGO",
+      "text": "Good bye, see ya!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Ex-Priiiiiiiince Aaaaaaaallllllliiiiiiiiiiiiiiiiiiiiiiiiiii!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Abu? Abuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu! Oh, this is all my fault. I--I should have freed the genie when I had the chance!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Abu! Are you okay? I’m sorry, Abu. I-I made a mess of everything... somehow. I gotta go back and set things right."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Carpet!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Abu, start digging! That’s it!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Yeah! All right!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Now, back to Agrabah! Let’s go!"
+    },
+    {
+      "character": "IAGO",
+      "text": "Puppet ruler want a cracker? Here’s your cracker. Shove ‘em all right down your throat. Here, have lots!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Stop it! Jafar, leave him alone!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "It pains me to see you reduced to this, Jasmine. A beautiful desert bloom such as yourself should be on the arm of the most powerful man in the world. What do you say, my dear? Why, with you as my queen..."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Never!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "I’ll teach you some respect! No. Genie... I have decided to make my final wish. I wish for Princess Jasmine to fall desperately in love with me."
+    },
+    {
+      "character": "GENIE",
+      "text": "Ah, master-- there are a few addendas, some quid pro quo-"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Don’t talk back to me, you big blue lout! YOU will do what I order you to do... slave!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Jafar! Hm, I never realized how... incredibly handsome you are."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Mm, that’s better. Now... pussycat, tell me more about…myself."
+    },
+    {
+      "character": "JASMINE",
+      "text": "You’re... tall... and dark..."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Yes?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Well dressed..."
+    },
+    {
+      "character": "GENIE",
+      "text": "Al! Al, little buddy!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Shh!"
+    },
+    {
+      "character": "GENIE",
+      "text": "Al, I can’t help you--I work for señor psychopath now. What are you gonna do?!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Hey--I’m a street rat, remember? I’ll improvise."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Go on."
+    },
+    {
+      "character": "JASMINE",
+      "text": "And your beard... is so... twisted! You've stolen my heart..."
+    },
+    {
+      "character": "IAGO",
+      "text": "Jaf--mmmmmm!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "And the street rat?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "What street rat?"
+    },
+    {
+      "character": "ABU AND IAGO",
+      "text": "Yuck!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "That was--YOU! How many times do I have to kill you, boy?!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Get the lamp!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "No! Ah-ah-ah, princess. Your time is up!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Jasmine!"
+    },
+    {
+      "character": "IAGO",
+      "text": "Ooh, nice shot, Jaf--"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Abu!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Don’t toy with me!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Things are unraveling fast now, boy. Get the point?"
+    },
+    {
+      "character": "JAFAR",
+      "text": "I’m just getting warmed up!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Are you afraid to fight me yourself, you cowardly snake?!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "A snake, am I? Perhaps you’d like to see how sssnake-like I can be!"
+    },
+    {
+      "character": "GENIES",
+      "text": "Rick 'em, rock 'em, rack 'em, rake! Stick that sword into that snake!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "You ssstay out of thisss!"
+    },
+    {
+      "character": "GENIE",
+      "text": "Jafar, Jafar, he’s our man. If he can’t do it, GREAT!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Aladdin!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Jasmine, hang on!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "You little FOOL! You thought you could defeat the most powerful being on Earth?!"
+    },
+    {
+      "character": "IAGO",
+      "text": "Squeeze him, Jafar. Squeeze him like a--awk!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Without the genie, boy, you’re nothing!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "The genie. The genie! The genie has more power than you’ll ever have!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "What?!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "He gave you your power! He can take it away!"
+    },
+    {
+      "character": "GENIE",
+      "text": "Al, what are you doing? Why are you bringing me into this?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Face it, Jafar! You’re still just... second best!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "You’re right! His power does exceed my own. But not for long..."
+    },
+    {
+      "character": "GENIE",
+      "text": "The boy is crazy. He’s a little punch drunk. One too many hits with the snake."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Ssslave! I make my third wish! I wish to be... an ALL-POWERFUL GENIE!"
+    },
+    {
+      "character": "GENIE",
+      "text": "All right. Your wish is my command. Way to go, Al."
+    },
+    {
+      "character": "JAFAR",
+      "text": "Yes... Yes! The power... The absolute power!"
+    },
+    {
+      "character": "JASMINE",
+      "text": "What have you done?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Trust me!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "The universe is mine to command! To CONTROL!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Not so fast, Jafar! Aren't you forgetting something?!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Huh?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "You wanna be a genie? You got it!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "WHAT?!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "And everything that goes with it!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "No! No...!"
+    },
+    {
+      "character": "IAGO",
+      "text": "I’m getting out of here!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Phenomenal cosmic powers!"
+    },
+    {
+      "character": "IAGO",
+      "text": "Come on, YOU'RE the genie. I don't want, I don't--!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Itty bitty living space."
+    },
+    {
+      "character": "GENIE",
+      "text": "Al, you little genius, you!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Get your blasted beak out of my face!"
+    },
+    {
+      "character": "IAGO",
+      "text": "Oh, shut up, you moron!"
+    },
+    {
+      "character": "JAFAR",
+      "text": "Don’t tell ME to shut up!"
+    },
+    {
+      "character": "GENIE",
+      "text": "Allow me. Ten thousand years in a cave of wonders ought to chill him out!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Jasmine... I’m sorry I lied to you about being a prince."
+    },
+    {
+      "character": "JASMINE",
+      "text": "I know why you did."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Well, I guess…this… is goodbye?"
+    },
+    {
+      "character": "JASMINE",
+      "text": "Oh, that stupid law. This isn’t fair! I love you."
+    },
+    {
+      "character": "GENIE",
+      "text": "Al, no problem. You’ve still got one wish left. Just say the word and you’re a prince again."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "But Genie, what about your freedom?"
+    },
+    {
+      "character": "GENIE",
+      "text": "Hey, it’s only an eternity of servitude. This is love. Al, you’re not gonna find another girl like her in a million years. Believe me, I know. I’ve looked."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Jasmine, I do love you, but... I gotta stop pretending to be something I’m not."
+    },
+    {
+      "character": "JASMINE",
+      "text": "I understand."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Genie, I wish for your freedom."
+    },
+    {
+      "character": "GENIE",
+      "text": "One bona fide prince pedigree coming up. I--what?"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Genie, you’re free!"
+    },
+    {
+      "character": "GENIE",
+      "text": "Heh, heh! I’m free. I’m free. Quick, quick, wish for something outrageous. Say \"I want the Nile.\" Wish for the Nile. Try that!"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "I wish for the Nile?"
+    },
+    {
+      "character": "GENIE",
+      "text": "No way!! Oh, does that feel good! I’m free! I’m free at last! I’m hittin’ the road. I’m off to see the world! I--"
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Genie, I’m--I’m gonna miss you."
+    },
+    {
+      "character": "GENIE",
+      "text": "Me too, Al. No matter what anybody says... you'll always be a prince to me."
+    },
+    {
+      "character": "SULTAN",
+      "text": "That’s right. You’ve certainly proven your worth as far as I’m concerned. It’s that law that’s the problem."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Father?"
+    },
+    {
+      "character": "SULTAN",
+      "text": "Well, am I sultan or am I sultan? From this day forth, the princess shall marry whomever she deems worthy."
+    },
+    {
+      "character": "JASMINE",
+      "text": "Him! I choose... I choose you, Aladdin."
+    },
+    {
+      "character": "ALADDIN",
+      "text": "Heh. Call me Al."
+    },
+    {
+      "character": "GENIE",
+      "text": "Oh, all of ya. Come over here. Big group hug! Group hug, Ooh! You mind if I kiss the monkey? Ooh, hairball! Well, I can’t do any more damage around this popsicle stand. I'm... outta here! Bye-bye, you two crazy lovebirds. Hey, Rugman: ciao! I’m history! No, I’m mythology! Nah, I don’t care what I am--I’m freeee!"
+    },
+    {
+      "character": "GENIE",
+      "text": "Made ya look."
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "I can show you the world"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "Shining, shimmering, splendid"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "Tell me, princess, now when did"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "You last let your heart decide?"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "I can open your eyes"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "Take you wonder by wonder"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "Over, sideways and under"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "On a magic carpet ride"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "A whole new world"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "A new fantastic point of view"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "No one to tell us no"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "Or where to go"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "Or say we're only dreaming"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "A whole new world"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "A dazzling place I never knew"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "But now from way up here"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "It's crystal clear"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "That now I'm in a whole new world with you"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "Unbelievable sights"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "Indescribable feeling"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "Soaring, tumbling, freewheeling"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "Through an endless diamond sky"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "A whole new world"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "Don't you dare close your eyes"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "A hundred thousand things to see"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "Hold your breath - it gets better"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "I can't go back to where I used to be"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "A whole new world"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "With new horizons to pursue"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "Let me share this whole new world with you"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "Whoa..."
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "A whole new world"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "A whole new world"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "A new fantastic point of view"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "Or say we're only dreaming"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "A whole new world"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "Every turn a surprise"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "With new horizons to pursue"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "Every moment red-letter"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "Anywhere"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "There's time to spare"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "Let me share"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "This whole new world"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "With you"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "You"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "A whole new world"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "A whole new world"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "That's where we'll be"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "Where we will be"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "A thrilling chase"
+    },
+    {
+      "character": "PEABO BRYSON",
+      "text": "A wondrous place"
+    },
+    {
+      "character": "REGINA BELLE",
+      "text": "Ooh..."
+    },
+    {
+      "character": "GENIE",
+      "text": "You have been a fabulous audience. Tell you what, you're the best audience in the whole world! Take care of yourselves! Good night, Alice! Good night, Agrabah! Adios, amigos!"
+    }
+  ],
+  "imdbId": "tt22658006",
+  "poster": "N/A",
+  "rated": "N/A",
+  "runtime": "N/A",
+  "genre": "N/A",
+  "director": "N/A",
+  "topSpeakingCast": [
+    "ALADDIN",
+    "JASMINE",
+    "JAFAR",
+    "GENIE",
+    "SULTAN",
+    "IAGO",
+    "PEABO BRYSON",
+    "ABU",
+    "REGINA BELLE",
+    "RAZOUL"
+  ]
+}

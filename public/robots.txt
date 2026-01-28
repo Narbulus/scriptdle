@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /share-test.html
+
+Sitemap: https://www.scriptle.net/sitemap.xml

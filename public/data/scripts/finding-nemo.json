@@ -1,35 +1,30 @@
 {
   "id": "finding-nemo",
   "title": "Finding Nemo",
-  "year": 2003,
+  "year": null,
   "characters": [
     "ALL",
     "ANCHOR",
     "ANGLERFISH",
     "BARBARA",
-    "BERNIE",
     "BILL",
     "BLOAT",
+    "BLOAT/BUBBLES/GURGLE",
     "BOB",
     "BOB, TED",
     "BOTH",
     "BRUCE",
     "BUBBLES",
+    "CHILDREN",
     "CHUM",
     "CORAL",
-    "CRAB 1",
-    "CRAB 2",
     "CRAB KID",
-    "DARLA",
     "DEB",
     "DIVER #2",
     "DORY",
     "DR. PHILLIP SHERMAN",
-    "FISH",
-    "FISH 1",
     "FISH KIDS",
     "FISH MOM",
-    "GERALD",
     "GILL",
     "GURGLE",
     "JACQUES",
@@ -44,16 +39,10 @@
     "PATIENT",
     "PEACH",
     "PEARL",
-    "PELICAN",
-    "PELICAN 1",
     "PELICAN 2",
-    "PELICANS",
-    "SEAGULL",
-    "SEAGULLS",
     "SHARKS",
     "SHELDON",
     "SHERMAN",
-    "SQUIRT",
     "TAD",
     "TED"
   ],
@@ -544,6 +533,22 @@
     },
     {
       "character": "MR. RAY",
+      "text": "Oh... let’s name the zones, the zones, the zones. Let’s name the zones of the open sea."
+    },
+    {
+      "character": "CHILDREN",
+      "text": "Mr. Ray!"
+    },
+    {
+      "character": "SHELDON",
+      "text": "Come on, Nemo!"
+    },
+    {
+      "character": "MARLIN",
+      "text": "Woah, you better stay with me."
+    },
+    {
+      "character": "MR. RAY",
       "text": "Mesopolagic, bathyal, abyssalpelagic. All the rest are too deep for you and me to see. Huh? I wonder where my class has gone."
     },
     {
@@ -660,7 +665,7 @@
     },
     {
       "character": "MR. RAY",
-      "text": "...the entire ocean. Come on, sing with me!"
+      "text": "...the entire ocean. Come on, sing with me! There’s porifera, coelentera, hydrozoa, scyphozoa, anthozoa, ctenophora, bryozoas, three!"
     },
     {
       "character": "NEMO",
@@ -1692,11 +1697,7 @@
     },
     {
       "character": "GURGLE",
-      "text": "Ah, the ocean- THE OCEAN!!! AAAAAHHHHH!!!!"
-    },
-    {
-      "character": "GURGLE",
-      "text": "He hasn’t been decontaminated yet! Jacques! Clean him!"
+      "text": "Ah, the ocean- THE OCEAN!!! AAAAAHHHHH!!!! He hasn’t been decontaminated yet! Jacques! Clean him!"
     },
     {
       "character": "JACQUES",
@@ -1868,7 +1869,7 @@
     },
     {
       "character": "SHERMAN",
-      "text": "The picture broke. This here’s Darla. She’s my niece. She’s gonna be eight next week. Hey, little fella. Say hello to your new mummy. She’ll be here Friday to pick you up. You’re her present. Shh! It’s our little secret. Well, Mr. Tucker, while that sets up I’m going to see a man about a wallaby. I’ll be right back."
+      "text": "The picture broke. This here’s Darla . She’s my niece. She’s gonna be eight next week. Hey, little fella. Say hello to your new mummy. She’ll be here Friday to pick you up. You’re her present. Shh! It’s our little secret. Well, Mr. Tucker, while that sets up I’m going to see a man about a wallaby. I’ll be right back."
     },
     {
       "character": "BLOAT",
@@ -2017,6 +2018,10 @@
     {
       "character": "DORY",
       "text": "Look out! Sharks eat fish!!!"
+    },
+    {
+      "character": "BOTH",
+      "text": "[both screaming]"
     },
     {
       "character": "DORY",
@@ -2251,6 +2256,10 @@
       "text": "I don’t know. But who cares? I remembered!"
     },
     {
+      "character": "BOTH",
+      "text": "(Both Screaming)"
+    },
+    {
       "character": "DORY",
       "text": "P. Sherman, 42 Wallaby Way, Sydney. I remembered it again!!"
     },
@@ -2265,6 +2274,10 @@
     {
       "character": "JACQUES",
       "text": "Suivez-moi. Follow me."
+    },
+    {
+      "character": "BLOAT/BUBBLES/GURGLE",
+      "text": "[chanting] Hoo!"
     },
     {
       "character": "GILL",
@@ -2300,11 +2313,11 @@
     },
     {
       "character": "BLOAT",
-      "text": "THE RING OF FIRE!"
+      "text": "THE RING OF FIRE !"
     },
     {
       "character": "BLOAT",
-      "text": "Turn on the Ring of Fire. The Ring of Fire, you said you could do it..."
+      "text": "[whispering to Jacques who missed his cue] Turn on the Ring of Fire. The Ring of Fire, you said you could do it..."
     },
     {
       "character": "BLOAT",
@@ -2315,16 +2328,32 @@
       "text": "Bubbles! Bubbles! Let me..."
     },
     {
+      "character": "ALL",
+      "text": "[chanting]"
+    },
+    {
       "character": "PEACH",
       "text": "Isn’t there another way?! He’s just a boy!!"
+    },
+    {
+      "character": "ALL",
+      "text": "[speed up chanting]"
     },
     {
       "character": "GILL",
       "text": "From this moment on, you will now be known as Sharkbait."
     },
     {
+      "character": "ALL",
+      "text": "Sharkbait! Ooh-ha-ha!"
+    },
+    {
       "character": "GILL",
       "text": "Welcome, brother Sharkbait!"
+    },
+    {
+      "character": "ALL",
+      "text": "Sharkbait! Ooh-ha-ha!"
     },
     {
       "character": "GILL",
@@ -2477,1054 +2506,28 @@
     {
       "character": "MARLIN",
       "text": "Don’t cry. I like"
-    },
-    {
-      "character": "DORY",
-      "text": "I’m totally excited! [yawns] Are you excited?"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Dory, wake up. Come on!"
-    },
-    {
-      "character": "DORY",
-      "text": "Duck!!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "That’s not a duck, It’s a PELICAN!!!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "NO!! I DIDN'T COME THIS FAR TO BE BREAKFAST!!!"
-    },
-    {
-      "character": "GERALD",
-      "text": "[choking and gagging]"
-    },
-    {
-      "character": "PELICAN",
-      "text": "Hey, Nigel. Would you look at that?"
-    },
-    {
-      "character": "NIGEL",
-      "text": "What?"
-    },
-    {
-      "character": "PELICAN 1",
-      "text": "Sun’s barely up and already Gerald’s had more than he can handle."
-    },
-    {
-      "character": "NIGEL",
-      "text": "Yeah. Reckon somebody oughta help the poor guy."
-    },
-    {
-      "character": "PELICANS",
-      "text": "Yeah, right."
-    },
-    {
-      "character": "NIGEL",
-      "text": "Well, don’t everybody fly off at once."
-    },
-    {
-      "character": "GERALD",
-      "text": "[retches]"
-    },
-    {
-      "character": "NIGEL",
-      "text": "All right, Gerald, what is it? Fish got your tongue? Love a duck!!!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "I gotta find my son, Nemo!!!"
-    },
-    {
-      "character": "NIGEL",
-      "text": "\"Nemo?\"! Hey, it’s that fish! Y’know the one we were talking about! The one that’s been fighting the whole ocean! Hey, I know where your son..."
-    },
-    {
-      "character": "NIGEL",
-      "text": "Wait! Come back! Stop!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Keep going! He’s crazy!!"
-    },
-    {
-      "character": "NIGEL",
-      "text": "I got something to tell you!"
-    },
-    {
-      "character": "SEAGULL",
-      "text": "Mine."
-    },
-    {
-      "character": "NIGEL",
-      "text": "OK. Don’t make any sudden moves. Hop inside my mouth if you want to live."
-    },
-    {
-      "character": "MARLIN",
-      "text": "Hop in your mouth? And how does that make me live?"
-    },
-    {
-      "character": "SEAGULL",
-      "text": "Mine."
-    },
-    {
-      "character": "NIGEL",
-      "text": "Because I can take you to your son."
-    },
-    {
-      "character": "MARLIN",
-      "text": "Yeah, right!"
-    },
-    {
-      "character": "NIGEL",
-      "text": "No. I know your son. He’s orange, he’s got a gimpy fin on one side.."
-    },
-    {
-      "character": "MARLIN",
-      "text": "THAT'S NEMO!!!!"
-    },
-    {
-      "character": "SEAGULLS",
-      "text": "Mine! Mine! Mine!"
-    },
-    {
-      "character": "NIGEL",
-      "text": "Fasten your seatbelts!!!"
-    },
-    {
-      "character": "SEAGULLS",
-      "text": "Mine! Mine! Mine!"
-    },
-    {
-      "character": "DORY",
-      "text": "Whoo-hoo!!! [laughs]"
-    },
-    {
-      "character": "NIGEL",
-      "text": "Everybody hold on!!!"
-    },
-    {
-      "character": "SEAGULLS",
-      "text": "Mine! Mine! Mine!"
-    },
-    {
-      "character": "BUBBLES",
-      "text": "Too loud for me!!!"
-    },
-    {
-      "character": "DARLA",
-      "text": "*taps the fish tank's exterior by using a bare finger* [singing] Twinkle, twinkle little star!!"
-    },
-    {
-      "character": "PEACH",
-      "text": "*unsticks from the fish tank's interior* Find a happy place, find a happy place, find a happy place!!!!"
-    },
-    {
-      "character": "BARBARA",
-      "text": "Darla, your uncle will see you now."
-    },
-    {
-      "character": "SHERMAN",
-      "text": "All right, let’s see those pearly whites."
-    },
-    {
-      "character": "DARLA",
-      "text": "[roars] I’m a piranha. They’re in the Amazon."
-    },
-    {
-      "character": "SHERMAN",
-      "text": "And a piranha’s a fish, just like your present!"
-    },
-    {
-      "character": "DARLA",
-      "text": "[giggling] I get a fishy! Fishy!!"
-    },
-    {
-      "character": "SHERMAN",
-      "text": "Oh, no. Poor little guy."
-    },
-    {
-      "character": "BLOAT",
-      "text": "He’s dead!!"
-    },
-    {
-      "character": "GILL",
-      "text": "Sharkbait!!!"
-    },
-    {
-      "character": "DARLA",
-      "text": "Yay! Fishy, fishy, fishy!!"
-    },
-    {
-      "character": "SHERMAN",
-      "text": "Must’ve left your present in the car, sweetie. I’ll go and get it."
-    },
-    {
-      "character": "GILL",
-      "text": "He’s still alive!"
-    },
-    {
-      "character": "PEACH",
-      "text": "He’s not dead!!"
-    },
-    {
-      "character": "BLOAT",
-      "text": "What’s happening? Why is he playing dead?"
-    },
-    {
-      "character": "GILL",
-      "text": "[overjoyed] He’s gonna get flushed down the toilet!! He’s gonna get outta here!!"
-    },
-    {
-      "character": "BLOAT",
-      "text": "He’s gonna get flushed!!"
-    },
-    {
-      "character": "GURGLE",
-      "text": "What a smart little guy!!"
-    },
-    {
-      "character": "GILL",
-      "text": "[horrified] Oh, no, not the trash can!!!"
-    },
-    {
-      "character": "BUBBLES",
-      "text": "Nemo! No!!!"
-    },
-    {
-      "character": "NIGEL",
-      "text": "[arrives at the window with Marlin and Dory in his mouth] Hey. I found his dad!!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Where’s Nemo?! Where is he?!"
-    },
-    {
-      "character": "BLOAT",
-      "text": "Dentist!!! Dentist!!!"
-    },
-    {
-      "character": "GILL",
-      "text": "He’s over there!!!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "What’s a dentist?! What is that?! Nigel, get in there!!"
-    },
-    {
-      "character": "NIGEL",
-      "text": "I can’t go in there!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Oh, yes you can! [He grab Nigel's tongue] Charge!!!!"
-    },
-    {
-      "character": "DARLA",
-      "text": "[screaming]"
-    },
-    {
-      "character": "SHERMAN",
-      "text": "What the…?! Darla, sweetie, look out! Steady! Hold still! Easy! Hold still! It's all right! Nobody’s going to hurt you!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Nemo..."
-    },
-    {
-      "character": "DORY",
-      "text": "Oh, my goodness."
-    },
-    {
-      "character": "SHERMAN",
-      "text": "Gotcha!! Keep down!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Nemo!!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Daddy?!"
-    },
-    {
-      "character": "SHERMAN",
-      "text": "Out with ya! And stay out!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Daddy?!"
-    },
-    {
-      "character": "DARLA",
-      "text": "*grabs the liquid bag that has the clownfish called Nemo inside the liquid bag* Fishy? *shakes the liquid bag* Fishy! Wake up! Wake up!!"
-    },
-    {
-      "character": "DEB",
-      "text": "Oh, no!!!"
-    },
-    {
-      "character": "GILL",
-      "text": "Quick! To the top of Mt. Wannahockaloogie!!!"
-    },
-    {
-      "character": "DARLA",
-      "text": "Why are you sleeping?!"
-    },
-    {
-      "character": "PEACH",
-      "text": "Hurry!!!"
-    },
-    {
-      "character": "GILL",
-      "text": "Bloat!! Ring of Fire!!!!"
-    },
-    {
-      "character": "DARLA",
-      "text": "Fishy!! Get it out!"
-    },
-    {
-      "character": "SHERMAN",
-      "text": "Crikey?! All the animals have gone mad! [grunts]"
-    },
-    {
-      "character": "DARLA",
-      "text": "[screaming] Get it out!"
-    },
-    {
-      "character": "GURGLE",
-      "text": "Smack her in the head!"
-    },
-    {
-      "character": "BLOAT",
-      "text": "Go, Gill!"
-    },
-    {
-      "character": "DARLA",
-      "text": "Fish in my hair!! *Gill falls off Darla's head then lands onto the wet dentist thing where Nemo is*"
-    },
-    {
-      "character": "NEMO",
-      "text": "Gill."
-    },
-    {
-      "character": "GILL",
-      "text": "Sharkbait. Tell your Dad, I said hi."
-    },
-    {
-      "character": "NEMO",
-      "text": "*Nemo becomes flushed into something* Aah!!!"
-    },
-    {
-      "character": "GILL",
-      "text": "Go get him."
-    },
-    {
-      "character": "SHERMAN",
-      "text": "[groans]"
-    },
-    {
-      "character": "BLOAT",
-      "text": "He did it!!"
-    },
-    {
-      "character": "BUBBLES",
-      "text": "I’m so happy!!"
-    },
-    {
-      "character": "GURGLE",
-      "text": "Is he gonna be OK, Gill?"
-    },
-    {
-      "character": "GILL",
-      "text": "Don’t worry. All drains lead to the ocean."
-    },
-    {
-      "character": "DARLA",
-      "text": "Fishy!"
-    },
-    {
-      "character": "NEMO",
-      "text": "(Screaming) Daddy! (Whimpers)"
-    },
-    {
-      "character": "NIGEL",
-      "text": "I’m sorry. Truly, I am."
-    },
-    {
-      "character": "DORY",
-      "text": "Hey..."
-    },
-    {
-      "character": "MARLIN",
-      "text": "Dory. If it wasn’t for you, I never even would have made it here. So, thank you."
-    },
-    {
-      "character": "DORY",
-      "text": "Hey, wait a minute. Wait! Where are you going?"
-    },
-    {
-      "character": "MARLIN",
-      "text": "It’s over, Dory. We were too late. Nemo’s gone and I’m going home now."
-    },
-    {
-      "character": "DORY",
-      "text": "No. No, you can’t! Stop! Please don’t go away. Please? No one’s ever stuck with me for so long before. And if you leave, if you leave…I just, I remember things better with you. I do. Look, P. Sherman, 42..! Ugh! I remember it, I do. It’s there, I know it is because when I look at you, I can feel it. And, I look at you and… I’m home. Please. I don’t want them to go away. I don’t want to forget."
-    },
-    {
-      "character": "MARLIN",
-      "text": "I’m sorry, Dory, but I do."
-    },
-    {
-      "character": "CRAB 1",
-      "text": "Manna from heavens!"
-    },
-    {
-      "character": "CRAB 2",
-      "text": "Sweet nectar of life!"
-    },
-    {
-      "character": "BOTH",
-      "text": "Hey!!"
-    },
-    {
-      "character": "CRAB 1",
-      "text": "This is our spot!"
-    },
-    {
-      "character": "CRAB 2",
-      "text": "Go on! Get outta here!"
-    },
-    {
-      "character": "BOTH",
-      "text": "Hey!!"
-    },
-    {
-      "character": "CRAB 1",
-      "text": "Yeah, that’s it fella! Just keep on swimming, you got that."
-    },
-    {
-      "character": "CRAB 2",
-      "text": "Too right, mate! I got a live one here!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Have you seen my Dad?"
-    },
-    {
-      "character": "CRAB 2",
-      "text": "Gotcha!! Come back here!!!"
-    },
-    {
-      "character": "CRAB 1",
-      "text": "You let him go!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Dad!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Dad!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "DAD!!!!!"
-    },
-    {
-      "character": "DORY",
-      "text": "No! [groans]"
-    },
-    {
-      "character": "NEMO",
-      "text": "Excuse me. Are you all right?"
-    },
-    {
-      "character": "DORY",
-      "text": "No! I don’t know where I am! I don’t know what’s going on, I think I lost somebody but I can’t remember."
-    },
-    {
-      "character": "NEMO",
-      "text": "It’s OK. I’m looking for someone too. We can look together."
-    },
-    {
-      "character": "DORY",
-      "text": "[sniffles] I’m Dory."
-    },
-    {
-      "character": "NEMO",
-      "text": "I’m Nemo."
-    },
-    {
-      "character": "DORY",
-      "text": "Nemo? That’s a nice name."
-    },
-    {
-      "character": "NEMO",
-      "text": "Dad!!"
-    },
-    {
-      "character": "DORY",
-      "text": "Dad!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Dad!!"
-    },
-    {
-      "character": "DORY",
-      "text": "Dad!! Wait a minute, is it your dad or my dad?"
-    },
-    {
-      "character": "NEMO",
-      "text": "My dad."
-    },
-    {
-      "character": "DORY",
-      "text": "Got it. Dad!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Where are we, anyway?"
-    },
-    {
-      "character": "DORY",
-      "text": "Dad!! Dad!! Oh. Syl-shi Sydney.\" [Gasps] [Voice Echoing] P. Sherman, 42 Wallaby Way, Sydney.\" [Yells] NEMO!!! IT’S YOU!!! YOU’RE NEMO!!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "[Muffled] Yes! Yes! I’m Nemo!! [Garbled]"
-    },
-    {
-      "character": "DORY",
-      "text": "Oh! You’re Nemo!! You were dead! I saw you! And then I, here you are! I found you! You’re not dead! And your father- (GASP) Your FATHER!"
-    },
-    {
-      "character": "NEMO",
-      "text": "My father?! You know my father?! Where is he?!"
-    },
-    {
-      "character": "DORY",
-      "text": "This way! He went this way! Quick!!"
-    },
-    {
-      "character": "BOTH",
-      "text": "Hey!!"
-    },
-    {
-      "character": "DORY",
-      "text": "Hey! Have you seen an orange fish swim by? It looks just like him!"
-    },
-    {
-      "character": "NEMO",
-      "text": "But bigger!"
-    },
-    {
-      "character": "BERNIE",
-      "text": "Yeah, I saw I'm, Bluey. But I’m not telling you where he went. And there’s no way you’re gonna make me!"
-    },
-    {
-      "character": "SEAGULLS",
-      "text": "Mine!"
-    },
-    {
-      "character": "BERNIE",
-      "text": "[yells] ALL RIGHT!!! I’LL TALK, I'LL TALK!!! HE WENT TO THE FISHING GROUNDS!!!"
-    },
-    {
-      "character": "BERNIE",
-      "text": "[shrieks]"
-    },
-    {
-      "character": "FISH",
-      "text": "Hey! Look out."
-    },
-    {
-      "character": "MARLIN",
-      "text": "Sorry. Just trying to get home."
-    },
-    {
-      "character": "NEMO",
-      "text": "Dad!! Dad!!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Nemo?"
-    },
-    {
-      "character": "NEMO",
-      "text": "Daddy!!!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Nemo?!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Dad!!!"
-    },
-    {
-      "character": "DORY",
-      "text": "Nemo’s alive!!!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Dory? Nemo!!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Daddy!!!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Nemo! I’m coming!!!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Dad!!!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Nemo!!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Dad!!!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Thank goodness!! It’s all right, son! It’s gonna be OK."
-    },
-    {
-      "character": "FISH 1",
-      "text": "Turn around! You’re going the wrong way!!"
-    },
-    {
-      "character": "DORY",
-      "text": "Aah!!! Look out!!!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Move!!!"
-    },
-    {
-      "character": "FISH",
-      "text": "[fish shouting and screaming]"
-    },
-    {
-      "character": "DORY",
-      "text": "Help!!! [Dory yelling]"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Dory!!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Come on!! Dory!!"
-    },
-    {
-      "character": "DORY",
-      "text": "Help!!! Get us out!!! [yells]"
-    },
-    {
-      "character": "MARLIN",
-      "text": "No! Dory!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Dad! I know what to do!!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Nemo! No!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "We have to tell all the fish to swim down together!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Get out of there, now!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "I know this will work!!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "No, I am not gonna lose you again!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Dad, there’s no time!! It’s the only way we can save Dory! I can do this!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "You’re right. I know you can."
-    },
-    {
-      "character": "NEMO",
-      "text": "Lucky fin!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Now go! Hurry!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Tell all of the fish to swim down!!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Well?! You heard my son! Come on!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Dory! We have to tell everybody to..."
-    },
-    {
-      "character": "MARLIN",
-      "text": "...swim down together! Do you understand what I’m saying to you?! Swim down!!"
-    },
-    {
-      "character": "DORY",
-      "text": "Everybody swim down!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Come on! You have to swim down!"
-    },
-    {
-      "character": "DORY",
-      "text": "Swim down, OK?"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Down!! Swim down!! Swim down!! Swim down!!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Don’t give up! Keep swimming! Just keep swimming! That's it!"
-    },
-    {
-      "character": "NEMO",
-      "text": "It’s working!"
-    },
-    {
-      "character": "ALL",
-      "text": "Keep swimming!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Just keep swimming! Keep swimming!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Come on, Dad!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "You’re doing great, son!"
-    },
-    {
-      "character": "NEMO",
-      "text": "That’s my Dad!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Let’s get to the bottom! Keep swimming!"
-    },
-    {
-      "character": "DORY",
-      "text": "[singing] Just keep swimming, just keep swimming..."
-    },
-    {
-      "character": "MARLIN",
-      "text": "Almost there! Keep swimming!"
-    },
-    {
-      "character": "ALL",
-      "text": "Keep swimming! Keep swimming! [cheering]"
-    },
-    {
-      "character": "DORY",
-      "text": "Hey!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Dory, where’s Nemo?!"
-    },
-    {
-      "character": "DORY",
-      "text": "There!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Oh, no. Nemo!"
-    },
-    {
-      "character": "NEMO",
-      "text": "(Moaning)"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Nemo? Nemo? It’s OK. Daddy’s here, daddy’s got you."
-    },
-    {
-      "character": "NEMO",
-      "text": "[coughs] Daddy?"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Oh, thank goodness!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Dad, I don’t hate you."
-    },
-    {
-      "character": "MARLIN",
-      "text": "I’m so sorry, Nemo. Hey, guess what?"
-    },
-    {
-      "character": "NEMO",
-      "text": "Why?"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Sea turtles? I met one! And he was a 150 years old."
-    },
-    {
-      "character": "NEMO",
-      "text": "150?"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Yep."
-    },
-    {
-      "character": "NEMO",
-      "text": "‘Cause Sandy Plankton said they only live to be a 100."
-    },
-    {
-      "character": "MARLIN",
-      "text": "Sandy Plankton? Do you think I would cross the entire ocean and not know as much as Sandy Plankton?! He was a 150, not 100! Who is this Sandy Plankton who knows everything wrong?"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Time for school! Time for school! Get up! Let’s go!! GO! I’m gonna win!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "No, you’re not! I did it!!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "My own son beats me!"
-    },
-    {
-      "character": "MR. RAY",
-      "text": "Climb aboard, explorers!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "So just then, the sea cucumber looks over to the mollusk and says: \"With 'FRONDS' (friends) like these, who need 'ANEMONES' (enemies)?!\""
-    },
-    {
-      "character": "MR. RAY",
-      "text": "Well, hello, Nemo! Who’s this?"
-    },
-    {
-      "character": "NEMO",
-      "text": "Exchange student."
-    },
-    {
-      "character": "SQUIRT",
-      "text": "I’m from the EAC, dude!"
-    },
-    {
-      "character": "MR. RAY",
-      "text": "Sweet!"
-    },
-    {
-      "character": "BOTH",
-      "text": "Totally."
-    },
-    {
-      "character": "BOB",
-      "text": "But seriously, Marty, did you really do all the things you say you did?"
-    },
-    {
-      "character": "BRUCE",
-      "text": "Pardon me..."
-    },
-    {
-      "character": "ALL",
-      "text": "[all gasping]"
-    },
-    {
-      "character": "BRUCE",
-      "text": "Hello. Don’t be alarmed."
-    },
-    {
-      "character": "ANCHOR",
-      "text": "We just wanna make sure that our newest member got home safe."
-    },
-    {
-      "character": "DORY",
-      "text": "Thanks, guys."
-    },
-    {
-      "character": "BRUCE",
-      "text": "Well, see you next week."
-    },
-    {
-      "character": "CHUM",
-      "text": "Keep up with the program, Dory."
-    },
-    {
-      "character": "ANCHOR",
-      "text": "Remember: fish are friends..."
-    },
-    {
-      "character": "DORY",
-      "text": "...Not food."
-    },
-    {
-      "character": "MR. RAY",
-      "text": "Hold on! Here we go!! Next up, knowledge!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Bye, son! Have fun!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "Bye, Dad! Oh! Oh, Mr. Ray! Wait. I forgot Something. I Love You Dad."
-    },
-    {
-      "character": "MARLIN",
-      "text": "I love you too, son."
-    },
-    {
-      "character": "NEMO",
-      "text": "Uh, Dad, you can let go now."
-    },
-    {
-      "character": "MARLIN",
-      "text": "Sorry! Now go have an adventure!"
-    },
-    {
-      "character": "SQUIRT",
-      "text": "Goodbye! See you later, dudes!!"
-    },
-    {
-      "character": "DORY",
-      "text": "Bye, Elmo!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Nemo."
-    },
-    {
-      "character": "DORY",
-      "text": "Nemo! Bye, Nemo!!"
-    },
-    {
-      "character": "NEMO",
-      "text": "See you after school, Dory! Bye, dad!!"
-    },
-    {
-      "character": "MARLIN",
-      "text": "Bye, son."
-    },
-    {
-      "character": "SHERMAN",
-      "text": "Barbara?"
-    },
-    {
-      "character": "BARBARA",
-      "text": "Uh-huh?"
-    },
-    {
-      "character": "SHERMAN",
-      "text": "I don’t understand it. Here this thing has a lifetime guarantee and it breaks! I had to clean the tank myself, take all the fish out, put ‘em in bags and... Where’d the fish go?"
-    },
-    {
-      "character": "GILL",
-      "text": "Come on, Peach."
-    },
-    {
-      "character": "DEB",
-      "text": "Hurry!!"
-    },
-    {
-      "character": "GILL",
-      "text": "You can do it!"
-    },
-    {
-      "character": "BLOAT",
-      "text": "Yeah, that’s it! You can do it!!"
-    },
-    {
-      "character": "GURGLE",
-      "text": "Just a little further!"
-    },
-    {
-      "character": "PEACH",
-      "text": "That’s the shortest red light I’ve ever seen!"
-    },
-    {
-      "character": "BLOAT",
-      "text": "Come on, Peach!"
-    },
-    {
-      "character": "ALL",
-      "text": "[cheering] [all laughing] We did it!!!"
-    },
-    {
-      "character": "GILL",
-      "text": "Yes!!"
-    },
-    {
-      "character": "BLOAT",
-      "text": "Now what?"
     }
-  ],
-  "lineCount": 859,
-  "characterCount": 53,
-  "topCastCount": 21,
-  "topCast": [
-    "MARLIN",
-    "NEMO",
-    "DORY",
-    "BRUCE",
-    "GILL",
-    "BLOAT",
-    "GURGLE",
-    "PEACH",
-    "CHUM",
-    "NIGEL",
-    "CORAL",
-    "ANCHOR",
-    "MR. RAY",
-    "SHERMAN",
-    "TAD",
-    "DEB",
-    "DARLA",
-    "BOB",
-    "PEARL",
-    "BUBBLES",
-    "JACQUES"
   ],
   "imdbId": "tt0266543",
   "poster": "https://m.media-amazon.com/images/M/MV5BMTc5NjExNTA5OV5BMl5BanBnXkFtZTYwMTQ0ODY2._V1_SX300.jpg",
   "rated": "G",
   "runtime": "100 min",
   "genre": "Animation, Adventure, Comedy",
-  "director": "Andrew Stanton, Lee Unkrich"
+  "director": "Andrew Stanton, Lee Unkrich",
+  "topSpeakingCast": [
+    "MARLIN",
+    "DORY",
+    "NEMO",
+    "BRUCE",
+    "GILL",
+    "BLOAT",
+    "CHUM",
+    "CORAL",
+    "GURGLE",
+    "PEACH",
+    "ANCHOR",
+    "MR. RAY",
+    "TAD",
+    "DEB"
+  ]
 }

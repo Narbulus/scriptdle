@@ -1,0 +1,6322 @@
+{
+  "id": "the-lion-king",
+  "title": "The Lion King",
+  "year": null,
+  "characters": [
+    "ALL (EVEN ED)",
+    "ALL HYENAS",
+    "ALL THREE",
+    "ANIMAL",
+    "ANTELOPE",
+    "ASANTE SANA!",
+    "BANZAI",
+    "BANZAI AND SHENZI",
+    "BIRDS",
+    "BOTH",
+    "CARMEN TWILLIE",
+    "CHORUS",
+    "ED",
+    "ELEPHANTS",
+    "ELTON JOHN",
+    "ENSEMBLE",
+    "FLAMINGOS",
+    "FULL CHORUS",
+    "GOPHER",
+    "GUINEA FOWL",
+    "HYENAS",
+    "LEBO M",
+    "LEBO M.",
+    "LION",
+    "LIONESS 1",
+    "LIONESS 2",
+    "MONKEYS",
+    "MOUSE",
+    "MUFASA",
+    "MUFASA AND SARABI",
+    "MUFASA’S SPIRIT",
+    "NALA",
+    "NALA AND SIMBA",
+    "PUMBAA",
+    "PUMBAA AND TIMON",
+    "RAFIKI",
+    "SALLY DWORSKY",
+    "SARABI",
+    "SARAFINA",
+    "SCAR",
+    "SCAR (& HYENAS)",
+    "SHENZI",
+    "SHENZI AND BANZAI",
+    "SIMBA",
+    "SIMBA & CHORUS",
+    "SIMBA AND NALA",
+    "SIMBA AND TIMON",
+    "SPRINGBOK",
+    "TIMON",
+    "TIMON AND PUMBAA",
+    "ZAZU",
+    "ZAZU AND SCAR"
+  ],
+  "lines": [
+    {
+      "character": "LION",
+      "text": "*roars*"
+    },
+    {
+      "character": "SCAR",
+      "text": "Life's not fair, is it? You see, I... Well, I shall never be king."
+    },
+    {
+      "character": "SCAR",
+      "text": "Huh."
+    },
+    {
+      "character": "MOUSE",
+      "text": "*squeaks*"
+    },
+    {
+      "character": "SCAR",
+      "text": "And you... shall never see the light of another day. Hmm, hmm. Adieu."
+    },
+    {
+      "character": "MOUSE",
+      "text": "*squeaks*"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Didn't your mother ever tell you not to play with your food?"
+    },
+    {
+      "character": "SCAR",
+      "text": "*sighs* What do you want?"
+    },
+    {
+      "character": "ZAZU",
+      "text": "I'm here to announce that King Mufasa's on his way, so you'd better have a good excuse for missing the ceremony this morning."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, now, look, Zazu. You've made me lose my lunch."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Ha! You'll lose more than that when the king gets through with you. He's as mad as a hippo with a hernia."
+    },
+    {
+      "character": "SCAR",
+      "text": "Ooh. I quiver with fear!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Now, Scar, don't look at me that way. Help!"
+    },
+    {
+      "character": "SCAR",
+      "text": "*roars*"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Scar?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Mm-hmm?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Drop him."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Impeccable timing, Your Majesty."
+    },
+    {
+      "character": "SCAR",
+      "text": "*gags*"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Ugh."
+    },
+    {
+      "character": "SCAR",
+      "text": "Why, if it isn't my big brother descending from on high to mingle with the commoners."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Sarabi and I didn't see you at the presentation of Simba."
+    },
+    {
+      "character": "SCAR",
+      "text": "That was today? Oh, I feel simply awful! Must've slipped my mind."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Yes. Well, as slippery as your mind is, as the king's brother, you should've been first in line!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Well, I was first in line... until the little hairball was born."
+    },
+    {
+      "character": "MUFASA",
+      "text": "That \"hairball\" is my son"
+    },
+    {
+      "character": "SCAR",
+      "text": "Well, I was first in line... until the little hairball was born."
+    },
+    {
+      "character": "MUFASA",
+      "text": "That \"hairball\" is my son and your future king."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, I shall practice my curtsy."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Don't turn your back on me, Scar."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, no, Mufasa. Perhaps you shouldn't turn your back on me."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Is that a challenge?!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Temper, temper. I wouldn't dream of challenging you."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Pity. Why not?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Well, as far as brains go, I got the lion's share, but when it comes to brute strength... I'm afraid I am at the shallow end of the gene pool."
+    },
+    {
+      "character": "ZAZU",
+      "text": "There's one in every family, sire. Two in mine, actually. And they always manage to ruin special occasions."
+    },
+    {
+      "character": "MUFASA",
+      "text": "What am I going to do with him?"
+    },
+    {
+      "character": "ZAZU",
+      "text": "He'd make a very handsome throw rug."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Zazu!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "And just think, whenever he gets dirty, you could take him out and beat him!"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Ah."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Hmm."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Simba."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Dad! Dad! Come on, Dad."
+    },
+    {
+      "character": "SIMBA",
+      "text": "We gotta go. Wake up!"
+    },
+    {
+      "character": "LIONESS 1",
+      "text": "Oof!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Sorry!"
+    },
+    {
+      "character": "LIONESS 2",
+      "text": "Oof!"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Your son is awake."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Dad, Dad, Dad, Dad, Dad, Dad, Dad, Dad, Dad, Dad."
+    },
+    {
+      "character": "SARABI",
+      "text": "Your son is awake."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Before sunrise, he's your son."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Dad! Come on, Dad. Whoa! You promised!"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Okay, okay. I'm up, I'm up."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yeah!"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Look, Simba. Everything the light touches is our kingdom."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Wow."
+    },
+    {
+      "character": "MUFASA",
+      "text": "A king's time as ruler rises and falls like the sun. One day, Simba, the sun will set on my time here and will rise with you as the new king."
+    },
+    {
+      "character": "SIMBA",
+      "text": "And this'll all be mine?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Everything."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Everything the light touches. What about that shadowy place?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "That's beyond our borders. You must never go there, Simba."
+    },
+    {
+      "character": "SIMBA",
+      "text": "But I thought a king can do whatever he wants."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Oh, there's more to being king than getting your way all the time."
+    },
+    {
+      "character": "SIMBA",
+      "text": "There's more?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Simba... Everything you see exists together in a delicate balance."
+    },
+    {
+      "character": "MUFASA",
+      "text": "As king, you need to understand that balance and respect all the creatures, from the crawling ant to the leaping antelope."
+    },
+    {
+      "character": "SIMBA",
+      "text": "But, Dad, don't we eat the antelope?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Yes, Simba, but let me explain. When we die, our bodies become the grass, and the antelope eat the grass. And so, we are all connected in the great Circle of Life."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Good morning, sire!"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Good morning, Zazu."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Checking in... with the morning report."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Fire away."
+    },
+    {
+      "character": "ZAZU",
+      "text": "(singing) Chimps are going ape, giraffes remain above it all Elephants remember, though just what I can't recall Crocodiles are snapping up fresh offers from the banks Showed interest in my nest egg but I quickly said, \"No thanks!\" We haven't paid the hornbills and the vultures have a hunch Not everyone invited will be coming back from lunch This is the morning report Gives you the long and the short Every grunt, roar and snort Not a tale I distort On the morning report"
+    },
+    {
+      "character": "MUFASA",
+      "text": "What are you doing, son?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Pouncin'."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Let an old pro show you how it's done."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Oh, the buffalo have got a beef about the season's grass Warthogs have been thwarted in attempts to save their gas Flamingos in the pink are chasing secretary birds Saffron is the season's color seen in all the herds Moving down the rank and file to near the bottom of the rung Far too many beetles..."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Stay low to the ground."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yeah, OK. Stay low to the ground."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Shh... Not a sound. Take it slow. One more step... then..."
+    },
+    {
+      "character": "ZAZU",
+      "text": "...are quite frankly in the dung!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "This is the morning report Gives you the long and the short Every grunt, roar, and snort Not a tale I distort (muffled) On the morning report!"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Ha ha ha ha ha. That's very good. Ha ha ha..."
+    },
+    {
+      "character": "GOPHER",
+      "text": "Zazu!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Yes?"
+    },
+    {
+      "character": "GOPHER",
+      "text": "Sir! News from the underground."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Now, this time--"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Sire! Hyenas! In the Pride Lands!"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Zazu, take Simba home."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Oh, Dad, can't I come?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "No, son."
+    },
+    {
+      "character": "SIMBA",
+      "text": "I never get to go anywhere."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Oh, young master, one day you will be king; then you can chase those slobbering mangy stupid poachers from dawn until dusk."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hey Uncle Scar! Guess what!"
+    },
+    {
+      "character": "SCAR",
+      "text": "I despise guessing games."
+    },
+    {
+      "character": "SIMBA",
+      "text": "I'm gonna be king of Pride Rock."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh goody."
+    },
+    {
+      "character": "SIMBA",
+      "text": "My dad just showed me the whole kingdom; and I'm gonna rule it all. Heh heh."
+    },
+    {
+      "character": "SCAR",
+      "text": "Yes. Well... forgive me for not leaping for joy. Bad back, you know."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hey, Uncle Scar? When I'm king, what'll that make you?"
+    },
+    {
+      "character": "SCAR",
+      "text": "A monkey's uncle."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Heh heh. You're so weird."
+    },
+    {
+      "character": "SCAR",
+      "text": "You have no idea. ...So, your father showed you the whole kingdom, did he?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Everything."
+    },
+    {
+      "character": "SCAR",
+      "text": "He didn't show you what's beyond that rise at the northern border...?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Well, no... he said I can't go there."
+    },
+    {
+      "character": "SCAR",
+      "text": "And he's absolutely right. It's far too dangerous. Only the bravest lions go there."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Well, I'm brave! What's out th--"
+    },
+    {
+      "character": "SCAR",
+      "text": "No, I'm sorry, Simba, I just can't tell you."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Why not?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Simba, Simba, I'm only looking out for the well-being of my favorite nephew."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yeah, right, I'm your only nephew."
+    },
+    {
+      "character": "SCAR",
+      "text": "All the more reason for me to be protective... An elephant graveyard is no place for a young prince... Oops!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "An elephant what? Whoa."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh dear, I've said too much... Well, I suppose you'd have found out sooner or later, you being SO clever and all... Oh, just do me one favor - promise me you'll never visit that dreadful place."
+    },
+    {
+      "character": "NALA",
+      "text": "Simba... Good luck."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Simba!"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Simba, I'm very disappointed in you."
+    },
+    {
+      "character": "SIMBA",
+      "text": "I know."
+    },
+    {
+      "character": "MUFASA",
+      "text": "You could have been killed. You deliberately disobeyed me. And what's worse, you put Nala in danger!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I was just trying to be brave like you."
+    },
+    {
+      "character": "MUFASA",
+      "text": "I'm only brave when I have to be. Simba... being brave doesn't mean you go looking for trouble."
+    },
+    {
+      "character": "SIMBA",
+      "text": "But you're not scared of anything."
+    },
+    {
+      "character": "MUFASA",
+      "text": "I was today."
+    },
+    {
+      "character": "SIMBA",
+      "text": "You were?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Yes... I thought I might lose you."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Oh. I guess even kings get scared, huh?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Mm-hmm."
+    },
+    {
+      "character": "SIMBA",
+      "text": "But you know what?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "What?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I think those hyenas were even scareder."
+    },
+    {
+      "character": "MUFASA",
+      "text": "'Cause nobody messes with your dad. Come here, you."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Oh no, no... Aaagh! Errrggh!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Oh, come here... Hah! Gotcha!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Dad?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Hmm?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "We're pals, right?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Right."
+    },
+    {
+      "character": "SIMBA",
+      "text": "And we'll always be together, right?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Simba... Let me tell you something that my father told me... Look at the stars. The great kings of the past look down on us from those stars."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Really?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Yes... So whenever you feel alone, just remember that those kings will always be there to guide you ... And so will I."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Man, that lousy Mufasa! I won't be able to sit for a week!"
+    },
+    {
+      "character": "ED",
+      "text": "{Laughs}"
+    },
+    {
+      "character": "BANZAI",
+      "text": "It's not funny, Ed."
+    },
+    {
+      "character": "ED",
+      "text": "{Tries to stop laughing, but bursts out worse}"
+    },
+    {
+      "character": "BANZAI",
+      "text": "Hey, shut up!"
+    },
+    {
+      "character": "ED",
+      "text": "{Can NOT stop laughing}"
+    },
+    {
+      "character": "SHENZI",
+      "text": "Will you knock it off?!"
+    },
+    {
+      "character": "BANZAI",
+      "text": "Well, he started it!"
+    },
+    {
+      "character": "SHENZI",
+      "text": "Look at you guys. No wonder we're danglin’ at the bottom of the food chain."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Man, I hate danglin’."
+    },
+    {
+      "character": "SHENZI",
+      "text": "Shyeah? You know, if it weren't for those lions, we'd be runnin' the joint."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Yeah. Man, I hate lions."
+    },
+    {
+      "character": "SHENZI",
+      "text": "So pushy."
+    },
+    {
+      "character": "BANZAI",
+      "text": "And hairy."
+    },
+    {
+      "character": "SHENZI",
+      "text": "And stinky."
+    },
+    {
+      "character": "BANZAI",
+      "text": "And man, are they..."
+    },
+    {
+      "character": "SHENZI AND BANZAI",
+      "text": "UuuugLY!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, surely we lions are not all THAT bad."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Ohh. Oh, Scar, it's just you."
+    },
+    {
+      "character": "SHENZI",
+      "text": "We were afraid it was somebody important."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Yeah, you know, like Mufasa."
+    },
+    {
+      "character": "SHENZI",
+      "text": "Yeah."
+    },
+    {
+      "character": "SCAR",
+      "text": "I see."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Now that's power."
+    },
+    {
+      "character": "SHENZI",
+      "text": "Tell me about it. I just hear that name and I shudder."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Mufasa."
+    },
+    {
+      "character": "SHENZI",
+      "text": "Ooooh. ...Do it again."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Mufasa."
+    },
+    {
+      "character": "SHENZI",
+      "text": "Ooooh!"
+    },
+    {
+      "character": "BANZAI",
+      "text": "Mufasa. Mufasa! Mufasa!"
+    },
+    {
+      "character": "SHENZI",
+      "text": "...Oooh! It tingles me."
+    },
+    {
+      "character": "SCAR",
+      "text": "I'm surrounded by idiots."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Not you, Scar; I mean, you're one of us. I mean, you're our pal."
+    },
+    {
+      "character": "SCAR",
+      "text": "Charmed."
+    },
+    {
+      "character": "SHENZI",
+      "text": "Ohh, I like that. He's not king, but he's still so proper."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Yeah. Hey, hey. Did ya bring us anything to eat, Scar, old buddy, old pal? Huh? Did-ya-did-ya-did-ya?"
+    },
+    {
+      "character": "SCAR",
+      "text": "I don't think you really deserve this. I practically gift-wrapped those cubs for you. And you couldn't even dispose of them."
+    },
+    {
+      "character": "SHENZI",
+      "text": "Well, ya know. It wasn't exactly like they was alone, Scar."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Yeah. What are we supposed to do-- kill Mufasa?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Precisely."
+    },
+    {
+      "character": "SCAR",
+      "text": "I know that your powers of retention Are as wet as a warthog's backside But thick as you are, pay attention My words are a matter of pride It's clear from your vacant expressions The lights are not all on upstairs"
+    },
+    {
+      "character": "SCAR",
+      "text": "But we're talking kings and successions, Even you can't be caught unawares!"
+    },
+    {
+      "character": "SCAR",
+      "text": "So prepare for a chance of a lifetime Be prepared for sensational news A shining new era Is tiptoeing nearer"
+    },
+    {
+      "character": "SHENZI",
+      "text": "And where do we feature?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Just listen to teacher"
+    },
+    {
+      "character": "SCAR",
+      "text": "I know it sounds sordid But you'll be rewarded When at last I am given my dues And injustice deliciously squared Be prepared!"
+    },
+    {
+      "character": "BANZAI",
+      "text": "Yeah, Be prepared. Yeah-heh... we'll be prepared, heh. ...For what?"
+    },
+    {
+      "character": "SCAR",
+      "text": "For the death of the king."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Why? Is he sick?"
+    },
+    {
+      "character": "SCAR",
+      "text": "No, fool - we're gonna kill him. And Simba too."
+    },
+    {
+      "character": "SHENZI",
+      "text": "Great idea! Who needs a king?"
+    },
+    {
+      "character": "SHENZI",
+      "text": "No king! No king! la-la-la-la-laa-laa!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Idiots! There will be a king!"
+    },
+    {
+      "character": "BANZAI",
+      "text": "Hey, but you said, uh..."
+    },
+    {
+      "character": "SCAR",
+      "text": "I will be king! ...Stick with me, and you'll never go hungry again!"
+    },
+    {
+      "character": "SHENZI AND BANZAI",
+      "text": "Yaay! All right! Long live the king!"
+    },
+    {
+      "character": "ALL HYENAS",
+      "text": "Long live the king! Long live the king!"
+    },
+    {
+      "character": "HYENAS",
+      "text": "It's great that we'll soon be connected. With a king who'll be all-time adored."
+    },
+    {
+      "character": "SCAR",
+      "text": "Of course, quid pro quo, you're expected To take certain duties on board"
+    },
+    {
+      "character": "SCAR",
+      "text": "The future is littered with prizes And though I'm the main addressee The point that I must emphasize is You won't get a sniff without me!"
+    },
+    {
+      "character": "SCAR (& HYENAS)",
+      "text": "So prepare for the coup of the century (Oooh!) Be prepared for the murkiest scam (Oooh... La! La! La!) Meticulous planning (We'll have food!) Tenacity spanning (Lots of food) Decades of denial (We repeat) Is simply why I'll (Endless meat) Be king undisputed (Aaaaaaah...) Respected, saluted (...aaaaaaah...) And seen for the wonder I am (...aaaaaaah!) Yes, my teeth and ambitions are bared (Oo-oo-oo-oo-oo-oo-oo) Be prepared!"
+    },
+    {
+      "character": "ALL (EVEN ED)",
+      "text": "Yes, our teeth and ambitions are bared - Be prepaaaaaaaaaared!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Now you wait here. Your father has a marvelous surprise for you."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Oooh. What is it?"
+    },
+    {
+      "character": "SCAR",
+      "text": "If I told you, it wouldn't be a surprise, now would it?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "If you tell me, I'll still act surprised."
+    },
+    {
+      "character": "SCAR",
+      "text": "Ho ho ho. You are such a naughty boy."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Come on, Uncle Scar."
+    },
+    {
+      "character": "SCAR",
+      "text": "No-no-no-no-no-no-no. This is just for you and your daddy. You know, a sort of... father-son... thing."
+    },
+    {
+      "character": "SCAR",
+      "text": "Well! I'd better go get him."
+    },
+    {
+      "character": "SIMBA",
+      "text": "I'll go with you."
+    },
+    {
+      "character": "SCAR",
+      "text": "No! Heh heh heh. No. Just stay on this rock. You wouldn't want to end up in another mess like you did with the hyenas..."
+    },
+    {
+      "character": "SIMBA",
+      "text": "You know about that?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Simba, everybody knows about that."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Really?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, yes. Lucky Daddy was there to save you, eh? Oh... and just between us, you might want to work on that little roar of yours. Hmm?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Oh... Okay..."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hey, Uncle Scar, will I like the surprise?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Simba, it's to DIE for."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Shut up."
+    },
+    {
+      "character": "BANZAI",
+      "text": "I can't help it. I'm so hungry... I gotta have a wildebeest!"
+    },
+    {
+      "character": "SHENZI",
+      "text": "Stay put."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Well... Can't I just pick off one of the little sick ones?"
+    },
+    {
+      "character": "SHENZI",
+      "text": "No! We wait for the signal from Scar."
+    },
+    {
+      "character": "SHENZI",
+      "text": "There he is... Let's go."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Little roar. Puh!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Merow!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Merrooow-h!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "FOW!!!!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Oh look, sire; the herd is on the move."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Odd..."
+    },
+    {
+      "character": "SCAR",
+      "text": "Mufasa. Quick. Stampede. In the gorge. Simba's down there!"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Simba?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Zazu! Help me!!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Your father is on the way! Hold on!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hurry!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "There! There! On that tree!"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Hold on, Simba!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Ahhhh!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Oh Scar, this is awful. What will we do? What will we do? Hah... I'll go back for help, that's what I'll do, I'll go back for he--oomph!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "DAD!"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Scar! Broth-- Brother! Help me!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Long live the king."
+    },
+    {
+      "character": "SCAR",
+      "text": "Long live the king."
+    },
+    {
+      "character": "SIMBA",
+      "text": "NOOOOOOOOO!!!!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Dad!!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Dad?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Dad? ...Dad, come on."
+    },
+    {
+      "character": "SIMBA",
+      "text": "You got to get up."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Dad. We got to go home."
+    },
+    {
+      "character": "SIMBA",
+      "text": "HEEEELP!!!! Somebody!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Anybody... help."
+    },
+    {
+      "character": "SCAR",
+      "text": "Simba. ...What have you done?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "There were wildebeests, and he tried to save me... it was an accident, I... I didn't mean for it to happen."
+    },
+    {
+      "character": "SCAR",
+      "text": "Of course, of course you didn't. No one... ever means for these things to happen. ...But the king IS dead."
+    },
+    {
+      "character": "SCAR",
+      "text": "And if it weren't for you, he'd still be alive."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh! What will your mother think?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "What am I gonna do?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Run away, Simba. Run... Run away and never return."
+    },
+    {
+      "character": "SCAR",
+      "text": "Kill him."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Whoa!!"
+    },
+    {
+      "character": "BANZAI",
+      "text": "Yeow!"
+    },
+    {
+      "character": "SHENZI",
+      "text": "Hey-- There he goes! There he goes!"
+    },
+    {
+      "character": "BANZAI",
+      "text": "So go get him."
+    },
+    {
+      "character": "SHENZI",
+      "text": "There ain't no way I'm going in there. What, you want me to come out there looking like you? Cactus Butt?"
+    },
+    {
+      "character": "BANZAI",
+      "text": "We gotta finish the job."
+    },
+    {
+      "character": "SHENZI",
+      "text": "Well, he's as good as dead out there anyway. And IF he comes back, we'll kill 'im."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Yeah! you hear that? If you ever come back, we'll kill ya!!!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Mufasa's death was a terrible tragedy; but to lose Simba, who had barely begun to live..."
+    },
+    {
+      "character": "SCAR",
+      "text": "...For me it is a deep personal loss. So it is with a heavy heart that I assume the throne. Yet, out of the ashes of this tragedy, we shall rise to greet the dawning of a new era... in which lion and hyena come together, in a great and glorious future!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Yeeeah! Get out! Get out! Get outta here! Whoo!"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "I love it! Bowling for buzzards!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Gets 'em every time."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Uh-oh. Hey Timon. You better come look. I think it's still alive."
+    },
+    {
+      "character": "TIMON",
+      "text": "Eeeeghh..."
+    },
+    {
+      "character": "TIMON",
+      "text": "All righty, what have we got here?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Jeez, it's a lion! Run, Pumbaa! Move it!"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Hey, Timon. It's just a little lion. Look at him. He's so cute, and all alone! Can we keep him?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Pumbaa, are you nuts? We're talkin’ about a lion. Lions eat guys like us."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "But he's so little."
+    },
+    {
+      "character": "TIMON",
+      "text": "He's gonna get bigger."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Maybe he'll be on our side."
+    },
+    {
+      "character": "TIMON",
+      "text": "A--huh! That's the stupidest thing I ever heard. Maybe he'll b-- ...Hey, I got it! What if he's on our side? You know, havin’ a lion around might not be such a bad idea."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "So we keepin’ 'im?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Of course. Who's the brains in this outfit?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Uhh..."
+    },
+    {
+      "character": "TIMON",
+      "text": "My point exactly. Jeez, I'm fried. Let's get out of here and find some shade."
+    },
+    {
+      "character": "TIMON",
+      "text": "You okay, kid?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I guess so."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "You nearly died."
+    },
+    {
+      "character": "TIMON",
+      "text": "I saved you."
+    },
+    {
+      "character": "TIMON",
+      "text": "Well, uh, Pumbaa helped. A little."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Thanks for your help."
+    },
+    {
+      "character": "TIMON",
+      "text": "Hey, where you goin’?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Nowhere."
+    },
+    {
+      "character": "TIMON",
+      "text": "Gee. He looks blue."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "I'd say brownish-gold."
+    },
+    {
+      "character": "TIMON",
+      "text": "No, no, no, no. I mean he's depressed."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Oh. Kid, what's eatin' ya?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Nothin’; he's at the top of the food chain! (laughs) The food cha-haain!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Ahem. So, where you from...?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Who cares? I can't go back."
+    },
+    {
+      "character": "TIMON",
+      "text": "Ahh. You're an outcast! That's great, so are we."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Whatcha do, kid?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Something terrible. But I don't wanna talk about it."
+    },
+    {
+      "character": "TIMON",
+      "text": "Good. We don't wanna hear about it."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Come on, Timon. Anything we can do?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Not unless you can change the past."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "You know, kid, in times like this my buddy Timon here says, \"You gotta put your behind in your past...\""
+    },
+    {
+      "character": "TIMON",
+      "text": "No. No. No."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "I mean..."
+    },
+    {
+      "character": "TIMON",
+      "text": "Amateur. Lie down before you hurt yourself. It's \"You gotta put your past behind ya.\" Look, kid. Bad things happen, and you can't do anything about it, right?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Right."
+    },
+    {
+      "character": "TIMON",
+      "text": "Wrong! When da world turns its back on you, you turn your back on da world."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Well, that's not what I was taught."
+    },
+    {
+      "character": "TIMON",
+      "text": "Then maybe you need a new lesson. Repeat after me. Hakuna Matata."
+    },
+    {
+      "character": "SIMBA",
+      "text": "What?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Ha-ku-na Ma-ta-ta. It means \"No worries.\""
+    },
+    {
+      "character": "TIMON",
+      "text": "Hakuna Matata What a wonderful phrase."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Hakuna Matata Ain't no passing craze!"
+    },
+    {
+      "character": "TIMON",
+      "text": "It means no worries For the rest of your days"
+    },
+    {
+      "character": "BOTH",
+      "text": "It's our problem-free Philosophy"
+    },
+    {
+      "character": "TIMON",
+      "text": "Hakuna Matata!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hakuna matata?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Yeah, it's our motto."
+    },
+    {
+      "character": "SIMBA",
+      "text": "What's a motto?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Nothin’! What's a motto with you? Ahh ha ha ha..."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "You know, kid-- These two words will solve all your problems."
+    },
+    {
+      "character": "TIMON",
+      "text": "That's right! Take Pumbaa for example."
+    },
+    {
+      "character": "TIMON",
+      "text": "Why, when he was a young warthog..."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "When I was a young wart hoooog!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Very nice."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Thanks!"
+    },
+    {
+      "character": "TIMON",
+      "text": "He found his aroma lacked a certain appeal He could clear the savannah after every meal"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "I'm a sensitive soul, though I seem thick-skinned And it hurt that my friends never stood downwind And oh, the shame"
+    },
+    {
+      "character": "TIMON",
+      "text": "He was ashamed!"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Thoughta changin' my name"
+    },
+    {
+      "character": "TIMON",
+      "text": "Oh, what's in a name?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "And I got downhearted"
+    },
+    {
+      "character": "TIMON",
+      "text": "How did you feel?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Ev'rytime that I..."
+    },
+    {
+      "character": "TIMON",
+      "text": "Pumbaa! Not in front of the kids!"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Oh... sorry."
+    },
+    {
+      "character": "PUMBAA AND TIMON",
+      "text": "Hakuna Matata! What a wonderful phrase Hakuna Matata! Ain't no passing craze"
+    },
+    {
+      "character": "SIMBA",
+      "text": "It means no worries For the rest of your days"
+    },
+    {
+      "character": "TIMON",
+      "text": "Yeah, sing it, kid!"
+    },
+    {
+      "character": "SIMBA AND TIMON",
+      "text": "It's our problem-free........."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "..................... philosophy..."
+    },
+    {
+      "character": "ALL THREE",
+      "text": "Hakuna Matata!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Welcome... to our humble home."
+    },
+    {
+      "character": "SIMBA",
+      "text": "You live here?"
+    },
+    {
+      "character": "TIMON",
+      "text": "We live wherever we want."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Yep. Home is where your rump rests. Heh!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "It's beautiful."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "I'm starved."
+    },
+    {
+      "character": "SIMBA",
+      "text": "I'm so hungry I could eat a whole zebra."
+    },
+    {
+      "character": "TIMON",
+      "text": "Uh-huh. We're fresh outta zebra."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Any antelope?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Nuh-uh."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hippo?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Nope. Listen, kid; if you live wit us, you have to eat like us. Hey, this looks like a good spot to rustle up some grub."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Eww. What's that?"
+    },
+    {
+      "character": "TIMON",
+      "text": "A grub. What's it look like?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Eww. Gross."
+    },
+    {
+      "character": "TIMON",
+      "text": "Mmm. Tastes like chicken."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Slimy, yet satisfying."
+    },
+    {
+      "character": "TIMON",
+      "text": "These are rare delicacies. Mmm. Piquant, with a very pleasant crunch."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "You'll learn to love 'em."
+    },
+    {
+      "character": "TIMON",
+      "text": "I'm tellin’ you, kid, this is the great life. No rules. No responsibilities. Oooh! The little cream-filled kind. And best of all, no worries."
+    },
+    {
+      "character": "TIMON",
+      "text": "Well, kid?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Oh well-- Hakuna Matata."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Slimy, yet satisfying."
+    },
+    {
+      "character": "TIMON",
+      "text": "That's it!"
+    },
+    {
+      "character": "PUMBAA AND TIMON",
+      "text": "Hakuna matata, hakuna matata, hakuna matata."
+    },
+    {
+      "character": "SIMBA",
+      "text": "It means no worries For the rest of your days."
+    },
+    {
+      "character": "ALL THREE",
+      "text": "It's our problem-free Philosophy"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hakuna Matata"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Nobody knows The trouble I've seen Nobody knows My sorrow..."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh Zazu, do lighten up."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Nobody knows The trouble I've seen Nobody knows My sorrow..."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh Zazu, do lighten up. Sing something with a little... bounce in it."
+    },
+    {
+      "character": "ZAZU",
+      "text": "It's a small world after all..."
+    },
+    {
+      "character": "SCAR",
+      "text": "No! No. Anything but that!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "I've got a lovely bunch of coconuts (diddly-dee-dee) There they are a-standing in a row... {Scar is enjoying this and starts to join in}"
+    },
+    {
+      "character": "ZAZU AND SCAR",
+      "text": "Big ones, small ones, some as big as your head..."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Oh... I would never have had to do this for Mufasa."
+    },
+    {
+      "character": "SCAR",
+      "text": "What? What did you say?"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Oh, nothing!"
+    },
+    {
+      "character": "SCAR",
+      "text": "You know the law: Never, ever mention THAT name in my presence. I... am... the KING !"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Yes, sire. You ARE the king. I... I... Well, I only mentioned it to illustrate the differences in your royal managerial approaches. {Nervous laugh}"
+    },
+    {
+      "character": "BANZAI",
+      "text": "Hey Boss!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, what is it this time?"
+    },
+    {
+      "character": "BANZAI",
+      "text": "We got a bone to pick with you."
+    },
+    {
+      "character": "SHENZI",
+      "text": "Scar, there's no food, no water..."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Yeah, it's dinner time, and we ain't got no stinkin' entrees."
+    },
+    {
+      "character": "SCAR",
+      "text": "It's the lionesses' job to do the hunting... {makes helpless gesture}"
+    },
+    {
+      "character": "BANZAI",
+      "text": "Yeah, but they won't go hunt."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh... eat Zazu."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Oh, you wouldn't want me! I'd be so tough and gamy and... eeww..."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, Zazu, don't be ridiculous. All you need is a little garnish."
+    },
+    {
+      "character": "BANZAI",
+      "text": "I thought things were bad under Mufasa."
+    },
+    {
+      "character": "SCAR",
+      "text": "What did you say?"
+    },
+    {
+      "character": "BANZAI",
+      "text": "I said Muf..."
+    },
+    {
+      "character": "BANZAI",
+      "text": "I said, uh... \"Qué pasa?\""
+    },
+    {
+      "character": "SCAR",
+      "text": "Good. Now get out."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Mm... yeah, but - we're still hungry."
+    },
+    {
+      "character": "SCAR",
+      "text": "Out!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Whoa. Nice one, Simba."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Thanks. Man, I'm stuffed."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Me too. I ate like a pig."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Pumbaa - you are a pig."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Oh. Right."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Timon?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Yeah?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Ever wonder what those sparkly dots are up there?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Pumbaa. I don't wonder; I know."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Oh. What are they?"
+    },
+    {
+      "character": "TIMON",
+      "text": "They're fireflies. Fireflies that uh... got stuck up on that big... bluish-black... thing."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Oh. Gee. I always thought that they were balls of gas burning billions of miles away."
+    },
+    {
+      "character": "TIMON",
+      "text": "Pumbaa, wit you, everything's gas."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Simba, what do you think?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Well, I don't know..."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Aw come on. Give, give, give .. Well, come on, Simba, we told you ours... pleeeease?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Come on, come on... give, give.."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Well, somebody once told me that the great kings of the past are up there, watching over us."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Really?"
+    },
+    {
+      "character": "TIMON",
+      "text": "You mean a bunch of royal dead guys are watchin’ us? {tries to keep composure, then...} Pbbb."
+    },
+    {
+      "character": "TIMON",
+      "text": "Who told you somethin’ like that? What mook made that up?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yeah. Pretty dumb, huh?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Aw, you're killin’ me, Simba."
+    },
+    {
+      "character": "TIMON",
+      "text": "Was it somethin’ I said?"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Simba? He's- he's alive? He he- he's alive! {He laughs}"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "It is time!"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Ohi'mbube Ohi'mbube {etc.....}"
+    },
+    {
+      "character": "TIMON",
+      "text": "In the jungle The mighty jungle The lion sleeps tonight. In the jungle The mighty jungle"
+    },
+    {
+      "character": "TIMON",
+      "text": "The lion sleeps... {Speaking} I can't hear you, buddy, back me up!"
+    },
+    {
+      "character": "TIMON",
+      "text": "A-WEEEE-ee-EE-ee ba-Pum-ba-bum-ba-way"
+    },
+    {
+      "character": "TIMON",
+      "text": "A-Pumbaa? Pumbaa?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Timon? {Looks around, then shrugs}"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "YEEEEAAAHHH!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Pumbaa?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Pumbaa! Pumbaa! Hey, what's goin' on?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "SHE'S GONNA EAT ME!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Huh?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Whoa! ... Jeez! Why do I always have to save your AAAAAA!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Don't worry, buddy. I'm here for ya. Everything's gonna be okay. Get her! Bite her head! Go for the jugular. The jugular! See, I told you he'd come in handy."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Nala?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Is it really you?"
+    },
+    {
+      "character": "NALA",
+      "text": "Who are you?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "It's me. Simba."
+    },
+    {
+      "character": "NALA",
+      "text": "Simba? {Pause for realization} Whoa!"
+    },
+    {
+      "character": "NALA",
+      "text": "Well how did you.. where did you come from... it's great to see YOU... (etc)"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Aaah! How did you... who... wow... this is cool... it's great to see ya..."
+    },
+    {
+      "character": "TIMON",
+      "text": "Hey, what's goin' on here?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "What are you doing here?"
+    },
+    {
+      "character": "NALA",
+      "text": "What do you mean, \"What am I doing here?\" What are you doing here?"
+    },
+    {
+      "character": "TIMON",
+      "text": "HEY! WHAT'S GOIN' ON HERE!?!?!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Timon, this is Nala. She's my best friend!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Friend?!?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yeah. Hey, Pumbaa, come over here."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Nala, this is Pumbaa. Pumbaa, Nala."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Pleased to make your acquaintance."
+    },
+    {
+      "character": "NALA",
+      "text": "The pleasure's all mine."
+    },
+    {
+      "character": "TIMON",
+      "text": "How do you do... Whoa! Whoa. Time out. Lemme get this straight. You know her. She knows you. But she wants to eat him . And everybody's... okay with this? DID I MISS SOMETHING?!?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Relax, Timon."
+    },
+    {
+      "character": "NALA",
+      "text": "Wait till everybody finds out you've been here all this time! And your mother... what will she think?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "She doesn't have to know. Nobody has to know."
+    },
+    {
+      "character": "NALA",
+      "text": "Well, of course they do. Everyone thinks you're dead."
+    },
+    {
+      "character": "SIMBA",
+      "text": "They do?"
+    },
+    {
+      "character": "NALA",
+      "text": "Yeah. Scar told us about the stampede."
+    },
+    {
+      "character": "SIMBA",
+      "text": "He did? Well... {beginning to see something} what else did he tell you?"
+    },
+    {
+      "character": "NALA",
+      "text": "What else matters? You're alive. and that means... you're the king."
+    },
+    {
+      "character": "TIMON",
+      "text": "King? Pbbb. Lady, have you got your lions crossed."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "King? Your Majesty! I gravel at your feet. {Noisily kisses Simba's paw}"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Stop it."
+    },
+    {
+      "character": "TIMON",
+      "text": "It's not \"gravel.\" It's \"grovel.\" And DON'T-- he's not the king. Are ya?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "No."
+    },
+    {
+      "character": "NALA",
+      "text": "Simba?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "No, I'm not the king. Maybe I was gonna be, but... that was a long time ago."
+    },
+    {
+      "character": "TIMON",
+      "text": "Let me get this straight. You're the king? And you never told us?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Look, I'm still the same guy."
+    },
+    {
+      "character": "TIMON",
+      "text": "But with power!"
+    },
+    {
+      "character": "NALA",
+      "text": "Could you guys... excuse us for a few minutes?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Hey, {taps Pumbaa} whatever she has to say, she can say in front of us. Right, Simba?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hmm. Maybe you'd better go."
+    },
+    {
+      "character": "TIMON",
+      "text": "It starts. You think you know a guy..."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Timon and Pumbaa. You learn to love 'em."
+    },
+    {
+      "character": "SIMBA",
+      "text": "What? ...What is it?"
+    },
+    {
+      "character": "NALA",
+      "text": "It's like you're back from the dead. You don't know how much this will mean to everyone. ...What it means to me."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hey, it's okay."
+    },
+    {
+      "character": "NALA",
+      "text": "I've really missed you."
+    },
+    {
+      "character": "SIMBA",
+      "text": "I've missed you too."
+    },
+    {
+      "character": "TIMON",
+      "text": "I tell ya, Pumbaa, this stinks."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Oh. Sorry."
+    },
+    {
+      "character": "TIMON",
+      "text": "Not you. Them! Him. Her. Alone."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "What's wrong with that?"
+    },
+    {
+      "character": "TIMON",
+      "text": "I can see what's happening"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "What?"
+    },
+    {
+      "character": "TIMON",
+      "text": "And they don't have a clue"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Who?"
+    },
+    {
+      "character": "TIMON",
+      "text": "They'll fall in love and here's the bottom line Our trio's down to two."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Oh."
+    },
+    {
+      "character": "TIMON",
+      "text": "Ze sweet caress of twilight There's magic everywhere And with all this romantic atmosphere Disaster's in the air"
+    },
+    {
+      "character": "SIMBA",
+      "text": "So many things to tell her But how to make her see The truth about my past? Impossible! She'd turn away from me."
+    },
+    {
+      "character": "NALA",
+      "text": "He's holding back, he's hiding But what? I can't decide Why won't he be the king I know he is? The king I see inside?"
+    },
+    {
+      "character": "TIMON",
+      "text": "And if he falls in love tonight"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "His carefree days with us are history -"
+    },
+    {
+      "character": "TIMON AND PUMBAA",
+      "text": "In short, our pal is doomed."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Isn't this a great place?"
+    },
+    {
+      "character": "NALA",
+      "text": "It is beautiful. But I don't understand something. You've been alive all this time. Why didn't you come back to Pride Rock?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Well, I just needed to... get out on my own. Live my own life. And I did. And it's great."
+    },
+    {
+      "character": "NALA",
+      "text": "We've really needed you at home."
+    },
+    {
+      "character": "SIMBA",
+      "text": "No one needs me."
+    },
+    {
+      "character": "NALA",
+      "text": "Yes, we do! You're the king."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Nala, we've been through this. I'm not the king. Scar is."
+    },
+    {
+      "character": "NALA",
+      "text": "Simba, he let the hyenas take over the Pride Lands."
+    },
+    {
+      "character": "SIMBA",
+      "text": "What?"
+    },
+    {
+      "character": "NALA",
+      "text": "Everything's destroyed. There's no food. No water. Simba, if you don't do something soon, everyone will starve."
+    },
+    {
+      "character": "SIMBA",
+      "text": "I can't go back."
+    },
+    {
+      "character": "NALA",
+      "text": "Why?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "You wouldn't understand."
+    },
+    {
+      "character": "NALA",
+      "text": "What wouldn't I understand?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "No, no, no. It doesn't matter. Hakuna Matata."
+    },
+    {
+      "character": "NALA",
+      "text": "What?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "...And there's nothing you can do about it. So why worry?"
+    },
+    {
+      "character": "NALA",
+      "text": "Because it's your responsibility!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Well, what about you? YOU left."
+    },
+    {
+      "character": "NALA",
+      "text": "I left to find help! And I found YOU. Don't you understand? You're our only hope."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Sorry."
+    },
+    {
+      "character": "NALA",
+      "text": "What's happened to you? You're not the Simba I remember."
+    },
+    {
+      "character": "SIMBA",
+      "text": "You're right. I'm not. Now are you satisfied?"
+    },
+    {
+      "character": "NALA",
+      "text": "No, just disappointed."
+    },
+    {
+      "character": "SIMBA",
+      "text": "You know, you're starting to sound like my father."
+    },
+    {
+      "character": "NALA",
+      "text": "Good. At least one of us does."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Listen, you think you can just show up and tell me how to live my life? You don't even know what I've been through!"
+    },
+    {
+      "character": "NALA",
+      "text": "I would if you would just tell me!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "You're right. I'm not. Now are you satisfied?"
+    },
+    {
+      "character": "NALA",
+      "text": "No, just disappointed."
+    },
+    {
+      "character": "SIMBA",
+      "text": "You know, you're starting to sound like my father. {Walking away again}"
+    },
+    {
+      "character": "NALA",
+      "text": "Good. At least one of us does."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Listen, you think you can just show up and tell me how to live my life? You don't even know what I've been through!"
+    },
+    {
+      "character": "NALA",
+      "text": "I would if you would just tell me!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Forget it!"
+    },
+    {
+      "character": "NALA",
+      "text": "Fine!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "She's wrong. I can't go back. What would it prove, anyway? It won't change anything. You can't change the past. {He looks up at the stars.} You said you'd always be there for me! But you're not. And it's because of me. It's my fault. It's my fault."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Come on, will you cut it out? {Rafiki, laughing, is doing random acrobatics in the trees nearby.}"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Can't cut it out. It'll grow right back! {laughs}"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Creepy little monkey. Will you stop following me? Who are you?"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "The question is: Who... are you?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I thought I knew. Now I'm not so sure."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Well, I know who you are. Shh. Come here. It's a secret."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Enough already. what's that supposed to mean, anyway?"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "It means you are a baboon - and I'm not. {laughs}"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I think... you're a little confused."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Wrong. I'm not the one who's confused; you don't even know who you are."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Oh, and I suppose you know?"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Sure do; you're Mufasa's boy. ...Bye!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hey, wait!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "You knew my father?"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Correction-- I know your father."
+    },
+    {
+      "character": "SIMBA",
+      "text": "I hate to tell you this, but... he died. A long time ago."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Nope. Wrong again! Ha ha hah! He's alive! And I'll show him to you. You follow old Rafiki, he knows the way. Come on!"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Don't dawdle. Hurry up!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hey, whoa. Wait, wait."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Come on, come on."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Would you slow down?"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "STOP!"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Look..down…there."
+    },
+    {
+      "character": "SIMBA",
+      "text": "That's not my father. That's just my reflection."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "No. Look…harder."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "You see, he lives in you."
+    },
+    {
+      "character": "MUFASA’S SPIRIT",
+      "text": "Simba . . ."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Father?"
+    },
+    {
+      "character": "MUFASA’S SPIRIT",
+      "text": "Simba, you have forgotten me."
+    },
+    {
+      "character": "SIMBA",
+      "text": "No. How could I?"
+    },
+    {
+      "character": "MUFASA’S SPIRIT",
+      "text": "You have forgotten who you are and so have forgotten me. Look inside yourself, Simba. You are more than what you have become. You must take your place in the Circle of Life."
+    },
+    {
+      "character": "SIMBA",
+      "text": "How can I go back? I'm not who I used to be."
+    },
+    {
+      "character": "MUFASA’S SPIRIT",
+      "text": "Remember who you are. You are my son, and the one true king."
+    },
+    {
+      "character": "MUFASA’S SPIRIT",
+      "text": "Remember who you are."
+    },
+    {
+      "character": "SIMBA",
+      "text": "No. Please! Don't leave me."
+    },
+    {
+      "character": "MUFASA’S SPIRIT",
+      "text": "Remember..."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Father!"
+    },
+    {
+      "character": "MUFASA’S SPIRIT",
+      "text": "Remember..."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Don't leave me."
+    },
+    {
+      "character": "MUFASA’S SPIRIT",
+      "text": "Remember…"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "What was THAT ? {laughs} De weather-- Pbbbah! Very peculiar. Don't you think?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yeah. Looks like the winds are changing."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Ahh. Change is good."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yeah, but it's not easy. I know what I have to do. But, going back means I'll have to face my past. I've been running from it for so long."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Ow! Jeez-- What was that for?"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "It doesn't matter; it's in the past! {laughs}"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yeah, but it still hurts."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Oh yes, the past can hurt. But the way I see it, you can either run from it, or... learn from it."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Hah, you see! So what are you going to do?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "First, I'm going to take your stick."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "No, no, no, no! Not the stick!"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Hey, where are you going?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I'm goin’ back!"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Good! Go on! Get out of here! {laughs, hoots, n' hollers. As he holds his staff above his head, a few shooting stars zing across the sky. Music rises into celebratory \"Busa\" theme:}"
+    },
+    {
+      "character": "NALA",
+      "text": "Hey. Hey, wake up."
+    },
+    {
+      "character": "NALA",
+      "text": "It's OK. Just, Whoa, whoa. It's OK. It's ME."
+    },
+    {
+      "character": "TIMON",
+      "text": "Don't ever do that again! Carnivores, oy!"
+    },
+    {
+      "character": "NALA",
+      "text": "Have you guys seen Simba?"
+    },
+    {
+      "character": "TIMON",
+      "text": "I thought he was with you."
+    },
+    {
+      "character": "NALA",
+      "text": "He was, but now I can't find him. Where is he?"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Ho, ho, ho, ho. You won't find him here. Ha ha. The king... has returned."
+    },
+    {
+      "character": "NALA",
+      "text": "I can't believe it. He's gone back."
+    },
+    {
+      "character": "TIMON",
+      "text": "Gone back? What do you mean? Hey! What's goin' on here? Who's the monkey?"
+    },
+    {
+      "character": "NALA",
+      "text": "Simba's gone to challenge Scar."
+    },
+    {
+      "character": "TIMON",
+      "text": "Who?"
+    },
+    {
+      "character": "NALA",
+      "text": "Scar."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Who's got a scar?"
+    },
+    {
+      "character": "NALA",
+      "text": "No, no, no. It's his uncle."
+    },
+    {
+      "character": "TIMON",
+      "text": "The monkey's his uncle?"
+    },
+    {
+      "character": "NALA",
+      "text": "No! Simba's gone back to challenge his uncle to take his place as king."
+    },
+    {
+      "character": "TIMON AND PUMBAA",
+      "text": "Ohhh."
+    },
+    {
+      "character": "NALA",
+      "text": "Simba, wait up! ...It's awful, isn't it?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I didn't wanna believe you."
+    },
+    {
+      "character": "NALA",
+      "text": "What made you come back?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I finally got some sense knocked into me. And I've got the bump to prove it. Besides, this is my kingdom. If I don't fight for it, who will?"
+    },
+    {
+      "character": "NALA",
+      "text": "I will."
+    },
+    {
+      "character": "SIMBA",
+      "text": "It's gonna be dangerous."
+    },
+    {
+      "character": "NALA",
+      "text": "Danger? Ha! I laugh in the face of danger. Ha ha ha ha."
+    },
+    {
+      "character": "TIMON",
+      "text": "I see nothing funny about this."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Timon? Pumbaa? What are you doing here?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "At your service, my liege."
+    },
+    {
+      "character": "TIMON",
+      "text": "Uh. We're gonna fight your uncle... for this?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yes, Timon; this is my home."
+    },
+    {
+      "character": "TIMON",
+      "text": "Eeh. Talk about your fixer-upper. Well, Simba, if it's important to you, we're with you to the end."
+    },
+    {
+      "character": "TIMON",
+      "text": "Hyenas. I hate hyenas. So what's your plan for getting past those guys?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Live bait."
+    },
+    {
+      "character": "TIMON",
+      "text": "Good idea. Hey!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Come on, Timon-- you guys have to create a diversion."
+    },
+    {
+      "character": "TIMON",
+      "text": "What do you want me to do? Dress in drag and do the hula?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Luau! If you're hungry for a hunk of fat and juicy meat Eat my buddy Pumbaa here because he is a treat Come on down and dine On this tasty swine All you have to do is get in line Aaaare you achin' Foooor some bacon? Heeee's a big pig You could be a big pig too. Oy!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Nala, you find my mother and rally the lionesses. I'll look for Scar."
+    },
+    {
+      "character": "SCAR",
+      "text": "SARABI!!"
+    },
+    {
+      "character": "SARABI",
+      "text": "Yes, Scar?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Where is your hunting party? They are not doing their job."
+    },
+    {
+      "character": "SARABI",
+      "text": "Scar, there is no food. The herds have moved on."
+    },
+    {
+      "character": "SCAR",
+      "text": "No. You're just not looking hard enough."
+    },
+    {
+      "character": "SARABI",
+      "text": "It's over, Scar. There is nothing left. We have only one choice. We must leave Pride Rock."
+    },
+    {
+      "character": "SCAR",
+      "text": "We're not going anywhere."
+    },
+    {
+      "character": "SARABI",
+      "text": "Then you have sentenced us to death."
+    },
+    {
+      "character": "SCAR",
+      "text": "Then so be it."
+    },
+    {
+      "character": "SARABI",
+      "text": "You can't do that."
+    },
+    {
+      "character": "SCAR",
+      "text": "I'm the king. I can do whatever I want."
+    },
+    {
+      "character": "SARABI",
+      "text": "If you were half the king Mufasa was you would’ve never -"
+    },
+    {
+      "character": "SCAR",
+      "text": "I'm ten times the king Mufasa was!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Mufasa? No. You're dead."
+    },
+    {
+      "character": "SARABI",
+      "text": "Mufasa?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "No. It's me."
+    },
+    {
+      "character": "SARABI",
+      "text": "Simba? You're alive? How can that be?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "It doesn't matter; I'm home."
+    },
+    {
+      "character": "SCAR",
+      "text": "Simba...? Simba! I'm a little surprised to see you, alive..."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Give me one good reason why I shouldn't rip you apart."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, Simba, you must understand. The pressures of ruling a kingdom..."
+    },
+    {
+      "character": "SIMBA",
+      "text": "...Are no longer yours. Step down, Scar."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, oh, ye - Well, I would, heh, naturally, heh - however, there is one little problem. You see them? They think I’m king."
+    },
+    {
+      "character": "NALA",
+      "text": "Well, we don't. Simba is the rightful king."
+    },
+    {
+      "character": "SIMBA",
+      "text": "The choice is yours, Scar. Either step down or fight."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, must it all end in violence? I'd hate to be responsible for the death of a family member. Wouldn't you agree, Simba?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "That's not gonna work, Scar. I've put it behind me."
+    },
+    {
+      "character": "SCAR",
+      "text": "Eh, but what about your faithful subjects? Have they put it behind them?"
+    },
+    {
+      "character": "NALA",
+      "text": "Simba, what is he talking about?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Ahh, so you haven't told them your little secret. Well, Simba, now's your chance to tell them. Tell them who is responsible for Mufasa's death!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I am."
+    },
+    {
+      "character": "SARABI",
+      "text": "It's not true. Tell me it's not true."
+    },
+    {
+      "character": "SIMBA",
+      "text": "It's true."
+    },
+    {
+      "character": "SCAR",
+      "text": "You see! He admits it! Murderer!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "No. It was an accident."
+    },
+    {
+      "character": "SCAR",
+      "text": "If it weren't for you, Mufasa would still be alive. It's your fault he's dead; do you deny it?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "No."
+    },
+    {
+      "character": "SCAR",
+      "text": "Then... you're... guilty."
+    },
+    {
+      "character": "SIMBA",
+      "text": "No. I'm not a murderer."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, Simba, you're in trouble again. But this time, Daddy isn't here to save you. And now EVERYONE.. KNOWS... WHY!"
+    },
+    {
+      "character": "NALA",
+      "text": "Simba!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Now this looks familiar. Hmm. Where have I seen this before? Let me think. Hmm... hmm. Oh yes, I remember. This is just the way your father looked before he died."
+    },
+    {
+      "character": "SCAR",
+      "text": "And here's my little secret: I…killed…Mufasa!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Noooooo! ...Murderer!"
+    },
+    {
+      "character": "SCAR",
+      "text": "No, Simba, please."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Tell them the truth."
+    },
+    {
+      "character": "SCAR",
+      "text": "Truth? But truth is in the eye of the behold - llgkkk!"
+    },
+    {
+      "character": "SCAR",
+      "text": "All right. All right. (quietly, venomously) I did it."
+    },
+    {
+      "character": "SIMBA",
+      "text": "So they can hear you."
+    },
+    {
+      "character": "SCAR",
+      "text": "I killed Mufasa!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Noooooo! ...Murderer!"
+    },
+    {
+      "character": "SCAR",
+      "text": "No, Simba, please."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Tell them the truth."
+    },
+    {
+      "character": "SCAR",
+      "text": "Truth? But truth is in the eye of the behold - llgkkk!"
+    },
+    {
+      "character": "SCAR",
+      "text": "All right. All right. (quietly, venomously) I did it."
+    },
+    {
+      "character": "SIMBA",
+      "text": "So they can hear you."
+    },
+    {
+      "character": "SCAR",
+      "text": "I killed Mufasa!"
+    },
+    {
+      "character": "TIMON AND PUMBAA",
+      "text": "Heeeyyyy-yaaaaah!"
+    },
+    {
+      "character": "TIMON",
+      "text": "'Scuse me. Pardon me. Comin' through. Hot stuff. Whoo!"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "WwwA! Hozah! Hazoww! Yaa! Yah! hhyEEOOWww!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Let me out! Let me out!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Let me in! Let me in! ...Ple-he-hease don't eat me."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Drop ‘im!"
+    },
+    {
+      "character": "BANZAI",
+      "text": "Hey, who's the pig?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Are you talkin’ to me?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Uh oh. They called him a pig."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Are you talking to me?!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Shouldn't 'a done that."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "ARE YOU TALKING TO ME?!?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Now they're in for it."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "They CALL me... MIIISTER PIG! AAAAAHHH..."
+    },
+    {
+      "character": "TIMON",
+      "text": "Take that! And that!"
+    },
+    {
+      "character": "BANZAI",
+      "text": "Ow ow ow ow ow ow ow ..."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Take that! And that! You yellow belly..."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Take that, you stupid..."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Murderer."
+    },
+    {
+      "character": "SCAR",
+      "text": "Simba, Simba. Please. Please have mercy. I beg you."
+    },
+    {
+      "character": "SIMBA",
+      "text": "You don't deserve to live."
+    },
+    {
+      "character": "SCAR",
+      "text": "But, Simba, I am... ah... family. It's the hyenas who are the real enemy. It was their fault - it was their idea!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Why should I believe you? Everything you ever told me was a lie."
+    },
+    {
+      "character": "SCAR",
+      "text": "What are you going to do? You wouldn't kill your own Uncle...?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "No, Scar. I'm not like you."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, Simba, thank you. You are truly noble. I'll make it up to you, I promise. How can I, ah, prove myself to you? Tell me; I mean, anything."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Run. Run away, Scar. And never return."
+    },
+    {
+      "character": "SCAR",
+      "text": "Yes. Of course. As you wish... ...your Majesty!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Ahh, my friends."
+    },
+    {
+      "character": "SHENZI",
+      "text": "(laughs) Friends? I thought he said we were the enemy!"
+    },
+    {
+      "character": "BANZAI",
+      "text": "Yeah, that's what I heard."
+    },
+    {
+      "character": "BANZAI AND SHENZI",
+      "text": "Ed?"
+    },
+    {
+      "character": "SCAR",
+      "text": "No. (stammers) Let me explain. No. You don't understand. No! I didn't mean for... No, No! Look, I m sorry I called you... No! No!"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "It is time."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Remember."
+    },
+    {
+      "character": "LEBO M.",
+      "text": "Se-fi-le Baba ti-tabo Maye babo Busa lomhlaba"
+    },
+    {
+      "character": "LEBO M.",
+      "text": "He! Se-fi-le Busa Simba! Busa Simba! Ubuse ngo xolo Ubuse ngo thando Ubuse ngo xolo Ubuse ngo thando Ubuse ngo xolo"
+    },
+    {
+      "character": "LEBO M.",
+      "text": "(ngw' enamabala-wa)"
+    },
+    {
+      "character": "FULL CHORUS",
+      "text": "Till we find our place On the path unwinding In the Circle The Circle of Life Circle of... Liiife"
+    },
+    {
+      "character": "ELTON JOHN",
+      "text": "There's a calm surrender To the rush of day When the heat of a rolling wind Can be turned away An enchanted moment And it sees me through It's enough for this restless warrior Just to be with you And can you feel the love tonight? It is where we are It's enough for this wide-eyed wanderer That we got this far And can you feel the love tonight? How it's laid to rest It's enough to make kings and vagabonds Believe the very best There's a time for everyone If they only learn That the twisting kaleidoscope Moves us all in turn There's a rhyme and reason To the wild outdoors When the heart of this star-crossed voyager Beats in time with yours And can you feel the love tonight? It is where we are It's enough for this wide-eyed wanderer That we got this far And can you feel the love tonight? How it's laid to rest It's enough to make kings and vagabonds Believe the very best It's enough to make kings and vagabonds Believe the very best"
+    },
+    {
+      "character": "LION",
+      "text": "*roars*"
+    },
+    {
+      "character": "LEBO M",
+      "text": "♪ Nants ingonyama bagithi baba. ♪"
+    },
+    {
+      "character": "ENSEMBLE",
+      "text": "♪ Sithi uhm ingonyama. ♪"
+    },
+    {
+      "character": "LEBO M",
+      "text": "♪ Ingonyama. ♪"
+    },
+    {
+      "character": "LEBO M",
+      "text": "♪ Nants ingonyama bagithi baba. ♪"
+    },
+    {
+      "character": "ENSEMBLE",
+      "text": "♪ Sithi uhm ingonyama. ♪"
+    },
+    {
+      "character": "ENSEMBLE",
+      "text": "♪ Ingonyama. ♪"
+    },
+    {
+      "character": "LEBO M",
+      "text": "♪ Siyo nqoba. ♪"
+    },
+    {
+      "character": "ENSEMBLE",
+      "text": "♪ Ingonyama. ♪"
+    },
+    {
+      "character": "BIRDS",
+      "text": "*call*"
+    },
+    {
+      "character": "ENSEMBLE",
+      "text": "♪ Ingonyama nengw' enamabala. Ingonyama nengw' enamabala. ♪"
+    },
+    {
+      "character": "ANIMAL",
+      "text": "*calls*"
+    },
+    {
+      "character": "ENSEMBLE",
+      "text": "♪ Ingonyama nengw' enamabala. ♪"
+    },
+    {
+      "character": "FLAMINGOS",
+      "text": "*honk*"
+    },
+    {
+      "character": "ENSEMBLE",
+      "text": "♪ Ingonyama nengw' enamabala. (Sithi uhm.) Ingonyama nengw' enamabala. ♪"
+    },
+    {
+      "character": "SPRINGBOK",
+      "text": "*nicker*"
+    },
+    {
+      "character": "ENSEMBLE",
+      "text": "♪ Ingonyama nengw' enamabala. ♪"
+    },
+    {
+      "character": "CARMEN TWILLIE",
+      "text": "♪ From the day we arrive on the planet and, blinking, step into the sun, there's more to see than can ever be seen, more to do than can ever be done. There's far too much to take in here... ♪"
+    },
+    {
+      "character": "GUINEA FOWL",
+      "text": "*chitter*"
+    },
+    {
+      "character": "CARMEN TWILLIE",
+      "text": "♪ ...more to find than can ever be found. ♪"
+    },
+    {
+      "character": "ELEPHANTS",
+      "text": "*rumble*"
+    },
+    {
+      "character": "GUINEA FOWL",
+      "text": "*chitters frantically*"
+    },
+    {
+      "character": "CARMEN TWILLIE",
+      "text": "♪ But the sun rolling high through the sapphire sky keeps great and small on the endless round. It's the Circle of Life, and it moves us all, through despair and hope, through faith and love, 'til we find our place ♪"
+    },
+    {
+      "character": "CARMEN TWILLIE",
+      "text": "♪ on the path unwinding, in the Circle, the Circle of Life. ♪"
+    },
+    {
+      "character": "MUFASA AND SARABI",
+      "text": "*purr* *purr* *purr*"
+    },
+    {
+      "character": "SIMBA",
+      "text": "*sneezes*"
+    },
+    {
+      "character": "CARMEN TWILLIE",
+      "text": "♪ It's the Circle of Life... ♪"
+    },
+    {
+      "character": "ANTELOPE",
+      "text": "*bray*"
+    },
+    {
+      "character": "ELEPHANTS",
+      "text": "*trumpet*"
+    },
+    {
+      "character": "CARMEN TWILLIE",
+      "text": "♪ ...and it moves us all... ♪"
+    },
+    {
+      "character": "MONKEYS",
+      "text": "*screech* *screech*"
+    },
+    {
+      "character": "SCAR",
+      "text": "Life's not fair, is it? You see, I... Well, I shall never be king."
+    },
+    {
+      "character": "SCAR",
+      "text": "Huh."
+    },
+    {
+      "character": "MOUSE",
+      "text": "*squeaks*"
+    },
+    {
+      "character": "SCAR",
+      "text": "And you... ...shall never see the light of another day. Hmm, hmm. Adieu."
+    },
+    {
+      "character": "MOUSE",
+      "text": "*squeaks*"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Didn't your mother ever tell you not to play with your food?"
+    },
+    {
+      "character": "SCAR",
+      "text": "*sighs* What do you want?"
+    },
+    {
+      "character": "ZAZU",
+      "text": "I'm here to announce that King Mufasa's on his way, so you'd better have a good excuse for missing the ceremony this morning."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, now, look, Zazu. You've made me lose my lunch."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Ha! You'll lose more than that when the king gets through with you. He's as mad as a hippo with a hernia."
+    },
+    {
+      "character": "SCAR",
+      "text": "Ooh. I quiver with fear!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Now, Scar, don't look at me that way. Help!"
+    },
+    {
+      "character": "SCAR",
+      "text": "*roars*"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Scar?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Mm-hmm?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Drop him."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Impeccable timing, Your Majesty."
+    },
+    {
+      "character": "SCAR",
+      "text": "*gags*"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Ugh."
+    },
+    {
+      "character": "SCAR",
+      "text": "Why, if it isn't my big brother descending from on high to mingle with the commoners."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Sarabi and I didn't see you at the presentation of Simba."
+    },
+    {
+      "character": "SCAR",
+      "text": "That was today? Oh, I feel simply awful! Must've slipped my mind."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Yes. Well, as slippery as your mind is, you should've been first in line!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Well, I was first in line... until the little hairball was born."
+    },
+    {
+      "character": "MUFASA",
+      "text": "That \"hairball\" is my son and your future king."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, I shall practice my curtsy."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Don't turn your back on me, Scar."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, no, Mufasa. Perhaps you shouldn't turn your back on me."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Is that a challenge?!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Temper, temper. I wouldn't dream of challenging you."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Pity. Why not?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Well, as far as brains go, I got the lion's share, but when it comes to brute strength... I'm afraid I am at the shallow end of the gene pool."
+    },
+    {
+      "character": "ZAZU",
+      "text": "There's one in every family, sire. Two in mine, actually. And they always manage to ruin special occasions."
+    },
+    {
+      "character": "MUFASA",
+      "text": "What am I going to do with him?"
+    },
+    {
+      "character": "ZAZU",
+      "text": "He'd make a very handsome throw rug."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Zazu!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "And just think, whenever he gets dirty, you could take him out and beat him!"
+    },
+    {
+      "character": "MUFASA",
+      "text": "*chuckles*"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "*mutters* Ah. Hmm. *laughs* Simba. *chuckles*"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Dad! Dad! Come on, Dad."
+    },
+    {
+      "character": "LIONESS 1",
+      "text": "Oof!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Sorry!"
+    },
+    {
+      "character": "LIONESS 2",
+      "text": "Oof!"
+    },
+    {
+      "character": "MUFASA",
+      "text": "*snores*"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Dad! Dad."
+    },
+    {
+      "character": "SARABI",
+      "text": "Your son is awake."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Dad, Dad, Dad, Dad, Dad, Dad, Dad, Dad, Dad, Dad."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Before sunrise, he's your son."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Dad! Come on, Dad. *grunts* Whoa! *grunts* You promised!"
+    },
+    {
+      "character": "MUFASA",
+      "text": "*groans* Okay, okay. I'm up, I'm up."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yeah!"
+    },
+    {
+      "character": "MUFASA",
+      "text": "*yawns*"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Look, Simba. Everything the light touches is our kingdom."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Wow."
+    },
+    {
+      "character": "MUFASA",
+      "text": "A king's time as ruler rises and falls like the sun. One day, Simba, the sun will set on my time here and will rise with you as the new king."
+    },
+    {
+      "character": "SIMBA",
+      "text": "And this'll all be mi"
+    },
+    {
+      "character": "SIMBA",
+      "text": "And this'll all be mine?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Everything."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Everything the light touches."
+    },
+    {
+      "character": "SIMBA",
+      "text": "What about that shadowy place?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "That's beyond our borders."
+    },
+    {
+      "character": "MUFASA",
+      "text": "You must never go there, Simba."
+    },
+    {
+      "character": "SIMBA",
+      "text": "But I thought a king can do whatever he wants."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Oh, there's more to being king than getting your way all the time."
+    },
+    {
+      "character": "SIMBA",
+      "text": "There's more?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Simba..."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Everything you see exists together in a delicate balance."
+    },
+    {
+      "character": "MUFASA",
+      "text": "As king, you need to understand that balance and respect all the creatures, from the crawling ant to the leaping antelope."
+    },
+    {
+      "character": "SIMBA",
+      "text": "But, Dad, don't we eat the antelope?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Yes, Simba, but let me explain."
+    },
+    {
+      "character": "MUFASA",
+      "text": "When we die, our bodies become the grass, and the antelope eat the grass."
+    },
+    {
+      "character": "MUFASA",
+      "text": "And so, we are all connected in the great Circle of Life."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Good morning, sire!"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Good morning, Zazu."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Checking in... with the morning report."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Fire away."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Well! The buzz from the bees is that the leopards are in a bit of a spot..."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Oh, really?"
+    },
+    {
+      "character": "ZAZU",
+      "text": "... And the baboons are going ape over this. Of course, the giraffes are acting like they're above it all..."
+    },
+    {
+      "character": "MUFASA",
+      "text": "What are you doing, son?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Pouncing."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Let an old pro show you how it's done."
+    },
+    {
+      "character": "ZAZU",
+      "text": "...The tick birds are pecking on the elephants. I told the elephants to forget it, but they can't..."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Zazu, would you turn around?"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Yes, sire."
+    },
+    {
+      "character": "ZAZU",
+      "text": "The cheetahs are hard up, but I always say..."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Stay low to the ground."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Cheetahs never prosper..."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Okay, stay low to the ground, right... yeah..."
+    },
+    {
+      "character": "ZAZU",
+      "text": "What’s going on?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "A pouncing lesson."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Oh very good. Pouncing."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Pouncing!?! Oh no, sire, you can't be serious..."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Oh... this is so humiliating."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Try not to make a sound."
+    },
+    {
+      "character": "ZAZU",
+      "text": "What are you telling him, Mufasa?"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Mufasa? Simba?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Ha ha ha ha ha. That's very good. Ha ha ha..."
+    },
+    {
+      "character": "GOPHER",
+      "text": "Zazu!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Yes?"
+    },
+    {
+      "character": "GOPHER",
+      "text": "Sir! News from the underground."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Now, this time--"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Sire! Hyenas! In the Pride Lands!"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Zazu, take Simba home."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Oh, Dad, can't I come?"
+    },
+    {
+      "character": "MUFASA",
+      "text": "No, son."
+    },
+    {
+      "character": "SIMBA",
+      "text": "I never get to go anywhere."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Oh, young master, one day you will be king; then you can chase those slobbering mangy stupid poachers from dawn until dusk."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hey Uncle Scar! Guess what!"
+    },
+    {
+      "character": "SCAR",
+      "text": "I despise guessing games."
+    },
+    {
+      "character": "SIMBA",
+      "text": "I'm gonna be king of Pride Rock."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh goody."
+    },
+    {
+      "character": "SIMBA",
+      "text": "My dad just showed me the whole kingdom; and I'm gonna rule it all. Heh heh."
+    },
+    {
+      "character": "SCAR",
+      "text": "Yes. Well... forgive me for not leaping for joy. Bad back, you know."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hey, Uncle Scar? When I'm king, what'll that make you?"
+    },
+    {
+      "character": "SCAR",
+      "text": "A monkey's uncle."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Heh heh. You're so weird."
+    },
+    {
+      "character": "SCAR",
+      "text": "You have no idea. ...So, your father showed you the whole kingdom, did he?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Everything."
+    },
+    {
+      "character": "SCAR",
+      "text": "He didn't show you what's beyond that rise at the northern border...?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Well, no... he said I can't go there."
+    },
+    {
+      "character": "SCAR",
+      "text": "And he's absolutely right. It's far too dangerous. Only the bravest lions go there."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Well, I'm brave! What's out th--"
+    },
+    {
+      "character": "SCAR",
+      "text": "No, I'm sorry, Simba, I just can't tell you."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Why not?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Simba, Simba, I'm only looking out for the well-being of my favorite nephew."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yeah, right, I'm your only nephew."
+    },
+    {
+      "character": "SCAR",
+      "text": "All the more reason for me to be protective... An elephant graveyard is no place for a young prince... Oops!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "An elephant what? Whoa."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh dear, I've said too much... Well, I suppose you'd have found out sooner or later, you being SO clever and all... Oh, just do me one favor - promise me you'll never visit that dreadful place."
+    },
+    {
+      "character": "SIMBA",
+      "text": "No problem."
+    },
+    {
+      "character": "SCAR",
+      "text": "There's a good lad. You run along now and have fun. And remember... it's our little secret."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hey, Nala."
+    },
+    {
+      "character": "NALA",
+      "text": "Hi, Simba."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Come on. I just heard about this great place."
+    },
+    {
+      "character": "NALA",
+      "text": "Simba! I'm kind of in the middle of a bath."
+    },
+    {
+      "character": "SARABI",
+      "text": "And it's time for yours."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Mom! ...Mom. You're messing up my mane."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Okay, okay, I'm clean. Can we go now?"
+    },
+    {
+      "character": "NALA",
+      "text": "So where are we going? It better not be anyplace dumb."
+    },
+    {
+      "character": "SIMBA",
+      "text": "No. It's really cool."
+    },
+    {
+      "character": "SARABI",
+      "text": "So where is this \"really cool\" place?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Oh. Uh... around the water hole."
+    },
+    {
+      "character": "NALA",
+      "text": "The water hole? What's so great about the water hole?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I'll SHOW you when we GET there."
+    },
+    {
+      "character": "NALA",
+      "text": "Oh. Uh... Mom, can I go with Simba?"
+    },
+    {
+      "character": "SARAFINA",
+      "text": "Hmm... What do you think, Sarabi?"
+    },
+    {
+      "character": "SARABI",
+      "text": "Well..."
+    },
+    {
+      "character": "NALA AND SIMBA",
+      "text": "Pleeeease?"
+    },
+    {
+      "character": "SARABI",
+      "text": "It's all right with me..."
+    },
+    {
+      "character": "NALA",
+      "text": "All right!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yeah!"
+    },
+    {
+      "character": "SARABI",
+      "text": "...As long as Zazu goes with you."
+    },
+    {
+      "character": "SIMBA",
+      "text": "No. Not Zazu."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Step lively. The sooner we get to the water hole, the sooner we can leave."
+    },
+    {
+      "character": "NALA",
+      "text": "So where we really going?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "An elephant graveyard."
+    },
+    {
+      "character": "NALA",
+      "text": "Wow!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Shhh! Zazu."
+    },
+    {
+      "character": "NALA",
+      "text": "Right. So how are we gonna ditch the dodo?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Oh, I know how we can -"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Oh, just look at you two. Little seeds of romance blossoming in the savannah. Your parents will be thrilled... what with your being betrothed and all."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Be-what?"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Betrothed. Intended. Affianced."
+    },
+    {
+      "character": "NALA",
+      "text": "Meaning...?"
+    },
+    {
+      "character": "ZAZU",
+      "text": "One day, you two are going to be married!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yuck!"
+    },
+    {
+      "character": "NALA",
+      "text": "Ewww."
+    },
+    {
+      "character": "SIMBA",
+      "text": "I can't marry her. She's my friend."
+    },
+    {
+      "character": "NALA",
+      "text": "Yeah. It'd be so weird."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Well, sorry to burst your bubble, but you two turtle-doves have no choice. It's a tradition..."
+    },
+    {
+      "character": "ZAZU",
+      "text": "...going back generations."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Well, when I'm king, that'll be the first thing to go."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Not so long as I'm around."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Well, in that case, you're fired."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Hmmm... Nice try, but only the king can do that."
+    },
+    {
+      "character": "NALA",
+      "text": "Well, he's the future king."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yeah."
+    },
+    {
+      "character": "SIMBA",
+      "text": "So you have to do what I tell you."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Not yet I don't. And with an attitude like that, I'm afraid you're shaping up to be a pretty pathetic king indeed."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hmph. Not the way I see it."
+    },
+    {
+      "character": "SIMBA",
+      "text": "I'm gonna be a mighty king So enemies beware!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Well, I've never seen a king of beasts With quite so little hair"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I'm gonna be the mane event Like no king was before"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I'm brushin’ up on lookin’ down I'm workin’ on my ROAR"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Thus far, a rather uninspiring thing"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Oh, I just can't wait to be king!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "You've rather a long way to go, young master, if you think..."
+    },
+    {
+      "character": "SIMBA",
+      "text": "No one sayin’ do this"
+    },
+    {
+      "character": "ZAZU",
+      "text": "[Now when I said that, I -]"
+    },
+    {
+      "character": "NALA",
+      "text": "No one sayin’ be there"
+    },
+    {
+      "character": "ZAZU",
+      "text": "[What I meant was...]"
+    },
+    {
+      "character": "SIMBA",
+      "text": "No one sayin’ stop that"
+    },
+    {
+      "character": "ZAZU",
+      "text": "[Look, what you don't realize...]"
+    },
+    {
+      "character": "SIMBA AND NALA",
+      "text": "No one sayin’ see here"
+    },
+    {
+      "character": "ZAZU",
+      "text": "[Now see here!]"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Free to run around all day"
+    },
+    {
+      "character": "ZAZU",
+      "text": "[Well, that's definitely out...]"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Free to do it all my way!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "I think it's time that you and I Arranged a heart to heart"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Kings don't need advice From little hornbills for a start"
+    },
+    {
+      "character": "ZAZU",
+      "text": "If this is where the monarchy is headed Count me out! Out of service, out of Africa, I wouldn't hang about... Aagh!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "This child is getting wildly out of wing"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Oh, I just can't wait to be king!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Everybody look left Everybody look right"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Everywhere you look I'm Standin’ in the spotlight!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Not yet!"
+    },
+    {
+      "character": "CHORUS",
+      "text": "Let every creature go for broke and sing Let's hear it in the herd and on the wing It's gonna be King Simba's finest fling"
+    },
+    {
+      "character": "SIMBA & CHORUS",
+      "text": "Oh I just can't wait to be king! Oh I just can't wait to be king! Oh I just can't waaaaaait... to be kiiiiiiiiiing!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "I beg your pardon, madam, but... GET OFF! Simba? Nalaaaaaaaaaa!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "All right, it worked!"
+    },
+    {
+      "character": "NALA",
+      "text": "We lost 'im."
+    },
+    {
+      "character": "SIMBA",
+      "text": "I... am a genius."
+    },
+    {
+      "character": "NALA",
+      "text": "Hey, Genius, it was my idea."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yeah, but I pulled it off."
+    },
+    {
+      "character": "NALA",
+      "text": "With me!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Oh yeah? ...Rrarr!"
+    },
+    {
+      "character": "NALA",
+      "text": "Ha. Pinned ya."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hey, lemme up."
+    },
+    {
+      "character": "NALA",
+      "text": "Pinned ya again."
+    },
+    {
+      "character": "SIMBA",
+      "text": "This is it. We made it."
+    },
+    {
+      "character": "SCAR (& HYENAS)",
+      "text": "So prepare for the coup of the century"
+    },
+    {
+      "character": "HYENAS",
+      "text": "Oooh!"
+    },
+    {
+      "character": "SCAR (& HYENAS)",
+      "text": "Be prepared for the murkiest scam"
+    },
+    {
+      "character": "HYENAS",
+      "text": "Oooh... La! La! La!"
+    },
+    {
+      "character": "SCAR (& HYENAS)",
+      "text": "Meticulous planning"
+    },
+    {
+      "character": "HYENAS",
+      "text": "We'll have food!"
+    },
+    {
+      "character": "SCAR (& HYENAS)",
+      "text": "Tenacity spanning"
+    },
+    {
+      "character": "HYENAS",
+      "text": "Lots of food"
+    },
+    {
+      "character": "SCAR (& HYENAS)",
+      "text": "Decades of denial"
+    },
+    {
+      "character": "HYENAS",
+      "text": "We repeat"
+    },
+    {
+      "character": "SCAR (& HYENAS)",
+      "text": "Is simply why I'll"
+    },
+    {
+      "character": "HYENAS",
+      "text": "Endless meat"
+    },
+    {
+      "character": "SCAR (& HYENAS)",
+      "text": "Be king undisputed"
+    },
+    {
+      "character": "HYENAS",
+      "text": "Aaaaaaah..."
+    },
+    {
+      "character": "SCAR (& HYENAS)",
+      "text": "Respected, saluted"
+    },
+    {
+      "character": "HYENAS",
+      "text": "...aaaaaaah..."
+    },
+    {
+      "character": "SCAR (& HYENAS)",
+      "text": "And seen for the wonder I am"
+    },
+    {
+      "character": "HYENAS",
+      "text": "...aaaaaaah!"
+    },
+    {
+      "character": "SCAR (& HYENAS)",
+      "text": "Yes, my teeth and ambitions are bared"
+    },
+    {
+      "character": "HYENAS",
+      "text": "Oo-oo-oo-oo-oo-oo-oo"
+    },
+    {
+      "character": "SCAR (& HYENAS)",
+      "text": "Be prepared!"
+    },
+    {
+      "character": "ALL (EVEN ED)",
+      "text": "Yes, our teeth and ambitions are bared -"
+    },
+    {
+      "character": "ALL (EVEN ED)",
+      "text": "Be prepaaaaaaaaaared!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Now you wait here. Your father has a marvelous surprise for you."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Oooh. What is it?"
+    },
+    {
+      "character": "SCAR",
+      "text": "If I told you, it wouldn't be a surprise, now would it?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "If you tell me, I'll still act surprised."
+    },
+    {
+      "character": "SCAR",
+      "text": "Ho ho ho. You are such a naughty boy."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Come on, Uncle Scar."
+    },
+    {
+      "character": "SCAR",
+      "text": "No-no-no-no-no-no-no. This is just for you and your daddy. You know, a sort of... father-son... thing."
+    },
+    {
+      "character": "SCAR",
+      "text": "Well! I'd better go get him."
+    },
+    {
+      "character": "SIMBA",
+      "text": "I'll go with you."
+    },
+    {
+      "character": "SCAR",
+      "text": "No!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Heh heh heh. No. Just stay on this rock. You wouldn't want to end up in another mess like you did with the hyenas..."
+    },
+    {
+      "character": "SIMBA",
+      "text": "You know about that?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Simba, everybody knows about that."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Really?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, yes. Lucky Daddy was there to save you, eh? Oh... and just between us, you might want to work on that little roar of yours. Hmm?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Oh... Okay..."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hey, Uncle Scar, will I like the surprise?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Simba, it's to DIE for."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Shut up."
+    },
+    {
+      "character": "BANZAI",
+      "text": "I can't help it. I'm so hungry... I gotta have a wildebeest!"
+    },
+    {
+      "character": "SHENZI",
+      "text": "Stay put."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Well... Can't I just pick off one of the little sick ones?"
+    },
+    {
+      "character": "SHENZI",
+      "text": "No! We wait for the signal from Scar."
+    },
+    {
+      "character": "SHENZI",
+      "text": "There he is... Let's go."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Little roar. Puh!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Merow!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Merrooow-h!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "FOW!!!!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Oh look, sire; the herd is on the move."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Odd..."
+    },
+    {
+      "character": "SCAR",
+      "text": "Mufasa. Quick. Stampede. In the gorge. Simba's down there!"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Simba?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Zazu! Help me!!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Your father is on the way! Hold on!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hurry!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "There! There! On that tree!"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Hold on, Simba!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Ahhhh!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Oh Scar, this is awful. What will we do? What will we do? Hah... I'll go back for help, that's what I'll do, I'll go back for he--oomph!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "DAD!"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Scar! Broth--"
+    },
+    {
+      "character": "MUFASA",
+      "text": "Brother! Help me!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Long live the king."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Shrieking for final sound"
+    },
+    {
+      "character": "SIMBA",
+      "text": "NOOOOOOOOO!!!!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Dad!!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Dad?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Dad? ...Dad, come on."
+    },
+    {
+      "character": "SIMBA",
+      "text": "You got to get up."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Dad. We got to go home."
+    },
+    {
+      "character": "SIMBA",
+      "text": "HEEEELP!!!!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Somebody! Anybody... help."
+    },
+    {
+      "character": "SCAR",
+      "text": "Simba. ...What have you done?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "There were wildebeests, and he tried to save me... it was an accident, I... I didn't mean for it to happen."
+    },
+    {
+      "character": "SCAR",
+      "text": "Of course, of course you didn't. No one... ever means for these things to happen. ...But the king IS dead. And if it weren't for you, he'd still be alive. Oh! What will your mother think?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "What am I gonna do?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Run away, Simba. Run... Run away and never return."
+    },
+    {
+      "character": "SCAR",
+      "text": "Kill him."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Whoa!!"
+    },
+    {
+      "character": "BANZAI",
+      "text": "Yeow!"
+    },
+    {
+      "character": "SHENZI",
+      "text": "Hey-- There he goes! There he goes!"
+    },
+    {
+      "character": "BANZAI",
+      "text": "So go get him."
+    },
+    {
+      "character": "SHENZI",
+      "text": "There ain't no way I'm going in there. What, you want me to come out there looking like you? Cactus Butt?"
+    },
+    {
+      "character": "BANZAI",
+      "text": "We gotta finish the job."
+    },
+    {
+      "character": "SHENZI",
+      "text": "Well, he's as good as dead out there anyway. And IF he comes back, we'll kill 'im."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Yeah! you hear that? If you ever come back, we'll kill ya!!!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Mufasa's death was a terrible tragedy; but to lose Simba, who had barely begun to live..."
+    },
+    {
+      "character": "SCAR",
+      "text": "...For me it is a deep personal loss. So it is with a heavy heart that I assume the throne. Yet, out of the ashes of this tragedy, we shall rise to greet the dawning of a new era... in which lion and hyena come together, in a great and glorious future!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Yeeeah! Get out! Get out! Get outta here! Whoo!"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "I love it! Bowling for buzzards!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Gets 'em every time."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Uh-oh. Hey Timon. You better come look. I think it's still alive."
+    },
+    {
+      "character": "TIMON",
+      "text": "Eeeeghh..."
+    },
+    {
+      "character": "TIMON",
+      "text": "All righty, what have we got here?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Jeez, it's a lion! Run, Pumbaa! Move it!"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Hey, Timon. It's just a little lion. Look at him. He's so cute, and all alone! Can we keep him?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Pumbaa, are you nuts? We're talkin’ about a lion. Lions eat guys like us."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "But he's so little."
+    },
+    {
+      "character": "TIMON",
+      "text": "He's gonna get bigger."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Maybe he'll be on our side."
+    },
+    {
+      "character": "TIMON",
+      "text": "A--huh! That's the stupidest thing I ever heard. Maybe he'll b-- ...Hey, I got it! What if he's on our side? You know, havin’ a lion around might not be such a bad idea."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "So we keepin’ 'im?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Of course. Who's the brains in this outfit?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Uhh..."
+    },
+    {
+      "character": "TIMON",
+      "text": "My point exactly. Jeez, I'm fried. Let's get out of here and find some shade."
+    },
+    {
+      "character": "TIMON",
+      "text": "You okay, kid?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I guess so."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "You nearly died."
+    },
+    {
+      "character": "TIMON",
+      "text": "I saved you."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Snorts at Timon"
+    },
+    {
+      "character": "TIMON",
+      "text": "Well, uh, Pumbaa helped. A little."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Thanks for your help."
+    },
+    {
+      "character": "TIMON",
+      "text": "Hey, where you goin’?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Nowhere."
+    },
+    {
+      "character": "TIMON",
+      "text": "Gee. He looks blue."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "I'd say brownish-gold."
+    },
+    {
+      "character": "TIMON",
+      "text": "No, no, no, no. I mean he's depressed."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Oh. Kid, what's eatin' ya?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Nothin’; he's at the top of the food chain! (laughs) The food cha-haain! (chuckles) Ahem. So, where you from...?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Who cares? I can't go back."
+    },
+    {
+      "character": "TIMON",
+      "text": "Ahh. You're an outcast! That's great, so are we."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Whatcha do, kid?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Something terrible. But I don't wanna talk about it."
+    },
+    {
+      "character": "TIMON",
+      "text": "Good. We don't wanna hear about it."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Come on, Timon. Anything we can do?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Not unless you can change the past."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "You know, kid, in times like this my buddy Timon here says, \"You gotta put your behind in your past...\""
+    },
+    {
+      "character": "TIMON",
+      "text": "No. N"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Who cares? I can't go back."
+    },
+    {
+      "character": "TIMON",
+      "text": "Ahh. You're an outcast! That's great, so are we."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Whatcha do, kid?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Something terrible. But I don't wanna talk about it."
+    },
+    {
+      "character": "TIMON",
+      "text": "Good. We don't wanna hear about it."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Anything we can do?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Not unless you can change the past."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "You know, kid, in times like this my buddy Timon here says, \"You gotta put your behind in your past...\""
+    },
+    {
+      "character": "TIMON",
+      "text": "No. No. No."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "I mean..."
+    },
+    {
+      "character": "TIMON",
+      "text": "Amateur. Lie down before you hurt yourself. It's \"You gotta put your past behind ya.\" Look, kid. Bad things happen, and you can't do anything about it, right?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Right."
+    },
+    {
+      "character": "TIMON",
+      "text": "Wrong! When da world turns its back on you, you turn your back on da world."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Well, that's not what I was taught."
+    },
+    {
+      "character": "TIMON",
+      "text": "Then maybe you need a new lesson. Repeat after me. Hakuna Matata."
+    },
+    {
+      "character": "SIMBA",
+      "text": "What?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Ha-ku-na Ma-ta-ta. It means \"No worries.\""
+    },
+    {
+      "character": "TIMON",
+      "text": "Hakuna Matata What a wonderful phrase."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Hakuna Matata Ain't no passing craze!"
+    },
+    {
+      "character": "TIMON",
+      "text": "It means no worries For the rest of your days"
+    },
+    {
+      "character": "BOTH",
+      "text": "It's our problem-free Philosophy"
+    },
+    {
+      "character": "TIMON",
+      "text": "Hakuna Matata!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hakuna matata?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Yeah, it's our motto."
+    },
+    {
+      "character": "SIMBA",
+      "text": "What's a motto?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Nothin’! What's a motto with you? Ahh ha ha ha..."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "You know, kid-- These two words will solve all your problems."
+    },
+    {
+      "character": "TIMON",
+      "text": "That's right! Take Pumbaa for example."
+    },
+    {
+      "character": "TIMON",
+      "text": "Why, when he was a young warthog..."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "When I was a young wart hoooog!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Very nice."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Thanks!"
+    },
+    {
+      "character": "TIMON",
+      "text": "He found his aroma lacked a certain appeal He could clear the savannah after every meal"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "I'm a sensitive soul, though I seem thick-skinned And it hurt that my friends never stood downwind And oh, the shame"
+    },
+    {
+      "character": "TIMON",
+      "text": "He was ashamed!"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Thoughta changin' my name"
+    },
+    {
+      "character": "TIMON",
+      "text": "Oh, what's in a name?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "And I got downhearted"
+    },
+    {
+      "character": "TIMON",
+      "text": "How did you feel?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Ev'rytime that I..."
+    },
+    {
+      "character": "TIMON",
+      "text": "Pumbaa! Not in front of the kids!"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Oh... sorry."
+    },
+    {
+      "character": "PUMBAA AND TIMON",
+      "text": "Hakuna Matata! What a wonderful phrase Hakuna Matata! Ain't no passing craze"
+    },
+    {
+      "character": "SIMBA",
+      "text": "It means no worries For the rest of your days"
+    },
+    {
+      "character": "TIMON",
+      "text": "Yeah, sing it, kid!"
+    },
+    {
+      "character": "SIMBA AND TIMON",
+      "text": "It's our problem-free........."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "..................... philosophy..."
+    },
+    {
+      "character": "ALL THREE",
+      "text": "Hakuna Matata!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Welcome... to our humble home."
+    },
+    {
+      "character": "SIMBA",
+      "text": "You live here?"
+    },
+    {
+      "character": "TIMON",
+      "text": "We live wherever we want."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Yep. Home is where your rump rests. Heh!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "It's beautiful."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "I'm starved."
+    },
+    {
+      "character": "SIMBA",
+      "text": "I'm so hungry I could eat a whole zebra."
+    },
+    {
+      "character": "TIMON",
+      "text": "Uh-huh. We're fresh outta zebra."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Any antelope?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Nuh-uh."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hippo?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Nope. Listen, kid; if you live wit us, you have to eat like us. Hey, this looks like a good spot to rustle up some grub."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Eww. What's that?"
+    },
+    {
+      "character": "TIMON",
+      "text": "A grub. What's it look like?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Eww. Gross."
+    },
+    {
+      "character": "TIMON",
+      "text": "Mmm. Tastes like chicken."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Slimy, yet satisfying."
+    },
+    {
+      "character": "TIMON",
+      "text": "These are rare delicacies. Mmm. Piquant, with a very pleasant crunch."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "You'll learn to love 'em."
+    },
+    {
+      "character": "TIMON",
+      "text": "I'm tellin’ you, kid, this is the great life. No rules. No responsibilities. Oooh! The little cream-filled kind. And best of all, no worries."
+    },
+    {
+      "character": "TIMON",
+      "text": "Well, kid?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Oh well-- Hakuna Matata."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Slimy, yet satisfying."
+    },
+    {
+      "character": "TIMON",
+      "text": "That's it!"
+    },
+    {
+      "character": "PUMBAA AND TIMON",
+      "text": "Hakuna matata, hakuna matata, hakuna matata."
+    },
+    {
+      "character": "SIMBA",
+      "text": "It means no worries For the rest of your days."
+    },
+    {
+      "character": "ALL THREE",
+      "text": "It's our problem-free Philosophy"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hakuna Matata"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Nobody knows The trouble I've seen Nobody knows My sorrow..."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh Zazu, do lighten up. Sing something with a little... bounce in it."
+    },
+    {
+      "character": "ZAZU",
+      "text": "It's a small world after all..."
+    },
+    {
+      "character": "SCAR",
+      "text": "No! No. Anything but that!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "I've got a lovely bunch of coconuts (diddly-dee-dee) There they are a-standing in a row..."
+    },
+    {
+      "character": "ZAZU AND SCAR",
+      "text": "Big ones, small ones, some as big as your head..."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Oh... I would never have had to do this for Mufasa."
+    },
+    {
+      "character": "SCAR",
+      "text": "What? What did you say?"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Oh, nothing!"
+    },
+    {
+      "character": "SCAR",
+      "text": "You know the law: Never, ever mention THAT name in my presence. I... am... the KING!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Yes, sire. You ARE the king. I... I... Well, I only mentioned it to illustrate the differences in your royal managerial approaches."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Hey Boss!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, what is it this time?"
+    },
+    {
+      "character": "BANZAI",
+      "text": "We got a bone to pick with you."
+    },
+    {
+      "character": "SHENZI",
+      "text": "I'll handle this. Scar, there's no food, no water..."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Yeah, it's dinner time, and we ain't got no stinkin' entrees."
+    },
+    {
+      "character": "SCAR",
+      "text": "It's the lionesses' job to do the hunting..."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Yeah, but they won't go hunt."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh... eat Zazu."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Oh, you wouldn't want me! I'd be so tough and gamy and... eeww..."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, Zazu, don't be ridiculous. All you need is a little garnish."
+    },
+    {
+      "character": "BANZAI",
+      "text": "I thought things were bad under Mufasa."
+    },
+    {
+      "character": "SCAR",
+      "text": "What did you say?"
+    },
+    {
+      "character": "BANZAI",
+      "text": "I said Muf..."
+    },
+    {
+      "character": "BANZAI",
+      "text": "I said, uh... \"Qué pasa?\""
+    },
+    {
+      "character": "SCAR",
+      "text": "Good. Now get out."
+    },
+    {
+      "character": "BANZAI",
+      "text": "Mm... yeah, but - we're still hungry."
+    },
+    {
+      "character": "SCAR",
+      "text": "Out!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Whoa. Nice one, Simba."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Thanks. Man, I'm stuffed."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Me too. I ate like a pig."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Pumbaa - you are a pig."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Oh. Right."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Timon?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Yeah?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Ever wonder what those sparkly dots are up there?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Pumbaa. I don't wonder; I know."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Oh. What are they?"
+    },
+    {
+      "character": "TIMON",
+      "text": "They're fireflies. Fireflies that uh... got stuck up on that big... bluish-black... thing."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Oh. Gee. I always thought that they were balls of gas burning billions of miles away."
+    },
+    {
+      "character": "TIMON",
+      "text": "Pumbaa, wit you, everything's gas."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Simba, what do you think?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Well, I don't know..."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Aw come on. Give, give, give .. Well, come on, Simba, we told you ours... pleeeease?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Come on, come on... give, give.."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Well, somebody once told me that the great kings of the past are up there, watching over us."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Really?"
+    },
+    {
+      "character": "TIMON",
+      "text": "You mean a bunch of royal dead guys are watchin’ us? Pbbb."
+    },
+    {
+      "character": "TIMON",
+      "text": "Who told you somethin’ like that? What mook made that up?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yeah. Pretty dumb, huh?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Aw, you're killin’ me, Simba."
+    },
+    {
+      "character": "TIMON",
+      "text": "Was it somethin’ I said?"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Simba? He's- he's alive? He he- he's alive!"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "It is time!"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Ohi'mbube Ohi'mbube"
+    },
+    {
+      "character": "TIMON",
+      "text": "In the jungle The mighty jungle The lion sleeps tonight. In the jungle The mighty jungle"
+    },
+    {
+      "character": "TIMON",
+      "text": "The lion sleeps... I can't hear you, buddy, back me up!"
+    },
+    {
+      "character": "TIMON",
+      "text": "A-WEEEE-ee-EE-ee ba-Pum-ba-bum-ba-way"
+    },
+    {
+      "character": "TIMON",
+      "text": "A-Pumbaa? Pumbaa?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Timon?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "YEEEEAAAHHH!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Pumbaa?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "SHE'S GONNA EAT ME!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Huh?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Pumbaa! Pumbaa! Hey, what's goin' on?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "SHE'S GONNA EAT ME!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Whoa! ... Jeez! Why do I always have to save your AAAAAA!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Don't worry, buddy. I'm here for ya. Everything's gonna be okay. Get her! Bite her head! Go for the jugular. The jugular! See, I told you he'd come in handy."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Nala?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Is it really you?"
+    },
+    {
+      "character": "NALA",
+      "text": "Who are you?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "It's me. Simba."
+    },
+    {
+      "character": "NALA",
+      "text": "Simba? Whoa!"
+    },
+    {
+      "character": "NALA",
+      "text": "Well how did you.. where did you come from... it's great to see YOU..."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Aaah! How did you... who... wow... this is cool... it's great to see ya..."
+    },
+    {
+      "character": "TIMON",
+      "text": "Hey, what's goin' on here?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "What are you doing here?"
+    },
+    {
+      "character": "NALA",
+      "text": "What do you mean, \"What am I doing here?\" What are you doing here?"
+    },
+    {
+      "character": "TIMON",
+      "text": "HEY! WHAT'S GOIN' ON HERE!?!?!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Timon, this is Nala. She's my best friend!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Friend?!?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yeah. Hey, Pumbaa, come over here."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Nala, this is Pumbaa. Pumbaa, Nala."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Pleased to make your acquaintance."
+    },
+    {
+      "character": "NALA",
+      "text": "The pleasure's all mine."
+    },
+    {
+      "character": "TIMON",
+      "text": "How do you do... Whoa! Whoa. Time out. Lemme get this straight. You know her. She knows you. But she wants to eat him . And everybody"
+    },
+    {
+      "character": "TIMON",
+      "text": "HEY! WHAT'S GOIN' ON HERE!?!?!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Timon, this is Nala. She's my best friend!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Friend?!?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yeah. Hey, Pumbaa, come over here."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Nala, this is Pumbaa. Pumbaa, Nala."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Pleased to make your acquaintance."
+    },
+    {
+      "character": "NALA",
+      "text": "The pleasure's all mine."
+    },
+    {
+      "character": "TIMON",
+      "text": "How do you do... Whoa! Whoa. Time out. Lemme get this straight. You know her. She knows you. But she wants to eat him . And everybody's... okay with this? DID I MISS SOMETHING?!?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Relax, Timon."
+    },
+    {
+      "character": "NALA",
+      "text": "Wait till everybody finds out you've been here all this time! And your mother... what will she think?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "She doesn't have to know. Nobody has to know."
+    },
+    {
+      "character": "NALA",
+      "text": "Well, of course they do. Everyone thinks you're dead."
+    },
+    {
+      "character": "SIMBA",
+      "text": "They do?"
+    },
+    {
+      "character": "NALA",
+      "text": "Yeah. Scar told us about the stampede."
+    },
+    {
+      "character": "SIMBA",
+      "text": "He did? Well... what else did he tell you?"
+    },
+    {
+      "character": "NALA",
+      "text": "What else matters? You're alive. and that means... you're the king."
+    },
+    {
+      "character": "TIMON",
+      "text": "King? Pbbb. Lady, have you got your lions crossed."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "King? Your Majesty! I gravel at your feet."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Stop it."
+    },
+    {
+      "character": "TIMON",
+      "text": "It's not \"gravel.\" It's \"grovel.\" And DON'T-- he's not the king. Are ya?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "No."
+    },
+    {
+      "character": "NALA",
+      "text": "Simba?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "No, I'm not the king. Maybe I was gonna be, but... that was a long time ago."
+    },
+    {
+      "character": "TIMON",
+      "text": "Let me get this straight. You're the king? And you never told us?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Look, I'm still the same guy."
+    },
+    {
+      "character": "TIMON",
+      "text": "But with power!"
+    },
+    {
+      "character": "NALA",
+      "text": "Could you guys... excuse us for a few minutes?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Hey, whatever she has to say, she can say in front of us. Right, Simba?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hmm. Maybe you'd better go."
+    },
+    {
+      "character": "TIMON",
+      "text": "It starts. You think you know a guy..."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Timon and Pumbaa. You learn to love 'em."
+    },
+    {
+      "character": "SIMBA",
+      "text": "What? ...What is it?"
+    },
+    {
+      "character": "NALA",
+      "text": "It's like you're back from the dead. You don't know how much this will mean to everyone. ...What it means to me."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hey, it's okay."
+    },
+    {
+      "character": "NALA",
+      "text": "I've really missed you."
+    },
+    {
+      "character": "SIMBA",
+      "text": "I've missed you too."
+    },
+    {
+      "character": "TIMON",
+      "text": "I tell ya, Pumbaa, this stinks."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Oh. Sorry."
+    },
+    {
+      "character": "TIMON",
+      "text": "Not you. Them! Him. Her. Alone."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "What's wrong with that?"
+    },
+    {
+      "character": "TIMON",
+      "text": "I can see what's happening"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "What?"
+    },
+    {
+      "character": "TIMON",
+      "text": "And they don't have a clue"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Who?"
+    },
+    {
+      "character": "TIMON",
+      "text": "They'll fall in love and here's the bottom line Our trio's down to two."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Oh."
+    },
+    {
+      "character": "TIMON",
+      "text": "Ze sweet caress of twilight"
+    },
+    {
+      "character": "TIMON",
+      "text": "There's magic everywhere And with all this romantic atmosphere Disaster's in the air"
+    },
+    {
+      "character": "SALLY DWORSKY",
+      "text": "Can you feel the love tonight? The peace the evening brings? The world, for once, in perfect harmony With all its living things."
+    },
+    {
+      "character": "SIMBA",
+      "text": "So many things to tell her But how to make her see The truth about my past? Impossible! She'd turn away from me."
+    },
+    {
+      "character": "NALA",
+      "text": "He's holding back, he's hiding But what? I can't decide Why won't he be the king I know he is? The king I see inside?"
+    },
+    {
+      "character": "CHORUS",
+      "text": "Can you feel the love tonight? The peace the evening brings? The world, for once, in perfect harmony With all its living things?"
+    },
+    {
+      "character": "CHORUS",
+      "text": "Can you feel the love tonight? You needn't look too far - Stealing through the night's uncertainties Love is where they are."
+    },
+    {
+      "character": "TIMON",
+      "text": "And if he falls in love tonight"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "It can be assumed -"
+    },
+    {
+      "character": "TIMON AND PUMBAA",
+      "text": "His carefree days with us are history - In short, our pal is doomed."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Isn't this a great place?"
+    },
+    {
+      "character": "NALA",
+      "text": "It is beautiful. But I don't understand something. You've been alive all this time. Why didn't you come back to Pride Rock?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Well, I just needed to... get out on my own. Live my own life. And I did. And it's great."
+    },
+    {
+      "character": "NALA",
+      "text": "We've really needed you at home."
+    },
+    {
+      "character": "SIMBA",
+      "text": "No one needs me."
+    },
+    {
+      "character": "NALA",
+      "text": "Yes, we do! You're the king."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Nala, we've been through this. I'm not the king. Scar is."
+    },
+    {
+      "character": "NALA",
+      "text": "Simba, he let the hyenas take over the Pride Lands."
+    },
+    {
+      "character": "SIMBA",
+      "text": "What?"
+    },
+    {
+      "character": "NALA",
+      "text": "Everything's destroyed. There's no food. No water. Simba, if you don't do something soon, everyone will starve."
+    },
+    {
+      "character": "SIMBA",
+      "text": "I can't go back."
+    },
+    {
+      "character": "NALA",
+      "text": "Why?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "You wouldn't understand."
+    },
+    {
+      "character": "NALA",
+      "text": "What wouldn't I understand?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "No, no, no. It doesn't matter. Hakuna Matata."
+    },
+    {
+      "character": "NALA",
+      "text": "What?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hakuna Matata. It's something I learned out here. Look, sometimes bad things happen..."
+    },
+    {
+      "character": "NALA",
+      "text": "Simba!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "...And there's nothing you can do about it. So why worry?"
+    },
+    {
+      "character": "NALA",
+      "text": "Because it's your responsibility!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Well, what about you? YOU left."
+    },
+    {
+      "character": "NALA",
+      "text": "I left to find help! And I found YOU. Don't you understand? You're our only hope."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Sorry."
+    },
+    {
+      "character": "NALA",
+      "text": "What's happened to you? You're not the Simba I remember."
+    },
+    {
+      "character": "SIMBA",
+      "text": "You're right. I'm not. Now are you satisfied?"
+    },
+    {
+      "character": "NALA",
+      "text": "No, just disappointed."
+    },
+    {
+      "character": "SIMBA",
+      "text": "You know, you're starting to sound like my father."
+    },
+    {
+      "character": "NALA",
+      "text": "Good. At least one of us does."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Listen, you think you can just show up and tell me how to live my life? You don't even know what I've been through!"
+    },
+    {
+      "character": "NALA",
+      "text": "I would if you would just tell me!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Forget it!"
+    },
+    {
+      "character": "NALA",
+      "text": "Fine!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "She's wrong. I can't go back. What would it prove, anyway? It won't change anything. You can't change the past. You said you'd always be there for me! But you're not. And it's because of me. It's my fault. It's my fault."
+    },
+    {
+      "character": "ASANTE SANA!",
+      "text": "Squash banana! We we nugu! Mi mi apana!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Come on, will you cut it out?"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Can't cut it out. It'll grow right back!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Creepy little monkey. Will you stop following me? Who are you?"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "The question is: Who... are you?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I thought I knew. Now I'm not so sure."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Well, I know who you are. Shh. Come here. It's a secret. Asante sana! Squash banana! We we nugu! Mi mi apana!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Enough already. what's that supposed to mean, anyway?"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "It means you are a baboon - and I'm not."
+    },
+    {
+      "character": "SIMBA",
+      "text": "I think... you're a little confused."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Wrong. I'm not the one who's confused; you don't even know who you are."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Oh, and I suppose you know?"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Sure do; you're Mufasa's boy. ...Bye!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hey, wait!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "You knew my father?"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Correction-- I know your father."
+    },
+    {
+      "character": "SIMBA",
+      "text": "I hate to tell you this, but... he died. A long time ago."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Nope. Wrong again! Ha ha hah! He's alive! And I'll show him to you. You follow old Rafiki, he knows the way. Come on!"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Don't dawdle. Hurry up!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Hey, whoa. Wait, wait."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Come on, come on."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Would you slow down?"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "STOP!"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Look..down…there."
+    },
+    {
+      "character": "SIMBA",
+      "text": "That's not my father. That's just my reflection."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "No. Look…harder."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "You see, he lives in you ."
+    },
+    {
+      "character": "MUFASA’S SPIRIT",
+      "text": "Simba . . ."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Father?"
+    },
+    {
+      "character": "MUFASA’S SPIRIT",
+      "text": "Simba, you have forgotten me."
+    },
+    {
+      "character": "SIMBA",
+      "text": "No. How could I?"
+    },
+    {
+      "character": "MUFASA’S SPIRIT",
+      "text": "You have forgotten who you are and so have forgotten me. Look inside yourself, Simba. You are more than what you have become. You must take your place in the Circle of Life."
+    },
+    {
+      "character": "SIMBA",
+      "text": "How can I go back? I'm not who I used to be."
+    },
+    {
+      "character": "MUFASA’S SPIRIT",
+      "text": "Remember who you are. You are my son, and the one true king."
+    },
+    {
+      "character": "MUFASA’S SPIRIT",
+      "text": "Remember who you are."
+    },
+    {
+      "character": "SIMBA",
+      "text": "No. Please! Don't leave me."
+    },
+    {
+      "character": "MUFASA’S SPIRIT",
+      "text": "Remember..."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Father!"
+    },
+    {
+      "character": "MUFASA’S SPIRIT",
+      "text": "Remember..."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Don't leave me."
+    },
+    {
+      "character": "MUFASA’S SPIRIT",
+      "text": "Remember…"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "What was THAT ? De weather-- Pbbbah! Very peculiar. Don't you think?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yeah. Looks like the winds are changing."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Ahh. Change is good."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yeah, but it's not easy. I know what I have to do. But, going back means I'll have to face my past. I've been running from it for so long."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Ow! Jeez-- What was that for?"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "It doesn't matter; it's in the past!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yeah, but it still hurts."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Oh yes, the past can hurt. But the way I see it, you can either run from it, or... learn from it."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Hah, you see! So what are you going to do?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "First, I'm going to take your stick."
+    },
+    {
+      "character": "RAFIKI",
+      "text": "No, no, no, no! Not the stick!"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Hey, where are you going?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I'm goin’ back!"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Good! Go on! Get out of here!"
+    },
+    {
+      "character": "NALA",
+      "text": "Hey. Hey, wake up."
+    },
+    {
+      "character": "NALA",
+      "text": "It's OK. Just, Whoa, whoa. It's OK. It's ME."
+    },
+    {
+      "character": "TIMON",
+      "text": "Don't ever do that again! Carnivores, oy!"
+    },
+    {
+      "character": "NALA",
+      "text": "Have you guys seen Simba?"
+    },
+    {
+      "character": "TIMON",
+      "text": "I thought he was with you."
+    },
+    {
+      "character": "NALA",
+      "text": "He was, but now I can't find him. Where is he?"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "Ho, ho, ho, ho. You won't find him here. Ha ha. The king... has returned."
+    },
+    {
+      "character": "NALA",
+      "text": "I can't believe it. He's gone back."
+    },
+    {
+      "character": "TIMON",
+      "text": "Gone back? What do you mean? Hey! What's goin' on here? Who's the monkey?"
+    },
+    {
+      "character": "NALA",
+      "text": "Simba's gone to challenge Scar."
+    },
+    {
+      "character": "TIMON",
+      "text": "Who?"
+    },
+    {
+      "character": "NALA",
+      "text": "Scar."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Who's got a scar?"
+    },
+    {
+      "character": "NALA",
+      "text": "No, no, no. It's his uncle."
+    },
+    {
+      "character": "TIMON",
+      "text": "The monkey's his uncle?"
+    },
+    {
+      "character": "NALA",
+      "text": "No! Simba's gone back to challenge his uncle to take his place as king."
+    },
+    {
+      "character": "TIMON AND PUMBAA",
+      "text": "Ohhh."
+    },
+    {
+      "character": "NALA",
+      "text": "Simba, wait up!"
+    },
+    {
+      "character": "NALA",
+      "text": "It's awful, isn't it?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I didn't wanna believe you."
+    },
+    {
+      "character": "NALA",
+      "text": "What made you come back?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I finally got some sense knocked into me. And I've got the bump to prove it. Besides, this is my kingdom. If I don't fight for it, who will?"
+    },
+    {
+      "character": "NALA",
+      "text": "I will."
+    },
+    {
+      "character": "SIMBA",
+      "text": "It's gonna be dangerous."
+    },
+    {
+      "character": "NALA",
+      "text": "Simba, wait up! ...It's awful, isn't it?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I didn't wanna believe you."
+    },
+    {
+      "character": "NALA",
+      "text": "What made you come back?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I finally got some sense knocked into me. And I've got the bump to prove it. Besides, this is my kingdom. If I don't fight for it, who will?"
+    },
+    {
+      "character": "NALA",
+      "text": "I will."
+    },
+    {
+      "character": "SIMBA",
+      "text": "It's gonna be dangerous."
+    },
+    {
+      "character": "NALA",
+      "text": "Danger? Ha! I laugh in the face of danger. Ha ha ha ha."
+    },
+    {
+      "character": "TIMON",
+      "text": "I see nothing funny about this."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Timon? Pumbaa? What are you doing here?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "At your service, my liege."
+    },
+    {
+      "character": "TIMON",
+      "text": "Uh. We're gonna fight your uncle... for this?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Yes, Timon; this is my home."
+    },
+    {
+      "character": "TIMON",
+      "text": "Eeh. Talk about your fixer-upper. Well, Simba, if it's important to you, we're with you to the end."
+    },
+    {
+      "character": "TIMON",
+      "text": "Hyenas. I hate hyenas. So what's your plan for getting past those guys?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Live bait."
+    },
+    {
+      "character": "TIMON",
+      "text": "Good idea. Hey!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Come on, Timon-- you guys have to create a diversion."
+    },
+    {
+      "character": "TIMON",
+      "text": "What do you want me to do? Dress in drag and do the hula?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Luau! If you're hungry for a hunk of fat and juicy meat Eat my buddy Pumbaa here because he is a treat Come on down and dine On this tasty swine All you have to do is get in line"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Yup, yup, yup"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Yup, yup, yup"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Yup, yup"
+    },
+    {
+      "character": "TIMON",
+      "text": "Oy!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Nala, you find my mother and rally the lionesses. I'll look for Scar."
+    },
+    {
+      "character": "SCAR",
+      "text": "SARABI!!"
+    },
+    {
+      "character": "SARABI",
+      "text": "Yes, Scar?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Where is your hunting party? They are not doing their job."
+    },
+    {
+      "character": "SARABI",
+      "text": "Scar, there is no food. The herds have moved on."
+    },
+    {
+      "character": "SCAR",
+      "text": "No. You're just not looking hard enough."
+    },
+    {
+      "character": "SARABI",
+      "text": "It's over, Scar. There is nothing left. We have only one choice. We must leave Pride Rock."
+    },
+    {
+      "character": "SCAR",
+      "text": "We're not going anywhere."
+    },
+    {
+      "character": "SARABI",
+      "text": "Then you have sentenced us to death."
+    },
+    {
+      "character": "SCAR",
+      "text": "Then so be it."
+    },
+    {
+      "character": "SARABI",
+      "text": "You can't do that."
+    },
+    {
+      "character": "SCAR",
+      "text": "I'm the king. I can do whatever I want."
+    },
+    {
+      "character": "SARABI",
+      "text": "If you were half the king Mufasa was you would’ve never -"
+    },
+    {
+      "character": "SCAR",
+      "text": "I'm ten times the king Mufasa was!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Mufasa? No. You're dead."
+    },
+    {
+      "character": "SARABI",
+      "text": "Mufasa?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "No. It's me."
+    },
+    {
+      "character": "SARABI",
+      "text": "Simba? You're alive? How can that be?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "It doesn't matter; I'm home."
+    },
+    {
+      "character": "SCAR",
+      "text": "Simba...? Simba! I'm a little surprised to see you, alive..."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Give me one good reason why I shouldn't rip you apart."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, Simba, you must understand. The pressures of ruling a kingdom..."
+    },
+    {
+      "character": "SIMBA",
+      "text": "...Are no longer yours. Step down, Scar."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, oh, ye - Well, I would, heh, naturally, heh - however, there is one little problem. You see them? They think I’m king."
+    },
+    {
+      "character": "NALA",
+      "text": "Well, we don't. Simba is the rightful king."
+    },
+    {
+      "character": "SIMBA",
+      "text": "The choice is yours, Scar. Either step down or fight."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, must it all end in violence? I'd hate to be responsible for the death of a family member. Wouldn't you agree, Simba?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "That's not gonna work, Scar. I've put it behind me."
+    },
+    {
+      "character": "SCAR",
+      "text": "Eh, but what about your faithful subjects? Have they put it behind them?"
+    },
+    {
+      "character": "NALA",
+      "text": "Simba, what is he talking about?"
+    },
+    {
+      "character": "SCAR",
+      "text": "Ahh, so you haven't told them your little secret. Well, Simba, now's your chance to tell them. Tell them who is responsible for Mufasa's death!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "I am."
+    },
+    {
+      "character": "SARABI",
+      "text": "It's not true. Tell me it's not true."
+    },
+    {
+      "character": "SIMBA",
+      "text": "It's true."
+    },
+    {
+      "character": "SCAR",
+      "text": "You see! He admits it! Murderer!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "No. It was an accident."
+    },
+    {
+      "character": "SCAR",
+      "text": "If it weren't for you, Mufasa would still be alive. It's your fault he's dead; do you deny it?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "No."
+    },
+    {
+      "character": "SCAR",
+      "text": "Then... you're... guilty."
+    },
+    {
+      "character": "SIMBA",
+      "text": "No. I'm not a murderer."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, Simba, you're in trouble again. But this time, Daddy isn't here to save you. And now EVERYONE.. KNOWS... WHY!"
+    },
+    {
+      "character": "NALA",
+      "text": "Simba!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Now this looks familiar. Hmm. Where have I seen this before? Let me think. Hmm... hmm. Oh yes, I remember. This is just the way your father looked before he died."
+    },
+    {
+      "character": "SCAR",
+      "text": "And here's my little secret: I…killed…Mufasa!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Noooooo! ...Murderer!"
+    },
+    {
+      "character": "SCAR",
+      "text": "No, Simba, please."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Tell them the truth."
+    },
+    {
+      "character": "SCAR",
+      "text": "Truth? But truth is in the eye of the behold - llgkkk!"
+    },
+    {
+      "character": "SCAR",
+      "text": "All right. All right. (quietly, venomously) I did it."
+    },
+    {
+      "character": "SIMBA",
+      "text": "So they can hear you."
+    },
+    {
+      "character": "SCAR",
+      "text": "I killed Mufasa!"
+    },
+    {
+      "character": "TIMON AND PUMBAA",
+      "text": "Heeeyyyy-yaaaaah!"
+    },
+    {
+      "character": "TIMON",
+      "text": "'Scuse me. Pardon me. Comin' through. Hot stuff. Whoo!"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "WwwA! Hozah! Hazoww! Yaa! Yah! hhyEEOOWww!"
+    },
+    {
+      "character": "ZAZU",
+      "text": "Let me out! Let me out!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Let me in! Let me in! ...Ple-he-hease don't eat me."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Drop ‘im!"
+    },
+    {
+      "character": "BANZAI",
+      "text": "Hey, who's the pig?"
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Are you talkin’ to me?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Uh oh. They called him a pig."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Are you talking to me?!"
+    },
+    {
+      "character": "TIMON",
+      "text": "Shouldn't 'a done that."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "ARE YOU TALKING TO ME?!?"
+    },
+    {
+      "character": "TIMON",
+      "text": "Now they're in for it."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "They CALL me... MIIISTER PIG! AAAAAHHH..."
+    },
+    {
+      "character": "TIMON",
+      "text": "Take that! And that!"
+    },
+    {
+      "character": "BANZAI",
+      "text": "Ow ow ow ow ow ow ow ..."
+    },
+    {
+      "character": "PUMBAA",
+      "text": "Take that! And that! You yellow belly..."
+    },
+    {
+      "character": "ZAZU",
+      "text": "Take that, you stupid..."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Murderer."
+    },
+    {
+      "character": "SCAR",
+      "text": "Simba, Simba. Please. Please have mercy. I beg you."
+    },
+    {
+      "character": "SIMBA",
+      "text": "You don't deserve to live."
+    },
+    {
+      "character": "SCAR",
+      "text": "But, Simba, I am... ah... family. It's the hyenas who are the real enemy. It was their fault - it was their idea!"
+    },
+    {
+      "character": "SIMBA",
+      "text": "Why should I believe you? Everything you ever told me was a lie."
+    },
+    {
+      "character": "SCAR",
+      "text": "What are you going to do? You wouldn't kill your own Uncle...?"
+    },
+    {
+      "character": "SIMBA",
+      "text": "No, Scar. I'm not like you."
+    },
+    {
+      "character": "SCAR",
+      "text": "Oh, Simba, thank you. You are truly noble. I'll make it up to you, I promise. How can I, ah, prove myself to you? Tell me; I mean, anything."
+    },
+    {
+      "character": "SIMBA",
+      "text": "Run. Run away, Scar. And never return."
+    },
+    {
+      "character": "SCAR",
+      "text": "Yes. Of course. As you wish... ...your Majesty!"
+    },
+    {
+      "character": "SCAR",
+      "text": "Ahh, my friends."
+    },
+    {
+      "character": "SHENZI",
+      "text": "Friends? I thought he said we were the enemy!"
+    },
+    {
+      "character": "BANZAI",
+      "text": "Yeah, that's what I heard."
+    },
+    {
+      "character": "BANZAI AND SHENZI",
+      "text": "Ed?"
+    },
+    {
+      "character": "SCAR",
+      "text": "No. Let me explain. No. You don't understand. No! I didn't mean for... No, No! Look, I m sorry I called you... No! No!"
+    },
+    {
+      "character": "RAFIKI",
+      "text": "It is time."
+    },
+    {
+      "character": "MUFASA",
+      "text": "Remember."
+    },
+    {
+      "character": "LEBO M.",
+      "text": "Se-fi-le Baba ti-tabo Maye babo Busa lomhlaba"
+    },
+    {
+      "character": "LEBO M.",
+      "text": "He! Se-fi-le Busa Simba! Busa Simba! Ubuse ngo xolo Ubuse ngo thando Ubuse ngo xolo Ubuse ngo thando Ubuse ngo xolo"
+    },
+    {
+      "character": "LEBO M.",
+      "text": "(ngw' enamabala-wa)"
+    }
+  ],
+  "imdbId": "tt0110357",
+  "poster": "https://m.media-amazon.com/images/M/MV5BZGRiZDZhZjItM2M3ZC00Y2IyLTk3Y2MtMWY5YjliNDFkZTJlXkEyXkFqcGc@._V1_SX300.jpg",
+  "rated": "G",
+  "runtime": "88 min",
+  "genre": "Animation, Adventure, Drama",
+  "director": "Roger Allers, Rob Minkoff",
+  "topSpeakingCast": [
+    "SIMBA",
+    "TIMON",
+    "SCAR",
+    "PUMBAA",
+    "NALA",
+    "ZAZU",
+    "MUFASA",
+    "BANZAI",
+    "RAFIKI"
+  ]
+}

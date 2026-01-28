@@ -1,0 +1,3857 @@
+{
+  "id": "ant-man",
+  "title": "Ant-Man",
+  "year": null,
+  "characters": [
+    "ALPHA GUARD",
+    "CAB DRIVER",
+    "CARSON",
+    "CASSIE LANG",
+    "CELL PHONE",
+    "COMPUTER",
+    "COP ON SPEAKER",
+    "DALE",
+    "DARREN CROSS",
+    "DAVE",
+    "DETECTIVE",
+    "DR. HANK PYM",
+    "FRANK",
+    "GALE",
+    "HIDEOUS RABBIT",
+    "HOPE VAN DYNE",
+    "HOWARD STARK",
+    "ICE CREAM STORE CUSTOMER",
+    "KURT",
+    "LUIS",
+    "MAGGIE LANG",
+    "MITCHELL CARSON",
+    "NATASHA ROMANOFF",
+    "PAXTON",
+    "PEACHY",
+    "PEGGY CARTER",
+    "POLICE RADIO",
+    "POOL BBQ DAD",
+    "PYM TECH EMPLOYEE",
+    "PYM TECH GATE GUARD",
+    "PYM TECH SECURITY GUARD",
+    "SAM WILSON",
+    "SCOTT",
+    "SCOTT LANG",
+    "STEVE ROGERS",
+    "VIDEO VOICE OVER"
+  ],
+  "lines": [
+    {
+      "character": "DR. HANK PYM",
+      "text": "Stark."
+    },
+    {
+      "character": "MITCHELL CARSON",
+      "text": "He doesn’t seem happy."
+    },
+    {
+      "character": "HOWARD STARK",
+      "text": "Hello, Hank. You’re supposed to be in Moscow."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I took a detour."
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Tell me that isn’t what I think it is."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "It depends, if you think it’s a poor attempt to replicate my work. Even for this group, that takes nerve."
+    },
+    {
+      "character": "MITCHELL CARSON",
+      "text": "You were instructed to go to Russia. May I remind you, Dr. Pym, that you’re a soldier…"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I’m a scientist."
+    },
+    {
+      "character": "HOWARD STARK",
+      "text": "Then act like one. The Pym Particle is the most revolutionary science ever developed, help us put it to good use."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I let you turn me into your errand boy, and now you try to steal my research?"
+    },
+    {
+      "character": "MITCHELL CARSON",
+      "text": "If only you’d protected Janet with such ferocity, Dr. Pym."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Oh, god."
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Easy, Hank."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "You mention my wife again and I’ll show you ferocity."
+    },
+    {
+      "character": "HOWARD STARK",
+      "text": "Don’t look at me, you said it."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I formally tender my resignation."
+    },
+    {
+      "character": "HOWARD STARK",
+      "text": "We don’t accept it. Formally. Hank, we need you. The Pym Particle is a miracle. Please, don’t let your past determine the future."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "As long as I am alive, nobody will ever get that formula."
+    },
+    {
+      "character": "MITCHELL CARSON",
+      "text": "We shouldn’t let him leave the building."
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "You’ve already lied to him, now you want to go to war with him?"
+    },
+    {
+      "character": "MITCHELL CARSON",
+      "text": "Yes! Our scientists haven’t come close to replicating his work."
+    },
+    {
+      "character": "HOWARD STARK",
+      "text": "He just kicked your ass full size. You really want to find out what it’s like when you can’t see him coming? I’ve known Hank Pym for a long time, he’s no security risk. Unless we make him one."
+    },
+    {
+      "character": "PEACHY",
+      "text": "You like that? You like that? Come get you some then!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "You didn’t even move."
+    },
+    {
+      "character": "PEACHY",
+      "text": "Nah."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I mean, what if I come in on the left side, right? Just out here and see this here…"
+    },
+    {
+      "character": "PEACHY",
+      "text": "I’m gonna miss you, Scott."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I’m gonna miss you too, Peachy."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Man, you guys got the weirdest goodbye rituals."
+    },
+    {
+      "character": "LUIS",
+      "text": "Scotty! What’s up, man! Damn!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Hey! Hey, man."
+    },
+    {
+      "character": "LUIS",
+      "text": "Hey, what’s up with your eye?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Oh, well, what do you think. Peachy. His going away present."
+    },
+    {
+      "character": "LUIS",
+      "text": "Oh, yeah, I still got my scar from a year ago."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Oh yeah."
+    },
+    {
+      "character": "LUIS",
+      "text": "Yeah. Yeah, yeah. You know what? I’m still the only one to knock him out."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Well, I definitely didn’t."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Thanks for picking me up, brother."
+    },
+    {
+      "character": "LUIS",
+      "text": "Oh, you know, you think I’m gonna miss my cellie getting out?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Hey, how’s your girl, man?"
+    },
+    {
+      "character": "LUIS",
+      "text": "Uh, she left me."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Oh."
+    },
+    {
+      "character": "LUIS",
+      "text": "Yeah, my mom died too. And my dad got deported. But I got the van!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "It’s nice!"
+    },
+    {
+      "character": "LUIS",
+      "text": "Yeah, right?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Thanks for the hook-up too. I needed a place to stay."
+    },
+    {
+      "character": "LUIS",
+      "text": "You wait ‘til you see this couch, you’re gonna be really happy. You’re gonna be on your feet in no time, watch."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I hope so."
+    },
+    {
+      "character": "LUIS",
+      "text": "Yeah. And I gotta introduce you to some people, some really skilled people."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Not interested."
+    },
+    {
+      "character": "LUIS",
+      "text": "Yeah right!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "No, I’m serious, man. I’m not going back. I got a daughter to take care of."
+    },
+    {
+      "character": "LUIS",
+      "text": "You know that jobs don’t come easy for ex-cons, right?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Look man, I got a masters in electrical engineering, alright? I’m gonna be fine."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Welcome to Baskin Robbins. Would you like to try our Mango Fruit Blast?"
+    },
+    {
+      "character": "ICE CREAM STORE CUSTOMER",
+      "text": "Uh, no thanks. Um, I will have… I’ll have a burger, please."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Oh, we don’t… we don’t make that."
+    },
+    {
+      "character": "ICE CREAM STORE CUSTOMER",
+      "text": "Pretzel. Hot pretzel, like, mustard… in mustard dip?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "It’s ice cream. Baskin Robbins."
+    },
+    {
+      "character": "ICE CREAM STORE CUSTOMER",
+      "text": "I’ll just do with whatever’s hot and fresh."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Dude."
+    },
+    {
+      "character": "DALE",
+      "text": "Can I see you in the back, chief? Pronto."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Sure thing, Dale. Darby, could you just, uh… …take care of this idiot? Thanks."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Hiya, Dale."
+    },
+    {
+      "character": "DALE",
+      "text": "Come on in. Pull up some chair."
+    },
+    {
+      "character": "DALE",
+      "text": "Three years in San Quentin, huh?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "You found out."
+    },
+    {
+      "character": "DALE",
+      "text": "Baskin Robbins always finds out."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Look, I’m sorry, alright, but I… no one would hire me."
+    },
+    {
+      "character": "DALE",
+      "text": "Breaking and entering. Grand larceny."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Look, I’m… I’m sorry, I… you know, it was… I don’t do it anymore. I’m just trying…"
+    },
+    {
+      "character": "DALE",
+      "text": "Respect. I couldn’t be happier about it."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Really?"
+    },
+    {
+      "character": "DALE",
+      "text": "Yeah, yeah."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Oh, thank you, thank you."
+    },
+    {
+      "character": "DALE",
+      "text": "You really stuck it to those billionaire S.O.Bs. And the more I read about what you did and stuff, I’m like, “Wow, I know this guy? I’m in charge of this guy?” Yeesh!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Well, I’m very happy in this job, and I’m… I really just appreciate the opportunities and…"
+    },
+    {
+      "character": "DALE",
+      "text": "Yeah, yeah. Well, you’re fired of course. I mean, I can’t really keep you on."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Wait, what? Fired?"
+    },
+    {
+      "character": "DALE",
+      "text": "Yeah."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Dale, look, it wasn’t a violent crime, I mean, I’m a good worker."
+    },
+    {
+      "character": "DALE",
+      "text": "No, it wasn’t a violent crime. It was a cool crime. I’ll tell you what, though, this’d be totally off the books, off the records, but, uh… if you want to grab one of those Mango Fruit Blasts on your way out the door, I’ll just pretend I didn’t see it."
+    },
+    {
+      "character": "LUIS",
+      "text": "Hey, Scotty, what’s up? I thought you were supposed to be at work?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I was, I got fired."
+    },
+    {
+      "character": "LUIS",
+      "text": "Damn! They find out who you are?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Yep."
+    },
+    {
+      "character": "LUIS",
+      "text": "Baskin Robbins always finds out, bro."
+    },
+    {
+      "character": "DAVE",
+      "text": "Baskin Robbins don’t play."
+    },
+    {
+      "character": "LUIS",
+      "text": "You want some waffles?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Yeah, I’ll take a waffle."
+    },
+    {
+      "character": "LUIS",
+      "text": "Oh. That’s Kurt. He was in Folsom for 5 years, he’s a wizard on that laptop."
+    },
+    {
+      "character": "KURT",
+      "text": "Nice to meet you."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Yeah, nice to meet you too."
+    },
+    {
+      "character": "DAVE",
+      "text": "Dave. Nice work on the Vista job."
+    },
+    {
+      "character": "KURT",
+      "text": "Vista job? Yes. No, no, I have heard of this robbery."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Well, technically, I didn’t rob them. Robbery involves threat. I hate violence, I burgled them. I’m a cat burglar."
+    },
+    {
+      "character": "DAVE",
+      "text": "You mean you’re a pussy?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Yeah."
+    },
+    {
+      "character": "LUIS",
+      "text": "They were overcharging the customers, right? And it added up to millions. He blows the whistle and he gets fired. And what does he do? He hacks into the security system, and transfers millions back to the people that they stole it from."
+    },
+    {
+      "character": "DAVE",
+      "text": "Posts all the bank records online."
+    },
+    {
+      "character": "LUIS",
+      "text": "And he drove dude’s Bentley into a swimming pool."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "What are you doing? Hmm? Why are you telling my life’s story to these guys? What do you want?"
+    },
+    {
+      "character": "LUIS",
+      "text": "Okay. My cousin talked to this guy two weeks ago about this little, perfect job."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "No way."
+    },
+    {
+      "character": "LUIS",
+      "text": "No, no, no. Wait! This guy… this guy fits your M.O."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "No! I’m finished man. I’m not going back to jail."
+    },
+    {
+      "character": "LUIS",
+      "text": "It’s some retired millionaire living off his golden parachute, It’s a perfect Scott Lang mark."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I don’t care. I’m out."
+    },
+    {
+      "character": "PYM TECH GATE GUARD",
+      "text": "Dr. Pym?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Yes. I’m still alive."
+    },
+    {
+      "character": "PYM TECH SECURITY GUARD",
+      "text": "I.D."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Perhaps that will suffice."
+    },
+    {
+      "character": "PYM TECH SECURITY GUARD",
+      "text": "I’m very sorry, sir. Please come in."
+    },
+    {
+      "character": "PYM TECH EMPLOYEE",
+      "text": "Is that Hank Pym?"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Good morning, Hank."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Hope. Would it kill you to call me dad?"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Well, Dr. Cross will be so please that you could find the time to join us today."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "More like, thrilled."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I was surprised to receive any kind of invitation from you, Darren. What’s the occasion?"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Oh, you’ll see. Won’t he, Hope?"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "We’re ready for you inside."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Ouch. I guess some old wounds never heal, huh? Don’t worry, she’s in good hands. You’re in for a treat."
+    },
+    {
+      "character": "CARSON",
+      "text": "Long time no see, Dr. Pym. How’s retirement?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "How’s your face?"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "After you."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Now before we start I’d like to introduce a very special guest, this company’s founder and my mentor, Dr. Hank Pym. When I took over this company for Dr. Pym, I immediately started researching a particle that could change the distance between atoms while increasing density and strength. Why this revolutionary idea remained buried beneath the dust and cobwebs of Hank’s research, I couldn’t tell you. But just imagine. A soldier the size of an insect. The ultimate secret weapon. An “Ant-Man”. That’s what they called you. Right, Hank? Silly, I know. Propaganda. Tales to astonish. Trumped up B.S. to scare the U.S.S.R. Hank, will you tell our guests what you told me every single time I asked you, was the Ant-Man real?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Just a tall tale."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Right. Because how could anything so miraculous possibly be real? Well I was inspired by the legend of the Ant-Man. And with my breakthrough, shrinking inorganic material, I thought, could it be possible to shrink a person? Could that be done? Well, it’s not a legend anymore. Distinguished guests, I am proud to present the end of warfare as we know it: the Yellowjacket. The Yellowjacket is an all-purpose weapon of war capable of altering the size of the wearer for the ultimate combat advantage."
+    },
+    {
+      "character": "VIDEO VOICE OVER",
+      "text": "We live in an era in which the weapons we use to protect ourselves are undermined by constant surveillance. It’s time to return to a simpler age. One where the powers of freedom can once again operate openly to protect their interests. An all-purpose peace-keeping vessel. The Yellowjacket can manage any conflict on the Geo-political landscape, completely unseen. Efficient in both preventative measures and tactical assault. Practical applications include: surveillance, industrial sabotage, and the elimination of obstructions on the road to peace. A single Yellowjacket offers the user unlimited influence to carry out protective actions and one day soon, an army of Yellowjackets will create a sustainable environment of well-being around the world. The Yellowjacket."
+    },
+    {
+      "character": "FRANK",
+      "text": "So it’s a suit."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Don’t be crude, Frank. It’s not a suit, it’s a… it’s a vessel. What’s a matter, you’re not impressed?"
+    },
+    {
+      "character": "FRANK",
+      "text": "Oh, I’m impressed. I’m also concerned. Imagine what our enemies could do with this tech."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "We should have a longer conversation about that, Frank. I really value your opinion. Thank you for coming. Hope?"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Thank you very much, everybody. I will escort you out now. Thank you."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "You seem a bit shocked."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Darren, there’s a reason that I buried these secrets."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "So you finally admit it. We could’ve done this together, Hank. But you ruined that. That’s why you’re the past and I’m the future."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Don’t do this."
+    },
+    {
+      "character": "MITCHELL CARSON",
+      "text": "Dr. Cross."
+    },
+    {
+      "character": "MITCHELL CARSON",
+      "text": "You sell to me first, twenty percent of your asking price, I can have the cash here in two weeks."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Deal."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "We have to make our move, Hank."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "How close is he?"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "He still can’t shrink a live subject. Just give me the suit and let me finish this once and for all."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "No."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "I have Cross’ complete trust."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "It’s too dangerous."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "We don’t have a choice."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Well, that’s not entirely true."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "I think I found a guy."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Who?"
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "Daddy!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Peanut! Oh! Happy birthday! I’m so sorry I’m late, I didn’t know what time your party started."
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "It was on the invitation!"
+    },
+    {
+      "character": "PAXTON",
+      "text": "He didn’t get an invitation! But he came anyway."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Well, I’m not going to miss my little girl’s birthday party."
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "I’m gonna go tell mommy you’re here."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Oh, you don’t…"
+    },
+    {
+      "character": "PAXTON",
+      "text": "What are you doing here, Lang? You haven’t paid a dime in child support. You know, right now if I wanted to, I could arrest you."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "It’s good to see you too, Paxton."
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "Mommy’s so happy you’re here, she choked on her drink."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Hey, look what I have for you."
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "Can I open it now?"
+    },
+    {
+      "character": "PAXTON",
+      "text": "Of course sweetheart, it’s your birthday."
+    },
+    {
+      "character": "HIDEOUS RABBIT",
+      "text": "You’re my bestest friend!"
+    },
+    {
+      "character": "PAXTON",
+      "text": "What is that thing?"
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "He’s so ugly! I love him! Can I go show my friends?"
+    },
+    {
+      "character": "PAXTON",
+      "text": "Yeah, of course sweetheart, go ahead."
+    },
+    {
+      "character": "HIDEOUS RABBIT",
+      "text": "You’re my bestest friend!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Look, the child support is coming. Alright? It’s just hard finding a job when you have a record."
+    },
+    {
+      "character": "PAXTON",
+      "text": "I’m sure you’ll figure it out, but for now I want you out of my house."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "No, wait, it’s my daughter’s birthday!"
+    },
+    {
+      "character": "PAXTON",
+      "text": "It’s my house!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "So what, it’s my kid!"
+    },
+    {
+      "character": "MAGGIE LANG",
+      "text": "Scott! You can’t just show up here, you know that. Come on"
+    },
+    {
+      "character": "HIDEOUS RABBIT",
+      "text": "You’re my bestest friend!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Look, the child support is coming. Alright? It’s just hard finding a job when you have a record."
+    },
+    {
+      "character": "PAXTON",
+      "text": "I’m sure you’ll figure it out, but for now I want you out of my house."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "No, wait, it’s my daughter’s birthday!"
+    },
+    {
+      "character": "PAXTON",
+      "text": "It’s my house!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "So what, it’s my kid!"
+    },
+    {
+      "character": "MAGGIE LANG",
+      "text": "Scott! You can’t just show up here, you know that. Come on."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "It’s her birthday party."
+    },
+    {
+      "character": "MAGGIE LANG",
+      "text": "Yeah, I know, but you can’t just show up."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "She’s my daughter."
+    },
+    {
+      "character": "PAXTON",
+      "text": "You don’t know the first thing about being a father."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Maggie, I tell you this as a friend, and as the first love of my life, your fiancé is an ass-hat."
+    },
+    {
+      "character": "MAGGIE LANG",
+      "text": "He’s not an ass-hat."
+    },
+    {
+      "character": "PAXTON",
+      "text": "Hey, watch your language. Okay?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Oh, what language. I said hat."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Really, Maggie? That guy? Come on, you could marry anyone you want, you have to get engaged to a cop?"
+    },
+    {
+      "character": "MAGGIE LANG",
+      "text": "At least he’s not a crook."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I’m trying, okay? I’ve changed, and I’m straight, I had a job, and… I want to provide. I had a lot of time to think about it, and I love her. So much. I’ve missed so much time and I want to be a part of her life. What do I do?"
+    },
+    {
+      "character": "MAGGIE LANG",
+      "text": "Get an apartment. Get a job, pay child support. And then we will talk about visitation, I promise. You’re her hero, Scott. Just, be the person that she already thinks you are."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "I’m sorry you have such deep concerns about the Yellowjacket, Frank."
+    },
+    {
+      "character": "FRANK",
+      "text": "Yeah, well, uh, unfortunately we can’t just do whatever we want. Would be nice though, right?"
+    },
+    {
+      "character": "FRANK",
+      "text": "But there are laws."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "What laws? Of man? The laws of nature transcend the laws of man, and I’ve transcended the laws of nature."
+    },
+    {
+      "character": "FRANK",
+      "text": "Darren, I don’t think you understand…"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Hm. We still haven’t worked out all the bugs."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Goodbye, Frank."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "You know I’ve been thinking a lot about gratitude lately, and today during my morning meditation, an interesting thought occurred to me and I think it might apply to you too."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "How’s that?"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Gratitude can be forgiveness. I spent years carrying around my anger for Hank Pym. I devoted my genius to him. I could’ve worked anywhere. I chose my mentor poorly. You didn’t even have a choice. He never believed in you. It’s a shame what we had to do, but he forced us to do it, didn’t he? But we shouldn’t be angry, we should be grateful. Because his failures as a mentor, as a father, forced us to spread our wings."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "You’re a success, Darren. You deserve everything coming your way."
+    },
+    {
+      "character": "LUIS",
+      "text": "Hey, what’s up, hotshot?"
+    },
+    {
+      "character": "DAVE",
+      "text": "Maybe he didn’t hear you."
+    },
+    {
+      "character": "LUIS",
+      "text": "How was the party?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Tell me about that tip."
+    },
+    {
+      "character": "LUIS",
+      "text": "What?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I want to know about that tip."
+    },
+    {
+      "character": "LUIS",
+      "text": "Ooh, baby, it’s on!"
+    },
+    {
+      "character": "DAVE",
+      "text": "Hot dog!"
+    },
+    {
+      "character": "LUIS",
+      "text": "It’s so on right now!"
+    },
+    {
+      "character": "DAVE",
+      "text": "Look who grew a pair!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Calm down, alright? I just need to know where it came from, it’s gotta be airtight."
+    },
+    {
+      "character": "LUIS",
+      "text": "Okay. I was at a wine tasting with my cousin Ernesto, which was mainly reds, and you know I don’t love reds man, you know? But there was a rosé that saved the day, it was delightful. And he tells me about this girl Emily that we used to kick it with, it was actually the first pair of boobs that I ever touched."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "It’s the wrong details. It’s wrong… It has nothing to do with the story. Go!"
+    },
+    {
+      "character": "LUIS",
+      "text": "So, uh, he tells me that she’s working as a housekeeper now, right? And she’s dating this dude Carlos who’s a shot caller from across the bay and she tells him about the dude that she’s cleaning for. Right? That he’s, like, this big-shot CEO that is all retired now but he’s loaded. And so, Carlos and Ernesto are on the same softball team and they get to talking, right? And here comes the good part. Carlos says: “Yo, man. This guy’s got a big-ass safe just sitting in the basement, just chillin’.” Of course Ernesto comes to me cause he knows I’ve got mad thieving skills. Of course I ask him: “Did Emily tell Carlos to tell you to get to me what kind of safe it was? And he says: “Nah, dog. All she said is that it’s, like, super legit, and whatever’s in it has gotta be good!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "What?"
+    },
+    {
+      "character": "KURT",
+      "text": "Old man have safe."
+    },
+    {
+      "character": "LUIS",
+      "text": "And he’s gone for a week."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Alright. There’s an old man, he’s got a safe, and he’s gone for a week. Let’s just work with that."
+    },
+    {
+      "character": "LUIS",
+      "text": "Y’know what I’m sayin’?"
+    },
+    {
+      "character": "KURT",
+      "text": "Landlines cut, cell signals jammed. No one will be making for distress call tonight."
+    },
+    {
+      "character": "LUIS",
+      "text": "All check."
+    },
+    {
+      "character": "KURT",
+      "text": "Check."
+    },
+    {
+      "character": "DAVE",
+      "text": "Check."
+    },
+    {
+      "character": "LUIS",
+      "text": "If the job goes bad, you know I got your back, right?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Don’t worry, it’s not gonna happen."
+    },
+    {
+      "character": "LUIS",
+      "text": "I love it when he gets cocky."
+    },
+    {
+      "character": "DAVE",
+      "text": "Damn!"
+    },
+    {
+      "character": "LUIS",
+      "text": "Nice!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Alright, I’m moving through the house."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "There’s a fingerprint lock on the door."
+    },
+    {
+      "character": "LUIS",
+      "text": "It’s got a what? Ernesto didn’t tell me nothin’ about that. Aw, man, are we screwed?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Not necessarily."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I’m in."
+    },
+    {
+      "character": "KURT",
+      "text": "No alarms have been triggered. He’s in like the Flynn."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Oh, man."
+    },
+    {
+      "character": "LUIS",
+      "text": "What is it?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Well they weren’t kidding, this safe is serious."
+    },
+    {
+      "character": "LUIS",
+      "text": "How serious we talkin’, Scotty?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "It’s a Carbondale. It’s from 1910, made from the same steel as the Titanic."
+    },
+    {
+      "character": "LUIS",
+      "text": "Wow. Can you crack it?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Well, here’s the thing. It doesn’t do so well in the cold. Remember what that iceberg did?"
+    },
+    {
+      "character": "LUIS",
+      "text": "Yeah, man, it killed DiCaprio."
+    },
+    {
+      "character": "DAVE",
+      "text": "It killed everybody."
+    },
+    {
+      "character": "KURT",
+      "text": "But not the old lady. She still threw the jewel into the oceans."
+    },
+    {
+      "character": "LUIS",
+      "text": "What are you doing?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I poured water in the locking mechanism and froze it with nitrogen. Ice expands, metal doesn’t."
+    },
+    {
+      "character": "LUIS",
+      "text": "What are you doing now?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Waiting. Waiting."
+    },
+    {
+      "character": "SCOTT",
+      "text": "Nice."
+    },
+    {
+      "character": "LUIS",
+      "text": "What is it, cash? Jewels?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Well there’s nothing here."
+    },
+    {
+      "character": "LUIS",
+      "text": "What’d you say?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "It’s a suit."
+    },
+    {
+      "character": "LUIS",
+      "text": "What?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "It’s an old motorcycle suit."
+    },
+    {
+      "character": "LUIS",
+      "text": "There’s no cash, no jewelry, nothing?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "No. It’s a bust."
+    },
+    {
+      "character": "LUIS",
+      "text": "I’m really sorry, Scotty. I know you needed a score."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "I thought we were using mice?"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "What’s the difference? Commence experiment 34C, organic atomic reduction."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Darren, maybe we should think…"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Shrinking organic tissue is the centerpiece of this technology. I can’t go to the buyers with half a breakthrough."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Experiment 34C results: Negative."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Sanitize the workstation, bring in subject 35C."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Why would you lock this up?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "So weird."
+    },
+    {
+      "character": "LUIS",
+      "text": "Scott, what’s up man?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I wonder… what is this?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "The world sure seems different from down here, doesn’t it, Scott?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "What? Who… who said that?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Luis! Luis, down here!"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "It’s a trial by fire, Scott. Or in this case, water."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Guess you’re tougher than you thought."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Oh, I don’t want to see this."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Luis! Ahh! Son of a… !"
+    },
+    {
+      "character": "CAB DRIVER",
+      "text": "What the hell?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Not bad for a test drive. Keep the suit, I’ll be in touch."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "No, no. No, thank you."
+    },
+    {
+      "character": "COP ON SPEAKER",
+      "text": "Put it down on the ground! You are under arrest!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "No, I didn’t steal anything! I was returning something I stole."
+    },
+    {
+      "character": "PAXTON",
+      "text": "You know, you almost had us convinced that you were going to change your ways. They were really rooting for you. It’s gonna break their hearts."
+    },
+    {
+      "character": "DETECTIVE",
+      "text": "You got a visitor."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Who?"
+    },
+    {
+      "character": "DETECTIVE",
+      "text": "Your lawyer."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "My lawyer?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I told you I’d be in touch, Scott. I’m starting to think that you prefer the inside of a jail cell."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Oh, man."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Sit down."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Sir, I’m sorry I stole the suit. I don’t even want to know why you have it."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Maggie was right about you."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "How do you know about… ?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "The way she’s trying to keep you away from Cassie. The moment things get hard, you turn right back to crime. The way I see it, you have a choice. You can either spend the rest of your life in prison or go back to your cell and await further instructions."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I don’t understand."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "No, I don’t expect you to. But you don’t have many options right now. Quite frankly, neither do I. Why do you think I let you steal that suit in the first place?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "What?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Second chances don’t come around all that much. So next time you think you might see one I suggest you take a real close look at it."
+    },
+    {
+      "character": "MAGGIE LANG",
+      "text": "Are you sure you don’t want a different toy?"
+    },
+    {
+      "character": "MAGGIE LANG",
+      "text": "Are you sure you don’t want a different toy?"
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "No, I love this one."
+    },
+    {
+      "character": "MAGGIE LANG",
+      "text": "Okay. Well, get some sleep then. I love you."
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "Mommy?"
+    },
+    {
+      "character": "MAGGIE LANG",
+      "text": "Hm?"
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "Is daddy a bad man? I heard some grownups say he’s bad."
+    },
+    {
+      "character": "MAGGIE LANG",
+      "text": "No. Daddy just gets confused sometimes, you know?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Smart choice. You actually listened for once."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Under the door."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Okay. Where to now?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Hang tight."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "What? What?!"
+    },
+    {
+      "character": "PAXTON",
+      "text": "Where the hell did he go?"
+    },
+    {
+      "character": "DETECTIVE",
+      "text": "I have no idea, he just vanished."
+    },
+    {
+      "character": "DETECTIVE",
+      "text": "Set up a five block perimeter, now!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Get back, get back, get back!"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Scott, these are my associates."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Huh? You got a camera on an ant? Yeah, sure, why not? Where’s the car?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "No car, we’ve got wings. Incoming!"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Put your foot on the central node and not the thorax."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Are you ki… ? How safe’s this… ?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Get on the damn ant, Scott!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Why am I on a police car? Shouldn’t I not be on a police car?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "So they can give you a lift past their five block perimeter."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Whoa. Alright. Now, what’s the next move?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Hang on tight."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Oh, this is easy. I’m getting the hang of this. Yank up to go up. It’s like a horse."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "You’re throwing 2-47 off balance."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Wait, his name is 2-47?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "He doesn’t have a name, he has a number Scott. Do you have any idea how many ants there are?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Whoa!"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Maybe it’s 2-48."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "No, no, no, no! Vertigo, vertigo!"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "No, I think it’s 2-47."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Wait."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Hang on."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I think I’m getting the hang of this."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I’m controlling 2-47. He is not listening to you."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "What? Can I make one little request?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "No."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Stop 2-47. Time out, time out. Time out. Alright, hold on. Just, wait. Whoa, uh! What happens if I throw up in this helmet?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "It’s my helmet, Scott. Do not throw up."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Just set her down, alright? I’m gettin"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Wait."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Hang on."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I think I’m getting the hang of this."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I’m controlling 2-47. He is not listening to you."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "What? Can I make one little request?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "No."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Stop 2-47. Time out, time out. Time out. Alright, hold on. Just, wait. Whoa, uh! What happens if I throw up in this helmet?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "It’s my helmet, Scott. Do not throw up."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Just set her down, alright? I’m getting light headed."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Hang on, Scott."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Yeah, I’m getting a little light… it’s funny… hit me, and…"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Hello. Who are you? Have you been standing there watching me sleep this whole time?"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Yes."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Why?"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Because the last time you were here you stole something."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Oh. Oh! Hey, look."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Whoa!"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Paraponera clavata. Giant tropical bullet ants. Ranked highest on the Schmidt pain index. They’re here to keep an eye on you when I can’t. Dr. Pym’s waiting for you downstairs."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Who? Hey, um, whose pajamas are these?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "How am I supposed to do this?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Right, just one step at a time."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Ugh. You don’t bite me, I don’t step on you, deal?"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Take down the servers and Cross wouldn’t even know it. We don’t need this guy."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I assume that you’ve already met my daughter Hope."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I did. She’s great."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "She doesn’t think that we need you."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "We don’t. We can do this ourselves."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I go to all this effort to let you steal my suit, and then Hope has you arrested."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Okay, we can try this and when he fails I’ll do it myself."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "She’s a little bit anxious. It has to do with this job, which, judging by the fact that you’re sitting opposite me, I take it that you’re interested in."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "What job?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Would you like some tea?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Uh, sure."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I was very impressed with how you managed to get past my security system. Freezing that metal was particularly clever."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Were you watching me?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Scott, I’ve been watching you for a while, ever since you robbed Vista Corp. Oh, excuse me, burgled Vista Corp. Vista’s security system is one of the most advanced in the business. It’s supposed to be unbeatable but you beat it. Would you like some sugar?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Yeah, thanks. You know what, I’m okay. How do you make them do that?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Ants can lift objects fifty times their weight. They build, farm, they cooperate with each other."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Right. But how do you make them do that?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I use electromagnetic waves to stimulate their olfactory nerve center. I speak to them. I can go anywhere, hear anything, and see everything."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "And still know absolutely nothing. I’m late to meet Cross."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Uh… Dr. Pym?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "You don’t need to raise your hand, Scott."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Sorry, I just have one question. Who are you? Who is she? What the hell’s going on and can I go back to jail now?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Come with me."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Twenty years ago I created a formula that altered atomic relative distance."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Huh?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I learned how to change the distance between atoms, that’s what powers the suit, that’s why it works."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Whoa."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "But it was dangerous. It was too dangerous. So I hid it from the world. And that’s when I switched gears and I started my own company."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Pym Tech."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Yes. I took on a young protégé called Darren Cross."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Darren Cross. He’s a big deal."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "But before he was a big deal he was my assistant. I thought I saw something in him, a son I never had perhaps. He was brilliant, but as we became close he began to suspect that I wasn’t telling him everything. He heard rumors about what was called the Pym Particles, and he became obsessed with recreating my formula. But I wouldn’t help him so he conspired against me and he voted me out of my own company."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "How could he do that?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "The board’s chairman is my daughter, Hope. She was the deciding vote. But she came back to me when she saw how close Cross was to cracking my formula. The process is highly volatile. What isn’t protected by a specialized helmet can affect the brain’s chemistry. I don’t think Darren realizes this, and you know, he’s not the most stable guy to begin with."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "So, what do you want from me?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Scott, I believe that everyone deserves a shot at redemption. Do you?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I do."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "If you can help me, I promise I can help you be with your daughter again. Now are you ready to redeem yourself?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Absolutely. My days of breaking into places and stealing shit are done. What do you want me to do?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I want you to break into a place and steal some shit."
+    },
+    {
+      "character": "MAGGIE LANG",
+      "text": "You going to be home for dinner tonight?"
+    },
+    {
+      "character": "PAXTON",
+      "text": "Uh, yeah. I’ll pick something up, text you."
+    },
+    {
+      "character": "MAGGIE LANG",
+      "text": "Okay. Good news?"
+    },
+    {
+      "character": "PAXTON",
+      "text": "Uh, I don’t know. It’s news."
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "Are you trying to find my daddy?"
+    },
+    {
+      "character": "PAXTON",
+      "text": "Yeah, I am, sweetheart. I just want your daddy to be safe."
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "Hope you don’t catch him."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "This isn’t the first time these guys have tried to get their hands on game changing weaponry. That’s Mitchell Carson, ex-head of defense at SHIELD, presently in the business of toppling governments. He always wanted my tech, and now, unless we break in and steal the Yellowjacket and destroy all the data, Darren Cross is gonna unleash chaos upon the world."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I think our first move should be calling the Avengers."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I’ve spent half my life trying to keep this technology out of the hands of a Stark. I’m sure as hell not gonna hand-deliver it to one now. This is not some cute technology like the Iron Man suit. This could change the texture of reality. Besides they’re probably too busy dropping cities out of the sky."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Okay, then why don’t you just send the ants?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Scott, they are ants. Ants, they can do a lot of things, but they still need a leader. Somebody that can infiltrate a place that’s designed to prevent infiltration."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Hank, I’m a thief. Alright? I’m a good thief. But this is insane."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "He’s right Hank and you know it. You’ve seen the footage, you know what Cross is capable of. I was against using him when we had months, now we have days. I’m wearing the suit."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Absolutely not!"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "I know the facility inside and out, I know how Cross thinks. I know this mission better than anybody here."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "We need you close to Cross otherwise this mission cannot work."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "We don’t have time to screw around."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Hope, please. Listen to me, please…"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "He is a criminal. I’m your daughter."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "No!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "She’s right, Hank. I’m not your guy. Why don’t you wear the suit?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "You think I don’t want to? I can’t. I spent years wearing it. It took a toll on me. You’re our only option. Before Hope lost her mother, she used to look at me like I was the greatest man in the world. And now she looks at me and it’s just disappointment. It’s too late for me, but not for you. This is your chance. The chance to earn that look in your daughter’s eyes, to become the hero that she already thinks you are. It’s not about saving our world, it’s about saving theirs."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Damn, that was a good speech."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Scott, I need you to be the Ant-Man."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "In the right hands, the relationship between man and suit is symbiotic. The suit has power, the man harnesses that power. You need to be skillful, agile, and above all, you need to be fast. You should be able to shrink and grow on a dime, so your size always suits your needs. Now dive through the keyhole, Scott. You charge big, you dive small, then you emerge big."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Ow!"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Useless."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "When you’re small energy is compressed so you have the force of a two hundred pound man behind a fist a hundredth of an inch wide, you’re like a bullet. You punch too hard, you kill someone, too soft, it’s a love-tap. In other words you have to know how to punch."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I was in prison for three years, I know how to punch."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Show me."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Terrible."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "You want to show me how to punch? Show me…"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "That’s how you punch."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "She’s been looking forward to this."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "No kiddin’."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Hope trained in martial arts at a, uh, difficult time."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Oh, by difficult time, he means when my mother died."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "We lost her in a plane crash."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "It’s bad enough you won’t tell me how she died, could you please stop telling me that lie. We’re working here."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Alright princess, let’s get back to work."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Were you going for the hand?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "You know, I think this regulator is holding me back."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Do not screw with the regulator. If that regulator is compromised you would go sub-atomic."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "What does that mean?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "It means that you would enter a quantum realm."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "What does *that* mean?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "It means that you would enter a reality where all concepts of time and space become irrelevant as you shrink for all eternity. Everything that you know, and love, gone forever."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Cool. Yeah. I’m… if it ain’t broke."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "You’ve learned about the suit, but you’ve yet to learn about your greatest allies: the ants. Loyal, brave, and your partners on this job."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Paratrechina longicornis, commonly known as crazy ants, they’re lightning fast and can conduct electricity which makes them useful to fry out enemy electronics."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Oh, you’re not so crazy."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Hey! You’re cute."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Oh! Aaah!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "That was a lot scarier a second ago."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "It looks like the Futures lab has its own isolated power supply."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "There’s a security guard posted around the clock, we’ll need you to take him out to deactivate the security systems."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Okay. Who’s next?"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Paraponera clavata."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I know. Bullet ants, right? Number one on the Schmidt pain index."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Hey, guys! Remember me from the bedroom?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Whoa!"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "The Yellowjacket pod is hermetically sealed and the only access point is a tube we estimate to be about five millimeters in diameter."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Why do I have a sick feeling in my stomach?"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "The tube is protected by a laser grid and we can only power that down for fifteen seconds."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "You’re going to need to signal the crazy ants to blow the servers, retrieve the suit, and exit the vaults, before the backup power comes on."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Camponotus pennsylvanicus."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Alternatively known as a carpenter ant. Ideal for ground and air transport."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Wait a minute, I know this guy. I’m going to call him Ant-thony."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "That’s good. That’s very good, because this time you’re really going to have to learn how to control him. Tell them to put the sugar in the teacup."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Oh, you okay, d…"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Hank wants you outside for target practice."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "The suit has no weapons so I made you these discs. Red shrinks. Blue enlarges."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Solenopsis mandibularis."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Known for their bite, the fire ants have evolved into remarkable architects. They are handy to get you in and out of difficult places."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "You can do it Scott, come on."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "They’re not listening to me."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "You have to commit, you have to mean it. No shortcuts, no lies."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Throwing insults into the mix will not do anyone any good, Hope."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "We don’t have time for coddling."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Our focus should be on helping Scott!"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Really? Is that where our focus should be?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "They’re not listening to me."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "You have to commit, you have to mean it. No shortcuts, no lies."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Throwing insults into the mix will not do anyone any good, Hope."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "We don’t have time for coddling."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Our focus should be on helping Scott!"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Really? Is that where our focus should be?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Hope!"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "I don’t know why I came to you in the first place."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "We can’t do this without her."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Oh, God."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "You gotta lock your doors. I mean, really. There’s some weird folks in this neighborhood."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Do you think this is a joke? Do you have any idea what he’s asking you to risk? You have a daughter."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I’m doing this for her."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "You know when my mother died I didn’t see him for two weeks?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "He was in grief."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Yeah, so was I, and I was seven. And he never came back, not in any way that counted. He just sent me off to boarding school. You know, I thought, with all that’s at stake, just maybe we might have a chance at making peace. But even now he still wants to shut me out."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "He doesn’t want to shut you out. He trusts you."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Then why are you here?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "It proves that he loves you. Hope. Look at me. I’m expendable, that’s why I’m here. You must’ve realized that by now. I mean, that’s why I’m in the suit and you’re not. He’d rather lose than fight than lose you. Anyway…"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "You know, I didn’t know you had a… a daughter when I called the cops on you. What’s her name?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Cassie."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "It’s a pretty name. You have to clear your mind, Scott. You have to make your thoughts precise, that’s how it works. Think about Cassie, about how badly you want to see her, and use that to focus."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Open your eyes and just think about what you want the ants to do."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "That’s good."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Your mother convinced me to let her join me on my missions. They called her the Wasp. She was born to it. And there’s not a day that goes by that I don’t regret having said yes. It was 1987, separatists had hijacked a Soviet missile silo in Kursk and launched an ICBM at the United States. The only way to the internal mechanics was through solid titanium."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I knew I had to shrink between the molecules to disarm the missile, but my regulator had sustained too much damage. Your mother, she didn’t hesitate."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Janet! No!"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "She turned off her regulator and went sub-atomic to deactivate the bomb. She was gone. Your mom died a hero. And I spent the next ten years trying to learn all I could about the quantum realm."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "You were trying to bring her back."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "But all I learned was we know nothing."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "It’s not your fault. She made her choice. But why didn’t you tell me this sooner?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I was trying to protect you. I lost your mother. I didn’t mean to lose you too."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "I’m sorry."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "This is awesome. It’s awesome, you know? You guys are breaking down walls, you’re healing. It’s important."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I ruined the moment didn’t I?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Yes, you did, yes."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I’m gonna make some tea."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Nailed it!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "That’s a good boy, Ant-thony."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "The final phase of your training will be a stealth incursion."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "It’s freezing! You couldn’t make a suit with a flannel lining?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "We must retrieve this prototype of a signal decoy, it’s a device that I invented from my SHIELD days."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "We need it to counteract the transmission blockers that Cross installed in the Futures vault."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "It’s currently collecting dust in one of Howard Stark’s old storage facilities in upstate New York. Should be a piece of cake."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "You’re over the target area. Disengage, now, Scott."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Squadron A, go. B, go. C, go. Alright, Ant-thony, please don’t drop me this time. Ah, it feels like a big leap from sugar cubes to this."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Stay calm."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Uh, guys, we might have a problem. Hank, didn’t you say this was some old warehouse?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "It’s not!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "You son of a bitch!"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Scott, get out of there."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Abort! Abort now."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "No, it’s okay. It doesn’t look like anyone’s home. Ant-thony, get me to the roof."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "He’s gonna lose the suit."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "He’s gonna lose his life."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Alright I’m on the roof of the target building."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Somebody’s home, Scott."
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "What’s going on down there, Sam?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "It’s the Falcon!"
+    },
+    {
+      "character": "SAM WILSON",
+      "text": "I had a sensor trip but I’m not seeing anything. Wait a second."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Abort, Scott! Abort now."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "It’s okay, he can’t see me."
+    },
+    {
+      "character": "SAM WILSON",
+      "text": "I can see you."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "He can see me."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Hi. I’m Scott."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Did he just say “Hi I’m Scott?”"
+    },
+    {
+      "character": "SAM WILSON",
+      "text": "What are you doing here?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "First off, I’m a big fan."
+    },
+    {
+      "character": "SAM WILSON",
+      "text": "Appreciate it. So who the hell are you?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I’m Ant-Man."
+    },
+    {
+      "character": "SAM WILSON",
+      "text": "Ant-Man?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "What, you haven’t heard of me? No, you wouldn’t have heard of me."
+    },
+    {
+      "character": "SAM WILSON",
+      "text": "You want to tell me what you want?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I was hoping I could grab a piece of technology just for a few days, and then return it. I need it to save the world. You know how that is."
+    },
+    {
+      "character": "SAM WILSON",
+      "text": "I know exactly how that is."
+    },
+    {
+      "character": "SAM WILSON",
+      "text": "Located the breach. Bringing him in."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Sorry about this!"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "What the hell are you doing?"
+    },
+    {
+      "character": "SAM WILSON",
+      "text": "Breach is an adult male who has some sort of shrinking tech."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Sorry. Sorry about this. Sorry"
+    },
+    {
+      "character": "SAM WILSON",
+      "text": "That’s enough!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Ant-thony, a little help."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I’ve lost visual!"
+    },
+    {
+      "character": "SAM WILSON",
+      "text": "He’s inside my pack."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Sorry. You seem like a really great guy."
+    },
+    {
+      "character": "SAM WILSON",
+      "text": "It’s really important to me that Cap never finds out about this."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "That was completely irresponsible and dangerous! You jeopardized everything!"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "You got it."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Well done."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Wait a minute. Did you just compliment me? He did, didn’t he?"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Kind of sounded like he did."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I was good, wasn’t I?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Hey, how about the fact that I fought an Avenger, and didn’t die?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Now let’s not dwell on the past. We gotta finish our planning."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Don’t mind him. You did good."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Darren. How the hell did you get in here?"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "You left the front door open, Hank. It’s official. You’re old."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "The plans! He will kill him."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Well to what do I owe this pleasure?"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "I have good news."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Really? What’s that?"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Pym Tech, the company you created, is about to become one of the most profitable operations in the world. We’re anticipating fifteen billion in sales tomorrow alone."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "You’re welcome. I know this is odd, but I’d like you to be there. This is my moment, I want you to see it."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Sure, Darren. Yeah, sure. I’ll be there."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "What did you see in me?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I don’t know what you mean."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "All those years ago, you picked me. What did you see?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I saw myself."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Then why did you push me away?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Because I saw too much of myself."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "He knows, he’s baiting you! We have to call it off."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "We’re all taking risks."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "What if he saw me here?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "He didn’t. There’s no way."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "How do you know that?"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Darren, hi."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Hope, where are you right now?"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "I’m at home, why?"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "I just saw Hank. I still get nothing but contempt from him."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Don’t let him rile you up, he’s just… he’s just a senile old man."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "We need to start everyone working around the clock, get the assembly line up and running. And I’m tripling security. Full sensors at all entrances, and exterior air vents fitted with steel micro mesh."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Great. Good idea."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Thank you, Hope. I’m so lucky to have you on my team."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "He’s tripling security, he’s lost his mind, and he’s on to you."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "But he is not on to you."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "He’s adding full body scanners to all entrances and closing exterior vents. How are we gonna get Scott inside?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "The water main. You can’t add security to a water main. The pressure is too strong, but if we can decrease it, that’s how I get in."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Somebody would have to reach the building’s control center to change the water pressure. I mean, Hank and I will be beside Cross, how are we supposed to do that?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "So we expand our team. What do we need? A fake security guard on the inside to depressurize the water system, somebody else to hack into the power supply and kill the laser grid, and a getaway guy."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "No, no. No, no, no. Not those three wombats. No way."
+    },
+    {
+      "character": "LUIS",
+      "text": "Thank you for the coffee ma’am. It’s not too often that you rob a place, and then get welcomed back. Because we just robbed you!"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "You know that he was arrested for stealing a smoothie machine, right?"
+    },
+    {
+      "character": "LUIS",
+      "text": "Two smoothie machines."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Are you sure they can handle this?"
+    },
+    {
+      "character": "LUIS",
+      "text": "Oh we can handle it, we’re professionals."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "You’ll forgive us if we’re not instilled with confidence."
+    },
+    {
+      "character": "DAVE",
+      "text": "Wait, everybody. Just kick back and relax a little bit, man. we know our business. We broke into this spooky-ass house, didn’t we?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I let you."
+    },
+    {
+      "character": "DAVE",
+      "text": "Well, one could say that I let you let me."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Look, it’s okay. They can handle this."
+    },
+    {
+      "character": "LUIS",
+      "text": "Yeah, we can handle it."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "You got their credentials?"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "He’s in the system."
+    },
+    {
+      "character": "LUIS",
+      "text": "I’m in the system?"
+    },
+    {
+      "character": "DAVE",
+      "text": "The system."
+    },
+    {
+      "character": "LUIS",
+      "text": "The system?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Yeah. We’re doomed."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Alright, there’s something you guys need to see."
+    },
+    {
+      "character": "LUIS",
+      "text": "Damn! Whoa! That’s so cool, bro!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Now look, this is gonna get weird, alright? It’s pretty freaky but it’s safe. There’s no reason to be scared."
+    },
+    {
+      "character": "LUIS",
+      "text": "Aw, no, no. Daddy don’t get scared."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Really?"
+    },
+    {
+      "character": "LUIS",
+      "text": "Yeah."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Good."
+    },
+    {
+      "character": "LUIS",
+      "text": "Oh!"
+    },
+    {
+      "character": "KURT",
+      "text": "This is the work of the gypsies."
+    },
+    {
+      "character": "DAVE",
+      "text": "That’s… that’s… that’s witchcraft."
+    },
+    {
+      "character": "LUIS",
+      "text": "Oh, that’s amazing. That’s like some David Copperfield shit."
+    },
+    {
+      "character": "DAVE",
+      "text": "That’s some kind of wizardry."
+    },
+    {
+      "character": "KURT",
+      "text": "Sorcery!"
+    },
+    {
+      "character": "LUIS",
+      "text": "Ahh! Ahh! AAAAAAAAAAAHHHHHHH!"
+    },
+    {
+      "character": "LUIS",
+      "text": "Get off! Get off! Ahh!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I thought daddy didn’t get scared?"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "I gave them each half a Xanax and Hank explained the science of the suit to them. Fell right asleep."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Hey, look. I want to thank you for…"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "No, please don’t. We’re all doing this for reasons much bigger than any one of us. I’m just glad that you might have a slight chance of maybe pulling this off."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Hey. Thank you, you know, for that pep talk."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "You know, the honest truth is I actually went from despising you to almost liking you."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "You really should write poetry."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Get some sleep, Scott."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Alright, just so we’re clear, everyone here knows their role, right? Dave?"
+    },
+    {
+      "character": "DAVE",
+      "text": "Wheels on the ground."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Kurt?"
+    },
+    {
+      "character": "KURT",
+      "text": "Eyes in the sky."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Luis?"
+    },
+    {
+      "character": "LUIS",
+      "text": "Aw, man, you know it. You know what, I get to wear a uniform, that’s what’s up."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Luis."
+    },
+    {
+      "character": "LUIS",
+      "text": "I’m sorry, I mean, I’m good, I’m good. I’m just excited, and plus you’re girlfriend’s really hot, so you know that makes me nervous too."
+    },
+    {
+      "character": "LUIS",
+      "text": "And you are very beautiful, ma’am."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Oh, my lord."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "She’s not my…"
+    },
+    {
+      "character": "LUIS",
+      "text": "Hey, you know what?"
+    },
+    {
+      "character": "DAVE",
+      "text": "Wheels on the ground."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Kurt?"
+    },
+    {
+      "character": "KURT",
+      "text": "Eyes in the sky."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Luis?"
+    },
+    {
+      "character": "LUIS",
+      "text": "Aw, man, you know it. You know what, I get to wear a uniform, that’s what’s up."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Luis."
+    },
+    {
+      "character": "LUIS",
+      "text": "I’m sorry, I mean, I’m good, I’m good. I’m just excited, and plus you’re girlfriend’s really hot, so you know that makes me nervous too. [to Hope] And you are very beautiful, ma’am."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Oh, my lord."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "She’s not my…"
+    },
+    {
+      "character": "LUIS",
+      "text": "Hey, you know what? I was thinking of a tactic, like when I go undercover, like a whistling, you know I’m saying? To like, blend in."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "No, don’t whistle. No whistling. It’s not the Andy Griffith Show. No whistling."
+    },
+    {
+      "character": "KURT",
+      "text": "We’re set."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Wish me luck. [Scott gets out, shrinks himself as he goes through the water main]"
+    },
+    {
+      "character": "KURT",
+      "text": "Utility is online."
+    },
+    {
+      "character": "ALPHA GUARD",
+      "text": "Hey. What are you doing?"
+    },
+    {
+      "character": "LUIS",
+      "text": "Uh, boss-man said to secure the area. So, I’m securing."
+    },
+    {
+      "character": "ALPHA GUARD",
+      "text": "I’m the boss."
+    },
+    {
+      "character": "LUIS",
+      "text": "Oh."
+    },
+    {
+      "character": "ALPHA GUARD",
+      "text": "Utilities work room three…"
+    },
+    {
+      "character": "KURT",
+      "text": "Water level is dropping."
+    },
+    {
+      "character": "KURT",
+      "text": "Coming up on extraction pipe."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I see it! [to the ants] Alright, come on. I gotta get up there. That’s it, that’s it, guys, yeah!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "That’s it, yeah. Yes! You got it! You got it, come on!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Alright, let’s fly Ant-thony."
+    },
+    {
+      "character": "KURT",
+      "text": "The Ant-Man is in the building."
+    },
+    {
+      "character": "DAVE",
+      "text": "Phshh. Got a Crown Vic right outside over there."
+    },
+    {
+      "character": "KURT",
+      "text": "This is problem?"
+    },
+    {
+      "character": "DAVE",
+      "text": "Considering the Crown Vic’s the most commonly used car for under-cover cops, man. Yes, this is a problem."
+    },
+    {
+      "character": "PAXTON",
+      "text": "That’s Pym."
+    },
+    {
+      "character": "KURT",
+      "text": "Oh, no."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I’m employing the bullet ants. Hapanera-clamda-mana-merna. I don’t remember what it’s called but I feel bad for this guy."
+    },
+    {
+      "character": "LUIS",
+      "text": "See, that’s what I’m talkin’ bout. That’s what I call it, an unfortunate casualty, in a very serious operation, you know?"
+    },
+    {
+      "character": "KURT",
+      "text": "Signal decoy in place. Mean pretty lady did good, Scott."
+    },
+    {
+      "character": "DAVE",
+      "text": "Looks like Pym’s getting arrested."
+    },
+    {
+      "character": "KURT",
+      "text": "Scott, we have problem."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Problem? What’s the problem?"
+    },
+    {
+      "character": "KURT",
+      "text": "Dave! Dave, that’s not part of plan!"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Listen to me, if I don’t get into this building people will die."
+    },
+    {
+      "character": "GALE",
+      "text": "That’s awfully dramatic."
+    },
+    {
+      "character": "PAXTON",
+      "text": "Are you kidding me?!"
+    },
+    {
+      "character": "KURT",
+      "text": "Problem solved."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Well. How do I look?"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "There he is. Just in time. Come on."
+    },
+    {
+      "character": "COMPUTER",
+      "text": "Twelve point verification."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Little over the top, don’t you think, Darren?"
+    },
+    {
+      "character": "COMPUTER",
+      "text": "Confirming authorization."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "No, you can never be too safe."
+    },
+    {
+      "character": "COMPUTER",
+      "text": "Access granted."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "I gotta hand it to you, Darren, you really did it."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "And you only know the half of it, Hank."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Arriving at second position. Alright, top speed, Ant-thony! Let’s go."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Proceeding to command position."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I’ll be right back, Ant-thony. Alright, guys, I’m in position. I’m going to signal the ants."
+    },
+    {
+      "character": "PAXTON",
+      "text": "No, no, no, no!"
+    },
+    {
+      "character": "DAVE",
+      "text": "Did you see that?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Assume formation. Alright you cute little crazies, let’s fry these servers."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Let’s go get ‘em, buddy!"
+    },
+    {
+      "character": "KURT",
+      "text": "Servers are fried. Data backup completely erased."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Headed to the particle chamber."
+    },
+    {
+      "character": "MITCHELL CARSON",
+      "text": "Hello, Dr. Cross. My associates agree to your terms."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Wonderful. [to Pym] They’re not what they were, they’re doing some interesting work. And I’m enjoying myself. You tried to hide your technology from me, and now it’s gonna blow up in your face."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Well you figured wrong."
+    },
+    {
+      "character": "PAXTON",
+      "text": "I know this van."
+    },
+    {
+      "character": "PAXTON",
+      "text": "Anybody home?"
+    },
+    {
+      "character": "DAVE",
+      "text": "Shh."
+    },
+    {
+      "character": "KURT",
+      "text": "Shh."
+    },
+    {
+      "character": "DAVE",
+      "text": "Shh!"
+    },
+    {
+      "character": "KURT",
+      "text": "Shh!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Alright, guys, I’m here. Setting the charges."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Great job, guys. I’ll take it from here."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Good boy, Ant-thony. Final position."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Guys, how we lookin’ on that laser grid?"
+    },
+    {
+      "character": "KURT",
+      "text": "Almost!"
+    },
+    {
+      "character": "DAVE",
+      "text": "No, you’re not."
+    },
+    {
+      "character": "KURT",
+      "text": "I’m getting close!"
+    },
+    {
+      "character": "DAVE",
+      "text": "No, you’re not."
+    },
+    {
+      "character": "PAXTON",
+      "text": "San Francisco PD! Man in the van! I know you’re in there!"
+    },
+    {
+      "character": "DAVE",
+      "text": "Make it go faster."
+    },
+    {
+      "character": "KURT",
+      "text": "Dude, seriously!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Ready to jump. Do you read, Kurt?"
+    },
+    {
+      "character": "KURT",
+      "text": "It’s so close."
+    },
+    {
+      "character": "PAXTON",
+      "text": "Freeze!"
+    },
+    {
+      "character": "DAVE",
+      "text": "Okay, wait a minute, wait a minute! there was a black guy that looked exactly like me who attacked us and put us in the back of this disgusting van."
+    },
+    {
+      "character": "PAXTON",
+      "text": "Get out."
+    },
+    {
+      "character": "DAVE",
+      "text": "Take it easy!"
+    },
+    {
+      "character": "KURT",
+      "text": "Go! Go now!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "What? What do you mean wait?"
+    },
+    {
+      "character": "KURT",
+      "text": "Wait!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "What? What?"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Hi, little guy."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "I always suspected you had a suit stored away somewhere, which begs the question, who is the new Ant-Man? Who is the man that my beloved mentor trusted even more than me?"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Scott Lang. The martyr, who took on the system and paid the price, losing his family and his only daughter in the process. Exactly your kind of guy, Hank. He escapes his jail cell without leaving any clue as to how, and then, he disappears magically, despite having no money to his name, and now he brings me the Ant-Man suit, the only thing that can rival my creation."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Darren, don’t do this. If you sell to these men, it’s going to be chaos."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "I already have, and for twice the price, thanks to you. It’s not easy to successfully infiltrate an Avengers facility. Thankfully, word travels fast. Oh, I’ll sell them the Yellowjacket, but I’m keeping the particle to myself. They don’t run on diesel. If you want the fuel you’ll have to come to me. What do you call the only man who can arm the most powerful weapon in the world?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "The most powerful man in the world."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "You proud of me yet?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "You can stop this, Darren. It’s not too late."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "It’s been too late for a long time now."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Darren, what are you doing?"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "He wasn’t any more capable of caring for you than he was for me."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "This is not who you are, it’s the particles altering your brain chemistry."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Wait. Wait, wait, wait, wait. You’re right, I have to be the one to do it."
+    },
+    {
+      "character": "MITCHELL CARSON",
+      "text": "Here we go."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Drop your gun."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "You know I came to the house the other night to kill him, but you were there."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "You’re sick and I can help you just put the gun down."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "I wasn’t ready to kill you then, but I think I am now!"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Drop your gun, now!"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "You picked the wrong side, Hope."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Dad!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Hank. No, no. Hank. Hank. Listen, you’re gonna be okay. Alright? You’re gonna be just fine."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Take the suit off or I’ll blow your brains out and peel it off!"
+    },
+    {
+      "character": "PAXTON",
+      "text": "We got a 10-33 at Pym Tech, request immediate backup."
+    },
+    {
+      "character": "DAVE",
+      "text": "Go, go, go!"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Dad, can you move?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Yes."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "We need to get him out of here."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Go get that suit."
+    },
+    {
+      "character": "LUIS",
+      "text": "Hey, Scotty. Hey, did I save your life? Scotty? Scotty?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Thank you, Luis."
+    },
+    {
+      "character": "LUIS",
+      "text": "Hey, are we the good guys?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Yeah."
+    },
+    {
+      "character": "LUIS",
+      "text": "We’re the good guys, right?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Yeah, we’re the good guys."
+    },
+    {
+      "character": "LUIS",
+      "text": "Feels kind of weird, you know?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Yeah, but we’re not done yet. Get out of here before this place blows."
+    },
+    {
+      "character": "LUIS",
+      "text": "Oh, dammit! That guy."
+    },
+    {
+      "character": "LUIS",
+      "text": "Hey! We’re getting out of here!"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "The charges are set. We’ve got to find a way out of here and fast."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Don’t worry. I’m not gonna die, and neither are you. [he holds up a keychain that looks like a tank] It’s not a keychain."
+    },
+    {
+      "character": "PAXTON",
+      "text": "All the chaos in here! Multiple shots fired."
+    },
+    {
+      "character": "PAXTON",
+      "text": "And there’s a tank."
+    },
+    {
+      "character": "LUIS",
+      "text": "A little help."
+    },
+    {
+      "character": "LUIS",
+      "text": "I got him."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "We need a doctor!"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Let’s go!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Ant-thony!"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Go!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "You’re gonna regret that."
+    },
+    {
+      "character": "PAXTON",
+      "text": "Wait a minute! Get out of that van!"
+    },
+    {
+      "character": "LUIS",
+      "text": "What?"
+    },
+    {
+      "character": "PAXTON",
+      "text": "Get out of that van!"
+    },
+    {
+      "character": "LUIS",
+      "text": "It’s too loud there’s a tank, I can’t hear you!"
+    },
+    {
+      "character": "PAXTON",
+      "text": "Hey! Hey!"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Did you think you could stop the future with a heist?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "It was never just a heist!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Put the gun down!"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "I’m gonna disintegrate you!"
+    },
+    {
+      "character": "CELL PHONE",
+      "text": "Playing “Disintegration” by The Cure."
+    },
+    {
+      "character": "POOL BBQ DAD",
+      "text": "Call 911!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "It’s okay."
+    },
+    {
+      "character": "GALE",
+      "text": "Police! Put your hands up!"
+    },
+    {
+      "character": "PAXTON",
+      "text": "Get ‘em up!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Paxton?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Paxton, you have to listen to me-"
+    },
+    {
+      "character": "PAXTON",
+      "text": "You need to desist right now! Your delusions are out of hand!"
+    },
+    {
+      "character": "POLICE RADIO",
+      "text": "All units we have a 236 in progress at 840 Winter Street."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "It’s Cassie!"
+    },
+    {
+      "character": "PAXTON",
+      "text": "Maggie, what’s going on?"
+    },
+    {
+      "character": "MAGGIE LANG",
+      "text": "He’s got Cassie!"
+    },
+    {
+      "character": "PAXTON",
+      "text": "Who’s got Cassie?"
+    },
+    {
+      "character": "MAGGIE LANG",
+      "text": "That thing, that thing! I don’t know what it… !"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Don’t be scared."
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "Are you a monster?"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Do I look like a monster?"
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "I want my daddy!"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "I want your daddy too."
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "Daddy, is that you?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Hi, Peanut."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Why don’t you pick on someone your own size?"
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "Are you a monster?"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Do I look like a monster?"
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "I want my daddy!"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "I want your daddy too. [he picks up Cassie and she screams, just then Scott shows up] There you are."
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "Daddy, is that you? [Scott pulls up his helmet]"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Hi, Peanut. [to Cross] Why don’t you pick on someone your own size? [he throws a disc at Cross which shrinks him then he shrinks himself, Cross is now on the Thomas The Tank Engine toy in Cassie’s room]"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "Now where did you go, little guy? [he spots Scott running towards him] There you are. [he starts firing lasers from his suit at Scott]"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Not just me. [a swarm of ants follow behind Scott] Get him! Go! Go! [Cross fights off the ants as they attack him, then Scott and Cross fight across the Thomas The Tank Engine toy]"
+    },
+    {
+      "character": "LUIS",
+      "text": "[as they drive towards Paxton’s house] Scotty needs us, you know what I’m sayin’? Ain’t nothin’ gonna stop us. [they stop as they see a load of police cars and cops surrounding the house] Back it up. Back it up slow."
+    },
+    {
+      "character": "DAVE",
+      "text": "Yeah. [Dave starts to slowly back the van away]"
+    },
+    {
+      "character": "LUIS",
+      "text": "Just back it up."
+    },
+    {
+      "character": "DAVE",
+      "text": "Yep, yep."
+    },
+    {
+      "character": "LUIS",
+      "text": "Back it up."
+    },
+    {
+      "character": "DAVE",
+      "text": "Okay."
+    },
+    {
+      "character": "LUIS",
+      "text": "All we gonna do is, we ju… we just back it up."
+    },
+    {
+      "character": "DAVE",
+      "text": "Okay. That’s it."
+    },
+    {
+      "character": "LUIS",
+      "text": "Back it up."
+    },
+    {
+      "character": "DAVE",
+      "text": "That’s right."
+    },
+    {
+      "character": "LUIS",
+      "text": "Back it up."
+    },
+    {
+      "character": "DAVE",
+      "text": "Yep."
+    },
+    {
+      "character": "LUIS",
+      "text": "Okay, now-now-now. Just back it up."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "[as they continue to fight in Cassie’s room inside the Thomas The Tank Engine railway] You insult me, Scott. Your very existence is insulting to me. [Cross shoots his laser at Scott as he runs around Cassie’s room] You know it would be much easier to hit you if you were bigger!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Yeah, I agree. [Scott throws two discs at Cross, he deflects it one hitting an ant the other the Thomas The Tank Engine toy and they both grow large]"
+    },
+    {
+      "character": "PAXTON",
+      "text": "Cassie! [Paxton runs into the house]"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "I’m gonna show you just how insignificant you are. [Paxton goes to run up the stairs]"
+    },
+    {
+      "character": "PAXTON",
+      "text": "Cassie, I’m coming! [suddenly the large ant heads his way, he falls down the stairs as the giant ant breaks out of the house]"
+    },
+    {
+      "character": "GALE",
+      "text": "That’s a messed-up looking dog."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "[back inside Cassie’s room; to Scott] I’m going to destroy everything you love! [Paxton shows up]"
+    },
+    {
+      "character": "PAXTON",
+      "text": "Freeze! S.F.P.D.! [Cross throws Paxton’s gun aside, at the same time Scott climbs up the back of Cross’ suit]"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I can’t break through!"
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "It’s titanium, you idiot!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "[to Paxton as Scott and Paxton continue fighting] Get her out of here! [Paxton carries Cassie off]"
+    },
+    {
+      "character": "PAXTON",
+      "text": "Come on."
+    },
+    {
+      "character": "DARREN CROSS",
+      "text": "[as Paxton goes to leave the room with Cassie in his arms Cross stops them] Sorry, sweetheart. You have to help daddy pay for his mistakes."
+    },
+    {
+      "character": "PAXTON",
+      "text": "You stay behind me, okay?"
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "Okay."
+    },
+    {
+      "character": "PAXTON",
+      "text": "Behind me. [Scott looks up at Cross’ particle pack]"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I’m gonna have to shrink between the molecules to get in there. [to Cross] Get away from us! Daddy, help! [Scott jumps up to head towards Cross’ particle pack] I love you, Cassie. [Scott shrinks to a small enough size to break into Cross’ particle pack, this causes Cross and Scott to go subatomic and disappear]"
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "Daddy, where are you? [Scott floats past dust, viruses, molecules, atoms, hadrons, quarks, and finally the deepest parts of gluons and remembers Pym’s words]"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "[voice] Go sub-atomic… go sub-atomic… [Scott tries to grow himself back to normal size but realized he can’t]"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Oh, no. [he continues to float in the quantum realm]"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "[voice] You would enter a reality where all concepts of time and space become irrelevant. And as you shrink for all eternity, everything that you know and love gone forever. [Scott hears Cassie’s voice echoing as he floats in the quantum realm]"
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "[voice] Daddy! Where are you? Daddy!"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Cassie."
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "[voice] Come on, daddy. [Scott remembers the discs Pym had given him and takes one out]"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "[voice] Do not mess with the regulator. [Scott places the disc in the regulator, presses the button and finally returns to normal size] I love you so much."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I love you too, so much."
+    },
+    {
+      "character": "PAXTON",
+      "text": "[as Scott is holding onto Cassie Paxton mildly gets Scott’s attention] There’s a big hole in the roof."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Sorry. [Gale runs up to Cassie’s room and we see Paxton holding Cassie and Scott has gone]"
+    },
+    {
+      "character": "GALE",
+      "text": "Is she alright?"
+    },
+    {
+      "character": "PAXTON",
+      "text": "She’s fine. [Maggie enters the room]"
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "Mommy. [Maggie grabs hold of Cassie with relief]"
+    },
+    {
+      "character": "PAXTON",
+      "text": "She’s fine, she’s fine. [Cassie notices Scott in his shrunken size wave goodbye to her and leaves]"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Scott, please. You don’t remember anything?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Hank, I… I don’t."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "There must be something else. Well I suppose the human mind just can’t comprehend the experience, but you made it. You went in and you got out, that’s amazing."
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Scott, I’ll walk you out."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "[to Pym] Get some rest. [Scott and Hope leave the room, Pym looks over to the photo of himself with his wife holding Hope when she was a baby]"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Is it possible? [Pym gets up to leave his room, as he opens the door he finds Hope and Scott kissing] When did this happen?"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "Nothing’s happening."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Whoa, hold on. Something’s kind of happening."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Well if that’s the case… shoot me again."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "[looking at Hope] Yeah, I don’t know what you’re doing grabbing me and kissing me like that. I was a little surprised myself. I have to get somewhere. I’ll see you later, Hank. Really, Hope. [Scott turns to leave]"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "Scott."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Yeah?"
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "You’re full of shit."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Oh, yeah."
+    },
+    {
+      "character": "PAXTON",
+      "text": "Well, Scott I met with my Captain today, he wanted a report of the night that you got out of jail. Something happened with the cameras, circuits got fried, and… But I told him you were processed correctly."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Really?"
+    },
+    {
+      "character": "PAXTON",
+      "text": "Well, yeah. Can’t be sending Cassie’s dad back to jail on a technical glitch, right?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Thank you, Paxton. I’m blown away. Thank you for everything you do for Cassie."
+    },
+    {
+      "character": "PAXTON",
+      "text": "Oh, well, that’s my pleasure. But no, no, this one, I… I did it for you."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "This is awkward."
+    },
+    {
+      "character": "PAXTON",
+      "text": "Yeah."
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "Yeah."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "I mean what do we even talk about after all of that?"
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "Oh, I know."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "What?"
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "I did my first cartwheel today."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "What?"
+    },
+    {
+      "character": "MAGGIE LANG",
+      "text": "Yeah. She has been practicing all week, but today was the magic day."
+    },
+    {
+      "character": "PAXTON",
+      "text": "I recorded it on my phone here. [Paxton shows Scott his recording of Cassie doing her first cartwheel]"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "No, that can’t be Cassie. That’s not you."
+    },
+    {
+      "character": "MAGGIE LANG",
+      "text": "Yeah, it is."
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "Yeah it is."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "This is a professional gymnast, there’s no way that’s you."
+    },
+    {
+      "character": "PAXTON",
+      "text": "Yeah, that’s her. [Cassie feeds the giant ant hiding under the table that had escaped during Scott and Cross’ fight]"
+    },
+    {
+      "character": "CASSIE LANG",
+      "text": "Good, boy. [after watching the video of Cassie doing her cartwheel]"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Sweetie, that’s pretty amazing, Peanut. [just then Scott gets a call] Sorry. It’s work. [he answers the call] Yeah?"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Alright, here’s the deal. Just give me the facts."
+    },
+    {
+      "character": "LUIS",
+      "text": "Just the facts, only the facts."
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Breathe, focus, keep it simple."
+    },
+    {
+      "character": "LUIS",
+      "text": "No, no, no, no doubt, no doubt. Okay, so I’m at this art museum with my cousin Ignacio, right? And there was this, like, abstract expressionism exhibit, but you know me, I’m more like a Neo-Cubist kind of guy, right? But there was this one Rothko that was sublime, bro. Oh, my God…"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Luis."
+    },
+    {
+      "character": "LUIS",
+      "text": "Okay. Sorry, sorry. I’m ju… you know, uh, I just get excited and stuff. But anyway, anyway. When Ignacio tells me: “Yoh, I met this crazy fine writer chick at this spot last night. Like, fine, fine, crazy stupid fine.” And he goes up to the bartender and goes: “Look at the girl I’m with? You know what I’m sayin’? She’s crazy stupid fine, right?” [we see flashback to Ignacio meeting the girl and talking to the bartender who is in fact Stan Lee] And the bartender’s all like: “Yeah, crazy stupid fine.” So this writer chick tells Ignacio: “Yoh, I’m like a boss in the world of guerrilla journalism, and I got mad connects with the peeps behind the curtains. You know what I’m sayin’?” Ignacio’s like: “For real? And she’s like: Yeah. You know what, I can’t tell you who my contact is, because he works with the Avengers.”"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "Oh, no."
+    },
+    {
+      "character": "LUIS",
+      "text": "Yeah, and this dude sounds like a bad-ass, man. Like he comes up to her and says… [we see flashback of the girl meting up with Sam Wilson in a park] “Yoh, I’m looking for this dude who’s no one seen, who’s flashing this fresh tack, who’s got, like, bomb moves, right? Who you got? She’s like: “Well, we got everything nowadays, we got a guy who jumps, we got a guy who swings, we got a guy who crawls up the walls. You gotta be more specific.” And he’s like: “I’m looking for a guy who shrinks.” And I’m like: “Damn!” [to Scott] I got all nervous cause I keep mad secrets for you, bro. So I asked Ignacio: “Did bad-ass tell the stupid fine writer chick to tell you to tell me because I’m tight with that man, that he’s looking for him?”"
+    },
+    {
+      "character": "SCOTT LANG",
+      "text": "And? What’d he say?"
+    },
+    {
+      "character": "LUIS",
+      "text": "He said yes."
+    },
+    {
+      "character": "DR. HANK PYM",
+      "text": "There’s something I want to show you. I realized you can’t destroy power, all you can do is to make sure that it’s in the right hands. [he opens up a vault to reveal the prototype of the Wasp suit] This is an advanced prototype that your mother and I worked on together. She never got to use it, but now I realize that we were… we were working on it for you. [Hope looks at the suit in shock then back to Pym] Maybe it’s time we finished it. [Hope looks back at the suit and smiles]"
+    },
+    {
+      "character": "HOPE VAN DYNE",
+      "text": "It’s about damn time."
+    },
+    {
+      "character": "SAM WILSON",
+      "text": "Hey, Cap! [Steve and Sam are in an underground room with they are holding Bucky Barnes with his metal arm trapped in a vice]"
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "If we call Tony…"
+    },
+    {
+      "character": "SAM WILSON",
+      "text": "He won’t believe us."
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Even if he did…"
+    },
+    {
+      "character": "SAM WILSON",
+      "text": "Who knows if the accords will let him help?"
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "We’re on our own."
+    },
+    {
+      "character": "SAM WILSON",
+      "text": "Maybe not. I know a guy."
+    }
+  ],
+  "imdbId": "tt0478970",
+  "poster": "https://m.media-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_SX300.jpg",
+  "rated": "PG-13",
+  "runtime": "117 min",
+  "genre": "Action, Comedy, Sci-Fi",
+  "director": "Peyton Reed",
+  "topSpeakingCast": [
+    "SCOTT LANG",
+    "DR. HANK PYM",
+    "HOPE VAN DYNE",
+    "LUIS",
+    "DARREN CROSS",
+    "PAXTON",
+    "DAVE",
+    "KURT"
+  ]
+}

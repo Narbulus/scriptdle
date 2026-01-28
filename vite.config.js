@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import preact from '@preact/preset-vite';
 
 export default defineConfig({
   root: '.',
@@ -12,4 +13,16 @@ export default defineConfig({
     open: true,
     host: true,
   },
+  plugins: [
+    preact(),
+    {
+      name: 'html-transform',
+      transformIndexHtml(html) {
+        return html.replace(
+          /%VITE_GA_MEASUREMENT_ID%/g,
+          process.env.VITE_GA_MEASUREMENT_ID || ''
+        );
+      },
+    },
+  ],
 });

@@ -1,0 +1,242 @@
+/* Menu container - covers the entire viewport */
+.menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+    pointer-events: none;
+}
+
+/* Overlay that covers the entire screen behind the menu */
+.menu-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+/* The menu panel that slides in from the left */
+.menu-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 280px;
+    max-width: 80vw;
+    background: var(--main-bg);
+    display: flex;
+    flex-direction: column;
+    animation: slideIn 0.3s ease-out;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2);
+    pointer-events: auto;
+
+    /* Force main theme colors */
+    --primary-color: var(--main-text);
+    --bg-color: var(--main-bg);
+    --text-primary: var(--main-text);
+    --text-secondary: var(--main-text-secondary);
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Menu Header */
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1.5rem 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: var(--main-bg);
+}
+
+.menu-title {
+    font-family: var(--font-mono);
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--main-text);
+    margin: 0;
+    letter-spacing: 0.1em;
+}
+
+.menu-close-btn {
+    background: transparent;
+    border: none;
+    color: var(--main-text);
+    cursor: pointer;
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.2s ease;
+}
+
+.menu-close-btn:hover {
+    opacity: 0.7;
+}
+
+/* Menu content area */
+.menu-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0.5rem 0;
+    background: var(--main-bg);
+}
+
+/* Packs Section */
+.menu-packs-section {
+    padding: 0.5rem 0;
+}
+
+.menu-pack-item {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 1rem 1.5rem;
+    text-align: left;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.menu-pack-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.menu-pack-item:active {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.menu-pack-name {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.menu-pack-count {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    letter-spacing: 0.03em;
+}
+
+/* Divider */
+.menu-divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0.5rem 1.5rem;
+}
+
+/* Links Section */
+.menu-links-section {
+    padding: 0.5rem 0;
+}
+
+.menu-link-item {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 1rem 1.5rem;
+    text-align: left;
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--main-text);
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: background 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.menu-link-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.menu-link-item:active {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Menu footer with countdown */
+.menu-footer {
+    padding: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    background: var(--main-bg);
+}
+
+.menu-countdown-label {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--main-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5rem;
+}
+
+.menu-countdown {
+    font-family: var(--font-mono);
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--main-primary);
+    letter-spacing: 0.05em;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .menu-panel {
+        width: 260px;
+    }
+
+    .menu-header {
+        padding: 1.25rem 1.25rem 0.75rem;
+    }
+
+    .menu-title {
+        font-size: 1.1rem;
+    }
+
+    .menu-pack-item,
+    .menu-link-item {
+        padding: 0.875rem 1.25rem;
+    }
+
+    .menu-pack-name {
+        font-size: 0.95rem;
+    }
+
+    .menu-pack-count {
+        font-size: 0.75rem;
+    }
+
+    .menu-link-item {
+        font-size: 0.85rem;
+    }
+
+    .menu-footer {
+        padding: 1.25rem;
+    }
+
+    .menu-countdown {
+        font-size: 1.1rem;
+    }
+}

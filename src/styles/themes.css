@@ -1,0 +1,152 @@
+/* ========================================
+   THEME CONTEXT SCOPING
+   ======================================== */
+
+/* Main theme context - home page UI, script area */
+[data-theme="main"] {
+    background: var(--main-bg);
+    color: var(--main-text);
+
+    /* Legacy variable mapping for Main Theme */
+    --primary-color: var(--main-text);
+    --bg-color: var(--main-bg);
+    --game-content-bg: var(--main-bg);
+    --container-bg: var(--main-surface);
+    --accent-color: var(--main-text-secondary);
+    --btn-text: var(--main-surface);
+    --highlight: #e2e2e2;
+    --placeholder-bg: var(--main-placeholder-bg);
+    --text-primary: var(--main-text);
+    --text-secondary: var(--main-text-secondary);
+    --text-muted: var(--main-text-muted);
+    --text-error: var(--main-text-error);
+}
+
+[data-theme="main"] .nav-bar {
+    background: var(--main-nav-bg);
+}
+
+[data-theme="main"] .game-footer {
+    background: var(--main-nav-bg);
+}
+
+
+[data-theme="main"] .nav-logo,
+[data-theme="main"] .nav-back {
+    color: var(--main-text);
+}
+
+[data-theme="main"] .script-title,
+[data-theme="main"] .character-name {
+    color: var(--main-text);
+}
+
+[data-theme="main"] .script-subtitle,
+[data-theme="main"] .dialogue-text {
+    color: var(--main-text-secondary);
+}
+
+[data-theme="main"] .nav-help-btn,
+[data-theme="main"] .nav-results-link,
+[data-theme="main"] .nav-menu-btn {
+    color: var(--main-text);
+}
+
+/* Pack theme context - pack cards, game UI */
+[data-theme="pack"] {
+    background: var(--pack-bg);
+    color: var(--pack-text);
+
+    /* Legacy variable mapping for Pack Theme */
+    --primary-color: var(--pack-primary);
+    --bg-color: var(--pack-bg);
+    --game-content-bg: var(--pack-bg);
+    --container-bg: var(--pack-surface);
+    --accent-color: var(--pack-accent);
+    --btn-text: var(--pack-btn-text);
+    --highlight: #e2e2e2;
+    --placeholder-bg: #e0e0e0;
+    --text-primary: var(--pack-text);
+    --text-secondary: var(--pack-text-secondary);
+    --text-muted: var(--pack-text-muted);
+    --text-error: #c00;
+}
+
+[data-theme="pack"] .nav-bar {
+    background: var(--pack-bg);
+}
+
+[data-theme="pack"] .game-footer {
+    background: var(--pack-bg);
+}
+
+
+[data-theme="pack"] .nav-logo,
+[data-theme="pack"] .nav-back {
+    color: var(--pack-text);
+}
+
+[data-theme="pack"] .nav-help-btn,
+[data-theme="pack"] .nav-results-link,
+[data-theme="pack"] .nav-menu-btn {
+    color: var(--pack-primary);
+}
+
+[data-theme="pack"] button {
+    background: var(--pack-primary);
+    color: var(--pack-btn-text);
+}
+
+/* Holistic Fix: Ensure buttons in a main-theme context (like modals) 
+   override the pack-theme styles from the body */
+[data-theme="main"] button {
+    background: transparent;
+    color: var(--main-text);
+    border-color: var(--main-text);
+}
+
+/* Override: keep nav buttons as transparent text links */
+[data-theme="pack"] .nav-help-btn,
+[data-theme="pack"] .nav-results-link,
+[data-theme="pack"] .nav-menu-btn {
+    background: transparent;
+}
+
+.pack-row[data-theme="pack"] {
+    background: linear-gradient(135deg, var(--pack-card-gradient-start), var(--pack-card-gradient-end));
+    border-color: var(--pack-card-border);
+}
+
+.pack-row[data-theme="pack"] .pack-row-name,
+.pack-row[data-theme="pack"] .pack-row-count {
+    color: var(--pack-card-text);
+}
+
+/* Script theme context - script area and help modal examples */
+[data-theme="script"] {
+    background: var(--script-bg);
+    color: var(--script-text-primary);
+    --placeholder-bg: var(--script-placeholder-bg);
+}
+
+[data-theme="script"] .script-area {
+    background: var(--script-bg);
+}
+
+[data-theme="script"] .script-line:nth-child(even)::before {
+    background: var(--script-surface-alt);
+}
+
+[data-theme="script"] .character-name {
+    color: #000000;
+    font-weight: 600;
+}
+
+[data-theme="script"] .dialogue-text {
+    color: #000000;
+    font-weight: 500;
+}
+
+[data-theme="script"] .script-then {
+    color: var(--script-text-muted);
+}

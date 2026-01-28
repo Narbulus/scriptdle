@@ -393,7 +393,7 @@ Examples:
     repo_root = get_repo_root()
     script_parser_root = get_script_parser_path()
 
-    source_dir = script_parser_root / "data"
+    source_dir = script_parser_root / "data" / "transcripts" / "parsed"
     scripts_dir = repo_root / "public" / "data" / "scripts"
     packs_dir = repo_root / "public" / "data" / "packs"
     index_file = repo_root / "public" / "data" / "index.json"

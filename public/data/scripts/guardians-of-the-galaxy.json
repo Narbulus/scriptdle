@@ -1,0 +1,3421 @@
+{
+  "id": "guardians-of-the-galaxy",
+  "title": "Guardians of the Galaxy",
+  "year": null,
+  "characters": [
+    "BAR BOUNCER",
+    "BEREET",
+    "CARINA",
+    "CORPSMAN DEY",
+    "DENARIAN SAAL",
+    "DRAX",
+    "GAMORA",
+    "GRANDPA",
+    "GROOT",
+    "GUARD 1",
+    "GUARD 2",
+    "GUARD 3",
+    "GUARD 4",
+    "HEAD RIOT GUARD",
+    "HORUZ",
+    "HOWARD THE DUCK",
+    "KNOWHERE CIVILIAN",
+    "KNOWHERE KID",
+    "KORATH",
+    "KRAGLIN",
+    "KREE AMBASSADOR",
+    "MAN",
+    "MASKLESS SAKAARAN",
+    "MEREDITH QUILL",
+    "NEBULA",
+    "NEWS REPORTER",
+    "NOVA ARRESTING PILOT",
+    "NOVA PILOT",
+    "NOVA PILOT #1",
+    "NOVA PILOT #2",
+    "NOVA PRIME",
+    "PETER QUILL",
+    "PRISON GUARD",
+    "PRISONER 1",
+    "PRISONER 10",
+    "PRISONER 2",
+    "PRISONER 3",
+    "PRISONER 4",
+    "PRISONER 5",
+    "PRISONER 6",
+    "PRISONER 7",
+    "PRISONER 8",
+    "PRISONER 9",
+    "RAVAGER NAVIGATOR",
+    "RAVAGER PILOT",
+    "ROCKET",
+    "ROCKET'",
+    "RONAN",
+    "RONAN THE ACCUSER",
+    "THANOS",
+    "THE BROKER",
+    "THE COLLECTOR",
+    "THE OTHER",
+    "XANDARIAN PRISONER",
+    "YONDU",
+    "YONDU UDONTA",
+    "YOUNG QUILL"
+  ],
+  "lines": [
+    {
+      "character": "GRANDPA",
+      "text": "Peter, your mama wants to speak with you. Come on, Pete. Take these fool things off."
+    },
+    {
+      "character": "MEREDITH QUILL",
+      "text": "Why have you been fighting with the other boys again, baby?"
+    },
+    {
+      "character": "YOUNG QUILL",
+      "text": "They killed a little frog that ain’t done nothin’. Smushed it with a stick."
+    },
+    {
+      "character": "MEREDITH QUILL",
+      "text": "You’re so like your daddy. You even look like him. And he was an angel. Composed of pure light"
+    },
+    {
+      "character": "GRANDPA",
+      "text": "Mer? You got a present there for Peter, don’t you?"
+    },
+    {
+      "character": "MEREDITH QUILL",
+      "text": "Of course."
+    },
+    {
+      "character": "GRANDPA",
+      "text": "There. I’ve got you covered, Pete."
+    },
+    {
+      "character": "MEREDITH QUILL",
+      "text": "You open it up when I’m gone, okay? Your grandpa is gonna take such good care of you. At least until your daddy comes back to get you. Take my hand."
+    },
+    {
+      "character": "MEREDITH QUILL",
+      "text": "Peter."
+    },
+    {
+      "character": "GRANDPA",
+      "text": "Pete, come on."
+    },
+    {
+      "character": "MEREDITH QUILL",
+      "text": "Take my hand."
+    },
+    {
+      "character": "YOUNG QUILL",
+      "text": "Mom? No! No! No! No! Mom! No!"
+    },
+    {
+      "character": "GRANDPA",
+      "text": "Come with me."
+    },
+    {
+      "character": "YOUNG QUILL",
+      "text": "No! No!"
+    },
+    {
+      "character": "GRANDPA",
+      "text": "You’ve got to stay here. Please."
+    },
+    {
+      "character": "YOUNG QUILL",
+      "text": "No…"
+    },
+    {
+      "character": "GRANDPA",
+      "text": "Okay?"
+    },
+    {
+      "character": "YOUNG QUILL",
+      "text": "No."
+    },
+    {
+      "character": "YOUNG QUILL",
+      "text": "Mom!"
+    },
+    {
+      "character": "KORATH",
+      "text": "Drop it!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Uh… hey."
+    },
+    {
+      "character": "KORATH",
+      "text": "Drop it, now!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Hey, cool, man. No problem. No problem at all."
+    },
+    {
+      "character": "KORATH",
+      "text": "How do you know about this?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "I don’t even know what that is. I’m just a junker, man. I was just...just checking stuff out."
+    },
+    {
+      "character": "KORATH",
+      "text": "You don’t look like a junker. You’re wearing Ravager garb."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "This is just an outfit, man. Ninja Turtle, you better stop poking me."
+    },
+    {
+      "character": "KORATH",
+      "text": "What is your name?!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "My name is Peter Quill, okay? Dude, chill out."
+    },
+    {
+      "character": "KORATH",
+      "text": "Move!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Why?"
+    },
+    {
+      "character": "KORATH",
+      "text": "Ronan may have questions for you."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Hey, you know what? There’s another name you might know me by."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Star-Lord."
+    },
+    {
+      "character": "KORATH",
+      "text": "Who?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Star-Lord, man. Legendary outlaw. Guys?"
+    },
+    {
+      "character": "KORATH",
+      "text": "Move!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Ah, forget this."
+    },
+    {
+      "character": "BEREET",
+      "text": "Peter? What happened?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Hey, uh…uh... I…"
+    },
+    {
+      "character": "BEREET",
+      "text": "Bereet."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Bereet! Look, I’m gonna be totally honest with you. I forgot you were here."
+    },
+    {
+      "character": "NEWS REPORTER",
+      "text": "Scattered riots broke out across the Kree Empire today protesting the recent peace treaty signed by the Kree Emperor and Xandar’s Nova Prime."
+    },
+    {
+      "character": "BEREET",
+      "text": "Peter, you have call."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "No, wait, don’t!"
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "Quill?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Hey, Yondu."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "I’m here on Morag. Ain’t no Orb, ain’t no you."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Well, I was in the neighborhood. I thought I’d save you the hassle."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "Well, where are you at now, boy?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "I feel really bad about this, but I’m not gonna tell you that."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "I slaved putting this deal together…"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Slaved? Making a few calls is \"slaved\"?"
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "And now you’re gonna rip me off!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "I mean, really?"
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "We do not do that to each other. We’re Ravagers. We got a code."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Yeah, and that code is \"steal from everybody.\""
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "When I picked you up on Terra…"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "\"Picked me up.\""
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "…these boys of mine wanted to eat you."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Yeah?"
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "They ain’t never tasted any Terran before. I stopped ‘em. You’re alive because of me! I will find you, I will…"
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "Put a bounty on him! Forty K. But I want him back alive."
+    },
+    {
+      "character": "KRAGLIN",
+      "text": "Yeah, Cap."
+    },
+    {
+      "character": "HORUZ",
+      "text": "Alive?"
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "That’s what I said."
+    },
+    {
+      "character": "HORUZ",
+      "text": "I told you when you picked that kid up, you should have delivered him like we was hired to do! He was cargo! You have always been soft on him."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "You’re the only one I’m being soft on! Now, don’t you worry about Mr. Quill. As soon as we get him back here, I’m gonna kill him myself. What we do need to worry about, is who else out there wants that orb!"
+    },
+    {
+      "character": "RONAN",
+      "text": "They call me \"terrorist,\" \"radical,\" \"zealot,\" because I obey the ancient laws of my people, the Kree, and punish those who do not. Because I do not forgive your people for taking the life of my father, and his father, and his father before him. A thousand years of war between us will not be forgotten!"
+    },
+    {
+      "character": "XANDARIAN PRISONER",
+      "text": "You can’t do this! Our government signed a peace treaty."
+    },
+    {
+      "character": "RONAN",
+      "text": "My government knows no shame. You Xandarians and your culture are a disease."
+    },
+    {
+      "character": "XANDARIAN PRISONER",
+      "text": "You will never rule Xandar."
+    },
+    {
+      "character": "RONAN",
+      "text": "No. I will cure it!"
+    },
+    {
+      "character": "NEBULA",
+      "text": "Ronan, Korath has returned."
+    },
+    {
+      "character": "KORATH",
+      "text": "Master, he is a thief, an outlaw who calls himself Star-Lord. But we have discovered he has an agreement to retrieve the orb for an intermediary known as The Broker."
+    },
+    {
+      "character": "RONAN",
+      "text": "I promised Thanos I would retrieve the orb for him. Only then will he destroy Xandar for me. Nebula, go to Xandar and get me the orb."
+    },
+    {
+      "character": "NEBULA",
+      "text": "It will be my honor."
+    },
+    {
+      "character": "GAMORA",
+      "text": "It will be your doom. If this happens again, you’ll be facing our father without his prize."
+    },
+    {
+      "character": "NEBULA",
+      "text": "I’m a daughter of Thanos. Just like you."
+    },
+    {
+      "character": "GAMORA",
+      "text": "But I know Xandar."
+    },
+    {
+      "character": "NEBULA",
+      "text": "Ronan has already decreed that I…"
+    },
+    {
+      "character": "RONAN",
+      "text": "Do not speak for me."
+    },
+    {
+      "character": "RONAN",
+      "text": "You will not fail."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Have I ever?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Xandarians. What a bunch of losers. All of them in a big hurry to get from something stupid, to nothing at all. Pathetic. Look at this guy! Can you believe they call us criminals, when he’s assaulting us with that haircut? What is this thing? Look how it thinks it’s so cool. It’s not cool to get help! Walk by yourself, you little gargoyle. Look at Mr. Smiles over here. Where’s your wife, old man? What a class-A prevert. Right, Groot? Groot?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Don’t drink fountain water, you idiot. That’s disgusting!"
+    },
+    {
+      "character": "GROOT",
+      "text": "Mmm."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Yes, you did. I just saw you doing it. Why are you lying?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Whoop. Looks like we got one. Okay, humie, how bad does someone wanna find you?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Forty thousand units? Groot, we’re gonna be rich."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Mr. Quill"
+    },
+    {
+      "character": "THE BROKER",
+      "text": "Mr. Quill"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Broker. The orb. As commissioned."
+    },
+    {
+      "character": "THE BROKER",
+      "text": "Where’s Yondu?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Wanted to be here, sends his love. And told me to tell you, that you got the best eyebrows in the business. What is it?"
+    },
+    {
+      "character": "THE BROKER",
+      "text": "It’s my policy never to discuss my clients, or their needs."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Yeah, well, I almost died getting it for you."
+    },
+    {
+      "character": "THE BROKER",
+      "text": "An occupational hazard, I’m sure, in your line of work."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Some machine-headed freak, working for a dude named Ronan."
+    },
+    {
+      "character": "THE BROKER",
+      "text": "Ronan? I’m sorry, Mr. Quill. I truly am. But I want no part of this transaction if Ronan is involved."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Woh! Woh, woh, woh! Who’s Ronan?"
+    },
+    {
+      "character": "THE BROKER",
+      "text": "A Kree fanatic, outraged by the peace treaty, who will not rest until Xandarian culture, my culture, is wiped from existence!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Woh. Come on!"
+    },
+    {
+      "character": "THE BROKER",
+      "text": "He’s someone whose bad side I’d rather not be on."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "What? What about my bad side?"
+    },
+    {
+      "character": "THE BROKER",
+      "text": "Farewell, Mr. Quill."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Hey, we had a deal, bro!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "What happened?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Uh...this guy just backed out of a deal on me. If there's one thing I hate, it's a man without integrity. Peter Quill. People call me Star-Lord."
+    },
+    {
+      "character": "GAMORA",
+      "text": "You have the bearing of a man of honor."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Well, you know, I wouldn't say that. People say it about me, all the time, but it's not something I would ever say about myself."
+    },
+    {
+      "character": "GAMORA",
+      "text": "This wasn't the plan."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Put him in the bag. Put him in the bag!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "No! Not her, him! Learn genders, man."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Biting? That's not fair!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Take it easy!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "Fool. You should have learned."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "I don't learn. One of my issues."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "What the..."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Quit smiling, you idiot. You're supposed to be a professional."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Hey!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "I live for the simple things. Like how much this is gonna hurt."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Yeah. Writhe, little man."
+    },
+    {
+      "character": "ROCKET",
+      "text": "It'll grow back, you D'ast idiot. Quit whining."
+    },
+    {
+      "character": "NOVA ARRESTING PILOT",
+      "text": "Subject 89P13, drop your weapon."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Oh, crap."
+    },
+    {
+      "character": "NOVA ARRESTING PILOT",
+      "text": "By the authority of the Nova Corps, you are under arrest..."
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "Alright. Come on up."
+    },
+    {
+      "character": "NOVA ARRESTING PILOT",
+      "text": "...for endangerment to life and the destruction of property."
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "Hey! If it isn't Star-Prince."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Star-Lord."
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "Oh, sorry. Lord. I picked this guy up a while back for petty theft. He's got a code name."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Come on, man. It's a...it's an outlaw name."
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "Just relax, pal. It's cool to have a code name. It's not that weird."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Fascists."
+    },
+    {
+      "character": "NOVA PRIME",
+      "text": "Ronan is destroying Xandarian outposts throughout the galaxy. I should think that would call for some slight response on the part of the Kree."
+    },
+    {
+      "character": "KREE AMBASSADOR",
+      "text": "We signed your peace treaty, Nova Prime. What more do you want?"
+    },
+    {
+      "character": "NOVA PRIME",
+      "text": "At least a statement from the Kree Empire saying that they condemn his actions. He is slaughtering children, families."
+    },
+    {
+      "character": "KREE AMBASSADOR",
+      "text": "That is your business. Now, I have other matters to attend to."
+    },
+    {
+      "character": "NOVA PRIME",
+      "text": "Prick."
+    },
+    {
+      "character": "DENARIAN SAAL",
+      "text": "Well, some good news. Looks like we’ve apprehended one of Ronan’s compatriots."
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "Gamora. Surgically modified and trained as a living weapon. The adopted"
+    },
+    {
+      "character": "KREE AMBASSADOR",
+      "text": "That is your business. Now, I have other matters to attend to."
+    },
+    {
+      "character": "NOVA PRIME",
+      "text": "Prick."
+    },
+    {
+      "character": "DENARIAN SAAL",
+      "text": "Well, some good news. Looks like we’ve apprehended one of Ronan’s compatriots."
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "Gamora. Surgically modified and trained as a living weapon. The adopted daughter of the Mad Titan, Thanos. Recently, Thanos lent her and her sister Nebula out to Ronan, which leads us to believe that Thanos and Ronan are working together."
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "Subject 89P13. Calls itself Rocket. The result of illegal genetic and cybernetic experiments on a lower life form."
+    },
+    {
+      "character": "DENARIAN SAAL",
+      "text": "What the hell?"
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "They call it Groot. A humanoid plant that’s been traveling recently as 89P13’s personal house plant slash muscle."
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "Peter Jason Quill, from Terra. Raised from youth by a band of mercenaries called the Ravagers, led by Yondu Udonta."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Oh, I’m sorry. I didn’t know how this machine worked."
+    },
+    {
+      "character": "DENARIAN SAAL",
+      "text": "What a bunch of a-holes."
+    },
+    {
+      "character": "ROCKET",
+      "text": "I guess most of Nova Corps wanna uphold the laws, but these ones here, they're corrupt and cruel. But, hey, that's not my problem. I ain't gonna be here long. I've escaped 22 prisons, this one's no different. You're lucky the broad showed up, because otherwise, me and Groot would be collecting that bounty right now, and you'd be getting drawn and quartered by Yondu and those Ravagers."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "I've had a lot of folks try to kill me over the years. I ain't about to be brought down by a tree and a talking raccoon."
+    },
+    {
+      "character": "PRISON GUARD",
+      "text": "Hold."
+    },
+    {
+      "character": "ROCKET",
+      "text": "What's a raccoon?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "\"What's a raccoon?\" It's what you are, stupid."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Ain't no thing like me, 'cept me."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "So, this orb has a real shiny blue suitcase, Ark of the Covenant, Maltese Falcon sort of vibe. What is it?"
+    },
+    {
+      "character": "GROOT",
+      "text": "I am Groot."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "So what? What's the Orb?"
+    },
+    {
+      "character": "GAMORA",
+      "text": "I have no words for an honorless thief."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Pretty high and mighty coming from the lackey of a genocidal maniac."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Yeah, I know who you are. Anyone who's anyone knows who you are."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Yeah, we know who you are."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Who is she?"
+    },
+    {
+      "character": "GROOT",
+      "text": "I am Groot."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Yeah, you said that."
+    },
+    {
+      "character": "GAMORA",
+      "text": "I wasn't retrieving the orb for Ronan, I was betraying him. I had an agreement to sell it to a third party."
+    },
+    {
+      "character": "GROOT",
+      "text": "I am Groot."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Well, that’s just as fascinating as the first 89 times you told that. What is wrong with Giving Tree, here?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Well, he don’t know talking good like me and you. So his vocabulistics is limited to “I” and “am” and “Groot”. Exclusively in that order."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "I tell you what, that’s gonna wear real thin, real fast."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Hey. Put that away."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Hey!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Listen to me you big blue bastard, take those headphones off, that's mine. Those belong to impound, that tape and that player is mine!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Hooked on a Feeling, Blue Swede, 1973, that song belongs to me!"
+    },
+    {
+      "character": "PRISONER 1",
+      "text": "- Murderer!"
+    },
+    {
+      "character": "PRISONER 2",
+      "text": "Coming for you first, Gamora!"
+    },
+    {
+      "character": "PRISONER 3",
+      "text": "You're dead!"
+    },
+    {
+      "character": "PRISONER 4",
+      "text": "You're scum! You're scum!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "It's like I said, she's got a rep. A lot of prisoners here have lost their families to Ronan and his goons. She'll last a day, tops."
+    },
+    {
+      "character": "PRISONER 5",
+      "text": "Murderer!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "The guards will protect her, right?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "They're here to stop us from getting out. They don't care what we do to each other inside."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Whatever nightmares the future holds, are dreams compared to what's behind me."
+    },
+    {
+      "character": "PRISONER 6",
+      "text": "Check out the new meat. I'm gonna slather you up in Gunavian jelly, and go to town..."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Let's make something clear. This one here is our booty! You wanna get to him, you go through us! Or, more accurately, we go through you."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "I'm with them."
+    },
+    {
+      "character": "PRISONER 7",
+      "text": "I hate you."
+    },
+    {
+      "character": "PRISONER 8",
+      "text": "No cell's gonna protect you for long."
+    },
+    {
+      "character": "PRISONER 9",
+      "text": "You're dead! Dead!"
+    },
+    {
+      "character": "PRISONER 10",
+      "text": "Take her down to the showers. It'll be easier to clean up the blood down there."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Quill, where you going? Quill. Quill!"
+    },
+    {
+      "character": "PRISONER 5",
+      "text": "Gamora, consider this a death sentence for your crimes against the galaxy."
+    },
+    {
+      "character": "DRAX",
+      "text": "You dare? You know who I am, yes?"
+    },
+    {
+      "character": "PRISONER 5",
+      "text": "You're Drax. The Destroyer."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Quill!"
+    },
+    {
+      "character": "DRAX",
+      "text": "And you know why they call me this."
+    },
+    {
+      "character": "PRISONER 5",
+      "text": "You slayed dozens of Ronan's minions."
+    },
+    {
+      "character": "DRAX",
+      "text": "Ronan murdered my wife, Ovette, and my daughter, Camaria. He slaughtered them where they stood. And he laughed!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Quill?"
+    },
+    {
+      "character": "DRAX",
+      "text": "Her life is not yours to take. He killed my family. I shall kill one of his in return."
+    },
+    {
+      "character": "PRISONER 5",
+      "text": "Of course, Drax. Here, I..."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Quill! What are you doing?"
+    },
+    {
+      "character": "GAMORA",
+      "text": "I'm no family to Ronan or Thanos. I'm your only hope at stopping him."
+    },
+    {
+      "character": "DRAX",
+      "text": "Woman, your words mean nothing to me!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Hey! Hey, hey, hey! Hey!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Crap."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "You know, if killing Ronan is truly your sole purpose, I don't think this is the best way to go about it."
+    },
+    {
+      "character": "DRAX",
+      "text": "Are you not the man this wench attempted to kill?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Well, I mean, she's hardly the first woman to try and do that to me. Look, this is from a smoking-hot Rajak girl. Stabbed me with a fork. Didn't like me skipping out on her at sunrise. I got, right here, a Kree girl tried to rip out my thorax. She caught me with this skinny little A'askavariian who worked in Nova Records. I was trying to get information. You ever see an A'askavariian? They have tentacles, and needles for teeth. If you think I'm seriously interested in that, then... You don't care. But here's the point. She betrayed Ronan. He's coming back for her. And when he does, that's when you..."
+    },
+    {
+      "character": "DRAX",
+      "text": "Why would I put my finger on his throat?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "What? No, it's a symbol. This is a symbol for you slicing his throat."
+    },
+    {
+      "character": "DRAX",
+      "text": "I would not slice his throat. I would cut his head clean off."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "It's a general expression for you killing somebody. You've heard of this. You've seen this, right? You know what that is."
+    },
+    {
+      "character": "PRISONER 5",
+      "text": "Yeah. Yeah."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Everyone knows."
+    },
+    {
+      "character": "PRISONER 5",
+      "text": "No, no."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "What I'm saying is, you want to keep her alive. Don't do his work for him."
+    },
+    {
+      "character": "DRAX",
+      "text": "I like your knife. I'm keeping it."
+    },
+    {
+      "character": "PRISONER 5",
+      "text": "That was my favorite knife."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Listen! I could care less whether you live or whether you die."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Then why stop the big guy?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Simple. You know where to sell my Orb."
+    },
+    {
+      "character": "GAMORA",
+      "text": "How are we gonna sell it when we and it are still here?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "My friend Rocket, here, has escaped 22 prisons."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Oh, we're getting out. And then we're headed straight to Yondu to retrieve your bounty."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "How much was your buyer willing to pay you for my Orb?"
+    },
+    {
+      "character": "GAMORA",
+      "text": "Four billion units."
+    },
+    {
+      "character": "ROCKET",
+      "text": "What?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Holy shit."
+    },
+    {
+      "character": "GAMORA",
+      "text": "That Orb is my opportunity to get away from Thanos and Ronan. If you free us, I'll lead you to the buyer directly and I'll split the profit between the three of us."
+    },
+    {
+      "character": "GROOT",
+      "text": "I am Groot."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Four of us. Asleep for the danger, awake for the money, as per frickin' usual."
+    },
+    {
+      "character": "THE OTHER",
+      "text": "You have been betrayed, Ronan."
+    },
+    {
+      "character": "RONAN THE ACCUSER",
+      "text": "We know only that she has been captured. Gamora may yet recover the Orb."
+    },
+    {
+      "character": "THE OTHER",
+      "text": "No!"
+    },
+    {
+      "character": "THE OTHER",
+      "text": "Our sources within the Kyln say Gamora has her own plans for the Orb."
+    },
+    {
+      "character": "THE OTHER",
+      "text": "Your partnership with Thanos is at risk."
+    },
+    {
+      "character": "THE OTHER",
+      "text": "Thanos requires your presence."
+    },
+    {
+      "character": "THE OTHER",
+      "text": "NOW!"
+    },
+    {
+      "character": "RONAN THE ACCUSER",
+      "text": "With all due respect, Thanos, your daughter made this mess, and yet you summon me."
+    },
+    {
+      "character": "THE OTHER",
+      "text": "I would lower my voice, Accuser."
+    },
+    {
+      "character": "RONAN THE ACCUSER",
+      "text": "First, she lost a battle with some primitive."
+    },
+    {
+      "character": "THE OTHER",
+      "text": "Thanos put Gamora under your charge."
+    },
+    {
+      "character": "RONAN THE ACCUSER",
+      "text": "Then she was apprehended by the Nova Corps."
+    },
+    {
+      "character": "THE OTHER",
+      "text": "You are the one here with nothing to show for it."
+    },
+    {
+      "character": "RONAN THE ACCUSER",
+      "text": "Your sources say that she meant to betray us the whole time!"
+    },
+    {
+      "character": "THE OTHER",
+      "text": "LOWER YOUR TONE! I MAY BE YOUR-"
+    },
+    {
+      "character": "RONAN THE ACCUSER",
+      "text": "I only ask that you take this matter seriously."
+    },
+    {
+      "character": "THANOS",
+      "text": "The only matter I did not take seriously, boy..."
+    },
+    {
+      "character": "THANOS",
+      "text": "...is you."
+    },
+    {
+      "character": "THANOS",
+      "text": "Your politics bore me!"
+    },
+    {
+      "character": "THANOS",
+      "text": "Your demeanor is that of a pouty child."
+    },
+    {
+      "character": "THANOS",
+      "text": "And, apparently...you alienated my favorite daughter, Gamora."
+    },
+    {
+      "character": "THANOS",
+      "text": "I shall honor our agreement, Kree."
+    },
+    {
+      "character": "THANOS",
+      "text": "If you bring me the Orb."
+    },
+    {
+      "character": "THANOS",
+      "text": "But return to me again empty-handed..."
+    },
+    {
+      "character": "THANOS",
+      "text": "...and I will bathe the starways in your blood."
+    },
+    {
+      "character": "NEBULA",
+      "text": "Thanks, dad...sounds fair."
+    },
+    {
+      "character": "NEBULA",
+      "text": "This is one fight you won't win."
+    },
+    {
+      "character": "NEBULA",
+      "text": "Let's head to the Klyn."
+    },
+    {
+      "character": "ROCKET",
+      "text": "If we're gonna get out of here, we're gonna need to get into that watchtower. And to do that, I'm gonna need a few things. The guards wear security bands to control their ins and outs."
+    },
+    {
+      "character": "ROCKET",
+      "text": "I need one."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Leave it to me."
+    },
+    {
+      "character": "ROCKET",
+      "text": "That dude, there."
+    },
+    {
+      "character": "ROCKET",
+      "text": "I need his prosthetic leg."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "His leg?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Yeah. God knows I don't need the rest of him. Look at him, he's useless."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "All right."
+    },
+    {
+      "character": "ROCKET",
+      "text": "And finally, on the wall back there is a black panel. Blinky yellow light."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Yeah."
+    },
+    {
+      "character": "ROCKET",
+      "text": "There's a quarnyx battery behind it. Purplish box, green wires. To get into that watchtower, I definitely need it."
+    },
+    {
+      "character": "GAMORA",
+      "text": "How are we supposed to do that?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Well, supposably, these bald-bodies find you attractive. So, maybe you can work out some sort of trade."
+    },
+    {
+      "character": "GAMORA",
+      "text": "You must be joking."
+    },
+    {
+      "character": "ROCKET",
+      "text": "No, I really heard they find you attractive."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Look, it's 20 feet up in the air, and it's in the middle of the most heavily-guarded part of the prison. It's impossible to get up there without being seen."
+    },
+    {
+      "character": "ROCKET",
+      "text": "I got one plan, and that plan requires a frickin' quarnyx battery, so figure it out! Can I get back to it?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Thanks. Now, this is important. Once the battery is removed, everything is gonna slam into emergency mode."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Once we have it, we gotta move quickly, so you definitely need to get that last."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Or we could just get it first and improvise."
+    },
+    {
+      "character": "GAMORA",
+      "text": "I'll get the armband."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Leg."
+    },
+    {
+      "character": "GUARD 1",
+      "text": "Prisoner, drop the device immediately and retreat to your cell, or we will open fire."
+    },
+    {
+      "character": "GROOT",
+      "text": "I am Groot!"
+    },
+    {
+      "character": "GUARD 1",
+      "text": "Fire!"
+    },
+    {
+      "character": "GUARD 1",
+      "text": "All prisoners return to your sleeping areas."
+    },
+    {
+      "character": "ROCKET",
+      "text": "You idiot! How am I supposed to fight these things without my stuff?"
+    },
+    {
+      "character": "GUARD 2",
+      "text": "The animal is in control. Fire on my command!"
+    },
+    {
+      "character": "DRAX",
+      "text": "Creepy little beast!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Oh, yeah."
+    },
+    {
+      "character": "MAN",
+      "text": "You need my what?"
+    },
+    {
+      "character": "GAMORA",
+      "text": "I'll need this."
+    },
+    {
+      "character": "GUARD 3",
+      "text": "Good luck. It's internally wired."
+    },
+    {
+      "character": "GAMORA",
+      "text": "I'll figure something out."
+    },
+    {
+      "character": "GUARD 4",
+      "text": "Drop the leg! Drop the leg and move back to your cell!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "Rocket!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Move to the watchtower!"
+    },
+    {
+      "character": "DRAX",
+      "text": "You! Man who has lain with an A'askavariian!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "It was one time, man."
+    },
+    {
+      "character": "GUARD 1",
+      "text": "We need all available guards in full combat gear..."
+    },
+    {
+      "character": "DRAX",
+      "text": "You! Man who has lain with an A'askavariian!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "It was one time, man."
+    },
+    {
+      "character": "GUARD 1",
+      "text": "We need all available guards in full combat gear..."
+    },
+    {
+      "character": "DRAX",
+      "text": "Spare me your foul gaze, woman."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Why is this one here?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "We promised him he could stay by your side until he kills your boss. I always keep my promises, when they're to muscle-bound whack-jobs who will kill me if I don't. Here you go."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Oh, I was just kidding about the leg. I just need these two things."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "What?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "No, I thought it'd be funny. Was it funny? Wait, what did he look like hopping around?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "I had to transfer him 30,000 units!"
+    },
+    {
+      "character": "DRAX",
+      "text": "How are we going to leave?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Well, he's got a plan. Right? Or is that another thing you made up?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "I have a plan! I have a plan!"
+    },
+    {
+      "character": "DRAX",
+      "text": "Cease your yammering and relieve us from this irksome confinement."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Yeah, I'll have to agree with the walking thesaurus on that one."
+    },
+    {
+      "character": "DRAX",
+      "text": "Do not ever call me a thesaurus."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "It's just a metaphor, dude."
+    },
+    {
+      "character": "ROCKET",
+      "text": "His people are completely literal, metaphors are gonna go over his head."
+    },
+    {
+      "character": "DRAX",
+      "text": "Nothing goes over my head. My reflexes are too fast. I would catch it."
+    },
+    {
+      "character": "GAMORA",
+      "text": "I'm gonna die surrounded by the biggest idiots in the galaxy."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Those are some big guns."
+    },
+    {
+      "character": "HEAD RIOT GUARD",
+      "text": "On my command! Number one!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "Rodent, we are ready for your plan."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Hold on!"
+    },
+    {
+      "character": "HEAD RIOT GUARD",
+      "text": "Number two!"
+    },
+    {
+      "character": "DRAX",
+      "text": "I recognize this animal. We'd roast them over a flame pit as children. Their flesh was quite delicious."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Not helping!"
+    },
+    {
+      "character": "HEAD RIOT GUARD",
+      "text": "Number three! All fire on my command! Three! Two! One!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "You turned off the artificial gravity, everywhere but in here."
+    },
+    {
+      "character": "ROCKET",
+      "text": "I told you I had a plan."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "That was a pretty good plan. Yeah! There it is. Get my ship. It's the Milano, the orange and blue one over in the corner."
+    },
+    {
+      "character": "ROCKET",
+      "text": "They crumpled my pants up into a ball. That's rude! They folded yours."
+    },
+    {
+      "character": "GAMORA",
+      "text": "The orb's there. Let's go!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Wait, wait, wait."
+    },
+    {
+      "character": "GAMORA",
+      "text": "What?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "That bastard didn't put it back."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Put what back?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Here. Get them to the ship, I will be right back."
+    },
+    {
+      "character": "GAMORA",
+      "text": "How are you gonna possibly..."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Just keep the Milano close by. Go. Go!"
+    },
+    {
+      "character": "PRISON GUARD",
+      "text": "Ow! My neck!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Well, how's he gonna get to us?"
+    },
+    {
+      "character": "GAMORA",
+      "text": "He declined to share that information with me."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Well, screw this, then! I ain't waiting around for some humie with a death wish. You got the orb, right?"
+    },
+    {
+      "character": "GAMORA",
+      "text": "Yes."
+    },
+    {
+      "character": "ROCKET",
+      "text": "If we don't leave now, we will be blown to bits."
+    },
+    {
+      "character": "GAMORA",
+      "text": "No! We're not leaving without the orb."
+    },
+    {
+      "character": "DRAX",
+      "text": "Behold."
+    },
+    {
+      "character": "DRAX",
+      "text": "This one shows spirit. He shall make a keen ally in the battle against Ronan. Companion, what were you retrieving?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "You're an imbecile."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Woh, woh, woh! Yoh, Ranger Rick! What are you doing? You can't take apart my ship without asking me! See, what is this?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Don't touch that, it's a bomb."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "A bomb?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Yep."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "And you leave it lying around?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "I was gonna put it in a box."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "What's a box gonna do?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "How about this one?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "No! Woh! Hey! Hey! Leave it alone!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Why? What is it?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Shut up."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Hey!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "What is that?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "That's for if things get really hardcore. Or if you wanna blow up moons."
+    },
+    {
+      "character": "GAMORA",
+      "text": "No one's blowing up moons."
+    },
+    {
+      "character": "ROCKET",
+      "text": "You just wanna suck the joy out of everything."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "So, listen, I'm gonna need your buyer's coordinates."
+    },
+    {
+      "character": "GAMORA",
+      "text": "We're heading in the right direction, for now."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "If we're gonna work together, you might want to try trusting me a little bit."
+    },
+    {
+      "character": "GAMORA",
+      "text": "And how much do you trust me?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "I'd trust you a lot more if you told me what this was. Because I'm guessing it's some kind of weapon."
+    },
+    {
+      "character": "GAMORA",
+      "text": "I don't know what it is."
+    },
+    {
+      "character": "DRAX",
+      "text": "If it's a weapon, we should use it against Ronan."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Put it down, you fool! You'll destroy us all."
+    },
+    {
+      "character": "DRAX",
+      "text": "Or just you, murderess!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "I let you live once, princess!"
+    },
+    {
+      "character": "DRAX",
+      "text": "I am not a princess!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Hey! Nobody is killing anybody on my ship! We're stuck together until we get the money."
+    },
+    {
+      "character": "DRAX",
+      "text": "I have no interest in money."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Great. That means more money for the three of us. For the four of us. Partners."
+    },
+    {
+      "character": "GAMORA",
+      "text": "We have an agreement, but I would never be partners with the likes of you. I'll tell the buyer we're on our way. And Quill, your ship is filthy."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Oh, she has no idea. If I had a black light, the place would look like a Jackson Pollock painting."
+    },
+    {
+      "character": "ROCKET",
+      "text": "You got issues, Quill."
+    },
+    {
+      "character": "HEAD RIOT GUARD",
+      "text": "I swear, I don't know where they went! I swear!"
+    },
+    {
+      "character": "NEBULA",
+      "text": "If he knew where they were headed, he'd have already told us."
+    },
+    {
+      "character": "HEAD RIOT GUARD",
+      "text": "Yeah."
+    },
+    {
+      "character": "NEBULA",
+      "text": "Ronan, the Nova Corps sent a fleet to defend the prison. Well, then, send Necrocraft to every corner of the quadrant. Find the orb. Any means, any price."
+    },
+    {
+      "character": "NEBULA",
+      "text": "And this place?"
+    },
+    {
+      "character": "RONAN",
+      "text": "The Nova can't know what we're after. Cleanse it!"
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "Do you got any other cute little buggers like this one? I like to stick 'em all in a row on my control console."
+    },
+    {
+      "character": "THE BROKER",
+      "text": "I can't tell if you're joking or not."
+    },
+    {
+      "character": "KRAGLIN",
+      "text": "He's being fully serious."
+    },
+    {
+      "character": "THE BROKER",
+      "text": "In that case, I can show you..."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "But first, you gonna tell me what this orb is, and why everybody cares so damn much about it. And then you gonna tell me, who out there might wanna buy it."
+    },
+    {
+      "character": "THE BROKER",
+      "text": "Sir, the high-end community is a..."
+    },
+    {
+      "character": "THE BROKER",
+      "text": "The high-end community is a..."
+    },
+    {
+      "character": "THE BROKER",
+      "text": "It's a tight-knit..."
+    },
+    {
+      "character": "THE BROKER",
+      "text": "Tight-knit..."
+    },
+    {
+      "character": "THE BROKER",
+      "text": "The high-end community is a very tight-knit..."
+    },
+    {
+      "character": "THE BROKER",
+      "text": "I cannot possibly betray the confidentiality of my buyers!"
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "Now, who again is this buyer of yours?"
+    },
+    {
+      "character": "THE COLLECTOR",
+      "text": "Carina."
+    },
+    {
+      "character": "CARINA",
+      "text": "Yes, Master."
+    },
+    {
+      "character": "THE COLLECTOR",
+      "text": "Your people do have elbows, do they not?"
+    },
+    {
+      "character": "CARINA",
+      "text": "We do, Master."
+    },
+    {
+      "character": "THE COLLECTOR",
+      "text": "Then use them. I don't have to remind you what happened to the last attendant who disappointed me. Do I?"
+    },
+    {
+      "character": "THE COLLECTOR",
+      "text": "Chop, chop. Our guests will be here soon."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Heads up! We're inbound."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Woh."
+    },
+    {
+      "character": "DRAX",
+      "text": "What is it?"
+    },
+    {
+      "character": "GAMORA",
+      "text": "It's called Knowhere. The severed head of an ancient celestial being. Be wary headed in, rodent. There are no regulations whatsoever here."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Well, I come from a planet of outlaws. Billy the Kid, Bonnie and Clyde and John Stamos."
+    },
+    {
+      "character": "DRAX",
+      "text": "It sounds like a place which I would like to visit."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Yeah, you should."
+    },
+    {
+      "character": "KNOWHERE KID",
+      "text": "Excuse me."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Watch your wallets."
+    },
+    {
+      "character": "KNOWHERE KID",
+      "text": "Can you spare any units?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Get out of here."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Your buyer's in there?"
+    },
+    {
+      "character": "GAMORA",
+      "text": "We are to wait here for his representative."
+    },
+    {
+      "character": "BAR BOUNCER",
+      "text": "Get out of here!"
+    },
+    {
+      "character": "DRAX",
+      "text": "This is no respectable establishment. What do you expect us to do while we wait?"
+    },
+    {
+      "character": "DRAX",
+      "text": "Yes! Yes!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Yahoo!"
+    },
+    {
+      "character": "DRAX",
+      "text": "My Orloni has won, as I win at all things! Now, let's put more of this liquid into our bodies."
+    },
+    {
+      "character": "ROCKET",
+      "text": "That's the first thing you said that wasn't bat-shit crazy!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Man, you wouldn't believe what they charge for fuel out here. I might actually lose money on this job."
+    },
+    {
+      "character": "GAMORA",
+      "text": "My connection is making us wait."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "It's just a negotiation tactic. Trust me, this is my specialty. Where yours is more, \"Stab, stab. Those are my terms.\""
+    },
+    {
+      "character": "GAMORA",
+      "text": "My father didn't stress diplomacy."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Thanos?"
+    },
+    {
+      "character": "GAMORA",
+      "text": "He's not my father. When Thanos took my home world, he killed my parents in front of me. He tortured me, turned me into a weapon. When he said he was going to destroy an entire planet for Ronan, I...I couldn't stand by and..."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Why would you risk your life for this?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "My mother gave it to me. My mom liked to share with me all the pop songs that she loved growing up. I happened to have it on me when I was...the day that she... You know, when I left Earth."
+    },
+    {
+      "character": "GAMORA",
+      "text": "What do you do with it?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Do? Nothing. You listen to it. Or you can dance."
+    },
+    {
+      "character": "GAMORA",
+      "text": "I'm a warrior and an assassin. I do not dance."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Really? Well, on my planet, there's a legend about people like you. It's called \"Footloose.\" And in it, a great hero named Kevin Bacon, teaches an entire city full of people with sticks up their butts that dancing, well...it's the greatest thing there is."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Who put the sticks up their butts?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "What? No, that's just a..."
+    },
+    {
+      "character": "GAMORA",
+      "text": "That is cruel."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "It's just a phrase people use."
+    },
+    {
+      "character": "GAMORA",
+      "text": "The melody is pleasant!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "No!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Ow! What the hell?"
+    },
+    {
+      "character": "GAMORA",
+      "text": "I know who you are, Peter Quill! And I am not some starry-eyed waif here to succumb to your...your pelvic sorcery!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "That is not what is happening here."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Oh, no."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Stop it!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Woh! Woh! What are you doing?"
+    },
+    {
+      "character": "DRAX",
+      "text": "This vermin speaks of affairs he knows nothing about!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "That is true!"
+    },
+    {
+      "character": "DRAX",
+      "text": "He has no respect!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "That is also true!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Hold on! Hold on!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Keep calling me vermin, tough guy! You just wanna laugh at me like everyone else!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Rocket, you're drunk. Alright? No one's laughing at you."
+    },
+    {
+      "character": "ROCKET",
+      "text": "He thinks I'm some stupid thing! He does! Well, I didn't ask to get made! I didn't ask to be torn apart, and put back together, over and over and turned into some...some little monster!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Rocket, no one's calling you a monster."
+    },
+    {
+      "character": "ROCKET",
+      "text": "He called me vermin! She called me rodent! Let's see if you can laugh after five or six good shots to your frickin' face!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "No, no, no, no! Four billion units! Rocket! Come on, man. Hey! Suck it up for one more lousy night and you're rich."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Fine. But I can't promise when all this is over I'm not gonna kill every last one of you jerks."
+    },
+    {
+      "character": "ROCKET",
+      "text": "He called me vermin! She called me rodent! Let's see if you can laugh after five or six good shots to your frickin' face!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "No, no, no, no! Four billion units! Rocket! Come on, man. Hey! Suck it up for one more lousy night and you're rich."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Fine. But I can't promise when all this is over I'm not gonna kill every last one of you jerks."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "See? That's exactly why none of you have any friends! Five seconds after you meet somebody, you're already trying to kill them!"
+    },
+    {
+      "character": "DRAX",
+      "text": "We have traveled halfway across the quadrant, and Ronan is no closer to being dead."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Drax!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "Let him go. We don't need him."
+    },
+    {
+      "character": "CARINA",
+      "text": "Milady Gamora, I'm here to fetch you for my master."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Okay, this isn't creepy at all."
+    },
+    {
+      "character": "CARINA",
+      "text": "We house the galaxy's largest collection of fauna, relics, and species of all manner."
+    },
+    {
+      "character": "CARINA",
+      "text": "I present to you, Taneleer Tivan, the Collector."
+    },
+    {
+      "character": "THE COLLECTOR",
+      "text": "Oh, my dear Gamora. How wonderful to meet in the flesh."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Let's bypass the formalities, Tivan. We have what we discussed."
+    },
+    {
+      "character": "THE COLLECTOR",
+      "text": "What is that thing there?"
+    },
+    {
+      "character": "GROOT",
+      "text": "I am Groot."
+    },
+    {
+      "character": "THE COLLECTOR",
+      "text": "I never thought I'd meet a Groot. Sir, you must allow me to pay you now so that I may own your carcass. At the moment of your death, of course."
+    },
+    {
+      "character": "GROOT",
+      "text": "I am Groot."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Why, so he could turn you into a frickin' chair?"
+    },
+    {
+      "character": "THE COLLECTOR",
+      "text": "That's your pet?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "His what?!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "Tivan, we have been halfway around the galaxy, retrieving this orb."
+    },
+    {
+      "character": "THE COLLECTOR",
+      "text": "Very well, then. Let us see what you brought."
+    },
+    {
+      "character": "KNOWHERE CIVILIAN",
+      "text": "Three quarnyx batteries, seven cases of cotati seeds. No, cases. Last time, you sent me..."
+    },
+    {
+      "character": "DRAX",
+      "text": "You shall send a message for me."
+    },
+    {
+      "character": "THE COLLECTOR",
+      "text": "Oh, my new friends. Before creation itself, there were six singularities."
+    },
+    {
+      "character": "THE COLLECTOR",
+      "text": "Then the universe exploded into existence, and the remnants of these systems were forged into concentrated ingots. Infinity Stones. These stones, it seems, can only be brandished by beings of extraordinary strength. Observe."
+    },
+    {
+      "character": "THE COLLECTOR",
+      "text": "These carriers can use the stone to mow down entire civilizations like wheat in a field."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "There's a little pee coming out of me right now."
+    },
+    {
+      "character": "THE COLLECTOR",
+      "text": "Once, for a moment, a group was able to share the energy amongst themselves, but even they were quickly destroyed by it."
+    },
+    {
+      "character": "THE COLLECTOR",
+      "text": "Beautiful. Beyond compare."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Blah, blah, blah. We're all very fascinated, whitey. But we'd like to get paid."
+    },
+    {
+      "character": "THE COLLECTOR",
+      "text": "How would you like to get paid?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "What do you think, fancy man? Units!"
+    },
+    {
+      "character": "THE COLLECTOR",
+      "text": "Very well, then."
+    },
+    {
+      "character": "THE COLLECTOR",
+      "text": "Carina. Stand back."
+    },
+    {
+      "character": "CARINA",
+      "text": "I will no longer be your slave!"
+    },
+    {
+      "character": "THE COLLECTOR",
+      "text": "No!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "What the fff...?"
+    },
+    {
+      "character": "GAMORA",
+      "text": "How could I think Tivan could contain whatever was within the orb?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "What do you still have it for?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Well what are we gonna do, leave it in there?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "I can't believe you had that in your purse!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "It's not a purse, it's a knapsack!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "We have to bring this to the Nova Corps. There's a chance they can contain it."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Are you kidding me? We're wanted by the Nova Corps! Just give it to Ronan!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "So he can destroy the galaxy?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "What are you, some Saint all of a sudden? What has the galaxy ever done for you? Why would you wanna save it?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Because I'm one of the idiots who lives in it!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "Peter, listen to me. We cannot allow the stone to fall into Ronan's hands. We have to go back to your ship and deliver it to Nova."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Right, right, okay. I think you're right. Or we could give it to somebody who's not going to arrest us, who's really nice for a whole lot of money. I think it's a really good balance between both of your points of view."
+    },
+    {
+      "character": "GAMORA",
+      "text": "You're despicable."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "I..."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Dishonorable. Faithless!"
+    },
+    {
+      "character": "DRAX",
+      "text": "At last! Ha-ha-ha! I shall meet my foe and destroy him!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "You called Ronan?!"
+    },
+    {
+      "character": "YONDU",
+      "text": "QUILL! Don't you move, boy!"
+    },
+    {
+      "character": "DRAX",
+      "text": "Ronan the Accuser!"
+    },
+    {
+      "character": "RONAN",
+      "text": "You are the one who transmitted the message?"
+    },
+    {
+      "character": "DRAX",
+      "text": "You killed my wife. You killed my daughter!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "I told you, you can't fit. Now, wait here. I'll be back."
+    },
+    {
+      "character": "NEBULA",
+      "text": "It is Gamora. She is escaping with the orb."
+    },
+    {
+      "character": "DRAX",
+      "text": "No!"
+    },
+    {
+      "character": "RONAN",
+      "text": "Nebula, retrieve the orb."
+    },
+    {
+      "character": "NEBULA",
+      "text": "The stone is in the furthest pod. Bring it down!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Rocket, keep them off Gamora until she gets to the Milano."
+    },
+    {
+      "character": "ROCKET",
+      "text": "How? We've got no weaponry on these things."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "These pods are industrial grade, they're nearly indestructible."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Not against Necroblasts, they're not."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "That's not what I'm saying."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Oh!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Let me borrow your ride."
+    },
+    {
+      "character": "RONAN",
+      "text": "I don't recall killing your family. I doubt I'll remember killing you, either."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Quill, I'm trapped! I can't make it to the Milano, I have to head out."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "What? Wait! These things aren't meant to go out there."
+    },
+    {
+      "character": "NEBULA",
+      "text": "You are a disappointment, sister. Of all our siblings, I hated you least."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Nebula, please. If Ronan gets this stone he'll kill us all."
+    },
+    {
+      "character": "NEBULA",
+      "text": "Not all. You will already be dead."
+    },
+    {
+      "character": "RONAN",
+      "text": "Ronan, it is done."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Quill, come on. Her body mods should keep her alive a couple more minutes, but there's nothing we can do for her. These pods aren't meant to be out here. In a second, we're gonna be in the same boat."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Aw, damn it!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Quill?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Yondu! Yondu! This is Quill! My coordinates are 2-2-7-K-3-2-4."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Quill? Quill, what are you doing?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Just outside Knowhere. If you're there, come get me. I'm all yours."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Quill, don't be ridiculous. Get back into your pod! You can't fit two people in there, you're gonna die."
+    },
+    {
+      "character": "ROCKET",
+      "text": "You'll die in seconds! Quill!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "Quill? What happened?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "I saw you out there. I don't know what came over me, but I couldn't let you die. I found something inside of myself. Something incredibly heroic. I mean, not to brag, but objectively..."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Where's the orb?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "It's...well, they got the orb."
+    },
+    {
+      "character": "GAMORA",
+      "text": "What?"
+    },
+    {
+      "character": "KRAGLIN",
+      "text": "Welcome home, Peter."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Blasted idiot. They're all idiots! Quill just got himself captured!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "None of this ever would have happened if you didn't try to single-handedly take on a frickin' army!"
+    },
+    {
+      "character": "DRAX",
+      "text": "You're right. I was a fool. All the anger, all the rage, was just to cover my loss."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Oh, boo-hoo-hoo. \"My wife and child are dead.\""
+    },
+    {
+      "character": "ROCKET",
+      "text": "Oh, I don't care if it's mean! Everybody's got dead people! That's no excuse to get everybody else dead along the way! Come on, Groot. Ronan has the stone. The only chance we got is to get to the other side of the universe as fast as we can and maybe, just maybe, we'll be able to live full lives before that whack-job ever gets there."
+    },
+    {
+      "character": "GROOT",
+      "text": "I am Groot."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Save them? How?"
+    },
+    {
+      "character": "GROOT",
+      "text": "I am Groot."
+    },
+    {
+      "character": "ROCKET",
+      "text": "I know they're the only friends that we ever had, but there's an army of Ravagers around them. And there's only two of us!"
+    },
+    {
+      "character": "DRAX",
+      "text": "Three."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Aw! YOU'RE MAKING ME BEAT - UP - GRASS!"
+    },
+    {
+      "character": "RONAN",
+      "text": "The orb is in my possession, as I promised."
+    },
+    {
+      "character": "THANOS",
+      "text": "Bring it to me."
+    },
+    {
+      "character": "RONAN",
+      "text": "Yes, that was our agreement."
+    },
+    {
+      "character": "RONAN",
+      "text": "Bring you the orb, and you will destroy Xandar for me. However, now that I know it contains an Infinity Stone, I wonder what use I have for you."
+    },
+    {
+      "character": "THANOS",
+      "text": "Boy, I would reconsider your current course."
+    },
+    {
+      "character": "KORATH",
+      "text": "Master! You cannot! Thanos is the most powerful being in the universe."
+    },
+    {
+      "character": "RONAN",
+      "text": "Not anymore."
+    },
+    {
+      "character": "RONAN",
+      "text": "You call me \"boy\"?! I will unfurl one thousand years of Kree justice on Xandar, and burn it to its core! Then, Thanos, I'm coming for you."
+    },
+    {
+      "character": "NEBULA",
+      "text": "After Xandar, you're going to kill my father?"
+    },
+    {
+      "character": "RONAN",
+      "text": "You dare to oppose me?"
+    },
+    {
+      "character": "NEBULA",
+      "text": "You see what he has turned me into. You kill him, I will help you destroy a thousand planets."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "You betrayed me! Steal my money!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "Stop it! Leave him alone!"
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "When I picked you up as a kid, these boys wanted to eat you. They ain't never tasted Terran before. I saved your life!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Oh, will you shut up about that? God! Twenty years, you've been throwing that in my face, like it's some great thing, not eating me! Normal people don't even think about eating someone else! Much less that person having to be grateful for it! You abducted me, man. You stole me from my home and from my family."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "You don't give a damn about your Terra! You're scared because you're soft, in here."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "Here! Right here!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "Yondu! Listen to me! Ronan has something called an Infinity Stone."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "I know what he's got, girl."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Then you know we must get it back! He's gonna use it to wipe out Xandar. We have to warn them. Billions of people will perish."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "Is that what she's been filling your head with, boy? Sentiment?"
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "Eating away your brain like maggots! That's it."
+    },
+    {
+      "character": "GAMORA",
+      "text": "No!"
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "Sorry, boy. But a captain's gotta teach his men what happens to those what cross him."
+    },
+    {
+      "character": "KRAGLIN",
+      "text": "Captain's gotta teach stuff!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "If you kill me now, you are saying goodbye to the biggest score you have ever seen."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "The Stone? I hope you got something better than that. Because ain't nobody stealing from Ronan."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "We got a ringer."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "Is that right?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "She knows everything there is to know about Ronan. His ships, his army."
+    },
+    {
+      "character": "GAMORA",
+      "text": "He's vulnerable."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Hey, what do you say, Yondu, huh? Me and you, taking down a mark side-by-side, like the old days."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "Let him go! Oh! You always did have a scrote, boy! That's why I kept you on as a young'un."
+    },
+    {
+      "character": "RAVAGER PILOT",
+      "text": "Captain, the shot was non-damaging."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Attention, idiots. The lunatic on top of this craft is holding a Hadron Enforcer."
+    },
+    {
+      "character": "ROCKET",
+      "text": "It's a weapon of my own design."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "What the hell?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "If you don't hand over our companions now, he's gonna tear your ship a new one. A very big new one!"
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "I ain't buyin' it."
+    },
+    {
+      "character": "RAVAGER PILOT",
+      "text": "Captain, the shot was non-damaging."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Attention, idiots. The lunatic on top of this craft is holding a Hadron Enforcer."
+    },
+    {
+      "character": "ROCKET",
+      "text": "It's a weapon of my own design."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "What the hell?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "If you don't hand over our companions now, he's gonna tear your ship a new one. A very big new one!"
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "I ain't buyin' it."
+    },
+    {
+      "character": "ROCKET",
+      "text": "I'm giving you to the count of five. Five, four, three..."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "No!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "No, no! Don't!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "No! Wait, hold on! Rocket, it's me, for God sakes! We figured it out! We're fine!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Oh, hey, Quill. What's going on?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "You call that \"figured it out\"? We're gonna rob the guys who just beat us senseless."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Oh, you want to talk about senseless? How about trying to save us by blowing us up?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "We were only gonna blow you up if they didn't turn you over!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "And how on earth were they gonna turn us over when you only gave them a count of five?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Well we didn't have time to work out the minutiae of the plan. This is what we get for acting altruistically!"
+    },
+    {
+      "character": "GROOT",
+      "text": "I am Groot."
+    },
+    {
+      "character": "ROCKET",
+      "text": "They are ungrateful."
+    },
+    {
+      "character": "GAMORA",
+      "text": "What's important now is we get the Ravagers' army to help us save Xandar."
+    },
+    {
+      "character": "ROCKET",
+      "text": "So we can give the Stone to Yondu who's just gonna sell to somebody even worse?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "We'll figure that part out later."
+    },
+    {
+      "character": "GAMORA",
+      "text": "We have to stop Ronan."
+    },
+    {
+      "character": "ROCKET",
+      "text": "How?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "I have a plan."
+    },
+    {
+      "character": "ROCKET",
+      "text": "You've got a plan?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Yes."
+    },
+    {
+      "character": "ROCKET",
+      "text": "First of all, you're copying me from when I said I had a plan."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "No, I'm not. People say that all the time, it's not that unique of a thing to say."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Secondly, I don't even believe you have a plan."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "I have part of a plan!"
+    },
+    {
+      "character": "DRAX",
+      "text": "What percentage of a plan do you have?"
+    },
+    {
+      "character": "GAMORA",
+      "text": "You don't get to ask questions after the nonsense you pulled on Knowhere."
+    },
+    {
+      "character": "DRAX",
+      "text": "I just saved Quill."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "We've already established that you destroying the ship that I'm on is not saving me."
+    },
+    {
+      "character": "DRAX",
+      "text": "When did we establish it?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Like three seconds ago!"
+    },
+    {
+      "character": "DRAX",
+      "text": "I wasn't listening, I was thinking of something else."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Oh!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "She's right, you don't get an opinion. What percentage?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "I don't know, twelve percent."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Twelve percent?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "That's a fake laugh."
+    },
+    {
+      "character": "ROCKET",
+      "text": "It's real!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Totally fake."
+    },
+    {
+      "character": "ROCKET",
+      "text": "That is the most real, authentic, hysterical laugh of my entire life because that is not a plan."
+    },
+    {
+      "character": "GAMORA",
+      "text": "It's barely a concept."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "You're taking their side?"
+    },
+    {
+      "character": "GROOT",
+      "text": "I am Groot."
+    },
+    {
+      "character": "ROCKET",
+      "text": "So what, it's better than eleven percent? What the hell does that have to do with anything?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Thank you, Groot. Thank you. See? Groot's the only one of you who has a clue."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Guys. Come on. Yondu is gonna be here in two seconds. He expects to hear this big plan of ours. I need your help. I look around at us, you know what I see? Losers. I mean, like, folks who have lost stuff. And we have. Man, we have. All of us. Our homes, our families, normal lives. And, usually, life takes more than it gives, but not today. Today, it's given us something. It has given us a chance."
+    },
+    {
+      "character": "DRAX",
+      "text": "To do what?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "To give a shit. For once, not run away. I, for one, am not gonna stand by and watch as Ronan wipes out billions of innocent lives."
+    },
+    {
+      "character": "ROCKET",
+      "text": "But, Quill, stopping Ronan, it's impossible. You're asking us to die."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Yeah, I guess I am. I..."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Quill. I have lived most my life surrounded by my enemies. I will be grateful to die among my friends."
+    },
+    {
+      "character": "DRAX",
+      "text": "You are an honorable man, Quill. I will fight beside you. And in the end, see my wife and daughter again."
+    },
+    {
+      "character": "GROOT",
+      "text": "I am Groot."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Oh, what the hell. I don't got that long a lifespan, anyway. Now I'm standing. You all happy? We're all standing up now. Bunch of jackasses, standing in a circle."
+    },
+    {
+      "character": "GAMORA",
+      "text": "The stone reacts to anything organic. The bigger the target, the bigger the power surge."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "All Ronan's gotta do is touch the stone to the planet's surface and zap. All plants, animals, Nova Corps."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Everything will die."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "So Ronan does not make the surface. Rocket will lead a team to blow a hole in the Dark Aster's starboard hull. Then, our craft and Yondu's will enter."
+    },
+    {
+      "character": "KRAGLIN",
+      "text": "Won't there be hundreds of Sakaaran soldiers inside?"
+    },
+    {
+      "character": "DRAX",
+      "text": "I think of Sakaaran as paper people."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Once they know we're on board, Ronan will isolate himself behind impenetrable security doors on deck. Which I can disable by dismantling the power source."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "We'll make it to the flight deck, and I'll use the Hadron Enforcer to kill Ronan."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Once Ronan is dead, we will retrieve the stone. Use these devices to contain it. If you touch it, it will kill you."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "I'll contact one of the Nova officers who arrested us. Hopefully, they'll believe we're there to help."
+    },
+    {
+      "character": "ROCKET",
+      "text": "There's one more thing we need to complete the plan. That guy's eye..."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "No! No, we don't. No, we don't need that guy's eye."
+    },
+    {
+      "character": "ROCKET",
+      "text": "No, seriously, I need it! It's important to me."
+    },
+    {
+      "character": "RAVAGER NAVIGATOR",
+      "text": "Ronan's fleet has been spotted, and will arrive in t-minus fifteen minutes."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "Remember, boy. At the end of all this, I get the stone. You cross me, we kill you all."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "Let's go get 'em, boys!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "This is a terrible plan."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Hey, you're the one who said you wanted to die among friends."
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "Nova Prime. I received a transmission from one of the Ravagers. He says Ronan's in possession of something called an Infinity Stone and he's headed toward Xandar."
+    },
+    {
+      "character": "NOVA PRIME",
+      "text": "Good God."
+    },
+    {
+      "character": "DENARIAN SAAL",
+      "text": "It's a trick. He's a criminal."
+    },
+    {
+      "character": "NOVA PRIME",
+      "text": "Did he say why we should believe him?"
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "He said his crew just escaped from prison so he'd have no other reason to risk coming to Xandar to help. He says that he's an \"a-hole.\" But he's not, and I'm quoting him here, \"one hundred percent a dick.\""
+    },
+    {
+      "character": "NOVA PRIME",
+      "text": "Do you believe him?"
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "Well, I don't know that I believe anyone's one hundred percent a dick, ma'am."
+    },
+    {
+      "character": "NOVA PRIME",
+      "text": "I mean, do you believe that he's here to help?"
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "Yeah."
+    },
+    {
+      "character": "NEBULA",
+      "text": "A fleet approaches, they appear to be Ravagers."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "Fire!"
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "Cover it down! Submerge!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Rocket, hurry!"
+    },
+    {
+      "character": "NEBULA",
+      "text": "All pilots, dive! They're beneath us!"
+    },
+    {
+      "character": "NOVA PRIME",
+      "text": "Evacuate the city. Our priority is to get our people away from the battle."
+    },
+    {
+      "character": "NEBULA",
+      "text": "Forward thrust, now!"
+    },
+    {
+      "character": "KRAGLIN",
+      "text": "Come on!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Quill! Yondu! Now!"
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "Aw, hell! I'm going down, Quill! No more games with me, boy! I'll see you at the end of this!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "There are too many of them, Rocket! We'll never make it up there!"
+    },
+    {
+      "character": "DENARIAN SAAL",
+      "text": "Peter Quill, this is Denarian Saal of the Nova Corps. For the record, I advised against trusting you here."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "They got my \"dick\" message!"
+    },
+    {
+      "character": "DENARIAN SAAL",
+      "text": "Prove me wrong."
+    },
+    {
+      "character": "DRAX",
+      "text": "Yes!"
+    },
+    {
+      "character": "DRAX",
+      "text": "Yes!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "We're just like Kevin Bacon."
+    },
+    {
+      "character": "NEBULA",
+      "text": "The starboard kern has been breached! We have been boarded!"
+    },
+    {
+      "character": "RONAN",
+      "text": "Continue our approach."
+    },
+    {
+      "character": "NEBULA",
+      "text": "But the Nova Corps have engaged!"
+    },
+    {
+      "character": "RONAN",
+      "text": "None of that will matter once we reach the surface."
+    },
+    {
+      "character": "NEBULA",
+      "text": "Seal security doors! Now!"
+    },
+    {
+      "character": "NEBULA",
+      "text": "Get out of my way!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Oh, man."
+    },
+    {
+      "character": "NOVA PRIME",
+      "text": "All Nova pilots, interlock and form a blockade. The Dark Aster must not reach the ground."
+    },
+    {
+      "character": "NOVA PILOT #1",
+      "text": "Locked in!"
+    },
+    {
+      "character": "NOVA PILOT #2",
+      "text": "Locked in. We're locked in."
+    },
+    {
+      "character": "DRAX",
+      "text": "I can barely see."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "I'm pretty sure the answer is \"I am Groot.\""
+    },
+    {
+      "character": "GAMORA",
+      "text": "The flight deck is three hundred meters this way."
+    },
+    {
+      "character": "DRAX",
+      "text": "I want you all to know that I am grateful for your acceptance after my blunders. It is pleasing to once again have friends. You, Quill, are my friend."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Thanks."
+    },
+    {
+      "character": "DRAX",
+      "text": "This dumb tree, he is my friend."
+    },
+    {
+      "character": "GROOT",
+      "text": "Mmm."
+    },
+    {
+      "character": "DRAX",
+      "text": "And this green whore, she, too..."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Oh, you must stop!"
+    },
+    {
+      "character": "NEBULA",
+      "text": "Gamora, look at what you have done. You have always been weak. You stupid, traitorous..."
+    },
+    {
+      "character": "DRAX",
+      "text": "Nobody talks to my friends like that."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Head to the flight deck. I'll shut down the power to the security doors."
+    },
+    {
+      "character": "MASKLESS SAKAARAN",
+      "text": "Yondu Udonta. Order your men to turn on the Nova Corps."
+    },
+    {
+      "character": "MASKLESS SAKAARAN",
+      "text": "Enough nonsense, Ravager! Time to die..."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Nebula, please."
+    },
+    {
+      "character": "RONAN",
+      "text": "Enough of this. Necrocraft pilots, enact immolation initiative."
+    },
+    {
+      "character": "NOVA PILOT",
+      "text": "They're dive-bombing the city! Denarian Saal, should we break formation?"
+    },
+    {
+      "character": "DENARIAN SAAL",
+      "text": "No! Hold your positions!"
+    },
+    {
+      "character": "ROCKET'",
+      "text": "Keep Ronan up there, Saal. We'll take care of the people down here."
+    },
+    {
+      "character": "DENARIAN SAAL",
+      "text": "I can't believe I'm taking orders from a hamster."
+    },
+    {
+      "character": "KORATH",
+      "text": "Star-Lord."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Finally!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "You thief!"
+    },
+    {
+      "character": "KORATH",
+      "text": "You will never make it to Ronan."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Everybody shoot them before they hit the ground."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Come on!"
+    },
+    {
+      "character": "DRAX",
+      "text": "Finger to the throat means death."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Yeah, sorta."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Oh, no."
+    },
+    {
+      "character": "RONAN",
+      "text": "Xandar, you stand accused. Your wretched peace treaty will not save you now. It is the tinder on which you burn!"
+    },
+    {
+      "character": "DENARIAN SAAL",
+      "text": "Rocket!"
+    },
+    {
+      "character": "ROCKET",
+      "text": "Hold on, Saal, just..."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Quill, you gotta hurry. The city's been evacuated, but we're getting our asses kicked down here."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Gamora hasn't opened the door!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "Nebula! Sister, help us fight Ronan. You know he's crazy!"
+    },
+    {
+      "character": "NEBULA",
+      "text": "I know you're both crazy."
+    },
+    {
+      "character": "GAMORA",
+      "text": "No!"
+    },
+    {
+      "character": "RAVAGER PILOT",
+      "text": "What the...?"
+    },
+    {
+      "character": "NEBULA",
+      "text": "Get out!"
+    },
+    {
+      "character": "DRAX",
+      "text": "You did it!"
+    },
+    {
+      "character": "RONAN",
+      "text": "I was mistaken, I do remember your family. Their screams were pitiful. I..."
+    },
+    {
+      "character": "ROCKET",
+      "text": "No, Groot! You can't, you'll die. Why are you doing this? Why?"
+    },
+    {
+      "character": "GROOT",
+      "text": "We are Groot."
+    },
+    {
+      "character": "ROCKET",
+      "text": "I called him an idiot."
+    },
+    {
+      "character": "ROCKET",
+      "text": "No, Groot! You can't, you'll die. Why are you doing this? Why?"
+    },
+    {
+      "character": "GROOT",
+      "text": "We are Groot."
+    },
+    {
+      "character": "ROCKET",
+      "text": "I called him an idiot."
+    },
+    {
+      "character": "ROCKET",
+      "text": "YOU KILLED GROOT!!!!!!!"
+    },
+    {
+      "character": "RONAN",
+      "text": "Behold! Your Guardians of the Galaxy! What fruit have they wrought? Only that my father and his father shall finally know vengeance. People of Xandar, the time has come to rejoice and renounce your paltry gods! Your salvation is at hand."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "\"Ooh-oo child, things are gonna get easier. Ooh-oo child, things'll get brighter.\""
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Listen to these words."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "\"Ooh-oo child, things are gonna get easier. Ooh-oo child, things'll get brighter.\""
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Now bring it down hard!"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "\"Some day, we'll get it together and we'll get it...\""
+    },
+    {
+      "character": "RONAN",
+      "text": "What are you doing?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Dance-off, bro. Me and you."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Gamora."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Subtle. Take it back."
+    },
+    {
+      "character": "RONAN",
+      "text": "What are you doing?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "I'm distracting you, you big turd blossom."
+    },
+    {
+      "character": "GAMORA",
+      "text": "NOOOOOOOOOOOOOO!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "PETER!!!!!!!"
+    },
+    {
+      "character": "GAMORA",
+      "text": "TAKE MY HAND!!!!!!!"
+    },
+    {
+      "character": "MEREDITH QUILL",
+      "text": "Take my hand, Peter."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Mom."
+    },
+    {
+      "character": "GAMORA",
+      "text": "TAKE MY HAND!!!!!!!!!!!"
+    },
+    {
+      "character": "RONAN",
+      "text": "YOU'RE MORTAL! HOW!?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "You said it yourself, bitch. We're the Guardians of the Galaxy."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "Well, well, well. Quite the light show."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "Ain't this sweet. But you got some business to attend to before all the nookie-nookie starts."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Peter, you can't. Peter."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "You gotta reconsider this, Yondu. I don't know who you're selling this to, but the only way the universe can survive is if you give it to the Nova Corps."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "I may be as pretty as an angel, but I sure as hell ain't one. Hand it over, son."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Yondu."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Do not open that orb. You know that, right? You've seen what it does to people."
+    },
+    {
+      "character": "KRAGLIN",
+      "text": "Yeah, Quill turned out okay. It's probably good we didn't deliver him to his dad like we was hired to do."
+    },
+    {
+      "character": "YONDU UDONTA",
+      "text": "Yeah, that guy was a jackass."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "He's gonna be so pissed when he realizes I switched out the orb on him."
+    },
+    {
+      "character": "GAMORA",
+      "text": "He was gonna kill you, Peter."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Oh, I know. But he was about the only family I had."
+    },
+    {
+      "character": "GAMORA",
+      "text": "No. He wasn't."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Why would you even know this?"
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "When we arrested you, we noticed an anomaly in your nervous system, so we had it checked out."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "I'm not Terran?"
+    },
+    {
+      "character": "NOVA PRIME",
+      "text": "You are half Terran. Your mother was of earth. Your father, well, he's something very ancient we've never seen here before."
+    },
+    {
+      "character": "GAMORA",
+      "text": "That could be why you were able to hold the stone for as long as you did."
+    },
+    {
+      "character": "NOVA PRIME",
+      "text": "Your friends have arrived. On behalf of the Nova Corps, we'd like to express our profound gratitude for your help in saving Xandar. If you will follow Denarian Dey, he has something to show you."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Thank you, Nova Prime."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Thank you."
+    },
+    {
+      "character": "GAMORA",
+      "text": "Your wife and child shall rest well knowing that you have avenged them."
+    },
+    {
+      "character": "DRAX",
+      "text": "Yes. Of course, Ronan was only a puppet. It's really Thanos I need to kill."
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "We tried to keep it as close to the original as possible. We salvaged as much as we could."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Wow. I…"
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "I have a family who are alive because of you. Your criminal records have also been expunged. However, I have to warn you against breaking any laws in the future."
+    },
+    {
+      "character": "ROCKET",
+      "text": "Question. What if I see something that I want to take, and it belongs to someone else?"
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "Well you will be arrested."
+    },
+    {
+      "character": "ROCKET",
+      "text": "But what if I want it more than the person who has it?"
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "Still illegal."
+    },
+    {
+      "character": "ROCKET",
+      "text": "That doesn't follow. No, I want it more, sir. Do you understand?"
+    },
+    {
+      "character": "ROCKET",
+      "text": "What are you laughing at? Why? I can't have a discussion with this gentleman?"
+    },
+    {
+      "character": "DRAX",
+      "text": "What if someone does something irksome and I decide to remove his spine?"
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "That's...that's actually murder. It's one of the worst crimes of all, so also illegal."
+    },
+    {
+      "character": "DRAX",
+      "text": "Hmm."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "They'll be fine, Dey. I'm gonna keep an eye on 'em."
+    },
+    {
+      "character": "CORPSMAN DEY",
+      "text": "You?"
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Yeah, me."
+    },
+    {
+      "character": "MEREDITH QUILL",
+      "text": "Peter, I know these last few months have been hard for you. But I'm going to a better place and I will be okay. And I will always be with you. You are the light of my life. My precious son. My little Star-Lord. Love, mom."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "So, what should we do next? Something good? Something bad? A bit of both?"
+    },
+    {
+      "character": "GAMORA",
+      "text": "We'll follow your lead, Star-Lord."
+    },
+    {
+      "character": "PETER QUILL",
+      "text": "Bit of both!"
+    },
+    {
+      "character": "HOWARD THE DUCK",
+      "text": "Why do you let it lick you like that for?"
+    },
+    {
+      "character": "HOWARD THE DUCK",
+      "text": "Gross."
+    },
+    {
+      "character": "HOWARD THE DUCK",
+      "text": "Yeah! But it burns going down."
+    }
+  ],
+  "imdbId": "tt2015381",
+  "poster": "https://m.media-amazon.com/images/M/MV5BM2ZmNjQ2MzAtNDlhNi00MmQyLWJhZDMtNmJiMjFlOWY4MzcxXkEyXkFqcGc@._V1_SX300.jpg",
+  "rated": "PG-13",
+  "runtime": "121 min",
+  "genre": "Action, Adventure, Comedy",
+  "director": "James Gunn",
+  "topSpeakingCast": [
+    "PETER QUILL",
+    "ROCKET",
+    "GAMORA",
+    "DRAX",
+    "YONDU UDONTA",
+    "NEBULA",
+    "RONAN",
+    "CORPSMAN DEY",
+    "THE COLLECTOR",
+    "GROOT",
+    "THE BROKER",
+    "KORATH",
+    "NOVA PRIME",
+    "THANOS",
+    "DENARIAN SAAL"
+  ]
+}

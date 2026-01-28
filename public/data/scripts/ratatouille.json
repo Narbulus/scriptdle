@@ -1,7 +1,7 @@
 {
   "id": "ratatouille",
   "title": "Ratatouille",
-  "year": 2007,
+  "year": null,
   "characters": [
     "COLETTE",
     "COLONEL GUSTEAU",
@@ -10,12 +10,18 @@
     "DUPUIS",
     "EGO",
     "EMILE",
+    "FOOD SNOB #1",
+    "FOOD SNOB #2",
+    "FOOD SNOB #3",
     "GIT",
     "GUSTEAU",
     "GUSTEAU (ON T.V.)",
     "GUSTEAU (TV)",
     "GUSTEAU PHOTO",
     "GUSTEAU SIGN",
+    "GUSTEAU SPRITE",
+    "HER",
+    "HIM",
     "HORST",
     "LA ROUSSE",
     "LALO",
@@ -708,12 +714,348 @@
       "text": "But he’s ruining the soup! We’ve got to tell someone that he’s-"
     },
     {
-      "character": "LINGUINI",
-      "text": "Aaaaaaaagggggghhhhh!!! (looks at Remy accusingly) Aaaaaaaagggggghhhhh!!! (gestures at bite marks) Aaaaaaaagggggghhhhh!!!"
+      "character": "GUSTEAU",
+      "text": "Remy! What are you waiting for?!"
+    },
+    {
+      "character": "REMY",
+      "text": "Is this going to become a regular thing with you?"
+    },
+    {
+      "character": "GUSTEAU",
+      "text": "You know how to fix it. This is your chance..."
+    },
+    {
+      "character": "SKINNER",
+      "text": "The soup! Where is the soup?!"
+    },
+    {
+      "character": "SKINNER",
+      "text": "Out of my way!"
+    },
+    {
+      "character": "SKINNER",
+      "text": "Move it, garbage boy!"
+    },
+    {
+      "character": "SKINNER",
+      "text": "You are cooking?!?! How dare you cook in my kitchen!"
+    },
+    {
+      "character": "SKINNER",
+      "text": "Where do you get the gall to even attempt something so monumentally idiotic?!?! I shall have you drawn and quartered! I’ll do it! I think the law is on my side! La Rousse! Draw and quarter this man! After you put his head in the duck press to squeeze the fat out of his head!"
     },
     {
       "character": "LINGUINI",
-      "text": "This is not gonna work, little chef! I am gonna lose it if we do this any more. We gotta figure out something else. Something that doesn’t involve any biting or nipping or running up and down my body with your little rat feet. The biting; no. Scampering; no. No scampering or scurrying. Understand, little chef? (beat) Little chef?"
+      "text": "Oh, no, no no, ohhhh nooo--"
+    },
+    {
+      "character": "SKINNER",
+      "text": "What are you blathering about?!?!"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Don’t let the sou, soup!"
+    },
+    {
+      "character": "SKINNER",
+      "text": "Soup?! Stop that soup! Noooo!"
+    },
+    {
+      "character": "SKINNER",
+      "text": "Linguini!!!! You’re fired!!!! F-i-r-e-d!!!! Fired!!!!"
+    },
+    {
+      "character": "MUSTAFA",
+      "text": "She wants to see the Chef."
+    },
+    {
+      "character": "COLETTE",
+      "text": "What did the customer say?"
+    },
+    {
+      "character": "MUSTAFA",
+      "text": "It was not a customer. It was a critic."
+    },
+    {
+      "character": "COLETTE",
+      "text": "Ego?"
+    },
+    {
+      "character": "SKINNER",
+      "text": "Solene LeClaire..."
+    },
+    {
+      "character": "COLETTE",
+      "text": "LeClaire? What did she say?"
+    },
+    {
+      "character": "MUSTAFA",
+      "text": "She likes the soup."
+    },
+    {
+      "character": "GUSTEAU",
+      "text": "Wait..."
+    },
+    {
+      "character": "REMY",
+      "text": "What do mean “wait\"? You’re the reason I’m in this mess!"
+    },
+    {
+      "character": "GUSTEAU",
+      "text": "Someone is asking about your soup!"
+    },
+    {
+      "character": "SKINNER",
+      "text": "What are you playing at?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "I, uhm, didn’t, am I still fired?"
+    },
+    {
+      "character": "COLETTE",
+      "text": "You can’t fire him."
+    },
+    {
+      "character": "SKINNER",
+      "text": "What?!"
+    },
+    {
+      "character": "COLETTE",
+      "text": "LeClaire likes it, yeah? She made a point of telling you so. If she writes a review to that effect, and finds out you fired the cook responsible..."
+    },
+    {
+      "character": "SKINNER",
+      "text": "He’s a garbage boy."
+    },
+    {
+      "character": "COLETTE",
+      "text": "...who made something she liked. How can we claim to represent the name of Gusteau if we don’t uphold his most cherished belief?"
+    },
+    {
+      "character": "SKINNER",
+      "text": "What belief is that, Madamoiselle Tatou?"
+    },
+    {
+      "character": "COLETTE",
+      "text": "Anyone can cook."
+    },
+    {
+      "character": "SKINNER",
+      "text": "Perhaps I’ve been a bit harsh on our new garbage boy. He has taken a bold risk, and we should reward that, as Chef Gusteau would have. If he wishes to swim in dangerous waters, who are we to deny him?"
+    },
+    {
+      "character": "GUSTEAU",
+      "text": "You were escaping?"
+    },
+    {
+      "character": "REMY",
+      "text": "Oh, yeah."
+    },
+    {
+      "character": "SKINNER",
+      "text": "Since you have expressed such an interest in his cooking career, you shall be responsible for it."
+    },
+    {
+      "character": "SKINNER",
+      "text": "Anyone else? Hmm? Then back to work!"
+    },
+    {
+      "character": "SKINNER",
+      "text": "You are either very lucky or very unlucky. You will make the soup again, and this time I’ll be paying attention. Very close attention."
+    },
+    {
+      "character": "SKINNER",
+      "text": "They think you might be a cook. But you know what I think, Linguini? I think you were a sneaky, overreaching little... RAAAAT!!!"
+    },
+    {
+      "character": "SKINNER",
+      "text": "Get the rat! LINGUINI! GET SOMETHING TO TRAP IT!!!!"
+    },
+    {
+      "character": "HORST",
+      "text": "He's getting away! Get him, get him, get him!"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "What should I do now?"
+    },
+    {
+      "character": "SKINNER",
+      "text": "Kill it!"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Now?"
+    },
+    {
+      "character": "SKINNER",
+      "text": "No, not in the kitchen! Are you mad?! Do you know what would happen to us if anyone knew we had a rat in our kitchen? They’d close us down!! Our reputation is hanging by a thread as it is. Take it away from here. Far away. Kill it, dispose of it. GO!"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Don’t look at me like that! You aren’t the only one who’s trapped! They expect me to cook it again!"
+    },
+    {
+      "character": "REMY",
+      "text": "Huh?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "I’m not ambitious, I wasn’t trying to cook, I was just trying to stay out of trouble. YOU’RE THE ONE WHO WAS GETTING FANCY WITH THE SPICES! WHAT’D YOU THROW IN THERE?! Oregano?!"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "No? What, rosemary?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "That’s a spice, isn’t it? Rosemary?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "You didn’t put rosemary in there?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Then what was with all the flipping and the throwing? I need this job. I’ve lost so many. I don’t know how to cook and now I’m talking to a rat as if you actually understand what I’m say did you nod?! Have you been nodding?! You understand me?!"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "So, I’m not crazy. Wait a second, wait a second. I can’t cook. Can I?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "But you...you can. Right?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Look don’t be so modest, you’re a rat for Pete’s sake. Whatever you did, they liked it. Yeah. This could work. Hey, they liked the soup--"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "They liked the soup. You think you could do it again?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Okay, I’m gonna let you out now. But we’re together on this. Right?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Okay."
+    },
+    {
+      "character": "LINGUINI",
+      "text": "This is it. It’s not much, but it’s not much. Could be worse; there’s heat and light and a couch with a TV. So, y’know, what’s mine is yours."
+    },
+    {
+      "character": "HER",
+      "text": "Are you, is this a dream?"
+    },
+    {
+      "character": "HIM",
+      "text": "The best kind of dream. One we can share."
+    },
+    {
+      "character": "HER",
+      "text": "But why here? Why now?"
+    },
+    {
+      "character": "HIM",
+      "text": "Why not here? Why not now? What better place to dream than in Paris?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Morning, little Chef. Rise and sh..."
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Idiot! I knew this would happen! I let a rat into my place and tell him what’s mine is his?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Eggs gone! Stupid! He’s stolen food and hit the road! What’d I expect? That’s what I get for trusting a rats!"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Wh? Hey. What, is that for me?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "It’s good. What’d you put in this?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Where’d you get that?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Look. It’s delicious. But don’t steal. I’ll buy some spices, okay?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Oh no. We’re gonna be late, and on the first day!"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Ca’mon, little Chef!"
+    },
+    {
+      "character": "COLETTE",
+      "text": "“Though I, like many other critics, had written off Gusteau’s as irrelevant since the great Chef’s death, the soup was a revelation, a spicy yet subtle taste experience.”"
+    },
+    {
+      "character": "SKINNER",
+      "text": "LeClaire?"
+    },
+    {
+      "character": "COLETTE",
+      "text": "Yes!"
+    },
+    {
+      "character": "COLETTE",
+      "text": "\"Against all odds, Gusteau’s has recaptured our attention. Only time will tell if they deserve it.”"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Well, uhm..."
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Look, I know it’s weird and stupid, but neither of us can do this alone. So, we gotta do it together, right? You with me?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "So, let's do this thing!!!!"
+    },
+    {
+      "character": "SKINNER",
+      "text": "Welcome to hell. Now, recreate the soup. Take as long as you need, all week if you must."
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Soup."
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Aaaaaaaagggggghhhhh!!!"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Aaaaaaaagggggghhhhh!!!"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Aaaaaaaagggggghhhhh!!!"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "This is not gonna work, little chef! I am gonna lose it if we do this any more. We gotta figure out something else. Something that doesn’t involve any biting or nipping or running up and down my body with your little rat feet. The biting; no. Scampering; no. No scampering or scurrying. Understand, little chef?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Little chef?"
     },
     {
       "character": "LINGUINI",
@@ -741,7 +1083,7 @@
     },
     {
       "character": "SKINNER",
-      "text": "Yes, yes, a rat! Right next to you! (stops, suspicious) What are you doing IN HERE?!"
+      "text": "Yes, yes, a rat! Right next to you! What are you doing IN HERE?!"
     },
     {
       "character": "LINGUINI",
@@ -861,7 +1203,7 @@
     },
     {
       "character": "SKINNER",
-      "text": "I know what the will stipulates! (brandishing letter) What I want to know is if this letter, if this boy, changes anything!"
+      "text": "I know what the will stipulates! What I want to know is if this letter, if this boy, changes anything!"
     },
     {
       "character": "TALON",
@@ -872,8 +1214,12 @@
       "text": "There’s no resemblance at all! He’s not Gusteau’s son! Gusteau had no children! And what of the timing of all this? The deadline in the will expires in less than a month!"
     },
     {
+      "character": "SKINNER",
+      "text": "Suddenly, some boy arrives with a letter from his “recently deceased” mother claiming Gusteau as his father? Highly suspect!"
+    },
+    {
       "character": "TALON",
-      "text": "This is Gusteau’s? (Skinner nods) May I?"
+      "text": "This is Gusteau’s?"
     },
     {
       "character": "SKINNER",
@@ -905,7 +1251,11 @@
     },
     {
       "character": "TALON",
-      "text": "Then what are you worried about? If he works here you’ll be able to keep an eye on him, while I do a little digging, find out how much of this is real. (getting his coat) I’ll need you to collect some DNA samples from the boy, hair maybe."
+      "text": "Then what are you worried about? If he works here you’ll be able to keep an eye on him, while I do a little digging, find out how much of this is real."
+    },
+    {
+      "character": "TALON",
+      "text": "I’ll need you to collect some DNA samples from the boy, hair maybe."
     },
     {
       "character": "SKINNER",
@@ -949,7 +1299,7 @@
     },
     {
       "character": "COLETTE",
-      "text": "Your sleeves look like you threw up on them. Keep your hands and arms in, close to the body like this (she demonstrates) see? Always return to this position. Cooks move fast; sharp utensils, hot metal, keep your arms in, you will minimize cuts and burns and keep your sleeves clean. Mark of a chef; messy apron, clean sleeves."
+      "text": "Your sleeves look like you threw up on them. Keep your hands and arms in, close to the body like this see? Always return to this position. Cooks move fast; sharp utensils, hot metal, keep your arms in, you will minimize cuts and burns and keep your sleeves clean. Mark of a chef; messy apron, clean sleeves."
     },
     {
       "character": "COLETTE",
@@ -1017,11 +1367,507 @@
     },
     {
       "character": "HORST",
-      "text": "I defrauded a major corporation. I robbed the second largest bank in France using only a ballpoint pen. I created a hole in the ozone over Avignon. I killed a man with (he holds it up) this thumb."
+      "text": "I defrauded a major corporation. I robbed the second largest bank in France using only a ballpoint pen. I created a hole in the ozone over Avignon. I killed a man with this thumb."
     },
     {
       "character": "COLETTE",
       "text": "Don’t ever play cards with Pompidou. He’s been banned from both Las Vegas and Monte Carlo."
+    },
+    {
+      "character": "HORST",
+      "text": "I defrauded a major corporation. I robbed the second largest bank in France using only a ballpoint pen. I created a hole in the ozone over Avignon. I killed a man with (he holds it up) this thumb."
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Which resistance?"
+    },
+    {
+      "character": "COLETTE",
+      "text": "So, you see, we are artists. Pirates. More than cooks are we."
+    },
+    {
+      "character": "LINGUINI",
+      "text": "“We”?"
+    },
+    {
+      "character": "COLETTE",
+      "text": "Oui. You are one of us now, oui?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Oui."
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Thank you, by the way, for all the advice about cooking."
+    },
+    {
+      "character": "COLETTE",
+      "text": "Thank you, too."
+    },
+    {
+      "character": "LINGUINI",
+      "text": "For what?"
+    },
+    {
+      "character": "COLETTE",
+      "text": "For taking it."
+    },
+    {
+      "character": "SKINNER",
+      "text": "The rat!!"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "I just dropped my keys."
+    },
+    {
+      "character": "MUSTAFA",
+      "text": "Have you decided?"
+    },
+    {
+      "character": "FOOD SNOB #1",
+      "text": "Well, the new soup is excellent but..."
+    },
+    {
+      "character": "FOOD SNOB #2",
+      "text": "...but we order it every time."
+    },
+    {
+      "character": "FOOD SNOB #3",
+      "text": "What else do you have?"
+    },
+    {
+      "character": "MUSTAFA",
+      "text": "We have a very nice Foie Gras..."
+    },
+    {
+      "character": "FOOD SNOB #1",
+      "text": "Yes, the old standby, you used to be famous for it. What does the Chef have that’s new?"
+    },
+    {
+      "character": "MUSTAFA",
+      "text": "Someone has asked what is new!"
+    },
+    {
+      "character": "HORST",
+      "text": "New?!"
+    },
+    {
+      "character": "MUSTAFA",
+      "text": "Yes! What do I tell them?!"
+    },
+    {
+      "character": "HORST",
+      "text": "What did you tell them?!"
+    },
+    {
+      "character": "MUSTAFA",
+      "text": "I told them I would ask!"
+    },
+    {
+      "character": "SKINNER",
+      "text": "What are you blathering about?!"
+    },
+    {
+      "character": "HORST",
+      "text": "Customers are asking what is new!"
+    },
+    {
+      "character": "MUSTAFA",
+      "text": "What should I tell them?!"
+    },
+    {
+      "character": "SKINNER",
+      "text": "What did you tell them?!"
+    },
+    {
+      "character": "MUSTAFA",
+      "text": "I TOLD THEM I WOULD ASK!!!!"
+    },
+    {
+      "character": "SKINNER",
+      "text": "This is simple. Just pull out an old Gusteau recipe, something we haven’t made in a while and..."
+    },
+    {
+      "character": "MUSTAFA",
+      "text": "They know about the old stuff. They like Linguini’s soup..."
+    },
+    {
+      "character": "SKINNER",
+      "text": "They are asking for food from Linguini?"
+    },
+    {
+      "character": "LALO",
+      "text": "A lot of customers like the soup. That’s all we were saying."
+    },
+    {
+      "character": "POMPIDOU",
+      "text": "Were we saying that?"
+    },
+    {
+      "character": "SKINNER",
+      "text": "Very well. If it’s Linguini they want..."
+    },
+    {
+      "character": "SKINNER",
+      "text": "...tell them “Chef” Linguini has prepared something special for them, something definitely “off-menu”. Oh, and don’t forget to stress its “Linguini-ness”."
+    },
+    {
+      "character": "HORST",
+      "text": "Oui, Chef."
+    },
+    {
+      "character": "SKINNER",
+      "text": "Now is your chance to try something worthy of your talent, Linguini. A forgotten favorite of the Chef’s: “Sweetbread a la Gusteau”! Colette will help you!"
+    },
+    {
+      "character": "COLETTE",
+      "text": "Oui, Chef."
+    },
+    {
+      "character": "SKINNER",
+      "text": "Now hurry up. Our diners are hungry!"
+    },
+    {
+      "character": "LA ROUSSE",
+      "text": "Are you sure? That recipe was a disaster. Gusteau himself said so."
+    },
+    {
+      "character": "SKINNER",
+      "text": "Just the sort of challenge a budding chef needs."
+    },
+    {
+      "character": "COLETTE",
+      "text": "Sweetbread a la Gusteau. Sweetbread cooked in a seaweed salt crust with cuttlefish tentacle (with increasing distaste) Dogrose puree, geoduck egg, dried white fungus, anchovy licorice sauce. Huh."
+    },
+    {
+      "character": "COLETTE",
+      "text": "I don’t know this recipe. But it is Gusteau, so (calling out) Lalo! We have some veal stomach soaking, yes??"
+    },
+    {
+      "character": "LALO",
+      "text": "Yes, the veal stomach, I get that."
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Uh, veal stomach?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Pardon me, just need to borrow this really quick, sorry, apparently, I need this. I’ll be right back..."
+    },
+    {
+      "character": "COLETTE",
+      "text": "What are you doing? We are supposed to be preparing the Gusteau recipe."
+    },
+    {
+      "character": "LINGUINI",
+      "text": "I’m, uh, this is the recipe..."
+    },
+    {
+      "character": "COLETTE",
+      "text": "The recipe doesn’t call for white truffle oil! What else have you (she looks in his pan) You are improvising?? This is no time to experiment, the customer is waiting!"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "You’re right (to Remy, nudging toque) I should listen to you!"
+    },
+    {
+      "character": "COLETTE",
+      "text": "Stop that!"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Stop what?"
+    },
+    {
+      "character": "COLETTE",
+      "text": "Freaking me out! Whatever you’re doing, stop it!"
+    },
+    {
+      "character": "HORST",
+      "text": "Where is the special order?"
+    },
+    {
+      "character": "COLETTE",
+      "text": "Coming! (low to Linguini) I thought we were together on this."
+    },
+    {
+      "character": "LINGUINI",
+      "text": "We are together."
+    },
+    {
+      "character": "COLETTE",
+      "text": "Then what are you doing?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "It’s very hard to explain."
+    },
+    {
+      "character": "HORST",
+      "text": "The special!!!!"
+    },
+    {
+      "character": "COLETTE",
+      "text": "Come get it!"
+    },
+    {
+      "character": "COLETTE",
+      "text": "Oh, I forgot to add the liquorice!"
+    },
+    {
+      "character": "COLETTE",
+      "text": "Don’t you dare."
+    },
+    {
+      "character": "LINGUINI",
+      "text": "I’m not, I’m not, I’m..."
+    },
+    {
+      "character": "LINGUINI",
+      "text": "...sorry."
+    },
+    {
+      "character": "SKINNER",
+      "text": "Is Linguini’s dish done yet?"
+    },
+    {
+      "character": "HORST",
+      "text": "Ya. It’s as bad as we remember. Just went out."
+    },
+    {
+      "character": "SKINNER",
+      "text": "Did you taste it?"
+    },
+    {
+      "character": "HORST",
+      "text": "Yeah, of course, before he changed it."
+    },
+    {
+      "character": "SKINNER",
+      "text": "Good... What?! How could he change it?"
+    },
+    {
+      "character": "HORST",
+      "text": "He changed it as it was going out the door!"
+    },
+    {
+      "character": "MUSTAFA",
+      "text": "They love it! Other diners are already asking about it, about Linguini. I have seven more orders!"
+    },
+    {
+      "character": "SKINNER",
+      "text": "That’s wonderful."
+    },
+    {
+      "character": "HORST",
+      "text": "Special order! Special order! Special order! Special order!"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Take a break Little Chef, get some air. We really did it tonight."
+    },
+    {
+      "character": "SKINNER",
+      "text": "Got your toque!"
+    },
+    {
+      "character": "SKINNER",
+      "text": "Seriously now, I’d love to have a little talk with you, Linguini, in my office."
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Am I in trouble?"
+    },
+    {
+      "character": "SKINNER",
+      "text": "Trouble? Nooo, a little wine, a friendly chat. Just us cooks."
+    },
+    {
+      "character": "HORST",
+      "text": "The Plunger won’t be coming to you for advice anymore, eh Colette? (nods to Skinner’s office) He’s gotten all he needs."
+    },
+    {
+      "character": "SKINNER",
+      "text": "Toasting your success, eh Linguini? Good for you."
+    },
+    {
+      "character": "LINGUINI",
+      "text": "I just took it to be polite, they were being so nice to me, I don’t really drink, you know..."
+    },
+    {
+      "character": "SKINNER",
+      "text": "Of course you don’t. I wouldn’t either if I was drinking that..."
+    },
+    {
+      "character": "SKINNER",
+      "text": "...but you would have to be an idiot of elephantine proportions not to appreciate this ‘61 Chateau Latour. And you, Monsieur Linguini, are no idiot. (raising his glass) Let us toast your non-idiocy! A votre sante!"
+    },
+    {
+      "character": "EMILE",
+      "text": "REMY!"
+    },
+    {
+      "character": "REMY",
+      "text": "Emile?!"
+    },
+    {
+      "character": "REMY",
+      "text": "What are you doing here?! I thought I’d never see you again!"
+    },
+    {
+      "character": "EMILE",
+      "text": "I can’t believe it! You’re alive! You made it! We figured you didn’t survive the rapids!"
+    },
+    {
+      "character": "REMY",
+      "text": "And what are you eating?"
+    },
+    {
+      "character": "EMILE",
+      "text": "I don’t really know. I think it was some sort of wrapper once."
+    },
+    {
+      "character": "REMY",
+      "text": "What? No."
+    },
+    {
+      "character": "REMY",
+      "text": "You’re in Paris now, baby. My city. No brother of mine eats rejectamenta in my city!"
+    },
+    {
+      "character": "GUSTEAU SPRITE",
+      "text": "Remy, you are stealing? You told Linguini he could trust you."
+    },
+    {
+      "character": "REMY",
+      "text": "And he can. It’s for my brother..."
+    },
+    {
+      "character": "GUSTEAU SPRITE",
+      "text": "The boy could lose his job."
+    },
+    {
+      "character": "REMY",
+      "text": "Which means I would, too. It’s under control, okay?"
+    },
+    {
+      "character": "SKINNER",
+      "text": "More wine?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "I shouldn’t. But okay."
+    },
+    {
+      "character": "SKINNER",
+      "text": "So where did you train, Linguini?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "Train? Alright..."
+    },
+    {
+      "character": "SKINNER",
+      "text": "Surely you don’t expect me to believe this is your first time cooking?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "It’s not."
+    },
+    {
+      "character": "SKINNER",
+      "text": "I knew it!"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "It’s my (stops, counts on fingers) second, third, four, fifth time. Monday was my first time. (Skinner wilts) But I’ve taken out the garbage lots of times before this, that’s why I..."
+    },
+    {
+      "character": "SKINNER",
+      "text": "Yes, yes, yes. Have some more wine. Tell me about your interests. Do you like animals?"
+    },
+    {
+      "character": "LINGUINI",
+      "text": "What? Animals? What kind?"
+    },
+    {
+      "character": "SKINNER",
+      "text": "Oh, the usual. Dogs, cats, horses, guinea pigs, (pointed) rats."
+    },
+    {
+      "character": "REMY",
+      "text": "I brought you something to, agh!! No, no, no, no, no! Spit that out right now! (Emile does, shamed) I have got to teach you about food! Close your eyes."
+    },
+    {
+      "character": "REMY",
+      "text": "Now, take a bite of thi..."
+    },
+    {
+      "character": "EMILE",
+      "text": "Too late."
+    },
+    {
+      "character": "REMY",
+      "text": "...no, no, no! Don’t just hork it down!"
+    },
+    {
+      "character": "EMILE",
+      "text": "Too late."
+    },
+    {
+      "character": "REMY",
+      "text": "Chew it slowly, only think about the taste. See?"
+    },
+    {
+      "character": "EMILE",
+      "text": "Not really."
+    },
+    {
+      "character": "REMY",
+      "text": "Creamy, salty sweet. An oaky nuttiness? You detect that?"
+    },
+    {
+      "character": "EMILE",
+      "text": "Oh, I’m detecting nuttiness."
+    },
+    {
+      "character": "REMY",
+      "text": "Close your eyes. Now taste this. (gives him a strawberry) Whole different thing, right? Sweet, crisp, slight tang on the finish?"
+    },
+    {
+      "character": "EMILE",
+      "text": "Okay."
+    },
+    {
+      "character": "REMY",
+      "text": "Now try them together."
+    },
+    {
+      "character": "EMILE",
+      "text": "Okay, I think I’m getting a little something there."
+    },
+    {
+      "character": "REMY",
+      "text": "Uh-huh."
+    },
+    {
+      "character": "EMILE",
+      "text": "It might be the nuttiness."
+    },
+    {
+      "character": "REMY",
+      "text": "See?"
+    },
+    {
+      "character": "EMILE",
+      "text": "Could be the tang."
+    },
+    {
+      "character": "REMY",
+      "text": "That’s it! Now imag"
     },
     {
       "character": "EGO",
@@ -1281,11 +2127,7 @@
     },
     {
       "character": "REMY",
-      "text": "I’ve gotta think!"
-    },
-    {
-      "character": "REMY",
-      "text": "Word’s getting out and if I can’t keep them quiet...the entire clan’s going to be after me with their mouths open and--"
+      "text": "Word’s getting out and if I can’t keep them quiet...the entire clan’s going to be after me with their mouths open and-"
     },
     {
       "character": "REMY",
@@ -1353,7 +2195,7 @@
     },
     {
       "character": "SKINNER",
-      "text": "You! Get out of my office."
+      "text": "You?! Get out of my office."
     },
     {
       "character": "COLETTE",
@@ -1425,7 +2267,7 @@
     },
     {
       "character": "SKINNER",
-      "text": "But... but the puffball rat, it--"
+      "text": "But... but the rat, it--"
     },
     {
       "character": "SKINNER",
@@ -1541,11 +2383,7 @@
     },
     {
       "character": "REMY",
-      "text": "You know what? It’s okay. (To group) I’ve been selfish. You guys hungry?"
-    },
-    {
-      "character": "REMY",
-      "text": "Dinner’s on me. We’ll go after closing time. In fact-- (to Emile, evil grin) --tell Dad to bring the whole clan."
+      "text": "You know what? It’s okay. (To group) I’ve been selfish. You guys hungry? (RATS respond eagerly) Dinner’s on me. We’ll go after closing time. In fact-- (to Emile, evil grin) --tell Dad to bring the whole clan."
     },
     {
       "character": "LINGUINI",
@@ -1561,7 +2399,7 @@
     },
     {
       "character": "LINGUINI",
-      "text": "Hey, Little Chef. I thought you went back to the apartment. Then when you weren’t there, I don’t know, it didn’t seem right--"
+      "text": "Little Chef...? Little Chef? Then when you weren’t there, I don’t know, it didn’t seem right--"
     },
     {
       "character": "LINGUINI",
@@ -1697,7 +2535,7 @@
     },
     {
       "character": "MUSTAFA",
-      "text": "Do you know what you’d like this"
+      "text": "Do you know what you’d like this evening,"
     },
     {
       "character": "SKINNER",
@@ -1801,7 +2639,7 @@
     },
     {
       "character": "REMY",
-      "text": "(calling back) Back to the restaurant! They’ll fail without me!"
+      "text": "Back to the restaurant! They’ll fail without me!"
     },
     {
       "character": "DJANGO",
@@ -1821,7 +2659,7 @@
     },
     {
       "character": "HORST",
-      "text": "Well, make it come to you again, ja ? Because we can't serve this!!"
+      "text": "Well, make it come to you again, ja? Because we can't serve this!!"
     },
     {
       "character": "MUSTAFA",
@@ -1920,12 +2758,12 @@
       "text": "DON’T say a word. If I think about it I might change my mind. Just tell me what the rat wants to cook."
     },
     {
-      "character": "SKINNER",
-      "text": "Ratatouille? They must be joking..."
+      "character": "REMY",
+      "text": "Dad--!"
     },
     {
       "character": "REMY",
-      "text": "Dad--! (he goes to Django) Dad, I-- I don’t know what to say."
+      "text": "Dad, I-- I don’t know what to say."
     },
     {
       "character": "DJANGO",
@@ -1969,7 +2807,11 @@
     },
     {
       "character": "REMY",
-      "text": "Make sure that steak is nice and tenderized. Work it! Yeah, stick and move, stick and move! Easy with that sole meunire. Less salt, more butter! Only use the mimolette cheese. Whoa whoa!! Compose the salad like you were painting a picture! Not too much vinaigrette on that salade compose. Don't let that beurre blanc separate! Keep whisking!! Gently poach the scallops. Taste check, spoons down! Good. Too much salt. Good. Don't boil the consomm, it'll toughen the pheasant!"
+      "text": "Make sure that steak is nice and tenderized. Work it. Yeah, stick and move, stick and move. Easy with that sole meunire. Less salt, more butter. Only use the mimolette cheese. Whoa whoa, compose the salad like you were painting a picture. Not too much vinaigrette on that salade compose. Don't let that beurre blanc separate. Keep whisking. Gently poach the scallops. Taste check, spoons down. Good. Too much salt. Good. Don't boil the consomm, it'll toughen the pheasant!"
+    },
+    {
+      "character": "EMILE",
+      "text": "Sorry!"
     },
     {
       "character": "EMILE",
@@ -1994,6 +2836,10 @@
     {
       "character": "COLETTE",
       "text": "Well, how would you prepare it?"
+    },
+    {
+      "character": "SKINNER",
+      "text": "Ratatouille? They must be joking..."
     },
     {
       "character": "SKINNER",
@@ -2124,30 +2970,23 @@
       "text": "Hey, believe me, that story gets better when I tell it, okay? Come on. Bring some food over here, we're starving!"
     }
   ],
-  "lineCount": 518,
-  "characterCount": 46,
-  "topCastCount": 15,
-  "topCast": [
-    "REMY",
-    "LINGUINI",
-    "SKINNER",
-    "COLETTE",
-    "EGO",
-    "EMILE",
-    "DJANGO",
-    "GUSTEAU",
-    "REMY (V.O.)",
-    "TALON",
-    "HORST",
-    "MINION",
-    "MUSTAFA",
-    "LA ROUSSE",
-    "GUSTEAU PHOTO"
-  ],
   "imdbId": "tt0382932",
   "poster": "https://m.media-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg",
   "rated": "G",
   "runtime": "111 min",
   "genre": "Animation, Adventure, Comedy",
-  "director": "Brad Bird, Jan Pinkava"
+  "director": "Brad Bird, Jan Pinkava",
+  "topSpeakingCast": [
+    "LINGUINI",
+    "REMY",
+    "SKINNER",
+    "COLETTE",
+    "EMILE",
+    "EGO",
+    "GUSTEAU",
+    "DJANGO",
+    "HORST",
+    "MUSTAFA",
+    "REMY (V.O.)"
+  ]
 }

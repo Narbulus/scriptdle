@@ -1,49 +1,34 @@
 {
   "id": "disney-pixar",
-  "name": "Disney & Pixar",
+  "name": "Disney Pixar",
   "type": "collection",
   "movies": [
-    "toy-story",
-    "toy-story-2",
-    "toy-story-3",
-    "toy-story-4",
-    "finding-nemo",
-    "finding-dory",
-    "monsters-inc",
-    "monsters-university",
-    "incredibles-1",
-    "incredibles-2",
-    "cars",
-    "cars-2",
-    "cars-3",
-    "ratatouille",
-    "wreck-it-ralph",
-    "ralph-breaks-the-internet",
-    "frozen",
-    "frozen-2",
     "tangled",
+    "frozen-2013",
     "moana",
     "zootopia",
-    "big-hero-6",
-    "coco",
-    "encanto"
+    "encanto-2021",
+    "up-2009",
+    "brave-2012",
+    "inside-out",
+    "coco-2017"
   ],
   "theme": {
-    "primary": "#e91e63",
-    "bgColor": "#880e4f",
-    "containerBg": "#ffffff",
-    "accentColor": "#c2185b",
+    "primary": "#4a90e2",
+    "bgColor": "#2c3e50",
+    "containerBg": "#f8f9fa",
+    "accentColor": "#e74c3c",
     "btnText": "white",
-    "cardGradientStart": "#ec407a",
-    "cardGradientEnd": "#d81b60",
-    "cardBorder": "#e91e63",
-    "cardText": "#fff9c4"
+    "cardGradientStart": "#3498db",
+    "cardGradientEnd": "#9b59b6",
+    "cardBorder": "#4a90e2",
+    "cardText": "#ecf0f1"
   },
   "tierMessages": {
-    "perfect": "A dream is a wish your heart makes!",
+    "perfect": "Our fate lives within us!",
     "good": "Adventure is out there!",
-    "average": "Ohana means family!",
-    "barely": "Let it go!",
-    "failure": "Dishonor on you, dishonor on your cow!"
+    "average": "Let it go!",
+    "barely": "Just keep swimming",
+    "failure": "Remember me..."
   }
 }

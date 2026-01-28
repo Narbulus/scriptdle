@@ -19,5 +19,5 @@
 
 ### Bugs
 
-- If the movie dropdown selector has a long title, the downward caret on the character selector is misaligned
-- The 'More Movies' text is faded and the styling doesn't match that of the attempts text next to it
+- [x] If the movie dropdown selector has a long title, the downward caret on the character selector is misaligned
+- [x] The 'More Movies' text is faded and the styling doesn't match that of the attempts text next to it

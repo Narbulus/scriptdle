@@ -1,0 +1,1768 @@
+{
+  "id": "wall-e",
+  "title": "WALL-E",
+  "year": null,
+  "characters": [
+    "AUTO",
+    "AUTOPILOT",
+    "AUTOPILOT (O.S.)",
+    "BEAUTICIAN-BOT",
+    "BEAUTICIAN-BOTS",
+    "BILLBOARD ANNOUNCER",
+    "BURN-E",
+    "BUY N LARGE CEO",
+    "CAPTAIN",
+    "CAPTAIN & EVE",
+    "CAPTAIN (INTERCOM)",
+    "CAPTAIN (ON INTERCOM)",
+    "CAPTAIN (OVER INTERCOM)",
+    "EVE",
+    "GOPHER",
+    "JOHN",
+    "JOHN & MARY",
+    "LIFEGUARD-BOT",
+    "M-O",
+    "MARY",
+    "MARY (CONT'D)",
+    "MISC. FEMALE PASSENGER",
+    "MISC. PASSENGERS",
+    "MONORAIL PASSENGERS",
+    "NANNY-BOT",
+    "PASSENGER #1",
+    "PASSENGER #2",
+    "PASSENGER #2 (ON SCREEN)",
+    "POOLSIDE PASSENGER",
+    "SHIP'S COMPUTER",
+    "SHIP'S COMPUTER (V.O.)",
+    "STEWARD",
+    "STEWARDS",
+    "WALL-E"
+  ],
+  "lines": [
+    {
+      "character": "BILLBOARD ANNOUNCER",
+      "text": "Too much garbage in your face?"
+    },
+    {
+      "character": "BILLBOARD ANNOUNCER",
+      "text": "There's plenty of space out in space!"
+    },
+    {
+      "character": "BILLBOARD ANNOUNCER",
+      "text": "BNL starliners leaving each day."
+    },
+    {
+      "character": "BILLBOARD ANNOUNCER",
+      "text": "We'll clean up the mess while you're away."
+    },
+    {
+      "character": "BILLBOARD ANNOUNCER",
+      "text": "The jewel of the BNL fleet: \"The Axiom\"."
+    },
+    {
+      "character": "BILLBOARD ANNOUNCER",
+      "text": "Spend your five year cruise in style."
+    },
+    {
+      "character": "BILLBOARD ANNOUNCER",
+      "text": "Waited on 24 hours a day by our fully automated crew, while your Captain and Autopilot chart a course for non-stop entertainment, fine dining. And with our all-access hover chairs, even Grandma can join the fun! There's no need to walk!"
+    },
+    {
+      "character": "BILLBOARD ANNOUNCER",
+      "text": "\"The Axiom\". Putting the \"star\" in Executive Starliner."
+    },
+    {
+      "character": "BUY N LARGE CEO",
+      "text": "Because, at BNL, space is the final \"fun\"-tier."
+    },
+    {
+      "character": "WALL-E",
+      "text": "[Hums POYSC]"
+    },
+    {
+      "character": "EVE",
+      "text": "[Giggles]"
+    },
+    {
+      "character": "EVE",
+      "text": "(electronic hums)"
+    },
+    {
+      "character": "EVE",
+      "text": "(electronic hums)"
+    },
+    {
+      "character": "WALL-E",
+      "text": "[Sigh.]"
+    },
+    {
+      "character": "WALL-E",
+      "text": "[Sigh.]"
+    },
+    {
+      "character": "EVE",
+      "text": "(hums) [So what's your story?]"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Me?"
+    },
+    {
+      "character": "EVE",
+      "text": "(German) [Directive?]"
+    },
+    {
+      "character": "EVE",
+      "text": "(Japanese) [Directive?]"
+    },
+    {
+      "character": "WALL-E",
+      "text": "[Huh?]"
+    },
+    {
+      "character": "EVE",
+      "text": "(Swahili) [Directive?]"
+    },
+    {
+      "character": "EVE",
+      "text": "(English) Directive?"
+    },
+    {
+      "character": "WALL-E",
+      "text": "(beeps) [Oh, I understand that!]"
+    },
+    {
+      "character": "EVE",
+      "text": "Directive?"
+    },
+    {
+      "character": "WALL-E",
+      "text": "(struggles to speak) Di...rec...t--"
+    },
+    {
+      "character": "EVE",
+      "text": "Directive?"
+    },
+    {
+      "character": "EVE",
+      "text": "Classified."
+    },
+    {
+      "character": "WALL-E",
+      "text": "(beeps) [Oh. Sorry.]"
+    },
+    {
+      "character": "EVE",
+      "text": "Name?"
+    },
+    {
+      "character": "WALL-E",
+      "text": "(struggles again) W-wally? ...Wall-E."
+    },
+    {
+      "character": "EVE",
+      "text": "(smooth; almost perfect) Wwww-aaaa-leee..."
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E. (giggles) Eve."
+    },
+    {
+      "character": "WALL-E",
+      "text": "Eeee...?"
+    },
+    {
+      "character": "EVE",
+      "text": "(slower) Eve."
+    },
+    {
+      "character": "WALL-E",
+      "text": "Eeeaaah?"
+    },
+    {
+      "character": "EVE",
+      "text": "Eeeve. Eeeve."
+    },
+    {
+      "character": "WALL-E",
+      "text": "Eee--vah!"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Eee-vah! Ee --"
+    },
+    {
+      "character": "EVE",
+      "text": "Eve."
+    },
+    {
+      "character": "WALL-E",
+      "text": "(Gasp!) Eee-vah!"
+    },
+    {
+      "character": "EVE",
+      "text": "(hums) [Hey watch it! Don't come any closer!]"
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E? Wall-E?"
+    },
+    {
+      "character": "WALL-E",
+      "text": "(beeps) [Come on in.]"
+    },
+    {
+      "character": "WALL-E",
+      "text": "(loud beeps) [My tape!!]"
+    },
+    {
+      "character": "WALL-E",
+      "text": "(beeps) [What do you think?]"
+    },
+    {
+      "character": "WALL-E",
+      "text": "(beeps) [How `bout we try a different move?]"
+    },
+    {
+      "character": "WALL-E",
+      "text": "(beeps) [It's fine.]"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah!"
+    },
+    {
+      "character": "WALL-E",
+      "text": "What'd I do?"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah?"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah?"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah? ...Ee-vah?!"
+    },
+    {
+      "character": "WALL-E",
+      "text": "[defeated sigh]"
+    },
+    {
+      "character": "WALL-E",
+      "text": "(beeps) [Oh no.]"
+    },
+    {
+      "character": "WALL-E",
+      "text": "EE-VAH!! EE-VAH!!"
+    },
+    {
+      "character": "WALL-E",
+      "text": "(beeps) [Stay.]"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Oooh..."
+    },
+    {
+      "character": "WALL-E",
+      "text": "E-vah!"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah... ?"
+    },
+    {
+      "character": "M-O",
+      "text": "(beeps) [Hold up.]"
+    },
+    {
+      "character": "M-O",
+      "text": "(beeps) [Okay. Go.]"
+    },
+    {
+      "character": "M-O",
+      "text": "[Oh, no, no, no. This is all wrong.]"
+    },
+    {
+      "character": "M-O",
+      "text": "[You made the floor all dirty! Stop it!]"
+    },
+    {
+      "character": "M-O",
+      "text": "[Look, it stays clean. You got that?]"
+    },
+    {
+      "character": "M-O",
+      "text": "(quiet beeps) [It'll be okay, Eve.]"
+    },
+    {
+      "character": "WALL-E",
+      "text": "It'll be okay, Eve."
+    },
+    {
+      "character": "WALL-E",
+      "text": "EE-VAH!"
+    },
+    {
+      "character": "PASSENGER #1",
+      "text": "Well, I've been in my cabin all morning so let's hover over to the driving range and hit a few virtual balls into space."
+    },
+    {
+      "character": "PASSENGER #2 (ON SCREEN)",
+      "text": "Nah, we did that yesterday. I don't want to do that."
+    },
+    {
+      "character": "PASSENGER #1",
+      "text": "Well then what do you want to do?"
+    },
+    {
+      "character": "PASSENGER #2",
+      "text": "I don't know. Something."
+    },
+    {
+      "character": "MISC. FEMALE PASSENGER",
+      "text": "Bot, over here!"
+    },
+    {
+      "character": "MISC. PASSENGERS",
+      "text": "I can't hear you...I'm in a tunnel. You're breaking up...Oh, okay. You're back. I can hear you now..."
+    },
+    {
+      "character": "SHIP'S COMPUTER (V.O.)",
+      "text": "Buy N Large. Everything you need to be happy. Your day is very important to us"
+    },
+    {
+      "character": "JOHN",
+      "text": "Hey, Drink-bot."
+    },
+    {
+      "character": "JOHN",
+      "text": "Here, take the cup. Take the cup -- Whoa!"
+    },
+    {
+      "character": "JOHN",
+      "text": "Stewards? Hello? Uhh, help."
+    },
+    {
+      "character": "STEWARD",
+      "text": "Please remain stationary. A service-bot will be here to assist you momentarily."
+    },
+    {
+      "character": "JOHN",
+      "text": "Uhh...Hey! What's going on?"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Wall-E!"
+    },
+    {
+      "character": "JOHN",
+      "text": "Uhh... John."
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah?"
+    },
+    {
+      "character": "JOHN",
+      "text": "Uh no, John."
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah!"
+    },
+    {
+      "character": "JOHN",
+      "text": "Bye...Wall-E."
+    },
+    {
+      "character": "NANNY-BOT",
+      "text": "\"A\"! \"A\" is for \"Axiom\", your home sweet home. \"B\"! \"B\" is for \"Buy N Large\", your very best friend..."
+    },
+    {
+      "character": "SHIP'S COMPUTER (V.O.)",
+      "text": "Mmmmm! Time for lunch in a cup."
+    },
+    {
+      "character": "SHIP'S COMPUTER (V.O.)",
+      "text": "Feel beautiful."
+    },
+    {
+      "character": "BEAUTICIAN-BOTS",
+      "text": "...It's the new you...Oh stunning...You look great...I know honey...Ahh. Men..."
+    },
+    {
+      "character": "SHIP'S COMPUTER (V.O.)",
+      "text": "Attention, Axiom shoppers. Try blue! It's the new red!"
+    },
+    {
+      "character": "MONORAIL PASSENGERS",
+      "text": "Oooohh..."
+    },
+    {
+      "character": "WALL-E",
+      "text": "Whoa."
+    },
+    {
+      "character": "MARY",
+      "text": "Date?! (derisive snort) Don't get me started! Every holo-date I've been on has been a virtual disaster! If I could just meet one who wasn't so superficial. There are no good men out there!..."
+    },
+    {
+      "character": "MARY (CONT'D)",
+      "text": "...I know! I know `cause I've scrolled through them all -- (Gasp) What the --?"
+    },
+    {
+      "character": "MARY",
+      "text": "Huh... ?"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Wall-E."
+    },
+    {
+      "character": "MARY",
+      "text": "M-mary."
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah."
+    },
+    {
+      "character": "MARY",
+      "text": "Huh? Oh, uh, sure go ahead."
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah..."
+    },
+    {
+      "character": "POOLSIDE PASSENGER",
+      "text": "Shade."
+    },
+    {
+      "character": "MARY",
+      "text": "I didn't know we had a pool!"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Captain. You are needed on the bridge."
+    },
+    {
+      "character": "BEAUTICIAN-BOT",
+      "text": "Morning! Just a trim?"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "AAHHHH!! All hands on deck!!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Coffee."
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Sir --"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Protocol, Auto. First things first. (to the room) Computer, status report."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Unchanged...unchanged... Mechanical systems?...Reactor core temperature?...Passenger count?...Regenerative food buffet?...Jacuzzi Ph balance... Atmospheric conditions...laundry service volume..."
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Captain..."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Okay, Auto."
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Sir, the annual reconnaissance has --"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "12:30?! (disappointed sigh) Auto, why didn't you wake me for the morning announcements?"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Honestly, it's the one thing I get to do on this ship."
+    },
+    {
+      "character": "CAPTAIN (ON INTERCOM)",
+      "text": ": (unmotivated) Well, good morning everybody, and welcome to day 255,642 aboard the Axiom. As always, weather's a balmy 72 degrees and sunny, and -- Oh, hey, I see the ship's log is showing that today is our 700th anniversary of our five year cruise. Well, I'm sure our forefathers would be proud to know that 700 years later we'd be... (deflates) ...doing the exact same thing...they were doing..."
+    },
+    {
+      "character": "CAPTAIN (INTERCOM)",
+      "text": "(snaps out of ennui) SO! Be sure next mealtime to ask for your free... (hard to pronounce) ...septuacentennial cupcake -- in a cup. Also today we have, uh...uh...Hey, Auto, what's that flashing button?"
+    },
+    {
+      "character": "AUTOPILOT (O.S.)",
+      "text": "Captain?"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Probe One has returned positive."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Positive?"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "But...no probe's ever come back positive... (looks at flashing button) ...before."
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Probe One has returned positive."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Positive?"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "But...no probe's ever come back positive..."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "...before."
+    },
+    {
+      "character": "BUY N LARGE CEO",
+      "text": "Greetings and congratulations, Captain! If you're seeing this, that means your Extraterrestrial Vegetation Evaluator, or..."
+    },
+    {
+      "character": "BUY N LARGE CEO",
+      "text": "...\"EVE\" probe, has returned from Earth with a confirmed specimen of ongoing photosynthesis!"
+    },
+    {
+      "character": "BUY N LARGE CEO",
+      "text": "That's right, it means it's time to go back home."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Home? W-w-we're going back?"
+    },
+    {
+      "character": "BUY N LARGE CEO",
+      "text": "Now that Earth has been restored to a life-sustaining status, by golly, we can begin \""
+    },
+    {
+      "character": "BUY N LARGE CEO",
+      "text": "Operation Recolonize \"!"
+    },
+    {
+      "character": "BUY N LARGE CEO",
+      "text": "Simply follow this manual's instructions to place the plant in your ship's holo- detector, and the --"
+    },
+    {
+      "character": "BUY N LARGE CEO",
+      "text": "-- Axiom -- will immediately navigate your return to Earth! It's that easy!"
+    },
+    {
+      "character": "BUY N LARGE CEO",
+      "text": "Now, due to the effects of micro-gravity, you and your passengers may have suffered some slight bone loss. But I'm sure a few laps around your ship's jogging track will get you back in shape in no time."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "We have a jogging track?"
+    },
+    {
+      "character": "BUY N LARGE CEO",
+      "text": "If you have any further questions just consult your operation manual. See you back home real soon."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Operate... Manuel..."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Manuel, relay instructions. Manuel?"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Wow... Will you look at that?"
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E?!"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah!"
+    },
+    {
+      "character": "EVE",
+      "text": "[Wall-E, what are you doing here?! You can't be here! You're going to get me in trouble!...]"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah..."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Well, let's open her up. Step One. Voice command, \"Confirm Acquisition.\""
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "Confirm Acquisition."
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "Voice authorization required."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Uh..."
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "Accepted."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Where's the thingie?"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Plant."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Plant. Right. Right. Where is it?"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Maybe we missed a step. Show me how you change the text again..."
+    },
+    {
+      "character": "EVE",
+      "text": "Plant! Wall-E..."
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E!"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah?"
+    },
+    {
+      "character": "EVE",
+      "text": "[Find it!] PLANT!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "So, then...we're NOT going to Earth?"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Negative."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "So, uh, I guess things go back to normal, huh?"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Correct, Captain."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Well, false alarm!"
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "False alarm."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "The probe must be defective. Gopher, send her to the Repair Ward."
+    },
+    {
+      "character": "EVE",
+      "text": "Excuse me?"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Have them run diagnostics on her. Make sure she's not malfunctioning -- EEYAH!!"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Wall-E."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Have \"Wall-E\" cleaned."
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah?"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Analyze."
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "Analysis: foreign contaminant. Substance is a three phase system composed of various combinations of naturally derived solids. Subject is most commonly referred to as \"soil\", \"dirt\", or \"earth\"."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Earth?"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Define \"Earth\"..."
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "\"Earth\" - the surface of the world as distinct from the sky or sea."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Wow... Define \"sea\"."
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "\"Sea\"..."
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "...an expanse of salt water that covers most of the Earth's surface and surrounds its land masses..."
+    },
+    {
+      "character": "BEAUTICIAN-BOT",
+      "text": "Just a trim? Uh huh."
+    },
+    {
+      "character": "BEAUTICIAN-BOT",
+      "text": "You look gorgeous."
+    },
+    {
+      "character": "WALL-E",
+      "text": "[Where are you going?!]"
+    },
+    {
+      "character": "EVE",
+      "text": "(Giggles)"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah!"
+    },
+    {
+      "character": "WALL-E",
+      "text": "EEEEEEVAAAAHH!!"
+    },
+    {
+      "character": "EVE",
+      "text": "\"Put the gun down...\""
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E..."
+    },
+    {
+      "character": "WALL-E",
+      "text": "[Let her go, or I'll shoot!]"
+    },
+    {
+      "character": "EVE",
+      "text": "WALL-E!"
+    },
+    {
+      "character": "EVE",
+      "text": "WALL-E!"
+    },
+    {
+      "character": "STEWARD",
+      "text": "Halt."
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E!"
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "Caution: Rogue robots"
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "Caution: Rogue robots"
+    },
+    {
+      "character": "STEWARDS",
+      "text": "Halt. Halt."
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "Caution: Rogue robots."
+    },
+    {
+      "character": "WALL-E",
+      "text": "[Hey look! We're on TV -- !]"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah...?"
+    },
+    {
+      "character": "EVE",
+      "text": "Earth."
+    },
+    {
+      "character": "EVE",
+      "text": "Earth."
+    },
+    {
+      "character": "WALL-E",
+      "text": "[Then I'm not going either.]"
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E."
+    },
+    {
+      "character": "EVE",
+      "text": "Directive."
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah...?"
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E."
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E."
+    },
+    {
+      "character": "WALL-E",
+      "text": "You can't make me."
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E."
+    },
+    {
+      "character": "GOPHER",
+      "text": "Gopher?"
+    },
+    {
+      "character": "EVE",
+      "text": "Plant!"
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E?"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah!"
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E!"
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "Cruising speed."
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "You are now free to move around the cabin."
+    },
+    {
+      "character": "WALL-E",
+      "text": "[Yikes!]"
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "Twenty seconds till self-destruct..."
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "Ten seconds till self-destruct..."
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "Ten, nine, eight, seven, six, five, four, three, two..."
+    },
+    {
+      "character": "EVE",
+      "text": "No, no, no..."
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vaaaaaah!"
+    },
+    {
+      "character": "WALL-E",
+      "text": "[Stay there! I'll come to you!]"
+    },
+    {
+      "character": "WALL-E",
+      "text": "\"Look what I've got\""
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah..."
+    },
+    {
+      "character": "EVE",
+      "text": "Gasp!"
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E! (Laughs)"
+    },
+    {
+      "character": "WALL-E",
+      "text": "(swoons)"
+    },
+    {
+      "character": "EVE",
+      "text": "[Come on. Time's a wastin'."
+    },
+    {
+      "character": "WALL-E",
+      "text": "[I can fly myself.]"
+    },
+    {
+      "character": "WALL-E",
+      "text": "[Try that.]"
+    },
+    {
+      "character": "MARY",
+      "text": "So many stars."
+    },
+    {
+      "character": "MARY",
+      "text": "Oooh..."
+    },
+    {
+      "character": "MARY",
+      "text": "Hey, that's what's his name --"
+    },
+    {
+      "character": "JOHN",
+      "text": "Hey! What the --"
+    },
+    {
+      "character": "MARY",
+      "text": "Look! Look at THAT!"
+    },
+    {
+      "character": "JOHN",
+      "text": "Wha...huh?"
+    },
+    {
+      "character": "JOHN",
+      "text": "Hey... I know that guy! It's, uh..."
+    },
+    {
+      "character": "JOHN",
+      "text": "Wall-E! Hey Wall-E! It's your buddy, John."
+    },
+    {
+      "character": "MARY",
+      "text": "Right, Wall-E! Hi Wall-E!"
+    },
+    {
+      "character": "JOHN",
+      "text": "Hi."
+    },
+    {
+      "character": "MARY",
+      "text": "Hi."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Define \"hoe-down\"."
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "\"Hoedown\" - a social gathering at which lively dancing would take place."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Auto! Earth is amazing!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "These are called \"farms\". Humans would put seeds in the ground, pour water on them, and they'd grow food, like, pizza --"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Good night, Captain."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Auto rises back up to the bridge. The aperture shuts. Lights out. The Captain glares at the ceiling. Then whispers conspiratorially to the computer."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Psst! Computer."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Define \"dancing\"."
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "\"Dancing\" - A series of movements, involving two partners, where speed and rhythm match harmoniously with music."
+    },
+    {
+      "character": "BURN-E",
+      "text": "[Hey! Let me in! Let me in!]"
+    },
+    {
+      "character": "BURN-E",
+      "text": "[Crap.]"
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "The Lido Deck is now closing...The Lido Deck is now closing."
+    },
+    {
+      "character": "JOHN",
+      "text": "Hey now. Stop that..."
+    },
+    {
+      "character": "MARY",
+      "text": "Make me (giggles)."
+    },
+    {
+      "character": "JOHN",
+      "text": "I didn't know we had a pool."
+    },
+    {
+      "character": "LIFEGUARD-BOT",
+      "text": "No splashing, no diving."
+    },
+    {
+      "character": "JOHN & MARY",
+      "text": "Ahh! Go on!"
+    },
+    {
+      "character": "WALL-E",
+      "text": "E-vah --"
+    },
+    {
+      "character": "EVE",
+      "text": "[Stop it! They'll hear us!]"
+    },
+    {
+      "character": "EVE",
+      "text": "Directive."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "[Rocket noises] Prepare for landing..."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "[Landing noises] We're here everybody! Yeah, Captain! [crowd cheers] Captain we're home! It's so beautiful! [crowd cheers]...No it's nothing. I was pleased to do it. It's all about you people --"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "How...? How'd you find it?!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "We can go back home...for the first time!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "What's it like now?"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "No, no! Don't tell me! I want to see for myself!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Wait...that doesn't look like Earth... Where's the blue sky..."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "...Where's the grass?"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "...I know that song..."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "And they're... dancing. Yes, dancing!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "...You made it somehow, eh little guy? You didn't give up, did you?"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Gasp! Oh no, no --"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Wait a minute."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "We have to go back."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Auto, come down here!"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Aye-aye, sir."
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E..."
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E!"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah... Ee-VAH...? EEE-vah..."
+    },
+    {
+      "character": "WALL-E",
+      "text": "[I'll never get it right.]"
+    },
+    {
+      "character": "WALL-E",
+      "text": "EE-VAHH?!"
+    },
+    {
+      "character": "M-O",
+      "text": "[Ah-hah! Gotcha!]"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "There you go little guy. You came a long way for a drink of water... Just needed someone to look after you, that's all --"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "to himself"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Auto, come down here!"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Aye-aye, sir."
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E..."
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Auto, Eve found the plant. Fire up the Holo-detector."
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Not necessary, Captain. You may give it to me."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "You know what? I should do it myself."
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Captain!"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Sir, I insist you give me the plant."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Auto, get out of my way."
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Sir, we cannot go home."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "What are you talking about? Why not?"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "That is classified. Captain, give me the plant."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "hold"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Not necessary, Captain. You may give it to me."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "You know what? I should do it myself."
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Captain!"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Sir, I insist you give me the plant."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Auto, get out of my way."
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Sir, we cannot go home."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "What are you talking about? Why not?"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "That is classified. Captain, give me the plant."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "What do you mean, \"classified\"? You don't keep secrets from the Captain!"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Give me the plant."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Tell me what's classified !"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "The plant."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Tell me, Auto! That's an order!"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Aye-aye, sir."
+    },
+    {
+      "character": "BUY N LARGE CEO",
+      "text": "Just cut it off, will ya?!"
+    },
+    {
+      "character": "BUY N LARGE CEO",
+      "text": "Hey there, Autopilots! Uh, got some bad news. Operation Cleanup has, uh, well... failed! Wouldn't you know, rising toxicity levels have made life unsustainable on Earth."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Unsustainable? What?"
+    },
+    {
+      "character": "BUY N LARGE CEO",
+      "text": "Darn it all, we're going to have to cancel Operation Recolonize."
+    },
+    {
+      "character": "BUY N LARGE CEO",
+      "text": "So just, uh...just stay the course. Rather than try to fix this problem, it'll just be easier if everyone remains in space."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Easier?"
+    },
+    {
+      "character": "BUY N LARGE CEO",
+      "text": "Alright, uh...uh...I'm giving override directive: \"A113\". Go to full autopilot. Take control of everything! And do not return to Earth!"
+    },
+    {
+      "character": "BUY N LARGE CEO",
+      "text": "Repeat! Do not return to Earth!"
+    },
+    {
+      "character": "BUY N LARGE CEO",
+      "text": "Now let's get the heck out of here."
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Now, the plant."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "No, wait a minute. Computer, when was that message sent to the Axiom?"
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "Message received in the year 2110."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "That's -- that's nearly 700 years ago!! Auto, things have changed! We've got to go back!"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Sir, orders are: \"Do not return to Earth\"."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "But life is sustainable now! Look at this plant, green and growing! It's living proof he was wrong ."
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Irrelevant, Captain."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "What?! It's completely relevant!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Out there is our home! Home, Auto! And it's in trouble! I can't just sit here and...and...do nothing! That's all I've done! That's all anyone on this blasted ship has ever done...NOTHING!!"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "On the Axiom you will survive."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "I DON'T WANT TO SURVIVE! I WANT TO LIVE!"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Must follow my directive."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "DAAAARGH!!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "I'm the Captain of the Axiom. We are going home today!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Gopher?"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Hey! That's my plant. This is mutiny!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Eve, arrest him!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Eve, you are to put this plant straight in the Holo-detector."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "No!"
+    },
+    {
+      "character": "EVE",
+      "text": "[Oh no!]"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah?"
+    },
+    {
+      "character": "CAPTAIN & EVE",
+      "text": "WALL-E!!"
+    },
+    {
+      "character": "WALL-E",
+      "text": "[Hey, the plant.]"
+    },
+    {
+      "character": "CAPTAIN & EVE",
+      "text": "Wall-E! The plant!...[Toss it! Over here!]"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "Give me the plant."
+    },
+    {
+      "character": "WALL-E",
+      "text": "[You can't have it!]"
+    },
+    {
+      "character": "AUTOPILOT",
+      "text": "All communications are terminated. You are confined to quarters."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "NO! MUTINY! MUTINY! MUTINEEEEE!!"
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E!"
+    },
+    {
+      "character": "SHIP'S COMPUTER (V.O.)",
+      "text": "Caution: Activating airlock disposal...Activating airlock disposal."
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E!"
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E!"
+    },
+    {
+      "character": "M-O",
+      "text": "[Primal scream.]"
+    },
+    {
+      "character": "M-O",
+      "text": "(beeps) [I have you now!]"
+    },
+    {
+      "character": "M-O",
+      "text": "Whoa."
+    },
+    {
+      "character": "EVE",
+      "text": "(\"Stay awake.\") Wall-E..."
+    },
+    {
+      "character": "WALL-E",
+      "text": "Wall-E."
+    },
+    {
+      "character": "M-O",
+      "text": "M-O."
+    },
+    {
+      "character": "WALL-E",
+      "text": "(Really?)"
+    },
+    {
+      "character": "M-O",
+      "text": "M-O."
+    },
+    {
+      "character": "WALL-E",
+      "text": "(Got it.) M-O."
+    },
+    {
+      "character": "WALL-E",
+      "text": "Di...rec...tive."
+    },
+    {
+      "character": "EVE",
+      "text": "I don't care about the plant anymore."
+    },
+    {
+      "character": "EVE",
+      "text": "Directive."
+    },
+    {
+      "character": "WALL-E",
+      "text": "Errr....."
+    },
+    {
+      "character": "EVE",
+      "text": "Earth?"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Earth."
+    },
+    {
+      "character": "EVE",
+      "text": "Earth! Earth!"
+    },
+    {
+      "character": "WALL-E",
+      "text": "M-O?"
+    },
+    {
+      "character": "M-O",
+      "text": "(\"I'm comin'!\") Wall-E!"
+    },
+    {
+      "character": "STEWARD",
+      "text": "Wrong."
+    },
+    {
+      "character": "STEWARD",
+      "text": ": Please hold. We are currently having technical difficul -- !"
+    },
+    {
+      "character": "AUTO",
+      "text": ": Not possible."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Mutinyyy...Mute...neee...This is your last chance...Auto...You hear me?...Stupid...wheel..."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "The plant!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "(Laughs) We'll see who's powerless now."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Ah-Ha!"
+    },
+    {
+      "character": "CAPTAIN (OVER INTERCOM)",
+      "text": "Testing, testing... Is this thing on?"
+    },
+    {
+      "character": "CAPTAIN (OVER INTERCOM)",
+      "text": "Psssst! Hey! Hey! This is the Captain I'm locked in my room. Eve, Wall-E, bring the plant to the Lido Deck. I'll have activated the holo-detector. Now hurry! Auto's probably going to cut me off --"
+    },
+    {
+      "character": "STEWARDS",
+      "text": "Halt."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Psssst! Hey! Hey! This is the Captain I'm locked in my room. Eve, Wall-E, bring the plant to the Lido Deck. I'll have activated the holo-detector. Now hurry! Auto's probably going to cut me off --"
+    },
+    {
+      "character": "STEWARDS",
+      "text": "Halt."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Ha, ha! Look what I got, Auto!"
+    },
+    {
+      "character": "AUTO",
+      "text": "Not possible."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "That's right! The plant! Oh, you want it? Come and get it, Blinky!"
+    },
+    {
+      "character": "AUTO",
+      "text": "No."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Ha ha!"
+    },
+    {
+      "character": "AUTO",
+      "text": "Captain? Captain...?"
+    },
+    {
+      "character": "AUTO",
+      "text": "Let go. Let go."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "What too heavy for ya, huh?!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "You're not getting away from me, one-eye! -- OOF! -- Is that all you got?!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "That's it!...A little closer! Must..press...button."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Gotcha! Ha ha!"
+    },
+    {
+      "character": "NANNY-BOT",
+      "text": "Remain calm. Remain calm."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Ladies and Gentlemen! This is your Captain speaking! We're having a slight malfunction with the Autopilot! Please remain calm!"
+    },
+    {
+      "character": "AUTO",
+      "text": "Enough."
+    },
+    {
+      "character": "MARY",
+      "text": "John, get ready to have some kids!"
+    },
+    {
+      "character": "MARY",
+      "text": "LOOK OUT!"
+    },
+    {
+      "character": "AUTO",
+      "text": "No."
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "NO!!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Auto!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "Auto, you are relieved of duty."
+    },
+    {
+      "character": "AUTO",
+      "text": "Noo --"
+    },
+    {
+      "character": "EVE",
+      "text": "PLANT! PLANT!"
+    },
+    {
+      "character": "M-O",
+      "text": "Ee-vah!"
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "Plant origin verified. Course set for Earth."
+    },
+    {
+      "character": "EVE",
+      "text": "No! WALL-E!!"
+    },
+    {
+      "character": "MARY",
+      "text": "Oh no! Wall-E..."
+    },
+    {
+      "character": "SHIP'S COMPUTER",
+      "text": "Nine, eight, seven, six, five, four, three, two, one, zero."
+    },
+    {
+      "character": "M-O",
+      "text": "[Eve! Wait!]"
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E..."
+    },
+    {
+      "character": "WALL-E",
+      "text": "(Apple \"reboot\" SFX)"
+    },
+    {
+      "character": "EVE",
+      "text": "It's me!"
+    },
+    {
+      "character": "EVE",
+      "text": "Eve!"
+    },
+    {
+      "character": "EVE",
+      "text": "[Here, look at these.]"
+    },
+    {
+      "character": "EVE",
+      "text": "Remember?"
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E?"
+    },
+    {
+      "character": "EVE",
+      "text": "[I know!]"
+    },
+    {
+      "character": "EVE",
+      "text": "No."
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E...Wall-E! WA"
+    },
+    {
+      "character": "EVE",
+      "text": "No."
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E...Wall-E! WALL-E!"
+    },
+    {
+      "character": "EVE",
+      "text": "[Hums IOTAM]"
+    },
+    {
+      "character": "EVE",
+      "text": "Goodbye Wall-E."
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah?"
+    },
+    {
+      "character": "EVE",
+      "text": "Wall-E!"
+    },
+    {
+      "character": "WALL-E",
+      "text": "Ee-vah!!"
+    },
+    {
+      "character": "M-O",
+      "text": "Go! Go, go go!"
+    },
+    {
+      "character": "CAPTAIN",
+      "text": "This is called \"farming\"! You kids are going to grow all kinds of plants: vegetable plants, pizza plants! (laughs) Ahh, it's good to be home..."
+    }
+  ],
+  "imdbId": "tt20453422",
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTY5Yjc1YzUtMjkxMS00YTY3LThkOTAtZGI0ODFlN2Y3OGJjXkEyXkFqcGc@._V1_SX300.jpg",
+  "rated": "N/A",
+  "runtime": "5 min",
+  "genre": "Animation, Short",
+  "director": "Brian Bear, Cas van de Pol",
+  "topSpeakingCast": [
+    "CAPTAIN",
+    "WALL-E",
+    "EVE",
+    "AUTOPILOT",
+    "SHIP'S COMPUTER",
+    "BUY N LARGE CEO",
+    "M-O",
+    "MARY",
+    "JOHN"
+  ]
+}

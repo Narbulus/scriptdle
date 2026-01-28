@@ -1,0 +1,33 @@
+{
+  "id": "disney-classics",
+  "name": "Disney Classics",
+  "type": "series",
+  "movies": [
+    "cinderella-1950",
+    "sleeping-beauty-1959",
+    "the-little-mermaid-1989",
+    "beauty-and-the-beast-1991",
+    "aladdin-1992",
+    "the-lion-king",
+    "mulan-1998",
+    "hercules-1997"
+  ],
+  "theme": {
+    "primary": "#d4af37",
+    "bgColor": "#7d5a9b",
+    "containerBg": "#fef9f3",
+    "accentColor": "#9b5fa8",
+    "btnText": "white",
+    "cardGradientStart": "#7d5a9b",
+    "cardGradientEnd": "#8f62a3",
+    "cardBorder": "#d4af37",
+    "cardText": "#ffd54f"
+  },
+  "tierMessages": {
+    "perfect": "A dream is a wish your heart makes",
+    "good": "Part of your world!",
+    "average": "Hakuna Matata",
+    "barely": "Be our guest!",
+    "failure": "A whole new world awaits..."
+  }
+}

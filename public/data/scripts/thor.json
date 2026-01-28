@@ -1,0 +1,1718 @@
+{
+  "id": "thor",
+  "title": "Thor",
+  "year": null,
+  "characters": [
+    "AGENT",
+    "AGENT 2",
+    "AGENTS",
+    "COLSON",
+    "COULSON",
+    "DARCY",
+    "DARCY LEWIS",
+    "DOCTOR",
+    "ERIC SELVIG",
+    "ERIK",
+    "FANDRAL",
+    "FRIGGA",
+    "FROST GIANT",
+    "FURY",
+    "GUARD",
+    "GUY",
+    "GUY2",
+    "HEIMDALL",
+    "HOGUN",
+    "JANE",
+    "JANE FOSTER",
+    "KID",
+    "LAUFEY",
+    "LOKI",
+    "MAN",
+    "NURSE",
+    "ODIN",
+    "OLD TRUCK DRIVER",
+    "SIF",
+    "SITWELL",
+    "TECHNICIAN",
+    "THOR",
+    "VOLSATGG",
+    "VOLSTAGG"
+  ],
+  "lines": [
+    {
+      "character": "JANE FOSTER",
+      "text": "Wait for it"
+    },
+    {
+      "character": "DARCY LEWIS",
+      "text": "Can I turn on the radio?"
+    },
+    {
+      "character": "JANE",
+      "text": "No"
+    },
+    {
+      "character": "ERIC SELVIG",
+      "text": "Jane, you can't keep doing this"
+    },
+    {
+      "character": "JANE",
+      "text": "The last 17 occurrences have been predictable to the last second"
+    },
+    {
+      "character": "ERIK",
+      "text": "Jane you're an astrophysicist not some storm chaser"
+    },
+    {
+      "character": "JANE",
+      "text": "I'm telling you there's a connection between these atmospheric disturbances and my research, Erik I wouldn't have asked you to fly out here if I wasn't absolutely sure"
+    },
+    {
+      "character": "DARCY",
+      "text": "Jane? I think you want to see this."
+    },
+    {
+      "character": "JANE",
+      "text": "What is that?"
+    },
+    {
+      "character": "ERIK",
+      "text": "I thought you said it was a subtle aurora!"
+    },
+    {
+      "character": "JANE",
+      "text": "Go!"
+    },
+    {
+      "character": "JANE",
+      "text": "Get closer."
+    },
+    {
+      "character": "DARCY",
+      "text": "Right. Good one."
+    },
+    {
+      "character": "JANE",
+      "text": "Go!"
+    },
+    {
+      "character": "JANE",
+      "text": "What are you doing?"
+    },
+    {
+      "character": "DARCY",
+      "text": "I am not dying for 6 college credits!"
+    },
+    {
+      "character": "DARCY",
+      "text": "I think that was legally your fault."
+    },
+    {
+      "character": "JANE",
+      "text": "Get the first aid Kit. Do me a favor and don't be dead. Please. Where did he come from?"
+    },
+    {
+      "character": "ODIN",
+      "text": "Once, mankind accepted a simple truth, that they were not alone in this universe. Some worlds man believed to be home to their gods. Others, they knew to fear. From a realm of cold and darkness came the Frost Giants, threatening to plunge the mortal world into a new ice age. But humanity would not face this threat alone. Our armies drove the Frost Giants back into the heart of their own world. The cost was great. In the end, their king fell. And the source of their power was taken from them. With the last great war ended, we withdrew from the other worlds and returned home to the Realm Eternal, Asgard. Here we remain as a beacon of hope, shining out across the stars. And though we have fallen into man's myths and legends, it was Asgard and its warriors that brought peace to the universe. But the day will come when one of you will have to defend that peace."
+    },
+    {
+      "character": "LOKI",
+      "text": "Do the Frost Giants still live?"
+    },
+    {
+      "character": "THOR",
+      "text": "When I'm king, I'll hunt the monsters down and slay them all! Just as you did, Father."
+    },
+    {
+      "character": "ODIN",
+      "text": "A wise king never seeks out war. But he must always be ready for it."
+    },
+    {
+      "character": "THOR",
+      "text": "I'm ready, Father."
+    },
+    {
+      "character": "LOKI",
+      "text": "So am I."
+    },
+    {
+      "character": "ODIN",
+      "text": "Only one of you can ascend to the throne. But both of you were born to be kings."
+    },
+    {
+      "character": "SIF",
+      "text": "Oh, please."
+    },
+    {
+      "character": "ODIN",
+      "text": "Thor Odinson, my heir, my firstborn. So long entrusted with the mighty hammer Mjolnir, forged in the heart of a dying star, its power has no equal, as a weapon to destroy or as a tool to build. 'Tis a fit companion for a king. I have defended Asgard and the lives of the innocent across the Nine Realms from the time of the great beginning. Though the day has come... Do you swear to guard the Nine Realms?"
+    },
+    {
+      "character": "THOR",
+      "text": "I swear."
+    },
+    {
+      "character": "ODIN",
+      "text": "And do you swear to preserve the peace?"
+    },
+    {
+      "character": "THOR",
+      "text": "I swear."
+    },
+    {
+      "character": "ODIN",
+      "text": "Do you swear to cast aside all selfish ambition and to pledge yourself only to the good of the Realms?"
+    },
+    {
+      "character": "THOR",
+      "text": "I swear!"
+    },
+    {
+      "character": "ODIN",
+      "text": "Then, on this day, I, Odin Allfather, proclaim you..."
+    },
+    {
+      "character": "ODIN",
+      "text": "The Frost Giants!"
+    },
+    {
+      "character": "THOR",
+      "text": "The Jotuns must pay for what they've done!"
+    },
+    {
+      "character": "ODIN",
+      "text": "They have paid, with their lives. The Destroyer did its work, the Casket is safe, and all is well."
+    },
+    {
+      "character": "THOR",
+      "text": "All is Well? They broke into the weapons vault! If the Frost Giants had stolen even one of these relics..."
+    },
+    {
+      "character": "ODIN",
+      "text": "They didn't."
+    },
+    {
+      "character": "THOR",
+      "text": "Well, I want to know why!"
+    },
+    {
+      "character": "ODIN",
+      "text": "I have a truce with Laufey, King of the Jotuns."
+    },
+    {
+      "character": "THOR",
+      "text": "He just broke your truce! They know you are vulnerable!"
+    },
+    {
+      "character": "ODIN",
+      "text": "What action would you take?"
+    },
+    {
+      "character": "THOR",
+      "text": "March into Jotunheim as you once did. Teach them a lesson. Break their spirits so they'll never dare try to cross our borders again."
+    },
+    {
+      "character": "ODIN",
+      "text": "You're thinking only as a warrior."
+    },
+    {
+      "character": "THOR",
+      "text": "This was an act of war!"
+    },
+    {
+      "character": "ODIN",
+      "text": "It was the act of but a few, doomed to fail."
+    },
+    {
+      "character": "THOR",
+      "text": "Look how far they got!"
+    },
+    {
+      "character": "ODIN",
+      "text": "We will find the breach in our defenses, and it will be sealed."
+    },
+    {
+      "character": "THOR",
+      "text": "As King of Asgard...."
+    },
+    {
+      "character": "ODIN",
+      "text": "But you're not king! Not yet."
+    },
+    {
+      "character": "THOR",
+      "text": "It's unwise to be in my company right now, Brother."
+    },
+    {
+      "character": "LOKI",
+      "text": "This was to be my day of triumph."
+    },
+    {
+      "character": "LOKI",
+      "text": "It'll come. In time."
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "What's this?"
+    },
+    {
+      "character": "LOKI",
+      "text": "If it's any consolation, I think you're right. About the Frost Giants, about Laufey, about everything. If they found a way to penetrate Asgard's defenses once, who's to say they won't try again? Next time with an army."
+    },
+    {
+      "character": "THOR",
+      "text": "Exactly."
+    },
+    {
+      "character": "LOKI",
+      "text": "There's nothing you can do without defying Father. No, no, no. I know that look."
+    },
+    {
+      "character": "THOR",
+      "text": "That's the only way to ensure the safety of our borders."
+    },
+    {
+      "character": "LOKI",
+      "text": "Thor, it's madness."
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "Madness? What sort of madness?"
+    },
+    {
+      "character": "THOR",
+      "text": "We're going to Jotunheim."
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "What?"
+    },
+    {
+      "character": "FANDRAL",
+      "text": "This isn't like a journey to Earth where you summon a little lightning and thunder, and the mortals worship you as a god. This is Jotunheim."
+    },
+    {
+      "character": "THOR",
+      "text": "My father fought his way into Jotunheim, defeated their armies and took their Casket. We would just be looking for answers."
+    },
+    {
+      "character": "SIF",
+      "text": "It is forbidden!"
+    },
+    {
+      "character": "THOR",
+      "text": "My friends, have you forgotten all that we have done together? Fandral, Hogun. Who led you into the most glorious of battles?"
+    },
+    {
+      "character": "HOGUN",
+      "text": "You did."
+    },
+    {
+      "character": "THOR",
+      "text": "And Volstagg, to delicacies so succulent, you thought you'd died and gone to Valhalla?"
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "You did."
+    },
+    {
+      "character": "THOR",
+      "text": "Yes! And who proved wrong all who scoffed at the idea that a young maiden could be one of the fiercest warriors this realm has ever known?"
+    },
+    {
+      "character": "SIF",
+      "text": "I did."
+    },
+    {
+      "character": "THOR",
+      "text": "True, but I supported you, Sif. My friends, we're going to Jotunheim."
+    },
+    {
+      "character": "LOKI",
+      "text": "You leave this to me. Good Heimdall..."
+    },
+    {
+      "character": "HEIMDALL",
+      "text": "You're not dressed warmly enough."
+    },
+    {
+      "character": "LOKI",
+      "text": "I'm sorry?"
+    },
+    {
+      "character": "HEIMDALL",
+      "text": "Do you think that you can deceive me?"
+    },
+    {
+      "character": "LOKI",
+      "text": "You must be mistaken..."
+    },
+    {
+      "character": "THOR",
+      "text": "Enough! Heimdall, may we pass?"
+    },
+    {
+      "character": "HEIMDALL",
+      "text": "Never has an enemy slipped my watch until this day. I wish to know how that happened."
+    },
+    {
+      "character": "THOR",
+      "text": "Then tell no one where we have gone until we've returned. Understand?"
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "What happened? Silver tongue turn to lead?"
+    },
+    {
+      "character": "HEIMDALL",
+      "text": "Be warned. I will honor my sworn oath to protect this realm as its Gatekeeper. If your return threatens the safety of Asgard, Bifrost will remain closed to you and you'll be left to die in the cold waste of Jotunheim."
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "Couldn't you just leave the bridge open for us?"
+    },
+    {
+      "character": "HEIMDALL",
+      "text": "To leave the bridge open would unleash the full power of the Bifrost and destroy Jotunheim with you upon it."
+    },
+    {
+      "character": "THOR",
+      "text": "I have no plans to die today."
+    },
+    {
+      "character": "HEIMDALL",
+      "text": "None do."
+    },
+    {
+      "character": "HOGUN",
+      "text": "We shouldn't be here."
+    },
+    {
+      "character": "THOR",
+      "text": "Let's move."
+    },
+    {
+      "character": "SIF",
+      "text": "Where are they?"
+    },
+    {
+      "character": "THOR",
+      "text": "Hiding, as cowards always do."
+    },
+    {
+      "character": "LAUFEY",
+      "text": "You've come a long way to die, Asgardians."
+    },
+    {
+      "character": "THOR",
+      "text": "I am Thor Odinson!"
+    },
+    {
+      "character": "LAUFEY",
+      "text": "We know who you are."
+    },
+    {
+      "character": "THOR",
+      "text": "How did your people get into Asgard?"
+    },
+    {
+      "character": "LAUFEY",
+      "text": "The House of Odin is full of traitors."
+    },
+    {
+      "character": "THOR",
+      "text": "Do not dishonor my father's name with your lies!"
+    },
+    {
+      "character": "LAUFEY",
+      "text": "Your father is a murderer and a thief! And why have you come here? To make peace? You long for battle. You crave it. You're nothing but a boy trying to prove himself a man."
+    },
+    {
+      "character": "THOR",
+      "text": "Well, this \"boy\" has grown tired of your mockery."
+    },
+    {
+      "character": "LOKI",
+      "text": "Thor, stop and think. Look around you, we're outnumbered."
+    },
+    {
+      "character": "THOR",
+      "text": "Know your place, Brother."
+    },
+    {
+      "character": "LAUFEY",
+      "text": "You know not what your actions would unleash."
+    },
+    {
+      "character": "THOR",
+      "text": "I do."
+    },
+    {
+      "character": "LAUFEY",
+      "text": "Go now, while I still allow it."
+    },
+    {
+      "character": "LOKI",
+      "text": "We will accept your most gracious offer. Come on, Brother."
+    },
+    {
+      "character": "FROST GIANT",
+      "text": "Run back home, little princess."
+    },
+    {
+      "character": "LOKI",
+      "text": "Damn."
+    },
+    {
+      "character": "THOR",
+      "text": "Next? At least make it a challenge for me! That's more like it."
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "Don't let them touch you!"
+    },
+    {
+      "character": "SIF",
+      "text": "Thor!"
+    },
+    {
+      "character": "LOKI",
+      "text": "We must go!"
+    },
+    {
+      "character": "THOR",
+      "text": "Then go!"
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "Run!"
+    },
+    {
+      "character": "LOKI",
+      "text": "Thor!"
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "Heimdall! Open the bridge!"
+    },
+    {
+      "character": "THOR",
+      "text": "Father! We'll finish them together!"
+    },
+    {
+      "character": "ODIN",
+      "text": "Silence!"
+    },
+    {
+      "character": "LAUFEY",
+      "text": "Allfather. You look weary."
+    },
+    {
+      "character": "ODIN",
+      "text": "Laufey, end this now."
+    },
+    {
+      "character": "LAUFEY",
+      "text": "Your boy sought this out."
+    },
+    {
+      "character": "ODIN",
+      "text": "You're right. And these are the actions of a boy, treat them as such. You and I can end this here and now, before there's further bloodshed."
+    },
+    {
+      "character": "LAUFEY",
+      "text": "We are beyond diplomacy now, Allfather. He'll get what he came for. War and death."
+    },
+    {
+      "character": "ODIN",
+      "text": "So be it."
+    },
+    {
+      "character": "THOR",
+      "text": "Why did you bring us back?"
+    },
+    {
+      "character": "ODIN",
+      "text": "Do you realize what you've done? What you've started?"
+    },
+    {
+      "character": "THOR",
+      "text": "I was protecting my home."
+    },
+    {
+      "character": "ODIN",
+      "text": "You cannot even protect your friends! How can you hope to protect a kingdom? Get him to the healing room! Now!"
+    },
+    {
+      "character": "THOR",
+      "text": "There won't be a kingdom to protect if you're afraid to act. The Jotuns must learn to fear me, just as they once feared you."
+    },
+    {
+      "character": "ODIN",
+      "text": "That's pride and vanity talking, not leadership. You've forgotten everything I taught you about a warrior's patience."
+    },
+    {
+      "character": "THOR",
+      "text": "While you wait and be patient, the Nine Realms laugh at us. The old ways are done. You'd stand giving speeches while Asgard falls."
+    },
+    {
+      "character": "ODIN",
+      "text": "You are a vain, greedy, cruel boy!"
+    },
+    {
+      "character": "THOR",
+      "text": "And you are an old man and a fool!"
+    },
+    {
+      "character": "ODIN",
+      "text": "Yes. I was a fool to think you were ready."
+    },
+    {
+      "character": "LOKI",
+      "text": "Father..."
+    },
+    {
+      "character": "ODIN",
+      "text": "Thor Odinson, you have betrayed the express command of your king. Through your arrogance and stupidity, you've opened these peaceful realms and innocent lives to the horror and desolation of war! You are unworthy of these realms! You're unworthy of your title! You're unworthy of the loved ones you have betrayed. I now take from you your power! In the name of my father and his father before, I, Odin Allfather, cast you out!"
+    },
+    {
+      "character": "ODIN",
+      "text": "Whosoever holds this hammer, if he be worthy, shall possess the power of Thor."
+    },
+    {
+      "character": "DARCY",
+      "text": "I think that was legally your fault."
+    },
+    {
+      "character": "JANE",
+      "text": "Get the first aid Kit. Do me a favor and don't be dead."
+    },
+    {
+      "character": "DARCY",
+      "text": "Whoa. Does he need CPR? Because I totally know CPR."
+    },
+    {
+      "character": "JANE",
+      "text": "Where did he come from?"
+    },
+    {
+      "character": "DARCY",
+      "text": "You all right?"
+    },
+    {
+      "character": "THOR",
+      "text": "Hammer? Hammer?"
+    },
+    {
+      "character": "DARCY",
+      "text": "Yeah, we can tell you're hammered. It's pretty obvious."
+    },
+    {
+      "character": "JANE",
+      "text": "Oh, my God. Erik, look at this! We have to move quickly before this all changes."
+    },
+    {
+      "character": "ERIK",
+      "text": "Jane, we have to take him to the hospital."
+    },
+    {
+      "character": "THOR",
+      "text": "Father!"
+    },
+    {
+      "character": "JANE",
+      "text": "He's fine, look at him."
+    },
+    {
+      "character": "THOR",
+      "text": "Heimdall! I know you can hear me! Open the Bifrost!"
+    },
+    {
+      "character": "JANE",
+      "text": "Hospital. You go, I'll stay."
+    },
+    {
+      "character": "THOR",
+      "text": "You. What realm is this? Alfheim? Nornheim?"
+    },
+    {
+      "character": "DARCY",
+      "text": "New Mexico?"
+    },
+    {
+      "character": "THOR",
+      "text": "You dare threaten me, Thor, with so puny a weapon?"
+    },
+    {
+      "character": "DARCY",
+      "text": "What? He was freaking me out!"
+    },
+    {
+      "character": "ERIK",
+      "text": "Next time you decide to taser somebody, make sure he's already in the car, okay? Jane! Come on."
+    },
+    {
+      "character": "NURSE",
+      "text": "Name?"
+    },
+    {
+      "character": "JANE",
+      "text": "He said it was Thor?"
+    },
+    {
+      "character": "NURSE",
+      "text": "T-H-O-R. And your relationship to him?"
+    },
+    {
+      "character": "JANE",
+      "text": "I've never met him before."
+    },
+    {
+      "character": "DARCY",
+      "text": "Until she hit him with a car."
+    },
+    {
+      "character": "JANE",
+      "text": "I grazed him, but she tasered him."
+    },
+    {
+      "character": "DARCY",
+      "text": "Yes, I did."
+    },
+    {
+      "character": "DOCTOR",
+      "text": "Hi. Just taking a little blood."
+    },
+    {
+      "character": "THOR",
+      "text": "How dare you attack the son of Odin?"
+    },
+    {
+      "character": "DOCTOR",
+      "text": "I need some help!"
+    },
+    {
+      "character": "NURSE",
+      "text": "Call security!"
+    },
+    {
+      "character": "MAN",
+      "text": "Security to ER 3, stat!"
+    },
+    {
+      "character": "THOR",
+      "text": "You're no match for the Mighty..."
+    },
+    {
+      "character": "GUY",
+      "text": "Huh."
+    },
+    {
+      "character": "ERIK",
+      "text": "You don't think this was just a magnetic storm, do you?"
+    },
+    {
+      "character": "JANE",
+      "text": "Look, the lensing around these edges is characteristic of an Einstein-Rosen Bridge."
+    },
+    {
+      "character": "DARCY",
+      "text": "A what?"
+    },
+    {
+      "character": "ERIK",
+      "text": "I thought you were a science major?"
+    },
+    {
+      "character": "DARCY",
+      "text": "Political science."
+    },
+    {
+      "character": "JANE",
+      "text": "She was the only applicant."
+    },
+    {
+      "character": "ERIK",
+      "text": "An Einstein-Rosen Bridge is a theoretical connection between two different points of space-time."
+    },
+    {
+      "character": "JANE",
+      "text": "It's a wormhole. Erik, look. What do you see?"
+    },
+    {
+      "character": "ERIK",
+      "text": "Stars."
+    },
+    {
+      "character": "JANE",
+      "text": "Yeah, but not our stars. See, this is the star alignment for our quadrant this time of year, and unless Ursa Minor decided to take a day off, these are someone else's constellations."
+    },
+    {
+      "character": "DARCY",
+      "text": "Hey! Check this out."
+    },
+    {
+      "character": "ERIK",
+      "text": "No, it can't be."
+    },
+    {
+      "character": "JANE",
+      "text": "I think I left something at the hospital."
+    },
+    {
+      "character": "THOR",
+      "text": "It's not possible!"
+    },
+    {
+      "character": "DARCY",
+      "text": "Oh, my God."
+    },
+    {
+      "character": "JANE",
+      "text": "I just lost my most important piece of evidence. Typical."
+    },
+    {
+      "character": "DARCY",
+      "text": "So now what?"
+    },
+    {
+      "character": "JANE",
+      "text": "We find him."
+    },
+    {
+      "character": "ERIK",
+      "text": "Did you see what he did in there? I'm not sure finding him is the best idea."
+    },
+    {
+      "character": "JANE",
+      "text": "Well, our data can't tell us what it was like to be inside that event, and he can. So, we're gonna find him."
+    },
+    {
+      "character": "DARCY",
+      "text": "Okay."
+    },
+    {
+      "character": "ERIK",
+      "text": "So we're gonna look all over New Mexico, right?"
+    },
+    {
+      "character": "JANE",
+      "text": "Exactly."
+    },
+    {
+      "character": "JANE",
+      "text": "What? I'm so sorry. I swear I'm not doing this on purpose."
+    },
+    {
+      "character": "GUY",
+      "text": "I got it, I got it."
+    },
+    {
+      "character": "GUY2",
+      "text": "Come on, kick it in now!"
+    },
+    {
+      "character": "OLD TRUCK DRIVER",
+      "text": "Did it work?"
+    },
+    {
+      "character": "COLSON",
+      "text": "Sir, we found it."
+    },
+    {
+      "character": "DARCY",
+      "text": "You know, for a crazy homeless person, he's pretty cut. Hey, sorry I tased you!"
+    },
+    {
+      "character": "JANE",
+      "text": "Excuse me, excuse me!"
+    },
+    {
+      "character": "THOR",
+      "text": "What is this?"
+    },
+    {
+      "character": "DARCY",
+      "text": "Oh. My ex. Good with patients and bad with relationships. They're the only clothes I had that would fit you."
+    },
+    {
+      "character": "THOR",
+      "text": "They will suffice."
+    },
+    {
+      "character": "JANE",
+      "text": "You're welcome."
+    },
+    {
+      "character": "THOR",
+      "text": "This mortal form has grown weak. I need sustenance."
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "We should never have let him go."
+    },
+    {
+      "character": "SIF",
+      "text": "There was no stopping him."
+    },
+    {
+      "character": "FANDRAL",
+      "text": "Well, at least he's only banished, not dead. Which is what we'd all be if that guard hadn't told Odin where we'd gone."
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "How did the guard even know?"
+    },
+    {
+      "character": "LOKI",
+      "text": "I told him."
+    },
+    {
+      "character": "FANDRAL",
+      "text": "What?"
+    },
+    {
+      "character": "LOKI",
+      "text": "I told him to go to Odin after we'd left. He should be flogged for taking so long. We should never have reached Jotunheim."
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "You told the guard?"
+    },
+    {
+      "character": "LOKI",
+      "text": "I saved our lives. And Thor's. I had no idea Father would banish him for what he did."
+    },
+    {
+      "character": "SIF",
+      "text": "Loki. You must go to the Allfather and convince him to change his mind."
+    },
+    {
+      "character": "LOKI",
+      "text": "And if I do, then what? I love Thor more dearly than any of you, but you know what he is. He's arrogant. He's reckless. He's dangerous. You saw how he was today. Is that what Asgard needs from its king?"
+    },
+    {
+      "character": "SIF",
+      "text": "He may speak of the good of Asgard, but he's always been jealous of Thor."
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "We should be grateful to him, he saved our lives."
+    },
+    {
+      "character": "HOGUN",
+      "text": "Laufey said there were traitors in the House of Odin. A master of magic could bring three Jotuns into Asgard."
+    },
+    {
+      "character": "FANDRAL",
+      "text": "Loki's always been one for mischief, but you're talking about something else entirely."
+    },
+    {
+      "character": "LOKI",
+      "text": "That was just a bit of fun, really. To ruin my brother's big day. And to protect the realm from his idiotic rule for a while longer."
+    },
+    {
+      "character": "LAUFEY",
+      "text": "I will hear you."
+    },
+    {
+      "character": "LOKI",
+      "text": "I will conceal you and a handful of your soldiers, lead you into Odin's chambers, and you can slay him where he lies."
+    },
+    {
+      "character": "LAUFEY",
+      "text": "Why not kill him yourself?"
+    },
+    {
+      "character": "LOKI",
+      "text": "I suspect that the Asgardians would not take kindly to a king who had murdered his predecessor. Once Odin is dead, I will return the Casket to you and you can return Jotunheim to all its...Glory."
+    },
+    {
+      "character": "LAUFEY",
+      "text": "I....Accept."
+    },
+    {
+      "character": "LOKI",
+      "text": "What troubles you, Gatekeeper?"
+    },
+    {
+      "character": "HEIMDALL",
+      "text": "I turned my gaze upon you in Jotunheim, but could neither see you nor hear you. You were shrouded from me, like the Frost Giants that entered this realm."
+    },
+    {
+      "character": "LOKI",
+      "text": "Perhaps your senses have weakened after your many years of service."
+    },
+    {
+      "character": "HEIMDALL",
+      "text": "Or perhaps someone has found a way to hide that which he does not wish me to see."
+    },
+    {
+      "character": "LOKI",
+      "text": "You have great power, Heimdall. Did Odin ever fear you?"
+    },
+    {
+      "character": "HEIMDALL",
+      "text": "No."
+    },
+    {
+      "character": "LOKI",
+      "text": "And why is that?"
+    },
+    {
+      "character": "HEIMDALL",
+      "text": "Because he is my king and I am sworn to obey him."
+    },
+    {
+      "character": "LOKI",
+      "text": "He was your king and you're sworn to obey me now. Yes?"
+    },
+    {
+      "character": "HEIMDALL",
+      "text": "Yes."
+    },
+    {
+      "character": "LOKI",
+      "text": "Then you will open the Bifrost to no one until I have repaired the damage that my brother has done."
+    },
+    {
+      "character": "JANE",
+      "text": "Oh, my God. Is he okay?"
+    },
+    {
+      "character": "THOR",
+      "text": "He's fine. Not injured at all. I'm sorry, my friend."
+    },
+    {
+      "character": "JANE",
+      "text": "What happened?"
+    },
+    {
+      "character": "THOR",
+      "text": "We drank, we fought, he made his ancestors proud."
+    },
+    {
+      "character": "JANE",
+      "text": "Put him on the bed."
+    },
+    {
+      "character": "ERIK",
+      "text": "I still don't think you're the God of Thunder. But you ought to be."
+    },
+    {
+      "character": "THOR",
+      "text": "Are these your chambers?"
+    },
+    {
+      "character": "JANE",
+      "text": "It's more of a temporary living situation. I'm sorry. I don't usually have guests. Actually, I never have guests. That's not the right place for it. I'm sorry. Can we go outside?"
+    },
+    {
+      "character": "THOR",
+      "text": "Yes, of course."
+    },
+    {
+      "character": "JANE",
+      "text": "I come up here sometimes when I can't sleep or I'm trying to reconcile particle data, or when Darcy's driving me crazy. I come up here a lot, actually, now that I think about it. I'm really glad you're safe."
+    },
+    {
+      "character": "THOR",
+      "text": "You've been very kind to me, and I've been far less grateful than you deserve."
+    },
+    {
+      "character": "JANE",
+      "text": "Well, I hit you with my car a couple times, so I think that kind of evens things out."
+    },
+    {
+      "character": "THOR",
+      "text": "Perhaps I had it coming."
+    },
+    {
+      "character": "JANE",
+      "text": "Oh, my God! I don't believe it!"
+    },
+    {
+      "character": "THOR",
+      "text": "It was all I could get back. I'm sorry it's not as much as I promised."
+    },
+    {
+      "character": "JANE",
+      "text": "No, no, this is great! This is...I don't have to start from scratch now. Thank you."
+    },
+    {
+      "character": "THOR",
+      "text": "What's wrong?"
+    },
+    {
+      "character": "JANE",
+      "text": "S.H.l.E.L.D. Whatever they are, they're gonna do everything in their power to make sure this research never sees the light of day."
+    },
+    {
+      "character": "THOR",
+      "text": "No, Jane. Listen to me. You must not give up. You must finish what you've started."
+    },
+    {
+      "character": "JANE",
+      "text": "Why?"
+    },
+    {
+      "character": "THOR",
+      "text": "Because you're right. Here, look. Your ancestors called it magic, and you call it science. Well, I come from a place where they're one and the same thing."
+    },
+    {
+      "character": "JANE",
+      "text": "What is that?"
+    },
+    {
+      "character": "THOR",
+      "text": "My father explained it to me like this, that your world is one of the Nine Realms of the Cosmos, linked to each other by the branches of Yggdrasil, the Worlds Tree. Now you see it every day without realizing. The images glimpsed through...What did you call it? This Hooble Telescope."
+    },
+    {
+      "character": "JANE",
+      "text": "Hubble."
+    },
+    {
+      "character": "THOR",
+      "text": "Hubble Telescope."
+    },
+    {
+      "character": "JANE",
+      "text": "Tell me more."
+    },
+    {
+      "character": "THOR",
+      "text": "So, the Nine Realms. Now, there is Midgard, which is Earth. This is Alfheim. Vanaheim. Jotunheim. And Asgard. And that's where I come from. Thank you, Jane."
+    },
+    {
+      "character": "FANDRAL",
+      "text": "Our dearest friend banished, Loki on the throne, Asgard on the brink of war, yet you've managed to consume four wild boar, six pheasant, a side of beef, and two casks of ale. Shame on you. Don't you care?"
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "Do not mistake my appetite for apathy!"
+    },
+    {
+      "character": "SIF",
+      "text": "Stop it, both of you! Stop. We all know what we have to do."
+    },
+    {
+      "character": "HOGUN",
+      "text": "We must go. We must find Thor."
+    },
+    {
+      "character": "FANDRAL",
+      "text": "It's treason."
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "To hell with treason, it's suicide."
+    },
+    {
+      "character": "SIF",
+      "text": "Thor would do the same for us."
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "Now shush. Heimdall might be watching."
+    },
+    {
+      "character": "GUARD",
+      "text": "Heimdall demands your presence."
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "We're doomed."
+    },
+    {
+      "character": "HEIMDALL",
+      "text": "You would defy the commands of Loki, our king, break every oath you have taken as warriors, and commit treason to bring Thor back?"
+    },
+    {
+      "character": "SIF",
+      "text": "Yes."
+    },
+    {
+      "character": "HEIMDALL",
+      "text": "Good."
+    },
+    {
+      "character": "SIF",
+      "text": "So you'll help us?"
+    },
+    {
+      "character": "HEIMDALL",
+      "text": "I am bound by honor to our king. I cannot open the bridge to you."
+    },
+    {
+      "character": "FANDRAL",
+      "text": "Complicated fellow, isn't he?"
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "Now what do we do?"
+    },
+    {
+      "character": "SIF",
+      "text": "Look!"
+    },
+    {
+      "character": "COULSON",
+      "text": "What the hell was that?"
+    },
+    {
+      "character": "TECHNICIAN",
+      "text": "I don't know, sir. We got massive energy readings out of nowhere and then they just disappeared. 15 miles due northwest."
+    },
+    {
+      "character": "COULSON",
+      "text": "Let's go take a look."
+    },
+    {
+      "character": "DARCY",
+      "text": "Thank you."
+    },
+    {
+      "character": "ERIK",
+      "text": "Thank you."
+    },
+    {
+      "character": "THOR",
+      "text": "You're very welcome."
+    },
+    {
+      "character": "AGENT",
+      "text": "Base to Team 2, we've got activity outside the town. Stay on your target."
+    },
+    {
+      "character": "LOKI",
+      "text": "Ensure my brother does not return. Destroy everything."
+    },
+    {
+      "character": "KID",
+      "text": "Mom?"
+    },
+    {
+      "character": "AGENT",
+      "text": "Is there a Renaissance Fair in town? Call it in."
+    },
+    {
+      "character": "AGENT 2",
+      "text": "Yeah."
+    },
+    {
+      "character": "AGENT",
+      "text": "Base, we've got Xena, Jackie Chan and Robin Hood."
+    },
+    {
+      "character": "ERIK",
+      "text": "It's a beautiful theory, Jane. But you won't be able to convince the scientific community of any of it. Not without hard evidence."
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "Found you!"
+    },
+    {
+      "character": "THOR",
+      "text": "My friends!"
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "This is good! This is good."
+    },
+    {
+      "character": "ERIK",
+      "text": "I don't believe it."
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "Oh, excuse me. Lady Sif and the Warriors Three."
+    },
+    {
+      "character": "THOR",
+      "text": "My friends, I've never been happier to see anyone. But you should not have come."
+    },
+    {
+      "character": "FANDRAL",
+      "text": "We're here to take you home."
+    },
+    {
+      "character": "THOR",
+      "text": "You know I can't go home. My father is dead because of me. And I must remain in exile."
+    },
+    {
+      "character": "SIF",
+      "text": "Thor, your father still lives."
+    },
+    {
+      "character": "HEIMDALL",
+      "text": "Tell me, Loki, how did you get the Jotuns into Asgard?"
+    },
+    {
+      "character": "LOKI",
+      "text": "You think the Bifrost is the only way in and out of this realm? There are secret paths between the worlds to which even you, with all your gifts, are blind. But I have need of them no longer, now that I am king. And I say, for your act of treason, you are relieved of your duties as Gatekeeper, and no longer citizen of Asgard."
+    },
+    {
+      "character": "HEIMDALL",
+      "text": "Then I need no longer obey you."
+    },
+    {
+      "character": "COULSON",
+      "text": "Get somebody from Linguistics down here."
+    },
+    {
+      "character": "DARCY",
+      "text": "Was somebody else coming?"
+    },
+    {
+      "character": "SITWELL",
+      "text": "Is that one of Stark's?"
+    },
+    {
+      "character": "COULSON",
+      "text": "I don't know. The guy never tells me anything. Hello. You are using unregistered weapons technology. Identify yourself Here we go. Incoming!"
+    },
+    {
+      "character": "THOR",
+      "text": "Jane, you have to leave."
+    },
+    {
+      "character": "JANE",
+      "text": "What are you gonna do?"
+    },
+    {
+      "character": "THOR",
+      "text": "I'm staying here."
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "Thor's going to fight with us!"
+    },
+    {
+      "character": "THOR",
+      "text": "My friends, I'm just a man. I'll only be in the way, or worse, get one of you killed. But I can help get these people to safety."
+    },
+    {
+      "character": "JANE",
+      "text": "Well, if you're staying, then so am I."
+    },
+    {
+      "character": "THOR",
+      "text": "We'll need some time."
+    },
+    {
+      "character": "FANDRAL",
+      "text": "You'll have it!"
+    },
+    {
+      "character": "DARCY",
+      "text": "Okay, move it, people!"
+    },
+    {
+      "character": "ERIK",
+      "text": "Everybody out! Use the back door. Go, hurry! You can eat later."
+    },
+    {
+      "character": "SIF",
+      "text": "Keep it distracted."
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "For Asgard!"
+    },
+    {
+      "character": "SIF",
+      "text": "Fall back!"
+    },
+    {
+      "character": "THOR",
+      "text": "Go. Now. Run! Sif. Sif, you've done all you can."
+    },
+    {
+      "character": "SIF",
+      "text": "No. I will die a warrior's death. Stories will be told of this day."
+    },
+    {
+      "character": "THOR",
+      "text": "Live, and tell those stories yourself. Now go. You must return to Asgard. You have to stop Loki."
+    },
+    {
+      "character": "FANDRAL",
+      "text": "What about you?"
+    },
+    {
+      "character": "THOR",
+      "text": "Do not worry, my friends. I have a plan."
+    },
+    {
+      "character": "FANDRAL",
+      "text": "Come on. We need to fall back. Come on. Come on."
+    },
+    {
+      "character": "JANE",
+      "text": "Wait! What's he doing?"
+    },
+    {
+      "character": "THOR",
+      "text": "Brother, whatever I have done to wrong you, whatever I have done to lead you to do this, I am truly sorry. But these people are innocent. Taking their lives will gain you nothing. So take mine and end this."
+    },
+    {
+      "character": "JANE",
+      "text": "No."
+    },
+    {
+      "character": "THOR",
+      "text": "It's over."
+    },
+    {
+      "character": "JANE",
+      "text": "No. it's not over."
+    },
+    {
+      "character": "THOR",
+      "text": "I mean, you're safe."
+    },
+    {
+      "character": "JANE",
+      "text": "We're safe."
+    },
+    {
+      "character": "THOR",
+      "text": "It's over."
+    },
+    {
+      "character": "JANE",
+      "text": "No. No."
+    },
+    {
+      "character": "AGENTS",
+      "text": "We're spiking. Levels increase!"
+    },
+    {
+      "character": "ODIN",
+      "text": "Whosoever holds this hammer, if he be worthy, shall possess the power of Thor."
+    },
+    {
+      "character": "ERIK",
+      "text": "Jane!"
+    },
+    {
+      "character": "JANE",
+      "text": "No. No. No!"
+    },
+    {
+      "character": "ERIK",
+      "text": "Come!"
+    },
+    {
+      "character": "JANE",
+      "text": "Oh. My. God. So, is this how you normally look?"
+    },
+    {
+      "character": "THOR",
+      "text": "More or less."
+    },
+    {
+      "character": "JANE",
+      "text": "It's a good look."
+    },
+    {
+      "character": "THOR",
+      "text": "We must go to the Bifrost site. I would have words with my brother."
+    },
+    {
+      "character": "COULSON",
+      "text": "Excuse me! Donald? I don't think you've been completely honest with me."
+    },
+    {
+      "character": "THOR",
+      "text": "Know this, Son of Coul. You and I, we fight for the same cause, the protection of this world. From this day forward, you can count me as your ally if you return the items you have taken from Jane."
+    },
+    {
+      "character": "JANE",
+      "text": "Stolen."
+    },
+    {
+      "character": "COULSON",
+      "text": "Borrowed. Of course, you can have your equipment back. You're gonna need it to continue your research."
+    },
+    {
+      "character": "THOR",
+      "text": "Would you like to see the bridge we spoke of?"
+    },
+    {
+      "character": "JANE",
+      "text": "Sure."
+    },
+    {
+      "character": "COULSON",
+      "text": "Wait, I need to debrief you!"
+    },
+    {
+      "character": "LOKI",
+      "text": "Welcome to Asgard."
+    },
+    {
+      "character": "THOR",
+      "text": "Heimdall, open the Bifrost. Heimdall? Heimdall! He doesn't answer."
+    },
+    {
+      "character": "HOGUN",
+      "text": "Then we are stranded."
+    },
+    {
+      "character": "THOR",
+      "text": "Heimdall! If you can hear me, we need you now! Heimdall! We need you now! Heimdall! I must go back to Asgard, but I give you my word, I will return for you. Deal?"
+    },
+    {
+      "character": "JANE",
+      "text": "Deal."
+    },
+    {
+      "character": "THOR",
+      "text": "Get him to the healing room! Leave my brother to me."
+    },
+    {
+      "character": "LAUFEY",
+      "text": "It's said you can still hear and see what transpires around you. I hope it's true, so that you may know your death came at the hand of Laufey."
+    },
+    {
+      "character": "LOKI",
+      "text": "And your death came by the son of Odin."
+    },
+    {
+      "character": "FRIGGA",
+      "text": "Loki! You saved him!"
+    },
+    {
+      "character": "LOKI",
+      "text": "I swear to you, Mother, that they will pay for what they've done today."
+    },
+    {
+      "character": "THOR",
+      "text": "Loki."
+    },
+    {
+      "character": "FRIGGA",
+      "text": "Thor! I knew you'd return to us."
+    },
+    {
+      "character": "THOR",
+      "text": "Why don't you tell her how you sent the Destroyer to kill our friends, to kill me?"
+    },
+    {
+      "character": "FRIGGA",
+      "text": "What?"
+    },
+    {
+      "character": "LOKI",
+      "text": "Why, it must have been enforcing Father's last command."
+    },
+    {
+      "character": "THOR",
+      "text": "You're a talented liar, Brother. Always have been."
+    },
+    {
+      "character": "LOKI",
+      "text": "It's good to have you back. Now if you'll excuse me, I have to destroy Jotunheim. You can't stop it. The Bifrost will build until it rips Jotunheim apart."
+    },
+    {
+      "character": "ERIK",
+      "text": "Jane?"
+    },
+    {
+      "character": "THOR",
+      "text": "Why have you done this?"
+    },
+    {
+      "character": "LOKI",
+      "text": "To prove to Father that I am the worthy son. When he wakes, I will have saved his life. I will have destroyed that race of monsters. And I will be true heir to the throne!"
+    },
+    {
+      "character": "THOR",
+      "text": "You can't kill an entire race!"
+    },
+    {
+      "character": "LOKI",
+      "text": "Why not? And what is this newfound love for the Frost Giants? You could have killed them all with your bare hands."
+    },
+    {
+      "character": "THOR",
+      "text": "I've changed."
+    },
+    {
+      "character": "LOKI",
+      "text": "So have I. Now fight me. I never wanted the throne! I only ever wanted to be your equal."
+    },
+    {
+      "character": "THOR",
+      "text": "I will not fight you, Brother!"
+    },
+    {
+      "character": "LOKI",
+      "text": "I'm not your brother. I never was."
+    },
+    {
+      "character": "THOR",
+      "text": "Loki, this is madness."
+    },
+    {
+      "character": "LOKI",
+      "text": "Is it madness? Is it? Is it? Come on. What happened to you on Earth that turned you so soft? Don't tell me it was that woman. Oh! It was! Well, maybe, when we're finished here, I'll pay her a visit myself! Thor! Brother, please."
+    },
+    {
+      "character": "THOR",
+      "text": "Enough!"
+    },
+    {
+      "character": "LOKI",
+      "text": "Look at you, the Mighty Thor, with all your strength, and what good does it do you now, huh? Do you hear me, Brother? There's nothing you can do! What are you doing?If you destroy the bridge, you'll never see her again!"
+    },
+    {
+      "character": "THOR",
+      "text": "Forgive me, Jane."
+    },
+    {
+      "character": "LOKI",
+      "text": "I could have done it, Father! I could have done it! For you! For all of us!"
+    },
+    {
+      "character": "ODIN",
+      "text": "No, Loki."
+    },
+    {
+      "character": "THOR",
+      "text": "Loki, no. No! No."
+    },
+    {
+      "character": "JANE",
+      "text": "It's gone."
+    },
+    {
+      "character": "VOLSATGG",
+      "text": "And then, with a mighty bellow, I flew into the giant metal creature and laid him low!"
+    },
+    {
+      "character": "FANDRAL",
+      "text": "Is that another way of saying you fell on your huge ass?"
+    },
+    {
+      "character": "VOLSTAGG",
+      "text": "As a matter of fact, falling was a tactic lulling the Destroyer..."
+    },
+    {
+      "character": "SIF",
+      "text": "My Queen, I'm so sorry for your loss."
+    },
+    {
+      "character": "FRIGGA",
+      "text": "How is he?"
+    },
+    {
+      "character": "SIF",
+      "text": "He mourns for his brother. And...He misses her. The mortal."
+    },
+    {
+      "character": "ODIN",
+      "text": "You'll be a wise king."
+    },
+    {
+      "character": "THOR",
+      "text": "There will never be a wiser king than you. Or a better father. I have much to learn. I know that now. Someday, perhaps, I shall make you proud."
+    },
+    {
+      "character": "ODIN",
+      "text": "You've already made me proud."
+    },
+    {
+      "character": "THOR",
+      "text": "So Earth is lost to us."
+    },
+    {
+      "character": "HEIMDALL",
+      "text": "No. There is always hope."
+    },
+    {
+      "character": "THOR",
+      "text": "Can you see her?"
+    },
+    {
+      "character": "HEIMDALL",
+      "text": "Yes."
+    },
+    {
+      "character": "ERIK",
+      "text": "I have the particle detectors! Darcy, do you have the S.H.I.E.L.D. satellite codes?"
+    },
+    {
+      "character": "DARCY",
+      "text": "Yeah. Have you seen my taser?"
+    },
+    {
+      "character": "THOR",
+      "text": "How is she?"
+    },
+    {
+      "character": "ERIK",
+      "text": "In the car. Come on, Jane!"
+    },
+    {
+      "character": "HEIMDALL",
+      "text": "She searches for you."
+    },
+    {
+      "character": "FURY",
+      "text": "Dr. Selvig."
+    },
+    {
+      "character": "ERIK",
+      "text": "So you're the man behind all this? It's quite a labyrinth. I was thinking they're taking me down here to kill me."
+    },
+    {
+      "character": "FURY",
+      "text": "I've been hearing about the New Mexico situation. Your work has impressed a lot of people who are much smarter than I am."
+    },
+    {
+      "character": "ERIK",
+      "text": "I have a lot to work with. The Foster Theory. A gateway to another dimension. It's unprecedented. Isn't it?"
+    },
+    {
+      "character": "FURY",
+      "text": "Legend tells us one thing, history, another. But every now and then, we find something that belongs to both."
+    },
+    {
+      "character": "ERIK",
+      "text": "What is it?"
+    },
+    {
+      "character": "FURY",
+      "text": "Power, Doctor. If we can figure out how to tap it, maybe unlimited power."
+    },
+    {
+      "character": "LOKI",
+      "text": "Well, I guess that's worth a look."
+    },
+    {
+      "character": "ERIK",
+      "text": "Well, I guess that's worth a look."
+    }
+  ],
+  "imdbId": "tt0800369",
+  "poster": "https://m.media-amazon.com/images/M/MV5BNjRhNGZjZjEtYTQzYS00OWUxLThjNGEtMTIwMTE2ZDFlZTZkXkEyXkFqcGc@._V1_SX300.jpg",
+  "rated": "PG-13",
+  "runtime": "115 min",
+  "genre": "Action, Fantasy",
+  "director": "Kenneth Branagh",
+  "topSpeakingCast": [
+    "THOR",
+    "JANE",
+    "LOKI",
+    "ODIN",
+    "ERIK",
+    "DARCY",
+    "VOLSTAGG",
+    "HEIMDALL",
+    "SIF",
+    "LAUFEY",
+    "FANDRAL"
+  ]
+}

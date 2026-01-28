@@ -1,0 +1,272 @@
+/* Completion Page Overhaul */
+#share-container {
+  flex: 1;
+  display: flex !important;
+  /* Force flex since we use it to structure the page */
+  flex-direction: column;
+  justify-content: flex-start;
+  /* Tighter layout - no push to bottom */
+  width: 100%;
+}
+
+/* Scene toggle button for reveal/hide script area */
+.scene-toggle {
+  font-family: var(--font-mono) !important;
+  font-size: 1rem !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  color: var(--primary-color) !important;
+  background: transparent !important;
+  border: none !important;
+  cursor: pointer;
+  padding: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.25rem !important;
+  text-decoration: none !important;
+  transition: opacity var(--transition-base) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  font-style: normal !important;
+}
+
+.scene-toggle:hover {
+  opacity: 0.7 !important;
+  filter: none !important;
+  transform: none !important;
+  background: transparent !important;
+}
+
+.scene-toggle-text {
+  text-decoration: underline;
+}
+
+.scene-toggle .caret {
+  font-size: 0.7rem;
+  margin-left: 0.25rem;
+  text-decoration: none;
+}
+
+.completion-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  /* Reduced from 2rem */
+  width: 100%;
+  padding-bottom: 1rem;
+  /* Reduced from 2rem */
+}
+
+.completion-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.completion-title {
+  font-size: 1.5rem;
+  /* Reduced from 2rem */
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--primary-color);
+  line-height: 1.2;
+}
+
+.completion-answer {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  color: var(--primary-color);
+  margin-top: 0.5rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.completion-answer strong {
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.completion-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+/* Badge in the middle of the row */
+.completion-flower {
+  width: 80px;
+  height: 80px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* Removed popIn (moved to wrapper) */
+  flex-shrink: 0;
+  /* Add sway animation and shadow */
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+  animation: sway 4s ease-in-out infinite;
+  transform-origin: center center;
+}
+
+.completion-badge-wrapper {
+  animation: popIn 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.completion-flower.emoji-badge {
+  font-size: 3rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+
+/* Stats boxes */
+.stat-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  /* Square, match flower rough size */
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-2xl);
+  padding: 0.5rem;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  font-family: var(--font-mono);
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.stat-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-primary);
+  /* Darker for legibility */
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.share-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+#share-btn {
+  /* Inherit standard button styles from main.css */
+  width: auto;
+  min-width: 200px;
+}
+
+/* Footer Section */
+.completion-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: auto;
+  /* Push to bottom of flex container */
+  padding-top: 2rem;
+  border-top: none;
+  padding-bottom: 2rem;
+  /* Add some breathing room at very bottom */
+}
+
+/* Adjust countdown for footer context */
+#countdown-wrapper .countdown-container {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+#countdown-wrapper .countdown-label {
+  color: var(--text-muted) !important;
+  font-size: 0.75rem !important;
+  margin-bottom: 0.25rem !important;
+}
+
+#countdown-wrapper .timer-display {
+  color: var(--text-primary) !important;
+  font-size: 1.5rem !important;
+}
+
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes sway {
+
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-5deg);
+  }
+
+  75% {
+    transform: rotate(5deg);
+  }
+}
+
+/* Confetti element */
+.confetti {
+  pointer-events: none;
+  position: fixed;
+  z-index: 9999;
+}
+
+/* Mobile adjustments */
+@media (max-width: 400px) {
+  .completion-row {
+    gap: 0.75rem;
+  }
+
+  .stat-box {
+    width: 75px;
+    height: 75px;
+  }
+
+  .completion-flower {
+    width: 70px;
+    height: 70px;
+  }
+
+  .stat-value {
+    font-size: 1.25rem;
+  }
+}

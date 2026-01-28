@@ -1,0 +1,3495 @@
+{
+  "id": "inside-out",
+  "title": "Inside Out",
+  "year": null,
+  "characters": [
+    "ABSTRACT THOUGHT",
+    "ANGER",
+    "BING BONG",
+    "BOTH",
+    "BRAZILIAN HELICOPTER PILOT",
+    "BUS DRIVER'S RED ANGER",
+    "CLOUD MAN",
+    "COACH",
+    "COOL GIRL",
+    "COOL GIRL'S ANGER",
+    "COOL GIRL'S FEAR",
+    "COOL GIRL'S SADNESS",
+    "DAD",
+    "DAD'S ANGER",
+    "DAD'S FEAR",
+    "DAD’S ANGER",
+    "DAD’S FEAR",
+    "DIRECTOR",
+    "DISGUST",
+    "DOG'S DISGUST",
+    "DOG'S FEAR",
+    "DOG'S JOY",
+    "DREAM DIRECTOR",
+    "DREAM PRODUCTIONS COP #1",
+    "DREAM STUDENT #2",
+    "EMOTIONS",
+    "EXTRA",
+    "FEAR",
+    "FEAR AND SADNESS",
+    "FEAR/ANGER/DISGUST",
+    "FEAR/ANGER/DISGUST/SADNESS",
+    "FEAR/DISGUST/ANGER",
+    "HOCKEY COACH",
+    "HOCKEY TEAMMATE",
+    "IMAGINARY BOYFRIEND",
+    "JANGLES",
+    "JANGLES' JOY",
+    "JORDAN",
+    "JOY",
+    "JOY, SADNESS",
+    "JOY, SADNESS, DISGUST",
+    "MEMORY MR. ANDERSEN",
+    "MIND WORKER",
+    "MOM",
+    "MOM'S ANGER",
+    "MOM'S DISGUST",
+    "MOM'S SADNESS",
+    "MOM’S ANGER",
+    "MOM’S FEAR",
+    "MOM’S SADNESS",
+    "MOUSE",
+    "MR ANDERSON",
+    "MR. ANDERSEN",
+    "MRS. ANDERSEN",
+    "PIZZA BEAR",
+    "PIZZA GIRL",
+    "PIZZA GIRL'S ANGER",
+    "PIZZA GIRL'S DISGUST",
+    "PIZZA GIRL'S FEAR",
+    "PIZZA GIRL'S JOY",
+    "PIZZA SLICE",
+    "RILEY",
+    "RILEY VOICE",
+    "SADNESS",
+    "SADNESS, ANGER, FEAR, DISGUST",
+    "SADNESS/FEAR/ANGER/DISGUST",
+    "STUDENT #1",
+    "SUBCONSCIOUS GUARD DAVE",
+    "SUBCONSCIOUS GUARD FRANK",
+    "TEACHER",
+    "TEACHER'S DISGUST",
+    "TEACHER'S JOY",
+    "TEACHER'S SADNESS",
+    "TRAIN ENGINEER",
+    "WORKER",
+    "WORKER #1",
+    "WORKER FRITZ",
+    "YOUNG RILEY"
+  ],
+  "lines": [
+    {
+      "character": "JOY",
+      "text": "Do you ever look at someone and wonder, \"What is going on inside their head?\" Well, I know. ...Well, I know Riley's head."
+    },
+    {
+      "character": "JOY",
+      "text": "And there she was..."
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Hello, Riley."
+    },
+    {
+      "character": "MR. ANDERSEN",
+      "text": "Oh, look at you. Aren't you a little bundle of joy?"
+    },
+    {
+      "character": "MEMORY MR. ANDERSEN",
+      "text": "Aren't you a little bundle of joy?"
+    },
+    {
+      "character": "JOY",
+      "text": "It was amazing. Just Riley and me... Forever."
+    },
+    {
+      "character": "JOY",
+      "text": "Er, for thirty three seconds."
+    },
+    {
+      "character": "SADNESS",
+      "text": "I'm Sadness."
+    },
+    {
+      "character": "JOY",
+      "text": "Oh, hello. I... I'm Joy. So... Can I just... If you could... I just want to fix that. Thanks."
+    },
+    {
+      "character": "JOY",
+      "text": "And that was just the beginning. Headquarters only got more crowded from there."
+    },
+    {
+      "character": "FEAR",
+      "text": "Very nice. Okay, looks like you got this. Very good."
+    },
+    {
+      "character": "FEAR",
+      "text": "Whoa, sharp turn! NO, LOOK OUT! NO!"
+    },
+    {
+      "character": "JOY",
+      "text": "That's Fear. He's really good at keeping Riley safe."
+    },
+    {
+      "character": "FEAR",
+      "text": "Easy, easy. AGH! OH MY! Oh, we're good. We're good."
+    },
+    {
+      "character": "JOY",
+      "text": "Whew!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Good job."
+    },
+    {
+      "character": "FEAR",
+      "text": "Thank you. Thank you very much."
+    },
+    {
+      "character": "JOY",
+      "text": "And we're back!"
+    },
+    {
+      "character": "YOUNG RILEY",
+      "text": "Oh!"
+    },
+    {
+      "character": "MR. ANDERSEN",
+      "text": "Here we go. All right, open."
+    },
+    {
+      "character": "JOY",
+      "text": "Hmm. This looks new."
+    },
+    {
+      "character": "FEAR",
+      "text": "You think it's safe?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "What is it?"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Okay, caution! There is a dangerous smell, people! Hold on. What is that?"
+    },
+    {
+      "character": "JOY",
+      "text": "This is Disgust. She basically keeps Riley from being poisoned. Physically and socially."
+    },
+    {
+      "character": "DISGUST",
+      "text": "That is not brightly colored or shaped like a dinosaur. Hold on, guys. It's broccoli!"
+    },
+    {
+      "character": "YOUNG RILEY",
+      "text": "YUCKY!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Well, I just saved our lives."
+    },
+    {
+      "character": "FEAR AND SADNESS",
+      "text": "Whew!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Yeah. You're welcome."
+    },
+    {
+      "character": "MR. ANDERSEN",
+      "text": "Riley, if you don't eat your dinner, you're not gonna get any dessert."
+    },
+    {
+      "character": "ANGER",
+      "text": "Wait. Did he just say we couldn't have dessert?"
+    },
+    {
+      "character": "JOY",
+      "text": "That's Anger. He cares very deeply about things being fair."
+    },
+    {
+      "character": "ANGER",
+      "text": "So that's how you want to play it, old man?! No dessert?! Oh, sure. We'll eat our dinner! Right after YOU eat THIS!"
+    },
+    {
+      "character": "MR. ANDERSEN",
+      "text": "Riley, Riley, here comes an airplane!"
+    },
+    {
+      "character": "ANGER",
+      "text": "Oh, airplane. We got an airplane, everybody."
+    },
+    {
+      "character": "JOY, SADNESS, DISGUST",
+      "text": "Oh!"
+    },
+    {
+      "character": "FEAR",
+      "text": "Airplane."
+    },
+    {
+      "character": "JOY",
+      "text": "And you've met Sadness. She... Well, she... I'm not actually sure what she does."
+    },
+    {
+      "character": "JOY",
+      "text": "And I've checked, there's no place for her to go, so... She's good, we're good. It's all great!"
+    },
+    {
+      "character": "JOY",
+      "text": "Anyway, these are Riley's Memories, and they're mostly happy, you'll notice. Not to brag."
+    },
+    {
+      "character": "JOY",
+      "text": "But the really important ones are over here."
+    },
+    {
+      "character": "JOY",
+      "text": "I don't want to get too technical, but these are called Core Memories. Each one came from a super important time in Riley's life. Uh, like when she first scored a goal?"
+    },
+    {
+      "character": "JOY",
+      "text": "Oh, that was so amazing!"
+    },
+    {
+      "character": "MR. ANDERSEN",
+      "text": "Hey! Would you look at that? Very nice! We got a future center here!"
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Nice job!"
+    },
+    {
+      "character": "JOY",
+      "text": "And each Core Memory powers a different aspect of Riley's personality. Like... Hockey Island!"
+    },
+    {
+      "character": "JOY",
+      "text": "Goofball Island is my personal favorite."
+    },
+    {
+      "character": "MR. ANDERSEN",
+      "text": "Ah, come back here, you little monkey!"
+    },
+    {
+      "character": "MR. ANDERSEN",
+      "text": "Oh, you're silly!"
+    },
+    {
+      "character": "JOY",
+      "text": "Yep, Goofball is the best."
+    },
+    {
+      "character": "JOY",
+      "text": "Friendship Island is pretty good too."
+    },
+    {
+      "character": "JOY",
+      "text": "Oh, I love Honesty Island. And that's the truth!"
+    },
+    {
+      "character": "JOY",
+      "text": "And of course, Family Island is amazing!"
+    },
+    {
+      "character": "JOY",
+      "text": "The point is, the Islands of Personality are what make Riley... Riley!"
+    },
+    {
+      "character": "YOUNG RILEY",
+      "text": "Look out, mermaid!"
+    },
+    {
+      "character": "YOUNG RILEY",
+      "text": "Lava! Whee!"
+    },
+    {
+      "character": "YOUNG RILEY",
+      "text": "♪ Who's your friend who likes to play? Bing Bong, Bing Bong! ♪"
+    },
+    {
+      "character": "MR. ANDERSEN",
+      "text": "Hey! Very nice!"
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Where'd you learn that?"
+    },
+    {
+      "character": "RILEY",
+      "text": "Ahhh!!!"
+    },
+    {
+      "character": "FEAR",
+      "text": "BRAIN FREEZE!!!"
+    },
+    {
+      "character": "RILEY",
+      "text": "Yeah!"
+    },
+    {
+      "character": "JOY",
+      "text": "Yay!"
+    },
+    {
+      "character": "MR. ANDERSEN",
+      "text": "Good night, kiddo."
+    },
+    {
+      "character": "RILEY",
+      "text": "Good night, Dad."
+    },
+    {
+      "character": "JOY",
+      "text": "And... we're out."
+    },
+    {
+      "character": "JOY",
+      "text": "That's what I'm talking about! Whoo! Another perfect day! Nice job, everybody! Let's get those memories down to Long Term."
+    },
+    {
+      "character": "FEAR",
+      "text": "All right, we did not die today! I call that an unqualified success."
+    },
+    {
+      "character": "JOY",
+      "text": "And that's it. We love our girl. She's got great friends and a great house. Things couldn't be better. After all, Riley's 11 now. What could happen?"
+    },
+    {
+      "character": "JOY",
+      "text": "What...?"
+    },
+    {
+      "character": "SADNESS, ANGER, FEAR, DISGUST",
+      "text": "AAUGH!!!"
+    },
+    {
+      "character": "SADNESS, ANGER, FEAR, DISGUST",
+      "text": "AAUGH!!!"
+    },
+    {
+      "character": "JOY",
+      "text": "Okay, not what I had in mind."
+    },
+    {
+      "character": "SADNESS, ANGER, FEAR, DISGUST",
+      "text": "AAUGH!!!"
+    },
+    {
+      "character": "JOY",
+      "text": "Hey look! The Golden Gate Bridge! Isn’t that great?! It’s not made out of solid gold like we thought, which is kind of a disappointment, but still!"
+    },
+    {
+      "character": "FEAR",
+      "text": "I sure am glad you told me earthquakes are a myth, Joy. Otherwise I’d be terrified right now!"
+    },
+    {
+      "character": "JOY",
+      "text": "Uh... yeah."
+    },
+    {
+      "character": "ANGER",
+      "text": "These are my kind of people!"
+    },
+    {
+      "character": "DAD",
+      "text": "All right, just a few more blocks. We’re almost to our new house!"
+    },
+    {
+      "character": "ANGER",
+      "text": "Step on it, Daddy!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Why don't we just live in this smelly car? We've already been in it forever."
+    },
+    {
+      "character": "JOY",
+      "text": "Which, actually, was really lucky, because that gave us plenty of time to think about what our new house is going to look like! Let’s review the top five daydreams."
+    },
+    {
+      "character": "FEAR",
+      "text": "Ooh! That looks safe!"
+    },
+    {
+      "character": "JOY",
+      "text": "Ohh, this is will be great for Riley! Oh, no, no, no, THIS one. A gingerbread house."
+    },
+    {
+      "character": "DISGUST",
+      "text": "Ugh, Joy. For the last time, she cannot live in a cookie. A castle."
+    },
+    {
+      "character": "ANGER",
+      "text": "THAT’S the one! It comes with a dragon!"
+    },
+    {
+      "character": "JOY",
+      "text": "Now we’re getting close, I can feel it. Here it is, here’s our new house... and..."
+    },
+    {
+      "character": "JOY",
+      "text": "Maybe it’s nice on the inside."
+    },
+    {
+      "character": "ANGER",
+      "text": "We’re supposed to live here?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Do we have to?"
+    },
+    {
+      "character": "DISGUST",
+      "text": "I’m telling you, it smells like something died in here."
+    },
+    {
+      "character": "FEAR",
+      "text": "Can you die from moving?"
+    },
+    {
+      "character": "JOY",
+      "text": "Guys, you’re overreacting. Nobody is dying--"
+    },
+    {
+      "character": "DISGUST",
+      "text": "A DEAD MOUSE!!!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "I’m gonna be sick..."
+    },
+    {
+      "character": "ANGER",
+      "text": "Great, this is just great."
+    },
+    {
+      "character": "FEAR",
+      "text": "Ahhhhh!! It’s the house of the dead! What are we gonna do?! We’re gonna get rabies!!!"
+    },
+    {
+      "character": "ANGER",
+      "text": "GET OFFA ME!!!"
+    },
+    {
+      "character": "JOY",
+      "text": "Hey, hey, hey, all through the drive Dad talked about how cool our new room is. Let’s go check it out!"
+    },
+    {
+      "character": "FEAR/ANGER/DISGUST",
+      "text": "You’re right, Joy/Yeah!/That’s right!/Yes, yes, yes!"
+    },
+    {
+      "character": "FEAR/DISGUST/ANGER",
+      "text": "No, no, no, no, no./I’m starting to envy the dead mouse./Get out the rubber ball, we’re in solitary confinement."
+    },
+    {
+      "character": "SADNESS",
+      "text": "Oh, Riley can’t live here."
+    },
+    {
+      "character": "ANGER",
+      "text": "She's right."
+    },
+    {
+      "character": "FEAR",
+      "text": "Really bad."
+    },
+    {
+      "character": "DISGUST",
+      "text": "It’s the worst. It’s absolutely the worst."
+    },
+    {
+      "character": "ANGER",
+      "text": "This house stinks."
+    },
+    {
+      "character": "JOY",
+      "text": "Hey, it’s nothing our butterfly curtains couldn’t fix. I read somewhere that an empty room is an"
+    },
+    {
+      "character": "FEAR/DISGUST/ANGER",
+      "text": "No, no, no, no, no./I’m starting to envy the dead mouse./Get out the rubber ball, we’re in solitary confinement."
+    },
+    {
+      "character": "SADNESS",
+      "text": "Oh, Riley can’t live here."
+    },
+    {
+      "character": "ANGER",
+      "text": "She's right."
+    },
+    {
+      "character": "FEAR",
+      "text": "Really bad."
+    },
+    {
+      "character": "DISGUST",
+      "text": "It’s the worst. It’s absolutely the worst."
+    },
+    {
+      "character": "ANGER",
+      "text": "This house stinks."
+    },
+    {
+      "character": "JOY",
+      "text": "Hey, it’s nothing our butterfly curtains couldn’t fix. I read somewhere that an empty room is an opportunity."
+    },
+    {
+      "character": "ANGER",
+      "text": "Where did you read that?"
+    },
+    {
+      "character": "JOY",
+      "text": "It doesn’t matter. I read it and it’s great. We’ll put the bed there. And the desk over there..."
+    },
+    {
+      "character": "FEAR",
+      "text": "The hockey lamp goes there..."
+    },
+    {
+      "character": "ANGER",
+      "text": "Put the chair there."
+    },
+    {
+      "character": "DISGUST",
+      "text": "Well, the trophy collection goes there."
+    },
+    {
+      "character": "SADNESS",
+      "text": "Posters..."
+    },
+    {
+      "character": "FEAR",
+      "text": "Stars! I like that."
+    },
+    {
+      "character": "JOY",
+      "text": "Now we’re talking! Let’s go get our stuff from the moving van!"
+    },
+    {
+      "character": "DAD",
+      "text": "Alright. Goodbye. Well, guess what? The moving van won’t be here until Thursday."
+    },
+    {
+      "character": "MOM",
+      "text": "You’re kidding."
+    },
+    {
+      "character": "FEAR",
+      "text": "The van is lost?! This is the worst day ever!"
+    },
+    {
+      "character": "MOM",
+      "text": "You said it would be here yesterday!"
+    },
+    {
+      "character": "DAD",
+      "text": "I know that’s what I said. * That’s what they told me!"
+    },
+    {
+      "character": "FEAR",
+      "text": "Mom and Dad are stressed out!"
+    },
+    {
+      "character": "FEAR/ANGER/DISGUST/SADNESS",
+      "text": "They’re arguing!/What are we going to do?/This is so stressful./What is their problem?"
+    },
+    {
+      "character": "JOY",
+      "text": "I’ve got a great idea!"
+    },
+    {
+      "character": "MOM",
+      "text": "Did you even read the contract?"
+    },
+    {
+      "character": "DAD",
+      "text": "Honey, you act like this is my fault-- *"
+    },
+    {
+      "character": "RILEY",
+      "text": "Andersen makes her move. She's closing in!"
+    },
+    {
+      "character": "DAD",
+      "text": "Hey! Oh, no you’re not!"
+    },
+    {
+      "character": "RILEY",
+      "text": "She’s lining up for the shot!"
+    },
+    {
+      "character": "DAD",
+      "text": "Coming behind you! Watch out!"
+    },
+    {
+      "character": "RILEY",
+      "text": "She shoots and she scores! Yeah!"
+    },
+    {
+      "character": "RILEY",
+      "text": "Come on, Grandma!"
+    },
+    {
+      "character": "MOM",
+      "text": "Ha! “Grandma?”"
+    },
+    {
+      "character": "JOY",
+      "text": "Uh-oh, she put her hair up, we’re in for it!"
+    },
+    {
+      "character": "MOM",
+      "text": "Woo! Hey, put me down!"
+    },
+    {
+      "character": "DAD",
+      "text": "Ugh. Sorry, hold on, hold on."
+    },
+    {
+      "character": "DAD",
+      "text": "Hello?"
+    },
+    {
+      "character": "JOY",
+      "text": "Wait. Wha--?"
+    },
+    {
+      "character": "DAD",
+      "text": "You’re kidding. All right. Stall for me, I’ll be right there. The investor’s supposed to show up on Thursday, not today! I gotta go."
+    },
+    {
+      "character": "MOM",
+      "text": "It's okay. We get it."
+    },
+    {
+      "character": "DAD",
+      "text": "You’re the best. Thanks, Hon. See you, Sweetie."
+    },
+    {
+      "character": "FEAR",
+      "text": "Dad just left us."
+    },
+    {
+      "character": "SADNESS",
+      "text": "Oh, he doesn’t love us anymore. That’s sad. I should drive, right?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Joy? What are you doing?"
+    },
+    {
+      "character": "JOY",
+      "text": "Uh, just uh, gimme one second... You know what I’ve realized? Riley hasn’t had lunch!"
+    },
+    {
+      "character": "JOY",
+      "text": "Remember?"
+    },
+    {
+      "character": "RILEY",
+      "text": "Hey I saw a pizza place down the street. Maybe we could try that?"
+    },
+    {
+      "character": "MOM",
+      "text": "Pizza sounds delicious!"
+    },
+    {
+      "character": "FEAR",
+      "text": "Yeah!"
+    },
+    {
+      "character": "ANGER",
+      "text": "Pizza!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Good idea, Joy."
+    },
+    {
+      "character": "FEAR",
+      "text": "What the HECK IS THAT?!"
+    },
+    {
+      "character": "JOY",
+      "text": "Who puts broccoli on pizza?"
+    },
+    {
+      "character": "DISGUST",
+      "text": "That’s it. I’m done."
+    },
+    {
+      "character": "ANGER",
+      "text": "Congratulations, San Francisco, you’ve ruined pizza! First the Hawaiians, and now YOU!"
+    },
+    {
+      "character": "MOM",
+      "text": "What kind of a pizza place only serves one kind of pizza? Must be a San Francisco thing, huh?"
+    },
+    {
+      "character": "MOM",
+      "text": "Still, it’s not as bad as the soup at that diner in Nebraska."
+    },
+    {
+      "character": "RILEY",
+      "text": "Oh yeah. The spoon stood up in the soup by itself! That was disgusting."
+    },
+    {
+      "character": "JOY",
+      "text": "Oh good. Family is running."
+    },
+    {
+      "character": "MOM",
+      "text": "The drive out was pretty fun, huh? What was your favorite part?"
+    },
+    {
+      "character": "ANGER",
+      "text": "Spitting out the car window!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Definitely not when Dad was singing."
+    },
+    {
+      "character": "FEAR",
+      "text": "Wearing a seat belt!"
+    },
+    {
+      "character": "JOY",
+      "text": "What about the time with the dinosaur!"
+    },
+    {
+      "character": "SADNESS/FEAR/ANGER/DISGUST",
+      "text": "Yeah./Yup./That’s the one."
+    },
+    {
+      "character": "DAD",
+      "text": "Say cheese!"
+    },
+    {
+      "character": "RILEY",
+      "text": "Dad! Dad! Look behind you."
+    },
+    {
+      "character": "MOM",
+      "text": "Honey. The car! The car!"
+    },
+    {
+      "character": "DAD",
+      "text": "Hold still. Huh? Stoooop! No no no nononono!!"
+    },
+    {
+      "character": "FEAR",
+      "text": "Nice one, Joy."
+    },
+    {
+      "character": "RILEY",
+      "text": "I liked that time at the dinosaur. That was pretty funny."
+    },
+    {
+      "character": "JOY",
+      "text": "Wait. What? What happened?"
+    },
+    {
+      "character": "FEAR",
+      "text": "She did something to the memory."
+    },
+    {
+      "character": "JOY",
+      "text": "What did you do?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "I just touched it."
+    },
+    {
+      "character": "JOY",
+      "text": "That shouldn’t make it change."
+    },
+    {
+      "character": "FEAR",
+      "text": "Change it back, Joy!"
+    },
+    {
+      "character": "JOY",
+      "text": "I’m trying."
+    },
+    {
+      "character": "ANGER",
+      "text": "You can’t change it back?"
+    },
+    {
+      "character": "JOY",
+      "text": "No, I guess I can’t!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Good going Sadness. Now when Riley thinks of that moment with Dad, she’s gonna feel sad. Bravo."
+    },
+    {
+      "character": "SADNESS",
+      "text": "I’m sorry Joy... I don’t really know-- I thought maybe, if you-- if I-- if... I mean..."
+    },
+    {
+      "character": "DISGUST",
+      "text": "Joy, we've got a stairway coming up."
+    },
+    {
+      "character": "JOY",
+      "text": "Just don’t touch any other memories until we figure out what’s going on."
+    },
+    {
+      "character": "SADNESS",
+      "text": "Okay."
+    },
+    {
+      "character": "JOY",
+      "text": "Alright. Get ready, this is a monster railing, and we are riding it all the way down!"
+    },
+    {
+      "character": "JOY",
+      "text": "Wait, what? What happened?"
+    },
+    {
+      "character": "FEAR",
+      "text": "A core memory!"
+    },
+    {
+      "character": "JOY",
+      "text": "Oh no!"
+    },
+    {
+      "character": "JOY",
+      "text": "Sadness! What are you doing?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "It looked like one was crooked so I opened it and then it fell out!"
+    },
+    {
+      "character": "RILEY",
+      "text": "Woo hoo!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "It’s just that... I wanted to maybe hold one."
+    },
+    {
+      "character": "FEAR",
+      "text": "JOY!"
+    },
+    {
+      "character": "JOY",
+      "text": "Whoa, whoa, whoa!"
+    },
+    {
+      "character": "JOY",
+      "text": "Sadness! You nearly touched a core memory. And when you touch them, we can’t change them back!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "I know. I’m sorry. Something’s wrong with me. It’s like I’m having a breakdown."
+    },
+    {
+      "character": "JOY",
+      "text": "You are not having a breakdown. It’s stress."
+    },
+    {
+      "character": "SADNESS",
+      "text": "I keep making mistakes like that. I’m awful..."
+    },
+    {
+      "character": "JOY",
+      "text": "Nooo, you’re not."
+    },
+    {
+      "character": "SADNESS",
+      "text": "...and annoying."
+    },
+    {
+      "character": "JOY",
+      "text": "Well... uh... You know what? You can’t focus on what’s going wrong. There’s always a way to turn things around, to find the fun!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Yeah. Find the fun. I don’t know how to do that."
+    },
+    {
+      "character": "JOY",
+      "text": "Okay. Well, try to think of something funny!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Oh! Remember the funny movie where the dog dies?"
+    },
+    {
+      "character": "JOY",
+      "text": "Yeah, that’s not... What about that time with Meg, when Riley laughed so hard milk came out of her nose? I mean come on..."
+    },
+    {
+      "character": "SADNESS",
+      "text": "Yeah, that hurt. It felt like fire."
+    },
+    {
+      "character": "JOY",
+      "text": "Okay, okay, don’t think of that. Let’s try something else. What are your favorite things to do?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "My favorite? Um, well, I like it when we’re outside."
+    },
+    {
+      "character": "JOY",
+      "text": "That’s good! Like there’s the beach and sunshine... Oh! Like that time we buried Dad in the sand up to his neck?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "I was thinking more like rain."
+    },
+    {
+      "character": "JOY",
+      "text": "Rain? Rain... is my favorite too! We can stomp around in puddles..."
+    },
+    {
+      "character": "JOY",
+      "text": "There’s cool umbrellas, lightning storms..."
+    },
+    {
+      "character": "SADNESS",
+      "text": "More like when the rain runs down our back and makes our shoes soggy. And we get all cold and shivery..."
+    },
+    {
+      "character": "SADNESS",
+      "text": "...and everything just starts feeling droopy..."
+    },
+    {
+      "character": "JOY",
+      "text": "Oh, hey, hey... easy. Why are you crying? That’s really the opposite of what we’re going for here."
+    },
+    {
+      "character": "SADNESS",
+      "text": "Crying helps me slow down and obsess over the weight of life's problems."
+    },
+    {
+      "character": "JOY",
+      "text": "Ugh, you know what? Let’s think about something else. How about we read some mind manuals, huh? Sounds fun!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "I’ve read most of them."
+    },
+    {
+      "character": "JOY",
+      "text": "Well have you read this one? This seems interesting: “Long-Term Memory Retrieval, Volume 47?”"
+    },
+    {
+      "character": "SADNESS",
+      "text": "No."
+    },
+    {
+      "character": "JOY",
+      "text": "Ohhh! A real page turner!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Long-Term Memory Data Selection via channel sub-grouping?"
+    },
+    {
+      "character": "JOY",
+      "text": "See? Fun already! You lucky dog, you’re reading these cool things and I gotta go work. Life is so unfair."
+    },
+    {
+      "character": "RILEY",
+      "text": "Mom! Dad! Come kiss me g’night!"
+    },
+    {
+      "character": "MOM",
+      "text": "Be right there!"
+    },
+    {
+      "character": "DAD",
+      "text": "I know, I know! We’ve got to land this, okay?"
+    },
+    {
+      "character": "FEAR",
+      "text": "Did you hear Dad? He sounded really upset."
+    },
+    {
+      "character": "FEAR",
+      "text": "What was that? Was it a bear? It’s a bear!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "There are no bears in San Francisco!"
+    },
+    {
+      "character": "ANGER",
+      "text": "I saw a really hairy guy. He looked like a bear."
+    },
+    {
+      "character": "FEAR",
+      "text": "Oh, I’m so jumpy, my nerves are shot!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Ew, I don’t want to hear about your nerves!"
+    },
+    {
+      "character": "ANGER",
+      "text": "I’ll tell you what it is. This move has been a bust."
+    },
+    {
+      "character": "FEAR",
+      "text": "That’s what I’ve been telling you guys! There are at least 37 things for Riley to be scared of right now!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "The smell alone is enough to make her gag."
+    },
+    {
+      "character": "ANGER",
+      "text": "I can’t believe Mom and Dad moved us here!"
+    },
+    {
+      "character": "JOY",
+      "text": "Look, I get it. You guys have concerns. But we’ve been through worse! Tell you what: let’s make a list of all the things Riley should be HAPPY about!"
+    },
+    {
+      "character": "ANGER",
+      "text": "Fine. Let’s see... this house stinks, our room stinks..."
+    },
+    {
+      "character": "DISGUST",
+      "text": "Pizza is weird here..."
+    },
+    {
+      "character": "SADNESS",
+      "text": "Our friends are back home..."
+    },
+    {
+      "character": "FEAR",
+      "text": "And all of our stuff is in the missing van!"
+    },
+    {
+      "character": "JOY",
+      "text": "Oh c’mon, it could be worse..."
+    },
+    {
+      "character": "DISGUST",
+      "text": "Yeah, Joy. We could be lying on the dirty floor. In a bag."
+    },
+    {
+      "character": "JOY",
+      "text": "Okay, I admit it, we had a rough start. But think of all the good things that--"
+    },
+    {
+      "character": "ANGER",
+      "text": "No, Joy. There’s absolutely no reason for Riley to be happy right now. Let us handle this."
+    },
+    {
+      "character": "FEAR",
+      "text": "I say we skip school tomorrow and lock ourselves in the bedroom."
+    },
+    {
+      "character": "DISGUST",
+      "text": "We have no clean clothes. I mean, no one should see us."
+    },
+    {
+      "character": "SADNESS",
+      "text": "Yeah, we could cry until we can’t breathe."
+    },
+    {
+      "character": "ANGER",
+      "text": "We should lock the door and scream that curse word we know. It’s a good one!"
+    },
+    {
+      "character": "JOY",
+      "text": "Now hold on! Look, we all have our off days. You know, I--"
+    },
+    {
+      "character": "MOM",
+      "text": "Hi honey."
+    },
+    {
+      "character": "ANGER",
+      "text": "The Mom Bad News Train is pulling in! Toot toot!"
+    },
+    {
+      "character": "MOM",
+      "text": "Still no moving van. Now they’re saying it won’t be here ‘til Tuesday, can you believe it?"
+    },
+    {
+      "character": "ANGER",
+      "text": "Toot toot toot!"
+    },
+    {
+      "character": "RILEY",
+      "text": "Where’s Dad?"
+    },
+    {
+      "character": "MOM",
+      "text": "On the phone. This new venture is keeping him pretty busy. Your dad’s a little stressed -- you know, about getting his new company up and running..."
+    },
+    {
+      "character": "ANGER",
+      "text": "I rest my case!"
+    },
+    {
+      "character": "ANGER",
+      "text": "Now for a few well-placed withering scowls."
+    },
+    {
+      "character": "MOM",
+      "text": "I guess all I really want to say is: thank you."
+    },
+    {
+      "character": "ANGER",
+      "text": "Huh?"
+    },
+    {
+      "character": "MOM",
+      "text": "You know, through all this confusion you’ve stayed... well, you’ve stayed our happy girl!"
+    },
+    {
+      "character": "MOM",
+      "text": "Your dad’s under a lot of pressure. But if you and I can keep smiling, it would be a big help. We can do that for him, right?"
+    },
+    {
+      "character": "JOY",
+      "text": "Whoa! Well."
+    },
+    {
+      "character": "RILEY",
+      "text": "Yeah! Sure."
+    },
+    {
+      "character": "MOM",
+      "text": "What did we do to deserve you? Sweet dreams."
+    },
+    {
+      "character": "RILEY",
+      "text": "Good night."
+    },
+    {
+      "character": "ANGER",
+      "text": "Well, you can’t argue with Mom. “Happy” it is."
+    },
+    {
+      "character": "FEAR",
+      "text": "Team Happy! Sounds great!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "I’m totally behind you, Joy."
+    },
+    {
+      "character": "JOY",
+      "text": "Looks like we’re going into REM. I got Dream Duty, so I’ll take care of sending these to Long Term. Great day today, guys! Sleep well TEAM HAPPY!"
+    },
+    {
+      "character": "JOY",
+      "text": "Alright, what's on tonight, Dream Production?"
+    },
+    {
+      "character": "DAD",
+      "text": "Well, this is it. The new place."
+    },
+    {
+      "character": "MOUSE",
+      "text": "Come live with me, Riley!"
+    },
+    {
+      "character": "PIZZA BEAR",
+      "text": "Somebody order a broccoli pizza?"
+    },
+    {
+      "character": "PIZZA SLICE",
+      "text": "Eat me! I’m organic!"
+    },
+    {
+      "character": "JOY",
+      "text": "Ah, NO, who is in charge of programming down there?! I know I’m not supposed to do this, but..."
+    },
+    {
+      "character": "JOY",
+      "text": "We are not going to end the day like this."
+    },
+    {
+      "character": "PIZZA SLICE",
+      "text": "Eat me! I’m organic!"
+    },
+    {
+      "character": "JOY",
+      "text": "Ah, NO, who is in charge of programming down there?! I know I’m not supposed to do this, but..."
+    },
+    {
+      "character": "JOY",
+      "text": "We are not going to end the day like this."
+    },
+    {
+      "character": "JOY",
+      "text": "Don’t you worry. I’m gonna make sure that tomorrow is another great day. I promise."
+    },
+    {
+      "character": "JOY",
+      "text": "Hello, did I wake you?"
+    },
+    {
+      "character": "ANGER",
+      "text": "Are you sure you have to play that, Joy?!"
+    },
+    {
+      "character": "JOY",
+      "text": "Well, I have to practice. And I don't think of it as playing so much as hugging."
+    },
+    {
+      "character": "JOY",
+      "text": "OK, first day of school. Very, very exciting. I was up late last night figuring out a new plan. Here it is: Fear!"
+    },
+    {
+      "character": "FEAR",
+      "text": "What, Joy"
+    },
+    {
+      "character": "JOY",
+      "text": "I need a list of all the possible negative outcomes on the first day at a new school."
+    },
+    {
+      "character": "FEAR",
+      "text": "Way ahead of you there. Does anyone know how to spell meteor?"
+    },
+    {
+      "character": "JOY",
+      "text": "Disgust,"
+    },
+    {
+      "character": "DISGUST",
+      "text": "What, Joy?"
+    },
+    {
+      "character": "JOY",
+      "text": "make sure Riley stands out today. But, also blends in."
+    },
+    {
+      "character": "DISGUST",
+      "text": "When I'm through, Riley will look so good, the other kids will look at their own outfits and barf."
+    },
+    {
+      "character": "JOY",
+      "text": "Joy! \"Yes, Joy?\" You'll be in charge of the console. Keeping Riley happy all day long. And may I add, I love your dress, it's adorable. \"Oh, this old thing. Thank you so much.\" I love the way it twirls."
+    },
+    {
+      "character": "JOY",
+      "text": "Train of Thought, right on schedule. Anger, unload the daydreams. I ordered extra, in case things get slow in class."
+    },
+    {
+      "character": "ANGER",
+      "text": "Might come in handy, Joy. If this new school is full of boring, useless classes. Which it probably will be."
+    },
+    {
+      "character": "JOY",
+      "text": "Oh, Sadness. I have a super important job just for you."
+    },
+    {
+      "character": "SADNESS",
+      "text": "Really?"
+    },
+    {
+      "character": "JOY",
+      "text": "M-hm, follow me."
+    },
+    {
+      "character": "SADNESS",
+      "text": "What are you doing?"
+    },
+    {
+      "character": "JOY",
+      "text": "And there. Perfect. This is the circle of sadness. Your job is to make sure that all the sadness stays inside of it. So, you want me just to stand here? Hey, it's not my place to tell you how to do your job. Just make sure that all... the sadness stays in the circle. See? You're a pro at this! Isn't this fun?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "No."
+    },
+    {
+      "character": "JOY",
+      "text": "Atta girl."
+    },
+    {
+      "character": "JOY",
+      "text": "Alright everyone, fresh start. We're going to have a good day which will turn into a good week, which will turn into a good year, which turns into a good life!"
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "So, big day. New school, new friends, huh?"
+    },
+    {
+      "character": "RILEY",
+      "text": "I know. I'm kind of nervous but I'm mostly excited. How do I look?"
+    },
+    {
+      "character": "RILEY",
+      "text": "Do you like my purse?"
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Very cute! You gonna be Okay? You want us to walk with you?"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Mom and Dad, with us in public?! No, thank you."
+    },
+    {
+      "character": "JOY",
+      "text": "Yup, I'm on it."
+    },
+    {
+      "character": "RILEY",
+      "text": "Nope, I'm fine. Bye Mom. Bye Dad."
+    },
+    {
+      "character": "MR. ANDERSEN",
+      "text": "Have a good day at school, monkey."
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Have a great day, sweetheart."
+    },
+    {
+      "character": "FEAR",
+      "text": "Are you sure we want to do this?"
+    },
+    {
+      "character": "JOY",
+      "text": "In we go!"
+    },
+    {
+      "character": "FEAR",
+      "text": "OK, going in. Yes!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "OK. We've got a group of cool girls at 2 o'clock."
+    },
+    {
+      "character": "JOY",
+      "text": "How do you know?"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Double ears pierced, infinity scarf."
+    },
+    {
+      "character": "JOY",
+      "text": "Woah! Is she wearing eyeshadow?"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Yeah, we want to be friends with them."
+    },
+    {
+      "character": "JOY",
+      "text": "Let's go talk to them!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Are you kidding?! We're not talking to them! We want them to like us."
+    },
+    {
+      "character": "JOY",
+      "text": "Oh, yeah. Wait, what?"
+    },
+    {
+      "character": "FEAR",
+      "text": "Almost finished with the potential disasters. Worst scenario is either quicksand, spontaneous combustion, or getting called on by the teacher. So as long as none of this happens..."
+    },
+    {
+      "character": "TEACHER",
+      "text": "OK, everybody, we have a new student in class today."
+    },
+    {
+      "character": "FEAR",
+      "text": "Are you kidding me?! Out of the gate! This is not happening!"
+    },
+    {
+      "character": "TEACHER",
+      "text": "Riley, would you like to tell us something about yourself?"
+    },
+    {
+      "character": "FEAR",
+      "text": "NOOO! Pretend we can't speak English!"
+    },
+    {
+      "character": "JOY",
+      "text": "Don't worry, I got this."
+    },
+    {
+      "character": "RILEY",
+      "text": "Um, okay..."
+    },
+    {
+      "character": "RILEY",
+      "text": "My name is Riley Anderson. I'm from Minnesota and now I live here."
+    },
+    {
+      "character": "TEACHER",
+      "text": "And how about Minnesota? Can you tell us something about it? Well, you certainly get a lot more snow than we do."
+    },
+    {
+      "character": "JOY",
+      "text": "She's hilarious...!"
+    },
+    {
+      "character": "RILEY",
+      "text": "Yeah, it gets pretty cold. The lake freezes over and that’s when we play hockey. I'm on a great team. We're called the Prairie Dogs. My friend, Meg, plays forward, and my dad's the coach."
+    },
+    {
+      "character": "RILEY",
+      "text": "Pretty much everyone in my family skates. It's kind of a family tradition. We go out on the lake almost every weekend."
+    },
+    {
+      "character": "RILEY",
+      "text": "Or, we did, till... I moved away."
+    },
+    {
+      "character": "DISGUST",
+      "text": "Hey. What gives?"
+    },
+    {
+      "character": "FEAR",
+      "text": "Wait, what?"
+    },
+    {
+      "character": "JOY",
+      "text": "Hey! Sadness!? You touched a memory!? We talked about this!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Oh, yeah, I know. I'm sorry."
+    },
+    {
+      "character": "JOY",
+      "text": "Get back in your circle!"
+    },
+    {
+      "character": "JOY",
+      "text": "Ugh... What's going on!?!?"
+    },
+    {
+      "character": "FEAR",
+      "text": "Get it out of there, Joy!"
+    },
+    {
+      "character": "JOY",
+      "text": "Why won't it eject?"
+    },
+    {
+      "character": "RILEY",
+      "text": "We... used to... play tag, and stuff..."
+    },
+    {
+      "character": "DISGUST",
+      "text": "Cool kids whispering at 3 o'clock!"
+    },
+    {
+      "character": "FEAR",
+      "text": "Did you see that look?"
+    },
+    {
+      "character": "JOY",
+      "text": "Oh, no."
+    },
+    {
+      "character": "FEAR",
+      "text": "They're judging us!"
+    },
+    {
+      "character": "RILEY",
+      "text": "But, everything's different now... Since we moved..."
+    },
+    {
+      "character": "FEAR",
+      "text": "Oh no. WE'RE CRYING! AT SCHOOL!!"
+    },
+    {
+      "character": "JOY",
+      "text": "Wha...?!"
+    },
+    {
+      "character": "JOY",
+      "text": "Sadness, what are you doing!!?!?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Whoa!!! I'm sorry. Oh...oh!"
+    },
+    {
+      "character": "FEAR",
+      "text": "It's a core memory."
+    },
+    {
+      "character": "DISGUST",
+      "text": "But it's blue."
+    },
+    {
+      "character": "JOY",
+      "text": "No, wait! Stop it! No! Agh! No!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Joy, no."
+    },
+    {
+      "character": "SADNESS",
+      "text": "That's a core memory! ...Wait!"
+    },
+    {
+      "character": "JOY",
+      "text": "Hey! Stop it! Let go!"
+    },
+    {
+      "character": "FEAR",
+      "text": "The core memories!"
+    },
+    {
+      "character": "JOY",
+      "text": "AGH!"
+    },
+    {
+      "character": "JOY",
+      "text": "NO NO NO NO -- !"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Whoa..."
+    },
+    {
+      "character": "JOY, SADNESS",
+      "text": "AAAAGH!!"
+    },
+    {
+      "character": "TEACHER",
+      "text": "Thank you, Riley. I know it can be tough moving to a new place. But we're happy to have you here. Alright everyone, get out your history books, and turn to chapter 7."
+    },
+    {
+      "character": "ANGER",
+      "text": "Can I say that curse word now?"
+    },
+    {
+      "character": "JOY",
+      "text": "Oh no... (gathering memories) One, two, three... okay, got ’em. Wha-- where are we?"
+    },
+    {
+      "character": "JOY",
+      "text": "Long-Term Memory...!"
+    },
+    {
+      "character": "JOY",
+      "text": "Goofball Island?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Hoh... Riley’s Islands of Personality. They’re ALL down! This is bad."
+    },
+    {
+      "character": "JOY",
+      "text": "We-- we can fix this. We just have to get back to Headquarters, plug the core memories in, and Riley will be back to normal."
+    },
+    {
+      "character": "SADNESS",
+      "text": "Riley has no core memories, no personality islands and no-- (gasp)"
+    },
+    {
+      "character": "JOY",
+      "text": "Wha-- What is it?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "You! YOU’RE not in headquarters. Without you, Riley can’t be happy. We gotta get you back up there."
+    },
+    {
+      "character": "JOY",
+      "text": "I’m coming, Riley."
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "So, as it turns out, the green trash can is not recycling. It's for greens, like compost and eggshells. And the blue one is recycling, and the black..."
+    },
+    {
+      "character": "DISGUST",
+      "text": "Riley's acting so weird! Why is she acting so weird?"
+    },
+    {
+      "character": "ANGER",
+      "text": "Disgust, What do you expect? All the Islands are down!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Joy would know what to do."
+    },
+    {
+      "character": "FEAR",
+      "text": "That's it! Until she gets back, we just do what Joy would do."
+    },
+    {
+      "character": "DISGUST",
+      "text": "Good idea! Anger, Fear, Disgust... How are we supposed to be happy?"
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Hey, Riley, I got good news. I found a Junior Hockey League, right here in San Francisco. And get this! Tryouts are tomorrow after school. What luck, right?"
+    },
+    {
+      "character": "ANGER",
+      "text": "Hockey?"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Uh-oh, what do we do?"
+    },
+    {
+      "character": "FEAR",
+      "text": "Guys, uuuh, Disgust, You pretend to be Joy."
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Wouldn't it be great to be back out on the ice?"
+    },
+    {
+      "character": "RILEY",
+      "text": "Oh, yeah, that sounds fantastic."
+    },
+    {
+      "character": "FEAR",
+      "text": "What was that? That wasn't anything like Joy!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Ah, because I'm NOT Joy!"
+    },
+    {
+      "character": "FEAR",
+      "text": "Yeah, no kidding!"
+    },
+    {
+      "character": "MOM'S SADNESS",
+      "text": "Did you guys pick up on that?"
+    },
+    {
+      "character": "MOM'S DISGUST",
+      "text": "Yeah, something's wrong."
+    },
+    {
+      "character": "MOM'S ANGER",
+      "text": "Should we ask her?"
+    },
+    {
+      "character": "MOM'S SADNESS",
+      "text": "Let's probe. But keep it subtle so she doesn't notice."
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "So, how was the first day of school?"
+    },
+    {
+      "character": "ANGER",
+      "text": "She's probing us."
+    },
+    {
+      "character": "DISGUST",
+      "text": "I'm done. You pretend to be Joy."
+    },
+    {
+      "character": "FEAR",
+      "text": "What? OK..."
+    },
+    {
+      "character": "RILEY",
+      "text": "It was fine, I guess, I dunno."
+    },
+    {
+      "character": "DISGUST",
+      "text": "Oh, very smooth. That was just like Joy."
+    },
+    {
+      "character": "MOM'S ANGER",
+      "text": "Something is definitely going on! She's never acted like this, before. What should we do?"
+    },
+    {
+      "character": "MOM'S SADNESS",
+      "text": "We're gonna find out what's happening. But we'll need support. Signal the husband."
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Ahem!"
+    },
+    {
+      "character": "DAD'S ANGER",
+      "text": "Uh-oh! She's looking at us. What did she say? What? Oh, sorry sir, no one was listening. Is it garbage night? We left the toilet seat up? What? What is it, woman? What?"
+    },
+    {
+      "character": "MOM'S ANGER",
+      "text": "He's making that stupid face again. I could strangle him right now!"
+    },
+    {
+      "character": "MOM'S SADNESS",
+      "text": "Signal him again."
+    },
+    {
+      "character": "MR. ANDERSEN",
+      "text": "Ah! So... Riley, how was school? Aw, Seriously? You gotta be kidding me! For this, we gave up that Brazilian helicopter pilot?!"
+    },
+    {
+      "character": "ANGER",
+      "text": "Move! I'll be Joy."
+    },
+    {
+      "character": "RILEY",
+      "text": "School was great, alright!"
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Riley? Is everything OK?"
+    },
+    {
+      "character": "DAD'S ANGER",
+      "text": "Sir, she just rolled her eyes at us."
+    },
+    {
+      "character": "DAD'S ANGER",
+      "text": "What is her deal? Alright, make a show of force. I don't wanna have to put the foot down."
+    },
+    {
+      "character": "DAD'S FEAR",
+      "text": "No, not the foot!"
+    },
+    {
+      "character": "MR. ANDERSEN",
+      "text": "Riley, I do not like this new attitude."
+    },
+    {
+      "character": "ANGER",
+      "text": "Oh, I'll show you attitude, old man!"
+    },
+    {
+      "character": "FEAR",
+      "text": "No, no-no, stay happy."
+    },
+    {
+      "character": "RILEY",
+      "text": "What is your problem? Just leave me alone!"
+    },
+    {
+      "character": "DAD'S FEAR",
+      "text": "Sir, reporting high level of sass."
+    },
+    {
+      "character": "DAD'S ANGER",
+      "text": "Take it to DefCon 2."
+    },
+    {
+      "character": "DAD'S ANGER",
+      "text": "Your heard that gentlemen. DefCon 2!"
+    },
+    {
+      "character": "MR. ANDERSEN",
+      "text": "Listen, young lady, I don't know where this disrespectful attitude came from."
+    },
+    {
+      "character": "ANGER",
+      "text": "You wanna piece of this, pops? Come and get it!"
+    },
+    {
+      "character": "RILEY",
+      "text": "Yeah? Well, well..."
+    },
+    {
+      "character": "DAD'S ANGER",
+      "text": "Here it comes. Prepare the foot!"
+    },
+    {
+      "character": "DAD'S ANGER",
+      "text": "Keys, to Safety Position! Ready to launch on your command, sir."
+    },
+    {
+      "character": "RILEY",
+      "text": "Just, shut up!"
+    },
+    {
+      "character": "DAD'S ANGER",
+      "text": "Fire!"
+    },
+    {
+      "character": "MR. ANDERSEN",
+      "text": "That's it! Go to your room! Now!"
+    },
+    {
+      "character": "DAD'S ANGER",
+      "text": "The foot is down. The foot is down! Woo! Good job, gentlemen. That could've been a disaster."
+    },
+    {
+      "character": "DAD'S ANGER",
+      "text": "Well, that was a disaster. Come, fly with me, gatinha. (kitten)"
+    },
+    {
+      "character": "SADNESS",
+      "text": "We’re gonna walk out there? On that?"
+    },
+    {
+      "character": "JOY",
+      "text": "It’s the quickest way back."
+    },
+    {
+      "character": "SADNESS",
+      "text": "But it’s right over the Memory Dump. If we fall, we’ll be forgotten forever!"
+    },
+    {
+      "character": "JOY",
+      "text": "We have to"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Well, I guess... [She climbs in with Joy.]"
+    },
+    {
+      "character": "ABSTRACT THOUGHT",
+      "text": "OK, what abstract concept are we trying to comprehend today?"
+    },
+    {
+      "character": "ABSTRACT THOUGHT",
+      "text": "Ahm, loneliness."
+    },
+    {
+      "character": "ABSTRACT THOUGHT",
+      "text": "Hm, looks like there's something in there. I'm gonna turn it on for a minute and burn out the gunk."
+    },
+    {
+      "character": "BING BONG",
+      "text": "What did I tell ya? You'll be in Headquarters in no time!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Hey, will you look at that?"
+    },
+    {
+      "character": "JOY",
+      "text": "Woah! What's happening?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Oh no, they turned it on."
+    },
+    {
+      "character": "BING BONG",
+      "text": "Huh?"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Never seen this before."
+    },
+    {
+      "character": "BOTH",
+      "text": "Aahh!"
+    },
+    {
+      "character": "BOTH",
+      "text": "AAAAHHH!!!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "My face! My beautiful face!"
+    },
+    {
+      "character": "JOY",
+      "text": "What is going on?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "We're abstracting! There are four stages. This is the first: Non-objective fragmentation!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Alright, do not panic! What is important is that we all stay together."
+    },
+    {
+      "character": "BING BONG",
+      "text": "Oh!"
+    },
+    {
+      "character": "JOY",
+      "text": "Ah!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "We're in the second stage, we’re deconstructing!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Run! [falls into pieces] Ah, I can't feel my legs! Oh, there they are."
+    },
+    {
+      "character": "JOY",
+      "text": "Come here, me!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "We gotta get outta here before we're nothing but shape and color! We'll get stuck here forever!"
+    },
+    {
+      "character": "JOY",
+      "text": "\"Stuck?!\" Why did we come in here?"
+    },
+    {
+      "character": "BING BONG",
+      "text": "I told you, it's a shortcut!"
+    },
+    {
+      "character": "JOY",
+      "text": "The Train!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Oh no, we're two dimensional! That's stage three!"
+    },
+    {
+      "character": "JOY",
+      "text": "We're getting nowhere!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Depth! I'm lacking depth!"
+    },
+    {
+      "character": "JOY",
+      "text": "Come on!"
+    },
+    {
+      "character": "JOY",
+      "text": "We can't fit!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Oh no, we're non-figurative! This is the last stage!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "We're not gonna make it!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Wait, we're two dimensional. Fall on your face!"
+    },
+    {
+      "character": "JOY",
+      "text": "Stop! STOP!"
+    },
+    {
+      "character": "JOY",
+      "text": "(to Bing Bong) Oh no! You said that was a shortcut."
+    },
+    {
+      "character": "BING BONG",
+      "text": "I did, but wow, we should NOT have gone in there. [all three transform back to normal] That was dangerous! They really should put up a sign."
+    },
+    {
+      "character": "JOY",
+      "text": "How long till the next train?"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Who knows? But don’t worry. There’s another station. That way! The train always stops there right before it goes to Headquarters. If we hurry, we can catch it!"
+    },
+    {
+      "character": "JOY",
+      "text": "This isn’t another one of your short cuts, is it?"
+    },
+    {
+      "character": "BING BONG",
+      "text": "[laughs] Yeah."
+    },
+    {
+      "character": "JOY",
+      "text": "(to Sadness) Is there really another station?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Uh-huh. Through there."
+    },
+    {
+      "character": "BING BONG",
+      "text": "Welcome to Imagination land!"
+    },
+    {
+      "character": "JOY",
+      "text": "Imagination land?"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Sure! I come here all the time. I’m practically the mayor. Hey, you guys hungry? There’s French Fry Forest! (starts eating)"
+    },
+    {
+      "character": "JOY",
+      "text": "No way!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Check it out! Trophy Town! Medals! Ribbons! Everyone’s a winner!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "I won first place!"
+    },
+    {
+      "character": "JOY",
+      "text": "Me too!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Hohh... Participation award..."
+    },
+    {
+      "character": "JOY",
+      "text": "Wait, is that-- Sadness, look, it’s Cloud Town! That is my favorite!"
+    },
+    {
+      "character": "JOY",
+      "text": "(CONT’D) It's so soft!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Woah! Let me try!"
+    },
+    {
+      "character": "CLOUD MAN",
+      "text": "Hey! What’s the big idea? You’d better fix that wall, or else you’re in big troub--"
+    },
+    {
+      "character": "JOY",
+      "text": "Oh no, lava! Whooo!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Whawhoooo! Imagination land is the best!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Is it all going to be so interactive?"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Hey, look! The House of Cards!! Ooh, wait, hang on just a minute..."
+    },
+    {
+      "character": "JOY",
+      "text": "Your rocket!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Yeah! I stashed it in there for safekeeping. Now I’m all set to take Riley to the MOON!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "(CONT’D) Oh, I’m sorry."
+    },
+    {
+      "character": "WORKER",
+      "text": "Great."
+    },
+    {
+      "character": "JOY",
+      "text": "I love Imagination land!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "I know, right? And there’s always something new, like..."
+    },
+    {
+      "character": "BING BONG",
+      "text": "(CONT’D) Who the heck is that?"
+    },
+    {
+      "character": "WORKER",
+      "text": "Imaginary Boyfriend."
+    },
+    {
+      "character": "IMAGINARY BOYFRIEND",
+      "text": "I would die for Riley."
+    },
+    {
+      "character": "BING BONG",
+      "text": "I’ve never seen him before."
+    },
+    {
+      "character": "IMAGINARY BOYFRIEND",
+      "text": "I live in Canada."
+    },
+    {
+      "character": "BING BONG",
+      "text": "Anyway. This way, through Preschool World! We’re nearly to the train!"
+    },
+    {
+      "character": "JOY",
+      "text": "Riley, here we come!"
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "This should be fun. New team, new friends! These kids look pretty good -- considering they're from San Francisco. Heh heh!"
+    },
+    {
+      "character": "HOCKEY COACH",
+      "text": "Okay Andersen, you're up!"
+    },
+    {
+      "character": "RILEY",
+      "text": "I gotta go."
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Okay. Good luck, sweetie!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Luck isn’t gonna help us now. If she tries to use Hockey Island, it’s going down."
+    },
+    {
+      "character": "FEAR",
+      "text": "Which is why I’ve recalled every hockey memory I can think of."
+    },
+    {
+      "character": "FEAR",
+      "text": "(CONT’D) One of these has got to work in place of the core memory."
+    },
+    {
+      "character": "BOTH",
+      "text": "She’s about to play!/Hurry!"
+    },
+    {
+      "character": "FEAR",
+      "text": "Ha ha! We did it, Anger and Disgust! It’s working--"
+    },
+    {
+      "character": "HOCKEY COACH",
+      "text": "Line change! Line change! Change it up! Change it up!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "(hiding behind a sofa) It’s like we don't learn anything."
+    },
+    {
+      "character": "HOCKEY COACH",
+      "text": "Let’s pick it up out there!"
+    },
+    {
+      "character": "ANGER",
+      "text": "That’s it!"
+    },
+    {
+      "character": "FEAR",
+      "text": "No, no, no, Anger. breathe! Find your happy place--"
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Riley, what's wrong?"
+    },
+    {
+      "character": "RILEY",
+      "text": "Let's go."
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "You're not going to finish tryouts?"
+    },
+    {
+      "character": "RILEY",
+      "text": "What's the point?!"
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Hey, it'll be alright. Let's just go back..."
+    },
+    {
+      "character": "RILEY",
+      "text": "Stop saying everything will be alright!!!"
+    },
+    {
+      "character": "COACH",
+      "text": "Nice hustling, ladies!"
+    },
+    {
+      "character": "JOY",
+      "text": "Hockey? Oh no... no, she loves hockey. She can’t give up hockey."
+    },
+    {
+      "character": "JOY",
+      "text": "Bing Bong, we have to get to that station."
+    },
+    {
+      "character": "BING BONG",
+      "text": "Sure thing. This way, just past Graham Cracker Castle. Hey. That’s weird. Graham Cracker Castle used to be right here. I wonder why they moved it?"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Wow, that’s not... I would have sworn Sparkle Pony Mountain was right here. Hey, what’s going on?"
+    },
+    {
+      "character": "JOY",
+      "text": "Yeah, yeah, I dunno, we’ll have to come back--"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Princess Dream World!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Oh no! The Stuffed Animal Hall of Fame!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "My rocket! (running after them) Wait! Riley and I, we’re still using that rocket! It still has some song power left!! (sings) Who's your friend who likes to play?"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Nooo!!! No! No! No! You can’t take my rocket to the dump! Riley and I are going to the MOON! Ahhh!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Riley can’t be done with me."
+    },
+    {
+      "character": "JOY",
+      "text": "Hey, it’s going to be okay. We can fix this! We just need to get back to Headquarters. Which way to the train station?"
+    },
+    {
+      "character": "BING BONG",
+      "text": "(still stunned) I had a whole trip planned for us."
+    },
+    {
+      "character": "JOY",
+      "text": "Hey, who’s ticklish, huh? Here comes the tickle monster..."
+    },
+    {
+      "character": "JOY",
+      "text": "(CONT’D) Hey! Bing Bong, look at this! Dohoioih!"
+    },
+    {
+      "character": "JOY",
+      "text": "Oh, here’s a fun game! You point to the train station and we all go there! Won’t that be fun? Come on, let’s go to the train station!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "(sits beside Bing Bong) I’m sorry they took your rocket. They took something that you loved. It’s gone, forever."
+    },
+    {
+      "character": "JOY",
+      "text": "Sadness, don’t make him feel worse."
+    },
+    {
+      "character": "SADNESS",
+      "text": "Sorry."
+    },
+    {
+      "character": "BING BONG",
+      "text": "It’s all I had left of Riley."
+    },
+    {
+      "character": "SADNESS",
+      "text": "I bet you and Riley had great adventures."
+    },
+    {
+      "character": "BING BONG",
+      "text": "They were wonderful. Once we flew back in time. We had breakfast twice that day."
+    },
+    {
+      "character": "SADNESS",
+      "text": "That’s sounds amazing. I bet Riley liked it."
+    },
+    {
+      "character": "BING BONG",
+      "text": "Oh, she did. We were best friends."
+    },
+    {
+      "character": "SADNESS",
+      "text": "Yeah. It’s sad."
+    },
+    {
+      "character": "BING BONG",
+      "text": "I’m okay now. (stands) C’mon, the train station is this way."
+    },
+    {
+      "character": "JOY",
+      "text": "How did you do that?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "I don’t know. He was sad, so I listened to what--"
+    },
+    {
+      "character": "BING BONG",
+      "text": "(O.S.) Hey, there’s the train!"
+    },
+    {
+      "character": "JOY",
+      "text": "We made it! We’re finally going to get home!"
+    },
+    {
+      "character": "JOY",
+      "text": "Oh no! These Facts and Opinions look so similar!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Eh, don’t worry about it -- happens all the time."
+    },
+    {
+      "character": "DISGUST",
+      "text": "On a scale of one to ten, I give this day an F."
+    },
+    {
+      "character": "ANGER",
+      "text": "Well, Disgust. why don’t we quit standing around and DO something?"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Like what, genius?"
+    },
+    {
+      "character": "FEAR",
+      "text": "Like quitting! That’s what I’m doing."
+    },
+    {
+      "character": "FEAR",
+      "text": "(CONT’D) Sure, it’s the coward’s way out. But this coward is gonna survive!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Emotions can’t quit, genius."
+    },
+    {
+      "character": "DISGUST",
+      "text": "(CONT’D) Euch! I thought we were supposed to be keeping Riley happy."
+    },
+    {
+      "character": "ANGER",
+      "text": "[realizes] Wait a minute. Wait a minute!"
+    },
+    {
+      "character": "FEAR",
+      "text": "What is it?"
+    },
+    {
+      "character": "ANGER",
+      "text": "(holds up the lightbulb) Oh nothing. Just the best idea ever."
+    },
+    {
+      "character": "DISGUST",
+      "text": "What?"
+    },
+    {
+      "character": "ANGER",
+      "text": "All the good core memories were made in Minnesota. Ergo, we go back to Minnesota and make more. Ta-da!"
+    },
+    {
+      "character": "FEAR",
+      "text": "Wait. You’re saying we run away?"
+    },
+    {
+      "character": "ANGER",
+      "text": "NO, I wouldn’t call it that. I’d call it, “The Happy Core Memory Development Program.”"
+    },
+    {
+      "character": "FEAR",
+      "text": "You can’t be serious."
+    },
+    {
+      "character": "ANGER",
+      "text": "Hey. Our life was perfect until Mom and Dad decided to move to San Fran Stinktown."
+    },
+    {
+      "character": "FEAR",
+      "text": "But, I mean, it’s just so drastic!"
+    },
+    {
+      "character": "ANGER",
+      "text": "Need I remind you of how great things were there? Our room? Our back yard? Our friends?"
+    },
+    {
+      "character": "ANGER",
+      "text": "Did I ASK for the gum commercial?!?! (he ejects the memory) Anyway, it was better, that’s my point."
+    },
+    {
+      "character": "DISGUST",
+      "text": "[agreeing] Yeah, and Riley was happier in Minnesota..."
+    },
+    {
+      "character": "FEAR",
+      "text": "Wait, hold on. Shouldn’t we just sleep on this or something?"
+    },
+    {
+      "character": "ANGER",
+      "text": "Fine. Let’s sleep on it. Because hey, I’m sure jolly fun-filled times are just around the corner."
+    },
+    {
+      "character": "JOY",
+      "text": "Hey! Why aren’t we moving?"
+    },
+    {
+      "character": "TRAIN ENGINEER",
+      "text": "Riley’s gone to sleep. We’re all on break."
+    },
+    {
+      "character": "SADNESS",
+      "text": "You mean we’re stuck here until morning?"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Yeah, the Train of Thought doesn’t run while she’s asleep."
+    },
+    {
+      "character": "JOY",
+      "text": "Oh, we can’t wait that long!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "How about we wake her up?"
+    },
+    {
+      "character": "JOY",
+      "text": "Sadness, that’s ridiculous. How could we possibly..."
+    },
+    {
+      "character": "JOY",
+      "text": "How about we wake her up?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Great idea, Joy."
+    },
+    {
+      "character": "JOY",
+      "text": "Thank you, Sadness. Come on!"
+    },
+    {
+      "character": "JOY",
+      "text": "Whoa! This place is huge."
+    },
+    {
+      "character": "SADNESS",
+      "text": "Yeah, it looks so much smaller than I expected."
+    },
+    {
+      "character": "BING BONG",
+      "text": "Whoa! “I Can Fly”? I love that one!"
+    },
+    {
+      "character": "JOY",
+      "text": "Rainbow Unicorn! She’s RIGHT THERE!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "My friend says you’re famous. She wants your autograph."
+    },
+    {
+      "character": "JOY",
+      "text": "No, no, Sadness, don’t bother Miss Unicorn, okay? (to unicorn) Sorry, she’s from outta town. So embarrassing, right?"
+    },
+    {
+      "character": "JOY",
+      "text": "I loved you in Fairy Dream Adventure Part 7. Okay, bye. I love you."
+    },
+    {
+      "character": "BING BONG",
+      "text": "Huh. Wonder what that means. Oh well, let’s go in!"
+    },
+    {
+      "character": "DIRECTOR",
+      "text": "Set up the classroom set. Today's memories are in. We've got a lot to work with here. Riley dumped her best friend, had a miserable day at school and quit hockey. The writers have put together a killer script."
+    },
+    {
+      "character": "FEAR",
+      "text": "Just because Joy and Sadness are gone, I have to do stupid dream duty."
+    },
+    {
+      "character": "JOY",
+      "text": "Okay, how are we gonna wake her up?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Well, she wakes up sometimes when she has a scary dream. We could scare her."
+    },
+    {
+      "character": "JOY",
+      "text": "Scare her? No no, she’s been through enough already."
+    },
+    {
+      "character": "SADNESS",
+      "text": "But --"
+    },
+    {
+      "character": "JOY",
+      "text": "Sadness, you may know your way around down here, but I know Riley! We’re gonna make her so happy she’ll wake up with exhilaration! We’ll excite her awake!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "That’s nev"
+    },
+    {
+      "character": "FEAR",
+      "text": "Just because Joy and Sadness are gone, I have to do stupid dream duty."
+    },
+    {
+      "character": "JOY",
+      "text": "Okay, how are we gonna wake her up?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Well, she wakes up sometimes when she has a scary dream. We could scare her."
+    },
+    {
+      "character": "JOY",
+      "text": "Scare her? No no, she’s been through enough already."
+    },
+    {
+      "character": "SADNESS",
+      "text": "But --"
+    },
+    {
+      "character": "JOY",
+      "text": "Sadness, you may know your way around down here, but I know Riley! We’re gonna make her so happy she’ll wake up with exhilaration! We’ll excite her awake!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "That’s never happened before."
+    },
+    {
+      "character": "JOY",
+      "text": "Ooh, Riley loves dogs. Put this on!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "I don’t think that’ll work."
+    },
+    {
+      "character": "JOY",
+      "text": "Bing Bong."
+    },
+    {
+      "character": "BING BONG",
+      "text": "Yeah?"
+    },
+    {
+      "character": "JOY",
+      "text": "Don’t let anything happen to these."
+    },
+    {
+      "character": "BING BONG",
+      "text": "Got it!"
+    },
+    {
+      "character": "DREAM DIRECTOR",
+      "text": "Mm hm. Add the reality distortion filter."
+    },
+    {
+      "character": "DREAM DIRECTOR",
+      "text": "Love it. (to actors) Remember, play to the camera, everyone! Riley is the camera! Makeup, get out of there, we are on in 5,4,3..."
+    },
+    {
+      "character": "EXTRA",
+      "text": "Hello class. Before we begin today’s pop quiz, which counts for 90% of your final grade..."
+    },
+    {
+      "character": "FEAR",
+      "text": "Man, she is one bad actress."
+    },
+    {
+      "character": "EXTRA",
+      "text": ".."
+    },
+    {
+      "character": "EXTRA",
+      "text": "..I want to introduce our new student. Riley. Would you like to stand up and introduce yourself?"
+    },
+    {
+      "character": "DREAM DIRECTOR",
+      "text": "Camera."
+    },
+    {
+      "character": "DREAM DIRECTOR",
+      "text": "And... cue Riley."
+    },
+    {
+      "character": "RILEY VOICE",
+      "text": "My name’s Riley Andersen, I’m from Minnesota and now I live here."
+    },
+    {
+      "character": "STUDENT #1",
+      "text": "Ew, look! Her teeth are falling out!"
+    },
+    {
+      "character": "FEAR",
+      "text": "Pff, teeth falling out, I'm used to that one. Let me guess, we have no pants on."
+    },
+    {
+      "character": "DREAM STUDENT #2",
+      "text": "Hey look! She came to school with no pants on!"
+    },
+    {
+      "character": "FEAR",
+      "text": "Called it!"
+    },
+    {
+      "character": "JOY",
+      "text": "Ready?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "[worried] I don’t think this happy thing is going to work. But if we scare her--"
+    },
+    {
+      "character": "JOY",
+      "text": "Just follow my lead. Here we go!"
+    },
+    {
+      "character": "DREAM DIRECTOR",
+      "text": "Who is that?"
+    },
+    {
+      "character": "FEAR",
+      "text": "What’s going on?"
+    },
+    {
+      "character": "JOY",
+      "text": "Psst. You’re on! Go!"
+    },
+    {
+      "character": "JOY",
+      "text": "Woo! Let’s party! Let’s dance. Woo!"
+    },
+    {
+      "character": "FEAR",
+      "text": "Hey, a party!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Joy, this isn’t working."
+    },
+    {
+      "character": "JOY",
+      "text": "Huh? Sadness, what are you doing?! Come back here!"
+    },
+    {
+      "character": "FEAR",
+      "text": "It’s just a dream, it’s just a dream, it’s just a dream..."
+    },
+    {
+      "character": "DREAM DIRECTOR",
+      "text": "They’re trying to wake her up! Call security!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Hi Riley, it’s me! Who’s your friend who likes to play? Bing Bong, Bing Bong!"
+    },
+    {
+      "character": "FEAR",
+      "text": "Bing Bong?"
+    },
+    {
+      "character": "JOY",
+      "text": "Sadness! You are ruining this dream! You’re scaring her!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "But look, it’s working!"
+    },
+    {
+      "character": "JOY",
+      "text": "Whoa!"
+    },
+    {
+      "character": "DREAM DIRECTOR",
+      "text": "They are not part of this dream! Get them!"
+    },
+    {
+      "character": "DREAM PRODUCTIONS COP #1",
+      "text": "Stop right there!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Ow! Hey!"
+    },
+    {
+      "character": "DREAM DIRECTOR",
+      "text": "Pan away! Pan away!"
+    },
+    {
+      "character": "FEAR",
+      "text": "Booooo! Pick a plot line!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Ow! Ow! Cut that out. Ow! Please... you can’t do this! Do you like candy? You look hungry. I can get you candy! Please! Ow. Ow. Ow."
+    },
+    {
+      "character": "JOY",
+      "text": "No, no no no, there go the core memories...!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "I can’t go in there. I’m scared of the dark. Please!"
+    },
+    {
+      "character": "JOY",
+      "text": "What is this place?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "The Subconscious. It’s where they take all the troublemakers."
+    },
+    {
+      "character": "SUBCONSCIOUS GUARD DAVE",
+      "text": "My hat feels loose."
+    },
+    {
+      "character": "JOY",
+      "text": "How do we get in?"
+    },
+    {
+      "character": "SUBCONSCIOUS GUARD DAVE",
+      "text": "You got my hat? Or, or is that your hat?"
+    },
+    {
+      "character": "SUBCONSCIOUS GUARD FRANK",
+      "text": "Yeah, it’s my hat."
+    },
+    {
+      "character": "SUBCONSCIOUS GUARD DAVE",
+      "text": "You sure? I don’t know, look in the label."
+    },
+    {
+      "character": "SUBCONSCIOUS GUARD FRANK",
+      "text": "Yeah, it says, “My Hat.”"
+    },
+    {
+      "character": "SUBCONSCIOUS GUARD DAVE",
+      "text": "Wait, it says, “My Hat”?"
+    },
+    {
+      "character": "SUBCONSCIOUS GUARD FRANK",
+      "text": "“My Hat,” it says."
+    },
+    {
+      "character": "SUBCONSCIOUS GUARD DAVE",
+      "text": "That’s what I wrote in my hat."
+    },
+    {
+      "character": "SUBCONSCIOUS GUARD FRANK",
+      "text": "What are you talking about?"
+    },
+    {
+      "character": "SUBCONSCIOUS GUARD DAVE",
+      "text": "You’ve got my hat on."
+    },
+    {
+      "character": "SUBCONSCIOUS GUARD FRANK",
+      "text": "Okay, but it’s my handwriting--"
+    },
+    {
+      "character": "SUBCONSCIOUS GUARD DAVE",
+      "text": "Hey! You!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Oh! You caught us! Heh."
+    },
+    {
+      "character": "SUBCONSCIOUS GUARD FRANK",
+      "text": "Get back in there! No escaping!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "I don’t like it here. It’s where they keep Riley’s darkest fears."
+    },
+    {
+      "character": "JOY",
+      "text": "It’s broccoli!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "The stairs to the basement!"
+    },
+    {
+      "character": "JOY",
+      "text": "Grandma’s vacuum cleaner!"
+    },
+    {
+      "character": "JOY",
+      "text": "Okay, come on."
+    },
+    {
+      "character": "JOY",
+      "text": "Would you walk quieter, Sadness?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "I’m trying!"
+    },
+    {
+      "character": "JOY",
+      "text": "What is going-- (looking down) Candy wrappers."
+    },
+    {
+      "character": "JOY",
+      "text": "Bing Bong!"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Joy?"
+    },
+    {
+      "character": "JOY",
+      "text": "There you are."
+    },
+    {
+      "character": "JOY",
+      "text": "It’s Jangles."
+    },
+    {
+      "character": "JOY",
+      "text": "Do you have the core memories?"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Yeah. All he cared about was the candy."
+    },
+    {
+      "character": "BING BONG",
+      "text": "We’re out of here! Let’s get to that train."
+    },
+    {
+      "character": "JOY",
+      "text": "Wait. The train’s not running. We still have to wake up Riley."
+    },
+    {
+      "character": "SADNESS",
+      "text": "But how?"
+    },
+    {
+      "character": "BING BONG",
+      "text": "Oh no."
+    },
+    {
+      "character": "JOY",
+      "text": "H-hhey Sadness, did you hear about the p-pahh-party that we’re having?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Ohhhh yeah, yes Joy! Isn’t it a babahh... birthday party?"
+    },
+    {
+      "character": "JANGLES",
+      "text": "Did you say... birthday?"
+    },
+    {
+      "character": "JOY",
+      "text": "And there’s going to be cake, and presents and--"
+    },
+    {
+      "character": "SADNESS",
+      "text": "--and games and balloons--"
+    },
+    {
+      "character": "JANGLES",
+      "text": "A BIRTHDAY?!?!"
+    },
+    {
+      "character": "JOY",
+      "text": "Okay. Follow us!"
+    },
+    {
+      "character": "JOY",
+      "text": "Nothing like a good scare to wake you up, right, guys?"
+    },
+    {
+      "character": "SUBCONSCIOUS GUARD FRANK",
+      "text": "Okay, but it’s my handwriting."
+    },
+    {
+      "character": "SUBCONSCIOUS GUARD DAVE",
+      "text": "No, it isn’t. That’s my handwrit-- I wrote that!"
+    },
+    {
+      "character": "SUBCONSCIOUS GUARD FRANK",
+      "text": "No, but THIS one’s my handwriting--"
+    },
+    {
+      "character": "JANGLES",
+      "text": "WHO’S THE BIRTHDAY GIRL?!?!"
+    },
+    {
+      "character": "JOY",
+      "text": "Ha ha! We made it!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Whoo-hoo! Ha ha!"
+    },
+    {
+      "character": "JOY",
+      "text": "Guess who’s on their way to Headquarters?!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "We are!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "What is going on?"
+    },
+    {
+      "character": "ANGER",
+      "text": "He did it again."
+    },
+    {
+      "character": "FEAR",
+      "text": "We were at school and... we were naked, and there was a dog... the... the back half was... was chasing him and we... and we saw Bing Bong."
+    },
+    {
+      "character": "ANGER",
+      "text": "You idiot! It was a dream! This is ridiculous. We can't even get a good night sleep anymore!"
+    },
+    {
+      "character": "ANGER",
+      "text": "Time to take action. Stupid Mom and Dad, if they hadn't moved us, none of this would have happened. Who's with me?"
+    },
+    {
+      "character": "FEAR",
+      "text": "Oh, uh... no no no no no no."
+    },
+    {
+      "character": "DISGUST",
+      "text": "Yeah, let's do it."
+    },
+    {
+      "character": "ANGER",
+      "text": "She took it. There's no turning back."
+    },
+    {
+      "character": "DISGUST",
+      "text": "So, how are we going to get to Minnesota from here?"
+    },
+    {
+      "character": "ANGER",
+      "text": "Well, why don't we go down to the elephant lot and rent an elephant?"
+    },
+    {
+      "character": "FEAR",
+      "text": "Hey, that sounds nice!"
+    },
+    {
+      "character": "ANGER",
+      "text": "We're taking the bus, nitwit!"
+    },
+    {
+      "character": "ANGER",
+      "text": "There's a bus leaving tomorrow. Perfect!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "A ticket costs money. How do we get money?"
+    },
+    {
+      "character": "ANGER",
+      "text": "Mom's purse."
+    },
+    {
+      "character": "DISGUST",
+      "text": "Oh, you wouldn't!"
+    },
+    {
+      "character": "ANGER",
+      "text": "Oh, but I would. Where was it we saw it last?"
+    },
+    {
+      "character": "ANGER",
+      "text": "NO!"
+    },
+    {
+      "character": "FEAR",
+      "text": "Aah!"
+    },
+    {
+      "character": "ANGER",
+      "text": "It's downstairs somewhere. Mom and Dad got us into this mess, they can pay to get us out."
+    },
+    {
+      "character": "BING BONG",
+      "text": "How about this, huh? Isn’t this nice? You can see everything from up here! Look, there's Inductive Reasoning. There's Deja Vu. There's Language Processing! There's Deja Vu. There's Critical Thinking! There's Deja Vu. Hey look at this, guys! Memories!"
+    },
+    {
+      "character": "JOY",
+      "text": "Hey, that was a good idea. About scaring Riley awake. You’re not so bad."
+    },
+    {
+      "character": "SADNESS",
+      "text": "Really?"
+    },
+    {
+      "character": "JOY",
+      "text": "Nice work."
+    },
+    {
+      "character": "JOY",
+      "text": "I can’t wait to get the old Riley back. As soon as we get there I’m going to fix this whole mess."
+    },
+    {
+      "character": "BING BONG",
+      "text": "Whoa. Is this Riley? She’s so big now. She won’t fit in my rocket. How’re we gonna get to the moon?"
+    },
+    {
+      "character": "JOY",
+      "text": "Oh, it's that time in the twisty tree, remember? The hockey team showed up and Mom and Dad were there cheering. Look at her, having fun and laughing. I love this one."
+    },
+    {
+      "character": "SADNESS",
+      "text": "I love that one too."
+    },
+    {
+      "character": "JOY",
+      "text": "Atta girl! Now you’re getting it!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Yeah. It was the day the Prairie Dogs lost the big playoff game. Riley missed the winning shot. She felt awful. She wanted to quit."
+    },
+    {
+      "character": "SADNESS",
+      "text": "Sorry. I went sad again, didn’t I?"
+    },
+    {
+      "character": "JOY",
+      "text": "I’ll tell ya what. We’ll keep working on that when we get back. Okay?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Okay."
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "I just don't understand."
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Why did our moving van even go to Texas?"
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Multiple customers?"
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Well, we were promised delivery on the 5th."
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Uh-huh."
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Excuse me, isn't there any way that you can rush it?"
+    },
+    {
+      "character": "JOY",
+      "text": "Honesty Island?"
+    },
+    {
+      "character": "WORKER #1",
+      "text": "LOOK OUT!"
+    },
+    {
+      "character": "JOY",
+      "text": "That was our way home. We lost another island. What is happening?"
+    },
+    {
+      "character": "MIND WORKER",
+      "text": "Haven't you heard? Riley's running away."
+    },
+    {
+      "character": "JOY",
+      "text": "What?"
+    },
+    {
+      "character": "FEAR",
+      "text": "Wait, wait! Hang on, guys. Are we really doing this? This is serious."
+    },
+    {
+      "character": "ANGER",
+      "text": "Look, we have no core memories."
+    },
+    {
+      "character": "ANGER",
+      "text": "You want Riley to be happy? Let's get back to Minnesota and make more."
+    },
+    {
+      "character": "SADNESS",
+      "text": "Joy, if we hurry, we can still stop her."
+    },
+    {
+      "character": "JOY",
+      "text": "Family Island. Let's go!"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Joy! Joy, it's too dangerous, we won't make it in time."
+    },
+    {
+      "character": "JOY",
+      "text": "But, that's our only way back."
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Alright, thank you, we will. Her teacher hasn't even seen Riley all day!"
+    },
+    {
+      "character": "MR. ANDERSEN",
+      "text": "What? I can't believe this."
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "What was she wearing last? Do you even remember what--"
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Riley!"
+    },
+    {
+      "character": "MR. ANDERSEN",
+      "text": "Riley, there you are! Thank goodness!"
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Oh, we were worried sick! Where have you been? It’s so late..."
+    },
+    {
+      "character": "RILEY",
+      "text": "I know you don't want me to, but, I miss home. I miss Minnesota. You need me to be happy. But, I want my old friends and hockey team. I wanna go home. Please don't be mad."
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "Oh, sweetie."
+    },
+    {
+      "character": "MR. ANDERSEN",
+      "text": "We're not mad. You know what? I miss Minnesota, too. I miss the woods where we took hikes."
+    },
+    {
+      "character": "MRS. ANDERSEN",
+      "text": "And the backyard where you used to play."
+    },
+    {
+      "character": "MR. ANDERSEN",
+      "text": "Spring Lake, where you learned to skate. Come here."
+    },
+    {
+      "character": "FEAR",
+      "text": "Hey, I'm liking this new view."
+    },
+    {
+      "character": "ANGER",
+      "text": "Friendship Island has expanded. Glad they finally opened that Friendly Arguments section."
+    },
+    {
+      "character": "SADNESS",
+      "text": "I like Tragic Vampire Romance Island."
+    },
+    {
+      "character": "DISGUST",
+      "text": "Fashion Island. Everyone shut up!"
+    },
+    {
+      "character": "FEAR",
+      "text": "Boy Band Island. Hope that's just a phase."
+    },
+    {
+      "character": "JOY",
+      "text": "Say what you want, I think it’s all beautiful."
+    },
+    {
+      "character": "WORKER FRITZ",
+      "text": "Alright!"
+    },
+    {
+      "character": "WORKER FRITZ",
+      "text": "There you go. Your new expanded console is up and running."
+    },
+    {
+      "character": "EMOTIONS",
+      "text": "Whoa!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Cool. Upgrade!"
+    },
+    {
+      "character": "JOY",
+      "text": "Ooohh."
+    },
+    {
+      "character": "FEAR",
+      "text": "Hey! Whoa! Whoops, wait. Did I just do that?"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Hey guys? What’s “pub-er-ty?”"
+    },
+    {
+      "character": "JOY",
+      "text": "I don’t know. It’s probably not important."
+    },
+    {
+      "character": "ANGER",
+      "text": "Whoa. I have access to the entire Curse Word Library! This new console is the sh--"
+    },
+    {
+      "character": "FEAR",
+      "text": "Sorry. I did it again. My bad."
+    },
+    {
+      "character": "DISGUST",
+      "text": "They’re getting to the rink!"
+    },
+    {
+      "character": "MR ANDERSON",
+      "text": "Now when you get out there, you be aggressive!"
+    },
+    {
+      "character": "RILEY",
+      "text": "I know that."
+    },
+    {
+      "character": "MOM",
+      "text": "but not too aggressive."
+    },
+    {
+      "character": "RILEY",
+      "text": "You know, you guys don’t have to come to every game."
+    },
+    {
+      "character": "DAD",
+      "text": "Are you kidding? I’m not missing one! GO FOGHORNS!"
+    },
+    {
+      "character": "MOM",
+      "text": "GO RILEY! FOGHORNS ARE THE BEST!"
+    },
+    {
+      "character": "RILEY",
+      "text": "Okay, okay. I gotta go."
+    },
+    {
+      "character": "JOY",
+      "text": "Awww..."
+    },
+    {
+      "character": "FEAR",
+      "text": "They love us!"
+    },
+    {
+      "character": "ANGER",
+      "text": "Yeah, Mom and Dad are pretty cool."
+    },
+    {
+      "character": "DISGUST",
+      "text": "Guys, of course they are. But we can’t SHOW IT!"
+    },
+    {
+      "character": "DAD’S FEAR",
+      "text": "She loved the face painting!"
+    },
+    {
+      "character": "DAD’S ANGER",
+      "text": "Ha! Told you it was a great idea!"
+    },
+    {
+      "character": "MOM’S ANGER",
+      "text": "Best idea he’s had in awhile."
+    },
+    {
+      "character": "MOM’S SADNESS",
+      "text": "He’s a really good guy."
+    },
+    {
+      "character": "MOM’S FEAR",
+      "text": "Just in case."
+    },
+    {
+      "character": "RILEY",
+      "text": "Oh. Sorry!"
+    },
+    {
+      "character": "RILEY",
+      "text": "Uhh... Ooooo-kay. Bye!"
+    },
+    {
+      "character": "HOCKEY TEAMMATE",
+      "text": "All set, Riley?"
+    },
+    {
+      "character": "JOY",
+      "text": "You ready?"
+    },
+    {
+      "character": "SADNESS",
+      "text": "Yeah!"
+    },
+    {
+      "character": "JOY",
+      "text": "Alright. Let’s play some hockey!"
+    },
+    {
+      "character": "JOY",
+      "text": "All right Anger, take it!"
+    },
+    {
+      "character": "ANGER",
+      "text": "Give us that puck or you’re dead meat! Riley gets it!"
+    },
+    {
+      "character": "FEAR",
+      "text": "On our left! On our left!"
+    },
+    {
+      "character": "DISGUST",
+      "text": "Let’s just try not to get all smelly this time."
+    },
+    {
+      "character": "SADNESS",
+      "text": "Hooh, Mom and Dad are watching us fail."
+    },
+    {
+      "character": "ANGER",
+      "text": "Not today!"
+    },
+    {
+      "character": "JOY",
+      "text": "We’ve been through a lot lately, that’s for sure. But we still love our girl. She has great new friends, a great new house... things couldn’t be better! After all, Riley’s 12 now. What could happen?"
+    },
+    {
+      "character": "TEACHER",
+      "text": "And who can tell me what year San Francisco was founded? Anyone? Jordan."
+    },
+    {
+      "character": "JORDAN",
+      "text": "Uh..."
+    },
+    {
+      "character": "TEACHER'S DISGUST",
+      "text": "How much more of this?"
+    },
+    {
+      "character": "TEACHER'S SADNESS",
+      "text": "Five months, two weeks and four days until summer vacation."
+    },
+    {
+      "character": "TEACHER'S JOY",
+      "text": "Then it's off to the Bahamas with you know who."
+    },
+    {
+      "character": "BRAZILIAN HELICOPTER PILOT",
+      "text": "Come, fly with me, gatinha."
+    },
+    {
+      "character": "PIZZA GIRL",
+      "text": "Have a nice day."
+    },
+    {
+      "character": "PIZZA GIRL'S DISGUST",
+      "text": "What are we mad about?"
+    },
+    {
+      "character": "PIZZA GIRL'S ANGER",
+      "text": "I dunno, whatever Troy is mad about."
+    },
+    {
+      "character": "PIZZA GIRL'S DISGUST",
+      "text": "What's Troy mad about?"
+    },
+    {
+      "character": "PIZZA GIRL'S ANGER",
+      "text": "I dunno."
+    },
+    {
+      "character": "PIZZA GIRL'S JOY",
+      "text": "I dunno"
+    },
+    {
+      "character": "PIZZA GIRL'S FEAR",
+      "text": "I dunno."
+    },
+    {
+      "character": "COOL GIRL",
+      "text": "I know. Totally!"
+    },
+    {
+      "character": "COOL GIRL'S FEAR",
+      "text": "We're a total fraud. Do you think they can see through us?"
+    },
+    {
+      "character": "COOL GIRL'S ANGER",
+      "text": "Of course not, we're wearing eye shadow!"
+    },
+    {
+      "character": "COOL GIRL'S SADNESS",
+      "text": "Being cool is so exhausting!"
+    },
+    {
+      "character": "JANGLES",
+      "text": "Who's the birthday girl, huh? Hey! ... Hello?"
+    },
+    {
+      "character": "JANGLES' JOY",
+      "text": "6 years of drama school for this?"
+    },
+    {
+      "character": "BUS DRIVER'S RED ANGER",
+      "text": "You know what? This is OK. This is fine. We just need to go to our happy place."
+    },
+    {
+      "character": "DOG'S JOY",
+      "text": "(barks indicating there's food as the text says: \"I smell food.\")"
+    },
+    {
+      "character": "DOG'S DISGUST",
+      "text": "(barks as the text says: \"The man has food.\")"
+    },
+    {
+      "character": "DOG'S FEAR",
+      "text": "(barks as the text says: \"Get the food.\")"
+    }
+  ],
+  "imdbId": "tt2096673",
+  "poster": "https://m.media-amazon.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_SX300.jpg",
+  "rated": "PG",
+  "runtime": "95 min",
+  "genre": "Animation, Adventure, Comedy",
+  "director": "Pete Docter, Ronnie Del Carmen",
+  "topSpeakingCast": [
+    "JOY",
+    "SADNESS",
+    "FEAR",
+    "ANGER",
+    "DISGUST",
+    "BING BONG",
+    "RILEY",
+    "MRS. ANDERSEN",
+    "MOM",
+    "MR. ANDERSEN",
+    "DAD",
+    "DAD'S ANGER"
+  ]
+}

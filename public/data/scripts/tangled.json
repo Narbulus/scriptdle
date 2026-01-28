@@ -1,7 +1,7 @@
 {
   "id": "tangled",
   "title": "Tangled",
-  "year": 2010,
+  "year": null,
   "characters": [
     "ATTILA",
     "CAP",
@@ -1107,7 +1107,7 @@
     },
     {
       "character": "FLYNN",
-      "text": "(Stifled) Ahhh. I'm not freaking out, are you freaking out? No, I'm just very interested in your hair and the magical qualities that it possesses..how long has it been doing that, exactly?"
+      "text": "Ahhh. I'm not freaking out, are you freaking out? No, I'm just very interested in your hair and the magical qualities that it possesses..how long has it been doing that, exactly?"
     },
     {
       "character": "RAPUNZEL",
@@ -1190,10 +1190,6 @@
       "text": "Mother, wait. I think... I think he likes me."
     },
     {
-      "character": "MOTHER GOTHEL",
-      "text": "Patience boys. All good things to those who wait."
-    },
-    {
       "character": "FLYNN",
       "text": "So, hey uh, can I ask you something? Is there any chance that I'm going to get super strength in my hand? Because I'm not going to lie - that would be stupendous. Hey, you all right?"
     },
@@ -1204,6 +1200,10 @@
     {
       "character": "FLYNN",
       "text": "I mean because here's the thing. Superhuman good looks, I've always had 'em. Born with it, but superhuman strength? Imagine the possibilities, I'm just..."
+    },
+    {
+      "character": "MOTHER GOTHEL",
+      "text": "Patience boys. All good things to those who wait."
     },
     {
       "character": "FLYNN",
@@ -1595,7 +1595,7 @@
     },
     {
       "character": "RAPUNZEL",
-      "text": "Eugene's name through the gag"
+      "text": "[calls Eugene's name through the gag]"
     },
     {
       "character": "MOTHER GOTHEL",
@@ -1702,6 +1702,10 @@
       "text": "*sniff*...and you were mine."
     },
     {
+      "character": "RAPUNZEL",
+      "text": "...what once was mine..."
+    },
+    {
       "character": "EUGENE",
       "text": "Rapunzel?"
     },
@@ -1734,24 +1738,17 @@
       "text": "And we're living happily ever after."
     }
   ],
-  "lineCount": 428,
-  "characterCount": 16,
-  "topCastCount": 9,
-  "topCast": [
-    "RAPUNZEL",
-    "FLYNN",
-    "MOTHER GOTHEL",
-    "SIDEBURNS",
-    "EUGENE",
-    "GUARD",
-    "GUARDS",
-    "HOOK HAND",
-    "SHORTY"
-  ],
   "imdbId": "tt0398286",
   "poster": "https://m.media-amazon.com/images/M/MV5BMTAxNDYxMjg0MjNeQTJeQWpwZ15BbWU3MDcyNTk2OTM@._V1_SX300.jpg",
   "rated": "PG",
   "runtime": "100 min",
   "genre": "Animation, Adventure, Comedy",
-  "director": "Nathan Greno, Byron Howard"
+  "director": "Nathan Greno, Byron Howard",
+  "topSpeakingCast": [
+    "RAPUNZEL",
+    "FLYNN",
+    "MOTHER GOTHEL",
+    "SIDEBURNS",
+    "EUGENE"
+  ]
 }

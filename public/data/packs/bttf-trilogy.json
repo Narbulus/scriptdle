@@ -1,0 +1,28 @@
+{
+  "id": "bttf-trilogy",
+  "name": "Back to the Future",
+  "type": "series",
+  "movies": [
+    "back-to-the-future",
+    "back-to-the-future-part-ii",
+    "back-to-the-future-part-iii"
+  ],
+  "theme": {
+    "primary": "#00d4ff",
+    "bgColor": "#1a1a2e",
+    "containerBg": "#fff8f0",
+    "accentColor": "#ff6b35",
+    "btnText": "white",
+    "cardGradientStart": "#1a1a2e",
+    "cardGradientEnd": "#16213e",
+    "cardBorder": "#00d4ff",
+    "cardText": "#00d4ff"
+  },
+  "tierMessages": {
+    "perfect": "Great Scott! First try!",
+    "good": "This is heavy!",
+    "average": "Where we're going, we don't need roads",
+    "barely": "1.21 gigawatts?!",
+    "failure": "Your future hasn't been written yet"
+  }
+}

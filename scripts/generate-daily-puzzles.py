@@ -56,15 +56,16 @@ class PuzzleGenerator:
         # Build set of significant characters per movie
         significant_by_movie = {}
         for movie_id, script in scripts.items():
-            movie_title = script['title']
-            significant_by_movie[movie_title] = set(script.get('topCast', []))
+            # Try both topSpeakingCast (new format) and topCast (legacy)
+            top_cast = script.get('topSpeakingCast', script.get('topCast', []))
+            significant_by_movie[movie_id] = set(top_cast)
 
         # Find indices of lines from significant characters
         significant_indices = []
         for idx, line in enumerate(all_lines):
-            movie = line['movie']
+            movie_id = line['movieId']
             character = line['character']
-            if character in significant_by_movie.get(movie, set()):
+            if character in significant_by_movie.get(movie_id, set()):
                 # Also check padding: need 1 before, 3 after
                 if idx >= 1 and idx < len(all_lines) - 3:
                     significant_indices.append(idx)
@@ -135,16 +136,21 @@ class PuzzleGenerator:
     def build_metadata(self, all_lines, scripts):
         """Build metadata with significant characters only"""
         movies_with_year = {}
+        movies_with_title = {}
+        movies_with_poster = {}
         significant_by_movie = {}
 
         # Get significant characters from script metadata
         for movie_id, script in scripts.items():
-            movie_title = script['title']
-            significant_by_movie[movie_title] = script.get('topCast', [])
-            movies_with_year[movie_title] = script.get('year')
+            # Try both topSpeakingCast (new format) and topCast (legacy)
+            top_cast = script.get('topSpeakingCast', script.get('topCast', []))
+            significant_by_movie[movie_id] = top_cast
+            movies_with_year[movie_id] = script.get('year')
+            movies_with_title[movie_id] = script.get('title')
+            movies_with_poster[movie_id] = script.get('poster')
 
-        # Collect all movie titles from lines
-        movies = set(line['movie'] for line in all_lines)
+        # Collect all movie IDs from lines
+        movies = set(line['movieId'] for line in all_lines)
 
         # Sort movies by year (if available), then alphabetically
         # Movies without year go to the end
@@ -156,6 +162,8 @@ class PuzzleGenerator:
         return {
             'movies': sorted_movies,
             'movieYears': {m: year for m, year in movies_with_year.items() if year},
+            'movieTitles': {m: title for m, title in movies_with_title.items() if title},
+            'moviePosters': {m: poster for m, poster in movies_with_poster.items() if poster},
             'charactersByMovie': {
                 movie: sorted(significant_by_movie.get(movie, []))
                 for movie in sorted_movies
