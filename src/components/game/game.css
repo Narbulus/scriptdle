@@ -138,7 +138,9 @@
     text-align: center;
     margin-bottom: 2rem;
     width: 100%;
-    /* max-width removed */
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: var(--font-mono);
     font-size: 1rem;
     font-weight: bold;
@@ -164,7 +166,9 @@
     align-items: center;
     gap: 2rem;
     width: 100%;
-    /* max-width removed */
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: space-between;
 }
 
@@ -175,7 +179,9 @@
     justify-content: center;
     align-items: flex-start;
     width: 100%;
-    /* max-width removed */
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 1.5rem;
 }
 
@@ -192,7 +198,9 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    /* max-width removed */
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
     gap: 2rem;
 }
 
@@ -264,6 +272,8 @@
     font-family: var(--font-mono);
     font-size: 1rem;
     line-height: 1.6;
+    color: #000000;
+    font-weight: 500;
 }
 
 .context-line {

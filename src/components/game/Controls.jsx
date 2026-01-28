@@ -7,6 +7,7 @@ import {
     submitGuess,
     showMessage
 } from '../../services/game-state.js';
+import { track } from '../../utils/analytics.js';
 
 export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
     // Local form state
@@ -130,9 +131,13 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
                     className="pack-header-movies-link"
                     data-testid="movies-link"
                     href="#"
-                    onClick={(e) => { e.preventDefault(); onOpenMovies(); }}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        track('view_movie_list', { pack_id: pack.id });
+                        onOpenMovies();
+                    }}
                 >
-                    {metadata.movies.length} MOVIES
+                    VIEW MOVIES
                 </a>
                 )
             </div>

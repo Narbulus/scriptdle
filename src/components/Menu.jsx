@@ -5,11 +5,13 @@ import { openHelpModal } from './Help.jsx';
 import { openStatsModal } from '../pages/Stats.jsx';
 import { getTimeUntilMidnight } from '../utils/time.js';
 import { getDataCache } from '../services/dataLoader.js';
+import { track } from '../utils/analytics.js';
 import { X, Film, BarChart3, CircleHelp, Info } from 'lucide-preact';
 
 export const isMenuOpen = signal(false);
 
 export function openMenu() {
+    track('menu_open');
     isMenuOpen.value = true;
 }
 
@@ -35,7 +37,8 @@ export function Menu() {
         return () => clearInterval(intervalId);
     }, []);
 
-    const handleMenuItemClick = (action) => {
+    const handleMenuItemClick = (name, action) => {
+        track('menu_click', { item_name: name });
         closeMenu();
         action();
     };
@@ -75,7 +78,7 @@ export function Menu() {
                     <div className="menu-links-section">
                         <button
                             className="menu-link-item"
-                            onClick={() => handleMenuItemClick(() => router.navigate('/'))}
+                            onClick={() => handleMenuItemClick('more_movies', () => router.navigate('/'))}
                             data-testid="menu-all-movies"
                         >
                             <Film size={20} strokeWidth={2} />
@@ -84,7 +87,7 @@ export function Menu() {
 
                         <button
                             className="menu-link-item"
-                            onClick={() => handleMenuItemClick(() => openStatsModal())}
+                            onClick={() => handleMenuItemClick('stats', () => openStatsModal())}
                             data-testid="menu-stats"
                         >
                             <BarChart3 size={20} strokeWidth={2} />
@@ -93,7 +96,7 @@ export function Menu() {
 
                         <button
                             className="menu-link-item"
-                            onClick={() => handleMenuItemClick(() => openHelpModal())}
+                            onClick={() => handleMenuItemClick('instructions', () => openHelpModal())}
                             data-testid="menu-help"
                         >
                             <CircleHelp size={20} strokeWidth={2} />
@@ -102,7 +105,7 @@ export function Menu() {
 
                         <button
                             className="menu-link-item"
-                            onClick={() => handleMenuItemClick(() => router.navigate('/about'))}
+                            onClick={() => handleMenuItemClick('about', () => router.navigate('/about'))}
                             data-testid="menu-about"
                         >
                             <Info size={20} strokeWidth={2} />

@@ -1,5 +1,6 @@
 import { signal, computed, batch } from "@preact/signals";
 import { saveGameState, getGameState } from "./storage.js";
+import { track } from "../utils/analytics.js";
 
 // Core State
 export const currentPackId = signal(null);
@@ -20,6 +21,8 @@ export function initGame(packId, date) {
     batch(() => {
         currentPackId.value = packId;
         currentPuzzleDate.value = date;
+
+        track('game_start', { pack_id: packId, puzzle_date: date });
 
         const saved = getGameState(packId, date);
         if (saved) {
@@ -72,14 +75,29 @@ export function submitGuess(movieCorrect, charCorrect) {
             // Win
             isWin.value = true;
             isGameOver.value = true;
-            currentAttempt.value = stats.length; // Ensure attempts matches
+            currentAttempt.value = stats.length;
         } else {
             currentAttempt.value++;
             if (currentAttempt.value >= maxAttempts.value) {
                 // Loss
-                isGameOver.value = true;
                 isWin.value = false;
+                isGameOver.value = true;
             }
+        }
+
+        track('guess_made', {
+            pack_id: currentPackId.value,
+            movie_correct: movieCorrect,
+            char_correct: charCorrect,
+            attempt: stats.length
+        });
+
+        if (isGameOver.value) {
+            track('game_complete', {
+                pack_id: currentPackId.value,
+                result: isWin.value ? 'win' : 'loss',
+                attempts: stats.length
+            });
         }
 
         // Persist

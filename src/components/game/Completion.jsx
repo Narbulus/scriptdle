@@ -5,6 +5,7 @@ import { generateFlower, stringToSeed } from '../../utils/flowerGenerator.js';
 import { fireConfetti } from '../../utils/confetti.js';
 import { useEffect } from 'preact/hooks';
 import { getCurrentDate } from '../../utils/time.js';
+import { track } from '../../utils/analytics.js';
 
 export function Completion({ puzzle, pack, packTheme }) {
     const attempts = currentAttempt.value;
@@ -82,6 +83,11 @@ export function Completion({ puzzle, pack, packTheme }) {
     // Share Logic
     const handleShare = () => {
         const grid = generateShareString();
+        track('share_results', {
+            pack_id: pack.id,
+            success: success,
+            attempts: attempts
+        });
         const url = window.location.href;
         const shareData = {
             title: `Scriptle - ${pack.name}`,

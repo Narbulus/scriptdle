@@ -138,11 +138,13 @@
 }
 
 [data-theme="script"] .character-name {
-    color: var(--script-text-primary);
+    color: #000000;
+    font-weight: 600;
 }
 
 [data-theme="script"] .dialogue-text {
-    color: var(--script-text-secondary);
+    color: #000000;
+    font-weight: 500;
 }
 
 [data-theme="script"] .script-then {

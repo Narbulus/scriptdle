@@ -30,7 +30,8 @@ test.describe('Stats Modal', () => {
 
             // Mock completed games
             await page.evaluate((packId) => {
-                const today = new Date().toISOString().split('T')[0];
+                const now = new Date();
+                const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
                 localStorage.setItem(`scriptle:${packId}:${today}`, JSON.stringify({
                     gameOver: true,
                     success: true,
@@ -59,7 +60,8 @@ test.describe('Stats Modal', () => {
             // Mock consecutive days of play
             await page.evaluate((packId) => {
                 for (let i = 0; i < 3; i++) {
-                    const date = new Date(Date.now() - i * 86400000).toISOString().split('T')[0];
+                    const dateNow = new Date(Date.now() - i * 86400000);
+                    const date = `${dateNow.getFullYear()}-${String(dateNow.getMonth() + 1).padStart(2, '0')}-${String(dateNow.getDate()).padStart(2, '0')}`;
                     localStorage.setItem(`scriptle:${packId}:${date}`, JSON.stringify({
                         gameOver: true,
                         success: true,

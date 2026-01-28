@@ -142,7 +142,8 @@ test.describe('Game Play', () => {
 
             // Set up a pre-won game in localStorage
             await page.evaluate((packId) => {
-                const today = new Date().toISOString().split('T')[0];
+                const now = new Date();
+                const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
                 localStorage.setItem(`scriptle:${packId}:${today}`, JSON.stringify({
                     version: 2,
                     attempts: 2,
@@ -177,7 +178,8 @@ test.describe('Game Play', () => {
 
             // Set up a lost game
             await page.evaluate((packId) => {
-                const today = new Date().toISOString().split('T')[0];
+                const now = new Date();
+                const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
                 localStorage.setItem(`scriptle:${packId}:${today}`, JSON.stringify({
                     version: 2,
                     attempts: 5,
@@ -214,7 +216,8 @@ test.describe('Game Play', () => {
 
             // Mock completed game
             await page.evaluate((packId) => {
-                const today = new Date().toISOString().split('T')[0];
+                const now = new Date();
+                const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
                 localStorage.setItem(`scriptle:${packId}:${today}`, JSON.stringify({
                     version: 2,
                     attempts: 3,
@@ -250,7 +253,8 @@ test.describe('Game Play', () => {
             const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
             await page.evaluate((packId) => {
-                const today = new Date().toISOString().split('T')[0];
+                const now = new Date();
+                const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
                 localStorage.setItem(`scriptle:${packId}:${today}`, JSON.stringify({
                     version: 2,
                     attempts: 2,

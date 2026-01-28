@@ -62,7 +62,8 @@ test.describe('Home Page', () => {
 
             // Mock a completed game with success
             await page.evaluate((packId) => {
-                const today = new Date().toISOString().split('T')[0];
+                const now = new Date();
+                const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
                 localStorage.setItem(`scriptle:${packId}:${today}`, JSON.stringify({
                     gameOver: true,
                     success: true,
@@ -87,7 +88,8 @@ test.describe('Home Page', () => {
 
             // Mock a completed game with failure
             await page.evaluate((packId) => {
-                const today = new Date().toISOString().split('T')[0];
+                const now = new Date();
+                const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
                 localStorage.setItem(`scriptle:${packId}:${today}`, JSON.stringify({
                     gameOver: true,
                     success: false,
@@ -115,7 +117,8 @@ test.describe('Home Page', () => {
 
             // Mock a recent game
             await page.evaluate((packId) => {
-                const today = new Date().toISOString().split('T')[0];
+                const now = new Date();
+                const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
                 localStorage.setItem(`scriptle:${packId}:${today}`, JSON.stringify({
                     gameOver: true,
                     success: true,

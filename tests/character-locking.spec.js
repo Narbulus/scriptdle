@@ -9,7 +9,8 @@ test.describe('Character Locking', () => {
 
         // Set up a game where character is locked but movie is not
         await page.evaluate((packId) => {
-            const today = new Date().toISOString().split('T')[0];
+            const now = new Date();
+            const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
             localStorage.setItem(`scriptle:${packId}:${today}`, JSON.stringify({
                 version: 2,
                 attempts: 1,
@@ -42,7 +43,8 @@ test.describe('Character Locking', () => {
 
         // Set up a game with character locked
         await page.evaluate((packId) => {
-            const today = new Date().toISOString().split('T')[0];
+            const now = new Date();
+            const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
             localStorage.setItem(`scriptle:${packId}:${today}`, JSON.stringify({
                 version: 2,
                 attempts: 1,
@@ -79,7 +81,8 @@ test.describe('Character Locking', () => {
 
         // Set up a game where both are locked
         await page.evaluate((packId) => {
-            const today = new Date().toISOString().split('T')[0];
+            const now = new Date();
+            const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
             localStorage.setItem(`scriptle:${packId}:${today}`, JSON.stringify({
                 version: 2,
                 attempts: 2,
@@ -115,7 +118,8 @@ test.describe('Character Locking', () => {
 
         // Simulate a progression: char locked -> both locked -> win
         await page.evaluate((packId) => {
-            const today = new Date().toISOString().split('T')[0];
+            const now = new Date();
+            const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
             localStorage.setItem(`scriptle:${packId}:${today}`, JSON.stringify({
                 version: 2,
                 attempts: 3,
