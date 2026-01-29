@@ -75,9 +75,15 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
 
         // Pre-shuffle character lists for each movie
         const shuffledCharsByMovie = {};
-        availableMovies.forEach(movieId => {
-            shuffledCharsByMovie[movieId] = [...(metadata.charactersByMovie[movieId] || [])].sort(() => Math.random() - 0.5);
-        });
+        if (movieLocked.value && selectedMovie) {
+            // If movie is locked, only shuffle characters for that movie
+            shuffledCharsByMovie[selectedMovie] = [...(metadata.charactersByMovie[selectedMovie] || [])].sort(() => Math.random() - 0.5);
+        } else {
+            // Otherwise shuffle characters for all movies
+            availableMovies.forEach(movieId => {
+                shuffledCharsByMovie[movieId] = [...(metadata.charactersByMovie[movieId] || [])].sort(() => Math.random() - 0.5);
+            });
+        }
 
         let startTime = null;
         let animationFrame = null;

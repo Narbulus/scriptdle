@@ -729,6 +729,14 @@ button:active {
 
     select {
         width: 100%;
+        font-size: 16px;
+        /* Prevents iOS auto-zoom */
+    }
+
+    .script-line {
+        padding: 1rem 1.5rem;
+        margin-left: -1rem;
+        margin-right: -1rem;
     }
 
     button {
