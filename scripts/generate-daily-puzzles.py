@@ -51,7 +51,8 @@ class PuzzleGenerator:
     def build_significant_lines_index(self, scripts, all_lines):
         """
         Build index of line indices where character is significant.
-        Returns list of indices into all_lines array.
+        Returns dict mapping movie_id to list of valid line indices.
+        This enables movie-balanced selection.
         """
         # Build set of significant characters per movie
         significant_by_movie = {}
@@ -60,23 +61,28 @@ class PuzzleGenerator:
             top_cast = script.get('topSpeakingCast', script.get('topCast', []))
             significant_by_movie[movie_id] = set(top_cast)
 
-        # Find indices of lines from significant characters
-        significant_indices = []
+        # Find indices of lines from significant characters, grouped by movie
+        indices_by_movie = {}
         for idx, line in enumerate(all_lines):
             movie_id = line['movieId']
             character = line['character']
             if character in significant_by_movie.get(movie_id, set()):
                 # Also check padding: need 1 before, 3 after
                 if idx >= 1 and idx < len(all_lines) - 3:
-                    significant_indices.append(idx)
+                    if movie_id not in indices_by_movie:
+                        indices_by_movie[movie_id] = []
+                    indices_by_movie[movie_id].append(idx)
 
-        return significant_indices
+        return indices_by_movie
 
-    def select_target_index(self, pack_id, date_str, significant_indices):
+    def select_target_index(self, pack_id, date_str, indices_by_movie, pack_movie_order):
         """
-        Select target line index from significant character lines only.
+        Select target line index using movie-balanced selection.
+        First picks a movie, then picks a line from that movie.
+        This ensures each movie has equal probability regardless of line count.
+        Uses the pack's original movie order for consistent selection.
         """
-        if not significant_indices:
+        if not indices_by_movie:
             raise ValueError("No significant character lines available!")
 
         date_seed = self.get_date_seed(date_str)
@@ -85,14 +91,26 @@ class PuzzleGenerator:
 
         rng = self.mulberry32(combined_seed)
 
-        # Select from filtered pool
-        random_value = rng()
-        selected_idx = int(random_value * len(significant_indices))
+        # Step 1: Pick a movie (each movie has equal probability)
+        # Use pack's original order, filtering to only movies with valid indices
+        movie_ids = [m for m in pack_movie_order if m in indices_by_movie]
+        movie_random = rng()
+        selected_movie_idx = int(movie_random * len(movie_ids))
+        selected_movie = movie_ids[selected_movie_idx]
 
-        target_index = significant_indices[selected_idx]
+        # Step 2: Pick a line from that movie
+        movie_indices = indices_by_movie[selected_movie]
+        line_random = rng()
+        selected_line_idx = int(line_random * len(movie_indices))
+        target_index = movie_indices[selected_line_idx]
+
+        # Calculate total lines for logging
+        total_lines = sum(len(indices) for indices in indices_by_movie.values())
 
         print(f"  Date: {date_str}, DateSeed: {date_seed}, PackHash: {pack_hash}, Combined: {combined_seed}")
-        print(f"  RNG value: {random_value:.6f}, Target index: {target_index}, Significant lines: {len(significant_indices)}")
+        print(f"  Movie RNG: {movie_random:.6f} -> {selected_movie} (movie {selected_movie_idx + 1}/{len(movie_ids)})")
+        print(f"  Line RNG: {line_random:.6f} -> index {target_index} (line {selected_line_idx + 1}/{len(movie_indices)} in movie)")
+        print(f"  Total significant lines across all movies: {total_lines}")
 
         return target_index
 
@@ -170,9 +188,9 @@ class PuzzleGenerator:
             }
         }
 
-    def generate_daily_puzzle(self, pack_id, date_str, all_lines, significant_indices, metadata):
+    def generate_daily_puzzle(self, pack_id, date_str, all_lines, indices_by_movie, metadata, pack_movie_order):
         """Generate puzzle data for a specific date"""
-        target_index = self.select_target_index(pack_id, date_str, significant_indices)
+        target_index = self.select_target_index(pack_id, date_str, indices_by_movie, pack_movie_order)
 
         # Extract target line and context
         target_line = all_lines[target_index]
@@ -241,12 +259,14 @@ class PuzzleGenerator:
 
         # Flatten lines and build significant lines index
         all_lines = self.flatten_lines(scripts)
-        significant_indices = self.build_significant_lines_index(scripts, all_lines)
+        indices_by_movie = self.build_significant_lines_index(scripts, all_lines)
         metadata = self.build_metadata(all_lines, scripts)
 
+        total_significant = sum(len(indices) for indices in indices_by_movie.values())
         print(f"Total lines: {len(all_lines)}")
-        print(f"Significant character lines: {len(significant_indices)}")
+        print(f"Significant character lines: {total_significant}")
         print(f"Movies: {len(metadata['movies'])}")
+        print(f"Lines per movie: {', '.join(f'{movie}: {len(indices)}' for movie, indices in sorted(indices_by_movie.items()))}")
 
         # Create output directory
         pack_daily_dir = self.daily_dir / pack_id
@@ -265,7 +285,7 @@ class PuzzleGenerator:
             date_str = current_date.isoformat()
 
             # Generate puzzle
-            puzzle_data = self.generate_daily_puzzle(pack_id, date_str, all_lines, significant_indices, metadata)
+            puzzle_data = self.generate_daily_puzzle(pack_id, date_str, all_lines, indices_by_movie, metadata, pack['movies'])
 
             # Write puzzle file
             puzzle_file = pack_daily_dir / f'{date_str}.json'

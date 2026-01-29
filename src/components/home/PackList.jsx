@@ -1,9 +1,8 @@
 import { PackRow } from './PackRow.jsx';
 
-export function PackList({ packs, categories, packThemes, history, excludedIds = [] }) {
+export function PackList({ packs, categories, packThemes, history }) {
     const packsById = {};
     packs.forEach(p => packsById[p.id] = p);
-    const excludedSet = new Set(excludedIds);
 
     // Helper to get completion for a pack
     const getCompletion = (packId) => {
@@ -12,8 +11,6 @@ export function PackList({ packs, categories, packThemes, history, excludedIds =
     };
 
     const renderPack = (packId) => {
-        if (excludedSet.has(packId)) return null;
-
         const pack = packsById[packId];
         if (!pack) return null;
         return (
@@ -27,31 +24,23 @@ export function PackList({ packs, categories, packThemes, history, excludedIds =
     };
 
     if (!categories || categories.length === 0) {
-        const visiblePacks = packs.filter(p => !excludedSet.has(p.id));
-        if (visiblePacks.length === 0) return null;
-
         return (
             <div className="pack-list-container">
-                {visiblePacks.map(p => renderPack(p.id))}
+                {packs.map(p => renderPack(p.id))}
             </div>
         );
     }
 
     return (
         <div>
-            {categories.map(category => {
-                const visiblePacks = category.packs.filter(pid => !excludedSet.has(pid));
-                if (visiblePacks.length === 0) return null;
-
-                return (
-                    <div key={category.name} className="category-section">
-                        <h2 className="category-heading">{category.name}</h2>
-                        <div className="pack-list-container">
-                            {visiblePacks.map(packId => renderPack(packId))}
-                        </div>
+            {categories.map(category => (
+                <div key={category.name} className="category-section">
+                    <h2 className="category-heading">{category.name}</h2>
+                    <div className="pack-list-container">
+                        {category.packs.map(packId => renderPack(packId))}
                     </div>
-                );
-            })}
+                </div>
+            ))}
         </div>
     );
 }

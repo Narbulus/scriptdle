@@ -90,18 +90,18 @@ export function Completion({ puzzle, pack, packTheme }) {
         const url = window.location.href;
         const shareData = {
             title: `Scriptle: Daily ${pack.name} quote guessing game`,
-            text: grid + '\n\n' + url,
+            text: grid,
             url: url
         };
 
         if (navigator.share) {
             navigator.share(shareData).catch(() => {
-                // Fallback to clipboard
-                navigator.clipboard.writeText(shareData.text);
+                // Fallback to clipboard - include URL for clipboard copy
+                navigator.clipboard.writeText(grid + '\n\n' + url);
                 alert('Result copied to clipboard!');
             });
         } else {
-            navigator.clipboard.writeText(shareData.text);
+            navigator.clipboard.writeText(grid + '\n\n' + url);
             alert('Result copied to clipboard!');
         }
     };

@@ -5,7 +5,7 @@ import { loadAllGameData } from '../services/dataLoader.js';
 
 export function Home() {
     const [data, setData] = useState(null);
-    const [history, setHistory] = useState({ today: {}, recent: [] });
+    const [history, setHistory] = useState({});
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
@@ -20,7 +20,6 @@ export function Home() {
 
                 const today = getCurrentDate();
                 const todayStats = {};
-                const recentMap = {};
 
                 for (let i = 0; i < localStorage.length; i++) {
                     const key = localStorage.key(i);
@@ -32,17 +31,12 @@ export function Home() {
 
                             try {
                                 const val = JSON.parse(localStorage.getItem(key));
-                                if (val.gameOver) {
-                                    if (date === today) {
-                                        todayStats[packId] = {
-                                            completed: true,
-                                            success: val.success,
-                                            date: date
-                                        };
-                                    }
-                                    if (!recentMap[packId] || date > recentMap[packId]) {
-                                        recentMap[packId] = date;
-                                    }
+                                if (val.gameOver && date === today) {
+                                    todayStats[packId] = {
+                                        completed: true,
+                                        success: val.success,
+                                        date: date
+                                    };
                                 }
                             } catch {
                                 // Ignore corrupted entries
@@ -51,22 +45,12 @@ export function Home() {
                     }
                 }
 
-                const validPackIds = new Set(gameData.packs.map(p => p.id));
-                const recentList = Object.entries(recentMap)
-                    .filter(([id]) => validPackIds.has(id))
-                    .sort((a, b) => b[1].localeCompare(a[1]))
-                    .slice(0, 4)
-                    .map(([id]) => id);
-
                 setData({
                     packs: gameData.packs,
                     categories: gameData.categories,
                     packThemes: gameData.packThemes
                 });
-                setHistory({
-                    today: todayStats,
-                    recent: recentList
-                });
+                setHistory(todayStats);
 
             } catch (err) {
                 setError(err.message);
@@ -92,30 +76,13 @@ export function Home() {
         );
     }
 
-    const recentPackObjects = history.recent
-        .map(id => data.packs.find(p => p.id === id))
-        .filter(Boolean);
-
     return (
         <div className="script-title-section" style={{ flex: 1 }}>
-            {recentPackObjects.length > 0 && (
-                <div className="recent-section">
-                    <h2 className="category-heading">Recently Played</h2>
-                    <PackList
-                        packs={recentPackObjects}
-                        categories={null}
-                        packThemes={data.packThemes}
-                        history={history.today}
-                    />
-                </div>
-            )}
-
             <PackList
                 packs={data.packs}
                 categories={data.categories}
                 packThemes={data.packThemes}
-                history={history.today}
-                excludedIds={history.recent}
+                history={history}
             />
         </div>
     );
