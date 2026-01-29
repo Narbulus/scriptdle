@@ -22,10 +22,30 @@ export function initGame(packId, date) {
         currentPackId.value = packId;
         currentPuzzleDate.value = date;
 
-        track('game_start', { pack_id: packId, puzzle_date: date });
-
         const saved = getGameState(packId, date);
         if (saved) {
+            // Track based on game state
+            if (saved.attempts > 0 && !saved.gameOver) {
+                // Returning to in-progress puzzle
+                track('game_resume', {
+                    pack_id: packId,
+                    puzzle_date: date,
+                    existing_attempts: saved.attempts,
+                    movie_locked: !!saved.movieLocked,
+                    character_locked: !!saved.characterLocked
+                });
+            } else if (saved.gameOver) {
+                // Returning to completed puzzle
+                track('game_revisit', {
+                    pack_id: packId,
+                    puzzle_date: date,
+                    result: saved.success ? 'win' : 'loss'
+                });
+            } else {
+                // Has saved state but no attempts yet (edge case)
+                track('game_start', { pack_id: packId, puzzle_date: date });
+            }
+
             currentAttempt.value = saved.attempts || 0;
             isGameOver.value = !!saved.gameOver;
             isWin.value = !!saved.success;
@@ -33,7 +53,11 @@ export function initGame(packId, date) {
             characterLocked.value = !!saved.characterLocked;
             guessStats.value = saved.guessStats || [];
             confettiShown.value = !!saved.confettiShown;
+            gameMessage.value = null;
         } else {
+            // Fresh start - no saved state
+            track('game_start', { pack_id: packId, puzzle_date: date });
+
             // Reset
             currentAttempt.value = 0;
             isGameOver.value = false;
@@ -42,6 +66,7 @@ export function initGame(packId, date) {
             characterLocked.value = false;
             guessStats.value = [];
             confettiShown.value = false;
+            gameMessage.value = null;
         }
     });
 }

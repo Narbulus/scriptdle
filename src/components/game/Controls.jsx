@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'preact/hooks';
+import { useState, useEffect, useRef } from 'preact/hooks';
 import {
     currentAttempt,
     movieLocked,
@@ -14,6 +14,25 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
     const [selectedMovie, setSelectedMovie] = useState('');
     const [selectedChar, setSelectedChar] = useState('');
     const [isSpinning, setIsSpinning] = useState(false);
+    const animationFrameRef = useRef(null);
+
+    // Stop shuffle animation and reset dice to resting position
+    const stopShuffle = () => {
+        if (animationFrameRef.current) {
+            cancelAnimationFrame(animationFrameRef.current);
+            animationFrameRef.current = null;
+        }
+        setIsSpinning(false);
+
+        // Reset dice rotation to resting position
+        const diceButton = document.getElementById('randomize-btn');
+        if (diceButton) {
+            const svg = diceButton.querySelector('svg');
+            if (svg) {
+                svg.style.transform = 'rotate(0deg)';
+            }
+        }
+    };
 
     // Sync locked movie state
     useEffect(() => {
@@ -50,6 +69,7 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
     };
 
     const handleMovieChange = (e) => {
+        stopShuffle();
         setSelectedMovie(e.target.value);
         // Don't reset char if it's locked
         if (!characterLocked.value) {
@@ -58,6 +78,7 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
     };
 
     const handleCharChange = (e) => {
+        stopShuffle();
         setSelectedChar(e.target.value);
     };
 
@@ -86,7 +107,6 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
         }
 
         let startTime = null;
-        let animationFrame = null;
         let currentMovieSelection = selectedMovie;
 
         const animate = (timestamp) => {
@@ -129,17 +149,21 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
             }
 
             if (progress < 1) {
-                animationFrame = requestAnimationFrame(animate);
+                animationFrameRef.current = requestAnimationFrame(animate);
             } else {
-                // Animation complete - dice stays at final rotation
+                // Animation complete - don't reset rotation since 1080deg looks the same as 0deg
+                // Resetting would trigger the CSS transition and cause a quick spin
+                animationFrameRef.current = null;
                 setIsSpinning(false);
             }
         };
 
-        animationFrame = requestAnimationFrame(animate);
+        animationFrameRef.current = requestAnimationFrame(animate);
     };
 
     const handleSubmit = () => {
+        stopShuffle();
+
         // Check Logic
         const target = puzzle.targetLine;
 
@@ -249,6 +273,7 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
                         data-testid="movie-select"
                         value={selectedMovie}
                         onChange={handleMovieChange}
+                        onFocus={stopShuffle}
                         disabled={movieLocked.value}
                     >
                         <option value="">Film</option>
@@ -264,6 +289,7 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
                         data-testid="char-select"
                         value={selectedChar}
                         onChange={handleCharChange}
+                        onFocus={stopShuffle}
                         disabled={!selectedMovie || characterLocked.value}
                     >
                         <option value="">Character</option>
@@ -292,12 +318,12 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
                         title="Randomize selection"
                     >
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-                            <circle cx="8.5" cy="8.5" r="1.5"/>
-                            <circle cx="15.5" cy="15.5" r="1.5"/>
-                            <circle cx="8.5" cy="15.5" r="1.5"/>
-                            <circle cx="15.5" cy="8.5" r="1.5"/>
-                            <circle cx="12" cy="12" r="1.5"/>
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                            <circle cx="8.5" cy="8.5" r="1.5" />
+                            <circle cx="15.5" cy="15.5" r="1.5" />
+                            <circle cx="8.5" cy="15.5" r="1.5" />
+                            <circle cx="15.5" cy="8.5" r="1.5" />
+                            <circle cx="12" cy="12" r="1.5" />
                         </svg>
                     </button>
                 </div>
