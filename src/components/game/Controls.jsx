@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'preact/hooks';
+import { useState, useEffect, useRef } from 'preact/hooks';
 import {
     currentAttempt,
     movieLocked,
@@ -13,6 +13,26 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
     // Local form state
     const [selectedMovie, setSelectedMovie] = useState('');
     const [selectedChar, setSelectedChar] = useState('');
+    const [isSpinning, setIsSpinning] = useState(false);
+    const animationFrameRef = useRef(null);
+
+    // Stop shuffle animation and reset dice to resting position
+    const stopShuffle = () => {
+        if (animationFrameRef.current) {
+            cancelAnimationFrame(animationFrameRef.current);
+            animationFrameRef.current = null;
+        }
+        setIsSpinning(false);
+
+        // Reset dice rotation to resting position
+        const diceButton = document.getElementById('randomize-btn');
+        if (diceButton) {
+            const svg = diceButton.querySelector('svg');
+            if (svg) {
+                svg.style.transform = 'rotate(0deg)';
+            }
+        }
+    };
 
     // Sync locked movie state
     useEffect(() => {
@@ -49,6 +69,7 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
     };
 
     const handleMovieChange = (e) => {
+        stopShuffle();
         setSelectedMovie(e.target.value);
         // Don't reset char if it's locked
         if (!characterLocked.value) {
@@ -57,10 +78,92 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
     };
 
     const handleCharChange = (e) => {
+        stopShuffle();
         setSelectedChar(e.target.value);
     };
 
+    const handleRandomize = () => {
+        // Allow re-triggering during spin - just restart
+        setIsSpinning(true);
+
+        // Calculate spin duration and rotation
+        const totalDuration = 1000; // 1 second
+        const rotations = 3; // Number of full rotations
+        const totalDegrees = rotations * 360;
+
+        // Shuffle available options for randomness (once at start)
+        const availableMovies = movieLocked.value ? [] : [...metadata.movies].sort(() => Math.random() - 0.5);
+
+        // Pre-shuffle character lists for each movie
+        const shuffledCharsByMovie = {};
+        if (movieLocked.value && selectedMovie) {
+            // If movie is locked, only shuffle characters for that movie
+            shuffledCharsByMovie[selectedMovie] = [...(metadata.charactersByMovie[selectedMovie] || [])].sort(() => Math.random() - 0.5);
+        } else {
+            // Otherwise shuffle characters for all movies
+            availableMovies.forEach(movieId => {
+                shuffledCharsByMovie[movieId] = [...(metadata.charactersByMovie[movieId] || [])].sort(() => Math.random() - 0.5);
+            });
+        }
+
+        let startTime = null;
+        let currentMovieSelection = selectedMovie;
+
+        const animate = (timestamp) => {
+            if (!startTime) startTime = timestamp;
+            const elapsed = timestamp - startTime;
+            const progress = Math.min(elapsed / totalDuration, 1);
+
+            // Easing function: ease-out quartic for faster decay
+            const easeOut = 1 - Math.pow(1 - progress, 4);
+            const currentRotation = easeOut * totalDegrees;
+
+            // Update button rotation
+            const diceButton = document.getElementById('randomize-btn');
+            if (diceButton) {
+                const svg = diceButton.querySelector('svg');
+                if (svg) {
+                    svg.style.transform = `rotate(${currentRotation}deg)`;
+                }
+            }
+
+            // Change selections based on rotation (every 60 degrees)
+            // Lock selections at 85% progress to prevent last-moment changes
+            const effectiveProgress = Math.min(progress / 0.85, 1);
+            const selectionRotation = effectiveProgress * totalDegrees;
+            const selectionIndex = Math.floor(selectionRotation / 60);
+
+            if (availableMovies.length > 0 && !movieLocked.value) {
+                const movieIndex = selectionIndex % availableMovies.length;
+                currentMovieSelection = availableMovies[movieIndex];
+                setSelectedMovie(currentMovieSelection);
+            }
+
+            // Get characters for current movie selection
+            if (!characterLocked.value && currentMovieSelection) {
+                const availableChars = shuffledCharsByMovie[currentMovieSelection] || [];
+                if (availableChars.length > 0) {
+                    const charIndex = selectionIndex % availableChars.length;
+                    setSelectedChar(availableChars[charIndex]);
+                }
+            }
+
+            if (progress < 1) {
+                animationFrameRef.current = requestAnimationFrame(animate);
+            } else {
+                // Animation complete - don't reset rotation since 1080deg looks the same as 0deg
+                // Resetting would trigger the CSS transition and cause a quick spin
+                animationFrameRef.current = null;
+                setIsSpinning(false);
+            }
+        };
+
+        animationFrameRef.current = requestAnimationFrame(animate);
+    };
+
     const handleSubmit = () => {
+        stopShuffle();
+
         // Check Logic
         const target = puzzle.targetLine;
 
@@ -170,6 +273,7 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
                         data-testid="movie-select"
                         value={selectedMovie}
                         onChange={handleMovieChange}
+                        onFocus={stopShuffle}
                         disabled={movieLocked.value}
                     >
                         <option value="">Film</option>
@@ -185,6 +289,7 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
                         data-testid="char-select"
                         value={selectedChar}
                         onChange={handleCharChange}
+                        onFocus={stopShuffle}
                         disabled={!selectedMovie || characterLocked.value}
                     >
                         <option value="">Character</option>
@@ -197,13 +302,31 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
 
             {/* Actions */}
             <div className="footer-actions">
-                <button
-                    id="guess-btn"
-                    data-testid="guess-button"
-                    onClick={handleSubmit}
-                >
-                    Make Your Guess
-                </button>
+                <div className="button-row">
+                    <button
+                        id="guess-btn"
+                        data-testid="guess-button"
+                        onClick={handleSubmit}
+                    >
+                        Make Your Guess
+                    </button>
+                    <button
+                        id="randomize-btn"
+                        className="dice-button"
+                        onClick={handleRandomize}
+                        disabled={movieLocked.value && characterLocked.value}
+                        title="Randomize selection"
+                    >
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                            <circle cx="8.5" cy="8.5" r="1.5" />
+                            <circle cx="15.5" cy="15.5" r="1.5" />
+                            <circle cx="8.5" cy="15.5" r="1.5" />
+                            <circle cx="15.5" cy="8.5" r="1.5" />
+                            <circle cx="12" cy="12" r="1.5" />
+                        </svg>
+                    </button>
+                </div>
 
                 <div className="footer-meta">
                     <div className="footer-attempts" data-testid="attempts-counter">

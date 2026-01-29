@@ -193,6 +193,47 @@
     gap: 1rem;
 }
 
+.button-row {
+    display: inline-flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.dice-button {
+    width: 48px;
+    min-width: 48px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    background: var(--primary-color);
+    color: var(--btn-text);
+    border: none;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.1s;
+}
+
+.dice-button:hover:not(:disabled) {
+    opacity: 0.9;
+}
+
+.dice-button:active:not(:disabled) {
+    transform: scale(0.95);
+}
+
+.dice-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.dice-button svg {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.1s linear;
+}
+
 .footer-meta {
     display: flex;
     justify-content: space-between;
@@ -689,6 +730,14 @@ button:active {
 
     select {
         width: 100%;
+        font-size: 16px;
+        /* Prevents iOS auto-zoom */
+    }
+
+    .script-line {
+        padding: 1rem 1.5rem;
+        margin-left: -1rem;
+        margin-right: -1rem;
     }
 
     button {
@@ -715,8 +764,20 @@ button:active {
         width: 100%;
     }
 
-    .footer-actions button {
+    .footer-actions #guess-btn {
         width: 100%;
+    }
+
+    .button-row {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .dice-button {
+        width: 48px;
+        height: auto;
+        flex-shrink: 0;
+        align-self: stretch;
     }
 
     .movie-item {

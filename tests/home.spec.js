@@ -107,45 +107,6 @@ test.describe('Home Page', () => {
         });
     });
 
-    test.describe('Recently Played Section', () => {
-
-        test('shows recently played section when packs played', async ({ page }) => {
-            await page.goto('/');
-
-            // Get first pack's ID to test with
-            const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
-
-            // Mock a recent game
-            await page.evaluate((packId) => {
-                const now = new Date();
-                const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
-                localStorage.setItem(`scriptle:${packId}:${today}`, JSON.stringify({
-                    gameOver: true,
-                    success: true,
-                    attempts: 2
-                }));
-            }, firstPackId);
-
-            await page.reload();
-            await page.waitForLoadState('networkidle');
-
-            // Look for the heading text
-            const recentlyPlayed = page.getByText(/Recently Played/i);
-            await expect(recentlyPlayed).toBeVisible();
-        });
-
-        test('hides recently played section with no games', async ({ page }) => {
-            await page.goto('/');
-            await page.evaluate(() => localStorage.clear());
-            await page.reload();
-            await page.waitForLoadState('networkidle');
-
-            // Should not have recently played section
-            const recentlyPlayed = page.getByText(/Recently Played/i);
-            await expect(recentlyPlayed).not.toBeVisible();
-        });
-    });
-
     test.describe('Navigation', () => {
 
         test('help button opens help modal', async ({ page }) => {

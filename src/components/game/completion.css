@@ -270,3 +270,26 @@
     font-size: 1.25rem;
   }
 }
+@media (max-width: 350px) {
+  .completion-row {
+    gap: 0.5rem;
+  }
+
+  .stat-box {
+    width: 65px;
+    height: 65px;
+  }
+
+  .completion-flower {
+    width: 60px;
+    height: 60px;
+  }
+
+  .stat-value {
+    font-size: 1.1rem;
+  }
+
+  .stat-label {
+    font-size: 0.6rem;
+  }
+}
