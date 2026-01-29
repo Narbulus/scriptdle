@@ -37,8 +37,18 @@ export function Play({ packId }) {
                 // Apply theme immediately
                 applyTheme(packData.packData.theme);
 
-                // Update Title
-                document.title = `Scriptle - A daily ${packData.packData.name} movie quote game`;
+                // Update Title and Meta Tags
+                const pageTitle = `Scriptle: Daily ${packData.packData.name} quote guessing game`;
+                document.title = pageTitle;
+
+                // Update Open Graph meta tags for link previews
+                updateMetaTag('og:title', pageTitle);
+                updateMetaTag('og:description', `Play daily ${packData.packData.name} quote puzzles on Scriptle. Guess the movie from gradually revealed quotes!`);
+                updateMetaTag('og:url', window.location.href);
+
+                // Update Twitter Card meta tags
+                updateMetaTag('twitter:title', pageTitle);
+                updateMetaTag('twitter:description', `Play daily ${packData.packData.name} quote puzzles on Scriptle. Guess the movie from gradually revealed quotes!`);
 
                 setData({
                     dailyPuzzle: packData.dailyPuzzle,
@@ -116,5 +126,29 @@ function applyTheme(t) {
     root.style.setProperty('--pack-card-gradient-end', t.cardGradientEnd || t.bgColor || '#555');
     root.style.setProperty('--pack-card-border', t.cardBorder || t.primary || '#333');
     root.style.setProperty('--pack-card-text', t.cardText || '#ffffff');
+}
+
+function updateMetaTag(property, content) {
+    // Try og: property first
+    let meta = document.querySelector(`meta[property="${property}"]`);
+
+    // If not found, try name attribute (for twitter:)
+    if (!meta) {
+        meta = document.querySelector(`meta[name="${property}"]`);
+    }
+
+    if (meta) {
+        meta.setAttribute('content', content);
+    } else {
+        // Create new meta tag if it doesn't exist
+        meta = document.createElement('meta');
+        if (property.startsWith('og:')) {
+            meta.setAttribute('property', property);
+        } else {
+            meta.setAttribute('name', property);
+        }
+        meta.setAttribute('content', content);
+        document.head.appendChild(meta);
+    }
 }
 

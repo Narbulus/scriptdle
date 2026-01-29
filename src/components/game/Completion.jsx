@@ -1,7 +1,7 @@
 import { computed } from "@preact/signals";
 import { guessStats, currentAttempt, isWin, confettiShown, markConfettiShown } from '../../services/game-state.js';
 import { getStreak } from '../../utils/completionTracker.js';
-import { generateFlower, stringToSeed } from '../../utils/flowerGenerator.js';
+import { generateFlower, generateBeetle, stringToSeed } from '../../utils/flowerGenerator.js';
 import { fireConfetti } from '../../utils/confetti.js';
 import { useEffect } from 'preact/hooks';
 import { getCurrentDate } from '../../utils/time.js';
@@ -67,14 +67,13 @@ export function Completion({ puzzle, pack, packTheme }) {
                 </div>
             );
         } else {
-            const failEmojis = ['💀', '🙊', '🤡', '🤨', '🫣'];
-            const emojiIndex = badgeSeed % failEmojis.length;
+            const beetleSvg = generateBeetle(badgeSeed, cardColor);
             return (
-                <div
-                    className="completion-flower emoji-badge"
-                    style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '4rem' }}
-                >
-                    {failEmojis[emojiIndex]}
+                <div className="completion-badge-wrapper">
+                    <div
+                        className="completion-flower"
+                        style={{ backgroundImage: `url('${beetleSvg}')` }}
+                    />
                 </div>
             );
         }
@@ -90,7 +89,7 @@ export function Completion({ puzzle, pack, packTheme }) {
         });
         const url = window.location.href;
         const shareData = {
-            title: `Scriptle - ${pack.name}`,
+            title: `Scriptle: Daily ${pack.name} quote guessing game`,
             text: grid + '\n\n' + url,
             url: url
         };
@@ -167,7 +166,7 @@ export function Completion({ puzzle, pack, packTheme }) {
                     )}
 
                     <a href="/" data-link className="footer-more-movies" style={{ marginTop: '1rem', fontSize: '0.9rem' }}>
-                        Back to Menu
+                        More Movies
                     </a>
                 </div>
             </div>

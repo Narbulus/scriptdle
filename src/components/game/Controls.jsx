@@ -14,10 +14,6 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
     const [selectedMovie, setSelectedMovie] = useState('');
     const [selectedChar, setSelectedChar] = useState('');
 
-    // Validation errors
-    const [movieError, setMovieError] = useState('');
-    const [charError, setCharError] = useState('');
-
     // Sync locked movie state
     useEffect(() => {
         if (movieLocked.value) {
@@ -58,33 +54,57 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
         if (!characterLocked.value) {
             setSelectedChar('');
         }
-        setMovieError('');
     };
 
     const handleCharChange = (e) => {
         setSelectedChar(e.target.value);
-        setCharError('');
     };
 
     const handleSubmit = () => {
-        let isValid = true;
-
-        if (!selectedMovie) {
-            setMovieError('Please select a movie');
-            isValid = false;
-        }
-        if (!selectedChar) {
-            setCharError('Please select a character');
-            isValid = false;
-        }
-
-        if (!isValid) return;
-
         // Check Logic
         const target = puzzle.targetLine;
-        const guessMovieTitle = getMovieTitle(selectedMovie);
 
-        // Check against Title OR ID
+        // If nothing selected, skip turn and reveal next clue
+        if (!selectedMovie && !selectedChar) {
+            showMessage('Skipped turn. New clue revealed!', 'error');
+            submitGuess(false, false);
+            return;
+        }
+
+        // If only one selected, check if it's correct and possibly lock it
+        if (!selectedMovie || !selectedChar) {
+            let isMovieCorrect = false;
+            let isCharCorrect = false;
+
+            if (selectedMovie) {
+                const guessMovieTitle = getMovieTitle(selectedMovie);
+                isMovieCorrect = guessMovieTitle === target.movie || selectedMovie === target.movie;
+            }
+
+            if (selectedChar) {
+                isCharCorrect = selectedChar.toUpperCase() === target.character.toUpperCase();
+            }
+
+            // Show appropriate message
+            if (isMovieCorrect && !selectedChar) {
+                showMessage('Movie is correct! Now select the character.', 'error');
+            } else if (isCharCorrect && !selectedMovie) {
+                showMessage('Character is correct! Now select the movie.', 'error');
+            } else {
+                showMessage('Incomplete guess. New clue revealed!', 'error');
+            }
+
+            // Submit guess (will lock if correct)
+            submitGuess(isMovieCorrect, isCharCorrect);
+
+            // Reset incorrect selections
+            if (!isMovieCorrect && !movieLocked.value) setSelectedMovie('');
+            if (!isCharCorrect && !characterLocked.value) setSelectedChar('');
+            return;
+        }
+
+        // Both selected - normal guess logic
+        const guessMovieTitle = getMovieTitle(selectedMovie);
         const isMovieCorrect = guessMovieTitle === target.movie || selectedMovie === target.movie;
         const isCharCorrect = selectedChar.toUpperCase() === target.character.toUpperCase();
 
@@ -173,14 +193,6 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
                         ))}
                     </select>
                 </div>
-            </div>
-
-            {/* Errors */}
-            <div id="movie-error" className="form-error" data-testid="movie-error" style={{ display: movieError ? 'block' : 'none' }}>
-                {movieError}
-            </div>
-            <div id="char-error" className="form-error" data-testid="char-error" style={{ display: charError ? 'block' : 'none' }}>
-                {charError}
             </div>
 
             {/* Actions */}

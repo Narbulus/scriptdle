@@ -76,7 +76,9 @@
     border: none;
     color: var(--main-text);
     cursor: pointer;
-    padding: 0.25rem;
+    padding: var(--close-btn-padding);
+    width: var(--close-btn-size);
+    height: var(--close-btn-size);
     display: flex;
     align-items: center;
     justify-content: center;

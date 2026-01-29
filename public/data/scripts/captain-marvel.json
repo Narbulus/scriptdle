@@ -6,16 +6,13 @@
     "ACCUSER",
     "AGENT",
     "ATT-LASS",
-    "BANNER",
     "BARTENDER",
     "BIKER",
     "BOY",
     "BRON-CHAR",
     "BRUCE BANNER",
     "CADETS",
-    "CAROL",
     "COMPUTER",
-    "COULON",
     "COULSON",
     "DIRECTOR",
     "DRILL INSTRUCTOR",
@@ -27,15 +24,12 @@
     "JOSEPH DANVERS",
     "KORATH",
     "KREE",
-    "LAWSON",
     "MARIA",
     "MEDICAL EXAMINER",
     "MINN-ERVA",
     "MONICA",
-    "NATASHA",
     "NATASHA ROMANOFF",
     "PILOT",
-    "RHODEY",
     "RONAN",
     "SCANNER",
     "SECURITY",
@@ -47,14 +41,10 @@
     "SOH-LARR",
     "SOREN",
     "STAN LEE (1922-2018 R.I.P)",
-    "STEVE",
     "STEVE ROGERS",
     "SUPREME INTELLIGENCE",
-    "TALOS",
     "TOM",
     "VERS",
-    "VERS (11-YEARS OLD)",
-    "VERS (6-YEARS-OLD)",
     "VERS' BROTHER",
     "WENDY LAWSON",
     "YON-ROGG"
@@ -525,7 +515,7 @@
       "text": "What the hell are you thinking? You don't belong out here!"
     },
     {
-      "character": "VERS (11-YEARS OLD)",
+      "character": "VERS",
       "text": "You let him drive."
     },
     {
@@ -553,11 +543,11 @@
       "text": "Huge rumble throughout the cosmos shook the moon and the sun and the stars in the sky. And so, little Alouette flew up throughout the night."
     },
     {
-      "character": "VERS (6-YEARS-OLD)",
+      "character": "VERS",
       "text": "Did you see her?"
     },
     {
-      "character": "VERS (6-YEARS-OLD)",
+      "character": "VERS",
       "text": "It's Alouette."
     },
     {
@@ -565,7 +555,7 @@
       "text": "Get your butt's inside, it's time to eat."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Prepare for takeoff Lieutenant Trouble."
     },
     {
@@ -577,11 +567,11 @@
       "text": "Hang on. I think I got it."
     },
     {
-      "character": "VERS (6-YEARS-OLD)",
+      "character": "VERS",
       "text": "Did you see her?"
     },
     {
-      "character": "VERS (6-YEARS-OLD)",
+      "character": "VERS",
       "text": "It's Alouette."
     },
     {
@@ -589,7 +579,7 @@
       "text": "Get your butt's inside, it's time to eat."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Prepare for takeoff Lieutenant Trouble."
     },
     {
@@ -689,7 +679,7 @@
       "text": "Focus. Pegasus, Dr. Wendy Lawson. That's her."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Can you hear that?"
     },
     {
@@ -713,7 +703,7 @@
       "text": "Huh. Hold on. Go back right before this. Go back."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "That's no MIG, Lawson."
     },
     {
@@ -801,7 +791,7 @@
       "text": "Hey!"
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Leaving so soon? We're just getting to know each other."
     },
     {
@@ -997,7 +987,7 @@
       "text": "Let's greet them at the station."
     },
     {
-      "character": "COULON",
+      "character": "COULSON",
       "text": "Fury, this is Agent Colson. Umm, I'm still here at the Blockbuster and where did everybody go? I've finished collecting evidence."
     },
     {
@@ -1177,7 +1167,7 @@
       "text": "We talking cheek swab or urine sample."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "No. The DNA would match."
     },
     {
@@ -1557,7 +1547,7 @@
       "text": "Back in a minute."
     },
     {
-      "character": "LAWSON",
+      "character": "WENDY LAWSON",
       "text": "This isn't about fighting wars. It's about ending them."
     },
     {
@@ -1673,7 +1663,7 @@
       "text": "Now you know, I don't really need these to see (holding up his glasses which were knocked off during the fight) . But they do kinda complete the look"
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Don't you think?"
     },
     {
@@ -1749,7 +1739,7 @@
       "text": "Maria Rambeau."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Mmhmm. So how do we get to Louisianna?"
     },
     {
@@ -2021,11 +2011,11 @@
       "text": "Okay."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "You know, you really should be kinder to your neighbors. You never know when you're gonna need to borrow some sugar."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Now, hang on a second, before you go swinging those jazz hands around, making a mess in your friend's house - and... it's a lovely home."
     },
     {
@@ -2033,7 +2023,7 @@
       "text": "Oh my God. What the hell?!"
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "No one's gonna hurt the girl. Just, don't kill me. That would really complicate the situation."
     },
     {
@@ -2041,7 +2031,7 @@
       "text": "I'm about five seconds from complicating that wall with some ugly-ass Skrull brains."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "I'm sorry I simmed your boss. But now I stand before you as my true self. Without deception."
     },
     {
@@ -2049,7 +2039,7 @@
       "text": "And who is that, out there?"
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Okay, that's a fair point. But I'm sure that you understand, I had to take some precautions. I saw you crush 20 of my best men with your hands bound. I just wanna talk."
     },
     {
@@ -2057,7 +2047,7 @@
       "text": "Last time we talked, I ended up hanging from my ankles."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "That was before I knew who you were. Before I found what made you different from the others. I have an audio recording from Pegasus, of your voice, from a plane crash six years ago. On a device I believe you call a 'black box'."
     },
     {
@@ -2065,7 +2055,7 @@
       "text": "They told me it was destroyed in the crash. How'd you get it?"
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Does she not understand? Young lady I have a special skill that kinda allows me to get into places I'm not supposed to be."
     },
     {
@@ -2073,7 +2063,7 @@
       "text": "Call me young lady again, and I'm gonna put my foot in a place it's not supposed to be."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Am I supposed to guess where that is?"
     },
     {
@@ -2085,7 +2075,7 @@
       "text": "Your ass."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Okay, I get it. We'r"
     },
     {
@@ -2093,7 +2083,7 @@
       "text": "They told me it was destroyed in the crash. How'd you get it?"
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Does she not understand? Young lady I have a special skill that kinda allows me to get into places I'm not supposed to be."
     },
     {
@@ -2101,7 +2091,7 @@
       "text": "Call me young lady again, and I'm gonna put my foot in a place it's not supposed to be."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Am I supposed to guess where that is?"
     },
     {
@@ -2109,19 +2099,19 @@
       "text": "Your ass."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Okay, I get it. We're all a little on edge here. But look, I just need your help decoding some coordinates. If you sit down, you listen to this, I assure you, it'll be worth your while."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Call your buddy back inside and I'll listen."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Deal."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Oh my God! Get that thing away! How'd that get in here?"
     },
     {
@@ -2129,7 +2119,7 @@
       "text": "The cat? This isn't what you're afraid of, is it?"
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "That's not a cat. That's a Flerken."
     },
     {
@@ -2153,7 +2143,7 @@
       "text": "It's loading."
     },
     {
-      "character": "LAWSON",
+      "character": "WENDY LAWSON",
       "text": "Punch in the coordinates. 5229, -47, 8.768, 0.2."
     },
     {
@@ -2161,7 +2151,7 @@
       "text": "Copy that. Where are we going Doc?"
     },
     {
-      "character": "LAWSON",
+      "character": "WENDY LAWSON",
       "text": "My laboratory."
     },
     {
@@ -2169,7 +2159,7 @@
       "text": "Your laboratory? What do you mean?"
     },
     {
-      "character": "LAWSON",
+      "character": "WENDY LAWSON",
       "text": "Oh no."
     },
     {
@@ -2177,7 +2167,7 @@
       "text": "Is that... Wait, what is that? It's not showing up on my radar."
     },
     {
-      "character": "LAWSON",
+      "character": "WENDY LAWSON",
       "text": "Go Carol. Fly!"
     },
     {
@@ -2185,7 +2175,7 @@
       "text": "That's no MIG, Lawson. Who the hell are they?"
     },
     {
-      "character": "LAWSON",
+      "character": "WENDY LAWSON",
       "text": "Those are the bad guys. Fly faster, now."
     },
     {
@@ -2197,7 +2187,7 @@
       "text": "What do they want?"
     },
     {
-      "character": "LAWSON",
+      "character": "WENDY LAWSON",
       "text": "Me. My work. I never should have brought you along."
     },
     {
@@ -2233,11 +2223,11 @@
       "text": "Your blood... it's blue."
     },
     {
-      "character": "LAWSON",
+      "character": "WENDY LAWSON",
       "text": "Yeah, but, uh...how's my hair? Help me out."
     },
     {
-      "character": "LAWSON",
+      "character": "WENDY LAWSON",
       "text": "I have to destroy it before they get here."
     },
     {
@@ -2245,7 +2235,7 @@
       "text": "What? Lawson?"
     },
     {
-      "character": "LAWSON",
+      "character": "WENDY LAWSON",
       "text": "You remember what I said about our work here? What it's for?"
     },
     {
@@ -2253,7 +2243,7 @@
       "text": "To end wars?"
     },
     {
-      "character": "LAWSON",
+      "character": "WENDY LAWSON",
       "text": "Yeah. But the wars are bigger than you know. Damn it! My name is not Lawson. My real name is Mar-Vell, and I come from a planet called Hala."
     },
     {
@@ -2261,7 +2251,7 @@
       "text": "I would say that your delusional, but we just got shot down by a spaceship and your blood is blue."
     },
     {
-      "character": "LAWSON",
+      "character": "WENDY LAWSON",
       "text": "Listen, I spent half my life fighting a shameful war. Now skedaddle before you give me any more regrets. Just remember the coordinates, okay? You've got to save them without me."
     },
     {
@@ -2269,7 +2259,7 @@
       "text": "Save who? How?"
     },
     {
-      "character": "LAWSON",
+      "character": "WENDY LAWSON",
       "text": "I've got to blow this engine before they find it."
     },
     {
@@ -2325,7 +2315,7 @@
       "text": "Everything that I knew was a lie."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Now you understand."
     },
     {
@@ -2333,7 +2323,7 @@
       "text": "What? What do I understand now?"
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Yon-Rogg killed Mar-Vell. He killed her. Because she found out that she was on the wrong side of an unjust war."
     },
     {
@@ -2341,7 +2331,7 @@
       "text": "No. Your people are terrorists...that kill innocents. I saw the ruins on Torfa."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Ruins that the Accusers are responsible for. My people lived as refugees on Torfa. Homeless, ever since we resisted Kree rule, and they destroyed our planet. Now the handful of us that are left, will be slaughtered next...unless you will help me finish what Mar-Vell started. The coordinates you found, would've powered a lightspeed ship capable of carrying us to safety. A new home, where the Kree can't reach us."
     },
     {
@@ -2349,7 +2339,7 @@
       "text": "Lawson always told us that her work at Pegasus wasn't to fight wars, but to end them."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "She wanted you to help us find the core."
     },
     {
@@ -2357,7 +2347,7 @@
       "text": "Well, I already destroyed it."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "No, you destroyed the engine. The core that powered it is in a remote location. If you help us decode those coordinates, we can find it."
     },
     {
@@ -2365,7 +2355,7 @@
       "text": "You'll use it to destroy us."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "We just want a home. You and I lost everything at the hands of the Kree. Can't you see it now? You're not one of them."
     },
     {
@@ -2377,11 +2367,11 @@
       "text": "You are Carol Danvers. You are the woman on that black box risking her life to do the right thing. My best friend... who supported me as a mother, and a pilot when no one else did. You're smart and funny, and a huge pain in the ass. And you are the most powerful person I knew, way before you could shoot fire from your fist. You hear me? You hear me?"
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "I know I don't deserve your trust, but you were our only lead. We discovered that your energy signature matched Mar-Vell's core. Now, we know why. If only you knew, the importance of it to me. I just need your help decoding the coordinates to Mar-Vell's lab."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Those weren't coordinates. They're safe vectors."
     },
     {
@@ -2393,7 +2383,7 @@
       "text": "You didn't find her lab on Earth, because it's not on Earth."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "That was the location on the day of the crash six years ago. If we track its course, we'll find it, in orbit, right now."
     },
     {
@@ -2401,11 +2391,11 @@
       "text": "It's just basic physics."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "In orbit? Was that so difficult to figure out? I mean, you're my science guy, right?"
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Yon-Rogg will catch up to you soon. We've got to get the core before he does."
     },
     {
@@ -2413,7 +2403,7 @@
       "text": "Mmm. You're going to space?"
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "In what?"
     },
     {
@@ -2425,7 +2415,7 @@
       "text": "Hmm. Your science guy."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Well, I could use a co-pilot."
     },
     {
@@ -2461,7 +2451,7 @@
       "text": "You have the chance to fly the coolest mission in the history of missions. And you're gonna give it up to sit on the couch and watch Fresh Prince with me? I just think that you should consider the kind of example you're setting for your daughter."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Your Mom's lucky. When they were handing out kids, they gave her the toughest one. Lieutenant Trouble."
     },
     {
@@ -2469,11 +2459,11 @@
       "text": "You remember."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Is that mine?"
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "No, no. You hang onto it until I come back. But there is something that I need your help with. I can't wear these Kree colors anymore, and since you're obviously the only person around here with any sense of style..."
     },
     {
@@ -2489,11 +2479,11 @@
       "text": "Definitely not."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Well, since we're on the same team..."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "How do I look?"
     },
     {
@@ -2501,7 +2491,7 @@
       "text": "Fresh."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "What took you so long?"
     },
     {
@@ -2509,7 +2499,7 @@
       "text": "I'm fine. Thanks for asking."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "PRY46-B..."
     },
     {
@@ -2517,7 +2507,7 @@
       "text": "No, no codes. That system is fallible, as we've learned."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Okay, then let's do this."
     },
     {
@@ -2525,7 +2515,7 @@
       "text": "Who do I see when I commune with the Supreme Intelligence?"
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "The person you most admire and respect, I guess. But you would never tell me who."
     },
     {
@@ -2533,7 +2523,7 @@
       "text": "And what is your earliest memory of Hala?"
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "The transfusion. Blue blood running through my veins."
     },
     {
@@ -2541,7 +2531,7 @@
       "text": "Whose blood?"
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Hmm."
     },
     {
@@ -2569,11 +2559,11 @@
       "text": "For the good of all Kree, Commander the infestation will be eradicated."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Passing 500 and climbing."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "You know, you really shouldn't have that thing on your lap."
     },
     {
@@ -2585,11 +2575,11 @@
       "text": "Can I ask you something? Do you just turn into anything y"
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Passing 500 and climbing."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "You know, you really shouldn't have that thing on your lap."
     },
     {
@@ -2601,7 +2591,7 @@
       "text": "Can I ask you something? Do you just turn into anything you want?"
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Ah well, I have to see it first."
     },
     {
@@ -2609,7 +2599,7 @@
       "text": "Can you all do it?"
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Physiologically, yeah. But it takes practice and, um, dare I say it, talent to do it well."
     },
     {
@@ -2617,7 +2607,7 @@
       "text": "Can you turn into a cat?"
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "What's a cat?"
     },
     {
@@ -2625,7 +2615,7 @@
       "text": "What about a filing cabinet?"
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Why would I turn into a filing cabinet?"
     },
     {
@@ -2633,7 +2623,7 @@
       "text": "A Venus fly trap. I'll give you $50 right now if you turn into a Venus fly trap."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Switching engines from Scramjet to fusion. Buckle up, folks."
     },
     {
@@ -2641,11 +2631,11 @@
       "text": "Hey. Is this normal, like space turbulence?"
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Pretty much."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Locking in coordinate grid."
     },
     {
@@ -2653,7 +2643,7 @@
       "text": "Where is it?"
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "It's here. It's gotta be here."
     },
     {
@@ -2669,7 +2659,7 @@
       "text": "Is that it? The core?"
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "In her notes, she called it the Tesseract."
     },
     {
@@ -2685,7 +2675,7 @@
       "text": "Talos!"
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "He didn't come here for the Tesseract."
     },
     {
@@ -2693,27 +2683,27 @@
       "text": "It's okay. We didn't know what to do. Mar-Vell warned us not to send a signal for any reason or the Kree would find us."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "You did the right thing."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "It's okay, it's okay. She's alright. She's a friend."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "I'm not gonna hurt you."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "She led me to you."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "I'm so sorry. I didn't know."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Carol, this is war. My hands are filthy from it too. But we're here now. You found my family. This is just the beginning. There're thousands of us separated from each other... scattered throughout the galaxy."
     },
     {
@@ -2733,7 +2723,7 @@
       "text": "The Supreme Intelligence will set her straight."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "You can see they're not soldiers, let them go. You can have me."
     },
     {
@@ -2741,7 +2731,7 @@
       "text": "And the core?"
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "You lied to me."
     },
     {
@@ -2757,7 +2747,7 @@
       "text": "The music, it's a nice touch."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Let... me... out."
     },
     {
@@ -2765,7 +2755,7 @@
       "text": "No can do."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "If you hurt them, I will burn you to the ground."
     },
     {
@@ -2773,7 +2763,7 @@
       "text": "With what exactly? Your powers came from us."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "You didn't give me these powers. The blast did."
     },
     {
@@ -2805,7 +2795,7 @@
       "text": "You did good, ace. Thanks to you, those insidious shapeshifters will threaten our borders no more."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "I used to believe your lies. But the Skrulls are just fighting for a home. You're talking about destroying them because they won't submit to your rule. And neither will I."
     },
     {
@@ -2813,7 +2803,7 @@
       "text": "We found you. We embraced you as our own."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "You stole me. From my home, my family, my friends."
     },
     {
@@ -2825,7 +2815,7 @@
       "text": "Without us... you're only human."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "You're right. I'm only human."
     },
     {
@@ -2833,7 +2823,7 @@
       "text": "On Hala, you were reborn. Vers."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "My name... is Carol."
     },
     {
@@ -2841,11 +2831,11 @@
       "text": "She's trying to break out."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "I've been fighting with one arm tied behind my back. But what happens..."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "...when I'm finally set free?"
     },
     {
@@ -2853,11 +2843,11 @@
       "text": "You know you're glowing, right?"
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "I'll explain it later."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Take the Tesseract, leaving the lunchbox."
     },
     {
@@ -2865,7 +2855,7 @@
       "text": "Me?"
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Yes."
     },
     {
@@ -2873,11 +2863,11 @@
       "text": "I'm not touching that thing."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Want me to get you an oven mitt?"
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Get the Skrulls in the Quad Jet and go. Take the Flerken with you."
     },
     {
@@ -2885,7 +2875,7 @@
       "text": "What about you?"
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "I'll buy you some time!"
     },
     {
@@ -2893,7 +2883,7 @@
       "text": "I'm picking you up now. I'm trusting you not to eat me."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Hey guys. Arm-wrestle for the Tesseract."
     },
     {
@@ -2909,7 +2899,7 @@
       "text": "Good kitty."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "You knew all along. Is that why we never hung out?"
     },
     {
@@ -2925,7 +2915,7 @@
       "text": "Don't make me do this."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Okay."
     },
     {
@@ -2937,7 +2927,7 @@
       "text": "Take them to the hangar too. We'll blast them all into space."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Play it cool. Just like Havana. Do you have the thing?"
     },
     {
@@ -2949,11 +2939,11 @@
       "text": "Come on. Move. Move!"
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Follow my lead. Cover her eyes."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Get on the ship. Let's go, let's go."
     },
     {
@@ -2961,7 +2951,7 @@
       "text": "Nice diversion."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "I could've swore, I put it in there."
     },
     {
@@ -2977,7 +2967,7 @@
       "text": "You all right, friend?"
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Never... better."
     },
     {
@@ -3041,7 +3031,7 @@
       "text": "I'm so proud of you. You've come a long way since I found you that day by the lake. But can you keep your emotions in check long enough to take me on? Or will it get the better of you, as always? I always told you... you'll be ready, the day you can knock me down as yourself. This is that moment. This is that moment, Vers! Turn off the light show, and prove, prove to me, you can beat me without..."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "I have nothing to prove to you."
     },
     {
@@ -3053,7 +3043,7 @@
       "text": "I can't go back empty-handed."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "You won't be empty-handed. I'm sending you with a message. Tell the Supreme Intelligence that I'm coming to end it. The war, the lies, all of it."
     },
     {
@@ -3077,11 +3067,11 @@
       "text": "Yeah. It's just a scratch."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "No..."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "I can't believe you got into the raddest dogfight ever."
     },
     {
@@ -3101,7 +3091,7 @@
       "text": "Getting better every second."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Just so I'm clear, you were Soh-Larr, and the SHIELD agent?"
     },
     {
@@ -3109,7 +3099,7 @@
       "text": "Keller. Tied my boss up, stole his identity."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "I borrowed his likeness. I'm no thief."
     },
     {
@@ -3117,7 +3107,7 @@
       "text": "It's a little like thief."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Whose side are you on?"
     },
     {
@@ -3125,7 +3115,7 @@
       "text": "You're good to go here til you recover, but you and your family will need a new look."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "I could go back to being your boss."
     },
     {
@@ -3133,7 +3123,7 @@
       "text": "Please don't."
     },
     {
-      "character": "TALOS",
+      "character": "GENERAL TALOS",
       "text": "Come on. I love sporting his beautiful blue eyes."
     },
     {
@@ -3141,7 +3131,7 @@
       "text": "No way, you guys have the best eyes. Don't ever change your eyes."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "I'll help you find a home. Finish what Mar-Vell started."
     },
     {
@@ -3153,7 +3143,7 @@
       "text": "They won't be safe here, baby. Auntie Carol is right. They need their own home."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "I'll be back before you know it."
     },
     {
@@ -3169,11 +3159,11 @@
       "text": "Or maybe I'll build a spaceship. You don't know."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "He doesn't."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Keep the Tesseract on Earth. Hidden."
     },
     {
@@ -3181,7 +3171,7 @@
       "text": "You're sure that's what Marvel would want?"
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Mar-Vell."
     },
     {
@@ -3189,7 +3179,7 @@
       "text": "That's what I said."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "It's two words. Mar-Vell."
     },
     {
@@ -3197,11 +3187,11 @@
       "text": "Mar-Vell. Marvel sounds a lot better. You know, like the Marvelettes? 𝅘𝅥𝅮 Oh, yeah, wait a minute Mr. Postman. Ay, ay, ay, ay, Mr. Postman. 𝅘𝅥𝅮 Not ringing any bells?"
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Keep singing. Maybe it'll come back to me."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "I upgraded it. Range should be, a couple galaxies, at least."
     },
     {
@@ -3209,7 +3199,7 @@
       "text": "What? You think I'm gonna crank call you?"
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "For emergencies only. Okay?"
     },
     {
@@ -3221,7 +3211,7 @@
       "text": "We got the ketchup stain off."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Thanks, Lieutenant Trouble. It's hard for me to say goodbye, too."
     },
     {
@@ -3297,7 +3287,7 @@
       "text": "Hey. So that thing just stopped doing whatever the hell it was doing."
     },
     {
-      "character": "NATASHA",
+      "character": "NATASHA ROMANOFF",
       "text": "What have we got?"
     },
     {
@@ -3305,27 +3295,27 @@
       "text": "Whatever the signal is sending, it finally creeped off."
     },
     {
-      "character": "STEVE",
+      "character": "STEVE ROGERS",
       "text": "I thought we bypassed the battery."
     },
     {
-      "character": "RHODEY",
+      "character": "JAMES RHODES",
       "text": "We did. It's still plugged in, it just... it just stopped."
     },
     {
-      "character": "STEVE",
+      "character": "STEVE ROGERS",
       "text": "Reboot and send the signal again."
     },
     {
-      "character": "BANNER",
+      "character": "BRUCE BANNER",
       "text": "We don't even know what this is."
     },
     {
-      "character": "NATASHA",
+      "character": "NATASHA ROMANOFF",
       "text": "Fury did. Just do it, please. You tell me the second you get a signal. I want to know who's on the other end of that thing."
     },
     {
-      "character": "CAROL",
+      "character": "VERS",
       "text": "Where's Fury?"
     }
   ],

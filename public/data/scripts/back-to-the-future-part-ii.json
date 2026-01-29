@@ -33,7 +33,6 @@
     "CUBS",
     "DATA",
     "DELIVERY MAN",
-    "DOC",
     "DOC BROWN",
     "GANG MEMBER",
     "GEORGE",
@@ -49,9 +48,7 @@
     "LORRAINE",
     "LORRAINE BAINES",
     "MARLENE",
-    "MARTY",
     "MARTY 1",
-    "MARTY JR",
     "MARTY JR.",
     "MARTY MCFLY",
     "MATCH",
@@ -72,7 +69,6 @@
     "TERRY",
     "TEXACO ROBOT",
     "TV",
-    "TV (VARIOUS CHANNELS)",
     "VIDEO GAME BOY 2",
     "VIDEO GAME KID 1",
     "VIDEO GAME KID 2",
@@ -86,7 +82,7 @@
       "text": "How 'bout a ride, mister?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Jennifer. Oh man, are you a sight for sore eyes! Let me look at you."
     },
     {
@@ -94,7 +90,7 @@
       "text": "Marty, you're acting like you haven't seen me in a week."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "I haven't."
     },
     {
@@ -102,51 +98,51 @@
       "text": "Are you okay? Is everything all right?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Oh, yeah. Everything's great."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Marty! You've gotta come back with me!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Where?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Back to the future!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Wait a minute. What are you doin’, Doc?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "I need fuel. Go ahead. Quick! Get in the car."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "No, no, no. Look, Doc, I just got here, okay? Jennifer's here. We're gonna take the new truck for a spin."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Well, bring her along. This concerns her, too."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Wait a minute, Doc. What are you talkin’ about? What happens to us in the future? What, do we become assholes or somethin’?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "No, no, no. You and Jennifer both turn out fine. It's your kids, Marty. Something has gotta be done about your kids."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Hey, Doc, we better back up. We don't have enough road to get up to 88."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Roads? Where we're going, we don't need roads."
     },
     {
@@ -158,31 +154,31 @@
       "text": "A flying DeLorean? What the hell is goin’ on here?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "What the hell was that?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Taxicab."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "What do you mean a \"taxicab\"? I thought we were flying."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Precisely."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "All right, Doc. What's goin’ on, huh? Where are we? When are we?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "We're descending toward Hill Valley, California, at 4:29 p.m. on Wednesday, October 21, 2015."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "2015? You mean we're in the future."
     },
     {
@@ -190,7 +186,7 @@
       "text": "Future? Marty, what do you mean? How can we be in the future?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Jennifer... I don't know how to tell you this, but you're in a time machine."
     },
     {
@@ -198,7 +194,7 @@
       "text": "And this is the year 2015?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "October 21, 2015."
     },
     {
@@ -210,7 +206,7 @@
       "text": "Doc, now, you said we were married, right?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Uh..."
     },
     {
@@ -218,67 +214,67 @@
       "text": "Yeah? Was it a big wedding? Marty, we're gonna be able to see our wedding. Wow. I'm gonna be able to see my wedding dress. Wow. God, I wonder where we live. I bet it's a big house with lots of kids. How many kids..."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc! What the hell are you doin’?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Relax, Marty. It's just a sleep-inducing alpha rhythm generator. She was asking too many questions, and no one should know too much about their future. This way when she wakes up, she'll think it was all a dream."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Then what did you bring her for?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "I had to do something. She saw the time machine. I couldn't just leave her there with that information. Don't worry. She's not essential to my plan."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Well, you're the doc, Doc."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Here's our exit."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Right now? It's pouring rain."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Wait five more seconds."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Right on the tick. Amazing. Absolutely amazing. Too bad the post office isn't as efficient as the weather service."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Excuse the disguise, Marty, but I was afraid you wouldn't recognize me. I went to a rejuvenation clinic and got an all-natural overhaul. They took out some wrinkles, did a hair repair, changed the blood, added a good 30 or 40 years to my life. They also replaced my spleen and colon. What do you think?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "You look great, Doc. The future. Unbelievable. I gotta check this out, Doc."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "All in good time, Marty. We're on a tight schedule here."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Tell me about my future. I mean, I know I make it big. But what? Do I become, like, a rich rock star?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Please, Marty, no one should know too much about their own destiny."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Right. Right. I am rich, though, right?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Marty, please, take off your shirt. Put on the jacket and the shoes. Got a mission to accomplish."
     },
     {
@@ -286,127 +282,127 @@
       "text": "Size-adjusting fit."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Pull out your pants pockets. All kids in the future wear their pants inside out. Put on this cap. Perfect. You're the spitting image of your future son."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "What?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Help me move Jennifer over here."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "So what's the deal?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Grab her feet. All right."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Okay, now what?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "In exactly two minutes, you go around the corner into the Cafe '80s."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Cafe '80s?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "It's one of those nostalgia places, but not done very well. Go in and order a Pepsi."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Here's a 50. Then wait for a guy named Griff."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Right. Griff. Right."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Griff's gonna ask you about tonight. Are you in or out? Tell him you are out. Whatever he says, whatever happens, say no, you're not interested."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Okay."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Then leave, come back here and wait for me. Don't talk to anyone, don't touch anything, don't do anything, don't interact with anyone and try not to look at anything."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "I don't get it. I thought you said this had something to do with my kids."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Look what happens to your son."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "My son? God, he looks just like me."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "\"Within two hours of his arrest, Martin McFly Jr. \"was tried, convicted and sentenced \"to 15 years in the state penitentiary.\" Within two hours?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "The justice system works swiftly in the future now that they've abolished all lawyers."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Oh, this is heavy."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "It gets worse. Next week, your daughter attempts to break him out of jail, and she gets set up for 20 years!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "My daughter. Wait a minute. I have a daughter?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "You see? This one event starts a chain reaction that completely destroys your entire family."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Hey, Doc, this date... This is tomorrow's newspaper."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Precisely, I already went further ahead into time to see what else happens. I backtracked everything to this one event. That's why we're here today, to prevent this incident from ever happening."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Damn! I'm late!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Wait a minute. Where you goin’ now?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "To intercept the real Marty Jr. You're taking his place. Around the corner at the Cafe '80s. Guy named Griff. Just...say...no!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Hey, what about Jennifer? We're not just gonna leave her here."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Don't worry, she'll be safe. It'll just be for a few minutes. And, Marty, be careful around that Griff character. He's got a few short circuits in his bionic implants."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "The future."
     },
     {
@@ -414,7 +410,7 @@
       "text": "Welcome to Texaco. You can trust your car to the system with the star. Checking oil. Checking landing gear."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "The shark still looks fake."
     },
     {
@@ -438,7 +434,7 @@
       "text": "You must have the hostage special! Cajun style. You must have the hostage special!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Hey, hey, hey, guys. Hey, hey, guys! All I want is a Pepsi."
     },
     {
@@ -446,7 +442,7 @@
       "text": "Hey, McFly! Yeah. I've seen ya around. You're Marty McFly's kid, aren't you?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Biff?"
     },
     {
@@ -454,7 +450,7 @@
       "text": "You're Marty Jr. Tough break, kid. Must be rough bein’ named after a complete butthead."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "What's that supposed to mean?"
     },
     {
@@ -462,7 +458,7 @@
       "text": "Hello? Hello? Anybody home? Hey. Hey. Think, McFly, think. Your old man? Mr. Loser."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Loser? What?"
     },
     {
@@ -470,7 +466,7 @@
       "text": "That's right. Loser with a capital \"L.\""
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Look, I happen to know George McFly is no longer a loser."
     },
     {
@@ -478,11 +474,11 @@
       "text": "No, I'm not talkin’ about George McFly. I'm talkin’ about his kid. Your old man , Marty McFly Sr., the man who took his life and flushed it completely down the toilet."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "I did?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "I mean... I mean, he did?"
     },
     {
@@ -498,7 +494,7 @@
       "text": "Yeah? With your eyes closed?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Are you two related?"
     },
     {
@@ -506,7 +502,7 @@
       "text": "Hello? Hello? Anybody home? What do you think, Griff just called me \"Grandpa\" for his health?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "He's Griff?"
     },
     {
@@ -538,7 +534,7 @@
       "text": "My dad taught me about these."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "It is Wild Gunman."
     },
     {
@@ -546,7 +542,7 @@
       "text": "How do you play this thing?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "I'll show ya, kid. I'm a crack shot at this."
     },
     {
@@ -554,7 +550,7 @@
       "text": "You mean you have to use your hands? That's like a baby's toy."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Baby's toy?"
     },
     {
@@ -562,7 +558,7 @@
       "text": "Pepsi Perfect."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Damn!"
     },
     {
@@ -590,7 +586,7 @@
       "text": "McFly!"
     },
     {
-      "character": "MARTY JR",
+      "character": "MARTY JR.",
       "text": "What?"
     },
     {
@@ -606,7 +602,7 @@
       "text": "What's wrong, McFly? You got no scrote?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "He's a complete wimp."
     },
     {
@@ -634,7 +630,7 @@
       "text": "Okay, Griff, I'll do it. I'll do it, buddy. Whatever you say."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Stay down and shut up."
     },
     {
@@ -646,7 +642,7 @@
       "text": "Now, let's hear the right answer."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "The answer's no, Griff."
     },
     {
@@ -654,7 +650,7 @@
       "text": "No?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Yeah. What are you deaf and stupid? I said no!"
     },
     {
@@ -662,7 +658,7 @@
       "text": "What's wrong, McFly? Chicken?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "What did you call me, Griff?"
     },
     {
@@ -670,7 +666,7 @@
       "text": "Chicken, McFly!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Nobody calls me... chicken."
     },
     {
@@ -678,11 +674,11 @@
       "text": "All right, punk!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Hey, look! Hey, hey, hey, hey, hey. Hey, hey, hey."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Stop! Little girl, little girl. Stop."
     },
     {
@@ -698,7 +694,7 @@
       "text": "Where is he?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Here."
     },
     {
@@ -742,7 +738,7 @@
       "text": "Batter up!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Holy shit!"
     },
     {
@@ -754,7 +750,7 @@
       "text": "Drying mode on. Jacket drying. Your jacket is now dry."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Hey, kid. Hey, little girl, thanks."
     },
     {
@@ -766,7 +762,7 @@
       "text": "Save the clock tower! Hey, kid. Throw in a hundred bucks, will ya, and help save the clock tower."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Sorry, no."
     },
     {
@@ -774,7 +770,7 @@
       "text": "Come on, kid. That's an important historical landmark!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Look, some other time."
     },
     {
@@ -782,7 +778,7 @@
       "text": "Lightning struck that thing 60 years ago."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Wait a minute."
     },
     {
@@ -794,7 +790,7 @@
       "text": "Yeah, it's somethin’, huh? Who woulda thought? Hundred to 1 shot! I wish I could go back to the beginning of the season, put some money on the Cubs."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "I just meant that Miami... What did you just say?"
     },
     {
@@ -806,23 +802,23 @@
       "text": "Now this has an interesting feature. It has a dust jacket. Books used to have these to protect the covers. Of course, that was before they had dust-repellent paper. Ah. And if you're interested in dust, we have a quaint little piece from the 1980s called a DustBuster."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "I can't lose."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Marty! Marty! Up here!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Hey, Doc, what's goin’ on?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Stand by. I'll park over there."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Yeah, all right. Hey, right on time."
     },
     {
@@ -846,23 +842,23 @@
       "text": "Don't drive trank. Low-res scuzzball!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "I can't lose."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Marty! Marty! Up here!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Hey, Doc, what's goin’ on?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Stand by. I'll park over there."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Yeah, all right. Hey, right on time."
     },
     {
@@ -890,19 +886,19 @@
       "text": "Two of 'em?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "I left him in a suspended animation kennel. Einstein never knew I was gone! Marty! What in the name of Sir Isaac H. Newton happened here?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Oh, yeah, Doc, listen, my kid showed up. All hell broke loose."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Your kid? Great Scott, the sleep inducer. I was afraid of this. Because I used it on Jennifer, there wasn't enough power left to knock your son out for a full hour. Damn!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc, Doc, Doc, look at this! It's changing."
     },
     {
@@ -910,43 +906,43 @@
       "text": "I was FRAMED!"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Yes! Yes, of course! Because this Hoverboard incident has now occurred, Griff now goes to jail. Therefore, your son won't go with him tonight, and that robbery will never take place. Thus, history, future history, has now been altered, and this is the proof! Marty, we've succeeded, not exactly as I planned, but no matter. Let's go get Jennifer and go home!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Hi, Einie. Hi, buddy."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "What's this?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "It's a souvenir."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "\"50 years of sports statistics.\" Hardly recreational reading material, Marty."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Well, hey, Doc, what's the harm in bringin' back a little info on the future? Ya know, maybe we could place a couple bets."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Marty, I didn't invent the time machine for financial gain! The intent here is to gain a clearer perception of humanity. Where we've been, where we're going, the pitfalls and the possibilities, the perils and the promise. Perhaps even an answer to that universal question, \"Why?\""
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Hey, Doc, I'm all for that."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "What's wrong with makin' a few bucks on the side?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "I am going to put...this...in...the trash. Great Scott!"
     },
     {
@@ -958,19 +954,19 @@
       "text": "Forty-seven? That's a hell of a good face-lift."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "What the hell are they doin', Doc?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "They used her thumbprint to assess her ID. Since her thumbprint never changes over the years, they simply assume she's the Jennifer of the future."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Well, we gotta stop ‘em."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "What are we gonna say? That we're time travelers? They'd have us committed."
     },
     {
@@ -982,39 +978,39 @@
       "text": "Home? To Hilldale? It'll be dark by the time we get out there."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "They're taking her home, to your future home! We'll arrive shortly thereafter, get her outta there, and go back to 1985."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "You mean, I'm gonna see where I live? I'm gonna see myself as an old man?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "No, no, no, Marty. That could result in a... Great Scott! Jennifer could conceivably encounter her future self! The consequences of that could be disastrous!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc, what do you mean?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "I foresee two possibilities. 1: coming face to face with herself 30 years older would put her into shock and she'd simply pass out. Or 2: the encounter could create a time paradox, the result of which could cause a chain reaction that would unravel the very fabric of the spacetime continuum and destroy the entire universe! Granted, that's a worst-case scenario. The destruction might in fact be very localized, limited to merely our own galaxy."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Well - that's a relief."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Let's go. I sure hope we find Jennifer before she finds herself."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "The Skyway's jammed. It's gonna take us forever to get there. And this stays here. I didn't invent the time machine to win at gambling; I invented the time machine to travel through time."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "I know. I know. I know, Doc."
     },
     {
@@ -1142,15 +1138,15 @@
       "text": "Oh, I will."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Damn this traffic! Jennifer, that is Old Jennifer, usually gets home around now. I hope we're not too late."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "What is it? What's the matter, Doc?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "For a moment, I thought I saw a taxi in my rear display. I thought it was following us. Weird."
     },
     {
@@ -1186,27 +1182,27 @@
       "text": "Automobile accident."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "All right, Einie, let's find Jennifer."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "I don't believe it. I live in Hilldale? This is great! Way to go, McFly."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Marty, stay here. Just change clothes. If I need you, I'll holler."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Come on, Doc, I wanna check out my house."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "We can't risk you running into your older self. Come on, Einie, let's go. Where's Jennifer? Where's Jennifer?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Hilldale. This is bitchin'."
     },
     {
@@ -1266,7 +1262,7 @@
       "text": "Okay, I want channels 18, 24, 63, 109, 87 and the Weather Channel."
     },
     {
-      "character": "TV (VARIOUS CHANNELS)",
+      "character": "TV",
       "text": "The Weather Channel, bringing you the world's weather 24 hours a day. Weather conditions remain the same...All board-certified implant surgeons...With a minor warm front..."
     },
     {
@@ -1358,7 +1354,7 @@
       "text": "I'm not sure where Jennifer is, Mom. She should have been home hours ago. I'm having a hard time keeping track of her these days."
     },
     {
-      "character": "MARTY JR",
+      "character": "MARTY JR.",
       "text": "Hey, fruit. Fruit, please."
     },
     {
@@ -1498,7 +1494,7 @@
       "text": "— No! Please, no. I cannot be fired. I'm fired! Ohhh! Oh, this is heavy. What am I gonna tell Jennifer?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Jennifer. Jennifer."
     },
     {
@@ -1506,7 +1502,7 @@
       "text": "Oh, Doc, am I glad to see you."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Go out the front door. I'll meet you there."
     },
     {
@@ -1514,7 +1510,7 @@
       "text": "But it doesn't open. There's no doorknob."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Press your thumb to the plate."
     },
     {
@@ -1554,59 +1550,59 @@
       "text": "I'm young!"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Marty! Marty! Marty, come quick! Quick! She encountered her older self and went into shock, just as I predicted. She'll be fine. Let's get her back to 1985, and then I'm gonna destroy the time machine."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Destroy it? What about that stuff about humanity, where we're going and why?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "The risks are just too great, as this incident proves. And I was behaving responsibly. You can imagine the danger if the time machine were to fall into the wrong hands. My only regret is that I'll never get a chance to visit my favorite historical era, the Old West. But time traveling is just too dangerous. Better that I devote myself to studying the other great mystery of the universe...women. Marty, Einie, brace yourselves for temporal displacement."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Did we make it? Are we back?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "We're back. Let's put her in the swing. Then I'll take you home, and you can come back in your truck and wake her. When she awakens here in her own house and it's dark, you should be able to convince her that it was all a dream. Wait a minute. We're just gonna leave her here on the porch? The disorientation will help convince her that it was all a dream. How long do you think she's gonna be out? I'm not quite sure. She received quite a shock. Could be for a few minutes. Most probably, a couple of hours. You better bring smelling salts back with you."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "You're the doc, Doc. All right. Come on. Let's go, Einie. Don't worry. She'll be fine. I don't remember bars bein' on these windows. If you need me, I'll be back at my lab dismantling this thing. Right. What"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "ave her here on the porch? The disorientation will help convince her that it was all a dream."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "How long do you think she's gonna be out?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "I'm not quite sure. She received quite a shock. Could be for a few minutes. Most probably, a couple of hours. You better bring smelling salts back with you."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "You're the doc, Doc."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "All right. Come on. Let's go, Einie. Don't worry. She'll be fine."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "I don't remember bars bein' on these windows."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "If you need me, I'll be back at my lab dismantling this thing."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Right. What the hell? Hey. Hey, wait. Wait a minute. What are you doing in my room?!"
     },
     {
@@ -1618,7 +1614,7 @@
       "text": "Freeze, sucker! He jumped me! Hey, it's okay. I don't want any trouble. He came through the window! You got trouble now, you piece of trash! What are you doin' in here with my daughter?!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Hey, listen, I'm just in the wrong house."
     },
     {
@@ -1626,7 +1622,7 @@
       "text": "You got that right, you little son of a..."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Hey, look, I made a mistake."
     },
     {
@@ -1634,7 +1630,7 @@
       "text": "Damn right you made a mistake! Kill him! I'm gonna tear your ass up! That's right. You keep runnin', sucker! And you tell that realty company that I ain't sellin', you hear?! We ain't gonna be terrorized!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "This has gotta be the wrong year."
     },
     {
@@ -1646,7 +1642,7 @@
       "text": "So you're the son of a bitch who's been stealing my newspapers."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Mr. Strickland! Mr. Strickland. It- it- it's me, sir. It's Marty!"
     },
     {
@@ -1654,7 +1650,7 @@
       "text": "Who?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Marty McFly! Marty McFly! Don't you know me, sir? From school, sir!"
     },
     {
@@ -1662,7 +1658,7 @@
       "text": "I've never seen you before in my life, but you look to me like a slacker!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Yeah! That's right! That's right, I am a slacker! Don't you remember, you gave me detention last week!"
     },
     {
@@ -1670,7 +1666,7 @@
       "text": "Last week? The school burned down six years ago! Now you got exactly three seconds to get off my porch with your nuts intact! One!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Oh, please! Mr. Strickland! I just wanna know what the hell's goin' on here!"
     },
     {
@@ -1678,7 +1674,7 @@
       "text": "Two!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Ahhhhh!"
     },
     {
@@ -1870,7 +1866,7 @@
       "text": "Marty... George... your father is in the same place he's been for the past 12 years... Oak Park Cemetery."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "No. No! This can't be happening! \"March 15, 1973.\" NO! Oh, please, God, NO! No, please, God. Please, God, no. This can't be happening. This can't be happening! This can't be..."
     },
     {
@@ -1878,7 +1874,7 @@
       "text": "I'm afraid it is happening, Marty! All of it!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc!"
     },
     {
@@ -1890,7 +1886,7 @@
       "text": "Then you know what happened to him? Do you know what happened... March 15, 1973?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Yes, Marty. I know. I went to the public library to try to make sense out of all the madness. The place was boarded up, shut down, so I broke in and borrowed some newspapers."
     },
     {
@@ -1906,43 +1902,43 @@
       "text": "English, Doc."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Here, here, here. Let me illustrate. Imagine that this line represents time. Here's the present, 1985, the future and the past. Prior to this point in time, somewhere in the past, the timeline skewed into this tangent creating an alternate 1985. Alternate to you, me and Einstein, but reality for everyone else. Recognize this? It's the bag the sports book came in. I know, because the receipt was still inside. I found them in the time machine along with this. It's the top of Biff's cane. I mean, Old Biff from the future."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Correct. It was in the time machine because Biff was in the time machine with the sports almanac."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Holy shit."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "You see, while we were in the future, Biff got the sports book, stole the time machine, went back in time, and gave the book to himself at some point in the past. Look. It says right here that Biff made his first million betting on a horse race in 1958. He wasn't just lucky. He knew because he had all the race results in the sports almanac. That's how he made his entire fortune. Look at his pocket with a magnifying glass. The almanac. Son of a bitch stole my idea! He must have been listening when I... It's my fault. The whole thing is my fault! If I hadn't bought that damn book, none of this would have ever happened."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Well, it's all in the past."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "You mean the future."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Whatever! It demonstrates precisely how time travel can be misused and why the time machine must be destroyed after we straighten all of this out."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Right. So we go back to the future, and we stop Biff from stealing the time machine."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "We can't, because if we travel into the future from this point in time, it will be the future of this reality [indicates the alternate reality on a blackboard, 1985A], in which Biff is corrupt, powerful, and married to your mother, and in which... this has happened to me! [holds up a newspaper; the headline reads: \"EMMETT BROWN COMMITTED\"] No. Our only chance to repair the present is in the past, at the point where the timeline skewed into this tangent. In order to put the universe back as we remember it and get back to our reality, we have to find out the exact date and specific circumstances of how, when, and where young Biff got his hands on that sports almanac."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "I'll ask him."
     },
     {
@@ -2014,7 +2010,7 @@
       "text": "Oh yeah, right. So there I was, mindin' my own business. This crazy old codger with a cane shows up. He says he's my distant relative. I don't see any resemblance. So he says \"How would you like to be rich?\" So I said \"Sure.\" So he lays this book on me. He says this book will tell me the outcome of every sporting event till the end of the century. All I have to do is bet on the winner, and I'll never lose. So I said \"What's the catch?\" He says, \"No catch. Just keep it a secret.\" After that, he disappeared. I never saw him again. Oh, and he told me one more thing. He said, \"Someday a crazy, wild-eyed scientist, or a kid may show up askin' about that book. And if that ever happens...\" Funny. I never thought it would be you."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Yeah, well - Biff, you're forgetting one thing. What the hell is that?!"
     },
     {
@@ -2038,7 +2034,7 @@
       "text": "Go ahead, kid! Jump! A suicide will be nice and neat."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "What if I don't?"
     },
     {
@@ -2054,7 +2050,7 @@
       "text": "Kid, I OWN the police! Besides... they couldn't match up the bullet that killed your old man!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "You son of a..."
     },
     {
@@ -2070,119 +2066,119 @@
       "text": "What the HELL?!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Nice shot, Doc! You're not gonna believe this! We gotta go back to 1955."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "I don't believe it!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "That's right, Doc. November 12, 1955."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Unbelievable that Old Biff could've chosen that particular date. It could mean that that point in time inherently contains some sort of cosmic significance, almost as if it were the temporal junction point for the entire space-time continuum. On the other hand, it could just be an amazing coincidence. Damn! Gotta fix that thing. All right. Time circuits on."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "What do you mean \"time circuits on\"? Doc, we're not goin' back now!"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Yep."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc, what about Jennifer? What about Einstein? We can't just leave 'em here!"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Don't worry, Marty. Assuming we succeed in our mission, this alternate 1985 will be changed back into the real 1985 , instantaneously trans"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Damn! Gotta fix that thing. All right. Time circuits on."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "What do you mean \"time circuits on\"? Doc, we're not goin' back now!"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Yep."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc, what about Jennifer? What about Einstein? We can't just leave 'em here!"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Don't worry, Marty. Assuming we succeed in our mission, this alternate 1985 will be changed back into the real 1985 , instantaneously transforming around Jennifer and Einie. Jennifer and Einie will be fine, and they will have absolutely no memory of this horrible place."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc... what if we don't succeed?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "We must succeed."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "This is heavy, Doc. I mean, it's like I was just here yesterday."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "You were here yesterday, Marty. You were . Amazing, isn't it?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "All right, sunrise should be in about 22 minutes. You go into town. Track down Young Biff and tail him. Sometime today, Old Biff will show up to give Young Biff the almanac. Above all, you must not interfere with that event. We must let Old Biff believe he's succeeded, so that he'll leave 1955 and bring the DeLorean back to the future. Right. Once Old Biff is gone, grab the almanac any way that you can. Remember, both of our futures depend on this."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "You don't have to remind me of that, Doc."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Here's some binoculars and a walkie-talkie so we can keep in contact. I'll stay here and try to repair the short in the time circuit. That way, we don't risk anyone else stealing the time machine, and I won't risk accidentally running into my other self."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Other self?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Yes. There are now two of me here, and there are two of you here. The other me is the Dr. Emmett Brown from 1955, the younger me that helps the other you get back to 1985. Remember the lightning bolt at the clock tower?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Yeah."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "That event doesn't happen until tonight, so you must be very careful not to run into your other self. Let me give you some money. I have to be prepared for all monetary possibilities. Get yourself some '50s clothes."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Check, Doc."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Something inconspicuous!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc. Come in, Doc. This is Marty. Over."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Roger, Marty. This is Doc. Are you there?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Yeah, Doc. I'm at the address. It's the only Tannen in the book, but I don't think this is Biff's house. It looks like some old lady lives here."
     },
     {
@@ -2190,7 +2186,7 @@
       "text": "Yeah."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Where are you goin', Biff?"
     },
     {
@@ -2234,7 +2230,7 @@
       "text": "Well, go get it! Ha-ha!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc, it is Biff's house. I'm on him. Over."
     },
     {
@@ -2330,7 +2326,7 @@
       "text": "That's about as funny as a screen door on a battleship."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Screen door on a submarine, ya dork."
     },
     {
@@ -2494,23 +2490,23 @@
       "text": "And don't tell anybody about it, either. Oh, and there's one more thing. One day, a kid, or a crazy, wild-eyed old man who claims to be a scientist is gonna come around askin' about this book..."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "I'm trapped. Doc. Doc, come in, Doc."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Marty, what's the report?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Biff's gone. He's got the book. The old man's gone, too. I'm locked in Biff's garage. You gotta fly the DeLorean over here and get me the hell outta here. The address is 1809 Mason Street."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "I can't take the DeLorean out in the daylight, but don't worry, Marty. Somehow, I'll get over there."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc, wait a minute. Doc. Hey, Doc. Doc!"
     },
     {
@@ -2534,67 +2530,67 @@
       "text": "Don't forget to turn off the garage light!"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Marty. Marty! Marty. Marty, Marty. Damn! Where is that kid?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc. Doc, come in. Come in, Doc."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Marty! Marty, come in."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Marty."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Oh, my... Great Scott. Oh, my God."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc, Doc, come in."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Marty, what happened to you? I went to Biff's house, and you weren't there."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "You must have just missed me. I'm in the back of Biff's car. He's on his way to the Enchantment Under the Sea dance."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Marty, listen, we may have to abort this entire plan. It's getting much too dangerous."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Don't worry. The book is on Biff's dashboard. I'll grab it as soon as we get to the school."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Marty, you must be extremely careful not to run into your other self."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "My other self?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Yes. Remember, your mother is at that exact same dance with you. Yeah."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Right. This could get heavy, Doc."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Heavy, heavy. Marty, whatever happens, you must not let your other self see you! The consequences could be disastrous."
     },
     {
@@ -2646,7 +2642,7 @@
       "text": "Or in the past."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc, Doc! Come in!"
     },
     {
@@ -2742,7 +2738,7 @@
       "text": "Marty, why are you so nervous?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Yes! No!"
     },
     {
@@ -2770,15 +2766,15 @@
       "text": "Marty, why are you so nervous?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Yes! No!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Oh Là Là? Oh Là Là?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc! Doc!"
     },
     {
@@ -2786,27 +2782,27 @@
       "text": "Hey, you."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc, come in!"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Marty, what's up?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc, I'm in trouble. I blew it."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Where's the book?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "I don't... Biff must still have it with him. All I got is the damn cover!"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "And where's Biff?"
     },
     {
@@ -2814,23 +2810,23 @@
       "text": "All right, McFly, you're askin' for it, and now you're gonna get it."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "I don't know!"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Don't you have any idea where he is?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "No! I mean, he could be anywhere by now."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Marty, the entire future depends on you finding Biff and getting that book back!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "I know! I just don't know where..."
     },
     {
@@ -2838,63 +2834,63 @@
       "text": "Stop it! Stop it, Biff, you'll break his arm. Stop it!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Of course! I gotta go! I got one chance! My old man's about to deck Biff!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Yes!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Talk about déjà vu."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Are you okay?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Okay, everybody, let's back up now. Let's back up. Let's everybody just back up and give him a little bit of room, okay. A little bit of air. It's okay. I know CPR. I know CPR."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Hey."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "What's CPR?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "You!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "He's fine."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Hey, did you just take his wallet?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "He just took that guy's wallet."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc, success. I got it."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Thank goodness."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Great, Marty. As soon as I reload the fusion generator, I'll meet you on the roof of the high school gym."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "On the roof. 10-4."
     },
     {
@@ -2914,7 +2910,7 @@
       "text": "Come on! Let's get him!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Damn!"
     },
     {
@@ -2954,39 +2950,39 @@
       "text": "How the hell did he change his clothes so fast?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "All right, it's an oldie where I come from. All right, guys, listen, this is a blues riff in B. Watch me for the changes, and try and keep up, okay?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Doc. Doc, come in!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Marty, come in. Listen, Biff's guys chased me into the gym, and they're going to jump me."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Then get out of there!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "No, Doc, not me. The other me. The one that's up on stage playing Johnny B. Goode."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Great Scott! Your other self will miss the lightning bolt at the clock tower, you won't get back to the future, and we'll have a major paradox!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Wait, wait, wait. A paradox? You mean one of those things that can destroy the universe?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Precisely. Marty, you have to stop those guys at all costs, but without being seen by your other self or your parents."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "10-4."
     },
     {
@@ -3022,23 +3018,23 @@
       "text": "I think he took his wallet."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Go, Johnny, go, go, go Johnny B. Goode Go, go Go, Johnny, go, go Go, Johnny, go, go, go Go, Johnny, go, go Go, Johnny, go, go, go Johnny B. Goode"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "I guess you guys aren't ready for that yet. But your kids are going to love it."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Hey, Doc, success. Everything's cool."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Great. I'll be landing at the school roof in about one minute."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "I'll be there."
     },
     {
@@ -3050,7 +3046,7 @@
       "text": "Marty, that was very interesting music. I hope you don't mind, but George asked if he could take me home."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Great. Lorraine, I had a feeling about you two."
     },
     {
@@ -3086,47 +3082,47 @@
       "text": "And this one's for my car!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc! I blew it. Biff nailed me. He took the book. He drove away with it in his car. It's my fault, Doc. I should have got out of there sooner."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "No time for that now. Which way did he go?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "East towards the River Road Tunnel."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Get in!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Yes!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "There he is, Doc!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Let's land on him. We'll cripple his car."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Marty, he's in a '46 Ford. We're a DeLorean. He'd rip through us like we were tin foil."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "So what do we do?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "I have a plan."
     },
     {
@@ -3146,7 +3142,7 @@
       "text": "Give me that book."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Let it go!"
     },
     {
@@ -3154,7 +3150,7 @@
       "text": "Whoa!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Let go of the car!"
     },
     {
@@ -3174,7 +3170,7 @@
       "text": "Shit!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Yes!"
     },
     {
@@ -3202,71 +3198,71 @@
       "text": "Check!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc! Doc!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "That newspaper changed."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc, my father's alive! That means everything's back to normal, right?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Mission accomplished."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "That means Jennifer's okay and Einie's okay, right?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "That's right, Marty. It's the ripple effect. The future is back, so let's go home."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Right. Let's get our asses back to the..."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc, Doc, are you okay?"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "That was a close one, Marty. I almost bought the farm."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Well, be careful. You don't want to get struck by lightning."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc, come in, Doc."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc, do you read me?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Do you read me, Doc? Come in. Doc."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Oh, no."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "He's gone. The doc's gone."
     },
     {
@@ -3274,7 +3270,7 @@
       "text": "Mr. McFly!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Huh?"
     },
     {
@@ -3282,7 +3278,7 @@
       "text": "Is your name Marty McFly?"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Yeah."
     },
     {
@@ -3294,7 +3290,7 @@
       "text": "A letter."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "A letter for me? That's impossible. Who the hell are you?"
     },
     {
@@ -3302,7 +3298,7 @@
       "text": "Western Union. Actually, a bunch of us at the office were kind of hoping maybe you could shed some light on the subject. See, we've had that envelope in our possession for the past 70 years. It was given to us with the explicit instructions that it be delivered to a young man with your description answering to the name of Marty at this exact location at this exact minute, November 12, 1955. We have a little bet going as to whether this Marty would actually be here. Looks like I lost."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Did you say 70 years?"
     },
     {
@@ -3310,15 +3306,15 @@
       "text": "Yeah, 70 years, 2 months, 12 days to be exact. Here sign on line 6, please."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Here you are."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "It's from the doc!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "1885! September 1885!"
     },
     {
@@ -3326,7 +3322,7 @@
       "text": "Whoa! Wait, kid! What's this all about?!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "He's alive! The Doc's alive! He's in the Old West, but he's alive!"
     },
     {
@@ -3334,31 +3330,31 @@
       "text": "Kid, you all right?! You need any help?!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "There's only one man who can help me!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc! Doc! Doc!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc, Doc! Okay. Okay! Relax, Doc! It's me! It's Marty!"
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "No! It can't be! I just sent you back to the future."
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "I know. You did send me back to the future, but I'm back. I'm back from the future."
     },
     {
-      "character": "DOC",
+      "character": "DOC BROWN",
       "text": "Great Scott!"
     },
     {
-      "character": "MARTY",
+      "character": "MARTY MCFLY",
       "text": "Doc! Doc. Doc. Fantastic."
     },
     {

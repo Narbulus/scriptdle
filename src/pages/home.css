@@ -144,6 +144,34 @@
     width: 32px;
     height: 32px;
     margin-left: 1rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+    animation: sway 4s ease-in-out infinite;
+    transform-origin: center center;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+.pack-row-badge.beetle-badge {
+    width: 48px;
+    height: 48px;
+}
+
+@keyframes sway {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-5deg);
+    }
+
+    75% {
+        transform: rotate(5deg);
+    }
 }
 
 .pack-row-badge .completion-badge {

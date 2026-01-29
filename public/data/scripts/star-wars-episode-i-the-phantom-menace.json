@@ -19,7 +19,6 @@
     "BRAVO THREE",
     "BRAVO TWO",
     "C-3PO",
-    "C3PO",
     "CAPTAIN",
     "CAPTAIN TARPALS",
     "CROWD",
@@ -33,7 +32,6 @@
     "GUNGAN GENERAL",
     "GUNGAN LOOKOUT",
     "JABBA",
-    "JAR JAR",
     "JAR JAR BINKS",
     "JIRA",
     "KI-ADI-MUNDI",
@@ -66,7 +64,6 @@
     "VENDOR",
     "WALD",
     "WATTO",
-    "WATTOO",
     "YODA"
   ],
   "lines": [
@@ -2031,7 +2028,7 @@
       "text": "He deserves better than a slave's life."
     },
     {
-      "character": "C3PO",
+      "character": "C-3PO",
       "text": "Why, certainly."
     },
     {
@@ -2099,7 +2096,7 @@
       "text": "Oh, dare it is. Hey. Uh-oh. Uh, Ani. I'm stuck. Ani..."
     },
     {
-      "character": "C3PO",
+      "character": "C-3PO",
       "text": "You know, I find that Jar Jar creature to be a little odd."
     },
     {
@@ -2131,7 +2128,7 @@
       "text": "Uh, hey. My tongue is fat, Ani."
     },
     {
-      "character": "C3PO",
+      "character": "C-3PO",
       "text": "You're quite right. He's very odd indeed."
     },
     {
@@ -2279,7 +2276,7 @@
       "text": "The boy, then."
     },
     {
-      "character": "WATTOO",
+      "character": "WATTO",
       "text": "Hmm. Well, uh, we'll let fate decide, huh?"
     },
     {
@@ -2311,11 +2308,11 @@
       "text": "I'll tell you later. Good morning."
     },
     {
-      "character": "C3PO",
+      "character": "C-3PO",
       "text": "Oh, my. Space travel sounds rather perilous."
     },
     {
-      "character": "C3PO",
+      "character": "C-3PO",
       "text": "I can assure you, they will never get me onto one of those dreadful starships."
     },
     {
@@ -2527,7 +2524,7 @@
       "text": "Oh, no!"
     },
     {
-      "character": "C3PO",
+      "character": "C-3PO",
       "text": "Where is Master Anakin?"
     },
     {
@@ -2543,7 +2540,7 @@
       "text": "Yay! Yippee!"
     },
     {
-      "character": "C3PO",
+      "character": "C-3PO",
       "text": "He has to complete two more circuits? Oh, dear."
     },
     {
@@ -2623,7 +2620,7 @@
       "text": "Yippee! Yippee! Yay!"
     },
     {
-      "character": "C3PO",
+      "character": "C-3PO",
       "text": "I can't believe it."
     },
     {
@@ -2843,7 +2840,7 @@
       "text": "I'm sorry I wasn't able to finish you, 3PO, give you coverings and all. I'm gonna miss working on you. You've been a great pal. I'll make sure Mom doesn't sell you or anything."
     },
     {
-      "character": "C3PO",
+      "character": "C-3PO",
       "text": "Sell me?"
     },
     {
@@ -2851,7 +2848,7 @@
       "text": "Bye."
     },
     {
-      "character": "C3PO",
+      "character": "C-3PO",
       "text": "Oh, my."
     },
     {
@@ -4239,7 +4236,7 @@
       "text": "Look, one of ours, out of the main hold!"
     },
     {
-      "character": "JAR JAR",
+      "character": "JAR JAR BINKS",
       "text": "What the, was'n they doing?"
     },
     {
@@ -4344,7 +4341,7 @@
     }
   ],
   "lineCount": 1068,
-  "characterCount": 65,
+  "characterCount": 62,
   "topCastCount": 31,
   "topCast": [
     "QUI-GON",
@@ -4368,7 +4365,6 @@
     "MACE WINDU",
     "CAPTAIN TARPALS",
     "BATTLE DROID",
-    "C3PO",
     "BIBBLE",
     "KITSTER",
     "FODE",

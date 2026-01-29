@@ -5,7 +5,6 @@
   "characters": [
     "AUTO",
     "AUTOPILOT",
-    "AUTOPILOT (O.S.)",
     "BEAUTICIAN-BOT",
     "BEAUTICIAN-BOTS",
     "BILLBOARD ANNOUNCER",
@@ -13,9 +12,6 @@
     "BUY N LARGE CEO",
     "CAPTAIN",
     "CAPTAIN & EVE",
-    "CAPTAIN (INTERCOM)",
-    "CAPTAIN (ON INTERCOM)",
-    "CAPTAIN (OVER INTERCOM)",
     "EVE",
     "GOPHER",
     "JOHN",
@@ -23,17 +19,14 @@
     "LIFEGUARD-BOT",
     "M-O",
     "MARY",
-    "MARY (CONT'D)",
     "MISC. FEMALE PASSENGER",
     "MISC. PASSENGERS",
     "MONORAIL PASSENGERS",
     "NANNY-BOT",
     "PASSENGER #1",
     "PASSENGER #2",
-    "PASSENGER #2 (ON SCREEN)",
     "POOLSIDE PASSENGER",
     "SHIP'S COMPUTER",
-    "SHIP'S COMPUTER (V.O.)",
     "STEWARD",
     "STEWARDS",
     "WALL-E"
@@ -312,7 +305,7 @@
       "text": "Well, I've been in my cabin all morning so let's hover over to the driving range and hit a few virtual balls into space."
     },
     {
-      "character": "PASSENGER #2 (ON SCREEN)",
+      "character": "PASSENGER #2",
       "text": "Nah, we did that yesterday. I don't want to do that."
     },
     {
@@ -332,7 +325,7 @@
       "text": "I can't hear you...I'm in a tunnel. You're breaking up...Oh, okay. You're back. I can hear you now..."
     },
     {
-      "character": "SHIP'S COMPUTER (V.O.)",
+      "character": "SHIP'S COMPUTER",
       "text": "Buy N Large. Everything you need to be happy. Your day is very important to us"
     },
     {
@@ -384,11 +377,11 @@
       "text": "\"A\"! \"A\" is for \"Axiom\", your home sweet home. \"B\"! \"B\" is for \"Buy N Large\", your very best friend..."
     },
     {
-      "character": "SHIP'S COMPUTER (V.O.)",
+      "character": "SHIP'S COMPUTER",
       "text": "Mmmmm! Time for lunch in a cup."
     },
     {
-      "character": "SHIP'S COMPUTER (V.O.)",
+      "character": "SHIP'S COMPUTER",
       "text": "Feel beautiful."
     },
     {
@@ -396,7 +389,7 @@
       "text": "...It's the new you...Oh stunning...You look great...I know honey...Ahh. Men..."
     },
     {
-      "character": "SHIP'S COMPUTER (V.O.)",
+      "character": "SHIP'S COMPUTER",
       "text": "Attention, Axiom shoppers. Try blue! It's the new red!"
     },
     {
@@ -412,7 +405,7 @@
       "text": "Date?! (derisive snort) Don't get me started! Every holo-date I've been on has been a virtual disaster! If I could just meet one who wasn't so superficial. There are no good men out there!..."
     },
     {
-      "character": "MARY (CONT'D)",
+      "character": "MARY",
       "text": "...I know! I know `cause I've scrolled through them all -- (Gasp) What the --?"
     },
     {
@@ -496,15 +489,15 @@
       "text": "Honestly, it's the one thing I get to do on this ship."
     },
     {
-      "character": "CAPTAIN (ON INTERCOM)",
+      "character": "CAPTAIN",
       "text": ": (unmotivated) Well, good morning everybody, and welcome to day 255,642 aboard the Axiom. As always, weather's a balmy 72 degrees and sunny, and -- Oh, hey, I see the ship's log is showing that today is our 700th anniversary of our five year cruise. Well, I'm sure our forefathers would be proud to know that 700 years later we'd be... (deflates) ...doing the exact same thing...they were doing..."
     },
     {
-      "character": "CAPTAIN (INTERCOM)",
+      "character": "CAPTAIN",
       "text": "(snaps out of ennui) SO! Be sure next mealtime to ask for your free... (hard to pronounce) ...septuacentennial cupcake -- in a cup. Also today we have, uh...uh...Hey, Auto, what's that flashing button?"
     },
     {
-      "character": "AUTOPILOT (O.S.)",
+      "character": "AUTOPILOT",
       "text": "Captain?"
     },
     {
@@ -1428,7 +1421,7 @@
       "text": "Wall-E!"
     },
     {
-      "character": "SHIP'S COMPUTER (V.O.)",
+      "character": "SHIP'S COMPUTER",
       "text": "Caution: Activating airlock disposal...Activating airlock disposal."
     },
     {
@@ -1540,11 +1533,11 @@
       "text": "Ah-Ha!"
     },
     {
-      "character": "CAPTAIN (OVER INTERCOM)",
+      "character": "CAPTAIN",
       "text": "Testing, testing... Is this thing on?"
     },
     {
-      "character": "CAPTAIN (OVER INTERCOM)",
+      "character": "CAPTAIN",
       "text": "Psssst! Hey! Hey! This is the Captain I'm locked in my room. Eve, Wall-E, bring the plant to the Lido Deck. I'll have activated the holo-detector. Now hurry! Auto's probably going to cut me off --"
     },
     {

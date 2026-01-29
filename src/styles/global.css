@@ -283,9 +283,9 @@ h2 {
     line-height: 1;
     cursor: pointer;
     color: var(--main-text) !important;
-    padding: 0 !important;
-    width: 32px;
-    height: 32px;
+    padding: var(--close-btn-padding) !important;
+    width: var(--close-btn-size);
+    height: var(--close-btn-size);
     display: flex;
     align-items: center;
     justify-content: center;

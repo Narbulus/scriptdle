@@ -48,6 +48,12 @@
     --spacing-2xl: 2rem;
     /* 32px */
 
+    /* Component Spacing */
+    --close-btn-size: 32px;
+    /* Size of close button */
+    --close-btn-padding: 0;
+    /* Internal padding for close button */
+
     /* Border Radii */
     --radius-sm: 3px;
     --radius-md: 4px;

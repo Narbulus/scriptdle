@@ -14,7 +14,6 @@
     "DOCTOR",
     "DR. ERSKINE",
     "DR. ZOLA",
-    "DR.ZOLA",
     "EXAMINER",
     "FAN",
     "FURY",
@@ -23,7 +22,6 @@
     "GIRL 1",
     "GUY",
     "HODGE",
-    "HOWARD",
     "HOWARD STARK",
     "HYDRA LIEUTENANT",
     "HYDRA SOLDIERS",
@@ -40,27 +38,21 @@
     "MASKED HYDRA SOLDIER SQUADS",
     "NARRATOR",
     "OTHERS",
-    "PEGGY",
     "PEGGY CARTER",
-    "PHILLIPS",
     "PINKY",
     "RADIO",
     "RECRUIT",
     "RED SKULL",
-    "ROGERS",
     "S.H.I.E.L.D. LIEUTENANT",
     "S.H.I.E.L.D. TECH",
-    "SCHMIDT",
     "SEARCH TEAM LEADER",
     "SENATOR BRANT",
     "SINGERS",
-    "STARK",
     "STEVE",
     "TAXI DRIVER",
     "TRAINER",
     "WOMAN",
-    "WORKER",
-    "ZOLA"
+    "WORKER"
   ],
   "lines": [
     {
@@ -152,15 +144,15 @@
       "text": "Open it! Quickly, before he..."
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "It has taken me a long time to find this place. You should be commended."
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "Help him up."
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "I think that you are a man of great vision. And, in this way, we are much alike."
     },
     {
@@ -168,7 +160,7 @@
       "text": "I am nothing like you."
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "No, of course, but what others see as superstition, you and I know to be a science."
     },
     {
@@ -176,11 +168,11 @@
       "text": "What you seek is just a legend."
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "Then why make such an effort to conceal it?"
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "The Tesseract was the jewel of Odin's treasure room. It is not something one buries. But I think it is close, yes?"
     },
     {
@@ -188,15 +180,15 @@
       "text": "I cannot help you."
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "No. But maybe you can help your village. You must have some friends out there. Some little grandchildren, perhaps? I have no need for them to die."
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "Yggdrasil. Tree of the world. Guardian of wisdom. And fate, also. And the Fuhrer digs for trinkets in the desert."
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "You have never seen this, have you?"
     },
     {
@@ -204,7 +196,7 @@
       "text": "It's not for the eyes of ordinary men."
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "Exactly. Give the order to open fire."
     },
     {
@@ -212,7 +204,7 @@
       "text": "Fool! You cannot control the power you hold. You will burn!"
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "I already have."
     },
     {
@@ -400,7 +392,7 @@
       "text": "Holy cow."
     },
     {
-      "character": "STARK",
+      "character": "HOWARD STARK",
       "text": "I did say a few years, didn't I?"
     },
     {
@@ -580,7 +572,7 @@
       "text": "Congratulations, soldier."
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "Are you ready, Dr. Zola?"
     },
     {
@@ -588,7 +580,7 @@
       "text": "My machine requires the most delicate calibration. Forgive me if I seem overcautious."
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "Are you certain that those conductors of yours can withstand the energy surge long enough for transference?"
     },
     {
@@ -600,15 +592,15 @@
       "text": "Twenty percent. Forty. Sixty. Stabilizing at 70%."
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "I have not come all this way for safety, Doctor."
     },
     {
-      "character": "DR.ZOLA",
+      "character": "DR. ZOLA",
       "text": "What was that?"
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "I must congratulate you, Arnim. Your designs do not disappoint. Though they may require some slight reinforcement."
     },
     {
@@ -628,7 +620,7 @@
       "text": "What's with the accent, Queen Victoria? I thought I was signing up for the U.S. Army."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "What's your name, soldier?"
     },
     {
@@ -636,7 +628,7 @@
       "text": "Gilmore Hodge, Your Majesty."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Step forward, Hodge. Put your right foot forward."
     },
     {
@@ -648,7 +640,7 @@
       "text": "Agent Carter!"
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Colonel Phillips."
     },
     {
@@ -708,7 +700,7 @@
       "text": "Thank you, sir."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Faster, ladies! Come on. My grandmother has more life in her, God rest her soul. Move it!"
     },
     {
@@ -720,7 +712,7 @@
       "text": "When you brought a 90-pound asthmatic onto my army base, I let it slide. I thought, \"What the hell.\" Maybe he'd be useful to you, like a gerbil. I never thought you'd pick him."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Up."
     },
     {
@@ -728,7 +720,7 @@
       "text": "You stick a needle in that kid's arm, it's gonna go right through him."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Come on, girls."
     },
     {
@@ -860,7 +852,7 @@
       "text": "No, I don't have procedure tomorrow. Drink it after? I drink it now."
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "Is there something in particular you need?"
     },
     {
@@ -868,11 +860,11 @@
       "text": "I understand you found him."
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "See for yourself."
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "You disapprove."
     },
     {
@@ -880,27 +872,27 @@
       "text": "I just don't see why you need concern yourself. I can't imagine he will succeed. Again."
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "His serum is the Allies' only defense against this power we now possess. If we take it away from them, then our victory is assured."
     },
     {
-      "character": "ZOLA",
+      "character": "DR. ZOLA",
       "text": "Shall I give the order?"
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "It has been given."
     },
     {
-      "character": "ZOLA",
+      "character": "DR. ZOLA",
       "text": "Good."
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "Dr. Zola! What do you think?"
     },
     {
-      "character": "ZOLA",
+      "character": "DR. ZOLA",
       "text": "A masterpiece."
     },
     {
@@ -908,7 +900,7 @@
       "text": "I know this neighborhood. I got beat up in that alley. And that parking lot. And behind that diner."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Did you have something against running away?"
     },
     {
@@ -916,7 +908,7 @@
       "text": "You start running, they'll never let you stop. You stand up, you push back. They can't say no forever, right?"
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "I know a little of what that's like, to have every door shut in your face."
     },
     {
@@ -924,7 +916,7 @@
       "text": "I guess I just don't know why you'd want to join the Army if you were a beautiful dame. Or a bea- A woman. An agent. Not a dame. You are beautiful, but-"
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "You have no idea how to talk to a woman, do you?"
     },
     {
@@ -932,7 +924,7 @@
       "text": "I think this is the longest conversation I've had with one. Women aren't exactly lining up to dance with a guy they might step on."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "You must have danced."
     },
     {
@@ -940,7 +932,7 @@
       "text": "Well, asking a woman to dance always seemed so terrifying. And the past few years, it just didn't seem to matter that much. I figured I'd wait."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "For what?"
     },
     {
@@ -948,7 +940,7 @@
       "text": "The right partner."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "This way."
     },
     {
@@ -956,7 +948,7 @@
       "text": "What are we doing here?"
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Follow me."
     },
     {
@@ -964,11 +956,11 @@
       "text": "Wonderful weather this morning, isn't it?"
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Yes, but I always carry an umbrella."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Good morning."
     },
     {
@@ -1032,7 +1024,7 @@
       "text": "Agent Carter? Don't you think you would be more comfortable in the booth?"
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Yes, of course. Sorry."
     },
     {
@@ -1080,7 +1072,7 @@
       "text": "Steven! Steven!"
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Shut it down!"
     },
     {
@@ -1088,7 +1080,7 @@
       "text": "Steven!"
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Shut it down!"
     },
     {
@@ -1128,7 +1120,7 @@
       "text": "You actually did it."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "How do you feel?"
     },
     {
@@ -1136,7 +1128,7 @@
       "text": "Taller."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "You look taller."
     },
     {
@@ -1160,7 +1152,7 @@
       "text": "What are you doin'? Buddy, are you all right? Hey, this guy's been shot!"
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "I had him!"
     },
     {
@@ -1216,7 +1208,7 @@
       "text": "You serve at his pleasure. He gave you this facility as a reward for your injuries."
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "Reward? Call it what it is. Exile. I no longer reflect his image of Aryan perfection."
     },
     {
@@ -1228,7 +1220,7 @@
       "text": "The Fuhrer feels, How does he put it? \"The Red Skull has been indulged long enough!\""
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "Gentlemen, you have come to see the results of our work. Let me show you. Hitler speaks of a 1,000-year Reich, but he cannot feed his armies for a month. His troops spill their blood across every field in Europe, but still he is no closer to achieving his goals."
     },
     {
@@ -1236,7 +1228,7 @@
       "text": "And I suppose you still aim to win this war through magic?"
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "Science. But I understand your confusion. Great power has always baffled primitive men. Hydra is assembling an arsenal to destroy my enemies in one stroke, wherever they are, regardless of how many forces they possess, all in a matter of hours."
     },
     {
@@ -1244,7 +1236,7 @@
       "text": "Your enemies?"
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "My weapon contain enough destructive power to decimate every hostile capital on Earth. Quite simply, gentlemen, I have harnessed the power of the gods."
     },
     {
@@ -1252,7 +1244,7 @@
       "text": "Thank you, Schmidt."
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "For what?"
     },
     {
@@ -1264,7 +1256,7 @@
       "text": "Berlin is on this map!"
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "So it is."
     },
     {
@@ -1272,7 +1264,7 @@
       "text": "You will be punished for your insolence! You will be brought before the Fuhrer himself!"
     },
     {
-      "character": "SCHMIDT",
+      "character": "RED SKULL",
       "text": "My apologies, Doctor, but we both knew Hydra could grow no further in Hitler's shadow. Hail Hydra."
     },
     {
@@ -1280,7 +1272,7 @@
       "text": "Hail Hydra!"
     },
     {
-      "character": "ZOLA",
+      "character": "DR. ZOLA",
       "text": "Hail Hydra!"
     },
     {
@@ -1288,7 +1280,7 @@
       "text": "Think you got enough?"
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Any hope of reproducing the program is locked in your genetic code. But without Dr. Erskine, it would take years."
     },
     {
@@ -1296,7 +1288,7 @@
       "text": "He deserved more than this."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "If it could work only once, he'd be proud it was you."
     },
     {
@@ -1308,7 +1300,7 @@
       "text": "Great. Why don't we start with how a German spy got a ride to my secret installation in your car? What have we got here?"
     },
     {
-      "character": "HOWARD",
+      "character": "HOWARD STARK",
       "text": "Speaking modestly, I'm the best mechanical engineer in this country. But I don't know what's inside this thing or how it works. We're not even close to this technology."
     },
     {
@@ -1324,7 +1316,7 @@
       "text": "I'm on a number of committees, Colonel."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Hydra is the nazi deep-science division. It's led by Johann Schmidt. But he has much bigger ambitions."
     },
     {
@@ -1340,7 +1332,7 @@
       "text": "I spoke to the President this morning. As of today, the SSR is bein' retasked."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Colonel?"
     },
     {
@@ -1484,7 +1476,7 @@
       "text": "Don't worry, pal. They'll warm up to you. Don't worry."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Hello, Steve."
     },
     {
@@ -1492,7 +1484,7 @@
       "text": "Hi."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Hi."
     },
     {
@@ -1500,7 +1492,7 @@
       "text": "What are you doing here?"
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Officially, I'm not here at all. That was quite a performance."
     },
     {
@@ -1508,7 +1500,7 @@
       "text": "Yeah. I had to improvise a little bit. The crowds I'm used to are usually more twelve."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "I understand you're \"America's New Hope.\""
     },
     {
@@ -1516,7 +1508,7 @@
       "text": "Bond sales take a 10% bump in every state I visit."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Is that Senator Brandt I hear?"
     },
     {
@@ -1524,7 +1516,7 @@
       "text": "At least he's got me doing this. Phillips would have had me stuck in a lab."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "And these are your only two options? A lab rat or a dancing monkey? You were meant for more than this, you know. What?"
     },
     {
@@ -1536,7 +1528,7 @@
       "text": "They look like they've been through hell."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "These men more than most. Schmidt sent out a force to Azzano. Two hundred men went up against him, and less than 50 returned. Your audience contained what was left of the 107th. The rest were killed or captured."
     },
     {
@@ -1544,7 +1536,7 @@
       "text": "The 107th?"
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "What?"
     },
     {
@@ -1604,19 +1596,19 @@
       "text": "Well, then understand it"
     },
     {
-      "character": "PHILLIPS",
+      "character": "COLONEL PHILLIPS",
       "text": "And why is that?"
     },
     {
-      "character": "ZOLA",
+      "character": "DR. ZOLA",
       "text": "Because he can do it!"
     },
     {
-      "character": "PHILLIPS",
+      "character": "COLONEL PHILLIPS",
       "text": "What's his target?"
     },
     {
-      "character": "ZOLA",
+      "character": "DR. ZOLA",
       "text": "His target is everywhere."
     },
     {
@@ -1656,7 +1648,7 @@
       "text": "Dr. Erskine said that the serum wouldn't just affect my muscles, it would affect my cells. Create a protective system of regeneration and healing. Which means I can't get drunk. Did you know that?"
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Your metabolism burns four times faster than the average person. He thought it could be one of the side effects. It wasn't your fault."
     },
     {
@@ -1664,7 +1656,7 @@
       "text": "Did you read the report?"
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Yes."
     },
     {
@@ -1672,7 +1664,7 @@
       "text": "Then you know that's not true."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "You did everything you could. Did you believe in your friend? Did you respect him? Then stop blaming yourself. Allow Barnes the dignity of his choice. He damn well must have thought you were worth it."
     },
     {
@@ -1680,15 +1672,15 @@
       "text": "I'm going after Schmidt. I'm not gonna stop until all of Hydra is dead or captured."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "You won't be alone."
     },
     {
-      "character": "PHILLIPS",
+      "character": "COLONEL PHILLIPS",
       "text": "Johann Schmidt belongs in a bughouse. He thinks he's a god, and he's willing to blow up half the world to prove it, starting with the USA."
     },
     {
-      "character": "HOWARD",
+      "character": "HOWARD STARK",
       "text": "Schmidt's working with powers beyond our capabilities. He gets across the Atlantic, he will wipe out the entire Eastern Seaboard in an hour."
     },
     {
@@ -1696,7 +1688,7 @@
       "text": "How much time we got?"
     },
     {
-      "character": "PHILLIPS",
+      "character": "COLONEL PHILLIPS",
       "text": "According to my new best friend, under 24 hours."
     },
     {
@@ -1704,7 +1696,7 @@
       "text": "Where is he now?"
     },
     {
-      "character": "PHILLIPS",
+      "character": "COLONEL PHILLIPS",
       "text": "Hydra's last base is here. In the Alps, 500 feet below the surface."
     },
     {
@@ -1756,7 +1748,7 @@
       "text": "We're in! assault team, go!"
     },
     {
-      "character": "PHILLIPS",
+      "character": "COLONEL PHILLIPS",
       "text": "Move out! Move! Keep your spacing!"
     },
     {
@@ -1764,7 +1756,7 @@
       "text": "Cut off one head, two more shall..."
     },
     {
-      "character": "PHILLIPS",
+      "character": "COLONEL PHILLIPS",
       "text": "Let's go find two more!"
     },
     {
@@ -1772,7 +1764,7 @@
       "text": "You're late."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Weren't you about to..."
     },
     {
@@ -1780,7 +1772,7 @@
       "text": "Right."
     },
     {
-      "character": "PHILLIPS",
+      "character": "COLONEL PHILLIPS",
       "text": "Get in!"
     },
     {
@@ -1788,15 +1780,15 @@
       "text": "Keep it steady!"
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Wait!"
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Go get him."
     },
     {
-      "character": "PHILLIPS",
+      "character": "COLONEL PHILLIPS",
       "text": "I'm not kissing you!"
     },
     {
@@ -1836,7 +1828,7 @@
       "text": "Peggy, Schmidt's dead!"
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "What about the plane?"
     },
     {
@@ -1844,7 +1836,7 @@
       "text": "That's a little bit tougher to explain."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Give your coordinates, I'll find you a safe landing site."
     },
     {
@@ -1852,7 +1844,7 @@
       "text": "There's not gonna be a safe landing. But I can try and force it down."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "I'll get Howard on the line, he'll know what to do."
     },
     {
@@ -1860,7 +1852,7 @@
       "text": "There's not enough time. This thing's movin' too fast and it's headin' for New York. I got to put her in the water."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Please, don't do this. We have time. We can work it out."
     },
     {
@@ -1872,7 +1864,7 @@
       "text": "Peggy?"
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "I'm here."
     },
     {
@@ -1880,7 +1872,7 @@
       "text": "I'm gonna to need a rain check on that dance."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "All right. A week, next Saturday, at the Stork Club."
     },
     {
@@ -1888,7 +1880,7 @@
       "text": "You got it."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "8:00 on the dot. Don't you dare be late. Understood?"
     },
     {
@@ -1896,7 +1888,7 @@
       "text": "You know, I still don't know how to dance."
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "I'll show you how. Just be there."
     },
     {
@@ -1904,7 +1896,7 @@
       "text": "We'll have the band play something slow. I'd hate to step on your-"
     },
     {
-      "character": "PEGGY",
+      "character": "PEGGY CARTER",
       "text": "Steve? Steve?"
     },
     {
@@ -1920,7 +1912,7 @@
       "text": "Sir?"
     },
     {
-      "character": "HOWARD",
+      "character": "HOWARD STARK",
       "text": "Take us to the next grid point."
     },
     {
@@ -1928,7 +1920,7 @@
       "text": "But there's no trace of wreckage. And the energy signature stops here."
     },
     {
-      "character": "HOWARD",
+      "character": "HOWARD STARK",
       "text": "Just keep lookin'."
     },
     {
@@ -2028,7 +2020,7 @@
       "text": "You gonna be okay?"
     },
     {
-      "character": "ROGERS",
+      "character": "STEVE",
       "text": "Yeah. Yeah, I just...I had a date."
     },
     {
@@ -2036,7 +2028,7 @@
       "text": "Trouble sleeping?"
     },
     {
-      "character": "ROGERS",
+      "character": "STEVE",
       "text": "You're here with a mission, sir?"
     },
     {
@@ -2044,7 +2036,7 @@
       "text": "I am."
     },
     {
-      "character": "ROGERS",
+      "character": "STEVE",
       "text": "Tryin' to get me back in the world?"
     },
     {

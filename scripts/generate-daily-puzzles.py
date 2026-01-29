@@ -253,8 +253,10 @@ class PuzzleGenerator:
         pack_daily_dir.mkdir(parents=True, exist_ok=True)
 
         # Generate puzzles
-        start_date = datetime.now().date()
-        end_date = start_date + timedelta(days=days - 1)
+        # Start from yesterday to handle timezone differences
+        # (build server runs in UTC, users may be in earlier timezones like EST/PST)
+        start_date = datetime.now().date() - timedelta(days=1)
+        end_date = start_date + timedelta(days=days)
 
         current_date = start_date
         generated_count = 0
