@@ -1,6 +1,28 @@
 import { signal } from '@preact/signals';
 import { useEffect, useRef } from 'preact/hooks';
 import { Modal } from './common/Modal.jsx';
+import { generateFlower, generateBeetle } from '../utils/flowerGenerator.js';
+
+function HelpBadges() {
+  const flowerSvg = generateFlower(12345, '#8BC34A');
+  const beetleSvg = generateBeetle(67890, '#FF5722');
+
+  const badgeStyle = {
+    width: '64px',
+    height: '64px',
+    backgroundSize: 'contain',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    filter: 'drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2))'
+  };
+
+  return (
+    <div style={{ display: 'flex', justifyContent: 'center', gap: '3rem', marginTop: '2rem' }}>
+      <div style={{ ...badgeStyle, backgroundImage: `url('${flowerSvg}')` }} />
+      <div style={{ ...badgeStyle, backgroundImage: `url('${beetleSvg}')` }} />
+    </div>
+  );
+}
 
 const isHelpModalOpen = signal(false);
 
@@ -201,7 +223,16 @@ export function HelpModal() {
                 <span style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>Come back to keep your streak alive!</span>
               </div>
             </div>
+
+            <div style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
+              <div style={{ background: 'var(--text-primary)', color: 'var(--btn-text)', width: '24px', height: '24px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '0.8rem', fontWeight: 'bold', marginTop: '2px' }}>4</div>
+              <div>
+                <strong>Winners get flowers. Losers get beetles.</strong>
+              </div>
+            </div>
           </div>
+
+          <HelpBadges />
         </div>
       </div>
     </Modal>

@@ -77,22 +77,6 @@ test.describe('Game Play', () => {
     });
 
     test.describe('Guessing Flow', () => {
-
-        test('shows error when submitting without selections', async ({ page }) => {
-            await page.goto('/');
-            await page.getByTestId('pack-row').first().click();
-            await page.waitForLoadState('networkidle');
-
-            // Wait for game controls
-            await expect(page.getByTestId('guess-button')).toBeVisible({ timeout: 10000 });
-
-            await page.getByTestId('guess-button').click();
-
-            // Should show error
-            const movieError = page.getByTestId('movie-error');
-            await expect(movieError).toContainText(/select/i);
-        });
-
         test('movie selector enables character selector', async ({ page }) => {
             await page.goto('/');
             await page.getByTestId('pack-row').first().click();

@@ -127,8 +127,8 @@ const generateHomepage = (template) => {
 const generatePackPage = (template, pack) => {
   const metadata = {
     url: `/play/${pack.id}`,
-    title: `${pack.name} Quotes - Scriptle | Daily Movie Quote Game`,
-    ogTitle: `${pack.name} Quotes - Scriptle`,
+    title: `Scriptle: Daily ${pack.name} quote guessing game`,
+    ogTitle: `Scriptle: Daily ${pack.name} quote guessing game`,
     description: `Test your ${pack.name} knowledge! Guess the movie from iconic quotes from ${pack.movieCount} films. Daily ${pack.name} quote puzzles on Scriptle.`,
     keywords: `${pack.name} quotes, ${pack.name} game, ${pack.name} trivia, movie quotes, daily puzzle, ${pack.name} quiz`,
     noscriptContent: `

@@ -7,7 +7,6 @@
     "ANAKIN",
     "ANAKIN/OBI-WAN",
     "AT-ST CLONE SERGEANT",
-    "BAIL (HOLOGRAM)",
     "BAIL ORGANA",
     "BANA BREEMU",
     "BATTLE DROID",
@@ -31,36 +30,29 @@
     "CLONE TROOPER",
     "COUNT DOOKU",
     "CREATURE",
-    "CUNTT DOOKU",
     "DARTH SIDIOUS",
-    "DARTH SLDIOUS",
     "DARTH VADER",
     "DROID 1",
     "DROID 2",
     "FANG ZAR",
     "FIRESHIP PILOT",
-    "GENERAL GREVIOUS",
     "GENERAL GRIEVOUS",
     "GIDDEAN DANU",
     "GUARD",
     "JAR JAR",
     "KI-ADI-MUNDI",
-    "MACE",
     "MACE WINDU",
     "MAS AMEDDA",
     "MEDICAL DROID",
     "MON MOTHMA",
-    "MON MOTMA",
     "MOTEE",
     "NUTE GUNRAY",
     "OBI-WAN",
     "ODD BALL",
     "PADME",
     "PALPATINE",
-    "PALPATINE (V.O.)",
     "PILOT",
     "PLO KOON",
-    "QUI -GON",
     "QUI-GON",
     "ROYAL GUARD",
     "RUNE HAAKO",
@@ -709,7 +701,7 @@
       "text": "My powers have doubled since the last time we met, Count."
     },
     {
-      "character": "CUNTT DOOKU",
+      "character": "COUNT DOOKU",
       "text": "Good. Twice the pride, double the fall."
     },
     {
@@ -941,7 +933,7 @@
       "text": "Do you have a plan B?"
     },
     {
-      "character": "GENERAL GREVIOUS",
+      "character": "GENERAL GRIEVOUS",
       "text": "Oh yes. General Kenobi, the Negotiator. We've been waiting for you. That wasn't much of a rescue."
     },
     {
@@ -1745,7 +1737,7 @@
       "text": "Agreed."
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "Anakin Skywalker, we have approved your appointment to the Council as the Chancellor's personal representative."
     },
     {
@@ -1761,7 +1753,7 @@
       "text": "I understand."
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "You are on this Council, but we do not grant you the rank of Master."
     },
     {
@@ -1781,7 +1773,7 @@
       "text": "I understand."
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "You are on this Council, but we do not grant you the rank of Master."
     },
     {
@@ -1789,7 +1781,7 @@
       "text": "What?! How can you do this?? This is outrageous, it's unfair. I'm more powerful than any of you. How can you be on the Council and not be a Master?"
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "Take a seat, young Skywalker."
     },
     {
@@ -1809,7 +1801,7 @@
       "text": "It may take some time, we do not have many ships to spare."
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "We cannot take ships from the front line."
     },
     {
@@ -1825,7 +1817,7 @@
       "text": "What about the droid attack on the Wookiees?"
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "It is critical we send an attack group there, immediately!"
     },
     {
@@ -1837,7 +1829,7 @@
       "text": "I know that system well. It would take us little time to drive the droids off that planet."
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "Skywalker, your assignment is here with the Chancellor, and Kenobi must find General Grievous."
     },
     {
@@ -1845,7 +1837,7 @@
       "text": "Go, I will. Good relations with the Wookiees, I have."
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "It is settled then. Yoda will take a battalion of clones to reinforce the Wookiees on Kashyyyk. May the Force be with us all."
     },
     {
@@ -1969,7 +1961,7 @@
       "text": "Too much under the sway of the Chancellor, he is. Much anger there is in him. Too much pride in his powers."
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "It's very dangerous, putting them together. I don't think the boy can handle it. I don't trust him."
     },
     {
@@ -1977,7 +1969,7 @@
       "text": "He'll be all right. I trust him with my life."
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "I wish I did."
     },
     {
@@ -1985,7 +1977,7 @@
       "text": "With all due respect, Master, is he not the Chosen One? Is he not to destroy the Sith and bring balance to the Force?"
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "So the prophecy says."
     },
     {
@@ -2281,7 +2273,7 @@
       "text": "Palpatine thinks General Grievous is on Utapau. We have had no reports of this from our agents."
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "How could the Chancellor have come by this information and we know nothing about it? We have had contact with Baron Papanoida and he said no one was there."
     },
     {
@@ -2301,7 +2293,7 @@
       "text": "The Chancellor has requested that I lead the campaign."
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "The Council will make up its own mind who is to go, not the Chancellor."
     },
     {
@@ -2313,7 +2305,7 @@
       "text": "A Master is needed, with more experience."
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "Given our resources, I recommend we send only one Jedi, Master Kenobi."
     },
     {
@@ -2341,11 +2333,11 @@
       "text": "I agree."
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "Very well. Council is adjourned."
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "Obi-Wan, prepare two clone brigades as quickly as you can. If this report is true, there's no telling how many battle droids he may have with him."
     },
     {
@@ -2445,7 +2437,7 @@
       "text": "Absolutely, that is the last thing we want."
     },
     {
-      "character": "MON MOTMA",
+      "character": "MON MOTHMA",
       "text": "We are hoping to form an alliance in the Senate to stop the Chancellor from further subverting the constitution, that's all."
     },
     {
@@ -2457,7 +2449,7 @@
       "text": "That would be dangerous."
     },
     {
-      "character": "MON MOTMA",
+      "character": "MON MOTHMA",
       "text": "We don't know where the Jedi stand in all this."
     },
     {
@@ -3137,7 +3129,7 @@
       "text": "Yes, Master."
     },
     {
-      "character": "PALPATINE (V.O.)",
+      "character": "PALPATINE",
       "text": "You do know, don't you, if the Jedi destroy me, any chance of saving her will be lost."
     },
     {
@@ -3165,7 +3157,7 @@
       "text": "Are you threatening me, Master Jedi?"
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "The Senate will decide your fate."
     },
     {
@@ -3173,7 +3165,7 @@
       "text": "I am the Senate!"
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "Not yet!"
     },
     {
@@ -3185,7 +3177,7 @@
       "text": "Are you threatening me, Master Jedi?"
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "The Senate will decide your fate."
     },
     {
@@ -3193,7 +3185,7 @@
       "text": "I am the Senate!"
     },
     {
-      "character": "MACE",
+      "character": "MACE WINDU",
       "text": "Not yet!"
     },
     {
@@ -3569,7 +3561,7 @@
       "text": "Emergency Code Nine Thirteen, I have no contact on any frequency. Are there any Jedi out there? Anywhere."
     },
     {
-      "character": "BAIL (HOLOGRAM)",
+      "character": "BAIL ORGANA",
       "text": "Kenobi..."
     },
     {
@@ -3981,7 +3973,7 @@
       "text": "The traitors have been taken care of, Lord Sidious."
     },
     {
-      "character": "DARTH SLDIOUS",
+      "character": "DARTH SIDIOUS",
       "text": "Good . . . good . . . You have done well, my new apprentice. Do you feel your power growing?"
     },
     {
@@ -3989,7 +3981,7 @@
       "text": "Yes, My Master."
     },
     {
-      "character": "DARTH SLDIOUS",
+      "character": "DARTH SIDIOUS",
       "text": "Now, Lord Vader, now go and bring peace to the Empire."
     },
     {
@@ -4185,7 +4177,7 @@
       "text": "The Separatists are taken care of, My Master."
     },
     {
-      "character": "DARTH SLDIOUS",
+      "character": "DARTH SIDIOUS",
       "text": "It is finished, then. You have restored peace and justice to the galaxy. You have done well, Lord Vader."
     },
     {
@@ -4193,7 +4185,7 @@
       "text": "Thank you, My Master."
     },
     {
-      "character": "DARTH SLDIOUS",
+      "character": "DARTH SIDIOUS",
       "text": "Send a message to the ships of the Trade Federation. Tell them the Separatist leaders have been wiped out. Grievous and Dooku have been destroyed. All droid units must shut down immediately."
     },
     {
@@ -4369,7 +4361,7 @@
       "text": "What are you doing? You're going to hurt her. Wait!!"
     },
     {
-      "character": "DARTH SLDIOUS",
+      "character": "DARTH SIDIOUS",
       "text": "Master Yoda, you survived."
     },
     {
@@ -4377,11 +4369,11 @@
       "text": "Surprised?"
     },
     {
-      "character": "DARTH SLDIOUS",
+      "character": "DARTH SIDIOUS",
       "text": "Your arrogance blinds you, Master Yoda. Now you will experience the full power of the dark side."
     },
     {
-      "character": "DARTH SLDIOUS",
+      "character": "DARTH SIDIOUS",
       "text": "I have waited a long time for this moment, my little green friend. At last, the Jedi are no more."
     },
     {
@@ -4397,7 +4389,7 @@
       "text": "If so powerful you are, why leave??"
     },
     {
-      "character": "DARTH SLDIOUS",
+      "character": "DARTH SIDIOUS",
       "text": "You will not stop me. Darth Vader will become more powerful than either of us."
     },
     {
@@ -4545,7 +4537,7 @@
       "text": "Failed to stop the Sith Lord, I have. Still much to learn, there is ..."
     },
     {
-      "character": "QUI -GON",
+      "character": "QUI-GON",
       "text": "Patience. You will have time. I did not. When I became one with the Force I made a great discovery. With my training, you will be able to merge with the Force at will. Your physical self will fade away, but you will still retain your consciousness. You will become more powerful than any Sith."
     },
     {
@@ -4770,7 +4762,7 @@
     }
   ],
   "lineCount": 1173,
-  "characterCount": 71,
+  "characterCount": 63,
   "topCastCount": 19,
   "topCast": [
     "ANAKIN",

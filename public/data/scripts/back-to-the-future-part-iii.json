@@ -9,7 +9,6 @@
     "BARTENDER",
     "BIFF",
     "BUFORD",
-    "BUFORD (FORMERLY GANG LEADER, WE NOW KNOW HIS NAME)",
     "CHESTER",
     "CLARA",
     "CLERK",
@@ -36,7 +35,6 @@
     "MAN #1",
     "MAN #2",
     "MAN OUTSIDE",
-    "MARSHALL",
     "MARSHALL STRICKLAND",
     "MARTY",
     "MARTY 1",
@@ -766,8 +764,8 @@
       "text": "Tannen. You're Mad Dog Tannen."
     },
     {
-      "character": "BUFORD (FORMERLY GANG LEADER, WE NOW KNOW HIS NAME)",
-      "text": "Mad Dog? I hate that name . I hate it, ya hear? Nobody calls me Mad Dog. 'Specially not some, duded-up, egg suckin’, gutter trash."
+      "character": "BUFORD",
+      "text": "Mad Dog? I hate that name . I hate it, ya hear? Nobody calls me Mad Dog. 'Specially not some, duded-up, egg suckin', gutter trash."
     },
     {
       "character": "MARTY II",
@@ -1630,7 +1628,7 @@
       "text": "Marshall Strickland. I didn't know you was back in town."
     },
     {
-      "character": "MARSHALL",
+      "character": "MARSHALL STRICKLAND",
       "text": "If you can't read the sign, Tannen, I presume you can read this."
     },
     {
@@ -1638,7 +1636,7 @@
       "text": "Pretty tough hombre when you're pointin' a scattergun at a man's back."
     },
     {
-      "character": "MARSHALL",
+      "character": "MARSHALL STRICKLAND",
       "text": "Just like you, Tannen, I take every advantage I can get. Now are you gonna check your iron?"
     },
     {
@@ -1658,7 +1656,7 @@
       "text": "Smile, Marshall. After all, this is a party."
     },
     {
-      "character": "MARSHALL",
+      "character": "MARSHALL STRICKLAND",
       "text": "The only party I'll be smilin' at is the one that sees you at the end of a rope."
     },
     {
@@ -1666,7 +1664,7 @@
       "text": "Have fun."
     },
     {
-      "character": "MARSHALL",
+      "character": "MARSHALL STRICKLAND",
       "text": "That's how you handle 'em, son, never give 'em an inch .Maintain discipline at all times. Remember that word...discipline."
     },
     {

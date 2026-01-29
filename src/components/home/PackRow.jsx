@@ -1,4 +1,4 @@
-import { generateFlower, stringToSeed } from '../../utils/flowerGenerator.js';
+import { generateFlower, generateBeetle, stringToSeed } from '../../utils/flowerGenerator.js';
 
 export function PackRow({ pack, theme, completion }) {
     // Badge Logic
@@ -7,6 +7,8 @@ export function PackRow({ pack, theme, completion }) {
 
         const badgeSeed = stringToSeed(pack.id + completion.date);
         const cardColor = theme?.cardGradientStart || '#cccccc';
+        // Random delay 0-4s based on seed so badges sway out of sync
+        const animationDelay = `${(badgeSeed % 4000) / 1000}s`;
 
         if (completion.success) {
             const flowerSvg = generateFlower(badgeSeed, cardColor);
@@ -14,24 +16,21 @@ export function PackRow({ pack, theme, completion }) {
                 <div
                     className="pack-row-badge"
                     data-testid="pack-badge"
-                    style={{ backgroundImage: `url('${flowerSvg}')` }}
+                    style={{ backgroundImage: `url('${flowerSvg}')`, animationDelay }}
                 ></div>
             );
         } else {
-            const failEmojis = ['💀', '🙊', '🤡', '🤨', '🫣'];
-            const emojiIndex = badgeSeed % failEmojis.length;
-            const rotation = (badgeSeed % 30) - 15;
+            const beetleSvg = generateBeetle(badgeSeed, cardColor);
             return (
                 <div
-                    className="pack-row-badge emoji-badge"
+                    className="pack-row-badge beetle-badge"
                     data-testid="pack-badge"
-                    style={{ transform: `rotate(${rotation}deg)` }}
-                >
-                    {failEmojis[emojiIndex]}
-                </div>
+                    style={{ backgroundImage: `url('${beetleSvg}')`, animationDelay }}
+                ></div>
             );
         }
     };
+
 
     const style = theme ? {
         '--pack-card-gradient-start': theme.cardGradientStart,

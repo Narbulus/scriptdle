@@ -14,9 +14,7 @@
     "FLIGHT ATTENDANT #1",
     "FLIGHT ATTENDANT #2",
     "GENERAL",
-    "HAPPY",
     "HAPPY HOGAN",
-    "I'M SORRY. I'M SORRY.",
     "JAMES RHODES",
     "JARVIS",
     "MAJOR ALLEN",
@@ -38,9 +36,7 @@
     "SOLDIER (JIMMY)",
     "SOLDIER 1",
     "SOLDIER 2",
-    "STARK",
     "TONY STARK",
-    "TONY STARK1",
     "VIDEO VOICE OVER",
     "VOICE OVER",
     "WILLIAM",
@@ -589,11 +585,11 @@
       "text": "You're good. I thought I lost you back there."
     },
     {
-      "character": "HAPPY",
+      "character": "HAPPY HOGAN",
       "text": "You did, sir."
     },
     {
-      "character": "HAPPY",
+      "character": "HAPPY HOGAN",
       "text": "I had to cut across Mulholland."
     },
     {
@@ -1309,7 +1305,7 @@
       "text": "Watch out!"
     },
     {
-      "character": "STARK",
+      "character": "TONY STARK",
       "text": "Come on."
     },
     {
@@ -1377,7 +1373,7 @@
       "text": "Yeah, vacation's over."
     },
     {
-      "character": "HAPPY",
+      "character": "HAPPY HOGAN",
       "text": "Where to, sir?"
     },
     {
@@ -1409,7 +1405,7 @@
       "text": "Yeah, vacation's over."
     },
     {
-      "character": "HAPPY",
+      "character": "HAPPY HOGAN",
       "text": "Where to, sir?"
     },
     {
@@ -1597,7 +1593,7 @@
       "text": "Where is he?"
     },
     {
-      "character": "HAPPY",
+      "character": "HAPPY HOGAN",
       "text": "He's inside."
     },
     {
@@ -1859,10 +1855,6 @@
     {
       "character": "PEPPER POTTS",
       "text": "the sides when you're coming out!"
-    },
-    {
-      "character": "I'M SORRY. I'M SORRY.",
-      "text": "PEPPER POTTS"
     },
     {
       "character": "TONY STARK",
@@ -3197,7 +3189,7 @@
       "text": "You've been reengaged. Execute evasive maneuver."
     },
     {
-      "character": "TONY STARK1",
+      "character": "TONY STARK",
       "text": "Keep going!"
     },
     {

@@ -9,7 +9,7 @@ export default defineConfig({
     emptyOutDir: true,
   },
   server: {
-    port: 3000,
+    port: 6767,
     open: true,
     host: true,
   },

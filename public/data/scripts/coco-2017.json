@@ -5,7 +5,6 @@
   "characters": [
     "ABEL",
     "ABUELA ELENA",
-    "ABUELA ELENA (O.S.)",
     "ABUELITA",
     "CHELO",
     "CHICHARRÓN",
@@ -21,8 +20,6 @@
     "MAN",
     "MARIACHI",
     "MIGUEL",
-    "MIGUEL (V.O)",
-    "MIGUEL (V.O.)",
     "MIGUEL'S MOTHER",
     "MUSICIANS",
     "SALES CLERK",
@@ -157,7 +154,7 @@
       "text": "Miguel! Eat your food."
     },
     {
-      "character": "MIGUEL (V.O.)",
+      "character": "MIGUEL",
       "text": "My Abuelita? She's Mamá Coco's daughter."
     },
     {
@@ -181,7 +178,7 @@
       "text": "That's what I THOUGHT you said."
     },
     {
-      "character": "MIGUEL (V.O.)",
+      "character": "MIGUEL",
       "text": "Abuelita runs our house just like Mamá Imelda did."
     },
     {
@@ -201,11 +198,11 @@
       "text": "NO MUSIC!!!"
     },
     {
-      "character": "MIGUEL (V.O)",
+      "character": "MIGUEL",
       "text": "I think we're the only family in México who hates music..."
     },
     {
-      "character": "MIGUEL (V.O.)",
+      "character": "MIGUEL",
       "text": "And my family's fine with that. But me..."
     },
     {
@@ -217,7 +214,7 @@
       "text": "Love you, Mamá ."
     },
     {
-      "character": "MIGUEL (V.O.)",
+      "character": "MIGUEL",
       "text": "I am not like the rest of my family!"
     },
     {
@@ -249,11 +246,11 @@
       "text": "Good boy, Dante!"
     },
     {
-      "character": "MIGUEL (V.O.)",
+      "character": "MIGUEL",
       "text": "I know I'm not supposed to love music. But it's not my fault."
     },
     {
-      "character": "MIGUEL (V.O.)",
+      "character": "MIGUEL",
       "text": "It's his! Ernesto de la Cruz. The greatest musician of all time."
     },
     {
@@ -261,15 +258,15 @@
       "text": "Right here in this very plaza, Ernesto de la Cruz took his first steps... toward becoming the most beloved singer in Méxican history."
     },
     {
-      "character": "MIGUEL (V.O.)",
+      "character": "MIGUEL",
       "text": "He started out a total nobody from Santa Cecilia, like me. But when he played music, he made people fall in love with him."
     },
     {
-      "character": "MIGUEL (V.O.)",
+      "character": "MIGUEL",
       "text": "He starred in movies, he had the coolest guitar, he could fly!"
     },
     {
-      "character": "MIGUEL (V.O.)",
+      "character": "MIGUEL",
       "text": "And he wrote the best songs. But my all-time favorite, it's..."
     },
     {
@@ -309,19 +306,19 @@
       "text": "♪Each time you hear a sad guitar Know that I'm with you the only way that I can be Until you're in my arms again Remember... MEEEEEEEEEEEEEEEEEEEE––♪"
     },
     {
-      "character": "MIGUEL (V.O.)",
+      "character": "MIGUEL",
       "text": "He lived the kind of life he dreamed about..."
     },
     {
-      "character": "MIGUEL (V.O.)",
+      "character": "MIGUEL",
       "text": "...until 1942. When he was crushed by a giant bell."
     },
     {
-      "character": "MIGUEL (V.O.)",
+      "character": "MIGUEL",
       "text": "I wanna be just like him."
     },
     {
-      "character": "MIGUEL (V.O.)",
+      "character": "MIGUEL",
       "text": "Sometimes, I look at de la Cruz and I get this feeling like we're connected. Like if he could play music, maybe someday, I could too..."
     },
     {
@@ -385,7 +382,7 @@
       "text": "Show me what you got, muchacho. I'll be your first audience."
     },
     {
-      "character": "ABUELA ELENA (O.S.)",
+      "character": "ABUELA ELENA",
       "text": "MIGUEL!"
     },
     {
@@ -1411,7 +1408,6 @@
     "ERNESTO",
     "ABEL",
     "YOUNG BOY (V.O.)",
-    "MIGUEL (V.O.)",
     "CHICHARRÓN",
     "MARIACHI"
   ],

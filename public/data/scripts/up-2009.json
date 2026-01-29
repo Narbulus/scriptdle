@@ -19,8 +19,7 @@
     "GIRL'S VOICE (O.S.)",
     "MISC DOG",
     "MUNTZ",
-    "NEWSREEL ANNOUNCER (O.S.)",
-    "NEWSREEL ANNOUNCER (V.O.)",
+    "NEWSREEL ANNOUNCER",
     "NURSE A.J.",
     "NURSE GEORGE",
     "OFFICER EDITH",
@@ -29,44 +28,43 @@
     "THANKS",
     "VOICE",
     "YOUNG CARL",
-    "YOUNG ELLIE",
-    "YOUNG ELLIE (O.S.)"
+    "YOUNG ELLIE"
   ],
   "lines": [
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "\"Movietown News\" presents... Spotlight on Adventure!"
     },
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "What you are now witnessing is footage never before seen by civilized humanity: a lost world in South America! Lurking in the shadow of majestic Paradise Falls, it sports plants and animals undiscovered by science. Who would dare set foot on this inhospitable summit?"
     },
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "Why, our subject today: Charles Muntz!"
     },
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "The beloved explorer lands his dirigible, the \"Spirit of Adventure,\" in New Hampshire this week, completing a year long expedition to the lost world!"
     },
     {
-      "character": "NEWSREEL ANNOUNCER (O.S.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "This lighter-than-air craft was designed by Muntz himself, and is longer than 22 Prohibition paddy- wagons placed end to end."
     },
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "And here comes the adventurer now!"
     },
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "Never apart from his faithful dogs, Muntz conceived the craft for canine comfort! It's a veritable floating palace in the sky..."
     },
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "...complete with doggie bath and mechanical canine walker."
     },
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "And Jiminy Cricket, do the locals consider Muntz the bee's knees! And how!"
     },
     {
@@ -74,7 +72,7 @@
       "text": "\"Adventure is out there!\""
     },
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "But what has Muntz brought back this time?"
     },
     {
@@ -86,11 +84,11 @@
       "text": "Ooh!"
     },
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "And golly, what a swell monster this is. But what's this?"
     },
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "Scientists cry foul! The National Explorers Society accuses Muntz of fabricating the skeleton!"
     },
     {
@@ -98,11 +96,11 @@
       "text": "No!"
     },
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "The organization strips Muntz of his membership."
     },
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "Humiliated, Muntz vows a return to Paradise Falls and promises to capture the beast... alive!"
     },
     {
@@ -114,31 +112,31 @@
       "text": "And I will not come back until I do!"
     },
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "And so the explorer is off to clear his name. Bon voyage Charles Muntz, and good luck capturing the Monster of Paradise Falls!"
     },
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "Here's Charles Muntz piloting his famous dirigible!"
     },
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "He hurdles Pike's Peak!"
     },
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "He hurdles the Grand Canyon!"
     },
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "He hurdles Mount Everest!"
     },
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "He... goes around Mount Everest! Is there nothing he cannot do?"
     },
     {
-      "character": "NEWSREEL ANNOUNCER (V.O.)",
+      "character": "NEWSREEL ANNOUNCER",
       "text": "Yes, as Muntz himself says: \"Adventure is--\""
     },
     {
@@ -170,7 +168,7 @@
       "text": "Oh! There's something down there! I will bring it back for science. Awwww, it's a puppy!"
     },
     {
-      "character": "YOUNG ELLIE (O.S.)",
+      "character": "YOUNG ELLIE",
       "text": "No time! A storm! Lightning! Hail!"
     },
     {
