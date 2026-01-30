@@ -52,7 +52,13 @@ function navigate(path, replace = false) {
 }
 
 function handleRoute() {
-  const path = window.location.pathname || '/';
+  let path = window.location.pathname || '/';
+
+  // Normalize: remove trailing slash (except for root)
+  if (path !== '/' && path.endsWith('/')) {
+    path = path.slice(0, -1);
+  }
+
   const matched = matchRoute(path);
 
   if (!matched) {

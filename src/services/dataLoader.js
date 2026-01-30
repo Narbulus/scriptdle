@@ -42,50 +42,42 @@ export async function loadAllGameData() {
 
     const today = getCurrentDate();
 
-    // 1. First fetch packs-full.json to know what packs exist
-    const packsRes = await fetch('/data/packs-full.json');
+    // Fetch packs-full.json and consolidated daily file in parallel (2 requests instead of 28)
+    const [packsRes, dailyAllRes] = await Promise.all([
+      fetch('/data/packs-full.json'),
+      fetch(`/data/daily-all/${today}.json`)
+    ]);
+
     if (!packsRes.ok) throw new Error('Failed to load packs');
     const packsData = await packsRes.json();
 
-    const packIds = packsData.packs.map(p => p.id);
+    // Parse consolidated daily data (may not exist for older dates)
+    let dailyAllData = null;
+    if (dailyAllRes.ok) {
+      dailyAllData = await dailyAllRes.json();
+    }
 
-    // 2. Fetch all pack configs, manifests, and today's puzzles in parallel
-    const packConfigFetches = packIds.map(id =>
-      fetch(`/data/packs/${id}.json`).then(r => r.ok ? r.json() : null)
-    );
-
-    const manifestFetches = packIds.map(id =>
-      fetch(`/data/daily/${id}/manifest.json`).then(r => r.ok ? r.json() : null)
-    );
-
-    const puzzleFetches = packIds.map(id =>
-      fetch(`/data/daily/${id}/${today}.json`).then(r => r.ok ? r.json() : null)
-    );
-
-    const [packConfigs, manifests, puzzles] = await Promise.all([
-      Promise.all(packConfigFetches),
-      Promise.all(manifestFetches),
-      Promise.all(puzzleFetches)
-    ]);
-
-    // 3. Build the cache
+    // Build the cache from consolidated data
+    const packThemes = {};
     const manifestsMap = {};
     const puzzlesMap = {};
-    const packThemes = {};
 
-    packIds.forEach((id, index) => {
-      if (manifests[index]) manifestsMap[id] = manifests[index];
-      if (puzzles[index]) puzzlesMap[id] = puzzles[index];
-
-      // Use pack config theme if available, otherwise use theme from packs-full
-      const packConfig = packConfigs[index];
-      const packInfo = packsData.packs[index];
-      if (packConfig?.theme) {
-        packThemes[id] = packConfig.theme;
-      } else if (packInfo?.theme) {
-        packThemes[id] = packInfo.theme;
+    // Extract themes from packs-full.json
+    for (const pack of packsData.packs) {
+      if (pack.theme) {
+        packThemes[pack.id] = pack.theme;
       }
-    });
+    }
+
+    // Extract manifests and puzzles from consolidated daily file
+    if (dailyAllData) {
+      if (dailyAllData.manifests) {
+        Object.assign(manifestsMap, dailyAllData.manifests);
+      }
+      if (dailyAllData.puzzles) {
+        Object.assign(puzzlesMap, dailyAllData.puzzles);
+      }
+    }
 
     // Cache themes globally for optimistic loading
     window.SCRIPTLE_THEMES = packThemes;
