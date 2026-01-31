@@ -33,11 +33,7 @@
     "CREW MAN 4",
     "DIM",
     "DOT",
-    "DR FLORA",
-    "DR SOIL",
     "DR. FLORA",
-    "DR. FLORRA",
-    "DR. SOIL",
     "FEMALE ANT",
     "FLIK",
     "FLIK AND DOT",
@@ -51,12 +47,8 @@
     "JOHN LASSETER",
     "MANNY",
     "MOLT",
-    "MR SOIL",
     "MR. SOIL",
-    "P.T FLEA",
-    "P.T.",
     "P.T. FLEA",
-    "PRINCESS ATTA",
     "QUEEN",
     "QUEEN & DOT",
     "ROLL",
@@ -228,7 +220,7 @@
       "text": "I know, I know. I'm always acting like the sky is falling."
     },
     {
-      "character": "DR. SOIL",
+      "character": "MR. SOIL",
       "text": "Look out!"
     },
     {
@@ -1120,7 +1112,7 @@
       "text": "Did you see that really big bug?"
     },
     {
-      "character": "DR. SOIL",
+      "character": "MR. SOIL",
       "text": "He looks absolutely ferocious!"
     },
     {
@@ -1576,7 +1568,7 @@
       "text": "The caterpillar's using himself as live bait!"
     },
     {
-      "character": "MR SOIL",
+      "character": "MR. SOIL",
       "text": "How brave!"
     },
     {
@@ -1636,7 +1628,7 @@
       "text": "I don't know, Uh-oh."
     },
     {
-      "character": "DR FLORA",
+      "character": "DR. FLORA",
       "text": "All right, girls. Let's move your little keisters out of here now. The patient needs her rest, you know. Come on."
     },
     {
@@ -2224,7 +2216,7 @@
       "text": "Hey!"
     },
     {
-      "character": "DR FLORA",
+      "character": "DR. FLORA",
       "text": "Get down, rolly boys!"
     },
     {
@@ -2236,7 +2228,7 @@
       "text": "And that's how my 12th husband died. So now I'm a widow. I mean, I've always been a black widow, but now I'm a black-widow widow."
     },
     {
-      "character": "MR SOIL",
+      "character": "MR. SOIL",
       "text": "Thorny! Any sign of those fiends?"
     },
     {
@@ -2320,7 +2312,7 @@
       "text": "Look out!"
     },
     {
-      "character": "P.T.",
+      "character": "P.T. FLEA",
       "text": "Whoa, whoa, whoa there. Steady, girls. That's it."
     },
     {
@@ -2332,7 +2324,7 @@
       "text": "P.T.?"
     },
     {
-      "character": "P.T.",
+      "character": "P.T. FLEA",
       "text": "Greetings and salutations! Ooh-boppa-doo and how do ya do? I am the great P.T. Flea! Heh-heh! I'm in need of your assis... Oh, let's just cut to the chase. Look, I've been goin' from anthill to anthill. I'm looking for a bunch of circus performers. Have you seen them?"
     },
     {
@@ -2352,7 +2344,7 @@
       "text": "No one has ever seen anyone like that around here. So you'll probably want to get going. I guess you've got a lot of other anthills to check into, so bye!"
     },
     {
-      "character": "P.T.",
+      "character": "P.T. FLEA",
       "text": "Ah, guys, I've been looking all over for you! Flaming Death is a huge hit!"
     },
     {
@@ -2368,7 +2360,7 @@
       "text": "P.T., no!"
     },
     {
-      "character": "P.T.",
+      "character": "P.T. FLEA",
       "text": "So I figured it out. You guys burn me twice a night, I take a day off to heal. And then we do it all over again! We'll be the top circus act in the business!"
     },
     {
@@ -2376,7 +2368,7 @@
       "text": "You mean, you're not warriors?"
     },
     {
-      "character": "P.T.",
+      "character": "P.T. FLEA",
       "text": "Are you kidding? These guys are the lousiest circus bugs you've ever seen, and they're gonna make me rich!"
     },
     {
@@ -2452,7 +2444,7 @@
       "text": "I want you to leave, Flik. And this time, don't come back."
     },
     {
-      "character": "P.T.",
+      "character": "P.T. FLEA",
       "text": "Tough crowd. Yee-hah!"
     },
     {
@@ -2800,11 +2792,11 @@
       "text": "Hey! Turn your butt off."
     },
     {
-      "character": "P.T.",
+      "character": "P.T. FLEA",
       "text": "Psst. Hey, guys! Get me outta this thing, will ya? I promise to start thinking about payin' ya."
     },
     {
-      "character": "P.T.",
+      "character": "P.T. FLEA",
       "text": "Hey! Wait, wait! Okay, I'll pay ya! I'll pay ya!"
     },
     {
@@ -3000,7 +2992,7 @@
       "text": "Wow. Manny's getting good."
     },
     {
-      "character": "DR SOIL",
+      "character": "MR. SOIL",
       "text": "Not now."
     },
     {
@@ -3112,15 +3104,15 @@
       "text": "Huh? Aah! No, no, no, no, no!"
     },
     {
-      "character": "P.T.",
+      "character": "P.T. FLEA",
       "text": "Oh, the pain!"
     },
     {
-      "character": "P.T.",
+      "character": "P.T. FLEA",
       "text": "There goes my magic act!"
     },
     {
-      "character": "P.T.",
+      "character": "P.T. FLEA",
       "text": "Flaming Death!"
     },
     {
@@ -3128,7 +3120,7 @@
       "text": "No, P.T.!"
     },
     {
-      "character": "P.T.",
+      "character": "P.T. FLEA",
       "text": "Yeah! A direct hit! Hee-hee-ha!"
     },
     {
@@ -3644,7 +3636,7 @@
       "text": "Are you saying I'm stupid?"
     },
     {
-      "character": "PRINCESS ATTA",
+      "character": "ATTA",
       "text": "No?"
     },
     {
@@ -3760,7 +3752,7 @@
       "text": "Can't we cut? Ow!"
     },
     {
-      "character": "DR. FLORRA",
+      "character": "DR. FLORA",
       "text": "So, is there a Mrs. Ant you have to tunnel home to? Oh! I'm sorry! I thought he was real. (LAUGHS) Oh, dear, put that thing in my car."
     },
     {
@@ -3816,7 +3808,7 @@
       "text": "Action!"
     },
     {
-      "character": "P.T FLEA",
+      "character": "P.T. FLEA",
       "text": "Spinning a web of safety and less, than 1-"
     },
     {
@@ -3848,15 +3840,15 @@
       "text": "And action."
     },
     {
-      "character": "MR SOIL",
+      "character": "MR. SOIL",
       "text": "I don't think we need to involve the queen in this. She's got enough on her plate already. Training her daughter?"
     },
     {
-      "character": "DR. FLORRA",
+      "character": "DR. FLORA",
       "text": "Oh, yes. Princess Abba. Abba! (BOTH LAUGH) Where are my platforms? Let's go disco."
     },
     {
-      "character": "DR. FLORRA",
+      "character": "DR. FLORA",
       "text": "Alright, let me try it again."
     },
     {

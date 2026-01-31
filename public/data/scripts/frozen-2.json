@@ -16,15 +16,12 @@
     "ELSA AND IDUNA",
     "ELSA, OLAF, & KRISTOFF",
     "GRAND PABBIE",
-    "HOMEOMAREN",
-    "HOMEYMAREN",
     "HONEYMAREN",
     "HONEYMAREN & ELSA",
     "IDUNA",
     "KAI",
     "KING RUNEARD",
     "KRISTOFF",
-    "LT. MATTIAS",
     "MAN",
     "MAN #2",
     "MAN #3",
@@ -32,12 +29,10 @@
     "MATTIAS",
     "NORTHULDRA LEADER",
     "OLAF",
-    "RUNEARD",
     "RYDER",
     "SVEN",
     "TOWNSPEOPLE",
-    "YELANA",
-    "YELENA"
+    "YELANA"
   ],
   "lines": [
     {
@@ -125,7 +120,7 @@
       "text": "And I was so honored to get to go to the forest to celebrate it."
     },
     {
-      "character": "RUNEARD",
+      "character": "KING RUNEARD",
       "text": "Stand tall, Agnarr."
     },
     {
@@ -1309,7 +1304,7 @@
       "text": "I know what you need."
     },
     {
-      "character": "YELENA",
+      "character": "YELANA",
       "text": "Where did you get that scarf?"
     },
     {
@@ -1345,7 +1340,7 @@
       "text": "Our mother was Northuldra."
     },
     {
-      "character": "YELENA",
+      "character": "YELANA",
       "text": "We are called Northuldra, We are the people of the Sun."
     },
     {
@@ -1381,7 +1376,7 @@
       "text": "But the Earth Giants now roam north at night."
     },
     {
-      "character": "YELENA",
+      "character": "YELANA",
       "text": "You can leave in the morning."
     },
     {
@@ -1421,7 +1416,7 @@
       "text": "Best part: It involves a lot of reindeer."
     },
     {
-      "character": "LT. MATTIAS",
+      "character": "MATTIAS",
       "text": "Hey, back at home, Halimah's still over on Hudson's Hearth?"
     },
     {
@@ -1429,7 +1424,7 @@
       "text": "She is."
     },
     {
-      "character": "LT. MATTIAS",
+      "character": "MATTIAS",
       "text": "Really? Is she married?"
     },
     {
@@ -1437,7 +1432,7 @@
       "text": "Mm-mm."
     },
     {
-      "character": "LT. MATTIAS",
+      "character": "MATTIAS",
       "text": "Oh, wow, why would that make me feel better?"
     },
     {
@@ -1445,7 +1440,7 @@
       "text": "What else do you miss?"
     },
     {
-      "character": "LT. MATTIAS",
+      "character": "MATTIAS",
       "text": "My father. He passed long before all this. He was a great man, Built us a good life is Arendelle, But taught me to never take the good for granted. He'd say, \"Be prepared! Just when you think you found your way, life will throw you on a new path\"."
     },
     {
@@ -1453,7 +1448,7 @@
       "text": "What do you do when it does?"
     },
     {
-      "character": "LT. MATTIAS",
+      "character": "MATTIAS",
       "text": "Don't give up. Take it one step at a time and..."
     },
     {
@@ -1461,11 +1456,11 @@
       "text": "Just do the next right thing."
     },
     {
-      "character": "LT. MATTIAS",
+      "character": "MATTIAS",
       "text": "Yeah, you got it."
     },
     {
-      "character": "HOMEOMAREN",
+      "character": "HONEYMAREN",
       "text": "I wanna show you something. May I? You know, air, fire, water, a"
     },
     {
@@ -1473,7 +1468,7 @@
       "text": "What do you do when it does?"
     },
     {
-      "character": "LT. MATTIAS",
+      "character": "MATTIAS",
       "text": "Don't give up. Take it one step at a time and..."
     },
     {
@@ -1481,11 +1476,11 @@
       "text": "Just do the next right thing."
     },
     {
-      "character": "LT. MATTIAS",
+      "character": "MATTIAS",
       "text": "Yeah, you got it."
     },
     {
-      "character": "HOMEYMAREN",
+      "character": "HONEYMAREN",
       "text": "I wanna show you something. ( points to Iduna's scarf ) May I? You know, air, fire, water, and earth."
     },
     {
@@ -1537,7 +1532,7 @@
       "text": "Earth giants."
     },
     {
-      "character": "YELENA",
+      "character": "YELANA",
       "text": "What are they doing down here?"
     },
     {
@@ -2137,7 +2132,7 @@
       "text": "34 years..."
     },
     {
-      "character": "YELENA",
+      "character": "YELANA",
       "text": "5 months..."
     },
     {

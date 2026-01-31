@@ -5,10 +5,8 @@
   "characters": [
     "ALCMENE",
     "ALL",
-    "AMPHITRYION",
     "AMPHITRYON",
     "ARES",
-    "AREUS",
     "ARTIST",
     "ATROPOS",
     "BOTH",
@@ -30,7 +28,6 @@
     "HERA",
     "HERCULES",
     "HERMES",
-    "HERULES",
     "HYDROS",
     "LACHESIS",
     "LYTHOS",
@@ -464,7 +461,7 @@
       "text": "Oh well, he must have been abandoned. For so many years we've prayed to the gods to bless us with a child. Perhaps, they've answered our prayers"
     },
     {
-      "character": "AMPHITRYION",
+      "character": "AMPHITRYON",
       "text": "Perhaps they have... Hercules?"
     },
     {
@@ -560,7 +557,7 @@
       "text": "Oh, my goodness. Whoa!"
     },
     {
-      "character": "HERULES",
+      "character": "HERCULES",
       "text": "Careful!"
     },
     {
@@ -3084,7 +3081,7 @@
       "text": "Don't get too comfortable, Hades!"
     },
     {
-      "character": "AREUS",
+      "character": "ARES",
       "text": "Hercules!"
     },
     {

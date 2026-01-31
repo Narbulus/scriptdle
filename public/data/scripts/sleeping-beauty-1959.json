@@ -5,8 +5,8 @@
   "characters": [
     "1ST SERVANT",
     "2ND SERVANT",
+    "AURORA",
     "BOTH",
-    "BRIAR ROSE",
     "CHOIR",
     "CHORUS",
     "FAIRIES",
@@ -533,7 +533,7 @@
       "text": "Oh, I’ll think of something."
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Well, and what are you three dears up to?"
     },
     {
@@ -557,7 +557,7 @@
       "text": "That’s it, berries!"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Berries?"
     },
     {
@@ -565,7 +565,7 @@
       "text": "Lots of berries."
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "But I picked berries yesterday."
     },
     {
@@ -605,7 +605,7 @@
       "text": "Goodbye!"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Goodbye!"
     },
     {
@@ -853,7 +853,7 @@
       "text": "No carrots."
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Oh dear, why do they still treat me like a child?"
     },
     {
@@ -861,7 +861,7 @@
       "text": "Who?"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Why, Flora and Fauna and Merryweather. They never want me to meet anyone. But you know something? I fooled ‘em. I have met someone!"
     },
     {
@@ -869,11 +869,11 @@
       "text": "Who? Who? Who?"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Oh, a prince. Well, he’s tall and handsome and… and so romantic. Oh, we walked together, and talked together, and just before we say goodbye, he takes me in his arms, and then… I wake up."
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Yes, it’s only in my dreams. But they say if you dream a thing more than once, It’s sure to come true. And I’ve seen him so many times!"
     },
     {
@@ -885,15 +885,15 @@
       "text": "There, stop!"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Oh, why, it’s my dream prince!"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Your highness! No, I’m really not supposed to speak to strangers. But we’ve met before!"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Oh?"
     },
     {
@@ -905,7 +905,7 @@
       "text": "I’m awfully sorry. I didn’t mean to frighten you."
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Oh it wasn’t that. It’s just that you’re a, a…"
     },
     {
@@ -913,7 +913,7 @@
       "text": "A stranger?"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Hmm-hmm."
     },
     {
@@ -921,7 +921,7 @@
       "text": "But don’t you remember? We’ve met before!"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "We, we have?"
     },
     {
@@ -933,11 +933,11 @@
       "text": "Who are you, what’s your name?"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Hmm? Oh, my name. Why, it’s, it’s…"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Oh, no, no. I can’t, I… Goodbye!"
     },
     {
@@ -945,7 +945,7 @@
       "text": "But when will I see you again?"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Oh, never, never!"
     },
     {
@@ -953,7 +953,7 @@
       "text": "Never?"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Well, maybe someday."
     },
     {
@@ -961,7 +961,7 @@
       "text": "When, tomorrow?"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Oh no, this evening."
     },
     {
@@ -969,7 +969,7 @@
       "text": "Where?"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "At the cottage, in the glen."
     },
     {
@@ -1089,7 +1089,7 @@
       "text": "Blue."
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Aunt Flora!"
     },
     {
@@ -1101,11 +1101,11 @@
       "text": "Stop, mop!"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Aunt Flora, Fauna, Merryweather! Where is everybody?"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Oh!"
     },
     {
@@ -1117,7 +1117,7 @@
       "text": "Happy birthday!"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Oh, you darlings, this is the happiest day of my life. Everything’s so wonderful, just wait till you meet him."
     },
     {
@@ -1133,7 +1133,7 @@
       "text": "You’ve met some stranger?"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Oh, he’s not a stranger. We've met before."
     },
     {
@@ -1145,7 +1145,7 @@
       "text": "Where?"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Once upon a dream!"
     },
     {
@@ -1161,7 +1161,7 @@
       "text": "This is terrible!"
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Why? After all, I am sixteen."
     },
     {
@@ -1173,7 +1173,7 @@
       "text": "You’re already betrothed."
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Betrothed?"
     },
     {
@@ -1185,7 +1185,7 @@
       "text": "To Prince Phillip, dear."
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "But that’s impossible! How could I marry a prince, I’d have to be…"
     },
     {
@@ -1201,7 +1201,7 @@
       "text": "Princess Aurora. Tonight, we’re taking you back to your father, King Stefan."
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "But, but I can’t! He’s coming here tonight, I promised to meet him."
     },
     {
@@ -1209,7 +1209,7 @@
       "text": "I’m sorry, child, but you must never see that young man again."
     },
     {
-      "character": "BRIAR ROSE",
+      "character": "AURORA",
       "text": "Oh, no, no! I can’t believe it. No, no!"
     },
     {

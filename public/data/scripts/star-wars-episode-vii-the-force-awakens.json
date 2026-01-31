@@ -16,10 +16,8 @@
     "FINN",
     "FIRST ORDER COLONEL",
     "FIRST ORDER OFFICER",
-    "FN-2187",
     "GA-97",
     "GENERAL HUX",
-    "GENERAL STATURA",
     "HAN",
     "JESS",
     "KAYDEL KO CONNIX",
@@ -52,7 +50,6 @@
     "TASU LEECH",
     "TECHNICIAN #1",
     "TROOPER GUARD #2",
-    "UNKAR",
     "UNKAR PLUTT",
     "VOBER DAND",
     "YOLO ZIFF",
@@ -189,7 +186,7 @@
       "text": "FN-2187. Submit your blaster for inspection."
     },
     {
-      "character": "FN-2187",
+      "character": "FINN",
       "text": "Yes, Captain."
     },
     {
@@ -197,7 +194,7 @@
       "text": "And who gave you permission to remove that helmet?"
     },
     {
-      "character": "FN-2187",
+      "character": "FINN",
       "text": "I'm sorry, Captain."
     },
     {
@@ -205,7 +202,7 @@
       "text": "Report to my division at once."
     },
     {
-      "character": "UNKAR",
+      "character": "UNKAR PLUTT",
       "text": "What you've brought me today is worth, hmmm, one quarter portion."
     },
     {
@@ -305,7 +302,7 @@
       "text": "For my family. They'll be back. One day. Come on."
     },
     {
-      "character": "UNKAR",
+      "character": "UNKAR PLUTT",
       "text": "These five pieces are worth. Let me see here. One half portion."
     },
     {
@@ -313,7 +310,7 @@
       "text": "Last week they were a half portion each."
     },
     {
-      "character": "UNKAR",
+      "character": "UNKAR PLUTT",
       "text": "What about the droid?"
     },
     {
@@ -321,11 +318,11 @@
       "text": "What about him?"
     },
     {
-      "character": "UNKAR",
+      "character": "UNKAR PLUTT",
       "text": "I'll pay for him."
     },
     {
-      "character": "UNKAR",
+      "character": "UNKAR PLUTT",
       "text": "Sixty portions."
     },
     {
@@ -333,7 +330,7 @@
       "text": "Actually, the droid's not for sale. (to BB-8) Come on."
     },
     {
-      "character": "UNKAR",
+      "character": "UNKAR PLUTT",
       "text": "Follow the girl and get that droid."
     },
     {
@@ -353,7 +350,7 @@
       "text": "If, what...?"
     },
     {
-      "character": "FN-2187",
+      "character": "FINN",
       "text": "This is a rescue, I'm helping you escape. Can you fly a Tie fighter?"
     },
     {
@@ -361,7 +358,7 @@
       "text": "You with the Resistance...?!"
     },
     {
-      "character": "FN-2187",
+      "character": "FINN",
       "text": "What? (that's crazy) No no no! I'm breaking you out. Can you fly a Tie fighter?"
     },
     {
@@ -369,7 +366,7 @@
       "text": "I can fly anything. Why, why are you helping me?"
     },
     {
-      "character": "FN-2187",
+      "character": "FINN",
       "text": "Because it's the right thing to do."
     },
     {
@@ -377,7 +374,7 @@
       "text": "You need a pilot."
     },
     {
-      "character": "FN-2187",
+      "character": "FINN",
       "text": "I need a pilot."
     },
     {
@@ -385,11 +382,11 @@
       "text": "We're gonna do this."
     },
     {
-      "character": "FN-2187",
+      "character": "FINN",
       "text": "Yeah?"
     },
     {
-      "character": "FN-2187",
+      "character": "FINN",
       "text": "Okay, stay calm, stay calm."
     },
     {
@@ -397,7 +394,7 @@
       "text": "I am calm."
     },
     {
-      "character": "FN-2187",
+      "character": "FINN",
       "text": "I'm talking to myself. (beat) Not yet. Okay, go. This way."
     },
     {
@@ -405,7 +402,7 @@
       "text": "I always wanted to fly one of these things. Can ya shoot?"
     },
     {
-      "character": "FN-2187",
+      "character": "FINN",
       "text": "Blasters, I can!"
     },
     {
@@ -413,7 +410,7 @@
       "text": "Okay, same principal! Use the toggle on the left to switch between missiles, cannons, and mag pulse, use the site on the right to aim, triggers to fire!"
     },
     {
-      "character": "FN-2187",
+      "character": "FINN",
       "text": "This is very complicated."
     },
     {
@@ -437,7 +434,7 @@
       "text": "Woooahhh! This thing really moves. All right, we gotta take out as many cannons as we can or we're not gonna get very far!"
     },
     {
-      "character": "FN-2187",
+      "character": "FINN",
       "text": "All right!"
     },
     {
@@ -449,11 +446,11 @@
       "text": "Up ahead! Up ahead! You see it? I've got us dead centered. It's a clean shot."
     },
     {
-      "character": "FN-2187",
+      "character": "FINN",
       "text": "Okay, got it."
     },
     {
-      "character": "FN-2187",
+      "character": "FINN",
       "text": "Yes! You see that?! Did you see that?"
     },
     {
@@ -461,7 +458,7 @@
       "text": "I saw it! Hey, what's your name?"
     },
     {
-      "character": "FN-2187",
+      "character": "FINN",
       "text": "FN-2187!"
     },
     {
@@ -469,7 +466,7 @@
       "text": "FN-whaa?"
     },
     {
-      "character": "FN-2187",
+      "character": "FINN",
       "text": "That's the only name they ever gave me!"
     },
     {
@@ -857,7 +854,7 @@
       "text": "I can do this, I can do this..."
     },
     {
-      "character": "UNKAR",
+      "character": "UNKAR PLUTT",
       "text": "Hey!!!! That's miiiiiine!!!"
     },
     {
@@ -2545,7 +2542,7 @@
       "text": "Luke is a Jedi, you're his father. There's still light in him. I know it."
     },
     {
-      "character": "GENERAL STATURA",
+      "character": "ADMIRAL STATURA",
       "text": "General, the reconnaissance report on the enemy base is coming."
     },
     {

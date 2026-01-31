@@ -9,10 +9,8 @@
     "BROGAN",
     "BROOMSY",
     "BROOMSY WITCH",
-    "BUTTER DANTS",
     "BUTTER PANTS",
     "BUTTER PANTS' FATHER",
-    "BUTTER PANTS'S FATHER",
     "CAGE WITCH #1",
     "CAGE WITCH #2",
     "COOKIE",
@@ -20,7 +18,6 @@
     "DIETER",
     "DONKEY",
     "DONKEY AND WITCHES",
-    "DONKEY'S VOICE",
     "DORIS",
     "DRIVER",
     "DWARF",
@@ -28,7 +25,6 @@
     "FELICIA",
     "FERGUS",
     "FIONA",
-    "FIONA'S VOICE",
     "GEPETTO",
     "GINGY",
     "GRETCHED",
@@ -54,18 +50,13 @@
     "OGRE #5",
     "OGRES",
     "PALACE WITCH",
-    "PALACE WITCH #1",
     "PINOCCHIO",
     "PUSS",
-    "PUSS'S VOICE",
     "QUEEN LILLIAN",
     "RUMPELSTILTSKIN",
-    "RUMPELSTILTSKIN'S VOICE",
     "SHREK",
-    "SHREK'S VOICE",
     "SLAVERY WITCH",
     "TOUR GUIDE",
-    "TOUR GUIDE'S VOICE",
     "TOURIST",
     "VILLAGER 1",
     "VILLAGER 2",
@@ -411,7 +402,7 @@
       "text": "Undies!"
     },
     {
-      "character": "FIONA'S VOICE",
+      "character": "FIONA",
       "text": "Outhouse!"
     },
     {
@@ -503,7 +494,7 @@
       "text": "Please, Felicia, not in daddy's ear."
     },
     {
-      "character": "BUTTER PANTS'S FATHER",
+      "character": "BUTTER PANTS' FATHER",
       "text": "Excuse me, Mr. Shrek? Could you do that ogre roar of yours for my son? He’s a big, big fan."
     },
     {
@@ -1107,7 +1098,7 @@
       "text": "I think I fell on my keys."
     },
     {
-      "character": "TOUR GUIDE'S VOICE",
+      "character": "TOUR GUIDE",
       "text": "There are 40 children in that shoe, which is why the weasel goes pop to this very day."
     },
     {
@@ -1247,7 +1238,7 @@
       "text": "YOU HAVE THE RIGHT TO SHUT YOUR MOUTH!!!!"
     },
     {
-      "character": "DONKEY'S VOICE",
+      "character": "DONKEY",
       "text": "Just thinking about tomorrow Clears away the cobwebs and the sorrow 'Til there's none When I'm stuck with a day That's gray And lonely"
     },
     {
@@ -1255,7 +1246,7 @@
       "text": "Donkey, stop with the singing, will you?"
     },
     {
-      "character": "DONKEY'S VOICE",
+      "character": "DONKEY",
       "text": "I just stick out my chin, And grin, And say"
     },
     {
@@ -1267,7 +1258,7 @@
       "text": "Ow!"
     },
     {
-      "character": "DONKEY'S VOICE",
+      "character": "DONKEY",
       "text": "Oh, the sun'll come out tomorrow So you gotta hang on 'til tomorrow"
     },
     {
@@ -1491,7 +1482,7 @@
       "text": "They would if I promised them all their problems would disappear!"
     },
     {
-      "character": "RUMPELSTILTSKIN'S VOICE",
+      "character": "RUMPELSTILTSKIN",
       "text": "AND THEN THEY DISAPPEARED!!!!"
     },
     {
@@ -1691,7 +1682,7 @@
       "text": "Fine! Go ahead! Run away! Who needs you?"
     },
     {
-      "character": "DONKEY'S VOICE",
+      "character": "DONKEY",
       "text": "I’ve never seen an ogre cry."
     },
     {
@@ -1927,7 +1918,7 @@
       "text": "I’m fine."
     },
     {
-      "character": "DONKEY'S VOICE",
+      "character": "DONKEY",
       "text": "Help! Help me! Help, Shrek! Help!"
     },
     {
@@ -2331,7 +2322,7 @@
       "text": "Donkey! Hello? Fiona?"
     },
     {
-      "character": "PUSS'S VOICE",
+      "character": "PUSS",
       "text": "You should not be here, señor."
     },
     {
@@ -2795,7 +2786,7 @@
       "text": "By day, one way, by night another."
     },
     {
-      "character": "SHREK'S VOICE",
+      "character": "SHREK",
       "text": "This shall be the norm. Until you find true love's first kiss, and then take love's true form."
     },
     {
@@ -3467,7 +3458,7 @@
       "text": "And that cupboard wasn't guarded by a whole bunch of mean, ugly, nasty witches."
     },
     {
-      "character": "PALACE WITCH #1",
+      "character": "PALACE WITCH",
       "text": "Hey! We can hear you!"
     },
     {
@@ -3499,7 +3490,7 @@
       "text": "Witches, finally, the moment we've all been waiting for. The main event of the evening! I present Shrek and Fiona!"
     },
     {
-      "character": "DONKEY'S VOICE",
+      "character": "DONKEY",
       "text": "Winter, spring, summer, or fall"
     },
     {
@@ -3735,7 +3726,7 @@
       "text": "RROOOOOOOOOAAAAAAAAAR!!!!"
     },
     {
-      "character": "BUTTER DANTS",
+      "character": "BUTTER PANTS",
       "text": "(chuckles as he hugs his dad) I love you, Daddy."
     },
     {

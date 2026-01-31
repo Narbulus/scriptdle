@@ -3,10 +3,8 @@
   "title": "Toy Story",
   "year": null,
   "characters": [
-    "ALIEN",
     "ALIENS",
     "ANDY",
-    "ANDY'S MOM",
     "ATTENDANT",
     "BO PEEP",
     "BOTH",
@@ -37,9 +35,7 @@
     "REX AND SLINKY",
     "ROBOT",
     "SARGE",
-    "SHERIFF WOODY",
     "SID",
-    "SID PHILLIPS",
     "SID'S MOM",
     "SLINKY",
     "SOLDIER",
@@ -1339,7 +1335,7 @@
       "text": "Where?!"
     },
     {
-      "character": "SID PHILLIPS",
+      "character": "SID",
       "text": "Yes!"
     },
     {
@@ -1739,7 +1735,7 @@
       "text": "Can I pump the gas?"
     },
     {
-      "character": "ANDY'S MOM",
+      "character": "MRS. DAVIS",
       "text": "Sure! I'll even let you drive."
     },
     {
@@ -1747,7 +1743,7 @@
       "text": "Yeah?"
     },
     {
-      "character": "ANDY'S MOM",
+      "character": "MRS. DAVIS",
       "text": "Yeah, when you're sixteen."
     },
     {
@@ -2179,7 +2175,7 @@
       "text": "Sheriff, I can see your dwelling from here! You're almost home."
     },
     {
-      "character": "ALIEN",
+      "character": "ALIENS",
       "text": "Nirvana is coming! The mystic portal awaits!"
     },
     {
@@ -2363,7 +2359,7 @@
       "text": "Mom, have you seen Woody?"
     },
     {
-      "character": "ANDY'S MOM",
+      "character": "MRS. DAVIS",
       "text": "Where was the last place you left him?"
     },
     {
@@ -2383,7 +2379,7 @@
       "text": "Mom, have you seen Woody?"
     },
     {
-      "character": "ANDY'S MOM",
+      "character": "MRS. DAVIS",
       "text": "Where was the last place you left him?"
     },
     {
@@ -2391,7 +2387,7 @@
       "text": "Right here in the van."
     },
     {
-      "character": "ANDY'S MOM",
+      "character": "MRS. DAVIS",
       "text": "I'm sure he's there. You're just not looking hard enough."
     },
     {
@@ -3079,7 +3075,7 @@
       "text": "Sunny. Ha-ha-ha. Sweet dreams."
     },
     {
-      "character": "ANDY'S MOM",
+      "character": "MRS. DAVIS",
       "text": "I looked everywhere, honey, but all I could find was your hat."
     },
     {
@@ -3087,7 +3083,7 @@
       "text": "But what if we leave them behind?"
     },
     {
-      "character": "ANDY'S MOM",
+      "character": "MRS. DAVIS",
       "text": "Oh, don't worry, honey, I'm sure we'll find Woody and Buzz before we leave tomorrow."
     },
     {
@@ -3443,7 +3439,7 @@
       "text": "Thanks."
     },
     {
-      "character": "ANDY'S MOM",
+      "character": "MRS. DAVIS",
       "text": "Everybody say, \"Bye, house.\""
     },
     {
@@ -3467,7 +3463,7 @@
       "text": "Just go! I'll catch up!"
     },
     {
-      "character": "SHERIFF WOODY",
+      "character": "WOODY",
       "text": "Aaaah!"
     },
     {
@@ -3783,7 +3779,7 @@
       "text": "Hey! Wow!"
     },
     {
-      "character": "ANDY'S MOM",
+      "character": "MRS. DAVIS",
       "text": "What? What is it?"
     },
     {
@@ -3791,7 +3787,7 @@
       "text": "Woody! Buzz!"
     },
     {
-      "character": "ANDY'S MOM",
+      "character": "MRS. DAVIS",
       "text": "Oh, great, you found them. Where were they?"
     },
     {
@@ -3799,7 +3795,7 @@
       "text": "Here, in the car!"
     },
     {
-      "character": "ANDY'S MOM",
+      "character": "MRS. DAVIS",
       "text": "See? Now, what did I tell you? Right where you left them."
     },
     {
@@ -3807,7 +3803,7 @@
       "text": "Which one can I open first?"
     },
     {
-      "character": "ANDY'S MOM",
+      "character": "MRS. DAVIS",
       "text": "Let's let Molly open one."
     },
     {

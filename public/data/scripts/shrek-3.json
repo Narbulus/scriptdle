@@ -34,7 +34,6 @@
     "FIDDLESWORTH",
     "FIONA",
     "GARY",
-    "GINGERBREAD MAN",
     "GINGERBREAD MAN/PINOCCHIO",
     "GINGY",
     "GUARD #1",
@@ -43,10 +42,8 @@
     "HALL MONITOR",
     "HEADLESS HORSEMAN",
     "HECKLER",
-    "HOOK",
     "JOCKS",
     "KING HAROLD",
-    "KNIGHT (LANCELOT)",
     "LANCELOT",
     "MABEL",
     "MASTER OF CEREMONIES",
@@ -71,7 +68,6 @@
     "PRINCIPAL PYNCHLEY",
     "PUPPET MASTER",
     "PUSS",
-    "QUEEN",
     "QUEEN LILLIAN",
     "RAPUNZEL",
     "RAUL",
@@ -82,12 +78,10 @@
     "SNOW WHITE",
     "STUDENTS",
     "TEACHER",
-    "TEENAGER (ARTIE)",
     "TIFFANY",
     "VAN STUDENT",
     "VILLAINS",
     "WAITER",
-    "WIZARD HEAD (MERLIN)",
     "WOLF",
     "WOMAN",
     "XAVIER"
@@ -130,7 +124,7 @@
       "text": "Woooo hoooo!"
     },
     {
-      "character": "GINGERBREAD MAN",
+      "character": "GINGY",
       "text": "Yeah, Shrek!"
     },
     {
@@ -146,7 +140,7 @@
       "text": "Do you mind?"
     },
     {
-      "character": "GINGERBREAD MAN",
+      "character": "GINGY",
       "text": "Do you mind? Boring!"
     },
     {
@@ -1210,7 +1204,7 @@
       "text": "He’s over there."
     },
     {
-      "character": "KNIGHT (LANCELOT)",
+      "character": "LANCELOT",
       "text": "Ha ha. There is no sweeter taste on thy tongue than victory."
     },
     {
@@ -1222,7 +1216,7 @@
       "text": "Strong, handsome, face of a leader. Does Arthur look like a King or what?"
     },
     {
-      "character": "TEENAGER (ARTIE)",
+      "character": "ARTIE",
       "text": "Ow."
     },
     {
@@ -1230,7 +1224,7 @@
       "text": "Oh. Sorry."
     },
     {
-      "character": "TEENAGER (ARTIE)",
+      "character": "ARTIE",
       "text": "Did you just say you were looking for Arthur?"
     },
     {
@@ -1242,7 +1236,7 @@
       "text": "It’s top secret, hushity hush."
     },
     {
-      "character": "KNIGHT (LANCELOT)",
+      "character": "LANCELOT",
       "text": "Now gentlemen let’s away… to the showers."
     },
     {
@@ -1254,7 +1248,7 @@
       "text": "Greetings your majesty. This is your lucky day."
     },
     {
-      "character": "KNIGHT (LANCELOT)",
+      "character": "LANCELOT",
       "text": "So what for like are you supposed to be? Some kind of giant mutant leprechaun or something?"
     },
     {
@@ -1262,7 +1256,7 @@
       "text": "Oh, ho, ho, ho. Giant mutant leprechaun… You made a funny."
     },
     {
-      "character": "KNIGHT (LANCELOT)",
+      "character": "LANCELOT",
       "text": "Unhand me, monster."
     },
     {
@@ -1270,7 +1264,7 @@
       "text": "Stop squirming, Arthur."
     },
     {
-      "character": "KNIGHT (LANCELOT)",
+      "character": "LANCELOT",
       "text": "I’m not Arthur."
     },
     {
@@ -1590,7 +1584,7 @@
       "text": "Oooh."
     },
     {
-      "character": "GINGERBREAD MAN",
+      "character": "GINGY",
       "text": "You know the baby’s gonna love it because I do."
     },
     {
@@ -1670,7 +1664,7 @@
       "text": "You’ll start letting yourself go…"
     },
     {
-      "character": "GINGERBREAD MAN",
+      "character": "GINGY",
       "text": "Stretch marks."
     },
     {
@@ -1742,7 +1736,7 @@
       "text": "Roarrrr."
     },
     {
-      "character": "GINGERBREAD MAN",
+      "character": "GINGY",
       "text": "You go and take care of the baby."
     },
     {
@@ -1762,7 +1756,7 @@
       "text": "Where are Shrek and Fiona?"
     },
     {
-      "character": "GINGERBREAD MAN",
+      "character": "GINGY",
       "text": "Name doesn’t ring a bell."
     },
     {
@@ -1778,7 +1772,7 @@
       "text": "I suggest you freaks cooperate with the new King of Far Far Away."
     },
     {
-      "character": "GINGERBREAD MAN",
+      "character": "GINGY",
       "text": "The only thing you’re ever gonna be King of is \"King of the Stupids.\""
     },
     {
@@ -1798,7 +1792,7 @@
       "text": "Gingy."
     },
     {
-      "character": "GINGERBREAD MAN",
+      "character": "GINGY",
       "text": "Papa."
     },
     {
@@ -1810,7 +1804,7 @@
       "text": "Gingy."
     },
     {
-      "character": "GINGERBREAD MAN",
+      "character": "GINGY",
       "text": "Papa."
     },
     {
@@ -1818,7 +1812,7 @@
       "text": "Settle down, now."
     },
     {
-      "character": "GINGERBREAD MAN",
+      "character": "GINGY",
       "text": "(SINGING) \"On the Good Ship Lollypop, It’s a sweet trip, To the candy shop, Where the Bon Bons play, On the sunny beach of Peppermint Bay..\""
     },
     {
@@ -2154,7 +2148,7 @@
       "text": "C’mon. C’mon. Help. Help. Hello?"
     },
     {
-      "character": "WIZARD HEAD (MERLIN)",
+      "character": "MERLIN",
       "text": "Greetings cosmic children of the universe, and welcome to my serenity circle!"
     },
     {
@@ -2162,7 +2156,7 @@
       "text": "AHHHH."
     },
     {
-      "character": "WIZARD HEAD (MERLIN)",
+      "character": "MERLIN",
       "text": "Please leave any bad vibes outside the healing vortex. And now prepare …"
     },
     {
@@ -2438,7 +2432,7 @@
       "text": "\"Rapunzel, Rapunzel, let down thy golden extensions!\""
     },
     {
-      "character": "QUEEN",
+      "character": "QUEEN LILLIAN",
       "text": "Ladies, let go of your petty complaints and let’s work together."
     },
     {
@@ -3146,7 +3140,7 @@
       "text": "I care."
     },
     {
-      "character": "QUEEN",
+      "character": "QUEEN LILLIAN",
       "text": "And you should all care too."
     },
     {
@@ -3362,7 +3356,7 @@
       "text": "I thought we agreed we would go by the name of \"Team Super Cool.\""
     },
     {
-      "character": "GINGERBREAD MAN",
+      "character": "GINGY",
       "text": "As I recall it was \"Team Awesome.\""
     },
     {
@@ -3534,7 +3528,7 @@
       "text": "Do they come in men’s sizes?"
     },
     {
-      "character": "HOOK",
+      "character": "CAPTAIN HOOK",
       "text": "He, he. Now that be funny."
     },
     {

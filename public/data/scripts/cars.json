@@ -15,7 +15,6 @@
     "BUZZ LIGHTYEAR CAR",
     "CAMERAMEN",
     "CHICK",
-    "CHICK CREW",
     "CHICK'S COACH",
     "CHICK'S CREW",
     "CHUCK MANIFOLD",
@@ -29,7 +28,6 @@
     "FILLMORE",
     "FLIK CAR",
     "FLO",
-    "FOLK",
     "FOLKS",
     "FRED",
     "GUIDO",
@@ -42,7 +40,6 @@
     "KATHY COPTER",
     "KORI TURBOWITZ",
     "LARRY",
-    "LIGHTNING",
     "LIGHTNING MCQUEEN",
     "LIGHTNING MCQUEEN'S CREW",
     "LIZZIE",
@@ -50,7 +47,6 @@
     "LYNDA WEATHERS",
     "MACK",
     "MATER",
-    "MCQUEEN",
     "MIA",
     "MIA & TIA",
     "MICHAEL SCHUMACHER",
@@ -84,8 +80,6 @@
     "THE KING'S COACH",
     "TIA",
     "TJ HUMMER",
-    "TOW MATER",
-    "TOW MATER'",
     "TUNER TEAM",
     "TV CREW",
     "VAN",
@@ -510,7 +504,7 @@
       "text": "Yeah, right. Thunder? What's he talkin' about, \"Thunder\"?"
     },
     {
-      "character": "LIGHTNING",
+      "character": "LIGHTNING MCQUEEN",
       "text": "You know, because thunder always comes after..."
     },
     {
@@ -1174,7 +1168,7 @@
       "text": "Oh, boy. Oh... Where am I?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Morning, Sleeping Beauty!"
     },
     {
@@ -1182,7 +1176,7 @@
       "text": "AH!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Ha, ha! Boy, I was wondering when you’re gonna wake up!"
     },
     {
@@ -1198,7 +1192,7 @@
       "text": "What are you—— What's going on here? Please!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "You're funny, I like you already. My name's Mater."
     },
     {
@@ -1206,7 +1200,7 @@
       "text": "Mater?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Yeah, like \"tuh-mater\", but without the \"tuh\". What's your name?"
     },
     {
@@ -1214,7 +1208,7 @@
       "text": "Y—— You don't know my name?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Nuh… No, I know your name. Is your name \"Mater\", too?"
     },
     {
@@ -1222,7 +1216,7 @@
       "text": "What? Look, I need to get to California as fast as possible. Where am I?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Where are you? Shoot! You're in Radiator Springs! The cutest little town in Carburetor County."
     },
     {
@@ -1230,7 +1224,7 @@
       "text": "Oh, great. Just great!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Well, if you think that's great, you should see the rest of the town."
     },
     {
@@ -1238,7 +1232,7 @@
       "text": "You know? I'd love to see the rest of the town. So if you could just open the gate, take this boot off, you and me, we go cruising, check out the local scene, you know?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Dad-gum!"
     },
     {
@@ -1246,7 +1240,7 @@
       "text": "How'd that be, Tow Mater?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Cool!"
     },
     {
@@ -1258,7 +1252,7 @@
       "text": "What did I tell you about talking to the accused?!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "To not to."
     },
     {
@@ -1266,11 +1260,11 @@
       "text": "Well, quit yer yapping and tow this delinquent road hazard to traffic court."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Well, we'll talk later, Mater."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "\"Later, Mater.\" That's funny!"
     },
     {
@@ -1318,7 +1312,7 @@
       "text": "Anyone want to be his lawyer?!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Shoot, I'll do it, Sheriff!"
     },
     {
@@ -1346,7 +1340,7 @@
       "text": "Yes!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Boy, I'm purty good at this lawyerin' stuff."
     },
     {
@@ -1398,7 +1392,7 @@
       "text": "Oh, I'm sorry. Did I scare you?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Well, a little bit, but I'll be alright."
     },
     {
@@ -1410,7 +1404,7 @@
       "text": "Do what you gotta do, baby. Oh, but listen, be careful. Folks around here are not firing on all cylinders, if you know what I mean."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Ka-ching!"
     },
     {
@@ -1422,7 +1416,7 @@
       "text": "Hey, there, Mater."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Howdy, Sally."
     },
     {
@@ -1438,7 +1432,7 @@
       "text": "Do you know her?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "She's the town attorney and my fiancee."
     },
     {
@@ -1446,7 +1440,7 @@
       "text": "What?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "I'm just kidding, she just like me for my body."
     },
     {
@@ -1594,7 +1588,7 @@
       "text": "That's OK, Stickers. You can take Bessie."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Oh, man, you got to work with Bessie, I'd give my left 2-Lug Nuts for something like that."
     },
     {
@@ -1614,7 +1608,7 @@
       "text": "What?! This place is crazy!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Hey, I know this may be a bad time right now, but you owe me $32,000 in legal fees."
     },
     {
@@ -1634,7 +1628,7 @@
       "text": "You start there where the road begins, you finish down there where the road ends."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Holy shoot!"
     },
     {
@@ -1654,7 +1648,7 @@
       "text": "Then if I were you, I'd quit yapping and start working! Hook him up, Mater."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Okay-dokey."
     },
     {
@@ -1662,7 +1656,7 @@
       "text": "Race Now!!"
     },
     {
-      "character": "TOW MATER'",
+      "character": "MATER",
       "text": "Maybe I should've, uh, hooked him up to Bessie... and then, uh... then took the boot off."
     },
     {
@@ -1730,7 +1724,7 @@
       "text": "Red, can you move over? I want to get look at that sexy hot rod."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "You know, I used to be a purty good whistler. I can't do it now of course, on account of sometimes I get fluid built up in my engine block, but Doc said he's gonna fix it dough. He can fix about anything. That's why we made him the judge. Boy, you shoulda heard me on \"giddy-up, oom papa mow mow.\" Now, I'm not one to brag, but people come purty far to see me get low on the mow-mow."
     },
     {
@@ -1738,7 +1732,7 @@
       "text": "Ah! Aw, Perfect. That's just great!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Hey, what's wrong?"
     },
     {
@@ -1746,7 +1740,7 @@
       "text": "My lucky sticker's all dirty."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "That ain't nothing, I'll clean it for you!"
     },
     {
@@ -1766,7 +1760,7 @@
       "text": "Where’s he going?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Oh, he's still a little bit shy, and he hates you for killin' his flowers."
     },
     {
@@ -1774,7 +1768,7 @@
       "text": "I shouldn't have to put up with this. I'm a precision instrument of speed and aerodynamics."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "You hurt your what?"
     },
     {
@@ -2050,7 +2044,7 @@
       "text": "Oh! Mater, let me get this straight. I can go when this road is done. That's the deal, right?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "That's what they done did said."
     },
     {
@@ -2058,7 +2052,7 @@
       "text": "Okay, outta my way. I got a road to finished."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "HE'S DONE!"
     },
     {
@@ -2066,7 +2060,7 @@
       "text": "Done?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Ahmhm."
     },
     {
@@ -2078,11 +2072,11 @@
       "text": "I'm done. Look, I'm finished. Just say thank you, and I'll be on my way. That's all I gotta say."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Whoo-hoo! I'm the first one on the new road! Uh, oh——"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "It rides purty smooth."
     },
     {
@@ -2254,7 +2248,7 @@
       "text": "Come on, Mater. Might need a little help."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Um, okay."
     },
     {
@@ -2262,7 +2256,7 @@
       "text": "You got your tow cable?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Well, yeah. I always got my tow cable. Why?"
     },
     {
@@ -2286,7 +2280,7 @@
       "text": "Hey! Was that floating like a Cadillac, or was that stinging like a Beemer? I'm confused."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Doc Hudson"
     },
     {
@@ -2306,7 +2300,7 @@
       "text": "Oh!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "I'm startin' to think he knowed you was gonna crash!"
     },
     {
@@ -2346,11 +2340,11 @@
       "text": "Anybody else want somethin' to drink?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Nah, not me, Flo. I'm on one of them there special diets."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "I'm a precisional instrument of speed and air-matics."
     },
     {
@@ -2390,7 +2384,7 @@
       "text": "Whoa, okay, Bessie you think that's FUNNY?! GREAT! I'M TALKIN' TO BESSIE NOW!! I'M TALKIN' TO BESSIE!!!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Tow Mater"
     },
     {
@@ -2398,7 +2392,7 @@
       "text": "Wow!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Mornin', Sally! Hey, look at this here fancy new road that Lightnin' McQueen done just made!"
     },
     {
@@ -2430,7 +2424,7 @@
       "text": "E Bellissima! It's beautiful! Guido, look, it's a like it was paved by angels. Oh!!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Oh, I tell you what. I bet even the roads on the moon ain't this smooth."
     },
     {
@@ -2610,11 +2604,11 @@
       "text": "Ah, ti piace, eh? Si, si, bellissimo. (Oh, you like it, huh? Yes, yes, beautiful.)"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Oh, no!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "HUH?!"
     },
     {
@@ -2626,7 +2620,7 @@
       "text": "I need you to watch the prisoner tonight."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Well, Dad Gum! Wait a minute, what if he tries to run again?"
     },
     {
@@ -2634,7 +2628,7 @@
       "text": "Just let him run outta gas and tow him on back. But keep an eye on him."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Yes, sir!"
     },
     {
@@ -2794,7 +2788,7 @@
       "text": "Yeah."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "You know, I once knew this girl Doreen . Good-looking girl! Looked just like a jaguar , only she was a truck! You know, I used to crash into her, just so I could spoke to her!"
     },
     {
@@ -2802,7 +2796,7 @@
       "text": "What are you talking about?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "I don't know. Hey, I know something we can do tonight, 'cause I'm in charge of watching you!"
     },
     {
@@ -2810,7 +2804,7 @@
       "text": "No, Mater, I gotta finish this road, and I have to get out of here."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Well, that's all right, Mr. I Can't Turn On Dirt. You probably couldn't handle it anyway."
     },
     {
@@ -2906,7 +2900,7 @@
       "text": "Customers!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Tomorrow night we can go look for the ghost light!"
     },
     {
@@ -2914,11 +2908,11 @@
       "text": "I can't wait, Mater."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Oh, yeah, I'm telling you!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Oh, boy, you gotta admit that was fun!"
     },
     {
@@ -2926,7 +2920,7 @@
       "text": "Oh, Yeah Yeah."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Well, we better get you back to the impound lot."
     },
     {
@@ -2934,7 +2928,7 @@
       "text": "You know, actually, Sally's gonna let me stay at the motel."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Aw. Getting cozy at the Cone, is we?"
     },
     {
@@ -2946,7 +2940,7 @@
       "text": "And I don't like her, to be honest."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Yeah, you probably right: \" HEY, LOOK, THERE'S MISS SALLY! \""
     },
     {
@@ -2954,7 +2948,7 @@
       "text": "Where-Where?!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "You're in love with Miss Sally!"
     },
     {
@@ -2962,7 +2956,7 @@
       "text": "No, I'm not."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Yes, you do."
     },
     {
@@ -2970,7 +2964,7 @@
       "text": "No way."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Way."
     },
     {
@@ -2978,7 +2972,7 @@
       "text": "Come on, look..."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "You're in love with Miss Sally! You're in love with Miss Sally!"
     },
     {
@@ -2986,7 +2980,7 @@
       "text": "Okay, that's real mature Mater, real grown up."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "You love her! You love her, you love her! You love her, You love her, You love her!"
     },
     {
@@ -2998,7 +2992,7 @@
       "text": "Will you stop that?!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Stop what?"
     },
     {
@@ -3006,7 +3000,7 @@
       "text": "That's driving backwards stuff. It's creeping me out. You're gonna wreck on something."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Wreck? Shoot, I'm the world's best backwards driver! You just watch this right here, lover boy."
     },
     {
@@ -3026,15 +3020,15 @@
       "text": "Hey, take it easy, Mater!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "He's nuts!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Mater!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Mater!"
     },
     {
@@ -3042,7 +3036,7 @@
       "text": "Hey, take it easy, Mater!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "No need to watch where I'm goin'! Just need to know where I've been."
     },
     {
@@ -3050,7 +3044,7 @@
       "text": "Whoa, that was incredible! How'd you do that?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Rear view mirrors. We'll get you some, and I'll teach you if you want."
     },
     {
@@ -3058,7 +3052,7 @@
       "text": "Yeah, maybe I'll use it in my big race."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "What's so important about this race of yours, anyway?"
     },
     {
@@ -3066,7 +3060,7 @@
       "text": "It's not just a race. We're talking about the Piston Cup! I've been dreaming about it my whole life! I'll be the first rookie in history ever to win it. And when I do, we're talkin' big new sponsor, with private helicopters. No more medicated bumper ointment. No more rusty old cars."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "What's wrong with rusty old cars?"
     },
     {
@@ -3074,7 +3068,7 @@
       "text": "Well, I don't mean you, Mater. I mean other old cars. You know? Not like you. I like you."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Nah, it's okay, buddy. Hey, you think maybe one day I can get a ride in one of them helicopters? I mean, I've always wanted to ride in one of them fancy helicopters."
     },
     {
@@ -3082,7 +3076,7 @@
       "text": "Yeah, yeah, yeah, sure, sure."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "You mean it?"
     },
     {
@@ -3090,7 +3084,7 @@
       "text": "Oh, yeah. Anything you say."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "I knew it. I knowed I made a good choice!"
     },
     {
@@ -3098,11 +3092,11 @@
       "text": "In what?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "My best friend."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "See you tomorrow, buddy!"
     },
     {
@@ -3378,11 +3372,11 @@
       "text": "No, but I wish I could have of... They say he was amazing, he wins three Piston Cups!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "POOOHHH!!!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "He did what in his cup?!"
     },
     {
@@ -3398,7 +3392,7 @@
       "text": "Yeah, I think he needs a new coat of poly, man."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Are you sick, buddy?"
     },
     {
@@ -3582,7 +3576,7 @@
       "text": "Well, the road didn't cut through land like that Interstate. It moved with the land, you know? It rose, it fell, it curved."
     },
     {
-      "character": "FOLK",
+      "character": "FOLKS",
       "text": "Mornin'! Nice day, huh?"
     },
     {
@@ -3614,7 +3608,7 @@
       "text": "You're welcome."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Hey, listen, listen! If anybody asks you, we was out smashing mailboxes, okay?"
     },
     {
@@ -3642,7 +3636,7 @@
       "text": "MATER!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "I wasn't tractor-tipping!"
     },
     {
@@ -3650,7 +3644,7 @@
       "text": "THEN WHERE DID ALL THESE GOL-DURN TRACTORS COME FROM?!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "WHOA, BOY! WHOA!"
     },
     {
@@ -3698,7 +3692,7 @@
       "text": "What are you doing? Doc, wait!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Giddy-up right in there! Come on, Rusty. WHEE-HE!"
     },
     {
@@ -3774,7 +3768,7 @@
       "text": "Respect the classics, man."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "He's done. He must've finished it while we was all sleeping."
     },
     {
@@ -3798,7 +3792,7 @@
       "text": "What's wrong with Red?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Oh, he's just sad because you left town, and went to your big race to win the Piston Cup that you've always dreamed about your whole life and get that big ol' sponsor and that fancy helicopter you was talking about. Wait a minute! I knowed you wouldn't leave without saying goodbye."
     },
     {
@@ -3926,7 +3920,7 @@
       "text": "Aw, yeah. Ka-chow."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Here she comes!"
     },
     {
@@ -3942,7 +3936,7 @@
       "text": "All right, what's going on?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Ladies and gentle cars, please welcome the new:"
     },
     {
@@ -4022,7 +4016,7 @@
       "text": "I remember when Stanley first asked me to take a drive with him."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Hey, \"Miss Sally.\" May I have this cruise?"
     },
     {
@@ -4050,7 +4044,7 @@
       "text": "OH!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Dah ha ha ha ha ha!"
     },
     {
@@ -4062,7 +4056,7 @@
       "text": "Thanks, Mater."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Good evening, you two!"
     },
     {
@@ -4094,7 +4088,7 @@
       "text": "Customers, everybody! And a lot of them! You know what to do, just like we rehearsed!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "It's the Ghost-Light!"
     },
     {
@@ -4130,7 +4124,7 @@
       "text": "Was Lightning McQueen your prisoner?!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Shoot, no, we're best buds! I ain't bragging or nothing, but I was in charge of hunting him down if he tried to escape."
     },
     {
@@ -4386,7 +4380,7 @@
       "text": "or best for you?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "I didn't get to say goodbye to him."
     },
     {
@@ -4614,7 +4608,7 @@
       "text": "Well, I really didn't have a choice. Mater didn't get to say goodbye."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Goodbye! Okay, I'm good."
     },
     {
@@ -4718,11 +4712,11 @@
       "text": "WHAT?!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Whoa! Git-R-Done!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "I taught him that. KA CHOW!"
     },
     {
@@ -4766,7 +4760,7 @@
       "text": "Guido, it's time."
     },
     {
-      "character": "CHICK CREW",
+      "character": "CHICK'S CREW",
       "text": "Hey, tiny, you're gonna clean his windshield?!"
     },
     {
@@ -4786,7 +4780,7 @@
       "text": "It's gonna be close!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Yeah!"
     },
     {
@@ -4810,7 +4804,7 @@
       "text": "Guido, you did it!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Way to go, Guido!"
     },
     {
@@ -4850,7 +4844,7 @@
       "text": "I think McQueen is out of the race!"
     },
     {
-      "character": "MCQUEEN",
+      "character": "LIGHTNING MCQUEEN",
       "text": "McQueen saved it!"
     },
     {
@@ -4946,7 +4940,7 @@
       "text": "Bravo il mio amico! (Well done my friend!)"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Way to go, buddy!"
     },
     {
@@ -5038,7 +5032,7 @@
       "text": "I sure appreciate that, thank you... Actually, there is one thing..."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "WHOO-HOO! I'm happier than a tornado in a trailer park!"
     },
     {
@@ -5086,7 +5080,7 @@
       "text": "Well, I create feelings in others they themselves don't understand and, blah, blah, blah, blah, blah, blah..."
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "McQueen and Sally parked beneath the tree, K-I-S-S... uhh... I-N-G!"
     },
     {
@@ -5094,7 +5088,7 @@
       "text": "Great timing, Mater!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Hepnon, hiphep, hilililly! Wheeeeeee!!"
     },
     {
@@ -5118,11 +5112,11 @@
       "text": "Yeah! Ka-Chow!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "YEEEEEEHHEEEEEEEEE!!!!!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "All right, everybody please keep together now. We is now entering the Doc Hudson wing of the museum."
     },
     {
@@ -5138,7 +5132,7 @@
       "text": "Excuse me, son. Is Doc Hudson here today?"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Sorry, Mrs. The King, I think Doc went out for a drive or something."
     },
     {
@@ -5190,7 +5184,7 @@
       "text": "Man, now I got dirt in my rims!"
     },
     {
-      "character": "TOW MATER",
+      "character": "MATER",
       "text": "Huh? Look at this! It's my hood, it's my hood, I ain't seen this thing in 20 years! Well, it fits perfectly. How do I look? Nah, dang."
     },
     {

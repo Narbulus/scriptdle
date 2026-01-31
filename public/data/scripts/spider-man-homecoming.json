@@ -74,7 +74,6 @@
     "STREET VENDOR",
     "STUDENT",
     "STUDENTS",
-    "SUIT LADY",
     "TECH",
     "TENT KIDS",
     "THAI WAITER",
@@ -82,7 +81,6 @@
     "TONY",
     "TOOMES",
     "TOUR GUIDE",
-    "VULTURE",
     "WORKER"
   ],
   "lines": [
@@ -3095,7 +3093,7 @@
       "text": "I’m coming, I’m coming."
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "Good evening, Peter."
     },
     {
@@ -3103,7 +3101,7 @@
       "text": "Hello? Hello?"
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "Congratulations on completing the rigorous Training Wheels Protocol and gaining access to your suit’s full capabilities."
     },
     {
@@ -3111,7 +3109,7 @@
       "text": "Ah, thank you."
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "So where would you like to take me tonight?"
     },
     {
@@ -3119,11 +3117,11 @@
       "text": "S, I, I, put a tracker on someone. He’s a bad guy."
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "Tracker located."
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "Plotting course to intercept target."
     },
     {
@@ -3131,15 +3129,15 @@
       "text": "Okay, well, as long as I make it back in time for Decathlon, it’s fine."
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "One hundred meters from destination and closing."
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "Jump now."
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "Detecting three individuals."
     },
     {
@@ -3151,7 +3149,7 @@
       "text": "Hey, suit lady, what are they doing?"
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "Do you want to hear what they’re saying?"
     },
     {
@@ -3159,7 +3157,7 @@
       "text": "I can hear what they’re saying? Uh, yeah."
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "Activating Enhanced Reconnaissance Mode."
     },
     {
@@ -3187,7 +3185,7 @@
       "text": "Whoa, they’re in the middle of a heist. I could catch them all red-handed. This is awesome. Okay, I’m gonna get a little closer so I can see what’s happening."
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "Would you like me to engage Enhanced Combat Mode?"
     },
     {
@@ -3195,7 +3193,7 @@
       "text": "Uh, Enhanced Combat Mode? Yeah."
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "Activating Instant Kill."
     },
     {
@@ -3203,7 +3201,7 @@
       "text": "No, no, no, no, no, no, no. I don’t want to kill anybody!"
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "Deactivating Instant Kill."
     },
     {
@@ -3215,7 +3213,7 @@
       "text": "What the hell just happened? What was that?"
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "You jumped off the sign and landed on your face."
     },
     {
@@ -3223,7 +3221,7 @@
       "text": "Suit lady, what’s wrong with my web-shooters?"
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "Rapid-fire is the default for Enhanced Combat Mode."
     },
     {
@@ -3231,11 +3229,11 @@
       "text": "Why would I need rapid-fire?"
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "Would you like to see more options?"
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "You have 576 possible web-shooter combinations."
     },
     {
@@ -3259,11 +3257,11 @@
       "text": "That one."
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "Great choice."
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "Would you like me to set this as your new default?"
     },
     {
@@ -3295,7 +3293,7 @@
       "text": "What was that?"
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "Taser webs."
     },
     {
@@ -3303,7 +3301,7 @@
       "text": "Taser webs? I don’t want taser webs."
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "You seem to be very unfamiliar with your web-shooter settings. Would you like to run a refresher course?"
     },
     {
@@ -3311,7 +3309,7 @@
       "text": "No, just... You choose."
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "Sure thing."
     },
     {
@@ -3335,7 +3333,7 @@
       "text": "Oh, that’s him."
     },
     {
-      "character": "VULTURE",
+      "character": "TOOMES",
       "text": "Okay, I got eyes on the convoy. Pulling in behind the caboose."
     },
     {
@@ -3343,7 +3341,7 @@
       "text": "Deploy anchors."
     },
     {
-      "character": "VULTURE",
+      "character": "TOOMES",
       "text": "Dropping down."
     },
     {
@@ -3351,11 +3349,11 @@
       "text": "No outgoing distress signals. You’re all clear."
     },
     {
-      "character": "VULTURE",
+      "character": "TOOMES",
       "text": "Hey. Looks like they got some good stuff here."
     },
     {
-      "character": "VULTURE",
+      "character": "TOOMES",
       "text": "Alright, coming up."
     },
     {
@@ -3371,7 +3369,7 @@
       "text": "Suit lady, what was that?"
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "You told me to choose."
     },
     {
@@ -3379,7 +3377,7 @@
       "text": "What? No, just set everything back to normal."
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "Activating all systems."
     },
     {
@@ -3387,7 +3385,7 @@
       "text": "Suit lady, what was that?"
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "You told me to choose."
     },
     {
@@ -3395,7 +3393,7 @@
       "text": "What? No, just set everything back to normal."
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "Activating all systems."
     },
     {
@@ -3403,7 +3401,7 @@
       "text": "Oh, my head."
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "You appear to have a mild concussion."
     },
     {
@@ -3411,7 +3409,7 @@
       "text": "Hey, so where am I right now?"
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "I’m not sure. The container walls are hindering my sensors."
     },
     {
@@ -3427,7 +3425,7 @@
       "text": "What is this place? Suit lady, where am I?"
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "You’re in the most secure facility on the Eastern Seaboard. The Damage Control Deep Storage Vault."
     },
     {
@@ -3435,7 +3433,7 @@
       "text": "No. Seriously?"
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "The door will most likely remain closed until morning."
     },
     {
@@ -3451,7 +3449,7 @@
       "text": "What about Karen?"
     },
     {
-      "character": "SUIT LADY",
+      "character": "KAREN",
       "text": "You can call me Karen if you would like."
     },
     {

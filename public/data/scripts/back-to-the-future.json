@@ -23,7 +23,6 @@
     "LIBYAN",
     "LINDA",
     "LORRAINE",
-    "LYNDA",
     "MARTY",
     "MARVIN BERRY",
     "RADIO",
@@ -31,8 +30,7 @@
     "SKINHEAD",
     "STARLIGHTER",
     "STRICKLAND",
-    "TELEVISION",
-    "TV DOC"
+    "TELEVISION"
   ],
   "lines": [
     {
@@ -824,7 +822,7 @@
       "text": "Okay Doc, this is it."
     },
     {
-      "character": "TV DOC",
+      "character": "DOC",
       "text": "Never mind that, never mind that now, never mind that, never mind-"
     },
     {
@@ -832,7 +830,7 @@
       "text": "Why that's me, look at me, I'm an old man."
     },
     {
-      "character": "TV DOC",
+      "character": "DOC",
       "text": "Good evening, I'm Doctor Emmet Brown, I'm standing here in the parking lot of-"
     },
     {
@@ -852,7 +850,7 @@
       "text": "Whoa, this is it, this is the part comin’ up, Doc."
     },
     {
-      "character": "TV DOC",
+      "character": "DOC",
       "text": "No no no this sucker's electrical, but I need a nuclear reaction to generate the one point twenty-one gigawatts of electricity-"
     },
     {
@@ -860,7 +858,7 @@
       "text": "What did I just say?"
     },
     {
-      "character": "TV DOC",
+      "character": "DOC",
       "text": "No no no this sucker's electrical, but I need a nuclear reaction to generate the one point twenty-one gigawatts of electricity that I need…"
     },
     {
@@ -2308,7 +2306,7 @@
       "text": "What a nightmare."
     },
     {
-      "character": "LYNDA",
+      "character": "LINDA",
       "text": "Oh, if Paul calls me tell him I'm working at the boutique late tonight."
     },
     {
@@ -2316,7 +2314,7 @@
       "text": "Lynda, first of all, I'm not your answering service. Second of all, somebody named Greg or Craig called you just a little while ago."
     },
     {
-      "character": "LYNDA",
+      "character": "LINDA",
       "text": "Now which one was it, Greg or Craig?"
     },
     {
@@ -2328,7 +2326,7 @@
       "text": "What the hell is this?"
     },
     {
-      "character": "LYNDA",
+      "character": "LINDA",
       "text": "Breakfast."
     },
     {
@@ -2340,7 +2338,7 @@
       "text": "Ye"
     },
     {
-      "character": "LYNDA",
+      "character": "LINDA",
       "text": "Oh, if Paul calls me tell him I'm working at the boutique late tonight."
     },
     {
@@ -2348,7 +2346,7 @@
       "text": "Lynda, first of all, I'm not your answering service. Second of all, somebody named Greg or Craig called you just a little while ago."
     },
     {
-      "character": "LYNDA",
+      "character": "LINDA",
       "text": "Now which one was it, Greg or Craig?"
     },
     {
@@ -2360,7 +2358,7 @@
       "text": "What the hell is this?"
     },
     {
-      "character": "LYNDA",
+      "character": "LINDA",
       "text": "Breakfast."
     },
     {
@@ -2428,7 +2426,7 @@
       "text": "Good morning, Mom."
     },
     {
-      "character": "LYNDA",
+      "character": "LINDA",
       "text": "Good morning, Mom. Oh, Marty, I almost forgot, Jennifer Parker called."
     },
     {

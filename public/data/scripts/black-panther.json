@@ -19,7 +19,6 @@
     "FATHER",
     "FRENCH AMBASSADOR",
     "GRIOT",
-    "JAMES (ZURI)",
     "KILLMONGER",
     "KLAUE",
     "LIMBANI",
@@ -37,14 +36,12 @@
     "OAKLAND KID #2",
     "OAKLAND KID #3",
     "OKOYE",
-    "OKOYE'S PROJECTION",
     "RAMONDA",
     "RIVER TRIBE ELDER",
     "ROSS",
     "SECURITY GUARD",
     "SHAMAN",
     "SHURI",
-    "SHURI'S PROJECTION",
     "SHURI/NAKIA",
     "SON",
     "SOUTH AFRICAN TOUGH",
@@ -55,8 +52,6 @@
     "WAKANDAN CHILD",
     "WAKANDAN CHILDREN",
     "YOUNG BLACK KID",
-    "YOUNG KILLMONGER",
-    "YOUNG T'CHAKA",
     "ZURI"
   ],
   "lines": [
@@ -121,7 +116,7 @@
       "text": "Hide the straps."
     },
     {
-      "character": "JAMES (ZURI)",
+      "character": "ZURI",
       "text": "Is it the Feds?"
     },
     {
@@ -129,7 +124,7 @@
       "text": "No."
     },
     {
-      "character": "JAMES (ZURI)",
+      "character": "ZURI",
       "text": "It's two Grace Jones looking chicks, they're holding spears..."
     },
     {
@@ -137,7 +132,7 @@
       "text": "Open it."
     },
     {
-      "character": "JAMES (ZURI)",
+      "character": "ZURI",
       "text": "You serious?"
     },
     {
@@ -161,7 +156,7 @@
       "text": "My King..."
     },
     {
-      "character": "YOUNG T'CHAKA",
+      "character": "T'CHAKA",
       "text": "Leave us."
     },
     {
@@ -169,15 +164,15 @@
       "text": "This is James. I trust him with my life. He stays, with your permission, King T'Chaka."
     },
     {
-      "character": "YOUNG T'CHAKA",
+      "character": "T'CHAKA",
       "text": "As you wish. At ease..."
     },
     {
-      "character": "YOUNG T'CHAKA",
+      "character": "T'CHAKA",
       "text": "Come baby brother. Let me see how you're holding up."
     },
     {
-      "character": "YOUNG T'CHAKA",
+      "character": "T'CHAKA",
       "text": "You look strong."
     },
     {
@@ -185,15 +180,15 @@
       "text": "Glory to Bast, I am in good health. How is home?"
     },
     {
-      "character": "YOUNG T'CHAKA",
+      "character": "T'CHAKA",
       "text": "Not so good, baby brother. There has been an attack. This man..."
     },
     {
-      "character": "YOUNG T'CHAKA",
+      "character": "T'CHAKA",
       "text": "This man, Ulysses Klaue, stole a quarter ton of vibranium from us and triggered a bomb at the border to escape. Many lives were lost. He knew where we hid the vibranium, and how to strike."
     },
     {
-      "character": "YOUNG T'CHAKA",
+      "character": "T'CHAKA",
       "text": "He had someone on the inside."
     },
     {
@@ -201,7 +196,7 @@
       "text": "Why are you here?"
     },
     {
-      "character": "YOUNG T'CHAKA",
+      "character": "T'CHAKA",
       "text": "Because I want you look me in the eyes and tell me why you betrayed Wakanda."
     },
     {
@@ -209,11 +204,11 @@
       "text": "I did no such thing."
     },
     {
-      "character": "YOUNG T'CHAKA",
+      "character": "T'CHAKA",
       "text": "Tell him who you are."
     },
     {
-      "character": "JAMES (ZURI)",
+      "character": "ZURI",
       "text": "Zuri, Son of Badu."
     },
     {
@@ -225,7 +220,7 @@
       "text": "James, James you lied to me? I invite you into my home and you were Wakandan this whole time?"
     },
     {
-      "character": "JAMES (ZURI)",
+      "character": "ZURI",
       "text": "You betrayed Wakanda!"
     },
     {
@@ -233,11 +228,11 @@
       "text": "How could you lie to me like..."
     },
     {
-      "character": "YOUNG T'CHAKA",
+      "character": "T'CHAKA",
       "text": "Stand down. Did you think that you were the only spy we sent here?"
     },
     {
-      "character": "YOUNG T'CHAKA",
+      "character": "T'CHAKA",
       "text": "Prince N'Jobu, you will return home at once, where you will face the council and inform them of your crimes."
     },
     {
@@ -1909,7 +1904,7 @@
       "text": "No no no no no no..."
     },
     {
-      "character": "YOUNG T'CHAKA",
+      "character": "T'CHAKA",
       "text": "You will return home at once, where you will face the council and inform them of your crimes."
     },
     {
@@ -1917,7 +1912,7 @@
       "text": "He drew his weapon on me!"
     },
     {
-      "character": "YOUNG T'CHAKA",
+      "character": "T'CHAKA",
       "text": "No!"
     },
     {
@@ -1937,7 +1932,7 @@
       "text": "No no no no no no..."
     },
     {
-      "character": "YOUNG T'CHAKA",
+      "character": "T'CHAKA",
       "text": "You will return home at once, where you will face the council and inform them of your crimes."
     },
     {
@@ -1945,7 +1940,7 @@
       "text": "He drew his weapon on me!"
     },
     {
-      "character": "YOUNG T'CHAKA",
+      "character": "T'CHAKA",
       "text": "No!"
     },
     {
@@ -1953,7 +1948,7 @@
       "text": "Your father killed his own brother to save my life."
     },
     {
-      "character": "YOUNG T'CHAKA",
+      "character": "T'CHAKA",
       "text": "Speak nothing of this."
     },
     {
@@ -2057,7 +2052,7 @@
       "text": "There is vibranium all around us. That's how I healed you."
     },
     {
-      "character": "OKOYE'S PROJECTION",
+      "character": "OKOYE",
       "text": "Where is T'Challa? His Kimoyo beads have been switched off."
     },
     {
@@ -2065,7 +2060,7 @@
       "text": "Well we are not joined at the hip, Okoye."
     },
     {
-      "character": "OKOYE'S PROJECTION",
+      "character": "OKOYE",
       "text": "A man showed up at the border who claims to have killed Klaue."
     },
     {
@@ -2073,7 +2068,7 @@
       "text": "What?"
     },
     {
-      "character": "OKOYE'S PROJECTION",
+      "character": "OKOYE",
       "text": "W'Kabi is transporting him as we speak to the palace. We need to find your brother."
     },
     {
@@ -2081,7 +2076,7 @@
       "text": "An outsider?"
     },
     {
-      "character": "OKOYE'S PROJECTION",
+      "character": "OKOYE",
       "text": "No, a Wakandan."
     },
     {
@@ -2105,7 +2100,7 @@
       "text": "Hey. Look at me. You can't let your father's mistakes define who you are. You get to decide what kind of King you are going to be."
     },
     {
-      "character": "SHURI'S PROJECTION",
+      "character": "SHURI",
       "text": "Brother, you need to get here now."
     },
     {
@@ -2493,7 +2488,7 @@
       "text": "What did I tell you about going into my things? (playful smile) What did you find?"
     },
     {
-      "character": "YOUNG KILLMONGER",
+      "character": "KILLMONGER",
       "text": "Your home."
     },
     {
@@ -2505,7 +2500,7 @@
       "text": "Yes. The sunsets there are the most beautiful in the world. But I fear you still may not be welcome."
     },
     {
-      "character": "YOUNG KILLMONGER",
+      "character": "KILLMONGER",
       "text": "Why?"
     },
     {
@@ -2513,7 +2508,7 @@
       "text": "They will say you are lost."
     },
     {
-      "character": "YOUNG KILLMONGER",
+      "character": "KILLMONGER",
       "text": "But, I'm right here."
     },
     {
@@ -2521,7 +2516,7 @@
       "text": "No tears for me?"
     },
     {
-      "character": "YOUNG KILLMONGER",
+      "character": "KILLMONGER",
       "text": "Everybody dies. It's just life around here."
     },
     {

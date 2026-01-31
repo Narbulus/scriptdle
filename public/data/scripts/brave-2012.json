@@ -22,7 +22,6 @@
     "LORD MACGUFFIN",
     "LORD MACINTOSH",
     "MAUDIE",
-    "MAUDIE!",
     "MERIDA",
     "MY LEGS?",
     "OH",
@@ -34,7 +33,6 @@
     "TRY SHUTTING YOURS!",
     "VOICE IN THE CROWD",
     "WAS CARRIED AWAY BY A GIANT BIRDY.",
-    "WITCH",
     "YOU CAN SEE MY HOUSE FROM HERE.",
     "YOUNG DINGWALL",
     "YOUNG MACGUFFIN",
@@ -1247,7 +1245,7 @@
       "text": "Now you’ve done it."
     },
     {
-      "character": "MAUDIE!",
+      "character": "MAUDIE",
       "text": "Maudie! Just calm down lass. What is it? Spit it out, Maudie."
     },
     {
@@ -1395,7 +1393,7 @@
       "text": "They'll be fine. Won't you, boys? Mum, we've got to hurry! Now, I'll be back soon. Go on and help yourself to anything you want, as a reward."
     },
     {
-      "character": "WITCH",
+      "character": "THE WITCH",
       "text": "Right."
     },
     {
@@ -1411,7 +1409,7 @@
       "text": "Does she think that I just happened upon a witch's cottage? Oh, mum⁈ I know this place. The witch’s cottage- It's this way! Come on! Hurry! I can’t believe it! I found it! No! She was here. No, really. She was just here. Oh wait. No. No! No! No! No!"
     },
     {
-      "character": "WITCH",
+      "character": "THE WITCH",
       "text": "Welcome to the Crafty Carver, home of bear themed carvings and novelties. I am completely out of stock at this time. But if you like to enquire about portraits or wedding cake toppers, pour vial one into the Cauldon. If you like the menu in Gaelic, vial two. If you're that red haired lass, vial three. To speak with a live homonculus... Princess, I'm off to the wickerman Festival in Stormoway. I won't be back till spring. There's one bit I forgot to tell you about the spell. By the second sunrise, your spell will be permanent, unless you remember these words. Fate be changed, look inside, mend the bond torn by pride."
     },
     {
@@ -1419,7 +1417,7 @@
       "text": "Fate be changed? Mend the bond? What does that mean?"
     },
     {
-      "character": "WITCH",
+      "character": "THE WITCH",
       "text": "One more time. Fate be changed, look inside, mend the bond torn by pride. That's it. Tata oh and thank you for chopping at the Crafy Carver."
     },
     {

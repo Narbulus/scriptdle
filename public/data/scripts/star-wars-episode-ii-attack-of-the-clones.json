@@ -9,7 +9,6 @@
     "ANAKIN SKYWALKER",
     "BARFLY",
     "BOUNTY HUNTER",
-    "CAPTAIN",
     "CAPTAIN TYPHO",
     "CLONE COMMANDER",
     "CLONE TROOPER",
@@ -33,7 +32,7 @@
   ],
   "lines": [
     {
-      "character": "CAPTAIN",
+      "character": "CAPTAIN TYPHO",
       "text": "Senator, we're making our final approach into Coruscant."
     },
     {
@@ -65,7 +64,7 @@
       "text": "No."
     },
     {
-      "character": "CAPTAIN",
+      "character": "CAPTAIN TYPHO",
       "text": "Milady, you're still in danger here."
     },
     {
@@ -77,11 +76,11 @@
       "text": "This vote is very important."
     },
     {
-      "character": "CAPTAIN",
+      "character": "CAPTAIN TYPHO",
       "text": "You did your duty. Corde did hers. Now, come."
     },
     {
-      "character": "CAPTAIN",
+      "character": "CAPTAIN TYPHO",
       "text": "Senator Amidala, please."
     },
     {
@@ -953,7 +952,7 @@
       "text": "Sorry, milady."
     },
     {
-      "character": "CAPTAIN",
+      "character": "CAPTAIN TYPHO",
       "text": "Be safe, milady."
     },
     {
@@ -965,7 +964,7 @@
       "text": "Take good care of Dorme."
     },
     {
-      "character": "CAPTAIN",
+      "character": "CAPTAIN TYPHO",
       "text": "The threat's on you two now."
     },
     {
@@ -1145,7 +1144,7 @@
       "text": "They will be much safer there with my master."
     },
     {
-      "character": "CAPTAIN",
+      "character": "CAPTAIN TYPHO",
       "text": "Concentrate all your fire on the nearest starship."
     },
     {
@@ -1153,7 +1152,7 @@
       "text": "Yes, sir."
     },
     {
-      "character": "CAPTAIN",
+      "character": "CAPTAIN TYPHO",
       "text": "Move all quadrants to sector 51 5."
     },
     {
@@ -1169,7 +1168,7 @@
       "text": "We're out of rockets, sir."
     },
     {
-      "character": "CAPTAIN",
+      "character": "CAPTAIN TYPHO",
       "text": "Follow him!"
     },
     {

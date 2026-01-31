@@ -15,9 +15,6 @@
     "FOOD SNOB #3",
     "GIT",
     "GUSTEAU",
-    "GUSTEAU PHOTO",
-    "GUSTEAU SIGN",
-    "GUSTEAU SPRITE",
     "HER",
     "HIM",
     "HORST",
@@ -39,7 +36,6 @@
     "REPORTER #3",
     "SCOTTISH GUSTEAU",
     "SKINNER",
-    "T.V. NARRATOR",
     "TALON",
     "TEEN RAT",
     "TEXAN GUSTEAU",
@@ -48,11 +44,11 @@
   ],
   "lines": [
     {
-      "character": "T.V. NARRATOR",
+      "character": "TV NARRATOR",
       "text": "Although each of the world’s countries would like to dispute this fact, we French know the truth; the best food in the World is made in France. The best food in France is made in Paris, and the best food in Paris, some say, is made by Chef Auguste Gusteau."
     },
     {
-      "character": "T.V. NARRATOR",
+      "character": "TV NARRATOR",
       "text": "Gusteau’s restaurant is the toast of Paris, booked five months in advance, and his dazzling ascent to the top of fine French cuisine has made his competitors envious. He is the youngest chef ever to achieve a five star rating. Chef Gusteau’s cookbook “Anyone Can Cook!” has climbed to the top of the bestseller list. But not everyone celebrates its success."
     },
     {
@@ -536,7 +532,7 @@
       "text": "Paris? All this time I’ve been underneath Paris? It’s beautiful."
     },
     {
-      "character": "GUSTEAU SIGN",
+      "character": "GUSTEAU",
       "text": "The most beautiful."
     },
     {
@@ -544,7 +540,7 @@
       "text": "Gusteau’s? Your restaurant?! You’ve led me to your restaurant!"
     },
     {
-      "character": "GUSTEAU SIGN",
+      "character": "GUSTEAU",
       "text": "It seems as though I have. Yes. There it is! I have led you to it!"
     },
     {
@@ -1728,7 +1724,7 @@
       "text": "You’re in Paris now, baby. My city. No brother of mine eats rejectamenta in my city!"
     },
     {
-      "character": "GUSTEAU SPRITE",
+      "character": "GUSTEAU",
       "text": "Remy, you are stealing? You told Linguini he could trust you."
     },
     {
@@ -1736,7 +1732,7 @@
       "text": "And he can. It’s for my brother..."
     },
     {
-      "character": "GUSTEAU SPRITE",
+      "character": "GUSTEAU",
       "text": "The boy could lose his job."
     },
     {
@@ -2068,7 +2064,7 @@
       "text": "No. No, there is not. Wait here."
     },
     {
-      "character": "GUSTEAU PHOTO",
+      "character": "GUSTEAU",
       "text": "Remy, what are you doing in here?"
     },
     {
@@ -2076,7 +2072,7 @@
       "text": "Emile shows up-- I said not to, but he goes and blabs- it’s a disaster. Anyway, they’re hungry, the food safe is locked, I need the key."
     },
     {
-      "character": "GUSTEAU PHOTO",
+      "character": "GUSTEAU",
       "text": "They want you to steal food?"
     },
     {
@@ -2108,7 +2104,7 @@
       "text": "Will ye’ be wantin’ some HAGGIS BITES, then?"
     },
     {
-      "character": "GUSTEAU PHOTO",
+      "character": "GUSTEAU",
       "text": "I cannot control how they use my image Remy, I am dead!"
     },
     {
@@ -2132,7 +2128,7 @@
       "text": "This is interesting. Mind if I--?"
     },
     {
-      "character": "GUSTEAU PHOTO",
+      "character": "GUSTEAU",
       "text": "Not at all."
     },
     {
@@ -2140,7 +2136,7 @@
       "text": "“Linguini”..? Why would Linguini be filed with your will?"
     },
     {
-      "character": "GUSTEAU PHOTO",
+      "character": "GUSTEAU",
       "text": "This used to be my office."
     },
     {

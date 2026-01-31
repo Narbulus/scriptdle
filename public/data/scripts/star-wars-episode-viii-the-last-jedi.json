@@ -13,12 +13,10 @@
     "FIGHTERS",
     "FINN",
     "GAMBLER",
-    "GENERAL HUX",
     "GUARD",
     "GUNNER",
     "HOLDO",
     "HUX",
-    "KYLO",
     "KYLO REN",
     "LEIA",
     "LUKE",
@@ -1384,7 +1382,7 @@
       "text": "Ren, the Resistance have pulled out of reach."
     },
     {
-      "character": "GENERAL HUX",
+      "character": "HUX",
       "text": "We can't cover you at this distance."
     },
     {
@@ -1400,11 +1398,11 @@
       "text": "We can't blow up three tiny cruisers?"
     },
     {
-      "character": "GENERAL HUX",
+      "character": "HUX",
       "text": "They are faster and lighter, sir."
     },
     {
-      "character": "GENERAL HUX",
+      "character": "HUX",
       "text": "They can't lose us but they can keep at a range where... that our cannons are not effective against their shields."
     },
     {
@@ -1416,15 +1414,15 @@
       "text": "Let's at least let's remind them that we're still here."
     },
     {
-      "character": "GENERAL HUX",
+      "character": "HUX",
       "text": "Very good sir."
     },
     {
-      "character": "GENERAL HUX",
+      "character": "HUX",
       "text": "They won't last long burning fuel like this."
     },
     {
-      "character": "GENERAL HUX",
+      "character": "HUX",
       "text": "It's just a matter of time."
     },
     {
@@ -2376,7 +2374,7 @@
       "text": "Murderous snake. You're too late. You lost. I found Skywalker."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Did he tell you what happened? The night I destroyed his temple, did he tell you why?"
     },
     {
@@ -2384,7 +2382,7 @@
       "text": "I know everything I need about you."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "You do? Ah, you do. You have that look in your eyes. From the forest. When you call me a monster."
     },
     {
@@ -2392,7 +2390,7 @@
       "text": "You are a monster."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Yes I am."
     },
     {
@@ -4280,11 +4278,11 @@
       "text": "Complete your training... and fulfill your destiny."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "I know what I have to do."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Ben."
     },
     {
@@ -4336,11 +4334,11 @@
       "text": "The fleet."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Order them to stop firing."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "There is still time to save the fleet."
     },
     {
@@ -4348,11 +4346,11 @@
       "text": "Ben?"
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "It's time to let old things die."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Snoke..."
     },
     {
@@ -4360,19 +4358,19 @@
       "text": "Skywalker."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "The Sith... the Jedi, the Rebels... let it all die."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Rey."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "I want you to join me."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "We can rule together and bring a new order to the galaxy."
     },
     {
@@ -4384,67 +4382,67 @@
       "text": "Please don't go this way."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "No, no you're still holding on!"
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Let go!"
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Do you want to know the truth about your parents?"
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Or have you always known?"
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "You've just hidden it away."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "You know the truth."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Say it."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Say it."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "They were nobody."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "They were filthy junk traders... who sold you off for drinking money."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "They're dead... in a poverished grave in the Jakku desert."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "You have no place in this story."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "You come from nothing you're nothing."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "But not to me."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Join me."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Please."
     },
     {
@@ -4560,7 +4558,7 @@
       "text": "Need a lift?"
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "What happened?"
     },
     {
@@ -4568,7 +4566,7 @@
       "text": "The girl murdered Snoke."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "What happened?"
     },
     {
@@ -4576,15 +4574,15 @@
       "text": "She took Snoke's escape craft."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "We know where she's going."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Get all our forces to that Resistance base."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Let's finish this."
     },
     {
@@ -4852,15 +4850,15 @@
       "text": "Should we hold until we clear them?"
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "No."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "The Resistance is in that mine."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Push through them."
     },
     {
@@ -5276,15 +5274,15 @@
       "text": "Sir?"
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Bring me down to him."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Keep the door covered and don't advance until I say."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Supreme Leader..."
     },
     {
@@ -5328,11 +5326,11 @@
       "text": "Wait."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Did you come back to say you forgive me?"
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "To save my soul?"
     },
     {
@@ -5388,7 +5386,7 @@
       "text": "But this installation is such a maze of endless tunnels... that the odds of finding an exit are 15,428..."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "Shut up!"
     },
     {
@@ -5444,15 +5442,15 @@
       "text": "Chewie, there!"
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "No."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "No, no, no, no, no."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "No!"
     },
     {
@@ -5468,23 +5466,23 @@
       "text": "I'm sorry."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "I'm sure you are!"
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "The Resistance is dead."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "The war is over."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "And when I kill you..."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "I will have killed the last Jedi."
     },
     {
@@ -5504,7 +5502,7 @@
       "text": "The war... is just beginning."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "And I will not be THE LAST JEDI I'll destroy her... and you... and all of it."
     },
     {
@@ -5520,7 +5518,7 @@
       "text": "Just like your father."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "No."
     },
     {
@@ -5528,7 +5526,7 @@
       "text": "See you around, kid."
     },
     {
-      "character": "KYLO",
+      "character": "KYLO REN",
       "text": "No!"
     },
     {

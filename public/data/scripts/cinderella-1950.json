@@ -17,7 +17,6 @@
     "GIRL MICE",
     "GRAND DUKE",
     "GUS",
-    "GUS-GUS",
     "JAQ",
     "JAQ & GUS-GUS",
     "KING",
@@ -30,7 +29,6 @@
     "MOUSE #2",
     "PERLA",
     "PRINCE",
-    "STEPMOTHER",
     "STEPSISTERS",
     "SUZY",
     "VOICE",
@@ -257,7 +255,7 @@
       "text": "C'mon, everybody, breakfee! Breakfast!"
     },
     {
-      "character": "GUS-GUS",
+      "character": "GUS",
       "text": "Breakfast? Ooh, breakfast!"
     },
     {
@@ -309,11 +307,11 @@
       "text": "Oh, there you are. I was wondering. Alright, breakfast is served."
     },
     {
-      "character": "GUS-GUS",
+      "character": "GUS",
       "text": "Uh... rack 'er easy, cluck-cluck."
     },
     {
-      "character": "GUS-GUS",
+      "character": "GUS",
       "text": "Uh, duh... Let go! Let go now!"
     },
     {
@@ -409,7 +407,7 @@
       "text": "Good morning, Stepmother."
     },
     {
-      "character": "STEPMOTHER",
+      "character": "LADY TREMAINE",
       "text": "Pick up the laundry and get on with your duties."
     },
     {
@@ -449,7 +447,7 @@
       "text": "Oh... poor little Gus. Oh, Lucifer, won't you ever learn?"
     },
     {
-      "character": "STEPMOTHER",
+      "character": "LADY TREMAINE",
       "text": "Cinderella!"
     },
     {
@@ -465,11 +463,11 @@
       "text": "Are you gonna get it?"
     },
     {
-      "character": "STEPMOTHER",
+      "character": "LADY TREMAINE",
       "text": "Close the door, Cinderella."
     },
     {
-      "character": "STEPMOTHER",
+      "character": "LADY TREMAINE",
       "text": "Come here."
     },
     {
@@ -477,7 +475,7 @@
       "text": "Oh, please, you don't think that I--"
     },
     {
-      "character": "STEPMOTHER",
+      "character": "LADY TREMAINE",
       "text": "Hold your tongue! Now... It seems that she has time on her hands."
     },
     {
@@ -485,11 +483,11 @@
       "text": "But I was only trying to--"
     },
     {
-      "character": "STEPMOTHER",
+      "character": "LADY TREMAINE",
       "text": "Silence!"
     },
     {
-      "character": "STEPMOTHER",
+      "character": "LADY TREMAINE",
       "text": "Time for vicious practical jokes. Well... maybe we can put them to good use. Now, let me see... There's the large carpet in the main hall. Clean it! And the windows, upstairs and down. Wash them! Oh, yes... and the tapestries, and the draperies."
     },
     {
@@ -497,7 +495,7 @@
       "text": "But I just finished-----"
     },
     {
-      "character": "STEPMOTHER",
+      "character": "LADY TREMAINE",
       "text": "Do them again! And don't forget the garden, then scrub the terrace, sweep the halls and the stairs, clean the chimneys. And of course, there's the mending, and the sewing, and the laundry. Oh, yes, and one more fact. See that Lucifer gets his bath."
     },
     {
@@ -673,7 +671,7 @@
       "text": "You're always---"
     },
     {
-      "character": "STEPMOTHER",
+      "character": "LADY TREMAINE",
       "text": "Girls, girls!"
     },
     {
@@ -713,7 +711,7 @@
       "text": "No--"
     },
     {
-      "character": "STEPMOTHER",
+      "character": "LADY TREMAINE",
       "text": "I'll read it. Well... There's to be a ball."
     },
     {
@@ -721,7 +719,7 @@
       "text": "A ball?!"
     },
     {
-      "character": "STEPMOTHER",
+      "character": "LADY TREMAINE",
       "text": "In honor of His Highness, the Prince!"
     },
     {
@@ -729,7 +727,7 @@
       "text": "Oh, the Prince!"
     },
     {
-      "character": "STEPMOTHER",
+      "character": "LADY TREMAINE",
       "text": "And, by royal command, every eligible maiden is to attend."
     },
     {
@@ -757,7 +755,7 @@
       "text": "Well, why not? After all, I'm yet a member of the family. And it says, \"by royal command, every eligible maiden is to attend.\""
     },
     {
-      "character": "STEPMOTHER",
+      "character": "LADY TREMAINE",
       "text": "Yes, then it does so. Well, I see no reason why you can't go... if you get all your work done."
     },
     {
@@ -765,7 +763,7 @@
       "text": "Oh, I will! I promise."
     },
     {
-      "character": "STEPMOTHER",
+      "character": "LADY TREMAINE",
       "text": "And if you can find something suitable to wear."
     },
     {
@@ -777,7 +775,7 @@
       "text": "Mother! Do you realize what you just said?!"
     },
     {
-      "character": "STEPMOTHER",
+      "character": "LADY TREMAINE",
       "text": "Of course. I said, \"if.\""
     },
     {
@@ -833,7 +831,7 @@
       "text": "Cinderella!"
     },
     {
-      "character": "STEPMOTHER",
+      "character": "LADY TREMAINE",
       "text": "Cinderella!"
     },
     {
@@ -945,7 +943,7 @@
       "text": "Press my skirt as well, and mind the ruffle. You're always--"
     },
     {
-      "character": "STEPMOTHER",
+      "character": "LADY TREMAINE",
       "text": "And, Cinderella...."
     },
     {
@@ -953,7 +951,7 @@
       "text": "Yes?"
     },
     {
-      "character": "STEPMOTHER",
+      "character": "LADY TREMAINE",
       "text": "If you're through, and before you and your friends begin your regular chores, I have a few little facts."
     },
     {
@@ -1069,7 +1067,7 @@
       "text": "I'm not going."
     },
     {
-      "character": "STEPMOTHER",
+      "character": "LADY TREMAINE",
       "text": "Not going? Oh, what a shame. But of course, there will be other times, and--"
     },
     {

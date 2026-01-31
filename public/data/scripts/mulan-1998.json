@@ -23,9 +23,7 @@
     "FA LI",
     "FA THANG",
     "FA ZHOU",
-    "GENERAL",
     "GENERAL LI",
-    "GRANDMA",
     "GRANNY FA",
     "GREAT ANCESTOR",
     "GUARD",
@@ -44,7 +42,6 @@
     "SHAN YU",
     "SHANG",
     "SHESHOU",
-    "SHUN YU",
     "SOLDIER",
     "SOLDIER #1",
     "SOLDIER #2",
@@ -102,7 +99,7 @@
       "text": "Deliver conscription notices throughout all the provinces. Call up reserves, and as many new recruits as possible."
     },
     {
-      "character": "GENERAL",
+      "character": "GENERAL LI",
       "text": "Forgive me, your Majesty, but I believe my troops can stop him."
     },
     {
@@ -386,7 +383,7 @@
       "text": "Whoo! Aah!"
     },
     {
-      "character": "GRANDMA",
+      "character": "GRANNY FA",
       "text": "I think it's going well, don't you?"
     },
     {
@@ -1034,7 +1031,7 @@
       "text": "Oh I will! I won't let you down! This is... I mean... Yes sir."
     },
     {
-      "character": "GENERAL",
+      "character": "GENERAL LI",
       "text": "Very good, then. We'll toast China's victory at the Imperial City. I'll expect a full report in three weeks."
     },
     {
@@ -2158,7 +2155,7 @@
       "text": "Sorry, your Majesty."
     },
     {
-      "character": "SHUN YU",
+      "character": "SHAN YU",
       "text": "No!"
     },
     {
