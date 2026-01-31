@@ -4789,5 +4789,15 @@
   "rated": "PG-13",
   "runtime": "140 min",
   "genre": "Action, Adventure, Fantasy",
-  "director": "George Lucas"
+  "director": "George Lucas",
+  "topSpeakingCast": [
+    "ANAKIN",
+    "OBI-WAN",
+    "PALPATINE",
+    "PADME",
+    "YODA",
+    "MACE WINDU",
+    "BAIL ORGANA",
+    "C-3PO"
+  ]
 }

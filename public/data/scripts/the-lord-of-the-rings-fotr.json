@@ -4615,5 +4615,19 @@
   "rated": "PG-13",
   "runtime": "178 min",
   "genre": "Adventure, Drama, Fantasy",
-  "director": "Peter Jackson"
+  "director": "Peter Jackson",
+  "topSpeakingCast": [
+    "GANDALF",
+    "FRODO",
+    "ARAGORN",
+    "BILBO",
+    "SAM",
+    "BOROMIR",
+    "GALADRIEL",
+    "MERRY",
+    "GIMLI",
+    "PIPPIN",
+    "SARUMAN",
+    "ELROND"
+  ]
 }
