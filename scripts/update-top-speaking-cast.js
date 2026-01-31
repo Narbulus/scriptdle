@@ -50,7 +50,6 @@ function updateTopSpeakingCast() {
 
   const files = readdirSync(SCRIPT_DIR).filter(f => f.endsWith('.json'));
   let filesUpdated = 0;
-  let totalChanges = 0;
 
   for (const filename of files) {
     const filePath = join(SCRIPT_DIR, filename);
@@ -91,7 +90,6 @@ function updateTopSpeakingCast() {
         console.log();
 
         filesUpdated++;
-        totalChanges++;
       } else {
         console.log(`⏭️  ${filename}: No changes needed`);
       }

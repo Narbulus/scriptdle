@@ -13,7 +13,7 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
     // Local form state
     const [selectedMovie, setSelectedMovie] = useState('');
     const [selectedChar, setSelectedChar] = useState('');
-    const [isSpinning, setIsSpinning] = useState(false);
+    const [_isSpinning, setIsSpinning] = useState(false);
     const animationFrameRef = useRef(null);
 
     // Stop shuffle animation and reset dice to resting position

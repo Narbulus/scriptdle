@@ -1,5 +1,10 @@
 # Agent Guidelines
 
+## Deployment
+- This site is deployed automatically to cloudflare pages
+- beta branch is on `https://beta.scriptdle.pages.dev/`
+- production / main branch is on `https://scriptle.net`
+
 ## Testing and Verification
 All code changes must be tested and validated using the browser tool.
 - **Cross-Device Testing**: You must verify your changes on both desktop web sizes and mobile web sizes.

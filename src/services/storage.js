@@ -42,7 +42,7 @@ export function getPackHistory(packId) {
                     const date = key.split(':').pop();
                     history.push({ ...data, date });
                 }
-            } catch (e) {
+            } catch {
                 // Ignore corrupted entries
             }
         }

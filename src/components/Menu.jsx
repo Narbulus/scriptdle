@@ -4,7 +4,6 @@ import { router } from '../router.jsx';
 import { openHelpModal } from './Help.jsx';
 import { openStatsModal } from '../pages/Stats.jsx';
 import { getTimeUntilMidnight } from '../utils/time.js';
-import { getDataCache } from '../services/dataLoader.js';
 import { track } from '../utils/analytics.js';
 import { X, Film, BarChart3, CircleHelp, Info } from 'lucide-preact';
 
@@ -21,7 +20,6 @@ export function closeMenu() {
 
 export function Menu() {
     const [countdown, setCountdown] = useState('00:00:00');
-    const dataCache = getDataCache();
 
     useEffect(() => {
         const updateCountdown = () => {
@@ -46,8 +44,6 @@ export function Menu() {
     if (!isMenuOpen.value) {
         return null;
     }
-
-    const packs = dataCache.value.packs || [];
 
     return (
         <div className="menu-container">

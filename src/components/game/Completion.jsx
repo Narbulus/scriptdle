@@ -1,4 +1,3 @@
-import { computed } from "@preact/signals";
 import { guessStats, currentAttempt, isWin, confettiShown, markConfettiShown } from '../../services/game-state.js';
 import { getStreak } from '../../utils/completionTracker.js';
 import { generateFlower, generateBeetle, stringToSeed } from '../../utils/flowerGenerator.js';

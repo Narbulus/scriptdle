@@ -37,16 +37,16 @@
     /* Spacing Scale */
     --spacing-xs: 0.25rem;
     /* 4px */
-    --spacing-sm: 0.5rem;
-    /* 8px */
-    --spacing-md: 0.75rem;
-    /* 12px */
-    --spacing-lg: 1rem;
-    /* 16px */
-    --spacing-xl: 1.5rem;
+    --spacing-sm: 0.375rem;
+    /* 6px */
+    --spacing-md: 0.625rem;
+    /* 10px */
+    --spacing-lg: 0.875rem;
+    /* 14px */
+    --spacing-xl: 1.25rem;
+    /* 20px */
+    --spacing-2xl: 1.5rem;
     /* 24px */
-    --spacing-2xl: 2rem;
-    /* 32px */
 
     /* Component Spacing */
     --close-btn-size: 32px;

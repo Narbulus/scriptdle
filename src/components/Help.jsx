@@ -8,8 +8,8 @@ function HelpBadges() {
   const beetleSvg = generateBeetle(67890, '#FF5722');
 
   const badgeStyle = {
-    width: '64px',
-    height: '64px',
+    width: '52px',
+    height: '52px',
     backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
@@ -17,7 +17,7 @@ function HelpBadges() {
   };
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', gap: '3rem', marginTop: '2rem' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', marginTop: '1.25rem' }}>
       <div style={{ ...badgeStyle, backgroundImage: `url('${flowerSvg}')` }} />
       <div style={{ ...badgeStyle, backgroundImage: `url('${beetleSvg}')` }} />
     </div>
@@ -177,7 +177,7 @@ export function HelpModal() {
     >
       <div class="modal-body custom-scrollbar">
         <div class="help-section" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: '2rem' }}>
+          <p style={{ marginBottom: '1.25rem', fontSize: '0.9rem' }}>
             Guess the <strong>MOVIE</strong> and the <strong>CHARACTER</strong> from the quote.
           </p>
 
@@ -186,47 +186,47 @@ export function HelpModal() {
             data-theme="script"
             style={{
               background: 'var(--script-bg)',
-              padding: '1.5rem',
+              padding: '1rem',
               border: '1px solid var(--placeholder-bg)',
               borderRadius: '8px',
-              marginBottom: '2rem',
+              marginBottom: '1.25rem',
               position: 'relative',
               overflow: 'hidden',
-              minHeight: '200px',
+              minHeight: '180px',
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'center'
             }}
           />
 
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', textAlign: 'left', marginTop: '1.5rem' }}>
-            <div style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
-              <div style={{ background: 'var(--text-primary)', color: 'var(--btn-text)', width: '24px', height: '24px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '0.8rem', fontWeight: 'bold', marginTop: '2px' }}>1</div>
-              <div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', textAlign: 'left', marginTop: '1rem' }}>
+            <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}>
+              <div style={{ background: 'var(--text-primary)', color: 'var(--btn-text)', width: '20px', height: '20px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '0.7rem', fontWeight: 'bold', marginTop: '2px' }}>1</div>
+              <div style={{ fontSize: '0.85rem' }}>
                 <strong>You have 5 attempts.</strong><br />
-                <span style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>Guess the movie correctly to lock it in.</span>
+                <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Guess the movie correctly to lock it in.</span>
               </div>
             </div>
 
-            <div style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
-              <div style={{ background: 'var(--text-primary)', color: 'var(--btn-text)', width: '24px', height: '24px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '0.8rem', fontWeight: 'bold', marginTop: '2px' }}>2</div>
-              <div>
+            <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}>
+              <div style={{ background: 'var(--text-primary)', color: 'var(--btn-text)', width: '20px', height: '20px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '0.7rem', fontWeight: 'bold', marginTop: '2px' }}>2</div>
+              <div style={{ fontSize: '0.85rem' }}>
                 <strong>Each wrong guess reveals more of the script.</strong><br />
-                <span style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>Reveals following lines from the movie.</span>
+                <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Reveals following lines from the movie.</span>
               </div>
             </div>
 
-            <div style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
-              <div style={{ background: 'var(--text-primary)', color: 'var(--btn-text)', width: '24px', height: '24px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '0.8rem', fontWeight: 'bold', marginTop: '2px' }}>3</div>
-              <div>
+            <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}>
+              <div style={{ background: 'var(--text-primary)', color: 'var(--btn-text)', width: '20px', height: '20px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '0.7rem', fontWeight: 'bold', marginTop: '2px' }}>3</div>
+              <div style={{ fontSize: '0.85rem' }}>
                 <strong>A new puzzle every day at midnight.</strong><br />
-                <span style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>Come back to keep your streak alive!</span>
+                <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Come back to keep your streak alive!</span>
               </div>
             </div>
 
-            <div style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
-              <div style={{ background: 'var(--text-primary)', color: 'var(--btn-text)', width: '24px', height: '24px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '0.8rem', fontWeight: 'bold', marginTop: '2px' }}>4</div>
-              <div>
+            <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}>
+              <div style={{ background: 'var(--text-primary)', color: 'var(--btn-text)', width: '20px', height: '20px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '0.7rem', fontWeight: 'bold', marginTop: '2px' }}>4</div>
+              <div style={{ fontSize: '0.85rem' }}>
                 <strong>Winners get flowers. Losers get beetles.</strong>
               </div>
             </div>
