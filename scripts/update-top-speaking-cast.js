@@ -6,43 +6,38 @@ import { resolve, join } from 'path';
  */
 
 const SCRIPT_DIR = resolve(process.cwd(), 'public/data/scripts');
-const THRESHOLD = 0.85; // Include characters that account for 85% of dialogue
+const MIN_LINES = 5;
+const MIN_CAST = 10;
+const MAX_CAST = 20;
 
 function analyzeTopSpeakingCast(lines) {
   if (!lines || lines.length === 0) {
     return [];
   }
 
-  // Count lines per character
   const lineCounts = {};
   lines.forEach(line => {
     const char = line.character;
     lineCounts[char] = (lineCounts[char] || 0) + 1;
   });
 
-  // Sort by line count descending
   const sortedChars = Object.entries(lineCounts)
     .sort((a, b) => {
-      // Sort by count desc, then name asc for ties
       if (b[1] !== a[1]) return b[1] - a[1];
       return a[0].localeCompare(b[0]);
     });
 
-  // Find characters that account for 85% of dialogue
-  const totalLines = lines.length;
-  let cumulative = 0;
-  const topCast = [];
+  const qualified = sortedChars.filter(([, count]) => count >= MIN_LINES);
 
-  for (const [char, count] of sortedChars) {
-    topCast.push(char);
-    cumulative += count;
-
-    if (cumulative / totalLines >= THRESHOLD) {
-      break;
-    }
+  if (qualified.length <= MIN_CAST) {
+    return qualified.map(([char]) => char);
   }
 
-  return topCast;
+  if (qualified.length > MAX_CAST) {
+    return qualified.slice(0, MAX_CAST).map(([char]) => char);
+  }
+
+  return qualified.map(([char]) => char);
 }
 
 function updateTopSpeakingCast() {
