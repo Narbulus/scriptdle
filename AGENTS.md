@@ -5,6 +5,13 @@
 - beta branch is on `https://beta.scriptdle.pages.dev/`
 - production / main branch is on `https://scriptle.net`
 
+## Generated Content
+Daily puzzle files are generated at build time and should not be committed:
+- `public/data/daily/` - Per-pack daily puzzle files (intermediate)
+- `public/data/daily-all/` - Consolidated daily puzzle files (used by app)
+
+These are created by `npm run generate:daily` during CI/CD builds. The `.gitignore` excludes these directories.
+
 ## Testing and Verification
 All code changes must be tested and validated using the browser tool.
 - **Cross-Device Testing**: You must verify your changes on both desktop web sizes and mobile web sizes.

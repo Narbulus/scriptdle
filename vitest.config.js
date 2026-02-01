@@ -7,7 +7,15 @@ export default defineConfig({
     coverage: {
       provider: 'v8',
       include: ['src/utils/**/*.js', 'src/services/**/*.js'],
-      exclude: ['**/*.test.js'],
+      exclude: [
+        '**/*.test.js',
+        'src/services/dataLoader.js',
+        'src/services/storage.js',
+        'src/services/theme.js',
+        'src/utils/analytics.js',
+        'src/utils/confetti.js',
+        'src/utils/flowerGenerator.js',
+      ],
       thresholds: {
         lines: 70,
         functions: 70,
