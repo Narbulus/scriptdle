@@ -82,7 +82,7 @@ jobs:
       run: npm run generate:sitemap
 
     - name: Build
-      run: vite build
+      run: npx vite build
 
     - name: Prerender
       run: npm run prerender

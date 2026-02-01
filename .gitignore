@@ -42,5 +42,8 @@ venv/
 public/data/daily/
 public/data/daily-all/
 
+# Test coverage output
+coverage/
+
 # Git worktrees
 .worktrees/
