@@ -8,17 +8,13 @@
     "ARENDELLE",
     "DUKE",
     "ELSA",
-    "GUARD 1",
-    "GUARD 2",
-    "GUARD 3",
-    "GUARD 4",
+    "GUARD",
     "HANS",
     "KAI",
     "KID",
     "KRISTOFF",
     "OLAF",
     "SAILOR",
-    "SOLDIER",
     "WOMAN"
   ],
   "lines": [
@@ -307,35 +303,35 @@
       "text": "And sentence her to death."
     },
     {
-      "character": "GUARD 1",
+      "character": "GUARD",
       "text": "Hurry up!"
     },
     {
-      "character": "GUARD 2",
+      "character": "GUARD",
       "text": "She’s dangerous."
     },
     {
-      "character": "GUARD 3",
+      "character": "GUARD",
       "text": "Move quickly."
     },
     {
-      "character": "GUARD 3",
+      "character": "GUARD",
       "text": "Careful."
     },
     {
-      "character": "GUARD 1",
+      "character": "GUARD",
       "text": "It won’t open!"
     },
     {
-      "character": "GUARD 1",
+      "character": "GUARD",
       "text": "It’s frozen shut."
     },
     {
-      "character": "GUARD 2",
+      "character": "GUARD",
       "text": "Put your back into it!"
     },
     {
-      "character": "GUARD 4",
+      "character": "GUARD",
       "text": "Come on! Push!"
     },
     {
@@ -799,7 +795,7 @@
       "text": "It’s Weselton!"
     },
     {
-      "character": "SOLDIER",
+      "character": "GUARD",
       "text": "Let’s go."
     },
     {
@@ -971,5 +967,14 @@
   "rated": "PG",
   "runtime": "102 min",
   "genre": "Animation, Adventure, Comedy",
-  "director": "Chris Buck, Jennifer Lee"
+  "director": "Chris Buck, Jennifer Lee",
+  "topSpeakingCast": [
+    "HANS",
+    "ANNA",
+    "OLAF",
+    "KRISTOFF",
+    "ELSA",
+    "GUARD",
+    "WOMAN"
+  ]
 }

@@ -58,7 +58,7 @@ for (const [packName, movieIds] of Object.entries(packs)) {
 
     // Find variations
     let foundIssues = false;
-    for (const [normalized, variants] of Object.entries(charVariations)) {
+    for (const [_normalized, variants] of Object.entries(charVariations)) {
         if (variants.size > 1) {
             foundIssues = true;
             const variantArray = Array.from(variants);

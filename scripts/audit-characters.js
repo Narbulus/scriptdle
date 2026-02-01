@@ -194,7 +194,7 @@ for (const [packId, movieIds] of Object.entries(packMovies)) {
 
     if (crossMovieIssues.length > 0) {
         console.log(`\n  🔄 Cross-movie variations:`);
-        for (const [normalized, variants] of crossMovieIssues) {
+        for (const [_normalized, variants] of crossMovieIssues) {
             console.log(`    ⚠️  "${variants[0]}" has variants: ${variants.slice(1).map(v => `"${v}"`).join(', ')}`);
             totalIssues++;
         }

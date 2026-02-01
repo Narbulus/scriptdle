@@ -4,7 +4,6 @@
   "year": null,
   "characters": [
     "ACTION GNUS 5 BEAVER",
-    "ASSISTANT MAYOR DAWN BELLWETHER",
     "BEAVER REPORTER #2",
     "BEAVER REPORTER 2",
     "BENJAMIN CLAWHAUSER",
@@ -13,7 +12,6 @@
     "BUNNY CHILD 1",
     "CHIEF BOGO",
     "CHUCK",
-    "CLAWHAUSER",
     "COTTON",
     "DAWN BELLWETHER",
     "DAWN BELLWETHER'S VOICE",
@@ -42,7 +40,6 @@
     "JAGUAR",
     "JERRY JUMBEAUX, JR.",
     "JESSE",
-    "JUDY",
     "JUDY HOPPS",
     "JUDY HOPPS' VOICE",
     "JUNIOR RANGER SCOUT #2",
@@ -50,7 +47,6 @@
     "JUNIOR SCOUT #3",
     "LARRY",
     "LEODORE LIONHEART",
-    "LEORE LIONHEART",
     "MAJOR FRIEDKIN",
     "MALE OFFSCREEN REPORTER #1",
     "MALE OFFSCREEN REPORTER #3",
@@ -63,10 +59,8 @@
     "MRS. OTTERTON",
     "MUZZLED WOLF",
     "NANGI",
-    "NICK",
     "NICK WILDE",
     "NICK WILDE'S VOICE",
-    "OFFICER BENJAMIN CLAWHAUSER",
     "OFFICER FRANCINE",
     "OFFICER HIGGINS",
     "OFFICER MCHORN",
@@ -448,15 +442,15 @@
       "text": "Oh, gosh!"
     },
     {
-      "character": "LEORE LIONHEART",
+      "character": "LEODORE LIONHEART",
       "text": "Ahem, Assistant Mayor Bellwether, her badge."
     },
     {
-      "character": "ASSISTANT MAYOR DAWN BELLWETHER",
+      "character": "DAWN BELLWETHER",
       "text": "Oh, yes, right!"
     },
     {
-      "character": "LEORE LIONHEART",
+      "character": "LEODORE LIONHEART",
       "text": "Thank you."
     },
     {
@@ -464,7 +458,7 @@
       "text": "Yay, Judy!"
     },
     {
-      "character": "LEORE LIONHEART",
+      "character": "LEODORE LIONHEART",
       "text": "Judy, it is my great privilege to officially assign you to the heart of Zootopia, precinct one, city center."
     },
     {
@@ -484,11 +478,11 @@
       "text": "You know, it's a - it's a real proud day for us little guys."
     },
     {
-      "character": "LEORE LIONHEART",
+      "character": "LEODORE LIONHEART",
       "text": "Bellwether, make room, will ya? Come on."
     },
     {
-      "character": "LEORE LIONHEART",
+      "character": "LEODORE LIONHEART",
       "text": "Okay, Officer Hopps. Let's see those teeth!"
     },
     {
@@ -716,7 +710,7 @@
       "text": "Come on! He bared his teeth first!"
     },
     {
-      "character": "OFFICER BENJAMIN CLAWHAUSER",
+      "character": "BENJAMIN CLAWHAUSER",
       "text": "Mm-mm-mmm!"
     },
     {
@@ -1552,7 +1546,7 @@
       "text": "Splendid."
     },
     {
-      "character": "CLAWHAUSER",
+      "character": "BENJAMIN CLAWHAUSER",
       "text": "Here you go! One missing otter!"
     },
     {
@@ -1560,7 +1554,7 @@
       "text": "That's it?!"
     },
     {
-      "character": "CLAWHAUSER",
+      "character": "BENJAMIN CLAWHAUSER",
       "text": "Yikes! That is the smallest case file I've ever seen. Leads: none, witnesses: none, and you're not in the computer system yet, so resources: none! Oh, I hope you didn't stake your career on cracking this one!"
     },
     {
@@ -1576,7 +1570,7 @@
       "text": "Pawpsicle..."
     },
     {
-      "character": "CLAWHAUSER",
+      "character": "BENJAMIN CLAWHAUSER",
       "text": "The murder weapon..."
     },
     {
@@ -1584,7 +1578,7 @@
       "text": "\"Get your pawpsicle...\""
     },
     {
-      "character": "CLAWHAUSER",
+      "character": "BENJAMIN CLAWHAUSER",
       "text": "Yeah, 'cause that... what does that mean?"
     },
     {
@@ -1712,7 +1706,7 @@
       "text": "Hmm?"
     },
     {
-      "character": "JUDY",
+      "character": "JUDY HOPPS",
       "text": "Hello! My name is..."
     },
     {
@@ -2700,7 +2694,7 @@
       "text": "No. Wait! Sir, I'm not the only one who saw him."
     },
     {
-      "character": "NICK",
+      "character": "NICK WILDE",
       "text": "Nick!"
     },
     {
@@ -4557,14 +4551,19 @@
     "STU HOPPS",
     "DAWN BELLWETHER",
     "BONNIE HOPPS",
-    "FLASH SLOTHMORE",
     "BENJAMIN CLAWHAUSER",
+    "FLASH SLOTHMORE",
     "MR. BIG",
     "YOUNG JUDY HOPPS",
+    "LEODORE LIONHEART",
     "DUKE WEASELTON",
     "YAX",
-    "LEODORE LIONHEART",
     "MAJOR FRIEDKIN",
-    "YOUNG GIDEON GREY"
+    "YOUNG GIDEON GREY",
+    "FRU FRU",
+    "MRS. OTTERTON",
+    "GAZELLE",
+    "DOUG",
+    "SHARLA"
   ]
 }

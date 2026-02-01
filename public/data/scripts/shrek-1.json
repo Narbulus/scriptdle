@@ -7,25 +7,21 @@
     "BLIND MOUSE",
     "CROWD",
     "DONKEY",
-    "DWARF",
     "DWARVES",
     "FIONA",
     "GINGY",
     "GORDER",
-    "GUARD",
     "GUARDS",
     "LITTLE PIG",
     "LORD FARQUAAD",
     "MAGIC MIRROR",
     "MAN",
-    "MERRYMAN",
     "MERRYMEN",
     "MONSIEUR HOOD",
     "MOUSE 1",
     "MOUSE 2",
     "PINOCCHIO",
     "SHREK",
-    "THE CAPTAIN",
     "THELONIUS",
     "WOLF",
     "WOMAN",
@@ -77,7 +73,7 @@
       "text": "Oh, no, no, no. Dead broad off the table!"
     },
     {
-      "character": "DWARF",
+      "character": "DWARVES",
       "text": "Where are we supposed to put her? The bed's taken."
     },
     {
@@ -269,7 +265,7 @@
       "text": "She's married to the muffin man."
     },
     {
-      "character": "THE CAPTAIN",
+      "character": "THELONIUS",
       "text": "My lord! We've found it."
     },
     {
@@ -521,7 +517,7 @@
       "text": "Oh, yeah! Thank you! Thank you very much! I'm here 'til Thursday. Try the veal! Ha, ha!"
     },
     {
-      "character": "GUARD",
+      "character": "GUARDS",
       "text": "Shall I give the order, sir?"
     },
     {
@@ -1185,7 +1181,7 @@
       "text": "I steal from the rich and give to the needy."
     },
     {
-      "character": "MERRYMAN",
+      "character": "MERRYMEN",
       "text": "He takes a wee percentage,"
     },
     {
@@ -1229,7 +1225,7 @@
       "text": "Man, that was annoying!"
     },
     {
-      "character": "MERRYMAN",
+      "character": "MERRYMEN",
       "text": "Oh, you little--"
     },
     {
@@ -2513,5 +2509,17 @@
   "rated": "PG",
   "runtime": "90 min",
   "genre": "Animation, Adventure, Comedy",
-  "director": "Andrew Adamson, Vicky Jenson"
+  "director": "Andrew Adamson, Vicky Jenson",
+  "topSpeakingCast": [
+    "SHREK",
+    "DONKEY",
+    "FIONA",
+    "LORD FARQUAAD",
+    "MAGIC MIRROR",
+    "MONSIEUR HOOD",
+    "GINGY",
+    "MERRYMEN",
+    "BISHOP",
+    "CROWD"
+  ]
 }

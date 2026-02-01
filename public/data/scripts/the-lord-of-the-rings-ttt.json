@@ -11,8 +11,6 @@
     "DUNLENDING",
     "EASTERLINGS",
     "ELROND",
-    "EOMER",
-    "EOWYN",
     "FARAMIR",
     "FREDA",
     "FRODO",
@@ -21,7 +19,6 @@
     "GANDALF",
     "GIMLI",
     "GOLLUM",
-    "GRISHNAKH",
     "GRISHNÁK",
     "GRÍMA",
     "GUARD",
@@ -42,7 +39,6 @@
     "SAM",
     "SARUMAN",
     "SMÉAGOL",
-    "SMÉGOL",
     "SNAGA",
     "THÉODEN",
     "TREE",
@@ -51,9 +47,9 @@
     "URUK",
     "VILLAGERS",
     "WIZARD",
-    "ÈOMER",
-    "ÈOTHAN",
-    "ÈOWYN"
+    "ÉOMER",
+    "ÉOTHAN",
+    "ÉOWYN"
   ],
   "lines": [
     {
@@ -357,7 +353,7 @@
       "text": "Merry! Merry!"
     },
     {
-      "character": "GRISHNAKH",
+      "character": "GRISHNÁK",
       "text": "You're late. Our master grows impatient. He wants the Shire-rats now."
     },
     {
@@ -557,7 +553,7 @@
       "text": "Listen to me! You must ride to Edoras and raise the alarm. Do you understand me?!"
     },
     {
-      "character": "ÈOTHAN",
+      "character": "ÉOTHAN",
       "text": "Yes mama!"
     },
     {
@@ -577,7 +573,7 @@
       "text": "Go child!"
     },
     {
-      "character": "ÈOMER",
+      "character": "ÉOMER",
       "text": "Théodred. Find the king's son!"
     },
     {
@@ -585,7 +581,7 @@
       "text": "Mordor will pay for this."
     },
     {
-      "character": "ÈOMER",
+      "character": "ÉOMER",
       "text": "These Orcs are not from Mordor."
     },
     {
@@ -593,19 +589,19 @@
       "text": "My Lord Èomer. Over here!"
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "He's alive!"
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "Théodred!"
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "Your son is badly wounded my lord."
     },
     {
-      "character": "ÈOMER",
+      "character": "ÉOMER",
       "text": "He was ambushed by orcs. If we don't defend our country, Saruman will take it by force."
     },
     {
@@ -617,11 +613,11 @@
       "text": "Saruman the White has ever been our friend and ally."
     },
     {
-      "character": "ÈOMER",
+      "character": "ÉOMER",
       "text": "Orcs are roaming freely across our lands. Unchecked, unchallenged, killing at will."
     },
     {
-      "character": "ÈOMER",
+      "character": "ÉOMER",
       "text": "Orcs bearing the white hand of Saruman."
     },
     {
@@ -633,15 +629,15 @@
       "text": "Can you not see? Your uncle is wearied by your malcontent, your warmongering."
     },
     {
-      "character": "ÈOMER",
+      "character": "ÉOMER",
       "text": "Warmongering?!"
     },
     {
-      "character": "ÈOMER",
+      "character": "ÉOMER",
       "text": "How long is it since Saruman bought you? What was the promised price, Gríma? When all the men are dead you would take a share of the treasure?"
     },
     {
-      "character": "ÈOMER",
+      "character": "ÉOMER",
       "text": "Too long have you watched my sister. Too long have you haunted her steps."
     },
     {
@@ -653,7 +649,7 @@
       "text": "You are banished forthwith from the kingdom of Rohan, and all its domains, under pain of death."
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "You have no authority here. Your orders mean nothing."
     },
     {
@@ -673,7 +669,7 @@
       "text": "You are banished forthwith from the kingdom of Rohan, and all its domains, under pain of death."
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "You have no authority here. Your orders mean nothing."
     },
     {
@@ -685,7 +681,7 @@
       "text": "He signed it this morning."
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "Argh!"
     },
     {
@@ -761,7 +757,7 @@
       "text": "Get back, scum! The prisoners go to Saruman. Alive and unspoiled."
     },
     {
-      "character": "GRISHNAKH",
+      "character": "GRISHNÁK",
       "text": "Alive? Why alive? Do they give good sport?"
     },
     {
@@ -809,11 +805,11 @@
       "text": "Riders of Rohan! What news from the Mark?"
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "What business does an elf, a man and a dwarf have in the Riddermark?"
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "Speak quickly!"
     },
     {
@@ -821,7 +817,7 @@
       "text": "Give me your name, horsemaster, and I shall give you mine."
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "I would cut off your head — dwarf — if it stood but a little higher from the ground."
     },
     {
@@ -841,23 +837,23 @@
       "text": "We are friends of Rohan and of Théoden, your king."
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "Théoden no longer recognizes friend from foe."
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "Not even his own kin."
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "Saruman has poisoned the mind of the king and claimed lordship over this land. My company are those loyal to Rohan. And for that, we are banished."
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "The White Wizard is cunning. He walks here and there they say, as an old man, hooded and cloaked."
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "And everywhere his spies slip past our nets."
     },
     {
@@ -865,7 +861,7 @@
       "text": "We are no spies. We track a band of Uruk-hai westward across the plains. They have taken two of our friends captive."
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "The Uruks are destroyed. We slaughtered them during the night."
     },
     {
@@ -877,11 +873,11 @@
       "text": "They would be small, only children to your eyes."
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "We left none alive."
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "We piled the carcasses and burned them."
     },
     {
@@ -889,19 +885,19 @@
       "text": "Dead?"
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "I am sorry."
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "Hasufel! Arod!"
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "May these horses bear you to better fortune than the former masters. [nods] Farewell."
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "Look for your friends, but do not trust the hope. It has forsaken these lands. We ride north!"
     },
     {
@@ -1777,7 +1773,7 @@
       "text": "Edoras and the Golden Hall of Meduseld. There dwells Théoden, King of Rohan, whose mind is overthrown. Saruman's hold over King Théoden is now very strong."
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "My lord, you son, he is dead. My lord? Uncle? Will you not go to him? Will you do nothing."
     },
     {
@@ -1793,7 +1789,7 @@
       "text": "I understand his passing is hard to accept, especially now that your brother has deserted you."
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "Leave me alone snake!"
     },
     {
@@ -1809,7 +1805,7 @@
       "text": "So fair, so cold, like a morning pale spring still clinging to winter's chill."
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "Your words are poison."
     },
     {
@@ -1977,15 +1973,15 @@
       "text": "Where is Théodred? Where is my son?"
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "Bealocwealm hafað fréone frecan forth onsended giedd sculon singan gléomenn sorgiende"
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "on Meduselde þæt he ma no wære, Þæt he ma nowere is, þurh niedig rest."
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "And mægen deorost. Bealo…"
     },
     {
@@ -2013,7 +2009,7 @@
       "text": "Westu hál. Ferðu, Théodred, Ferðu."
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "They had no warning. They were unarmed. Now the Wildmen are moving through westfold, burning as they go, every rick, cot and tree."
     },
     {
@@ -2021,7 +2017,7 @@
       "text": "Where's mama?"
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "Hush."
     },
     {
@@ -2117,7 +2113,7 @@
       "text": "Hwæt nemnað ðe?"
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "His name is Brego. He was my cousin's horse."
     },
     {
@@ -2133,7 +2129,7 @@
       "text": "Man cenich?"
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "I've heard of the magic of Elves, but I did not look for it in a Ranger from the North. You speak as one of their own."
     },
     {
@@ -2189,11 +2185,11 @@
       "text": "You have some skill with a blade."
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "Women of this country learned long ago that those without swords may still die upon them."
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "I fear neither death nor pain."
     },
     {
@@ -2201,7 +2197,7 @@
       "text": "What do you fear my lady?"
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "A cage. To stay behind bars until use and old age accept them. And all chance of valor has gone beyond recall or desire."
     },
     {
@@ -2425,7 +2421,7 @@
       "text": "You're hopeless."
     },
     {
-      "character": "SMÉGOL",
+      "character": "SMÉAGOL",
       "text": "Wicked men; servants of Sauron. They are called to Mordor. The Dark One is gathering all armies to him. It won't be long now. It will soon be ready."
     },
     {
@@ -2513,7 +2509,7 @@
       "text": "She watched her mother succumb to grief. And she was left alone to tend her king in growing fear. Doomed to wait upon an old man who should have loved her as a father."
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "Gimli?"
     },
     {
@@ -2521,7 +2517,7 @@
       "text": "No, I couldn't. I really couldn't."
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "I made some stew. It isn't much, but it's hot."
     },
     {
@@ -2533,7 +2529,7 @@
       "text": "Mmm. It's good."
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "Really?"
     },
     {
@@ -2541,7 +2537,7 @@
       "text": "Mmm."
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "My Uncle told me a strange thing. He said that you rode to war with Thengel, my grandfather. But he must be mistaken."
     },
     {
@@ -2549,7 +2545,7 @@
       "text": "King Théoden has a good memory. He was only a small child at the time."
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "Then you must be at least sixty. Seventy? But you cannot be eighty!"
     },
     {
@@ -2557,7 +2553,7 @@
       "text": "Eighty-seven."
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "You are one of the Dúnedain. A descendant of Númenor, blessed with long life. It was said that your race had passed into legend."
     },
     {
@@ -2565,7 +2561,7 @@
       "text": "There are few of us left. The Northern Kingdom was destroyed long ago."
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "I'm sorry. Please eat!"
     },
     {
@@ -2609,7 +2605,7 @@
       "text": "Ae ú-esteliach nad… estelio han. Estelio ammen."
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "Where is she? The woman who gave you that jewel?"
     },
     {
@@ -2677,7 +2673,7 @@
       "text": "It was a gift. Keep it."
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "My lord?"
     },
     {
@@ -2717,7 +2713,7 @@
       "text": "You must lead the people to Helm's Deep and make haste."
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "I can fight!"
     },
     {
@@ -2733,7 +2729,7 @@
       "text": "Forward, forward, march forward."
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "Make for the lower ground. Stick together!"
     },
     {
@@ -2789,7 +2785,7 @@
       "text": "Freda! Freda!"
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "Where is the rest?"
     },
     {
@@ -2797,7 +2793,7 @@
       "text": "This is all we could save, my lady."
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "Take it to the caves."
     },
     {
@@ -2805,7 +2801,7 @@
       "text": "Make way for the king! Make way for Théoden. Make way for the King!"
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "So few. So few of you have returned."
     },
     {
@@ -2817,7 +2813,7 @@
       "text": "My lady…"
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "Lord Aragorn, where is he?"
     },
     {
@@ -3577,7 +3573,7 @@
       "text": "Aragorn, you must rest. You're no use to us half-alive."
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "Aragorn! I'm to be sent with the women into the caves."
     },
     {
@@ -3585,7 +3581,7 @@
       "text": "That is an honorable charge."
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "To mind the children, to find food and bedding when the men return. What renown is there in that?"
     },
     {
@@ -3593,7 +3589,7 @@
       "text": "My lady, a time may come for valor without renown. Who then will your people look to in the last defense?"
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "Let me stand at your side."
     },
     {
@@ -3601,11 +3597,11 @@
       "text": "It is not in my power to command it."
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "You do not command the others to stay! They fight beside you because they would not be parted from you. Because they love you."
     },
     {
-      "character": "ÈOWYN",
+      "character": "ÉOWYN",
       "text": "I'm sorry."
     },
     {
@@ -4333,11 +4329,11 @@
       "text": "Théoden king stands alone."
     },
     {
-      "character": "ÈOMER",
+      "character": "ÉOMER",
       "text": "Not alone."
     },
     {
-      "character": "ÈOMER",
+      "character": "ÉOMER",
       "text": "Rohirrim!"
     },
     {
@@ -4345,7 +4341,7 @@
       "text": "Èomer!"
     },
     {
-      "character": "ÈOMER",
+      "character": "ÉOMER",
       "text": "To the king!"
     },
     {
@@ -4425,7 +4421,7 @@
       "text": "Then it is forfeit. Release them."
     },
     {
-      "character": "ÈOMER",
+      "character": "ÉOMER",
       "text": "Stay out of the forest! Keep away from the trees!"
     },
     {
@@ -4758,5 +4754,27 @@
   "rated": "PG-13",
   "runtime": "179 min",
   "genre": "Adventure, Drama, Fantasy",
-  "director": "Peter Jackson"
+  "director": "Peter Jackson",
+  "topSpeakingCast": [
+    "ARAGORN",
+    "SAM",
+    "FRODO",
+    "GOLLUM",
+    "THÉODEN",
+    "GIMLI",
+    "GANDALF",
+    "MERRY",
+    "PIPPIN",
+    "FARAMIR",
+    "TREEBEARD",
+    "LEGOLAS",
+    "ÉOWYN",
+    "GRÍMA",
+    "SMÉAGOL",
+    "ÉOMER",
+    "SARUMAN",
+    "BOROMIR",
+    "ARWEN",
+    "ELROND"
+  ]
 }

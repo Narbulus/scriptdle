@@ -11,8 +11,6 @@
     "DÉAGOL",
     "ELF",
     "ELROND",
-    "EOMER",
-    "EOWYN",
     "FARAMIR",
     "FRODO",
     "GALADRIEL",
@@ -34,7 +32,6 @@
     "MERRY AND PIPPIN",
     "MOUTH OF SAURON",
     "NO NOSE",
-    "OMER",
     "ORC",
     "ORC CAPTAIN",
     "ORCS",
@@ -49,7 +46,6 @@
     "SAURON",
     "SHAGRAT",
     "SKULLY",
-    "SMÉAGOL",
     "SNAGA",
     "SOLDIER",
     "SOLDIER #1",
@@ -58,8 +54,6 @@
     "SOLDIER #4",
     "SOLDIER #5",
     "SOLDIERS",
-    "THE KING OF THE DEAD",
-    "THEODEN",
     "THÉODEN",
     "TREEBEARD",
     "WITCH-KING",
@@ -72,19 +66,19 @@
       "text": "Sméagol! I've got one! I've got a fish, Sméag!"
     },
     {
-      "character": "SMÉAGOL",
+      "character": "GOLLUM",
       "text": "Go on! Go on, pull it up!"
     },
     {
-      "character": "SMÉAGOL",
+      "character": "GOLLUM",
       "text": "Déagol?"
     },
     {
-      "character": "SMÉAGOL",
+      "character": "GOLLUM",
       "text": "Déagol! Déagol!"
     },
     {
-      "character": "SMÉAGOL",
+      "character": "GOLLUM",
       "text": "Give us that, Déagol, my love."
     },
     {
@@ -92,7 +86,7 @@
       "text": "Why?"
     },
     {
-      "character": "SMÉAGOL",
+      "character": "GOLLUM",
       "text": "Because it's my birthday, and I wants it."
     },
     {
@@ -100,7 +94,7 @@
       "text": "Ash nazg durbatulûk, ash nazg gimbatul, ash nazg thrakatulûk agh burzum-ishi krimpatul!"
     },
     {
-      "character": "SMÉAGOL",
+      "character": "GOLLUM",
       "text": "My Precious!"
     },
     {
@@ -108,7 +102,7 @@
       "text": "They cursed us. Murderer, murderer they called us. They cursed us and drove us away!"
     },
     {
-      "character": "SMÉAGOL",
+      "character": "GOLLUM",
       "text": "Gollum! Gollum! Gollum!"
     },
     {
@@ -384,7 +378,7 @@
       "text": "Peregrin Took, I'll take that, my lad. Quickly now!"
     },
     {
-      "character": "OMER",
+      "character": "ÉOMER",
       "text": "No pauses, no spills."
     },
     {
@@ -488,7 +482,7 @@
       "text": "Shhh! Quiet! Mustn't wake them! Mustn't ruin it now!"
     },
     {
-      "character": "SMÉAGOL",
+      "character": "GOLLUM",
       "text": "But they knows! They knows! They suspects us!"
     },
     {
@@ -496,7 +490,7 @@
       "text": "What's it saying, my precious, my love? Is Sméagol losing his nerve?"
     },
     {
-      "character": "SMÉAGOL",
+      "character": "GOLLUM",
       "text": "No! Not! Never! Sméagol hates nasty hobbitses! Sméagol wants to see them… dead!"
     },
     {
@@ -504,7 +498,7 @@
       "text": "And we will. Sméagol did it once. He can do it again."
     },
     {
-      "character": "SMÉAGOL",
+      "character": "GOLLUM",
       "text": "It's ours! Ours! We must get the Precious! We must get It back!"
     },
     {
@@ -512,7 +506,7 @@
       "text": "Patience! Patience, my love. First we must lead them to her."
     },
     {
-      "character": "SMÉAGOL",
+      "character": "GOLLUM",
       "text": "We lead them to the winding stairs."
     },
     {
@@ -520,7 +514,7 @@
       "text": "Yes, the stairs. And then?"
     },
     {
-      "character": "SMÉAGOL",
+      "character": "GOLLUM",
       "text": "Up, up, up, up the stairs we go. And then we come to the tunnel."
     },
     {
@@ -532,7 +526,7 @@
       "text": "She must eat. All she gets is filthy orcses."
     },
     {
-      "character": "SMÉAGOL",
+      "character": "GOLLUM",
       "text": "And they doesn't taste very nice, does they, precious?"
     },
     {
@@ -540,7 +534,7 @@
       "text": "No, not very nice at all, my love. She hungers for sweeter meats. Hobbit meat. And when she throws away the bones and empty clothes, then we will find It!"
     },
     {
-      "character": "SMÉAGOL",
+      "character": "GOLLUM",
       "text": "And take it for me!"
     },
     {
@@ -548,7 +542,7 @@
       "text": "(scoldingly) For us."
     },
     {
-      "character": "SMÉAGOL",
+      "character": "GOLLUM",
       "text": "(afraid) Yes, we meant, we meant for us."
     },
     {
@@ -1932,7 +1926,7 @@
       "text": "Mist and shadow cloud and shade all shall fade, all shall fade."
     },
     {
-      "character": "THEODEN",
+      "character": "THÉODEN",
       "text": "Grimbold, how many?"
     },
     {
@@ -1944,7 +1938,7 @@
       "text": "We have three hundred more from Fenmarch."
     },
     {
-      "character": "THEODEN",
+      "character": "THÉODEN",
       "text": "Where are the riders from Snowbourn?"
     },
     {
@@ -1952,7 +1946,7 @@
       "text": "None have come, my Lord."
     },
     {
-      "character": "THEODEN",
+      "character": "THÉODEN",
       "text": "Six thousand spears. Less than half of what I'd hoped for."
     },
     {
@@ -1960,7 +1954,7 @@
       "text": "Six thousand will not be enough to break the lines of Mordor."
     },
     {
-      "character": "THEODEN",
+      "character": "THÉODEN",
       "text": "More will come."
     },
     {
@@ -1972,7 +1966,7 @@
       "text": "The horses are restless, and the men are quiet."
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "They grow nervous in the shadow of the mountain."
     },
     {
@@ -1984,7 +1978,7 @@
       "text": "It is the road to the Dimholt; the door under the the mountain."
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "None who venture there ever return. That mountain is evil."
     },
     {
@@ -1992,7 +1986,7 @@
       "text": "Aragorn, let's find some food."
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "There. A true esquire of Rohan."
     },
     {
@@ -2004,31 +1998,31 @@
       "text": "Sorry. It isn't all that dangerous. It's not even sharp."
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "Well that's no good. You won't kill many orcs with a blunt blade. Come on! To the smithy, go!"
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "You should not encourage him."
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "You should not doubt him."
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "I do not doubt his heart, just the reach of his arm."
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "Why should Merry be left behind? He has as much cause go to war as you! Why can he not fight for those he loves?"
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "You know as little of war as that Hobbit. When the fear takes him, and the blood and the screams and the horror of battle take hold, do you think he would stand and fight?"
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "He would flee, and he would be right to do so. War is the province of men, Éowyn."
     },
     {
@@ -2040,7 +2034,7 @@
       "text": "Sir? King Théoden awaits you, my Lord."
     },
     {
-      "character": "THEODEN",
+      "character": "THÉODEN",
       "text": "I take my leave."
     },
     {
@@ -2108,11 +2102,11 @@
       "text": "Ú-chebin Estel anim."
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "Why are you doing this? The war lies to the East. You cannot leave on the eve of battle!"
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "You cannot abandon the men."
     },
     {
@@ -2120,7 +2114,7 @@
       "text": "Éowyn…"
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "We need you here."
     },
     {
@@ -2128,7 +2122,7 @@
       "text": "Why have you come?"
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "Do you not know?"
     },
     {
@@ -2180,7 +2174,7 @@
       "text": "He leaves because there is no hope."
     },
     {
-      "character": "THEODEN",
+      "character": "THÉODEN",
       "text": "He leaves because he must."
     },
     {
@@ -2188,31 +2182,31 @@
       "text": "Too few have come. We cannot defeat the armies of Mordor."
     },
     {
-      "character": "THEODEN",
+      "character": "THÉODEN",
       "text": "No, we cannot."
     },
     {
-      "character": "THEODEN",
+      "character": "THÉODEN",
       "text": "But we will meet them in battle nonetheless."
     },
     {
-      "character": "THEODEN",
+      "character": "THÉODEN",
       "text": "I have left instructions. The people are to follow your rule in my stead."
     },
     {
-      "character": "THEODEN",
+      "character": "THÉODEN",
       "text": "Take up my seat in the Golden Hall. Long may you defend Edoras if the battle goes ill."
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "What other duty would you have me do, my lord?"
     },
     {
-      "character": "THEODEN",
+      "character": "THÉODEN",
       "text": "Duty? No. I would have you smile again. Not grieve for those whose time has come."
     },
     {
-      "character": "THEODEN",
+      "character": "THÉODEN",
       "text": "You shall live to see these days renewed. No more despair."
     },
     {
@@ -2252,11 +2246,11 @@
       "text": "Well this is something unheard of! An elf will go underground where a dwarf dare not! Ah, I'd never hear the end of it!"
     },
     {
-      "character": "THEODEN",
+      "character": "THÉODEN",
       "text": "We must ride light and swift. It's a long road ahead. The men and beast must reach the end with a strength to fight."
     },
     {
-      "character": "THEODEN",
+      "character": "THÉODEN",
       "text": "Little hobbits do not belong in war, Master Meriadoc."
     },
     {
@@ -2264,7 +2258,7 @@
       "text": "All my friends have gone to battle. I will be ashamed to be left behind!"
     },
     {
-      "character": "THEODEN",
+      "character": "THÉODEN",
       "text": "It is a three day gallop to Minas Tirith and none of my riders can bear you as a burden."
     },
     {
@@ -2272,11 +2266,11 @@
       "text": "I want to fight!"
     },
     {
-      "character": "THEODEN",
+      "character": "THÉODEN",
       "text": "I will say no more."
     },
     {
-      "character": "EOWYN",
+      "character": "ÉOWYN",
       "text": "Ride with me."
     },
     {
@@ -2284,11 +2278,11 @@
       "text": "My lady!"
     },
     {
-      "character": "EOMER",
+      "character": "ÉOMER",
       "text": "Form up! Move out!"
     },
     {
-      "character": "THEODEN",
+      "character": "THÉODEN",
       "text": "Ride! Ride now for Gondor!"
     },
     {
@@ -2332,7 +2326,7 @@
       "text": "Do not look down."
     },
     {
-      "character": "THE KING OF THE DEAD",
+      "character": "KING OF THE DEAD",
       "text": "Who enters my domain?"
     },
     {
@@ -2340,7 +2334,7 @@
       "text": "One who will have your allegiance."
     },
     {
-      "character": "THE KING OF THE DEAD",
+      "character": "KING OF THE DEAD",
       "text": "The dead do not suffer the living to pass."
     },
     {
@@ -2348,11 +2342,11 @@
       "text": "You will suffer me!"
     },
     {
-      "character": "THE KING OF THE DEAD",
+      "character": "KING OF THE DEAD",
       "text": "The way is shut. It was made by those who are dead. And the dead keep it."
     },
     {
-      "character": "THE KING OF THE DEAD",
+      "character": "KING OF THE DEAD",
       "text": "The way is shut. Now you must die."
     },
     {
@@ -2360,11 +2354,11 @@
       "text": "I summon you to fulfill your oath."
     },
     {
-      "character": "THE KING OF THE DEAD",
+      "character": "KING OF THE DEAD",
       "text": "None but the King of Gondor may command me!"
     },
     {
-      "character": "THE KING OF THE DEAD",
+      "character": "KING OF THE DEAD",
       "text": "That line was broken."
     },
     {
@@ -2404,7 +2398,7 @@
       "text": "Legolas! Run!"
     },
     {
-      "character": "THE KING OF THE DEAD",
+      "character": "KING OF THE DEAD",
       "text": "We fight!"
     },
     {
@@ -2732,7 +2726,7 @@
       "text": "Prepare to move out!"
     },
     {
-      "character": "THEODEN",
+      "character": "THÉODEN",
       "text": "Make haste! We ride through the night."
     },
     {
@@ -3984,5 +3978,27 @@
   "rated": "PG-13",
   "runtime": "201 min",
   "genre": "Adventure, Drama, Fantasy",
-  "director": "Peter Jackson"
+  "director": "Peter Jackson",
+  "topSpeakingCast": [
+    "GANDALF",
+    "SAM",
+    "FRODO",
+    "GOLLUM",
+    "PIPPIN",
+    "ARAGORN",
+    "THÉODEN",
+    "DENETHOR",
+    "MERRY",
+    "GIMLI",
+    "ÉOWYN",
+    "FARAMIR",
+    "LEGOLAS",
+    "ÉOMER",
+    "SARUMAN",
+    "ELROND",
+    "GOTHMOG",
+    "ORC CAPTAIN",
+    "ARWEN",
+    "KING OF THE DEAD"
+  ]
 }

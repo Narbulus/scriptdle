@@ -1,26 +1,29 @@
 #!/usr/bin/env python3
 """
-Import Movie Pack from Script Parser
+Import Movie Pack - Parse and Add Movies to Scriptdle
 
-This script automates importing movie packs from the script-parser repo,
-enriching them with OMDB metadata and analyzing speaking roles.
+This script parses movie transcripts (from URLs or files) and imports them
+as packs into Scriptdle, enriching with OMDB metadata and analyzing speaking roles.
 
 The theme colors and tier messages require Claude Code interaction,
 so this script handles everything except those LLM-dependent parts.
 
 Usage:
-    python scripts/import-pack.py <pack_id> [movie_id1 movie_id2 ...]
+    # Parse from Fandom wiki URLs
+    python scripts/import-pack.py shrek --urls \
+        "https://movies.fandom.com/wiki/Shrek/Transcript" \
+        "https://movies.fandom.com/wiki/Shrek_2/Transcript"
 
-    # Auto-detect movies matching pack name
-    python scripts/import-pack.py frozen
+    # Parse from local files
+    python scripts/import-pack.py lotr --files \
+        lotr-fotr.pdf lotr-ttt.pdf lotr-rotk.pdf
 
-    # Explicit movie list
-    python scripts/import-pack.py frozen frozen frozen-2
+    # Use existing parsed scripts (legacy mode)
+    python scripts/import-pack.py frozen --existing frozen frozen-2
 """
 
 import json
 import argparse
-import shutil
 import urllib.request
 import urllib.parse
 import os
@@ -29,15 +32,32 @@ from pathlib import Path
 from typing import List, Dict, Any, Optional, Tuple
 from collections import Counter
 
+sys.path.insert(0, str(Path(__file__).parent.parent / "parser"))
+
+
+def check_parser_dependencies():
+    """Check if parser dependencies are installed."""
+    try:
+        import fitz
+        import pydantic
+        from google import genai
+        return True
+    except ImportError as e:
+        missing_module = str(e).split("'")[-2] if "'" in str(e) else str(e)
+        print(f"Error: Missing dependency '{missing_module}'")
+        print(f"\nTo install parser dependencies, run:")
+        print(f"  pip install -r parser/requirements.txt")
+        print(f"\nOr to set up a virtual environment:")
+        print(f"  cd parser")
+        print(f"  python3 -m venv .venv")
+        print(f"  source .venv/bin/activate")
+        print(f"  pip install -r requirements.txt")
+        return False
+
 
 def get_repo_root() -> Path:
     """Get the scriptdle repository root directory."""
     return Path(__file__).parent.parent
-
-
-def get_script_parser_path() -> Path:
-    """Get the script-parser repository path (sibling directory)."""
-    return get_repo_root().parent / "script-parser"
 
 
 def load_env() -> Dict[str, str]:
@@ -67,29 +87,83 @@ def save_json(data: Dict[Any, Any], file_path: Path) -> None:
         f.write('\n')
 
 
-def find_matching_movies(pack_id: str, source_dir: Path) -> List[str]:
-    """Find movie JSON files matching the pack ID pattern."""
-    movies = []
+def slugify(text: str) -> str:
+    """Convert text to a URL-friendly slug."""
+    import re
+    text = text.lower()
+    text = re.sub(r'[\s_]+', '-', text)
+    text = re.sub(r'[^a-z0-9-]', '', text)
+    text = re.sub(r'-+', '-', text)
+    text = text.strip('-')
+    return text
 
-    # Look for exact match first
-    exact_match = source_dir / f"{pack_id}.json"
-    if exact_match.exists():
-        movies.append(pack_id)
 
-    # Look for numbered sequels (pack-id-2, pack-id-3, etc.)
-    for json_file in sorted(source_dir.glob(f"{pack_id}-*.json")):
-        movie_id = json_file.stem
-        if movie_id not in movies:
-            movies.append(movie_id)
+def parse_from_url(url: str, movie_id: str, title: Optional[str], year: Optional[int], verbose: bool = True) -> Optional[Dict[str, Any]]:
+    """Parse a transcript from a URL using the local parser."""
+    if not check_parser_dependencies():
+        sys.exit(1)
+    try:
+        from src.parsers import parse_transcript_url
+        
+        if verbose:
+            print(f"  Parsing from URL: {url}")
+        
+        result = parse_transcript_url(
+            url=url,
+            movie_id=movie_id,
+            title=title,
+            year=year,
+            verbose=verbose
+        )
+        
+        if result:
+            return result.to_dict()
+        return None
+    except Exception as e:
+        print(f"  Error parsing URL {url}: {e}")
+        return None
 
-    # Also check for pack-id without number and numbered variants
-    base_pattern = pack_id.rstrip('s')  # Handle plural (e.g., "incredibles" -> "incredible")
-    for json_file in sorted(source_dir.glob(f"{base_pattern}*.json")):
-        movie_id = json_file.stem
-        if movie_id not in movies and json_file.exists():
-            movies.append(movie_id)
 
-    return sorted(set(movies))
+def parse_from_file(file_path: Path, movie_id: str, title: Optional[str], year: Optional[int], verbose: bool = True) -> Optional[Dict[str, Any]]:
+    """Parse a transcript from a local file using the local parser."""
+    if not check_parser_dependencies():
+        sys.exit(1)
+    try:
+        from src.parsers import parse_transcript_pdf, parse_transcript_llm
+        from src.extractors import extract_simple
+        
+        if verbose:
+            print(f"  Parsing from file: {file_path}")
+        
+        if file_path.suffix.lower() == ".pdf":
+            result = parse_transcript_pdf(
+                source=file_path,
+                movie_id=movie_id,
+                title=title,
+                year=year,
+                verbose=verbose
+            )
+        else:
+            text = extract_simple(file_path)
+            if not text:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    text = f.read()
+            
+            result = parse_transcript_llm(
+                text=text,
+                source_file=str(file_path),
+                movie_id=movie_id,
+                title=title,
+                year=year,
+                verbose=verbose
+            )
+        
+        if result:
+            return result.to_dict()
+        return None
+    except Exception as e:
+        print(f"  Error parsing file {file_path}: {e}")
+        return None
 
 
 def fetch_omdb_metadata(title: str, year: Optional[int], api_key: str) -> Optional[Dict[str, Any]]:
@@ -129,17 +203,14 @@ def analyze_speaking_cast(lines: List[Dict[str, str]], threshold: float = 0.85) 
     Returns:
         Tuple of (top_speaking_cast list, line_counts dict)
     """
-    # Count lines per character
     line_counts = Counter(line['character'] for line in lines)
     total_lines = len(lines)
 
     if total_lines == 0:
         return [], {}
 
-    # Sort by line count descending
     sorted_chars = sorted(line_counts.items(), key=lambda x: (-x[1], x[0]))
 
-    # Find cutoff for top speaking cast
     cumulative = 0
     cutoff_count = 0
     top_cast = []
@@ -149,14 +220,11 @@ def analyze_speaking_cast(lines: List[Dict[str, str]], threshold: float = 0.85) 
         top_cast.append(char)
         cutoff_count += 1
 
-        # Stop when we've captured threshold% of dialogue
-        # But ensure we have at least 5 characters and at most 15
         if cumulative / total_lines >= threshold and cutoff_count >= 5:
             break
         if cutoff_count >= 15:
             break
 
-    # Also include any character with > 3% of lines even if after cutoff
     min_threshold = max(3, int(total_lines * 0.03))
     for char, count in sorted_chars:
         if char not in top_cast and count >= min_threshold:
@@ -173,15 +241,12 @@ def determine_category(pack_name: str, movies: List[Dict[str, Any]], index_data:
     """
     pack_name_lower = pack_name.lower()
 
-    # Check for animated indicators
     animated_studios = ['pixar', 'disney', 'dreamworks', 'illumination', 'blue sky', 'laika']
     animated_keywords = ['animated', 'animation', 'cartoon']
 
-    # Check movie titles for animated indicators
     is_animated = False
     for movie in movies:
         title = movie.get('title', '').lower()
-        # Common animated movie patterns
         if any(word in title for word in ['toy story', 'shrek', 'frozen', 'moana', 'coco',
                                            'incredibles', 'monsters', 'nemo', 'dory', 'cars',
                                            'wall-e', 'up', 'brave', 'inside out', 'soul',
@@ -190,77 +255,103 @@ def determine_category(pack_name: str, movies: List[Dict[str, Any]], index_data:
             is_animated = True
             break
 
-    # Check pack name too
     if any(keyword in pack_name_lower for keyword in animated_studios + animated_keywords):
         is_animated = True
 
     if is_animated:
         return "animated"
 
-    # Check for classics (major franchises)
     classic_franchises = ['star wars', 'harry potter', 'lord of the rings', 'matrix',
                           'back to the future', 'indiana jones', 'jurassic', 'marvel',
                           'avengers', 'spider-man', 'batman', 'dark knight']
     if any(franchise in pack_name_lower for franchise in classic_franchises):
         return "classics"
 
-    # Default to uncategorized
     return "uncategorized"
 
 
-def copy_and_enrich_scripts(
-    movie_ids: List[str],
-    source_dir: Path,
+def parse_and_enrich_scripts(
+    sources: List[Dict[str, Any]],
     dest_dir: Path,
-    api_key: str
+    api_key: str,
+    verbose: bool = True
 ) -> List[Dict[str, Any]]:
     """
-    Copy scripts from script-parser and enrich with metadata.
+    Parse scripts from URLs/files and enrich with metadata.
 
-    Returns list of movie metadata for pack creation.
+    Args:
+        sources: List of dicts with 'type' ('url' or 'file' or 'existing'),
+                 'source' (URL/path/movie_id), and optional 'movie_id', 'title', 'year'
+        dest_dir: Directory to save parsed scripts
+        api_key: OMDB API key for metadata enrichment
+        verbose: Print progress output
+
+    Returns:
+        List of movie metadata for pack creation.
     """
     dest_dir.mkdir(parents=True, exist_ok=True)
     movies_metadata = []
 
-    for movie_id in movie_ids:
-        source_file = source_dir / f"{movie_id}.json"
-        dest_file = dest_dir / f"{movie_id}.json"
+    for source_info in sources:
+        source_type = source_info['type']
+        source = source_info['source']
+        movie_id = source_info.get('movie_id', '')
+        title = source_info.get('title')
+        year = source_info.get('year')
 
-        if not source_file.exists():
-            print(f"  Warning: Source file not found: {source_file}")
+        script_data = None
+
+        if source_type == 'url':
+            if not movie_id:
+                movie_id = slugify(title or Path(source).stem)
+            script_data = parse_from_url(source, movie_id, title, year, verbose)
+        elif source_type == 'file':
+            file_path = Path(source)
+            if not movie_id:
+                movie_id = slugify(title or file_path.stem)
+            script_data = parse_from_file(file_path, movie_id, title, year, verbose)
+        elif source_type == 'existing':
+            existing_file = dest_dir / f"{source}.json"
+            if existing_file.exists():
+                script_data = load_json(existing_file)
+                movie_id = source
+            else:
+                print(f"  Warning: Existing script not found: {existing_file}")
+                continue
+
+        if not script_data:
+            print(f"  Warning: Failed to parse {source}")
             continue
 
-        # Load script
-        script_data = load_json(source_file)
-        title = script_data.get('title', movie_id)
-        year = script_data.get('year')
+        movie_id = script_data.get('id') or movie_id
+        title = script_data.get('title', title or movie_id)
+        year = script_data.get('year', year)
         lines = script_data.get('lines', [])
         characters = script_data.get('characters', [])
 
-        print(f"\n  Processing: {title} ({year})")
+        print(f"\n  Enriching: {title} ({year})")
 
-        # Fetch OMDB metadata
-        omdb_data = fetch_omdb_metadata(title, year, api_key)
-        if omdb_data:
-            script_data['imdbId'] = omdb_data.get('imdbID')
-            script_data['poster'] = omdb_data.get('Poster')
-            script_data['rated'] = omdb_data.get('Rated')
-            script_data['runtime'] = omdb_data.get('Runtime')
-            script_data['genre'] = omdb_data.get('Genre')
-            script_data['director'] = omdb_data.get('Director')
-            print(f"    IMDb ID: {omdb_data.get('imdbID')}")
+        if api_key:
+            omdb_data = fetch_omdb_metadata(title, year, api_key)
+            if omdb_data:
+                script_data['imdbId'] = omdb_data.get('imdbID')
+                script_data['poster'] = omdb_data.get('Poster')
+                script_data['rated'] = omdb_data.get('Rated')
+                script_data['runtime'] = omdb_data.get('Runtime')
+                script_data['genre'] = omdb_data.get('Genre')
+                script_data['director'] = omdb_data.get('Director')
+                print(f"    IMDb ID: {omdb_data.get('imdbID')}")
 
-        # Analyze speaking cast
         top_cast, line_counts = analyze_speaking_cast(lines)
         script_data['topSpeakingCast'] = top_cast
         print(f"    Top speaking cast: {len(top_cast)} of {len(characters)} characters")
-        print(f"    Top 5 by lines: {', '.join(f'{c}({line_counts[c]})' for c in top_cast[:5])}")
+        if top_cast:
+            print(f"    Top 5 by lines: {', '.join(f'{c}({line_counts[c]})' for c in top_cast[:5])}")
 
-        # Save enriched script
+        dest_file = dest_dir / f"{movie_id}.json"
         save_json(script_data, dest_file)
         print(f"    Saved: {dest_file.name}")
 
-        # Collect metadata for pack
         movies_metadata.append({
             'id': movie_id,
             'title': title,
@@ -366,39 +457,46 @@ def create_pack_skeleton(
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Import movie pack from script-parser with metadata enrichment",
+        description="Parse and import movie packs into Scriptdle",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Auto-detect movies matching pack name
-  python scripts/import-pack.py frozen
+  # Parse from Fandom wiki URLs
+  python scripts/import-pack.py shrek --urls \\
+      "https://movies.fandom.com/wiki/Shrek/Transcript" \\
+      "https://movies.fandom.com/wiki/Shrek_2/Transcript"
 
-  # Explicit movie list
-  python scripts/import-pack.py incredibles incredibles-1 incredibles-2
+  # Parse from local files
+  python scripts/import-pack.py lotr --files \\
+      lotr-fotr.pdf lotr-ttt.pdf lotr-rotk.pdf
 
-  # Import with pack display name
-  python scripts/import-pack.py --name "The Incredibles" incredibles incredibles-1 incredibles-2
+  # Use existing parsed scripts in public/data/scripts/
+  python scripts/import-pack.py frozen --existing frozen frozen-2
+
+  # Specify movie IDs for URLs/files
+  python scripts/import-pack.py shrek --urls \\
+      "https://movies.fandom.com/wiki/Shrek/Transcript:shrek-1:Shrek:2001" \\
+      "https://movies.fandom.com/wiki/Shrek_2/Transcript:shrek-2:Shrek 2:2004"
         """
     )
 
     parser.add_argument("pack_id", help="Unique identifier for the pack")
-    parser.add_argument("movie_ids", nargs="*", help="Movie IDs to include (auto-detected if not provided)")
+    parser.add_argument("--urls", nargs="+", help="URLs to parse (format: URL or URL:movie_id:title:year)")
+    parser.add_argument("--files", nargs="+", help="Local files to parse (format: path or path:movie_id:title:year)")
+    parser.add_argument("--existing", nargs="+", help="Existing movie IDs in public/data/scripts/")
     parser.add_argument("--name", help="Display name for the pack (default: pack_id titlecased)")
     parser.add_argument("--skip-omdb", action="store_true", help="Skip OMDB API calls")
+    parser.add_argument("--skip-qc", action="store_true", help="Skip quality control step")
     parser.add_argument("--skip-puzzles", action="store_true", help="Skip puzzle regeneration")
+    parser.add_argument("-v", "--verbose", action="store_true", help="Verbose output")
 
     args = parser.parse_args()
 
-    # Setup paths
     repo_root = get_repo_root()
-    script_parser_root = get_script_parser_path()
-
-    source_dir = script_parser_root / "data" / "transcripts" / "parsed"
     scripts_dir = repo_root / "public" / "data" / "scripts"
     packs_dir = repo_root / "public" / "data" / "packs"
     index_file = repo_root / "public" / "data" / "index.json"
 
-    # Load environment
     env = load_env()
     api_key = env.get('OMDB_API_KEY', '')
 
@@ -407,17 +505,39 @@ Examples:
         print("  Skipping OMDB metadata enrichment")
         args.skip_omdb = True
 
-    # Verify script-parser repo exists
-    if not script_parser_root.exists():
-        print(f"Error: script-parser repo not found at {script_parser_root}")
-        return 1
+    sources = []
 
-    # Find movies
-    movie_ids = args.movie_ids if args.movie_ids else find_matching_movies(args.pack_id, source_dir)
+    def parse_source_spec(spec: str) -> Dict[str, Any]:
+        """Parse source:movie_id:title:year format."""
+        parts = spec.split(':')
+        result = {'source': parts[0]}
+        if len(parts) > 1 and parts[1]:
+            result['movie_id'] = parts[1]
+        if len(parts) > 2 and parts[2]:
+            result['title'] = parts[2]
+        if len(parts) > 3 and parts[3]:
+            result['year'] = int(parts[3])
+        return result
 
-    if not movie_ids:
-        print(f"Error: No movies found for pack '{args.pack_id}'")
-        print(f"  Searched in: {source_dir}")
+    if args.urls:
+        for url_spec in args.urls:
+            source_info = parse_source_spec(url_spec)
+            source_info['type'] = 'url'
+            sources.append(source_info)
+    
+    if args.files:
+        for file_spec in args.files:
+            source_info = parse_source_spec(file_spec)
+            source_info['type'] = 'file'
+            sources.append(source_info)
+    
+    if args.existing:
+        for movie_id in args.existing:
+            sources.append({'type': 'existing', 'source': movie_id})
+
+    if not sources:
+        print("Error: No sources provided. Use --urls, --files, or --existing")
+        parser.print_help()
         return 1
 
     pack_name = args.name or args.pack_id.replace('-', ' ').title()
@@ -426,40 +546,81 @@ Examples:
     print(f"Importing Pack: {pack_name}")
     print(f"{'='*60}")
     print(f"  Pack ID: {args.pack_id}")
-    print(f"  Movies: {', '.join(movie_ids)}")
-    print(f"  Source: {source_dir}")
+    print(f"  Sources: {len(sources)} movie(s)")
 
-    # Copy and enrich scripts
-    print(f"\n[1/5] Copying and enriching scripts...")
-    movies_metadata = copy_and_enrich_scripts(
-        movie_ids,
-        source_dir,
+    print(f"\n[1/5] Parsing and enriching scripts...")
+    movies_metadata = parse_and_enrich_scripts(
+        sources,
         scripts_dir,
-        api_key if not args.skip_omdb else ''
+        api_key if not args.skip_omdb else '',
+        verbose=args.verbose
     )
 
     if not movies_metadata:
         print("Error: No movies were imported")
         return 1
 
-    # Determine category
-    print(f"\n[2/5] Determining category...")
+    movie_ids = [m['id'] for m in movies_metadata]
+
+    # Quality control step
+    if not args.skip_qc:
+        print(f"\n[2/6] Running quality control...")
+        google_api_key = env.get('GOOGLE_API_KEY') or env.get('GEMINI_API_KEY', '')
+
+        if not google_api_key:
+            print("  Warning: GOOGLE_API_KEY or GEMINI_API_KEY not found in .env file")
+            print("  Skipping quality control step")
+        else:
+            try:
+                # Import quality control module
+                sys.path.insert(0, str(repo_root / "scripts"))
+                from quality_control import run_quality_control
+
+                qc_success = 0
+                qc_failed = 0
+
+                for movie_id in movie_ids:
+                    try:
+                        success = run_quality_control(
+                            movie_id,
+                            scripts_dir,
+                            google_api_key,
+                            dry_run=False,
+                            verbose=args.verbose
+                        )
+                        if success:
+                            qc_success += 1
+                        else:
+                            qc_failed += 1
+                    except Exception as e:
+                        print(f"  ⚠️  QC failed for {movie_id}: {e}")
+                        qc_failed += 1
+
+                if qc_failed > 0:
+                    print(f"  ⚠️  QC completed with {qc_failed} failure(s)")
+                else:
+                    print(f"  ✅ QC completed successfully for all {qc_success} movie(s)")
+
+            except ImportError as e:
+                print(f"  Warning: Could not import quality control module: {e}")
+                print("  Continuing without quality control")
+    else:
+        print(f"\n[2/6] Skipping quality control (--skip-qc)")
+
+    print(f"\n[3/6] Determining category...")
     category = determine_category(pack_name, movies_metadata, {})
     print(f"  Category: {category}")
 
-    # Update index
-    print(f"\n[3/5] Updating index.json...")
+    print(f"\n[4/6] Updating index.json...")
     update_index(args.pack_id, pack_name, len(movies_metadata), category, index_file)
 
-    # Create pack skeleton
-    print(f"\n[4/5] Creating pack definition...")
+    print(f"\n[5/6] Creating pack definition...")
     pack_file = packs_dir / f"{args.pack_id}.json"
     packs_dir.mkdir(parents=True, exist_ok=True)
     create_pack_skeleton(args.pack_id, pack_name, movie_ids, pack_file)
 
-    # Regenerate puzzles
     if not args.skip_puzzles:
-        print(f"\n[5/5] Regenerating puzzles...")
+        print(f"\n[6/6] Regenerating puzzles...")
         import subprocess
         puzzle_script = repo_root / "scripts" / "generate-daily-puzzles.py"
         result = subprocess.run(
@@ -473,7 +634,6 @@ Examples:
         else:
             print(f"  Puzzles generated successfully")
 
-    # Summary
     print(f"\n{'='*60}")
     print("Import Complete!")
     print(f"{'='*60}")
@@ -491,7 +651,7 @@ Examples:
     print(f"\n{'='*60}")
     print("NEXT STEPS:")
     print(f"{'='*60}")
-    print("""
+    print(f"""
 1. Generate themed colors and messages using Claude Code:
 
    Edit the pack file and ask Claude to generate:
@@ -508,7 +668,7 @@ Examples:
    Navigate to the new pack and play a game
 
 3. If everything looks good, commit the changes!
-""".format(pack_name=pack_name))
+""")
 
     return 0
 

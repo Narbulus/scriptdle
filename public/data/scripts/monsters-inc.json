@@ -23,7 +23,6 @@
     "CHARLIE",
     "CHARLIE, WAXFORD AND FRANK",
     "COMPUTER VOICE",
-    "COMPUTERIZED VOICE",
     "DAY CARE KID",
     "DAY CARE WORKER",
     "DAY-CARE KIDS",
@@ -102,7 +101,7 @@
       "text": "Sleep tight, kiddo."
     },
     {
-      "character": "COMPUTERIZED VOICE",
+      "character": "COMPUTER VOICE",
       "text": "Simulation terminated. Simulation terminated. Simulation terminated. Simulation terminated. Simulation terminated."
     },
     {
@@ -4030,7 +4029,7 @@
       "text": "What, wh-what is this? What? Who? Huh?"
     },
     {
-      "character": "COMPUTERIZED VOICE",
+      "character": "COMPUTER VOICE",
       "text": "Simulation terminated. Simulation terminated."
     },
     {
@@ -4841,6 +4840,13 @@
     "SULLEY AND MIKE",
     "CDA AGENT",
     "JERRY",
-    "YETI"
+    "YETI",
+    "SMITTY",
+    "GEORGE",
+    "CHARLIE",
+    "CDA AGENT #1",
+    "CDA AGENT #2",
+    "MS. FLINT",
+    "PETE DOCTER"
   ]
 }

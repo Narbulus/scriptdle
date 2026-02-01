@@ -6,13 +6,10 @@
     "AGENT",
     "AGENT 2",
     "AGENTS",
-    "COLSON",
     "COULSON",
-    "DARCY",
     "DARCY LEWIS",
     "DOCTOR",
-    "ERIC SELVIG",
-    "ERIK",
+    "ERIK SELVIG",
     "FANDRAL",
     "FRIGGA",
     "FROST GIANT",
@@ -22,7 +19,6 @@
     "GUY2",
     "HEIMDALL",
     "HOGUN",
-    "JANE",
     "JANE FOSTER",
     "KID",
     "LAUFEY",
@@ -35,7 +31,6 @@
     "SITWELL",
     "TECHNICIAN",
     "THOR",
-    "VOLSATGG",
     "VOLSTAGG"
   ],
   "lines": [
@@ -48,67 +43,67 @@
       "text": "Can I turn on the radio?"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "No"
     },
     {
-      "character": "ERIC SELVIG",
+      "character": "ERIK SELVIG",
       "text": "Jane, you can't keep doing this"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "The last 17 occurrences have been predictable to the last second"
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "Jane you're an astrophysicist not some storm chaser"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "I'm telling you there's a connection between these atmospheric disturbances and my research, Erik I wouldn't have asked you to fly out here if I wasn't absolutely sure"
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "Jane? I think you want to see this."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "What is that?"
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "I thought you said it was a subtle aurora!"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Go!"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Get closer."
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "Right. Good one."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Go!"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "What are you doing?"
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "I am not dying for 6 college credits!"
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "I think that was legally your fault."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Get the first aid Kit. Do me a favor and don't be dead. Please. Where did he come from?"
     },
     {
@@ -580,23 +575,23 @@
       "text": "Whosoever holds this hammer, if he be worthy, shall possess the power of Thor."
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "I think that was legally your fault."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Get the first aid Kit. Do me a favor and don't be dead."
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "Whoa. Does he need CPR? Because I totally know CPR."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Where did he come from?"
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "You all right?"
     },
     {
@@ -604,15 +599,15 @@
       "text": "Hammer? Hammer?"
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "Yeah, we can tell you're hammered. It's pretty obvious."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Oh, my God. Erik, look at this! We have to move quickly before this all changes."
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "Jane, we have to take him to the hospital."
     },
     {
@@ -620,7 +615,7 @@
       "text": "Father!"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "He's fine, look at him."
     },
     {
@@ -628,7 +623,7 @@
       "text": "Heimdall! I know you can hear me! Open the Bifrost!"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Hospital. You go, I'll stay."
     },
     {
@@ -636,7 +631,7 @@
       "text": "You. What realm is this? Alfheim? Nornheim?"
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "New Mexico?"
     },
     {
@@ -644,11 +639,11 @@
       "text": "You dare threaten me, Thor, with so puny a weapon?"
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "What? He was freaking me out!"
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "Next time you decide to taser somebody, make sure he's already in the car, okay? Jane! Come on."
     },
     {
@@ -656,7 +651,7 @@
       "text": "Name?"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "He said it was Thor?"
     },
     {
@@ -664,19 +659,19 @@
       "text": "T-H-O-R. And your relationship to him?"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "I've never met him before."
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "Until she hit him with a car."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "I grazed him, but she tasered him."
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "Yes, I did."
     },
     {
@@ -708,55 +703,55 @@
       "text": "Huh."
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "You don't think this was just a magnetic storm, do you?"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Look, the lensing around these edges is characteristic of an Einstein-Rosen Bridge."
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "A what?"
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "I thought you were a science major?"
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "Political science."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "She was the only applicant."
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "An Einstein-Rosen Bridge is a theoretical connection between two different points of space-time."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "It's a wormhole. Erik, look. What do you see?"
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "Stars."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Yeah, but not our stars. See, this is the star alignment for our quadrant this time of year, and unless Ursa Minor decided to take a day off, these are someone else's constellations."
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "Hey! Check this out."
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "No, it can't be."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "I think I left something at the hospital."
     },
     {
@@ -764,43 +759,43 @@
       "text": "It's not possible!"
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "Oh, my God."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "I just lost my most important piece of evidence. Typical."
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "So now what?"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "We find him."
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "Did you see what he did in there? I'm not sure finding him is the best idea."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Well, our data can't tell us what it was like to be inside that event, and he can. So, we're gonna find him."
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "Okay."
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "So we're gonna look all over New Mexico, right?"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Exactly."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "What? I'm so sorry. I swear I'm not doing this on purpose."
     },
     {
@@ -816,15 +811,15 @@
       "text": "Did it work?"
     },
     {
-      "character": "COLSON",
+      "character": "COULSON",
       "text": "Sir, we found it."
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "You know, for a crazy homeless person, he's pretty cut. Hey, sorry I tased you!"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Excuse me, excuse me!"
     },
     {
@@ -832,7 +827,7 @@
       "text": "What is this?"
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "Oh. My ex. Good with patients and bad with relationships. They're the only clothes I had that would fit you."
     },
     {
@@ -840,7 +835,7 @@
       "text": "They will suffice."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "You're welcome."
     },
     {
@@ -976,7 +971,7 @@
       "text": "Then you will open the Bifrost to no one until I have repaired the damage that my brother has done."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Oh, my God. Is he okay?"
     },
     {
@@ -984,7 +979,7 @@
       "text": "He's fine. Not injured at all. I'm sorry, my friend."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "What happened?"
     },
     {
@@ -992,11 +987,11 @@
       "text": "We drank, we fought, he made his ancestors proud."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Put him on the bed."
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "I still don't think you're the God of Thunder. But you ought to be."
     },
     {
@@ -1004,7 +999,7 @@
       "text": "Are these your chambers?"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "It's more of a temporary living situation. I'm sorry. I don't usually have guests. Actually, I never have guests. That's not the right place for it. I'm sorry. Can we go outside?"
     },
     {
@@ -1012,7 +1007,7 @@
       "text": "Yes, of course."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "I come up here sometimes when I can't sleep or I'm trying to reconcile particle data, or when Darcy's driving me crazy. I come up here a lot, actually, now that I think about it. I'm really glad you're safe."
     },
     {
@@ -1020,7 +1015,7 @@
       "text": "You've been very kind to me, and I've been far less grateful than you deserve."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Well, I hit you with my car a couple times, so I think that kind of evens things out."
     },
     {
@@ -1028,7 +1023,7 @@
       "text": "Perhaps I had it coming."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Oh, my God! I don't believe it!"
     },
     {
@@ -1036,7 +1031,7 @@
       "text": "It was all I could get back. I'm sorry it's not as much as I promised."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "No, no, this is great! This is...I don't have to start from scratch now. Thank you."
     },
     {
@@ -1044,7 +1039,7 @@
       "text": "What's wrong?"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "S.H.l.E.L.D. Whatever they are, they're gonna do everything in their power to make sure this research never sees the light of day."
     },
     {
@@ -1052,7 +1047,7 @@
       "text": "No, Jane. Listen to me. You must not give up. You must finish what you've started."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Why?"
     },
     {
@@ -1060,7 +1055,7 @@
       "text": "Because you're right. Here, look. Your ancestors called it magic, and you call it science. Well, I come from a place where they're one and the same thing."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "What is that?"
     },
     {
@@ -1068,7 +1063,7 @@
       "text": "My father explained it to me like this, that your world is one of the Nine Realms of the Cosmos, linked to each other by the branches of Yggdrasil, the Worlds Tree. Now you see it every day without realizing. The images glimpsed through...What did you call it? This Hooble Telescope."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Hubble."
     },
     {
@@ -1076,7 +1071,7 @@
       "text": "Hubble Telescope."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Tell me more."
     },
     {
@@ -1168,11 +1163,11 @@
       "text": "Let's go take a look."
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "Thank you."
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "Thank you."
     },
     {
@@ -1204,7 +1199,7 @@
       "text": "Base, we've got Xena, Jackie Chan and Robin Hood."
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "It's a beautiful theory, Jane. But you won't be able to convince the scientific community of any of it. Not without hard evidence."
     },
     {
@@ -1220,7 +1215,7 @@
       "text": "This is good! This is good."
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "I don't believe it."
     },
     {
@@ -1260,7 +1255,7 @@
       "text": "Get somebody from Linguistics down here."
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "Was somebody else coming?"
     },
     {
@@ -1276,7 +1271,7 @@
       "text": "Jane, you have to leave."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "What are you gonna do?"
     },
     {
@@ -1292,7 +1287,7 @@
       "text": "My friends, I'm just a man. I'll only be in the way, or worse, get one of you killed. But I can help get these people to safety."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Well, if you're staying, then so am I."
     },
     {
@@ -1304,11 +1299,11 @@
       "text": "You'll have it!"
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "Okay, move it, people!"
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "Everybody out! Use the back door. Go, hurry! You can eat later."
     },
     {
@@ -1348,7 +1343,7 @@
       "text": "Come on. We need to fall back. Come on. Come on."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Wait! What's he doing?"
     },
     {
@@ -1356,7 +1351,7 @@
       "text": "Brother, whatever I have done to wrong you, whatever I have done to lead you to do this, I am truly sorry. But these people are innocent. Taking their lives will gain you nothing. So take mine and end this."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "No."
     },
     {
@@ -1364,7 +1359,7 @@
       "text": "It's over."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "No. it's not over."
     },
     {
@@ -1372,7 +1367,7 @@
       "text": "I mean, you're safe."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "We're safe."
     },
     {
@@ -1380,7 +1375,7 @@
       "text": "It's over."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "No. No."
     },
     {
@@ -1392,19 +1387,19 @@
       "text": "Whosoever holds this hammer, if he be worthy, shall possess the power of Thor."
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "Jane!"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "No. No. No!"
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "Come!"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Oh. My. God. So, is this how you normally look?"
     },
     {
@@ -1412,7 +1407,7 @@
       "text": "More or less."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "It's a good look."
     },
     {
@@ -1428,7 +1423,7 @@
       "text": "Know this, Son of Coul. You and I, we fight for the same cause, the protection of this world. From this day forward, you can count me as your ally if you return the items you have taken from Jane."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Stolen."
     },
     {
@@ -1440,7 +1435,7 @@
       "text": "Would you like to see the bridge we spoke of?"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Sure."
     },
     {
@@ -1464,7 +1459,7 @@
       "text": "Heimdall! If you can hear me, we need you now! Heimdall! We need you now! Heimdall! I must go back to Asgard, but I give you my word, I will return for you. Deal?"
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "Deal."
     },
     {
@@ -1516,7 +1511,7 @@
       "text": "It's good to have you back. Now if you'll excuse me, I have to destroy Jotunheim. You can't stop it. The Bifrost will build until it rips Jotunheim apart."
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "Jane?"
     },
     {
@@ -1584,11 +1579,11 @@
       "text": "Loki, no. No! No."
     },
     {
-      "character": "JANE",
+      "character": "JANE FOSTER",
       "text": "It's gone."
     },
     {
-      "character": "VOLSATGG",
+      "character": "VOLSTAGG",
       "text": "And then, with a mighty bellow, I flew into the giant metal creature and laid him low!"
     },
     {
@@ -1640,11 +1635,11 @@
       "text": "Yes."
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "I have the particle detectors! Darcy, do you have the S.H.I.E.L.D. satellite codes?"
     },
     {
-      "character": "DARCY",
+      "character": "DARCY LEWIS",
       "text": "Yeah. Have you seen my taser?"
     },
     {
@@ -1652,7 +1647,7 @@
       "text": "How is she?"
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "In the car. Come on, Jane!"
     },
     {
@@ -1664,7 +1659,7 @@
       "text": "Dr. Selvig."
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "So you're the man behind all this? It's quite a labyrinth. I was thinking they're taking me down here to kill me."
     },
     {
@@ -1672,7 +1667,7 @@
       "text": "I've been hearing about the New Mexico situation. Your work has impressed a lot of people who are much smarter than I am."
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "I have a lot to work with. The Foster Theory. A gateway to another dimension. It's unprecedented. Isn't it?"
     },
     {
@@ -1680,7 +1675,7 @@
       "text": "Legend tells us one thing, history, another. But every now and then, we find something that belongs to both."
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "What is it?"
     },
     {
@@ -1692,7 +1687,7 @@
       "text": "Well, I guess that's worth a look."
     },
     {
-      "character": "ERIK",
+      "character": "ERIK SELVIG",
       "text": "Well, I guess that's worth a look."
     }
   ],
@@ -1704,15 +1699,17 @@
   "director": "Kenneth Branagh",
   "topSpeakingCast": [
     "THOR",
-    "JANE",
+    "JANE FOSTER",
     "LOKI",
     "ODIN",
-    "ERIK",
-    "DARCY",
+    "ERIK SELVIG",
+    "DARCY LEWIS",
     "VOLSTAGG",
     "HEIMDALL",
     "SIF",
     "LAUFEY",
-    "FANDRAL"
+    "FANDRAL",
+    "COULSON",
+    "HOGUN"
   ]
 }

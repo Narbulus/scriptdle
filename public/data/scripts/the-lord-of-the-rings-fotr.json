@@ -51,8 +51,6 @@
     "SARUMAN",
     "SAURON",
     "SECOND HOBBIT",
-    "STRIDER",
-    "THE RING",
     "UNIDENTIFIED MAN",
     "VOICE OF BILBO",
     "VOICES"
@@ -1631,7 +1629,7 @@
       "text": "Strider."
     },
     {
-      "character": "THE RING",
+      "character": "RING",
       "text": "Baggins. Baggins. Baggins. Baggins! Baggins!…"
     },
     {
@@ -1659,7 +1657,7 @@
       "text": "Ah!"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "You draw far too much attention to yourself Mister 'Underhill'!"
     },
     {
@@ -1667,7 +1665,7 @@
       "text": "What do you want?"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "A little more caution from you. That is no trinket you carry."
     },
     {
@@ -1675,11 +1673,11 @@
       "text": "I carry nothing!"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "Indeed."
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "I can avoid being seen if I wish. But to disappear entirely, that is a rare gift."
     },
     {
@@ -1687,7 +1685,7 @@
       "text": "Who are you?"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "Are you frightened?"
     },
     {
@@ -1695,7 +1693,7 @@
       "text": "Yes."
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "Not nearly frightened enough. I know what hunts you."
     },
     {
@@ -1703,7 +1701,7 @@
       "text": "Let him go! Or I'll have you Longshanks!"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "You have a stout heart little hobbit, but that will not save you. You can no longer wait for the wizard Frodo. They're coming."
     },
     {
@@ -1711,11 +1709,11 @@
       "text": "What are they?"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "They were once Men. Great kings of Men."
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "Then Sauron the Deceiver gave to them nine Rings of Power. Blinded by their greed, they took them without question. One by one falling into darkness."
     },
     {
@@ -1723,15 +1721,15 @@
       "text": "What are they?"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "They were once Men. Great kings of Men."
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "Then Sauron the Deceiver gave to them nine Rings of Power. Blinded by their greed, they took them without question. One by one falling into darkness."
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "Now they are slaves to his will. They are the Nazgûl, Ringwraiths, neither living nor dead. At all times they feel the presence of the Ring. Drawn to the power of the One. They will never stop hunting you."
     },
     {
@@ -1739,7 +1737,7 @@
       "text": "Where are you taking us?"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "Into the wild."
     },
     {
@@ -1763,7 +1761,7 @@
       "text": "But where is he leading us?"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "To Rivendell, Master Gamgee. To the House of Elrond."
     },
     {
@@ -1771,7 +1769,7 @@
       "text": "Did you hear that? Rivendell! We're going to see the Elves!"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "Gentlemen, we do not stop 'till nightfall."
     },
     {
@@ -1779,7 +1777,7 @@
       "text": "What about breakfast?"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "We've already had it."
     },
     {
@@ -1803,7 +1801,7 @@
       "text": "What do they eat — when they can't get Hobbit?"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "Tinúviel elvanui, Elleth alfirin ethelhael O hon ring finnil fuinui A renc gelebrin thiliol."
     },
     {
@@ -1811,7 +1809,7 @@
       "text": "Who is she? This woman you sing of?"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "'Tis the Lay of Lúthien. The Elf-maiden who gave her love to Beren, a mortal."
     },
     {
@@ -1819,11 +1817,11 @@
       "text": "What happened to her?"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "She died."
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "Get some sleep, Frodo."
     },
     {
@@ -1851,11 +1849,11 @@
       "text": "Rip them all down!"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "This was the great watchtower of Amon Sûl. We shall rest here tonight."
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "These are for you. Keep them close. I'm going to have a look around. Stay here."
     },
     {
@@ -1919,15 +1917,15 @@
       "text": "Strider! Help him, Strider!"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "He's been stabbed by a Morgul blade."
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "This is beyond my skill to heal. He needs Elvish medicine."
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "Hurry!"
     },
     {
@@ -1939,7 +1937,7 @@
       "text": "Gandalf…"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "Hold on, Frodo."
     },
     {
@@ -1983,7 +1981,7 @@
       "text": "Is he going to die?"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "He's passing into the shadow world. He will soon become a wraith like them."
     },
     {
@@ -1991,7 +1989,7 @@
       "text": "They're close."
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "Sam, do you know Athelas plant?"
     },
     {
@@ -1999,7 +1997,7 @@
       "text": "Athelas?"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "Kingsfoil?"
     },
     {
@@ -2007,7 +2005,7 @@
       "text": "Kingsfoil — aye, it's a weed."
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "It may help to slow the poison. Hurry!"
     },
     {
@@ -2051,7 +2049,7 @@
       "text": "There are five wraiths behind you. Where the other four are, I do not know."
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "Dartho guin perian. Rych le ad tolthathon."
     },
     {
@@ -2059,7 +2057,7 @@
       "text": "Hon mabathon. Rochon ellint im."
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "Andelu i ven."
     },
     {
@@ -2075,11 +2073,11 @@
       "text": "I do not fear them."
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "Be iest lîn."
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "Arwen, ride hard. Don't look back!"
     },
     {
@@ -2363,7 +2361,7 @@
       "text": "You are no Elf!"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "The Men of the South are welcome here."
     },
     {
@@ -2371,7 +2369,7 @@
       "text": "Who are you?"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "I am a friend to Gandalf the Grey."
     },
     {
@@ -2399,7 +2397,7 @@
       "text": "Why do you fear the past? You are Isildur's heir, not Isildur himself. You are not bound to his fate."
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "The same blood flows in my veins. Same weakness."
     },
     {
@@ -3163,7 +3161,7 @@
       "text": "Strider!"
     },
     {
-      "character": "STRIDER",
+      "character": "ARAGORN",
       "text": "Yaghh!"
     },
     {
@@ -4335,7 +4333,7 @@
       "text": "Would you destroy it?"
     },
     {
-      "character": "THE RING",
+      "character": "RING",
       "text": "Aragorn… Aragorn… Elessar…"
     },
     {
@@ -4617,5 +4615,26 @@
   "rated": "PG-13",
   "runtime": "178 min",
   "genre": "Adventure, Drama, Fantasy",
-  "director": "Peter Jackson"
+  "director": "Peter Jackson",
+  "topSpeakingCast": [
+    "GANDALF",
+    "FRODO",
+    "ARAGORN",
+    "BILBO",
+    "SAM",
+    "BOROMIR",
+    "GALADRIEL",
+    "MERRY",
+    "GIMLI",
+    "PIPPIN",
+    "SARUMAN",
+    "ELROND",
+    "ARWEN",
+    "LEGOLAS",
+    "ELVES",
+    "CELEBORN",
+    "GOLLUM",
+    "HALDIR",
+    "MERRY AND PIPPIN"
+  ]
 }

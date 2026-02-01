@@ -5,9 +5,6 @@
   "characters": [
     "AGENT COULSON",
     "CAOC ANALYST",
-    "CAOC ANALYST #1",
-    "CAOC ANALYST #2",
-    "CAOC ANALYST #3",
     "CAPTAIN",
     "CHRISTINE EVERHART",
     "DEALER",
@@ -19,8 +16,6 @@
     "JARVIS",
     "MAJOR ALLEN",
     "MAN",
-    "MAN #1",
-    "MAN #2",
     "NEWCASTER",
     "NICK FURY",
     "OBADIAH STANE",
@@ -969,11 +964,11 @@
       "text": "That's palladium, 0.15 grams. We need at least 1.6, so why don't you go break down the other 11?"
     },
     {
-      "character": "MAN #1",
+      "character": "MAN",
       "text": "What's he doing?"
     },
     {
-      "character": "MAN #2",
+      "character": "MAN",
       "text": "Working."
     },
     {
@@ -1069,19 +1064,19 @@
       "text": "No? So you're a man who has everything and nothing."
     },
     {
-      "character": "MAN #1",
+      "character": "MAN",
       "text": "It doesn't look anything like the picture."
     },
     {
-      "character": "MAN #2",
+      "character": "MAN",
       "text": "Maybe it's been modified."
     },
     {
-      "character": "MAN #1",
+      "character": "MAN",
       "text": "The tail is wrong."
     },
     {
-      "character": "MAN #2",
+      "character": "MAN",
       "text": "It's just backwards."
     },
     {
@@ -2821,7 +2816,7 @@
       "text": "What the hell was that? Were we cleared to go in there?"
     },
     {
-      "character": "CAOC ANALYST #1",
+      "character": "CAOC ANALYST",
       "text": "No sir, they were using human shields. We never got the green light"
     },
     {
@@ -2829,15 +2824,15 @@
       "text": "Put me through to State. They're going to be all over this."
     },
     {
-      "character": "CAOC ANALYST #1",
+      "character": "CAOC ANALYST",
       "text": "Get those monitors up!"
     },
     {
-      "character": "CAOC ANALYST #1",
+      "character": "CAOC ANALYST",
       "text": "We got a bogey!"
     },
     {
-      "character": "CAOC ANALYST #1",
+      "character": "CAOC ANALYST",
       "text": "Wasn't Air Force!"
     },
     {
@@ -2849,15 +2844,15 @@
       "text": "I've got Langley on the line. They want to know if it's us."
     },
     {
-      "character": "CAOC ANALYST #1",
+      "character": "CAOC ANALYST",
       "text": "No, it definitely is not us, sir!"
     },
     {
-      "character": "CAOC ANALYST #2",
+      "character": "CAOC ANALYST",
       "text": "It wasn't Navy."
     },
     {
-      "character": "CAOC ANALYST #3",
+      "character": "CAOC ANALYST",
       "text": "Wasn't Marines."
     },
     {
@@ -2865,7 +2860,7 @@
       "text": "I need answers! Can I please get eyes on target?"
     },
     {
-      "character": "CAOC ANALYST #1",
+      "character": "CAOC ANALYST",
       "text": "Negative, negative. Cannot identify."
     },
     {
@@ -2881,15 +2876,15 @@
       "text": "I've got Langley on the line. They want to know if it's us."
     },
     {
-      "character": "CAOC ANALYST #1",
+      "character": "CAOC ANALYST",
       "text": "No, it definitely is not us, sir!"
     },
     {
-      "character": "CAOC ANALYST #2",
+      "character": "CAOC ANALYST",
       "text": "It wasn't Navy."
     },
     {
-      "character": "CAOC ANALYST #3",
+      "character": "CAOC ANALYST",
       "text": "Wasn't Marines."
     },
     {
@@ -2921,7 +2916,7 @@
       "text": "So, this thing just appeared out of nowhere? How come it didn't show up on the radar?"
     },
     {
-      "character": "CAOC ANALYST #1",
+      "character": "CAOC ANALYST",
       "text": "Got a minimal radar cross-section, sir."
     },
     {
@@ -2929,7 +2924,7 @@
       "text": "Is it stealth?"
     },
     {
-      "character": "CAOC ANALYST #1",
+      "character": "CAOC ANALYST",
       "text": "No, sir, it's tiny. We think it's an unmanned aerial vehicle."
     },
     {
@@ -3093,7 +3088,7 @@
       "text": "That thing just jumped off the radar, sir."
     },
     {
-      "character": "CAOC ANALYST #2",
+      "character": "CAOC ANALYST",
       "text": "The sat visual has been lost."
     },
     {
@@ -3991,6 +3986,14 @@
     "YINSEN",
     "JARVIS",
     "CHRISTINE EVERHART",
-    "AGENT COULSON"
+    "AGENT COULSON",
+    "CAOC ANALYST",
+    "MAJOR ALLEN",
+    "RAZA",
+    "PILOT #1",
+    "MAN",
+    "PILOT #2",
+    "HAPPY HOGAN",
+    "SOLDIER (JIMMY)"
   ]
 }

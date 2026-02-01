@@ -10,11 +10,10 @@
     "BOY",
     "BOY 1",
     "BOY 2",
-    "BUDDY (LNCREDIBOY)",
+    "BUDDY (INCREDIBOY)",
     "DASH",
     "DASH/VIOLET",
     "E",
-    "ELASTIGIRL",
     "FRANK THOMAS",
     "FROZONE",
     "GIRL",
@@ -28,7 +27,6 @@
     "HONEY BEST",
     "HUPH",
     "HUPH'S SECRETARY",
-    "INCREDIBOY",
     "INTERVIEWER",
     "JACK-JACK",
     "KARI",
@@ -38,7 +36,6 @@
     "MECHA-MACAW",
     "MINISTER",
     "MIRAGE",
-    "MR. INCREDIBLE",
     "MR. INCREDIBLE'S LAWYER",
     "MRS. HOGENSON",
     "NEWS REPORTER ON TV",
@@ -55,7 +52,6 @@
     "PRINCIPAL",
     "PROBE",
     "REPORTER",
-    "RICK",
     "RICK DICKER",
     "RUSTY",
     "SANSWEET",
@@ -74,7 +70,7 @@
   ],
   "lines": [
     {
-      "character": "MR. INCREDIBLE",
+      "character": "BOB (MR. INCREDIBLE)",
       "text": "Is this on?"
     },
     {
@@ -82,7 +78,7 @@
       "text": "That’s fine."
     },
     {
-      "character": "MR. INCREDIBLE",
+      "character": "BOB (MR. INCREDIBLE)",
       "text": "I can break through walls, I just can’t…"
     },
     {
@@ -90,7 +86,7 @@
       "text": "That’s fine."
     },
     {
-      "character": "MR. INCREDIBLE",
+      "character": "BOB (MR. INCREDIBLE)",
       "text": "I can’t get this on."
     },
     {
@@ -98,11 +94,11 @@
       "text": "So, Mr. Incredible, do you have a secret identity?"
     },
     {
-      "character": "MR. INCREDIBLE",
+      "character": "BOB (MR. INCREDIBLE)",
       "text": "Every superhero has a secret identity. I don’t know a single one who doesn’t. Who wants the pressure of being super all the time?"
     },
     {
-      "character": "ELASTIGIRL",
+      "character": "HELEN (ELASTIGIRL)",
       "text": "Of course I have a secret identity. Can you see me in this at the supermarket? Come on. Who’d wanna go shopping as Elastigirl, y’know what I mean?"
     },
     {
@@ -110,7 +106,7 @@
       "text": "Super Ladies, they’re always tryna tell you their secret identity. Think it’ll strengthen the relationship or somethin' like that. I said, \"Girl, I don’t wanna know about your mild-mannered alter ego.\" or anything like that. I mean, you tell me you’re a super-mega-ultra-lightnin'-babe, that’s all right with me. I’m good. I’m good."
     },
     {
-      "character": "MR. INCREDIBLE",
+      "character": "BOB (MR. INCREDIBLE)",
       "text": "No matter how many times you save the world, it always manages to get back in jeopardy again. Sometimes I just want it to stay saved, you know? For a little bit. I feel like the maid. I just cleaned up this mess. Can we keep it clean for ten minutes?"
     },
     {
@@ -118,7 +114,7 @@
       "text": "I could get to that point."
     },
     {
-      "character": "MR. INCREDIBLE",
+      "character": "BOB (MR. INCREDIBLE)",
       "text": "Please?"
     },
     {
@@ -126,11 +122,11 @@
       "text": "Wait, no, don’t get up. We’re not finished."
     },
     {
-      "character": "MR. INCREDIBLE",
+      "character": "BOB (MR. INCREDIBLE)",
       "text": "Sometimes I think I’d just like the simple life, you know? Relax a little and raise a family."
     },
     {
-      "character": "ELASTIGIRL",
+      "character": "HELEN (ELASTIGIRL)",
       "text": "Settle down? Are you kidding? I’m at the top of my game ! I’m right up there with the big dogs! Girls, come on. Leave the saving of the world to the men ? I don’t think so. I don’t think so."
     },
     {
@@ -186,7 +182,7 @@
       "text": "Tour bus robbery. I’ve still got time. Officers. Ma’am. Squeaker."
     },
     {
-      "character": "BUDDY (LNCREDIBOY)",
+      "character": "BUDDY (INCREDIBOY)",
       "text": "Cool! Ready for take-off!"
     },
     {
@@ -194,7 +190,7 @@
       "text": "What the…? Who are you supposed to be?"
     },
     {
-      "character": "BUDDY (LNCREDIBOY)",
+      "character": "BUDDY (INCREDIBOY)",
       "text": "Well, I’m lncrediBoy."
     },
     {
@@ -202,7 +198,7 @@
       "text": "What? No. You’re that kid from the fan club. [stammering] Brophy-Br-Brody-Bu-Buddy! [sternly] Buddy."
     },
     {
-      "character": "BUDDY (LNCREDIBOY)",
+      "character": "BUDDY (INCREDIBOY)",
       "text": "My name is IncrediBoy."
     },
     {
@@ -210,11 +206,11 @@
       "text": "Look, I’ve been nice, I’ve stood for photos, signed every scrap of paper you pushed at me, but this is…"
     },
     {
-      "character": "BUDDY (LNCREDIBOY)",
+      "character": "BUDDY (INCREDIBOY)",
       "text": "No, you don’t have to worry about training me. I know all your moves, your crime fighting style, favorite catch phrases, everything! I’m your number one fan!"
     },
     {
-      "character": "BUDDY (LNCREDIBOY)",
+      "character": "BUDDY (INCREDIBOY)",
       "text": "Hey! Hey, wait!"
     },
     {
@@ -346,7 +342,7 @@
       "text": "Monsieur Incroyable! [Translation: Mr. Incredible!]"
     },
     {
-      "character": "INCREDIBOY",
+      "character": "BUDDY (INCREDIBOY)",
       "text": "And lncrediBoy!"
     },
     {
@@ -354,7 +350,7 @@
       "text": "lncrediBoy?"
     },
     {
-      "character": "INCREDIBOY",
+      "character": "BUDDY (INCREDIBOY)",
       "text": "Hey, hey! Aren’t you curious about how I get around so fast? See? I have these rocket boots--"
     },
     {
@@ -362,7 +358,7 @@
       "text": "Go home, Buddy."
     },
     {
-      "character": "INCREDIBOY",
+      "character": "BUDDY (INCREDIBOY)",
       "text": "What?"
     },
     {
@@ -374,7 +370,7 @@
       "text": "Petit idiot. [Translation: Little oaf.]"
     },
     {
-      "character": "INCREDIBOY",
+      "character": "BUDDY (INCREDIBOY)",
       "text": "Can we talk? You always, always say be true to yourself, but you never say which part of yourself to be true to. Well, I’ve finally figured out who I am. I am your ward…lncrediBoy!"
     },
     {
@@ -382,7 +378,7 @@
       "text": "And now, you have officially carried it too far, Buddy."
     },
     {
-      "character": "INCREDIBOY",
+      "character": "BUDDY (INCREDIBOY)",
       "text": "This is because I don’t have powers, isn’t it? Well not every superhero has powers, you know. You can be super without them. [re: his rocket boots] I built these. I can fly. Can you fly?"
     },
     {
@@ -394,7 +390,7 @@
       "text": "Et ton costume est complètement ridicule! [Translation: And your outfit is totally ridiculous!]"
     },
     {
-      "character": "INCREDIBOY",
+      "character": "BUDDY (INCREDIBOY)",
       "text": "Just give me one chance! [to Bomb Voyage] I’ll show you. I’ll go get the police."
     },
     {
@@ -402,7 +398,7 @@
       "text": "Buddy, don’t!"
     },
     {
-      "character": "INCREDIBOY",
+      "character": "BUDDY (INCREDIBOY)",
       "text": "It’ll only take a second, really."
     },
     {
@@ -410,7 +406,7 @@
       "text": "No, stop! There’s a bomb!"
     },
     {
-      "character": "INCREDIBOY",
+      "character": "BUDDY (INCREDIBOY)",
       "text": "Let go! You’re wrecking my flight pattern! I can do this if you let go!"
     },
     {
@@ -418,7 +414,7 @@
       "text": "Will you just…?? I’m trying to help! Stop!"
     },
     {
-      "character": "INCREDIBOY",
+      "character": "BUDDY (INCREDIBOY)",
       "text": "Let go of my cape!"
     },
     {
@@ -426,7 +422,7 @@
       "text": "Take this one home. And make sure his mom knows what he's been doing ."
     },
     {
-      "character": "INCREDIBOY",
+      "character": "BUDDY (INCREDIBOY)",
       "text": "I can help you. You’re making a mista---hey!"
     },
     {
@@ -446,7 +442,7 @@
       "text": "Take this one home. And make sure his mom knows what he's been doing."
     },
     {
-      "character": "INCREDIBOY",
+      "character": "BUDDY (INCREDIBOY)",
       "text": "I can help you. You’re making a mista---hey!"
     },
     {
@@ -470,7 +466,7 @@
       "text": "Well, yeah. Skippy here made sure of that."
     },
     {
-      "character": "INCREDIBOY",
+      "character": "BUDDY (INCREDIBOY)",
       "text": "lncrediBoy!"
     },
     {
@@ -562,7 +558,7 @@
       "text": "Mr. Sansweet didn’t ask to be saved, Mr. Sansweet didn’t wanna be saved! And the injury received from Mr. Incredible’s \"actions\", so-called causes him daily pain!"
     },
     {
-      "character": "MR. INCREDIBLE",
+      "character": "BOB (MR. INCREDIBLE)",
       "text": "Hey, I saved your life!"
     },
     {
@@ -570,7 +566,7 @@
       "text": "You didn’t save my life, you ruined my death! That’s what you did...!"
     },
     {
-      "character": "MR. INCREDIBLE",
+      "character": "BOB (MR. INCREDIBLE)",
       "text": "Listen, you little"
     },
     {
@@ -1722,7 +1718,7 @@
       "text": "How is he?"
     },
     {
-      "character": "RICK",
+      "character": "RICK DICKER",
       "text": "He’ll live."
     },
     {
@@ -1730,7 +1726,7 @@
       "text": "I’m fired, aren’t I?"
     },
     {
-      "character": "RICK",
+      "character": "RICK DICKER",
       "text": "Oh, you think?"
     },
     {
@@ -1738,7 +1734,7 @@
       "text": "What can I say, Rick?"
     },
     {
-      "character": "RICK",
+      "character": "RICK DICKER",
       "text": "Nothin' you haven’t said before."
     },
     {
@@ -1746,7 +1742,7 @@
       "text": "Someone was in trouble."
     },
     {
-      "character": "RICK",
+      "character": "RICK DICKER",
       "text": "Someone’s always in trouble."
     },
     {
@@ -1754,7 +1750,7 @@
       "text": "I had to do something."
     },
     {
-      "character": "RICK",
+      "character": "RICK DICKER",
       "text": "Yeah. Every time you say those words, it means a month and a half of trouble for me, Bob. It means hundreds of thousands of taxpayer’s dollars."
     },
     {
@@ -1762,15 +1758,15 @@
       "text": "I know."
     },
     {
-      "character": "RICK",
+      "character": "RICK DICKER",
       "text": "We gotta pay to keep the company quiet. We gotta pay damages, erase memories, relocate your family. Every time it gets harder. Money, money, money, money, money. W-We can’t keep doin' this, Bob! We appreciate what you did in the old days, but those days are over. From now on, you're on your own."
     },
     {
-      "character": "RICK",
+      "character": "RICK DICKER",
       "text": "Uh, listen, Bob."
     },
     {
-      "character": "RICK",
+      "character": "RICK DICKER",
       "text": "Maybe I could relocate you. You know, for old times’ sake."
     },
     {
@@ -1778,7 +1774,7 @@
       "text": "No. I can’t do that to my family. Everyone just got settled. I’ll make it work. Thanks."
     },
     {
-      "character": "RICK",
+      "character": "RICK DICKER",
       "text": "Take care of yourself."
     },
     {
@@ -4424,17 +4420,22 @@
     "BOB (MR. INCREDIBLE)",
     "HELEN (ELASTIGIRL)",
     "DASH",
-    "BOB (MR. INCREDIBLE)",
     "VIOLET",
-    "HELEN (ELASTIGIRL)",
     "E",
     "SYNDROME",
     "MIRAGE",
     "LUCIUS",
     "HUPH",
+    "BUDDY (INCREDIBOY)",
     "BERNIE",
     "GUARD",
-    "INCREDIBOY",
-    "FROZONE"
+    "FROZONE",
+    "RICK DICKER",
+    "KARI",
+    "TONY",
+    "WOMAN",
+    "HONEY BEST",
+    "POLICE OFFICER",
+    "INTERVIEWER"
   ]
 }

@@ -6,8 +6,9 @@ import { Legal } from './pages/Legal.jsx';
 import { About } from './pages/About.jsx';
 import { Navigation } from './components/Navigation.jsx';
 import { Menu } from './components/Menu.jsx';
-import { HelpModal } from './components/Help.jsx';
+import { HelpModal, openHelpModal } from './components/Help.jsx';
 import { track } from './utils/analytics.js';
+import { isFirstVisit, markAsVisited } from './services/storage.js';
 
 const routes = {
   '/': Home,
@@ -52,7 +53,13 @@ function navigate(path, replace = false) {
 }
 
 function handleRoute() {
-  const path = window.location.pathname || '/';
+  let path = window.location.pathname || '/';
+
+  // Normalize: remove trailing slash (except for root)
+  if (path !== '/' && path.endsWith('/')) {
+    path = path.slice(0, -1);
+  }
+
   const matched = matchRoute(path);
 
   if (!matched) {
@@ -87,6 +94,11 @@ function init() {
   render(<Menu />, document.getElementById('menu-container'));
   render(<HelpModal />, document.getElementById('help-modal-container'));
   render(<StatsModalContainer />, document.getElementById('stats-modal-container'));
+
+  if (isFirstVisit()) {
+    openHelpModal();
+    markAsVisited();
+  }
 
   window.addEventListener('popstate', handleRoute);
 

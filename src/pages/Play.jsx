@@ -53,7 +53,6 @@ export function Play({ packId }) {
                 setData({
                     dailyPuzzle: packData.dailyPuzzle,
                     manifest: packData.manifest,
-                    allPacks: packData.allPacks,
                     packData: packData.packData
                 });
 
@@ -102,7 +101,6 @@ export function Play({ packId }) {
             <Game
                 dailyPuzzle={data.dailyPuzzle}
                 manifest={data.manifest}
-                allPacks={data.allPacks}
                 packData={data.packData}
             />
         </div>

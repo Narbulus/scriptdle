@@ -56,7 +56,6 @@
     "SEVERUS SNAPE",
     "SNATCHER",
     "VERNON DURSLEY",
-    "VOLDEMONT",
     "VOLDEMORT",
     "WAKANDA",
     "WITCH",
@@ -746,7 +745,7 @@
       "text": "No!  No!  I believed a different wand would work, I swear!"
     },
     {
-      "character": "VOLDEMONT",
+      "character": "VOLDEMORT",
       "text": "Then explain this!"
     },
     {
@@ -762,7 +761,7 @@
       "text": "No!  There must be a way!  I'll think of something else!"
     },
     {
-      "character": "VOLDEMONT",
+      "character": "VOLDEMORT",
       "text": "I hope so, Ollivander, for your sake.  I won't be so forgiving next time..."
     },
     {
@@ -4151,5 +4150,27 @@
   "rated": "PG-13",
   "runtime": "146 min",
   "genre": "Adventure, Family, Fantasy",
-  "director": "David Yates"
+  "director": "David Yates",
+  "topSpeakingCast": [
+    "HARRY POTTER",
+    "HERMIONE GRANGER",
+    "RON WEASLEY",
+    "VOLDEMORT",
+    "XENOPHILIUS LOVEGOOD",
+    "ALASTOR MOODY",
+    "BELLATRIX LESTRANGE",
+    "RUFUS SCRIMGEOUR",
+    "DOBBY",
+    "SCABIOR",
+    "ARTHUR WEASLEY",
+    "REMUS LUPIN",
+    "ELPHIAS DOGE",
+    "RUBEUS HAGRID",
+    "FRED WEASLEY",
+    "KREACHER",
+    "GEORGE WEASLEY",
+    "DOLORES UMBRIDGE",
+    "GINNY WEASLEY",
+    "LUNA LOVEGOOD"
+  ]
 }

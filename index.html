@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scriptle - Daily Movie Quote Guessing Game</title>
-  <meta name="description" content="Play Scriptle daily! Guess the movie from gradually revealed quotes. Test your film knowledge with Star Wars, Harry Potter, Marvel, Pixar and more.">
+  <meta name="description"
+    content="Play Scriptle daily! Guess the movie from gradually revealed quotes. Test your film knowledge with Star Wars, Harry Potter, Marvel, Pixar and more.">
   <meta name="keywords" content="movie quotes game, movie trivia, daily puzzle, film quotes, movie guessing game">
   <meta name="author" content="Scriptle">
   <link rel="icon" type="image/png" href="/favicon.png">
@@ -12,6 +14,84 @@
   <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://www.googletagmanager.com">
   <link rel="preconnect" href="https://www.google-analytics.com">
+
+  <!-- Critical CSS for loading skeleton -->
+  <style>
+    /* Main theme defaults */
+    :root {
+      --main-bg: #0d1b2a;
+      --main-nav-bg: #2d4059;
+      --main-text: #e0e1dd;
+      --script-bg: #faebd7;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      padding: 0;
+      background: var(--main-bg);
+      line-height: 1.2;
+    }
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .nav-bar-skeleton {
+      background: var(--main-nav-bg);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .nav-logo-skeleton {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: var(--main-text);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .loading-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .loading-text {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--main-text);
+      text-align: center;
+      padding: 2rem;
+      opacity: 0.7;
+    }
+
+    /* Gameplay specific */
+    .loading-content.gameplay {
+      background: var(--script-bg);
+    }
+
+    @media (max-width: 600px) {
+      .nav-bar-skeleton {
+        padding: 0.75rem 1.25rem;
+      }
+
+      .nav-logo-skeleton {
+        font-size: 1.25rem;
+      }
+    }
+  </style>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=%VITE_GA_MEASUREMENT_ID%"></script>
@@ -27,7 +107,7 @@
 
   <!-- Apply theme immediately based on URL -->
   <script>
-    (function() {
+    (function () {
       // Parse URL to get pack ID
       const pathMatch = window.location.pathname.match(/^\/play\/([^\/]+)/);
       if (pathMatch && window.SCRIPTLE_THEMES) {
@@ -42,17 +122,51 @@
           root.style.setProperty('--container-bg', theme.containerBg || theme.bgColor);
           root.style.setProperty('--accent-color', theme.accentColor || theme.primary);
           root.style.setProperty('--btn-text', theme.btnText);
+
+          // Apply to loading skeleton
+          document.body.style.background = theme.bgColor;
+
+          // Store for DOM ready application
+          window.SCRIPTLE_PACK_THEME = theme;
         }
       }
+
+      // Apply loading skeleton theming when DOM is ready
+      document.addEventListener('DOMContentLoaded', function () {
+        const theme = window.SCRIPTLE_PACK_THEME;
+        if (theme) {
+          // Update nav bar for gameplay
+          const navBar = document.querySelector('.nav-bar-skeleton');
+          if (navBar) navBar.style.background = theme.bgColor;
+
+          // Update loading text color
+          const loadingText = document.querySelector('.loading-text');
+          if (loadingText) loadingText.style.color = theme.primary;
+
+          // Update loading content background (script area style)
+          const loadingContent = document.querySelector('.loading-content');
+          if (loadingContent) {
+            loadingContent.classList.add('gameplay');
+            loadingContent.style.background = theme.containerBg || '#faebd7';
+          }
+        }
+      });
     })();
   </script>
 </head>
+
 <body>
   <div id="app">
     <div class="container">
-      <div id="loading" style="text-align:center; font-family:sans-serif;">Loading...</div>
+      <nav class="nav-bar-skeleton">
+        <div class="nav-logo-skeleton">Scriptle</div>
+      </nav>
+      <div class="loading-content">
+        <div class="loading-text">Loading...</div>
+      </div>
     </div>
   </div>
   <script type="module" src="/src/main.js"></script>
 </body>
+
 </html>

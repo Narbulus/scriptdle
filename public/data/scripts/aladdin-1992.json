@@ -39,7 +39,6 @@
     "MELON MERCHANT",
     "NECKLACE MERCHANT",
     "NUT MERCHANT",
-    "OLD MAN",
     "PEABO BRYSON",
     "PEDDLER",
     "RAZOUL",
@@ -1272,7 +1271,7 @@
       "text": "I’m a… I’m a fool."
     },
     {
-      "character": "OLD MAN",
+      "character": "JAFAR",
       "text": "You’re only a fool if you give up, boy."
     },
     {
@@ -1280,7 +1279,7 @@
       "text": "Who are you?"
     },
     {
-      "character": "OLD MAN",
+      "character": "JAFAR",
       "text": "A lowly prisoner like yourself. But together, perhaps we can be more."
     },
     {
@@ -1288,7 +1287,7 @@
       "text": "I’m listening."
     },
     {
-      "character": "OLD MAN",
+      "character": "JAFAR",
       "text": "There is a cave, boy... a Cave of Wonders, filled with treasures beyond your wildest dreams. Treasure enough to impress even your princess, I’d wager."
     },
     {
@@ -1300,7 +1299,7 @@
       "text": "But the law says that only a prince can…"
     },
     {
-      "character": "OLD MAN",
+      "character": "JAFAR",
       "text": "You’ve heard of the golden rule, haven’t you? Whoever has the gold makes the rules."
     },
     {
@@ -1308,7 +1307,7 @@
       "text": "So why would you share all this wonderful treasure with me?"
     },
     {
-      "character": "OLD MAN",
+      "character": "JAFAR",
       "text": "I need a young pair of legs and a strong back to go in after it."
     },
     {
@@ -1316,7 +1315,7 @@
       "text": "Uh, one problem. It’s out there. We’re in here."
     },
     {
-      "character": "OLD MAN",
+      "character": "JAFAR",
       "text": "Mm-mm-mm. Things aren’t always what they seem. So… do we have a deal?"
     },
     {
@@ -1336,7 +1335,7 @@
       "text": "PROCEED. TOUCH NOTHING BUT THE LAMP."
     },
     {
-      "character": "OLD MAN",
+      "character": "JAFAR",
       "text": "Remember, boy, first fetch me the lamp, and then, you shall have your reward!"
     },
     {
@@ -1456,7 +1455,7 @@
       "text": "Help me out!"
     },
     {
-      "character": "OLD MAN",
+      "character": "JAFAR",
       "text": "Throw me the lamp!"
     },
     {
@@ -1464,11 +1463,11 @@
       "text": "I can’t hold on. Give me your hand!"
     },
     {
-      "character": "OLD MAN",
+      "character": "JAFAR",
       "text": "First, give me the lamp!"
     },
     {
-      "character": "OLD MAN",
+      "character": "JAFAR",
       "text": "Ha-ha-ha-ha! Yes! At last! Ha-ha-ha-ha!"
     },
     {
@@ -1476,11 +1475,11 @@
       "text": "What are you doing?!"
     },
     {
-      "character": "OLD MAN",
+      "character": "JAFAR",
       "text": "Giving you your reward."
     },
     {
-      "character": "OLD MAN",
+      "character": "JAFAR",
       "text": "Your eternal reward."
     },
     {
@@ -3632,6 +3631,15 @@
     "PEABO BRYSON",
     "ABU",
     "REGINA BELLE",
-    "RAZOUL"
+    "RAZOUL",
+    "PEDDLER",
+    "GUARDS",
+    "CHORUS",
+    "ACHMED",
+    "CAVE",
+    "FAROUK",
+    "GAZEEM",
+    "GIRLS",
+    "BOTH"
   ]
 }

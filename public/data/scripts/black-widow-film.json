@@ -10,7 +10,6 @@
     "BARTON",
     "DREYKOV",
     "DRIVER",
-    "GIRL",
     "GUARD",
     "HUGO DRAX",
     "INGRID",
@@ -31,7 +30,7 @@
   ],
   "lines": [
     {
-      "character": "GIRL",
+      "character": "NATASHA",
       "text": "Hey, Nat!"
     },
     {
@@ -3437,7 +3436,9 @@
     "ALEXEI",
     "MELINA",
     "DREYKOV",
-    "RICK MASON"
+    "RICK MASON",
+    "INGRID",
+    "THADDEUS ROSS"
   ],
   "imdbId": "tt3480822",
   "poster": "https://m.media-amazon.com/images/M/MV5BZTMyZTA0ZTItYjY3Yi00ODNjLWExYTgtYzgxZTk0NTg0Y2FlXkEyXkFqcGc@._V1_SX300.jpg",

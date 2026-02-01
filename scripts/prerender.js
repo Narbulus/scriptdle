@@ -1,5 +1,4 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
-import { resolve } from 'path';
 
 const BASE_URL = 'https://www.scriptle.net';
 

@@ -9,7 +9,6 @@
     "DARTH VADER",
     "FIGHTERS COMING IN",
     "GET CLEAR",
-    "HAN",
     "HAN SOLO",
     "HE'LL BE ALL RIGHT",
     "HEY",
@@ -232,7 +231,7 @@
       "text": "I just knew it."
     },
     {
-      "character": "HAN",
+      "character": "HAN SOLO",
       "text": "Well, I wasn't going to let you get all the credit and take all the reward."
     },
     {
@@ -287,5 +286,8 @@
   "rated": "PG",
   "runtime": "121 min",
   "genre": "Action, Adventure, Fantasy",
-  "director": "George Lucas"
+  "director": "George Lucas",
+  "topSpeakingCast": [
+    "DARTH VADER"
+  ]
 }

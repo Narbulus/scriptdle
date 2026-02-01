@@ -1,4 +1,22 @@
 const STORAGE_PREFIX = 'scriptle:';
+const HAS_VISITED_KEY = `${STORAGE_PREFIX}hasVisited`;
+
+export function isFirstVisit() {
+    if (localStorage.getItem(HAS_VISITED_KEY)) {
+        return false;
+    }
+    for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (key && key.startsWith(STORAGE_PREFIX)) {
+            return false;
+        }
+    }
+    return true;
+}
+
+export function markAsVisited() {
+    localStorage.setItem(HAS_VISITED_KEY, 'true');
+}
 
 export function getTodayKey() {
     return new Date().toISOString().split('T')[0];
@@ -42,7 +60,7 @@ export function getPackHistory(packId) {
                     const date = key.split(':').pop();
                     history.push({ ...data, date });
                 }
-            } catch (e) {
+            } catch {
                 // Ignore corrupted entries
             }
         }

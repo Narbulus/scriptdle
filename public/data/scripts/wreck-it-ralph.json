@@ -16,7 +16,6 @@
     "CROWD",
     "DEANNA",
     "DUNCAN",
-    "ELIX",
     "FELIX",
     "FEMALE ANNOUNCER",
     "GENE",
@@ -25,7 +24,6 @@
     "KING CANDY",
     "KING CANDY / TURBO",
     "KOHUT",
-    "LITWAK",
     "MALE CUSTOMER",
     "MARKOWSKI",
     "MARY",
@@ -55,7 +53,7 @@
   ],
   "lines": [
     {
-      "character": "ELIX",
+      "character": "FELIX",
       "text": "How about we just eat the cake!"
     },
     {
@@ -271,7 +269,7 @@
       "text": "@!?#?"
     },
     {
-      "character": "LITWAK",
+      "character": "MR. LITWAK",
       "text": "Morning, kids. Come on in. Good to see you. Good to see you. You, too, little fella."
     },
     {
@@ -515,7 +513,7 @@
       "text": "Mr. Litwak!"
     },
     {
-      "character": "LITWAK",
+      "character": "MR. LITWAK",
       "text": "What's the trouble, sweetheart?"
     },
     {
@@ -3308,5 +3306,26 @@
   "rated": "PG",
   "runtime": "101 min",
   "genre": "Animation, Adventure, Comedy",
-  "director": "Rich Moore"
+  "director": "Rich Moore",
+  "topSpeakingCast": [
+    "RALPH",
+    "VANELLOPE",
+    "FELIX",
+    "KING CANDY",
+    "CALHOUN",
+    "SOUR BILL",
+    "ANNOUNCER",
+    "GENE",
+    "TAFFYTA",
+    "MARKOWSKI",
+    "Q*BERT",
+    "VOICE",
+    "WYNNCHEL",
+    "GENERAL HOLOGRAM",
+    "80S PLAYER 1",
+    "DUNCAN",
+    "MOPPET GIRL",
+    "80S PLAYER 2",
+    "BRAD"
+  ]
 }

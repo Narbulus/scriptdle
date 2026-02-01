@@ -40,6 +40,10 @@ venv/
 
 # Generated daily puzzles (built at deploy time)
 public/data/daily/
+public/data/daily-all/
+
+# Test coverage output
+coverage/
 
 # Git worktrees
 .worktrees/

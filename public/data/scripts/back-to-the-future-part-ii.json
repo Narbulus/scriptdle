@@ -10,7 +10,6 @@
     "1979 BIFF",
     "1985 DOC",
     "1985 JENNIFER",
-    "1985 MARTY",
     "1985A BIFF",
     "1985A LORRAINE",
     "1985A RED",
@@ -48,7 +47,6 @@
     "LORRAINE",
     "LORRAINE BAINES",
     "MARLENE",
-    "MARTY 1",
     "MARTY JR.",
     "MARTY MCFLY",
     "MATCH",
@@ -2710,7 +2708,7 @@
       "text": "You've got a real attitude problem. You know that, Tannen? Just watch it. Because one day, I'll have you right where I want you in detention. Slacker!"
     },
     {
-      "character": "MARTY 1",
+      "character": "MARTY MCFLY",
       "text": "Jesus, you smoke, too?"
     },
     {
@@ -2718,7 +2716,7 @@
       "text": "Marty, you're beginning to sound just like my mother."
     },
     {
-      "character": "MARTY 1",
+      "character": "MARTY MCFLY",
       "text": "Yeah, right."
     },
     {
@@ -2726,11 +2724,11 @@
       "text": "When I have kids, I'm gonna let 'em do anything they want. Anything at all."
     },
     {
-      "character": "MARTY 1",
+      "character": "MARTY MCFLY",
       "text": "Yeah, I'd like to have that in writing."
     },
     {
-      "character": "1985 MARTY",
+      "character": "MARTY MCFLY",
       "text": "Yeah, me, too."
     },
     {
@@ -2746,7 +2744,7 @@
       "text": "You're beginning to sound just like my mother."
     },
     {
-      "character": "MARTY 1",
+      "character": "MARTY MCFLY",
       "text": "Yeah, right."
     },
     {
@@ -2754,11 +2752,11 @@
       "text": "When I have kids, I'm gonna let 'em do anything they want. Anything at all."
     },
     {
-      "character": "MARTY 1",
+      "character": "MARTY MCFLY",
       "text": "Yeah, I'd like to have that in writing."
     },
     {
-      "character": "1985 MARTY",
+      "character": "MARTY MCFLY",
       "text": "Yeah, me, too."
     },
     {
@@ -3377,12 +3375,11 @@
   "genre": "Adventure, Comedy, Sci-Fi",
   "director": "Robert Zemeckis",
   "topSpeakingCast": [
-    "MARTY",
-    "DOC",
+    "MARTY MCFLY",
+    "DOC BROWN",
     "1955 BIFF",
     "BIFF",
     "LORRAINE",
-    "MARTY MCFLY",
     "2015 MARTY (MARTY SR.)",
     "1985A BIFF",
     "MARTY JR.",
@@ -3391,6 +3388,12 @@
     "1985A LORRAINE",
     "2015 BIFF",
     "MARLENE",
-    "ALL"
+    "ALL",
+    "BIFF'S GUY",
+    "GEORGE",
+    "OFFICER FOLEY",
+    "1985A STRICKLAND",
+    "NEEDLES",
+    "TERRY"
   ]
 }

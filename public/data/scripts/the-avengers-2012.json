@@ -10,20 +10,15 @@
     "CLINT BARTON",
     "COUNCILMAN",
     "COUNCILMAN 2",
-    "COUNCILMEN 1",
-    "COUNCILMEN 2",
     "COUNCILWOMAN",
-    "COUNCILWOMEN",
     "ELDER GERMAN MAN",
     "ERIK SELVIG",
     "FEMALE CITIZEN",
-    "FURY",
     "GENERAL LUCHKOV",
     "HELMSMAN",
     "HULK",
     "HUSBAND",
     "INTERCOM VOICE",
-    "IRON MAN",
     "JARVIS",
     "JASPER SITWELL",
     "JET PILOT",
@@ -51,7 +46,6 @@
     "THE SENATOR",
     "THOR",
     "THUG 1",
-    "TONY",
     "TONY STARK",
     "WAITRESS",
     "WIFE",
@@ -635,7 +629,7 @@
       "text": "(smiles back at Natasha) Just you and me?"
     },
     {
-      "character": "COUNCILMEN 1",
+      "character": "COUNCILMAN",
       "text": "Director SHIELD operates under the world security council we should have been informed of all the details"
     },
     {
@@ -643,11 +637,11 @@
       "text": "The Council's interest in our work has always been about results not procedure"
     },
     {
-      "character": "COUNCILMEN 2",
+      "character": "COUNCILMAN 2",
       "text": "Agent Clint Barton is intimate with SHIELD procedure I believe and now we learn he is working with the enemy"
     },
     {
-      "character": "COUNCILMEN 2",
+      "character": "COUNCILMAN 2",
       "text": "A man whose talent appears to be..."
     },
     {
@@ -655,11 +649,11 @@
       "text": "killing, but he didn't kill me, he didn't go for the headshot he's been brainwashed but I won't write him off we're on Loki's trail, we're scrambling a response team"
     },
     {
-      "character": "COUNCILWOMEN",
+      "character": "COUNCILWOMAN",
       "text": "(spiteful) the avengers"
     },
     {
-      "character": "COUNCILMEN 1",
+      "character": "COUNCILMAN",
       "text": "The Avengers initiative was shut down director it was a volatile concept at the best of time which this is not"
     },
     {
@@ -667,7 +661,7 @@
       "text": "(lying) this is just a response team"
     },
     {
-      "character": "COUNCILWOMEN",
+      "character": "COUNCILWOMAN",
       "text": "(snapping) I suggest you make you're response rapid we all know what's at stake"
     },
     {
@@ -3487,11 +3481,11 @@
       "text": "The barrier is pure energy. It’s unbreachable."
     },
     {
-      "character": "IRON MAN",
+      "character": "TONY STARK",
       "text": "Yeah, I got that."
     },
     {
-      "character": "IRON MAN",
+      "character": "TONY STARK",
       "text": "plan B."
     },
     {
@@ -3523,7 +3517,7 @@
       "text": "Stalling me won’t change anything."
     },
     {
-      "character": "TONY",
+      "character": "TONY STARK",
       "text": "No, no, no- threatening. No drink? You sure? I’m having one."
     },
     {
@@ -3531,7 +3525,7 @@
       "text": "The Chitauri are coming, nothing will change that. What have I to fear?"
     },
     {
-      "character": "TONY",
+      "character": "TONY STARK",
       "text": "The Avengers. It’s what we call ourselves, sort of like a team. ’Earth’s Mightiest Heroes’ type of thing."
     },
     {
@@ -3539,11 +3533,11 @@
       "text": "Yes, I’m met them."
     },
     {
-      "character": "TONY",
+      "character": "TONY STARK",
       "text": "Yeah, takes us a while to get any traction, I’ll give you that one. But, let’s do a head count here. Your brother, the Demi-God;"
     },
     {
-      "character": "TONY",
+      "character": "TONY STARK",
       "text": "A super soldier, a living legend who kind of lives up to the legend; a man with breath-taking anger management issues; a couple of master assassins, and you, big fella, you’ve managed to piss off every single one of them."
     },
     {
@@ -3551,7 +3545,7 @@
       "text": "That was the plan."
     },
     {
-      "character": "TONY",
+      "character": "TONY STARK",
       "text": "Not a great plan. When they come, and they will, they’ll come for you."
     },
     {
@@ -3559,7 +3553,7 @@
       "text": "I have an army."
     },
     {
-      "character": "TONY",
+      "character": "TONY STARK",
       "text": "We have a Hulk."
     },
     {
@@ -3567,7 +3561,7 @@
       "text": "Oh, I thought the beast had wandered off."
     },
     {
-      "character": "TONY",
+      "character": "TONY STARK",
       "text": "Yeah- you’re missing the point. There’s no throne, there is no version of this, where you come out on top. Maybe your army comes and maybe it’s too much for us, but it’s all on you. ’Cause if we can’t protect the earth, you can be damned well sure we’ll avenge it."
     },
     {
@@ -3579,7 +3573,7 @@
       "text": "This usually works."
     },
     {
-      "character": "TONY",
+      "character": "TONY STARK",
       "text": "Well, performance issues. You know?"
     },
     {
@@ -3591,15 +3585,15 @@
       "text": "You will all fall before me."
     },
     {
-      "character": "TONY",
+      "character": "TONY STARK",
       "text": "JARVIS. Deploy."
     },
     {
-      "character": "TONY",
+      "character": "TONY STARK",
       "text": "Deploy!"
     },
     {
-      "character": "IRON MAN",
+      "character": "TONY STARK",
       "text": "And there’s one other person you pissed off! His name is Phil."
     },
     {
@@ -4011,7 +4005,7 @@
       "text": "Sir, we will lose power before we penetrate that shell."
     },
     {
-      "character": "TONY",
+      "character": "TONY STARK",
       "text": "JARVIS, you ever hear the tale of Jonah?"
     },
     {
@@ -4047,19 +4041,19 @@
       "text": "Anyone on the deck we have a rogue bird. We need to shut it down! Repeat, takeoff is not authorized!"
     },
     {
-      "character": "FURY",
+      "character": "NICK FURY",
       "text": "Stark, you hear me? You have a missile headed straight for the city."
     },
     {
-      "character": "IRON MAN",
+      "character": "TONY STARK",
       "text": "How long?"
     },
     {
-      "character": "FURY",
+      "character": "NICK FURY",
       "text": "Three minutes. Max. Stay load can wipe out mid-town."
     },
     {
-      "character": "TONY",
+      "character": "TONY STARK",
       "text": "JARVIS, put everything we got into the thrusters"
     },
     {
@@ -4203,7 +4197,7 @@
       "text": "Where are the Avengers?"
     },
     {
-      "character": "FURY",
+      "character": "NICK FURY",
       "text": "I’m not currently tracking their whereabouts. I’d say they’ve earned a leave of absence."
     },
     {
@@ -4211,7 +4205,7 @@
       "text": "And the Tesseract?"
     },
     {
-      "character": "FURY",
+      "character": "NICK FURY",
       "text": "The Tesseract is where belongs...out of our reach."
     },
     {
@@ -4219,7 +4213,7 @@
       "text": "That’s not your call."
     },
     {
-      "character": "FURY",
+      "character": "NICK FURY",
       "text": "I didn’t make it. I just didn’t argue with the god that did."
     },
     {
@@ -4231,7 +4225,7 @@
       "text": "and the war criminal Loki, who should be answering for his crime."
     },
     {
-      "character": "FURY",
+      "character": "NICK FURY",
       "text": "Oh I think he will be."
     },
     {
@@ -4239,7 +4233,7 @@
       "text": "I don’t think you understand what you’ve started...letting The Avengers loose on this world. They’re dangerous."
     },
     {
-      "character": "FURY",
+      "character": "NICK FURY",
       "text": "They surely are, and the whole world knows it. Every world knows it!"
     },
     {
@@ -4247,7 +4241,7 @@
       "text": "Was that the point in all this? A statement."
     },
     {
-      "character": "FURY",
+      "character": "NICK FURY",
       "text": "A promise."
     },
     {
@@ -4259,7 +4253,7 @@
       "text": "...They’ve gone their separate ways, some pretty extremely far. We get into a situation like this again, what happens then?"
     },
     {
-      "character": "FURY",
+      "character": "NICK FURY",
       "text": "They’ll come back!"
     },
     {
@@ -4267,7 +4261,7 @@
       "text": "Really sure about that?"
     },
     {
-      "character": "FURY",
+      "character": "NICK FURY",
       "text": "I am."
     },
     {
@@ -4275,7 +4269,7 @@
       "text": "Why?"
     },
     {
-      "character": "FURY",
+      "character": "NICK FURY",
       "text": "Because we’ll need them to."
     },
     {
@@ -4305,6 +4299,13 @@
     "CLINT BARTON",
     "PEPPER POTTS",
     "MARIA HILL",
-    "ERIK SELVIG"
+    "ERIK SELVIG",
+    "SECURITY GUARD",
+    "JARVIS",
+    "THE OTHER",
+    "COUNCILMAN",
+    "GENERAL LUCHKOV",
+    "COUNCILWOMAN",
+    "INTERCOM VOICE"
   ]
 }

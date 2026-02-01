@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'preact/hooks';
-import { isGameOver, initGame, currentPackId } from '../../services/game-state.js';
+import { isGameOver, initGame } from '../../services/game-state.js';
 import { ScriptDisplay } from './ScriptDisplay.jsx';
 import { Controls } from './Controls.jsx';
 import { Completion } from './Completion.jsx';
 import { MoviesModal } from './MoviesModal.jsx';
 
-export function Game({ dailyPuzzle, manifest, allPacks, packData }) {
+export function Game({ dailyPuzzle, manifest, packData }) {
     const puzzle = dailyPuzzle.puzzle;
     const metadata = dailyPuzzle.metadata;
     const [moviesModalOpen, setMoviesModalOpen] = useState(false);
@@ -24,8 +24,6 @@ export function Game({ dailyPuzzle, manifest, allPacks, packData }) {
     }, [dailyPuzzle.packId, dailyPuzzle.date]);
 
     // Handle "Other Packs" (simple version for now)
-    const otherPacks = allPacks.filter(p => p.id !== pack.id).slice(0, 4);
-
     return (
         <div className="game-container">
             {/* Script Area */}

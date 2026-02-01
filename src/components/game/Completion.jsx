@@ -1,4 +1,3 @@
-import { computed } from "@preact/signals";
 import { guessStats, currentAttempt, isWin, confettiShown, markConfettiShown } from '../../services/game-state.js';
 import { getStreak } from '../../utils/completionTracker.js';
 import { generateFlower, generateBeetle, stringToSeed } from '../../utils/flowerGenerator.js';
@@ -94,15 +93,16 @@ export function Completion({ puzzle, pack, packTheme }) {
             url: url
         };
 
-        if (navigator.share) {
-            navigator.share(shareData).catch(() => {
-                // Fallback to clipboard - include URL for clipboard copy
-                navigator.clipboard.writeText(grid + '\n\n' + url);
-                alert('Result copied to clipboard!');
-            });
-        } else {
+        const copyToClipboard = () => {
             navigator.clipboard.writeText(grid + '\n\n' + url);
             alert('Result copied to clipboard!');
+        };
+
+        // Check if navigator.share can handle text (desktop browsers often only support URL)
+        if (navigator.share && navigator.canShare && navigator.canShare(shareData)) {
+            navigator.share(shareData).catch(copyToClipboard);
+        } else {
+            copyToClipboard();
         }
     };
 

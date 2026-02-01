@@ -18,7 +18,6 @@
     "CELINE DION",
     "CHIP",
     "CHORUS",
-    "COGGSWORTH",
     "COGSWORTH",
     "CRONIES",
     "CRONIES AND LEFOU",
@@ -30,7 +29,6 @@
     "GASTON",
     "GASTON AND LEFOU",
     "LEFOU",
-    "LUMIERE",
     "LUMIÈRE",
     "LUMIÈRE AND ALL",
     "MAN",
@@ -1226,7 +1224,7 @@
       "text": "With dessert, she'll want tea, And my dear, that's fine with me! While the cups do their soft shoeing, I'll be bubbling, I'll be brewing! I'll get warm, piping hot Heaven's sake, is that a spot? Clean it up, we want the company impressed! We've got a lot to do-- Is it one lump or two? For you our guest!"
     },
     {
-      "character": "LUMIERE",
+      "character": "LUMIÈRE",
       "text": "Come on! Sing with us!"
     },
     {
@@ -4270,7 +4268,7 @@
       "text": "She's our guest! Be our guest! Be our guest! Our command is your request! It's ten years since we had anybody here And we're obsessed! With your meal, with your ease, Yes indeed, we aim to please While the candlelight's still glowing Let us help you, we'll keep going--"
     },
     {
-      "character": "LUMIERE",
+      "character": "LUMIÈRE",
       "text": "Come on! Sing with us!"
     },
     {
@@ -5434,7 +5432,7 @@
       "text": "Heh heh!"
     },
     {
-      "character": "COGGSWORTH",
+      "character": "COGSWORTH",
       "text": "Well, Lumière, old friend. Shall we let bygones be bygones?"
     },
     {
@@ -5442,7 +5440,7 @@
       "text": "Of course, mon ami. I told you she would break the spell."
     },
     {
-      "character": "COGGSWORTH",
+      "character": "COGSWORTH",
       "text": "I beg your pardon, old friend, but I believe I told you."
     },
     {
@@ -5450,7 +5448,7 @@
       "text": "No you didn't. I told you."
     },
     {
-      "character": "COGGSWORTH",
+      "character": "COGSWORTH",
       "text": "You most certainly did not, you pompous parrafin-headed pea-brain!"
     },
     {
@@ -5567,14 +5565,23 @@
   "topSpeakingCast": [
     "BELLE",
     "BEAST",
-    "LUMIÈRE",
     "COGSWORTH",
+    "LUMIÈRE",
     "GASTON",
     "MAURICE",
     "MRS. POTTS",
     "LEFOU",
     "CHIP",
     "MONSIEUR D'ARQUE",
-    "FEATHERDUSTER"
+    "FEATHERDUSTER",
+    "ALL",
+    "BOOKSELLER",
+    "WARDROBE",
+    "MAN 1",
+    "MOB",
+    "WOMAN 1",
+    "BOTH",
+    "MAN 4",
+    "BAKER"
   ]
 }

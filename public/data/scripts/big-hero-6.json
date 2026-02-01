@@ -11,14 +11,13 @@
     "FRED'S FATHER",
     "GOGO",
     "HIRO",
-    "HONEY",
     "HONEY LEMON",
     "KREI",
     "MAN",
     "NURSE",
     "OFFICER",
     "PERSON",
-    "TADACHI",
+    "TADASHI",
     "WASABI"
   ],
   "lines": [
@@ -131,7 +130,7 @@
       "text": "Be ready. He could be anywhere."
     },
     {
-      "character": "HONEY",
+      "character": "HONEY LEMON",
       "text": "Well, at least we know our gear works."
     },
     {
@@ -151,7 +150,7 @@
       "text": "Perfect. The robot's broken."
     },
     {
-      "character": "HONEY",
+      "character": "HONEY LEMON",
       "text": "Guys, you might want to see this."
     },
     {
@@ -163,7 +162,7 @@
       "text": "I'm not sure. But look."
     },
     {
-      "character": "HONEY",
+      "character": "HONEY LEMON",
       "text": "Hiro."
     },
     {
@@ -195,7 +194,7 @@
       "text": "No. No problem. It's well within the parameters. Let's move forward."
     },
     {
-      "character": "HONEY",
+      "character": "HONEY LEMON",
       "text": "Oh, no."
     },
     {
@@ -207,7 +206,7 @@
       "text": "The government shut down Krei's experiment."
     },
     {
-      "character": "HONEY",
+      "character": "HONEY LEMON",
       "text": "And he's using your microbots to steal his machine back."
     },
     {
@@ -239,7 +238,7 @@
       "text": "Get the mask."
     },
     {
-      "character": "HONEY",
+      "character": "HONEY LEMON",
       "text": "Right behind you."
     },
     {
@@ -307,7 +306,7 @@
       "text": "No, stop! He's getting away!"
     },
     {
-      "character": "HONEY",
+      "character": "HONEY LEMON",
       "text": "Baymax!"
     },
     {
@@ -439,7 +438,7 @@
       "text": "Hello, I am Baymax, your personal healthcare companion."
     },
     {
-      "character": "TADACHI",
+      "character": "TADASHI",
       "text": "It works. It works! This is amazing! You... you work! I knew it! I knew it! I knew it. I knew it. Oh, you work. I can't believe it! I can't... Okay. All right, big moment, here. Scan me."
     },
     {
@@ -447,7 +446,7 @@
       "text": "Your neurotransmitter levels are elevated. This indicates that you are happy."
     },
     {
-      "character": "TADACHI",
+      "character": "TADASHI",
       "text": "I am. I really am. Oh, man. Wait till my brother sees you. You're gonna help so many people, buddy. So many. That's all for now. I am satisfied with my care."
     },
     {
@@ -495,7 +494,7 @@
       "text": "Callaghan? He was there?"
     },
     {
-      "character": "HONEY",
+      "character": "HONEY LEMON",
       "text": "He was such a good man. What happened?"
     },
     {
@@ -503,7 +502,7 @@
       "text": "I don't know. But the answer's here somewhere."
     },
     {
-      "character": "HONEY",
+      "character": "HONEY LEMON",
       "text": "Wait, wait! Stop. There he is."
     },
     {
@@ -607,7 +606,7 @@
       "text": "Getting a little tight."
     },
     {
-      "character": "HONEY",
+      "character": "HONEY LEMON",
       "text": "No!"
     },
     {
@@ -663,7 +662,7 @@
       "text": "Like you have to ask."
     },
     {
-      "character": "HONEY",
+      "character": "HONEY LEMON",
       "text": "Let's do this, Freddie!"
     },
     {
@@ -687,7 +686,7 @@
       "text": "Double sign-spin. Now my signs are on fire!"
     },
     {
-      "character": "HONEY",
+      "character": "HONEY LEMON",
       "text": "Now that's a chemical reaction!"
     },
     {
@@ -954,5 +953,16 @@
   "rated": "PG",
   "runtime": "102 min",
   "genre": "Animation, Action, Adventure",
-  "director": "Don Hall, Chris Williams"
+  "director": "Don Hall, Chris Williams",
+  "topSpeakingCast": [
+    "HIRO",
+    "BAYMAX",
+    "FRED",
+    "WASABI",
+    "CALLAGHAN",
+    "HONEY LEMON",
+    "KREI",
+    "PERSON",
+    "GOGO"
+  ]
 }

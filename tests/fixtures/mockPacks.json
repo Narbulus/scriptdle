@@ -1,0 +1,37 @@
+{
+  "packs": [
+    {
+      "id": "test-pack",
+      "name": "Test Pack",
+      "movieCount": 3,
+      "category": "test",
+      "theme": {
+        "primary": "#4a90d9",
+        "secondary": "#2d5a8a",
+        "background": "#1a1a2e",
+        "text": "#ffffff",
+        "accent": "#ffd700"
+      }
+    },
+    {
+      "id": "test-pack-2",
+      "name": "Second Test Pack",
+      "movieCount": 5,
+      "category": "test",
+      "theme": {
+        "primary": "#d94a4a",
+        "secondary": "#8a2d2d",
+        "background": "#2e1a1a",
+        "text": "#ffffff",
+        "accent": "#00ffd7"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "test",
+      "name": "Test Category",
+      "packs": ["test-pack", "test-pack-2"]
+    }
+  ]
+}

@@ -49,16 +49,13 @@
     "RAVAGER NAVIGATOR",
     "RAVAGER PILOT",
     "ROCKET",
-    "ROCKET'",
     "RONAN",
-    "RONAN THE ACCUSER",
     "THANOS",
     "THE BROKER",
     "THE COLLECTOR",
     "THE OTHER",
     "XANDARIAN PRISONER",
     "YONDU",
-    "YONDU UDONTA",
     "YOUNG QUILL"
   ],
   "lines": [
@@ -243,7 +240,7 @@
       "text": "No, wait, don’t!"
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "Quill?"
     },
     {
@@ -251,7 +248,7 @@
       "text": "Hey, Yondu."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "I’m here on Morag. Ain’t no Orb, ain’t no you."
     },
     {
@@ -259,7 +256,7 @@
       "text": "Well, I was in the neighborhood. I thought I’d save you the hassle."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "Well, where are you at now, boy?"
     },
     {
@@ -267,7 +264,7 @@
       "text": "I feel really bad about this, but I’m not gonna tell you that."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "I slaved putting this deal together…"
     },
     {
@@ -275,7 +272,7 @@
       "text": "Slaved? Making a few calls is \"slaved\"?"
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "And now you’re gonna rip me off!"
     },
     {
@@ -283,7 +280,7 @@
       "text": "I mean, really?"
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "We do not do that to each other. We’re Ravagers. We got a code."
     },
     {
@@ -291,7 +288,7 @@
       "text": "Yeah, and that code is \"steal from everybody.\""
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "When I picked you up on Terra…"
     },
     {
@@ -299,7 +296,7 @@
       "text": "\"Picked me up.\""
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "…these boys of mine wanted to eat you."
     },
     {
@@ -307,11 +304,11 @@
       "text": "Yeah?"
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "They ain’t never tasted any Terran before. I stopped ‘em. You’re alive because of me! I will find you, I will…"
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "Put a bounty on him! Forty K. But I want him back alive."
     },
     {
@@ -323,7 +320,7 @@
       "text": "Alive?"
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "That’s what I said."
     },
     {
@@ -331,7 +328,7 @@
       "text": "I told you when you picked that kid up, you should have delivered him like we was hired to do! He was cargo! You have always been soft on him."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "You’re the only one I’m being soft on! Now, don’t you worry about Mr. Quill. As soon as we get him back here, I’m gonna kill him myself. What we do need to worry about, is who else out there wants that orb!"
     },
     {
@@ -1007,7 +1004,7 @@
       "text": "You have been betrayed, Ronan."
     },
     {
-      "character": "RONAN THE ACCUSER",
+      "character": "RONAN",
       "text": "We know only that she has been captured. Gamora may yet recover the Orb."
     },
     {
@@ -1031,7 +1028,7 @@
       "text": "NOW!"
     },
     {
-      "character": "RONAN THE ACCUSER",
+      "character": "RONAN",
       "text": "With all due respect, Thanos, your daughter made this mess, and yet you summon me."
     },
     {
@@ -1039,7 +1036,7 @@
       "text": "I would lower my voice, Accuser."
     },
     {
-      "character": "RONAN THE ACCUSER",
+      "character": "RONAN",
       "text": "First, she lost a battle with some primitive."
     },
     {
@@ -1047,7 +1044,7 @@
       "text": "Thanos put Gamora under your charge."
     },
     {
-      "character": "RONAN THE ACCUSER",
+      "character": "RONAN",
       "text": "Then she was apprehended by the Nova Corps."
     },
     {
@@ -1055,7 +1052,7 @@
       "text": "You are the one here with nothing to show for it."
     },
     {
-      "character": "RONAN THE ACCUSER",
+      "character": "RONAN",
       "text": "Your sources say that she meant to betray us the whole time!"
     },
     {
@@ -1063,7 +1060,7 @@
       "text": "LOWER YOUR TONE! I MAY BE YOUR-"
     },
     {
-      "character": "RONAN THE ACCUSER",
+      "character": "RONAN",
       "text": "I only ask that you take this matter seriously."
     },
     {
@@ -1631,7 +1628,7 @@
       "text": "The Nova can't know what we're after. Cleanse it!"
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "Do you got any other cute little buggers like this one? I like to stick 'em all in a row on my control console."
     },
     {
@@ -1647,7 +1644,7 @@
       "text": "In that case, I can show you..."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "But first, you gonna tell me what this orb is, and why everybody cares so damn much about it. And then you gonna tell me, who out there might wanna buy it."
     },
     {
@@ -1675,7 +1672,7 @@
       "text": "I cannot possibly betray the confidentiality of my buyers!"
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "Now, who again is this buyer of yours?"
     },
     {
@@ -2379,7 +2376,7 @@
       "text": "You see what he has turned me into. You kill him, I will help you destroy a thousand planets."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "You betrayed me! Steal my money!"
     },
     {
@@ -2387,7 +2384,7 @@
       "text": "Stop it! Leave him alone!"
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "When I picked you up as a kid, these boys wanted to eat you. They ain't never tasted Terran before. I saved your life!"
     },
     {
@@ -2395,11 +2392,11 @@
       "text": "Oh, will you shut up about that? God! Twenty years, you've been throwing that in my face, like it's some great thing, not eating me! Normal people don't even think about eating someone else! Much less that person having to be grateful for it! You abducted me, man. You stole me from my home and from my family."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "You don't give a damn about your Terra! You're scared because you're soft, in here."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "Here! Right here!"
     },
     {
@@ -2407,7 +2404,7 @@
       "text": "Yondu! Listen to me! Ronan has something called an Infinity Stone."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "I know what he's got, girl."
     },
     {
@@ -2415,11 +2412,11 @@
       "text": "Then you know we must get it back! He's gonna use it to wipe out Xandar. We have to warn them. Billions of people will perish."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "Is that what she's been filling your head with, boy? Sentiment?"
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "Eating away your brain like maggots! That's it."
     },
     {
@@ -2427,7 +2424,7 @@
       "text": "No!"
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "Sorry, boy. But a captain's gotta teach his men what happens to those what cross him."
     },
     {
@@ -2439,7 +2436,7 @@
       "text": "If you kill me now, you are saying goodbye to the biggest score you have ever seen."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "The Stone? I hope you got something better than that. Because ain't nobody stealing from Ronan."
     },
     {
@@ -2447,7 +2444,7 @@
       "text": "We got a ringer."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "Is that right?"
     },
     {
@@ -2463,7 +2460,7 @@
       "text": "Hey, what do you say, Yondu, huh? Me and you, taking down a mark side-by-side, like the old days."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "Let him go! Oh! You always did have a scrote, boy! That's why I kept you on as a young'un."
     },
     {
@@ -2479,7 +2476,7 @@
       "text": "It's a weapon of my own design."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "What the hell?"
     },
     {
@@ -2487,7 +2484,7 @@
       "text": "If you don't hand over our companions now, he's gonna tear your ship a new one. A very big new one!"
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "I ain't buyin' it."
     },
     {
@@ -2503,7 +2500,7 @@
       "text": "It's a weapon of my own design."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "What the hell?"
     },
     {
@@ -2511,7 +2508,7 @@
       "text": "If you don't hand over our companions now, he's gonna tear your ship a new one. A very big new one!"
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "I ain't buyin' it."
     },
     {
@@ -2783,11 +2780,11 @@
       "text": "Ronan's fleet has been spotted, and will arrive in t-minus fifteen minutes."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "Remember, boy. At the end of all this, I get the stone. You cross me, we kill you all."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "Let's go get 'em, boys!"
     },
     {
@@ -2839,11 +2836,11 @@
       "text": "A fleet approaches, they appear to be Ravagers."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "Fire!"
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "Cover it down! Submerge!"
     },
     {
@@ -2871,7 +2868,7 @@
       "text": "Quill! Yondu! Now!"
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "Aw, hell! I'm going down, Quill! No more games with me, boy! I'll see you at the end of this!"
     },
     {
@@ -3015,7 +3012,7 @@
       "text": "No! Hold your positions!"
     },
     {
-      "character": "ROCKET'",
+      "character": "ROCKET",
       "text": "Keep Ronan up there, Saal. We'll take care of the people down here."
     },
     {
@@ -3215,11 +3212,11 @@
       "text": "You said it yourself, bitch. We're the Guardians of the Galaxy."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "Well, well, well. Quite the light show."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "Ain't this sweet. But you got some business to attend to before all the nookie-nookie starts."
     },
     {
@@ -3231,7 +3228,7 @@
       "text": "You gotta reconsider this, Yondu. I don't know who you're selling this to, but the only way the universe can survive is if you give it to the Nova Corps."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "I may be as pretty as an angel, but I sure as hell ain't one. Hand it over, son."
     },
     {
@@ -3247,7 +3244,7 @@
       "text": "Yeah, Quill turned out okay. It's probably good we didn't deliver him to his dad like we was hired to do."
     },
     {
-      "character": "YONDU UDONTA",
+      "character": "YONDU",
       "text": "Yeah, that guy was a jackass."
     },
     {
@@ -3406,9 +3403,9 @@
     "ROCKET",
     "GAMORA",
     "DRAX",
-    "YONDU UDONTA",
-    "NEBULA",
+    "YONDU",
     "RONAN",
+    "NEBULA",
     "CORPSMAN DEY",
     "THE COLLECTOR",
     "GROOT",
@@ -3416,6 +3413,11 @@
     "KORATH",
     "NOVA PRIME",
     "THANOS",
-    "DENARIAN SAAL"
+    "DENARIAN SAAL",
+    "THE OTHER",
+    "MEREDITH QUILL",
+    "PRISONER 5",
+    "GRANDPA",
+    "KRAGLIN"
   ]
 }
