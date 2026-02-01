@@ -1,11 +1,17 @@
 import { test, expect } from '@playwright/test';
+import { dismissFirstVisitModal } from './fixtures/index.js';
 
 test.describe('Game Play', () => {
+
+    test.beforeEach(async ({ page }) => {
+        await page.goto('/');
+        await dismissFirstVisitModal(page);
+        await page.reload();
+    });
 
     test.describe('Game Load', () => {
 
         test('displays pack header', async ({ page }) => {
-            await page.goto('/');
 
             const firstPack = page.getByTestId('pack-row').first();
             await firstPack.click();
@@ -16,7 +22,6 @@ test.describe('Game Play', () => {
         });
 
         test('displays script area with quote', async ({ page }) => {
-            await page.goto('/');
             await page.getByTestId('pack-row').first().click();
             await page.waitForLoadState('networkidle');
 
@@ -25,7 +30,6 @@ test.describe('Game Play', () => {
         });
 
         test('displays movie selector', async ({ page }) => {
-            await page.goto('/');
             await page.getByTestId('pack-row').first().click();
             await page.waitForLoadState('networkidle');
 
@@ -33,7 +37,6 @@ test.describe('Game Play', () => {
         });
 
         test('displays character selector', async ({ page }) => {
-            await page.goto('/');
             await page.getByTestId('pack-row').first().click();
             await page.waitForLoadState('networkidle');
 
@@ -41,7 +44,6 @@ test.describe('Game Play', () => {
         });
 
         test('displays guess button', async ({ page }) => {
-            await page.goto('/');
             await page.getByTestId('pack-row').first().click();
             await page.waitForLoadState('networkidle');
 
@@ -49,7 +51,6 @@ test.describe('Game Play', () => {
         });
 
         test('displays attempts counter', async ({ page }) => {
-            await page.goto('/');
             await page.getByTestId('pack-row').first().click();
             await page.waitForLoadState('networkidle');
 
@@ -60,7 +61,6 @@ test.describe('Game Play', () => {
     test.describe('Theme Application', () => {
 
         test('applies pack theme', async ({ page }) => {
-            await page.goto('/');
             await page.getByTestId('pack-row').first().click();
             await page.waitForLoadState('networkidle');
 
@@ -68,7 +68,6 @@ test.describe('Game Play', () => {
         });
 
         test('script area has script theme', async ({ page }) => {
-            await page.goto('/');
             await page.getByTestId('pack-row').first().click();
             await page.waitForLoadState('networkidle');
 
@@ -78,7 +77,6 @@ test.describe('Game Play', () => {
 
     test.describe('Guessing Flow', () => {
         test('movie selector enables character selector', async ({ page }) => {
-            await page.goto('/');
             await page.getByTestId('pack-row').first().click();
             await page.waitForLoadState('networkidle');
 
@@ -93,7 +91,6 @@ test.describe('Game Play', () => {
         });
 
         test('submitting guess updates game state', async ({ page }) => {
-            await page.goto('/');
             await page.getByTestId('pack-row').first().click();
             await page.waitForLoadState('networkidle');
 
@@ -119,8 +116,6 @@ test.describe('Game Play', () => {
     test.describe('Win State', () => {
 
         test('shows share UI on win', async ({ page }) => {
-            await page.goto('/');
-
             // Get the first pack ID
             const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
@@ -155,8 +150,6 @@ test.describe('Game Play', () => {
     test.describe('Lose State', () => {
 
         test('shows game over after 5 attempts', async ({ page }) => {
-            await page.goto('/');
-
             // Get the first pack ID
             const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
@@ -193,8 +186,6 @@ test.describe('Game Play', () => {
     test.describe('Completed Game Reload', () => {
 
         test('navigating to completed game shows completion state', async ({ page }) => {
-            await page.goto('/');
-
             // Get the first pack ID
             const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
@@ -232,8 +223,6 @@ test.describe('Game Play', () => {
     test.describe('Share Functionality', () => {
 
         test('share button present in completion state', async ({ page }) => {
-            await page.goto('/');
-
             const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
             await page.evaluate((packId) => {
@@ -264,7 +253,6 @@ test.describe('Game Play', () => {
     test.describe('Movies Modal', () => {
 
         test('clicking movie count opens movies modal', async ({ page }) => {
-            await page.goto('/');
             await page.getByTestId('pack-row').first().click();
             await page.waitForLoadState('networkidle');
 
@@ -284,7 +272,6 @@ test.describe('Game Play', () => {
     test.describe('Script Area', () => {
 
         test('script area visible after game loaded', async ({ page }) => {
-            await page.goto('/');
             await page.getByTestId('pack-row').first().click();
             await page.waitForLoadState('networkidle');
 
@@ -292,7 +279,6 @@ test.describe('Game Play', () => {
         });
 
         test('script display contains lines', async ({ page }) => {
-            await page.goto('/');
             await page.getByTestId('pack-row').first().click();
             await page.waitForLoadState('networkidle');
 

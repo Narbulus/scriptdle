@@ -1,6 +1,7 @@
 import { readFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
+import { test as base } from '@playwright/test';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -64,3 +65,35 @@ export async function setupMockRoutes(page) {
     });
   });
 }
+
+/**
+ * Marks the user as having visited before to prevent the first-visit help modal.
+ * Call this after navigating to a page and before any UI interactions.
+ */
+export async function dismissFirstVisitModal(page) {
+  await page.evaluate(() => {
+    localStorage.setItem('scriptle:hasVisited', 'true');
+  });
+}
+
+/**
+ * Custom test fixture that automatically handles the first-visit modal.
+ * Use this instead of the base test for tests that interact with the UI.
+ */
+export const test = base.extend({
+  page: async ({ page }, use) => {
+    // Add a listener to set hasVisited after each navigation
+    page.on('load', async () => {
+      try {
+        await page.evaluate(() => {
+          if (!localStorage.getItem('scriptle:hasVisited')) {
+            localStorage.setItem('scriptle:hasVisited', 'true');
+          }
+        });
+      } catch {
+        // Ignore errors (e.g., if page is closed)
+      }
+    });
+    await use(page);
+  },
+});
