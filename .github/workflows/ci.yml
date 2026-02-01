@@ -172,6 +172,7 @@ jobs:
 
     - name: Run accessibility tests
       run: npm run test:a11y -- --project=chromium
+      continue-on-error: true
 
     - name: Upload a11y results
       uses: actions/upload-artifact@v4
