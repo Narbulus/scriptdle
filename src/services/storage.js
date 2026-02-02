@@ -1,5 +1,6 @@
 const STORAGE_PREFIX = 'scriptle:';
 const HAS_VISITED_KEY = `${STORAGE_PREFIX}hasVisited`;
+const TUTORIAL_KEY = `${STORAGE_PREFIX}tutorial`;
 
 export function isFirstVisit() {
     if (localStorage.getItem(HAS_VISITED_KEY)) {
@@ -16,6 +17,19 @@ export function isFirstVisit() {
 
 export function markAsVisited() {
     localStorage.setItem(HAS_VISITED_KEY, 'true');
+}
+
+export function getTutorialState() {
+    try {
+        const raw = localStorage.getItem(TUTORIAL_KEY);
+        return raw ? JSON.parse(raw) : { step: 1, completed: false };
+    } catch {
+        return { step: 1, completed: false };
+    }
+}
+
+export function saveTutorialState(state) {
+    localStorage.setItem(TUTORIAL_KEY, JSON.stringify(state));
 }
 
 export function getTodayKey() {

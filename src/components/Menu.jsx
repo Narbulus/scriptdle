@@ -3,6 +3,7 @@ import { useState, useEffect } from 'preact/hooks';
 import { router } from '../router.jsx';
 import { openHelpModal } from './Help.jsx';
 import { openStatsModal } from '../pages/Stats.jsx';
+import { currentPackName } from '../services/game-state.js';
 import { getTimeUntilMidnight } from '../utils/time.js';
 import { track } from '../utils/analytics.js';
 import { X, Film, BarChart3, CircleHelp, Info } from 'lucide-preact';
@@ -92,7 +93,7 @@ export function Menu() {
 
                         <button
                             className="menu-link-item"
-                            onClick={() => handleMenuItemClick('instructions', () => openHelpModal())}
+                            onClick={() => handleMenuItemClick('instructions', () => openHelpModal(currentPackName.value))}
                             data-testid="menu-help"
                         >
                             <CircleHelp size={20} strokeWidth={2} />

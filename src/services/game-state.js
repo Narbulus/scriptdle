@@ -4,6 +4,7 @@ import { track } from "../utils/analytics.js";
 
 // Core State
 export const currentPackId = signal(null);
+export const currentPackName = signal(null);
 export const currentPuzzleDate = signal(null);
 export const currentAttempt = signal(0);
 export const maxAttempts = signal(5);
@@ -17,9 +18,10 @@ export const confettiShown = signal(false);
 
 export const attemptsRemaining = computed(() => maxAttempts.value - currentAttempt.value);
 
-export function initGame(packId, date) {
+export function initGame(packId, date, packName = null) {
     batch(() => {
         currentPackId.value = packId;
+        currentPackName.value = packName;
         currentPuzzleDate.value = date;
 
         const saved = getGameState(packId, date);

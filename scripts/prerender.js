@@ -36,13 +36,13 @@ const injectMetadata = (html, metadata) => {
   <meta property="og:title" content="${metadata.ogTitle || metadata.title}">
   <meta property="og:description" content="${metadata.description}">
   <meta property="og:url" content="${BASE_URL}${metadata.url}">
-  <meta property="og:image" content="${BASE_URL}/og-image.png">
+  <meta property="og:image" content="${BASE_URL}${metadata.ogImage || '/og-image.png'}">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${metadata.ogTitle || metadata.title}">
   <meta name="twitter:description" content="${metadata.description}">
-  <meta name="twitter:image" content="${BASE_URL}/twitter-image.png">
+  <meta name="twitter:image" content="${BASE_URL}${metadata.ogImage || '/og-image.png'}">
 
   <!-- Additional SEO -->
   <meta name="keywords" content="${metadata.keywords}">
@@ -128,6 +128,7 @@ const generatePackPage = (template, pack) => {
     url: `/play/${pack.id}`,
     title: `Scriptle: Daily ${pack.name} quote guessing game`,
     ogTitle: `Scriptle: Daily ${pack.name} quote guessing game`,
+    ogImage: `/og-images/${pack.id}.png`,
     description: `Test your ${pack.name} knowledge! Guess the movie from iconic quotes from ${pack.movieCount} films. Daily ${pack.name} quote puzzles on Scriptle.`,
     keywords: `${pack.name} quotes, ${pack.name} game, ${pack.name} trivia, movie quotes, daily puzzle, ${pack.name} quiz`,
     noscriptContent: `

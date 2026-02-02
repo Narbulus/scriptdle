@@ -25,8 +25,10 @@ function HelpBadges() {
 }
 
 const isHelpModalOpen = signal(false);
+const currentPackName = signal(null);
 
-export function openHelpModal() {
+export function openHelpModal(packName = null) {
+  currentPackName.value = packName;
   isHelpModalOpen.value = true;
 }
 
@@ -200,8 +202,28 @@ export function HelpModal() {
           />
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', textAlign: 'left', marginTop: '1rem' }}>
+            {!currentPackName.value && (
+              <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}>
+                <div style={{ background: 'var(--text-primary)', color: 'var(--btn-text)', width: '20px', height: '20px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '0.7rem', fontWeight: 'bold', marginTop: '2px' }}>1</div>
+                <div style={{ fontSize: '0.85rem' }}>
+                  <strong>Select a movie pack.</strong><br />
+                  <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>You'll get a quote from a random scene in one of those movies.</span>
+                </div>
+              </div>
+            )}
+
+            {currentPackName.value && (
+              <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}>
+                <div style={{ background: 'var(--text-primary)', color: 'var(--btn-text)', width: '20px', height: '20px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '0.7rem', fontWeight: 'bold', marginTop: '2px' }}>1</div>
+                <div style={{ fontSize: '0.85rem' }}>
+                  <strong>You're playing {currentPackName.value}.</strong><br />
+                  <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>You'll get a quote from a random scene in one of these movies.</span>
+                </div>
+              </div>
+            )}
+
             <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}>
-              <div style={{ background: 'var(--text-primary)', color: 'var(--btn-text)', width: '20px', height: '20px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '0.7rem', fontWeight: 'bold', marginTop: '2px' }}>1</div>
+              <div style={{ background: 'var(--text-primary)', color: 'var(--btn-text)', width: '20px', height: '20px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '0.7rem', fontWeight: 'bold', marginTop: '2px' }}>2</div>
               <div style={{ fontSize: '0.85rem' }}>
                 <strong>You have 5 attempts.</strong><br />
                 <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Guess the movie correctly to lock it in.</span>
@@ -209,7 +231,7 @@ export function HelpModal() {
             </div>
 
             <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}>
-              <div style={{ background: 'var(--text-primary)', color: 'var(--btn-text)', width: '20px', height: '20px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '0.7rem', fontWeight: 'bold', marginTop: '2px' }}>2</div>
+              <div style={{ background: 'var(--text-primary)', color: 'var(--btn-text)', width: '20px', height: '20px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '0.7rem', fontWeight: 'bold', marginTop: '2px' }}>3</div>
               <div style={{ fontSize: '0.85rem' }}>
                 <strong>Each wrong guess reveals more of the script.</strong><br />
                 <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Reveals following lines from the movie.</span>
@@ -217,7 +239,7 @@ export function HelpModal() {
             </div>
 
             <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}>
-              <div style={{ background: 'var(--text-primary)', color: 'var(--btn-text)', width: '20px', height: '20px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '0.7rem', fontWeight: 'bold', marginTop: '2px' }}>3</div>
+              <div style={{ background: 'var(--text-primary)', color: 'var(--btn-text)', width: '20px', height: '20px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '0.7rem', fontWeight: 'bold', marginTop: '2px' }}>4</div>
               <div style={{ fontSize: '0.85rem' }}>
                 <strong>A new puzzle every day at midnight.</strong><br />
                 <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Come back to keep your streak alive!</span>
@@ -225,7 +247,7 @@ export function HelpModal() {
             </div>
 
             <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}>
-              <div style={{ background: 'var(--text-primary)', color: 'var(--btn-text)', width: '20px', height: '20px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '0.7rem', fontWeight: 'bold', marginTop: '2px' }}>4</div>
+              <div style={{ background: 'var(--text-primary)', color: 'var(--btn-text)', width: '20px', height: '20px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: '0.7rem', fontWeight: 'bold', marginTop: '2px' }}>5</div>
               <div style={{ fontSize: '0.85rem' }}>
                 <strong>Winners get flowers. Losers get beetles.</strong>
               </div>
@@ -233,6 +255,27 @@ export function HelpModal() {
           </div>
 
           <HelpBadges />
+
+          <button
+            onClick={() => isHelpModalOpen.value = false}
+            style={{
+              marginTop: '1.5rem',
+              padding: '0.75rem 2rem',
+              fontSize: '0.9rem',
+              fontWeight: 'bold',
+              background: 'var(--text-primary)',
+              color: 'var(--btn-text)',
+              border: 'none',
+              borderRadius: '8px',
+              cursor: 'pointer',
+              width: '100%',
+              transition: 'opacity 0.2s'
+            }}
+            onMouseOver={(e) => e.target.style.opacity = '0.9'}
+            onMouseOut={(e) => e.target.style.opacity = '1'}
+          >
+            PLAY
+          </button>
         </div>
       </div>
     </Modal>

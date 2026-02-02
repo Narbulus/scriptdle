@@ -7,7 +7,6 @@ export function ScriptDisplay({ puzzle }) {
     const target = puzzle.targetLine;
     const contextLines = puzzle.contextAfter || [];
 
-    // Create computed signals once, not on every render
     const showContext1 = useMemo(() => computed(() => isGameOver.value || currentAttempt.value >= 1), []);
     const showContext2 = useMemo(() => computed(() => isGameOver.value || currentAttempt.value >= 2), []);
     const revealTargetChar = useMemo(() => computed(() => isGameOver.value), []);
@@ -21,7 +20,6 @@ export function ScriptDisplay({ puzzle }) {
             <div className="script-content">
                 <div id="script-display" data-testid="script-display">
 
-                    {/* Target Line - Always Visible */}
                     <ScriptLine
                         character={target.character}
                         text={target.text}
@@ -30,7 +28,6 @@ export function ScriptDisplay({ puzzle }) {
                         isTarget={true}
                     />
 
-                    {/* Context Line 1 */}
                     {contextLines.length > 0 && showContext1.value && (
                         <ScriptLine
                             character={contextLines[0].character}
@@ -38,11 +35,10 @@ export function ScriptDisplay({ puzzle }) {
                             revealChar={revealContext1Char.value}
                             revealText={revealContext1Text.value}
                             isTarget={false}
-                            animate={true} // Simple fade-in via CSS class
+                            animate={true}
                         />
                     )}
 
-                    {/* Context Line 2 */}
                     {contextLines.length > 1 && showContext2.value && (
                         <ScriptLine
                             character={contextLines[1].character}
