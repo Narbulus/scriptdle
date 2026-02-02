@@ -26,6 +26,16 @@ const injectMetadata = (html, metadata) => {
     `<title>${metadata.title}</title>`
   );
 
+  // Remove existing Open Graph meta tags (to prevent duplicates)
+  result = result.replace(/\s*<!-- Open Graph -->[\s\S]*?(?=\s*<!-- Twitter Card -->|<\/head>)/g, '\n');
+  result = result.replace(/\s*<meta property="og:[^"]*"[^>]*>\s*/g, '');
+
+  // Remove existing Twitter Card meta tags (to prevent duplicates)
+  result = result.replace(/\s*<!-- Twitter Card -->[\s\S]*?(?=\s*<!-- |<\/head>)/g, '\n');
+  result = result.replace(/\s*<meta name="twitter:[^"]*"[^>]*>\s*/g, '');
+
+  const ogImagePath = metadata.ogImage || '/og-image.png';
+
   // Inject meta tags before </head>
   const metaTags = `
   <meta name="description" content="${metadata.description}">
@@ -36,13 +46,13 @@ const injectMetadata = (html, metadata) => {
   <meta property="og:title" content="${metadata.ogTitle || metadata.title}">
   <meta property="og:description" content="${metadata.description}">
   <meta property="og:url" content="${BASE_URL}${metadata.url}">
-  <meta property="og:image" content="${BASE_URL}${metadata.ogImage || '/og-image.png'}">
+  <meta property="og:image" content="${BASE_URL}${ogImagePath}">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${metadata.ogTitle || metadata.title}">
   <meta name="twitter:description" content="${metadata.description}">
-  <meta name="twitter:image" content="${BASE_URL}${metadata.ogImage || '/og-image.png'}">
+  <meta name="twitter:image" content="${BASE_URL}${ogImagePath}">
 
   <!-- Additional SEO -->
   <meta name="keywords" content="${metadata.keywords}">
@@ -89,8 +99,8 @@ const generateHomepage = (template) => {
       <h2>Featured Movie Packs</h2>
       <ul>
         ${packsData.packs.slice(0, 10).map(pack =>
-          `<li><a href="/play/${pack.id}">${pack.name} (${pack.movieCount} movies)</a></li>`
-        ).join('\n        ')}
+      `<li><a href="/play/${pack.id}">${pack.name} (${pack.movieCount} movies)</a></li>`
+    ).join('\n        ')}
       </ul>
 
       <h2>How to Play</h2>
