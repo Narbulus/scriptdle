@@ -1,11 +1,17 @@
 import { test, expect } from '@playwright/test';
+import { dismissFirstVisitModal } from './fixtures/index.js';
 
 test.describe('Visual Regression', () => {
+
+  test.beforeEach(async ({ page }) => {
+    await page.goto('/');
+    await dismissFirstVisitModal(page);
+    await page.reload();
+  });
 
   test.describe('Homepage', () => {
 
     test('homepage light theme', async ({ page }) => {
-      await page.goto('/');
       await page.waitForLoadState('networkidle');
       await page.evaluate(() => {
         document.body.setAttribute('data-theme', 'light');
@@ -17,7 +23,6 @@ test.describe('Visual Regression', () => {
     });
 
     test('homepage dark theme', async ({ page }) => {
-      await page.goto('/');
       await page.waitForLoadState('networkidle');
       await page.evaluate(() => {
         document.body.setAttribute('data-theme', 'dark');
@@ -32,7 +37,6 @@ test.describe('Visual Regression', () => {
   test.describe('Game Page', () => {
 
     test('game page with quote visible', async ({ page }) => {
-      await page.goto('/');
       await page.getByTestId('pack-row').first().click();
       await page.waitForLoadState('networkidle');
       await expect(page.getByTestId('script-area')).toBeVisible({ timeout: 10000 });
@@ -43,7 +47,6 @@ test.describe('Visual Regression', () => {
     });
 
     test('game controls visible', async ({ page }) => {
-      await page.goto('/');
       await page.getByTestId('pack-row').first().click();
       await page.waitForLoadState('networkidle');
       await expect(page.getByTestId('guess-button')).toBeVisible({ timeout: 10000 });
@@ -54,7 +57,6 @@ test.describe('Visual Regression', () => {
   test.describe('Completion State', () => {
 
     test('win state', async ({ page }) => {
-      await page.goto('/');
       const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
       await page.evaluate((packId) => {
@@ -83,7 +85,6 @@ test.describe('Visual Regression', () => {
     });
 
     test('loss state', async ({ page }) => {
-      await page.goto('/');
       const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
       await page.evaluate((packId) => {
@@ -118,7 +119,6 @@ test.describe('Visual Regression', () => {
   test.describe('Help Modal', () => {
 
     test('help modal appearance', async ({ page }) => {
-      await page.goto('/');
       await page.waitForLoadState('networkidle');
 
       const helpButton = page.getByTestId('help-button');

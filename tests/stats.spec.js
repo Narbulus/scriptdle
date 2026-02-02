@@ -1,12 +1,21 @@
 import { test, expect } from '@playwright/test';
+import { dismissFirstVisitModal } from './fixtures/index.js';
 
 test.describe('Stats Modal', () => {
+
+    test.beforeEach(async ({ page }) => {
+        await page.goto('/');
+        await dismissFirstVisitModal(page);
+        await page.reload();
+    });
 
     test.describe('Empty State', () => {
 
         test('shows content when no games played', async ({ page }) => {
-            await page.goto('/');
-            await page.evaluate(() => localStorage.clear());
+            await page.evaluate(() => {
+                localStorage.clear();
+                localStorage.setItem('scriptle:hasVisited', 'true');
+            });
             await page.reload();
             await page.waitForLoadState('networkidle');
 
@@ -23,8 +32,6 @@ test.describe('Stats Modal', () => {
     test.describe('With Completions', () => {
 
         test('shows completion stats', async ({ page }) => {
-            await page.goto('/');
-
             // Get first pack ID
             const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
@@ -52,8 +59,6 @@ test.describe('Stats Modal', () => {
         });
 
         test('calculates streak correctly', async ({ page }) => {
-            await page.goto('/');
-
             // Get first pack ID
             const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
@@ -90,8 +95,6 @@ test.describe('Stats Modal', () => {
     test.describe('Theming', () => {
 
         test('modal appears on home page', async ({ page }) => {
-            await page.goto('/');
-
             // Open menu and click stats
             await page.getByTestId('menu-button').click();
             await page.getByTestId('menu-stats').click();
@@ -101,7 +104,6 @@ test.describe('Stats Modal', () => {
         });
 
         test('modal appears on game page', async ({ page }) => {
-            await page.goto('/');
             await page.getByTestId('pack-row').first().click();
             await page.waitForLoadState('networkidle');
 
@@ -117,8 +119,6 @@ test.describe('Stats Modal', () => {
     test.describe('Interaction', () => {
 
         test('closes when X clicked', async ({ page }) => {
-            await page.goto('/');
-
             // Open menu and click stats
             await page.getByTestId('menu-button').click();
             await page.getByTestId('menu-stats').click();

@@ -6,9 +6,8 @@ import { Legal } from './pages/Legal.jsx';
 import { About } from './pages/About.jsx';
 import { Navigation } from './components/Navigation.jsx';
 import { Menu } from './components/Menu.jsx';
-import { HelpModal, openHelpModal } from './components/Help.jsx';
+import { HelpModal } from './components/Help.jsx';
 import { track } from './utils/analytics.js';
-import { isFirstVisit, markAsVisited } from './services/storage.js';
 
 const routes = {
   '/': Home,
@@ -94,11 +93,6 @@ function init() {
   render(<Menu />, document.getElementById('menu-container'));
   render(<HelpModal />, document.getElementById('help-modal-container'));
   render(<StatsModalContainer />, document.getElementById('stats-modal-container'));
-
-  if (isFirstVisit()) {
-    openHelpModal();
-    markAsVisited();
-  }
 
   window.addEventListener('popstate', handleRoute);
 

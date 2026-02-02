@@ -1,12 +1,18 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
+import { dismissFirstVisitModal } from './fixtures/index.js';
 
 test.describe('Accessibility', () => {
+
+  test.beforeEach(async ({ page }) => {
+    await page.goto('/');
+    await dismissFirstVisitModal(page);
+    await page.reload();
+  });
 
   test.describe('Homepage', () => {
 
     test('homepage has no critical a11y violations', async ({ page }) => {
-      await page.goto('/');
       await page.waitForLoadState('networkidle');
 
       const results = await new AxeBuilder({ page })
@@ -21,7 +27,6 @@ test.describe('Accessibility', () => {
     });
 
     test('pack list is navigable by keyboard', async ({ page }) => {
-      await page.goto('/');
       await page.waitForLoadState('networkidle');
 
       await page.keyboard.press('Tab');
@@ -37,7 +42,6 @@ test.describe('Accessibility', () => {
   test.describe('Game Page', () => {
 
     test('game page has no critical a11y violations', async ({ page }) => {
-      await page.goto('/');
       await page.getByTestId('pack-row').first().click();
       await page.waitForLoadState('networkidle');
       await expect(page.getByTestId('script-area')).toBeVisible({ timeout: 10000 });
@@ -54,7 +58,6 @@ test.describe('Accessibility', () => {
     });
 
     test('form controls are labeled', async ({ page }) => {
-      await page.goto('/');
       await page.getByTestId('pack-row').first().click();
       await page.waitForLoadState('networkidle');
 
@@ -70,7 +73,6 @@ test.describe('Accessibility', () => {
     });
 
     test('guess button is focusable', async ({ page }) => {
-      await page.goto('/');
       await page.getByTestId('pack-row').first().click();
       await page.waitForLoadState('networkidle');
 
@@ -86,7 +88,6 @@ test.describe('Accessibility', () => {
   test.describe('Help Modal', () => {
 
     test('help modal traps focus', async ({ page }) => {
-      await page.goto('/');
       await page.waitForLoadState('networkidle');
 
       const helpButton = page.getByTestId('help-button');
@@ -110,7 +111,6 @@ test.describe('Accessibility', () => {
     });
 
     test('help modal can be closed with Escape', async ({ page }) => {
-      await page.goto('/');
       await page.waitForLoadState('networkidle');
 
       const helpButton = page.getByTestId('help-button');
@@ -129,7 +129,6 @@ test.describe('Accessibility', () => {
   test.describe('Color Contrast', () => {
 
     test('text has sufficient color contrast', async ({ page }) => {
-      await page.goto('/');
       await page.waitForLoadState('networkidle');
 
       const results = await new AxeBuilder({ page })

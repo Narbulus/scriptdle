@@ -8,8 +8,9 @@ import {
     showMessage
 } from '../../services/game-state.js';
 import { track } from '../../utils/analytics.js';
+import { TutorialTip } from '../common/Tooltip.jsx';
 
-export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
+export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, onCharSelect, onGuessSubmit, onDiceClick, tutorialProps }) {
     // Local form state
     const [selectedMovie, setSelectedMovie] = useState('');
     const [selectedChar, setSelectedChar] = useState('');
@@ -70,20 +71,27 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
 
     const handleMovieChange = (e) => {
         stopShuffle();
-        setSelectedMovie(e.target.value);
-        // Don't reset char if it's locked
+        const value = e.target.value;
+        setSelectedMovie(value);
         if (!characterLocked.value) {
             setSelectedChar('');
+        }
+        if (value && onMovieSelect) {
+            onMovieSelect();
         }
     };
 
     const handleCharChange = (e) => {
         stopShuffle();
-        setSelectedChar(e.target.value);
+        const value = e.target.value;
+        setSelectedChar(value);
+        if (value && onCharSelect) {
+            onCharSelect();
+        }
     };
 
     const handleRandomize = () => {
-        // Allow re-triggering during spin - just restart
+        if (onDiceClick) onDiceClick();
         setIsSpinning(true);
 
         // Calculate spin duration and rotation
@@ -167,10 +175,10 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
         // Check Logic
         const target = puzzle.targetLine;
 
-        // If nothing selected, skip turn and reveal next clue
         if (!selectedMovie && !selectedChar) {
             showMessage('Skipped turn. New clue revealed!', 'error');
             submitGuess(false, false);
+            if (onGuessSubmit) onGuessSubmit(false);
             return;
         }
 
@@ -197,10 +205,9 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
                 showMessage('Incomplete guess. New clue revealed!', 'error');
             }
 
-            // Submit guess (will lock if correct)
             submitGuess(isMovieCorrect, isCharCorrect);
+            if (onGuessSubmit) onGuessSubmit(isMovieCorrect && isCharCorrect);
 
-            // Reset incorrect selections
             if (!isMovieCorrect && !movieLocked.value) setSelectedMovie('');
             if (!isCharCorrect && !characterLocked.value) setSelectedChar('');
             return;
@@ -220,14 +227,12 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
             showMessage('Incorrect. New clue revealed!', 'error');
         }
 
-        // Submit to game state
         submitGuess(isMovieCorrect, isCharCorrect);
+        if (onGuessSubmit) onGuessSubmit(isMovieCorrect && isCharCorrect);
 
-        // If movie wasn't correct, reset selection?
         if (!isMovieCorrect && !movieLocked.value) {
             setSelectedMovie('');
         }
-        // If character wasn't correct, reset selection?
         if (!isCharCorrect && !characterLocked.value) {
             setSelectedChar('');
         }
@@ -267,38 +272,66 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies }) {
 
             {/* Selectors */}
             <div className="footer-selectors">
-                <div className={`select-wrapper ${movieLocked.value ? 'correct' : ''}`}>
-                    <select
-                        id="movie-select"
-                        data-testid="movie-select"
-                        value={selectedMovie}
-                        onChange={handleMovieChange}
-                        onFocus={stopShuffle}
-                        disabled={movieLocked.value}
-                    >
-                        <option value="">Film</option>
-                        {metadata.movies.map(m => (
-                            <option key={m} value={m}>{getMovieTitle(m)}</option>
-                        ))}
-                    </select>
+                <div className="selector-with-tip">
+                    {tutorialProps && tutorialProps.tutorialStep === tutorialProps.TUTORIAL_STEPS.MOVIE_SELECT && (
+                        <TutorialTip show={true} onClose={tutorialProps.onDismissTip}>
+                            Choose the movie the line is from. Don't be afraid to guess!
+                        </TutorialTip>
+                    )}
+                    <div className={`select-wrapper ${movieLocked.value ? 'correct' : ''}`}>
+                        <select
+                            id="movie-select"
+                            data-testid="movie-select"
+                            aria-label="Select movie"
+                            value={selectedMovie}
+                            onChange={handleMovieChange}
+                            onFocus={stopShuffle}
+                            disabled={movieLocked.value}
+                        >
+                            <option value="">Which Film?</option>
+                            {metadata.movies.map(m => (
+                                <option key={m} value={m}>{getMovieTitle(m)}</option>
+                            ))}
+                        </select>
+                    </div>
                 </div>
 
-                <div className={`select-wrapper ${characterLocked.value ? 'correct' : ''}`}>
-                    <select
-                        id="char-select"
-                        data-testid="char-select"
-                        value={selectedChar}
-                        onChange={handleCharChange}
-                        onFocus={stopShuffle}
-                        disabled={!selectedMovie || characterLocked.value}
-                    >
-                        <option value="">Character</option>
-                        {charOptions.map(c => (
-                            <option key={c} value={c}>{c}</option>
-                        ))}
-                    </select>
+                <div className="selector-with-tip">
+                    {tutorialProps && tutorialProps.tutorialStep === tutorialProps.TUTORIAL_STEPS.CHAR_SELECT && (
+                        <TutorialTip show={true} onClose={tutorialProps.onDismissTip}>
+                            Now pick the character that said the line.
+                        </TutorialTip>
+                    )}
+                    <div className={`select-wrapper ${characterLocked.value ? 'correct' : ''}`}>
+                        <select
+                            id="char-select"
+                            data-testid="char-select"
+                            aria-label="Select character"
+                            value={selectedChar}
+                            onChange={handleCharChange}
+                            onFocus={stopShuffle}
+                            disabled={!selectedMovie || characterLocked.value}
+                        >
+                            <option value="">Who Said It?</option>
+                            {charOptions.map(c => (
+                                <option key={c} value={c}>{c}</option>
+                            ))}
+                        </select>
+                    </div>
                 </div>
             </div>
+
+            {tutorialProps && tutorialProps.tutorialStep === tutorialProps.TUTORIAL_STEPS.GUESS_BUTTON && (
+                <TutorialTip show={true} onClose={tutorialProps.onDismissTip}>
+                    Now submit your guess. If you get the movie or character right, it's locked in!
+                </TutorialTip>
+            )}
+
+            {tutorialProps && tutorialProps.tutorialStep === tutorialProps.TUTORIAL_STEPS.NEW_LINE && (
+                <TutorialTip show={true} onClose={tutorialProps.onDismissTip} caretPosition="none">
+                    More of the scene is revealed after each guess. Click the dice to have Lady Luck choose for you!
+                </TutorialTip>
+            )}
 
             {/* Actions */}
             <div className="footer-actions">

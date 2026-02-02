@@ -1,9 +1,15 @@
 import { test, expect } from '@playwright/test';
+import { dismissFirstVisitModal } from './fixtures/index.js';
 
 test.describe('Character Locking', () => {
 
-    test('character locks when guessed correctly with wrong movie', async ({ page }) => {
+    test.beforeEach(async ({ page }) => {
         await page.goto('/');
+        await dismissFirstVisitModal(page);
+        await page.reload();
+    });
+
+    test('character locks when guessed correctly with wrong movie', async ({ page }) => {
 
         const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
@@ -37,8 +43,6 @@ test.describe('Character Locking', () => {
     });
 
     test('character lock persists across page reload', async ({ page }) => {
-        await page.goto('/');
-
         const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
         // Set up a game with character locked
@@ -75,8 +79,6 @@ test.describe('Character Locking', () => {
     });
 
     test('both movie and character can be locked independently', async ({ page }) => {
-        await page.goto('/');
-
         const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
         // Set up a game where both are locked
@@ -112,8 +114,6 @@ test.describe('Character Locking', () => {
     });
 
     test('character locked on first attempt, movie on second, win on third', async ({ page }) => {
-        await page.goto('/');
-
         const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
         // Simulate a progression: char locked -> both locked -> win

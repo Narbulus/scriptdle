@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { dismissFirstVisitModal } from './fixtures/index.js';
 
 test.describe('Analytics Events', () => {
 
@@ -11,13 +12,20 @@ test.describe('Analytics Events', () => {
                 window.__analyticsEventLog.length = 0;
             }
         });
+        // Dismiss first-visit modal by setting hasVisited flag and reloading
+        await dismissFirstVisitModal(page);
+        await page.reload();
+        // Clear analytics events again after reload
+        await page.evaluate(() => {
+            if (window.__analyticsEventLog) {
+                window.__analyticsEventLog.length = 0;
+            }
+        });
     });
 
     test.describe('Game Start Events', () => {
 
         test('game_start fires for new games', async ({ page }) => {
-            await page.goto('/');
-
             const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
             await page.getByTestId('pack-row').first().click();
             await page.waitForLoadState('networkidle');
@@ -31,8 +39,6 @@ test.describe('Analytics Events', () => {
         });
 
         test('game_start does not fire for returning games', async ({ page }) => {
-            await page.goto('/');
-
             const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
             // Set up in-progress game with 1 attempt
@@ -63,8 +69,6 @@ test.describe('Analytics Events', () => {
     test.describe('Game Resume Events', () => {
 
         test('game_resume fires for in-progress games', async ({ page }) => {
-            await page.goto('/');
-
             const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
             // Set up in-progress game
@@ -99,8 +103,6 @@ test.describe('Analytics Events', () => {
         });
 
         test('game_resume includes correct lock states', async ({ page }) => {
-            await page.goto('/');
-
             const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
             // Set up game with character locked
@@ -136,8 +138,6 @@ test.describe('Analytics Events', () => {
     test.describe('Game Revisit Events', () => {
 
         test('game_revisit fires for completed won games', async ({ page }) => {
-            await page.goto('/');
-
             const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
             // Set up completed (won) game
@@ -171,8 +171,6 @@ test.describe('Analytics Events', () => {
         });
 
         test('game_revisit fires for completed lost games', async ({ page }) => {
-            await page.goto('/');
-
             const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
             // Set up completed (lost) game
@@ -211,7 +209,6 @@ test.describe('Analytics Events', () => {
     test.describe('Guess Events', () => {
 
         test('guess_made fires on guess submission', async ({ page }) => {
-            await page.goto('/');
             await page.getByTestId('pack-row').first().click();
             await page.waitForLoadState('networkidle');
 
@@ -235,14 +232,15 @@ test.describe('Analytics Events', () => {
     test.describe('Page View Events', () => {
 
         test('page_view fires on navigation', async ({ page }) => {
-            await page.goto('/');
+            // Navigate to a different page to trigger a new page_view event
+            await page.goto('/about');
             await page.waitForLoadState('networkidle');
 
             const events = await page.evaluate(() => window.__analyticsEventLog || []);
             const pageView = events.find(e => e.event === 'page_view');
 
             expect(pageView).toBeTruthy();
-            expect(pageView.params.page_path).toBe('/');
+            expect(pageView.params.page_path).toBe('/about');
         });
     });
 });

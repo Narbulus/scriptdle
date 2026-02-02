@@ -4,22 +4,13 @@ test.describe('Help Modal', () => {
 
     test.describe('First Visit', () => {
 
-        test('opens automatically for first-time visitor', async ({ page }) => {
+        test('does not open automatically for first-time visitor', async ({ page }) => {
             await page.goto('/');
             await page.evaluate(() => localStorage.clear());
             await page.reload();
 
             const modal = page.locator('#help-modal');
-            await expect(modal).toBeVisible();
-        });
-
-        test('sets hasVisited flag after showing', async ({ page }) => {
-            await page.goto('/');
-            await page.evaluate(() => localStorage.clear());
-            await page.reload();
-
-            const hasVisited = await page.evaluate(() => localStorage.getItem('scriptle:hasVisited'));
-            expect(hasVisited).toBe('true');
+            await expect(modal).not.toBeVisible();
         });
 
         test('does not open for returning visitor with hasVisited flag', async ({ page }) => {
