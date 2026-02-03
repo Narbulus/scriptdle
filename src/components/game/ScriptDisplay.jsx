@@ -7,7 +7,8 @@ export function ScriptDisplay({ puzzle }) {
     const target = puzzle.targetLine;
     const contextLines = puzzle.contextAfter || [];
 
-    const showContext1 = useMemo(() => computed(() => isGameOver.value || currentAttempt.value >= 1), []);
+    // Always show context line 1 (but obscured until first guess)
+    const showContext1 = useMemo(() => computed(() => true), []);
     const showContext2 = useMemo(() => computed(() => isGameOver.value || currentAttempt.value >= 2), []);
     const revealTargetChar = useMemo(() => computed(() => isGameOver.value), []);
     const revealContext1Text = useMemo(() => computed(() => isGameOver.value || currentAttempt.value >= 1), []);
