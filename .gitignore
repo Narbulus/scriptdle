@@ -47,3 +47,4 @@ coverage/
 
 # Git worktrees
 .worktrees/
+src/build-info.js
