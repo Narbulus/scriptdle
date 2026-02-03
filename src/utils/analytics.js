@@ -1,22 +1,36 @@
+import { BUILD_INFO } from '../build-info.js';
+
 // Track events for testing (exposed on window in dev/test)
 const eventLog = [];
 
 // Global context that will be included in all events
-let globalContext = {};
+// Initialize with build info
+let globalContext = {
+  build_version: BUILD_INFO.version,
+  commit_hash: BUILD_INFO.commitHash
+};
 
 /**
  * Set global context parameters that will be included in all analytics events
  * @param {object} context - Key-value pairs to include in all events
  */
 export function setGlobalContext(context) {
-  globalContext = { ...context };
+  // Preserve build info when updating context
+  globalContext = {
+    build_version: BUILD_INFO.version,
+    commit_hash: BUILD_INFO.commitHash,
+    ...context
+  };
 }
 
 /**
- * Clear the global context
+ * Clear the global context (but preserve build info)
  */
 export function clearGlobalContext() {
-  globalContext = {};
+  globalContext = {
+    build_version: BUILD_INFO.version,
+    commit_hash: BUILD_INFO.commitHash
+  };
 }
 
 /**
