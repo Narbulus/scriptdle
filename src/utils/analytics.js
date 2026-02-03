@@ -3,32 +3,36 @@ const eventLog = [];
 
 // Global context that will be included in all events
 // Build info will be loaded lazily on first use
-let globalContext = {};
-let buildInfoLoaded = false;
+let globalContext = {
+  build_version: 'dev',
+  commit_hash: 'unknown'
+};
+let buildInfoLoadPromise = null;
 
-// Lazy load build info
-async function ensureBuildInfo() {
-  if (!buildInfoLoaded) {
-    try {
-      const { BUILD_INFO } = await import('../build-info.js');
-      globalContext.build_version = BUILD_INFO.version;
-      globalContext.commit_hash = BUILD_INFO.commitHash;
-      buildInfoLoaded = true;
-    } catch {
-      // Build info not available (dev environment before build)
-      globalContext.build_version = 'dev';
-      globalContext.commit_hash = 'unknown';
-      buildInfoLoaded = true;
-    }
+// Lazy load build info (returns promise that can be ignored)
+function ensureBuildInfo() {
+  if (!buildInfoLoadPromise) {
+    buildInfoLoadPromise = import('../build-info.js')
+      .then(({ BUILD_INFO }) => {
+        globalContext.build_version = BUILD_INFO.version;
+        globalContext.commit_hash = BUILD_INFO.commitHash;
+      })
+      .catch(() => {
+        // Build info not available (dev environment before build)
+        // Keep defaults
+      });
   }
+  return buildInfoLoadPromise;
 }
+
+// Start loading build info immediately
+ensureBuildInfo();
 
 /**
  * Set global context parameters that will be included in all analytics events
  * @param {object} context - Key-value pairs to include in all events
  */
 export function setGlobalContext(context) {
-  ensureBuildInfo(); // Load build info if not already loaded
   // Preserve build info when updating context
   globalContext = {
     ...globalContext,
@@ -40,7 +44,6 @@ export function setGlobalContext(context) {
  * Clear the global context (but preserve build info)
  */
 export function clearGlobalContext() {
-  ensureBuildInfo(); // Load build info if not already loaded
   const buildVersion = globalContext.build_version;
   const commitHash = globalContext.commit_hash;
   globalContext = {
@@ -55,7 +58,6 @@ export function clearGlobalContext() {
  * @param {object} params - Event parameters (will be merged with global context)
  */
 export function track(event, params = {}) {
-  ensureBuildInfo(); // Ensure build info is loaded
   // Merge global context with event params (event params take precedence)
   const mergedParams = { ...globalContext, ...params };
 
