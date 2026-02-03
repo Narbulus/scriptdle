@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "generate:packs": "node scripts/generate-packs-full.js",
-    "generate:daily": "python3 scripts/generate-daily-puzzles.py --days 365",
+    "generate:daily": "python3 scripts/generate-daily-puzzles.py --days 365 --min-words 5",
     "generate:sitemap": "node scripts/generate-sitemap.js",
     "prerender": "node scripts/prerender.js",
     "build": "npm run generate:packs && npm run generate:daily && npm run generate:sitemap && vite build && npm run prerender",
