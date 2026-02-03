@@ -1,6 +1,6 @@
 import { signal, computed, batch } from "@preact/signals";
 import { saveGameState, getGameState } from "./storage.js";
-import { track } from "../utils/analytics.js";
+import { track, setGlobalContext } from "../utils/analytics.js";
 
 // Core State
 export const currentPackId = signal(null);
@@ -24,13 +24,15 @@ export function initGame(packId, date, packName = null) {
         currentPackName.value = packName;
         currentPuzzleDate.value = date;
 
+        // Set global analytics context for this pack
+        setGlobalContext({ pack_id: packId });
+
         const saved = getGameState(packId, date);
         if (saved) {
             // Track based on game state
             if (saved.attempts > 0 && !saved.gameOver) {
                 // Returning to in-progress puzzle
                 track('game_resume', {
-                    pack_id: packId,
                     puzzle_date: date,
                     existing_attempts: saved.attempts,
                     movie_locked: !!saved.movieLocked,
@@ -39,13 +41,12 @@ export function initGame(packId, date, packName = null) {
             } else if (saved.gameOver) {
                 // Returning to completed puzzle
                 track('game_revisit', {
-                    pack_id: packId,
                     puzzle_date: date,
                     result: saved.success ? 'win' : 'loss'
                 });
             } else {
                 // Has saved state but no attempts yet (edge case)
-                track('game_start', { pack_id: packId, puzzle_date: date });
+                track('game_start', { puzzle_date: date });
             }
 
             currentAttempt.value = saved.attempts || 0;
@@ -58,7 +59,7 @@ export function initGame(packId, date, packName = null) {
             gameMessage.value = null;
         } else {
             // Fresh start - no saved state
-            track('game_start', { pack_id: packId, puzzle_date: date });
+            track('game_start', { puzzle_date: date });
 
             // Reset
             currentAttempt.value = 0;
@@ -113,7 +114,6 @@ export function submitGuess(movieCorrect, charCorrect) {
         }
 
         track('guess_made', {
-            pack_id: currentPackId.value,
             movie_correct: movieCorrect,
             char_correct: charCorrect,
             attempt: stats.length
@@ -121,7 +121,6 @@ export function submitGuess(movieCorrect, charCorrect) {
 
         if (isGameOver.value) {
             track('game_complete', {
-                pack_id: currentPackId.value,
                 result: isWin.value ? 'win' : 'loss',
                 attempts: stats.length
             });

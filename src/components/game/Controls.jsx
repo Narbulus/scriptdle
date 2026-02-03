@@ -261,7 +261,7 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
                     href="#"
                     onClick={(e) => {
                         e.preventDefault();
-                        track('view_movie_list', { pack_id: pack.id });
+                        track('view_movie_list');
                         onOpenMovies();
                     }}
                 >

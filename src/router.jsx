@@ -7,7 +7,7 @@ import { About } from './pages/About.jsx';
 import { Navigation } from './components/Navigation.jsx';
 import { Menu } from './components/Menu.jsx';
 import { HelpModal } from './components/Help.jsx';
-import { track } from './utils/analytics.js';
+import { track, setGlobalContext, clearGlobalContext } from './utils/analytics.js';
 
 const routes = {
   '/': Home,
@@ -64,6 +64,13 @@ function handleRoute() {
   if (!matched) {
     navigate('/', true);
     return;
+  }
+
+  // Set or clear global context based on route
+  if (matched.params.packId) {
+    setGlobalContext({ pack_id: matched.params.packId });
+  } else {
+    clearGlobalContext();
   }
 
   track('page_view', { page_path: path });
