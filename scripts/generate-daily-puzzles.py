@@ -48,11 +48,16 @@ class PuzzleGenerator:
         """Get seed from date string - matches Game.js getDateSeed exactly"""
         return self.hash_string(date_str)
 
-    def build_significant_lines_index(self, scripts, all_lines):
+    def build_significant_lines_index(self, scripts, all_lines, min_words=5):
         """
         Build index of line indices where character is significant.
         Returns dict mapping movie_id to list of valid line indices.
         This enables movie-balanced selection.
+
+        Args:
+            scripts: Dictionary of script data per movie
+            all_lines: List of all lines across all movies
+            min_words: Minimum number of words required in target line (default: 5)
         """
         # Build set of significant characters per movie
         significant_by_movie = {}
@@ -67,6 +72,11 @@ class PuzzleGenerator:
             movie_id = line['movieId']
             character = line['character']
             if character in significant_by_movie.get(movie_id, set()):
+                # Check minimum word count
+                word_count = len(line['text'].split())
+                if word_count < min_words:
+                    continue
+
                 # Also check padding: need 1 before, 3 after
                 if idx >= 1 and idx < len(all_lines) - 3:
                     if movie_id not in indices_by_movie:
@@ -247,7 +257,7 @@ class PuzzleGenerator:
 
         return manifest
 
-    def generate_for_pack(self, pack_id, days=365):
+    def generate_for_pack(self, pack_id, days=365, min_words=5):
         """Generate daily puzzles for a pack"""
         print(f"\n{'='*60}")
         print(f"Generating puzzles for pack: {pack_id}")
@@ -259,12 +269,13 @@ class PuzzleGenerator:
 
         # Flatten lines and build significant lines index
         all_lines = self.flatten_lines(scripts)
-        indices_by_movie = self.build_significant_lines_index(scripts, all_lines)
+        indices_by_movie = self.build_significant_lines_index(scripts, all_lines, min_words=min_words)
         metadata = self.build_metadata(all_lines, scripts)
 
         total_significant = sum(len(indices) for indices in indices_by_movie.values())
         print(f"Total lines: {len(all_lines)}")
-        print(f"Significant character lines: {total_significant}")
+        print(f"Minimum words per quote: {min_words}")
+        print(f"Significant character lines (meeting criteria): {total_significant}")
         print(f"Movies: {len(metadata['movies'])}")
         print(f"Lines per movie: {', '.join(f'{movie}: {len(indices)}' for movie, indices in sorted(indices_by_movie.items()))}")
 
@@ -411,7 +422,7 @@ class PuzzleGenerator:
         print(f"\nGenerated themes.js with {len(themes)} pack(s)")
         print(f"Output file: {themes_file}")
 
-    def generate_all(self, days=365):
+    def generate_all(self, days=365, min_words=5):
         """Generate puzzles for all packs"""
         # Find all pack files
         pack_files = list(self.packs_dir.glob('*.json'))
@@ -421,7 +432,7 @@ class PuzzleGenerator:
         for pack_file in pack_files:
             pack_id = pack_file.stem
             try:
-                self.generate_for_pack(pack_id, days)
+                self.generate_for_pack(pack_id, days, min_words=min_words)
             except Exception as e:
                 print(f"Error generating puzzles for {pack_id}: {e}")
                 raise
@@ -442,17 +453,18 @@ def main():
     parser.add_argument('--days', type=int, default=365, help='Number of days to generate (default: 365)')
     parser.add_argument('--pack', type=str, help='Generate for specific pack only')
     parser.add_argument('--data-dir', type=str, default='public/data', help='Data directory path')
+    parser.add_argument('--min-words', type=int, default=5, help='Minimum number of words in target quote (default: 5)')
 
     args = parser.parse_args()
 
     generator = PuzzleGenerator(data_dir=args.data_dir)
 
     if args.pack:
-        generator.generate_for_pack(args.pack, args.days)
+        generator.generate_for_pack(args.pack, args.days, min_words=args.min_words)
         # Also regenerate themes file
         generator.generate_themes_file()
     else:
-        generator.generate_all(args.days)
+        generator.generate_all(args.days, min_words=args.min_words)
 
 
 if __name__ == '__main__':

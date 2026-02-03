@@ -1,5 +1,7 @@
 # Scriptdle Project
 
+See [AGENTS.md](../AGENTS.md) for detailed agent guidelines, deployment info, and design system.
+
 ## Git Worktrees
 
 This project uses git worktrees for isolated feature development.

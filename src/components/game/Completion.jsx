@@ -82,7 +82,6 @@ export function Completion({ puzzle, pack, packTheme }) {
     const handleShare = () => {
         const grid = generateShareString();
         track('share_results', {
-            pack_id: pack.id,
             success: success,
             attempts: attempts
         });

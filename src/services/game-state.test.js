@@ -7,6 +7,8 @@ vi.mock('./storage.js', () => ({
 
 vi.mock('../utils/analytics.js', () => ({
   track: vi.fn(),
+  setGlobalContext: vi.fn(),
+  clearGlobalContext: vi.fn(),
 }));
 
 import {
@@ -53,7 +55,6 @@ describe('game-state', () => {
       expect(currentAttempt.value).toBe(0);
       expect(isGameOver.value).toBe(false);
       expect(track).toHaveBeenCalledWith('game_start', {
-        pack_id: 'starwars',
         puzzle_date: '2024-06-15',
       });
     });
@@ -74,7 +75,6 @@ describe('game-state', () => {
       expect(characterLocked.value).toBe(false);
       expect(guessStats.value).toHaveLength(2);
       expect(track).toHaveBeenCalledWith('game_resume', expect.objectContaining({
-        pack_id: 'marvel',
         existing_attempts: 2,
       }));
     });
@@ -89,7 +89,6 @@ describe('game-state', () => {
       initGame('pixar', '2024-06-15');
 
       expect(track).toHaveBeenCalledWith('game_revisit', {
-        pack_id: 'pixar',
         puzzle_date: '2024-06-15',
         result: 'win',
       });
@@ -155,7 +154,6 @@ describe('game-state', () => {
       submitGuess(true, false);
 
       expect(track).toHaveBeenCalledWith('guess_made', {
-        pack_id: 'starwars',
         movie_correct: true,
         char_correct: false,
         attempt: 1,

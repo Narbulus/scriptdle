@@ -7,13 +7,21 @@ export function ScriptDisplay({ puzzle }) {
     const target = puzzle.targetLine;
     const contextLines = puzzle.contextAfter || [];
 
-    const showContext1 = useMemo(() => computed(() => isGameOver.value || currentAttempt.value >= 1), []);
+    // Progressive reveal: Always peek next quote in shimmer
+    // Context 1: Always visible from start
+    const showContext1 = useMemo(() => computed(() => true), []);
+    // Context 2: Visible after 2nd attempt (when context 1 fully revealed)
     const showContext2 = useMemo(() => computed(() => isGameOver.value || currentAttempt.value >= 2), []);
+
     const revealTargetChar = useMemo(() => computed(() => isGameOver.value), []);
+    // Context 1 text revealed after 1st attempt
     const revealContext1Text = useMemo(() => computed(() => isGameOver.value || currentAttempt.value >= 1), []);
+    // Context 1 character revealed after 2nd attempt
     const revealContext1Char = useMemo(() => computed(() => isGameOver.value || currentAttempt.value >= 2), []);
-    const revealContext2Text = useMemo(() => computed(() => isGameOver.value || currentAttempt.value >= 2), []);
-    const revealContext2Char = useMemo(() => computed(() => isGameOver.value || currentAttempt.value >= 3), []);
+    // Context 2 text revealed after 3rd attempt
+    const revealContext2Text = useMemo(() => computed(() => isGameOver.value || currentAttempt.value >= 3), []);
+    // Context 2 character revealed after 4th attempt
+    const revealContext2Char = useMemo(() => computed(() => isGameOver.value || currentAttempt.value >= 4), []);
 
     return (
         <div className={`script-area playing-${currentAttempt.value}`} data-theme="script" data-testid="script-area">

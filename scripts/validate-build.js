@@ -64,8 +64,8 @@ function main() {
   );
 
   checkFile(
-    join(DIST_DIR, '_redirects'),
-    '_redirects (SPA routing)'
+    join(DIST_DIR, '_routes.json'),
+    '_routes.json (Cloudflare Pages routing)'
   );
 
   console.log('\nStatic pages:');
