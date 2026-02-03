@@ -7,9 +7,12 @@ export function ScriptDisplay({ puzzle }) {
     const target = puzzle.targetLine;
     const contextLines = puzzle.contextAfter || [];
 
-    // Always show context line 1 (but obscured until first guess)
+    // Always show next context line (in shimmer state as a peek)
+    // Context 1: Always visible, text revealed after 1st attempt
     const showContext1 = useMemo(() => computed(() => true), []);
-    const showContext2 = useMemo(() => computed(() => isGameOver.value || currentAttempt.value >= 2), []);
+    // Context 2: Visible after 1st attempt (peek), text revealed after 2nd attempt
+    const showContext2 = useMemo(() => computed(() => isGameOver.value || currentAttempt.value >= 1), []);
+
     const revealTargetChar = useMemo(() => computed(() => isGameOver.value), []);
     const revealContext1Text = useMemo(() => computed(() => isGameOver.value || currentAttempt.value >= 1), []);
     const revealContext1Char = useMemo(() => computed(() => isGameOver.value || currentAttempt.value >= 2), []);
