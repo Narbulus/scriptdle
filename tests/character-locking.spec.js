@@ -1,12 +1,13 @@
 import { test, expect } from '@playwright/test';
-import { dismissFirstVisitModal } from './fixtures/index.js';
+
 
 test.describe('Character Locking', () => {
 
     test.beforeEach(async ({ page }) => {
+        await page.addInitScript(() => {
+            localStorage.setItem('scriptle:hasVisited', 'true');
+        });
         await page.goto('/');
-        await dismissFirstVisitModal(page);
-        await page.reload();
     });
 
     test('character locks when guessed correctly with wrong movie', async ({ page }) => {

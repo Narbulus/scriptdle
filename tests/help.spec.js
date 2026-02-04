@@ -44,9 +44,10 @@ test.describe('Help Modal', () => {
     test.describe('From Home Page', () => {
 
         test.beforeEach(async ({ page }) => {
+            await page.addInitScript(() => {
+                localStorage.setItem('scriptle:hasVisited', 'true');
+            });
             await page.goto('/');
-            await page.evaluate(() => localStorage.setItem('scriptle:hasVisited', 'true'));
-            await page.reload();
         });
 
         test('opens when help button clicked', async ({ page }) => {

@@ -38,7 +38,7 @@ export default defineConfig({
   ],
 
   webServer: process.env.BASE_URL ? undefined : {
-    command: 'npm run dev -- --port 5173',
+    command: 'npm run generate:build-info && npm run generate:packs && npm run generate:daily && npm run dev -- --port 5173',
     url: 'http://localhost:5173',
     reuseExistingServer: !process.env.CI,
     timeout: 120 * 1000,

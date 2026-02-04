@@ -1,21 +1,13 @@
 import { test, expect } from '@playwright/test';
-import { dismissFirstVisitModal } from './fixtures/index.js';
+
 
 test.describe('Analytics Events', () => {
 
     test.beforeEach(async ({ page }) => {
-        // Navigate first to avoid localStorage access error on about:blank
-        await page.goto('/');
-        await page.evaluate(() => {
-            localStorage.clear();
-            if (window.__analyticsEventLog) {
-                window.__analyticsEventLog.length = 0;
-            }
+        await page.addInitScript(() => {
+            localStorage.setItem('scriptle:hasVisited', 'true');
         });
-        // Dismiss first-visit modal by setting hasVisited flag and reloading
-        await dismissFirstVisitModal(page);
-        await page.reload();
-        // Clear analytics events again after reload
+        await page.goto('/');
         await page.evaluate(() => {
             if (window.__analyticsEventLog) {
                 window.__analyticsEventLog.length = 0;

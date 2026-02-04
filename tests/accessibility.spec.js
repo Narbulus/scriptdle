@@ -1,13 +1,14 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
-import { dismissFirstVisitModal } from './fixtures/index.js';
+
 
 test.describe('Accessibility', () => {
 
   test.beforeEach(async ({ page }) => {
+    await page.addInitScript(() => {
+      localStorage.setItem('scriptle:hasVisited', 'true');
+    });
     await page.goto('/');
-    await dismissFirstVisitModal(page);
-    await page.reload();
   });
 
   test.describe('Homepage', () => {
@@ -66,7 +67,7 @@ test.describe('Accessibility', () => {
 
       const movieSelectAriaLabel = await movieSelect.getAttribute('aria-label');
       const movieSelectId = await movieSelect.getAttribute('id');
-      const hasLabel = movieSelectAriaLabel || 
+      const hasLabel = movieSelectAriaLabel ||
         (movieSelectId && await page.locator(`label[for="${movieSelectId}"]`).count() > 0);
 
       expect(hasLabel).toBeTruthy();
