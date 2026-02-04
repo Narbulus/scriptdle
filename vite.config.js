@@ -19,7 +19,7 @@ export default defineConfig({
       name: 'html-transform',
       transformIndexHtml(html) {
         return html.replace(
-          /%VITE_GA_MEASUREMENT_ID%/g,
+          /__GA_MEASUREMENT_ID__/g,
           process.env.VITE_GA_MEASUREMENT_ID || ''
         );
       },
