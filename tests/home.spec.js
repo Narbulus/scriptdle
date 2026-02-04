@@ -1,12 +1,13 @@
 import { test, expect } from '@playwright/test';
-import { dismissFirstVisitModal } from './fixtures/index.js';
+
 
 test.describe('Home Page', () => {
 
     test.beforeEach(async ({ page }) => {
+        await page.addInitScript(() => {
+            localStorage.setItem('scriptle:hasVisited', 'true');
+        });
         await page.goto('/');
-        await dismissFirstVisitModal(page);
-        await page.reload();
     });
 
     test.describe('Page Load', () => {
@@ -16,29 +17,29 @@ test.describe('Home Page', () => {
         });
 
         test('displays navigation bar', async ({ page }) => {
-                        await expect(page.getByTestId('nav-bar')).toBeVisible();
+            await expect(page.getByTestId('nav-bar')).toBeVisible();
             await expect(page.getByTestId('nav-logo')).toHaveText('Scriptle');
         });
 
         test('displays menu button', async ({ page }) => {
-                        await expect(page.getByTestId('menu-button')).toBeVisible();
+            await expect(page.getByTestId('menu-button')).toBeVisible();
         });
 
         test('displays pack rows', async ({ page }) => {
-                        const packRows = page.getByTestId('pack-row');
+            const packRows = page.getByTestId('pack-row');
             await expect(packRows.first()).toBeVisible();
             // Verify at least one pack exists
             expect(await packRows.count()).toBeGreaterThan(0);
         });
 
         test('pack rows have name and movie count', async ({ page }) => {
-                        const firstPack = page.getByTestId('pack-row').first();
+            const firstPack = page.getByTestId('pack-row').first();
             await expect(firstPack.getByTestId('pack-name')).toBeVisible();
             await expect(firstPack.getByTestId('pack-count')).toBeVisible();
         });
 
         test('uses main theme on home page', async ({ page }) => {
-                        await expect(page.locator('body')).toHaveAttribute('data-theme', 'main');
+            await expect(page.locator('body')).toHaveAttribute('data-theme', 'main');
         });
     });
 
@@ -58,7 +59,7 @@ test.describe('Home Page', () => {
         });
 
         test('shows flower badge for completed pack (win)', async ({ page }) => {
-            
+
             // Get first pack's ID to test with
             const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
@@ -83,7 +84,7 @@ test.describe('Home Page', () => {
         });
 
         test('shows emoji badge for completed pack (loss)', async ({ page }) => {
-            
+
             // Get first pack's ID to test with
             const firstPackId = await page.getByTestId('pack-row').first().getAttribute('data-pack-id');
 
@@ -111,7 +112,7 @@ test.describe('Home Page', () => {
     test.describe('Navigation', () => {
 
         test('help button opens help modal', async ({ page }) => {
-            
+
             // Click help button
             await page.getByTestId('help-button').click();
 
@@ -121,7 +122,7 @@ test.describe('Home Page', () => {
         });
 
         test('stats button opens stats modal', async ({ page }) => {
-            
+
             // Open menu and click stats
             await page.getByTestId('menu-button').click();
             await page.getByTestId('menu-stats').click();
@@ -132,7 +133,7 @@ test.describe('Home Page', () => {
         });
 
         test('clicking pack navigates to game page', async ({ page }) => {
-            
+
             const firstPack = page.getByTestId('pack-row').first();
             const packId = await firstPack.getAttribute('data-pack-id');
 
@@ -143,7 +144,7 @@ test.describe('Home Page', () => {
         });
 
         test('returning from pack restores main theme', async ({ page }) => {
-            
+
             // Navigate to pack
             await page.getByTestId('pack-row').first().click();
             await expect(page.locator('body')).toHaveAttribute('data-theme', 'pack');
@@ -157,7 +158,7 @@ test.describe('Home Page', () => {
     test.describe('All Packs Load', () => {
 
         test('first three packs navigate without errors', async ({ page }) => {
-            
+
             const packRows = page.getByTestId('pack-row');
             const count = await packRows.count();
 

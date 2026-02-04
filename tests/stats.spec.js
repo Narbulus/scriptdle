@@ -1,12 +1,13 @@
 import { test, expect } from '@playwright/test';
-import { dismissFirstVisitModal } from './fixtures/index.js';
+
 
 test.describe('Stats Modal', () => {
 
     test.beforeEach(async ({ page }) => {
+        await page.addInitScript(() => {
+            localStorage.setItem('scriptle:hasVisited', 'true');
+        });
         await page.goto('/');
-        await dismissFirstVisitModal(page);
-        await page.reload();
     });
 
     test.describe('Empty State', () => {

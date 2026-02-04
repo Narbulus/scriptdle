@@ -341,6 +341,7 @@
     font: inherit;
     text-transform: inherit;
     letter-spacing: inherit;
+    user-select: none;
 }
 
 /* Character name placeholder - the answer we're guessing */
