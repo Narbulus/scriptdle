@@ -32,10 +32,12 @@ export function ScriptLine({ character, text, revealChar, revealText, isTarget, 
             );
         }
 
-        // Context lines use shimmer
+        // Context lines use shimmer - render placeholder text instead of actual character
+        // to prevent flash of real name during initial paint in Firefox mobile
+        const placeholderText = character.replace(/[^\s]/g, '█');
         return (
             <div className="character-name">
-                <span className="shimmer-text">{character}</span>
+                <span className="shimmer-text">{placeholderText}</span>
             </div>
         );
     };
@@ -50,10 +52,12 @@ export function ScriptLine({ character, text, revealChar, revealText, isTarget, 
             );
         }
 
-        // Masked State
+        // Masked State - render placeholder text instead of actual text
+        // to prevent flash of real content during initial paint in Firefox mobile
+        const placeholderText = text.replace(/[^\s\n]/g, '█');
         return (
             <div className="dialogue-text">
-                <span className="shimmer-text">{text}</span>
+                <span className="shimmer-text">{placeholderText}</span>
             </div>
         );
     };
