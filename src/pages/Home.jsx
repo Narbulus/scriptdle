@@ -35,7 +35,8 @@ export function Home() {
                                     todayStats[packId] = {
                                         completed: true,
                                         success: val.success,
-                                        date: date
+                                        date: date,
+                                        attempts: val.attempts
                                     };
                                 }
                             } catch {

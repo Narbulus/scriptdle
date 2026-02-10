@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scriptle - Daily Movie Quote Guessing Game</title>
   <meta name="description"
-    content="Play Scriptle daily! Guess the movie from gradually revealed quotes. Test your film knowledge with Star Wars, Harry Potter, Marvel, Pixar and more.">
+    content="Can you name the movie from just a quote? Play Scriptle free daily - guess films as quotes reveal word by word. Star Wars, Harry Potter, Marvel, Disney & more. No signup required.">
   <meta name="keywords" content="movie quotes game, movie trivia, daily puzzle, film quotes, movie guessing game">
   <meta name="author" content="Scriptle">
   <link rel="icon" type="image/png" href="/favicon.png">
@@ -93,13 +93,138 @@
     }
   </style>
 
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://www.scriptle.net/">
+
+  <!-- Structured Data for Rich Snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.scriptle.net/#website",
+        "name": "Scriptle",
+        "url": "https://www.scriptle.net/",
+        "description": "Daily movie quote guessing game",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://www.scriptle.net/?search={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.scriptle.net/#organization",
+        "name": "Scriptle",
+        "url": "https://www.scriptle.net/",
+        "logo": "https://www.scriptle.net/favicon.png"
+      },
+      {
+        "@type": "VideoGame",
+        "@id": "https://www.scriptle.net/#game",
+        "name": "Scriptle",
+        "description": "A daily movie quote guessing game where quotes reveal word by word",
+        "genre": ["Trivia", "Word Game", "Puzzle"],
+        "gamePlatform": "Web Browser",
+        "applicationCategory": "Game",
+        "operatingSystem": "Any",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      },
+      {
+        "@type": "ItemList",
+        "name": "Movie Quote Packs",
+        "description": "Available movie franchises to play",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Star Wars",
+            "url": "https://www.scriptle.net/play/star-wars"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Harry Potter",
+            "url": "https://www.scriptle.net/play/harry-potter"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Marvel",
+            "url": "https://www.scriptle.net/play/marvel"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Lord of the Rings",
+            "url": "https://www.scriptle.net/play/the-lord-of-the-rings"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Pixar Classics",
+            "url": "https://www.scriptle.net/play/pixar-classics"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Disney Classics",
+            "url": "https://www.scriptle.net/play/disney-classics"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Shrek",
+            "url": "https://www.scriptle.net/play/shrek"
+          }
+        ]
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "name": "Play Star Wars",
+        "url": "https://www.scriptle.net/play/star-wars"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "name": "Play Harry Potter",
+        "url": "https://www.scriptle.net/play/harry-potter"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "name": "Play Marvel",
+        "url": "https://www.scriptle.net/play/marvel"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "name": "Play Lord of the Rings",
+        "url": "https://www.scriptle.net/play/the-lord-of-the-rings"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "name": "Play Pixar",
+        "url": "https://www.scriptle.net/play/pixar-classics"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "name": "Play Disney",
+        "url": "https://www.scriptle.net/play/disney-classics"
+      }
+    ]
+  }
+  </script>
+
   <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=%VITE_GA_MEASUREMENT_ID%"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=__GA_MEASUREMENT_ID__"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-    gtag('config', '%VITE_GA_MEASUREMENT_ID%', { send_page_view: false });
+    gtag('config', '__GA_MEASUREMENT_ID__', { send_page_view: false });
   </script>
 
   <!-- Load theme data (synchronous, no module) -->

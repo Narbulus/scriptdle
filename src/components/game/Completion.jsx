@@ -1,8 +1,8 @@
-import { guessStats, currentAttempt, isWin, confettiShown, markConfettiShown } from '../../services/game-state.js';
+import { guessStats, currentAttempt, isWin, confettiShown, markConfettiShown, gameMessage, showMessage } from '../../services/game-state.js';
 import { getStreak } from '../../utils/completionTracker.js';
 import { generateFlower, generateBeetle, stringToSeed } from '../../utils/flowerGenerator.js';
-import { fireConfetti } from '../../utils/confetti.js';
-import { useEffect } from 'preact/hooks';
+import { fireConfetti, fireGoldenSparkles } from '../../utils/confetti.js';
+import { useEffect, useRef } from 'preact/hooks';
 import { getCurrentDate } from '../../utils/time.js';
 import { track } from '../../utils/analytics.js';
 
@@ -10,6 +10,7 @@ export function Completion({ puzzle, pack, packTheme }) {
     const attempts = currentAttempt.value;
     const success = isWin.value;
     const streak = getStreak();
+    const flowerRef = useRef(null);
 
     // Tier Message
     const tierMessages = pack.tierMessages || {};
@@ -30,6 +31,9 @@ export function Completion({ puzzle, pack, packTheme }) {
     // Answer Text
     const target = puzzle.targetLine;
 
+    // Check if this is a perfect (1 guess) win
+    const isPerfectWin = success && attempts === 1;
+
     // Fire confetti on mount if win and not already shown
     useEffect(() => {
         if (success && !confettiShown.value) {
@@ -44,10 +48,21 @@ export function Completion({ puzzle, pack, packTheme }) {
                 '#ffffff'
             ].filter(Boolean);
 
+            // Fire confetti (async but we don't need to await)
             fireConfetti(colors.length > 1 ? colors : null);
+
+            // Extra golden sparkles for perfect wins - delay to ensure flower is rendered
+            if (isPerfectWin) {
+                setTimeout(() => {
+                    if (flowerRef.current) {
+                        fireGoldenSparkles(colors.length > 1 ? colors : null, flowerRef.current);
+                    }
+                }, 100);
+            }
+
             markConfettiShown();
         }
-    }, [success]);
+    }, [success, isPerfectWin]);
 
     // Badge Generation
     const renderBadge = () => {
@@ -56,10 +71,15 @@ export function Completion({ puzzle, pack, packTheme }) {
         const cardColor = packTheme?.cardGradientStart || '#cccccc';
 
         if (success) {
-            const flowerSvg = generateFlower(badgeSeed, cardColor);
+            // Golden flower for perfect wins
+            const flowerSvg = generateFlower(badgeSeed, cardColor, { golden: isPerfectWin });
+            const wrapperClass = isPerfectWin
+                ? 'completion-badge-wrapper golden-glow'
+                : 'completion-badge-wrapper';
             return (
-                <div className="completion-badge-wrapper">
+                <div className={wrapperClass}>
                     <div
+                        ref={flowerRef}
                         className="completion-flower"
                         style={{ backgroundImage: `url('${flowerSvg}')` }}
                     />
@@ -79,32 +99,6 @@ export function Completion({ puzzle, pack, packTheme }) {
     };
 
     // Share Logic
-    const handleShare = () => {
-        const grid = generateShareString();
-        track('share_results', {
-            success: success,
-            attempts: attempts
-        });
-        const url = window.location.href;
-        const shareData = {
-            title: `Scriptle: Daily ${pack.name} quote guessing game`,
-            text: grid,
-            url: url
-        };
-
-        const copyToClipboard = () => {
-            navigator.clipboard.writeText(grid + '\n\n' + url);
-            alert('Result copied to clipboard!');
-        };
-
-        // Check if navigator.share can handle text (desktop browsers often only support URL)
-        if (navigator.share && navigator.canShare && navigator.canShare(shareData)) {
-            navigator.share(shareData).catch(copyToClipboard);
-        } else {
-            copyToClipboard();
-        }
-    };
-
     const generateShareString = () => {
         let grid = `Scriptle - ${pack.name}\n\n`;
         let movieRow = '';
@@ -122,6 +116,42 @@ export function Completion({ puzzle, pack, packTheme }) {
         }
         grid += movieRow + '\n' + charRow;
         return grid;
+    };
+
+    const shareText = generateShareString();
+    const shareUrl = window.location.href;
+
+    const handleShare = () => {
+        track('share_results', {
+            success: success,
+            attempts: attempts
+        });
+        const shareData = {
+            title: `Scriptle: Daily ${pack.name} quote guessing game`,
+            text: shareText,
+            url: shareUrl
+        };
+
+        const copyToClipboard = () => {
+            navigator.clipboard.writeText(shareText + '\n\n' + shareUrl);
+            showMessage('Copied to clipboard!', 'success', 2000);
+        };
+
+        // Check if navigator.share can handle text (desktop browsers often only support URL)
+        if (navigator.share && navigator.canShare && navigator.canShare(shareData)) {
+            navigator.share(shareData).catch(copyToClipboard);
+        } else {
+            copyToClipboard();
+        }
+    };
+
+    const handleCopy = () => {
+        track('copy_results', {
+            success: success,
+            attempts: attempts
+        });
+        navigator.clipboard.writeText(shareText + '\n\n' + shareUrl);
+        showMessage('Copied to clipboard!', 'success', 2000);
     };
 
     return (
@@ -149,10 +179,6 @@ export function Completion({ puzzle, pack, packTheme }) {
                 </div>
 
                 <div className="share-section">
-                    <button id="share-btn" data-testid="share-button" onClick={handleShare}>
-                        Share Results
-                    </button>
-
                     {puzzle.imdbId && (
                         <a
                             href={`https://www.imdb.com/title/${puzzle.imdbId}/`}
@@ -164,9 +190,38 @@ export function Completion({ puzzle, pack, packTheme }) {
                         </a>
                     )}
 
-                    <a href="/" data-link className="footer-more-movies" style={{ marginTop: '1rem', fontSize: '0.9rem' }}>
+                    <a href="/" data-link className="footer-more-movies" style={{ fontSize: '0.9rem' }}>
                         More Movies
                     </a>
+
+                    <div className="share-preview-tray">
+                        <div className="share-preview-text">
+                            {shareText.split('\n').map((line, i) => (
+                                <div key={i}>{line || '\u00A0'}</div>
+                            ))}
+                        </div>
+                        <div className="share-button-row">
+                            <button id="share-btn" data-testid="share-button" className="share-btn-small" onClick={handleShare}>
+                                Share Results
+                            </button>
+                            <button className="copy-button" onClick={handleCopy} aria-label="Copy to clipboard">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    {/* Copy feedback message */}
+                    {gameMessage.value && (
+                        <div
+                            className={`message-overlay ${gameMessage.value.type}`}
+                            style={{ position: 'relative', marginTop: '0.5rem' }}
+                        >
+                            {gameMessage.value.text}
+                        </div>
+                    )}
                 </div>
             </div>
         </div>
