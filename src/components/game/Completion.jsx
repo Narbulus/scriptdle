@@ -48,6 +48,7 @@ export function Completion({ puzzle, pack, packTheme }) {
                 '#ffffff'
             ].filter(Boolean);
 
+            // Fire confetti (async but we don't need to await)
             fireConfetti(colors.length > 1 ? colors : null);
 
             // Extra golden sparkles for perfect wins - delay to ensure flower is rendered

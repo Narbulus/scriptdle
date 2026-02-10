@@ -1,14 +1,23 @@
-import confetti from 'canvas-confetti';
+// Lazy load canvas-confetti to avoid SSR/prerender issues
+let confetti = null;
+async function getConfetti() {
+  if (!confetti) {
+    const module = await import('canvas-confetti');
+    confetti = module.default;
+  }
+  return confetti;
+}
 
 /**
  * Fires a single small puff of confetti from both sides of the screen
  * @param {string[]} colors - Array of color strings for the confetti
  */
-export function fireConfetti(customColors = null) {
+export async function fireConfetti(customColors = null) {
+  const confettiFunc = await getConfetti();
   const colors = customColors || ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff'];
 
   // Single small puff from left side
-  confetti({
+  confettiFunc({
     particleCount: 30,
     angle: 60,
     spread: 55,
@@ -17,7 +26,7 @@ export function fireConfetti(customColors = null) {
   });
 
   // Single small puff from right side
-  confetti({
+  confettiFunc({
     particleCount: 30,
     angle: 120,
     spread: 55,
@@ -30,11 +39,13 @@ export function fireConfetti(customColors = null) {
  * Fires a burst of confetti from a specific position (the flower/star)
  * @param {HTMLElement} flowerElement - The flower element to get position and colors from
  */
-export function fireFlowerBurst(flowerElement) {
+export async function fireFlowerBurst(flowerElement) {
   if (!flowerElement) {
     console.warn('No flower element provided for burst');
     return;
   }
+
+  const confettiFunc = await getConfetti();
 
   // Get the position of the flower
   const rect = flowerElement.getBoundingClientRect();
@@ -47,7 +58,7 @@ export function fireFlowerBurst(flowerElement) {
   // Fire multiple bursts with different characteristics
   const fire = (particleRatio, opts) => {
     const count = Math.floor(200 * particleRatio);
-    confetti({
+    confettiFunc({
       ...opts,
       origin: { x, y },
       particleCount: count,
@@ -121,12 +132,12 @@ function extractFlowerColors(element) {
  * @param {string[]} colors - Colors for the side jets
  * @param {HTMLElement} flowerElement - The flower element for the burst
  */
-export function fireGoldenSparkles(colors, flowerElement) {
+export async function fireGoldenSparkles(colors, flowerElement) {
   // Start with side jets
-  fireConfetti(colors);
+  await fireConfetti(colors);
 
   // After 1 second, fire the flower burst
-  setTimeout(() => {
-    fireFlowerBurst(flowerElement);
+  setTimeout(async () => {
+    await fireFlowerBurst(flowerElement);
   }, 1000);
 }
