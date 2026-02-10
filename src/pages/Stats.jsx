@@ -44,7 +44,8 @@ export function StatsContent() {
 
                         if (firstSuccess) {
                             className += " has-completion";
-                            const flowerSvg = generateFlower(firstSuccess.packId + dateStr, '#fff9c4');
+                            const isPerfectWin = firstSuccess.attempts === 1;
+                            const flowerSvg = generateFlower(firstSuccess.packId + dateStr, '#fff9c4', { golden: isPerfectWin });
                             content = (
                                 <div
                                     className="calendar-flower"
@@ -81,7 +82,7 @@ export function StatsContent() {
                                     {completion.success && (
                                         <span
                                             className="flower-bullet"
-                                            style={{ backgroundImage: `url("${generateFlower(completion.packId + completion.date, '#fff9c4')}")` }}
+                                            style={{ backgroundImage: `url("${generateFlower(completion.packId + completion.date, '#fff9c4', { golden: completion.attempts === 1 })}")` }}
                                         />
                                     )}
                                     <span className="result-text">{packName} - {dateFormatted} - {result}</span>

@@ -94,6 +94,7 @@
     --pack-primary: #333;
     --pack-bg: #f4f4f4;
     --pack-surface: #ffffff;
+    --pack-surface-tint: color-mix(in srgb, var(--pack-bg) 85%, white);
     --pack-accent: #555;
     --pack-btn-text: #ffffff;
     --pack-text: #333;

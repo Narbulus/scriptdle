@@ -86,19 +86,50 @@ function generateFlowerColors(cardColor, rng) {
   };
 }
 
-export function generateFlower(seed, cardColor = '#cccccc') {
+function generateGoldenFlowerColors(rng) {
+  // Golden color palette - rich golds, ambers, and warm yellows
+  const goldenHues = [
+    { h: 45, s: 95, l: 55 },   // Bright gold
+    { h: 38, s: 90, l: 50 },   // Deep gold
+    { h: 50, s: 100, l: 60 },  // Yellow gold
+    { h: 30, s: 85, l: 45 },   // Amber gold
+  ];
+
+  const petalChoice = goldenHues[Math.floor(rng() * goldenHues.length)];
+  const petalHue = petalChoice.h + (rng() * 10 - 5);
+  const petalSat = petalChoice.s + (rng() * 10 - 5);
+  const petalLight = petalChoice.l + (rng() * 10 - 5);
+
+  // Center is a deeper, richer gold or amber
+  const centerHue = 35 + rng() * 15;
+  const centerSat = 80 + rng() * 15;
+  const centerLight = 35 + rng() * 15;
+
+  return {
+    petalColor: hslToHex(petalHue, petalSat, petalLight),
+    centerColor: hslToHex(centerHue, centerSat, centerLight)
+  };
+}
+
+export function generateFlower(seed, cardColor = '#cccccc', options = {}) {
   const numericSeed = typeof seed === 'string' ? stringToSeed(seed) : seed;
   const rng = createSeededRng(numericSeed);
+  const { golden = false } = options;
 
   const totalRadius = 45;
-  const petalCount = Math.floor(rng() * 4) + 5;
+  // Golden flowers have more petals (10-14) vs regular (5-8)
+  const petalCount = golden
+    ? Math.floor(rng() * 5) + 10
+    : Math.floor(rng() * 4) + 5;
   const petalOffset = 3 + rng() * 6;
   const petalLength = totalRadius - petalOffset;
-  const petalWidth = 10 + rng() * 12;
+  const petalWidth = golden ? 8 + rng() * 8 : 10 + rng() * 12;
   const centerRadius = 6 + rng() * 8;
   const rotation = rng() * 360;
 
-  const { petalColor, centerColor } = generateFlowerColors(cardColor, rng);
+  const { petalColor, centerColor } = golden
+    ? generateGoldenFlowerColors(rng)
+    : generateFlowerColors(cardColor, rng);
 
   let petals = '';
   const petalCy = 50 - petalLength / 2 - petalOffset;
@@ -106,17 +137,67 @@ export function generateFlower(seed, cardColor = '#cccccc') {
   for (let i = 0; i < petalCount; i++) {
     const angle = (360 / petalCount) * i + rotation;
 
-    petals += `<ellipse
-      cx="50"
-      cy="${petalCy}"
-      rx="${petalWidth / 2}"
-      ry="${petalLength / 2}"
-      fill="${petalColor}"
-      transform="rotate(${angle} 50 50)"
-    />`;
+    if (golden) {
+      // Pointed star-like petals for golden flowers
+      const tipY = 50 - petalLength - petalOffset; // Sharp tip
+      const baseY = 50 - petalOffset; // Base near center
+      const halfWidth = petalWidth / 2;
+      // Create a pointed petal shape with curved sides
+      petals += `<path
+        d="M 50 ${tipY}
+           Q ${50 + halfWidth * 0.3} ${50 - petalLength * 0.5 - petalOffset} ${50 + halfWidth} ${baseY}
+           L 50 ${baseY + 2}
+           L ${50 - halfWidth} ${baseY}
+           Q ${50 - halfWidth * 0.3} ${50 - petalLength * 0.5 - petalOffset} 50 ${tipY}
+           Z"
+        fill="${petalColor}"
+        transform="rotate(${angle} 50 50)"
+      />`;
+    } else {
+      petals += `<ellipse
+        cx="50"
+        cy="${petalCy}"
+        rx="${petalWidth / 2}"
+        ry="${petalLength / 2}"
+        fill="${petalColor}"
+        transform="rotate(${angle} 50 50)"
+      />`;
+    }
   }
 
-  const hasInnerPetals = rng() > 0.5;
+  // Add secondary shorter points for golden flowers
+  if (golden) {
+    // Secondary points are slightly darker/amber gold
+    const hsl = hexToHsl(petalColor);
+    const secondaryColor = hslToHex(hsl.h - 8, hsl.s - 5, hsl.l - 8); // Slightly more amber/darker
+
+    const secondaryLengthRatio = 0.5 + rng() * 0.4; // Random 50-90% of main height
+    const secondaryLength = petalLength * secondaryLengthRatio;
+    const secondaryWidth = petalWidth * 0.7;
+    const secondaryOffset = petalOffset + 1;
+
+    for (let i = 0; i < petalCount; i++) {
+      const angle = (360 / petalCount) * i + rotation + (360 / petalCount / 2); // Offset by half
+      const tipY = 50 - secondaryLength - secondaryOffset;
+      const baseY = 50 - secondaryOffset;
+      const halfWidth = secondaryWidth / 2;
+
+      petals += `<path
+        d="M 50 ${tipY}
+           Q ${50 + halfWidth * 0.3} ${50 - secondaryLength * 0.5 - secondaryOffset} ${50 + halfWidth} ${baseY}
+           L 50 ${baseY + 2}
+           L ${50 - halfWidth} ${baseY}
+           Q ${50 - halfWidth * 0.3} ${50 - secondaryLength * 0.5 - secondaryOffset} 50 ${tipY}
+           Z"
+        fill="${secondaryColor}"
+        transform="rotate(${angle} 50 50)"
+        opacity="0.95"
+      />`;
+    }
+  }
+
+  // Inner petals (skip for golden flowers - they already have many pointed petals)
+  const hasInnerPetals = !golden && rng() > 0.5;
   if (hasInnerPetals) {
     const innerRadius = totalRadius * 0.65; // Inner layer reaches 65% of total radius
     const innerPetalOffset = petalOffset * 0.8;

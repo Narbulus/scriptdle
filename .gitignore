@@ -48,3 +48,6 @@ coverage/
 # Git worktrees
 .worktrees/
 src/build-info.js
+
+# AI SHIT
+.ai-config

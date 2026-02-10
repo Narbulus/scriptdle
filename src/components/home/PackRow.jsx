@@ -11,7 +11,8 @@ export function PackRow({ pack, theme, completion }) {
         const animationDelay = `${(badgeSeed % 4000) / 1000}s`;
 
         if (completion.success) {
-            const flowerSvg = generateFlower(badgeSeed, cardColor);
+            const isPerfectWin = completion.attempts === 1;
+            const flowerSvg = generateFlower(badgeSeed, cardColor, { golden: isPerfectWin });
             return (
                 <div
                     className="pack-row-badge"
