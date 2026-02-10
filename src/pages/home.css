@@ -108,10 +108,17 @@
     margin-left: 0;
 }
 
+.pack-row-badge-wrapper {
+    margin-left: 0.75rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .pack-row-badge {
     width: 28px;
     height: 28px;
-    margin-left: 0.75rem;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -124,7 +131,39 @@
 .pack-row-badge.beetle-badge {
     width: 40px;
     height: 40px;
+    margin-left: 0.75rem;
     margin-right: -6px;
+}
+
+/* Golden glow for perfect (1 guess) wins */
+.pack-row-badge-wrapper.golden-glow {
+    position: relative;
+    isolation: isolate;
+}
+
+.pack-row-badge-wrapper.golden-glow::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150%;
+    height: 150%;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 215, 0, 0.6) 0%, rgba(255, 180, 0, 0.3) 40%, transparent 70%);
+    animation: golden-pulse 2s ease-in-out infinite;
+    z-index: -1;
+}
+
+@keyframes golden-pulse {
+    0%, 100% {
+        opacity: 0.7;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.15);
+    }
 }
 
 @keyframes sway {
