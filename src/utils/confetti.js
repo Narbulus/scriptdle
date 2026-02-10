@@ -3,7 +3,11 @@ let confetti = null;
 async function getConfetti() {
   if (!confetti) {
     const module = await import('canvas-confetti');
-    confetti = module.default;
+    // Create confetti instance without workers to avoid CSP issues
+    confetti = module.create(undefined, {
+      resize: true,
+      useWorker: false
+    });
   }
   return confetti;
 }
