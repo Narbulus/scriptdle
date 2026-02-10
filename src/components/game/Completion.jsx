@@ -50,9 +50,13 @@ export function Completion({ puzzle, pack, packTheme }) {
 
             fireConfetti(colors.length > 1 ? colors : null);
 
-            // Extra golden sparkles for perfect wins - includes side jets + flower burst
-            if (isPerfectWin && flowerRef.current) {
-                fireGoldenSparkles(colors.length > 1 ? colors : null, flowerRef.current);
+            // Extra golden sparkles for perfect wins - delay to ensure flower is rendered
+            if (isPerfectWin) {
+                setTimeout(() => {
+                    if (flowerRef.current) {
+                        fireGoldenSparkles(colors.length > 1 ? colors : null, flowerRef.current);
+                    }
+                }, 100);
             }
 
             markConfettiShown();

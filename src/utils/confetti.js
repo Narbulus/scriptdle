@@ -87,6 +87,10 @@ export function fireFlowerBurst(flowerElement) {
 function extractFlowerColors(element) {
   const defaultGold = ['#FFD700', '#FFC125', '#FFDF00', '#FFB90F'];
 
+  if (!element || !element.style) {
+    return defaultGold;
+  }
+
   try {
     const bgImage = element.style.backgroundImage;
     if (!bgImage) return defaultGold;
