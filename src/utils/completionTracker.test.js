@@ -159,6 +159,86 @@ describe('completionTracker', () => {
 
       expect(getStreak()).toBe(1);
     });
+
+    test('uses completedAt date for streak, not puzzle date', () => {
+      // Player completed 5 past puzzles all on the same day (today)
+      mockLocalStorage.setItem('scriptle:starwars:2024-06-11', JSON.stringify({
+        gameOver: true,
+        success: true,
+        attempts: 2,
+        completedAt: '2024-06-15T10:00:00Z',
+      }));
+      mockLocalStorage.setItem('scriptle:marvel:2024-06-12', JSON.stringify({
+        gameOver: true,
+        success: true,
+        attempts: 3,
+        completedAt: '2024-06-15T10:05:00Z',
+      }));
+      mockLocalStorage.setItem('scriptle:pixar:2024-06-13', JSON.stringify({
+        gameOver: true,
+        success: true,
+        attempts: 1,
+        completedAt: '2024-06-15T10:10:00Z',
+      }));
+      mockLocalStorage.setItem('scriptle:horror:2024-06-14', JSON.stringify({
+        gameOver: true,
+        success: true,
+        attempts: 4,
+        completedAt: '2024-06-15T10:15:00Z',
+      }));
+      mockLocalStorage.setItem('scriptle:comedy:2024-06-15', JSON.stringify({
+        gameOver: true,
+        success: true,
+        attempts: 2,
+        completedAt: '2024-06-15T10:20:00Z',
+      }));
+
+      // Should be 1, not 5 — all played on the same day
+      expect(getStreak()).toBe(1);
+    });
+
+    test('counts streak from actual play dates across multiple days', () => {
+      // Played today's puzzle today
+      mockLocalStorage.setItem('scriptle:starwars:2024-06-15', JSON.stringify({
+        gameOver: true,
+        success: true,
+        attempts: 2,
+        completedAt: '2024-06-15T12:00:00Z',
+      }));
+      // Played yesterday's puzzle yesterday
+      mockLocalStorage.setItem('scriptle:marvel:2024-06-14', JSON.stringify({
+        gameOver: true,
+        success: true,
+        attempts: 3,
+        completedAt: '2024-06-14T18:00:00Z',
+      }));
+      // Played a past puzzle yesterday (not on its actual date)
+      mockLocalStorage.setItem('scriptle:pixar:2024-06-10', JSON.stringify({
+        gameOver: true,
+        success: true,
+        attempts: 1,
+        completedAt: '2024-06-14T18:30:00Z',
+      }));
+
+      // Streak is 2 (played today and yesterday), not 3
+      expect(getStreak()).toBe(2);
+    });
+
+    test('falls back to puzzle date when completedAt is missing', () => {
+      // Legacy data without completedAt
+      mockLocalStorage.setItem('scriptle:starwars:2024-06-15', JSON.stringify({
+        gameOver: true,
+        success: true,
+        attempts: 2,
+      }));
+      mockLocalStorage.setItem('scriptle:marvel:2024-06-14', JSON.stringify({
+        gameOver: true,
+        success: true,
+        attempts: 3,
+      }));
+
+      expect(getStreak()).toBe(2);
+    });
   });
 
   describe('getCompletionsByPack', () => {

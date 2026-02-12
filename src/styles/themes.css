@@ -150,3 +150,53 @@
 [data-theme="script"] .script-then {
     color: var(--script-text-muted);
 }
+
+/* ========================================
+   THEMED SCROLLBARS
+   ======================================== */
+
+/* Main theme scrollbar */
+[data-theme="main"] {
+    scrollbar-color: var(--main-text-muted) var(--main-bg);
+    scrollbar-width: thin;
+}
+
+[data-theme="main"]::-webkit-scrollbar {
+    width: 8px;
+}
+
+[data-theme="main"]::-webkit-scrollbar-track {
+    background: var(--main-bg);
+}
+
+[data-theme="main"]::-webkit-scrollbar-thumb {
+    background: var(--main-text-muted);
+    border-radius: 4px;
+}
+
+[data-theme="main"]::-webkit-scrollbar-thumb:hover {
+    background: var(--main-text-secondary);
+}
+
+/* Pack theme scrollbar */
+[data-theme="pack"] {
+    scrollbar-color: color-mix(in srgb, var(--pack-primary) 50%, transparent) var(--pack-bg);
+    scrollbar-width: thin;
+}
+
+[data-theme="pack"]::-webkit-scrollbar {
+    width: 8px;
+}
+
+[data-theme="pack"]::-webkit-scrollbar-track {
+    background: var(--pack-bg);
+}
+
+[data-theme="pack"]::-webkit-scrollbar-thumb {
+    background: color-mix(in srgb, var(--pack-primary) 50%, transparent);
+    border-radius: 4px;
+}
+
+[data-theme="pack"]::-webkit-scrollbar-thumb:hover {
+    background: color-mix(in srgb, var(--pack-primary) 70%, transparent);
+}

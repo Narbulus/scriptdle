@@ -45,13 +45,6 @@ export async function setupMockRoutes(page) {
         puzzles: {
           'test-pack': todayPuzzle,
         },
-        manifests: {
-          'test-pack': {
-            packId: 'test-pack',
-            packName: 'Test Pack',
-            totalPuzzles: 365,
-          },
-        },
       }),
     });
   });

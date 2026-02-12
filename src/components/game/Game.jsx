@@ -1,10 +1,11 @@
-import { useState, useEffect } from 'preact/hooks';
+import { useState, useEffect, useRef } from 'preact/hooks';
 import { isGameOver, initGame } from '../../services/game-state.js';
 import { ScriptDisplay } from './ScriptDisplay.jsx';
 import { Controls } from './Controls.jsx';
 import { Completion } from './Completion.jsx';
 import { MoviesModal } from './MoviesModal.jsx';
-import { isFirstVisit, markAsVisited, getTutorialState, saveTutorialState } from '../../services/storage.js';
+import { DebugMenu } from './DebugMenu.jsx';
+import { getTutorialState, saveTutorialState } from '../../services/storage.js';
 
 const TUTORIAL_STEPS = {
     MOVIE_SELECT: 1,
@@ -19,16 +20,24 @@ export function Game({ dailyPuzzle, manifest, packData }) {
     const metadata = dailyPuzzle.metadata;
     const [moviesModalOpen, setMoviesModalOpen] = useState(false);
 
+    // Expose movies modal opener globally for Reddit nav bar
+    useEffect(() => {
+        window.SCRIPTLE_OPEN_MOVIES = () => setMoviesModalOpen(true);
+        return () => { delete window.SCRIPTLE_OPEN_MOVIES; };
+    }, []);
+
     const [tutorialStep, setTutorialStep] = useState(() => {
         const state = getTutorialState();
-        if (state.completed) return TUTORIAL_STEPS.COMPLETE;
-        if (!isFirstVisit() && state.step === 1) return TUTORIAL_STEPS.COMPLETE;
-        return state.step;
+        return state.completed ? TUTORIAL_STEPS.COMPLETE : state.step;
     });
     const [tipVisible, setTipVisible] = useState(() => {
         const state = getTutorialState();
-        return !state.completed && isFirstVisit();
+        return !state.completed;
     });
+
+    // Track if game was already completed on load (skip footer animation)
+    const wasAlreadyComplete = useRef(false);
+    const hasCheckedInit = useRef(false);
 
     const pack = {
         id: dailyPuzzle.packId,
@@ -39,21 +48,38 @@ export function Game({ dailyPuzzle, manifest, packData }) {
 
     useEffect(() => {
         initGame(dailyPuzzle.packId, dailyPuzzle.date, pack.name);
+        // After initGame, isGameOver reflects saved state
+        if (!hasCheckedInit.current) {
+            wasAlreadyComplete.current = isGameOver.value;
+            hasCheckedInit.current = true;
+        }
     }, [dailyPuzzle.packId, dailyPuzzle.date, pack.name]);
 
     useEffect(() => {
         if (tutorialStep === TUTORIAL_STEPS.COMPLETE) {
             saveTutorialState({ step: tutorialStep, completed: true });
-            markAsVisited();
-        } else if (tutorialStep > 1) {
+        } else {
             saveTutorialState({ step: tutorialStep, completed: false });
         }
     }, [tutorialStep]);
 
+    // Re-read persisted state before advancing — if another post already
+    // progressed further (or completed), jump to that step instead.
     const advanceTutorial = (toStep) => {
-        if (tutorialStep < toStep && toStep <= TUTORIAL_STEPS.NEW_LINE) {
+        const saved = getTutorialState();
+        if (saved.completed) {
+            setTutorialStep(TUTORIAL_STEPS.COMPLETE);
+            setTipVisible(false);
+            return;
+        }
+        const effective = Math.max(saved.step, tutorialStep);
+        if (effective < toStep && toStep <= TUTORIAL_STEPS.NEW_LINE) {
             setTutorialStep(toStep);
             setTipVisible(true);
+        } else if (effective >= toStep) {
+            // Already past this step — update local state, don't show tip
+            setTutorialStep(effective);
+            setTipVisible(effective < TUTORIAL_STEPS.COMPLETE);
         }
     };
 
@@ -112,7 +138,7 @@ export function Game({ dailyPuzzle, manifest, packData }) {
         <div className="game-container">
             <ScriptDisplay puzzle={puzzle} />
 
-            <div className="game-footer" data-testid="game-footer">
+            <div className={`game-footer${isGameOver.value && typeof window !== 'undefined' && window.SCRIPTLE_SHARE_HANDLER ? (wasAlreadyComplete.current ? ' completion-expanded no-animate' : ' completion-expanded') : ''}`} data-testid="game-footer">
                 {isGameOver.value ? (
                     <Completion
                         puzzle={puzzle}
@@ -143,6 +169,8 @@ export function Game({ dailyPuzzle, manifest, packData }) {
                     moviePosters={metadata.moviePosters}
                 />
             </div>
+
+            {(import.meta.env.DEV || import.meta.env.VITE_DEBUG_MENU) && <DebugMenu />}
         </div>
     );
 }

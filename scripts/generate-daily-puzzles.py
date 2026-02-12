@@ -257,7 +257,7 @@ class PuzzleGenerator:
 
         return manifest
 
-    def generate_for_pack(self, pack_id, days=365, min_words=5):
+    def generate_for_pack(self, pack_id, days=365, min_words=5, start_date=None):
         """Generate daily puzzles for a pack"""
         print(f"\n{'='*60}")
         print(f"Generating puzzles for pack: {pack_id}")
@@ -286,7 +286,8 @@ class PuzzleGenerator:
         # Generate puzzles
         # Start from yesterday to handle timezone differences
         # (build server runs in UTC, users may be in earlier timezones like EST/PST)
-        start_date = datetime.now().date() - timedelta(days=1)
+        if start_date is None:
+            start_date = datetime.now().date() - timedelta(days=1)
         end_date = start_date + timedelta(days=days)
 
         current_date = start_date
@@ -324,7 +325,7 @@ class PuzzleGenerator:
         print(f"Date range: {start_date} to {end_date}")
         print(f"Output directory: {pack_daily_dir}")
 
-    def generate_consolidated_daily_files(self, days=365):
+    def generate_consolidated_daily_files(self, days=365, start_date=None):
         """
         Generate consolidated daily files that combine all pack puzzles for each date.
         Results in /data/daily-all/{date}.json files.
@@ -341,16 +342,9 @@ class PuzzleGenerator:
         pack_files = list(self.packs_dir.glob('*.json'))
         pack_ids = [p.stem for p in pack_files]
 
-        # Load all manifests
-        manifests = {}
-        for pack_id in pack_ids:
-            manifest_file = self.daily_dir / pack_id / 'manifest.json'
-            if manifest_file.exists():
-                with open(manifest_file, 'r', encoding='utf-8') as f:
-                    manifests[pack_id] = json.load(f)
-
         # Generate consolidated files for each date
-        start_date = datetime.now().date() - timedelta(days=1)
+        if start_date is None:
+            start_date = datetime.now().date() - timedelta(days=1)
         end_date = start_date + timedelta(days=days)
         current_date = start_date
         generated_count = 0
@@ -360,16 +354,15 @@ class PuzzleGenerator:
             consolidated = {
                 'date': date_str,
                 'puzzles': {},
-                'manifests': manifests
             }
 
-            # Load each pack's puzzle for this date
+            # Load each pack's puzzle for this date (strip metadata — it's in packs-full.json)
             for pack_id in pack_ids:
                 puzzle_file = self.daily_dir / pack_id / f'{date_str}.json'
                 if puzzle_file.exists():
                     with open(puzzle_file, 'r', encoding='utf-8') as f:
                         puzzle_data = json.load(f)
-                        # Include full puzzle data (with metadata for gameplay)
+                        puzzle_data.pop('metadata', None)
                         consolidated['puzzles'][pack_id] = puzzle_data
 
             # Write consolidated file
@@ -385,6 +378,46 @@ class PuzzleGenerator:
 
         print(f"\nGenerated {generated_count} consolidated daily files")
         print(f"Output directory: {daily_all_dir}")
+
+    def augment_packs_full(self):
+        """Add gameMetadata and manifests to packs-full.json for each pack."""
+        packs_full_file = self.data_dir / 'packs-full.json'
+        if not packs_full_file.exists():
+            print("Warning: packs-full.json not found, skipping augmentation")
+            return
+
+        print(f"\n{'='*60}")
+        print(f"Augmenting packs-full.json with game metadata + manifests...")
+        print(f"{'='*60}")
+
+        with open(packs_full_file, 'r', encoding='utf-8') as f:
+            packs_full = json.load(f)
+
+        for pack_entry in packs_full.get('packs', []):
+            pack_id = pack_entry['id']
+
+            # Add manifest
+            manifest_file = self.daily_dir / pack_id / 'manifest.json'
+            if manifest_file.exists():
+                with open(manifest_file, 'r', encoding='utf-8') as f:
+                    pack_entry['manifest'] = json.load(f)
+                print(f"  Added manifest for {pack_id}")
+
+            # Add gameMetadata from any generated puzzle (it's the same for all dates)
+            pack_daily_dir = self.daily_dir / pack_id
+            sample_files = list(pack_daily_dir.glob('*.json'))
+            sample_files = [f for f in sample_files if f.name != 'manifest.json']
+            if sample_files:
+                with open(sample_files[0], 'r', encoding='utf-8') as f:
+                    sample_puzzle = json.load(f)
+                if 'metadata' in sample_puzzle:
+                    pack_entry['gameMetadata'] = sample_puzzle['metadata']
+                    print(f"  Added gameMetadata for {pack_id}")
+
+        with open(packs_full_file, 'w', encoding='utf-8') as f:
+            json.dump(packs_full, f, indent=2, ensure_ascii=False)
+
+        print(f"\nAugmented packs-full.json")
 
     def generate_themes_file(self):
         """Generate themes.js file with all pack themes"""
@@ -422,7 +455,7 @@ class PuzzleGenerator:
         print(f"\nGenerated themes.js with {len(themes)} pack(s)")
         print(f"Output file: {themes_file}")
 
-    def generate_all(self, days=365, min_words=5):
+    def generate_all(self, days=365, min_words=5, start_date=None):
         """Generate puzzles for all packs"""
         # Find all pack files
         pack_files = list(self.packs_dir.glob('*.json'))
@@ -432,7 +465,7 @@ class PuzzleGenerator:
         for pack_file in pack_files:
             pack_id = pack_file.stem
             try:
-                self.generate_for_pack(pack_id, days, min_words=min_words)
+                self.generate_for_pack(pack_id, days, min_words=min_words, start_date=start_date)
             except Exception as e:
                 print(f"Error generating puzzles for {pack_id}: {e}")
                 raise
@@ -440,8 +473,11 @@ class PuzzleGenerator:
         # Generate themes file
         self.generate_themes_file()
 
+        # Augment packs-full.json with game metadata + manifests
+        self.augment_packs_full()
+
         # Generate consolidated daily files (combines all packs per date)
-        self.generate_consolidated_daily_files(days)
+        self.generate_consolidated_daily_files(days, start_date=start_date)
 
         print(f"\n{'='*60}")
         print(f"Generation complete!")
@@ -454,17 +490,22 @@ def main():
     parser.add_argument('--pack', type=str, help='Generate for specific pack only')
     parser.add_argument('--data-dir', type=str, default='public/data', help='Data directory path')
     parser.add_argument('--min-words', type=int, default=5, help='Minimum number of words in target quote (default: 5)')
+    parser.add_argument('--start-date', type=str, help='Start date in YYYY-MM-DD format (default: yesterday)')
 
     args = parser.parse_args()
+
+    start_date = None
+    if args.start_date:
+        start_date = datetime.fromisoformat(args.start_date).date()
 
     generator = PuzzleGenerator(data_dir=args.data_dir)
 
     if args.pack:
-        generator.generate_for_pack(args.pack, args.days, min_words=args.min_words)
+        generator.generate_for_pack(args.pack, args.days, min_words=args.min_words, start_date=start_date)
         # Also regenerate themes file
         generator.generate_themes_file()
     else:
-        generator.generate_all(args.days, min_words=args.min_words)
+        generator.generate_all(args.days, min_words=args.min_words, start_date=start_date)
 
 
 if __name__ == '__main__':

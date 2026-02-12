@@ -1,0 +1,456 @@
+/* Reddit WebView overrides */
+
+/* Hide elements not needed in Reddit context */
+.movie-imdb-link,
+.footer-more-movies,
+.nav-bar,
+.footer-nav {
+  display: none !important;
+}
+
+/* Hide the pack header row in controls — it's now in the reddit nav bar */
+.pack-header-row {
+  display: none !important;
+}
+
+/* Hide movie poster images in modal (can't load from AWS due to CSP) */
+.movie-poster-thumb,
+.movie-poster-placeholder {
+  display: none !important;
+}
+
+/* ─── Compact Header ─── */
+.reddit-nav-bar {
+  display: flex;
+  align-items: center;
+  background: var(--pack-bg);
+  padding: 0.25rem 4px 0.25rem 0.5rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--pack-primary) 20%, transparent);
+}
+
+.reddit-nav-spacer {
+  width: 32px;
+  flex-shrink: 0;
+}
+
+.reddit-nav-title {
+  flex: 1;
+  min-width: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: var(--pack-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ─── Prevent All Scrolling ─── */
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  background: var(--pack-bg, #f4f4f4);
+}
+
+#app {
+  height: 100vh;
+  background: var(--pack-bg, #f4f4f4);
+  display: flex;
+  flex-direction: column;
+}
+
+#game-area {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Game container fills viewport without nav */
+.game-container {
+  padding-top: 0;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* ─── Script Area: fills remaining space after footer ─── */
+.script-area {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  transition: none;
+  box-shadow:
+    0 -8px 16px rgba(0, 0, 0, 0.15),
+    0 8px 16px rgba(0, 0, 0, 0.15),
+    -8px 0 16px rgba(0, 0, 0, 0.1),
+    8px 0 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Override the playing-N max-height classes — no fixed height in Reddit */
+.script-area.playing-0,
+.script-area.playing-1,
+.script-area.playing-2,
+.script-area.playing-3,
+.script-area.playing-4,
+.script-area.playing-5 {
+  max-height: none;
+}
+
+/* Script lines fill full width — no negative margin trick needed in scroll container */
+.script-content {
+  padding: 0 !important;
+}
+
+.script-line {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Scroll wrapper for button-powered scrolling */
+.script-scroll-wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.script-scroll-inner {
+  overflow: hidden;
+  height: 100%;
+}
+
+/* Scroll buttons — rounded squares, darker shade of script area */
+.script-scroll-btn {
+  position: absolute;
+  right: 4px;
+  z-index: 10;
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  padding: 0;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--script-bg) 70%, #000) !important;
+  color: #fff !important;
+  border: none;
+  font-size: 0.6rem;
+  cursor: pointer;
+  opacity: 0.85;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.15s;
+}
+
+.script-scroll-btn:hover {
+  opacity: 1;
+  transform: none !important;
+  filter: none !important;
+}
+
+.script-scroll-up {
+  top: 4px;
+}
+
+.script-scroll-down {
+  bottom: 4px;
+}
+
+/* ─── Footer: sized to content, script area gets the rest ─── */
+.game-footer {
+  background: var(--pack-bg, #f4f4f4) !important;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.game-footer.completion-expanded {
+  animation: footerExpand 0.4s cubic-bezier(0.2, 0, 0, 1) forwards;
+}
+
+.game-footer.completion-expanded.no-animate {
+  animation: none;
+  max-height: 100vh;
+}
+
+@keyframes footerExpand {
+  from {
+    max-height: 180px;
+  }
+  to {
+    max-height: 100vh;
+  }
+}
+
+/* Footer toggle animation (JS sets max-height inline) */
+.game-footer.completion-expanded {
+  transition: max-height 0.4s cubic-bezier(0.2, 0, 0, 1);
+}
+
+/* Center attempt counter (More Movies link is hidden) */
+.footer-meta {
+  justify-content: center !important;
+}
+
+/* ─── Toast overlays attempts counter ─── */
+#game-controls {
+  position: relative;
+}
+
+.message-overlay {
+  position: absolute !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  min-width: unset !important;
+  max-width: unset !important;
+  font-size: 0.9rem !important;
+  font-family: var(--font-mono) !important;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: normal;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background: var(--pack-bg, #f4f4f4) !important;
+  color: var(--pack-primary) !important;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* ─── Reddit Modal Theming ─── */
+.modal-container {
+  background: color-mix(in srgb, var(--pack-bg) 85%, #ffffff) !important;
+}
+
+.modal-header {
+  background: color-mix(in srgb, var(--pack-bg) 90%, #ffffff) !important;
+  border-color: color-mix(in srgb, var(--pack-primary) 20%, transparent) !important;
+  padding: 0.5rem 1rem !important;
+}
+
+.modal-title {
+  color: var(--pack-primary) !important;
+  font-size: 0.9rem !important;
+}
+
+.modal-close-btn {
+  color: var(--pack-primary) !important;
+  font-size: 1.25rem !important;
+}
+
+.modal-content {
+  background: color-mix(in srgb, var(--pack-bg) 85%, #ffffff) !important;
+  color: var(--pack-primary) !important;
+  scrollbar-color: color-mix(in srgb, var(--pack-primary) 50%, transparent) color-mix(in srgb, var(--pack-bg) 85%, #ffffff);
+  scrollbar-width: thin;
+}
+
+.modal-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+  background: color-mix(in srgb, var(--pack-bg) 85%, #ffffff);
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--pack-primary) 50%, transparent);
+  border-radius: 4px;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, var(--pack-primary) 70%, transparent);
+}
+
+/* Settings gear button — right margin aligns with scroll buttons column */
+.reddit-settings-btn {
+  flex-shrink: 0;
+  width: auto !important;
+  max-width: none !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  color: var(--pack-primary) !important;
+  cursor: pointer;
+  padding: 0.25rem;
+  line-height: 0;
+  opacity: 0.6;
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.reddit-settings-btn:hover,
+.reddit-settings-btn:focus,
+.reddit-settings-btn:active {
+  background: transparent !important;
+  transform: none !important;
+  filter: none !important;
+  opacity: 1;
+}
+
+/* Settings modal body */
+.settings-body {
+  padding: 1rem 0;
+}
+
+.settings-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  gap: 0.75rem;
+}
+
+.settings-checkbox-row {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.settings-checkbox {
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  border: 2px solid color-mix(in srgb, var(--pack-primary) 40%, transparent);
+  background: color-mix(in srgb, var(--pack-primary) 10%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.settings-checkbox.checked {
+  background: color-mix(in srgb, var(--pack-primary) 25%, transparent);
+  border-color: var(--pack-primary);
+}
+
+.settings-checkbox-mark {
+  color: var(--pack-primary);
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.settings-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--pack-primary);
+}
+
+/* Collection/Stats modal inventory styling */
+.inventory-grid {
+  background: transparent !important;
+}
+
+.inventory-item {
+  background: color-mix(in srgb, var(--pack-primary) 10%, transparent) !important;
+  border: 2px solid color-mix(in srgb, var(--pack-primary) 20%, transparent) !important;
+}
+
+.inventory-item.selected {
+  border-color: var(--pack-primary) !important;
+  box-shadow: 0 0 12px color-mix(in srgb, var(--pack-primary) 40%, transparent) !important;
+}
+
+.inventory-item.empty {
+  border: 2px dashed color-mix(in srgb, var(--pack-primary) 25%, transparent) !important;
+  background: color-mix(in srgb, var(--pack-primary) 5%, transparent) !important;
+}
+
+.inventory-tooltip-body {
+  background: color-mix(in srgb, var(--pack-primary) 15%, transparent) !important;
+}
+
+.inventory-tooltip-caret {
+  border-top-color: color-mix(in srgb, var(--pack-primary) 15%, transparent) !important;
+}
+
+/* ─── Collection Modal: no scroll, paginated ─── */
+.modal-content {
+  overflow: hidden !important;
+}
+
+/* Compact grid for Reddit — smaller cells */
+.inventory-grid {
+  gap: 0.4rem !important;
+  padding: 0.4rem !important;
+}
+
+/* Use 4 columns on wider viewports */
+@media (min-width: 500px) {
+  .inventory-grid {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+
+  .inventory-tooltip-caret {
+    margin-left: calc(var(--tooltip-col) * 25% + 12.5% - 6px);
+  }
+}
+
+/* Shrink streak section in modal */
+.stats-container .streak-section {
+  margin-bottom: 0.4rem;
+}
+
+.stats-container .streak-count {
+  font-size: 1.2rem;
+}
+
+.stats-container .streak-label {
+  font-size: 0.75rem;
+}
+
+.inventory-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.inventory-page-btn {
+  background: color-mix(in srgb, var(--pack-primary) 15%, transparent) !important;
+  color: var(--pack-primary) !important;
+  border: 1px solid color-mix(in srgb, var(--pack-primary) 30%, transparent) !important;
+  border-radius: 6px;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  min-width: 70px;
+}
+
+.inventory-page-btn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.inventory-page-btn:not(:disabled):hover {
+  background: color-mix(in srgb, var(--pack-primary) 25%, transparent) !important;
+}
+
+.inventory-page-indicator {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: var(--pack-primary);
+  min-width: 3ch;
+  text-align: center;
+}
+
+/* Reduced motion — disable all animations globally */
+[data-reduced-motion] *,
+[data-reduced-motion] *::before,
+[data-reduced-motion] *::after {
+  animation-duration: 0s !important;
+  transition-duration: 0s !important;
+}

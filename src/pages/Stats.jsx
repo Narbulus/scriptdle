@@ -1,97 +1,149 @@
 import { signal } from '@preact/signals';
+import { useState } from 'preact/hooks';
 import {
-    getCompletionsByDate,
     getStreak,
     getAllCompletions
 } from '../utils/completionTracker.js';
-import { generateFlower } from '../utils/flowerGenerator.js';
-import { getCurrentDate, formatDateToLocal, parseLocalDate } from '../utils/time.js';
+import { generateFlower, generateBeetle } from '../utils/flowerGenerator.js';
+import { parseLocalDate } from '../utils/time.js';
+
+function isReddit() {
+    return typeof window !== 'undefined' && !!window.SCRIPTLE_SHARE_HANDLER;
+}
+
+// Reddit pagination: 2 rows per page, columns determined by viewport width
+const ROWS_PER_PAGE = 2;
+
+function getRedditColumns() {
+    if (typeof window === 'undefined') return 3;
+    return window.innerWidth >= 500 ? 4 : 3;
+}
 
 export function StatsContent() {
     const streak = getStreak();
     const completions = getAllCompletions();
+    const [selectedIndex, setSelectedIndex] = useState(completions.length > 0 ? 0 : null);
+    const [page, setPage] = useState(0);
+    const reddit = isReddit();
 
-    // Calendar Data
-    const completionsByDate = getCompletionsByDate();
-    const today = parseLocalDate(getCurrentDate());
-    const days = [];
-    for (let i = 27; i >= 0; i--) {
-        const date = new Date(today);
-        date.setDate(date.getDate() - i);
-        days.push(date);
+    const columnsPerRow = reddit ? getRedditColumns() : 3;
+    const itemsPerPage = ROWS_PER_PAGE * columnsPerRow;
+
+    // Calculate empty slots: pad to fill rows
+    const minSlots = reddit ? itemsPerPage : 9;
+    const totalSlots = Math.max(minSlots, Math.ceil((completions.length + (reddit ? columnsPerRow : 9)) / columnsPerRow) * columnsPerRow);
+    const emptyCount = totalSlots - completions.length;
+
+    // Build all items (completions + empty slots)
+    const allItems = [
+        ...completions.map((completion, index) => ({ type: 'completion', completion, index })),
+        ...Array.from({ length: emptyCount }).map((_, i) => ({ type: 'empty', index: completions.length + i })),
+    ];
+
+    // Pagination (Reddit only)
+    const totalPages = reddit ? Math.max(1, Math.ceil(allItems.length / itemsPerPage)) : 1;
+    const pageItems = reddit ? allItems.slice(page * itemsPerPage, (page + 1) * itemsPerPage) : allItems;
+
+    const selected = selectedIndex !== null ? completions[selectedIndex] : null;
+    // For tooltip positioning, use the index within the current page slice
+    const selectedPageOffset = reddit ? page * itemsPerPage : 0;
+    const selectedLocalIndex = selectedIndex !== null ? selectedIndex - selectedPageOffset : -1;
+    const selectedRow = selectedLocalIndex >= 0 && selectedLocalIndex < pageItems.length
+        ? Math.floor(selectedLocalIndex / columnsPerRow) : -1;
+
+    // Build grid content with tooltip
+    const gridContent = [];
+    for (let i = 0; i < pageItems.length; i++) {
+        const row = Math.floor(i / columnsPerRow);
+        const isFirstInRow = i % columnsPerRow === 0;
+
+        if (isFirstInRow && row === selectedRow && selected) {
+            const colInRow = selectedLocalIndex % columnsPerRow;
+            gridContent.push(
+                <div
+                    key="tooltip"
+                    className="inventory-tooltip"
+                    style={{ '--tooltip-col': colInRow }}
+                >
+                    <div className="inventory-tooltip-body">
+                        <div className="inventory-tooltip-line1">
+                            {formatPackName(selected.packId)}
+                            <span className="inventory-tooltip-date"> &middot; {formatDate(selected.date)}</span>
+                        </div>
+                        <div className="inventory-tooltip-line2">
+                            {selected.success
+                                ? `Won in ${selected.attempts} attempt${selected.attempts !== 1 ? 's' : ''}`
+                                : `Lost after ${selected.attempts} attempts`}
+                        </div>
+                    </div>
+                    <div className="inventory-tooltip-caret" />
+                </div>
+            );
+        }
+
+        const item = pageItems[i];
+        if (item.type === 'completion') {
+            const { completion, index } = item;
+            const seed = completion.packId + completion.date;
+            const isPerfect = completion.success && completion.attempts === 1;
+            const svgUrl = completion.success
+                ? generateFlower(seed, '#fff9c4', { golden: isPerfect })
+                : generateBeetle(seed, '#fff9c4');
+
+            gridContent.push(
+                <div
+                    key={`${completion.packId}-${completion.date}`}
+                    className={`inventory-item${selectedIndex === index ? ' selected' : ''}`}
+                    onClick={() => setSelectedIndex(selectedIndex === index ? null : index)}
+                >
+                    <div
+                        className="inventory-item-svg"
+                        style={{ backgroundImage: `url("${svgUrl}")` }}
+                    />
+                </div>
+            );
+        } else {
+            gridContent.push(
+                <div key={`empty-${item.index}`} className="inventory-item empty" />
+            );
+        }
     }
-    const firstDayOfWeek = days[0].getDay();
 
     return (
         <div className="stats-container" style={{ padding: 0 }}>
-            {/* Streak */}
-            <div className="streak-section">
-                <div className="streak-text">{streak} day streak</div>
-            </div>
-
-            {/* Calendar */}
-            <div className="calendar-section">
-                <div className="calendar-grid">
-                    {Array.from({ length: firstDayOfWeek }).map((_, i) => (
-                        <div key={`empty-${i}`} className="calendar-day empty"></div>
-                    ))}
-                    {days.map(date => {
-                        const dateStr = formatDateToLocal(date);
-                        const dayCompletions = completionsByDate[dateStr];
-                        const firstSuccess = dayCompletions?.find(c => c.success);
-                        let className = "calendar-day";
-                        let content = null;
-
-                        if (firstSuccess) {
-                            className += " has-completion";
-                            const isPerfectWin = firstSuccess.attempts === 1;
-                            const flowerSvg = generateFlower(firstSuccess.packId + dateStr, '#fff9c4', { golden: isPerfectWin });
-                            content = (
-                                <div
-                                    className="calendar-flower"
-                                    style={{ backgroundImage: `url("${flowerSvg}")` }}
-                                />
-                            );
-                        } else if (dayCompletions && dayCompletions.length > 0) {
-                            className += " has-attempt";
-                        }
-
-                        return (
-                            <div key={dateStr} className={className} title={dateStr}>
-                                {content}
-                            </div>
-                        );
-                    })}
+            {/* Streak — only on first page in Reddit mode */}
+            {(!reddit || page === 0) && (
+                <div className="streak-section">
+                    <span className="streak-count">{streak}</span>
+                    <span className="streak-label">day streak</span>
                 </div>
+            )}
+
+            {/* Inventory Grid */}
+            <div className="inventory-grid">
+                {gridContent}
             </div>
 
-            {/* Results */}
-            <div className="results-section">
-                <h2 className="section-heading">results</h2>
-                {completions.length === 0 ? (
-                    <p className="empty-state">No completions yet. Play a pack to get started!</p>
-                ) : (
-                    <ul className="results-list">
-                        {completions.map((completion) => {
-                            const dateFormatted = formatDate(completion.date);
-                            const packName = formatPackName(completion.packId);
-                            const result = completion.success ? `Win (${completion.attempts})` : `Loss (${completion.attempts})`;
-
-                            return (
-                                <li key={`${completion.packId}-${completion.date}`} className="result-item">
-                                    {completion.success && (
-                                        <span
-                                            className="flower-bullet"
-                                            style={{ backgroundImage: `url("${generateFlower(completion.packId + completion.date, '#fff9c4', { golden: completion.attempts === 1 })}")` }}
-                                        />
-                                    )}
-                                    <span className="result-text">{packName} - {dateFormatted} - {result}</span>
-                                </li>
-                            );
-                        })}
-                    </ul>
-                )}
-            </div>
+            {/* Pagination footer (Reddit only) */}
+            {reddit && totalPages > 1 && (
+                <div className="inventory-pagination">
+                    <button
+                        className="inventory-page-btn"
+                        onClick={() => { setPage(p => p - 1); setSelectedIndex(null); }}
+                        disabled={page === 0}
+                    >
+                        ◀ Prev
+                    </button>
+                    <span className="inventory-page-indicator">{page + 1} / {totalPages}</span>
+                    <button
+                        className="inventory-page-btn"
+                        onClick={() => { setPage(p => p + 1); setSelectedIndex(null); }}
+                        disabled={page >= totalPages - 1}
+                    >
+                        Next ▶
+                    </button>
+                </div>
+            )}
         </div>
     );
 }
@@ -103,7 +155,7 @@ function StatsModal({ isOpen, onClose }) {
         <Modal
             isOpen={isOpen}
             onClose={onClose}
-            title="Stats"
+            title="Your Collection"
         >
             <div className="modal-body custom-scrollbar">
                 <StatsContent />
@@ -119,14 +171,7 @@ function formatPackName(packId) {
 
 function formatDate(dateStr) {
     const date = parseLocalDate(dateStr);
-    const today = parseLocalDate(getCurrentDate());
-    const yesterday = new Date(today);
-    yesterday.setDate(yesterday.getDate() - 1);
-
-    if (date.getTime() === today.getTime()) return 'Today';
-    if (date.getTime() === yesterday.getTime()) return 'Yesterday';
-
-    return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    return date.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
 }
 
 const isStatsModalOpen = signal(false);

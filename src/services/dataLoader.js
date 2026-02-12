@@ -1,6 +1,16 @@
 import { signal } from '@preact/signals';
 import { getCurrentDate } from '../utils/time.js';
 
+// Fetch with timeout wrapper
+function fetchWithTimeout(url, timeout = 10000) {
+  return Promise.race([
+    fetch(url),
+    new Promise((_, reject) =>
+      setTimeout(() => reject(new Error(`Request timeout: ${url}`)), timeout)
+    )
+  ]);
+}
+
 // Central cache for all game data
 const dataCache = signal({
   loaded: false,
@@ -26,12 +36,20 @@ export async function loadAllGameData() {
 
   // Prevent duplicate loads
   if (dataCache.value.loading) {
-    // Wait for the current load to complete
-    return new Promise((resolve) => {
+    // Wait for the current load to complete (with 30s timeout)
+    return new Promise((resolve, reject) => {
+      const startTime = Date.now();
+      const timeout = 30000; // 30 seconds
+
       const checkInterval = setInterval(() => {
         if (dataCache.value.loaded || dataCache.value.error) {
           clearInterval(checkInterval);
           resolve(dataCache.value);
+        } else if (Date.now() - startTime > timeout) {
+          clearInterval(checkInterval);
+          // Force clear loading state on timeout
+          dataCache.value = { ...dataCache.value, loading: false, error: 'Loading timeout' };
+          reject(new Error('Loading timeout - please refresh'));
         }
       }, 50);
     });
@@ -44,8 +62,8 @@ export async function loadAllGameData() {
 
     // Fetch packs-full.json and consolidated daily file in parallel (2 requests instead of 28)
     const [packsRes, dailyAllRes] = await Promise.all([
-      fetch('/data/packs-full.json'),
-      fetch(`/data/daily-all/${today}.json`)
+      fetchWithTimeout('/data/packs-full.json'),
+      fetchWithTimeout(`/data/daily-all/${today}.json`)
     ]);
 
     if (!packsRes.ok) throw new Error('Failed to load packs');
@@ -57,25 +75,35 @@ export async function loadAllGameData() {
       dailyAllData = await dailyAllRes.json();
     }
 
-    // Build the cache from consolidated data
+    // Build the cache from packs-full + daily-all
     const packThemes = {};
     const manifestsMap = {};
+    const gameMetadataMap = {};
     const puzzlesMap = {};
 
-    // Extract themes from packs-full.json
+    // Extract themes, manifests, and gameMetadata from packs-full.json
     for (const pack of packsData.packs) {
       if (pack.theme) {
         packThemes[pack.id] = pack.theme;
       }
+      if (pack.manifest) {
+        manifestsMap[pack.id] = pack.manifest;
+      }
+      if (pack.gameMetadata) {
+        gameMetadataMap[pack.id] = pack.gameMetadata;
+      }
     }
 
-    // Extract manifests and puzzles from consolidated daily file
+    // Extract puzzles from consolidated daily file
     if (dailyAllData) {
-      if (dailyAllData.manifests) {
-        Object.assign(manifestsMap, dailyAllData.manifests);
-      }
       if (dailyAllData.puzzles) {
-        Object.assign(puzzlesMap, dailyAllData.puzzles);
+        // Re-attach gameMetadata to each puzzle for downstream consumers
+        for (const [packId, puzzle] of Object.entries(dailyAllData.puzzles)) {
+          if (!puzzle.metadata && gameMetadataMap[packId]) {
+            puzzle.metadata = gameMetadataMap[packId];
+          }
+          puzzlesMap[packId] = puzzle;
+        }
       }
     }
 

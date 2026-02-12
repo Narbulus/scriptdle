@@ -176,7 +176,7 @@ test.describe('Home Page', () => {
                 await page.waitForTimeout(3000);
 
                 // Check if script area or loading is visible
-                const hasContent = await page.getByTestId('script-area').or(page.locator('#loading')).first().isVisible();
+                const hasContent = await page.getByTestId('script-area').or(page.getByTestId('script-skeleton')).first().isVisible();
                 expect(hasContent).toBeTruthy();
             }
         });

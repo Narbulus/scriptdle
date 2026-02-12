@@ -80,17 +80,18 @@ export function Play({ packId }) {
     }
 
     if (loading || !data) {
-        // Show Skeleton/Loading State
+        // Apply optimistic theme CSS variables if available
+        // themeData is the theme object directly from SCRIPTLE_THEMES[packId]
+        if (themeData) {
+            applyTheme(themeData);
+        }
+
+        // Show clean skeleton - just colored backgrounds, no text
         return (
             <div id="game-area" data-testid="game-loading">
-                {themeData && (
-                    <div className="script-title-section">
-                        <div className="script-title">{themeData.name}</div>
-                        <div className="script-subtitle">{themeData.movieCount} Movies</div>
-                    </div>
-                )}
-                <div id="loading" data-testid="loading-text" style="text-align:center; padding: 3rem; opacity: 0.7;">
-                    Loading... {packId ? packId : 'NO_ID'}
+                <div className="game-container">
+                    <div className="script-area loading-skeleton" data-theme="script" data-testid="script-skeleton" />
+                    <div className="game-footer loading-skeleton" data-testid="footer-skeleton" />
                 </div>
             </div>
         );
