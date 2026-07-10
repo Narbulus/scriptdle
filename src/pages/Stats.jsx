@@ -6,15 +6,12 @@ import {
 } from '../utils/completionTracker.js';
 import { generateFlower, generateBeetle } from '../utils/flowerGenerator.js';
 import { parseLocalDate } from '../utils/time.js';
+import { isCompactPlatform } from '../services/platform.js';
 
-function isReddit() {
-    return typeof window !== 'undefined' && !!window.SCRIPTLE_SHARE_HANDLER;
-}
-
-// Reddit pagination: 2 rows per page, columns determined by viewport width
+// Compact pagination: 2 rows per page, columns determined by viewport width
 const ROWS_PER_PAGE = 2;
 
-function getRedditColumns() {
+function getCompactColumns() {
     if (typeof window === 'undefined') return 3;
     return window.innerWidth >= 500 ? 4 : 3;
 }
@@ -24,14 +21,14 @@ export function StatsContent() {
     const completions = getAllCompletions();
     const [selectedIndex, setSelectedIndex] = useState(completions.length > 0 ? 0 : null);
     const [page, setPage] = useState(0);
-    const reddit = isReddit();
+    const compact = isCompactPlatform();
 
-    const columnsPerRow = reddit ? getRedditColumns() : 3;
+    const columnsPerRow = compact ? getCompactColumns() : 3;
     const itemsPerPage = ROWS_PER_PAGE * columnsPerRow;
 
     // Calculate empty slots: pad to fill rows
-    const minSlots = reddit ? itemsPerPage : 9;
-    const totalSlots = Math.max(minSlots, Math.ceil((completions.length + (reddit ? columnsPerRow : 9)) / columnsPerRow) * columnsPerRow);
+    const minSlots = compact ? itemsPerPage : 9;
+    const totalSlots = Math.max(minSlots, Math.ceil((completions.length + (compact ? columnsPerRow : 9)) / columnsPerRow) * columnsPerRow);
     const emptyCount = totalSlots - completions.length;
 
     // Build all items (completions + empty slots)
@@ -40,13 +37,22 @@ export function StatsContent() {
         ...Array.from({ length: emptyCount }).map((_, i) => ({ type: 'empty', index: completions.length + i })),
     ];
 
-    // Pagination (Reddit only)
-    const totalPages = reddit ? Math.max(1, Math.ceil(allItems.length / itemsPerPage)) : 1;
-    const pageItems = reddit ? allItems.slice(page * itemsPerPage, (page + 1) * itemsPerPage) : allItems;
+    // Pagination keeps compact modals at a stable height.
+    const totalPages = compact ? Math.max(1, Math.ceil(allItems.length / itemsPerPage)) : 1;
+    let pageItems = compact ? allItems.slice(page * itemsPerPage, (page + 1) * itemsPerPage) : allItems;
+
+    // Pad last page to full size so the modal doesn't resize between pages
+    if (compact && pageItems.length < itemsPerPage) {
+        const pad = itemsPerPage - pageItems.length;
+        pageItems = [
+            ...pageItems,
+            ...Array.from({ length: pad }).map((_, i) => ({ type: 'empty', index: allItems.length + i })),
+        ];
+    }
 
     const selected = selectedIndex !== null ? completions[selectedIndex] : null;
     // For tooltip positioning, use the index within the current page slice
-    const selectedPageOffset = reddit ? page * itemsPerPage : 0;
+    const selectedPageOffset = compact ? page * itemsPerPage : 0;
     const selectedLocalIndex = selectedIndex !== null ? selectedIndex - selectedPageOffset : -1;
     const selectedRow = selectedLocalIndex >= 0 && selectedLocalIndex < pageItems.length
         ? Math.floor(selectedLocalIndex / columnsPerRow) : -1;
@@ -68,12 +74,13 @@ export function StatsContent() {
                     <div className="inventory-tooltip-body">
                         <div className="inventory-tooltip-line1">
                             {formatPackName(selected.packId)}
-                            <span className="inventory-tooltip-date"> &middot; {formatDate(selected.date)}</span>
                         </div>
                         <div className="inventory-tooltip-line2">
+                            {formatDate(selected.date)}
+                            {' · '}
                             {selected.success
-                                ? `Won in ${selected.attempts} attempt${selected.attempts !== 1 ? 's' : ''}`
-                                : `Lost after ${selected.attempts} attempts`}
+                                ? `${selected.attempts}/5 attempts`
+                                : 'X/5 attempts'}
                         </div>
                     </div>
                     <div className="inventory-tooltip-caret" />
@@ -111,8 +118,8 @@ export function StatsContent() {
 
     return (
         <div className="stats-container" style={{ padding: 0 }}>
-            {/* Streak — only on first page in Reddit mode */}
-            {(!reddit || page === 0) && (
+            {/* Streak */}
+            {(
                 <div className="streak-section">
                     <span className="streak-count">{streak}</span>
                     <span className="streak-label">day streak</span>
@@ -124,8 +131,8 @@ export function StatsContent() {
                 {gridContent}
             </div>
 
-            {/* Pagination footer (Reddit only) */}
-            {reddit && totalPages > 1 && (
+            {/* Pagination footer for compact layouts */}
+            {compact && totalPages > 1 && (
                 <div className="inventory-pagination">
                     <button
                         className="inventory-page-btn"

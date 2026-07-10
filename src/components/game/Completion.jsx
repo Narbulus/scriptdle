@@ -7,44 +7,34 @@ import { getCurrentDate } from '../../utils/time.js';
 import { track } from '../../utils/analytics.js';
 import { StatsSection } from './StatsSection.jsx';
 import { openStatsModal } from '../../pages/Stats.jsx';
+import { getPlatform } from '../../services/platform.js';
 
 export function Completion({ puzzle, pack, packTheme }) {
     const attempts = currentAttempt.value;
     const success = isWin.value;
     const streak = getStreak();
     const flowerRef = useRef(null);
-    const isReddit = !!window.SCRIPTLE_SHARE_HANDLER;
+    const platform = getPlatform();
+    const isCompact = platform.compactLayout;
     const [stats, setStats] = useState(null);
     const [playerBucket, setPlayerBucket] = useState(null);
 
-    // Reddit stats: send GAME_COMPLETE and listen for STATS_UPDATE
+    // Community stats are supplied by platforms that support them.
     useEffect(() => {
-        if (!isReddit) return;
+        if (!platform.communityStats) return;
 
         const bucket = success ? String(attempts) : 'fail';
         setPlayerBucket(bucket);
 
-        // Send game completion to Devvit
-        window.parent.postMessage({
-            type: 'GAME_COMPLETE',
-            data: {
-                packId: currentPackId.value,
-                date: currentPuzzleDate.value,
-                won: success,
-                attempts,
-            },
-        }, '*');
-
-        // Listen for stats response
-        const handler = (ev) => {
-            const msg = ev.data?.data?.message || ev.data;
-            if (msg?.type === 'STATS_UPDATE') {
-                setStats(msg.data);
-                setPlayerBucket(msg.data.playerResult?.bucket || bucket);
-            }
-        };
-        window.addEventListener('message', handler);
-        return () => window.removeEventListener('message', handler);
+        return platform.reportCompletion({
+            packId: currentPackId.value,
+            date: currentPuzzleDate.value,
+            won: success,
+            attempts,
+        }, (nextStats) => {
+            setStats(nextStats);
+            setPlayerBucket(nextStats.playerResult?.bucket || bucket);
+        });
     }, []);
 
     // Tier Message
@@ -160,44 +150,32 @@ export function Completion({ puzzle, pack, packTheme }) {
     const shareText = generateShareString();
     const shareUrl = window.location.href;
 
-    const handleComment = () => {
+    const handleShare = async () => {
         if (hasCommented) return;
-        try {
-            const { movieRow, charRow } = generateEmojiRows();
-            const commentText = `${movieRow}\n${charRow}`;
-            window.SCRIPTLE_SHARE_HANDLER(commentText, pack.name);
-            setHasCommented(true);
-        } catch (err) {
-            console.error('Failed to post comment:', err);
-            showMessage('Failed to post comment. Please try again.', 'error', 3000);
-        }
-    };
 
-    const handleShare = () => {
-        if (window.SCRIPTLE_SHARE_HANDLER) {
-            return handleComment();
-        }
         track('share_results', {
             success: success,
             attempts: attempts
         });
-        const shareData = {
-            title: `Scriptle: Daily ${pack.name} quote guessing game`,
-            text: shareText,
-            url: shareUrl
-        };
 
-        const copyToClipboard = () => {
-            navigator.clipboard.writeText(shareText + '\n\n' + shareUrl)
-                .then(() => showMessage('Copied to clipboard!', 'success', 2000))
-                .catch(() => showMessage('Failed to copy. Try selecting and copying manually.', 'error', 3000));
-        };
+        try {
+            const { movieRow, charRow } = generateEmojiRows();
+            const result = await platform.shareResults({
+                title: `Scriptle: Daily ${pack.name} quote guessing game`,
+                text: shareText,
+                url: shareUrl,
+                emojiText: `${movieRow}\n${charRow}`,
+                packName: pack.name,
+            });
 
-        // Check if navigator.share can handle text (desktop browsers often only support URL)
-        if (navigator.share && navigator.canShare && navigator.canShare(shareData)) {
-            navigator.share(shareData).catch(copyToClipboard);
-        } else {
-            copyToClipboard();
+            if (result === 'commented') {
+                setHasCommented(true);
+            } else if (result === 'copied') {
+                showMessage('Copied to clipboard!', 'success', 2000);
+            }
+        } catch (err) {
+            console.error('Failed to share results:', err);
+            showMessage('Failed to share. Please try again.', 'error', 3000);
         }
     };
 
@@ -212,8 +190,8 @@ export function Completion({ puzzle, pack, packTheme }) {
     };
 
     return (
-        <div id="share-container" data-testid="share-container" style={!isReddit ? { display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' } : undefined}>
-            {isReddit ? (
+        <div id="share-container" data-testid="share-container" style={!isCompact ? { display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' } : undefined}>
+            {isCompact ? (
                 <>
                     <div className="completion-split">
                         <div className="completion-info">

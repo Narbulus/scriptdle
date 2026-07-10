@@ -7,6 +7,7 @@ import { About } from './pages/About.jsx';
 import { Navigation } from './components/Navigation.jsx';
 import { Menu } from './components/Menu.jsx';
 import { HelpModal } from './components/Help.jsx';
+import { SettingsModalContainer } from './components/Settings.jsx';
 import { track, setGlobalContext, clearGlobalContext } from './utils/analytics.js';
 
 const routes = {
@@ -93,6 +94,7 @@ function init() {
       <div id="menu-container"></div>
       <div id="help-modal-container"></div>
       <div id="stats-modal-container"></div>
+      <div id="settings-modal-container"></div>
     </div>
   `;
 
@@ -100,6 +102,7 @@ function init() {
   render(<Menu />, document.getElementById('menu-container'));
   render(<HelpModal />, document.getElementById('help-modal-container'));
   render(<StatsModalContainer />, document.getElementById('stats-modal-container'));
+  render(<SettingsModalContainer />, document.getElementById('settings-modal-container'));
 
   window.addEventListener('popstate', handleRoute);
 

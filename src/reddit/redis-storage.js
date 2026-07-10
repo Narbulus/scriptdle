@@ -1,3 +1,5 @@
+import { getPlatform } from '../services/platform.js';
+
 // Redis-backed storage for Devvit WebView.
 // Pre-loads all user state from Redis on init (sent with PUZZLE_CONFIG).
 // Reads are synchronous from the in-memory cache.
@@ -21,7 +23,7 @@ export function createRedisBackend(initialData) {
     setItem(key, value) {
       cache.set(key, value);
       // Fire-and-forget to Devvit host → Redis
-      window.parent.postMessage({ type: 'STORAGE_SET', data: { key, value } }, '*');
+      getPlatform().sendMessage('STORAGE_SET', { key, value });
     },
 
     keys() {
@@ -30,7 +32,7 @@ export function createRedisBackend(initialData) {
 
     clear() {
       cache.clear();
-      window.parent.postMessage({ type: 'STORAGE_CLEAR' }, '*');
+      getPlatform().sendMessage('STORAGE_CLEAR');
     },
   };
 }

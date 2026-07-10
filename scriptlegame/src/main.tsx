@@ -208,6 +208,9 @@ Devvit.addCustomPostType({
       }
     });
 
+    // Guard: only process the first READY message — retries are no-ops while processing
+    const [readyHandled] = useState({ processing: false, done: false });
+
     // Use per-pack HTML files for themed loading screens (built by bundle-reddit-data.js)
     const packId = postConfig?.packId ?? null;
     const webviewUrl = packId ? `${packId}.html` : 'index.html';
@@ -221,6 +224,10 @@ Devvit.addCustomPostType({
           height="100%"
           onMessage={async (msg: any) => {
             if (msg.type === 'READY') {
+              // Skip if already sent config or currently loading
+              if (readyHandled.done || readyHandled.processing) return;
+              readyHandled.processing = true;
+
               const config = postConfig ?? { date: getTodayDate(), packId: 'harry-potter' };
 
               // Load user's saved game state from Redis — if this fails, still send config with empty storage
@@ -240,6 +247,7 @@ Devvit.addCustomPostType({
                 type: 'PUZZLE_CONFIG',
                 data: { ...config, storageData, loadingTheme: { ...packTheme, name: packName } },
               });
+              readyHandled.done = true;
 
               // If game is already complete, send stats immediately
               if (userId) {

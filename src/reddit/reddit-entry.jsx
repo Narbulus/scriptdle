@@ -1,8 +1,12 @@
 import { render } from 'preact';
 import { useState, useEffect } from 'preact/hooks';
 import { Game } from '../components/game/Game.jsx';
-import { setStorageBackend, getSettings } from '../services/storage.js';
+import { setStorageBackend } from '../services/storage.js';
+import { applyStoredSettings } from '../services/settings.js';
+import { configurePlatform } from '../services/platform.js';
+import { loadPuzzleForDate } from '../services/dataLoader.js';
 import { createRedisBackend } from './redis-storage.js';
+import { createRedditPlatform } from './reddit-platform.js';
 import { SettingsModalContainer, openSettingsModal } from './Settings.jsx';
 import { StatsModalContainer } from '../pages/Stats.jsx';
 import { Settings as SettingsIcon } from 'lucide-preact';
@@ -17,8 +21,8 @@ import '../components/game/stats.css';
 import '../pages/stats.css';
 import './reddit-overrides.css';
 
-// Fetch from bundled data (relative URL passes CSP 'self' check)
-const SCRIPTLE_DATA_URL = 'data/daily-all';
+const redditPlatform = createRedditPlatform();
+configurePlatform(redditPlatform);
 
 function applyTheme(t) {
   if (!t) return;
@@ -45,48 +49,6 @@ function dismissLoadingOverlay() {
   overlay.addEventListener('transitionend', () => overlay.remove(), { once: true });
 }
 
-function fetchWithTimeout(url, timeoutMs = 10000) {
-  return Promise.race([
-    fetch(url),
-    new Promise((_, reject) =>
-      setTimeout(() => reject(new Error(`Request timed out: ${url}`)), timeoutMs)
-    ),
-  ]);
-}
-
-async function fetchPuzzleData(date, packId) {
-  // Fetch daily-all and packs-full in parallel (with timeout to avoid hanging)
-  const [dailyRes, packsRes] = await Promise.all([
-    fetchWithTimeout(`${SCRIPTLE_DATA_URL}/${date}.json`),
-    fetchWithTimeout('data/packs-full.json'),
-  ]);
-  if (!dailyRes.ok) throw new Error(`Failed to fetch puzzle: ${dailyRes.status}`);
-  const dailyAll = await dailyRes.json();
-
-  const puzzle = dailyAll.puzzles?.[packId];
-  if (!puzzle) {
-    throw new Error(`No puzzle for "${packId}" on ${date}. This pack may not have been available yet on this date.`);
-  }
-
-  // Get theme, manifest, and gameMetadata from packs-full.json
-  let theme = null;
-  let manifest = null;
-  if (packsRes.ok) {
-    const packsData = await packsRes.json();
-    const pack = packsData.packs?.find(p => p.id === packId);
-    if (pack) {
-      theme = pack.theme;
-      manifest = pack.manifest;
-      // Re-attach gameMetadata to puzzle if not already present
-      if (!puzzle.metadata && pack.gameMetadata) {
-        puzzle.metadata = pack.gameMetadata;
-      }
-    }
-  }
-
-  return { puzzle, manifest, theme };
-}
-
 function RedditApp() {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
@@ -95,8 +57,8 @@ function RedditApp() {
     let configReceived = false;
     let retryTimer = null;
     let retryCount = 0;
-    const MAX_RETRIES = 5;
-    const RETRY_INTERVAL = 3000;
+    const MAX_RETRIES = 6;
+    const BASE_DELAY = 1500; // 1.5s, 3s, 6s, 12s, 24s, 48s
 
     // Listen for config from Devvit (date + packId), then fetch puzzle data directly
     const handler = async (ev) => {
@@ -104,14 +66,16 @@ function RedditApp() {
       if (msg?.type === 'devvit-message') {
         const payload = msg.data?.message;
         if (payload?.type === 'PUZZLE_CONFIG') {
+          // Deduplicate: only process the first PUZZLE_CONFIG
+          if (configReceived) return;
           configReceived = true;
-          if (retryTimer) clearInterval(retryTimer);
+          if (retryTimer) clearTimeout(retryTimer);
           const { date, packId, storageData } = payload.data;
 
           // Set up Redis-backed storage before anything touches game state
           setStorageBackend(createRedisBackend(storageData || {}));
           try {
-            const { puzzle, manifest, theme } = await fetchPuzzleData(date, packId);
+            const { puzzle, manifest, theme } = await loadPuzzleForDate(date, packId, { basePath: 'data' });
             const packInfo = { theme, name: manifest?.packName };
             applyTheme(theme);
             setData({
@@ -134,49 +98,36 @@ function RedditApp() {
     };
     window.addEventListener('message', handler);
 
-    // Set up share handler for Reddit — posts results as a comment
-    window.SCRIPTLE_SHARE_HANDLER = async (shareText, packName) => {
-      try {
-        const { showToast } = await import('@devvit/web/client');
-        showToast({ text: 'Creating your comment...', appearance: 'success' });
-      } catch { /* toast unavailable outside Devvit */ }
-      window.parent.postMessage(
-        { type: 'SHARE_RESULTS', data: { shareText, packName } },
-        '*'
-      );
-    };
-
     // Set pack theme context on body so themed CSS selectors work
     document.body.setAttribute('data-theme', 'pack');
 
-    // Apply reduced motion setting from storage
-    if (getSettings().reducedMotion) {
-      document.documentElement.setAttribute('data-reduced-motion', '');
-    }
+    applyStoredSettings();
 
     // Tell Devvit we're ready for config
-    window.parent.postMessage({ type: 'READY' }, '*');
+    redditPlatform.sendMessage('READY');
 
-    // Retry sending READY if we don't get a response — covers message loss and Devvit errors
-    retryTimer = setInterval(() => {
-      if (configReceived) {
-        clearInterval(retryTimer);
-        return;
-      }
-      retryCount++;
+    // Retry sending READY with exponential backoff
+    function scheduleRetry() {
+      if (configReceived) return;
       if (retryCount >= MAX_RETRIES) {
-        clearInterval(retryTimer);
         setError('Unable to connect to Reddit. Please try refreshing the page.');
         dismissLoadingOverlay();
         return;
       }
-      console.warn(`PUZZLE_CONFIG not received, retrying READY (${retryCount}/${MAX_RETRIES})...`);
-      window.parent.postMessage({ type: 'READY' }, '*');
-    }, RETRY_INTERVAL);
+      const delay = BASE_DELAY * Math.pow(2, retryCount);
+      retryTimer = setTimeout(() => {
+        if (configReceived) return;
+        retryCount++;
+        console.warn(`PUZZLE_CONFIG not received, retrying READY (${retryCount}/${MAX_RETRIES})...`);
+        redditPlatform.sendMessage('READY');
+        scheduleRetry();
+      }, delay);
+    }
+    scheduleRetry();
 
     return () => {
       window.removeEventListener('message', handler);
-      if (retryTimer) clearInterval(retryTimer);
+      if (retryTimer) clearTimeout(retryTimer);
     };
   }, []);
 
@@ -208,7 +159,7 @@ function RedditApp() {
 
   return (
     <div id="game-area">
-      <nav class="reddit-nav-bar">
+      <nav class="reddit-nav-bar" data-platform-nav>
         <div class="reddit-nav-spacer" aria-hidden="true" />
         <span class="reddit-nav-title">{data.packData.name}</span>
         <button class="reddit-settings-btn" onClick={openSettingsModal} aria-label="Settings">

@@ -2,10 +2,7 @@ import { computed } from "@preact/signals";
 import { useMemo, useRef, useState, useEffect, useLayoutEffect, useCallback } from "preact/hooks";
 import { currentAttempt, isGameOver, revealGeneration } from '../../services/game-state.js';
 import { ScriptLine } from './ScriptLine.jsx';
-
-function isReddit() {
-    return typeof window !== 'undefined' && !!window.SCRIPTLE_SHARE_HANDLER;
-}
+import { isCompactPlatform } from '../../services/platform.js';
 
 function ScriptToggleButton({ scrollRef }) {
     const [canScrollDown, setCanScrollDown] = useState(false);
@@ -47,7 +44,7 @@ function ScriptToggleButton({ scrollRef }) {
             if (willHide) {
                 // Measure how much space the script content needs
                 const scriptContent = scrollRef.current?.querySelector('.script-content');
-                const navBar = gameArea.querySelector('.reddit-nav-bar');
+                const navBar = gameArea.querySelector('[data-platform-nav]');
                 const navHeight = navBar ? navBar.offsetHeight : 0;
                 const scriptHeight = scriptContent ? scriptContent.scrollHeight : 0;
                 const viewportHeight = gameArea.offsetHeight;
@@ -114,9 +111,9 @@ export function ScriptDisplay({ puzzle }) {
     // Progressive reveal: Always peek next quote in shimmer
     // Context 1: Always visible from start
     const showContext1 = useMemo(() => computed(() => true), []);
-    // Context 2: In Reddit mode, always render (but text hidden until attempt 2).
+    // Context 2: In compact mode, always render (but text remains hidden until attempt 2).
     // In web mode, visible after 2nd attempt.
-    const showContext2 = useMemo(() => computed(() => isReddit() || isGameOver.value || currentAttempt.value >= 2), []);
+    const showContext2 = useMemo(() => computed(() => isCompactPlatform() || isGameOver.value || currentAttempt.value >= 2), []);
 
     const revealTargetChar = useMemo(() => computed(() => isGameOver.value), []);
     // Context 1 text revealed after 1st attempt
@@ -134,7 +131,7 @@ export function ScriptDisplay({ puzzle }) {
     const [animateContext2, setAnimateContext2] = useState(false);
 
     useLayoutEffect(() => {
-        if (isReddit()) return; // No entrance animation in Reddit mode
+        if (isCompactPlatform()) return; // No entrance animation in compact embedded mode
         const isNewAction = revealGeneration.value > prevGenRef.current;
         if (isNewAction && !prevShowContext2.current && showContext2.value && !isGameOver.value) {
             setAnimateContext2(true);
@@ -143,17 +140,17 @@ export function ScriptDisplay({ puzzle }) {
         prevGenRef.current = revealGeneration.value;
     }, [showContext2.value, revealGeneration.value]);
 
-    // Auto-scroll to bottom when 3rd line text is revealed (Reddit only)
+    // Auto-scroll to bottom when the third line is revealed in compact layouts.
     useEffect(() => {
-        if (!isReddit()) return;
+        if (!isCompactPlatform()) return;
         if (revealContext2Text.value && scrollRef.current) {
             scrollRef.current.scrollTo({ top: scrollRef.current.scrollHeight, behavior: 'smooth' });
         }
     }, [revealContext2Text.value]);
 
-    // Scroll back to top on game over (Reddit only)
+    // Scroll back to the answer on game over in compact layouts.
     useEffect(() => {
-        if (!isReddit()) return;
+        if (!isCompactPlatform()) return;
         if (isGameOver.value && scrollRef.current) {
             scrollRef.current.scrollTo({ top: 0, behavior: 'smooth' });
         }
@@ -198,7 +195,7 @@ export function ScriptDisplay({ puzzle }) {
         </div>
     );
 
-    if (isReddit()) {
+    if (isCompactPlatform()) {
         return (
             <div className={`script-area playing-${currentAttempt.value}`} data-theme="script" data-testid="script-area">
                 <div className="script-scroll-wrapper">

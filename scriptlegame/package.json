@@ -7,9 +7,9 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@devvit/public-api": "0.11.*"
+    "@devvit/public-api": "0.12.12"
   },
   "devDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "5.8.3"
   }
 }

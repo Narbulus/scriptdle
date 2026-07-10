@@ -1,14 +1,13 @@
 import { useState, useEffect } from 'preact/hooks';
 import { Game } from '../components/game/Game.jsx';
-import { loadAllGameData, getPackData } from '../services/dataLoader.js';
+import { loadAllGameData, getDataCache, getPackData } from '../services/dataLoader.js';
 
 export function Play({ packId }) {
     const [data, setData] = useState(null);
     const [error, setError] = useState(null);
     const [loading, setLoading] = useState(true);
 
-    // Optimistic theme from global cache
-    const themeData = window.SCRIPTLE_THEMES?.[packId];
+    const themeData = getDataCache().value.packThemes[packId];
 
     useEffect(() => {
         async function loadGameData() {
@@ -81,7 +80,6 @@ export function Play({ packId }) {
 
     if (loading || !data) {
         // Apply optimistic theme CSS variables if available
-        // themeData is the theme object directly from SCRIPTLE_THEMES[packId]
         if (themeData) {
             applyTheme(themeData);
         }
@@ -150,4 +148,3 @@ function updateMetaTag(property, content) {
         document.head.appendChild(meta);
     }
 }
-

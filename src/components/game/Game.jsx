@@ -6,6 +6,7 @@ import { Completion } from './Completion.jsx';
 import { MoviesModal } from './MoviesModal.jsx';
 import { DebugMenu } from './DebugMenu.jsx';
 import { getTutorialState, saveTutorialState } from '../../services/storage.js';
+import { isCompactPlatform } from '../../services/platform.js';
 
 const TUTORIAL_STEPS = {
     MOVIE_SELECT: 1,
@@ -19,12 +20,6 @@ export function Game({ dailyPuzzle, manifest, packData }) {
     const puzzle = dailyPuzzle.puzzle;
     const metadata = dailyPuzzle.metadata;
     const [moviesModalOpen, setMoviesModalOpen] = useState(false);
-
-    // Expose movies modal opener globally for Reddit nav bar
-    useEffect(() => {
-        window.SCRIPTLE_OPEN_MOVIES = () => setMoviesModalOpen(true);
-        return () => { delete window.SCRIPTLE_OPEN_MOVIES; };
-    }, []);
 
     const [tutorialStep, setTutorialStep] = useState(() => {
         const state = getTutorialState();
@@ -138,7 +133,7 @@ export function Game({ dailyPuzzle, manifest, packData }) {
         <div className="game-container">
             <ScriptDisplay puzzle={puzzle} />
 
-            <div className={`game-footer${isGameOver.value && typeof window !== 'undefined' && window.SCRIPTLE_SHARE_HANDLER ? (wasAlreadyComplete.current ? ' completion-expanded no-animate' : ' completion-expanded') : ''}`} data-testid="game-footer">
+            <div className={`game-footer${isGameOver.value && isCompactPlatform() ? (wasAlreadyComplete.current ? ' completion-expanded no-animate' : ' completion-expanded') : ''}`} data-testid="game-footer">
                 {isGameOver.value ? (
                     <Completion
                         puzzle={puzzle}

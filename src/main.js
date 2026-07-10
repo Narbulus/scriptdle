@@ -1,5 +1,6 @@
 import { router } from './router.jsx';
 import { onDateChange } from './utils/time.js';
+import { applyStoredSettings } from './services/settings.js';
 import './styles/variables.css';
 import './styles/global.css';
 import './styles/themes.css';
@@ -12,6 +13,8 @@ import './pages/legal.css';
 
 // Initialize the app
 document.addEventListener('DOMContentLoaded', () => {
+  applyStoredSettings();
+
   // Reload page at midnight to fetch new daily puzzle
   onDateChange(() => {
     window.location.reload();
