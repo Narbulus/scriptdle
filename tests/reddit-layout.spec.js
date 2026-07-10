@@ -34,7 +34,7 @@ async function setupRedditRoutes(page) {
   });
 }
 
-async function bootstrapRedditApp(page) {
+async function bootstrapRedditApp(page, { startGame = true } = {}) {
   const date = getTodayDateString();
 
   await page.addInitScript(() => {
@@ -60,8 +60,53 @@ async function bootstrapRedditApp(page) {
     }, '*');
   }, date);
 
-  await page.waitForSelector('[data-testid="script-area"]', { timeout: 15000 });
+  await page.waitForSelector('[data-testid="reddit-splash"]', { timeout: 15000 });
+
+  if (startGame) {
+    await page.getByTestId('splash-start').click();
+    await page.waitForSelector('[data-testid="script-area"]', { timeout: 15000 });
+  }
 }
+
+test.describe('Reddit Splash', () => {
+  test.use({ viewport: MOBILE_VIEWPORT });
+
+  test.beforeEach(async ({ page }) => {
+    await setupRedditRoutes(page);
+    await bootstrapRedditApp(page, { startGame: false });
+  });
+
+  test('teases the quote and starts the game', async ({ page }) => {
+    await expect(page.getByTestId('reddit-splash')).toBeVisible();
+    await expect(page.getByText('TEST PACK')).toBeVisible();
+    await expect(page.getByLabel('This is a test quote for the mock puzzle fixture.')).toBeVisible();
+
+    await page.getByTestId('splash-start').click();
+
+    await expect(page.getByTestId('reddit-splash')).toBeHidden();
+    await expect(page.getByTestId('script-area')).toBeVisible();
+  });
+
+  test('fits without horizontal scrolling', async ({ page }) => {
+    const dimensions = await page.evaluate(() => ({
+      innerWidth: window.innerWidth,
+      scrollWidth: document.documentElement.scrollWidth,
+    }));
+
+    expect(dimensions.scrollWidth).toBe(dimensions.innerWidth);
+  });
+
+  test('supports keyboard start with reduced motion', async ({ page }) => {
+    await page.evaluate(() => {
+      document.documentElement.setAttribute('data-reduced-motion', '');
+    });
+
+    await page.getByTestId('splash-start').focus();
+    await page.keyboard.press('Enter');
+
+    await expect(page.getByTestId('script-area')).toBeVisible();
+  });
+});
 
 test.describe('Reddit Layout - No Scroll', () => {
 

@@ -8,6 +8,7 @@ import { loadPuzzleForDate } from '../services/dataLoader.js';
 import { createRedisBackend } from './redis-storage.js';
 import { createRedditPlatform } from './reddit-platform.js';
 import { SettingsModalContainer, openSettingsModal } from './Settings.jsx';
+import { Splash } from './Splash.jsx';
 import { StatsModalContainer } from '../pages/Stats.jsx';
 import { Settings as SettingsIcon } from 'lucide-preact';
 
@@ -52,6 +53,7 @@ function dismissLoadingOverlay() {
 function RedditApp() {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
+  const [hasStarted, setHasStarted] = useState(false);
 
   useEffect(() => {
     let configReceived = false;
@@ -97,6 +99,25 @@ function RedditApp() {
       }
     };
     window.addEventListener('message', handler);
+
+    if (import.meta.env.DEV) {
+      const previewParams = new window.URLSearchParams(window.location.search);
+      const previewPackId = previewParams.get('previewPack');
+      const previewDate = previewParams.get('previewDate');
+      if (previewPackId && previewDate) {
+        handler({
+          data: {
+            type: 'devvit-message',
+            data: {
+              message: {
+                type: 'PUZZLE_CONFIG',
+                data: { date: previewDate, packId: previewPackId, storageData: {} },
+              },
+            },
+          },
+        });
+      }
+    }
 
     // Set pack theme context on body so themed CSS selectors work
     document.body.setAttribute('data-theme', 'pack');
@@ -155,6 +176,16 @@ function RedditApp() {
   if (!data) {
     // The HTML loading overlay is still visible — no need to render anything here
     return null;
+  }
+
+  if (!hasStarted) {
+    return (
+      <Splash
+        packName={data.packData.name}
+        quote={data.dailyPuzzle.puzzle.targetLine.text}
+        onStart={() => setHasStarted(true)}
+      />
+    );
   }
 
   return (
