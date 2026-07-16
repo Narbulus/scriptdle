@@ -1,0 +1,15 @@
+{
+  "name": "scriptle-game",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@devvit/public-api": "0.12.12"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3"
+  }
+}

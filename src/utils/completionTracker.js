@@ -1,4 +1,5 @@
-import { getCurrentDate, parseLocalDate } from './time.js';
+import { getCurrentDate, parseLocalDate, formatDateToLocal } from './time.js';
+import { getStorageBackend } from '../services/storage.js';
 
 const STORAGE_KEY_PREFIX = 'scriptle:';
 
@@ -8,13 +9,18 @@ export function getTodaysCompletion() {
 }
 
 export function getCompletionForDate(date) {
-  for (let i = 0; i < localStorage.length; i++) {
-    const key = localStorage.key(i);
-
+  const backend = getStorageBackend();
+  for (const key of backend.keys()) {
     if (key && key.startsWith(STORAGE_KEY_PREFIX)) {
       const parts = key.split(':');
       if (parts.length === 3 && parts[2] === date) {
-        const data = JSON.parse(localStorage.getItem(key));
+        let data;
+        try {
+          data = JSON.parse(backend.getItem(key));
+        } catch {
+          console.warn(`Corrupted storage entry: ${key}`);
+          continue;
+        }
 
         if (data && data.gameOver === true) {
           return {
@@ -33,17 +39,22 @@ export function getCompletionForDate(date) {
 }
 
 export function getAllCompletions() {
+  const backend = getStorageBackend();
   const completions = [];
 
-  for (let i = 0; i < localStorage.length; i++) {
-    const key = localStorage.key(i);
-
+  for (const key of backend.keys()) {
     if (key && key.startsWith(STORAGE_KEY_PREFIX)) {
       const parts = key.split(':');
       if (parts.length === 3) {
         const packId = parts[1];
         const date = parts[2];
-        const data = JSON.parse(localStorage.getItem(key));
+        let data;
+        try {
+          data = JSON.parse(backend.getItem(key));
+        } catch {
+          console.warn(`Corrupted storage entry: ${key}`);
+          continue;
+        }
 
         if (data && data.gameOver === true) {
           completions.push({
@@ -82,8 +93,17 @@ export function getStreak() {
     return 0;
   }
 
-  const dateSet = new Set(completions.map(c => c.date));
-  const sortedDates = Array.from(dateSet).sort((a, b) => parseLocalDate(b) - parseLocalDate(a));
+  // Use the date the player actually completed the puzzle (completedAt),
+  // not the puzzle date. This prevents past games from inflating streaks.
+  // Fall back to puzzle date for legacy data without completedAt.
+  const playedDates = new Set(completions.map(c => {
+    if (c.completedAt) {
+      // Parse ISO string into local date to match getCurrentDate() timezone
+      return formatDateToLocal(new Date(c.completedAt));
+    }
+    return c.date;
+  }));
+  const sortedDates = Array.from(playedDates).sort((a, b) => parseLocalDate(b) - parseLocalDate(a));
 
   let streak = 0;
   const today = getCurrentDate();
@@ -92,7 +112,7 @@ export function getStreak() {
   for (let i = 0; i < sortedDates.length; i++) {
     const dateStr = checkDate.getFullYear() + '-' + String(checkDate.getMonth() + 1).padStart(2, '0') + '-' + String(checkDate.getDate()).padStart(2, '0');
 
-    if (dateSet.has(dateStr)) {
+    if (playedDates.has(dateStr)) {
       streak++;
       // Move to previous day
       checkDate.setDate(checkDate.getDate() - 1);

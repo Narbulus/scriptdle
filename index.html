@@ -35,6 +35,7 @@
       padding: 0;
       background: var(--main-bg);
       line-height: 1.2;
+      overflow-y: scroll; /* Prevent layout shift when content loads */
     }
 
     .container {
@@ -43,12 +44,31 @@
       flex-direction: column;
     }
 
+    /* Match real nav-bar exactly */
     .nav-bar-skeleton {
       background: var(--main-nav-bg);
-      padding: 1rem 2rem;
+      padding: 0.625rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1.5rem;
+      min-height: 56px; /* Match real nav height exactly */
+    }
+
+    .nav-left-skeleton {
+      flex: 0 0 auto;
+      width: 82px; /* Match HELP button width (~81.45px) */
+    }
+
+    .nav-right-skeleton {
+      flex: 0 0 auto;
+      width: 82px; /* Match MENU button width (~81.45px) */
+    }
+
+    .nav-center-skeleton {
+      flex: 1 1 auto;
       display: flex;
       justify-content: center;
-      align-items: center;
     }
 
     .nav-logo-skeleton {
@@ -65,16 +85,25 @@
       flex-direction: column;
     }
 
+    /* Match .category-section + .category-heading structure */
+    .loading-section {
+      margin-bottom: 1rem;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
+
     .loading-text {
       font-family: 'Courier New', Courier, monospace;
-      font-size: 0.85rem;
+      font-size: 0.8rem;
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.15em;
-      color: var(--main-text);
+      color: #778da9; /* --main-text-secondary */
       text-align: center;
-      padding: 2rem;
-      opacity: 0.7;
+      margin: 0 0 0.5rem 0;
+      padding: 0 1.5rem;
     }
 
     /* Gameplay specific */
@@ -84,12 +113,33 @@
 
     @media (max-width: 600px) {
       .nav-bar-skeleton {
-        padding: 0.75rem 1.25rem;
+        padding: 0.5rem 1rem;
+        gap: 0.5rem;
+        min-height: 44px;
       }
 
       .nav-logo-skeleton {
         font-size: 1.25rem;
       }
+
+      .nav-left-skeleton {
+        width: 60px;
+      }
+
+      .nav-right-skeleton {
+        width: 68px;
+      }
+    }
+
+    /* Hide default skeleton on pack pages - Preact will render themed skeleton */
+    .pack-page .nav-bar-skeleton,
+    .pack-page .loading-content {
+      display: none;
+    }
+
+    .pack-page body,
+    .pack-page .container {
+      background: var(--pack-bg);
     }
   </style>
 
@@ -230,6 +280,9 @@
   <!-- Load theme data (synchronous, no module) -->
   <script src="/themes.js"></script>
 
+  <!-- Debug: Uncomment to add delay for testing loading state -->
+  <!-- <script>window.SCRIPTLE_DEBUG_LOADING_DELAY = 3000;</script> -->
+
   <!-- Apply theme immediately based on URL -->
   <script>
     (function () {
@@ -240,42 +293,23 @@
         const theme = window.SCRIPTLE_THEMES[packId];
 
         if (theme) {
-          // Apply theme CSS variables immediately
+          // Apply theme CSS variables immediately to :root (available before body)
           const root = document.documentElement;
           root.style.setProperty('--primary-color', theme.primary);
           root.style.setProperty('--bg-color', theme.bgColor);
           root.style.setProperty('--container-bg', theme.containerBg || theme.bgColor);
           root.style.setProperty('--accent-color', theme.accentColor || theme.primary);
           root.style.setProperty('--btn-text', theme.btnText);
+          root.style.setProperty('--pack-bg', theme.bgColor);
+          root.style.setProperty('--pack-primary', theme.primary);
 
-          // Apply to loading skeleton
-          document.body.style.background = theme.bgColor;
+          // Mark as pack page to hide default skeleton
+          root.classList.add('pack-page');
 
           // Store for DOM ready application
           window.SCRIPTLE_PACK_THEME = theme;
         }
       }
-
-      // Apply loading skeleton theming when DOM is ready
-      document.addEventListener('DOMContentLoaded', function () {
-        const theme = window.SCRIPTLE_PACK_THEME;
-        if (theme) {
-          // Update nav bar for gameplay
-          const navBar = document.querySelector('.nav-bar-skeleton');
-          if (navBar) navBar.style.background = theme.bgColor;
-
-          // Update loading text color
-          const loadingText = document.querySelector('.loading-text');
-          if (loadingText) loadingText.style.color = theme.primary;
-
-          // Update loading content background (script area style)
-          const loadingContent = document.querySelector('.loading-content');
-          if (loadingContent) {
-            loadingContent.classList.add('gameplay');
-            loadingContent.style.background = theme.containerBg || '#faebd7';
-          }
-        }
-      });
     })();
   </script>
 </head>
@@ -284,10 +318,16 @@
   <div id="app">
     <div class="container">
       <nav class="nav-bar-skeleton">
-        <div class="nav-logo-skeleton">Scriptle</div>
+        <div class="nav-left-skeleton"></div>
+        <div class="nav-center-skeleton">
+          <div class="nav-logo-skeleton">Scriptle</div>
+        </div>
+        <div class="nav-right-skeleton"></div>
       </nav>
       <div class="loading-content">
-        <div class="loading-text">Loading...</div>
+        <div class="loading-section">
+          <div class="loading-text">Loading...</div>
+        </div>
       </div>
     </div>
   </div>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Scriptle</title>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <style>
+    :root {
+      --loading-bg: #1a1a1a;
+      --loading-text: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      padding: 0;
+      background: var(--loading-bg);
+      line-height: 1.2;
+    }
+    #loading-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      background: var(--loading-bg);
+      transition: opacity 0.4s ease-out;
+      overflow: hidden;
+    }
+    #loading-overlay::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        110deg,
+        transparent 30%,
+        rgba(255,255,255,0.06) 45%,
+        rgba(255,255,255,0.1) 50%,
+        rgba(255,255,255,0.06) 55%,
+        transparent 70%
+      );
+      background-size: 200% 100%;
+      animation: overlay-shimmer 2s ease-in-out infinite;
+      pointer-events: none;
+    }
+    @keyframes overlay-shimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+    #loading-overlay.fade-out {
+      opacity: 0;
+      pointer-events: none;
+    }
+    /* Centered loading message */
+    .loading-body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      position: relative;
+      z-index: 1;
+    }
+    .loading-icon {
+      width: 64px;
+      height: 64px;
+      animation: rock 1.6s ease-in-out infinite;
+      transform-origin: 25% 85%;
+    }
+    @keyframes rock {
+      0%, 100% { transform: rotate(-8deg); }
+      50% { transform: rotate(8deg); }
+    }
+    .loading-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: var(--loading-text);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+    .loading-subtitle {
+      font-size: 0.95rem;
+      color: var(--loading-text);
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <div id="loading-overlay">
+    <div class="loading-body">
+      <div class="loading-title">Scriptle</div>
+      <div class="loading-subtitle">Loading game...</div>
+    </div>
+  </div>
+  <div id="app"></div>
+  <script type="module" src="/src/reddit/reddit-entry.jsx"></script>
+</body>
+</html>

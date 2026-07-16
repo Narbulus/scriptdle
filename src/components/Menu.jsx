@@ -3,10 +3,11 @@ import { useState, useEffect } from 'preact/hooks';
 import { router } from '../router.jsx';
 import { openHelpModal } from './Help.jsx';
 import { openStatsModal } from '../pages/Stats.jsx';
+import { openSettingsModal } from './Settings.jsx';
 import { currentPackName } from '../services/game-state.js';
 import { getTimeUntilMidnight } from '../utils/time.js';
 import { track } from '../utils/analytics.js';
-import { X, Film, BarChart3, CircleHelp, Info } from 'lucide-preact';
+import { X, Film, BarChart3, CircleHelp, Info, Settings } from 'lucide-preact';
 
 export const isMenuOpen = signal(false);
 
@@ -98,6 +99,15 @@ export function Menu() {
                         >
                             <CircleHelp size={20} strokeWidth={2} />
                             <span>INSTRUCTIONS</span>
+                        </button>
+
+                        <button
+                            className="menu-link-item"
+                            onClick={() => handleMenuItemClick('settings', () => openSettingsModal())}
+                            data-testid="menu-settings"
+                        >
+                            <Settings size={20} strokeWidth={2} />
+                            <span>SETTINGS</span>
                         </button>
 
                         <button

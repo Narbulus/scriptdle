@@ -7,6 +7,16 @@
     flex: 1;
 }
 
+/* Loading skeleton - clean blank backgrounds */
+.script-area.loading-skeleton {
+    min-height: 150px;
+    max-height: none;
+}
+
+.game-footer.loading-skeleton {
+    min-height: 200px;
+}
+
 /* Script title section */
 .script-title-section {
     background: var(--game-content-bg);
@@ -62,7 +72,7 @@
     position: relative;
     /* Base height fits about one quote */
     max-height: 200px;
-    transition: max-height 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: max-height 0.5s ease-in-out;
 }
 
 .script-area.no-transition {
@@ -332,16 +342,73 @@
     color: inherit;
 }
 
-/* Placeholder for unrevealed clues */
-.shimmer-text {
-    color: transparent;
-    background-color: var(--placeholder-bg);
+/* Animatable custom property for gradient-based wipe */
+@property --wipe-progress {
+    syntax: '<percentage>';
+    initial-value: 0%;
+    inherits: false;
+}
+
+/* Text reveal - persistent mask system using CSS background.
+   Stays display:inline in all states so box-decoration-break
+   gives per-line masks, including during the wipe animation. */
+.text-reveal {
     border-radius: 3px;
     display: inline;
-    font: inherit;
-    text-transform: inherit;
-    letter-spacing: inherit;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+.text-reveal .text-content {
+    transition: color 0.15s ease-out;
+}
+
+/* Hidden: solid background covers text */
+.text-reveal[data-state="hidden"] {
+    background-color: var(--placeholder-bg);
     user-select: none;
+}
+
+.text-reveal[data-state="hidden"] .text-content {
+    color: transparent;
+}
+
+/* Wiping: gradient slides mask up per-line, text stays hidden until done */
+.text-reveal[data-state="wiping"] {
+    /* Instant reveal - no animation */
+    background: transparent;
+    /* animation: wipeBackground 0.5s ease-in-out forwards; */
+}
+
+.text-reveal[data-state="wiping"] .text-content {
+    /* Instant reveal - no animation */
+    color: var(--text-color);
+    /* animation: fadeInText 0.5s ease-in-out forwards; */
+}
+
+/* Commented out - may add back later
+@keyframes fadeInText {
+    from { color: transparent; }
+    to { color: var(--text-color); }
+}
+
+@keyframes wipeBackground {
+    from { --wipe-progress: 0%; }
+    to { --wipe-progress: 100%; }
+}
+*/
+
+/* Yow pop reveal for target character name */
+.yow-reveal {
+    display: inline-block;
+    animation: yowPop 1.2s ease-out;
+}
+
+@keyframes yowPop {
+    0%   { transform: scale(1); }
+    40%  { transform: scale(1.4); }
+    65%  { transform: scale(0.95); }
+    100% { transform: scale(1); }
 }
 
 /* Character name placeholder - the answer we're guessing */
@@ -372,6 +439,38 @@
     }
 }
 
+/* Smooth clue peek growth */
+.clue-peek-enter {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    animation: peekGrow 0.75s ease-in-out forwards;
+}
+
+@keyframes peekGrow {
+    from {
+        max-height: 0;
+        opacity: 0;
+    }
+
+    to {
+        max-height: 300px;
+        opacity: 1;
+    }
+}
+
+/* Shake animation for wrong answers and reveals */
+@keyframes shake {
+    0%, 100% { transform: translateX(0) rotate(0deg); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-4px) rotate(-1deg); }
+    20%, 40%, 60%, 80% { transform: translateX(4px) rotate(1deg); }
+}
+
+.shake {
+    animation: shake 0.4s ease-in-out;
+}
+
+
 /* Controls */
 .controls-top {
     display: flex;
@@ -393,7 +492,7 @@ select {
     border: none;
     border-bottom: 2px solid var(--primary-color);
     border-radius: 0;
-    padding: 0.375rem 2rem 0.375rem 0.375rem;
+    padding: 0.375rem 2.5rem 0.375rem 2.5rem;
     cursor: pointer;
     color: var(--primary-color);
     font-weight: bold;
@@ -415,23 +514,93 @@ select {
     position: relative;
     display: inline-block;
     flex: 1;
+    overflow: hidden;
 }
 
 .select-wrapper select {
     width: 100%;
+    padding-left: 0.75rem;
     padding-right: 2.5rem;
+}
+
+/* Hide select text when marquee is shown */
+.select-wrapper:has(.select-marquee) select {
+    color: transparent;
+}
+
+/* Marquee overlay for long text */
+.select-marquee {
+    position: absolute;
+    left: 0.75rem;
+    top: 0;
+    bottom: 0;
+    right: 2.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0;
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--primary-color);
+    white-space: nowrap;
+    pointer-events: none;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(to right, black 90%, transparent 100%);
+    mask-image: linear-gradient(to right, black 90%, transparent 100%);
+}
+
+.select-marquee > span {
+    display: inline-block;
+}
+
+.select-marquee.marquee-centered {
+    justify-content: center;
+}
+
+.select-marquee.marquee-animate > span {
+    animation: marqueeSlide 10s ease-in-out infinite;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+}
+
+/* Reset animation on hover/focus — snap back to start */
+.select-wrapper:hover .select-marquee.marquee-animate > span,
+.select-wrapper:focus-within .select-marquee.marquee-animate > span {
+    animation: none;
+    transform: translateX(0);
+}
+
+@keyframes marqueeSlide {
+    0%, 10% {
+        transform: translateX(0);
+    }
+    40%, 60% {
+        transform: translateX(var(--marquee-shift, 0px));
+    }
+    90%, 100% {
+        transform: translateX(0);
+    }
 }
 
 .select-wrapper::after {
     content: '▼';
     position: absolute;
-    right: 0.75rem;
-    top: 50%;
-    transform: translateY(-50%);
+    right: 0;
+    top: 0;
+    bottom: 2px;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 0.5rem;
+    background: linear-gradient(to right, transparent 0%, var(--bg-color) 65%);
     pointer-events: none;
     font-size: 0.75rem;
     color: var(--primary-color);
     font-family: var(--font-mono);
+    z-index: 1;
 }
 
 .select-wrapper.correct::after {

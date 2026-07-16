@@ -11,6 +11,30 @@
         "background": "#1a1a2e",
         "text": "#ffffff",
         "accent": "#ffd700"
+      },
+      "manifest": {
+        "packId": "test-pack",
+        "packName": "Test Pack",
+        "totalPuzzles": 365
+      },
+      "gameMetadata": {
+        "movies": ["test-movie-1", "test-movie-2", "test-movie-3"],
+        "movieYears": {
+          "test-movie-1": 2020,
+          "test-movie-2": 2018,
+          "test-movie-3": 2015
+        },
+        "movieTitles": {
+          "test-movie-1": "Test Movie",
+          "test-movie-2": "Another Test Movie",
+          "test-movie-3": "Third Test Movie"
+        },
+        "moviePosters": {},
+        "charactersByMovie": {
+          "test-movie-1": ["TEST CHARACTER", "OTHER CHARACTER", "THIRD CHARACTER"],
+          "test-movie-2": ["HERO", "VILLAIN", "SIDEKICK"],
+          "test-movie-3": ["PROTAGONIST", "ANTAGONIST"]
+        }
       }
     },
     {

@@ -4,20 +4,39 @@
 
 ### Features and Improvements
 
-- Puzzle reset should happen at midnight each night
-- Introduce UI to show how long until daily puzzles reset. This should be prominently displayed on the main page and on the completed puzzle page
-- The home page needs to educate users on how to play / explain the gist of the game
-- Main page movie / pack list overhaul:
-  - More compact results
-  - Puzzles that you've played recently should be hoisted to the top for easy access
-- Create a privacy policy and terms of service page link from the footer on all pages
-- Migrate results page to use the popout modal
-- Overhaul the completed puzzle page
-  - Prominently display your new flower, your current streak, when the next puzzle will be available
-  - Make success feel more celebratory
-- The link to the IMDB movie card on the games page is not obvious enough, we should explore how to make it more obvious without cluttering the footer
+- Fade in animations for reddit version
+- More juice and animations on actions
+  - Juicy and wiggle on the question mark / covered character and a way to signal that the 
+  selector boxes associated with that
+  - The flower should do a little spin when it fires confetti
+  - Tapping on the flower again should mean more confetti
+- Text rendering is a little blurry
+- Better reddit share integration
+- Statistics / multiplayer features / scoped to a subreddit
+- Play around with making things work without scroll view
+  - Maybe the script area scrolls but the chrome and footer stays fixed
+- Would a multi movie be viable?
+- Player count?
+- Explore pack selection -> probably not. we should just do 1 post per pack
 
-### Bugs
+1. Get crispy about data fetching
+   - Is there any need or value to fetch data from cloudflare? 
+     - I think no as long as we have a consistent daily pack generation
+   - Past data? how does that work. At any rate we should generate a lot of packs and just bundle the data in everything
+   - how do we generate one post per game and make this configurable
+   - Posting must be automatic and daily, with a configurable time of day
 
-- [x] If the movie dropdown selector has a long title, the downward caret on the character selector is misaligned
-- [x] The 'More Movies' text is faded and the styling doesn't match that of the attempts text next to it
+
+2. Storage
+   - Localstorage is cleared on app updates so we need to use our storage interface to support reddit's redis backend so progress is never lost
+   - Some form of primitive analytics using redis?
+
+
+
+
+10(??). Community set up and paperwork:
+ - Banner for subreddit
+ - ToS/Privacy Policy for reddit app
+ - Seed subreddit with past games
+ - Pinned post with rules
+ - 

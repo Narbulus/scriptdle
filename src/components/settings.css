@@ -1,0 +1,76 @@
+.settings-body {
+    padding: var(--spacing-md) 0 0;
+}
+
+.settings-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: var(--spacing-lg);
+    gap: var(--spacing-lg);
+    border: 1px solid color-mix(in srgb, var(--main-text-secondary) 35%, transparent);
+    border-radius: var(--radius-lg);
+    background: var(--main-surface-alt);
+    color: var(--main-text);
+}
+
+.settings-checkbox-row {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: background var(--transition-base), border-color var(--transition-base);
+}
+
+.settings-checkbox-row:hover,
+.settings-checkbox-row:focus-visible {
+    background: color-mix(in srgb, var(--main-surface-alt) 80%, var(--main-text-secondary));
+    border-color: var(--main-text-secondary);
+}
+
+.settings-checkbox {
+    width: 22px;
+    height: 22px;
+    border-radius: var(--radius-md);
+    border: 2px solid var(--main-text-secondary);
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: background var(--transition-base), border-color var(--transition-base);
+}
+
+.settings-checkbox.checked {
+    background: var(--main-text-secondary);
+    border-color: var(--main-text-secondary);
+}
+
+.settings-checkbox-mark {
+    color: var(--main-bg);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-tight);
+}
+
+.settings-label {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-semibold);
+    color: var(--main-text);
+}
+
+.settings-version {
+    margin-top: var(--spacing-xl);
+    text-align: center;
+    font-family: var(--font-mono);
+    font-size: var(--font-size-xs);
+    color: var(--main-text-secondary);
+}
+
+[data-reduced-motion] *,
+[data-reduced-motion] *::before,
+[data-reduced-motion] *::after {
+    animation-duration: 0s !important;
+    animation-delay: 0s !important;
+    transition-duration: 0s !important;
+    scroll-behavior: auto !important;
+}

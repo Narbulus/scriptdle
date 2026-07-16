@@ -1,6 +1,88 @@
 import { signal } from '@preact/signals';
 import { getCurrentDate } from '../utils/time.js';
 
+async function fetchWithTimeout(url, timeout = 10000) {
+  const controller = new globalThis.AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), timeout);
+
+  try {
+    return await fetch(url, { signal: controller.signal });
+  } catch (error) {
+    if (error.name === 'AbortError') {
+      throw new Error(`Request timeout: ${url}`);
+    }
+    throw error;
+  } finally {
+    clearTimeout(timeoutId);
+  }
+}
+
+function getDataUrl(basePath, path) {
+  return `${basePath.replace(/\/$/, '')}/${path}`;
+}
+
+function buildGameData(packsData, dailyAllData, date) {
+  const packThemes = {};
+  const manifests = {};
+  const gameMetadata = {};
+  const puzzles = {};
+
+  for (const pack of packsData.packs || []) {
+    if (pack.theme) packThemes[pack.id] = pack.theme;
+    if (pack.manifest) manifests[pack.id] = pack.manifest;
+    if (pack.gameMetadata) gameMetadata[pack.id] = pack.gameMetadata;
+  }
+
+  for (const [packId, puzzle] of Object.entries(dailyAllData?.puzzles || {})) {
+    puzzles[packId] = puzzle.metadata || !gameMetadata[packId]
+      ? puzzle
+      : { ...puzzle, metadata: gameMetadata[packId] };
+  }
+
+  return {
+    packs: packsData.packs || [],
+    categories: packsData.categories || [],
+    packThemes,
+    manifests,
+    puzzles,
+    date,
+  };
+}
+
+export async function loadGameDataForDate(date, { basePath = '/data', timeout = 10000 } = {}) {
+  const [packsResponse, dailyResponse] = await Promise.all([
+    fetchWithTimeout(getDataUrl(basePath, 'packs-full.json'), timeout),
+    fetchWithTimeout(getDataUrl(basePath, `daily-all/${date}.json`), timeout),
+  ]);
+
+  if (!packsResponse.ok) {
+    throw new Error(`Failed to load packs: ${packsResponse.status}`);
+  }
+
+  const packsData = await packsResponse.json();
+  const dailyAllData = dailyResponse.ok ? await dailyResponse.json() : null;
+
+  return buildGameData(packsData, dailyAllData, date);
+}
+
+export async function loadPuzzleForDate(date, packId, options = {}) {
+  const gameData = await loadGameDataForDate(date, options);
+  const puzzle = gameData.puzzles[packId];
+
+  if (!puzzle) {
+    throw new Error(`No puzzle for "${packId}" on ${date}. This pack may not have been available yet on this date.`);
+  }
+
+  const pack = gameData.packs.find(candidate => candidate.id === packId);
+
+  return {
+    puzzle,
+    manifest: gameData.manifests[packId] || null,
+    theme: gameData.packThemes[packId] || null,
+    packData: pack || null,
+  };
+}
+
 // Central cache for all game data
 const dataCache = signal({
   loaded: false,
@@ -26,12 +108,20 @@ export async function loadAllGameData() {
 
   // Prevent duplicate loads
   if (dataCache.value.loading) {
-    // Wait for the current load to complete
-    return new Promise((resolve) => {
+    // Wait for the current load to complete (with 30s timeout)
+    return new Promise((resolve, reject) => {
+      const startTime = Date.now();
+      const timeout = 30000; // 30 seconds
+
       const checkInterval = setInterval(() => {
         if (dataCache.value.loaded || dataCache.value.error) {
           clearInterval(checkInterval);
           resolve(dataCache.value);
+        } else if (Date.now() - startTime > timeout) {
+          clearInterval(checkInterval);
+          // Force clear loading state on timeout
+          dataCache.value = { ...dataCache.value, loading: false, error: 'Loading timeout' };
+          reject(new Error('Loading timeout - please refresh'));
         }
       }, 50);
     });
@@ -42,55 +132,17 @@ export async function loadAllGameData() {
 
     const today = getCurrentDate();
 
-    // Fetch packs-full.json and consolidated daily file in parallel (2 requests instead of 28)
-    const [packsRes, dailyAllRes] = await Promise.all([
-      fetch('/data/packs-full.json'),
-      fetch(`/data/daily-all/${today}.json`)
-    ]);
-
-    if (!packsRes.ok) throw new Error('Failed to load packs');
-    const packsData = await packsRes.json();
-
-    // Parse consolidated daily data (may not exist for older dates)
-    let dailyAllData = null;
-    if (dailyAllRes.ok) {
-      dailyAllData = await dailyAllRes.json();
-    }
-
-    // Build the cache from consolidated data
-    const packThemes = {};
-    const manifestsMap = {};
-    const puzzlesMap = {};
-
-    // Extract themes from packs-full.json
-    for (const pack of packsData.packs) {
-      if (pack.theme) {
-        packThemes[pack.id] = pack.theme;
-      }
-    }
-
-    // Extract manifests and puzzles from consolidated daily file
-    if (dailyAllData) {
-      if (dailyAllData.manifests) {
-        Object.assign(manifestsMap, dailyAllData.manifests);
-      }
-      if (dailyAllData.puzzles) {
-        Object.assign(puzzlesMap, dailyAllData.puzzles);
-      }
-    }
-
-    // Cache themes globally for optimistic loading
-    window.SCRIPTLE_THEMES = packThemes;
+    const gameData = await loadGameDataForDate(today);
 
     const cachedData = {
       loaded: true,
       loading: false,
       error: null,
-      packs: packsData.packs,
-      categories: packsData.categories || [],
-      packThemes,
-      manifests: manifestsMap,
-      todaysPuzzles: puzzlesMap,
+      packs: gameData.packs,
+      categories: gameData.categories,
+      packThemes: gameData.packThemes,
+      manifests: gameData.manifests,
+      todaysPuzzles: gameData.puzzles,
       today
     };
 

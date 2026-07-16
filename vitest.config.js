@@ -1,6 +1,15 @@
 import { defineConfig } from 'vitest/config';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
+  resolve: {
+    alias: {
+      '@devvit/web/client': path.resolve(__dirname, 'src/reddit/devvit-web-stub.js'),
+    },
+  },
   test: {
     environment: 'jsdom',
     include: ['src/**/*.test.js'],

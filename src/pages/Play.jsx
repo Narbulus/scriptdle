@@ -1,14 +1,13 @@
 import { useState, useEffect } from 'preact/hooks';
 import { Game } from '../components/game/Game.jsx';
-import { loadAllGameData, getPackData } from '../services/dataLoader.js';
+import { loadAllGameData, getDataCache, getPackData } from '../services/dataLoader.js';
 
 export function Play({ packId }) {
     const [data, setData] = useState(null);
     const [error, setError] = useState(null);
     const [loading, setLoading] = useState(true);
 
-    // Optimistic theme from global cache
-    const themeData = window.SCRIPTLE_THEMES?.[packId];
+    const themeData = getDataCache().value.packThemes[packId];
 
     useEffect(() => {
         async function loadGameData() {
@@ -80,17 +79,17 @@ export function Play({ packId }) {
     }
 
     if (loading || !data) {
-        // Show Skeleton/Loading State
+        // Apply optimistic theme CSS variables if available
+        if (themeData) {
+            applyTheme(themeData);
+        }
+
+        // Show clean skeleton - just colored backgrounds, no text
         return (
             <div id="game-area" data-testid="game-loading">
-                {themeData && (
-                    <div className="script-title-section">
-                        <div className="script-title">{themeData.name}</div>
-                        <div className="script-subtitle">{themeData.movieCount} Movies</div>
-                    </div>
-                )}
-                <div id="loading" data-testid="loading-text" style="text-align:center; padding: 3rem; opacity: 0.7;">
-                    Loading... {packId ? packId : 'NO_ID'}
+                <div className="game-container">
+                    <div className="script-area loading-skeleton" data-theme="script" data-testid="script-skeleton" />
+                    <div className="game-footer loading-skeleton" data-testid="footer-skeleton" />
                 </div>
             </div>
         );
@@ -149,4 +148,3 @@ function updateMetaTag(property, content) {
         document.head.appendChild(meta);
     }
 }
-

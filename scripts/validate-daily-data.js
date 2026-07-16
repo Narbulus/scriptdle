@@ -52,24 +52,22 @@ function validatePuzzleStructure(puzzle, packId, date) {
     error(`${prefix} puzzle.contextAfter should be an array`);
   }
 
-  if (!puzzle.metadata) {
-    error(`${prefix} Missing 'metadata' object`);
-    return;
-  }
+  // metadata is now in packs-full.json, not in daily-all puzzles
+  if (puzzle.metadata) {
+    const m = puzzle.metadata;
 
-  const m = puzzle.metadata;
+    if (!Array.isArray(m.movies) || m.movies.length === 0) {
+      error(`${prefix} metadata.movies should be a non-empty array`);
+    }
 
-  if (!Array.isArray(m.movies) || m.movies.length === 0) {
-    error(`${prefix} metadata.movies should be a non-empty array`);
-  }
-
-  if (!m.charactersByMovie || typeof m.charactersByMovie !== 'object') {
-    error(`${prefix} metadata.charactersByMovie should be an object`);
-  } else {
-    const movieCount = m.movies?.length || 0;
-    const charMovieCount = Object.keys(m.charactersByMovie).length;
-    if (charMovieCount !== movieCount) {
-      warn(`${prefix} charactersByMovie has ${charMovieCount} entries but movies has ${movieCount}`);
+    if (!m.charactersByMovie || typeof m.charactersByMovie !== 'object') {
+      error(`${prefix} metadata.charactersByMovie should be an object`);
+    } else {
+      const movieCount = m.movies?.length || 0;
+      const charMovieCount = Object.keys(m.charactersByMovie).length;
+      if (charMovieCount !== movieCount) {
+        warn(`${prefix} charactersByMovie has ${charMovieCount} entries but movies has ${movieCount}`);
+      }
     }
   }
 }

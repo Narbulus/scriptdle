@@ -15,7 +15,23 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
     const [selectedMovie, setSelectedMovie] = useState('');
     const [selectedChar, setSelectedChar] = useState('');
     const [_isSpinning, setIsSpinning] = useState(false);
+    const [isShaking, setIsShaking] = useState(false);
     const animationFrameRef = useRef(null);
+
+    // Measure marquee overflow on mount — set CSS variable + enable animation only if needed
+    const marqueeRef = (el) => {
+        if (!el) return;
+        const container = el.parentElement;
+        const overflow = el.offsetWidth - container.clientWidth;
+
+        if (overflow <= 0) {
+            container.classList.add('marquee-centered');
+            return;
+        }
+
+        el.style.setProperty('--marquee-shift', `-${overflow}px`);
+        container.classList.add('marquee-animate');
+    };
 
     // Stop shuffle animation and reset dice to resting position
     const stopShuffle = () => {
@@ -35,13 +51,17 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
         }
     };
 
+    // Trigger shake animation
+    const triggerShake = () => {
+        setIsShaking(true);
+        setTimeout(() => setIsShaking(false), 400); // Match animation duration
+    };
+
     // Sync locked movie state
     useEffect(() => {
         if (movieLocked.value) {
-            // If locked, ensure the correct movie is selected
             const correctMovieId = getMovieId(puzzle.targetLine.movie);
             setSelectedMovie(correctMovieId);
-            // Reset char selection if it was wrong? Usually good UX to reset it.
             setSelectedChar('');
         }
     }, [movieLocked.value]);
@@ -49,7 +69,6 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
     // Sync locked character state
     useEffect(() => {
         if (characterLocked.value) {
-            // If character locked, ensure the correct character is selected
             const correctChar = puzzle.targetLine.character;
             setSelectedChar(correctChar);
         }
@@ -176,7 +195,8 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
         const target = puzzle.targetLine;
 
         if (!selectedMovie && !selectedChar) {
-            showMessage('Skipped turn. New clue revealed!', 'error');
+            showMessage('Skipped turn.', 'error');
+            triggerShake();
             submitGuess(false, false);
             if (onGuessSubmit) onGuessSubmit(false);
             return;
@@ -198,11 +218,12 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
 
             // Show appropriate message
             if (isMovieCorrect && !selectedChar) {
-                showMessage('Movie is correct! Now select the character.', 'error');
+                showMessage('Movie is correct!', 'error');
             } else if (isCharCorrect && !selectedMovie) {
-                showMessage('Character is correct! Now select the movie.', 'error');
+                showMessage('Character is correct!', 'error');
             } else {
-                showMessage('Incomplete guess. New clue revealed!', 'error');
+                showMessage('Incomplete guess.', 'error');
+                triggerShake();
             }
 
             submitGuess(isMovieCorrect, isCharCorrect);
@@ -220,11 +241,14 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
 
         // UI Feedback logic
         if (isMovieCorrect && !isCharCorrect) {
-            showMessage('Movie is correct! Character is wrong.', 'error');
+            showMessage('Movie is correct!', 'error');
+            triggerShake();
         } else if (!isMovieCorrect && isCharCorrect) {
-            showMessage('Character is correct! Movie is wrong.', 'error');
+            showMessage('Character is correct!', 'error');
+            triggerShake();
         } else if (!isMovieCorrect) {
-            showMessage('Incorrect. New clue revealed!', 'error');
+            showMessage('Incorrect.', 'error');
+            triggerShake();
         }
 
         submitGuess(isMovieCorrect, isCharCorrect);
@@ -293,6 +317,11 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
                                 <option key={m} value={m}>{getMovieTitle(m)}</option>
                             ))}
                         </select>
+                        {selectedMovie && (
+                            <span className="select-marquee" key={selectedMovie} aria-hidden="true">
+                                <span ref={marqueeRef}>{getMovieTitle(selectedMovie)}</span>
+                            </span>
+                        )}
                     </div>
                 </div>
 
@@ -317,6 +346,11 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
                                 <option key={c} value={c}>{c}</option>
                             ))}
                         </select>
+                        {selectedChar && (
+                            <span className="select-marquee" key={selectedChar} aria-hidden="true">
+                                <span ref={marqueeRef}>{selectedChar}</span>
+                            </span>
+                        )}
                     </div>
                 </div>
             </div>
@@ -339,6 +373,7 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
                     <button
                         id="guess-btn"
                         data-testid="guess-button"
+                        className={isShaking ? 'shake' : ''}
                         onClick={handleSubmit}
                     >
                         Make Your Guess

@@ -15,10 +15,15 @@ export const characterLocked = signal(false);
 export const guessStats = signal([]); // Array<{movie: boolean, char: boolean}>
 export const gameMessage = signal(null);
 export const confettiShown = signal(false);
+export const gameReady = signal(false);
+export const revealGeneration = signal(0);
 
 export const attemptsRemaining = computed(() => maxAttempts.value - currentAttempt.value);
 
 export function initGame(packId, date, packName = null) {
+    gameReady.value = false;
+    revealGeneration.value = 0;
+
     batch(() => {
         currentPackId.value = packId;
         currentPackName.value = packName;
@@ -72,6 +77,7 @@ export function initGame(packId, date, packName = null) {
             gameMessage.value = null;
         }
     });
+    gameReady.value = true;
 }
 
 export function showMessage(text, type = 'error', duration = 3000) {
@@ -88,6 +94,8 @@ export function submitGuess(movieCorrect, charCorrect) {
     if (isGameOver.value) return;
 
     batch(() => {
+        revealGeneration.value++;
+
         const stats = [...guessStats.value, { movie: movieCorrect, char: charCorrect }];
         guessStats.value = stats;
 
@@ -127,7 +135,7 @@ export function submitGuess(movieCorrect, charCorrect) {
         }
 
         // Persist
-        saveGameState(currentPackId.value, {
+        const stateToSave = {
             attempts: currentAttempt.value,
             gameOver: isGameOver.value,
             success: isWin.value,
@@ -135,7 +143,14 @@ export function submitGuess(movieCorrect, charCorrect) {
             characterLocked: characterLocked.value,
             guessStats: guessStats.value,
             confettiShown: confettiShown.value
-        }, currentPuzzleDate.value);
+        };
+
+        // Record when the game was actually completed (used for streak calculation)
+        if (isGameOver.value) {
+            stateToSave.completedAt = new Date().toISOString();
+        }
+
+        saveGameState(currentPackId.value, stateToSave, currentPuzzleDate.value);
     });
 }
 
