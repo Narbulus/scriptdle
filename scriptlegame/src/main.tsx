@@ -209,7 +209,10 @@ Devvit.addCustomPostType({
     });
 
     // Guard: only process the first READY message — retries are no-ops while processing
-    const [readyHandled] = useState({ processing: false, done: false });
+    const [readyHandled] = useState<{ processing: boolean; done: boolean }>({
+      processing: false,
+      done: false,
+    });
 
     // Use per-pack HTML files for themed loading screens (built by bundle-reddit-data.js)
     const packId = postConfig?.packId ?? null;
