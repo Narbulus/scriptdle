@@ -211,7 +211,8 @@
   text-align: center;
   white-space: nowrap;
   transform: rotate(var(--guess-angle));
-  animation: splash-guess-write 1400ms steps(14, end) both;
+  animation: splash-guess-write 1600ms cubic-bezier(0.32, 0, 0.18, 1) both;
+  will-change: clip-path, opacity;
 }
 
 .splash-handwritten-guess.is-long {
@@ -238,7 +239,7 @@
 }
 
 .splash-guess-area.is-erasing::after {
-  animation: splash-guess-erase 850ms steps(10, end) forwards;
+  animation: splash-guess-erase 850ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }
 
 .splash-quote {
@@ -353,7 +354,7 @@
 }
 
 @keyframes splash-guess-write {
-  from { clip-path: inset(0 100% 0 0); opacity: 0.45; }
+  from { clip-path: inset(0 100% 0 0); opacity: 0.65; }
   to { clip-path: inset(0); opacity: 1; }
 }
 
