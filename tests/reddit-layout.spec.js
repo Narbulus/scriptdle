@@ -78,7 +78,8 @@ test.describe('Reddit Splash', () => {
 
   test('teases the quote and starts the game', async ({ page }) => {
     await expect(page.getByTestId('reddit-splash')).toBeVisible();
-    await expect(page.getByText('TEST PACK')).toBeVisible();
+    await expect(page.getByText('/r/scriptle', { exact: true })).toBeVisible();
+    await expect(page.getByText('Test Movie', { exact: true })).toBeVisible();
     await expect(page.getByLabel('This is a test quote for the mock puzzle fixture.')).toBeVisible();
 
     await page.getByTestId('splash-start').click();
