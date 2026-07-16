@@ -1,8 +1,12 @@
-import { useState } from 'preact/hooks';
+import { useEffect, useState } from 'preact/hooks';
 import { Play } from 'lucide-preact';
 import './splash.css';
 
 const MAX_TEASER_WORDS = 22;
+const GUESS_ANGLES = [-2.4, 1.6, -1.1, 2.2, -0.5];
+const MOVIE_CYCLE_MS = 6500;
+const GUESS_CYCLE_MS = 7500;
+const GUESS_ERASE_MS = 850;
 
 export function getQuoteTeaser(text, maxWords = MAX_TEASER_WORDS) {
   const words = text.trim().split(/\s+/).filter(Boolean);
@@ -17,7 +21,135 @@ export function getQuoteTeaser(text, maxWords = MAX_TEASER_WORDS) {
   ];
 }
 
-export function Splash({ packName, quote, onStart }) {
+export function getCharacterGuesses(metadata, answer) {
+  const normalizedAnswer = answer?.trim().toUpperCase();
+  const characters = Object.values(metadata?.charactersByMovie || {}).flat();
+
+  return [...new Set(characters
+    .map(character => character?.trim())
+    .filter(character => {
+      if (!character) return false;
+      const normalizedCharacter = character.toUpperCase();
+      if (!normalizedAnswer) return true;
+      return !normalizedAnswer.includes(normalizedCharacter)
+        && !normalizedCharacter.includes(normalizedAnswer);
+    }))];
+}
+
+export function formatCharacterGuess(name) {
+  return name
+    .trim()
+    .toLocaleLowerCase()
+    .replace(/(^|[\s(/.'’-])([a-z])/g, (_, prefix, letter) => `${prefix}${letter.toUpperCase()}`)
+    .replace(/\bMc([a-z])/g, (_, letter) => `Mc${letter.toUpperCase()}`)
+    .split(' ')
+    .map(word => (/\d/.test(word) ? word.toUpperCase() : word))
+    .join(' ');
+}
+
+function getGuessSizeClass(name) {
+  if (name.length > 29) return 'is-extra-compact';
+  if (name.length > 22) return 'is-compact';
+  if (name.length > 15) return 'is-long';
+  return 'is-regular';
+}
+
+function RotatingMovieTitle({ movieTitles }) {
+  const titles = movieTitles?.filter(Boolean) || [];
+  const [titleIndex, setTitleIndex] = useState(0);
+
+  useEffect(() => {
+    setTitleIndex(0);
+
+    const reducedMotion = document.documentElement.hasAttribute('data-reduced-motion');
+    if (titles.length < 2 || reducedMotion) return undefined;
+
+    const rotationTimer = window.setInterval(() => {
+      setTitleIndex(currentIndex => (currentIndex + 1) % titles.length);
+    }, MOVIE_CYCLE_MS);
+
+    return () => window.clearInterval(rotationTimer);
+  }, [movieTitles]);
+
+  if (titles.length === 0) return null;
+
+  const wheelPositions = titles.length === 1 ? [0] : (titles.length === 2 ? [0, 1] : [-1, 0, 1]);
+
+  return (
+    <div
+      className="splash-movie-wheel"
+      aria-label={`Movies in today's scene pool: ${titles.join(', ')}`}
+    >
+      {wheelPositions.map(position => {
+        const wheelIndex = (titleIndex + position + titles.length) % titles.length;
+        const positionName = position < 0 ? 'previous' : (position > 0 ? 'next' : 'current');
+        return (
+          <span
+            key={titles[wheelIndex]}
+            className={`splash-movie-title is-${positionName}`}
+            aria-hidden="true"
+          >
+            {titles[wheelIndex]}
+          </span>
+        );
+      })}
+    </div>
+  );
+}
+
+function HandwrittenGuess({ characterGuesses }) {
+  const guesses = characterGuesses?.filter(Boolean) || [];
+  const [guessIndex, setGuessIndex] = useState(() => (
+    guesses.length > 1 ? Math.floor(Math.random() * guesses.length) : 0
+  ));
+  const [angleIndex, setAngleIndex] = useState(() => Math.floor(Math.random() * GUESS_ANGLES.length));
+  const [isErasing, setIsErasing] = useState(false);
+
+  useEffect(() => {
+    const reducedMotion = document.documentElement.hasAttribute('data-reduced-motion');
+    if (guesses.length < 2 || reducedMotion) return undefined;
+
+    let eraseTimer;
+    const guessTimer = window.setInterval(() => {
+      setIsErasing(true);
+      eraseTimer = window.setTimeout(() => {
+        setGuessIndex(currentIndex => {
+          const nextOffset = 1 + Math.floor(Math.random() * (guesses.length - 1));
+          return (currentIndex + nextOffset) % guesses.length;
+        });
+        setAngleIndex(() => Math.floor(Math.random() * GUESS_ANGLES.length));
+        setIsErasing(false);
+      }, GUESS_ERASE_MS);
+    }, GUESS_CYCLE_MS);
+
+    return () => {
+      window.clearInterval(guessTimer);
+      window.clearTimeout(eraseTimer);
+    };
+  }, [characterGuesses]);
+
+  const displayGuess = guesses.length > 0 ? formatCharacterGuess(guesses[guessIndex]) : '';
+
+  return (
+    <div
+      className={`splash-guess-area${isErasing ? ' is-erasing' : ''}`}
+      aria-label="A handwritten character guess changes periodically"
+    >
+      {displayGuess && (
+        <span
+          key={guesses[guessIndex]}
+          className={`splash-handwritten-guess ${getGuessSizeClass(displayGuess)}`}
+          style={{ '--guess-angle': `${GUESS_ANGLES[angleIndex]}deg` }}
+          aria-hidden="true"
+        >
+          {displayGuess}
+        </span>
+      )}
+    </div>
+  );
+}
+
+export function Splash({ characterGuesses, movieTitles, quote, onStart }) {
   const [isExiting, setIsExiting] = useState(false);
   const teaserWords = getQuoteTeaser(quote);
 
@@ -43,18 +175,12 @@ export function Splash({ packName, quote, onStart }) {
       <div className="splash-light splash-light-one" aria-hidden="true" />
       <div className="splash-light splash-light-two" aria-hidden="true" />
 
-      <section className="splash-content" aria-labelledby="splash-title">
-        <div className="splash-brand">SCRIPTLE</div>
-        <div className="splash-pack-name">{packName}</div>
+      <section className="splash-content" aria-label="Today’s Scriptle scene">
+        <div className="splash-brand">/r/scriptle</div>
+        <RotatingMovieTitle movieTitles={movieTitles} />
 
         <div className="splash-script-card" data-theme="script">
           <div className="splash-paper-edge splash-paper-edge-top" aria-hidden="true" />
-          <div className="splash-scene-heading">INT. UNKNOWN SCENE — TODAY</div>
-
-          <div className="splash-redaction splash-redaction-short" aria-hidden="true" />
-          <div className="splash-redaction splash-redaction-long" aria-hidden="true" />
-
-          <h1 id="splash-title" className="splash-character">???</h1>
           <p className="splash-quote" aria-label={quote}>
             <span aria-hidden="true">“</span>
             <span className="splash-quote-words" aria-hidden="true">
@@ -69,10 +195,10 @@ export function Splash({ packName, quote, onStart }) {
               ))}
             </span>
             <span aria-hidden="true">”</span>
-            <span className="splash-cursor" aria-hidden="true" />
           </p>
 
-          <div className="splash-redaction splash-redaction-medium" aria-hidden="true" />
+          <HandwrittenGuess characterGuesses={characterGuesses} />
+
           <div className="splash-paper-edge splash-paper-edge-bottom" aria-hidden="true" />
         </div>
 
@@ -86,7 +212,7 @@ export function Splash({ packName, quote, onStart }) {
           data-testid="splash-start"
         >
           <Play size={18} fill="currentColor" aria-hidden="true" />
-          <span>Play Today’s Scene</span>
+          <span>Guess Today’s Scene</span>
         </button>
       </section>
     </main>

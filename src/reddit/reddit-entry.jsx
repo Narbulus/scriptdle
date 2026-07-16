@@ -8,7 +8,7 @@ import { loadPuzzleForDate } from '../services/dataLoader.js';
 import { createRedisBackend } from './redis-storage.js';
 import { createRedditPlatform } from './reddit-platform.js';
 import { SettingsModalContainer, openSettingsModal } from './Settings.jsx';
-import { Splash } from './Splash.jsx';
+import { getCharacterGuesses, Splash } from './Splash.jsx';
 import { StatsModalContainer } from '../pages/Stats.jsx';
 import { Settings as SettingsIcon } from 'lucide-preact';
 
@@ -179,9 +179,19 @@ function RedditApp() {
   }
 
   if (!hasStarted) {
+    const metadata = data.dailyPuzzle.metadata;
+    const movieTitles = metadata?.movies
+      ?.map(movieId => metadata.movieTitles?.[movieId] || movieId)
+      .filter(Boolean) || [];
+    const characterGuesses = getCharacterGuesses(
+      metadata,
+      data.dailyPuzzle.puzzle.targetLine.character,
+    );
+
     return (
       <Splash
-        packName={data.packData.name}
+        characterGuesses={characterGuesses}
+        movieTitles={movieTitles}
         quote={data.dailyPuzzle.puzzle.targetLine.text}
         onStart={() => setHasStarted(true)}
       />
