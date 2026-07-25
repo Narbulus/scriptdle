@@ -4,12 +4,24 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "tsc"
+    "build:client": "npm --prefix .. run build:reddit",
+    "build:server": "esbuild src/server/index.ts --bundle --platform=node --format=cjs --target=node22 --outfile=dist/server/index.cjs",
+    "build": "npm run build:client && npm run build:server",
+    "typecheck": "tsc --noEmit",
+    "upload": "devvit upload",
+    "playtest": "devvit playtest"
   },
   "dependencies": {
-    "@devvit/public-api": "0.12.12"
+    "@devvit/client": "^0.13.9",
+    "@devvit/server": "^0.13.9",
+    "@devvit/web": "^0.13.9",
+    "express": "^5.2.1"
   },
   "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.1.1",
+    "devvit": "^0.13.9",
+    "esbuild": "^0.28.1",
     "typescript": "5.8.3"
   }
 }

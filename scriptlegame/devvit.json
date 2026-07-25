@@ -1,0 +1,99 @@
+{
+  "$schema": "https://developers.reddit.com/schema/config-file.v1.json",
+  "name": "scriptle-game",
+  "post": {
+    "dir": "webroot",
+    "entrypoints": {
+      "default": { "entry": "index.html", "height": "tall" },
+      "star-wars": { "entry": "star-wars.html", "height": "tall" },
+      "harry-potter": { "entry": "harry-potter.html", "height": "tall" },
+      "the-lord-of-the-rings": { "entry": "the-lord-of-the-rings.html", "height": "tall" },
+      "bttf-trilogy": { "entry": "bttf-trilogy.html", "height": "tall" },
+      "marvel": { "entry": "marvel.html", "height": "tall" },
+      "pixar-classics": { "entry": "pixar-classics.html", "height": "tall" },
+      "shrek": { "entry": "shrek.html", "height": "tall" },
+      "disney-classics": { "entry": "disney-classics.html", "height": "tall" },
+      "disney-pixar": { "entry": "disney-pixar.html", "height": "tall" }
+    }
+  },
+  "server": {
+    "dir": "dist/server",
+    "entry": "index.cjs"
+  },
+  "permissions": {
+    "redis": true,
+    "reddit": {
+      "enable": true,
+      "asUser": ["SUBMIT_COMMENT"]
+    }
+  },
+  "settings": {
+    "subreddit": {
+      "packs": {
+        "type": "multiSelect",
+        "label": "Movie Packs",
+        "helpText": "Select which packs to create daily posts for",
+        "options": [
+          { "label": "Star Wars", "value": "star-wars" },
+          { "label": "Harry Potter", "value": "harry-potter" },
+          { "label": "The Lord of the Rings", "value": "the-lord-of-the-rings" },
+          { "label": "Back to the Future", "value": "bttf-trilogy" },
+          { "label": "Marvel", "value": "marvel" },
+          { "label": "Pixar Classics", "value": "pixar-classics" },
+          { "label": "Shrek", "value": "shrek" },
+          { "label": "Disney Classics", "value": "disney-classics" },
+          { "label": "Disney Pixar", "value": "disney-pixar" }
+        ],
+        "defaultValue": ["harry-potter"]
+      },
+      "post-time": {
+        "type": "string",
+        "label": "Daily Post Time (UTC)",
+        "helpText": "Hour in UTC to post daily puzzles (0-23). Default: 6",
+        "defaultValue": "6"
+      },
+      "title-template": {
+        "type": "string",
+        "label": "Post Title Template",
+        "helpText": "Use {pack} for pack name, {date} for date.",
+        "defaultValue": "Scriptle Daily — {pack} ({date})"
+      }
+    }
+  },
+  "scheduler": {
+    "tasks": {
+      "daily-puzzle": {
+        "endpoint": "/internal/cron/daily-puzzle",
+        "cron": "0 * * * *"
+      }
+    }
+  },
+  "menu": {
+    "items": [
+      {
+        "label": "Create Scriptle Puzzle",
+        "description": "Post a puzzle for any pack and date",
+        "forUserType": "moderator",
+        "location": ["subreddit"],
+        "endpoint": "/internal/menu/create-puzzle"
+      },
+      {
+        "label": "Post All Daily Puzzles",
+        "description": "Manually trigger today's posts for all configured packs",
+        "forUserType": "moderator",
+        "location": ["subreddit"],
+        "endpoint": "/internal/menu/post-all"
+      }
+    ]
+  },
+  "forms": {
+    "create-puzzle": "/internal/forms/create-puzzle"
+  },
+  "dev": {
+    "subreddit": "scriptle_game_dev"
+  },
+  "scripts": {
+    "build": "npm run build",
+    "dev": "npm run build"
+  }
+}

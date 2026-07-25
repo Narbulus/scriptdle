@@ -1,2 +1,2 @@
-// Stub for @devvit/web/client — used when running reddit.html in dev mode
+// Stub for @devvit/client — used when running reddit.html in dev mode or under test
 export function showToast() {}

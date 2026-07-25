@@ -23,7 +23,9 @@ const webPlatform = {
         return () => {};
     },
 
-    sendMessage() {},
+    async postJson() {
+        return {};
+    },
 };
 
 let currentPlatform = webPlatform;
