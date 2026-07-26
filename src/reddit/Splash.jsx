@@ -149,12 +149,12 @@ function HandwrittenGuess({ characterGuesses }) {
   );
 }
 
-export function Splash({ characterGuesses, movieTitles, quote, onStart }) {
+export function Splash({ characterGuesses, movieTitles, quote, onStart, ready = true }) {
   const [isExiting, setIsExiting] = useState(false);
   const teaserWords = getQuoteTeaser(quote);
 
   function handleStart() {
-    if (isExiting) return;
+    if (!ready || isExiting) return;
     setIsExiting(true);
 
     const reducedMotion = document.documentElement.hasAttribute('data-reduced-motion');
@@ -171,6 +171,7 @@ export function Splash({ characterGuesses, movieTitles, quote, onStart }) {
       className={`reddit-splash${isExiting ? ' is-exiting' : ''}`}
       data-testid="reddit-splash"
       data-theme="pack"
+      aria-busy={!ready}
     >
       <div className="splash-light splash-light-one" aria-hidden="true" />
       <div className="splash-light splash-light-two" aria-hidden="true" />
@@ -208,7 +209,7 @@ export function Splash({ characterGuesses, movieTitles, quote, onStart }) {
           type="button"
           className="splash-start-button"
           onClick={handleStart}
-          disabled={isExiting}
+          disabled={!ready || isExiting}
           data-testid="splash-start"
         >
           <Play size={18} fill="currentColor" aria-hidden="true" />

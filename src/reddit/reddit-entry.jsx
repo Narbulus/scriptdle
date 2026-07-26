@@ -120,17 +120,15 @@ function RedditApp() {
     };
   }, []);
 
-  // Dismiss overlay once game data is loaded and rendered
+  // The HTML bootstrap and React splash share the same composition. Hand off as
+  // soon as the first React frame is painted; puzzle content hydrates in place.
   useEffect(() => {
-    if (data) {
-      // Small delay to let the game render one frame before fading out
+    requestAnimationFrame(() => {
       requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          dismissLoadingOverlay();
-        });
+        dismissLoadingOverlay();
       });
-    }
-  }, [data]);
+    });
+  }, []);
 
   if (error) {
     return (
@@ -141,27 +139,23 @@ function RedditApp() {
     );
   }
 
-  if (!data) {
-    // The HTML loading overlay is still visible — no need to render anything here
-    return null;
-  }
-
   if (!hasStarted) {
-    const metadata = data.dailyPuzzle.metadata;
+    const metadata = data?.dailyPuzzle.metadata;
     const movieTitles = metadata?.movies
       ?.map(movieId => metadata.movieTitles?.[movieId] || movieId)
       .filter(Boolean) || [];
     const characterGuesses = getCharacterGuesses(
       metadata,
-      data.dailyPuzzle.puzzle.targetLine.character,
+      data?.dailyPuzzle.puzzle.targetLine.character,
     );
 
     return (
       <Splash
         characterGuesses={characterGuesses}
         movieTitles={movieTitles}
-        quote={data.dailyPuzzle.puzzle.targetLine.text}
+        quote={data?.dailyPuzzle.puzzle.targetLine.text || ''}
         onStart={() => setHasStarted(true)}
+        ready={Boolean(data)}
       />
     );
   }

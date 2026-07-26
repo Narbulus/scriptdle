@@ -55,6 +55,24 @@ describe('Reddit splash presentation', () => {
     expect(container.querySelector('.splash-redaction')).toBeNull();
   });
 
+  test('renders the splash shell immediately but keeps play disabled until ready', () => {
+    globalThis.React = { createElement: h };
+    container = document.createElement('div');
+
+    render(h(Splash, {
+      characterGuesses: [],
+      movieTitles: [],
+      quote: '',
+      onStart: () => {},
+      ready: false,
+    }), container);
+
+    expect(container.querySelector('[data-testid="reddit-splash"]')).not.toBeNull();
+    expect(container.querySelector('[data-testid="reddit-splash"]').getAttribute('aria-busy')).toBe('true');
+    expect(container.querySelector('[data-testid="splash-start"]').disabled).toBe(true);
+    expect(container.textContent).not.toContain('Loading');
+  });
+
   test('builds unique decoy guesses without revealing the answer', () => {
     const metadata = {
       charactersByMovie: {
