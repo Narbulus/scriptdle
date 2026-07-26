@@ -8,6 +8,7 @@
   <style>
     :root {
       --loading-bg: #1a1a1a;
+      --loading-primary: #ffffff;
       --loading-text: #ffffff;
     }
     * { box-sizing: border-box; }
@@ -25,76 +26,119 @@
       display: flex;
       flex-direction: column;
       background: var(--loading-bg);
-      transition: opacity 0.4s ease-out;
+      transition: opacity 0.18s ease-out;
       overflow: hidden;
     }
     #loading-overlay::before {
       content: '';
       position: absolute;
       inset: 0;
-      background: linear-gradient(
-        110deg,
-        transparent 30%,
-        rgba(255,255,255,0.06) 45%,
-        rgba(255,255,255,0.1) 50%,
-        rgba(255,255,255,0.06) 55%,
-        transparent 70%
+      opacity: 0.22;
+      background-image: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 3px,
+        color-mix(in srgb, var(--loading-primary) 12%, transparent) 4px
       );
-      background-size: 200% 100%;
-      animation: overlay-shimmer 2s ease-in-out infinite;
       pointer-events: none;
-    }
-    @keyframes overlay-shimmer {
-      0% { background-position: 200% 0; }
-      100% { background-position: -200% 0; }
     }
     #loading-overlay.fade-out {
       opacity: 0;
       pointer-events: none;
     }
-    /* Centered loading message */
     .loading-body {
       flex: 1;
+      display: grid;
+      place-items: center;
+      padding: 1.5rem;
+      position: relative;
+      z-index: 1;
+    }
+    .loading-content {
+      width: min(100%, 560px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .loading-title {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--loading-text);
+    }
+    .loading-card {
+      width: 100%;
+      min-height: 245px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 0.75rem;
-      position: relative;
-      z-index: 1;
+      gap: 1.5rem;
+      border: 1px solid color-mix(in srgb, var(--loading-primary) 25%, transparent);
+      border-radius: 8px;
+      background: color-mix(in srgb, var(--loading-bg) 18%, white);
+      box-shadow: 0 18px 60px rgba(0, 0, 0, 0.25);
     }
-    .loading-icon {
-      width: 64px;
-      height: 64px;
-      animation: rock 1.6s ease-in-out infinite;
-      transform-origin: 25% 85%;
+    .loading-quote {
+      color: color-mix(in srgb, var(--loading-bg) 72%, black);
+      font-size: 1.1rem;
     }
-    @keyframes rock {
-      0%, 100% { transform: rotate(-8deg); }
-      50% { transform: rotate(8deg); }
-    }
-    .loading-title {
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: var(--loading-text);
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
+    .loading-guess-line {
+      width: min(72%, 300px);
+      min-height: 54px;
+      border-bottom: 1px solid color-mix(in srgb, var(--loading-bg) 35%, transparent);
     }
     .loading-subtitle {
-      font-size: 0.95rem;
+      font-size: 0.75rem;
+      font-weight: 600;
       color: var(--loading-text);
-      opacity: 0.6;
+      letter-spacing: -0.01em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .loading-button {
+      width: min(100%, 320px);
+      min-height: 48px;
+      display: grid;
+      place-items: center;
+      border: 1px solid color-mix(in srgb, var(--loading-primary) 70%, white);
+      border-radius: 8px;
+      color: white;
+      font-size: 0.8rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    @media (max-height: 660px) {
+      .loading-body { padding: 0.75rem; }
+      .loading-content { gap: 0.5rem; }
+      .loading-card { min-height: 210px; }
+      .loading-subtitle { display: none; }
+    }
+    @media (min-width: 700px) {
+      .loading-card { min-height: 290px; }
     }
   </style>
 </head>
 <body>
   <div id="loading-overlay">
     <div class="loading-body">
-      <div class="loading-title">Scriptle</div>
-      <div class="loading-subtitle">Loading game...</div>
+      <div class="loading-content">
+        <div class="loading-title">/r/scriptle</div>
+        <div class="loading-card" aria-hidden="true">
+          <div class="loading-quote">“”</div>
+          <div class="loading-guess-line"></div>
+        </div>
+        <div class="loading-subtitle">Name the movie. Name the character.</div>
+        <div class="loading-button" aria-hidden="true">▶&nbsp; Guess Today’s Scene</div>
+      </div>
     </div>
   </div>
   <div id="app"></div>
+  <script>
+    document.documentElement.style.setProperty('--pack-bg', 'var(--loading-bg)');
+    document.documentElement.style.setProperty('--pack-primary', 'var(--loading-primary)');
+    document.documentElement.style.setProperty('--pack-text', 'var(--loading-text)');
+  </script>
   <script type="module" src="/src/reddit/reddit-entry.jsx"></script>
 </body>
 </html>

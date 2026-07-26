@@ -7,7 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 export default defineConfig({
   resolve: {
     alias: {
-      '@devvit/web/client': path.resolve(__dirname, 'src/reddit/devvit-web-stub.js'),
+      '@devvit/client': path.resolve(__dirname, 'src/reddit/devvit-web-stub.js'),
     },
   },
   test: {

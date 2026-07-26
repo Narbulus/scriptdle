@@ -42,6 +42,27 @@ function applyTheme(t) {
   root.style.setProperty('--pack-card-text', t.cardText || '#ffffff');
 }
 
+/**
+ * Which puzzle to show, plus the player's saved state. Served by the Devvit
+ * server from the post's own `postData`, so there's no host handshake to wait on.
+ */
+async function fetchInitConfig() {
+  if (import.meta.env.DEV) {
+    const params = new window.URLSearchParams(window.location.search);
+    const previewPackId = params.get('previewPack');
+    const previewDate = params.get('previewDate');
+    if (previewPackId && previewDate) {
+      return { date: previewDate, packId: previewPackId, storageData: {} };
+    }
+  }
+
+  const response = await fetch('/api/init');
+  if (!response.ok) {
+    throw new Error(`Unable to load today's puzzle (${response.status}). Try refreshing the page.`);
+  }
+  return response.json();
+}
+
 // Fade out and remove the loading overlay
 function dismissLoadingOverlay() {
   const overlay = document.getElementById('loading-overlay');
@@ -56,113 +77,58 @@ function RedditApp() {
   const [hasStarted, setHasStarted] = useState(false);
 
   useEffect(() => {
-    let configReceived = false;
-    let retryTimer = null;
-    let retryCount = 0;
-    const MAX_RETRIES = 6;
-    const BASE_DELAY = 1500; // 1.5s, 3s, 6s, 12s, 24s, 48s
-
-    // Listen for config from Devvit (date + packId), then fetch puzzle data directly
-    const handler = async (ev) => {
-      const msg = ev.data;
-      if (msg?.type === 'devvit-message') {
-        const payload = msg.data?.message;
-        if (payload?.type === 'PUZZLE_CONFIG') {
-          // Deduplicate: only process the first PUZZLE_CONFIG
-          if (configReceived) return;
-          configReceived = true;
-          if (retryTimer) clearTimeout(retryTimer);
-          const { date, packId, storageData } = payload.data;
-
-          // Set up Redis-backed storage before anything touches game state
-          setStorageBackend(createRedisBackend(storageData || {}));
-          try {
-            const { puzzle, manifest, theme } = await loadPuzzleForDate(date, packId, { basePath: 'data' });
-            const packInfo = { theme, name: manifest?.packName };
-            applyTheme(theme);
-            setData({
-              dailyPuzzle: {
-                puzzle: puzzle.puzzle,
-                metadata: puzzle.metadata,
-                packId: puzzle.packId,
-                date: puzzle.date,
-              },
-              manifest,
-              packData: packInfo,
-            });
-          } catch (err) {
-            console.error('Failed to load puzzle:', err);
-            setError(err.message);
-            dismissLoadingOverlay();
-          }
-        }
-      }
-    };
-    window.addEventListener('message', handler);
-
-    if (import.meta.env.DEV) {
-      const previewParams = new window.URLSearchParams(window.location.search);
-      const previewPackId = previewParams.get('previewPack');
-      const previewDate = previewParams.get('previewDate');
-      if (previewPackId && previewDate) {
-        handler({
-          data: {
-            type: 'devvit-message',
-            data: {
-              message: {
-                type: 'PUZZLE_CONFIG',
-                data: { date: previewDate, packId: previewPackId, storageData: {} },
-              },
-            },
-          },
-        });
-      }
-    }
+    let cancelled = false;
 
     // Set pack theme context on body so themed CSS selectors work
     document.body.setAttribute('data-theme', 'pack');
-
     applyStoredSettings();
 
-    // Tell Devvit we're ready for config
-    redditPlatform.sendMessage('READY');
+    (async () => {
+      try {
+        const config = await fetchInitConfig();
+        if (cancelled) return;
 
-    // Retry sending READY with exponential backoff
-    function scheduleRetry() {
-      if (configReceived) return;
-      if (retryCount >= MAX_RETRIES) {
-        setError('Unable to connect to Reddit. Please try refreshing the page.');
+        const { date, packId, storageData } = config;
+
+        // Set up Redis-backed storage before anything touches game state
+        setStorageBackend(createRedisBackend(storageData || {}));
+
+        const { puzzle, manifest, theme } = await loadPuzzleForDate(date, packId, { basePath: 'data' });
+        if (cancelled) return;
+
+        applyTheme(theme);
+        setData({
+          dailyPuzzle: {
+            puzzle: puzzle.puzzle,
+            metadata: puzzle.metadata,
+            packId: puzzle.packId,
+            date: puzzle.date,
+          },
+          manifest,
+          packData: { theme, name: manifest?.packName },
+        });
+      } catch (err) {
+        if (cancelled) return;
+        console.error('Failed to load puzzle:', err);
+        setError(err.message);
         dismissLoadingOverlay();
-        return;
       }
-      const delay = BASE_DELAY * Math.pow(2, retryCount);
-      retryTimer = setTimeout(() => {
-        if (configReceived) return;
-        retryCount++;
-        console.warn(`PUZZLE_CONFIG not received, retrying READY (${retryCount}/${MAX_RETRIES})...`);
-        redditPlatform.sendMessage('READY');
-        scheduleRetry();
-      }, delay);
-    }
-    scheduleRetry();
+    })();
 
     return () => {
-      window.removeEventListener('message', handler);
-      if (retryTimer) clearTimeout(retryTimer);
+      cancelled = true;
     };
   }, []);
 
-  // Dismiss overlay once game data is loaded and rendered
+  // The HTML bootstrap and React splash share the same composition. Hand off as
+  // soon as the first React frame is painted; puzzle content hydrates in place.
   useEffect(() => {
-    if (data) {
-      // Small delay to let the game render one frame before fading out
+    requestAnimationFrame(() => {
       requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          dismissLoadingOverlay();
-        });
+        dismissLoadingOverlay();
       });
-    }
-  }, [data]);
+    });
+  }, []);
 
   if (error) {
     return (
@@ -173,27 +139,23 @@ function RedditApp() {
     );
   }
 
-  if (!data) {
-    // The HTML loading overlay is still visible — no need to render anything here
-    return null;
-  }
-
   if (!hasStarted) {
-    const metadata = data.dailyPuzzle.metadata;
+    const metadata = data?.dailyPuzzle.metadata;
     const movieTitles = metadata?.movies
       ?.map(movieId => metadata.movieTitles?.[movieId] || movieId)
       .filter(Boolean) || [];
     const characterGuesses = getCharacterGuesses(
       metadata,
-      data.dailyPuzzle.puzzle.targetLine.character,
+      data?.dailyPuzzle.puzzle.targetLine.character,
     );
 
     return (
       <Splash
         characterGuesses={characterGuesses}
         movieTitles={movieTitles}
-        quote={data.dailyPuzzle.puzzle.targetLine.text}
+        quote={data?.dailyPuzzle.puzzle.targetLine.text || ''}
         onStart={() => setHasStarted(true)}
+        ready={Boolean(data)}
       />
     );
   }

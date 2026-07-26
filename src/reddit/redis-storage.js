@@ -1,14 +1,14 @@
 import { getPlatform } from '../services/platform.js';
 
-// Redis-backed storage for Devvit WebView.
-// Pre-loads all user state from Redis on init (sent with PUZZLE_CONFIG).
-// Reads are synchronous from the in-memory cache.
-// Writes update cache immediately and fire-and-forget to Devvit host via postMessage.
+// Redis-backed storage for the Devvit webview.
+// All user state is pre-loaded from /api/init, so reads stay synchronous from
+// the in-memory cache. Writes update the cache immediately and are flushed to
+// Redis fire-and-forget.
 
 const cache = new Map();
 
 export function createRedisBackend(initialData) {
-  // Populate cache from data sent by Devvit host
+  cache.clear();
   if (initialData) {
     for (const [key, value] of Object.entries(initialData)) {
       cache.set(key, value);
@@ -22,8 +22,9 @@ export function createRedisBackend(initialData) {
 
     setItem(key, value) {
       cache.set(key, value);
-      // Fire-and-forget to Devvit host → Redis
-      getPlatform().sendMessage('STORAGE_SET', { key, value });
+      getPlatform()
+        .postJson('/api/storage', { key, value })
+        .catch((err) => console.error('Failed to persist storage key:', key, err));
     },
 
     keys() {
@@ -32,7 +33,9 @@ export function createRedisBackend(initialData) {
 
     clear() {
       cache.clear();
-      getPlatform().sendMessage('STORAGE_CLEAR');
+      getPlatform()
+        .postJson('/api/storage/clear')
+        .catch((err) => console.error('Failed to clear storage:', err));
     },
   };
 }

@@ -32,33 +32,38 @@ async function setupRedditRoutes(page) {
       body: JSON.stringify(mockPacks),
     });
   });
+
+  // Devvit server endpoints. Playwright matches the most recently registered
+  // route first, so the catch-all goes in before the specific /api/init.
+  await page.route('**/api/**', async route => {
+    await route.fulfill({
+      status: 200,
+      contentType: 'application/json',
+      body: JSON.stringify({ ok: true, stats: null }),
+    });
+  });
+
+  // The webview boots off /api/init.
+  await page.route('**/api/init', async route => {
+    await route.fulfill({
+      status: 200,
+      contentType: 'application/json',
+      body: JSON.stringify({
+        date: getTodayDateString(),
+        packId: 'test-pack',
+        storageData: {},
+        stats: null,
+      }),
+    });
+  });
 }
 
 async function bootstrapRedditApp(page, { startGame = true } = {}) {
-  const date = getTodayDateString();
-
   await page.addInitScript(() => {
     localStorage.setItem('scriptle:hasVisited', 'true');
   });
 
   await page.goto('/reddit.html');
-  await page.waitForTimeout(1000);
-
-  await page.evaluate((date) => {
-    window.postMessage({
-      type: 'devvit-message',
-      data: {
-        message: {
-          type: 'PUZZLE_CONFIG',
-          data: {
-            date,
-            packId: 'test-pack',
-            storageData: {},
-          },
-        },
-      },
-    }, '*');
-  }, date);
 
   await page.waitForSelector('[data-testid="reddit-splash"]', { timeout: 15000 });
 

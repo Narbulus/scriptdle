@@ -48,8 +48,7 @@ function main() {
 
   console.log(`Bundled packs + ${files.length} days of puzzle data into webroot.`);
 
-  // Generate per-pack HTML files with themed loading backgrounds.
-  // Each pack gets a copy of index.html with --loading-bg set to the pack's bgColor.
+  // Generate per-pack HTML files whose bootstrap splash matches the pack theme.
   const indexHtml = path.join(WEBROOT_ROOT, 'index.html');
   if (fs.existsSync(indexHtml) && fs.existsSync(packsSrc)) {
     const html = fs.readFileSync(indexHtml, 'utf-8');
@@ -59,7 +58,10 @@ function main() {
 
     for (const pack of packs) {
       if (!pack.id || !pack.theme?.bgColor) continue;
-      const themed = html.replace('--loading-bg: #1a1a1a', `--loading-bg: ${pack.theme.bgColor}`);
+      const themed = html
+        .replace('--loading-bg: #1a1a1a', `--loading-bg: ${pack.theme.bgColor}`)
+        .replace('--loading-primary: #ffffff', `--loading-primary: ${pack.theme.primary || '#ffffff'}`)
+        .replace('--loading-text: #ffffff', `--loading-text: ${pack.theme.primary || '#ffffff'}`);
       fs.writeFileSync(path.join(WEBROOT_ROOT, `${pack.id}.html`), themed);
       count++;
     }

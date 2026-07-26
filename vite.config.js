@@ -16,7 +16,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@devvit/web/client': path.resolve(__dirname, 'src/reddit/devvit-web-stub.js'),
+      '@devvit/client': path.resolve(__dirname, 'src/reddit/devvit-web-stub.js'),
     },
   },
   define: {

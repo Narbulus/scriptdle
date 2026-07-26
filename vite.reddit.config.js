@@ -15,7 +15,6 @@ export default defineConfig({
     emptyOutDir: true,
     rollupOptions: {
       input: path.resolve(__dirname, 'reddit.html'),
-      external: ['@devvit/web/client'],
     },
   },
   resolve: {
