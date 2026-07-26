@@ -6,9 +6,70 @@ Replicates the exact RNG logic from Game.js to ensure consistency.
 
 import json
 import os
+import re
 import argparse
 from datetime import datetime, timedelta
 from pathlib import Path
+
+
+# Speaker cues that name no one guessable. A puzzle whose answer is "ALL" or
+# "UNIDENTIFIED" cannot be solved, so these are never eligible as targets.
+NON_CHARACTER_SPEAKERS = {
+    'ALL', 'BOTH', 'EVERYONE', 'CROWD', 'UNIDENTIFIED', 'VARIOUS', 'GROUP',
+    'CHORUS', 'MAN', 'WOMAN', 'BOY', 'GIRL', 'VOICE', 'VOICES', 'ANNOUNCER',
+    'NARRATOR', 'OTHERS', 'TOGETHER', 'YOUNG BOY', 'YOUNG GIRL',
+}
+
+# Screenplay annotations that belong to the cue, not the character's name.
+# Deliberately narrow: "(MARTY SR.)" and "(JIMMY)" genuinely distinguish
+# characters and must survive.
+ANNOTATION_SUFFIX = re.compile(
+    r"\s*\((?:V\.?\s?O\.?|O\.?\s?S\.?|O\.?\s?C\.?|CONT['’]?D|CONTINUED|SUBTITLES?|"
+    r"PRE-?LAP|FILTERED|ON (?:TV|RADIO|PHONE))\)\s*$",
+    re.IGNORECASE,
+)
+
+# A stage direction opening the line, e.g. "(chuckle) Cool." or "(SINGING) ...".
+LEADING_DIRECTION = re.compile(r'^\s*\([^)]*\)\s*')
+
+
+def normalize_character(name):
+    """Strip screenplay annotations from a speaker cue, leaving the character."""
+    if not name:
+        return name
+    previous = None
+    result = name.strip()
+    while result != previous:
+        previous = result
+        result = ANNOTATION_SUFFIX.sub('', result).strip()
+    return result
+
+
+def clean_line_text(text):
+    """Remove stage directions that open a line of dialogue."""
+    if not text:
+        return text
+    previous = None
+    result = text.strip()
+    while result != previous:
+        previous = result
+        result = LEADING_DIRECTION.sub('', result).strip()
+    return result
+
+
+def is_guessable_character(name):
+    """Whether a normalized speaker cue names a character a player could guess."""
+    return bool(name) and name.strip().upper() not in NON_CHARACTER_SPEAKERS
+
+
+def is_clean_dialogue(text):
+    """
+    Whether text is pure dialogue, suitable as a puzzle target.
+
+    Lines keeping an embedded direction ("It broke. (casting it aside) Ohh!")
+    still read fine as surrounding context, but make a poor quote to guess.
+    """
+    return bool(text) and '(' not in text and '[' not in text
 
 
 class PuzzleGenerator:
@@ -59,7 +120,10 @@ class PuzzleGenerator:
             all_lines: List of all lines across all movies
             min_words: Minimum number of words required in target line (default: 5)
         """
-        # Build set of significant characters per movie
+        # Built from the raw cue and text on purpose. These indices determine
+        # every date's selection, so changing membership would re-roll puzzles
+        # that have already been published. Unusable lines are filtered at
+        # selection time instead — see generate_daily_puzzle.
         significant_by_movie = {}
         for movie_id, script in scripts.items():
             # Try both topSpeakingCast (new format) and topCast (legacy)
@@ -70,10 +134,10 @@ class PuzzleGenerator:
         indices_by_movie = {}
         for idx, line in enumerate(all_lines):
             movie_id = line['movieId']
-            character = line['character']
+            character = line['rawCharacter']
             if character in significant_by_movie.get(movie_id, set()):
                 # Check minimum word count
-                word_count = len(line['text'].split())
+                word_count = len(line['rawText'].split())
                 if word_count < min_words:
                     continue
 
@@ -151,8 +215,13 @@ class PuzzleGenerator:
         for movie_id, script in sorted_movies:
             for idx, line in enumerate(script['lines']):
                 all_lines.append({
-                    'character': line['character'],
-                    'text': line['text'],
+                    # Display values: annotations and stage directions removed.
+                    'character': normalize_character(line['character']),
+                    'text': clean_line_text(line['text']),
+                    # Raw values drive eligibility so line indices — and with
+                    # them every already-published puzzle — stay put.
+                    'rawCharacter': line['character'],
+                    'rawText': line['text'],
                     'movie': script['title'],
                     'movieId': movie_id,
                     'originalIndex': idx,
@@ -160,6 +229,14 @@ class PuzzleGenerator:
                 })
 
         return all_lines
+
+    def is_usable_target(self, line, min_words):
+        """Whether a line can serve as the quote a player has to identify."""
+        return (
+            is_guessable_character(line['character'])
+            and is_clean_dialogue(line['text'])
+            and len(line['text'].split()) >= min_words
+        )
 
     def build_metadata(self, all_lines, scripts):
         """Build metadata with significant characters only"""
@@ -172,7 +249,12 @@ class PuzzleGenerator:
         for movie_id, script in scripts.items():
             # Try both topSpeakingCast (new format) and topCast (legacy)
             top_cast = script.get('topSpeakingCast', script.get('topCast', []))
-            significant_by_movie[movie_id] = top_cast
+            # Match the eligibility rules so the guess dropdown lists exactly
+            # the characters that can be answers.
+            significant_by_movie[movie_id] = sorted({
+                normalize_character(c) for c in top_cast
+                if is_guessable_character(normalize_character(c))
+            })
             movies_with_year[movie_id] = script.get('year')
             movies_with_title[movie_id] = script.get('title')
             movies_with_poster[movie_id] = script.get('poster')
@@ -198,9 +280,37 @@ class PuzzleGenerator:
             }
         }
 
-    def generate_daily_puzzle(self, pack_id, date_str, all_lines, indices_by_movie, metadata, pack_movie_order):
+    def resolve_usable_target(self, target_index, all_lines, indices_by_movie, min_words):
+        """
+        Return the first usable line at or after the selected one.
+
+        The seeded pick can land on a line that makes an impossible puzzle — an
+        "UNIDENTIFIED" speaker, or a quote that is really a stage direction.
+        Rather than excluding those upfront (which would shift every index and
+        re-roll puzzles already played), walk forward within the same movie's
+        candidates and wrap. Only the broken dates move.
+        """
+        movie_id = all_lines[target_index]['movieId']
+        candidates = indices_by_movie.get(movie_id, [])
+        if target_index not in candidates:
+            return target_index
+
+        start = candidates.index(target_index)
+        for offset in range(len(candidates)):
+            idx = candidates[(start + offset) % len(candidates)]
+            if self.is_usable_target(all_lines[idx], min_words):
+                if idx != target_index:
+                    print(f"  Substituted unusable target {target_index} -> {idx} "
+                          f"({all_lines[target_index]['character']!r})")
+                return idx
+
+        print(f"  WARNING: no usable target in {movie_id}; keeping {target_index}")
+        return target_index
+
+    def generate_daily_puzzle(self, pack_id, date_str, all_lines, indices_by_movie, metadata, pack_movie_order, min_words=5):
         """Generate puzzle data for a specific date"""
         target_index = self.select_target_index(pack_id, date_str, indices_by_movie, pack_movie_order)
+        target_index = self.resolve_usable_target(target_index, all_lines, indices_by_movie, min_words)
 
         # Extract target line and context
         target_line = all_lines[target_index]
@@ -297,7 +407,7 @@ class PuzzleGenerator:
             date_str = current_date.isoformat()
 
             # Generate puzzle
-            puzzle_data = self.generate_daily_puzzle(pack_id, date_str, all_lines, indices_by_movie, metadata, pack['movies'])
+            puzzle_data = self.generate_daily_puzzle(pack_id, date_str, all_lines, indices_by_movie, metadata, pack['movies'], min_words=min_words)
 
             # Write puzzle file
             puzzle_file = pack_daily_dir / f'{date_str}.json'

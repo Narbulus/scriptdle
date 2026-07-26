@@ -5,6 +5,12 @@ const DATA_DIR = 'public/data';
 const DAILY_ALL_DIR = join(DATA_DIR, 'daily-all');
 const PACKS_FILE = join(DATA_DIR, 'packs-full.json');
 
+// A target line is the answer a player has to produce, so it must name a real
+// character and read as plain dialogue. See generate-daily-puzzles.py, which
+// substitutes a nearby line when the seeded pick fails these.
+const NON_CHARACTER_SPEAKER = /^(ALL|BOTH|EVERYONE|CROWD|UNIDENTIFIED|VARIOUS|GROUP|CHORUS|MAN|WOMAN|BOY|GIRL|VOICE|VOICES|ANNOUNCER|NARRATOR|OTHERS|TOGETHER|YOUNG BOY|YOUNG GIRL)$/i;
+const SPEAKER_ANNOTATION = /\((?:V\.?\s?O\.?|O\.?\s?S\.?|O\.?\s?C\.?|CONT['’]?D|CONTINUED|SUBTITLES?)\)/i;
+
 let errors = [];
 let warnings = [];
 
@@ -16,6 +22,23 @@ function error(msg) {
 function warn(msg) {
   warnings.push(msg);
   console.warn(`WARN: ${msg}`);
+}
+
+function validateTargetLine(target, packId, date) {
+  const prefix = `[${packId}/${date}]`;
+  const { character, text } = target;
+
+  if (character && NON_CHARACTER_SPEAKER.test(character.trim())) {
+    error(`${prefix} Unanswerable target: speaker "${character}" is not a character`);
+  }
+
+  if (character && SPEAKER_ANNOTATION.test(character)) {
+    error(`${prefix} Target speaker keeps a screenplay annotation: "${character}"`);
+  }
+
+  if (text && /[([]/.test(text)) {
+    error(`${prefix} Target quote contains a stage direction: "${text.slice(0, 60)}"`);
+  }
 }
 
 function validatePuzzleStructure(puzzle, packId, date) {
@@ -43,9 +66,11 @@ function validatePuzzleStructure(puzzle, packId, date) {
   if (!p.targetLine) {
     error(`${prefix} Missing puzzle.targetLine`);
   } else {
-    if (!p.targetLine.character) error(`${prefix} Missing targetLine.character`);
-    if (!p.targetLine.text) error(`${prefix} Missing targetLine.text`);
-    if (!p.targetLine.movie) error(`${prefix} Missing targetLine.movie`);
+    const { character, text, movie } = p.targetLine;
+
+    if (!character) error(`${prefix} Missing targetLine.character`);
+    if (!text) error(`${prefix} Missing targetLine.text`);
+    if (!movie) error(`${prefix} Missing targetLine.movie`);
   }
 
   if (!Array.isArray(p.contextAfter)) {
@@ -144,6 +169,25 @@ function main() {
       }
     }
   }
+
+  // Deep validation is sampled, but an unanswerable target only breaks the one
+  // date it lands on — so sweep every puzzle for target health.
+  console.log(`Checking target lines across all ${dailyFiles.length} files...\n`);
+  let targetsChecked = 0;
+
+  for (const file of dailyFiles) {
+    const date = file.replace('.json', '');
+    const consolidated = JSON.parse(readFileSync(join(DAILY_ALL_DIR, file), 'utf-8'));
+
+    for (const [packId, puzzle] of Object.entries(consolidated.puzzles || {})) {
+      const target = puzzle?.puzzle?.targetLine;
+      if (!target) continue;
+      targetsChecked++;
+      validateTargetLine(target, packId, date);
+    }
+  }
+
+  console.log(`Checked ${targetsChecked} target lines.`);
 
   console.log('\n' + '='.repeat(50));
 

@@ -56,12 +56,12 @@
       "manifest": {
         "packId": "star-wars",
         "packName": "Star Wars",
-        "generatedAt": "2026-02-11T08:13:58.477411",
+        "generatedAt": "2026-07-26T13:14:45.745604",
         "dateRange": {
-          "start": "2026-02-10",
-          "end": "2026-02-12"
+          "start": "2026-01-12",
+          "end": "2030-02-12"
         },
-        "totalPuzzles": 3,
+        "totalPuzzles": 1493,
         "cycleLength": 6267,
         "tierMessages": {
           "perfect": "Strong with the Force, you are!",
@@ -201,7 +201,6 @@
             "SNOKE",
             "STATISTICIAN",
             "TECHNICIAN",
-            "UNIDENTIFIED",
             "YODA"
           ],
           "star-wars-episode-ix-the-rise-of-skywalker": [
@@ -254,12 +253,12 @@
       "manifest": {
         "packId": "harry-potter",
         "packName": "Harry Potter",
-        "generatedAt": "2026-02-11T08:13:58.432724",
+        "generatedAt": "2026-07-26T13:14:41.266737",
         "dateRange": {
-          "start": "2026-02-10",
-          "end": "2026-02-12"
+          "start": "2026-01-12",
+          "end": "2030-02-12"
         },
-        "totalPuzzles": 3,
+        "totalPuzzles": 1493,
         "cycleLength": 7444,
         "tierMessages": {
           "perfect": "Outstanding! First try!",
@@ -315,7 +314,6 @@
             "ALBUS DUMBLEDORE",
             "DRACO MALFOY",
             "DUDLEY DURSLEY",
-            "GIRL",
             "HARRY POTTER",
             "HERMIONE GRANGER",
             "LEE JORDAN",
@@ -515,12 +513,12 @@
       "manifest": {
         "packId": "the-lord-of-the-rings",
         "packName": "The Lord of the Rings",
-        "generatedAt": "2026-02-11T08:13:58.468854",
+        "generatedAt": "2026-07-26T13:14:45.182644",
         "dateRange": {
-          "start": "2026-02-10",
-          "end": "2026-02-12"
+          "start": "2026-01-12",
+          "end": "2030-02-12"
         },
-        "totalPuzzles": 3,
+        "totalPuzzles": 1493,
         "cycleLength": 3266,
         "tierMessages": {
           "perfect": "You shall pass!",
@@ -645,12 +643,12 @@
       "manifest": {
         "packId": "shrek",
         "packName": "Shrek",
-        "generatedAt": "2026-02-11T08:13:58.493245",
+        "generatedAt": "2026-07-26T13:14:47.121564",
         "dateRange": {
-          "start": "2026-02-10",
-          "end": "2026-02-12"
+          "start": "2026-01-12",
+          "end": "2030-02-12"
         },
-        "totalPuzzles": 3,
+        "totalPuzzles": 1493,
         "cycleLength": 3279,
         "tierMessages": {
           "perfect": "Ogres have layers!",
@@ -688,7 +686,6 @@
         "charactersByMovie": {
           "shrek-1": [
             "BISHOP",
-            "CROWD",
             "DONKEY",
             "FIONA",
             "GINGY",
@@ -784,12 +781,12 @@
       "manifest": {
         "packId": "bttf-trilogy",
         "packName": "Back to the Future",
-        "generatedAt": "2026-02-11T08:13:58.437487",
+        "generatedAt": "2026-07-26T13:14:41.984306",
         "dateRange": {
-          "start": "2026-02-10",
-          "end": "2026-02-12"
+          "start": "2026-01-12",
+          "end": "2030-02-12"
         },
-        "totalPuzzles": 3,
+        "totalPuzzles": 1493,
         "cycleLength": 2321,
         "tierMessages": {
           "perfect": "Great Scott! First try!",
@@ -836,7 +833,6 @@
             "1985A STRICKLAND",
             "2015 BIFF",
             "2015 MARTY (MARTY SR.)",
-            "ALL",
             "BIFF",
             "BIFF'S GUY",
             "DOC BROWN",
@@ -900,12 +896,12 @@
       "manifest": {
         "packId": "pixar-classics",
         "packName": "Pixar Classics",
-        "generatedAt": "2026-02-11T08:13:58.503321",
+        "generatedAt": "2026-07-26T13:14:47.613508",
         "dateRange": {
-          "start": "2026-02-10",
-          "end": "2026-02-12"
+          "start": "2026-01-12",
+          "end": "2030-02-12"
         },
-        "totalPuzzles": 3,
+        "totalPuzzles": 1493,
         "cycleLength": 7290,
         "tierMessages": {
           "perfect": "To infinity and beyond!",
@@ -995,7 +991,6 @@
             "VAN"
           ],
           "finding-nemo": [
-            "ALL",
             "ANCHOR",
             "BLOAT",
             "BOB",
@@ -1073,8 +1068,7 @@
             "RICK DICKER",
             "SYNDROME",
             "TONY",
-            "VIOLET",
-            "WOMAN"
+            "VIOLET"
           ],
           "toy-story": [
             "ALIENS",
@@ -1136,12 +1130,12 @@
       "manifest": {
         "packId": "disney-classics",
         "packName": "Disney Classics",
-        "generatedAt": "2026-02-11T08:13:58.448437",
+        "generatedAt": "2026-07-26T13:14:43.138520",
         "dateRange": {
-          "start": "2026-02-10",
-          "end": "2026-02-12"
+          "start": "2026-01-12",
+          "end": "2030-02-12"
         },
-        "totalPuzzles": 3,
+        "totalPuzzles": 1493,
         "cycleLength": 6742,
         "tierMessages": {
           "perfect": "A dream is a wish your heart makes",
@@ -1193,19 +1187,25 @@
             "ANASTASIA",
             "CINDERELLA",
             "DRIZELLA",
+            "DRIZELLA & ANASTASIA",
             "FAIRY GODMOTHER",
             "GRAND DUKE",
             "GUS",
             "JAQ",
             "KING",
             "LADY TREMAINE",
-            "STEPMOTHER"
+            "MARY",
+            "MICE",
+            "PRINCE"
           ],
           "sleeping-beauty-1959": [
-            "BRIAR ROSE",
+            "AURORA",
+            "CHOIR",
+            "FAIRIES",
             "FAUNA",
             "FLORA",
             "HUBERT",
+            "LORD DUKE",
             "MALEFICENT",
             "MERRYWEATHER",
             "PHILLIP",
@@ -1213,23 +1213,32 @@
           ],
           "the-little-mermaid-1989": [
             "ARIEL",
+            "CARLOTTA",
             "ERIC",
+            "FLOTSAM",
             "FLOUNDER",
             "GRIMSBY",
+            "JETSAM",
+            "LOUIS",
             "SCUTTLE",
+            "SEAHORSE",
             "SEBASTIAN",
             "TRITON",
-            "URSULA"
+            "URSULA",
+            "VANESSA"
           ],
           "mulan-1998": [
             "CHI FU",
             "CHIEN PO",
+            "CRI-KEE",
             "EMPEROR",
             "FA LI",
             "FA ZHOU",
+            "GENERAL LI",
             "GRANNY FA",
             "GREAT ANCESTOR",
             "LING",
+            "MATCHMAKER",
             "MULAN",
             "MUSHU",
             "SHAN YU",
@@ -1238,55 +1247,80 @@
           ],
           "aladdin-1992": [
             "ABU",
+            "ACHMED",
             "ALADDIN",
+            "CAVE",
+            "FAROUK",
+            "GAZEEM",
             "GENIE",
+            "GIRLS",
+            "GUARDS",
             "IAGO",
             "JAFAR",
             "JASMINE",
             "PEABO BRYSON",
+            "PEDDLER",
             "RAZOUL",
             "REGINA BELLE",
             "SULTAN"
           ],
           "beauty-and-the-beast-1991": [
+            "BAKER",
             "BEAST",
             "BELLE",
+            "BOOKSELLER",
             "CHIP",
             "COGSWORTH",
             "FEATHERDUSTER",
             "GASTON",
             "LEFOU",
             "LUMIÈRE",
+            "MAN 1",
+            "MAN 4",
             "MAURICE",
+            "MOB",
             "MONSIEUR D'ARQUE",
-            "MRS. POTTS"
+            "MRS. POTTS",
+            "WARDROBE",
+            "WOMAN 1"
           ],
           "hercules-1997": [
             "AMPHITRYON",
             "BOY 1",
             "CALLIOPE",
             "CLOTHO",
+            "CYCLOPS",
             "HADES",
             "HERA",
             "HERCULES",
             "HERMES",
-            "MAN",
+            "LACHESIS",
             "MEGARA",
             "MUSES",
             "PAIN",
             "PANIC",
             "PHIL",
+            "STRONG MAN",
+            "THALIA",
             "ZEUS"
           ],
           "the-lion-king": [
             "BANZAI",
+            "CARMEN TWILLIE",
+            "ENSEMBLE",
+            "HYENAS",
+            "LEBO M",
             "MUFASA",
+            "MUFASA’S SPIRIT",
             "NALA",
             "PUMBAA",
             "RAFIKI",
+            "SARABI",
             "SCAR",
+            "SHENZI",
             "SIMBA",
             "TIMON",
+            "TIMON AND PUMBAA",
             "ZAZU"
           ]
         }
@@ -1317,12 +1351,12 @@
       "manifest": {
         "packId": "disney-pixar",
         "packName": "Disney Pixar",
-        "generatedAt": "2026-02-11T08:13:58.487294",
+        "generatedAt": "2026-07-26T13:14:46.501783",
         "dateRange": {
-          "start": "2026-02-10",
-          "end": "2026-02-12"
+          "start": "2026-01-12",
+          "end": "2030-02-12"
         },
-        "totalPuzzles": 3,
+        "totalPuzzles": 1493,
         "cycleLength": 5492,
         "tierMessages": {
           "perfect": "Our fate lives within us!",
@@ -1412,8 +1446,7 @@
             "HÉCTOR",
             "IMELDA",
             "MARIACHI",
-            "MIGUEL",
-            "YOUNG BOY (V.O.)"
+            "MIGUEL"
           ],
           "encanto-2021": [
             "ABUELA",
@@ -1472,8 +1505,7 @@
             "GAMMA",
             "MUNTZ",
             "NEWSREEL ANNOUNCER",
-            "RUSSELL",
-            "VOICE"
+            "RUSSELL"
           ],
           "zootopia": [
             "BENJAMIN CLAWHAUSER",
@@ -1525,12 +1557,12 @@
       "manifest": {
         "packId": "marvel",
         "packName": "Marvel",
-        "generatedAt": "2026-02-11T08:13:58.462907",
+        "generatedAt": "2026-07-26T13:14:44.392877",
         "dateRange": {
-          "start": "2026-02-10",
-          "end": "2026-02-12"
+          "start": "2026-01-12",
+          "end": "2030-02-12"
         },
-        "totalPuzzles": 3,
+        "totalPuzzles": 1493,
         "cycleLength": 9472,
         "tierMessages": {
           "perfect": "I am Iron Man",
@@ -1647,8 +1679,7 @@
             "RED SKULL",
             "S.H.I.E.L.D. LIEUTENANT",
             "STEVE",
-            "TRAINER",
-            "WOMAN"
+            "TRAINER"
           ],
           "captain-marvel": [
             "ATT-LASS",
@@ -1714,7 +1745,6 @@
             "JAMES RHODES",
             "JARVIS",
             "MAJOR ALLEN",
-            "MAN",
             "OBADIAH STANE",
             "PEPPER POTTS",
             "PILOT #1",
@@ -1786,5 +1816,5 @@
       }
     }
   ],
-  "generatedAt": "2026-02-11T12:51:00.661Z"
+  "generatedAt": "2026-07-26T17:12:04.773Z"
 }
