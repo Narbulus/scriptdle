@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'preact/hooks';
 import { Play } from 'lucide-preact';
+// Order matters: foxing supplies .foxed, splash-paper overrides splash.css
+import '../styles/foxing.css';
 import './splash.css';
+import './splash-paper.css';
 
 const MAX_TEASER_WORDS = 22;
 const GUESS_ANGLES = [-2.4, 1.6, -1.1, 2.2, -0.5];
@@ -180,7 +183,7 @@ export function Splash({ characterGuesses, movieTitles, quote, onStart, ready = 
         <div className="splash-brand">/r/scriptle</div>
         <RotatingMovieTitle movieTitles={movieTitles} />
 
-        <div className="splash-script-card" data-theme="script">
+        <div className="splash-script-card foxed" data-theme="script">
           <div className="splash-paper-edge splash-paper-edge-top" aria-hidden="true" />
           <p className="splash-quote" aria-label={quote}>
             <span aria-hidden="true">“</span>

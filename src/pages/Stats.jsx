@@ -51,43 +51,14 @@ export function StatsContent() {
     }
 
     const selected = selectedIndex !== null ? completions[selectedIndex] : null;
-    // For tooltip positioning, use the index within the current page slice
-    const selectedPageOffset = compact ? page * itemsPerPage : 0;
-    const selectedLocalIndex = selectedIndex !== null ? selectedIndex - selectedPageOffset : -1;
-    const selectedRow = selectedLocalIndex >= 0 && selectedLocalIndex < pageItems.length
-        ? Math.floor(selectedLocalIndex / columnsPerRow) : -1;
 
-    // Build grid content with tooltip
+    // Detail lives in a fixed slot below the grid rather than being injected
+    // into it. The old .inventory-tooltip spanned a grid row above the
+    // selected tile, so every click reflowed the grid and jumped the tiles —
+    // and its caret offset hardcoded 3 columns while getCompactColumns()
+    // returns 4 above 500px, so it pointed at the wrong tile on wide views.
     const gridContent = [];
     for (let i = 0; i < pageItems.length; i++) {
-        const row = Math.floor(i / columnsPerRow);
-        const isFirstInRow = i % columnsPerRow === 0;
-
-        if (isFirstInRow && row === selectedRow && selected) {
-            const colInRow = selectedLocalIndex % columnsPerRow;
-            gridContent.push(
-                <div
-                    key="tooltip"
-                    className="inventory-tooltip"
-                    style={{ '--tooltip-col': colInRow }}
-                >
-                    <div className="inventory-tooltip-body">
-                        <div className="inventory-tooltip-line1">
-                            {formatPackName(selected.packId)}
-                        </div>
-                        <div className="inventory-tooltip-line2">
-                            {formatDate(selected.date)}
-                            {' · '}
-                            {selected.success
-                                ? `${selected.attempts}/5 attempts`
-                                : 'X/5 attempts'}
-                        </div>
-                    </div>
-                    <div className="inventory-tooltip-caret" />
-                </div>
-            );
-        }
-
         const item = pageItems[i];
         if (item.type === 'completion') {
             const { completion, index } = item;
@@ -131,6 +102,28 @@ export function StatsContent() {
                 {gridContent}
             </div>
 
+            {/* Selected entry detail — fixed slot, reserved height */}
+            <div className="inventory-detail">
+                {selected ? (
+                    <>
+                        <div className="inventory-detail-name">
+                            {formatPackName(selected.packId)}
+                        </div>
+                        <div className="inventory-detail-meta">
+                            {formatDate(selected.date)}
+                            {' · '}
+                            {selected.success
+                                ? `${selected.attempts}/5 attempts`
+                                : 'X/5 attempts'}
+                        </div>
+                    </>
+                ) : (
+                    <div className="inventory-detail-empty">
+                        Pick a specimen to see where it came from.
+                    </div>
+                )}
+            </div>
+
             {/* Pagination footer for compact layouts */}
             {compact && totalPages > 1 && (
                 <div className="inventory-pagination">
@@ -160,6 +153,7 @@ import { Modal } from '../components/common/Modal.jsx';
 function StatsModal({ isOpen, onClose }) {
     return (
         <Modal
+            id="stats-modal"
             isOpen={isOpen}
             onClose={onClose}
             title="Your Collection"

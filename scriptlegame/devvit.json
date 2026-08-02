@@ -1,19 +1,30 @@
 {
   "$schema": "https://developers.reddit.com/schema/config-file.v1.json",
   "name": "scriptle-game",
+  "sourceIgnores": ["webroot", "dist", "package-lock.json", "*.png"],
   "post": {
     "dir": "webroot",
     "entrypoints": {
-      "default": { "entry": "index.html", "height": "tall" },
-      "star-wars": { "entry": "star-wars.html", "height": "tall" },
-      "harry-potter": { "entry": "harry-potter.html", "height": "tall" },
-      "the-lord-of-the-rings": { "entry": "the-lord-of-the-rings.html", "height": "tall" },
-      "bttf-trilogy": { "entry": "bttf-trilogy.html", "height": "tall" },
-      "marvel": { "entry": "marvel.html", "height": "tall" },
-      "pixar-classics": { "entry": "pixar-classics.html", "height": "tall" },
-      "shrek": { "entry": "shrek.html", "height": "tall" },
-      "disney-classics": { "entry": "disney-classics.html", "height": "tall" },
-      "disney-pixar": { "entry": "disney-pixar.html", "height": "tall" }
+      "default": { "entry": "index.html", "height": "tall",
+        "styles": { "backgroundColor": "#2a0000FF", "backgroundColorDark": "#2a0000FF" } },
+      "star-wars": { "entry": "star-wars.html", "height": "tall",
+        "styles": { "backgroundColor": "#000000FF", "backgroundColorDark": "#000000FF" } },
+      "harry-potter": { "entry": "harry-potter.html", "height": "tall",
+        "styles": { "backgroundColor": "#2a0000FF", "backgroundColorDark": "#2a0000FF" } },
+      "the-lord-of-the-rings": { "entry": "the-lord-of-the-rings.html", "height": "tall",
+        "styles": { "backgroundColor": "#1a2412FF", "backgroundColorDark": "#1a2412FF" } },
+      "bttf-trilogy": { "entry": "bttf-trilogy.html", "height": "tall",
+        "styles": { "backgroundColor": "#1a1a2eFF", "backgroundColorDark": "#1a1a2eFF" } },
+      "marvel": { "entry": "marvel.html", "height": "tall",
+        "styles": { "backgroundColor": "#1a1a1aFF", "backgroundColorDark": "#1a1a1aFF" } },
+      "pixar-classics": { "entry": "pixar-classics.html", "height": "tall",
+        "styles": { "backgroundColor": "#1d3557FF", "backgroundColorDark": "#1d3557FF" } },
+      "shrek": { "entry": "shrek.html", "height": "tall",
+        "styles": { "backgroundColor": "#5d4037FF", "backgroundColorDark": "#5d4037FF" } },
+      "disney-classics": { "entry": "disney-classics.html", "height": "tall",
+        "styles": { "backgroundColor": "#7d5a9bFF", "backgroundColorDark": "#7d5a9bFF" } },
+      "disney-pixar": { "entry": "disney-pixar.html", "height": "tall",
+        "styles": { "backgroundColor": "#2c3e50FF", "backgroundColorDark": "#2c3e50FF" } }
     }
   },
   "server": {

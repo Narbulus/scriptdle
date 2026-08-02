@@ -28,6 +28,13 @@ export function StatsSection({ stats, playerBucket }) {
     const { distribution, totalPlayers, name } = subreddit;
     const maxCount = Math.max(1, ...BUCKETS.map(b => parseInt(distribution[b] || '0', 10)));
 
+    // With only a handful of players a percentage is misleading — one other
+    // player makes every bucket read 0% or 100%. Show raw counts instead until
+    // the sample is big enough for a percentage to mean anything. The chart
+    // itself always renders.
+    const LOW_DATA = 5;
+    const useCounts = totalPlayers < LOW_DATA;
+
     return (
         <div className="stats-section">
             <div className="stats-header">
@@ -51,7 +58,8 @@ export function StatsSection({ stats, playerBucket }) {
                                 />
                             </div>
                             <span className="stats-pct">
-                                {pct}%{isPlayer && <span className="stats-you">YOU</span>}
+                                {useCounts ? count : `${pct}%`}
+                                {isPlayer && <span className="stats-you">YOU</span>}
                             </span>
                         </div>
                     );
@@ -59,7 +67,11 @@ export function StatsSection({ stats, playerBucket }) {
             </div>
 
             <div className="stats-percentile">
-                Better than {playerResult.percentile}% of players
+                {useCounts
+                    ? (totalPlayers === 1
+                        ? 'You set the pace. Percentages appear once more of the sub plays.'
+                        : `Showing counts — percentages appear once ${LOW_DATA} have played.`)
+                    : `Better than ${playerResult.percentile}% of players`}
             </div>
         </div>
     );

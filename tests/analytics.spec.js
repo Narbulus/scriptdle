@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { selectScriptOption } from './helpers/script-select.js';
 
 
 test.describe('Analytics Events', () => {
@@ -205,8 +206,8 @@ test.describe('Analytics Events', () => {
             await page.waitForLoadState('networkidle');
 
             // Make a guess
-            await page.getByTestId('movie-select').selectOption({ index: 1 });
-            await page.getByTestId('char-select').selectOption({ index: 1 });
+            await selectScriptOption(page, 'movie-select', 1);
+            await selectScriptOption(page, 'char-select', 1);
             await page.getByTestId('guess-button').click();
 
             await page.waitForTimeout(500);

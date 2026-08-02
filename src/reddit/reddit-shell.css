@@ -1,0 +1,19 @@
+/* Page shell for the Devvit webview.
+   Split out of reddit-overrides.css because the splash needs these rules on the
+   first paint, while the rest of that file rides along with the lazy game
+   chunk. Keep this file small — everything in it is on the critical path. */
+
+/* ─── Prevent All Scrolling ─── */
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  background: var(--pack-bg, #f4f4f4);
+}
+
+#app {
+  height: 100vh;
+  background: var(--pack-bg, #f4f4f4);
+  display: flex;
+  flex-direction: column;
+}

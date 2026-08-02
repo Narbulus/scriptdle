@@ -9,6 +9,7 @@ import {
 } from '../../services/game-state.js';
 import { track } from '../../utils/analytics.js';
 import { TutorialTip } from '../common/Tooltip.jsx';
+import { ScriptSelect } from '../common/ScriptSelect.jsx';
 
 export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, onCharSelect, onGuessSubmit, onDiceClick, tutorialProps }) {
     // Local form state
@@ -18,16 +19,16 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
     const [isShaking, setIsShaking] = useState(false);
     const animationFrameRef = useRef(null);
 
-    // Measure marquee overflow on mount — set CSS variable + enable animation only if needed
+    // Measure marquee overflow on mount — set CSS variable + enable animation only if needed.
+    // The container persists across selections now (it is the trigger's value span,
+    // not a keyed overlay), so clear any previous state before measuring.
     const marqueeRef = (el) => {
         if (!el) return;
         const container = el.parentElement;
+        container.classList.remove('marquee-animate');
         const overflow = el.offsetWidth - container.clientWidth;
 
-        if (overflow <= 0) {
-            container.classList.add('marquee-centered');
-            return;
-        }
+        if (overflow <= 0) return;
 
         el.style.setProperty('--marquee-shift', `-${overflow}px`);
         container.classList.add('marquee-animate');
@@ -88,9 +89,9 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
         return metadata.movieTitles?.[id] || id;
     };
 
-    const handleMovieChange = (e) => {
-        stopShuffle();
-        const value = e.target.value;
+    // ScriptSelect passes the value, not an event. stopShuffle moved to onOpen,
+    // which also fires on keyboard-open — onFocus missed that case.
+    const handleMovieChange = (value) => {
         setSelectedMovie(value);
         if (!characterLocked.value) {
             setSelectedChar('');
@@ -100,9 +101,7 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
         }
     };
 
-    const handleCharChange = (e) => {
-        stopShuffle();
-        const value = e.target.value;
+    const handleCharChange = (value) => {
         setSelectedChar(value);
         if (value && onCharSelect) {
             onCharSelect();
@@ -218,9 +217,9 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
 
             // Show appropriate message
             if (isMovieCorrect && !selectedChar) {
-                showMessage('Movie is correct!', 'error');
+                showMessage('Movie is correct!', 'success');
             } else if (isCharCorrect && !selectedMovie) {
-                showMessage('Character is correct!', 'error');
+                showMessage('Character is correct!', 'success');
             } else {
                 showMessage('Incomplete guess.', 'error');
                 triggerShake();
@@ -241,10 +240,10 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
 
         // UI Feedback logic
         if (isMovieCorrect && !isCharCorrect) {
-            showMessage('Movie is correct!', 'error');
+            showMessage('Movie is correct!', 'success');
             triggerShake();
         } else if (!isMovieCorrect && isCharCorrect) {
-            showMessage('Character is correct!', 'error');
+            showMessage('Character is correct!', 'success');
             triggerShake();
         } else if (!isMovieCorrect) {
             showMessage('Incorrect.', 'error');
@@ -271,6 +270,9 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
         }
         return selectedMovie ? (metadata.charactersByMovie[selectedMovie] || []) : [];
     })();
+
+    const movieOptions = metadata.movies.map(m => ({ value: m, label: getMovieTitle(m) }));
+    const charSelectOptions = charOptions.map(c => ({ value: c, label: c }));
 
     return (
         <div id="game-controls" data-testid="game-controls">
@@ -302,27 +304,18 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
                             Choose the movie the line is from. Don't be afraid to guess!
                         </TutorialTip>
                     )}
-                    <div className={`select-wrapper ${movieLocked.value ? 'correct' : ''}`}>
-                        <select
-                            id="movie-select"
-                            data-testid="movie-select"
-                            aria-label="Select movie"
-                            value={selectedMovie}
-                            onChange={handleMovieChange}
-                            onFocus={stopShuffle}
-                            disabled={movieLocked.value}
-                        >
-                            <option value="">Which Film?</option>
-                            {metadata.movies.map(m => (
-                                <option key={m} value={m}>{getMovieTitle(m)}</option>
-                            ))}
-                        </select>
-                        {selectedMovie && (
-                            <span className="select-marquee" key={selectedMovie} aria-hidden="true">
-                                <span ref={marqueeRef}>{getMovieTitle(selectedMovie)}</span>
-                            </span>
-                        )}
-                    </div>
+                    <ScriptSelect
+                        id="movie-select"
+                        label="Which Film?"
+                        value={selectedMovie}
+                        options={movieOptions}
+                        onChange={handleMovieChange}
+                        locked={movieLocked.value}
+                        count={`${metadata.movies.length} IN PACK`}
+                        align="left"
+                        onOpen={stopShuffle}
+                        valueRef={marqueeRef}
+                    />
                 </div>
 
                 <div className="selector-with-tip">
@@ -331,27 +324,19 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
                             Now pick the character that said the line.
                         </TutorialTip>
                     )}
-                    <div className={`select-wrapper ${characterLocked.value ? 'correct' : ''}`}>
-                        <select
-                            id="char-select"
-                            data-testid="char-select"
-                            aria-label="Select character"
-                            value={selectedChar}
-                            onChange={handleCharChange}
-                            onFocus={stopShuffle}
-                            disabled={!selectedMovie || characterLocked.value}
-                        >
-                            <option value="">Who Said It?</option>
-                            {charOptions.map(c => (
-                                <option key={c} value={c}>{c}</option>
-                            ))}
-                        </select>
-                        {selectedChar && (
-                            <span className="select-marquee" key={selectedChar} aria-hidden="true">
-                                <span ref={marqueeRef}>{selectedChar}</span>
-                            </span>
-                        )}
-                    </div>
+                    <ScriptSelect
+                        id="char-select"
+                        label="Who Said It?"
+                        value={selectedChar}
+                        options={charSelectOptions}
+                        onChange={handleCharChange}
+                        disabled={!selectedMovie}
+                        locked={characterLocked.value}
+                        count={`${charSelectOptions.length} SPEAKING`}
+                        align="right"
+                        onOpen={stopShuffle}
+                        valueRef={marqueeRef}
+                    />
                 </div>
             </div>
 

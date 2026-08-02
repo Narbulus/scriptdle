@@ -11,10 +11,13 @@
  * @param {boolean} props.revealText - Whether to reveal dialogue text
  * @param {boolean} props.isTarget - Whether this is the main target line
  * @param {number} props.revealGeneration - Counter incremented on each gameplay action
+ * @param {number} props.distance - How far this line sits from the reveal front.
+ *   0 is the target line, 1 the next line up, 2+ beyond. paper.css uses it to
+ *   pick a blur tier so hidden lines recede rather than sitting behind one wall.
  */
 import { useRef, useState, useEffect } from 'preact/hooks';
 
-export function ScriptLine({ character, text, revealChar, revealText, isTarget, revealGeneration = 0 }) {
+export function ScriptLine({ character, text, revealChar, revealText, isTarget, revealGeneration = 0, distance = 0 }) {
     const prevGeneration = useRef(revealGeneration);
     const [textState, setTextState] = useState(revealText ? 'revealed' : 'hidden');
     const [charState, setCharState] = useState(revealChar ? 'revealed' : 'hidden');
@@ -103,7 +106,7 @@ export function ScriptLine({ character, text, revealChar, revealText, isTarget, 
     };
 
     return (
-        <div className={`script-line ${isTarget ? '' : 'context-line'}`}>
+        <div className={`script-line ${isTarget ? '' : 'context-line'}`} data-distance={distance}>
             {renderCharacter()}
             {renderText()}
         </div>

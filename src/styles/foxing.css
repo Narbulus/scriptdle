@@ -1,0 +1,75 @@
+/* ========================================
+   Foxing — shared paper texture
+   One definition used by the script page AND the splash card, so the
+   two never drift. Add class="foxed" to any element that should read
+   as aged paper; it supplies its own base colour via --script-bg.
+
+   Deliberately NOT a repeating dot field: a pattern tiling at small
+   pitch is what reads as photocopier noise. The smallest features here
+   are five hand-placed 1-2px specks; the largest are 30-60% of the
+   element, so there is no grid for the eye to resolve.
+   ======================================== */
+
+.foxed {
+    position: relative;
+    isolation: isolate;
+}
+
+/* Broad tonal blooms + a handful of foxing specks */
+.foxed::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    border-radius: inherit;
+    background-image:
+        radial-gradient(38% 26% at 14% 8%, rgba(168, 124, 58, 0.18), transparent 68%),
+        radial-gradient(30% 22% at 88% 22%, rgba(158, 114, 50, 0.15), transparent 70%),
+        radial-gradient(44% 30% at 72% 88%, rgba(172, 130, 64, 0.16), transparent 70%),
+        radial-gradient(26% 20% at 30% 62%, rgba(150, 108, 46, 0.10), transparent 72%),
+        radial-gradient(circle 1.5px at 22% 34%, rgba(126, 86, 34, 0.30), transparent 100%),
+        radial-gradient(circle 1px at 61% 18%, rgba(126, 86, 34, 0.26), transparent 100%),
+        radial-gradient(circle 2px at 78% 66%, rgba(126, 86, 34, 0.22), transparent 100%),
+        radial-gradient(circle 1px at 38% 82%, rgba(126, 86, 34, 0.28), transparent 100%),
+        radial-gradient(circle 1.5px at 88% 44%, rgba(126, 86, 34, 0.20), transparent 100%);
+}
+
+/* Handled edges. Applied via box-shadow on the element so the second
+   pseudo-element stays free — the splash card already uses ::after
+   for its light sweep. */
+.foxed {
+    box-shadow:
+        inset 0 0 34px rgba(120, 80, 26, 0.20),
+        inset 0 0 90px rgba(140, 98, 40, 0.12);
+}
+
+/* Content sits above the wash. Static children would otherwise paint
+   below a positioned ::before. */
+.foxed > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* Ink absorption — type sits IN the sheet rather than on it */
+.foxed {
+    --foxed-ink-shadow: 0 0 0.6px rgba(74, 44, 12, 0.35);
+}
+
+/* Opt-out switch. Note --script-bg is a GLOBAL (#faebd7 in variables.css),
+   not a pack variable: pack themes only set --pack-*, so every pack shares
+   one sheet and the warm blooms are always on antique paper. This hatch is
+   therefore for a reduced-clutter setting, not for cool-toned packs. If you
+   ever wire the paper to --pack-surface, revisit: LOTR's containerBg
+   (#f5f0e8) is a cool near-white and the blooms would read as staining. */
+.foxed[data-flat]::before {
+    display: none;
+}
+
+.foxed[data-flat] {
+    box-shadow: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    /* nothing animated here — texture is static by design */
+}

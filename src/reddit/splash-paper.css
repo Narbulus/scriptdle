@@ -1,0 +1,156 @@
+/* ========================================
+   Splash — paper consistency with the game board
+   Layer AFTER splash.css. Requires styles/foxing.css and the
+   `foxed` class on .splash-script-card (see HANDOFF-paper.md).
+   ======================================== */
+
+/* The splash card and the script page are the same sheet of paper.
+   splash.css draws a single 24px rule line and a flat --script-bg;
+   this replaces that with the same stock the board uses. */
+
+.splash-script-card {
+    /* Drop the 24px rule grid — it reads as a table border and fights
+       the foxing. No margin rule either; the texture is enough. */
+    background: var(--script-bg);
+    border-color: color-mix(in srgb, var(--script-text-primary) 22%, transparent);
+    box-shadow:
+        var(--shadow-md),
+        inset 0 0 34px rgba(120, 80, 26, 0.20),
+        inset 0 0 90px rgba(140, 98, 40, 0.12);
+}
+
+/* No rule lines at all — the texture carries the paper on its own */
+.splash-script-card::before {
+    background-image:
+        radial-gradient(38% 26% at 14% 8%, rgba(168, 124, 58, 0.18), transparent 68%),
+        radial-gradient(30% 22% at 88% 22%, rgba(158, 114, 50, 0.15), transparent 70%),
+        radial-gradient(44% 30% at 72% 88%, rgba(172, 130, 64, 0.16), transparent 70%),
+        radial-gradient(26% 20% at 30% 62%, rgba(150, 108, 46, 0.10), transparent 72%),
+        radial-gradient(circle 1.5px at 22% 34%, rgba(126, 86, 34, 0.30), transparent 100%),
+        radial-gradient(circle 1px at 61% 18%, rgba(126, 86, 34, 0.26), transparent 100%),
+        radial-gradient(circle 2px at 78% 66%, rgba(126, 86, 34, 0.22), transparent 100%),
+        radial-gradient(circle 1px at 38% 82%, rgba(126, 86, 34, 0.28), transparent 100%),
+        radial-gradient(circle 1.5px at 88% 44%, rgba(126, 86, 34, 0.20), transparent 100%);
+}
+
+/* Quote picks up the board's ink treatment */
+.splash-quote {
+    text-shadow: 0 0 0.6px rgba(74, 44, 12, 0.35);
+}
+
+/* ---- Erasing the handwritten guess ------------------------------
+   splash.css wiped the guess away by sweeping an opaque --script-bg
+   gradient across it. That was invisible against flat cream stock, but the
+   card is foxed now — blooms, specks and darkened edges — so a flat panel
+   sliding over the texture reads as a cream box moving across the paper.
+
+   Nothing should be painted over the sheet. The ink is clipped away
+   instead, right-to-left to keep the original direction, which cannot
+   mismatch the paper because the paper is never covered. */
+
+.splash-guess-area::after {
+    display: none;
+}
+
+.splash-guess-area.is-erasing .splash-handwritten-guess {
+    animation: splash-guess-unwrite 850ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes splash-guess-unwrite {
+    from { clip-path: inset(0); opacity: 1; }
+    to { clip-path: inset(0 100% 0 0); opacity: 0.65; }
+}
+
+/* The light sweep was reading as a glossy screen wipe. Softened and
+   slowed so it plays as light moving across a physical sheet. */
+.splash-script-card::after {
+    background: linear-gradient(90deg,
+        transparent,
+        rgba(255, 250, 235, 0.16),
+        transparent);
+    animation-duration: 7.2s;
+    /* Pinned; the sweep now travels on the compositor — see below. */
+    left: -48%;
+    will-change: transform;
+}
+
+/* ---- Paint cost ------------------------------------------------
+   The card carries the foxing texture (nine gradients) and floats on an
+   infinite animation, so anything that forces it to repaint re-rasterises
+   that texture every frame — with several of these embeds in a feed that
+   is what makes scrolling drag.
+
+   1. splash-paper-scan animated `left`, which is a layout property: every
+      frame relaid out and repainted the whole card. Re-expressed as a
+      transform so it runs on the compositor instead. The element is 34%
+      of the card wide and travelled from -48% to 118% of the card — 166%
+      of the card, which is 488% of the element's own width. */
+@keyframes splash-paper-scan {
+    0%, 18% { transform: translateX(0) skewX(-16deg); opacity: 0; }
+    30% { opacity: 1; }
+    72% { opacity: 0.65; }
+    86%, 100% { transform: translateX(488%) skewX(-16deg); opacity: 0; }
+}
+
+/* 2. splash-word-focus animated text-shadow on every word of the quote —
+      up to 22 spans, each repainting continuously on its own offset delay.
+      Opacity alone reads the same and composites. */
+@keyframes splash-word-focus {
+    0%, 100% { opacity: 0.78; }
+    18%, 42% { opacity: 1; }
+    62% { opacity: 0.76; }
+}
+
+/* 3. Give the floating card its own layer so the texture rasterises once
+      rather than on every frame of the float, and stop its repaints from
+      invalidating anything outside it. */
+.splash-script-card {
+    will-change: transform;
+    contain: paint;
+}
+
+/* ---- Entrance --------------------------------------------------
+   With the loading overlay reduced to a bare themed background, this is the
+   only thing that plays on arrival, so it wants to be quick rather than
+   leisurely — it is now covering the hand-off, not decorating it. */
+.splash-content {
+    animation-duration: 380ms;
+}
+
+/* Decorative loops are not worth any of this when the reader has asked for
+   less motion — and it drops the embed to near-zero idle cost. */
+@media (prefers-reduced-motion: reduce) {
+    .reddit-splash::after,
+    .splash-light,
+    .splash-script-card,
+    .splash-script-card::after,
+    .splash-quote-word,
+    .splash-start-button {
+        animation: none !important;
+    }
+
+    /* The entrance still runs, but as a plain fade with no travel */
+    .splash-content {
+        animation-duration: 200ms;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    @keyframes splash-content-enter {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+}
+
+/* Sprocket edges: keep them, but tie them to the paper rather than
+   the ink colour so they read as the sheet's own perforation. */
+.splash-paper-edge {
+    opacity: 0.22;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .splash-script-card,
+    .splash-script-card::after {
+        animation: none;
+    }
+}

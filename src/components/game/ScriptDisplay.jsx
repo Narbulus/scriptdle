@@ -176,6 +176,7 @@ export function ScriptDisplay({ puzzle }) {
                     revealText={revealContext1Text.value}
                     isTarget={false}
                     revealGeneration={revealGeneration.value}
+                    distance={1}
                 />
             )}
 
@@ -188,6 +189,7 @@ export function ScriptDisplay({ puzzle }) {
                         revealText={revealContext2Text.value}
                         isTarget={false}
                         revealGeneration={revealGeneration.value}
+                        distance={2}
                     />
                 </div>
             )}
@@ -197,7 +199,7 @@ export function ScriptDisplay({ puzzle }) {
 
     if (isCompactPlatform()) {
         return (
-            <div className={`script-area playing-${currentAttempt.value}`} data-theme="script" data-testid="script-area">
+            <div className={`script-area foxed playing-${currentAttempt.value}`} data-theme="script" data-testid="script-area">
                 <div className="script-scroll-wrapper">
                     <div className="script-scroll-inner" ref={scrollRef}>
                         <div className="script-content">
@@ -211,7 +213,7 @@ export function ScriptDisplay({ puzzle }) {
     }
 
     return (
-        <div className={`script-area playing-${currentAttempt.value}`} data-theme="script" data-testid="script-area">
+        <div className={`script-area foxed playing-${currentAttempt.value}`} data-theme="script" data-testid="script-area">
             <div className="script-content">
                 {scriptContent}
             </div>
