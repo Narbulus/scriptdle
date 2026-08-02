@@ -1,0 +1,146 @@
+/* ========================================
+   Paper — material, page treatment, blur reveal
+   Layer this AFTER game.css. Nothing here is pack-specific.
+   The sheet colour is --script-bg, which is a global (#faebd7) rather
+   than a pack variable — packs only set --pack-*. One sheet app-wide.
+   ======================================== */
+
+/* ---- 1. The page is an object, not a background ----------------
+   8px of desk on each side (~96% width, so reading room is intact),
+   a real cast shadow, and the dark board showing behind it.
+
+   The handoff wrote this against `.script-container`, which this repo
+   does not have — `.script-area` is the equivalent element: it carries
+   --script-bg, it does not scroll (the scroll port is nested inside),
+   and it is where `foxed` goes. Texture comes from styles/foxing.css;
+   the edge darkening below is foxing's inset shadow, restated here so
+   the cast shadow can be added without clobbering it. */
+
+.script-area.foxed {
+    margin: 0 8px;
+    border-radius: 2px;
+    background-color: var(--script-bg, #f0e2c4);
+    box-shadow:
+        0 10px 24px rgba(0, 0, 0, 0.45),
+        0 1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 34px rgba(120, 80, 26, 0.20),
+        inset 0 0 90px rgba(140, 98, 40, 0.12);
+}
+
+.script-area[data-flat].foxed {
+    box-shadow:
+        0 10px 24px rgba(0, 0, 0, 0.45),
+        0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.script-line {
+    position: relative;
+    z-index: 1;
+}
+
+/* Faint ink absorption — the type sits IN the paper, not on it */
+.dialogue-text,
+.character-name {
+    text-shadow: 0 0 0.6px rgba(74, 44, 12, 0.35);
+}
+
+/* ---- 3. Blur reveal, replacing the block masks ------------------
+   The real text is already in the DOM (ScriptLine keeps it there),
+   so blurring it instead of covering it costs nothing and leaks
+   exactly the useful information: that a scene continues, and
+   roughly how long each line runs.
+
+   Two tiers so the ladder has a horizon rather than a wall:
+   the next line to be revealed is legibly close, everything past
+   it recedes. Tier is set from the line's distance in ScriptDisplay
+   (see handoff note) via --blur-tier; default is the far tier. */
+
+.text-reveal[data-state="hidden"] {
+    /* override game.css's solid mask */
+    background-color: transparent;
+    user-select: none;
+}
+
+.text-reveal[data-state="hidden"] .text-content {
+    color: var(--text-color, #17130d);
+    filter: blur(var(--blur-tier, 6.5px));
+    opacity: var(--blur-opacity, 0.3);
+    transition:
+        filter 0.42s cubic-bezier(0.22, 0.61, 0.36, 1),
+        opacity 0.42s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* Next line up — close enough to tease */
+.script-line[data-distance="1"] .text-reveal[data-state="hidden"] .text-content {
+    --blur-tier: 4.5px;
+    --blur-opacity: 0.42;
+}
+
+/* Revealing + revealed: same transition, so the blur eases off
+   rather than snapping. Replaces the disabled wipe animation. */
+.text-reveal[data-state="wiping"] .text-content,
+.text-reveal[data-state="revealed"] .text-content {
+    color: var(--text-color, #17130d);
+    filter: blur(0);
+    opacity: 1;
+    transition:
+        filter 0.42s cubic-bezier(0.22, 0.61, 0.36, 1),
+        opacity 0.42s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* The unknown speaker stays a hard block — it is the answer, not a
+   teaser, and blurring it would leak name length. */
+.character-placeholder {
+    letter-spacing: 0.2em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .text-reveal .text-content {
+        transition-duration: 0.01ms;
+    }
+}
+
+/* ---- 4. Brass, not a gold swatch --------------------------------
+   One flat --primary-color on every surface is the main reason the
+   chrome reads flat. A lighter top edge and darker bottom edge give
+   the same hue an implied light source. */
+
+#guess-btn,
+.dice-button {
+    background: linear-gradient(
+        color-mix(in srgb, var(--primary-color) 88%, white),
+        color-mix(in srgb, var(--primary-color) 88%, black)
+    );
+    border: none;
+    box-shadow:
+        inset 0 1px 0 rgba(255, 240, 200, 0.55),
+        inset 0 -2px 0 rgba(90, 60, 0, 0.35),
+        0 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+#guess-btn:active:not(:disabled),
+.dice-button:active:not(:disabled) {
+    box-shadow:
+        inset 0 2px 4px rgba(90, 60, 0, 0.4),
+        0 1px 2px rgba(0, 0, 0, 0.3);
+    transform: translateY(1px);
+}
+
+/* Guess button fills the row beside the dice instead of floating
+   centred with dead space either side. The handoff targeted
+   `.footer-actions`, but that is the column wrapper here — the row
+   holding the guess button and the dice is `.button-row`. */
+.footer-actions {
+    width: 100%;
+    max-width: 600px;
+}
+
+.button-row {
+    display: flex;
+    width: 100%;
+}
+
+.button-row #guess-btn {
+    flex: 1;
+    max-width: none;
+}

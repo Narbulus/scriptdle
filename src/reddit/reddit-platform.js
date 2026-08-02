@@ -1,4 +1,25 @@
-import { showToast } from '@devvit/client';
+/**
+ * `showToast` is the only thing this file wants from @devvit/client, and that
+ * package pulls in @devvit/protos + protobufjs + long — around 250kB of source,
+ * which was the bulk of the boot chunk. It is not needed until someone finishes
+ * a game and shares, so it loads on its own.
+ */
+let devvitClient = null;
+
+/** Fetch the chunk ahead of time so the toast is not late to its own message. */
+export function prewarmToast() {
+    devvitClient = devvitClient || import('@devvit/client').catch(() => null);
+    return devvitClient;
+}
+
+async function toast(text) {
+    const mod = await prewarmToast();
+    try {
+        mod?.showToast({ text, appearance: 'success' });
+    } catch {
+        // Toasts are unavailable when previewing outside Devvit.
+    }
+}
 
 async function postJson(path, body) {
     const response = await fetch(path, {
@@ -18,11 +39,7 @@ export function createRedditPlatform() {
         postJson,
 
         async shareResults({ emojiText, packName }) {
-            try {
-                showToast({ text: 'Creating your comment...', appearance: 'success' });
-            } catch {
-                // Toasts are unavailable when previewing outside Devvit.
-            }
+            toast('Creating your comment...');
 
             await postJson('/api/share', { shareText: emojiText, packName });
             return 'commented';

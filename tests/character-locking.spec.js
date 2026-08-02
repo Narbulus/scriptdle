@@ -38,9 +38,9 @@ test.describe('Character Locking', () => {
         const charSelect = page.getByTestId('char-select');
         await expect(charSelect).toBeDisabled();
 
-        // Check for .correct class on the wrapper
-        const charWrapper = page.locator('.select-wrapper').nth(1);
-        await expect(charWrapper).toHaveClass(/correct/);
+        // Check for the locked state on the selector
+        const charWrapper = page.locator('.script-select').nth(1);
+        await expect(charWrapper).toHaveClass(/is-locked/);
     });
 
     test('character lock persists across page reload', async ({ page }) => {
@@ -75,8 +75,8 @@ test.describe('Character Locking', () => {
 
         // Character should still be locked
         await expect(page.getByTestId('char-select')).toBeDisabled();
-        const charWrapper = page.locator('.select-wrapper').nth(1);
-        await expect(charWrapper).toHaveClass(/correct/);
+        const charWrapper = page.locator('.script-select').nth(1);
+        await expect(charWrapper).toHaveClass(/is-locked/);
     });
 
     test('both movie and character can be locked independently', async ({ page }) => {
@@ -107,11 +107,11 @@ test.describe('Character Locking', () => {
         await expect(page.getByTestId('movie-select')).toBeDisabled();
         await expect(page.getByTestId('char-select')).toBeDisabled();
 
-        // Both should have .correct class
-        const movieWrapper = page.locator('.select-wrapper').nth(0);
-        const charWrapper = page.locator('.select-wrapper').nth(1);
-        await expect(movieWrapper).toHaveClass(/correct/);
-        await expect(charWrapper).toHaveClass(/correct/);
+        // Both should show the locked state
+        const movieWrapper = page.locator('.script-select').nth(0);
+        const charWrapper = page.locator('.script-select').nth(1);
+        await expect(movieWrapper).toHaveClass(/is-locked/);
+        await expect(charWrapper).toHaveClass(/is-locked/);
     });
 
     test('character locked on first attempt, movie on second, win on third', async ({ page }) => {

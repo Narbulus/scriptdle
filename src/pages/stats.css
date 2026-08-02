@@ -28,49 +28,6 @@
     letter-spacing: 0.05em;
 }
 
-/* Inventory Tooltip (inline, spans full grid row, above the selected row) */
-.inventory-tooltip {
-    grid-column: 1 / -1;
-    position: relative;
-    margin: 0.25rem 0 0;
-}
-
-.inventory-tooltip-body {
-    background: color-mix(in srgb, var(--primary-color) 15%, transparent);
-    border-radius: var(--radius-md, 6px);
-    padding: 0.5rem 0.75rem;
-    text-align: center;
-}
-
-.inventory-tooltip-caret {
-    /* Center caret under the selected column */
-    margin-left: calc(var(--tooltip-col) * (100% / 3) + (100% / 6) - 6px);
-    width: 0;
-    height: 0;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
-    border-top: 6px solid color-mix(in srgb, var(--primary-color) 15%, transparent);
-}
-
-.inventory-tooltip-line1 {
-    font-size: 0.85rem;
-    font-weight: bold;
-    color: var(--primary-color);
-}
-
-.inventory-tooltip-date {
-    font-weight: normal;
-    opacity: 0.7;
-    font-size: 0.8rem;
-}
-
-.inventory-tooltip-line2 {
-    font-size: 0.75rem;
-    color: var(--primary-color);
-    opacity: 0.8;
-    margin-top: 0.1rem;
-}
-
 /* Inventory Grid */
 .inventory-grid {
     display: grid;

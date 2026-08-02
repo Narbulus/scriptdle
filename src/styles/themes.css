@@ -133,10 +133,6 @@
     background: var(--script-bg);
 }
 
-[data-theme="script"] .script-line:nth-child(even)::before {
-    background: var(--script-surface-alt);
-}
-
 [data-theme="script"] .character-name {
     color: #000000;
     font-weight: 600;

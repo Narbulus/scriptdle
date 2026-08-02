@@ -56,7 +56,7 @@
       "manifest": {
         "packId": "star-wars",
         "packName": "Star Wars",
-        "generatedAt": "2026-07-26T13:14:45.745604",
+        "generatedAt": "2026-07-27T18:07:09.024478",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -253,7 +253,7 @@
       "manifest": {
         "packId": "harry-potter",
         "packName": "Harry Potter",
-        "generatedAt": "2026-07-26T13:14:41.266737",
+        "generatedAt": "2026-07-27T18:07:07.243603",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -513,7 +513,7 @@
       "manifest": {
         "packId": "the-lord-of-the-rings",
         "packName": "The Lord of the Rings",
-        "generatedAt": "2026-07-26T13:14:45.182644",
+        "generatedAt": "2026-07-27T18:07:08.640877",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -643,7 +643,7 @@
       "manifest": {
         "packId": "shrek",
         "packName": "Shrek",
-        "generatedAt": "2026-07-26T13:14:47.121564",
+        "generatedAt": "2026-07-27T18:07:09.665228",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -781,7 +781,7 @@
       "manifest": {
         "packId": "bttf-trilogy",
         "packName": "Back to the Future",
-        "generatedAt": "2026-07-26T13:14:41.984306",
+        "generatedAt": "2026-07-27T18:07:07.526551",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -896,7 +896,7 @@
       "manifest": {
         "packId": "pixar-classics",
         "packName": "Pixar Classics",
-        "generatedAt": "2026-07-26T13:14:47.613508",
+        "generatedAt": "2026-07-27T18:07:10.081285",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -1130,7 +1130,7 @@
       "manifest": {
         "packId": "disney-classics",
         "packName": "Disney Classics",
-        "generatedAt": "2026-07-26T13:14:43.138520",
+        "generatedAt": "2026-07-27T18:07:07.921714",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -1351,7 +1351,7 @@
       "manifest": {
         "packId": "disney-pixar",
         "packName": "Disney Pixar",
-        "generatedAt": "2026-07-26T13:14:46.501783",
+        "generatedAt": "2026-07-27T18:07:09.380945",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -1557,7 +1557,7 @@
       "manifest": {
         "packId": "marvel",
         "packName": "Marvel",
-        "generatedAt": "2026-07-26T13:14:44.392877",
+        "generatedAt": "2026-07-27T18:07:08.333131",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -1816,5 +1816,5 @@
       }
     }
   ],
-  "generatedAt": "2026-07-26T17:12:04.773Z"
+  "generatedAt": "2026-07-27T22:07:06.518Z"
 }

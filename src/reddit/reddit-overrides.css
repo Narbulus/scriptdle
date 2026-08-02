@@ -48,20 +48,8 @@
   white-space: nowrap;
 }
 
-/* ─── Prevent All Scrolling ─── */
-html,
-body {
-  height: 100%;
-  overflow: hidden;
-  background: var(--pack-bg, #f4f4f4);
-}
-
-#app {
-  height: 100vh;
-  background: var(--pack-bg, #f4f4f4);
-  display: flex;
-  flex-direction: column;
-}
+/* html/body/#app live in reddit-shell.css — the splash needs them before this
+   file is loaded, and this file only arrives with the lazy game chunk. */
 
 #game-area {
   height: 100vh;
@@ -84,7 +72,12 @@ body {
 .script-area {
   position: relative;
   flex: 1;
-  min-height: 0;
+  /* The scroll/collapse toggle lives inside this element, which clips its
+     overflow. When the completion drawer expands it squeezed the script area
+     down until that button was cut in half — leaving no way to shrink the
+     drawer again and re-read the quote. Reserve the button's height (24px
+     plus its 4px offsets) so the handle is always fully hittable. */
+  min-height: 34px;
   overflow: hidden;
   transition: none;
   box-shadow:
@@ -299,32 +292,11 @@ body {
   opacity: 1;
 }
 
-/* Collection/Stats modal inventory styling */
+/* Collection/Stats modal inventory styling.
+   Tile surfaces are now the specimen-sheet treatment in pages/collection.css;
+   the pack-tinted overrides that used to live here fought it. */
 .inventory-grid {
   background: transparent !important;
-}
-
-.inventory-item {
-  background: color-mix(in srgb, var(--pack-primary) 10%, transparent) !important;
-  border: 2px solid color-mix(in srgb, var(--pack-primary) 20%, transparent) !important;
-}
-
-.inventory-item.selected {
-  border-color: var(--pack-primary) !important;
-  box-shadow: 0 0 12px color-mix(in srgb, var(--pack-primary) 40%, transparent) !important;
-}
-
-.inventory-item.empty {
-  border: 2px dashed color-mix(in srgb, var(--pack-primary) 25%, transparent) !important;
-  background: color-mix(in srgb, var(--pack-primary) 5%, transparent) !important;
-}
-
-.inventory-tooltip-body {
-  background: color-mix(in srgb, var(--pack-primary) 15%, transparent) !important;
-}
-
-.inventory-tooltip-caret {
-  border-top-color: color-mix(in srgb, var(--pack-primary) 15%, transparent) !important;
 }
 
 /* ─── Collection Modal: no scroll, paginated ─── */
@@ -342,10 +314,6 @@ body {
 @media (min-width: 500px) {
   .inventory-grid {
     grid-template-columns: repeat(4, 1fr) !important;
-  }
-
-  .inventory-tooltip-caret {
-    margin-left: calc(var(--tooltip-col) * 25% + 12.5% - 6px);
   }
 }
 

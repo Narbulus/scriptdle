@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { selectScriptOption } from './helpers/script-select.js';
 
 
 test.describe('Game Play', () => {
@@ -85,7 +86,7 @@ test.describe('Game Play', () => {
             await expect(page.getByTestId('char-select')).toBeDisabled();
 
             // Select a movie
-            await page.getByTestId('movie-select').selectOption({ index: 1 });
+            await selectScriptOption(page, 'movie-select', 1);
 
             // Character selector should now be enabled
             await expect(page.getByTestId('char-select')).toBeEnabled();
@@ -99,8 +100,8 @@ test.describe('Game Play', () => {
             await expect(page.getByTestId('guess-button')).toBeVisible({ timeout: 10000 });
 
             // Select first movie and character options
-            await page.getByTestId('movie-select').selectOption({ index: 1 });
-            await page.getByTestId('char-select').selectOption({ index: 1 });
+            await selectScriptOption(page, 'movie-select', 1);
+            await selectScriptOption(page, 'char-select', 1);
             await page.getByTestId('guess-button').click();
 
             // Wait for response

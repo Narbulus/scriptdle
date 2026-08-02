@@ -16,12 +16,8 @@ function main() {
   // Bundle packs-full.json (contains theme data)
   fs.mkdirSync(WEBROOT, { recursive: true });
 
-  // Copy favicon to webroot
-  const faviconSrc = path.resolve(__dirname, '../favicon.png');
-  if (fs.existsSync(faviconSrc)) {
-    fs.copyFileSync(faviconSrc, path.join(WEBROOT_ROOT, 'favicon.png'));
-    console.log('  Bundled favicon.png');
-  }
+  // No favicon: a Reddit post embed has no tab to show one in, and the 367kB
+  // PNG was competing with the puzzle data for bandwidth on the way in.
   const packsSrc = path.join(LOCAL_DATA, 'packs-full.json');
   if (fs.existsSync(packsSrc)) {
     fs.copyFileSync(packsSrc, path.join(WEBROOT, 'packs-full.json'));
@@ -48,26 +44,66 @@ function main() {
 
   console.log(`Bundled packs + ${files.length} days of puzzle data into webroot.`);
 
-  // Generate per-pack HTML files whose bootstrap splash matches the pack theme.
   const indexHtml = path.join(WEBROOT_ROOT, 'index.html');
   if (fs.existsSync(indexHtml) && fs.existsSync(packsSrc)) {
-    const html = fs.readFileSync(indexHtml, 'utf-8');
     const packsData = JSON.parse(fs.readFileSync(packsSrc, 'utf-8'));
-    const packs = packsData.packs || [];
-    let count = 0;
+    const html = inlineEntryCss(fs.readFileSync(indexHtml, 'utf-8'));
 
-    for (const pack of packs) {
+    // The shared `default` entrypoint has no pack of its own, so it keeps the
+    // null placeholder and falls back to fetching packs-full.json.
+    fs.writeFileSync(indexHtml, html);
+
+    // Per-pack entrypoints get their theme and their pack data baked in, so a
+    // themed first paint and a complete splash need no extra request at all.
+    let count = 0;
+    for (const pack of packsData.packs || []) {
       if (!pack.id || !pack.theme?.bgColor) continue;
       const themed = html
         .replace('--loading-bg: #1a1a1a', `--loading-bg: ${pack.theme.bgColor}`)
         .replace('--loading-primary: #ffffff', `--loading-primary: ${pack.theme.primary || '#ffffff'}`)
-        .replace('--loading-text: #ffffff', `--loading-text: ${pack.theme.primary || '#ffffff'}`);
+        .replace('--loading-text: #ffffff', `--loading-text: ${pack.theme.primary || '#ffffff'}`)
+        .replace(PACK_PLACEHOLDER, `window.__SCRIPTLE_PACK__ = ${toScriptJson(pack)};`);
       fs.writeFileSync(path.join(WEBROOT_ROOT, `${pack.id}.html`), themed);
       count++;
     }
 
-    console.log(`Generated ${count} per-pack themed HTML files.`);
+    console.log(`Generated ${count} per-pack themed HTML files (pack data inlined).`);
   }
+}
+
+const PACK_PLACEHOLDER = 'window.__SCRIPTLE_PACK__ = null;/*__SCRIPTLE_PACK__*/';
+
+/** JSON safe to drop inside a <script> block. */
+function toScriptJson(value) {
+  return JSON.stringify(value).replace(/</g, '\\u003c');
+}
+
+/**
+ * Fold the entry stylesheet into the document.
+ *
+ * Vite injects it as a plain <link>, which is render-blocking: it held first
+ * paint at ~1s on a throttled connection even though the themed loading
+ * background is inline and was ready in ~170ms. It is only ~22kB now that the
+ * game's stylesheets ship with the lazy GameShell chunk, so inlining it costs
+ * one small document and buys a paint with zero blocking requests.
+ */
+function inlineEntryCss(html) {
+  const link = html.match(/\s*<link rel="stylesheet"[^>]*href="\/assets\/([^"]+\.css)"[^>]*>/);
+  if (!link) {
+    console.warn('  No entry stylesheet link found — leaving HTML alone');
+    return html;
+  }
+
+  const cssPath = path.join(WEBROOT_ROOT, 'assets', link[1]);
+  if (!fs.existsSync(cssPath)) {
+    console.warn(`  ${link[1]} missing — leaving the <link> in place`);
+    return html;
+  }
+
+  const css = fs.readFileSync(cssPath, 'utf-8').replace(/<\/style/gi, '<\\/style');
+  console.log(`  Inlined ${link[1]} (${Math.round(css.length / 1024)}kB) — no render-blocking CSS`);
+  fs.rmSync(cssPath);
+  return html.replace(link[0], `\n  <style>${css}</style>`);
 }
 
 main();
