@@ -1,16 +1,17 @@
 import { useEffect } from 'preact/hooks';
 
 export function Modal({ isOpen, onClose, title, children, theme = "main", className = "", containerClassName = "", id }) {
-    if (!isOpen) return null;
-
     // Close on Escape
     useEffect(() => {
+        if (!isOpen) return undefined;
         const handleEsc = (e) => {
             if (e.key === 'Escape') onClose();
         };
         document.addEventListener('keydown', handleEsc);
         return () => document.removeEventListener('keydown', handleEsc);
-    }, [onClose]);
+    }, [isOpen, onClose]);
+
+    if (!isOpen) return null;
 
     return (
         <div

@@ -1,6 +1,7 @@
 {
   "featured": [
     "star-wars",
+    "the-office",
     "harry-potter",
     "marvel",
     "pixar-classics",
@@ -17,6 +18,13 @@
         "the-lord-of-the-rings",
         "bttf-trilogy",
         "marvel"
+      ]
+    },
+    {
+      "id": "tv",
+      "name": "TV Shows",
+      "packs": [
+        "the-office"
       ]
     },
     {
@@ -75,6 +83,12 @@
       "id": "marvel",
       "name": "Marvel",
       "movieCount": 11
+    },
+    {
+      "id": "the-office",
+      "name": "The Office",
+      "movieCount": 9,
+      "mediaType": "seasons"
     }
   ]
 }

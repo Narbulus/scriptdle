@@ -1,0 +1,35 @@
+{
+  "id": "the-office",
+  "name": "The Office",
+  "type": "series",
+  "mediaType": "seasons",
+  "movies": [
+    "the-office-s01",
+    "the-office-s02",
+    "the-office-s03",
+    "the-office-s04",
+    "the-office-s05",
+    "the-office-s06",
+    "the-office-s07",
+    "the-office-s08",
+    "the-office-s09"
+  ],
+  "theme": {
+    "primary": "#f2c94c",
+    "bgColor": "#102236",
+    "containerBg": "#f7f3ea",
+    "accentColor": "#3b6ea5",
+    "btnText": "#102236",
+    "cardGradientStart": "#102236",
+    "cardGradientEnd": "#1e3a5f",
+    "cardBorder": "#f2c94c",
+    "cardText": "#f2c94c"
+  },
+  "tierMessages": {
+    "perfect": "World's Best Boss!",
+    "good": "Assistant Regional Manager!",
+    "average": "Assistant to the Regional Manager",
+    "barely": "Dundie Honorable Mention",
+    "failure": "That's what she said... not."
+  }
+}

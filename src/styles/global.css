@@ -213,16 +213,12 @@ body[data-route="play"] #game-area {
 /* Modal Styles */
 .modal-overlay {
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.45) !important;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65) !important;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1000;
-    animation: fadeIn 0.2s ease-in;
+    z-index: 2000;
 }
 
 .modal-container {
@@ -233,8 +229,8 @@ body[data-route="play"] #game-area {
     width: 90%;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
-    animation: slideUp 0.25s ease-out;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.55);
+    animation: slideUp 0.16s ease-out;
     overflow: hidden;
 }
 

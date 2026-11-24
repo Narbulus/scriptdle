@@ -153,17 +153,17 @@ export function Game({ dailyPuzzle, manifest, packData }) {
                         tutorialProps={tutorialProps}
                     />
                 )}
-
-                <MoviesModal
-                    isOpen={moviesModalOpen}
-                    onClose={() => setMoviesModalOpen(false)}
-                    packName={pack.name}
-                    movies={metadata.movies}
-                    movieTitles={metadata.movieTitles}
-                    movieYears={metadata.movieYears}
-                    moviePosters={metadata.moviePosters}
-                />
             </div>
+
+            <MoviesModal
+                isOpen={moviesModalOpen}
+                onClose={() => setMoviesModalOpen(false)}
+                packName={pack.name}
+                movies={metadata.movies}
+                movieTitles={metadata.movieTitles}
+                movieYears={metadata.movieYears}
+                moviePosters={metadata.moviePosters}
+            />
 
             {(import.meta.env.DEV || import.meta.env.VITE_DEBUG_MENU) && <DebugMenu />}
         </div>

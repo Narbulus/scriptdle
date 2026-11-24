@@ -745,20 +745,28 @@ def extract_film(
 
         parts: List[dict] = []
         slice_dur = max(0.0, win.end - win.start)
+        win_mode = mode
         if mode == "audio":
             assert audio_path is not None
             raw = slice_audio_mp3(audio_path, win.start, win.end, dest=None)
-            parts.append({"inlineData": {"mimeType": "audio/mpeg", "data": base64.b64encode(raw).decode()}})
-            w_usage.audio_seconds += slice_dur
+            if len(raw) >= 1024:
+                parts.append({"inlineData": {"mimeType": "audio/mpeg", "data": base64.b64encode(raw).decode()}})
+                w_usage.audio_seconds += slice_dur
+            else:
+                # Subtitle timestamps extended past audio end (e.g. split 2-part TV episode)
+                win_mode = "text"
         elif mode == "video":
             assert video_path is not None
             slice_path = (cache_dir or video_path.parent / "slices") / f"win_{win.window_index:03d}.mp4"
             raw = slice_video_mp4(video_path, win.start, win.end, slice_path)
-            parts.append({"inlineData": {"mimeType": "video/mp4", "data": base64.b64encode(raw).decode()}})
-            w_usage.video_seconds += slice_dur
-            w_usage.audio_seconds += slice_dur
+            if len(raw) >= 1024:
+                parts.append({"inlineData": {"mimeType": "video/mp4", "data": base64.b64encode(raw).decode()}})
+                w_usage.video_seconds += slice_dur
+                w_usage.audio_seconds += slice_dur
+            else:
+                win_mode = "text"
 
-        prompt = build_attribution_prompt(win, meta, mode=mode, strip_sdh=strip_sdh)
+        prompt = build_attribution_prompt(win, meta, mode=win_mode, strip_sdh=strip_sdh)
         parts.append({"text": prompt})
 
         parsed = {}

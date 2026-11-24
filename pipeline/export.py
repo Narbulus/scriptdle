@@ -83,12 +83,15 @@ def normalize_character(name: str) -> str:
     return re.sub(r"\s+", " ", result)
 
 
+_INVISIBLE_CHARS = re.compile(r"[\u200b-\u200f\u202a-\u202e\u2066-\u2069\ufeff]")
+
+
 def clean_line_text(text: str) -> str:
-    """Clean dialogue text of leading parentheticals and extra whitespace."""
+    """Clean dialogue text of leading parentheticals, BiDi control chars, and extra whitespace."""
     if not text:
         return ""
     prev = None
-    result = text.strip()
+    result = _INVISIBLE_CHARS.sub("", text).strip()
     while result != prev:
         prev = result
         result = LEADING_DIRECTION.sub("", result).strip()

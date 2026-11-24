@@ -1,6 +1,8 @@
 import { Modal } from '../common/Modal.jsx';
 
 export function MoviesModal({ isOpen, onClose, packName, movies, movieTitles, movieYears, moviePosters }) {
+    const hasAnyPoster = movies.some(movieId => Boolean(moviePosters?.[movieId]));
+
     return (
         <Modal
             id="movies-modal"
@@ -16,7 +18,7 @@ export function MoviesModal({ isOpen, onClose, packName, movies, movieTitles, mo
 
                     return (
                         <div key={movieId} className="movie-item">
-                            {poster ? (
+                            {hasAnyPoster && (poster ? (
                                 <img
                                     src={poster}
                                     alt={title}
@@ -24,7 +26,7 @@ export function MoviesModal({ isOpen, onClose, packName, movies, movieTitles, mo
                                 />
                             ) : (
                                 <div className="movie-poster-placeholder" />
-                            )}
+                            ))}
                             <div className="movie-info">
                                 <div className="movie-title">{title} {year && `(${year})`}</div>
                                 <div className="movie-links">

@@ -1,6 +1,7 @@
 {
   "featured": [
     "star-wars",
+    "the-office",
     "harry-potter",
     "marvel",
     "pixar-classics",
@@ -17,6 +18,13 @@
         "the-lord-of-the-rings",
         "bttf-trilogy",
         "marvel"
+      ]
+    },
+    {
+      "id": "tv",
+      "name": "TV Shows",
+      "packs": [
+        "the-office"
       ]
     },
     {
@@ -57,7 +65,7 @@
       "manifest": {
         "packId": "star-wars",
         "packName": "Star Wars",
-        "generatedAt": "2026-11-24T15:59:33.474428",
+        "generatedAt": "2026-11-24T17:32:47.241704",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -316,7 +324,7 @@
       "manifest": {
         "packId": "harry-potter",
         "packName": "Harry Potter",
-        "generatedAt": "2026-11-24T15:59:31.003796",
+        "generatedAt": "2026-11-24T17:32:45.137480",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -577,7 +585,7 @@
       "manifest": {
         "packId": "the-lord-of-the-rings",
         "packName": "The Lord of the Rings",
-        "generatedAt": "2026-11-24T15:59:32.884130",
+        "generatedAt": "2026-11-24T17:32:46.673027",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -708,7 +716,7 @@
       "manifest": {
         "packId": "shrek",
         "packName": "Shrek",
-        "generatedAt": "2026-11-24T15:59:34.552917",
+        "generatedAt": "2026-11-24T17:32:48.199440",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -841,7 +849,7 @@
       "manifest": {
         "packId": "bttf-trilogy",
         "packName": "Back to the Future",
-        "generatedAt": "2026-11-24T15:59:31.395408",
+        "generatedAt": "2026-11-24T17:32:45.434319",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -957,7 +965,7 @@
       "manifest": {
         "packId": "pixar-classics",
         "packName": "Pixar Classics",
-        "generatedAt": "2026-11-24T15:59:35.110497",
+        "generatedAt": "2026-11-24T17:32:48.748252",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -1192,7 +1200,7 @@
       "manifest": {
         "packId": "disney-classics",
         "packName": "Disney Classics",
-        "generatedAt": "2026-11-24T15:59:31.925792",
+        "generatedAt": "2026-11-24T17:32:45.830552",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -1414,7 +1422,7 @@
       "manifest": {
         "packId": "disney-pixar",
         "packName": "Disney Pixar",
-        "generatedAt": "2026-11-24T15:59:34.100727",
+        "generatedAt": "2026-11-24T17:32:47.704219",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -1621,7 +1629,7 @@
       "manifest": {
         "packId": "marvel",
         "packName": "Marvel",
-        "generatedAt": "2026-11-24T15:59:32.442936",
+        "generatedAt": "2026-11-24T17:32:46.281988",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -1870,7 +1878,276 @@
           ]
         }
       }
+    },
+    {
+      "id": "the-office",
+      "name": "The Office",
+      "movieCount": 9,
+      "mediaType": "seasons",
+      "theme": {
+        "primary": "#f2c94c",
+        "bgColor": "#102236",
+        "containerBg": "#f7f3ea",
+        "accentColor": "#3b6ea5",
+        "btnText": "#102236",
+        "cardGradientStart": "#102236",
+        "cardGradientEnd": "#1e3a5f",
+        "cardBorder": "#f2c94c",
+        "cardText": "#f2c94c"
+      },
+      "tierMessages": {
+        "perfect": "World's Best Boss!",
+        "good": "Assistant Regional Manager!",
+        "average": "Assistant to the Regional Manager",
+        "barely": "Dundie Honorable Mention",
+        "failure": "That's what she said... not."
+      },
+      "manifest": {
+        "packId": "the-office",
+        "packName": "The Office",
+        "generatedAt": "2026-11-24T17:32:44.711527",
+        "dateRange": {
+          "start": "2026-01-12",
+          "end": "2030-02-12"
+        },
+        "totalPuzzles": 1493,
+        "cycleLength": 9154,
+        "tierMessages": {
+          "perfect": "World's Best Boss!",
+          "good": "Assistant Regional Manager!",
+          "average": "Assistant to the Regional Manager",
+          "barely": "Dundie Honorable Mention",
+          "failure": "That's what she said... not."
+        },
+        "mediaType": "seasons"
+      },
+      "gameMetadata": {
+        "movies": [
+          "the-office-s01",
+          "the-office-s02",
+          "the-office-s03",
+          "the-office-s04",
+          "the-office-s05",
+          "the-office-s06",
+          "the-office-s07",
+          "the-office-s08",
+          "the-office-s09"
+        ],
+        "movieYears": {
+          "the-office-s01": 2005,
+          "the-office-s02": 2005,
+          "the-office-s03": 2006,
+          "the-office-s04": 2007,
+          "the-office-s05": 2008,
+          "the-office-s06": 2009,
+          "the-office-s07": 2010,
+          "the-office-s08": 2011,
+          "the-office-s09": 2012
+        },
+        "movieTitles": {
+          "the-office-s01": "Season 1",
+          "the-office-s02": "Season 2",
+          "the-office-s03": "Season 3",
+          "the-office-s04": "Season 4",
+          "the-office-s05": "Season 5",
+          "the-office-s06": "Season 6",
+          "the-office-s07": "Season 7",
+          "the-office-s08": "Season 8",
+          "the-office-s09": "Season 9"
+        },
+        "moviePosters": {},
+        "charactersByMovie": {
+          "the-office-s01": [
+            "ANGELA MARTIN",
+            "DWIGHT SCHRUTE",
+            "JAN LEVINSON",
+            "JIM HALPERT",
+            "KATY",
+            "KEVIN MALONE",
+            "MEREDITH PALMER",
+            "MICHAEL SCOTT",
+            "OSCAR MARTINEZ",
+            "PAM BEESLY",
+            "ROY ANDERSON",
+            "RYAN HOWARD",
+            "STANLEY HUDSON"
+          ],
+          "the-office-s02": [
+            "ANGELA MARTIN",
+            "CREED BRATTON",
+            "DARRYL PHILBIN",
+            "DWIGHT SCHRUTE",
+            "HELENE BEESLY",
+            "JAN LEVINSON",
+            "JIM HALPERT",
+            "KELLY KAPOOR",
+            "KEVIN MALONE",
+            "LONNY COLLINS",
+            "MEREDITH PALMER",
+            "MICHAEL SCOTT",
+            "OSCAR MARTINEZ",
+            "PAM BEESLY",
+            "PHYLLIS VANCE",
+            "ROY ANDERSON",
+            "RYAN HOWARD",
+            "STANLEY HUDSON",
+            "TOBY FLENDERSON",
+            "TODD PACKER"
+          ],
+          "the-office-s03": [
+            "ANDY BERNARD",
+            "ANGELA MARTIN",
+            "CREED BRATTON",
+            "DAVID WALLACE",
+            "DWIGHT SCHRUTE",
+            "JAN LEVINSON",
+            "JIM HALPERT",
+            "KAREN FILIPPELLI",
+            "KELLY KAPOOR",
+            "KEVIN MALONE",
+            "MEREDITH PALMER",
+            "MICHAEL SCOTT",
+            "OSCAR MARTINEZ",
+            "PAM BEESLY",
+            "PHYLLIS VANCE",
+            "ROY ANDERSON",
+            "RYAN HOWARD",
+            "STANLEY HUDSON",
+            "TOBY FLENDERSON",
+            "TONY GARDNER"
+          ],
+          "the-office-s04": [
+            "ANDY BERNARD",
+            "ANGELA MARTIN",
+            "CREED BRATTON",
+            "DWIGHT SCHRUTE",
+            "HOLLY FLAX",
+            "JAN LEVINSON",
+            "JIM HALPERT",
+            "KELLY KAPOOR",
+            "KEVIN MALONE",
+            "MEREDITH PALMER",
+            "MICHAEL SCOTT",
+            "OSCAR MARTINEZ",
+            "PAM BEESLY",
+            "PHYLLIS VANCE",
+            "RYAN HOWARD",
+            "STANLEY HUDSON",
+            "TOBY FLENDERSON"
+          ],
+          "the-office-s05": [
+            "ANDY BERNARD",
+            "ANGELA MARTIN",
+            "BOB VANCE",
+            "CREED BRATTON",
+            "DARRYL PHILBIN",
+            "DAVID WALLACE",
+            "DWIGHT SCHRUTE",
+            "HOLLY FLAX",
+            "JIM HALPERT",
+            "KELLY KAPOOR",
+            "KEVIN MALONE",
+            "LEO",
+            "MEREDITH PALMER",
+            "MICHAEL SCOTT",
+            "OSCAR MARTINEZ",
+            "PAM BEESLY",
+            "PHYLLIS VANCE",
+            "RYAN HOWARD",
+            "STANLEY HUDSON",
+            "TOBY FLENDERSON"
+          ],
+          "the-office-s06": [
+            "ANDY BERNARD",
+            "ANGELA MARTIN",
+            "CREED BRATTON",
+            "DARRYL PHILBIN",
+            "DONNA",
+            "DWIGHT SCHRUTE",
+            "ERIN HANNON",
+            "GABE LEWIS",
+            "HELENE BEESLY",
+            "JIM HALPERT",
+            "JO BENNETT",
+            "KELLY KAPOOR",
+            "KEVIN MALONE",
+            "MICHAEL SCOTT",
+            "OSCAR MARTINEZ",
+            "PAM BEESLY",
+            "PHYLLIS VANCE",
+            "RYAN HOWARD",
+            "STANLEY HUDSON",
+            "TOBY FLENDERSON"
+          ],
+          "the-office-s07": [
+            "ANDY BERNARD",
+            "ANGELA MARTIN",
+            "CREED BRATTON",
+            "DARRYL PHILBIN",
+            "DEANGELO VICKERS",
+            "DWIGHT SCHRUTE",
+            "ERIN HANNON",
+            "GABE LEWIS",
+            "HOLLY FLAX",
+            "JIM HALPERT",
+            "JO BENNETT",
+            "KELLY KAPOOR",
+            "KEVIN MALONE",
+            "MICHAEL SCOTT",
+            "OSCAR MARTINEZ",
+            "PAM BEESLY",
+            "PHYLLIS VANCE",
+            "RYAN HOWARD",
+            "STANLEY HUDSON",
+            "TOBY FLENDERSON"
+          ],
+          "the-office-s08": [
+            "ANDY BERNARD",
+            "ANGELA MARTIN",
+            "BRANDON",
+            "CATHY SIMMS",
+            "DARRYL PHILBIN",
+            "DAVID WALLACE",
+            "DWIGHT SCHRUTE",
+            "ERIN HANNON",
+            "JIM HALPERT",
+            "KELLY KAPOOR",
+            "KEVIN MALONE",
+            "NELLIE BERTRAM",
+            "OSCAR MARTINEZ",
+            "PAM BEESLY",
+            "ROBERT CALIFORNIA",
+            "ROBERT LIPTON",
+            "RYAN HOWARD",
+            "STANLEY HUDSON",
+            "SUSAN CALIFORNIA",
+            "TODD PACKER"
+          ],
+          "the-office-s09": [
+            "ALICE",
+            "ANDY BERNARD",
+            "ANGELA MARTIN",
+            "CLARK GREEN",
+            "DARRYL PHILBIN",
+            "DWIGHT SCHRUTE",
+            "ERIN HANNON",
+            "GABE LEWIS",
+            "JIM HALPERT",
+            "KEVIN MALONE",
+            "MARK FRANKS",
+            "MEREDITH PALMER",
+            "NELLIE BERTRAM",
+            "OSCAR MARTINEZ",
+            "PAM BEESLY",
+            "PETE MILLER",
+            "PHYLLIS VANCE",
+            "STANLEY HUDSON",
+            "TOBY FLENDERSON",
+            "TREVOR"
+          ]
+        }
+      }
     }
   ],
-  "generatedAt": "2026-11-24T20:59:30.171Z"
+  "generatedAt": "2026-11-24T22:32:44.060Z"
 }

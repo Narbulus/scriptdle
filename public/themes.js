@@ -2,6 +2,19 @@
 // Run 'python scripts/generate-daily-puzzles.py' to regenerate
 
 window.SCRIPTLE_THEMES = {
+  "the-office": {
+    "primary": "#f2c94c",
+    "bgColor": "#102236",
+    "containerBg": "#f7f3ea",
+    "accentColor": "#3b6ea5",
+    "btnText": "#102236",
+    "cardGradientStart": "#102236",
+    "cardGradientEnd": "#1e3a5f",
+    "cardBorder": "#f2c94c",
+    "cardText": "#f2c94c",
+    "name": "The Office",
+    "movieCount": 9
+  },
   "harry-potter": {
     "primary": "#d4af37",
     "bgColor": "#2a0000",
