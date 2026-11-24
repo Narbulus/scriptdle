@@ -280,11 +280,14 @@ test.describe('Game Play', () => {
             await expect(page.getByTestId('script-area')).toBeVisible({ timeout: 10000 });
         });
 
-        test('script display contains lines', async ({ page }) => {
+        test('script display contains lines and viewport-locked scroll wrapper', async ({ page }) => {
             await page.getByTestId('pack-row').first().click();
             await page.waitForLoadState('networkidle');
 
-            // Should have at least one script line
+            await expect(page.locator('body')).toHaveAttribute('data-route', 'play');
+            await expect(page.locator('.script-scroll-wrapper')).toBeVisible({ timeout: 10000 });
+
+            // All 3 script lines (target + 2 context blur-peeks) render from start
             const scriptLines = page.getByTestId('script-display').locator('.script-line');
             await expect(scriptLines.first()).toBeVisible({ timeout: 10000 });
             expect(await scriptLines.count()).toBeGreaterThanOrEqual(1);

@@ -127,9 +127,19 @@ test.describe('Home Page', () => {
             await page.getByTestId('menu-button').click();
             await page.getByTestId('menu-stats').click();
 
-            // Stats modal is dynamically created - wait for any modal overlay
-            const modal = page.locator('.modal-overlay').filter({ has: page.getByText(/Stats|History/i) });
-            await expect(modal.first()).toBeVisible({ timeout: 5000 });
+            const modal = page.locator('#stats-modal');
+            await expect(modal).toBeVisible({ timeout: 5000 });
+        });
+
+        test('search input filters pack list', async ({ page }) => {
+            const initialCount = await page.getByTestId('pack-row').count();
+            expect(initialCount).toBeGreaterThan(1);
+
+            await page.getByTestId('pack-search').fill('Star Wars');
+            await expect(page.getByTestId('pack-row')).toHaveCount(1);
+
+            await page.getByTestId('pack-search').fill('zzzzzz-no-match');
+            await expect(page.getByTestId('home-empty-results')).toBeVisible();
         });
 
         test('clicking pack navigates to game page', async ({ page }) => {

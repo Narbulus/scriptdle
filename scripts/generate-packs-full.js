@@ -39,6 +39,7 @@ async function generatePacksFull() {
                 id: pack.id,
                 name: pack.name,
                 movieCount: pack.movieCount,
+                mediaType: packData.mediaType || pack.mediaType || 'movies',
                 theme: packData.theme || null,
                 tierMessages: packData.tierMessages || null
             });

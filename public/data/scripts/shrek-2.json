@@ -3,3301 +3,4097 @@
   "title": "Shrek 2",
   "year": 2004,
   "characters": [
-    "ANNOUNCER",
-    "BIG BAD WOLF",
     "BLIND MOUSE",
     "CEDRIC",
-    "CHEF",
-    "CYCLOPS",
     "DONKEY",
-    "DONKEY AND PUSS",
     "DORIS",
-    "DOVES",
-    "DRONKEY",
     "FAIRY GODMOTHER",
-    "FAIRY GODMOTHER & PRINCE CHARMING",
-    "FIONA",
+    "FAST FOOD CLERK",
     "FURNITURE",
-    "GINGY",
-    "GUARD",
+    "GINGERBREAD MAN",
+    "HEADLESS HORSEMAN",
+    "HERALD",
     "JEROME",
     "JILL",
-    "JILL & MAIDENS",
-    "JOAN",
+    "JOAN RIVERS",
     "KING HAROLD",
-    "KNIGHT",
-    "LITTLE PIG",
-    "MAGIC MIRROR",
-    "MAIDEN #1",
-    "MAIDEN #2",
-    "MAN",
-    "MISS FROG",
     "MONGO",
     "MUFFIN MAN",
-    "NARRATOR",
     "NOBLEMAN",
-    "NOBLEMAN'S SON",
     "PAGE",
+    "PIG",
     "PINOCCHIO",
     "PRINCE CHARMING",
-    "PRINCESS TOY",
-    "PRISCILLA",
+    "PRINCESS FIONA",
     "PUSS IN BOOTS",
     "QUEEN LILLIAN",
     "SHREK",
-    "SHREK/KING HAROLD",
-    "WOMAN",
-    "WORKER"
+    "TREE",
+    "UGLY STEPSISTER",
+    "WOLF"
   ],
   "lines": [
     {
       "character": "PRINCE CHARMING",
-      "text": "Once upon a time in a kingdom far far away, the king and queen were blessed with a beautiful baby girl. And throughout the land, everyone was happy. Until the sun went down, and they saw that their daughter was cursed with a frightful enchantment that took hold each and every night. Desperate, they sought the help of a fairy godmother; who had them lock the young princess away in a tower, there to await the kiss of the handsome Prince Charming!"
+      "text": "Once upon a time in a kingdom far, faraway, the king and queen were blessed with a beautiful baby girl. And throughout the land, everyone was happy... until the sun went down and they saw that their daughter was cursed with a frightful enchantment that took hold each and every night.",
+      "scene": 0
     },
     {
       "character": "PRINCE CHARMING",
-      "text": "It was he who would chance the perilous journey through blistering cold and scorching desert traveling for many days and nights, risking life and limb to reach the Dragon’s Keep."
+      "text": "Desperate, they sought the help of a fairy godmother who had them lock the young princess away in a tower, there to await the kiss of the handsome Prince Charming.",
+      "scene": 0
     },
     {
       "character": "PRINCE CHARMING",
-      "text": "For he was the bravest..."
+      "text": "It was he who would chance the perilous journey through blistering cold and scorching desert, traveling for many days and nights, risking life and limb... to reach the Dragon's Keep.",
+      "scene": 0
     },
     {
       "character": "PRINCE CHARMING",
-      "text": "…and most handsome…"
+      "text": "For he was the bravest... and most handsome...",
+      "scene": 0
     },
     {
       "character": "PRINCE CHARMING",
-      "text": "...in all the land. And it was destiny that his kiss..."
+      "text": "in all the land. And it was destiny that his kiss... would break the dreaded curse. He alone would climb to the highest room of the tallest tower... to enter the princess's chambers, cross the room to her sleeping silhouette, pull back the gossamer curtains to find her...",
+      "scene": 0
     },
     {
       "character": "PRINCE CHARMING",
-      "text": "…would break the dreaded curse."
+      "text": "What? Princess Fiona?",
+      "scene": 0
+    },
+    {
+      "character": "WOLF",
+      "text": "No!",
+      "scene": 0
     },
     {
       "character": "PRINCE CHARMING",
-      "text": "He alone would climb to the highest room of the tallest tower to enter the princess’s chambers, cross the room to her sleeping silhouette, pull back the gossamer curtains to find her--"
+      "text": "Oh, thank heavens. Where is she?",
+      "scene": 0
     },
     {
-      "character": "BIG BAD WOLF",
-      "text": "What?"
-    },
-    {
-      "character": "PRINCE CHARMING",
-      "text": "Princess…Fiona?"
-    },
-    {
-      "character": "BIG BAD WOLF",
-      "text": "No!"
+      "character": "WOLF",
+      "text": "She's on her honeymoon.",
+      "scene": 0
     },
     {
       "character": "PRINCE CHARMING",
-      "text": "Oh, thank heavens. Where is she?"
-    },
-    {
-      "character": "BIG BAD WOLF",
-      "text": "She’s on her honeymoon."
-    },
-    {
-      "character": "PRINCE CHARMING",
-      "text": "Honeymoon?! With whom?!"
+      "text": "Honeymoon? With whom?",
+      "scene": 0
     },
     {
       "character": "SHREK",
-      "text": "It’s so good to be home!"
+      "text": "It's so good to be home!",
+      "scene": 1
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Ooh!",
+      "scene": 1
     },
     {
       "character": "SHREK",
-      "text": "Just you and me and…"
+      "text": "Just you and me and...",
+      "scene": 1
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Donkey?",
+      "scene": 2
     },
     {
       "character": "DONKEY",
-      "text": "🎶Two can be as bad as one…🎶"
+      "text": "Shrek! Fiona! Well, aren't you two a sight for sore eyes! Give us a hug, Shrek, you old love machine. And look at you, Mrs. Shrek. How about a side of sugar for the steed?",
+      "scene": 2
     },
     {
       "character": "SHREK",
-      "text": "Donkey?"
+      "text": "Donkey, what are you doing here?",
+      "scene": 2
     },
     {
       "character": "DONKEY",
-      "text": "Shrek! Fiona! Well aren’t you two a sight for sore eyes! Give us a hug, Shrek, you old love machine. [chuckles] And look at you, Mrs. Shrek. How ‘bout a side of sugar for the steed?"
+      "text": "I was just taking care of your love nest for you.",
+      "scene": 2
     },
     {
       "character": "SHREK",
-      "text": "Donkey, what are you doing here?"
+      "text": "Oh, you mean like sorting the mail and watering the plants.",
+      "scene": 2
     },
     {
       "character": "DONKEY",
-      "text": "Oh! I was just taking care of your love nest for you."
+      "text": "Yeah, and feeding the fish.",
+      "scene": 2
     },
     {
       "character": "SHREK",
-      "text": "Oh, you mean like… sorting the mail and watering the plants?"
+      "text": "I don't have any fish.",
+      "scene": 2
     },
     {
       "character": "DONKEY",
-      "text": "Yeah, and feeding the fish!"
+      "text": "You do now. I call that one Shrek and the other Fiona. That Shrek is a rascally devil. Get your...",
+      "scene": 2
     },
     {
       "character": "SHREK",
-      "text": "I don’t have any fish."
+      "text": "Oh, will you look at the time. Well, I guess you'd better be going.",
+      "scene": 2
     },
     {
       "character": "DONKEY",
-      "text": "You do now. I call that one Shrek and the other Fiona."
+      "text": "Don't you want to tell me about your trip? Or how about a game of Parcheesi?",
+      "scene": 2
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Actually, Donkey? Shouldn't you be getting home to Dragon?",
+      "scene": 2
     },
     {
       "character": "DONKEY",
-      "text": "That Shrek is a rascally devil. Get your…[mumbling]"
+      "text": "Oh, yeah, that. I don't know. She's been all moody and stuff lately. So I thought I'd move back in with you guys.",
+      "scene": 2
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Well, you know we're always happy to see you, Donkey.",
+      "scene": 2
     },
     {
       "character": "SHREK",
-      "text": "Oh, would you look at the time? Well I guess you’d better be going."
+      "text": "But Fiona and I are married now. We need a little time, you know, to be together.",
+      "scene": 2
+    },
+    {
+      "character": "SHREK",
+      "text": "Just with each other.",
+      "scene": 2
+    },
+    {
+      "character": "SHREK",
+      "text": "Alone.",
+      "scene": 2
     },
     {
       "character": "DONKEY",
-      "text": "Hey wait a minute, don’t you want to tell me all about your trip? Or how about a game of Parcheesi?"
+      "text": "Say no more. You don't have to worry about a thing. I will always be here to make sure nobody bothers you.",
+      "scene": 2
     },
     {
-      "character": "FIONA",
-      "text": "Um, actually--Donkey? Shouldn’t you be getting home to Dragon?"
+      "character": "SHREK",
+      "text": "Donkey!",
+      "scene": 2
     },
     {
       "character": "DONKEY",
-      "text": "Oh, yeah, that. I don’t know. She’s been all moody and stuff lately...so I thought I’d move back in with you guys!"
-    },
-    {
-      "character": "FIONA",
-      "text": "Well you know we’re always happy to see you, Donkey."
+      "text": "Yes, roomie?",
+      "scene": 2
     },
     {
       "character": "SHREK",
-      "text": "But Fiona and I are married now. We need a little time, you know, to be together."
-    },
-    {
-      "character": "SHREK",
-      "text": "Just with each other."
-    },
-    {
-      "character": "SHREK",
-      "text": "Alone."
+      "text": "You're bothering me.",
+      "scene": 2
     },
     {
       "character": "DONKEY",
-      "text": "Say no more, say no more. You don’t have to worry about a thing. I will always be here to make sure nobody bothers you!"
+      "text": "Oh, okay. Uh, all right, cool. I guess, uh... Me and Pinocchio was just going to try to catch a tournament, anyway. So, uh, maybe I'll see y'all Sunday for a barbecue or something.",
+      "scene": 2
     },
     {
       "character": "SHREK",
-      "text": "Donkey!"
+      "text": "He'll be fine. Now, where were we?",
+      "scene": 2
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Ooh. I think I remember.",
+      "scene": 2
+    },
+    {
+      "character": "SHREK",
+      "text": "Donkey!",
+      "scene": 2
     },
     {
       "character": "DONKEY",
-      "text": "Yes, roomie?"
+      "text": "I know, I know! Alone! I'm going! I'm going. But what do you want me to tell these guys?",
+      "scene": 2
+    },
+    {
+      "character": "HERALD",
+      "text": "Enough, Reggie.",
+      "scene": 2
+    },
+    {
+      "character": "HERALD",
+      "text": "\"Dearest Princess Fiona.\" You are hereby summoned to the Kingdom of Far, Far Away for a royal ball in celebration of your marriage at which time the King will bestow his royal blessing upon you and your, uh... Uh, Prince Charming. Love, the King and Queen of Far, Far Away. \"Aka Mom and Dad.\"",
+      "scene": 2
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Mom and Dad?",
+      "scene": 2
     },
     {
       "character": "SHREK",
-      "text": "You’re bothering me."
+      "text": "Prince Charming?",
+      "scene": 2
     },
     {
       "character": "DONKEY",
-      "text": "Oh, okay. All right, cool. I guess uh… me and Pinocchio was gonna catch a tournament, anyway, so uh.... maybe I’ll see y’all Sunday for a barbecue or something."
+      "text": "Royal ball? Can I come?",
+      "scene": 2
     },
     {
       "character": "SHREK",
-      "text": "He’ll be fine. Now, where were we?"
+      "text": "We're not going.",
+      "scene": 2
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "What?",
+      "scene": 2
     },
     {
       "character": "SHREK",
-      "text": "Oh. I think I remember."
+      "text": "I mean, don't you think they might be a bit shocked to see you like this?",
+      "scene": 2
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Well, they might be a bit surprised. But they're my parents, Shrek. They love me. And don't worry. They're gonna love you too.",
+      "scene": 2
     },
     {
       "character": "SHREK",
-      "text": "Donkey!"
+      "text": "Yeah, right. Somehow I don't think I'll be welcome at the country club.",
+      "scene": 2
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Will you stop it. They're not like that.",
+      "scene": 2
+    },
+    {
+      "character": "SHREK",
+      "text": "Then how do you explain Sergeant Pompous and the Fancy Pants Club Band?",
+      "scene": 2
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Oh, come on! You could at least give them a chance.",
+      "scene": 2
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, to do what? Sharpen their pitchforks?",
+      "scene": 2
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "No! They just want to give you their blessing.",
+      "scene": 2
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, great. Now I need their blessing?",
+      "scene": 2
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Well, if you want to be a part of this family, yes!",
+      "scene": 2
+    },
+    {
+      "character": "SHREK",
+      "text": "And who says I want to be part of this family?",
+      "scene": 2
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Uh, you did! When you married me!",
+      "scene": 2
+    },
+    {
+      "character": "SHREK",
+      "text": "Well, there's some fine print for you!",
+      "scene": 2
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "So... So that's it. You won't come?",
+      "scene": 2
+    },
+    {
+      "character": "SHREK",
+      "text": "Trust me. It's a bad idea. We are not going and that's final!",
+      "scene": 2
     },
     {
       "character": "DONKEY",
-      "text": "I know, I know! Alone! I’m going! I’m going! Hey, but what do you want me to tell these other guys?"
+      "text": "Hey, come on, Shrek! We don't want to hit traffic!",
+      "scene": 2
     },
     {
-      "character": "PAGE",
-      "text": "Enough, Reggie. [clears throat] \"Dearest Princess Fiona. You are hereby summoned to the Kingdom of Far, Far Away for a royal ball in celebration of your marriage..."
-    },
-    {
-      "character": "PAGE",
-      "text": "...at which time the King will bestow his royal blessing… upon you and your…eh..."
-    },
-    {
-      "character": "PAGE",
-      "text": "uh…Prince Charming. Love, the King and Queen of Far Far Away. A.K.A. Mom and Dad.\""
-    },
-    {
-      "character": "FIONA",
-      "text": "Mom and Dad?"
-    },
-    {
-      "character": "SHREK",
-      "text": "Prince Charming?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Royal ball?! Can I come?"
-    },
-    {
-      "character": "SHREK",
-      "text": "We’re not going."
-    },
-    {
-      "character": "FIONA",
-      "text": "What?!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "What?!"
-    },
-    {
-      "character": "SHREK",
-      "text": "I mean, don’t you think they might be a bit… shocked to see you like this?"
-    },
-    {
-      "character": "FIONA",
-      "text": "Well, they might be a bit surprised. But they’re my parents, Shrek. They love me. And don’t worry, they're gonna love you too."
-    },
-    {
-      "character": "SHREK",
-      "text": "Yeah, right. Somehow I don’t think I’ll be welcome at the country club."
-    },
-    {
-      "character": "FIONA",
-      "text": "Will you stop it? They’re not like that."
-    },
-    {
-      "character": "SHREK",
-      "text": "Then how do you explain Sergeant Pompous and the Fancy Pants Club Band?"
-    },
-    {
-      "character": "FIONA",
-      "text": "Oh, come on! You could at least give them a chance."
-    },
-    {
-      "character": "SHREK",
-      "text": "To do what? Sharpen their pitchforks?"
-    },
-    {
-      "character": "FIONA",
-      "text": "No! They just want to give you their blessing."
-    },
-    {
-      "character": "SHREK",
-      "text": "Oh, great. Now I need their blessing?"
-    },
-    {
-      "character": "FIONA",
-      "text": "Well, if you want to be a part of this family, yes!"
-    },
-    {
-      "character": "SHREK",
-      "text": "And who says I want to be part of this family?"
-    },
-    {
-      "character": "FIONA",
-      "text": "Uh, you did! When you married me?!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Well, there’s some fine print for you!"
-    },
-    {
-      "character": "FIONA",
-      "text": "Ugh! So that’s it, you won’t come?"
-    },
-    {
-      "character": "SHREK",
-      "text": "Trust me. It’s a bad idea. We are not going! And that’s final!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Hey, come on, Shrek! We don’t want to hit traffic!"
-    },
-    {
-      "character": "GINGY",
-      "text": "Don’t worry! We’ll take care of everything."
+      "character": "GINGERBREAD MAN",
+      "text": "Don't worry! We'll take care of everything.",
+      "scene": 2
     },
     {
       "character": "BLIND MOUSE",
-      "text": "Hey, wait for me! Oof!"
+      "text": "Hey, wait for me!",
+      "scene": 2
     },
     {
       "character": "DONKEY",
-      "text": "Hit it! 🎶Move ‘em on! Head ‘em up! Head ‘em up, move ‘em on! Head ‘em up! Move ‘em down! Rawhide! Move 'em on! Head ‘em up! Head ‘em up! Move ‘em on! Move ‘em on! Head ‘em up! Rawhide! Ride ‘em up! Move ‘em on!🎶"
+      "text": "Yeehaw!",
+      "scene": 3
     },
     {
       "character": "DONKEY",
-      "text": "🎶Head ‘em up! Head ‘em up! Move ‘em on! Rawhide! Knock ‘em out! Pound ‘em dead! Make ‘em tea! Buy ‘em drinks! Meet their mamas! Milk ‘em hard! Rawhide! Yee-haw!🎶"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Are we there yet?"
+      "text": "Are we there yet?",
+      "scene": 3
     },
     {
       "character": "SHREK",
-      "text": "No."
+      "text": "No.",
+      "scene": 3
     },
     {
       "character": "DONKEY",
-      "text": "Are we there yet?"
+      "text": "Are we there yet?",
+      "scene": 3
     },
     {
-      "character": "FIONA",
-      "text": "Not yet."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Okay, are we there yet?"
-    },
-    {
-      "character": "FIONA",
-      "text": "No."
+      "character": "PRINCESS FIONA",
+      "text": "Not yet.",
+      "scene": 3
     },
     {
       "character": "DONKEY",
-      "text": "Are we there yet?"
+      "text": "Okay, are we there yet?",
+      "scene": 3
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "No.",
+      "scene": 3
+    },
+    {
+      "character": "DONKEY",
+      "text": "Are we there yet?",
+      "scene": 3
     },
     {
       "character": "SHREK",
-      "text": "No!"
+      "text": "No!",
+      "scene": 3
     },
     {
       "character": "DONKEY",
-      "text": "Are we there YET?"
+      "text": "Are we there yet?",
+      "scene": 3
     },
     {
       "character": "SHREK",
-      "text": "(sarcastically) Yes."
+      "text": "Yes.",
+      "scene": 3
     },
     {
       "character": "DONKEY",
-      "text": "Really?"
+      "text": "Really?",
+      "scene": 3
     },
     {
       "character": "SHREK",
-      "text": "NO!"
+      "text": "No!",
+      "scene": 3
     },
     {
       "character": "DONKEY",
-      "text": "Are we there yet?!"
+      "text": "Are we there yet?",
+      "scene": 3
     },
     {
-      "character": "FIONA",
-      "text": "No!"
+      "character": "PRINCESS FIONA",
+      "text": "No!",
+      "scene": 3
     },
     {
       "character": "DONKEY",
-      "text": "Are we there YET?!"
+      "text": "Are we there yet?",
+      "scene": 3
     },
     {
       "character": "SHREK",
-      "text": "No, we are not!"
+      "text": "No, we are not!",
+      "scene": 3
     },
     {
       "character": "DONKEY",
-      "text": "ARE WE THERE YET?!?!?"
+      "text": "Are we there yet?",
+      "scene": 3
     },
     {
-      "character": "SHREK",
-      "text": "NOOOOOOO!!!!!!"
-    },
-    {
-      "character": "FIONA",
-      "text": "NOOOOOOO!!!!!!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Are we there yet? Hey, that’s not funny. Hey, that’s really immature. See, this is why nobody likes ogres. Alright, your loss!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Are we there yet? Hey, that’s not funny. Hey, that’s really immature. See, this is why nobody likes ogres. Alright, your loss!"
+      "character": "PRINCESS FIONA",
+      "text": "No!",
+      "scene": 3
     },
     {
       "character": "DONKEY",
-      "text": "I’m gonna just stop talking!"
+      "text": "Are we there yet?",
+      "scene": 3
     },
     {
       "character": "SHREK",
-      "text": "(sarcastically happy) Finally!"
+      "text": "Are we there yet?",
+      "scene": 3
     },
     {
       "character": "DONKEY",
-      "text": "But this is taking forever, Shrek. And there ain't no in-flight movie or nothing!"
+      "text": "That's not funny. That's really immature. This is why nobody likes ogres. All right! Your loss! I'm gonna just stop talking!",
+      "scene": 3
     },
     {
       "character": "SHREK",
-      "text": "The Kingdom of Far Far Away, Donkey. That’s where we’re going. Far Far… [whispers] Away!"
+      "text": "Finally!",
+      "scene": 3
     },
     {
       "character": "DONKEY",
-      "text": "All right, all right, I get it. I’m just so darn bored!"
+      "text": "But this is taking forever, Shrek. There ain't no in-flight movie or nothing.",
+      "scene": 3
     },
     {
       "character": "SHREK",
-      "text": "Well, find a way to entertain yourself."
-    },
-    {
-      "character": "SHREK",
-      "text": "Oh! For five minutes. Could you not be yourself? FOR FIVE MINUTES!!!!"
-    },
-    {
-      "character": "SHREK",
-      "text": "ARE WE THERE YET?!?!"
-    },
-    {
-      "character": "FIONA",
-      "text": "Yes!"
+      "text": "The Kingdom of Far, Far Away, Donkey. That's where we're going. Far, far away!",
+      "scene": 3
     },
     {
       "character": "DONKEY",
-      "text": "Oh, finally!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Wow! It’s going to be champagne wishes and caviar dreams from now on!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Hey, good-looking! We’ll be back to pick you up later! Ooh, pantyhose!"
+      "text": "All right, all right, I get it. I'm just so darn bored.",
+      "scene": 3
     },
     {
       "character": "SHREK",
-      "text": "We are definitely not in the swamp anymore."
+      "text": "Well, find a way to entertain yourself.",
+      "scene": 3
+    },
+    {
+      "character": "SHREK",
+      "text": "For five minutes, could you not be yourself for five minutes!",
+      "scene": 4
+    },
+    {
+      "character": "SHREK",
+      "text": "Are we there yet?",
+      "scene": 4
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Yes!",
+      "scene": 4
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, finally!",
+      "scene": 4
+    },
+    {
+      "character": "DONKEY",
+      "text": "Wow! It's going to be champagne wishes and caviar dreams from now on. Hey, good looking! We'll be back to pick you up later!",
+      "scene": 5
+    },
+    {
+      "character": "VENDOR",
+      "text": "Star maps! Get your star maps!",
+      "scene": 5
+    },
+    {
+      "character": "DONKEY",
+      "text": "Ooh, panty hose!",
+      "scene": 5
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "We are definitely not in the swamp anymore.",
+      "scene": 5
     },
     {
       "character": "GUARD",
-      "text": "Halt!"
+      "text": "Halt.",
+      "scene": 5
     },
     {
-      "character": "WOMAN",
-      "text": "Hey, everyone, look!"
+      "character": "HERALD",
+      "text": "Announcing the long-awaited return of the beautiful Princess Fiona and her new husband.",
+      "scene": 6
     },
     {
-      "character": "DONKEY",
-      "text": "Hey, ladies! Nice day for a parade, huh? Yeah! You working that hat!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Swimming pools! Movie stars!"
-    },
-    {
-      "character": "ANNOUNCER",
-      "text": "Announcing the long-awaited return of the beautiful Princess Fiona and her new husband!"
-    },
-    {
-      "character": "FIONA",
-      "text": "Well, this is it."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "This is it."
-    },
-    {
-      "character": "ANNOUNCER",
-      "text": "This is it."
-    },
-    {
-      "character": "MAN",
-      "text": "This is it."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Uh… why don’t you guys go ahead? I’ll park the car."
+      "character": "PRINCESS FIONA",
+      "text": "Well, this is it.",
+      "scene": 6
     },
     {
       "character": "SHREK",
-      "text": "So… (chuckles) ...you still think this was a good idea?"
-    },
-    {
-      "character": "FIONA",
-      "text": "Of course! Look! Mom and Dad look happy to see us."
+      "text": "This is it.",
+      "scene": 6
     },
     {
       "character": "KING HAROLD",
-      "text": "Who on earth are they?"
+      "text": "This is it.",
+      "scene": 6
     },
     {
-      "character": "QUEEN LILLIAN",
-      "text": "I think that’s our little girl."
+      "character": "DONKEY",
+      "text": "This is it.",
+      "scene": 6
+    },
+    {
+      "character": "DONKEY",
+      "text": "Uh, why don't you guys go ahead? I'll park the car.",
+      "scene": 7
+    },
+    {
+      "character": "SHREK",
+      "text": "So You still think this is a good idea?",
+      "scene": 7
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Of course. Look. Mom and Dad look happy to see us.",
+      "scene": 7
     },
     {
       "character": "KING HAROLD",
-      "text": "That’s not little! That’s a really big problem! Wasn’t she supposed to kiss Prince Charming and break the spell?"
+      "text": "Who on earth are they?",
+      "scene": 7
     },
     {
       "character": "QUEEN LILLIAN",
-      "text": "Well, he’s no Prince Charming, but they do look--"
-    },
-    {
-      "character": "SHREK",
-      "text": "Happy now? We came. We saw them."
-    },
-    {
-      "character": "SHREK",
-      "text": "Now let’s go before"
+      "text": "I think that's our little girl.",
+      "scene": 7
     },
     {
       "character": "KING HAROLD",
-      "text": "Who on earth are they?"
+      "text": "That's not little. That's a really big problem. Wasn't she supposed to kiss Prince Charming and break the spell?",
+      "scene": 7
     },
     {
       "character": "QUEEN LILLIAN",
-      "text": "I think that’s our little girl."
+      "text": "Well, he's no Prince Charming, but they do look...",
+      "scene": 7
+    },
+    {
+      "character": "SHREK",
+      "text": "Happy now? We came. We saw them. Now let's go before they light the torches.",
+      "scene": 7
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "They're my parents.",
+      "scene": 7
+    },
+    {
+      "character": "SHREK",
+      "text": "Hello, they locked you in a tower.",
+      "scene": 7
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Hey, that was for my own...",
+      "scene": 7
     },
     {
       "character": "KING HAROLD",
-      "text": "That’s not little! That’s a really big problem! Wasn’t she supposed to kiss Prince Charming and break the spell?"
-    },
-    {
-      "character": "QUEEN LILLIAN",
-      "text": "Well, he’s no Prince Charming, but they do look--"
-    },
-    {
-      "character": "SHREK",
-      "text": "Happy now? We came. We saw them."
-    },
-    {
-      "character": "SHREK",
-      "text": "Now let’s go before they light the torches."
-    },
-    {
-      "character": "FIONA",
-      "text": "They’re my parents!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Hello? They locked you in a tower!"
-    },
-    {
-      "character": "FIONA",
-      "text": "Hey! That was for my own--"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Good! Now here’s our chance. Let’s go back inside and pretend we’re not home!"
+      "text": "Good! Now here's our chance. Let's go back inside and pretend we're not home.",
+      "scene": 7
     },
     {
       "character": "QUEEN LILLIAN",
-      "text": "Harold, we have to be--"
-    },
-    {
-      "character": "SHREK",
-      "text": "Quick! While they’re not looking we could make a run for it."
-    },
-    {
-      "character": "FIONA",
-      "text": "Shrek! Stop it! Everything’s gonna be--"
+      "text": "Harold, we have to be...",
+      "scene": 7
     },
     {
       "character": "KING HAROLD",
-      "text": "A disaster! There is no way--"
+      "text": "Quick! While they're not looking we can make a run for it.",
+      "scene": 7
     },
     {
-      "character": "FIONA",
-      "text": "You can do this."
-    },
-    {
-      "character": "SHREK",
-      "text": "I really--"
+      "character": "PRINCESS FIONA",
+      "text": "Shrek, stop it! Everything's gonna be...",
+      "scene": 7
     },
     {
       "character": "KING HAROLD",
-      "text": "Really--"
+      "text": "A disaster! There is no way...",
+      "scene": 7
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "You can do this.",
+      "scene": 7
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "But I really...",
+      "scene": 7
+    },
+    {
+      "character": "SHREK",
+      "text": "Really...",
+      "scene": 7
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Really...",
+      "scene": 7
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Here!",
+      "scene": 8
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Mom, Dad...",
+      "scene": 8
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "I'd like you to meet my husband, Shrek.",
+      "scene": 8
+    },
+    {
+      "character": "SHREK",
+      "text": "Well, um... It's easy to see where Fiona gets her good looks from.",
+      "scene": 8
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Excuse me.",
+      "scene": 9
+    },
+    {
+      "character": "SHREK",
+      "text": "Better out than in, I always say, eh, Fiona?",
+      "scene": 9
+    },
+    {
+      "character": "SHREK",
+      "text": "That's good. Uh...",
+      "scene": 9
+    },
+    {
+      "character": "SHREK",
+      "text": "I guess not.",
+      "scene": 9
+    },
+    {
+      "character": "DONKEY",
+      "text": "What do you mean, \"not on the list\"? Don't tell me you don't know who I am. Hey, what's happening, everybody? Thanks for waiting. I had the hardest time finding this place.",
+      "scene": 9
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "No! No! Bad donkey! Bad! Down!",
+      "scene": 9
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "No, no, no, Dad. Dad, it's all right. It's all right. He's with us. He helped rescue me from the dragon.",
+      "scene": 9
+    },
+    {
+      "character": "DONKEY",
+      "text": "Yep, that's me, the noble steed. Hey, waiter! How about a bowl for the steed?",
+      "scene": 9
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, boy.",
+      "scene": 9
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Um, Shrek?",
+      "scene": 9
+    },
+    {
+      "character": "SHREK",
+      "text": "Yeah? Oh, sorry! Great soup, Mrs. Q. Mmm.",
+      "scene": 9
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "No, no, no. Darling.",
+      "scene": 9
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh!",
+      "scene": 9
     },
     {
       "character": "QUEEN LILLIAN",
-      "text": "Really--"
+      "text": "So, Fiona, tell us about where you live.",
+      "scene": 9
     },
     {
-      "character": "FIONA",
-      "text": "Don't--"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Want--"
+      "character": "PRINCESS FIONA",
+      "text": "Well, Shrek owns his own land. Don't you, honey?",
+      "scene": 9
     },
     {
       "character": "SHREK",
-      "text": "To--"
+      "text": "Oh, yes! It's in an enchanted forest, abundant in squirrels and cute little duckies and...",
+      "scene": 9
+    },
+    {
+      "character": "DONKEY",
+      "text": "What? I know you ain't talking about the swamp.",
+      "scene": 9
+    },
+    {
+      "character": "SHREK",
+      "text": "Donkey!",
+      "scene": 9
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "An ogre from a swamp. Oh! How original.",
+      "scene": 9
     },
     {
       "character": "QUEEN LILLIAN",
-      "text": "Be--"
-    },
-    {
-      "character": "SHREK/KING HAROLD",
-      "text": "Here!"
-    },
-    {
-      "character": "FIONA",
-      "text": "Mom, Dad. I’d like you to meet my husband…Shrek."
+      "text": "Well, I suppose that would be a fine place to raise the children.",
+      "scene": 9
     },
     {
       "character": "SHREK",
-      "text": "Well, um… It’s easy to see where Fiona gets her good looks from."
-    },
-    {
-      "character": "FIONA",
-      "text": "Excuse me."
-    },
-    {
-      "character": "SHREK",
-      "text": "Better out than in, I always say, eh, Fiona?"
-    },
-    {
-      "character": "SHREK",
-      "text": "That’s good..."
-    },
-    {
-      "character": "SHREK",
-      "text": "I guess not..."
-    },
-    {
-      "character": "DONKEY",
-      "text": "What do you mean, \"not on the list\"? Don’t tell me you don’t know who I am."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Hey! What’s happening, everybody? Thanks for waiting. You know I had the hardest time finding this place."
+      "text": "Ah... It's a bit early to be thinking about that, isn't it?",
+      "scene": 9
     },
     {
       "character": "KING HAROLD",
-      "text": "No! No! Bad donkey! Bad! Down!"
-    },
-    {
-      "character": "FIONA",
-      "text": "No, no, no, Dad! It’s all right! It’s all right. He’s with us. He helped rescue me from the dragon."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Yup, that's me. The noble steed. Hey, waiter! How ‘bout a bowl for the steed?"
-    },
-    {
-      "character": "SHREK",
-      "text": "Oh, boy..."
-    },
-    {
-      "character": "FIONA",
-      "text": "Um, Shrek?"
-    },
-    {
-      "character": "SHREK",
-      "text": "Yeah?..Oh! Sorry! Great soup, Mrs. Q. Mmm!"
-    },
-    {
-      "character": "FIONA",
-      "text": "No, no. Darling."
-    },
-    {
-      "character": "SHREK",
-      "text": "Oh!"
+      "text": "Indeed. I just started eating.",
+      "scene": 9
     },
     {
       "character": "QUEEN LILLIAN",
-      "text": "So, Fiona, tell us about where you live."
-    },
-    {
-      "character": "FIONA",
-      "text": "Well… Shrek owns his own land. Don’t you, honey?"
+      "text": "Harold!",
+      "scene": 9
     },
     {
       "character": "SHREK",
-      "text": "Oh, yes! It’s in an enchanted forest abundant in squirrels and... cute little duckies and--"
+      "text": "What's that supposed to mean?",
+      "scene": 9
     },
     {
-      "character": "DONKEY",
-      "text": "What?! (laughing) I know you ain’t talking about the swamp!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Donkey!"
+      "character": "PRINCESS FIONA",
+      "text": "Dad. It's great, okay?",
+      "scene": 9
     },
     {
       "character": "KING HAROLD",
-      "text": "An ogre from a swamp. Oh! How original."
+      "text": "Well, for his type, yes.",
+      "scene": 9
+    },
+    {
+      "character": "SHREK",
+      "text": "My type?",
+      "scene": 9
+    },
+    {
+      "character": "DONKEY",
+      "text": "I got to go to the bathroom.",
+      "scene": 9
+    },
+    {
+      "character": "WAITER",
+      "text": "Dinner is served!",
+      "scene": 9
+    },
+    {
+      "character": "DONKEY",
+      "text": "Never mind. I can hold it.",
+      "scene": 9
+    },
+    {
+      "character": "WAITER",
+      "text": "Bon appétit!",
+      "scene": 9
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, Mexican food! My favorite.",
+      "scene": 9
     },
     {
       "character": "QUEEN LILLIAN",
-      "text": "Well, I suppose that would be a fine place to raise the children..."
+      "text": "Well, let's not just sit here with our tummies rumbling. Everybody dig in.",
+      "scene": 9
     },
     {
-      "character": "SHREK",
-      "text": "(chuckling) It’s a bit early to be thinking about that, isn’t it?"
+      "character": "DONKEY",
+      "text": "Don't mind if I do, Lillian.",
+      "scene": 9
     },
     {
       "character": "KING HAROLD",
-      "text": "Indeed. (sternly) I just started eating."
+      "text": "So, I suppose any grandchildren I could expect from you would be...",
+      "scene": 9
+    },
+    {
+      "character": "SHREK",
+      "text": "Ogres, yes!",
+      "scene": 9
     },
     {
       "character": "QUEEN LILLIAN",
-      "text": "Harold!"
-    },
-    {
-      "character": "SHREK",
-      "text": "What’s that supposed to mean?"
-    },
-    {
-      "character": "FIONA",
-      "text": "Dad. It’s great, okay?"
+      "text": "Not that there's anything wrong with that. Right, Harold?",
+      "scene": 9
     },
     {
       "character": "KING HAROLD",
-      "text": "Well, for his type, yes."
+      "text": "Oh, no! No! Of course, not! That is, assuming you don't eat your own young!",
+      "scene": 9
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Dad!",
+      "scene": 9
     },
     {
       "character": "SHREK",
-      "text": "My type?!"
+      "text": "Oh, no. We usually prefer the ones who've been locked away in a tower!",
+      "scene": 9
     },
     {
-      "character": "DONKEY",
-      "text": "Uhhh--I gotta go to the bathroom."
+      "character": "PRINCESS FIONA",
+      "text": "Shrek, please!",
+      "scene": 9
     },
     {
-      "character": "CHEF",
-      "text": "Dinner is served!"
+      "character": "KING HAROLD",
+      "text": "I only did that because I love her.",
+      "scene": 9
     },
     {
-      "character": "DONKEY",
-      "text": "Never mind. I can hold it."
+      "character": "SHREK",
+      "text": "Oh, aye, day care or dragon-guarded castle.",
+      "scene": 9
     },
     {
-      "character": "CHEF",
-      "text": "Bon appetit!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Ooh, Mexican food! My favorite!"
+      "character": "KING HAROLD",
+      "text": "You wouldn't understand. You're not her father!",
+      "scene": 9
     },
     {
       "character": "QUEEN LILLIAN",
-      "text": "Well, let’s not just sit here with our tummies rumbling. Everybody dig in!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Don’t mind if I do, Lillian."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "So, I suppose any grandchildren I could expect from you would be--"
-    },
-    {
-      "character": "SHREK",
-      "text": "Ogres, yes!"
+      "text": "It's so nice to have the family together for dinner.",
+      "scene": 9
     },
     {
       "character": "QUEEN LILLIAN",
-      "text": "Not that there’s anything wrong with that. Right, Harold?"
+      "text": "Harold!",
+      "scene": 9
     },
     {
-      "character": "KING HAROLD",
-      "text": "Oh, no! No! Of course, not! That is, assuming you don’t eat your own young!"
-    },
-    {
-      "character": "FIONA",
-      "text": "Dad!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Oh, no, we usually prefer the ones who’ve been locked away in a tower!"
-    },
-    {
-      "character": "FIONA",
-      "text": "Shrek, please!"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "I only did that because I love her!"
+      "character": "PRINCESS FIONA",
+      "text": "Shrek!",
+      "scene": 9
     },
     {
       "character": "SHREK",
-      "text": "Oh, aye! Daycare or dragon-guarded castle?!"
+      "text": "Fiona!",
+      "scene": 9
     },
     {
       "character": "KING HAROLD",
-      "text": "You wouldn’t understand! You’re not her father!"
+      "text": "Fiona!",
+      "scene": 9
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Mom!",
+      "scene": 9
     },
     {
       "character": "QUEEN LILLIAN",
-      "text": "It’s so nice to have the family together for dinner."
-    },
-    {
-      "character": "QUEEN LILLIAN",
-      "text": "Harold!"
-    },
-    {
-      "character": "FIONA",
-      "text": "Shrek!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Fiona!"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Fiona!"
-    },
-    {
-      "character": "FIONA",
-      "text": "Mom!"
-    },
-    {
-      "character": "QUEEN LILLIAN",
-      "text": "Harold."
+      "text": "Harold...",
+      "scene": 9
     },
     {
       "character": "DONKEY",
-      "text": "Donkey!"
+      "text": "Donkey!",
+      "scene": 9
     },
     {
       "character": "FAIRY GODMOTHER",
-      "text": "Oh! Oh, my dear. Oooh, look at you, you're all um...grown up. [chuckles]"
+      "text": "Oh, my dear. Oh, look at you. You're all, um, grown up.",
+      "scene": 10
     },
     {
-      "character": "FIONA",
-      "text": "Um, who are you?"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Oh, sweet pea! I’m your Fairy Godmother."
-    },
-    {
-      "character": "FIONA",
-      "text": "I have a fairy godmother?"
+      "character": "PRINCESS FIONA",
+      "text": "Um, who are you?",
+      "scene": 10
     },
     {
       "character": "FAIRY GODMOTHER",
-      "text": "Shu-shu-shu--shush, shush. Now, don’t worry. I’m here to make it all better. With...just...a…"
+      "text": "Oh, sweet pea! I'm your fairy godmother.",
+      "scene": 10
     },
     {
-      "character": "FIONA",
-      "text": "Stop, please!"
-    },
-    {
-      "character": "FIONA",
-      "text": "Stop!"
-    },
-    {
-      "character": "FIONA",
-      "text": "(chuckles) Look...thank you very much, Fairy Godmother, but I really don’t need all this."
-    },
-    {
-      "character": "SHREK",
-      "text": "Fiona? Fiona?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Oh! You got a puppy? All I got in my room was shampoo."
-    },
-    {
-      "character": "FIONA",
-      "text": "Oh...uh…Fairy Godmother, furniture…I’d like you to meet my husband, Shrek."
+      "character": "PRINCESS FIONA",
+      "text": "I have a fairy godmother?",
+      "scene": 10
     },
     {
       "character": "FAIRY GODMOTHER",
-      "text": "Your husband? What--what did you say? When did this happen?"
+      "text": "Now don't worry. I'm here to make it all better. With just a...",
+      "scene": 10
     },
     {
-      "character": "FIONA",
-      "text": "Shrek is the one who rescued me."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "But that can’t be right!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Oh, great, more relatives!"
-    },
-    {
-      "character": "FIONA",
-      "text": "She’s just trying to help."
-    },
-    {
-      "character": "SHREK",
-      "text": "Good! She can help us pack. Get your coat, dear. We’re leaving."
-    },
-    {
-      "character": "FIONA",
-      "text": "What?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Leaving? I don’t want to leave."
-    },
-    {
-      "character": "FIONA",
-      "text": "When did you decide this?"
-    },
-    {
-      "character": "SHREK",
-      "text": "Shortly after arriving."
-    },
-    {
-      "character": "FIONA",
-      "text": "Look, I I’m sorry…"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "No, no, no, no, that’s all right. I need to go, anyway. But remember, dear, if you should ever need me…happiness…is just a teardrop away."
-    },
-    {
-      "character": "SHREK",
-      "text": "Thanks, but we’ve got all the happiness we need. Happy, happy, happy!"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "So I see...let’s go, Kyle."
-    },
-    {
-      "character": "FIONA",
-      "text": "Very nice, Shrek."
-    },
-    {
-      "character": "SHREK",
-      "text": "What? I told you coming here was a bad idea."
-    },
-    {
-      "character": "FIONA",
-      "text": "You could've at least tried to get along with my father!"
-    },
-    {
-      "character": "SHREK",
-      "text": "You know, somehow I don’t think I was going to get Daddy’s blessing even if I did want it!"
-    },
-    {
-      "character": "FIONA",
-      "text": "Well, do you think it might be nice if somebody asked me what I wanted?"
-    },
-    {
-      "character": "SHREK",
-      "text": "Sure. Do you want me to pack for you?"
-    },
-    {
-      "character": "FIONA",
-      "text": "You're unbelievable! You’re behaving like a…"
-    },
-    {
-      "character": "SHREK",
-      "text": "Go on! Say it!"
-    },
-    {
-      "character": "FIONA",
-      "text": "Like an ogre!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Well, here’s a news flash for you: whether your parents like it or not, I am an ogre!"
-    },
-    {
-      "character": "SHREK",
-      "text": "And guess what, princess? That’s not about to change."
-    },
-    {
-      "character": "FIONA",
-      "text": "I’ve made changes for you, Shrek. Think about that."
-    },
-    {
-      "character": "DONKEY",
-      "text": "That’s real smooth, Shrek. \"I’m an ogre!\" [mimics Shrek roars]"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "I knew this would happen."
-    },
-    {
-      "character": "QUEEN LILLIAN",
-      "text": "You should. You started it."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "I can hardly believe that, Lillian. I mean really, he's the ogre. Not me."
-    },
-    {
-      "character": "QUEEN LILLIAN",
-      "text": "I think, Harold, you’re taking this a little too personally. This is Fiona’s choice."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Yes, but she was supposed to choose the prince we picked out for her! I mean, you expect me to give my blessings to this…this...thing?"
-    },
-    {
-      "character": "QUEEN LILLIAN",
-      "text": "Fiona does. And she’ll never forgive you if you don’t. I don’t want to lose our daughter again, Harold."
-    },
-    {
-      "character": "QUEEN LILLIAN",
-      "text": "Ugh, you act as if love is totally predictable. Don’t you remember when we were young? And oh, we used to walk down by the lily pond and they were in bloom…"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Our first kiss... (snapping out of it) it’s not the same! I don’t think you realize that our daughter has married a monster!"
-    },
-    {
-      "character": "QUEEN LILLIAN",
-      "text": "Oh, stop being such a drama king."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Fine! Fine! Pretend there’s nothing wrong! (dances around) La, di, da, di, da, di da! Isn’t it all wonderful! I’d like to know how it could get any worse!"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Hello, Harold."
-    },
-    {
-      "character": "QUEEN LILLIAN",
-      "text": "What happened?"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Uh, nothing! Nothing, dear! Just the old crusade wound playing up a bit! [chuckles] I’ll... just stretch it out here for a while!"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "...uh, we, we make this a quick visit. What? What?"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Oh, hello. Ha-ha-ha!"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "So, what’s new?"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "You remember my son, Prince Charming?"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Charming! Oh! Is that you? My gosh! It's been years! How--when...when, when, when did you get back?"
-    },
-    {
-      "character": "PRINCE CHARMING",
-      "text": "Oh, about 5 minutes ago, actually... (angrily) after I endured blistering winds! Scorching deser"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Oh, hello. Ha-ha-ha!"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "So, what’s new?"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "You remember my son, Prince Charming?"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Charming! Oh! Is that you? My gosh! It's been years! How--when...when, when, when did you get back?"
-    },
-    {
-      "character": "PRINCE CHARMING",
-      "text": "Oh, about 5 minutes ago, actually... (angrily) after I endured blistering winds! Scorching desert! I climbed to the highest room of the tallest tower–-"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Mommy can handle this.. (continuing her son's rant) He endures blistering winds and scorching desert! He climbs to the highest bloody room of the tallest bloody tower!"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "But, but, but..."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "And what does he find? Some gender-confused wolf telling him that his princess--"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "If I could just--"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "--is already married!"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "I mean, It wasn’t my fault. He didn’t get there in time."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Stop the car!"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Harold..."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "You force me to do something I really don’t want to do."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Where are we?"
-    },
-    {
-      "character": "PRISCILLA",
-      "text": "Well, hi, there! Welcome to Friar’s Fat Boy, may I take your order?"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "My diet is ruined! I hope you’re happy. (turns to the clerk) Er… okay. Two Renaissance Wraps, no mayo… chili ring..."
-    },
-    {
-      "character": "PRINCE CHARMING",
-      "text": "I’ll have the Medieval Meal."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Yeah, one Medieval Meal and Harold… curly fries?"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "No, thank you."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Sourdough soft taco, then? What do you want?"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "No, really, I’m fine."
-    },
-    {
-      "character": "PRISCILLA",
-      "text": "Your order, Fairy Godmother."
-    },
-    {
-      "character": "PRISCILLA",
-      "text": "And this comes with the Medieval Meal."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "There you are, dear."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "You see we made a deal, Harold, and I assume you don’t want me to go back on my part."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Indeed not."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "So Fiona and Charming will be together."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Yes."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Oh, believe me, Harold. It’s what’s best. Not only for your daughter…"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "...but for your Kingdom."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "What am I supposed to do about it?"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Use your imagination."
-    },
-    {
-      "character": "CYCLOPS",
-      "text": "Oh…uh come on in, Your Majesty."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Um, excuse me?"
-    },
-    {
-      "character": "MISS FROG",
-      "text": "Hey. Do I know you?"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Uh, no, you must be mistaking me for someone else. Uh… excuse me. I’m looking for the Ugly Stepsister."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Ah! There you are. Right. You see, I...I need to have someone taken care of ."
-    },
-    {
-      "character": "DORIS",
-      "text": "Who’s the guy?"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Well, he’s not a guy, per se. Um… he’s an ogre."
-    },
-    {
-      "character": "DORIS",
-      "text": "Hey, buddy, let me clue you in. There’s only one fella who can handle a job like that, and, frankly…he don't like to be disturbed."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Where could I find him?"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "H-Hello?"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Who dares enter my room?"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Sorry! I hope I’m not interrupting, but I’m told you’re the one to talk to about an...ogre problem?"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "You are told correct, but for this I charge a great deal of money."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Would… this be enough?"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Hmm. You have engaged my valuable services...Your Majesty. Just tell me where I can find this ogre."
-    },
-    {
-      "character": "PRINCESS TOY",
-      "text": "Dear knight, I pray that you take this favor as a token of my gratitude."
-    },
-    {
-      "character": "FIONA",
-      "text": "Dear Diary. Sleeping Beauty is having a slumber party tomorrow, but Dad says I can’t go. He never lets me out after sunset."
-    },
-    {
-      "character": "FIONA",
-      "text": "Dad says I’m going away for a while. Must be like some finishing school or something."
-    },
-    {
-      "character": "FIONA",
-      "text": "Mom says that when I’m old enough, my Handsome Prince Charming will rescue me from my tower and bring me back to my family!"
-    },
-    {
-      "character": "FIONA",
-      "text": "And we'll all live happily ever after!"
-    },
-    {
-      "character": "FIONA",
-      "text": "Mrs. Fiona Charming."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Sorry. I hope I’m not interrupting anything."
-    },
-    {
-      "character": "SHREK",
-      "text": "No, no. I was just reading a, uh…a scary book."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "I was hoping you’d let me apologize for my despicable behavior earlier."
-    },
-    {
-      "character": "SHREK",
-      "text": "Okay?"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "I don’t know what came over me. Do you suppose we could pretend it never happened and start over?"
-    },
-    {
-      "character": "SHREK",
-      "text": "Look, Your Majesty, I just…"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Please, call me Dad."
-    },
-    {
-      "character": "SHREK",
-      "text": "Dad. We both acted like ogres. Maybe we just need some time to get to know each other."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Excellent idea! I was actually hoping you might join me for a morning hunt. A little...father-son time? I know it would mean the world to Fiona."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Shall we say 7:30 by the old oak?"
-    },
-    {
-      "character": "SHREK",
-      "text": "Face it, Donkey! We’re lost."
-    },
-    {
-      "character": "DONKEY",
-      "text": "We can’t be lost! We followed the king’s instructions exactly. What did he say? \"Head to the darkest part of the woods…\""
-    },
-    {
-      "character": "SHREK",
-      "text": "Aye."
-    },
-    {
-      "character": "DONKEY",
-      "text": "\"Past the sinister trees with those scary-looking branches.\""
-    },
-    {
-      "character": "SHREK",
-      "text": "Check."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Yeah, and there’s the bush shaped like Shirley Bassey!"
-    },
-    {
-      "character": "SHREK",
-      "text": "We passed that bush 3 times already!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Hey, you were the one who said you didn't want to stop and get directions."
-    },
-    {
-      "character": "SHREK",
-      "text": "Oh, great. My one chance to fix things up with Fiona’s dad, and I end up lost in the woods with you!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Alright, you don’t have to get huffy with me, I’m only trying to help."
-    },
-    {
-      "character": "SHREK",
-      "text": "I know! I know. (sighs) I’m sorry, all right?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Hey, don’t worry about it."
-    },
-    {
-      "character": "SHREK",
-      "text": "I just really need to make things work with this guy."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Yeah, sure. Now let’s go bond with Daddy."
-    },
-    {
-      "character": "SHREK",
-      "text": "Well, well, well, Donkey. I know it was kind of a tender moment back there, but the purring?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Man, what are you talking about? I ain’t purring."
-    },
-    {
-      "character": "SHREK",
-      "text": "Oh, sure. What’s next? A hug?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Hey, Shrek. Donkeys don’t purr. What do you think I am, some kind of a…"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Ha-ha! Fear me, if you dare! (hisses)"
-    },
-    {
-      "character": "SHREK",
-      "text": "Hey, look! A little cat."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Look out, Shrek! He got a piece!"
-    },
-    {
-      "character": "SHREK",
-      "text": "It’s a cat, Donkey. Come here, little kitty, kitty. Come on, little kitty. Come here. Oh! Come here, little kitty."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Hold on, Shrek! I’m coming!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Come on! Oh, get it off! Oh, get it off! Oh, God. Oh… No! Ooh! Aagh!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Look out, Shrek! Hold still!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Get it off!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Shrek! Hold still!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Did I miss?"
-    },
-    {
-      "character": "SHREK",
-      "text": "No. You got them."
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Now, ye ogre, pray for mercy from… Puss…in Boots !"
-    },
-    {
-      "character": "SHREK",
-      "text": "Ohh, I’ll kill that cat!"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Ah-ha-ha!"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Hairball."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Oh! That is nasty!"
-    },
-    {
-      "character": "SHREK",
-      "text": "What do you reckon we should do with him?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "I say we take the sword and neuter him right here. Give him the Bob Barker treatment!?"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Oh, no! Por favor! Please! I implore you! It was nothing personal, Señor! I was doing it only for my family. My mother, she is sick. And my father lives off the garbage! The king offered me much in gold and I have a litter of brothers…"
-    },
-    {
-      "character": "SHREK",
-      "text": "Whoa...whoa...whoa, whoa, whoa, whoa!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Fiona’s father paid you to do this?"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "The rich King? Sí."
-    },
-    {
-      "character": "SHREK",
-      "text": "Well, so much for Dad’s royal blessing."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Oh, come on, Shrek, don’t feel bad. Almost everybody that meets you wants to kill you."
-    },
-    {
-      "character": "SHREK",
-      "text": "Gee, thanks. (sighs) Maybe Fiona would’ve been better off if I were some sort of Prince Charming."
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Sí, that’s what the King said."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Oh, uh… sorry. I thought that question was directed at me."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Shrek, Fiona knows you’d do anything for her."
-    },
-    {
-      "character": "SHREK",
-      "text": "Well, it’s not like I wouldn’t change if I could. I just… I just wish I could make her happy. [tiny pauses out] Hold the phone…"
-    },
-    {
-      "character": "SHREK",
-      "text": "\"Happiness. A tear drop away.\" Donkey! Think of the saddest thing that’s ever happened to you."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Aw, man, where do I begin? Well, first there was the time that old farmer tried to sell me for some magic beans. I ain't never got over that. Then this fool went off and had a party and he have the guests trying to pin the tail on me. Then they got all drunk and start beating me with a stick going, \"Piñata! Piñata!\" What is a piñata, anyway?!"
-    },
-    {
-      "character": "SHREK",
-      "text": "No, Donkey! I need you to cry!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Yeah, well don’t go projecting on me! I know you’re feeling bad, but you gotta let your own--"
-    },
-    {
-      "character": "DONKEY",
-      "text": "You little, hairy, litter-licking sack of..."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Oh…"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "What? Is it on? Is it on? [clears throat] This is Fairy Godmother. I’m either away from my desk or with a client. But if you come by the office, we’ll be glad to make you a personal appointment. Have a happy ever after."
-    },
-    {
-      "character": "SHREK",
-      "text": "Are you up for a little quest, Donkey?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "That’s more like it! Shrek and Donkey, on another whirlwind adventure! 🎶Ain’t no stopping us now! Whoo! We’re on the move!🎶"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Stop, Ogre! I have misjudged you."
-    },
-    {
-      "character": "SHREK",
-      "text": "Join the club. We’ve got jackets."
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "On my honor, I am obliged to accompany you until I have saved your life as you have spared me mine."
-    },
-    {
-      "character": "DONKEY",
-      "text": "I'm sorry, the position of annoying talking animals has already been taken. Let’s go, Shrek! Shrek?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Shrek!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Aw, come on, Donkey. Look at him… in his wee little boots. You know, how many cats can wear boots? Honestly. Aw, let’s keep him!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Say what?!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "I'm sorry, the position of annoying talking animals has already been taken. Let’s go, Shrek! Shrek?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Shrek!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Aw, come on, Donkey. Look at him… in his wee little boots. You know, how many cats can wear boots? Honestly. Aw, let’s keep him!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Say what?!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Aw, listen. He’s purring!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Oh, so now it’s cute!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Aw, come on, Donkey. Lighten up."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Lighten up? Oh, I should lighten up?! Look who’s telling who to lighten up!"
-    },
-    {
-      "character": "FIONA",
-      "text": "[giggles] Shrek!"
-    },
-    {
-      "character": "FIONA",
-      "text": "Shrek?"
-    },
-    {
-      "character": "QUEEN LILLIAN",
-      "text": "They’re both festive, aren’t they? What do you think, Harold?"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Um… yes, yes. Fine. Fine."
-    },
-    {
-      "character": "QUEEN LILLIAN",
-      "text": "Try to at least pretend you’re interested in your daughter’s wedding ball."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Honestly, Lillian, I don’t think it matters. How do we know there will even be a ball?"
-    },
-    {
-      "character": "FIONA",
-      "text": "Mom! Dad!"
-    },
-    {
-      "character": "QUEEN LILLIAN",
-      "text": "Oh, hello, dear."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "What’s that, Cedric? Right! Coming!"
-    },
-    {
-      "character": "FIONA",
-      "text": "Mom, have you seen Shrek?"
-    },
-    {
-      "character": "QUEEN LILLIAN",
-      "text": "I haven’t. You should ask your father. Be sure and use small words, dear. He’s a little slow this morning."
-    },
-    {
-      "character": "CEDRIC",
-      "text": "Can I help you, Your Majesty?"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Ah, yes! Um…"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Mmm! Exquisite. What do you call this dish?"
-    },
-    {
-      "character": "CEDRIC",
-      "text": "That would be the dog’s breakfast, Your Majesty."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Ah, yes. Very good, then. Carry on, Cedric."
-    },
-    {
-      "character": "FIONA",
-      "text": "Dad? Dad, have you seen Shrek?"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Uh, no I haven’t, dear."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "I’m sure he just went off to look for a nice… mud hole to cool down in. You know, after your little spat last night."
-    },
-    {
-      "character": "FIONA",
-      "text": "Oh. You heard that, huh?"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Darling, the whole kingdom heard you. I mean, after all, it is in his nature to be…well, a bit of a brute."
-    },
-    {
-      "character": "FIONA",
-      "text": "Him? You know, you didn’t exactly roll out the Welcome Wagon!"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Well, what did you expect?! Look at what he’s done to you."
-    },
-    {
-      "character": "FIONA",
-      "text": "Shrek loves me for who I am. I would think you’d be happy for me."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Darling, I’m just thinking about what’s best for you. Maybe you should do the same."
-    },
-    {
-      "character": "SHREK",
-      "text": "No, really?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Oh…"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Oh, no. That’s the ol' Keebler’s place! Let’s just back away slowly."
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "That’s the Fairy Godmother’s cottage. She’s the largest producer of hexes and potions in the whole kingdom."
-    },
-    {
-      "character": "SHREK",
-      "text": "Then why don’t we pop in there for a spell? Ha-ha! Spell!"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "He makes me laugh!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Hi. I’m here to see the--"
-    },
-    {
-      "character": "JEROME",
-      "text": "The Fairy Godmother. I’m sorry. She is not in."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Jerome, coffee and a Monte Cristo. Now!"
-    },
-    {
-      "character": "JEROME",
-      "text": "[sighs] Yes, Fairy Godmother. Right away. Look, she’s not seeing any clients today, okay?"
-    },
-    {
-      "character": "SHREK",
-      "text": "That’s okay, buddy. We’re from the union."
-    },
-    {
-      "character": "JEROME",
-      "text": "The union?"
-    },
-    {
-      "character": "SHREK",
-      "text": "We represent the workers in all magical industries, both evil and benign."
-    },
-    {
-      "character": "JEROME",
-      "text": "Oh! Oh, right."
-    },
-    {
-      "character": "SHREK",
-      "text": "Are you feeling at all degraded or oppressed?"
-    },
-    {
-      "character": "JEROME",
-      "text": "Uh… a little. W--w--we don’t even have dental."
-    },
-    {
-      "character": "SHREK",
-      "text": "They don’t even have dental. Okay, we're just gonna have a look around. Oh. By the way. I think it’d be better if the Fairy Godmother didn’t know we were here. Know what I’m saying? Huh?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Hmm?"
-    },
-    {
-      "character": "SHREK",
-      "text": "Huh?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Huh? Huh? Huh?!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Stop it."
-    },
-    {
-      "character": "JEROME",
-      "text": "(whispers) Of course. Go right in."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "🎶A drop of desire!🎶[giggles] Naughty!"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "🎶A pinch of passion. 🎶[laughs] 🎶And just a hint of…lust!🎶 [laughs]"
-    },
-    {
-      "character": "SHREK",
-      "text": "Excuse me."
-    },
-    {
-      "character": "SHREK",
-      "text": "Sorry to barge in like this but uh--"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "What in Grimm’s name are you doing here?"
-    },
-    {
-      "character": "SHREK",
-      "text": "Well...it seems that Fiona’s not exactly happy."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Oh-ho-ho! And there’s some question as to why that is? Well, let’s explore that, shall we?"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Ah. P, P, P, P, P…Princess."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Cinderella! Here we are. \"Lived happily ever after.\" Oh…[laughs] No ogres!"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Let’s see. Snow White. A handsome prince. Oh...no ogres."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Sleeping Beauty. Oh, no ogres! Hansel and Gretel? No! Thumbelina? No. The Golden Bird, the Little Mermaid, Pretty Woman…No, no, no, no, no!"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "You see, ogres don’t live happily ever after."
-    },
-    {
-      "character": "SHREK",
-      "text": "All right, look, lady!"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Don’t you point… those dirty green sausages at me!"
-    },
-    {
-      "character": "WORKER",
-      "text": "Your Monte Cristo and coffee--oh! Sorry."
-    },
-    {
-      "character": "SHREK",
-      "text": "Ah… that’s okay. We were just leaving. Very sorry to have wasted your time, Miss Godmother."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Just… go."
-    },
-    {
-      "character": "SHREK",
-      "text": "Come on, guys."
-    },
-    {
-      "character": "SHREK",
-      "text": "TGIF, eh, buddy? Working hard or hardly working, eh, Mac?"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Oh! Eh!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Hey, man, you wanna get your fine Corinthian footwear and your cat cheeks out of my face? Man, that stinks!"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Well, you don’t exactly smell like a basket of roses."
-    },
-    {
-      "character": "SHREK",
-      "text": "Well, one of these has got to help."
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Ah, I was just concocting this very plan. Already our minds are becoming one."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Whoa, whoa, whoa, now. Listen, if we need an expert on licking ourselves, we’ll give you a call. Shrek, this is a bad idea."
-    },
-    {
-      "character": "SHREK",
-      "text": "Look. Make yourself useful and go keep watch. Puss, do you think you could get to those on top?"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "No problema, boss. In one of my 9 lives I was the great cat burglar of Santiago de Compostela! (laughs)"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Shrek, are you off your nut?"
-    },
-    {
-      "character": "SHREK",
-      "text": "Donkey, keep watch."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Keep watch? Yeah, Imma keep watch. I’ll watch that wicked witch come and whammy zammy a world of hurt all up your backside. I'm gonna laugh, too. I’ll be giggling to myself."
-    },
-    {
-      "character": "SHREK",
-      "text": "What do you see?"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "\"Toad Stool Softener\"?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Oh yeah, right, I’m sure a nice BM is the perfect solution for marital problems!"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "\"Elfa Seltzer\"?"
-    },
-    {
-      "character": "SHREK",
-      "text": "Uh-uh."
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "\"Hex Lax\"?"
-    },
-    {
-      "character": "SHREK",
-      "text": "No! Try \"handsome.\""
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Sorry. No handsome."
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Hey! How about \" Happily Ever After \"?"
-    },
-    {
-      "character": "SHREK",
-      "text": "Well, what does it do?"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "It says \"Beauty Divine.\""
-    },
-    {
-      "character": "DONKEY",
-      "text": "You know in some cultures, donkeys are revered as the wisest of all creatures. Especially us talking ones."
-    },
-    {
-      "character": "SHREK",
-      "text": "[gasps] Donkey!"
-    },
-    {
-      "character": "SHREK",
-      "text": "That’ll have to do. We’ve got company!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Can we get on with this?"
-    },
-    {
-      "character": "SHREK",
-      "text": "Hurry!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Nice catch, Donkey!"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Finally! A use for your mouth."
-    },
-    {
-      "character": "SHREK",
-      "text": "Come on!"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "I don’t care whose fault it is. Just get this place cleaned up!"
-    },
-    {
-      "character": "DOVES",
-      "text": "Yes, Godmother."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "And somebody bring me something deep fried and smothered in chocolate!"
-    },
-    {
-      "character": "PRINCE CHARMING",
-      "text": "Mother!"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Charming. Sweetheart. Well, this isn’t a good time, pumpkin. Mama’s working."
-    },
-    {
-      "character": "PRINCE CHARMING",
-      "text": "Whoa, what happened here?"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "The ogre, that’s what!"
-    },
-    {
-      "character": "PRINCE CHARMING",
-      "text": "What?! Where is he, Mom?"
-    },
-    {
-      "character": "PRINCE CHARMING",
-      "text": "I shall rend his head from his shoulders! I will smite him where he stands! He will rue the very day he stole my kingdom from me!"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Oh, put it away, Junior! You’re still going to be king. We’ll just have to come up with something smarter."
-    },
-    {
-      "character": "JEROME",
-      "text": "Pardon. Um…e-everything is accounted for, Fairy Godmother."
-    },
-    {
-      "character": "JEROME",
-      "text": "Except for one potion."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "What? Oh… I do believe we can make this work to our advantage."
-    },
-    {
-      "character": "SHREK",
-      "text": "\"Happily Ever After Potion. Maximum strength. For you and your true love. If one of you drinks this, you both will be fine. Happiness, comfort and beauty divine.\""
-    },
-    {
-      "character": "DONKEY",
-      "text": "\"You both will be fine\"?"
-    },
-    {
-      "character": "SHREK",
-      "text": "I guess it means it’ll affect Fiona, too."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Hey, man, this don’t feel right. My donkey senses are tingling all over. So why don't you just drop that jug o’ voodoo and let’s get out of here."
-    },
-    {
-      "character": "SHREK",
-      "text": "It says, \"Beauty Divine.\" How bad can it be?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Aha! See, you’re allergic to that stuff. You’re gonna have a reaction. And if you think that I’ll be smearing VapoRub all over your chest, think again!"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Boss, just in case there is something wrong with the potion… allow me to take the first sip. It would be an honor to lay my life on the line for you."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Oh, no, no. I don’t think so. If there's gonna be any animal testing, I’m gonna do it. That’s the best friend’s job. Now give me that bottle."
-    },
-    {
-      "character": "SHREK",
-      "text": "How do you feel?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Well, I don’t feel any different. I look any different?"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "You still look like an ass to me."
-    },
-    {
-      "character": "SHREK",
-      "text": "Maybe it doesn’t work on donkeys. Well, here’s to us, Fiona."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Shrek? You drink that, there’s no going back."
-    },
-    {
-      "character": "SHREK",
-      "text": "I know."
-    },
-    {
-      "character": "DONKEY",
-      "text": "But, no more wallowing in the mud?"
-    },
-    {
-      "character": "SHREK",
-      "text": "I know."
-    },
-    {
-      "character": "DONKEY",
-      "text": "No more itchy butt crack?"
-    },
-    {
-      "character": "SHREK",
-      "text": "I know!"
-    },
-    {
-      "character": "SHREK",
-      "text": "How do you feel?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Well, I don’t feel any different. I look any different?"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "You still look like an ass to me."
-    },
-    {
-      "character": "SHREK",
-      "text": "Maybe it doesn’t work on donkeys. Well, here’s to us, Fiona."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Shrek? You drink that, there’s no going back."
-    },
-    {
-      "character": "SHREK",
-      "text": "I know."
-    },
-    {
-      "character": "DONKEY",
-      "text": "But, no more wallowing in the mud?"
-    },
-    {
-      "character": "SHREK",
-      "text": "I know."
-    },
-    {
-      "character": "DONKEY",
-      "text": "No more itchy butt crack?"
-    },
-    {
-      "character": "SHREK",
-      "text": "I know!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "But you love being an ogre!"
-    },
-    {
-      "character": "SHREK",
-      "text": "I know! (sighs) But I love Fiona more."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Shrek, no! Wait!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Ooh, got to be… I think you grabbed the \"Farty Ever After\" potion."
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Maybe it’s a dud."
-    },
-    {
-      "character": "SHREK",
-      "text": "Or maybe Fiona and I were never meant to be."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Uh-oh. What did I tell you? I think I feel something coming on. I don’t want to die. I don’t want to die. I don’t want to die!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Oh, sweet sister, mother of mercy. I’m melting! I’m melting!!!"
-    },
-    {
-      "character": "SHREK",
-      "text": "It’s just the rain, Donkey."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Oh."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Shrek, don’t worry. Things seem bad because it’s dark and rainy and Fiona’s father hired a sleazy hitman to whack you."
-    },
-    {
-      "character": "DONKEY",
-      "text": "lt’ll be better in the morning. You’ll see. 🎶The sun’ll come out…tomorrow. Bet your bottom…🎶"
-    },
-    {
-      "character": "SHREK",
-      "text": "Bet my bottom?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "I’m coming, Elizabeth!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Donkey? Are you all right?"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Hey, boss. Let’s shave him."
-    },
-    {
-      "character": "SHREK",
-      "text": "D-Donkey?.."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "There you are! We missed you at dinner."
-    },
-    {
-      "character": "QUEEN LILLIAN",
-      "text": "What is it, darling?"
-    },
-    {
-      "character": "FIONA",
-      "text": "Dad…I’ve been thinking about what you said. And I’m going to set things right."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Ah! Excellent! That’s my girl."
-    },
-    {
-      "character": "FIONA",
-      "text": "It was a mistake to bring Shrek here. I’m going to go out and find him. And then we're gonna go back to the swamp where we belong."
-    },
-    {
-      "character": "QUEEN LILLIAN",
-      "text": "Fiona, please!"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Let’s not be rash, darling. You can’t go anywhere right now."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Fiona!"
-    },
-    {
-      "character": "QUEEN LILLIAN",
-      "text": "Fiona!"
-    },
-    {
-      "character": "MAIDEN #2",
-      "text": "Look look look, I told you he was here. Look at him! Look at him!"
-    },
-    {
-      "character": "MAIDEN #1",
-      "text": "Shh! Quiet!"
-    },
-    {
-      "character": "MAIDEN #2",
-      "text": "Look at him!"
-    },
-    {
-      "character": "JILL",
-      "text": "Good morning, sleepyhead."
-    },
-    {
-      "character": "JILL & MAIDENS",
-      "text": "Good morning!"
-    },
-    {
-      "character": "MAIDEN #2",
-      "text": "We love your kitty!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Oww…my head…"
-    },
-    {
-      "character": "JILL",
-      "text": "Here, I fetched a pail of water."
-    },
-    {
-      "character": "SHREK",
-      "text": "Thanks."
-    },
-    {
-      "character": "SHREK",
-      "text": "Oh!.. A cute, button nose? Thick, wavy locks? Taut, round buttocks?! I’m… I’m…"
-    },
-    {
-      "character": "JILL",
-      "text": "Gorgeous!"
-    },
-    {
-      "character": "MAIDEN #1",
-      "text": "I’ll say."
-    },
-    {
-      "character": "JILL",
-      "text": "I’m Jill. What’s your name?"
-    },
-    {
-      "character": "SHREK",
-      "text": "Um… Shrek."
-    },
-    {
-      "character": "JILL",
-      "text": "\"Shrek\"? Wow...are you from Europe?"
-    },
-    {
-      "character": "MAIDEN #1",
-      "text": "You’re so tense!"
-    },
-    {
-      "character": "JILL",
-      "text": "I want to rub his shoulders."
-    },
-    {
-      "character": "MAIDEN #1",
-      "text": "I got it covered, thanks."
-    },
-    {
-      "character": "MAIDEN #2",
-      "text": "I don’t have anything to rub!"
-    },
-    {
-      "character": "JILL",
-      "text": "Well, get in line."
-    },
-    {
-      "character": "SHREK",
-      "text": "Have you ladies seen my donkey?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Who are you calling donkey?!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Donkey? You’re a--"
-    },
-    {
-      "character": "DONKEY",
-      "text": "A stallion, baby! I can whinny! I can count!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Look at me, Shrek! I’m...trotting! That’s some quality potion! What’s in that stuff?"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "\"Oh, don’t take the potion, Mr. Boss, it’s very bad.\" Pah!"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "\"Warning: Side effects may include burning, itching, oozing, weeping. Not intended for heart patients or those with… nervous disorders.\""
-    },
-    {
-      "character": "DONKEY",
-      "text": "I’m trotting, I’m trotting in place! Yeah!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "What?"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Señor!"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "\"To make the effects of this potion permanent, the drinker must obtain his true love’s kiss by midnight.\""
-    },
-    {
-      "character": "SHREK",
-      "text": "Midnight?! Why is it always midnight?"
-    },
-    {
-      "character": "MAIDEN #1",
-      "text": "Oh! Pick me! I’ll be your true love!"
-    },
-    {
-      "character": "JILL",
-      "text": "I’ll be your true love."
-    },
-    {
-      "character": "MAIDEN #2",
-      "text": "I’ll be true... enough."
-    },
-    {
-      "character": "SHREK",
-      "text": "Look, ladies, I already have a true love."
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "And take it from me, boss. You are going to have one satisfied princess."
-    },
-    {
-      "character": "DONKEY",
-      "text": "And let’s face it. You are a lot easier on the eyes. But inside you’re the still same old, mean, salty…"
-    },
-    {
-      "character": "SHREK",
-      "text": "Easy--"
-    },
-    {
-      "character": "DONKEY",
-      "text": "…cantankerous, stinky..."
-    },
-    {
-      "character": "SHREK",
-      "text": "Alright then--"
-    },
-    {
-      "character": "DONKEY",
-      "text": "…foul, angry ogre you always been."
-    },
-    {
-      "character": "SHREK",
-      "text": "And you’re still the same annoying donkey."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Yeah."
-    },
-    {
-      "character": "SHREK",
-      "text": "Well, look out, princess. Here comes the new me!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "First things first, we need to get you out of those clothes."
-    },
-    {
-      "character": "SHREK",
-      "text": "Ready?"
-    },
-    {
-      "character": "DONKEY AND PUSS",
-      "text": "Ready!"
-    },
-    {
-      "character": "NOBLEMAN",
-      "text": "Driver, stop!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Oh, God! Help me, please! My racing days are over! I’m blind! I’m blind! Tell the truth, will I ever play the violin again?"
-    },
-    {
-      "character": "NOBLEMAN",
-      "text": "Oh, you poor creature! Is there anything I can do for you?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Well, I guess there is one thing..."
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Take off the powdered wig and step away from your drawers!"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Not bad."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Not bad at all."
-    },
-    {
-      "character": "NOBLEMAN'S SON",
-      "text": "Father? Is everything all right, Father?"
-    },
-    {
-      "character": "SHREK",
-      "text": "Thank you, gentlemen! Someday, I will repay you! Unless, of course, I can't find you or if I forget."
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Ey tú! Pedazo de carne con patas, cómo te atreves hacerme esto?!"
-    },
-    {
-      "character": "GUARD",
-      "text": "Halt!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Tell Princess Fiona her husband, Sir Shrek, is here to see her."
-    },
-    {
-      "character": "SHREK",
-      "text": "Fiona!"
-    },
-    {
-      "character": "FIONA",
-      "text": "Shrek?"
-    },
-    {
-      "character": "SHREK",
-      "text": "Fiona?"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Hello, handsome."
-    },
-    {
-      "character": "FIONA",
-      "text": "Shrek!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Princess!"
-    },
-    {
-      "character": "FIONA",
-      "text": "Donkey?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Wow! That potion worked on you too, huh?"
-    },
-    {
-      "character": "FIONA",
-      "text": "What potion?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Oh, it's kind of a long story but, see, Shrek and I took some magic potion. And well, now...we’re sexy!"
-    },
-    {
-      "character": "FIONA",
-      "text": "Shrek?"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "For you, baby… I could be."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Yeah, you wish."
-    },
-    {
-      "character": "FIONA",
-      "text": "Donkey, where is Shrek?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "He just went inside looking for you."
-    },
-    {
-      "character": "FIONA",
-      "text": "Shrek!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Fiona! Fiona!"
+      "character": "PRINCESS FIONA",
+      "text": "Stop! Look... Thank you very much, Fairy Godmother, but I really don't need all this.",
+      "scene": 11
     },
     {
       "character": "FURNITURE",
-      "text": "You want to dance, pretty boy?"
+      "text": "Fine. Be that way.",
+      "scene": 11
+    },
+    {
+      "character": "FURNITURE",
+      "text": "We didn't like you, anyway.",
+      "scene": 11
+    },
+    {
+      "character": "SHREK",
+      "text": "Fiona? Fiona!",
+      "scene": 11
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh! You got a puppy? All I got in my room was shampoo.",
+      "scene": 11
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Oh, uh... Fairy Godmother, furniture... I'd like you to meet my husband, Shrek.",
+      "scene": 11
     },
     {
       "character": "FAIRY GODMOTHER",
-      "text": "Are you going so soon? Don’t you want to see your wife?"
+      "text": "Your husband? What? What did you say? When did this happen?",
+      "scene": 11
     },
     {
-      "character": "PRINCE CHARMING",
-      "text": "Fiona?"
+      "character": "PRINCESS FIONA",
+      "text": "Shrek is the one who rescued me.",
+      "scene": 11
     },
     {
-      "character": "FIONA",
-      "text": "Shrek?"
+      "character": "FAIRY GODMOTHER",
+      "text": "But that can't be right.",
+      "scene": 11
     },
     {
-      "character": "PRINCE CHARMING",
-      "text": "Aye, Fiona. It is me."
+      "character": "SHREK",
+      "text": "Oh, great, more relatives.",
+      "scene": 11
     },
     {
-      "character": "FIONA",
-      "text": "What happened to your voice?"
+      "character": "PRINCESS FIONA",
+      "text": "She's just trying to help.",
+      "scene": 11
     },
     {
-      "character": "PRINCE CHARMING",
-      "text": "Uhh...the potion changed a lot of things, Fiona. But not the way I feel about you."
+      "character": "SHREK",
+      "text": "Good! She can help us pack. Get your coat, dear. We're leaving.",
+      "scene": 11
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "What?",
+      "scene": 11
+    },
+    {
+      "character": "DONKEY",
+      "text": "Leaving? I don't want to leave.",
+      "scene": 11
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "When did you decide this?",
+      "scene": 11
+    },
+    {
+      "character": "SHREK",
+      "text": "Shortly after arriving.",
+      "scene": 11
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Look, I... I'm sorry.",
+      "scene": 11
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "No, no, no, no, that's all right. Uh, I need to go, anyway. But remember, dear. If you should ever need me, happiness is just a teardrop away.",
+      "scene": 11
+    },
+    {
+      "character": "SHREK",
+      "text": "Thanks, but we've got all the happiness we need. Happy, happy, happy!",
+      "scene": 11
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "So I see. Let's go, Kyle.",
+      "scene": 11
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Very nice, Shrek.",
+      "scene": 11
+    },
+    {
+      "character": "SHREK",
+      "text": "What? I told you coming here was a bad idea.",
+      "scene": 11
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "You could have at least tried to get along with my father.",
+      "scene": 11
+    },
+    {
+      "character": "SHREK",
+      "text": "Somehow I don't think I was gonna get Daddy's blessing, even if I did want it.",
+      "scene": 11
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Do you think it might be nice if somebody asked me what I wanted?",
+      "scene": 11
+    },
+    {
+      "character": "SHREK",
+      "text": "Sure. Do you want me to pack for you?",
+      "scene": 11
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "You're unbelievable! You're behaving like a...",
+      "scene": 11
+    },
+    {
+      "character": "SHREK",
+      "text": "Go on! Say it!",
+      "scene": 11
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Like an ogre!",
+      "scene": 11
+    },
+    {
+      "character": "SHREK",
+      "text": "Here's a news flash for you! Whether your parents like it or not, I am an ogre!",
+      "scene": 11
+    },
+    {
+      "character": "SHREK",
+      "text": "And guess what, Princess? That's not about to change.",
+      "scene": 11
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "I've made changes for you, Shrek. Think about that.",
+      "scene": 11
+    },
+    {
+      "character": "DONKEY",
+      "text": "That's real smooth, Shrek. \"I'm an ogre!\"",
+      "scene": 11
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "I knew this would happen.",
+      "scene": 12
     },
     {
       "character": "QUEEN LILLIAN",
-      "text": "Fiona?"
+      "text": "You should. You started it.",
+      "scene": 12
     },
     {
       "character": "KING HAROLD",
-      "text": "Charming?!"
-    },
-    {
-      "character": "PRINCE CHARMING",
-      "text": "Ah--do you think so? Dad. I was so hoping you would approve."
+      "text": "I can hardly believe that, Lillian. I mean, really. He's the ogre, not me.",
+      "scene": 12
     },
     {
       "character": "QUEEN LILLIAN",
-      "text": "Um… Who are you?"
+      "text": "I think, Harold, you're taking this a little too personally. This is Fiona's choice.",
+      "scene": 12
     },
     {
-      "character": "PRINCE CHARMING",
-      "text": "Mom, it’s me, Shrek. I know you never get a second chance at a first impression, but, well, what do you think?"
-    },
-    {
-      "character": "SHREK",
-      "text": "Fiona! Fiona!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Fiona! Fiona!"
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Fiona, Fiona! Ho-ho-ho-oh, shoot! I don’t think they can hear us, pigeon."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "Don’t you think you’ve already messed her life up enough?"
-    },
-    {
-      "character": "SHREK",
-      "text": "I just wanted her to be happy."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "And now she can be. Oh, sweetheart. She’s finally found the prince of her dreams."
-    },
-    {
-      "character": "SHREK",
-      "text": "But look at me. Look what I’ve done for her."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "It’s time you stop living in a fairy tale, Shrek. She’s a princess, and you’re an ogre. That’s something no amount of potion will ever change."
-    },
-    {
-      "character": "SHREK",
-      "text": "But…I love her."
-    },
-    {
-      "character": "FAIRY GODMOTHER",
-      "text": "If you really love her…you’ll let her go."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Shrek?"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Señor?"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Hey, what’s going on? Where are you going?"
+      "character": "KING HAROLD",
+      "text": "Yes, but she was supposed to choose the prince we picked out for her. I mean, you expect me to give my blessings to this... this thing?",
+      "scene": 12
     },
     {
       "character": "QUEEN LILLIAN",
-      "text": "You wouldn’t have had anything to do with this...would you, Harold?"
-    },
-    {
-      "character": "DORIS",
-      "text": "There you go, boys."
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Just leave the bottle, Doris."
-    },
-    {
-      "character": "DORIS",
-      "text": "Hey. Why the long face?"
-    },
-    {
-      "character": "SHREK",
-      "text": "It was all just a stupid mistake. I never should have rescued her from that tower in the first place."
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "I hate Mondays."
-    },
-    {
-      "character": "DORIS",
-      "text": "There you go, boys."
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Just leave the bottle, Doris."
-    },
-    {
-      "character": "DORIS",
-      "text": "Hey. Why the long face?"
-    },
-    {
-      "character": "SHREK",
-      "text": "It was all just a stupid mistake. I never should have rescued her from that tower in the first place."
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "I hate Mondays."
-    },
-    {
-      "character": "DONKEY",
-      "text": "I can’t believe you’d walk away from the best thing that ever happened to you."
-    },
-    {
-      "character": "SHREK",
-      "text": "What choice do I have? She loves that pretty boy, Prince Charming."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Aww, come on. Is he really that good-looking?"
-    },
-    {
-      "character": "DORIS",
-      "text": "Are you kidding? He’s gorgeous! He has a face that looks like it was carved by angels."
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "Oh. He sounds dreamy."
-    },
-    {
-      "character": "SHREK",
-      "text": "You know, shockingly, this isn’t making me feel any better. Look, guys. It’s for the best. Mom and Dad approve, and Fiona gets the man she’s always dreamed of. Everybody wins."
-    },
-    {
-      "character": "DONKEY",
-      "text": "Except for you. I don’t get it, Shrek. You love Fiona."
-    },
-    {
-      "character": "SHREK",
-      "text": "Aye. And that’s why I have to let her go."
+      "text": "Fiona does. And she'll never forgive you if you don't. I don't want to lose our daughter again, Harold. Oh, you act as if love is totally predictable. Don't you remember when we were young and, oh, we used to walk down by the lily pond, and they were in bloom...",
+      "scene": 12
     },
     {
       "character": "KING HAROLD",
-      "text": "Umm...excuse me, is she here?"
+      "text": "Our first kiss. It's not the same! I don't think you realize that our daughter has married a monster!",
+      "scene": 12
     },
     {
-      "character": "DORIS",
-      "text": "She’s, uh… in the back."
+      "character": "QUEEN LILLIAN",
+      "text": "Oh, stop being such a drama king.",
+      "scene": 12
     },
     {
       "character": "KING HAROLD",
-      "text": "Oh, hello again. Heh..."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Fairy Godmother. Charming."
+      "text": "Fine! Fine! Pretend there's nothing wrong! La-di-da-di-da-di-da! Isn't it all wonderful? I'd like to know how it could get any worse!",
+      "scene": 12
     },
     {
       "character": "FAIRY GODMOTHER",
-      "text": "Ugh, you’d better have a good reason for dragging us down here, Harold."
+      "text": "Hello, Harold.",
+      "scene": 12
+    },
+    {
+      "character": "QUEEN LILLIAN",
+      "text": "What happened?",
+      "scene": 12
     },
     {
       "character": "KING HAROLD",
-      "text": "Well, I’m afraid Fiona isn’t really…warming up to Prince Charming."
+      "text": "Oh, n-nothing! Nothing, dear. Just the old, uh, crusade wound playing up a bit. I'll, um, just stretch it out here for a while.",
+      "scene": 12
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "You better get in. We need to talk.",
+      "scene": 12
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Actually, Fairy Godmother, just off to bed. Already taken my pills, and they tend to make me a bit drowsy. So, um, how about... We... We make this a quick visit. What? Oh. Oh, h-hello.",
+      "scene": 12
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "So, what's new?",
+      "scene": 12
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "You remember my son, Prince Charming?",
+      "scene": 12
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Charming! Oh, is that you? My gosh! It's been years. I... When... When did you get back?",
+      "scene": 12
     },
     {
       "character": "PRINCE CHARMING",
-      "text": "Umm, F-Y-I, not my fault."
+      "text": "Oh, about five minutes ago, actually. After I endured blistering winds, scorching desert, I climbed to the highest room in the tallest tower...",
+      "scene": 12
     },
     {
       "character": "FAIRY GODMOTHER",
-      "text": "Oh, no, no, of course it’s not, dear."
+      "text": "Mommy can handle this. He endures blistering winds and scorching desert! He climbs to the highest bloody room of the tallest bloody tower!",
+      "scene": 12
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "But... But...",
+      "scene": 12
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "And what does he find? Some gender-confused wolf telling him that his princess...",
+      "scene": 12
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "If I can just...",
+      "scene": 12
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "...is already married.",
+      "scene": 12
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "It wasn't my fault. He didn't get there in time.",
+      "scene": 12
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "Stop the car!",
+      "scene": 12
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "Harold... you force me to do something I really don't want to do.",
+      "scene": 12
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Where are we?",
+      "scene": 12
+    },
+    {
+      "character": "FAST FOOD CLERK",
+      "text": "Hi there. Welcome to Friar's Fat Boy. May I take your order?",
+      "scene": 12
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "My diet is ruined! I hope you're happy. Uh, okay, two Renaissance Wraps, no mayo, chili rings...",
+      "scene": 12
     },
     {
       "character": "PRINCE CHARMING",
-      "text": "I mean, how charming can I be when I have to pretend I’m that dreadful ogre?"
+      "text": "I'll have the Medieval Meal.",
+      "scene": 12
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "Yeah, one Medieval Meal and, Harold, curly fries?",
+      "scene": 12
     },
     {
       "character": "KING HAROLD",
-      "text": "No, no, it’s nobody’s fault. Perhaps it’s best if we just call the whole thing off, okay?"
+      "text": "Uh, no. No, thank you.",
+      "scene": 12
     },
     {
-      "character": "FAIRY GODMOTHER & PRINCE CHARMING",
-      "text": "What ?!"
+      "character": "FAIRY GODMOTHER",
+      "text": "Sourdough soft taco, then? What do you want?",
+      "scene": 12
     },
     {
       "character": "KING HAROLD",
-      "text": "I mean you can’t force someone to fall in love!"
+      "text": "No, really, I'm fine.",
+      "scene": 12
+    },
+    {
+      "character": "FAST FOOD CLERK",
+      "text": "Your order, Fairy Godmother. And this comes with the Medieval Meal.",
+      "scene": 12
     },
     {
       "character": "FAIRY GODMOTHER",
-      "text": "Oh, I beg to differ. I do it all the time."
+      "text": "Here you are, dear.",
+      "scene": 12
     },
     {
       "character": "FAIRY GODMOTHER",
-      "text": "Have Fiona drink this and she’ll fall in love with the first man she kisses, which will be Charming."
+      "text": "You see, we made a deal, Harold, and I assume you don't want me to go back on my part.",
+      "scene": 12
     },
     {
       "character": "KING HAROLD",
-      "text": "Umm… no."
+      "text": "Indeed not.",
+      "scene": 12
     },
     {
       "character": "FAIRY GODMOTHER",
-      "text": "What did you say?"
+      "text": "So, Fiona and Charming will be together.",
+      "scene": 12
     },
     {
       "character": "KING HAROLD",
-      "text": "I...I...I can’t. I...I won’t do it."
+      "text": "Yes.",
+      "scene": 12
     },
     {
       "character": "FAIRY GODMOTHER",
-      "text": "Oh, yes, you will. If you remember, I helped you with your happily ever after. And I can take it away just as easily."
+      "text": "Oh, believe me, Harold. It's what's best. Not only for your daughter...",
+      "scene": 12
     },
     {
       "character": "FAIRY GODMOTHER",
-      "text": "Is that what you want? Is it?"
+      "text": "but for your Kingdom.",
+      "scene": 12
     },
     {
       "character": "KING HAROLD",
-      "text": "No."
+      "text": "Well, what am I supposed to do about it?",
+      "scene": 12
     },
     {
       "character": "FAIRY GODMOTHER",
-      "text": "Good boy. Now, we have to go. I need to do Charming’s hair before the ball. He’s hopeless. You know he’s all high in the front, he can never get to the back. You always need someone to do the back of your hair."
+      "text": "Use your imagination.",
+      "scene": 12
     },
     {
-      "character": "PRINCE CHARMING",
-      "text": "Oh! Thank you, Mother."
+      "character": "KING HAROLD",
+      "text": "Excuse me.",
+      "scene": 13
     },
     {
-      "character": "DONKEY",
-      "text": "Mother?!"
+      "character": "TREE",
+      "text": "Hey, do I know you?",
+      "scene": 13
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Uh, no, you must be mistaking me for someone else. Uh, excuse me. I-I... I'm looking for the Ugly Stepsister.",
+      "scene": 13
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Ah, there you are. Right. Uh, you see, I... I need to have someone taken care of.",
+      "scene": 13
+    },
+    {
+      "character": "UGLY STEPSISTER",
+      "text": "Who's the guy?",
+      "scene": 13
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Well, he... he's not a guy, per se. Um, he's an ogre.",
+      "scene": 13
+    },
+    {
+      "character": "HEADLESS HORSEMAN",
+      "text": "Hey, buddy, let me clue you in. There's only one fellow who can handle a job like that, and, frankly, he don't like to be disturbed.",
+      "scene": 13
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Where could I find him?",
+      "scene": 13
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "H-Hello?",
+      "scene": 13
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Who dares enter my room?",
+      "scene": 13
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Sorry! I... I hope I'm not interrupting, but I'm told you're the one to talk to about an ogre problem?",
+      "scene": 13
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "You are told correct. But for this, I charge a great deal of money.",
+      "scene": 13
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Would this be enough?",
+      "scene": 13
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Hmm. You have engaged my valuable services, Your Majesty. Just tell me where I can find this ogre.",
+      "scene": 13
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Dear diary, Sleeping Beauty is having a slumber party tomorrow but Dad says I can't go. He never lets me out after sunset. Dad says I'm going away for a while. Must be like some finishing school or something. Mom says that when I'm old enough, my handsome Prince Charming will rescue me from my tower and bring me back to my family. And we'll all live happily ever after.",
+      "scene": 14
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Mrs. Fiona Charming.",
+      "scene": 14
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Mrs. Fiona Charming. Mrs. Fiona Charming. Mrs. Fiona Charming. Mrs. Fiona Charming. Mrs. Fiona Charming. Mrs. Fiona Charming . .. Charming.",
+      "scene": 14
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "S-Sorry. Uh, I... I hope I'm not interrupting anything.",
+      "scene": 14
     },
     {
       "character": "SHREK",
-      "text": "Um… Mary! A talking horse!"
+      "text": "No, no, no. I was just reading a, uh... a scary book.",
+      "scene": 14
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "I was hoping you'd let me apologize for my despicable behavior earlier.",
+      "scene": 14
+    },
+    {
+      "character": "SHREK",
+      "text": "Okay?",
+      "scene": 14
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "I don't know what came over me. Do you suppose we could just pretend it never happened and start over?",
+      "scene": 14
+    },
+    {
+      "character": "SHREK",
+      "text": "Look, Your Majesty, I...",
+      "scene": 14
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Please, call me Dad.",
+      "scene": 14
+    },
+    {
+      "character": "SHREK",
+      "text": "Dad, we both acted like ogres. Maybe we just need some time to get to know each other?",
+      "scene": 14
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Excellent idea. I was actually hoping you might join me for a morning hunt. Little father-son time?",
+      "scene": 14
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "I know it would mean the world to Fiona.",
+      "scene": 14
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Shall we say, 7:30 by the old oak?",
+      "scene": 14
+    },
+    {
+      "character": "SHREK",
+      "text": "Face it, Donkey. We're lost.",
+      "scene": 14
+    },
+    {
+      "character": "DONKEY",
+      "text": "We can't be lost. We followed the King's instructions exactly. What did he say? \"Head to the deepest, darkest part of the woods.\"",
+      "scene": 14
+    },
+    {
+      "character": "SHREK",
+      "text": "Aye.",
+      "scene": 14
+    },
+    {
+      "character": "DONKEY",
+      "text": "\"Past the sinister trees \"with those scary-looking branches.\"",
+      "scene": 14
+    },
+    {
+      "character": "SHREK",
+      "text": "Check.",
+      "scene": 14
+    },
+    {
+      "character": "DONKEY",
+      "text": "Yeah and there's that bush shaped like Shirley Bassey.",
+      "scene": 14
+    },
+    {
+      "character": "SHREK",
+      "text": "We passed that bush three times already!",
+      "scene": 14
+    },
+    {
+      "character": "DONKEY",
+      "text": "You were the one who said you didn't want to stop and get directions.",
+      "scene": 14
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, great. My one chance to fix things up with Fiona's dad and I end up lost in the woods with you!",
+      "scene": 14
+    },
+    {
+      "character": "DONKEY",
+      "text": "You don't have to get all huffy with me, I'm only trying to help.",
+      "scene": 14
+    },
+    {
+      "character": "SHREK",
+      "text": "I know! I know.",
+      "scene": 14
+    },
+    {
+      "character": "SHREK",
+      "text": "I'm sorry, all right?",
+      "scene": 14
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hey, don't worry about it.",
+      "scene": 14
+    },
+    {
+      "character": "SHREK",
+      "text": "I just really need to make things work with this guy.",
+      "scene": 14
+    },
+    {
+      "character": "DONKEY",
+      "text": "Yeah, sure. Now, let's go bond with Daddy.",
+      "scene": 14
+    },
+    {
+      "character": "SHREK",
+      "text": "Well, well, well, Donkey. I know it was kind of a tender moment back there, but the purring?",
+      "scene": 14
+    },
+    {
+      "character": "DONKEY",
+      "text": "Man, what are you talking about? I ain't purring.",
+      "scene": 14
+    },
+    {
+      "character": "SHREK",
+      "text": "Sure. What's next? A hug?",
+      "scene": 14
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hey, Shrek. Donkeys don't purr. What you think I am, some kind of...",
+      "scene": 14
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Ha-ha! Fear me. If you dare.",
+      "scene": 14
+    },
+    {
+      "character": "SHREK",
+      "text": "Hey, look. A little cat.",
+      "scene": 14
+    },
+    {
+      "character": "DONKEY",
+      "text": "Look out, Shrek! He got a piece!",
+      "scene": 14
+    },
+    {
+      "character": "SHREK",
+      "text": "It's a cat, Donkey. Come here, little kitty kitty kitty. Come on, little kitty. Come here. Come here, little kitty.",
+      "scene": 14
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hold on, Shrek! I'm coming!",
+      "scene": 14
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, come on! Oh! Get it off! Oh, get it off!",
+      "scene": 14
+    },
+    {
+      "character": "SHREK",
+      "text": "No! Oh!",
+      "scene": 14
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hold on, Shrek! Hold still!",
+      "scene": 14
+    },
+    {
+      "character": "SHREK",
+      "text": "Get it off!",
+      "scene": 14
+    },
+    {
+      "character": "DONKEY",
+      "text": "Shrek, hold still!",
+      "scene": 14
+    },
+    {
+      "character": "DONKEY",
+      "text": "Did I miss?",
+      "scene": 14
+    },
+    {
+      "character": "SHREK",
+      "text": "No, you got them.",
+      "scene": 14
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Now, ye ogre, pray for mercy from... Puss in Boots.",
+      "scene": 14
+    },
+    {
+      "character": "DONKEY",
+      "text": "I'll kill that cat!",
+      "scene": 14
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Hair ball.",
+      "scene": 15
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, that is nasty.",
+      "scene": 15
+    },
+    {
+      "character": "SHREK",
+      "text": "What do you reckon we should do with him?",
+      "scene": 15
+    },
+    {
+      "character": "DONKEY",
+      "text": "I say we take the sword and neuter him right here. Give him the Bob Barker treatment.",
+      "scene": 15
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Oh, mother, no. Por favor. Please, I implore you. It was nothing personal señor. I was doing it only for my family. My mother, she's sick. And my father lives off the garbage. The King offered me much in gold and I have a litter of brothers...",
+      "scene": 15
+    },
+    {
+      "character": "SHREK",
+      "text": "Whoa, whoa, whoa, whoa, whoa. Fiona's father paid you to do this?",
+      "scene": 15
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "The rich King? Si.",
+      "scene": 15
+    },
+    {
+      "character": "SHREK",
+      "text": "Well, so much for Dad's royal blessing.",
+      "scene": 15
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, come on, Shrek. Don't feel bad. Almost everybody that meets you wants to kill you.",
+      "scene": 15
+    },
+    {
+      "character": "SHREK",
+      "text": "Gee, thanks.",
+      "scene": 15
+    },
+    {
+      "character": "SHREK",
+      "text": "Maybe Fiona would've been better off if I were some sort of Prince Charming.",
+      "scene": 15
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Si! That's what the King said.",
+      "scene": 15
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Oh, uh... Sorry. I thought that question was directed at me.",
+      "scene": 15
+    },
+    {
+      "character": "DONKEY",
+      "text": "Shrek, Fiona knows you'll do anything for her.",
+      "scene": 15
+    },
+    {
+      "character": "SHREK",
+      "text": "Well, it's not like I wouldn't change if I could. I just... I just wish I could make her happy.",
+      "scene": 15
+    },
+    {
+      "character": "SHREK",
+      "text": "Hold the phone.",
+      "scene": 15
+    },
+    {
+      "character": "SHREK",
+      "text": "Happiness. A tear drop away. Donkey, think of the saddest thing that's ever happened to you.",
+      "scene": 15
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, man, where do I begin? First, it was the time that old farmer tried to sell me for some magic beans. I ain't never got over that. Then this fool went off and had a party and he have all the guests trying to pin a tail on me. Then they all got drunk and started beating me with a stick going, \"Piñata! Piñata!\" What is a piñata, anyway?",
+      "scene": 15
+    },
+    {
+      "character": "SHREK",
+      "text": "No, Donkey! I need you to cry!",
+      "scene": 15
+    },
+    {
+      "character": "DONKEY",
+      "text": "Yeah, well, don't go projecting on me. I know you're feeling bad but you gotta let your own...",
+      "scene": 15
+    },
+    {
+      "character": "DONKEY",
+      "text": "You little, hairy, litter-licking sack of...",
+      "scene": 15
     },
     {
       "character": "FAIRY GODMOTHER",
-      "text": "[not entirely fooled] The ogre!"
+      "text": "What? Is it on? Is it on? This is Fairy Godmother. I'm either away from my desk or with a client. But if you come by the office, we'll be glad to make you a personal appointment. Have a \"happy ever after.\"",
+      "scene": 15
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh. Are you up for a little quest, Donkey?",
+      "scene": 15
+    },
+    {
+      "character": "DONKEY",
+      "text": "All right! That's more like it! Shrek and Donkey, on another whirlwind adventure!",
+      "scene": 15
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Stop, Ogre! I have misjudged you.",
+      "scene": 16
+    },
+    {
+      "character": "SHREK",
+      "text": "Join the club. We've got jackets.",
+      "scene": 16
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "On my honor, I am obliged to accompany you until I have saved your life as you have spared me mine.",
+      "scene": 16
+    },
+    {
+      "character": "DONKEY",
+      "text": "I'm sorry, the position of annoying talking animal has already been taken. Let's go, Shrek. Shrek?",
+      "scene": 16
+    },
+    {
+      "character": "DONKEY",
+      "text": "Shrek!",
+      "scene": 16
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh, come on, Donkey. Look at him in his wee little boots. You know, how many cats can wear boots? Honestly? Aw, let's keep him.",
+      "scene": 16
+    },
+    {
+      "character": "DONKEY",
+      "text": "Say what?",
+      "scene": 16
+    },
+    {
+      "character": "SHREK",
+      "text": "Aw, listen, he's purring.",
+      "scene": 16
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, so now it's cute?",
+      "scene": 16
+    },
+    {
+      "character": "SHREK",
+      "text": "Aw, come on, Donkey. Lighten up.",
+      "scene": 16
+    },
+    {
+      "character": "DONKEY",
+      "text": "Lighten up? Oh, I should lighten up? Look who's telling who to lighten up!",
+      "scene": 16
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Shrek.",
+      "scene": 16
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Shrek?",
+      "scene": 16
+    },
+    {
+      "character": "QUEEN LILLIAN",
+      "text": "Well, they're both festive, aren't they? What do you think, Harold?",
+      "scene": 16
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Um, yes, yes. Fine. Fine.",
+      "scene": 16
+    },
+    {
+      "character": "QUEEN LILLIAN",
+      "text": "Try to at least pretend you're interested in your daughter's wedding ball.",
+      "scene": 16
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Honestly, Lillian, I don't think it really matters. How do we know there's even going to be a ball?",
+      "scene": 16
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Mom! Dad!",
+      "scene": 16
+    },
+    {
+      "character": "QUEEN LILLIAN",
+      "text": "Oh, hello, dear.",
+      "scene": 16
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Um, what's that, Cedric? Right! Coming.",
+      "scene": 16
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Mom, have you seen Shrek?",
+      "scene": 16
+    },
+    {
+      "character": "QUEEN LILLIAN",
+      "text": "I haven't. You should ask your father. Be sure and use small words, dear. He's a little slow this morning.",
+      "scene": 16
+    },
+    {
+      "character": "CEDRIC",
+      "text": "Can I help you, Your Majesty?",
+      "scene": 16
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Ah, yes! Um... Hmm. Exquisite. What do you call this dish?",
+      "scene": 16
+    },
+    {
+      "character": "CEDRIC",
+      "text": "That would be the dog's breakfast, Your Majesty.",
+      "scene": 16
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Ah, yes. Very good, then. Carry on, Cedric.",
+      "scene": 16
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Dad? Dad? Have you seen Shrek?",
+      "scene": 16
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Uh, no, I haven't, dear. I... I'm sure he just went off to look for a nice mud hole to cool down in. You know, after your little spat last night.",
+      "scene": 16
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Oh. You heard that, huh?",
+      "scene": 16
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Darling, the whole kingdom heard you. I mean, after all it is in his nature to be, well, a bit of a brute.",
+      "scene": 16
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Him? You know, you didn't exactly roll out the Welcome Wagon.",
+      "scene": 16
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Well, what did you expect? I mean, look at what he's done to you.",
+      "scene": 16
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Shrek loves me for who I am. I would think you'd be happy for me.",
+      "scene": 16
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Darling, I'm just thinking about what's best for you. Maybe you should do the same.",
+      "scene": 16
+    },
+    {
+      "character": "DONKEY",
+      "text": "No, really?",
+      "scene": 17
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Mm-hmm.",
+      "scene": 17
+    },
+    {
+      "character": "DONKEY",
+      "text": "Shh, shh, shh...",
+      "scene": 17
+    },
+    {
+      "character": "SHREK",
+      "text": "Whoa.",
+      "scene": 17
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, no. That's the old Keebler's place. Let's just back away slowly.",
+      "scene": 17
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "That's the Fairy Godmother's cottage. She's the largest producer of hexes and potions in the whole kingdom.",
+      "scene": 17
+    },
+    {
+      "character": "SHREK",
+      "text": "Then why don't we pop in there for a spell?",
+      "scene": 17
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Spell.",
+      "scene": 17
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "He makes me laugh.",
+      "scene": 17
+    },
+    {
+      "character": "SHREK",
+      "text": "Oh.",
+      "scene": 17
+    },
+    {
+      "character": "SHREK",
+      "text": "Hi. I'm here to see the...",
+      "scene": 17
+    },
+    {
+      "character": "JEROME",
+      "text": "The Fairy Godmother. I'm sorry. She is not in.",
+      "scene": 17
     },
     {
       "character": "FAIRY GODMOTHER",
-      "text": "Stop them! Thieves! Bandits! Get them!"
+      "text": "Jerome! Coffee and a Monte Cristo. Now!",
+      "scene": 17
+    },
+    {
+      "character": "JEROME",
+      "text": "Yes, Fairy Godmother. Right away. Look, she's not seeing any client today, okay?",
+      "scene": 17
+    },
+    {
+      "character": "SHREK",
+      "text": "That's okay, buddy. We're from the union.",
+      "scene": 17
+    },
+    {
+      "character": "JEROME",
+      "text": "The union?",
+      "scene": 17
+    },
+    {
+      "character": "SHREK",
+      "text": "We represent the workers in all magical industries, both evil and benign.",
+      "scene": 17
+    },
+    {
+      "character": "JEROME",
+      "text": "Oh! Oh, right.",
+      "scene": 17
+    },
+    {
+      "character": "SHREK",
+      "text": "Are you feeling at all degraded or oppressed?",
+      "scene": 17
+    },
+    {
+      "character": "JEROME",
+      "text": "Uh, a little. We... We don't even have dental.",
+      "scene": 17
+    },
+    {
+      "character": "DONKEY",
+      "text": "They don't even have dental.",
+      "scene": 17
+    },
+    {
+      "character": "SHREK",
+      "text": "Okay. We're just gonna have a look around. Oh, by the way, I think it'd be better if the Fairy Godmother didn't know we were here. Know what I'm saying? Huh? Huh?",
+      "scene": 17
+    },
+    {
+      "character": "DONKEY",
+      "text": "Huh? Huh? Huh?",
+      "scene": 17
+    },
+    {
+      "character": "SHREK",
+      "text": "Stop it.",
+      "scene": 17
+    },
+    {
+      "character": "JEROME",
+      "text": "Of course. Go right in.",
+      "scene": 17
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "A drop of desire. Naughty. A pinch of passion.",
+      "scene": 18
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "And just a hint of lust.",
+      "scene": 18
+    },
+    {
+      "character": "SHREK",
+      "text": "Excuse me. Sorry to barge in like this but...",
+      "scene": 18
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "What in Grimm's name are you doing here?",
+      "scene": 18
+    },
+    {
+      "character": "SHREK",
+      "text": "Well it seems that Fiona's not exactly happy.",
+      "scene": 18
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "And there's some question as to why that is? Well, let's explore that, shall we?",
+      "scene": 18
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "Ah. P. P. P. P. Princess. Cinderella. Here we are. \"Lived happily ever after.\" Oh! No ogres. Let's see. Snow White. A handsome prince. Oh, no ogres. Sleeping Beauty. Ooh, no ogres. Hansel and Gretel? No. Thumbelina? No. The Golden Bird, the Little Mermaid, Pretty Woman. No, no, no, no, no! You see, ogres don't live happily ever after.",
+      "scene": 18
+    },
+    {
+      "character": "SHREK",
+      "text": "All right, look, lady!",
+      "scene": 18
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "Don't you point those dirty green sausages at me!",
+      "scene": 18
+    },
+    {
+      "character": "JEROME",
+      "text": "Your Monte Cristo and coffee. Oh, sorry.",
+      "scene": 18
+    },
+    {
+      "character": "SHREK",
+      "text": "Ah! That's okay. We were just leaving. Very sorry to have wasted your time, Miss Godmother.",
+      "scene": 18
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "Just go.",
+      "scene": 18
+    },
+    {
+      "character": "SHREK",
+      "text": "Come on, guys.",
+      "scene": 18
+    },
+    {
+      "character": "WORKER",
+      "text": "TGIF, eh, buddy?",
+      "scene": 19
+    },
+    {
+      "character": "WORKER",
+      "text": "Working hard or hardly working, eh, Mac?",
+      "scene": 19
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh! Hey, man. You wanna get your fine Corinthian footwear and your cat cheeks out of my face? Man, that stinks!",
+      "scene": 19
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Well, you don't exactly smell like a basket of roses.",
+      "scene": 19
+    },
+    {
+      "character": "SHREK",
+      "text": "Well, one of these has got to help.",
+      "scene": 19
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "I was just concocting this very plan. Already our minds are becoming one.",
+      "scene": 19
+    },
+    {
+      "character": "DONKEY",
+      "text": "Whoa, whoa, whoa, there. Listen, if we need an expert on licking ourselves, we'll give you a call. Shrek, this is a bad idea.",
+      "scene": 19
+    },
+    {
+      "character": "SHREK",
+      "text": "Look. Make yourself useful and go keep watch. Puss, do you think you could get to those on top?",
+      "scene": 19
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "No problema, boss. In one of my nine lives I was the great cat burglar of Santiago de Compostela.",
+      "scene": 19
+    },
+    {
+      "character": "DONKEY",
+      "text": "Shrek, are you off your nut?",
+      "scene": 19
+    },
+    {
+      "character": "SHREK",
+      "text": "Donkey, keep watch.",
+      "scene": 19
+    },
+    {
+      "character": "DONKEY",
+      "text": "Keep watch? Yeah. I'm gonna keep watch. I'll watch that wicked witch come down here and whammy zammy a world of hurt all up your backside. I'm gonna laugh too. If she do, I'm gonna be giggling to myself.",
+      "scene": 19
+    },
+    {
+      "character": "SHREK",
+      "text": "What do you see?",
+      "scene": 19
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Toadstool softener?",
+      "scene": 19
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, yeah, you're right. I'm sure a nice BM is the perfect solution for marital problems.",
+      "scene": 19
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "\"Elfa Seltzer\"?",
+      "scene": 19
+    },
+    {
+      "character": "SHREK",
+      "text": "Uh-uh.",
+      "scene": 19
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "\"Hex Lax\"?",
+      "scene": 19
+    },
+    {
+      "character": "SHREK",
+      "text": "No! Try \"handsome\".",
+      "scene": 19
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Sorry. No handsome. Hey! How about \"Happily Ever After\"?",
+      "scene": 19
+    },
+    {
+      "character": "SHREK",
+      "text": "Well, what does it do?",
+      "scene": 19
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "It says \"Beauty Divine.\"",
+      "scene": 19
+    },
+    {
+      "character": "DONKEY",
+      "text": "You know, in some cultures, donkeys are revered as the wisest of creatures. Especially us talking ones.",
+      "scene": 19
+    },
+    {
+      "character": "SHREK",
+      "text": "Donkey!",
+      "scene": 19
+    },
+    {
+      "character": "SHREK",
+      "text": "That'll have to do. We've got company.",
+      "scene": 19
+    },
+    {
+      "character": "SHREK",
+      "text": "Can we get on with this? Hurry!",
+      "scene": 19
+    },
+    {
+      "character": "SHREK",
+      "text": "Whoa! Nice catch, Donkey!",
+      "scene": 19
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Finally! A good use for your mouth.",
+      "scene": 19
+    },
+    {
+      "character": "SHREK",
+      "text": "Come on!",
+      "scene": 19
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "Look, I don't care whose fault it is. Just get this place cleaned up!",
+      "scene": 20
+    },
+    {
+      "character": "WORKER",
+      "text": "Yes, Godmother.",
+      "scene": 20
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "And somebody bring me something deep fried and smothered in chocolate.",
+      "scene": 20
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "Mother!",
+      "scene": 20
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "Charming. Sweetheart. Oh, this isn't a good time, pumpkin. Mama's working.",
+      "scene": 20
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "Whoa. What happened here?",
+      "scene": 20
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "The ogre, that's what.",
+      "scene": 20
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "What? Where is he, Mom? I shall rend his head from his shoulders. I will smite him where he stands. He will rue the very day he stole my kingdom from me!",
+      "scene": 20
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "Oh, put it away, junior! You're still gonna be king. We're just gonna have to come up with something smarter. That's all.",
+      "scene": 20
+    },
+    {
+      "character": "WORKER",
+      "text": "Pardon? Um... Everything is accounted for, Fairy Godmother, except for one potion.",
+      "scene": 20
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "What? Oh. I do believe we can make this work to our advantage.",
+      "scene": 20
+    },
+    {
+      "character": "SHREK",
+      "text": "\"Happily Ever After Potion. Maximum strength. For you and your true love. If one of you drinks this, you both will be fine. Happiness, comfort and beauty divine.\"",
+      "scene": 20
+    },
+    {
+      "character": "DONKEY",
+      "text": "You both will be fine?",
+      "scene": 20
+    },
+    {
+      "character": "SHREK",
+      "text": "I guess it means it'll affect Fiona too.",
+      "scene": 20
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hey, man. This don't feel right. My donkey senses are tingling all over. So why don't you just drop that jug o' voodoo and let's get out of here?",
+      "scene": 20
+    },
+    {
+      "character": "SHREK",
+      "text": "It says, \"Beauty Divine.\" How bad can it be?",
+      "scene": 20
+    },
+    {
+      "character": "DONKEY",
+      "text": "Aha, see, you're allergic to that stuff. You're gonna have a reaction. And if you think that I'm gonna be smearing Vapor Rub all over your chest, think again!",
+      "scene": 20
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Boss, just in case there is something wrong with the potion, allow me to take the first sip. It would be an honor to lay my life on the line for you.",
+      "scene": 20
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, no, no, no, no. I don't think so. If there's gonna be any animal testing, I'm gonna do it. That's the best friend's job. Now give me that bottle.",
+      "scene": 20
+    },
+    {
+      "character": "SHREK",
+      "text": "How do you feel?",
+      "scene": 20
+    },
+    {
+      "character": "DONKEY",
+      "text": "I don't feel any different. I look any different?",
+      "scene": 20
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "You still look like an ass to me.",
+      "scene": 20
+    },
+    {
+      "character": "SHREK",
+      "text": "Maybe it doesn't work on donkeys.",
+      "scene": 20
+    },
+    {
+      "character": "SHREK",
+      "text": "Well, here's to us, Fiona.",
+      "scene": 20
+    },
+    {
+      "character": "DONKEY",
+      "text": "Shrek, you drink that, there's no going back.",
+      "scene": 20
+    },
+    {
+      "character": "SHREK",
+      "text": "I know.",
+      "scene": 20
+    },
+    {
+      "character": "DONKEY",
+      "text": "But no more wallowing in the mud?",
+      "scene": 20
+    },
+    {
+      "character": "SHREK",
+      "text": "I know.",
+      "scene": 20
+    },
+    {
+      "character": "DONKEY",
+      "text": "And no more itchy butt crack?",
+      "scene": 20
+    },
+    {
+      "character": "SHREK",
+      "text": "I know!",
+      "scene": 20
+    },
+    {
+      "character": "DONKEY",
+      "text": "But you love being an ogre!",
+      "scene": 20
+    },
+    {
+      "character": "SHREK",
+      "text": "I know!",
+      "scene": 20
+    },
+    {
+      "character": "SHREK",
+      "text": "But I love Fiona more.",
+      "scene": 20
+    },
+    {
+      "character": "DONKEY",
+      "text": "Shrek, no! Wait!",
+      "scene": 20
+    },
+    {
+      "character": "DONKEY",
+      "text": "Whoo, cold. Got to be. Shrek I think you grabbed the \"Farty Ever After\" potion.",
+      "scene": 21
+    },
+    {
+      "character": "SHREK",
+      "text": "Maybe it's a dud. Or maybe Fiona and I were never meant to be.",
+      "scene": 21
+    },
+    {
+      "character": "DONKEY",
+      "text": "Uh-oh. What did I tell you? I think I feel something coming on. I don't want to die. I don't want to die. I don't want to die! Oh, sweet sister, mother of mercy. I'm melting! I'm melting!",
+      "scene": 21
+    },
+    {
+      "character": "SHREK",
+      "text": "It's just the rain, Donkey.",
+      "scene": 21
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh.",
+      "scene": 21
+    },
+    {
+      "character": "SHREK",
+      "text": "\"Bet my bottom?\"",
+      "scene": 22
+    },
+    {
+      "character": "DONKEY",
+      "text": "I'm coming, Elizabeth!",
+      "scene": 22
+    },
+    {
+      "character": "SHREK",
+      "text": "Donkey? Are... Are you all right?",
+      "scene": 22
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Hey, boss. Let's shave him.",
+      "scene": 22
+    },
+    {
+      "character": "SHREK",
+      "text": "Don... Donkey...",
+      "scene": 22
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "There you are! We missed you at dinner.",
+      "scene": 22
+    },
+    {
+      "character": "QUEEN LILLIAN",
+      "text": "What is it, darling?",
+      "scene": 22
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Dad, I've been thinking about what you said.",
+      "scene": 22
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "And I'm gonna set things right.",
+      "scene": 22
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Ah, excellent! That's my girl.",
+      "scene": 22
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "It was a mistake to bring Shrek here. I'm gonna go out and find him. And then we're gonna go back to the swamp where we belong.",
+      "scene": 22
+    },
+    {
+      "character": "QUEEN LILLIAN",
+      "text": "Fiona, please!",
+      "scene": 22
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Uh, let's not be rash, darling. You can't go anywhere right now.",
+      "scene": 22
+    },
+    {
+      "character": "QUEEN LILLIAN",
+      "text": "Fiona!",
+      "scene": 22
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Fiona!",
+      "scene": 22
+    },
+    {
+      "character": "SHREK",
+      "text": "Thanks.",
+      "scene": 23
+    },
+    {
+      "character": "SHREK",
+      "text": "Whoa.",
+      "scene": 23
+    },
+    {
+      "character": "SHREK",
+      "text": "A cute button nose? Thick, wavy locks? Taut, round buttocks? I'm... I'm...",
+      "scene": 23
+    },
+    {
+      "character": "JILL",
+      "text": "Gorgeous.",
+      "scene": 23
+    },
+    {
+      "character": "JILL",
+      "text": "I'm Jill. What's your name?",
+      "scene": 24
+    },
+    {
+      "character": "SHREK",
+      "text": "Um, Shrek.",
+      "scene": 24
+    },
+    {
+      "character": "JILL",
+      "text": "Shrek? Wow. Are you from Europe?",
+      "scene": 24
+    },
+    {
+      "character": "SHREK",
+      "text": "Uh...",
+      "scene": 24
+    },
+    {
+      "character": "JILL",
+      "text": "Well, get in line.",
+      "scene": 25
+    },
+    {
+      "character": "SHREK",
+      "text": "Have... Have you ladies seen my donkey?",
+      "scene": 25
+    },
+    {
+      "character": "DONKEY",
+      "text": "Who are you calling Donkey?",
+      "scene": 25
+    },
+    {
+      "character": "SHREK",
+      "text": "Donkey? You're a...",
+      "scene": 25
+    },
+    {
+      "character": "DONKEY",
+      "text": "A stallion, baby! I can whinny. I can count. Look at me, Shrek. I'm trotting. That's some quality potion. What's in that stuff?",
+      "scene": 25
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "\"Oh, don't take the potion, Mr. Boss. It's very bad.\" \"Warning: Side effects may include burning, itching, oozing, weeping. Not intended for heart patients or those with nervous disorders.\"",
+      "scene": 25
+    },
+    {
+      "character": "DONKEY",
+      "text": "What?",
+      "scene": 26
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Señor, \"To make the effects of this potion permanent, the drinker must obtain his true love's kiss by midnight.\"",
+      "scene": 26
+    },
+    {
+      "character": "SHREK",
+      "text": "Midnight? Why is it always midnight?",
+      "scene": 26
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "And take it from me, Boss. You are going to have one satisfied Princess.",
+      "scene": 27
+    },
+    {
+      "character": "DONKEY",
+      "text": "And let's face it, you are a lot easier on the eyes, but inside you're still the same old mean, salty...",
+      "scene": 27
+    },
+    {
+      "character": "SHREK",
+      "text": "Easy. All right.",
+      "scene": 27
+    },
+    {
+      "character": "DONKEY",
+      "text": "...cantankerous, stanky, foul, angry ogre you always been.",
+      "scene": 27
+    },
+    {
+      "character": "SHREK",
+      "text": "And you're still the same annoying donkey.",
+      "scene": 27
+    },
+    {
+      "character": "DONKEY",
+      "text": "Yeah.",
+      "scene": 27
+    },
+    {
+      "character": "SHREK",
+      "text": "Well, look out, Princess. Here comes the new me.",
+      "scene": 27
+    },
+    {
+      "character": "DONKEY",
+      "text": "Uh, first things first. We need to get you out of those clothes.",
+      "scene": 27
+    },
+    {
+      "character": "SHREK",
+      "text": "Ready?",
+      "scene": 27
+    },
+    {
+      "character": "DONKEY",
+      "text": "Ready.",
+      "scene": 27
+    },
+    {
+      "character": "NOBLEMAN",
+      "text": "Driver, stop!",
+      "scene": 27
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, God! Help me, please! My racing days are over! I'm blind! Tell the truth. Will I ever be able to play the violin again?",
+      "scene": 27
+    },
+    {
+      "character": "NOBLEMAN",
+      "text": "Oh, you poor creature. Is there anything I can do for you?",
+      "scene": 27
+    },
+    {
+      "character": "DONKEY",
+      "text": "Well, I guess there is one thing.",
+      "scene": 27
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Take off the powdered wig and step away from your drawers.",
+      "scene": 27
+    },
+    {
+      "character": "DONKEY",
+      "text": "Not bad.",
+      "scene": 27
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Not bad at all.",
+      "scene": 27
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Father? Is everything all right, Father?",
+      "scene": 27
+    },
+    {
+      "character": "SHREK",
+      "text": "Thank you, gentlemen. Someday, I will repay you. Unless, of course, I can't find you or if I forget.",
+      "scene": 27
+    },
+    {
+      "character": "SHREK",
+      "text": "Fiona!",
+      "scene": 28
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Shrek?",
+      "scene": 28
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Shrek!",
+      "scene": 28
+    },
+    {
+      "character": "SHREK",
+      "text": "Fiona.",
+      "scene": 28
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Hello, handsome.",
+      "scene": 28
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Shrek!",
+      "scene": 28
+    },
+    {
+      "character": "DONKEY",
+      "text": "Princess!",
+      "scene": 28
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Donkey?",
+      "scene": 28
+    },
+    {
+      "character": "DONKEY",
+      "text": "Wow! That potion worked on you, too, huh?",
+      "scene": 28
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "W-What potion?",
+      "scene": 28
+    },
+    {
+      "character": "DONKEY",
+      "text": "It's kind of a long story, but Shrek and I took some magic potion, and, well, now, we're sexy!",
+      "scene": 28
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Shrek?",
+      "scene": 28
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "For you, baby, I could be.",
+      "scene": 28
+    },
+    {
+      "character": "DONKEY",
+      "text": "Yeah, you wish.",
+      "scene": 28
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Donkey, where is Shrek?",
+      "scene": 28
+    },
+    {
+      "character": "DONKEY",
+      "text": "He just went inside looking for you.",
+      "scene": 28
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Shrek!",
+      "scene": 28
+    },
+    {
+      "character": "SHREK",
+      "text": "Fiona! Fiona!",
+      "scene": 28
+    },
+    {
+      "character": "MAN",
+      "text": "You wanna dance, pretty boy?",
+      "scene": 28
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "Are you going so soon? Don't you want to see your wife?",
+      "scene": 28
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "Fiona.",
+      "scene": 28
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Shrek?",
+      "scene": 28
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "Aye, Fiona. It is me.",
+      "scene": 28
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "What happened to your voice?",
+      "scene": 28
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "Uh, the potion changed a lot of things, Fiona... but not the way I feel about you.",
+      "scene": 28
+    },
+    {
+      "character": "QUEEN LILLIAN",
+      "text": "Fiona?",
+      "scene": 28
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Charming?",
+      "scene": 28
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "Uh, do you think so? Dad, I was so hoping you'd approve.",
+      "scene": 28
+    },
+    {
+      "character": "QUEEN LILLIAN",
+      "text": "Um, who are you?",
+      "scene": 28
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "Mom, it's me, Shrek. I know you never get a second chance at a first impression but, well, what do you think?",
+      "scene": 28
+    },
+    {
+      "character": "DONKEY",
+      "text": "Fiona! Fiona! Fiona! Fiona! Fiona!",
+      "scene": 28
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "\"Fiona! Fiona!\" Oh, shoot! I don't think they can hear us, pigeon.",
+      "scene": 28
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "Don't you think you've already messed her life up enough?",
+      "scene": 28
+    },
+    {
+      "character": "SHREK",
+      "text": "I just wanted her to be happy.",
+      "scene": 28
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "And now she can be. Oh, sweetheart. She's finally found the prince of her dreams.",
+      "scene": 28
+    },
+    {
+      "character": "SHREK",
+      "text": "But look at me. Look what I've done for her.",
+      "scene": 28
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "It's time you stop living in a fairy tale, Shrek. She's a princess, and you're an ogre. That's something no amount of potion is ever going to change.",
+      "scene": 28
+    },
+    {
+      "character": "SHREK",
+      "text": "But... I love her.",
+      "scene": 28
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "If you really love her... you'll let her go.",
+      "scene": 28
+    },
+    {
+      "character": "DONKEY",
+      "text": "Shrek?",
+      "scene": 28
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Señor.",
+      "scene": 28
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hey, what's going on? Where you going?",
+      "scene": 28
+    },
+    {
+      "character": "QUEEN LILLIAN",
+      "text": "You wouldn't have had anything to do with this, would you, Harold?",
+      "scene": 28
+    },
+    {
+      "character": "DORIS",
+      "text": "There you go, boys.",
+      "scene": 29
+    },
+    {
+      "character": "SHREK",
+      "text": "Just leave the bottle, Doris.",
+      "scene": 29
+    },
+    {
+      "character": "DORIS",
+      "text": "Hey, why the long face?",
+      "scene": 29
+    },
+    {
+      "character": "SHREK",
+      "text": "It was all just a stupid mistake. I never should have rescued her from that tower in the first place.",
+      "scene": 29
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "I hate Mondays.",
+      "scene": 29
+    },
+    {
+      "character": "DONKEY",
+      "text": "I can't believe you're gonna walk away from the best thing that happened to you.",
+      "scene": 29
+    },
+    {
+      "character": "SHREK",
+      "text": "What choice do I have? She loves that pretty boy, Prince Charming.",
+      "scene": 29
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, come on now. Is he really that good-looking?",
+      "scene": 29
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Are you kidding? He's gorgeous. He has a face that looks like it was carved by angels.",
+      "scene": 29
+    },
+    {
+      "character": "DONKEY",
+      "text": "Mmm. He sounds dreamy.",
+      "scene": 29
+    },
+    {
+      "character": "SHREK",
+      "text": "You know, shockingly, this isn't making me feel any better.",
+      "scene": 29
+    },
+    {
+      "character": "SHREK",
+      "text": "Look, guys, it's for the best. Mom and Dad approve, and Fiona gets the man she's always dreamed of. Everybody wins.",
+      "scene": 29
+    },
+    {
+      "character": "DONKEY",
+      "text": "Except for you. I don't get it, Shrek. You love Fiona.",
+      "scene": 29
+    },
+    {
+      "character": "SHREK",
+      "text": "Aye. And that's why I have to let her go.",
+      "scene": 29
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Um... Excuse me is... is she here?",
+      "scene": 29
+    },
+    {
+      "character": "DORIS",
+      "text": "She's, uh, in the back.",
+      "scene": 29
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Oh, hello again.",
+      "scene": 29
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Uh, Fairy Godmother. Charming.",
+      "scene": 29
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "You better have a good reason for dragging us down here, Harold.",
+      "scene": 29
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Well, uh... I'm afraid Fiona isn't really warming up to Prince Charming.",
+      "scene": 29
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "Um, FYI, not my fault.",
+      "scene": 29
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "No, no, of course it's not, dear.",
+      "scene": 29
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "I mean, how charming can I be when I have to pretend I'm that dreadful ogre?",
+      "scene": 29
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "No! No, it's nobody's fault. Um, perhaps it's best if we just call the whole thing off. Okay?",
+      "scene": 29
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "What?",
+      "scene": 29
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "You can't force someone to fall in love.",
+      "scene": 29
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "I beg to differ. I do it all the time. Have Fiona drink this, and she'll fall in love with the first man she kisses, which will be Charming.",
+      "scene": 29
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Uh... No.",
+      "scene": 29
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "What did you say?",
+      "scene": 29
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "I... I can't. I... I won't do it.",
+      "scene": 29
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "Oh, yes, you will. If you remember, I helped you with your happily ever after, and I can take it away just as easily. Is that what you want? Is it?",
+      "scene": 29
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "N... No.",
+      "scene": 29
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "Good boy. Now, we have to go. I need to do Charming's hair before the ball. He's hopeless. You know, he's all high in the front. He can never get to the back. You always need someone to do the back.",
+      "scene": 29
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "Oh, thank you, Mother.",
+      "scene": 29
+    },
+    {
+      "character": "DONKEY",
+      "text": "Mother?",
+      "scene": 29
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "Uh, Mary! A talking horse!",
+      "scene": 29
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "The ogre!",
+      "scene": 29
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "Stop them!",
+      "scene": 29
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "Thieves! Bandits!",
+      "scene": 29
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "Stop them!",
+      "scene": 29
     },
     {
       "character": "ANNOUNCER",
-      "text": "Well, the abs are fab and it’s gluteus to the maximus here at tonight’s Far, Far Away Royal Ball Blowout! The coaches are lined up as the cream of the crop pours out of them like Miss Muffet’s curds and whey!"
+      "text": "Well, the abs are fab and it's gluteus to the maximus here at tonight's Far, Far Away Royal Ball Blowout! The coaches are lined up as the cream of the crop pours out of them like Miss Muffet's curds and whey.",
+      "scene": 29
     },
     {
-      "character": "JOAN",
-      "text": "Everyone who’s anyone has turned out to honor Princess Fiona and Prince Shrek and, oh my, the outfits look gorgeous! Look! HANSEL AND GRETEL!"
-    },
-    {
-      "character": "JOAN",
-      "text": "What the heck are the crumbs for? And right behind them, Tom Thumb and Thumbelina! Oh, aren’t they adorable!"
-    },
-    {
-      "character": "JOAN",
-      "text": "Here comes Sleeping Beauty!"
-    },
-    {
-      "character": "JOAN",
-      "text": "Oh, tired old thing...who’s this? Who’s this?! Who is this?"
-    },
-    {
-      "character": "JOAN",
-      "text": "Oh. It’s the one, it’s the only…it’s the Fairy Godmother!"
+      "character": "JOAN RIVERS",
+      "text": "Everyone who's anyone has turned out to honor Princess Fiona and Prince Shrek. And, oh, my, the outfits look gorgeous! Look! Hansel and Gretel! What the heck are the crumbs for? And right behind them, Tom Thumb and Thumbelina! Oh, aren't they adorable? Whoa! Here comes Sleeping Beauty! Oh! Tired old thing. Who's this? Who's this? Who is this? Oh! It's the one, it's the only, it's the Fairy Godmother!",
+      "scene": 29
     },
     {
       "character": "FAIRY GODMOTHER",
-      "text": "Hello, Far Far Away! Can I get a \"whoop-whoop\"?"
+      "text": "Hello, Far, Far Away! Can I get a, \"Whoop, whoop\"?",
+      "scene": 29
     },
     {
       "character": "FAIRY GODMOTHER",
-      "text": "May all your endings be happy and…well, you know the rest!"
+      "text": "May all your endings be happy and... Well, you know the rest!",
+      "scene": 30
     },
     {
-      "character": "MAGIC MIRROR",
-      "text": "We’ll be right back with the Royal Far Far Away Ball after these messages."
+      "character": "ANNOUNCER",
+      "text": "We'll be right back with the Royal Far, Far Away Ball after these messages.",
+      "scene": 30
     },
     {
-      "character": "GINGY",
-      "text": "I hate these ball shows! They bore me to tears. Flip over to WHEEL OF TORTURE."
+      "character": "GINGERBREAD MAN",
+      "text": "I hate these ball shows. They bore me to tears. Flip over to Wheel of Torture.",
+      "scene": 30
     },
     {
       "character": "PINOCCHIO",
-      "text": "I’m not flipping anywhere, sir, until I see Shrek and Fiona."
+      "text": "I'm not flipping anywhere, sir, until I see Shrek and Fiona.",
+      "scene": 30
     },
     {
-      "character": "GINGY",
-      "text": "Whizzes on you guys! Hey, mice, pass me a buffalo wing."
+      "character": "WOLF",
+      "text": "Ah, whizzes on you guys. Hey, mice, pass me a buffalo wing! No, no, to your left. Your left!",
+      "scene": 30
     },
     {
-      "character": "GINGY",
-      "text": "No no, to your left. Your left!"
+      "character": "ANNOUNCER",
+      "text": "Tonight on Knights. ..",
+      "scene": 30
     },
     {
-      "character": "MAGIC MIRROR",
-      "text": "Tonight on \" K.N.I.G.H.T.S.\""
-    },
-    {
-      "character": "GINGY",
-      "text": "Ah! Now here’s a good show!"
+      "character": "GINGERBREAD MAN",
+      "text": "Ah! Now here's a good show!",
+      "scene": 30
     },
     {
       "character": "KNIGHT",
-      "text": "We got a white bronco heading east into the forest. Requesting backup."
+      "text": "We got a white bronco heading east into the forest. Requesting backup.",
+      "scene": 30
     },
     {
-      "character": "NARRATOR",
-      "text": "It's time for the men in steel to teach these madcap mammals their \"devil may mare\" attitudes just ain't gonna fly!"
-    },
-    {
-      "character": "SHREK",
-      "text": "[struggling] Alright, alright! Let me go!"
+      "character": "ANNOUNCER",
+      "text": "It's time for the men in steel to teach these madcap mammals their \"devil may mare\" attitudes just won't fly.",
+      "scene": 30
     },
     {
       "character": "DONKEY",
-      "text": "Let me go!! Why are you grabbing me?! OW!! Police brutality!!! POLICE BRUTALITY!!!!!"
+      "text": "All right, all right! Let me go! Why you grabbing me? Ow! Police brutality! Police brutality!",
+      "scene": 30
+    },
+    {
+      "character": "SHREK",
+      "text": "Come on! I have to talk to Princess Fiona!",
+      "scene": 30
     },
     {
       "character": "KNIGHT",
-      "text": "Come on!"
+      "text": "We warned you.",
+      "scene": 30
     },
     {
       "character": "SHREK",
-      "text": "I have to talk to Princess Fiona!"
+      "text": "Ow! Ow!",
+      "scene": 30
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Will they get away with it or did someone let the cat out of the bag?",
+      "scene": 30
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "You, capitalist pig dogs!",
+      "scene": 30
     },
     {
       "character": "KNIGHT",
-      "text": "We warned you!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Ow! Ow!"
-    },
-    {
-      "character": "NARRATOR",
-      "text": "Will they get away with it? Or did someone let the cat out of the bag?"
+      "text": "Get it off! Catnip.",
+      "scene": 30
     },
     {
       "character": "PUSS IN BOOTS",
-      "text": "You capitalist pig dogs!"
+      "text": "That's, uh, not mine.",
+      "scene": 30
     },
     {
       "character": "KNIGHT",
-      "text": "Catnip!"
-    },
-    {
-      "character": "PUSS IN BOOTS",
-      "text": "That’s, uh, not mine."
+      "text": "Hold on, all right?",
+      "scene": 30
     },
     {
       "character": "SHREK",
-      "text": "Hold on! Alright! Find Princess Fiona!"
+      "text": "Find Princess Fiona!",
+      "scene": 30
+    },
+    {
+      "character": "KNIGHT",
+      "text": "Come on, guy.",
+      "scene": 30
     },
     {
       "character": "DONKEY",
-      "text": "I’m a donkey!"
+      "text": "I'm a donkey!",
+      "scene": 30
     },
     {
       "character": "SHREK",
-      "text": "Tell her, Shrek--I’m her husband, Shrek! Ow!"
+      "text": "Tell her Shrek... I'm her husband, Shrek! Ow, ow!",
+      "scene": 30
     },
     {
-      "character": "NARRATOR",
-      "text": "K.N.I.G.H.T.S.!"
-    },
-    {
-      "character": "GINGY",
-      "text": "Quick! Rewind it!"
+      "character": "GINGERBREAD MAN",
+      "text": "Knights. Quick! Rewind it!",
+      "scene": 30
     },
     {
       "character": "SHREK",
-      "text": "Shrek--I’m her husband, Shrek! Ow!"
+      "text": "Shrek... I'm her husband, Shrek! Ow, ow!",
+      "scene": 30
     },
     {
       "character": "KING HAROLD",
-      "text": "Darling? Ah. I thought I might find you here. How about a nice hot cup of tea before the ball?"
+      "text": "Darling? Ah, I thought I might find you here. How about a nice, hot cup of tea before the ball?",
+      "scene": 31
     },
     {
-      "character": "FIONA",
-      "text": "(sighs) I’m not going."
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "But, but, but the...the whole kingdom’s turned out to celebrate your marriage."
-    },
-    {
-      "character": "FIONA",
-      "text": "There’s just one problem. That’s not my husband. I mean, look at him."
+      "character": "PRINCESS FIONA",
+      "text": "I'm not going.",
+      "scene": 31
     },
     {
       "character": "KING HAROLD",
-      "text": "Yes, he is a bit...different, but people change for the ones they love. You’d be surprised how much I changed for your mother."
+      "text": "B-B-But the... the whole Kingdom's turned out to celebrate your marriage.",
+      "scene": 31
     },
     {
-      "character": "FIONA",
-      "text": "Change? He’s completely lost his mind!"
-    },
-    {
-      "character": "KING HAROLD",
-      "text": "Darling, why not come down to the ball and give him another chance? I mean, you might find you like this new Shrek."
-    },
-    {
-      "character": "FIONA",
-      "text": "But it’s the old one I fell in love with, Dad. I’d give anything to have him back."
+      "character": "PRINCESS FIONA",
+      "text": "There's just one problem. That's not my husband. I mean, look at him.",
+      "scene": 31
     },
     {
       "character": "KING HAROLD",
-      "text": "Uh, darling. That’s mine. Decaf. O-otherwise I’m up all night."
+      "text": "Yes, he is a bit different, but, uh, people change for the ones they love. You'd be surprised how much I changed for your mother.",
+      "scene": 31
     },
     {
-      "character": "FIONA",
-      "text": "Thanks."
+      "character": "PRINCESS FIONA",
+      "text": "Change? He's completely lost his mind.",
+      "scene": 31
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Darling, why not come down to the ball and give him another chance? I mean, you might find you like this new Shrek.",
+      "scene": 31
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "But it's the old one I fell in love with, Dad. I'd give anything to have him back.",
+      "scene": 31
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Uh, darling, that's mine. Decaf. Otherwise I'm up all night.",
+      "scene": 31
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Mmm. Thanks.",
+      "scene": 31
     },
     {
       "character": "DONKEY",
-      "text": "I gotta get out of here! You can’t lock us up like this! Let me go! Hey, what about my Miranda Rights? You’re supposed to say, I have the right to remain silent! Nobody said I have the right to remain silent!"
+      "text": "I got to get out of here! You can't lock us up like this! Let me go! What about my Miranda rights? You're supposed to say I have the right to remain silent. Nobody said I have the right to remain silent!",
+      "scene": 31
     },
     {
       "character": "SHREK",
-      "text": "Donkey, you HAVE the right to remain silent! What you lack is the capacity!"
+      "text": "Donkey, you have the right to remain silent. What you lack is the capacity.",
+      "scene": 31
     },
     {
       "character": "PUSS IN BOOTS",
-      "text": "I must hold on before I, too, go totally mad."
+      "text": "I must hold on before I, too, go totally mad.",
+      "scene": 31
     },
     {
       "character": "PINOCCHIO",
-      "text": "Shrek? Donkey?"
+      "text": "Shrek? Donkey?",
+      "scene": 31
     },
     {
       "character": "PUSS IN BOOTS",
-      "text": "Too late."
+      "text": "Too late.",
+      "scene": 31
     },
     {
       "character": "SHREK",
-      "text": "Gingy! Pinocchio! Get us out of here!"
-    },
-    {
-      "character": "BLIND MOUSE",
-      "text": "Oh…"
-    },
-    {
-      "character": "LITTLE PIG",
-      "text": "Fire in ze hole!"
-    },
-    {
-      "character": "GINGY",
-      "text": "Look out below!"
-    },
-    {
-      "character": "SHREK",
-      "text": "Quick! Tell a lie!"
+      "text": "Gingy! Pinocchio! Get us out of here.",
+      "scene": 31
     },
     {
       "character": "PINOCCHIO",
-      "text": "What should I say?"
+      "text": "Oh!",
+      "scene": 31
     },
     {
-      "character": "GINGY",
-      "text": "Anything, but quick!"
+      "character": "GINGERBREAD MAN",
+      "text": "Fire in the hole!",
+      "scene": 31
+    },
+    {
+      "character": "PINOCCHIO",
+      "text": "Look out below!",
+      "scene": 32
+    },
+    {
+      "character": "GINGERBREAD MAN",
+      "text": "Quick, tell a lie.",
+      "scene": 32
+    },
+    {
+      "character": "PINOCCHIO",
+      "text": "Well, uh, what should I say?",
+      "scene": 32
+    },
+    {
+      "character": "GINGERBREAD MAN",
+      "text": "Anything, but quick!",
+      "scene": 32
     },
     {
       "character": "DONKEY",
-      "text": "Say something crazy like \"I’m wearing ladies’ underwear!\""
+      "text": "Say something crazy like, \"I'm wearing ladies' underwear.\"",
+      "scene": 32
     },
     {
       "character": "PINOCCHIO",
-      "text": "I'm...I am wearing ladies’ underwear."
+      "text": "I'm... I am wearing ladies' underwear.",
+      "scene": 32
     },
     {
       "character": "SHREK",
-      "text": "Heh...are you?"
+      "text": "Are you?",
+      "scene": 32
     },
     {
       "character": "PINOCCHIO",
-      "text": "I most certainly am not!"
+      "text": "I most certainly am not!",
+      "scene": 32
     },
     {
       "character": "DONKEY",
-      "text": "It looks like you most certainly am are!"
+      "text": "It looks like you most certainly am are.",
+      "scene": 32
     },
     {
       "character": "PINOCCHIO",
-      "text": "I am not!"
+      "text": "I am not!",
+      "scene": 32
+    },
+    {
+      "character": "GINGERBREAD MAN",
+      "text": "What kind?",
+      "scene": 32
+    },
+    {
+      "character": "PINOCCHIO",
+      "text": "It's a thong!",
+      "scene": 32
+    },
+    {
+      "character": "GINGERBREAD MAN",
+      "text": "Ow!",
+      "scene": 32
+    },
+    {
+      "character": "WOLF",
+      "text": "They're briefs.",
+      "scene": 32
+    },
+    {
+      "character": "PINOCCHIO",
+      "text": "Are not.",
+      "scene": 32
+    },
+    {
+      "character": "PIG",
+      "text": "Are too.",
+      "scene": 32
+    },
+    {
+      "character": "PINOCCHIO",
+      "text": "Are not!",
+      "scene": 32
+    },
+    {
+      "character": "PIG",
+      "text": "Are too!",
+      "scene": 32
+    },
+    {
+      "character": "GINGERBREAD MAN",
+      "text": "Here we go. Hang tight.",
+      "scene": 32
+    },
+    {
+      "character": "PINOCCHIO",
+      "text": "Hey, wait, wait, wait! Ow, ow! Hey, hey, hey! Ow!",
+      "scene": 32
+    },
+    {
+      "character": "SHREK",
+      "text": "Excuse me?",
+      "scene": 32
+    },
+    {
+      "character": "SHREK",
+      "text": "What? Puss!",
+      "scene": 32
     },
     {
       "character": "PUSS IN BOOTS",
-      "text": "What kind?"
-    },
-    {
-      "character": "GINGY",
-      "text": "It’s a thong!"
-    },
-    {
-      "character": "PINOCCHIO",
-      "text": "Ow! They’re briefs!"
-    },
-    {
-      "character": "GINGY",
-      "text": "Are not!"
-    },
-    {
-      "character": "PINOCCHIO",
-      "text": "Are too!"
-    },
-    {
-      "character": "GINGY",
-      "text": "Are not!"
-    },
-    {
-      "character": "PINOCCHIO",
-      "text": "Are too!"
-    },
-    {
-      "character": "GINGY",
-      "text": "Here we go. Hang tight!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Wait, wait, wait! Ow! Ow! Hey, hey, hey! Ow!"
-    },
-    {
-      "character": "BLIND MOUSE",
-      "text": "Excuse me?"
+      "text": "Mm-hmm?",
+      "scene": 32
     },
     {
       "character": "SHREK",
-      "text": "What? Puss!"
-    },
-    {
-      "character": "BLIND MOUSE",
-      "text": "Pardon me, would you mind letting me go?"
+      "text": "Pardon me, would you mind letting me go?",
+      "scene": 32
     },
     {
       "character": "PUSS IN BOOTS",
-      "text": "Sorry, boss."
+      "text": "Sorry, boss.",
+      "scene": 32
     },
     {
       "character": "SHREK",
-      "text": "Quit messing around! We’ve got to stop that kiss!"
+      "text": "Quit messing around. We've got to stop that kiss!",
+      "scene": 32
     },
     {
       "character": "DONKEY",
-      "text": "I thought you was going to let her go."
+      "text": "I thought you was going to let her go.",
+      "scene": 32
     },
     {
       "character": "SHREK",
-      "text": "I was, but I can’t let them do this to Fiona!"
+      "text": "I was, but I can't let them do this to Fiona.",
+      "scene": 32
     },
     {
       "character": "DONKEY",
-      "text": "Boom! That’s what I like to hear. Look who’s finally coming around!"
+      "text": "Boom! That's what I like to hear. Look who's finally coming around.",
+      "scene": 32
     },
     {
       "character": "PUSS IN BOOTS",
-      "text": "But it’s impossible! We’ll never get in. The castle is guarded and there is a moat and everything!"
+      "text": "But that's impossible. We'll never get in. The castle is guarded and there is a moat and everything!",
+      "scene": 32
     },
     {
-      "character": "GINGY",
-      "text": "Well, folks, it looks like we’re up chocolate creek without a popsicle stick."
+      "character": "GINGERBREAD MAN",
+      "text": "Well, folks, it looks like we're up chocolate creek without a Popsicle stick.",
+      "scene": 32
     },
     {
-      "character": "SHREK",
-      "text": "What?"
-    },
-    {
-      "character": "GINGY",
-      "text": "Do you still know the Muffin Man?"
-    },
-    {
-      "character": "GINGY",
-      "text": "Well, sure! He’s down on DRURY LANE. Why?"
+      "character": "GINGERBREAD MAN",
+      "text": "What?",
+      "scene": 32
     },
     {
       "character": "SHREK",
-      "text": "Because we’re gonna need flour. Lots and lots of flour."
+      "text": "Do you still know the Muffin Man?",
+      "scene": 32
+    },
+    {
+      "character": "GINGERBREAD MAN",
+      "text": "Well, sure. He's down on Drury Lane. Why?",
+      "scene": 32
+    },
+    {
+      "character": "SHREK",
+      "text": "Because we're gonna need flour. Lots and lots of flour.",
+      "scene": 32
     },
     {
       "character": "MUFFIN MAN",
-      "text": "Gingy!"
+      "text": "Gingy!",
+      "scene": 32
     },
     {
-      "character": "GINGY",
-      "text": "Fire up the ovens, Muffin Man! We’ve got a big order to fill!"
+      "character": "GINGERBREAD MAN",
+      "text": "Fire up the ovens, Muffin Man. We've got a big order to fill.",
+      "scene": 32
     },
     {
-      "character": "GINGY",
-      "text": "It’s alive!"
+      "character": "MUFFIN MAN",
+      "text": "It's alive!",
+      "scene": 32
     },
     {
-      "character": "DONKEY",
-      "text": "Run, run, run, as fast you can!"
+      "character": "GINGERBREAD MAN",
+      "text": "Whoa.",
+      "scene": 32
     },
     {
-      "character": "GINGY",
-      "text": "Go, baby, go!"
+      "character": "GINGERBREAD MAN",
+      "text": "Run, run, run as fast you can!",
+      "scene": 32
+    },
+    {
+      "character": "GINGERBREAD MAN",
+      "text": "Go, baby, go!",
+      "scene": 32
     },
     {
       "character": "SHREK",
-      "text": "There it is, Mongo! To the castle!"
+      "text": "There it is, Mongo. To the castle. No, no, no, you great stupid pastry! Come on!",
+      "scene": 32
     },
     {
-      "character": "SHREK",
-      "text": "No, no, no, no, you great stupid pastry! Come on!"
-    },
-    {
-      "character": "DONKEY",
-      "text": "Mongo! Down here! Look at the pony!"
+      "character": "GINGERBREAD MAN",
+      "text": "Mongo, down here. Look at the pony.",
+      "scene": 32
     },
     {
       "character": "MONGO",
-      "text": "Oooh, pretty pony."
+      "text": "Ooh. Oh!",
+      "scene": 32
     },
     {
       "character": "DONKEY",
-      "text": "That’s right! Follow the pretty pony! Pretty pony wants to play at the castle!"
+      "text": "That's right, follow the pretty pony. Pretty pony wants to play at the castle.",
+      "scene": 32
     },
     {
-      "character": "ANNOUNCER",
-      "text": "Ladies and gentlemen! Presenting Princess Fiona and her new husband, Prince Shr"
+      "character": "MONGO",
+      "text": "Pretty pony.",
+      "scene": 32
+    },
+    {
+      "character": "PAGE",
+      "text": "Ladies and gentlemen, presenting Princess Fiona and her new husband, Prince Shrek.",
+      "scene": 32
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Shrek, what are you doing?",
+      "scene": 32
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "I'm just playing the part, Fiona.",
+      "scene": 32
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Is that glitter on your lips?",
+      "scene": 32
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "Mmm. Cherry flavored. Want to taste?",
+      "scene": 32
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Ugh! What is with you?",
+      "scene": 32
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "But, Muffin Cake...",
+      "scene": 32
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "C Minor, put it in C Minor. Ladies and gentlemen.",
+      "scene": 32
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "I'd like to dedicate this song to Princess Fiona and Prince Shrek.",
+      "scene": 32
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "Fiona, my princess. Will you honor me with a dance?",
+      "scene": 32
+    },
+    {
+      "character": "SHREK",
+      "text": "All right, big fellow! Let's crash this party!",
+      "scene": 33
+    },
+    {
+      "character": "GUARD",
+      "text": "Man the catapults! Ready! Fire!",
+      "scene": 33
+    },
+    {
+      "character": "SHREK",
+      "text": "Brace yourselves!",
+      "scene": 33
+    },
+    {
+      "character": "MONGO",
+      "text": "Ooh, purty.",
+      "scene": 33
+    },
+    {
+      "character": "GINGERBREAD MAN",
+      "text": "Not the gumdrop button!",
+      "scene": 33
+    },
+    {
+      "character": "SHREK",
+      "text": "Incoming! All right!",
+      "scene": 33
+    },
+    {
+      "character": "SHREK",
+      "text": "After you, Mongo.",
+      "scene": 34
+    },
+    {
+      "character": "GUARD",
+      "text": "That's it. Heave! Foam!",
+      "scene": 34
+    },
+    {
+      "character": "SHREK",
+      "text": "Watch out!",
+      "scene": 34
     },
     {
       "character": "DONKEY",
-      "text": "re time. What you talking about? Are you serious?!"
+      "text": "Shrek!",
+      "scene": 34
     },
     {
-      "character": "DRONKEY",
-      "text": "Da-da!"
+      "character": "GUARD",
+      "text": "More heat, less foam!",
+      "scene": 34
+    },
+    {
+      "character": "SHREK",
+      "text": "Come on!",
+      "scene": 35
+    },
+    {
+      "character": "GINGERBREAD MAN",
+      "text": "No, no!",
+      "scene": 35
+    },
+    {
+      "character": "MONGO",
+      "text": "Be good.",
+      "scene": 35
+    },
+    {
+      "character": "GINGERBREAD MAN",
+      "text": "He needs me! Let me go!",
+      "scene": 35
+    },
+    {
+      "character": "SHREK",
+      "text": "Donkey.",
+      "scene": 36
+    },
+    {
+      "character": "SHREK",
+      "text": "Puss!",
+      "scene": 36
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Go, go! Your lady needs you. Go!",
+      "scene": 36
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Today, I repay my debt.",
+      "scene": 36
+    },
+    {
+      "character": "SHREK",
+      "text": "Stop!",
+      "scene": 37
+    },
+    {
+      "character": "SHREK",
+      "text": "Hey, you. Back away from my wife.",
+      "scene": 37
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Shrek?",
+      "scene": 37
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "You couldn't just go back to your swamp and leave well enough alone.",
+      "scene": 37
+    },
+    {
+      "character": "SHREK",
+      "text": "Now!",
+      "scene": 37
+    },
+    {
+      "character": "PIG",
+      "text": "Pigs und blanket!",
+      "scene": 37
+    },
+    {
+      "character": "SHREK",
+      "text": "Pinocchio, get the wand!",
+      "scene": 37
+    },
+    {
+      "character": "PINOCCHIO",
+      "text": "I see London. I see France.",
+      "scene": 37
+    },
+    {
+      "character": "PINOCCHIO",
+      "text": "I'm a real boy!",
+      "scene": 37
+    },
+    {
+      "character": "PIG",
+      "text": "Ja!",
+      "scene": 37
+    },
+    {
+      "character": "PINOCCHIO",
+      "text": "Catch!",
+      "scene": 37
+    },
+    {
+      "character": "SHREK",
+      "text": "Donkey!",
+      "scene": 37
+    },
+    {
+      "character": "PINOCCHIO",
+      "text": "I'm a real boy.",
+      "scene": 37
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "Ha!",
+      "scene": 37
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "That's mine! That's mine!",
+      "scene": 37
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Pray for mercy, from Puss...",
+      "scene": 37
     },
     {
       "character": "DONKEY",
-      "text": "Look at our little mutant babies! I got to get a job."
+      "text": "And Donkey!",
+      "scene": 37
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "She's taken the potion! Kiss her now!",
+      "scene": 37
+    },
+    {
+      "character": "SHREK",
+      "text": "No!",
+      "scene": 37
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Hi-yah!",
+      "scene": 38
+    },
+    {
+      "character": "SHREK",
+      "text": "Fiona.",
+      "scene": 38
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Shrek.",
+      "scene": 38
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "Harold, you were supposed to give her the potion!",
+      "scene": 38
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "Well, I guess I gave her the wrong tea.",
+      "scene": 38
+    },
+    {
+      "character": "PRINCE CHARMING",
+      "text": "Mommy!",
+      "scene": 38
+    },
+    {
+      "character": "FAIRY GODMOTHER",
+      "text": "Mommy? I told you, ogres don't live happily ever after.",
+      "scene": 38
+    },
+    {
+      "character": "QUEEN LILLIAN",
+      "text": "Harold!",
+      "scene": 38
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Shrek!",
+      "scene": 38
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "No!",
+      "scene": 38
+    },
+    {
+      "character": "QUEEN LILLIAN",
+      "text": "Oh...",
+      "scene": 39
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Dad. Daddy...",
+      "scene": 39
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Is he...",
+      "scene": 39
+    },
+    {
+      "character": "WOLF",
+      "text": "Yup.",
+      "scene": 39
+    },
+    {
+      "character": "QUEEN LILLIAN",
+      "text": "Harold?",
+      "scene": 40
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Dad?",
+      "scene": 40
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "I'd hoped you'd never see me like this.",
+      "scene": 40
+    },
+    {
+      "character": "DONKEY",
+      "text": "Man, and he gave you a hard time!",
+      "scene": 40
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Donkey!",
+      "scene": 40
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "No, no, he's right. I'm sorry to both of you. I only wanted what was best for Fiona. But I can see now... she already has it. Shrek, Fiona... will you accept an old frog's apologies... and my blessing?",
+      "scene": 40
+    },
+    {
+      "character": "QUEEN LILLIAN",
+      "text": "Harold...",
+      "scene": 40
+    },
+    {
+      "character": "KING HAROLD",
+      "text": "I'm sorry, Lillian. I just wish I could be the man you deserve.",
+      "scene": 40
+    },
+    {
+      "character": "QUEEN LILLIAN",
+      "text": "You're more that man today than you ever were, warts and all.",
+      "scene": 40
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Boss, the Happily Ever After Potion!",
+      "scene": 40
+    },
+    {
+      "character": "SHREK",
+      "text": "Midnight! Fiona, is this what you want? To be this way forever?",
+      "scene": 40
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "What?",
+      "scene": 40
+    },
+    {
+      "character": "SHREK",
+      "text": "'Cause if you kiss me now... we can stay like this.",
+      "scene": 40
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "You'd do that? For me?",
+      "scene": 40
+    },
+    {
+      "character": "SHREK",
+      "text": "Yes.",
+      "scene": 40
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "I want what any princess wants... to live happily ever after...",
+      "scene": 40
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "with the ogre I married.",
+      "scene": 40
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Whatever happens, I must not cry. You cannot make me cry.",
+      "scene": 40
+    },
+    {
+      "character": "DONKEY",
+      "text": "No. No. No, no. No! Ow! No. No!",
+      "scene": 41
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, no.",
+      "scene": 41
+    },
+    {
+      "character": "SHREK",
+      "text": "Ugh.",
+      "scene": 41
+    },
+    {
+      "character": "SHREK",
+      "text": "Hey, you still look like a noble steed to me.",
+      "scene": 41
+    },
+    {
+      "character": "PRINCESS FIONA",
+      "text": "Now, where were we?",
+      "scene": 41
+    },
+    {
+      "character": "SHREK",
+      "text": "Ooh! I remember.",
+      "scene": 41
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Hey!",
+      "scene": 41
+    },
+    {
+      "character": "DONKEY",
+      "text": "Isn't we supposed to be having a fiesta?",
+      "scene": 41
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Uno, dos, cuatro, hit it!",
+      "scene": 41
+    },
+    {
+      "character": "DONKEY",
+      "text": "Puss and Donkey, y'all...",
+      "scene": 41
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "Amigo, we are off to the Kit-Kat Club. Come on, join us.",
+      "scene": 42
+    },
+    {
+      "character": "DONKEY",
+      "text": "Oh, thanks, compadre. I'm... I'm just not in the mood.",
+      "scene": 42
+    },
+    {
+      "character": "PUSS IN BOOTS",
+      "text": "We will cheer you up. Find you a nice, uh, burro.",
+      "scene": 42
+    },
+    {
+      "character": "DONKEY",
+      "text": "Hey, baby! Whoo! Hey, that's my girl! Yeah! All right! Baby, where you been? I'm sorry too. I should have stayed, but Shrek had this thing he had to do... What? Say that one more time. What you talking about? Are you serious?",
+      "scene": 42
+    },
+    {
+      "character": "DONKEY",
+      "text": "Look at our little mutant babies!",
+      "scene": 42
+    },
+    {
+      "character": "DONKEY",
+      "text": "I got to get a job.",
+      "scene": 42
     }
   ],
-  "lineCount": 801,
-  "characterCount": 45,
-  "topCastCount": 16,
-  "topCast": [
-    "SHREK",
-    "DONKEY",
-    "KING HAROLD",
-    "FIONA",
-    "FAIRY GODMOTHER",
-    "PUSS IN BOOTS",
-    "QUEEN LILLIAN",
-    "PRINCE CHARMING",
-    "GINGY",
-    "PINOCCHIO",
-    "DORIS",
-    "JEROME",
-    "JILL",
-    "MAIDEN #2",
-    "MAIDEN #1",
-    "JOAN"
-  ],
+  "lineCount": 808,
+  "characterCount": 28,
   "imdbId": "tt0298148",
   "poster": "https://m.media-amazon.com/images/M/MV5BMzNmNjQ1NmUtNzhiZS00YWE2LTg4N2ItZTA2ODdmOTMwOTQ1XkEyXkFqcGc@._V1_SX300.jpg",
   "rated": "PG",
   "runtime": "93 min",
-  "genre": "Animation, Adventure, Comedy",
+  "genre": "Animation, Family, Comedy, Fantasy, Adventure",
   "director": "Andrew Adamson, Kelly Asbury, Conrad Vernon",
   "topSpeakingCast": [
     "SHREK",
     "DONKEY",
+    "PRINCESS FIONA",
     "KING HAROLD",
-    "FIONA",
     "FAIRY GODMOTHER",
     "PUSS IN BOOTS",
     "QUEEN LILLIAN",
     "PRINCE CHARMING",
-    "GINGY",
+    "GINGERBREAD MAN",
     "PINOCCHIO",
-    "DORIS",
     "JEROME",
-    "JILL",
-    "JOAN",
-    "MAIDEN #1",
-    "MAIDEN #2"
+    "WOLF"
   ]
 }

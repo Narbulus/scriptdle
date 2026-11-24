@@ -6,7 +6,6 @@ import { Completion } from './Completion.jsx';
 import { MoviesModal } from './MoviesModal.jsx';
 import { DebugMenu } from './DebugMenu.jsx';
 import { getTutorialState, saveTutorialState } from '../../services/storage.js';
-import { isCompactPlatform } from '../../services/platform.js';
 
 const TUTORIAL_STEPS = {
     MOVIE_SELECT: 1,
@@ -38,7 +37,8 @@ export function Game({ dailyPuzzle, manifest, packData }) {
         id: dailyPuzzle.packId,
         name: manifest.packName,
         theme: manifest.theme,
-        tierMessages: manifest.tierMessages
+        tierMessages: manifest.tierMessages,
+        mediaType: manifest.mediaType || packData.mediaType || 'movies',
     };
 
     useEffect(() => {
@@ -133,7 +133,7 @@ export function Game({ dailyPuzzle, manifest, packData }) {
         <div className="game-container">
             <ScriptDisplay puzzle={puzzle} />
 
-            <div className={`game-footer${isGameOver.value && isCompactPlatform() ? (wasAlreadyComplete.current ? ' completion-expanded no-animate' : ' completion-expanded') : ''}`} data-testid="game-footer">
+            <div className={`game-footer${isGameOver.value ? (wasAlreadyComplete.current ? ' completion-expanded no-animate' : ' completion-expanded') : ''}`} data-testid="game-footer">
                 {isGameOver.value ? (
                     <Completion
                         puzzle={puzzle}

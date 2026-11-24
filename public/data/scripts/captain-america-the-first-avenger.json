@@ -1,2072 +1,3780 @@
 {
   "id": "captain-america-the-first-avenger",
   "title": "Captain America: The First Avenger",
-  "year": null,
+  "year": 2011,
   "characters": [
-    "ANNOUNCER",
-    "BOY",
-    "BRANDT",
-    "BUCKY",
+    "BRANDT'S AIDE",
+    "BUCKY BARNES",
+    "CHORUS GIRL",
     "CHURCH KEEPER",
-    "CLEMSON",
-    "COLONEL PHILLIPS",
-    "DIRECTOR",
-    "DOCTOR",
-    "DR. ERSKINE",
-    "DR. ZOLA",
-    "EXAMINER",
-    "FAN",
-    "FURY",
-    "GABE",
-    "GIRL",
-    "GIRL 1",
-    "GUY",
-    "HODGE",
+    "COLONEL CHESTER PHILLIPS",
+    "CONNIE",
+    "DR. ABRAHAM ERSKINE",
+    "DR. ARNIM ZOLA",
+    "ENLISTMENT OFFICER",
+    "GABE JONES",
+    "GILMORE HODGE",
+    "HECKLER",
+    "HEINZ KRUGER",
     "HOWARD STARK",
-    "HYDRA LIEUTENANT",
-    "HYDRA SOLDIERS",
+    "JAMES MONTGOMERY FALSWORTH",
     "JAN",
-    "JIM",
-    "KIDS",
-    "LADY",
-    "MAN",
-    "MAN 1",
-    "MAN 2",
-    "MAN 3",
-    "MAN 5",
-    "MAN4",
-    "MASKED HYDRA SOLDIER SQUADS",
-    "NARRATOR",
-    "OTHERS",
+    "JIM MORITA",
+    "JOHANN SCHMIDT",
+    "LAB TECHNICIAN",
+    "NEWSREEL ANNOUNCER",
+    "NICK FURY",
     "PEGGY CARTER",
-    "PINKY",
-    "RADIO",
+    "PRIVATE LORRAINE",
     "RECRUIT",
-    "RED SKULL",
-    "S.H.I.E.L.D. LIEUTENANT",
-    "S.H.I.E.L.D. TECH",
-    "SEARCH TEAM LEADER",
-    "SENATOR BRANT",
-    "SINGERS",
-    "STEVE",
+    "SENATOR BRANDT",
+    "STAGE MANAGER",
+    "STEVE ROGERS",
     "TAXI DRIVER",
-    "TRAINER",
-    "WOMAN",
-    "WORKER"
+    "TIMOTHY DUGAN"
   ],
   "lines": [
     {
-      "character": "SEARCH TEAM LEADER",
-      "text": "Are you the guys from Washington?"
+      "character": "JAN",
+      "text": "They've come for it!",
+      "scene": 0
     },
     {
-      "character": "S.H.I.E.L.D. LIEUTENANT",
-      "text": "You get many other visitors out here?"
-    },
-    {
-      "character": "S.H.I.E.L.D. TECH",
-      "text": "How long you been on-site?"
-    },
-    {
-      "character": "MAN 1",
-      "text": "Since this morning. A Russian oil team called it in about 18 hours ago."
-    },
-    {
-      "character": "S.H.I.E.L.D. LIEUTENANT",
-      "text": "How come nobody spotted it before?"
-    },
-    {
-      "character": "SEARCH TEAM LEADER",
-      "text": "It's really not that surprising. This landscape's changing all the time. You got any idea what this thing is exactly?"
-    },
-    {
-      "character": "S.H.I.E.L.D. TECH",
-      "text": "I don't know. It's probably a weather balloon."
-    },
-    {
-      "character": "S.H.I.E.L.D. LIEUTENANT",
-      "text": "I don't think so."
-    },
-    {
-      "character": "SEARCH TEAM LEADER",
-      "text": "You know, we don't have the equipment for a job like this."
-    },
-    {
-      "character": "S.H.I.E.L.D. LIEUTENANT",
-      "text": "How long before we can start craning it out?"
-    },
-    {
-      "character": "SEARCH TEAM LEADER",
-      "text": "I don't think you quite understand. You guys are gonna need one hell of a crane."
-    },
-    {
-      "character": "S.H.I.E.L.D. LIEUTENANT",
-      "text": "Base, we're in."
-    },
-    {
-      "character": "S.H.I.E.L.D. TECH",
-      "text": "What is this?"
-    },
-    {
-      "character": "S.H.I.E.L.D. LIEUTENANT",
-      "text": "Careful..."
-    },
-    {
-      "character": "S.H.I.E.L.D. TECH",
-      "text": "What is it?"
-    },
-    {
-      "character": "S.H.I.E.L.D. LIEUTENANT",
-      "text": "My God. Base, get me a line to the Colonel."
-    },
-    {
-      "character": "S.H.I.E.L.D. LIEUTENANT",
-      "text": "I don't care what time it is. This one's waited long enough."
+      "character": "TOWER KEEPER",
+      "text": "They have before.",
+      "scene": 0
     },
     {
       "character": "JAN",
-      "text": "De har kommet for det!"
+      "text": "Not like this.",
+      "scene": 0
+    },
+    {
+      "character": "TOWER KEEPER",
+      "text": "Let them come. They'll never find it.",
+      "scene": 0
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "It has taken me a long time to find this place.",
+      "scene": 1
+    },
+    {
+      "character": "TOWER KEEPER",
+      "text": "You should be commended.",
+      "scene": 1
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "Help him up.",
+      "scene": 1
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "I think that you are a man of great vision. And, in this way, we are much alike.",
+      "scene": 1
+    },
+    {
+      "character": "TOWER KEEPER",
+      "text": "I am nothing like you.",
+      "scene": 1
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "No, of course, but what others see as superstition, you and I know to be a science.",
+      "scene": 1
+    },
+    {
+      "character": "TOWER KEEPER",
+      "text": "What you seek is just a legend.",
+      "scene": 1
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "Then why make such an effort to conceal it?",
+      "scene": 1
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "The tesseract was the Jewel of Odin's treasure room.",
+      "scene": 2
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "It is not something one buries. But I think it is close, yes?",
+      "scene": 2
+    },
+    {
+      "character": "TOWER KEEPER",
+      "text": "I cannot help you.",
+      "scene": 2
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "No. But maybe you can help your village. You must have some friends out there. Some little grandchildren, perhaps? I have no need for them to die.",
+      "scene": 2
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "Yggdrasil. Tree of the world.",
+      "scene": 3
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "Guardian of wisdom.",
+      "scene": 3
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "And fate, also.",
+      "scene": 3
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "And the fcihrer digs for trinkets in the desert.",
+      "scene": 4
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "You have never seen this, have you?",
+      "scene": 4
     },
     {
       "character": "CHURCH KEEPER",
-      "text": "Det har de før!"
+      "text": "It's not for the eyes of ordinary men.",
+      "scene": 4
     },
     {
-      "character": "JAN",
-      "text": "Ikke slik."
+      "character": "JOHANN SCHMIDT",
+      "text": "Exactly.",
+      "scene": 4
     },
     {
-      "character": "CHURCH KEEPER",
-      "text": "La dem komme. De vil aldri finne det."
-    },
-    {
-      "character": "HYDRA LIEUTENANT",
-      "text": "Open it! Quickly, before he..."
-    },
-    {
-      "character": "RED SKULL",
-      "text": "It has taken me a long time to find this place. You should be commended."
-    },
-    {
-      "character": "RED SKULL",
-      "text": "Help him up."
-    },
-    {
-      "character": "RED SKULL",
-      "text": "I think that you are a man of great vision. And, in this way, we are much alike."
+      "character": "JOHANN SCHMIDT",
+      "text": "Give the order to open fire.",
+      "scene": 4
     },
     {
       "character": "CHURCH KEEPER",
-      "text": "I am nothing like you."
+      "text": "Fool! You cannot control the power you hold. You will burn!",
+      "scene": 4
     },
     {
-      "character": "RED SKULL",
-      "text": "No, of course, but what others see as superstition, you and I know to be a science."
+      "character": "JOHANN SCHMIDT",
+      "text": "I already have.",
+      "scene": 4
     },
     {
-      "character": "CHURCH KEEPER",
-      "text": "What you seek is just a legend."
+      "character": "ENLISTMENT OFFICER",
+      "text": "O'Connell, Michael. Kaminsky, Henry.",
+      "scene": 5
     },
     {
-      "character": "RED SKULL",
-      "text": "Then why make such an effort to conceal it?"
+      "character": "STEVE ROGERS",
+      "text": "Boy, a lot of guys getting killed over there.",
+      "scene": 5
     },
     {
-      "character": "RED SKULL",
-      "text": "The Tesseract was the jewel of Odin's treasure room. It is not something one buries. But I think it is close, yes?"
-    },
-    {
-      "character": "CHURCH KEEPER",
-      "text": "I cannot help you."
-    },
-    {
-      "character": "RED SKULL",
-      "text": "No. But maybe you can help your village. You must have some friends out there. Some little grandchildren, perhaps? I have no need for them to die."
-    },
-    {
-      "character": "RED SKULL",
-      "text": "Yggdrasil. Tree of the world. Guardian of wisdom. And fate, also. And the Fuhrer digs for trinkets in the desert."
-    },
-    {
-      "character": "RED SKULL",
-      "text": "You have never seen this, have you?"
-    },
-    {
-      "character": "CHURCH KEEPER",
-      "text": "It's not for the eyes of ordinary men."
-    },
-    {
-      "character": "RED SKULL",
-      "text": "Exactly. Give the order to open fire."
-    },
-    {
-      "character": "CHURCH KEEPER",
-      "text": "Fool! You cannot control the power you hold. You will burn!"
-    },
-    {
-      "character": "RED SKULL",
-      "text": "I already have."
-    },
-    {
-      "character": "EXAMINER",
-      "text": "O'Connell, Michael."
-    },
-    {
-      "character": "EXAMINER",
-      "text": "Kaminsky, Henry."
-    },
-    {
-      "character": "STEVE",
-      "text": "Boy, a lot of guys getting killed over there."
-    },
-    {
-      "character": "EXAMINER",
-      "text": "Rogers, Steven."
+      "character": "ENLISTMENT OFFICER",
+      "text": "Rogers, Steven.",
+      "scene": 5
     },
     {
       "character": "RECRUIT",
-      "text": "It kind of makes you think twice about enlisting, huh?"
+      "text": "It kind of makes you think twice about enlisting, huh?",
+      "scene": 5
     },
     {
-      "character": "STEVE",
-      "text": "Nope."
+      "character": "STEVE ROGERS",
+      "text": "Nope.",
+      "scene": 5
     },
     {
-      "character": "EXAMINER",
-      "text": "Rogers... What did your father die of?"
+      "character": "DOCTOR",
+      "text": "Rogers.",
+      "scene": 5
     },
     {
-      "character": "STEVE",
-      "text": "Mustard gas. He was in the 107th Infantry. I was hoping I could be assigned..."
+      "character": "DOCTOR",
+      "text": "What did your father die of?",
+      "scene": 5
     },
     {
-      "character": "EXAMINER",
-      "text": "Your mother?"
+      "character": "STEVE ROGERS",
+      "text": "Mustard gas. He was in the 107th infantry. I was hoping I could be assigned...",
+      "scene": 5
     },
     {
-      "character": "STEVE",
-      "text": "She was a nurse in a TB ward. Got hit. Couldn't shake it."
+      "character": "DOCTOR",
+      "text": "Your mother?",
+      "scene": 5
     },
     {
-      "character": "EXAMINER",
-      "text": "Sorry, son."
+      "character": "STEVE ROGERS",
+      "text": "She was a nurse in a tb ward. Got hit. Couldn't shake it.",
+      "scene": 5
     },
     {
-      "character": "STEVE",
-      "text": "Look, just give me a chance."
+      "character": "DOCTOR",
+      "text": "Sorry, son.",
+      "scene": 5
     },
     {
-      "character": "EXAMINER",
-      "text": "You'd be ineligible on your asthma alone."
+      "character": "STEVE ROGERS",
+      "text": "Look, just give me a chance.",
+      "scene": 5
     },
     {
-      "character": "STEVE",
-      "text": "Is there anything you can do?"
+      "character": "DOCTOR",
+      "text": "You'd be ineligible on your asthma alone.",
+      "scene": 5
     },
     {
-      "character": "EXAMINER",
-      "text": "I'm doing it. I'm saving your life."
+      "character": "STEVE ROGERS",
+      "text": "Is there anything you can do?",
+      "scene": 5
     },
     {
-      "character": "NARRATOR",
-      "text": "War continues to ravage Europe. But help is on the way. Every able-bodied young man is lining up to serve his country. Even little Timmy is doing his part collecting scrap metal. Nice work, Timmy!"
+      "character": "DOCTOR",
+      "text": "I'm doing it. I'm saving your life.",
+      "scene": 5
     },
     {
-      "character": "MAN",
-      "text": "Who cares? Play the movie already!"
+      "character": "NEWSREEL ANNOUNCER",
+      "text": "War continues to ravage Europe. But help is on the way. Every able-bodied young man is lining up to serve his country.",
+      "scene": 5
     },
     {
-      "character": "STEVE",
-      "text": "Hey, you wanna show some respect?"
+      "character": "NEWSREEL ANNOUNCER",
+      "text": "Even little Timmy is doing his part collecting scrap metal. Nice work, Timmy!",
+      "scene": 5
     },
     {
-      "character": "NARRATOR",
-      "text": "Meanwhile, overseas, our brave boys are showing the Axis powers that the price of freedom is never too high."
+      "character": "HECKLER",
+      "text": "Who cares? Play the movie already!",
+      "scene": 5
     },
     {
-      "character": "MAN",
-      "text": "Let's go! Get on with it! Hey, just start the cartoon!"
+      "character": "STEVE ROGERS",
+      "text": "Hey, you wanna show some respect?",
+      "scene": 5
     },
     {
-      "character": "STEVE",
-      "text": "Hey, you wanna shut up?"
+      "character": "NEWSREEL ANNOUNCER",
+      "text": "Meanwhile, overseas, our brave boys are showing the axis powers that the price of freedom is never too high.",
+      "scene": 5
     },
     {
-      "character": "NARRATOR",
-      "text": "Together with Allied forces, we'll face any threat, no matter the size."
+      "character": "HECKLER",
+      "text": "Let's go! Get on with it! Hey, just start the cartoon!",
+      "scene": 5
     },
     {
-      "character": "MAN",
-      "text": "You just don't know when to give up, do you?"
+      "character": "STEVE ROGERS",
+      "text": "Hey, you wanna shut up?",
+      "scene": 5
     },
     {
-      "character": "STEVE",
-      "text": "I can do this all day."
+      "character": "NEWSREEL ANNOUNCER",
+      "text": "Together with allied forces, we 7! Face any threat, no matter the size.",
+      "scene": 5
     },
     {
-      "character": "BUCKY",
-      "text": "Hey! Pick on someone your own size."
+      "character": "HECKLER",
+      "text": "You just don't know when to give up, do you?",
+      "scene": 6
     },
     {
-      "character": "BUCKY",
-      "text": "Sometimes I think you like getting punched."
+      "character": "STEVE ROGERS",
+      "text": "I can do this all day.",
+      "scene": 6
     },
     {
-      "character": "STEVE",
-      "text": "I had him on the ropes."
+      "character": "BUCKY BARNES",
+      "text": "Hey! Pick on someone your own size.",
+      "scene": 6
     },
     {
-      "character": "BUCKY",
-      "text": "How many times is this? You're from Paramus now? You know it's illegal to lie on the enlistment form. And seriously, Jersey?"
+      "character": "BUCKY BARNES",
+      "text": "Sometimes I think you like getting punched.",
+      "scene": 6
     },
     {
-      "character": "STEVE",
-      "text": "You get your orders?"
+      "character": "STEVE ROGERS",
+      "text": "I had him on the ropes.",
+      "scene": 6
     },
     {
-      "character": "BUCKY",
-      "text": "The 107th. Sergeant James Barnes, shipping out for England first thing tomorrow."
+      "character": "BUCKY BARNES",
+      "text": "How many times is this? Oh, you're from paramus now? You know it's illegal to lie on the enlistment form. And seriously, Jersey?",
+      "scene": 6
     },
     {
-      "character": "STEVE",
-      "text": "I should be going."
+      "character": "STEVE ROGERS",
+      "text": "You get your orders?",
+      "scene": 6
     },
     {
-      "character": "BUCKY",
-      "text": "Come on, man. My last night! I got to get you cleaned up."
+      "character": "BUCKY BARNES",
+      "text": "The 107th. Sergeant James Barnes, shipping out for england first thing tomorrow.",
+      "scene": 6
     },
     {
-      "character": "STEVE",
-      "text": "Why? Where are we going?"
+      "character": "STEVE ROGERS",
+      "text": "I should be going.",
+      "scene": 6
     },
     {
-      "character": "BUCKY",
-      "text": "The future."
+      "character": "BUCKY BARNES",
+      "text": "Come on, man. My last night! I got to get you cleaned up.",
+      "scene": 6
     },
     {
-      "character": "BUCKY",
-      "text": "I don't see what the problem is. You're about to be the last eligible man in New York. You know there's three and a half million women here?"
+      "character": "STEVE ROGERS",
+      "text": "Why? Where are we going?",
+      "scene": 6
     },
     {
-      "character": "STEVE",
-      "text": "Well, I'd settle for just one."
+      "character": "BUCKY BARNES",
+      "text": "The future.",
+      "scene": 6
     },
     {
-      "character": "BUCKY",
-      "text": "Good thing I took care of that."
+      "character": "BUCKY BARNES",
+      "text": "I don't see what the problem is. You're about to be the last eligible man in New York. You know there's three and a half million women here?",
+      "scene": 6
     },
     {
-      "character": "GIRL 1",
-      "text": "Hey, Bucky!"
+      "character": "STEVE ROGERS",
+      "text": "Well, I'd settle for just one.",
+      "scene": 6
     },
     {
-      "character": "STEVE",
-      "text": "What'd you tell her about me?"
+      "character": "BUCKY BARNES",
+      "text": "Good thing I took care of that.",
+      "scene": 6
     },
     {
-      "character": "BUCKY",
-      "text": "Only the good stuff."
+      "character": "CONNIE",
+      "text": "Hey, bucky!",
+      "scene": 6
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "What'd you tell her about me?",
+      "scene": 6
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "Only the good stuff.",
+      "scene": 6
     },
     {
       "character": "ANNOUNCER",
-      "text": "Welcome to the Modern Marvels Pavilion and the World of Tomorrow. A greater world. A better world."
+      "text": "Welcome to the modern marvels pavilion and the world of tomorrow. A greater world. A better world.",
+      "scene": 6
     },
     {
-      "character": "GIRL 1",
-      "text": "Oh, my God! It's starting!"
+      "character": "CONNIE",
+      "text": "Oh, my god! It's starting!",
+      "scene": 6
     },
     {
-      "character": "LADY",
-      "text": "Ladies and gentlemen, Mr. Howard Stark!"
-    },
-    {
-      "character": "FAN",
-      "text": "I love you, Howard!"
-    },
-    {
-      "character": "HOWARD STARK",
-      "text": "Ladies and gentlemen, what if I told you that in just a few short years, your automobile won't even have to touch the ground at all? Yes. Thanks, Mandy. With Stark Gravitic Reversion Technology you'll be able to do just that."
-    },
-    {
-      "character": "BUCKY",
-      "text": "Holy cow."
-    },
-    {
-      "character": "HOWARD STARK",
-      "text": "I did say a few years, didn't I?"
-    },
-    {
-      "character": "BUCKY",
-      "text": "Hey, Steve, what do you say we treat these girls..."
+      "character": "ANNOUNCER",
+      "text": "Ladies and gentlemen, Mr. Howard stark!",
+      "scene": 6
     },
     {
       "character": "WOMAN",
-      "text": "Come on, soldier."
+      "text": "I love you, Howard!",
+      "scene": 6
     },
     {
-      "character": "BUCKY",
-      "text": "Come on. You're kind of missing the point of a double date. We're taking the girls dancing."
+      "character": "HOWARD STARK",
+      "text": "Ladies and gentlemen, what if I told you that in just a few short years, your automobile won't even have to touch the ground at all?",
+      "scene": 6
     },
     {
-      "character": "STEVE",
-      "text": "You go ahead. I'll catch up with you."
+      "character": "HOWARD STARK",
+      "text": "Yes. Thanks, Mandy. With stark gravitic reversion technology you'll be able to do just that.",
+      "scene": 6
     },
     {
-      "character": "BUCKY",
-      "text": "You're really going to do this again?"
+      "character": "BUCKY BARNES",
+      "text": "Holy cow.",
+      "scene": 6
     },
     {
-      "character": "STEVE",
-      "text": "Well, it's a fair. I'm gonna try my luck."
+      "character": "HOWARD STARK",
+      "text": "I did say a few years, didn't I?",
+      "scene": 7
     },
     {
-      "character": "BUCKY",
-      "text": "As who, Steve from Ohio? They'll catch you. Or worse, they'll actually take you."
+      "character": "BUCKY BARNES",
+      "text": "Hey, Steve, what do you say we treat these girls...",
+      "scene": 7
     },
     {
-      "character": "STEVE",
-      "text": "Look, I know you don't think I can do this."
+      "character": "WOMAN",
+      "text": "Come on, soldier.",
+      "scene": 7
     },
     {
-      "character": "BUCKY",
-      "text": "This isn't a back alley, Steve. It's war."
+      "character": "BUCKY BARNES",
+      "text": "Come on. You're kind of missing the point of a double date. We're taking the girls dancing.",
+      "scene": 7
     },
     {
-      "character": "STEVE",
-      "text": "I know it's a war."
+      "character": "STEVE ROGERS",
+      "text": "You go ahead. I'll catch up with you.",
+      "scene": 7
     },
     {
-      "character": "BUCKY",
-      "text": "Why are you so keen to fight? There are so many important jobs."
+      "character": "BUCKY BARNES",
+      "text": "You're really going to do this again?",
+      "scene": 7
     },
     {
-      "character": "STEVE",
-      "text": "What do you want me to do? Collect scrap metal in my little red wagon?"
+      "character": "STEVE ROGERS",
+      "text": "Well, it's a fair. I'm gonna try my luck.",
+      "scene": 7
     },
     {
-      "character": "BUCKY",
-      "text": "Yes. Why not?"
+      "character": "BUCKY BARNES",
+      "text": "As who, Steve from Ohio? They'll catch you. Or worse, they'll actually take you.",
+      "scene": 7
     },
     {
-      "character": "STEVE",
-      "text": "I'm not gonna sit in a factory, Bucky. Bucky, come on. There are men laying down their lives. I got no right to do any less than them. That's what you don't understand. This isn't about me."
+      "character": "STEVE ROGERS",
+      "text": "Look, I know you don't think I can do this.",
+      "scene": 7
     },
     {
-      "character": "BUCKY",
-      "text": "Right. Cause you got nothing to prove."
+      "character": "BUCKY BARNES",
+      "text": "This isn't a back alley, Steve. It's war.",
+      "scene": 7
     },
     {
-      "character": "GIRL",
-      "text": "Hey, Sarge! Are we going dancing?"
+      "character": "STEVE ROGERS",
+      "text": "I know it's a war.",
+      "scene": 7
     },
     {
-      "character": "BUCKY",
-      "text": "Yes, we are."
+      "character": "BUCKY BARNES",
+      "text": "Why are you so keen to fight? There are so many importantjobs.",
+      "scene": 7
     },
     {
-      "character": "BUCKY",
-      "text": "Don't do anything stupid until I get back."
+      "character": "STEVE ROGERS",
+      "text": "What do you want me to do? Collect scrap metal in my little red wagon?",
+      "scene": 7
     },
     {
-      "character": "STEVE",
-      "text": "How can I? You're taking all the stupid with you."
+      "character": "BUCKY BARNES",
+      "text": "Yes. Why not?",
+      "scene": 7
     },
     {
-      "character": "BUCKY",
-      "text": "You're a punk."
+      "character": "STEVE ROGERS",
+      "text": "I'm not gonna sit in a factory, bucky. Bucky, come on. There are men laying down their lives. I got no right to do any less than them. That's what you don't understand. This isn't about me.",
+      "scene": 7
     },
     {
-      "character": "STEVE",
-      "text": "Jerk. Be careful."
+      "character": "BUCKY BARNES",
+      "text": "Right. 'Cause you got nothing to prove.",
+      "scene": 7
     },
     {
-      "character": "STEVE",
-      "text": "Don't win the war till I get there!"
+      "character": "WOMAN",
+      "text": "Hey, sarge! Are we going dancing?",
+      "scene": 7
     },
     {
-      "character": "BUCKY",
-      "text": "Come on, girls. They're playing our song."
+      "character": "BUCKY BARNES",
+      "text": "Yes, we are.",
+      "scene": 7
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "Don't do anything stupid until I get back.",
+      "scene": 7
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "How can I? You're taking all the stupid with you.",
+      "scene": 7
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "You're a punk.",
+      "scene": 7
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Jerk. Be careful.",
+      "scene": 7
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Don't win the war till I get there!",
+      "scene": 7
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "Come on, girls. They're playing our song.",
+      "scene": 7
     },
     {
       "character": "DOCTOR",
-      "text": "Wait here."
+      "text": "Wait here.",
+      "scene": 8
     },
     {
-      "character": "STEVE",
-      "text": "Is there a problem?"
+      "character": "STEVE ROGERS",
+      "text": "Is there a problem?",
+      "scene": 8
     },
     {
       "character": "DOCTOR",
-      "text": "Just wait here."
+      "text": "Just wait here.",
+      "scene": 8
     },
     {
-      "character": "DR. ERSKINE",
-      "text": "Thank you."
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Thank you.",
+      "scene": 9
     },
     {
-      "character": "DR. ERSKINE",
-      "text": "So, you want to go overseas. kill some nazi."
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "You want to go overseas. Kill some Nazis.",
+      "scene": 9
     },
     {
-      "character": "STEVE",
-      "text": "Excuse me?"
+      "character": "STEVE ROGERS",
+      "text": "Excuse me?",
+      "scene": 9
     },
     {
-      "character": "DR. ERSKINE",
-      "text": "Dr. Abraham Erskine. I represent the Strategic Scientific Reserve."
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Dr. Abraham erskine. I represent the strategic scientific reserve.",
+      "scene": 9
     },
     {
-      "character": "STEVE",
-      "text": "Steve Rogers. Where are you from?"
+      "character": "STEVE ROGERS",
+      "text": "Steve Rogers.",
+      "scene": 9
     },
     {
-      "character": "DR. ERSKINE",
-      "text": "Queens. 73rd Street and Utopia Parkway. Before that, Germany. This troubles you?"
+      "character": "STEVE ROGERS",
+      "text": "Where are you from?",
+      "scene": 9
     },
     {
-      "character": "STEVE",
-      "text": "No."
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Queens. 73rd street and utopia parkway. Before that, Germany. This troubles you?",
+      "scene": 9
     },
     {
-      "character": "DR. ERSKINE",
-      "text": "Where are you from, Mr. Rogers? Is it New Haven? Or Paramus? Five exams in five different cities."
+      "character": "STEVE ROGERS",
+      "text": "No.",
+      "scene": 9
     },
     {
-      "character": "STEVE",
-      "text": "That might not be the right file..."
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Where are you from, Mr. Rogers? Is it new haven? Or paramus? Five exams in five different cities.",
+      "scene": 9
     },
     {
-      "character": "DR. ERSKINE",
-      "text": "No, it's not the exams I'm interested in. It's the five tries. But you didn't answer my question. Do you want to kill nazi?"
+      "character": "STEVE ROGERS",
+      "text": "That might not be the right file.",
+      "scene": 9
     },
     {
-      "character": "STEVE",
-      "text": "Is this a test?"
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "No, it's not the exams I'm interested in. It's the five tries. But you didn't answer my question. Do you want to kill Nazis?",
+      "scene": 9
     },
     {
-      "character": "DR. ERSKINE",
-      "text": "Yes."
+      "character": "STEVE ROGERS",
+      "text": "Is this a test?",
+      "scene": 9
     },
     {
-      "character": "STEVE",
-      "text": "I don't want to kill anyone. I don't like bullies. I don't care where they're from."
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Yes.",
+      "scene": 9
     },
     {
-      "character": "DR. ERSKINE",
-      "text": "Well, there are already so many big men fighting this war. Maybe what we need now is a little guy. I can offer you a chance. Only a chance."
+      "character": "STEVE ROGERS",
+      "text": "I don't want to kill anyone. I don't like bullies. I don't care where they're from.",
+      "scene": 9
     },
     {
-      "character": "STEVE",
-      "text": "I'll take it."
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Well, there are already so many big men fighting this war. Maybe what we need now is a little guy, huh?",
+      "scene": 9
     },
     {
-      "character": "DR. ERSKINE",
-      "text": "Good. So where is the little guy from? Actually?"
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "I can offer you a chance. Only a chance.",
+      "scene": 9
     },
     {
-      "character": "STEVE",
-      "text": "Brooklyn."
+      "character": "STEVE ROGERS",
+      "text": "I'll take it.",
+      "scene": 9
     },
     {
-      "character": "DR. ERSKINE",
-      "text": "Congratulations, soldier."
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Good. So where is the little guy from? Actually?",
+      "scene": 9
     },
     {
-      "character": "RED SKULL",
-      "text": "Are you ready, Dr. Zola?"
+      "character": "STEVE ROGERS",
+      "text": "Brooklyn.",
+      "scene": 9
     },
     {
-      "character": "DR. ZOLA",
-      "text": "My machine requires the most delicate calibration. Forgive me if I seem overcautious."
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Congratulations, soldier.",
+      "scene": 9
     },
     {
-      "character": "RED SKULL",
-      "text": "Are you certain that those conductors of yours can withstand the energy surge long enough for transference?"
+      "character": "JOHANN SCHMIDT",
+      "text": "Are you ready, Dr. Zola?",
+      "scene": 10
     },
     {
-      "character": "DR. ZOLA",
-      "text": "With this artifact I am certain of nothing. I fear it may not work at all."
+      "character": "DR. ARNIM ZOLA",
+      "text": "My machine requires the most delicate calibration.",
+      "scene": 10
     },
     {
-      "character": "DR. ZOLA",
-      "text": "Twenty percent. Forty. Sixty. Stabilizing at 70%."
+      "character": "DR. ARNIM ZOLA",
+      "text": "Forgive me if I seem overcautious.",
+      "scene": 10
     },
     {
-      "character": "RED SKULL",
-      "text": "I have not come all this way for safety, Doctor."
+      "character": "JOHANN SCHMIDT",
+      "text": "Are you certain that those conductors of yours can withstand the energy surge long enough for transference?",
+      "scene": 10
     },
     {
-      "character": "DR. ZOLA",
-      "text": "What was that?"
+      "character": "DR. ARNIM ZOLA",
+      "text": "With this artifact I am certain of nothing. I fear it may not work at all.",
+      "scene": 10
     },
     {
-      "character": "RED SKULL",
-      "text": "I must congratulate you, Arnim. Your designs do not disappoint. Though they may require some slight reinforcement."
+      "character": "DR. ARNIM ZOLA",
+      "text": "Twenty percent.",
+      "scene": 11
     },
     {
-      "character": "DR. ZOLA",
-      "text": "The exchange is stable. Amazing...! The energy we have just collected could power my designs. All my designs. This will change the war."
+      "character": "DR. ARNIM ZOLA",
+      "text": "Forty.",
+      "scene": 11
     },
     {
-      "character": "RED SKULL",
-      "text": "Dr. Zola, this will change... the world."
+      "character": "DR. ARNIM ZOLA",
+      "text": "Sixty.",
+      "scene": 11
     },
     {
-      "character": "PEGGY CARTER",
-      "text": "Recruits, attention! Gentlemen, I am Agent Carter. I supervise all operations for this division."
+      "character": "DR. ARNIM ZOLA",
+      "text": "Stabilizing at 70%.",
+      "scene": 11
     },
     {
-      "character": "HODGE",
-      "text": "What's with the accent, Queen Victoria? I thought I was signing up for the U.S. Army."
+      "character": "JOHANN SCHMIDT",
+      "text": "I have not come all this way for safety, doctor.",
+      "scene": 11
     },
     {
-      "character": "PEGGY CARTER",
-      "text": "What's your name, soldier?"
+      "character": "DR. ARNIM ZOLA",
+      "text": "What was that?",
+      "scene": 12
     },
     {
-      "character": "HODGE",
-      "text": "Gilmore Hodge, Your Majesty."
+      "character": "JOHANN SCHMIDT",
+      "text": "I must congratulate you, arnim. Your designs do not disappoint. Though they may require some slight reinforcement.",
+      "scene": 12
     },
     {
-      "character": "PEGGY CARTER",
-      "text": "Step forward, Hodge. Put your right foot forward."
+      "character": "DR. ARNIM ZOLA",
+      "text": "The exchange is stable. Amazing! The energy we have just collected could power my designs. All my designs.",
+      "scene": 12
     },
     {
-      "character": "HODGE",
-      "text": "We gonna wrassle? Cause I got a few moves I know you'll like."
+      "character": "DR. ARNIM ZOLA",
+      "text": "This will change the war.",
+      "scene": 12
     },
     {
-      "character": "COLONEL PHILLIPS",
-      "text": "Agent Carter!"
+      "character": "JOHANN SCHMIDT",
+      "text": "Dr. Zola, this will change the world.",
+      "scene": 12
     },
     {
-      "character": "PEGGY CARTER",
-      "text": "Colonel Phillips."
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "I can see that you are breaking in the candidates. That's good!"
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "Get your ass up out of that dirt and stand in that line at attention till somebody comes tells you what to do."
-    },
-    {
-      "character": "HODGE",
-      "text": "Yes, sir!"
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "General Patton has said that wars are fought with weapons, but they are won by men. We are going to win this war because we have the best men."
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "And because they are going to get better. Much better."
-    },
-    {
-      "character": "TRAINER",
-      "text": "Rogers! Get off of there!"
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "At the end of this week, we will choose that man. He will be the first in a new breed of super-soldier."
-    },
-    {
-      "character": "TRAINER",
-      "text": "Rogers! Get that rifle out of the mud!"
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "And they will personally escort Adolf Hitler to the gates of hell."
-    },
-    {
-      "character": "TRAINER",
-      "text": "Pick up the pace, ladies! Let's go, let's go! Double time! Come on! Faster! Faster! Move! Move! Squad, halt! That flag means we're only at the halfway point. First man to bring it to me gets a ride back with Agent Carter. Move, move!"
-    },
-    {
-      "character": "TRAINER",
-      "text": "Come on! Get up there! If that's all you got, this army's in trouble! Get up there, Hodge!"
-    },
-    {
-      "character": "TRAINER",
-      "text": "Come on! Get up there! Nobody's got that flag in 17 years! Now fall back into line! Come on, fall in! Let's go! Get back into formation!"
-    },
-    {
-      "character": "TRAINER",
-      "text": "Rogers! I said fall in!"
-    },
-    {
-      "character": "STEVE",
-      "text": "Thank you, sir."
+      "character": "OFFICER",
+      "text": "Ready, exercise!",
+      "scene": 12
     },
     {
       "character": "PEGGY CARTER",
-      "text": "Faster, ladies! Come on. My grandmother has more life in her, God rest her soul. Move it!"
+      "text": "Recruits, attention! Gentlemen, I'm agent Carter. I supervise all operations for this division.",
+      "scene": 12
     },
     {
-      "character": "COLONEL PHILLIPS",
-      "text": "You're not really thinking about picking Rogers, are you?"
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "When you brought a 90-pound asthmatic onto my army base, I let it slide. I thought, \"What the hell.\" Maybe he'd be useful to you, like a gerbil. I never thought you'd pick him."
-    },
-    {
-      "character": "PEGGY CARTER",
-      "text": "Up."
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "You stick a needle in that kid's arm, it's gonna go right through him."
+      "character": "GILMORE HODGE",
+      "text": "What's with the accent, queen Victoria? I thought I was signing up for the us. Army.",
+      "scene": 12
     },
     {
       "character": "PEGGY CARTER",
-      "text": "Come on, girls."
+      "text": "What's your name, soldier?",
+      "scene": 12
     },
     {
-      "character": "COLONEL PHILLIPS",
-      "text": "Look at that. He's making me cry."
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "I am looking for qualities beyond the physical."
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "Do you know how long it took to set up this project? All the groveling I had to do in front of Senator What's-His-Name's committees?"
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "Brandt. Yes, I know. I am well aware of your efforts."
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "Then throw me a bone. Hodge passed every test we gave him. He's big, he's fast. He obeys orders- He's a soldier!"
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "He is a bully."
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "You don't win wars with niceness, Doctor."
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "You win wars with guts."
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "Grenade!"
-    },
-    {
-      "character": "STEVE",
-      "text": "Get away! Get back!"
-    },
-    {
-      "character": "STEVE",
-      "text": "Is this a test?"
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "He's still skinny."
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "May I?"
-    },
-    {
-      "character": "STEVE",
-      "text": "Yeah."
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "Can't sleep?"
-    },
-    {
-      "character": "STEVE",
-      "text": "I got the jitters, I guess."
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "Me, too."
-    },
-    {
-      "character": "STEVE",
-      "text": "Can I ask you a question?"
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "Just one?"
-    },
-    {
-      "character": "STEVE",
-      "text": "Why me?"
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "I suppose that is the only question that matters."
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "This is from Augsburg. My city. So many people forget that the first country the nazi invaded was their own. You know, after the last war, my people struggled. They felt weak. They felt small. And then Hitler comes along with the marching and the big show and the flags. And he hears of me. My work. And he finds me. And he says, \"You.\" He says, \"You will make us strong.\" Well, I am not interested. So, he sends the head of Hydra, his research division. A brilliant scientist by the name of Johann Schmidt. Now, Schmidt is a member of the inner circle. And he is ambitious. He and Hitler share a passion for occult power and Teutonic myth. Hitler uses his fantasies to inspire his followers. But for Schmidt, it is not fantasy. For him, it is real. He has become convinced that there is a great power hidden in the earth, left here by the gods, waiting to be seized by a superior man. So when he hears about my formula and what it can do, he cannot resist. Schmidt must become that superior man."
-    },
-    {
-      "character": "STEVE",
-      "text": "Did it make him stronger?"
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "Yes. But there were other...effects. The serum was not ready. But more important, the man. The serum amplifies everything that is inside, so good becomes great. Bad becomes worse. This is why you were chosen. Because a strong man who has known power all his life may lose respect for that power, but a weak man knows the value of strength. And knows compassion."
-    },
-    {
-      "character": "STEVE",
-      "text": "Thanks. ...I think."
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "Whatever happens tomorrow, you must promise me one thing. That you will stay who you are. Not a perfect soldier, but a goo"
-    },
-    {
-      "character": "STEVE",
-      "text": "Thanks. ...I think."
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "Whatever happens tomorrow, you must promise me one thing. That you will stay who you are. Not a perfect soldier, but a good man."
-    },
-    {
-      "character": "STEVE",
-      "text": "To the little guys."
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "No, no. Wait, wait. What I am doing? No, you have procedure tomorrow. No fluids."
-    },
-    {
-      "character": "STEVE",
-      "text": "All right. We'll drink it after."
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "No, I don't have procedure tomorrow. Drink it after? I drink it now."
-    },
-    {
-      "character": "RED SKULL",
-      "text": "Is there something in particular you need?"
-    },
-    {
-      "character": "DR. ZOLA",
-      "text": "I understand you found him."
-    },
-    {
-      "character": "RED SKULL",
-      "text": "See for yourself."
-    },
-    {
-      "character": "RED SKULL",
-      "text": "You disapprove."
-    },
-    {
-      "character": "DR. ZOLA",
-      "text": "I just don't see why you need concern yourself. I can't imagine he will succeed. Again."
-    },
-    {
-      "character": "RED SKULL",
-      "text": "His serum is the Allies' only defense against this power we now possess. If we take it away from them, then our victory is assured."
-    },
-    {
-      "character": "DR. ZOLA",
-      "text": "Shall I give the order?"
-    },
-    {
-      "character": "RED SKULL",
-      "text": "It has been given."
-    },
-    {
-      "character": "DR. ZOLA",
-      "text": "Good."
-    },
-    {
-      "character": "RED SKULL",
-      "text": "Dr. Zola! What do you think?"
-    },
-    {
-      "character": "DR. ZOLA",
-      "text": "A masterpiece."
-    },
-    {
-      "character": "STEVE",
-      "text": "I know this neighborhood. I got beat up in that alley. And that parking lot. And behind that diner."
+      "character": "GILMORE HODGE",
+      "text": "Gilmore hodge, your majesty.",
+      "scene": 12
     },
     {
       "character": "PEGGY CARTER",
-      "text": "Did you have something against running away?"
-    },
-    {
-      "character": "STEVE",
-      "text": "You start running, they'll never let you stop. You stand up, you push back. They can't say no forever, right?"
+      "text": "Step fonnard, hodge.",
+      "scene": 12
     },
     {
       "character": "PEGGY CARTER",
-      "text": "I know a little of what that's like, to have every door shut in your face."
+      "text": "Put your right foot fonnard.",
+      "scene": 12
     },
     {
-      "character": "STEVE",
-      "text": "I guess I just don't know why you'd want to join the Army if you were a beautiful dame. Or a bea- A woman. An agent. Not a dame. You are beautiful, but-"
+      "character": "GILMORE HODGE",
+      "text": "Mmm... we gonna wrassle?",
+      "scene": 12
     },
     {
-      "character": "PEGGY CARTER",
-      "text": "You have no idea how to talk to a woman, do you?"
+      "character": "GILMORE HODGE",
+      "text": "'Cause I got a few moves I know you'll like.",
+      "scene": 12
     },
     {
-      "character": "STEVE",
-      "text": "I think this is the longest conversation I've had with one. Women aren't exactly lining up to dance with a guy they might step on."
-    },
-    {
-      "character": "PEGGY CARTER",
-      "text": "You must have danced."
-    },
-    {
-      "character": "STEVE",
-      "text": "Well, asking a woman to dance always seemed so terrifying. And the past few years, it just didn't seem to matter that much. I figured I'd wait."
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Agent Carter!",
+      "scene": 12
     },
     {
       "character": "PEGGY CARTER",
-      "text": "For what?"
+      "text": "Colonel Phillips.",
+      "scene": 12
     },
     {
-      "character": "STEVE",
-      "text": "The right partner."
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "I can see that you are breaking in the candidates. That's good! Get your ass up out of that dirt and stand in that line at attention till somebody comes tells you what to do.",
+      "scene": 12
+    },
+    {
+      "character": "GILMORE HODGE",
+      "text": "Yes, sir!",
+      "scene": 12
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "General patton has said that wars are fought with weapons, but they are won by men. We are going to win this war because we have the best men.",
+      "scene": 12
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "And because they are going to get better. Much better. The strategic scientific reserve is an allied effort made up of the best minds in the free world.",
+      "scene": 12
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Our goal is to create the best army in history. But every army starts with one man.",
+      "scene": 12
+    },
+    {
+      "character": "OFFICER",
+      "text": "Rogers! Get off of there!",
+      "scene": 12
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "At the end of this week, we will choose that man. He will be the first in a new breed of super-soldier.",
+      "scene": 12
+    },
+    {
+      "character": "OFFICER",
+      "text": "Rogers! Get that rifle out of the mud!",
+      "scene": 12
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "And they will personally escort Adolf Hitler to the gates of hell.",
+      "scene": 12
+    },
+    {
+      "character": "OFFICER",
+      "text": "Pick up the pace, ladies! Let's go, let's go! Double time! Come on! Faster! Faster! Move! Move! Squad, halt! That flag means we're only at the halfway point. First man to bring it to me gets a ride back with agent Carter. Move, move! Come on! Get up there! If that's all you got, this army's in trouble! Get up there, hodge! Come on! Get up there!",
+      "scene": 12
+    },
+    {
+      "character": "OFFICER",
+      "text": "Nobody's got that flag in 17 years!",
+      "scene": 12
+    },
+    {
+      "character": "OFFICER",
+      "text": "Now fall back into line! Come on, fall in! Let's go! Get back into formation!",
+      "scene": 12
+    },
+    {
+      "character": "OFFICER",
+      "text": "Rogers! I said fall in!",
+      "scene": 12
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Thank you, sir.",
+      "scene": 13
     },
     {
       "character": "PEGGY CARTER",
-      "text": "This way."
-    },
-    {
-      "character": "STEVE",
-      "text": "What are we doing here?"
+      "text": "Faster, ladies! Come on. My grandmother has more life in her, god rest her soul.",
+      "scene": 13
     },
     {
       "character": "PEGGY CARTER",
-      "text": "Follow me."
+      "text": "Move it!",
+      "scene": 13
     },
     {
-      "character": "WORKER",
-      "text": "Wonderful weather this morning, isn't it?"
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "You're not really thinking about picking Rogers, are you?",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "I'm more than just thinking about it. He is the clear choice.",
+      "scene": 13
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "When you brought a 90-pound asthmatic onto my army base, I let it slide. I thought, \"what the hell.\" Maybe he'd be useful to you, like a gerbil. I never thought you'd pick him.",
+      "scene": 13
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "You stick a needle in that kid's arm, it's gonna go right through him.",
+      "scene": 13
     },
     {
       "character": "PEGGY CARTER",
-      "text": "Yes, but I always carry an umbrella."
+      "text": "Come on, girls.",
+      "scene": 13
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Look at that. He's making me cry.",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "I am looking for qualities beyond the physical.",
+      "scene": 13
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Do you know how long it took to set up this project? All the groveling I had to do in front of senator what's-his-name's committees?",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Brandt. Yes, I know. I am well aware of your efforts.",
+      "scene": 13
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Then throw me a bone. Hodge passed every test we gave him. He's big, he's fast. He obeys orders. He's a soldier.",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "He is a bully.",
+      "scene": 13
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "You don't win wars with niceness, doctor.",
+      "scene": 13
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "You win wars with guts.",
+      "scene": 13
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Grenade!",
+      "scene": 13
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Get away! Get back!",
+      "scene": 13
+    },
+    {
+      "character": "OFFICER",
+      "text": "It was a dummy grenade. All clear. Back in formation.",
+      "scene": 13
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Is this a test?",
+      "scene": 13
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "He's still skinny.",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "May I?",
+      "scene": 13
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Yeah.",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Can't sleep?",
+      "scene": 13
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "I got the jitters, I guess.",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Me, too.",
+      "scene": 13
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Can I ask you a question?",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Just one?",
+      "scene": 13
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Why me?",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "I suppose that is the only question that matters.",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "This is from augsburg. My city.",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "So many people forget that the first country the Nazis invaded was their own. You know, after the last war, my people struggled. They felt weak. They felt small. And then Hitler comes along with the marching and the big show and the flags. And he hears of me. My work. And he finds me. And he says, \"you.\" He says, \"you will make us strong.\" Well, I am not interested. So he sends the head of hydra, his research division. A brilliant scientist by the name of Johann schmidt. Now, schmidt is a member of the inner circle. And he is ambitious. He and Hitler share a passion for occult power and teutonic myth. Hitler uses his fantasies to inspire his followers. But for schmidt, it is not fantasy. For him, it is real. He has become convinced that there is a great power hidden in the earth, left here by the gods, waiting to be seized by a superior man. So when he hears about my formula and what it can do, he cannot resist.",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Schmidt must become that superior man.",
+      "scene": 13
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Did it make him stronger?",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Yeah. But there were other effects.",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "The serum was not ready. But more important, the man. The serum amplifies everything that is inside, so good becomes great. Bad becomes worse.",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "This is why you were chosen. Because a strong man who has known power all his life may lose respect for that power, but a weak man knows the value of strength. And knows compassion.",
+      "scene": 13
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Thanks. I think.",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Whatever happens tomorrow, you must promise me one thing.",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "That you will stay who you are.",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Not a perfect soldier, but a good man.",
+      "scene": 13
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "To the little guys.",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "No, no. Wait, wait. What I am doing? No, you have procedure tomorrow. No fluids.",
+      "scene": 13
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "All right. We'll drink it after.",
+      "scene": 13
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "No, I don't have procedure tomorrow. Drink it after? I drink it now.",
+      "scene": 13
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "Is there something in particular you need?",
+      "scene": 14
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "I understand you found him.",
+      "scene": 14
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "See for yourself.",
+      "scene": 14
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "You disapprove.",
+      "scene": 15
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "I just don't see why you need concern yourself. I can't imagine he will succeed.",
+      "scene": 15
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "Again. His serum is the allies' only defense against this power we now possess. If we take it away from them, then our victory is assured.",
+      "scene": 15
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "Shall I give the order?",
+      "scene": 15
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "It has been given.",
+      "scene": 15
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "Good.",
+      "scene": 15
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "Dr. Zola!",
+      "scene": 15
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "What do you think?",
+      "scene": 15
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "A masterpiece.",
+      "scene": 15
+    },
+    {
+      "character": "BOY",
+      "text": "We gotta get the ball!",
+      "scene": 15
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "I know this neighborhood. I got beat up in that alley.",
+      "scene": 15
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "And that parking lot.",
+      "scene": 15
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "And behind that diner.",
+      "scene": 15
     },
     {
       "character": "PEGGY CARTER",
-      "text": "Good morning."
+      "text": "Did you have something against running away?",
+      "scene": 15
     },
     {
-      "character": "DR. ERSKINE",
-      "text": "Please, not now."
+      "character": "STEVE ROGERS",
+      "text": "You start running, they'll never let you stop. You stand up, you push back. They can't say no forever, right?",
+      "scene": 15
     },
     {
-      "character": "DR. ERSKINE",
-      "text": "Are you ready? Good. Take off your shirt, your tie, and your hat."
+      "character": "PEGGY CARTER",
+      "text": "I know a little of what that's like, to have every door shut in your face.",
+      "scene": 15
     },
     {
-      "character": "COLONEL PHILLIPS",
-      "text": "Senator Brandt, glad you could make it."
+      "character": "STEVE ROGERS",
+      "text": "I guess I just don't know why you'd want to join the army if you were a beautiful dame. Or a... a woman. An agent. Not a dame. You are beautiful, but...",
+      "scene": 15
     },
     {
-      "character": "SENATOR BRANT",
-      "text": "Why exactly am I in Brooklyn?"
+      "character": "PEGGY CARTER",
+      "text": "You have no idea how to talk to a woman, do you?",
+      "scene": 15
     },
     {
-      "character": "COLONEL PHILLIPS",
-      "text": "We needed access to the city's power grid. Of course, if you'd given me the generators I requisitioned..."
+      "character": "STEVE ROGERS",
+      "text": "I think this is the longest conversation I've had with one. Women aren't exactly lining up to dance with a guy they might step on.",
+      "scene": 15
     },
     {
-      "character": "SENATOR BRANT",
-      "text": "A lot of people are asking for funds, Colonel., Oh This is Clem uh..."
+      "character": "PEGGY CARTER",
+      "text": "You must have danced.",
+      "scene": 15
     },
     {
-      "character": "CLEMSON",
-      "text": "Fred Clemson, State Department. If this project of yours comes through, we'd like to see it used for something other than headlines."
+      "character": "STEVE ROGERS",
+      "text": "Well, asking a woman to dance always seemed so terrifying. And the past few years, it just didn't seem to matter that much. I figured I'd wait.",
+      "scene": 15
     },
     {
-      "character": "SENATOR BRANT",
-      "text": "Jesus. Somebody get that kid a sandwich."
+      "character": "PEGGY CARTER",
+      "text": "For what?",
+      "scene": 15
     },
     {
-      "character": "DR. ERSKINE",
-      "text": "Comfortable?"
+      "character": "STEVE ROGERS",
+      "text": "The right partner.",
+      "scene": 15
     },
     {
-      "character": "STEVE",
-      "text": "It's a little big. You save me any of that schnapps?"
+      "character": "PEGGY CARTER",
+      "text": "This way.",
+      "scene": 16
     },
     {
-      "character": "DR. ERSKINE",
-      "text": "Not as much as I should have. Sorry. Next time. Mr. Stark, how are your levels?"
+      "character": "STEVE ROGERS",
+      "text": "What are we doing here?",
+      "scene": 16
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Follow me.",
+      "scene": 16
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Good morning.",
+      "scene": 17
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Please, not now.",
+      "scene": 17
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Are you ready?",
+      "scene": 17
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Good. Take off your shirt, your tie, and your hat.",
+      "scene": 17
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Senator Brandt, glad you could make it.",
+      "scene": 17
+    },
+    {
+      "character": "SENATOR BRANDT",
+      "text": "Why exactly am I in Brooklyn?",
+      "scene": 17
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "We needed access to the city's power grid. Of course, if you'd have given me the generators I requisitioned...",
+      "scene": 17
+    },
+    {
+      "character": "SENATOR BRANDT",
+      "text": "A lot of people are asking for funds, colonel. Oh, this is...",
+      "scene": 17
+    },
+    {
+      "character": "HEINZ KRUGER",
+      "text": "Fred clemson, state department. If this project of yours comes through, we'd like to see it used for something other than headlines.",
+      "scene": 17
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Jesus. Somebody get that kid a sandwich.",
+      "scene": 17
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Comfortable?",
+      "scene": 18
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "It's a little big.",
+      "scene": 18
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "You save me any of that schnapps?",
+      "scene": 18
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Not as much as I should have. Sorry. Next time. Mr. Stark, how are your levels?",
+      "scene": 18
     },
     {
       "character": "HOWARD STARK",
-      "text": "Levels at 100%."
+      "text": "Levels at 100%.",
+      "scene": 18
     },
     {
-      "character": "DR. ERSKINE",
-      "text": "Good."
-    },
-    {
-      "character": "HOWARD STARK",
-      "text": "We may dim half the lights in Brooklyn, but we are ready...as we'll ever be."
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "Agent Carter? Don't you think you would be more comfortable in the booth?"
-    },
-    {
-      "character": "PEGGY CARTER",
-      "text": "Yes, of course. Sorry."
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "Do you hear me? Is this on? Ladies and gentlemen, today we take not another step towards annihilation, but the first step on the path to peace. We begin with a series of microinjections into the subject's major muscle groups. The serum infusion will cause immediate cellular change. And then, to stimulate growth, the subject will be saturated with Vita-Rays."
-    },
-    {
-      "character": "STEVE",
-      "text": "That wasn't so bad."
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "That was penicillin. Serum infusion beginning in five... four... three... two... one."
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "Now, Mr. Stark."
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "Steven? Can you hear me?"
-    },
-    {
-      "character": "STEVE",
-      "text": "It's probably too late to go to the bathroom, right?"
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "We will proceed."
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Good.",
+      "scene": 18
     },
     {
       "character": "HOWARD STARK",
-      "text": "That's ten percent. Twenty percent. Thirty. That's forty percent."
+      "text": "We may dim half the lights in Brooklyn, but we are ready as we'll ever be.",
+      "scene": 18
     },
     {
-      "character": "DOCTOR",
-      "text": "Vital signs are normal."
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Agent Carter? Don't you think you would be more comfortable in the booth?",
+      "scene": 18
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Yes, of course. Sorry.",
+      "scene": 18
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Good.",
+      "scene": 18
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Do you hear me? Is this on? Ladies and gentlemen, today we take not another step towards annihilation, but the first step on the path to peace.",
+      "scene": 19
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "We begin with a series of microinjections into the subject's major muscle groups. The serum infusion will cause immediate cellular change. And then, to stimulate growth, the subject will be saturated with vita-rays.",
+      "scene": 19
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "That wasn't so bad.",
+      "scene": 19
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "That was penicillin.",
+      "scene": 19
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Serum infusion beginning in five, four, three, two, one.",
+      "scene": 19
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Now, Mr. Stark.",
+      "scene": 19
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Steven? Can you hear me?",
+      "scene": 20
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "It's probably too late to go to the bathroom, right?",
+      "scene": 20
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "We will proceed.",
+      "scene": 20
     },
     {
       "character": "HOWARD STARK",
-      "text": "That's fifty percent. Sixty. Seventy."
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "Steven! Steven!"
-    },
-    {
-      "character": "PEGGY CARTER",
-      "text": "Shut it down!"
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "Steven!"
-    },
-    {
-      "character": "PEGGY CARTER",
-      "text": "Shut it down!"
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "kill the reactor, Mr. Stark! Turn it off! kill it! kill the reactor!"
-    },
-    {
-      "character": "STEVE",
-      "text": "No! Don't! I can do this!"
+      "text": "That's 10%. Twenty percent. Thirty.",
+      "scene": 21
     },
     {
       "character": "HOWARD STARK",
-      "text": "Eighty. Ninety. That's a hundred percent."
+      "text": "That's 40%.",
+      "scene": 21
     },
     {
-      "character": "DR. ERSKINE",
-      "text": "Mr. Stark?"
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "Steven. Steven."
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "The son of a bitch did it."
-    },
-    {
-      "character": "STEVE",
-      "text": "I did it."
-    },
-    {
-      "character": "DR. ERSKINE",
-      "text": "Yeah, yeah. I think we did it."
+      "character": "LAB TECHNICIAN",
+      "text": "Vital signs are normal.",
+      "scene": 21
     },
     {
       "character": "HOWARD STARK",
-      "text": "You actually did it."
+      "text": "That's 50%. Sixty.",
+      "scene": 21
+    },
+    {
+      "character": "HOWARD STARK",
+      "text": "Seventy.",
+      "scene": 21
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Steven! Steven!",
+      "scene": 21
     },
     {
       "character": "PEGGY CARTER",
-      "text": "How do you feel?"
+      "text": "Shut it down!",
+      "scene": 21
     },
     {
-      "character": "STEVE",
-      "text": "Taller."
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Steven!",
+      "scene": 21
     },
     {
       "character": "PEGGY CARTER",
-      "text": "You look taller."
+      "text": "Shut it down!",
+      "scene": 21
     },
     {
-      "character": "COLONEL PHILLIPS",
-      "text": "How do you like Brooklyn now, Senator?"
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Kill the reactor, Mr. Stark! Turn it off! Kill it! Kill the reactor!",
+      "scene": 21
     },
     {
-      "character": "SENATOR BRANT",
-      "text": "I can think of some folks in Berlin who are about to get very nervous. Congratulations, Doctor."
+      "character": "STEVE ROGERS",
+      "text": "No! Don't! I can do this!",
+      "scene": 21
     },
     {
-      "character": "DR. ERSKINE",
-      "text": "Thank you, sir."
+      "character": "HOWARD STARK",
+      "text": "Eighty. Ninety. That's 100%.",
+      "scene": 21
     },
     {
-      "character": "DR. ERSKINE",
-      "text": "Stop him!"
+      "character": "PEGGY CARTER",
+      "text": "Mr. Stark?",
+      "scene": 22
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Steven. Steven.",
+      "scene": 22
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "The son of a bitch did it.",
+      "scene": 22
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "I did it.",
+      "scene": 22
+    },
+    {
+      "character": "HOWARD STARK",
+      "text": "Yeah, yeah. I think we did it.",
+      "scene": 22
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "You actually did it.",
+      "scene": 22
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "How do you feel?",
+      "scene": 22
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Taller.",
+      "scene": 22
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "You look taller.",
+      "scene": 22
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "How do you like Brooklyn now, senator?",
+      "scene": 22
+    },
+    {
+      "character": "SENATOR BRANDT",
+      "text": "I can think of some folks in Berlin who are about to get very nervous.",
+      "scene": 22
+    },
+    {
+      "character": "SENATOR BRANDT",
+      "text": "Congratulations, doctor.",
+      "scene": 22
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Thank you, sir.",
+      "scene": 22
+    },
+    {
+      "character": "DR. ABRAHAM ERSKINE",
+      "text": "Stop him!",
+      "scene": 22
     },
     {
       "character": "TAXI DRIVER",
-      "text": "What are you doin'? Buddy, are you all right? Hey, this guy's been shot!"
+      "text": "What are you doing? Buddy, are you all right? Hey, this guy's been shot!",
+      "scene": 23
     },
     {
       "character": "PEGGY CARTER",
-      "text": "I had him!"
+      "text": "I had him!",
+      "scene": 23
     },
     {
-      "character": "STEVE",
-      "text": "Sorry!"
+      "character": "STEVE ROGERS",
+      "text": "Sorry!",
+      "scene": 23
     },
     {
-      "character": "STEVE",
-      "text": "I'm sorry!"
+      "character": "STEVE ROGERS",
+      "text": "I'm sorry!",
+      "scene": 24
+    },
+    {
+      "character": "MAN",
+      "text": "I don't believe it!",
+      "scene": 24
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Whoa, whoa, whoa!",
+      "scene": 24
     },
     {
       "character": "WOMAN",
-      "text": "No! No! Not my son! Stop it! Don't hurt him!"
+      "text": "No! No! Not my son! Stop it!",
+      "scene": 25
     },
     {
-      "character": "GUY",
-      "text": "Get back!"
+      "character": "WOMAN",
+      "text": "Don't hurt him!",
+      "scene": 25
+    },
+    {
+      "character": "HEINZ KRUGER",
+      "text": "Get back!",
+      "scene": 25
     },
     {
       "character": "BOY",
-      "text": "Let me go!"
+      "text": "Let me go!",
+      "scene": 25
     },
     {
       "character": "WOMAN",
-      "text": "Let go of my son! Don't hurt him!"
+      "text": "Let go of my son!",
+      "scene": 25
     },
     {
-      "character": "STEVE",
-      "text": "Wait, don't! Don't!"
+      "character": "WOMAN",
+      "text": "No! Don't hurt him!",
+      "scene": 25
     },
     {
-      "character": "STEVE",
-      "text": "No! Don't!"
+      "character": "STEVE ROGERS",
+      "text": "Wait, don't! Don't!",
+      "scene": 25
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "No! Don't!",
+      "scene": 25
     },
     {
       "character": "BOY",
-      "text": "Go get him! I can swim!"
+      "text": "Go get him! I can swim!",
+      "scene": 25
     },
     {
-      "character": "STEVE",
-      "text": "Who the hell are you?"
+      "character": "STEVE ROGERS",
+      "text": "Who the hell are you?",
+      "scene": 26
     },
     {
-      "character": "GUY",
-      "text": "The first of many. Cut off one head, two more shall take its place. Hail Hydra."
+      "character": "HEINZ KRUGER",
+      "text": "The first of many. Cutoff one head,",
+      "scene": 26
     },
     {
-      "character": "MAN 1",
-      "text": "The Fuhrer is not accustomed to being ignored, Herr Schmidt. He funds your research because you promised him weapons."
+      "character": "HEINZ KRUGER",
+      "text": "Two more shall take its place.",
+      "scene": 26
     },
     {
-      "character": "MAN 2",
-      "text": "You serve at his pleasure. He gave you this facility as a reward for your injuries."
+      "character": "HEINZ KRUGER",
+      "text": "Hail hydra.",
+      "scene": 26
     },
     {
-      "character": "RED SKULL",
-      "text": "Reward? Call it what it is. Exile. I no longer reflect his image of Aryan perfection."
+      "character": "NAZI OFFICER",
+      "text": "The fcihrer is not accustomed to being ignored, herr schmidt. He funds your research because you promised him weapons. You serve at his pleasure. He gave you this facility as a reward for your injuries.",
+      "scene": 27
     },
     {
-      "character": "MAN 3",
-      "text": "You think this is about appearances? Your Hydra division has failed to deliver so much as a rifle in over a year. And we had learned through local intelligence you had mounted a full-scale incursion into Norway."
+      "character": "JOHANN SCHMIDT",
+      "text": "Reward? Call it what it is. Exile. I no longer reflect his image of Aryan perfection.",
+      "scene": 27
     },
     {
-      "character": "MAN 1",
-      "text": "The Fuhrer feels, How does he put it? \"The Red Skull has been indulged long enough!\""
+      "character": "NAZI OFFICER",
+      "text": "You think this is about appearances? Your hydra division has failed to deliver so much as a rifle in over a year. And we had learned through local intelligence you had mounted a full-scale incursion into nonnay. The fcihrer feels... how does he put it? \"The red skull has been indulged long enough!\"",
+      "scene": 27
     },
     {
-      "character": "RED SKULL",
-      "text": "Gentlemen, you have come to see the results of our work. Let me show you. Hitler speaks of a 1,000-year Reich, but he cannot feed his armies for a month. His troops spill their blood across every field in Europe, but still he is no closer to achieving his goals."
+      "character": "JOHANN SCHMIDT",
+      "text": "Gentlemen,",
+      "scene": 28
     },
     {
-      "character": "MAN 2",
-      "text": "And I suppose you still aim to win this war through magic?"
+      "character": "JOHANN SCHMIDT",
+      "text": "you have come to see the results of our work. Let me show you.",
+      "scene": 28
     },
     {
-      "character": "RED SKULL",
-      "text": "Science. But I understand your confusion. Great power has always baffled primitive men. Hydra is assembling an arsenal to destroy my enemies in one stroke, wherever they are, regardless of how many forces they possess, all in a matter of hours."
+      "character": "JOHANN SCHMIDT",
+      "text": "Hitler speaks of a 1,000-year reich, but he cannot feed his armies for a month. His troops spill their blood across every field in Europe, but still he is no closer to achieving his goals.",
+      "scene": 28
     },
     {
-      "character": "MAN 2",
-      "text": "Your enemies?"
+      "character": "NAZI OFFICER",
+      "text": "And I suppose you still aim to win this war through magic?",
+      "scene": 28
     },
     {
-      "character": "RED SKULL",
-      "text": "My weapon contain enough destructive power to decimate every hostile capital on Earth. Quite simply, gentlemen, I have harnessed the power of the gods."
+      "character": "JOHANN SCHMIDT",
+      "text": "Science. But I understand your confusion. Great power has always baffled primitive men. Hydra is assembling an arsenal to destroy my enemies in one stroke, wherever they are, regardless of how many forces they possess, all in a matter of hours.",
+      "scene": 28
     },
     {
-      "character": "MAN 3",
-      "text": "Thank you, Schmidt."
+      "character": "NAZI OFFICER",
+      "text": "Your enemies?",
+      "scene": 28
     },
     {
-      "character": "RED SKULL",
-      "text": "For what?"
+      "character": "JOHANN SCHMIDT",
+      "text": "My weapons contain enough destructive power to decimate every hostile capital on earth.",
+      "scene": 28
     },
     {
-      "character": "MAN 3",
-      "text": "For making it clear how obviously mad you are."
+      "character": "JOHANN SCHMIDT",
+      "text": "Quite simply, gentlemen, I have harnessed the power of the gods.",
+      "scene": 28
     },
     {
-      "character": "MAN 1",
-      "text": "Berlin is on this map!"
+      "character": "NAZI OFFICER",
+      "text": "Thank you, schmidt.",
+      "scene": 28
     },
     {
-      "character": "RED SKULL",
-      "text": "So it is."
+      "character": "JOHANN SCHMIDT",
+      "text": "For what?",
+      "scene": 28
     },
     {
-      "character": "MAN 1",
-      "text": "You will be punished for your insolence! You will be brought before the Fuhrer himself!"
+      "character": "NAZI OFFICER",
+      "text": "For making it clear how obviously mad you are. Berlin is on this map!",
+      "scene": 28
     },
     {
-      "character": "RED SKULL",
-      "text": "My apologies, Doctor, but we both knew Hydra could grow no further in Hitler's shadow. Hail Hydra."
+      "character": "JOHANN SCHMIDT",
+      "text": "So it is.",
+      "scene": 28
     },
     {
-      "character": "OTHERS",
-      "text": "Hail Hydra!"
+      "character": "NAZI OFFICER",
+      "text": "You will be punished for your insolence! You will be brought before the fcihrer himself!",
+      "scene": 28
     },
     {
-      "character": "DR. ZOLA",
-      "text": "Hail Hydra!"
+      "character": "DR. ARNIM ZOLA",
+      "text": "Schmidt...",
+      "scene": 28
     },
     {
-      "character": "STEVE",
-      "text": "Think you got enough?"
+      "character": "JOHANN SCHMIDT",
+      "text": "My apologies, doctor, but we both knew hydra could grow no further in Hitler's shadow. Hail hydra.",
+      "scene": 28
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "Hail hydra!",
+      "scene": 28
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Think you got enough?",
+      "scene": 29
     },
     {
       "character": "PEGGY CARTER",
-      "text": "Any hope of reproducing the program is locked in your genetic code. But without Dr. Erskine, it would take years."
+      "text": "Any hope of reproducing the program is locked in your genetic code. But without Dr. Erskine, it would take years.",
+      "scene": 29
     },
     {
-      "character": "STEVE",
-      "text": "He deserved more than this."
+      "character": "STEVE ROGERS",
+      "text": "He deserved more than this.",
+      "scene": 29
     },
     {
       "character": "PEGGY CARTER",
-      "text": "If it could work only once, he'd be proud it was you."
+      "text": "If it could work only once, he'd be proud it was you.",
+      "scene": 29
     },
     {
-      "character": "BRANDT",
-      "text": "Colonel Phillips, my committee is demanding answers."
+      "character": "SENATOR BRANDT",
+      "text": "Colonel Phillips, my committee is demanding answers.",
+      "scene": 29
     },
     {
-      "character": "COLONEL PHILLIPS",
-      "text": "Great. Why don't we start with how a German spy got a ride to my secret installation in your car? What have we got here?"
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Great. Why don't we start with how a German spy got a ride to my secret installation in your car? What have we got here?",
+      "scene": 29
     },
     {
       "character": "HOWARD STARK",
-      "text": "Speaking modestly, I'm the best mechanical engineer in this country. But I don't know what's inside this thing or how it works. We're not even close to this technology."
+      "text": "Speaking modestly, I'm the best mechanical engineer in this country. But I don't know what's inside this thing or how it works. We're not even close to this technology.",
+      "scene": 29
     },
     {
-      "character": "BRANDT",
-      "text": "Then who is?"
+      "character": "SENATOR BRANDT",
+      "text": "Then who is?",
+      "scene": 29
     },
     {
-      "character": "COLONEL PHILLIPS",
-      "text": "Hydra. I'm sure you've been reading our briefings."
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Hydra. I'm sure you've been reading our briefings.",
+      "scene": 29
     },
     {
-      "character": "BRANDT",
-      "text": "I'm on a number of committees, Colonel."
-    },
-    {
-      "character": "PEGGY CARTER",
-      "text": "Hydra is the nazi deep-science division. It's led by Johann Schmidt. But he has much bigger ambitions."
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "Hydra is practically a cult. They worship Schmidt. They think he's invincible."
-    },
-    {
-      "character": "BRANDT",
-      "text": "So, what are you going to do about it?"
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "I spoke to the President this morning. As of today, the SSR is bein' retasked."
+      "character": "SENATOR BRANDT",
+      "text": "I'm on a number of committees, colonel.",
+      "scene": 29
     },
     {
       "character": "PEGGY CARTER",
-      "text": "Colonel?"
+      "text": "Hydra is the Nazi deep-science division. It's led by Johann schmidt. But he has much bigger ambitions.",
+      "scene": 29
     },
     {
-      "character": "COLONEL PHILLIPS",
-      "text": "We are taking the fight to Hydra. Pack your bags, Agent Carter. You, too, Stark. We're flying to London tonight."
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Hydra is practically a cult. They worship schmidt. They think he's invincible.",
+      "scene": 29
     },
     {
-      "character": "STEVE",
-      "text": "Sir? If you're going after Schmidt, I want in."
+      "character": "SENATOR BRANDT",
+      "text": "So, what are you going to do about it?",
+      "scene": 29
     },
     {
-      "character": "COLONEL PHILLIPS",
-      "text": "You're an experiment. You're going to Alamogordo."
-    },
-    {
-      "character": "STEVE",
-      "text": "The serum worked."
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "I asked for an army and all I got was you. You are not enough."
-    },
-    {
-      "character": "BRANDT",
-      "text": "With all due respect to the Colonel, I think we may be missing the point. I've seen you in action, Steve. More importantly, the country's seen it."
-    },
-    {
-      "character": "BRANDT",
-      "text": "Paper. The enlistment lines have been around the block since your picture hit the newsstands. You don't take a soldier, a symbol like that, and hide him in a lab. Son, do you want to serve your country on the most important battlefield of the war?"
-    },
-    {
-      "character": "STEVE",
-      "text": "Sir, that's all I want."
-    },
-    {
-      "character": "BRANDT",
-      "text": "Then, congratulations. You just got promoted."
-    },
-    {
-      "character": "STEVE",
-      "text": "I don't know if I can do this."
-    },
-    {
-      "character": "GUY",
-      "text": "Nothing to it. You sell a few bonds. Bonds buy bullets. bullets kill nazi. bing bang boom. You're an American hero."
-    },
-    {
-      "character": "STEVE",
-      "text": "It's just not how I pictured getting there."
-    },
-    {
-      "character": "GUY",
-      "text": "The Senator has got a lot of pull up on the Hill. You play ball with us, you'll be leading your own platoon in no time. Take the shield. Go."
-    },
-    {
-      "character": "WOMAN",
-      "text": "♪Who's strong and brave Here to save the American way?♪"
-    },
-    {
-      "character": "STEVE",
-      "text": "Not all of us can storm a beach or drive a tank. But there's still a way all of us can fight."
-    },
-    {
-      "character": "WOMAN",
-      "text": "♪Who vows to fight like a man For what's right, night and day?♪"
-    },
-    {
-      "character": "STEVE",
-      "text": "Series E Defense Bonds. Each one you buy is a bullet in the barrel of your best guy's gun."
-    },
-    {
-      "character": "WOMAN",
-      "text": "♪Who will campaign door-to-door for America? Carry the flag shore to shore for America? From Hoboken to Spokane The star-spangled man with a plan♪"
-    },
-    {
-      "character": "DIRECTOR",
-      "text": "Cut. Guys, don't look at the camera."
-    },
-    {
-      "character": "WOMAN",
-      "text": "♪We can't ignore there's a threat and a war we must win♪"
-    },
-    {
-      "character": "STEVE",
-      "text": "Each one you buy is a bullet in the barrel of your best guy's gun."
-    },
-    {
-      "character": "SINGERS",
-      "text": "♪Who'll hang a noose on the goose-stepping goons from Berlin? Who will redeem Heed the call for America? Who'll rise or fall Give his all for America? Who's here to prove that we can? The star-spangled man with a plan♪"
-    },
-    {
-      "character": "STEVE",
-      "text": "We all know this is about trying to win the war. We can't do that without ballets and bandages, tank and tents. That's where you come in. Every bond you buy will help protect someone you love."
-    },
-    {
-      "character": "KIDS",
-      "text": "Turn around! He's right behind you!"
-    },
-    {
-      "character": "STEVE",
-      "text": "Keep our boys armed and ready, and the Germans will think twice about trying to get the drop on us."
-    },
-    {
-      "character": "SINGERS",
-      "text": "♪Stalwart and steady and true Forceful and ready to defend the red, white, and blue Who'll give the Axis the sack and is smart as a fox? Far as an eagle will soar Who's making Adolf afraid to step out of his box? He knows what we're fighting for Who waked the giant that napped in America? We know it's no one but Captain America, Who'll finish what they began? Who'll kick the Krauts to Japan? The star-spangled man with a plan!♪"
-    },
-    {
-      "character": "STEVE",
-      "text": "How many of you are ready to help me sock old Adolf on the jaw? Okay. I need a volunteer."
-    },
-    {
-      "character": "MAN 1",
-      "text": "I already volunteered! How do you think I got here?"
-    },
-    {
-      "character": "MAN 2",
-      "text": "Bring back the girls!"
-    },
-    {
-      "character": "STEVE",
-      "text": "I think they only know the one song, but I'll see what I can do."
-    },
-    {
-      "character": "MAN 3",
-      "text": "You do that, sweetheart."
-    },
-    {
-      "character": "MAN4",
-      "text": "Nice boots, Tinker Bell!"
-    },
-    {
-      "character": "STEVE",
-      "text": "Come on, guys, we're all on the same team here."
-    },
-    {
-      "character": "MAN 5",
-      "text": "Hey, Captain! Sign this! Bring back the girls!"
-    },
-    {
-      "character": "GUY",
-      "text": "Don't worry, pal. They'll warm up to you. Don't worry."
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "I spoke to the president this morning. As of today, the ssr is being retasked.",
+      "scene": 29
     },
     {
       "character": "PEGGY CARTER",
-      "text": "Hello, Steve."
+      "text": "Colonel?",
+      "scene": 29
     },
     {
-      "character": "STEVE",
-      "text": "Hi."
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "We are taking the fight to hydra. Pack your bags, agent Carter. You, too, stark. We're flying to London tonight.",
+      "scene": 29
     },
     {
-      "character": "PEGGY CARTER",
-      "text": "Hi."
+      "character": "STEVE ROGERS",
+      "text": "Sir? If you're going after schmidt, I want in.",
+      "scene": 29
     },
     {
-      "character": "STEVE",
-      "text": "What are you doing here?"
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "You're an experiment. You're going to alamogordo.",
+      "scene": 29
     },
     {
-      "character": "PEGGY CARTER",
-      "text": "Officially, I'm not here at all. That was quite a performance."
+      "character": "STEVE ROGERS",
+      "text": "The serum worked.",
+      "scene": 29
     },
     {
-      "character": "STEVE",
-      "text": "Yeah. I had to improvise a little bit. The crowds I'm used to are usually more twelve."
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "I asked for an army and all I got was you. You are not enough.",
+      "scene": 29
     },
     {
-      "character": "PEGGY CARTER",
-      "text": "I understand you're \"America's New Hope.\""
+      "character": "SENATOR BRANDT",
+      "text": "With all due respect to the colonel, I think we may be missing the point. I've seen you in action, Steve. More importantly, the country's seen it. Papeh the enlistment lines have been around the block since your picture hit the newsstands. You don't take a soldier, a symbol like that, and hide him in a lab. Son, do you want to serve your country on the most important battlefield of the war?",
+      "scene": 29
     },
     {
-      "character": "STEVE",
-      "text": "Bond sales take a 10% bump in every state I visit."
+      "character": "STEVE ROGERS",
+      "text": "Sir, that's all I want.",
+      "scene": 29
     },
     {
-      "character": "PEGGY CARTER",
-      "text": "Is that Senator Brandt I hear?"
+      "character": "SENATOR BRANDT",
+      "text": "Then, congratulations. You just got promoted.",
+      "scene": 29
     },
     {
-      "character": "STEVE",
-      "text": "At least he's got me doing this. Phillips would have had me stuck in a lab."
+      "character": "STEVE ROGERS",
+      "text": "I don't know if I can do this.",
+      "scene": 29
     },
     {
-      "character": "PEGGY CARTER",
-      "text": "And these are your only two options? A lab rat or a dancing monkey? You were meant for more than this, you know. What?"
+      "character": "BRANDT'S AIDE",
+      "text": "Nothing to it. You sell a few bonds. Bonds buy bullets. Bullets kill Nazis. Bing bang boom. You're an American hero.",
+      "scene": 29
     },
     {
-      "character": "STEVE",
-      "text": "You know, for the longest time, I dreamed about comin' overseas and being on the front lines, serving my country. I finally got everything I wanted and I'm wearing tights."
+      "character": "STEVE ROGERS",
+      "text": "It's just not how I pictured getting there.",
+      "scene": 29
     },
     {
-      "character": "STEVE",
-      "text": "They look like they've been through hell."
+      "character": "BRANDT'S AIDE",
+      "text": "The senator has got a lot of pull up on the hill. You play ball with us, you'll be leading your own platoon in no time. Take the shield.",
+      "scene": 29
     },
     {
-      "character": "PEGGY CARTER",
-      "text": "These men more than most. Schmidt sent out a force to Azzano. Two hundred men went up against him, and less than 50 returned. Your audience contained what was left of the 107th. The rest were killed or captured."
+      "character": "STEVE ROGERS",
+      "text": "We all know this is about trying to win the war. We can't do that without bullets and bandages, tanks and tents. That's where you come in. Every bond you buy will help protect someone you love.",
+      "scene": 30
     },
     {
-      "character": "STEVE",
-      "text": "The 107th?"
+      "character": "CHILD",
+      "text": "Turn around! He's right behind you!",
+      "scene": 30
     },
     {
-      "character": "PEGGY CARTER",
-      "text": "What?"
+      "character": "STEVE ROGERS",
+      "text": "Keep our boys armed and ready, and the Germans will think twice about trying to get the drop on us.",
+      "scene": 30
     },
     {
-      "character": "STEVE",
-      "text": "Come on. Colonel Phillips."
+      "character": "STEVE ROGERS",
+      "text": "How many of you are ready to help me sock old Adolf on the jaw?",
+      "scene": 31
     },
     {
-      "character": "COLONEL PHILLIPS",
-      "text": "Well, if it isn't the Star-Spangled Man With A Plan. What's your plan today?"
+      "character": "STEVE ROGERS",
+      "text": "Okay.",
+      "scene": 31
     },
     {
-      "character": "STEVE",
-      "text": "I need the casualty list from Azzano."
+      "character": "STEVE ROGERS",
+      "text": "I need a volunteer.",
+      "scene": 31
     },
     {
-      "character": "COLONEL PHILLIPS",
-      "text": "You don't get to give me orders, son."
+      "character": "SOLDIER",
+      "text": "I already volunteered! How do you think I got here?",
+      "scene": 31
     },
     {
-      "character": "STEVE",
-      "text": "I just need one name, Sergeant James Barnes from the 107th."
+      "character": "SOLDIER",
+      "text": "Bring back the girls!",
+      "scene": 31
     },
     {
-      "character": "COLONEL PHILLIPS",
-      "text": "You and I are gonna have a conversation later that you won't enjoy."
+      "character": "STEVE ROGERS",
+      "text": "I think they only know the one song, but, um, I'll see what I can do.",
+      "scene": 31
     },
     {
-      "character": "STEVE",
-      "text": "Please tell me if he's alive, sir. B-A-R-"
+      "character": "SOLDIER",
+      "text": "You do that, sweetheart. Nice boots, tinker bell!",
+      "scene": 31
     },
     {
-      "character": "COLONEL PHILLIPS",
-      "text": "I can spell. I have signed more of these condolence letters today than I would care to count. But the name does sound familiar. I'm sorry."
+      "character": "STEVE ROGERS",
+      "text": "Come on, guys, we 're all on the same team here.",
+      "scene": 31
     },
     {
-      "character": "STEVE",
-      "text": "What about the others? Are you planning a rescue mission?"
+      "character": "SOLDIER",
+      "text": "Hey, captain! Sign this!",
+      "scene": 31
     },
     {
-      "character": "COLONEL PHILLIPS",
-      "text": "Yes, it's called \"winning the war.\""
+      "character": "SOLDIER",
+      "text": "Bring back the girls!",
+      "scene": 31
     },
     {
-      "character": "STEVE",
-      "text": "But if you know where they are, why not at least-"
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "They're 30 miles behind the lines through some of the most heavily fortified territory in Europe. We'd lose more men than we'd save. But I don't expect you to understand that because you're a chorus girl."
-    },
-    {
-      "character": "STEVE",
-      "text": "I think I understand just fine."
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "Well, then understand it"
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "And why is that?"
-    },
-    {
-      "character": "DR. ZOLA",
-      "text": "Because he can do it!"
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "What's his target?"
-    },
-    {
-      "character": "DR. ZOLA",
-      "text": "His target is everywhere."
-    },
-    {
-      "character": "RED SKULL",
-      "text": "Tomorrow, Hydra will stand master of the world, borne to victory on the wings of the Valkyrie."
-    },
-    {
-      "character": "RED SKULL",
-      "text": "Our enemies' weapon will be powerless against us."
-    },
-    {
-      "character": "RED SKULL",
-      "text": "If they shoot down one plane, hundreds more will rain fire upon them!"
-    },
-    {
-      "character": "RED SKULL",
-      "text": "If they cut off one head, two more shall take its place."
-    },
-    {
-      "character": "RED SKULL",
-      "text": "Hail Hydra."
-    },
-    {
-      "character": "MASKED HYDRA SOLDIER SQUADS",
-      "text": "Hail Hydra! Hail Hydra! Hail Hydra! Hail Hydra!"
-    },
-    {
-      "character": "HYDRA SOLDIERS",
-      "text": "Hail Hydra! Hail Hydra! Hail Hydra!"
-    },
-    {
-      "character": "RADIO",
-      "text": "Blackout is still in effect throughout the London area. Please wait for the all-clear. Your attention, please. All citizens shall remain indoors until further notice. Blackout is still in effect throughout the London area."
-    },
-    {
-      "character": "STEVE",
-      "text": "Dr. Erskine said that the serum wouldn't just affect my muscles, it would affect my cells. Create a protective system of regeneration and healing. Which means I can't get drunk. Did you know that?"
+      "character": "BRANDT'S AIDE",
+      "text": "Don't worry, pal. They'll warm up to you. Don't worry.",
+      "scene": 31
     },
     {
       "character": "PEGGY CARTER",
-      "text": "Your metabolism burns four times faster than the average person. He thought it could be one of the side effects. It wasn't your fault."
+      "text": "Hello, Steve.",
+      "scene": 31
     },
     {
-      "character": "STEVE",
-      "text": "Did you read the report?"
+      "character": "STEVE ROGERS",
+      "text": "Hi.",
+      "scene": 31
     },
     {
-      "character": "PEGGY CARTER",
-      "text": "Yes."
-    },
-    {
-      "character": "STEVE",
-      "text": "Then you know that's not true."
-    },
-    {
-      "character": "PEGGY CARTER",
-      "text": "You did everything you could. Did you believe in your friend? Did you respect him? Then stop blaming yourself. Allow Barnes the dignity of his choice. He damn well must have thought you were worth it."
-    },
-    {
-      "character": "STEVE",
-      "text": "I'm going after Schmidt. I'm not gonna stop until all of Hydra is dead or captured."
+      "character": "STEVE ROGERS",
+      "text": "What are you doing here?",
+      "scene": 31
     },
     {
       "character": "PEGGY CARTER",
-      "text": "You won't be alone."
+      "text": "Officially, I'm not here at all. That was quite a performance.",
+      "scene": 31
     },
     {
-      "character": "COLONEL PHILLIPS",
-      "text": "Johann Schmidt belongs in a bughouse. He thinks he's a god, and he's willing to blow up half the world to prove it, starting with the USA."
+      "character": "STEVE ROGERS",
+      "text": "Yeah. I had to improvise a little bit. The crowds I'm used to are usually more, uh, twelve.",
+      "scene": 31
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "I understand you're \"america's new hope.\"",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Bond sales take a 10% bump in every state I visit.",
+      "scene": 31
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Is that senator Brandt I hear?",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "At least he's got me doing this. Phillips would have had me stuck in a lab.",
+      "scene": 31
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "And these are your only two options? A lab rat or a dancing monkey? You were meant for more than this, you know.",
+      "scene": 31
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "What?",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "You know, for the longest time, I dreamed about coming overseas and being on the front lines, serving my country. I finally got everything I wanted",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "and I'm wearing tights.",
+      "scene": 31
+    },
+    {
+      "character": "SOLDIER",
+      "text": "Move it, move it!",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "They look like they've been through hell.",
+      "scene": 31
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "These men more than most.",
+      "scene": 31
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Schmidt sent out a force to azzano. Two hundred men went up against him, and less than 50 returned. Your audience contained what was left of the 107th. The rest were killed or captured.",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "The 107th?",
+      "scene": 31
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "What? Come on.",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Colonel Phillips.",
+      "scene": 31
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Well, if it isn't the star-spangled man with a plan. What is your plan today?",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "I need the casualty list from azzano.",
+      "scene": 31
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "You don't get to give me orders, son.",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "I just need one name, sergeant James Barnes from the 107th.",
+      "scene": 31
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "You and I are gonna have a conversation later that you won't enjoy.",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Please tell me if he's alive, sir. B-a-r...",
+      "scene": 31
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "I can spell.",
+      "scene": 31
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "I have signed more of these condolence letters today than I would care to count. But the name does sound familiar. I'm sorry.",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "What about the others? Are you planning a rescue mission?",
+      "scene": 31
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Yes, it's called \"winning the war.\"",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "But if you know where they are, why not at least...",
+      "scene": 31
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "They're 30 miles behind the lines through some of the most heavily fortified territory in Europe. We'd lose more men than we'd save. But I don't expect you to understand that because you're a chorus girl.",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "I think I understand just fine.",
+      "scene": 31
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Well, then understand it somewhere else. If I read the posters correctly, you got some place to be in 30 minutes.",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Yes, sir. I do.",
+      "scene": 31
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "If you have something to say, right now is the perfect time to keep it to yourself.",
+      "scene": 31
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "What do you plan to do, walk to Austria?",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "If that's what it takes.",
+      "scene": 31
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "You heard the colonel. Your friend is most likely dead.",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "You don't know that.",
+      "scene": 31
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Even so, he's devising a strategy. If he detects...",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "By the time he's done that, it could be too late.",
+      "scene": 31
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Steve!",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "You told me you thought I was meant for more than this. Did you mean that?",
+      "scene": 31
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Every word.",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Then you got to let me go.",
+      "scene": 31
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "I can do more than that.",
+      "scene": 31
+    },
+    {
+      "character": "STAGE MANAGER",
+      "text": "On stage, girls. Five minutes!",
+      "scene": 31
+    },
+    {
+      "character": "CHORUS GIRL",
+      "text": "Where's my helmet? Anyone seen Rogers?",
+      "scene": 31
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "The hydra camp is in krausberg, tucked between these two mountain ranges. It's a factory of some kind.",
+      "scene": 31
     },
     {
       "character": "HOWARD STARK",
-      "text": "Schmidt's working with powers beyond our capabilities. He gets across the Atlantic, he will wipe out the entire Eastern Seaboard in an hour."
+      "text": "We should be able to drop you right on the doorstep.",
+      "scene": 31
     },
     {
-      "character": "GABE",
-      "text": "How much time we got?"
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "According to my new best friend, under 24 hours."
-    },
-    {
-      "character": "PINKY",
-      "text": "Where is he now?"
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "Hydra's last base is here. In the Alps, 500 feet below the surface."
-    },
-    {
-      "character": "JIM",
-      "text": "So what are we supposed to do? I mean, it's not like we can just knock on the front door."
-    },
-    {
-      "character": "STEVE",
-      "text": "Why not? That's exactly what we're going to do."
-    },
-    {
-      "character": "RED SKULL",
-      "text": "Arrogance may not be a uniquely American trait, but I must say, you do it better than anyone. But there are limits to what even you can do, Captain. Or did Erskine tell you otherwise?"
-    },
-    {
-      "character": "STEVE",
-      "text": "He told me you were insane."
-    },
-    {
-      "character": "RED SKULL",
-      "text": "He resented my genius and tried to deny me what was rightfully mine. But he gave you everything. So, what made you so special?"
-    },
-    {
-      "character": "STEVE",
-      "text": "Nothing. I'm just a kid from Brooklyn."
-    },
-    {
-      "character": "STEVE",
-      "text": "I can do this all day."
-    },
-    {
-      "character": "RED SKULL",
-      "text": "Of course you can, of course. But, unfortunately, I am on a tight schedule."
-    },
-    {
-      "character": "STEVE",
-      "text": "So am I."
-    },
-    {
-      "character": "PINKY",
-      "text": "Rogers! You might need this!"
-    },
-    {
-      "character": "STEVE",
-      "text": "Thanks!"
-    },
-    {
-      "character": "JIM",
-      "text": "We're in! assault team, go!"
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "Move out! Move! Keep your spacing!"
-    },
-    {
-      "character": "GUY",
-      "text": "Cut off one head, two more shall..."
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "Let's go find two more!"
-    },
-    {
-      "character": "STEVE",
-      "text": "You're late."
+      "character": "STEVE ROGERS",
+      "text": "Just get me as close as you can. You two are gonna be in a lot of trouble when you land.",
+      "scene": 31
     },
     {
       "character": "PEGGY CARTER",
-      "text": "Weren't you about to..."
+      "text": "And you won't?",
+      "scene": 31
     },
     {
-      "character": "STEVE",
-      "text": "Right."
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "Get in!"
-    },
-    {
-      "character": "STEVE",
-      "text": "Keep it steady!"
+      "character": "STEVE ROGERS",
+      "text": "Where I'm going, if anybody yells at me, I can just shoot them.",
+      "scene": 31
     },
     {
       "character": "PEGGY CARTER",
-      "text": "Wait!"
+      "text": "They will undoubtedly shoot back.",
+      "scene": 31
     },
     {
-      "character": "PEGGY CARTER",
-      "text": "Go get him."
-    },
-    {
-      "character": "COLONEL PHILLIPS",
-      "text": "I'm not kissing you!"
-    },
-    {
-      "character": "RED SKULL",
-      "text": "You don't give up, do you?"
-    },
-    {
-      "character": "STEVE",
-      "text": "Nope!"
-    },
-    {
-      "character": "RED SKULL",
-      "text": "You could have the power of the gods! Yet you wear a flag on your chest and think you fight a battle of nations! I have seen the future, Captain! There are no flags!"
-    },
-    {
-      "character": "STEVE",
-      "text": "Not my future!"
-    },
-    {
-      "character": "RED SKULL",
-      "text": "What have you done? No!"
-    },
-    {
-      "character": "STEVE",
-      "text": "Come in, this is Captain Rogers, do you read me?"
-    },
-    {
-      "character": "JIM",
-      "text": "Captain Rogers, what is your-"
-    },
-    {
-      "character": "PEGGY CARTER",
-      "text": "Steve, is that you? Are you alright?"
-    },
-    {
-      "character": "STEVE",
-      "text": "Peggy, Schmidt's dead!"
-    },
-    {
-      "character": "PEGGY CARTER",
-      "text": "What about the plane?"
-    },
-    {
-      "character": "STEVE",
-      "text": "That's a little bit tougher to explain."
-    },
-    {
-      "character": "PEGGY CARTER",
-      "text": "Give your coordinates, I'll find you a safe landing site."
-    },
-    {
-      "character": "STEVE",
-      "text": "There's not gonna be a safe landing. But I can try and force it down."
-    },
-    {
-      "character": "PEGGY CARTER",
-      "text": "I'll get Howard on the line, he'll know what to do."
-    },
-    {
-      "character": "STEVE",
-      "text": "There's not enough time. This thing's movin' too fast and it's headin' for New York. I got to put her in the water."
-    },
-    {
-      "character": "PEGGY CARTER",
-      "text": "Please, don't do this. We have time. We can work it out."
-    },
-    {
-      "character": "STEVE",
-      "text": "Right now, I'm in the middle of nowhere. If I wait any longer, a lot of people are gonna die. Peggy, this is my choice."
-    },
-    {
-      "character": "STEVE",
-      "text": "Peggy?"
-    },
-    {
-      "character": "PEGGY CARTER",
-      "text": "I'm here."
-    },
-    {
-      "character": "STEVE",
-      "text": "I'm gonna to need a rain check on that dance."
-    },
-    {
-      "character": "PEGGY CARTER",
-      "text": "All right. A week, next Saturday, at the Stork Club."
-    },
-    {
-      "character": "STEVE",
-      "text": "You got it."
-    },
-    {
-      "character": "PEGGY CARTER",
-      "text": "8:00 on the dot. Don't you dare be late. Understood?"
-    },
-    {
-      "character": "STEVE",
-      "text": "You know, I still don't know how to dance."
-    },
-    {
-      "character": "PEGGY CARTER",
-      "text": "I'll show you how. Just be there."
-    },
-    {
-      "character": "STEVE",
-      "text": "We'll have the band play something slow. I'd hate to step on your-"
-    },
-    {
-      "character": "PEGGY CARTER",
-      "text": "Steve? Steve?"
-    },
-    {
-      "character": "STEVE",
-      "text": "Steve?"
-    },
-    {
-      "character": "PINKY",
-      "text": "To the Captain."
-    },
-    {
-      "character": "GUY",
-      "text": "Sir?"
+      "character": "STEVE ROGERS",
+      "text": "Well, let's hope it's good for something.",
+      "scene": 31
     },
     {
       "character": "HOWARD STARK",
-      "text": "Take us to the next grid point."
+      "text": "Agent Carter? If we're not in too much of a hurry, I thought we could stop off in lucerne for a late-night fondue.",
+      "scene": 31
     },
     {
-      "character": "GUY",
-      "text": "But there's no trace of wreckage. And the energy signature stops here."
+      "character": "PEGGY CARTER",
+      "text": "Stark is the best civilian pilot I've ever seen. He's mad enough to brave this airspace. We're lucky to have him.",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "So, are you two... do you...",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Fondue?",
+      "scene": 31
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "This is your transponder. Activate it when you're ready and the signal will lead us straight to you.",
+      "scene": 31
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Are you sure this thing works?",
+      "scene": 31
     },
     {
       "character": "HOWARD STARK",
-      "text": "Just keep lookin'."
+      "text": "It's been tested more than you, pal.",
+      "scene": 31
     },
     {
-      "character": "RADIO",
-      "text": "Curve ball, high and outside for ball one. So the Dodgers are tied, 4-4. And the crowd well knows that with one swing of his bat, this fellow's capable of making it a brand-new game again. Just an absolutely gorgeous day here at Ebbets Field. The Phillies have managed to tie it up at 4-4. But the Dodgers have three men on. Pearson beaned Reiser in Philadelphia last month. Wouldn't the youngster like a hit here to return the favor? Pete leans in. Here's the pitch. Swung on. A line to the right. And it gets past Rizzo. Three runs will score. Reiser heads to third. Durocher's going to wave him in. Here comes the relay, but they won't get him."
+      "character": "PEGGY CARTER",
+      "text": "Get back here! We're taking you all the way in!",
+      "scene": 31
     },
     {
-      "character": "WOMAN",
-      "text": "Good morning. Or should I say afternoon?"
+      "character": "STEVE ROGERS",
+      "text": "As soon as I'm clear, you turn this thing around and get the hell out of here!",
+      "scene": 31
     },
     {
-      "character": "STEVE",
-      "text": "Where am I?"
+      "character": "PEGGY CARTER",
+      "text": "You can't give me orders!",
+      "scene": 31
     },
     {
-      "character": "WOMAN",
-      "text": "You're in a recovery room in New York City."
+      "character": "STEVE ROGERS",
+      "text": "The hell I can't! I'm a captain!",
+      "scene": 31
     },
     {
-      "character": "RADIO",
-      "text": "The Dodgers take the lead, 8-4. Oh, Dodgers! Everyone is on their feet. What a game we have here today, folks. What a game, indeed."
+      "character": "DR. ARNIM ZOLA",
+      "text": "As you can see, production of the valkyrie is progressing on schedule, even with components of this size.",
+      "scene": 32
     },
     {
-      "character": "STEVE",
-      "text": "Where am I really?"
+      "character": "JOHANN SCHMIDT",
+      "text": "Increase the output by 60% and see to it our other facilities do the same.",
+      "scene": 32
     },
     {
-      "character": "WOMAN",
-      "text": "I'm afraid I don't understand."
+      "character": "DR. ARNIM ZOLA",
+      "text": "But these prisoners, I'm not sure they have the strength.",
+      "scene": 32
     },
     {
-      "character": "STEVE",
-      "text": "The game. It's from May 1941. I know, 'cause I was there. Now, I'm going to ask you again."
+      "character": "JOHANN SCHMIDT",
+      "text": "Then use up what strength they have left, doctor. There are always more workers.",
+      "scene": 32
     },
     {
-      "character": "STEVE",
-      "text": "Where am I?"
+      "character": "DR. ARNIM ZOLA",
+      "text": "Not now!",
+      "scene": 32
     },
     {
-      "character": "WOMAN",
-      "text": "Captain Rogers.-"
+      "character": "TIMOTHY DUGAN",
+      "text": "Who are you supposed to be?",
+      "scene": 33
     },
     {
-      "character": "STEVE",
-      "text": "Who are you?"
+      "character": "STEVE ROGERS",
+      "text": "I'm captain america.",
+      "scene": 33
     },
     {
-      "character": "WOMAN",
-      "text": "Captain Rogers, wait! All agents, code 13! I repeat. All agents, code 13!"
+      "character": "JAMES MONTGOMERY FALSWORTH",
+      "text": "I beg your pardon?",
+      "scene": 33
     },
     {
-      "character": "FURY",
-      "text": "At ease, soldier!"
+      "character": "TIMOTHY DUGAN",
+      "text": "What, are we taking everybody?",
+      "scene": 33
     },
     {
-      "character": "STEVE",
-      "text": "Who are you?"
+      "character": "JIM MORITA",
+      "text": "I'm from Fresno, ace.",
+      "scene": 33
     },
     {
-      "character": "FURY",
-      "text": "Colonel Nick Fury, Director of S.H.I.E.L.D. You would have known us as the Strategic Scientific Reserve."
+      "character": "STEVE ROGERS",
+      "text": "Is there anybody else? I'm looking for a sergeant James Barnes.",
+      "scene": 33
     },
     {
-      "character": "STEVE",
-      "text": "Where am I?"
+      "character": "JAMES MONTGOMERY FALSWORTH",
+      "text": "There's an isolation ward in the factory, but no one's ever come back from it.",
+      "scene": 33
     },
     {
-      "character": "FURY",
-      "text": "46th and Broadway. Look, I'm sorry about that little show back there, but we didn't know what your mental state might be, so we thought it best to break it to you slowly."
+      "character": "STEVE ROGERS",
+      "text": "All right. The tree line is northwest, 80 yards past the gate. Get out fast and give 'em hell. I'll meet you guys in the clearing with anybody else I find.",
+      "scene": 33
     },
     {
-      "character": "STEVE",
-      "text": "Break what?"
+      "character": "TIMOTHY DUGAN",
+      "text": "Wait. You know what you're doing?",
+      "scene": 33
     },
     {
-      "character": "FURY",
-      "text": "You've been asleep, Cap. For almos 70 years."
+      "character": "STEVE ROGERS",
+      "text": "Yeah. I've knocked out Adolf Hitler over 200 times.",
+      "scene": 33
     },
     {
-      "character": "STEVE",
-      "text": "How am I alive?"
+      "character": "JIM MORITA",
+      "text": "You know how to use that thing?",
+      "scene": 34
     },
     {
-      "character": "FURY",
-      "text": "Well, to be honest with you, we don't really know. My docs say it was suspended animation. Could be Dr. Erskine's formula, the extreme cold. I don't know."
+      "character": "JIM MORITA",
+      "text": "Okay.",
+      "scene": 34
     },
     {
-      "character": "STEVE",
-      "text": "What about the war? Did we win?"
+      "character": "JOHANN SCHMIDT",
+      "text": "What is happening?",
+      "scene": 34
     },
     {
-      "character": "FURY",
-      "text": "Hell, yes. Unconditional surrender. Taking down HYDRA was a big part of that. But the world hasn't changed all that much. There's still a lot of work to be done. A soldier's work. The world can still use a man like you, Cap. There's a place here for you."
+      "character": "TIMOTHY DUGAN",
+      "text": "Hey. Not exactly a buick.",
+      "scene": 34
     },
     {
-      "character": "FURY",
-      "text": "You gonna be okay?"
+      "character": "GABE JONES",
+      "text": "That one. \"Zcindung.\"",
+      "scene": 34
     },
     {
-      "character": "STEVE",
-      "text": "Yeah. Yeah, I just...I had a date."
+      "character": "TIMOTHY DUGAN",
+      "text": "Z£indung?",
+      "scene": 34
     },
     {
-      "character": "FURY",
-      "text": "Trouble sleeping?"
+      "character": "JAMES MONTGOMERY FALSWORTH",
+      "text": "Get this thing going, dugan!",
+      "scene": 34
     },
     {
-      "character": "STEVE",
-      "text": "You're here with a mission, sir?"
+      "character": "TIMOTHY DUGAN",
+      "text": "I didn't know you spoke German.",
+      "scene": 34
     },
     {
-      "character": "FURY",
-      "text": "I am."
+      "character": "GABE JONES",
+      "text": "Three semesters at Howard, switched to French, girls much cuter.",
+      "scene": 34
     },
     {
-      "character": "STEVE",
-      "text": "Tryin' to get me back in the world?"
+      "character": "TIMOTHY DUGAN",
+      "text": "Didn't ask for the résumé.",
+      "scene": 34
     },
     {
-      "character": "FURY",
-      "text": "Trying to save it."
+      "character": "BUCKY BARNES",
+      "text": "Sergeant. Three-two-five-five-seven.",
+      "scene": 35
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Bucky? Oh, my god.",
+      "scene": 35
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "Is that...",
+      "scene": 35
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "It's me. It's Steve.",
+      "scene": 35
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "Steve?",
+      "scene": 35
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Come on.",
+      "scene": 35
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "Steve.",
+      "scene": 35
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "I thought you were dead.",
+      "scene": 35
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "I thought you were smaller.",
+      "scene": 35
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Come on.",
+      "scene": 35
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "What happened to you?",
+      "scene": 35
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "I joined the army.",
+      "scene": 35
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "Did it hurt?",
+      "scene": 35
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "A little.",
+      "scene": 35
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "Is this permanent?",
+      "scene": 35
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "So far.",
+      "scene": 35
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "Captain america! How exciting! I am a great fan of your films!",
+      "scene": 36
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "So, Dr. Erskine managed it after all. Not exactly an improvement, but still, impressive.",
+      "scene": 36
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "You've got no idea.",
+      "scene": 36
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "Haven't I?",
+      "scene": 36
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "You don't have one of those, do you?",
+      "scene": 37
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "You are deluded, captain. You pretend to be a simple soldier, but in reality, you are just afraid to admit that we have left humanity behind.",
+      "scene": 37
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "Unlike you, I embrace it proudly. Without fear!",
+      "scene": 37
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Then how come you're running?",
+      "scene": 37
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "Come on, let's go. Up.",
+      "scene": 38
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "Sir? Are we going to the roof?",
+      "scene": 38
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "What about me? Where will I sit?",
+      "scene": 38
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "Not a scratch, doctor. Not a scratch.",
+      "scene": 38
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "Gotta be a rope or something!",
+      "scene": 39
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Just go! Get out of here!",
+      "scene": 39
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "No! Not without you!",
+      "scene": 39
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Senator Brandt, I regret to report that captain Steven g. Rogers went missing behind enemy lines on the third. Aerial reconnaissance has proven unfruitful. As a result, I must declare captain Rogers killed in action. Period.",
+      "scene": 40
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "The last surveillance flight is back.",
+      "scene": 40
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "No sign of activity.",
+      "scene": 40
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Go get a cup of coffee, corporal.",
+      "scene": 40
+    },
+    {
+      "character": "CORPORAL",
+      "text": "Yes, sir.",
+      "scene": 40
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "I can't touch stark. He's rich and he's the army's number one weapons contractor. You are neither one.",
+      "scene": 40
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "With respect, sir, I don't regret my actions. And I don't think captain Rogers did, either.",
+      "scene": 40
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "What makes you think I give a damn about your opinions? I took a chance with you, agent Carter. And now america's golden boy and a lot of other good men are dead 'cause you had a crush.",
+      "scene": 40
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "It wasn't that. I had faith.",
+      "scene": 40
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Well, I hope that's a big comfort to you when they shut this division down.",
+      "scene": 40
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "What the hell's going on out there?",
+      "scene": 40
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Some of these men need medical attention.",
+      "scene": 41
+    },
+    {
+      "character": "SOLDIER",
+      "text": "Medic, we got wounded.",
+      "scene": 41
+    },
+    {
+      "character": "MEDIC",
+      "text": "Right over here.",
+      "scene": 41
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "I'd like to surrender myself for disciplinary action.",
+      "scene": 41
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "That won't be necessary.",
+      "scene": 41
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Yes, sir.",
+      "scene": 41
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Faflh, huh?",
+      "scene": 41
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "You're late.",
+      "scene": 41
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Couldn't call my ride.",
+      "scene": 41
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "Let's hear it for captain america!",
+      "scene": 41
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "The fifth one was here in Poland, right near the baltic. And the sixth one was about here, 30, 40 miles west of the maginot line.",
+      "scene": 42
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "I just got a quick look.",
+      "scene": 42
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Well, nobody's perfect.",
+      "scene": 42
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "These are the weapon factories we know about. Sergeant Barnes said that hydra shipped all the parts to another facility that isn't on this map.",
+      "scene": 42
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Agent Carter, coordinate with MI6. I want every allied eyeball looking for that main hydra base.",
+      "scene": 42
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "What about us?",
+      "scene": 42
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "We are going to set a fire under Johann schmidt's ass. What do you say, Rogers? It's your map. You think you can wipe hydra off it?",
+      "scene": 42
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Yes, sir. I'll need a team.",
+      "scene": 42
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "We're already putting together the best men.",
+      "scene": 42
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "With all due respect, sir, so am I.",
+      "scene": 42
+    },
+    {
+      "character": "TIMOTHY DUGAN",
+      "text": "So, let's get this straight. We barely got out of there alive, and you want us to go back?",
+      "scene": 42
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Pretty much.",
+      "scene": 42
+    },
+    {
+      "character": "JAMES MONTGOMERY FALSWORTH",
+      "text": "Sounds rather fun, actually.",
+      "scene": 42
+    },
+    {
+      "character": "GABE JONES",
+      "text": "I'm in.",
+      "scene": 42
+    },
+    {
+      "character": "JIM MORITA",
+      "text": "We're in.",
+      "scene": 43
+    },
+    {
+      "character": "TIMOTHY DUGAN",
+      "text": "Hell, I'll always fight. But you got to do one thing for me.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "What's that?",
+      "scene": 43
+    },
+    {
+      "character": "TIMOTHY DUGAN",
+      "text": "Open a tab.",
+      "scene": 43
+    },
+    {
+      "character": "JIM MORITA",
+      "text": "Well, that was easy.",
+      "scene": 43
+    },
+    {
+      "character": "TIMOTHY DUGAN",
+      "text": "Another round.",
+      "scene": 43
+    },
+    {
+      "character": "BARTENDER",
+      "text": "Where are they putting all this stuff?",
+      "scene": 43
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "See? I told you. They're all idiots.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "How about you? You ready to follow captain america into the jaws of death?",
+      "scene": 43
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "Hell, no. That little guy from Brooklyn who was too dumb not to run away from a fight. I'm following him.",
+      "scene": 43
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "But you're keeping the outfit, right?",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "You know what? It's kind of growing on me.",
+      "scene": 43
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Captain.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Agent Carter.",
+      "scene": 43
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "Ma'am.",
+      "scene": 43
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Howard has some equipment for you to try. Tomorrow morning?",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Sounds good.",
+      "scene": 43
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "I see your top squad is prepping for duty.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "You don't like music?",
+      "scene": 43
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "I do, actually.",
+      "scene": 43
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "I might even, when this is all over, go dancing.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Then what are we waiting for?",
+      "scene": 43
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "The right partner. 0800, captain.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Yes, ma'am. I'll be there.",
+      "scene": 43
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "I'm invisible. I'm turning into you. It's like a horrible dream.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Don't take it so hard. Maybe she's got a friend.",
+      "scene": 43
+    },
+    {
+      "character": "HOWARD STARK",
+      "text": "Emission signature is unusual. Alpha and beta ray neutral. Though I doubt Rogers picked up on that.",
+      "scene": 43
+    },
+    {
+      "character": "HOWARD STARK",
+      "text": "Seems harmless enough. Hard to see what all the fuss is about.",
+      "scene": 43
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Write that down.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Excuse me. I'm looking for a Mr. Stark.",
+      "scene": 43
+    },
+    {
+      "character": "PRIVATE LORRAINE",
+      "text": "He's in with colonel Phillips.",
+      "scene": 43
+    },
+    {
+      "character": "PRIVATE LORRAINE",
+      "text": "Of course, you're welcome to wait.",
+      "scene": 43
+    },
+    {
+      "character": "PRIVATE LORRAINE",
+      "text": "I read about what you did.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Oh, the... yeah. Well, that's, you know.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Just doing what needed to be done.",
+      "scene": 43
+    },
+    {
+      "character": "PRIVATE LORRAINE",
+      "text": "Sounded like more than that. You saved nearly 400 men.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Really, it's not a big deal.",
+      "scene": 43
+    },
+    {
+      "character": "PRIVATE LORRAINE",
+      "text": "Tell that to their wives.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "I don't think they were all married.",
+      "scene": 43
+    },
+    {
+      "character": "PRIVATE LORRAINE",
+      "text": "You're a hero.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Well, that depends on the definition, really.",
+      "scene": 43
+    },
+    {
+      "character": "PRIVATE LORRAINE",
+      "text": "The women of america, they owe you their thanks. And seeing as they're not here...",
+      "scene": 43
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Captain! We're ready for you, if you're not othennise occupied.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Agent Carter, wait.",
+      "scene": 43
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Looks like finding a partner wasn't that hard after all.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Peggy, that's not what you thought it was.",
+      "scene": 43
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "I don't think anything, captain, not one thing. You always wanted to be a soldier, and now you are, just like all the rest.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Well, what about you and stark? How do I know you two haven't been fondue-ing?",
+      "scene": 43
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "You still don't know a bloody thing about women.",
+      "scene": 43
+    },
+    {
+      "character": "HOWARD STARK",
+      "text": "Fondue is just cheese and bread, my friend.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Really? I didn't think...",
+      "scene": 43
+    },
+    {
+      "character": "HOWARD STARK",
+      "text": "Nor should you, pal. The moment you think you know what's going on in a woman's head is the moment your goose is well and truly cooked. Me, I concentrate on work, which at the moment is about making sure you and your men do not get killed. Carbon polymer. Should withstand your average German bayonet. Although hydra's not going to attack you with a pocket knife. I hear you're kind of attached.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "It's handier than you might think.",
+      "scene": 43
+    },
+    {
+      "character": "HOWARD STARK",
+      "text": "I took the Liberty of coming up with some options. This one's fun. She's been fitted with electrical relays that allow you to...",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "What about this one?",
+      "scene": 43
+    },
+    {
+      "character": "HOWARD STARK",
+      "text": "No, no, that's just a prototype.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "What's it made of?",
+      "scene": 43
+    },
+    {
+      "character": "HOWARD STARK",
+      "text": "Vibranium. It's stronger than steel and a third the weight. It's completely vibration absorbent.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "How come it's not standard issue?",
+      "scene": 43
+    },
+    {
+      "character": "HOWARD STARK",
+      "text": "That's the rarest metal on earth. What you're holding there, that's all we've got.",
+      "scene": 43
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "You quite finished, Mr. Stark? I'm sure the captain has some unfinished business.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "What do you think?",
+      "scene": 43
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Yes, I think it works.",
+      "scene": 43
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "I had some ideas about the uniform.",
+      "scene": 43
+    },
+    {
+      "character": "HOWARD STARK",
+      "text": "Whatever you want, pal.",
+      "scene": 43
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "You are failing! We are close to an offensive that will shake the planet, yet we are continually delayed because you cannot outwit a simpleton with a shield!",
+      "scene": 44
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "This is hardly my area of expertise. I merely developed the weapons. I cannot fire them.",
+      "scene": 44
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "Finish your mission, doctor, before the American finishes his.",
+      "scene": 44
+    },
+    {
+      "character": "HYDRA SOLDIER",
+      "text": "Sir!",
+      "scene": 44
+    },
+    {
+      "character": "HYDRA SOLDIER",
+      "text": "I'm sorry, herr schmidt.",
+      "scene": 44
+    },
+    {
+      "character": "HYDRA SOLDIER",
+      "text": "We fought to the last man.",
+      "scene": 44
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "Evidently not.",
+      "scene": 44
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "Remember when I made you ride the cyclone at coney island?",
+      "scene": 45
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Yeah, and I threw up?",
+      "scene": 45
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "This isn't payback, is it?",
+      "scene": 45
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Now why would I do that?",
+      "scene": 45
+    },
+    {
+      "character": "GABE JONES",
+      "text": "We were right. Dr. Zola's on the train. Hydra dispatcher gave him permission to open up the throttle. Wherever he's going, they must need him bad.",
+      "scene": 45
+    },
+    {
+      "character": "GABE JONES",
+      "text": "Let's get going, because they're moving like the devil. We only got about a 10-second window. You miss that window, we're bugs on a windshield.",
+      "scene": 45
+    },
+    {
+      "character": "JAMES MONTGOMERY FALSWORTH",
+      "text": "Mind the gap.",
+      "scene": 45
+    },
+    {
+      "character": "TIMOTHY DUGAN",
+      "text": "Better get moving, bugs!",
+      "scene": 45
+    },
+    {
+      "character": "BUCKY BARNES",
+      "text": "I had him on the ropes.",
+      "scene": 46
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "I know you did. Get down!",
+      "scene": 46
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "Fire again! Kill him! Now!",
+      "scene": 46
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Bucky!",
+      "scene": 46
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Hang on!",
+      "scene": 46
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Grab my hand!",
+      "scene": 46
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Sit down.",
+      "scene": 47
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "What is this?",
+      "scene": 47
+    },
+    {
+      "character": "GABE JONES",
+      "text": "Steak.",
+      "scene": 47
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "What is in it?",
+      "scene": 47
+    },
+    {
+      "character": "GABE JONES",
+      "text": "Cow.",
+      "scene": 47
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Doctor, do you realize how difficult it is to get a hold of a prime out like that out here?",
+      "scene": 47
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "I don't eat meat.",
+      "scene": 47
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Why not?",
+      "scene": 47
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "It disagrees with me.",
+      "scene": 47
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "How about cyanide? Does that give you the rumbly tummy, too?",
+      "scene": 47
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Every hydra agent that we've tried to take alive has crunched a little pill before we can stop him. But not you. So, here is my brilliant theory.",
+      "scene": 47
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "You want to live.",
+      "scene": 47
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "You're trying to intimidate me, colonel.",
+      "scene": 47
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "I bought you dinner.",
+      "scene": 47
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "\"Given the valuable information he has provided \"and in exchange for his full cooperation, \"Dr. Zola is being remanded to Switzerland\"?",
+      "scene": 47
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "I sent that message to Washington this morning, of course it was encoded. You guys haven't broken those codes, have you? That would be awkward.",
+      "scene": 47
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "Schmidt will know this is a lie.",
+      "scene": 47
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "He's going to kill you anyway, doc. You're a liability. You know more about schmidt than anyone. And the last guy you cost us was captain Rogers' closest friend, so I wouldn't count on the very best of protection. It's you or schmidt. It's just the hand you've been dealt.",
+      "scene": 47
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "Schmidt believes he walks in the footsteps of the gods.",
+      "scene": 47
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Hmm.",
+      "scene": 47
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "Only the world itself will satisfy him.",
+      "scene": 47
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "You do realize that's nuts, don't you?",
+      "scene": 47
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "What? The sanity of the plan is of no consequence.",
+      "scene": 47
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "And why is that?",
+      "scene": 47
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "Because he can do it!",
+      "scene": 47
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "What's his target?",
+      "scene": 47
+    },
+    {
+      "character": "DR. ARNIM ZOLA",
+      "text": "Hbema is everywhere.",
+      "scene": 47
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Blackout is still in effect throughout the London area. Please wait for the all-clear. Your attention, please. All citizens shall remain indoors until further notice. Blackout is still in effect throughout the London area.",
+      "scene": 48
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Dr. Erskine said that the serum wouldn't just affect my muscles, it would affect my cells. Create a protective system of regeneration and healing. Which means",
+      "scene": 48
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "I can't get drunk.",
+      "scene": 48
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Did you know that?",
+      "scene": 48
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Your metabolism burns four times faster than the average person.",
+      "scene": 48
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "He thought it could be one of the side effects.",
+      "scene": 48
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "It wasn't your fault.",
+      "scene": 48
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Did you read the report?",
+      "scene": 48
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Yes.",
+      "scene": 48
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Then you know that's not true.",
+      "scene": 48
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "You did everything you could.",
+      "scene": 48
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Did you believe in your friend? Did you respect him?",
+      "scene": 48
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Then stop blaming yourself. Allow Barnes the dignity of his choice. He damn well must have thought you were worth it.",
+      "scene": 48
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "I'm going after schmidt. I'm not gonna stop until all of hydra is dead or captured.",
+      "scene": 48
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "You won't be alone.",
+      "scene": 48
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Johann schmidt belongs in a bughouse. He thinks he's a god, and he's willing to blow up half the world to prove it, starting with the usa.",
+      "scene": 48
+    },
+    {
+      "character": "JAMES MONTGOMERY FALSWORTH",
+      "text": "Schmidt's working with powers beyond our capabilities. He gets across the Atlantic, he will wipe out the entire eastern seaboard in an hour.",
+      "scene": 48
+    },
+    {
+      "character": "TIMOTHY DUGAN",
+      "text": "How much time we got?",
+      "scene": 48
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "According to my new best friend, under 24 hours.",
+      "scene": 48
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Hydra's last base is here. In the alps, 500 feet below the surface.",
+      "scene": 49
+    },
+    {
+      "character": "JIM MORITA",
+      "text": "So what are we supposed to do? I mean, it's not like we can just knock on the front door.",
+      "scene": 49
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Why not?",
+      "scene": 49
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "That's exactly what we're going to do.",
+      "scene": 49
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "Arrogance may not be a uniquely American trait, but I must say, you do it better than anyone.",
+      "scene": 50
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "But there are limits to what even you can do, captain. Or did erskine tell you othennise?",
+      "scene": 50
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "He told me you were insane.",
+      "scene": 50
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "He resented my genius and tried to deny me what was rightfully mine. But he gave you everything.",
+      "scene": 50
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "What made you so special?",
+      "scene": 50
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Nothing. I'm just a kid from Brooklyn.",
+      "scene": 50
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "I can do this all day.",
+      "scene": 50
+    },
+    {
+      "character": "JOHANN SCHMIDT",
+      "text": "Of course you can, of course. But, unfortunately, I am on a tight schedule.",
+      "scene": 50
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "So am I.",
+      "scene": 50
+    },
+    {
+      "character": "JIM MORITA",
+      "text": "Rogers! You might need this!",
+      "scene": 51
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Thanks!",
+      "scene": 51
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "We're in! Assault team, go!",
+      "scene": 51
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "Move out!",
+      "scene": 51
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "You're late.",
+      "scene": 52
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Weren't you about to...",
+      "scene": 52
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Right.",
+      "scene": 52
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Keep it steady!",
+      "scene": 53
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Wait!",
+      "scene": 53
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Go get him.",
+      "scene": 53
+    },
+    {
+      "character": "COLONEL CHESTER PHILLIPS",
+      "text": "I'm not kissing you!",
+      "scene": 53
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Come in. This is captain Rogers. Do you read me?",
+      "scene": 54
+    },
+    {
+      "character": "RADIO OPERATOR",
+      "text": "Captain Rogers, what is your...",
+      "scene": 54
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Steve, is that you? Are you all right?",
+      "scene": 54
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Peggy, schmidt's dead!",
+      "scene": 54
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "What about the plane?",
+      "scene": 54
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "That's a little bit tougher to explain.",
+      "scene": 54
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Give me your coordinates. I'll find you a safe landing site.",
+      "scene": 54
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "There's not gonna be a safe landing. But I can try and force it down.",
+      "scene": 54
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "I'll get Howard on the line. He'll know what to do.",
+      "scene": 54
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "There's not enough time. This thing's moving too fast and it's heading for New York.",
+      "scene": 54
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "I got to put her in the water.",
+      "scene": 54
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Please, don't do this. We have time. We can work it out.",
+      "scene": 54
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Right now I'm in the middle of nowhere. If I wait any longer, a lot of people are gonna die.",
+      "scene": 54
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Peggy, this is my choice.",
+      "scene": 54
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Peggy?",
+      "scene": 55
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "I'm here.",
+      "scene": 55
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "I'm gonna need a rain check on that dance.",
+      "scene": 55
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "All right.",
+      "scene": 55
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "A week, next Saturday, at the stork club.",
+      "scene": 55
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "You got it.",
+      "scene": 55
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "8:00 on the dot. Don't you dare be late. Understood?",
+      "scene": 55
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "You know, I still don't know how to dance.",
+      "scene": 55
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "I'll show you how. Just be there.",
+      "scene": 55
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "We'll have the band play something slow.",
+      "scene": 55
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "I'd hate to step on your...",
+      "scene": 55
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Steve?",
+      "scene": 55
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Steve?",
+      "scene": 55
+    },
+    {
+      "character": "PEGGY CARTER",
+      "text": "Steve?",
+      "scene": 55
+    },
+    {
+      "character": "TECHNICIAN",
+      "text": "Sir?",
+      "scene": 56
+    },
+    {
+      "character": "HOWARD STARK",
+      "text": "Take us to the next grid point.",
+      "scene": 56
+    },
+    {
+      "character": "TECHNICIAN",
+      "text": "But there's no trace of wreckage. And the energy signature stops here.",
+      "scene": 56
+    },
+    {
+      "character": "HOWARD STARK",
+      "text": "Just keep looking.",
+      "scene": 56
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Curve ball, high and outside for ball one. So the Dodgers are tied, 4-4. And the crowd well knows that with one swing of his bat, this fellow's capable of making it a brand-new game again. Just an absolutely gorgeous day here at ebbets field. The Phillies have managed to tie it up at 4-4. But the Dodgers have three men on.",
+      "scene": 57
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Pearson beaned Reiser in Philadelphia last month. Wouldn't the youngster like a hit here to return the favor? Pete leans in. Here's the pitch. Swung on. A line to the right. And it gets past Rizzo.",
+      "scene": 57
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Three runs will score. Reiser heads to third. Durocher's going to wave him in. Here comes the relay, but they won't get him.",
+      "scene": 57
+    },
+    {
+      "character": "SHIELD AGENT",
+      "text": "Good morning.",
+      "scene": 57
+    },
+    {
+      "character": "SHIELD AGENT",
+      "text": "Or should I say afternoon?",
+      "scene": 57
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Where am I?",
+      "scene": 57
+    },
+    {
+      "character": "SHIELD AGENT",
+      "text": "You're in a recovery room in New York City.",
+      "scene": 57
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "The Dodgers take the lead, 8-4. Oh, Dodgers! Everyone is on their feet. What a game we have here today, folks. What a game, indeed.",
+      "scene": 57
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Where am I really?",
+      "scene": 57
+    },
+    {
+      "character": "SHIELD AGENT",
+      "text": "I'm afraid I don't understand.",
+      "scene": 57
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "The game. It's from may 1941. I know, 'cause I was there.",
+      "scene": 57
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Now, I'm going to ask you again. Where am I?",
+      "scene": 57
+    },
+    {
+      "character": "SHIELD AGENT",
+      "text": "Captain Rogers...",
+      "scene": 57
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Who are you?",
+      "scene": 57
+    },
+    {
+      "character": "SHIELD AGENT",
+      "text": "Captain Rogers, wait!",
+      "scene": 57
+    },
+    {
+      "character": "SHIELD AGENT",
+      "text": "All agents, code 13! I repeat. All agents, code 13!",
+      "scene": 57
+    },
+    {
+      "character": "NICK FURY",
+      "text": "At ease, soldier!",
+      "scene": 58
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Look, I'm sorry about that little show back there, but we thought it best to break it to you slowly.",
+      "scene": 58
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Break what?",
+      "scene": 58
+    },
+    {
+      "character": "NICK FURY",
+      "text": "You've been asleep, cap. For almost 70 years.",
+      "scene": 58
+    },
+    {
+      "character": "NICK FURY",
+      "text": "You gonna be okay?",
+      "scene": 59
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Yeah. Yeah, I just...",
+      "scene": 59
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "I had a date.",
+      "scene": 59
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Trouble sleeping?",
+      "scene": 60
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "You're here with a mission, sir?",
+      "scene": 60
+    },
+    {
+      "character": "NICK FURY",
+      "text": "I am.",
+      "scene": 60
+    },
+    {
+      "character": "STEVE ROGERS",
+      "text": "Trying to get me back in the world?",
+      "scene": 60
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Trying to save it.",
+      "scene": 60
+    },
+    {
+      "character": "NICK FURY",
+      "text": "You think you're the only hero in the world?",
+      "scene": 60
     }
   ],
+  "lineCount": 743,
+  "characterCount": 29,
   "imdbId": "tt0458339",
   "poster": "https://m.media-amazon.com/images/M/MV5BNzUyM2YyY2MtNzNlMS00MWU5LTgxNjAtNzZlNmI2NjU2NDZlXkEyXkFqcGc@._V1_SX300.jpg",
   "rated": "PG-13",
   "runtime": "124 min",
-  "genre": "Action, Adventure, Sci-Fi",
+  "genre": "Action, Adventure, Science Fiction",
   "director": "Joe Johnston",
   "topSpeakingCast": [
-    "STEVE",
+    "STEVE ROGERS",
     "PEGGY CARTER",
-    "COLONEL PHILLIPS",
-    "DR. ERSKINE",
-    "RED SKULL",
-    "BUCKY",
-    "DR. ZOLA",
+    "COLONEL CHESTER PHILLIPS",
+    "JOHANN SCHMIDT",
+    "DR. ABRAHAM ERSKINE",
+    "BUCKY BARNES",
+    "DR. ARNIM ZOLA",
     "HOWARD STARK",
-    "WOMAN",
-    "FURY",
-    "EXAMINER",
-    "GUY",
-    "S.H.I.E.L.D. LIEUTENANT",
-    "BRANDT",
-    "CHURCH KEEPER",
-    "MAN 1",
-    "TRAINER"
+    "TIMOTHY DUGAN",
+    "SENATOR BRANDT",
+    "NICK FURY",
+    "GABE JONES",
+    "JIM MORITA",
+    "PRIVATE LORRAINE",
+    "JAMES MONTGOMERY FALSWORTH",
+    "GILMORE HODGE",
+    "HEINZ KRUGER"
   ]
 }

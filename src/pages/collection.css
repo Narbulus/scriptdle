@@ -1,24 +1,79 @@
 /* ========================================
-   Your Collection — specimen sheet
-   Layer AFTER pages/stats.css. Requires styles/foxing.css.
-   Scoped to #stats-modal so the main-app stats page is untouched.
+   Your Collection — Specimen Sheet
+   Shared by BOTH #stats-modal (web + Reddit) and the standalone /stats page.
+   Requires styles/foxing.css for the aged paper texture (.foxed).
    ======================================== */
 
-/* ---- The sheet ---------------------------------------------------
-   Same aged stock as the board and the splash, so the collection is a
-   page of the same document rather than a separate dark panel. */
+/* ---- Standalone /stats page wrapper ----------------------------- */
+.stats-page {
+    flex: 1;
+    width: 100%;
+    padding: 1.25rem 1rem 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
 
+.stats-page-sheet {
+    width: 100%;
+    max-width: 520px;
+}
+
+.collection-sheet-header {
+    padding: 0.875rem 1.25rem;
+    border-bottom: 2px dashed rgba(90, 66, 30, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.collection-sheet-title {
+    margin: 0;
+    text-align: left;
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #191510;
+}
+
+.collection-sheet-back {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #5c4726;
+    text-decoration: underline;
+    white-space: nowrap;
+    transition: opacity var(--transition-base);
+}
+
+.collection-sheet-back:hover {
+    opacity: 0.7;
+}
+
+.collection-sheet-body {
+    padding: 0.75rem 1rem 1.25rem;
+}
+
+/* ---- The aged paper sheet (modal + standalone page) ------------- */
+.collection-sheet,
 #stats-modal .modal-container {
     position: relative;
-    /* Narrower than the default 600px: the grid is at most four small tiles
-       wide, and a full-width sheet left it stranded in dead space. */
-    max-width: 460px;
     background: var(--script-bg) !important;
     border-radius: 2px;
     box-shadow:
-        0 14px 34px rgba(0, 0, 0, 0.5),
+        0 14px 34px rgba(0, 0, 0, 0.45),
         inset 0 0 34px rgba(120, 80, 26, 0.20),
         inset 0 0 90px rgba(140, 98, 40, 0.12);
+    color: #191510;
+}
+
+#stats-modal .modal-container {
+    max-width: 460px;
 }
 
 #stats-modal .modal-header {
@@ -32,55 +87,25 @@
     font-weight: var(--font-weight-bold);
     letter-spacing: 0.16em;
     text-transform: uppercase;
-    color: #191510;
+    color: #191510 !important;
 }
 
 #stats-modal .modal-close-btn {
-    color: #7a6242 !important;
-    /* 36px hit target — the only way out of this modal */
+    color: #5c4726 !important;
     min-width: 36px;
     min-height: 36px;
 }
 
-/* Texture layer. .modal-content is the scroll port, so the wash lives on
-   the container and must not scroll with the grid. */
-#stats-modal .modal-container::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-    pointer-events: none;
-    border-radius: inherit;
-    background-image:
-        radial-gradient(38% 26% at 14% 8%, rgba(168, 124, 58, 0.18), transparent 68%),
-        radial-gradient(30% 22% at 88% 22%, rgba(158, 114, 50, 0.15), transparent 70%),
-        radial-gradient(44% 30% at 72% 88%, rgba(172, 130, 64, 0.16), transparent 70%),
-        radial-gradient(26% 20% at 30% 62%, rgba(150, 108, 46, 0.10), transparent 72%),
-        radial-gradient(circle 1.5px at 22% 34%, rgba(126, 86, 34, 0.30), transparent 100%),
-        radial-gradient(circle 1px at 61% 18%, rgba(126, 86, 34, 0.26), transparent 100%),
-        radial-gradient(circle 2px at 78% 66%, rgba(126, 86, 34, 0.22), transparent 100%),
-        radial-gradient(circle 1px at 38% 82%, rgba(126, 86, 34, 0.28), transparent 100%);
-}
-
-#stats-modal .modal-header,
-#stats-modal .modal-content {
-    position: relative;
-    z-index: 1;
-}
-
-/* global.css paints .modal-content with --main-surface; the sheet shows
-   through instead. Same for the body wrapper inside it. */
 #stats-modal .modal-content,
 #stats-modal .modal-body {
     background: transparent !important;
+    color: #191510 !important;
 }
 
-/* ---- Layout: the footer is pinned, the grid is what gives -------
-   The modal is capped at 80vh and its content does not scroll, so on a short
-   viewport the detail card + pagination fell off the bottom — leaving only
-   the pagination's top border showing as a stray rule. Making the whole
-   column flex keeps the detail and the paging controls on screen and gives
-   the tile grid the leftover space instead. */
+#stats-modal .modal-content {
+    padding: 0.5rem 0.75rem 0.75rem;
+    overflow: hidden;
+}
 
 #stats-modal .modal-content,
 #stats-modal .modal-body,
@@ -101,85 +126,84 @@
     flex: none;
 }
 
-/* The grid is paginated, so it must never scroll. Rather than letting the
-   tiles overflow, they take their size from whatever height is left: the
-   rows share the space, and each tile is square off its row height with a
-   ceiling so it does not balloon on a tall modal. Short viewport, small
-   tiles; no scrollbar at any size.
+/* ---- Stats Container & Streak ----------------------------------- */
+.collection-sheet .stats-container {
+    width: 100%;
+    padding: 0;
+}
 
-   Column tracks are pinned to the same ceiling and the whole grid centres,
-   which also closes the dead space the 1fr tracks used to spread out. The
-   3/4 split mirrors getCompactColumns() in Stats.jsx. */
-/* Tile size is driven by width against a ceiling that also tracks viewport
-   height, so two rows plus the detail card and the pager always fit without
-   scrolling — on a short window the tiles simply get smaller.
+.collection-sheet .streak-section {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    padding: 0.25rem 0 0.75rem;
+    margin-bottom: 0;
+}
 
-   Sizing them from the row height instead looks tempting but deadlocks: no
-   ancestor here has a definite height (the modal is max-height, not height),
-   so `1fr` rows plus `height: 100%` items resolve against each other and
-   collapse to nothing.
+.collection-sheet .streak-count {
+    font-size: 1.4rem;
+    font-weight: var(--font-weight-bold);
+    line-height: 1;
+    color: #191510;
+}
 
-   Fixed column tracks rather than 1fr, centred, which is also what closes the
-   dead space either side. The 3/4 split mirrors getCompactColumns(). */
+.collection-sheet .streak-label {
+    font-size: 0.8rem;
+    font-weight: var(--font-weight-semibold);
+    text-transform: lowercase;
+    letter-spacing: 0.05em;
+    color: #5c4726;
+}
+
+.collection-sheet .streak-summary {
+    font-size: 0.75rem;
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: 0.04em;
+    color: #5c4726;
+}
+
+/* ---- Specimen Grid ---------------------------------------------- */
+.collection-sheet .inventory-grid {
+    --tile-max: 104px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(3, minmax(0, var(--tile-max)));
+    gap: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    background: transparent;
+}
+
+/* Modal caps tile height to viewport so 2 rows + detail + pager fit without scrolling */
 #stats-modal .inventory-grid {
     --tile-max: min(104px, 11vh);
     flex: 0 0 auto;
     overflow: visible;
-    justify-content: center;
-    align-content: center;
-    grid-template-columns: repeat(3, minmax(0, var(--tile-max))) !important;
-    gap: 0.4rem !important;
-    padding: 0.25rem 0.5rem !important;
+    gap: 0.4rem;
 }
 
 @media (min-width: 500px) {
-    #stats-modal .inventory-grid {
-        grid-template-columns: repeat(4, minmax(0, var(--tile-max))) !important;
+    .collection-sheet .inventory-grid {
+        grid-template-columns: repeat(4, minmax(0, var(--tile-max)));
     }
 }
 
-#stats-modal .inventory-item {
+/* ---- Tiles: debossed wells in the paper ------------------------- */
+.collection-sheet .inventory-item {
     aspect-ratio: 1;
     width: 100%;
     height: auto;
     max-width: var(--tile-max);
-}
-
-/* Trim the chrome around the grid — this modal was mostly air */
-#stats-modal .streak-section {
-    padding: 0.125rem 0 0.5rem;
-    margin-bottom: 0 !important;
-}
-
-#stats-modal .modal-content {
-    padding: 0.5rem 0.75rem 0.75rem;
-}
-
-/* ---- Streak: stays its own row, unchanged in structure ---------- */
-
-#stats-modal .streak-section {
-    padding: 0.25rem 0 0.8rem;
-}
-
-#stats-modal .streak-count {
-    color: #191510;
-}
-
-#stats-modal .streak-label {
-    color: #7a6242;
-}
-
-/* ---- Tiles: debossed wells in the paper ------------------------- */
-
-#stats-modal .inventory-item {
-    aspect-ratio: 1;
+    padding: 0;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgba(90, 66, 30, 0.22);
+    border: 1px solid rgba(90, 66, 30, 0.24);
     border-radius: 2px;
     background: #f4e6cc;
-    /* The well: light bites the top edge, shadow gathers at the bottom */
     box-shadow: inset 0 1px 2px rgba(120, 95, 55, 0.22);
     cursor: pointer;
     transition:
@@ -188,79 +212,87 @@
         transform 0.16s ease-out;
 }
 
-#stats-modal .inventory-item:hover:not(.empty) {
+.collection-sheet .inventory-item:hover:not(.empty) {
     background: #f7ecd7;
+    filter: none;
+    transform: translateY(-1px);
 }
 
-/* Selected: ring + elevation + background together. A 1px colour change
-   alone is nearly invisible at 100px tiles. */
-#stats-modal .inventory-item.selected {
+.collection-sheet .inventory-item:focus-visible {
+    outline: 2px solid #8a6a1e;
+    outline-offset: 2px;
+}
+
+.collection-sheet .inventory-item.selected {
     border-color: #8a6a1e;
     background: #efe0bf;
     box-shadow:
         inset 0 1px 2px rgba(120, 95, 55, 0.28),
-        0 0 0 2px rgba(212, 175, 55, 0.5);
+        0 0 0 2px rgba(212, 175, 55, 0.55);
     transform: translateY(-1px);
 }
 
-/* Empty reads as "not yet", not as a failed tile: a deeper, flatter well
-   with a faint centre dot rather than an empty bordered box. */
-#stats-modal .inventory-item.empty {
+.collection-sheet .inventory-item.selected .inventory-item-svg {
+    animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), wiggle 2s ease-in-out 0.5s infinite;
+    filter: drop-shadow(0 2px 3px rgba(80, 58, 24, 0.4));
+}
+
+@keyframes wiggle {
+    0%, 100% { transform: rotate(0deg); }
+    15% { transform: rotate(4deg); }
+    30% { transform: rotate(-4deg); }
+    45% { transform: rotate(2deg); }
+    60% { transform: rotate(-2deg); }
+    75% { transform: rotate(0deg); }
+}
+
+.collection-sheet .inventory-item.empty {
     background: #f0e2c6;
     border-color: rgba(90, 66, 30, 0.12);
     box-shadow: inset 0 1px 3px rgba(120, 95, 55, 0.30);
     cursor: default;
 }
 
-#stats-modal .inventory-item.empty::after {
+.collection-sheet .inventory-item.empty::after {
     content: '·';
     font-family: var(--font-mono);
     font-size: 0.95rem;
-    color: rgba(90, 66, 30, 0.30);
+    color: rgba(90, 66, 30, 0.32);
 }
 
-/* The specimen is the point of the tile — 58% left a lot of empty well
-   around it, which reads as padding rather than mounting. */
-#stats-modal .inventory-item-svg {
+.collection-sheet .inventory-item-svg {
     width: 82%;
     height: 82%;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    /* Mounted specimen: a touch of shadow so the badge sits IN the well */
     filter: drop-shadow(0 1px 1px rgba(80, 58, 24, 0.35));
 }
 
-/* ---- Detail card: fixed slot, replaces the injected tooltip ----- */
-
-/* Fixed height, not min-height. The empty prompt is one line and a selected
-   entry is two, and because the grid above is flex:1 it absorbed every one of
-   those changes — which is why picking a tile relaid out the whole
-   collection. At a fixed height nothing above it can move. */
-#stats-modal .inventory-detail {
-    margin: 0.625rem 0.875rem 0;
+/* ---- Detail card: fixed height slot ----------------------------- */
+.collection-sheet .inventory-detail {
+    margin: 0.75rem 0.5rem 0;
     padding: 0.5rem 0.75rem;
     border: 1px dashed rgba(90, 66, 30, 0.35);
-    border-radius: 3px;
+    border-radius: var(--radius-sm);
     background: rgba(212, 175, 55, 0.12);
     box-sizing: border-box;
-    height: 3.25rem;
+    height: 3.35rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
 }
 
-/* Long pack names truncate rather than wrapping into a third line */
-#stats-modal .inventory-detail-name,
-#stats-modal .inventory-detail-meta,
-#stats-modal .inventory-detail-empty {
+.collection-sheet .inventory-detail-name,
+.collection-sheet .inventory-detail-meta,
+.collection-sheet .inventory-detail-empty {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-#stats-modal .inventory-detail-name {
+.collection-sheet .inventory-detail-name {
     font-family: var(--font-mono);
     font-size: 0.8rem;
     font-weight: var(--font-weight-bold);
@@ -268,75 +300,88 @@
     color: #191510;
 }
 
-#stats-modal .inventory-detail-meta {
-    margin-top: 0.25rem;
+.collection-sheet .inventory-detail-meta {
+    margin-top: 0.2rem;
     font-family: var(--font-mono);
-    font-size: 0.7rem;
+    font-size: 0.72rem;
     letter-spacing: 0.06em;
-    color: #7a6242;
+    color: #5c4726;
 }
 
-#stats-modal .inventory-detail-empty {
+.collection-sheet .inventory-detail-empty {
     font-family: var(--font-mono);
-    font-size: 0.7rem;
-    letter-spacing: 0.06em;
-    color: #9a8259;
+    font-size: 0.72rem;
+    letter-spacing: 0.05em;
+    color: #6b5431;
 }
 
-/* ---- Paging ----------------------------------------------------- */
-
-/* No rule here: the detail card directly above already carries a dashed
-   outline, and a second dashed line stacked under it read as a stray
-   horizontal rule floating in the sheet. */
-#stats-modal .inventory-pagination {
-    border-top: none;
-    padding: 0.625rem 0.875rem;
+/* ---- Pagination ------------------------------------------------- */
+.collection-sheet .inventory-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.625rem 0.5rem 0.25rem;
+    white-space: nowrap;
 }
 
-/* reddit-overrides.css paints these with --pack-primary !important, which was
-   written for the old dark modal. On the paper sheet that is gold-on-cream —
-   the Harry Potter theme rendered them essentially invisible. Dark ink on a
-   warm tint instead; !important plus the id out-specifies that rule. */
-#stats-modal .inventory-page-btn {
+.collection-sheet .inventory-page-btn {
     min-height: 38px;
+    flex: 1;
+    min-width: 0;
+    max-width: none;
     padding: 0 0.875rem;
     border: 1px solid rgba(90, 66, 30, 0.45) !important;
-    border-radius: 3px;
+    border-radius: var(--radius-sm);
     background: rgba(150, 112, 40, 0.18) !important;
     font-family: var(--font-mono);
-    font-size: 0.7rem;
+    font-size: 0.72rem;
     font-weight: var(--font-weight-bold);
     letter-spacing: 0.1em;
     color: #3b2e14 !important;
     cursor: pointer;
 }
 
-#stats-modal .inventory-page-btn:not(:disabled):hover {
+.collection-sheet .inventory-page-btn:not(:disabled):hover {
     background: rgba(150, 112, 40, 0.3) !important;
+    filter: none;
+    transform: none;
 }
 
-/* Disabled still has to read as a label, not a smudge */
-#stats-modal .inventory-page-btn:disabled {
+.collection-sheet .inventory-page-btn:disabled {
     opacity: 1;
-    color: rgba(59, 46, 20, 0.4) !important;
+    color: rgba(59, 46, 20, 0.42) !important;
     background: rgba(150, 112, 40, 0.07) !important;
     border-color: rgba(90, 66, 30, 0.2) !important;
     cursor: default;
 }
 
-#stats-modal .inventory-page-indicator {
-    color: #5c4726 !important;
+.collection-sheet .inventory-page-indicator {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 0.12em;
+    color: #5c4726;
+    min-width: 4ch;
+    text-align: center;
 }
 
-#stats-modal .inventory-page-indicator {
-    font-family: var(--font-mono);
-    font-size: 0.7rem;
-    letter-spacing: 0.12em;
-    color: #7a6242;
+@media (max-width: 600px) {
+    .stats-page {
+        padding: 0.75rem 0.625rem 2rem;
+    }
+
+    .collection-sheet-header {
+        padding: 0.75rem 1rem;
+    }
+
+    .collection-sheet-body {
+        padding: 0.5rem 0.625rem 1rem;
+    }
 }
 
 @media (prefers-reduced-motion: reduce) {
-    #stats-modal .inventory-item {
+    .collection-sheet .inventory-item {
         transition: none;
     }
 }

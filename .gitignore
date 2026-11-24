@@ -55,8 +55,9 @@ scriptlegame/dist/
 scriptlegame/node_modules/
 scriptlegame/loading-overlay-*.png
 
-# Temporary debug screenshots
+# Temporary debug screenshots & bundles
 *.png
+*.zip
 !favicon.png
 !public/**/*.png
 !tests/__screenshots__/**/*.png

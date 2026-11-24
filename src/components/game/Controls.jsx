@@ -8,10 +8,12 @@ import {
     showMessage
 } from '../../services/game-state.js';
 import { track } from '../../utils/analytics.js';
+import { getMediaLabels } from '../../utils/mediaLabels.js';
 import { TutorialTip } from '../common/Tooltip.jsx';
 import { ScriptSelect } from '../common/ScriptSelect.jsx';
 
 export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, onCharSelect, onGuessSubmit, onDiceClick, tutorialProps }) {
+    const labels = getMediaLabels(pack?.mediaType);
     // Local form state
     const [selectedMovie, setSelectedMovie] = useState('');
     const [selectedChar, setSelectedChar] = useState('');
@@ -240,7 +242,7 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
 
         // UI Feedback logic
         if (isMovieCorrect && !isCharCorrect) {
-            showMessage('Movie is correct!', 'success');
+            showMessage(labels.correctMsg, 'success');
             triggerShake();
         } else if (!isMovieCorrect && isCharCorrect) {
             showMessage('Character is correct!', 'success');
@@ -291,7 +293,7 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
                         onOpenMovies();
                     }}
                 >
-                    VIEW MOVIES
+                    {labels.viewLink}
                 </a>
                 )
             </div>
@@ -301,12 +303,12 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
                 <div className="selector-with-tip">
                     {tutorialProps && tutorialProps.tutorialStep === tutorialProps.TUTORIAL_STEPS.MOVIE_SELECT && (
                         <TutorialTip show={true} onClose={tutorialProps.onDismissTip}>
-                            Choose the movie the line is from. Don't be afraid to guess!
+                            {labels.tutorialTip}
                         </TutorialTip>
                     )}
                     <ScriptSelect
                         id="movie-select"
-                        label="Which Film?"
+                        label={labels.selectPrompt}
                         value={selectedMovie}
                         options={movieOptions}
                         onChange={handleMovieChange}
@@ -342,7 +344,7 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
 
             {tutorialProps && tutorialProps.tutorialStep === tutorialProps.TUTORIAL_STEPS.GUESS_BUTTON && (
                 <TutorialTip show={true} onClose={tutorialProps.onDismissTip}>
-                    Now submit your guess. If you get the movie or character right, it's locked in!
+                    {labels.guessTip}
                 </TutorialTip>
             )}
 
@@ -385,7 +387,7 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
                     <div className="footer-attempts" data-testid="attempts-counter">
                         <span id="attempt-count">{currentAttempt.value}</span>/5 Attempts
                     </div>
-                    <a href="/" data-link className="footer-more-movies">More Movies</a>
+                    <a href="/" data-link className="footer-more-movies">{labels.moreLink}</a>
                 </div>
             </div>
 

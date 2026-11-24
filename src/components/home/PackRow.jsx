@@ -1,9 +1,14 @@
 import { generateFlower, generateBeetle, stringToSeed } from '../../utils/flowerGenerator.js';
+import { getMediaLabels } from '../../utils/mediaLabels.js';
 
 export function PackRow({ pack, theme, completion }) {
-    // Badge Logic
+    const isCompleted = Boolean(completion?.completed);
+    const labels = getMediaLabels(pack?.mediaType);
+
     const renderBadge = () => {
-        if (!completion || !completion.completed) return null;
+        if (!isCompleted) {
+            return <span className="pack-row-chevron" aria-hidden="true">&rsaquo;</span>;
+        }
 
         const badgeSeed = stringToSeed(pack.id + completion.date);
         const cardColor = theme?.cardGradientStart || '#cccccc';
@@ -20,27 +25,28 @@ export function PackRow({ pack, theme, completion }) {
                         className="pack-row-badge"
                         data-testid="pack-badge"
                         style={{ backgroundImage: `url('${flowerSvg}')`, animationDelay }}
-                    ></div>
+                    />
                 </div>
             );
-        } else {
-            const beetleSvg = generateBeetle(badgeSeed, cardColor);
-            return (
+        }
+
+        const beetleSvg = generateBeetle(badgeSeed, cardColor);
+        return (
+            <div className="pack-row-badge-wrapper">
                 <div
                     className="pack-row-badge beetle-badge"
                     data-testid="pack-badge"
                     style={{ backgroundImage: `url('${beetleSvg}')`, animationDelay }}
-                ></div>
-            );
-        }
+                />
+            </div>
+        );
     };
-
 
     const style = theme ? {
         '--pack-card-gradient-start': theme.cardGradientStart,
         '--pack-card-gradient-end': theme.cardGradientEnd,
         '--pack-card-border': theme.cardBorder,
-        '--pack-card-text': theme.cardText || theme.primary
+        '--pack-card-text': theme.cardText || theme.primary,
     } : {};
 
     return (
@@ -49,13 +55,15 @@ export function PackRow({ pack, theme, completion }) {
             data-link
             data-theme="pack"
             data-testid="pack-row"
-            className="pack-row"
+            className={`pack-row${isCompleted ? ' is-completed' : ''}`}
             data-pack-id={pack.id}
             style={style}
         >
             <div className="pack-row-content">
                 <span className="pack-row-name" data-testid="pack-name">{pack.name}</span>
-                <span className="pack-row-count" data-testid="pack-count">{pack.movieCount} movies</span>
+                <span className="pack-row-count" data-testid="pack-count">
+                    {pack.movieCount} {pack.movieCount === 1 ? labels.singular : labels.plural}
+                </span>
             </div>
             {renderBadge()}
         </a>

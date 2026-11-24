@@ -1,6 +1,6 @@
 import { useEffect } from 'preact/hooks';
 
-export function Modal({ isOpen, onClose, title, children, theme = "main", className = "", id }) {
+export function Modal({ isOpen, onClose, title, children, theme = "main", className = "", containerClassName = "", id }) {
     if (!isOpen) return null;
 
     // Close on Escape
@@ -20,7 +20,7 @@ export function Modal({ isOpen, onClose, title, children, theme = "main", classN
             style={{ display: 'flex' }}
             onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}
         >
-            <div className="modal-container">
+            <div className={`modal-container ${containerClassName}`.trim()}>
                 <div className="modal-header">
                     <h2 className="modal-title">{title}</h2>
                     <button

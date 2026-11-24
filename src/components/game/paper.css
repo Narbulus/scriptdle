@@ -6,18 +6,14 @@
    ======================================== */
 
 /* ---- 1. The page is an object, not a background ----------------
-   8px of desk on each side (~96% width, so reading room is intact),
-   a real cast shadow, and the dark board showing behind it.
-
-   The handoff wrote this against `.script-container`, which this repo
-   does not have — `.script-area` is the equivalent element: it carries
-   --script-bg, it does not scroll (the scroll port is nested inside),
-   and it is where `foxed` goes. Texture comes from styles/foxing.css;
-   the edge darkening below is foxing's inset shadow, restated here so
-   the cast shadow can be added without clobbering it. */
+   Centered screenplay page on wide screens with at least 8px of pack-colored
+   desk on each side on narrow viewports, a real cast shadow, and foxing
+   edge darkening preserved without clobbering. */
 
 .script-area.foxed {
-    margin: 0 8px;
+    width: calc(100% - 16px);
+    max-width: 780px;
+    margin: 0 auto;
     border-radius: 2px;
     background-color: var(--script-bg, #f0e2c4);
     box-shadow:
@@ -44,7 +40,7 @@
     text-shadow: 0 0 0.6px rgba(74, 44, 12, 0.35);
 }
 
-/* ---- 3. Blur reveal, replacing the block masks ------------------
+/* ---- 2. Blur reveal, replacing the block masks ------------------
    The real text is already in the DOM (ScriptLine keeps it there),
    so blurring it instead of covering it costs nothing and leaks
    exactly the useful information: that a scene continues, and
@@ -53,10 +49,9 @@
    Two tiers so the ladder has a horizon rather than a wall:
    the next line to be revealed is legibly close, everything past
    it recedes. Tier is set from the line's distance in ScriptDisplay
-   (see handoff note) via --blur-tier; default is the far tier. */
+   via --blur-tier; default is the far tier. */
 
 .text-reveal[data-state="hidden"] {
-    /* override game.css's solid mask */
     background-color: transparent;
     user-select: none;
 }
@@ -77,7 +72,7 @@
 }
 
 /* Revealing + revealed: same transition, so the blur eases off
-   rather than snapping. Replaces the disabled wipe animation. */
+   rather than snapping. */
 .text-reveal[data-state="wiping"] .text-content,
 .text-reveal[data-state="revealed"] .text-content {
     color: var(--text-color, #17130d);
@@ -100,10 +95,9 @@
     }
 }
 
-/* ---- 4. Brass, not a gold swatch --------------------------------
-   One flat --primary-color on every surface is the main reason the
-   chrome reads flat. A lighter top edge and darker bottom edge give
-   the same hue an implied light source. */
+/* ---- 3. Brass, not a flat swatch --------------------------------
+   A lighter top edge and darker bottom edge give the pack primary
+   an implied light source. */
 
 #guess-btn,
 .dice-button {
@@ -124,23 +118,4 @@
         inset 0 2px 4px rgba(90, 60, 0, 0.4),
         0 1px 2px rgba(0, 0, 0, 0.3);
     transform: translateY(1px);
-}
-
-/* Guess button fills the row beside the dice instead of floating
-   centred with dead space either side. The handoff targeted
-   `.footer-actions`, but that is the column wrapper here — the row
-   holding the guess button and the dice is `.button-row`. */
-.footer-actions {
-    width: 100%;
-    max-width: 600px;
-}
-
-.button-row {
-    display: flex;
-    width: 100%;
-}
-
-.button-row #guess-btn {
-    flex: 1;
-    max-width: none;
 }

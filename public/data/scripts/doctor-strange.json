@@ -1,2465 +1,3579 @@
 {
   "id": "doctor-strange",
   "title": "Doctor Strange",
-  "year": null,
+  "year": 2016,
   "characters": [
+    "BASKETBALL PLAYER",
     "BILLY",
-    "CHRISTINE PALMER",
-    "DOCTOR",
-    "DOCTOR ONE",
-    "DOCTOR THAT IS HELPING STEPHEN",
-    "DOCTOR TWO",
+    "DOCTOR STRANGE",
     "DORMAMMU",
-    "DR. STEPHEN STRANGE",
-    "DR. WEST",
-    "ETIENNE",
+    "DR. CHRISTINE PALMER",
+    "DR. ETIENNE ROUSSELOT",
+    "DR. NICODEMUS WEST",
+    "JONATHAN PANGBORN",
     "KAECILIUS",
-    "MAN 1",
-    "MAN 2",
-    "MASTER",
     "MORDO",
-    "PANGBORN",
     "THE ANCIENT ONE",
     "THOR",
-    "WONG",
-    "YOUNG DOCTOR"
+    "WONG"
   ],
   "lines": [
     {
-      "character": "THE ANCIENT ONE",
-      "text": "Master Kaecilius. That ritual will bring you only sorrow"
+      "character": "DOCTOR STRANGE",
+      "text": "Challenge round, Billy.",
+      "scene": 0
     },
     {
-      "character": "KAECILIUS",
-      "text": "Hypocrite!"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Challenge round, Billy."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Oh, come on, Billy. You’ve got to be messing with me."
+      "character": "DOCTOR STRANGE",
+      "text": "Oh, come on, Billy, you've got to be messing with me.",
+      "scene": 0
     },
     {
       "character": "BILLY",
-      "text": "Heheh. No, doctor."
+      "text": "No, doctor.",
+      "scene": 0
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Feels So Good, Chuck Mangione, 1977. Seriously, Billy, you said this one would be hard."
-    },
-    {
-      "character": "BILLY",
-      "text": "Hah! It’s 1978."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No, Billy, while Feels So Good may have charted in 1978, the album was released in December, 1977."
+      "character": "DOCTOR STRANGE",
+      "text": "Feels So Good, Chuck Mangione, 1977. Honestly, Billy, you said this one would be hard.",
+      "scene": 0
     },
     {
       "character": "BILLY",
-      "text": "No, no. Wikipedia says the…"
+      "text": "Ha! It's 1978.",
+      "scene": 0
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Check again."
-    },
-    {
-      "character": "BILLY",
-      "text": "When did you…?"
-    },
-    {
-      "character": "DOCTOR THAT IS HELPING STEPHEN",
-      "text": "Where do you store all this useless information?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Useless? The man charted a top ten hit with a Flugelhorn. Status, Billy?"
+      "character": "DOCTOR STRANGE",
+      "text": "No, Billy. While Feels So Good may have charted in 1978... the album was released in December of 1977.",
+      "scene": 0
     },
     {
       "character": "BILLY",
-      "text": "1977."
+      "text": "No. Wikipedia says it's a nineteen...",
+      "scene": 0
     },
     {
-      "character": "DOCTOR THAT IS HELPING STEPHEN",
-      "text": "Oh! Please. I hate you."
+      "character": "DOCTOR STRANGE",
+      "text": "Check again.",
+      "scene": 0
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Woah! \"Feels so good\", doesn’t it?"
+      "character": "NURSE",
+      "text": "Where do you store all this useless information?",
+      "scene": 0
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Oh, I…"
-    },
-    {
-      "character": "DOCTOR THAT IS HELPING STEPHEN",
-      "text": "I’ve got this, Stephen. You’ve done your bit. Go ahead, we’ll close up."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "What is that?"
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "GSW."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "It’s amazing you kept him alive. Apneic, further brain stem testing after reflex test… I think I found the problem, Dr. Palmer. You left a bullet in his head."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Thanks. It’s impinging on the medulla. I needed a specialist to diagnose brain death. Something about that doesn’t feel right to me."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "We have to run."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Dr. West! What are you doing? Hey!"
-    },
-    {
-      "character": "DR. WEST",
-      "text": "Organ harvesting. He’s a donor."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Slow down. I did not agree to that."
-    },
-    {
-      "character": "DR. WEST",
-      "text": "I don’t need you to. We’ve already called brain death."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Prematurely. We need to get him prepped for a suboccipital craniotomy."
-    },
-    {
-      "character": "DR. WEST",
-      "text": "I’m not going to let you operate on a dead man."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "What do you see?"
-    },
-    {
-      "character": "DR. WEST",
-      "text": "A bullet?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "A perfect bullet. It’s been hardened. You harden a bullet by alloying lead with antimony. A toxic metal. And it's leaking directly into the cerebral spinal fluid."
-    },
-    {
-      "character": "DR. WEST",
-      "text": "Rapid-onset central nervous system shutdown."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "We need to go."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "The patient’s not dead, but he’s dying. Do you still want to harvest his organs?"
-    },
-    {
-      "character": "DR. WEST",
-      "text": "I’ll assist you."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No! Dr. Palmer will assist me."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Thank you."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Image status, STAT."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "We do not have time for that."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "You can’t do it freehand."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I can and I will."
-    },
-    {
-      "character": "DR. WEST",
-      "text": "This isn’t the time for showing off, Strange."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "How about 10 minutes ago, when you called the wrong time of death?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Cranial nerves intact."
-    },
-    {
-      "character": "DR. WEST",
-      "text": "Dr. West, cover your watch."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "You know, you didn’t have to humiliate him in front of everyone."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I didn’t have to save his patient either."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "But, you know, sometimes I just can’t help myself."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Nick is a great doctor."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "You came to me."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Yeah, well, I needed a second opinion."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "You had a second opinion. What you needed was a competent one."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Well, all the more reason you should be my neurosurgeon on call. You could make such a difference."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I can’t work in your butcher shop."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Hey! Look, he…"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Look, I’m fusing transected spinal cords. I'm stimulating neurogenesis in the central nervous system. The work I'm doing is gonna save thousands for years to come. In ER, you get to save one drunk idiot with a gun."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Yeah, you’re right. In the ER, you’re only saving lives. There’s no fame, there’s no CNN interviews… Well, I guess I’ll have to stick with Nick."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Wait a minute. You’re not…you guys aren’t…"
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "What?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Sleeping together. Sorry, I thought that was implicit in my disgust."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Explicit, actually. And no, I have a very strict rule against dating colleagues."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Oh really?"
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "I call it the Strange policy."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Oh, good! I’m glad something is named after me. You know, I invented a laminectomy procedure, and yet, somehow, no one seems to want to call it the Strange technique."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "We invented that technique."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "You know, I gotta say, I’m very flattered by your policy. Look, I’m talking tonight at a Neurological Society dinner. Come with me."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Another speaking engagement? So romantic."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "You used to love going to those things with me. We had fun together."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "No. You had fun. They weren’t about us, they were about you."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Not only about me."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Stephen. Everything is about you."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Maybe we can hyphenate. Strange-Palmer technique."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Palmer-Strange."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Billy! What have you got for me?"
+      "character": "DOCTOR STRANGE",
+      "text": "Useless? The man charted a top 10 hit with a flugelhorn. Status, Billy?",
+      "scene": 0
     },
     {
       "character": "BILLY",
-      "text": "I’ve got a 35-year-old Air Force colonel. Crushed his lower spine in some kind of experimental armor. Mid-thoracic vertebral fracture."
+      "text": "1977.",
+      "scene": 0
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Well, I could help, but so can 50 other people. Find me something worth my time."
-    },
-    {
-      "character": "BILLY",
-      "text": "I have a 68-year-old female with an advanced brain stem glioma."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Yeah, you want me to screw up my perfect record? Definitely not."
+      "character": "NURSE",
+      "text": "Oh, please.",
+      "scene": 0
     },
     {
       "character": "BILLY",
-      "text": "How about a 22-year-old female with an electronic implant in her brain to control schizophrenia struck by lightning?"
+      "text": "I hate you.",
+      "scene": 0
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "That does sound interesting. Could you send me the… got it. Hey."
+      "character": "DOCTOR STRANGE",
+      "text": "Oh! Feels so good, doesn't it?",
+      "scene": 0
     },
     {
-      "character": "CHRISTINE PALMER",
-      "text": "It’s okay. It’s going to be okay."
+      "character": "NURSE",
+      "text": "Oh, I got this, Stephen. You've done your bit. Go ahead. We'll close up.",
+      "scene": 0
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "What did they do?"
+      "character": "DOCTOR STRANGE",
+      "text": "What is it?",
+      "scene": 0
     },
     {
-      "character": "CHRISTINE PALMER",
-      "text": "They rushed you in a chopper. But it took a little while to find you. Golden hours for nerve damage went by while you were in the car."
+      "character": "DR. CHRISTINE PALMER",
+      "text": "GSW.",
+      "scene": 0
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "What did they do?!?"
+      "character": "DOCTOR STRANGE",
+      "text": "It's amazing you kept him alive. Apneic, failed the brain stem test... and the apnea reflex test. I think I found the problem, Doctor Palmer. You left a bullet in his head.",
+      "scene": 0
     },
     {
-      "character": "CHRISTINE PALMER",
-      "text": "11 stainless steel pins in the bones. Multiple torn ligaments. Severe nerve damage in both hands. You were on the table for 11 hours."
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Thanks. It's impinging on the medulla. I needed a specialist. Nic diagnosed brain death. Something about that doesn't feel right to me.",
+      "scene": 0
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Look at these fixators."
+      "character": "DOCTOR STRANGE",
+      "text": "We have to run.",
+      "scene": 0
     },
     {
-      "character": "CHRISTINE PALMER",
-      "text": "No one could have done better."
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Doctor West. What are you doing? Hey.",
+      "scene": 0
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I could have done better."
+      "character": "DR. NICODEMUS WEST",
+      "text": "Organ harvest. He's a donor.",
+      "scene": 0
     },
     {
-      "character": "CHRISTINE PALMER",
-      "text": "No. No."
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Slow down. I did not agree to that.",
+      "scene": 0
     },
     {
-      "character": "DOCTOR",
-      "text": "Give your body time to heal."
+      "character": "DR. NICODEMUS WEST",
+      "text": "I don't need you to. We've already called brain death.",
+      "scene": 0
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "You ruined me. How long until I’m…"
+      "character": "DOCTOR STRANGE",
+      "text": "Prematurely. We need to get him prepped for sub-occipital craniotomy.",
+      "scene": 0
     },
     {
-      "character": "DOCTOR ONE",
-      "text": "Doctor Strange… those tissues are still healing."
+      "character": "DR. NICODEMUS WEST",
+      "text": "Not gonna let you operate on a dead man.",
+      "scene": 0
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "So speed it up. Pass the stent under the brachial artery under the radial artery."
+      "character": "DOCTOR STRANGE",
+      "text": "What do you see?",
+      "scene": 0
     },
     {
-      "character": "DOCTOR TWO",
-      "text": "It’s possible. Experimental and expensive, but possible."
+      "character": "DR. NICODEMUS WEST",
+      "text": "A bullet?",
+      "scene": 0
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "All I need is possible."
+      "character": "DOCTOR STRANGE",
+      "text": "A perfect bullet. It's been hardened. You harden a bullet by alloying lead with antimony. A toxic metal. And that's leeched directly into the cerebral spinal fluid.",
+      "scene": 0
     },
     {
-      "character": "YOUNG DOCTOR",
-      "text": "Up. Up. Show me your strength."
+      "character": "DR. NICODEMUS WEST",
+      "text": "Rapid onset central nervous system shutdown.",
+      "scene": 0
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Ah! It’s useless."
+      "character": "DR. CHRISTINE PALMER",
+      "text": "We gotta go.",
+      "scene": 0
     },
     {
-      "character": "YOUNG DOCTOR",
-      "text": "It’s not useless, man, you can do this."
+      "character": "DOCTOR STRANGE",
+      "text": "The patient's not dead, but he is dying. Still want to harvest his organs?",
+      "scene": 0
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Then answer me this, bachelor’s degree. Have you ever known anyone with nerve damage this severe to do this, and actually recover?"
+      "character": "DR. NICODEMUS WEST",
+      "text": "I'll assist you.",
+      "scene": 0
     },
     {
-      "character": "YOUNG DOCTOR",
-      "text": "One guy, yeah. Factory accident, broke his back. Paralyzed. His leg wasted away. He had pain in his shoulder from the wheelchair. He came in 3 times a week. But one day he stopped coming. I thought he was dead. A few years later, he walked past me on the street."
+      "character": "DOCTOR STRANGE",
+      "text": "No. Doctor Palmer will assist me.",
+      "scene": 0
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "He walked?"
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Thank you.",
+      "scene": 1
     },
     {
-      "character": "YOUNG DOCTOR",
-      "text": "Yeah, he walked."
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Image guidance, stat.",
+      "scene": 1
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Bullshit. Show me his file."
+      "character": "DOCTOR STRANGE",
+      "text": "We don't have time for that.",
+      "scene": 1
     },
     {
-      "character": "YOUNG DOCTOR",
-      "text": "It can take me a while to pull the files from the archive. But if it proves your arrogant ass wrong, it’s worth it."
+      "character": "DR. CHRISTINE PALMER",
+      "text": "You can't do it freehand.",
+      "scene": 1
     },
     {
-      "character": "ETIENNE",
-      "text": "I looked at all your research. I read all the papers you’ve sent, but… none will work. I… I don’t think you realize how severe the damage is, I…"
+      "character": "DOCTOR STRANGE",
+      "text": "I can and I will.",
+      "scene": 1
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Look, here’s the thing, I…"
+      "character": "DR. NICODEMUS WEST",
+      "text": "This isn't a time for showing off, Strange.",
+      "scene": 1
     },
     {
-      "character": "ETIENNE",
-      "text": "At best, I’d try and fail. Look, I understand. Here’s the thing. I… What you want from me is impossible, Stephen."
+      "character": "DOCTOR STRANGE",
+      "text": "How about 10 minutes ago when you called the wrong time of death?",
+      "scene": 1
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Come on…"
+      "character": "DOCTOR STRANGE",
+      "text": "Cranial nerves intact.",
+      "scene": 1
     },
     {
-      "character": "ETIENNE",
-      "text": "I’ve got my own reputation to consider."
+      "character": "DR. CHRISTINE PALMER",
+      "text": "You know, you didn't have to humiliate him in front of everyone.",
+      "scene": 2
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Etienne, wait."
+      "character": "DOCTOR STRANGE",
+      "text": "I didn't have to save his patient, either. But I sometimes just can't help myself.",
+      "scene": 2
     },
     {
-      "character": "ETIENNE",
-      "text": "I can’t help you…"
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Nic is a great doctor.",
+      "scene": 2
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No. No, no, wait!"
+      "character": "DOCTOR STRANGE",
+      "text": "You came to me.",
+      "scene": 2
     },
     {
-      "character": "CHRISTINE PALMER",
-      "text": "Hi."
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Yeah, well, I needed a second opinion.",
+      "scene": 2
     },
     {
-      "character": "CHRISTINE PALMER",
-      "text": "He won’t do it."
+      "character": "DOCTOR STRANGE",
+      "text": "You had a second opinion. What you needed was a competent one.",
+      "scene": 2
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "He’s a hack. There’s a new procedure in Tokyo. They culture donor stem cells and then harvest them and 3D-print a scaffold. If I could get a loan together, just…"
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Well, all the more reason why you should be my neurosurgeon on call. You could make such a difference.",
+      "scene": 2
     },
     {
-      "character": "CHRISTINE PALMER",
-      "text": "Stephen…"
+      "character": "DOCTOR STRANGE",
+      "text": "I can't work in your butcher shop.",
+      "scene": 2
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "A small loan, 200,000."
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Hey!",
+      "scene": 2
     },
     {
-      "character": "CHRISTINE PALMER",
-      "text": "Stephen. You’ve always spent money as fast as you could make it but now you’re spending money you don’t even have. Maybe it’s time to consider stopping."
+      "character": "DOCTOR STRANGE",
+      "text": "I'm fusing transected spinal cords. I'm stimulating neurogenesis in the central nervous system. The work I'm doing is gonna save thousands for years to come. In ER, you get to save one drunk idiot with a gun.",
+      "scene": 2
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No. Now is exactly the time not to stop. Because, you see, I’m not getting any better!"
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Yeah, you're right. In ER, we're only saving lives. There's no fame, there's no, uh, CNN interviews. I guess I'll just have to stick with Nic.",
+      "scene": 2
     },
     {
-      "character": "CHRISTINE PALMER",
-      "text": "But this isn’t medicine anymore. This is mani"
+      "character": "DOCTOR STRANGE",
+      "text": "Whoa, wait a minute. You're not... You guys aren't...",
+      "scene": 2
     },
     {
-      "character": "CHRISTINE PALMER",
-      "text": "Stephen…"
+      "character": "DR. CHRISTINE PALMER",
+      "text": "What?",
+      "scene": 2
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "A small loan, 200,000."
+      "character": "DOCTOR STRANGE",
+      "text": "Sleeping together? Sorry, I thought that was implicit in my disgust.",
+      "scene": 2
     },
     {
-      "character": "CHRISTINE PALMER",
-      "text": "Stephen. You’ve always spent money as fast as you could make it but now you’re spending money you don’t even have. Maybe it’s time to consider stopping."
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Explicit, actually. No, I have a very strict rule against dating colleagues.",
+      "scene": 2
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No. Now is exactly the time not to stop. Because, you see, I’m not getting any better!"
+      "character": "DOCTOR STRANGE",
+      "text": "Oh, really?",
+      "scene": 2
     },
     {
-      "character": "CHRISTINE PALMER",
-      "text": "But this isn’t medicine anymore. This is mania. Some things just can’t be fixed."
+      "character": "DR. CHRISTINE PALMER",
+      "text": "I call it the \"Strange Policy.\"",
+      "scene": 2
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Life without my work…"
+      "character": "DOCTOR STRANGE",
+      "text": "Oh, well, good, I'm glad something's named after me. I invented a laminectomy procedure. And yet, somehow no one seems to want to call it the \"Strange Technique.\"",
+      "scene": 2
     },
     {
-      "character": "CHRISTINE PALMER",
-      "text": "Is still life. This isn’t the end. There are other things that can give your life meaning."
+      "character": "DR. CHRISTINE PALMER",
+      "text": "We invented that technique.",
+      "scene": 2
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Like what? Like you?"
+      "character": "DOCTOR STRANGE",
+      "text": "Regardless, I'm very flattered by your policy.",
+      "scene": 2
     },
     {
-      "character": "CHRISTINE PALMER",
-      "text": "And this is the part where you apologize."
+      "character": "DOCTOR STRANGE",
+      "text": "I'm talking tonight at a Neurological Society dinner. Come with me.",
+      "scene": 2
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "This is the part where you leave."
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Another speaking engagement? So romantic.",
+      "scene": 2
     },
     {
-      "character": "CHRISTINE PALMER",
-      "text": "Fine. I can’t watch you do this to yourself anymore."
+      "character": "DOCTOR STRANGE",
+      "text": "You used to love coming to those things with me. We had fun together.",
+      "scene": 2
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Too difficult for you, is it?"
+      "character": "DR. CHRISTINE PALMER",
+      "text": "No! You had fun. They weren't about us, they were about you.",
+      "scene": 2
     },
     {
-      "character": "CHRISTINE PALMER",
-      "text": "Yes. It is. And it breaks my heart to see you this way."
+      "character": "DOCTOR STRANGE",
+      "text": "Not only about me.",
+      "scene": 2
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No. Don’t pity me."
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Stephen. Everything is about you.",
+      "scene": 2
     },
     {
-      "character": "CHRISTINE PALMER",
-      "text": "I’m not pitying you."
+      "character": "DOCTOR STRANGE",
+      "text": "Maybe we could hyphenate. Strange-Palmer Technique.",
+      "scene": 2
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Oh yeah? Then what are you doing here? Bringing cheese and wine as if we’re old friends going for a picnic? We are not friends, Christine. We were barely lovers. You just love a sob story, don’t you? Is that what I am to you now? Poor Stephen Strange, charity case. He finally needs me. Another dregmof humanity for you to work on. Fix him up and send him back into the world, heart is just humming… You care so much, don't you?!?"
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Palmer-Strange.",
+      "scene": 2
     },
     {
-      "character": "CHRISTINE PALMER",
-      "text": "Goodbye, Stephen."
+      "character": "DOCTOR STRANGE",
+      "text": "-Billy. What have you got for me?",
+      "scene": 3
     },
     {
-      "character": "MAN 1",
-      "text": "Come on, man! Where is the competition?"
+      "character": "BILLY",
+      "text": "I've got a 35-year-old Air Force Colonel... crushed his lower spine in some kind of experimental armor. Mid-thoracic burst fracture.",
+      "scene": 3
     },
     {
-      "character": "MAN 2",
-      "text": "You talk a lot!"
+      "character": "DOCTOR STRANGE",
+      "text": "Yeah, well, I could help... but so could 50 other people. Find me something worth my time.",
+      "scene": 3
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Jonathan Pangborn, C7-C8 spinal cord injury, complete."
+      "character": "BILLY",
+      "text": "I have a 68-year-old female with an advanced brain stem glioma.",
+      "scene": 3
     },
     {
-      "character": "PANGBORN",
-      "text": "Who are you?"
+      "character": "DOCTOR STRANGE",
+      "text": "Yeah, you want me to screw up my perfect record? Definitely not.",
+      "scene": 3
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Paralyzed from the mid-chest down. Partial paralysis of both hands."
+      "character": "BILLY",
+      "text": "How about a 22-year-old female... with an electronic implant in her brain to control schizophrenia... struck by lightning?",
+      "scene": 3
     },
     {
-      "character": "PANGBORN",
-      "text": "I don’t know you."
+      "character": "DOCTOR STRANGE",
+      "text": "Mmm. That does sound interesting.",
+      "scene": 3
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I’m Stephen Strange. I’m a neurosurgeon. Was a neurosurgeon."
+      "character": "DOCTOR STRANGE",
+      "text": "Can you send me the...",
+      "scene": 3
     },
     {
-      "character": "PANGBORN",
-      "text": "Actually, you know what, man? I think I know you. I came to your office once. You refused to see me. I never got past your assistant."
+      "character": "BILLY",
+      "text": "Got it.",
+      "scene": 3
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "You were untreatable."
+      "character": "DOCTOR STRANGE",
+      "text": "What did they do?",
+      "scene": 4
     },
     {
-      "character": "PANGBORN",
-      "text": "No glory for you in that, right?"
+      "character": "DR. CHRISTINE PALMER",
+      "text": "They rushed you in a chopper. But it took a little while to find you. The golden hours for nerve damage went by while you were in the car.",
+      "scene": 4
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "You came back from a place there is no way back from! I… I’m trying to find my own way back. Hey, Pangborn, you in it or not?"
+      "character": "DOCTOR STRANGE",
+      "text": "What did they do?",
+      "scene": 4
     },
     {
-      "character": "PANGBORN",
-      "text": "Alright. I’d given up on my body. I thought my mind was the only thing I had left. I should at least try to elevate that. So I sat with gurus, and sacred women. Strangers carried me to mountain tops to see holy men. And finally, I found my teacher. And my mind was elevated. And my spirit deepened. And somehow…"
+      "character": "DR. CHRISTINE PALMER",
+      "text": "11 stainless steel pins in the bones. Multiple torn ligaments... severe nerve damage in both hands. You were on the table for 11 hours.",
+      "scene": 4
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Your body healed."
+      "character": "DOCTOR STRANGE",
+      "text": "Look at these fixators.",
+      "scene": 4
     },
     {
-      "character": "PANGBORN",
-      "text": "Yes. And there were deeper secrets to learn then, but I did not have the strength to receive them. I chose to settle for my miracle, and I came back home. The place you’re looking for is called Kamar-Taj. But the cost is high."
+      "character": "DR. CHRISTINE PALMER",
+      "text": "No one could have done better.",
+      "scene": 4
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "How much?"
+      "character": "DOCTOR STRANGE",
+      "text": "I could have done better.",
+      "scene": 4
     },
     {
-      "character": "PANGBORN",
-      "text": "I’m not talking about money. Good luck. Give me the ball!"
+      "character": "DR. NICODEMUS WEST",
+      "text": "No. Give your body time to heal.",
+      "scene": 5
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Excuse me. Kamar-Taj? Do you know where Kamar-Taj is? Kamar-Taj? Kamar-Taj… Okay."
+      "character": "DOCTOR STRANGE",
+      "text": "You've ruined me.",
+      "scene": 5
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Guys, I… I don’t have any money."
+      "character": "DOCTOR STRANGE",
+      "text": "How long until I can take...",
+      "scene": 5
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No, please. It’s all I have left."
+      "character": "DR. NICODEMUS WEST",
+      "text": "Doctor Strange. Those tissues are still healing.",
+      "scene": 5
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "So, speed it up. Pass a stent down the brachial artery into the radial artery.",
+      "scene": 5
+    },
+    {
+      "character": "DR. NICODEMUS WEST",
+      "text": "It's possible. Experimental and expensive, but possible.",
+      "scene": 5
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "All I need is possible.",
+      "scene": 5
+    },
+    {
+      "character": "PHYSICAL THERAPIST",
+      "text": "Up. Up. Show me your strength.",
+      "scene": 6
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "This is useless.",
+      "scene": 6
+    },
+    {
+      "character": "PHYSICAL THERAPIST",
+      "text": "It's not useless, man. You can do this.",
+      "scene": 6
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "All right, answer me this, bachelor's degree. Have you ever known anyone with nerve damage this severe to do this... and actually recover?",
+      "scene": 6
+    },
+    {
+      "character": "PHYSICAL THERAPIST",
+      "text": "One guy, yeah. Factory accident, broke his back... paralyzed, his leg wasted away. -He had pain in his shoulder, from the wheelchair. He came in three times a week. Then one day he stopped coming. I thought he was dead. A few years later, he walked past me on the street.",
+      "scene": 6
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Walked?",
+      "scene": 6
+    },
+    {
+      "character": "PHYSICAL THERAPIST",
+      "text": "Yeah, walked.",
+      "scene": 6
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Bullshit. Show me his file.",
+      "scene": 6
+    },
+    {
+      "character": "PHYSICAL THERAPIST",
+      "text": "It'll take me a while to pull the files from the archive. But if it proves your arrogant ass wrong... Worth it.",
+      "scene": 6
+    },
+    {
+      "character": "DR. ETIENNE ROUSSELOT",
+      "text": "I looked at all your research... I read all the papers you've sent. It's not gonna work. I don't think you realize... how severe the damages are.",
+      "scene": 7
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Here's the thing...",
+      "scene": 7
+    },
+    {
+      "character": "DR. ETIENNE ROUSSELOT",
+      "text": "The best have tried and failed.",
+      "scene": 7
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I understand. Here's the thing.",
+      "scene": 7
+    },
+    {
+      "character": "DR. ETIENNE ROUSSELOT",
+      "text": "What you want from me is impossible, Stephen.",
+      "scene": 7
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Come on.",
+      "scene": 7
+    },
+    {
+      "character": "DR. ETIENNE ROUSSELOT",
+      "text": "I've got my own reputation to consider.",
+      "scene": 7
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Etienne, wait. No.",
+      "scene": 7
+    },
+    {
+      "character": "DR. ETIENNE ROUSSELOT",
+      "text": "I can't help you.",
+      "scene": 7
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "-No, no, wait!",
+      "scene": 7
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Hey!",
+      "scene": 7
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "He won't do it.",
+      "scene": 7
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "He's a hack. There is a new procedure in Tokyo. They culture donor stem cells... and then harvesting them and then 3D printing a scaffold. If I could get a loan together...",
+      "scene": 7
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Stephen.",
+      "scene": 7
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "A small loan, just $200,000.",
+      "scene": 7
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "You've always spent money as fast as you could make it... but now you're spending money you don't even have. Maybe it's time to consider stopping.",
+      "scene": 7
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "No, now is exactly the time not to stop... because, you see, I'm not getting any better!",
+      "scene": 7
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "But this isn't medicine anymore. This is mania. Some things just can't be fixed.",
+      "scene": 7
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Life without my work...",
+      "scene": 7
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Is still life. This isn't the end. There are other things that can give your life meaning.",
+      "scene": 7
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Like what? Like you?",
+      "scene": 7
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "This is the part where you apologize.",
+      "scene": 7
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "This is the part where you leave.",
+      "scene": 7
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Fine, I can't watch you do this to yourself anymore.",
+      "scene": 7
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Oh, too difficult for you, is it?",
+      "scene": 7
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Yes, it is. It breaks my heart to see you this way.",
+      "scene": 7
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "No, don't pity me.",
+      "scene": 7
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "I'm not pitying you.",
+      "scene": 7
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Oh, yeah? Then what are you doing here... bringing cheese and wine like we're old friends going for a picnic? We are not friends, Christine. We were barely lovers. But you just love a sob story, don't you? Is that what I am to you now? \"Poor Stephen Strange, charity case.\" \"He finally needs me.\" Another dreg of humanity for you to work on. Patch him up and send him back into the world... heart's just humming. You care so much, don't you?",
+      "scene": 7
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Goodbye, Stephen.",
+      "scene": 7
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Jonathan Pangborn... C7-C8 spinal cord injury, complete.",
+      "scene": 8
+    },
+    {
+      "character": "JONATHAN PANGBORN",
+      "text": "Who are you?",
+      "scene": 8
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Paralyzed from the mid-chest down. Partial paralysis in both hands.",
+      "scene": 8
+    },
+    {
+      "character": "JONATHAN PANGBORN",
+      "text": "I don't know you.",
+      "scene": 8
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I'm Stephen Strange. I'm a neurosurgeon. Was a neurosurgeon.",
+      "scene": 8
+    },
+    {
+      "character": "JONATHAN PANGBORN",
+      "text": "Actually, you know what, man, I do know you. I came to your office once. You refused to see me. I never got past your assistant.",
+      "scene": 8
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "You were untreatable.",
+      "scene": 8
+    },
+    {
+      "character": "JONATHAN PANGBORN",
+      "text": "No glory for you in that, right?",
+      "scene": 8
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "You came back from a place there's no way back from.",
+      "scene": 8
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I'm trying to find my own way back.",
+      "scene": 8
+    },
+    {
+      "character": "BASKETBALL PLAYER",
+      "text": "Pangborn, are you in or you out?",
+      "scene": 8
+    },
+    {
+      "character": "JONATHAN PANGBORN",
+      "text": "All right.",
+      "scene": 8
+    },
+    {
+      "character": "JONATHAN PANGBORN",
+      "text": "I'd given up on my body. I thought my mind's the only thing I have left... I should at least try to elevate that. So, I sat with gurus... and sacred women. Strangers carried me to mountaintops to see holy men. And finally... I found my teacher. And my mind was elevated... and my spirit deepened. And somehow...",
+      "scene": 8
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Your body healed.",
+      "scene": 8
+    },
+    {
+      "character": "JONATHAN PANGBORN",
+      "text": "Yes.",
+      "scene": 8
+    },
+    {
+      "character": "JONATHAN PANGBORN",
+      "text": "There were deeper secrets to learn there... but I didn't have the strength to receive them. I chose to settle for my miracle and I came back home.",
+      "scene": 8
+    },
+    {
+      "character": "JONATHAN PANGBORN",
+      "text": "The place you're looking for is called Kamar-Taj. But the cost there is high.",
+      "scene": 8
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "How much?",
+      "scene": 8
+    },
+    {
+      "character": "JONATHAN PANGBORN",
+      "text": "I'm not talking about money.",
+      "scene": 8
+    },
+    {
+      "character": "JONATHAN PANGBORN",
+      "text": "Good luck.",
+      "scene": 8
+    },
+    {
+      "character": "JONATHAN PANGBORN",
+      "text": "Let's ball. All right, ball up!",
+      "scene": 8
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Okay.",
+      "scene": 9
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Look, guys, I don't have any money.",
+      "scene": 9
+    },
+    {
+      "character": "THUG",
+      "text": "Your watch.",
+      "scene": 9
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "No, please. It's all I have left.",
+      "scene": 9
+    },
+    {
+      "character": "THUG",
+      "text": "Your watch.",
+      "scene": 9
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "All right.",
+      "scene": 9
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Really? Sure we got the right place? That one looks a little more Kamar-Tajey.",
+      "scene": 10
     },
     {
       "character": "MORDO",
-      "text": "You’re looking for Kamar-Taj?"
+      "text": "I once stood in your place. And I, too, was disrespectful. So, might I offer you some advice? Forget everything you think you know.",
+      "scene": 10
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Really? Are you sure you got the right place? That one looks a little more...Kamar-Taj-y."
-    },
-    {
-      "character": "MORDO",
-      "text": "I once stood in your place. And I, too, was… disrespectful. So might I offer you some advice Forget everything you think you know."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Uh… alright."
+      "character": "DOCTOR STRANGE",
+      "text": "All right.",
+      "scene": 10
     },
     {
       "character": "MORDO",
-      "text": "The sanctuary of our teacher, the Ancient One."
+      "text": "The sanctuary of our teacher. The Ancient One.",
+      "scene": 10
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "The Ancient One? What’s his real name? Right. Forget everything I think I know. I’m sorry. Thank you for… huh! Okay, that’s, uh… a thing…Thank you. Hello. Uh, thank you. And thank you. Uh, thank you, Ancient One…for… seeing me…"
+      "character": "DOCTOR STRANGE",
+      "text": "The Ancient One? What's his real name?",
+      "scene": 10
     },
     {
-      "character": "THE ANCIENT ONE",
-      "text": "You’re very welcome. Thank you, Master Mordo. Thank you, Master Hamir. Mr. Strange!"
+      "character": "DOCTOR STRANGE",
+      "text": "Right. Forget everything I think I know. Sorry.",
+      "scene": 10
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Doctor, actually."
+      "character": "DOCTOR STRANGE",
+      "text": "Um, thank you for... Whoa!",
+      "scene": 10
     },
     {
-      "character": "THE ANCIENT ONE",
-      "text": "Well, no. Not anymore, surely. Isn’t that why you’re here? You’ve undergone many procedures. Seven, right?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Yeah…Good tea."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Yes."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Did you heal a man named Pangborn? A paralyzed man?"
+      "character": "DOCTOR STRANGE",
+      "text": "Okay, that's a thing. Thank you for... Hello. Oh, thank you. And thank you. -Uh, thank you... Ancient One, for seeing me.",
+      "scene": 10
     },
     {
       "character": "THE ANCIENT ONE",
-      "text": "In a way."
+      "text": "You're very welcome.",
+      "scene": 10
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "You helped him to walk again."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Yes."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "How do you correct a complete C7-C8 spinal cord injury?"
+      "character": "DOCTOR STRANGE",
+      "text": "The Ancient One.",
+      "scene": 10
     },
     {
       "character": "THE ANCIENT ONE",
-      "text": "Oh, I didn’t correct it. He couldn’t walk; I convinced him that he could."
+      "text": "Thank you, Master Mordo. Thank you, Master Hamir. Mr. Strange.",
+      "scene": 10
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "You’re not suggesting it was psychosomatic?"
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "When you reattach a severed nerve, is it you who heals it back together or the body?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "It’s the cells."
+      "character": "DOCTOR STRANGE",
+      "text": "Uh... Doctor, actually.",
+      "scene": 10
     },
     {
       "character": "THE ANCIENT ONE",
-      "text": "And the cells are only programmed to put themselves together in very specific ways."
+      "text": "Well, no, not anymore, surely. Isn't that why you're here? You've undergone many procedures. Seven, right?",
+      "scene": 10
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "That’s right."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "What if I told you that your own body could be convinced to put itself back together in all sorts of ways?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "You’re talking about cellular regeneration. That’s… bleeding-edge medical tech. Is that why you’re working here, without a governing medical board? I mean… just how experimental is your treatment?"
+      "character": "DOCTOR STRANGE",
+      "text": "Yeah. It's good tea.",
+      "scene": 10
     },
     {
       "character": "THE ANCIENT ONE",
-      "text": "Quite."
+      "text": "Yes.",
+      "scene": 10
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "So, you figured out a way to reprogram nerve cells to self-heal?"
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "No, Mr. Strange. I know how to reorient the spirit to better heal the body."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Spirit… to heal the body. Huh. A… Al… Al… alright. How do we do that? Where do we start?"
+      "character": "DOCTOR STRANGE",
+      "text": "Did you heal a man named Pangborn? A paralyzed man?",
+      "scene": 10
     },
     {
       "character": "THE ANCIENT ONE",
-      "text": "Don’t like that map?"
+      "text": "In a way.",
+      "scene": 10
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Oh, no. It’s… it’s very good. It’s just…you know, I’ve seen it before. In gift shops."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "And what about this one?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Acupuncture, great. - Yeah?"
+      "character": "DOCTOR STRANGE",
+      "text": "You helped him to walk again.",
+      "scene": 10
     },
     {
       "character": "THE ANCIENT ONE",
-      "text": "What about… that one?"
+      "text": "Yes.",
+      "scene": 10
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "You’re showing me an MRI scan? I can not believe this."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Each of those maps was drawn up by someone who could see in part, but not the whole."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I spent my last dollar getting here on a one-way ticket, and you’re talking to me about healing through belief?"
+      "character": "DOCTOR STRANGE",
+      "text": "How did you correct a complete C7-C8 spinal cord injury?",
+      "scene": 10
     },
     {
       "character": "THE ANCIENT ONE",
-      "text": "You’re a man who’s looking at the world through a keyhole, and you spent your whole life trying to widen that keyhole. To see more, know more. And now, on hearing that it can be widened in ways you can’t imagine, you reject the possibility?"
+      "text": "Well, I didn't correct it. He couldn't walk. I convinced him that he could.",
+      "scene": 10
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No, I reject it because I do not believe in fairy tales about chakras, or energy, or the power of belief. There is no such thing as spirit! We are made of matter, and nothing more. We’re just another tiny, momentary speck within an indifferent universe."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "You think too little of yourself."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Oh, you think you see through me, do you? Well, you don’t. But I see through you!!! What did you just do to me?!?"
+      "character": "DOCTOR STRANGE",
+      "text": "You're not suggesting it was psychosomatic?",
+      "scene": 10
     },
     {
       "character": "THE ANCIENT ONE",
-      "text": "I pushed your astral form out of your physical form."
+      "text": "When you reattach a severed nerve... is it you who heals it back together or the body?",
+      "scene": 10
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "What’s in that tea? Psilocybin? LSD?"
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Just tea. With a little honey."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "What just happened?"
+      "character": "DOCTOR STRANGE",
+      "text": "It's the cells.",
+      "scene": 10
     },
     {
       "character": "THE ANCIENT ONE",
-      "text": "For a moment, you entered the astral dimension."
+      "text": "The cells are only programmed... to put themselves back together in very specific ways.",
+      "scene": 10
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "What??"
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "A place where the soul exists apart from the body."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Why are you doing this to me?"
+      "character": "DOCTOR STRANGE",
+      "text": "Right.",
+      "scene": 10
     },
     {
       "character": "THE ANCIENT ONE",
-      "text": "To show you just how much you don’t know. Open your eye."
+      "text": "What if I told you that your own body could be convinced... to put itself back together in all sorts of ways?",
+      "scene": 10
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No! No… No! Shit! Oh god! Oh god! Oh god! This isn’t real it isn’t real it isn’t"
+      "character": "DOCTOR STRANGE",
+      "text": "You're talking about cellular regeneration. That's bleeding edge medical tech. Is that why you're working here? Without a governing medical board? Just how experimental is your treatment?",
+      "scene": 10
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Quite.",
+      "scene": 10
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "So, you've figured out a way... to reprogram nerve cells to self-heal?",
+      "scene": 10
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "No, Mr. Strange. I know how to reorient the spirit... to better heal the body.",
+      "scene": 10
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "The spirit to heal the body?",
+      "scene": 10
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "That's right.",
+      "scene": 10
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "No. All right. How do we do that? Where do we start?",
+      "scene": 10
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Don't like that map?",
+      "scene": 10
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Oh, no. It's really good. It's just, I've seen it before... in gift shops.",
+      "scene": 10
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "And what about this one?",
+      "scene": 10
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Acupuncture, great.",
+      "scene": 10
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Yeah?",
+      "scene": 10
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "What about that one?",
+      "scene": 10
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Showing me an MRI scan. I do not believe this.",
+      "scene": 10
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Each of those maps was drawn up by someone... who could see in part, but not the whole.",
+      "scene": 10
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I spent my last dollar getting here, one-way ticket... and you're talking to me about healing through belief?",
+      "scene": 10
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "You're a man looking at the world through a keyhole. -You've spent your whole life trying to widen that keyhole... to see more, to know more. Now, on hearing that it can be widened... in ways you can't imagine... you reject the possibility.",
+      "scene": 10
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "No, I reject it because I do not believe in fairy tales... about chakras or energy... or the power of belief. There is no such thing as spirit! We are made of matter and nothing more. You're just another tiny, momentary speck within an indifferent universe.",
+      "scene": 10
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "You think too little of yourself.",
+      "scene": 10
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Oh, you think you see through me, do you? Well, you don't. But I see through you!",
+      "scene": 10
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "What did you just do to me?",
+      "scene": 11
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "I pushed your astral form out of your physical form.",
+      "scene": 11
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "What's in that tea? Psilocybin? LSD?",
+      "scene": 11
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "It's just tea... with a little honey.",
+      "scene": 11
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "What just happened?",
+      "scene": 11
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "For a moment, you entered the astral dimension.",
+      "scene": 11
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "The what?",
+      "scene": 11
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "A place where the soul exists apart from the body.",
+      "scene": 11
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Why are you doing this to me?",
+      "scene": 11
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "To show you just how much you don't know. Open your eye.",
+      "scene": 11
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Oh, shit! Oh, God! Oh, God, no! No, no, no! What's happening? This isn't real!",
+      "scene": 11
     },
     {
       "character": "MORDO",
-      "text": "His heart rate are getting dangerously high."
+      "text": "His heart rate is getting dangerously high.",
+      "scene": 11
     },
     {
       "character": "THE ANCIENT ONE",
-      "text": "He looks alright to me. You think you know how the world works? You think that this material universe is all there is? What is real? What mysteries lie beyond the reach of your senses? At the root of existence, mind and matter meet. Thoughts shape reality. This universe is only one of an infinite number. Worlds without end. Some benevolent and life-giving, others filled with malice and hunger. Dark places, where powers older than time lie… ravenous… and waiting. Who are you in this vast multiverse, Mr. Strange? Have you seen that before in a gift shop?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Teach me!"
+      "text": "He looks all right to me.",
+      "scene": 11
     },
     {
       "character": "THE ANCIENT ONE",
-      "text": "No."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No… No! No, no, no, no no no no! No! Open the door! Please!"
+      "text": "You think you know how the world works? You think that this material universe is all there is?",
+      "scene": 11
     },
     {
       "character": "THE ANCIENT ONE",
-      "text": "Thank you, Masters. You think I’m wrong to cast him out?"
+      "text": "What is real?",
+      "scene": 11
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "What mysteries lie beyond the reach of your senses?",
+      "scene": 11
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "At the root of existence... mind and matter meet. Thoughts shape reality.",
+      "scene": 11
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "This universe is only one of an infinite number.",
+      "scene": 12
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Worlds without end. Some benevolent and life giving.",
+      "scene": 12
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Others filled with malice and hunger.",
+      "scene": 12
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Dark places... where powers older than time lie ravenous...",
+      "scene": 12
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "and waiting.",
+      "scene": 12
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Who are you in this vast Multiverse, Mr. Strange?",
+      "scene": 12
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Have you seen that before in a gift shop?",
+      "scene": 13
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Teach me.",
+      "scene": 13
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "No.",
+      "scene": 13
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "No. No! No, no, no!",
+      "scene": 13
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "No! Open the door! Please!",
+      "scene": 13
+    },
+    {
+      "character": "STUDENT",
+      "text": "Thank you, Masters.",
+      "scene": 13
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "You think I was wrong to cast him out?",
+      "scene": 13
     },
     {
       "character": "MORDO",
-      "text": "5 hours later, he’s still on your doorstep. There’s a strength to him."
+      "text": "5 hours later, he's still on your doorstep. There's a strength to him.",
+      "scene": 13
     },
     {
       "character": "THE ANCIENT ONE",
-      "text": "Stubbornness, arrogance, ambition…I’ve seen it all before."
+      "text": "Stubbornness, arrogance, ambition. I've seen it all before.",
+      "scene": 13
     },
     {
       "character": "MORDO",
-      "text": "He reminds you of Kaecilius?"
+      "text": "He reminds you of Kaecilius?",
+      "scene": 13
     },
     {
       "character": "THE ANCIENT ONE",
-      "text": "I can not lead another gifted student to power, only to lose him to the darkness."
+      "text": "I cannot lead another gifted student to power... only to lose him to the darkness.",
+      "scene": 13
     },
     {
       "character": "MORDO",
-      "text": "You didn’t lose me. I wanted the power to defeat my enemies. You gave me the power to defeat my demons. And to live within the natural law."
+      "text": "You didn't lose me. I wanted the power to defeat my enemies. You gave me the power to defeat my demons. And to live within the natural law.",
+      "scene": 13
     },
     {
       "character": "THE ANCIENT ONE",
-      "text": "We never lose our demons, Mordo. We only learn to live above them."
+      "text": "We never lose our demons, Mordo. We only learn to live above them.",
+      "scene": 13
     },
     {
       "character": "MORDO",
-      "text": "Kaecilius still has the stolen pages. If he deciphers them, he could bring ruin upon us all. There may be dark days ahead. Perhaps Kamar-Taj could use a man like Strange."
+      "text": "Kaecilius still has the stolen pages. If he deciphers them, he could bring ruin... upon us all. There may be dark days ahead. Perhaps Kamar-Taj could use a man like Strange.",
+      "scene": 13
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Don’t shut me out. I’ve nowhere else to go. Thank you."
+      "character": "DOCTOR STRANGE",
+      "text": "Don't shut me out.",
+      "scene": 13
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I haven't got anywhere else to go.",
+      "scene": 13
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Thank you.",
+      "scene": 13
     },
     {
       "character": "MORDO",
-      "text": "Bathe, rest, meditate if you can. The Ancient One will send for you."
+      "text": "Bathe. Rest. Meditate... if you can. The Ancient One will send for you.",
+      "scene": 13
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Uh, what’s this? My mantra?"
+      "character": "DOCTOR STRANGE",
+      "text": "What's this? My mantra?",
+      "scene": 13
     },
     {
       "character": "MORDO",
-      "text": "The Wi-Fi password. We’re not savages."
+      "text": "The Wi-Fi password. We're not savages.",
+      "scene": 13
     },
     {
       "character": "THE ANCIENT ONE",
-      "text": "The language of the mystic arts is as old as civilization. The sorcerers of antiquity called the use of this language \"spells\". But if that word offends your modern sensibilities, you can call it \"program\". The source code that shapes reality. We harness energy drawn from other dimensions of the multiverse, to cast spells, conjure shields and weapons to make magic."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "But… even if my fingers could do that, My hands would just be waving in the air. I mean, how do I get from here to there?"
+      "text": "The language of the mystic arts... is as old as civilization. The sorcerers of antiquity... called the use of this language \"spells.\" But if that word offends your modern sensibilities... you can call it a \"program.\" The source code that shapes reality. We harness energy...",
+      "scene": 14
     },
     {
       "character": "THE ANCIENT ONE",
-      "text": "How did you get to reattach severed nerves, and put a human spine back together bone by bone?"
+      "text": "drawn from other dimensions of the Multiverse... to cast spells...",
+      "scene": 14
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Study and practice. Years of it. Hey."
+      "character": "THE ANCIENT ONE",
+      "text": "to conjure shields... and weapons... to make magic.",
+      "scene": 14
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "But even if my fingers could do that... my hands would just be waving in the air. How do I get from here to there?",
+      "scene": 15
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "How did you get to reattach severed nerves... and put a human spine back together bone by bone?",
+      "scene": 15
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Study and practice, years of it.",
+      "scene": 15
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Hey.",
+      "scene": 15
     },
     {
       "character": "WONG",
-      "text": "Mr. Strange."
+      "text": "Mr. Strange.",
+      "scene": 15
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Uh… Stephen, please. And you are?"
-    },
-    {
-      "character": "WONG",
-      "text": "Wong."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Wong. Just Wong? Like… Adele? Or… Aristotle. Drake. Bono. Eminem."
+      "character": "DOCTOR STRANGE",
+      "text": "Uh, Stephen, please. And you are?",
+      "scene": 15
     },
     {
       "character": "WONG",
-      "text": "The Book of the Invisible Sun, Astronomia Nova, Codex Imperium, Key of Solomon. You finished all of this?"
+      "text": "Wong.",
+      "scene": 15
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Yup."
+      "character": "DOCTOR STRANGE",
+      "text": "Wong. Just Wong? Like Adele?",
+      "scene": 15
     },
     {
-      "character": "WONG",
-      "text": "Come with me."
+      "character": "DOCTOR STRANGE",
+      "text": "Or Aristotle.",
+      "scene": 15
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Alright."
+      "character": "DOCTOR STRANGE",
+      "text": "Drake. Bono.",
+      "scene": 15
     },
     {
-      "character": "WONG",
-      "text": "This section is for Masters only. But at my discretion, others may use it. We should start with Maxim’s Primer. How is your Sanskrit?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I’m fluent in Google Translate."
-    },
-    {
-      "character": "WONG",
-      "text": "Read it. Classical Sanskrit."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "What are those?"
+      "character": "DOCTOR STRANGE",
+      "text": "Eminem.",
+      "scene": 15
     },
     {
       "character": "WONG",
-      "text": "The Ancient One’s private collection."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "So they’re forbidden?"
+      "text": "The Book of the Invisible Sun. Astronomia Nova. Codex Imperium. Key of Solomon.",
+      "scene": 15
     },
     {
       "character": "WONG",
-      "text": "No knowledge in Kamar-Taj is forbidden. Only certain practices. Those books are far too advanced for anyone other than the Sorcerer Supreme."
+      "text": "You finished all of these?",
+      "scene": 15
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "This one’s got pages missing."
-    },
-    {
-      "character": "WONG",
-      "text": "That’s the book of Cagliostro. The study of time. One of the rituals was stolen by a former Master. A zealot called Kaecilius. Just after he strung up the former librarian, and relieved him of his head. I’m now the guardian of these books. So if a volume from this collection should be stolen again, I’d know it. And you’d be dead before you ever left the compound."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "What if it’s just overdue? You know? Any… late fees I should know about? Maybe, perhaps, uhm…Uh, you know, people used to think that I was funny."
+      "character": "DOCTOR STRANGE",
+      "text": "Yup.",
+      "scene": 15
     },
     {
       "character": "WONG",
-      "text": "Did they work for you?"
+      "text": "Come with me.",
+      "scene": 15
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Alright. Well, it’s been lovely talking to you, thank you for the books and for the horrifying story and for the threat upon my life."
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "Now we receive the power to destroy the one who betrayed us. The one who betrays the world."
-    },
-    {
-      "character": "MORDO",
-      "text": "Mastery of the sling ring is essential to the mystic arts. They allow us to travel throughout the multiverse. All you need to do is focus. Visualize. See the destination in your mind. Look beyond the world in front of you. Imagine every detail. The clearer the picture, the quicker, and easier, the gateway will come. And stop."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "I’d like a moment alone with Mr. Strange."
-    },
-    {
-      "character": "MORDO",
-      "text": "Of course."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "My hands."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "It’s not about your hands."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "How is this not about my hands?"
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Master Hamir. Thank you, Master Hamir. You cannot beat a river into submission. You have to surrender to its current, and use its power as your own."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I… I control it by surrendering control? That doesn’t make any sense."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Not everything does. Not everything has to. Your intellect has taken you far in life. But it will take you no further. Surrender, Stephen. Silence your ego and your power will rise. Come with me."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Wait. Is this…"
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Everest. It’s beautiful."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Yeah, you’re right. Beautiful. It’s freezing, but… beautiful."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "At this temperature, a person can last for 13 minutes before suffering permanent loss of function."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Great."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "But you will likely go into shock within the first 2 minutes."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "What?"
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Surrender, Stephen."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No, no!!! Don’t!"
-    },
-    {
-      "character": "MORDO",
-      "text": "How is our new recruit?"
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "We shall see. Any second now."
-    },
-    {
-      "character": "MORDO",
-      "text": "No, not again. Maybe I should…"
+      "character": "DOCTOR STRANGE",
+      "text": "All right.",
+      "scene": 15
     },
     {
       "character": "WONG",
-      "text": "Stephen."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Wong."
+      "text": "This section is for masters only... but at my discretion, others may use it. You should start with Maxim's Primer.",
+      "scene": 15
     },
     {
       "character": "WONG",
-      "text": "What do you want, Strange?"
+      "text": "How's your Sanskrit?",
+      "scene": 15
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Books on astral projection."
-    },
-    {
-      "character": "WONG",
-      "text": "You’re not ready for that."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Try me, Beyonce. Come on. You’ve heard of her. She’s a huge star, right? Do you ever laugh? Oh come on, just give me the book, huh?"
+      "character": "DOCTOR STRANGE",
+      "text": "I'm fluent in Google Translate.",
+      "scene": 15
     },
     {
       "character": "WONG",
-      "text": "No."
+      "text": "Vedic, classical Sanskrit.",
+      "scene": 15
     },
     {
-      "character": "THE ANCIENT ONE",
-      "text": "Once, in this room, you begged me to let you learn. Now I’m told you question every lesson, preferring to teach yourself."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Once, in this room, you told me to open my eyes. Now I’m being told to blindly accept rules that make no sense."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Like the rule against conjuring a gateway in the library?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Wong told on me?"
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "You’re advancing quickly with your sorcery skills. You need a safe space to practice your spells. You are now inside the Mirror Dimension. Ever"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Once, in this room, you told me to open my eyes. Now I’m being told to blindly accept rules that make no sense."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Like the rule against conjuring a gateway in the library?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Wong told on me?"
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "You’re advancing quickly with your sorcery skills. You need a safe space to practice your spells. You are now inside the Mirror Dimension. Ever present but undetected. The real world isn’t affected by what happens here. We use the Mirror Dimension to train, surveil, and sometimes to contain threats. You don’t want to be stuck in here without your sling ring."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Hold on. Sorry, what do you mean, threats?"
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Learning of an infinite multiverse included learning of infinite dangers. And if I told you everything else that you don’t already know, you’d run from here in terror."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "So, just how ancient is she?"
-    },
-    {
-      "character": "MORDO",
-      "text": "No one knows the age of the Sorcerer Supreme. Only that she is Celtic and never talks about her past."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "You follow her even though you don’t know?"
-    },
-    {
-      "character": "MORDO",
-      "text": "I know that she’s steadfast, but unpredictable. Merciless, yet kind. She made me what I am. Trust your teacher. And don’t lose your way."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Like Kaecilius?"
-    },
-    {
-      "character": "MORDO",
-      "text": "That’s right."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "You knew him."
-    },
-    {
-      "character": "MORDO",
-      "text": "When he first came to us, he’d lost everyone he ever loved. He was a grieving and broken man, searching for answers in the mystic arts. A brilliant student, but he was proud, headstrong. Questioned the Ancient One, rejected our teaching. He left Kamar-Taj. His disciples followed him like sheep, seduced by false doctrine."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "He stole the forbidden ritual, right?"
-    },
-    {
-      "character": "MORDO",
-      "text": "Yeah."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "What did it do?"
-    },
-    {
-      "character": "MORDO",
-      "text": "No more questions."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "What’s that?"
-    },
-    {
-      "character": "MORDO",
-      "text": "That’s a question. This is a relic. Some magic is too powerful to sustain, so we imbue objects with it, allowing them to take the strain we can not. This is the Staff of the Living Tribunal. There are many relics: the Wand of Watoomb, the Bolting Boots of Voltor."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "They just roll of the tongue, don’t they? When do I get my relic?"
-    },
-    {
-      "character": "MORDO",
-      "text": "When you’re ready."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I think I’m ready."
-    },
-    {
-      "character": "MORDO",
-      "text": "You’re ready when the relic decides you’re ready. For now, conjure a weapon."
-    },
-    {
-      "character": "MORDO",
-      "text": "Fight! Fight like your life depended on it! Because one day, it may."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "I’m emailing you one more time to"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Wong? Okay. First, open the Eye of Agamotto. All right. Oh my. Dormammu. The Dark Dimension. Eternal life?"
-    },
-    {
-      "character": "MORDO",
-      "text": "Stop!!!"
-    },
-    {
-      "character": "MORDO",
-      "text": "Tampering with the continuum of probability is forbidden!"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I… I wa… I was just doing exactly what it said in the book!"
-    },
-    {
-      "character": "MORDO",
-      "text": "And what did the book say about the dangers of performing that ritual?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Yeah, I don’t know. I hadn’t gotten to that part yet."
-    },
-    {
-      "character": "MORDO",
-      "text": "Temporal manipulations can create branches in time. Unstable dimensional openings. Spacious paradoxes! Time loops!!!"
-    },
-    {
-      "character": "MORDO",
-      "text": "You want to get stuck reliving the same moment over, and over, forever, or never having existed at all?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "They really should put the warnings before that stuff."
-    },
-    {
-      "character": "MORDO",
-      "text": "Your curiosity could have gotten you killed."
-    },
-    {
-      "character": "MORDO",
-      "text": "You weren’t manipulating the space-time continuum, you were wrecking it."
-    },
-    {
-      "character": "MORDO",
-      "text": "We do not tamper with natural law. We defend it."
-    },
-    {
-      "character": "MORDO",
-      "text": "How did you learn to do that?"
-    },
-    {
-      "character": "MORDO",
-      "text": "Where did you learn the litany of spells required to even understand it?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I’ve got a photographic memory. It’s how I got my M.D. and Ph.D. at the same time."
-    },
-    {
-      "character": "MORDO",
-      "text": "What you just did takes more than a good memory. You were born for the mystic arts."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "And yet, my hands still shake."
-    },
-    {
-      "character": "MORDO",
-      "text": "For now, yes."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Not forever?"
-    },
-    {
-      "character": "MORDO",
-      "text": "We’re not prophets."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "When do you start telling me what we are?"
-    },
-    {
-      "character": "MORDO",
-      "text": "While heroes like the Avengers protect the world from physical dangers, we sorcerers safeguard it against more mystical threats."
-    },
-    {
-      "character": "MORDO",
-      "text": "The Ancient One is the latest in a long line of Sorcerers Supreme, going back thousands of years to the father of the mystic arts, the mighty Agamotto."
-    },
-    {
-      "character": "MORDO",
-      "text": "The same sorcerer who created the eye you so recklessly borrowed."
-    },
-    {
-      "character": "MORDO",
-      "text": "Agamotto built 3 Sanctums in places of power, where great cities now stand."
-    },
-    {
-      "character": "MORDO",
-      "text": "That door leads to the Hong Kong Sanctum, that door to the New York Sanctum. That one, to the London Sanctum."
-    },
-    {
-      "character": "MORDO",
-      "text": "Together, the Sanctums generate a protective shield around our world."
-    },
-    {
-      "character": "MORDO",
-      "text": "The Sanctums protect the world, and we sorcerers protect the Sanctums."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "From what?"
-    },
-    {
-      "character": "MORDO",
-      "text": "Other-dimensional beings that threaten our universe."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Like Dormammu?"
-    },
-    {
-      "character": "MORDO",
-      "text": "Where did you learn that name?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I just read it in The Book of Cagliostro. Why?"
-    },
-    {
-      "character": "MORDO",
-      "text": "Dormammu dwells in the Dark Dimension, beyond time."
-    },
-    {
-      "character": "MORDO",
-      "text": "He is the cosmic conquerer, the destroyer of worlds."
-    },
-    {
-      "character": "MORDO",
-      "text": "A being of infinite power and endless hunger, on a quest to invade every universe and bring all worlds into his Dark Dimension."
-    },
-    {
-      "character": "MORDO",
-      "text": "And he hungers for Earth most of all."
-    },
-    {
-      "character": "MORDO",
-      "text": "The pages that Kaecilius stole."
-    },
-    {
-      "character": "MORDO",
-      "text": "A ritual to contact Dormammu and draw power from the Dark Dimension."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Uuuh… okay. Okay. I… time-out. I… I came here to heal my hands, not to fight in some mystical war."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Wong? Mordo?"
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "Daniel. I see they made you Master of the Sanctum."
-    },
-    {
-      "character": "MASTER",
-      "text": "Do you know what that means?"
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "That you’ll die protecting it."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Stop!"
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "How long have you been at Kamar-TaJ, Mister…?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Doctor."
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "Mister Doctor?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "It’s Strange."
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "Maybe. Who am I to judge? You don’t know how to use that, do you?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "What?"
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "You’ll die here."
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "Oh, stop it."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I said, stop it!"
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "You cannot stop this, Mr. Doctor."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Why…look, I don’t even know what \"this\" is."
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "It’s the end and the beginning. The many becoming the few, becoming the One."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Look, if you’re not going to start making sense, I’m just going to have to put this thing back on."
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "Tell me, Mr. Doctor."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Alright, look. My name is Dr. Stephen Strange."
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "You are a doctor?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Yes."
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "A scientist. You understand the laws of nature. All things age. All things die. In the end, our sun burns out, our universe grows cold and perishes. But the Dark Dimension… it’s a place beyond time."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "That’s it. I’m putting this thing back on."
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "This world doesn’t have to die, Doctor. This world can take its rightful place among so many others, as part of the One. The great and beautiful One. And we can all live forever."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Really? What do you have to gain out of this New Age dimensional utopia?"
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "The same as you. The same as everyone. Life. Eternal life. People think in terms of good and evil, but really, time is the true enemy of us all. Time kills everything."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "What about the people you killed?"
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "Tiny, momentary specks within an indifferent universe. Yes. You see, you see what we’re doing? The world is not what it ought to be. Humanity longs for the eternal, for a world beyond time, because time is what enslaves us. Time is an insult. Death is an insult. Doctor…We don’t seek to rule this world. We seek to save it, to hand it over to Dormammu, who is the intent of all evolution, the Why of all existence."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "The Sorcerer Supreme defends existence."
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "What was it that brought you to Kamar-Taj, Doctor? Was it enlightenment? Power? You came to be healed, as did we all. Kamar-Taj is a place that collects broken things. We all come with the promise of being healed, but instead, the Ancient One gives us parlor tricks. The real magic she keeps for herself. Have you ever wondered how she managed to live this long?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I… I saw the rituals in the book of Cagliostro."
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "So, you know. The ritual gives me the power to overthrow the Ancient One and tear her Sanctums down, to let the Dark Dimension in. Because what the Ancient One hoards, Dormammu gives freely: life, everlasting. He is not the destroyer of worlds, Doctor, he is the savior of worlds."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No. I mean, come on. Look at your face. Dormammu made you a murderer. Just how good can his kingdom be? You think that’s funny?"
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "No. No, Doctor. What’s funny is that you’ve lost your sling ring."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Dr. Palmer, where is she?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Where is she?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Christine!"
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Stephen? Oh my god. What…"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "We need to get me on an operation table now. Just you. Now! I don’t have any time!"
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "What happened?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Stabbed. Cardiac tamponade."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "What are you wearing?"
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Stephen! Stephen!"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Just a little higher. Please be careful with the needle."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Stephen? Oh lord, oh lord. What am I seeing?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "My astral body."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Are you dead?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No, Christine, but I am dying."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "I’ve… I’ve never seen a wound like this before. What were you stabbed with?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I don’t know. I’m going to have to vanish now."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "No, I…"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Keep me alive, will you?"
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Okay! Okay."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Stephen, come on."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Hit me again!"
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Stop doing that!"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Up the voltage and hit me again."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "No, your heart is beating!"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Just do it!"
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "After all this time, you just show up here, flying out of your body?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Yeah, I know. I missed you too, by the way. I wrote 2 emails, but you never responded."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Why would I?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Christine, I am so, so sorry. For all of it. And you were right, I was a complete asshole. I treated you so horribly and you deserved so much more."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Stop. You… you’re clearly in shock. I mean, what the hell is happening? Where have you been?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Well, after Western medicine failed me, I headed East, and I ended up in Kathmandu."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Kathmandu?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Yeah."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "What, like the Bob Seger song?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "1975, Beautiful Loser, side A. And then, I went to a place called Kamar-Taj and I talked to someone called the Ancient One, and…"
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Oh. So you joined a cult."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No, I didn’t. Not exactly. I mean, they did teach me to tap into powers that I never even knew existed."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Yeah, that sounds like a cult."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "It’s not a cult."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Well, that’s what a cultist would say."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Wait, Stephen… what do you think you’re doing?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I’m late for a cult meeting."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "This is insane."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Yeah."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Where are you going?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Uhm…"
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Just tell me the truth?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Well, a powerful sorcerer, who gave himself over to an ancient entity who can bend the very laws of physics, tried very hard to kill me, but I left him chained up in Greenwich Village, and the quickest way back there is through a dimensional gateway that I opened up in the mop closet."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Okay. Don’t tell me. Fine."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I really do have to go."
-    },
-    {
-      "character": "MORDO",
-      "text": "Strange! You’re okay."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "A relative term, but yeah, I’m okay."
-    },
-    {
-      "character": "MORDO",
-      "text": "The Cloak of Levitation. It came to you."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "No minor feat. It’s a fickle thing."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "He’s escaped."
-    },
-    {
-      "character": "MORDO",
-      "text": "Kaecilius?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Yeah. He can fold space and matter at will."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "He folds matter outside the mirror dimension? In the real world?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Yeah."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "How many more?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Two. I stranded one in the desert."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "His body was in the hall. Master Drumm was in the foyer."
-    },
-    {
-      "character": "MORDO",
-      "text": "He’s been taken back to Kamar-Taj."
-    },
-    {
-      "character": "MORDO",
-      "text": "The London Sanctum has fallen."
-    },
-    {
-      "character": "MORDO",
-      "text": "Only New York and Hong Kong remain now to shield us from the Dark Dimension."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "You defended the New York Sanctum from attack. With its Master gone, it needs another, Master Strange."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No. It is Dr. Strange. Not Master Strange, not Mr. Strange, Doctor Strange. When I became a doctor, I swore an oath to do no harm. And I have just killed a man! I’m not doing that again. I became a doctor to save lives, not take them."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "You become a doctor to save one life above all others: your own."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Still seeing through me, are you?"
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "I see what I’ve always seen: your over-inflated ego. You want to go back to the delusion that you can control anything, even death, which no one can control. Not even the great Doctor Stephen Strange."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Not even Dormammu? He offers immortality."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "It’s our fear of death that gives Dormammu life. He feeds off it."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Like you feed on him? You talk to me about controlling death. Well, I know how you do it. I’ve seen the missing rituals from The Book of Cagliostro."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Measure your next words very carefully, doctor."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Because you might not like them?"
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Because you may not know of what you speak."
-    },
-    {
-      "character": "MORDO",
-      "text": "What is he talking about?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I’m talking about her long life, the source of her immortality. She draws power from the Dark Dimension to stay alive."
-    },
-    {
-      "character": "MORDO",
-      "text": "That’s not true."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I’ve seen the rituals and worked them out. I know how you do it."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Once they regroup, the zealots will be back. You’ll need reinforcements."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "She is not who you think she is."
-    },
-    {
-      "character": "MORDO",
-      "text": "You don’t have the right to say that. You have no idea of the responsibility that rests upon her shoulders."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No, and I don’t want to know."
-    },
-    {
-      "character": "MORDO",
-      "text": "You’re a coward."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Because I’m not a killer?"
-    },
-    {
-      "character": "MORDO",
-      "text": "These zealots will snuff us all out, and you can muster the strength to snuff them out first?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "What do you think I just did?"
-    },
-    {
-      "character": "MORDO",
-      "text": "You saved your own life! And then whined about it like a wounded dog."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Oh, you would have done it so easily?"
-    },
-    {
-      "character": "MORDO",
-      "text": "You have no idea the things I’ve done…And the answer is yes. Without hesitation."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Even if there’s another way?"
-    },
-    {
-      "character": "MORDO",
-      "text": "There is no other way."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "You lack imagination."
-    },
-    {
-      "character": "MORDO",
-      "text": "No, Steph"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "What do you think I just did?"
-    },
-    {
-      "character": "MORDO",
-      "text": "You saved your own life! And then whined about it like a wounded dog."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Oh, you would have done it so easily?"
-    },
-    {
-      "character": "MORDO",
-      "text": "You have no idea the things I’ve done…And the answer is yes. Without hesitation."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Even if there’s another way?"
-    },
-    {
-      "character": "MORDO",
-      "text": "There is no other way."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "You lack imagination."
-    },
-    {
-      "character": "MORDO",
-      "text": "No, Stephen. You lack a spine. They’re back. We have to end this. Now! Strange! Get down here and fight!"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "The Mirror Dimension. You can’t affect the real world in here. Who’s laughing now, asshole?"
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "I am."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "They’ve got no sling ring. I mean, they can’t escape, right? Run!"
-    },
-    {
-      "character": "MORDO",
-      "text": "Their connection to the Dark Dimension makes them more powerful in the Mirror Dimension. They can’t affect the real world, but they can still kill us. This wasn’t clever. This was suicide! That is hilarious."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "This was a mistake."
-    },
-    {
-      "character": "MORDO",
-      "text": "It’s true. She does draw power from the Dark Dimension."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Kaecilius."
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "I came to you broken, lost, bleeding. I trusted you to be my teacher, and you fed me lies."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "I tried to protect you."
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "From the truth?"
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "From yourself."
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "I have a new teacher now."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Dormammu deceives you You have no idea of what he truly is. His eternal life is not paradise, but torment."
-    },
-    {
-      "character": "KAECILIUS",
-      "text": "Liar."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Christine!!!"
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Are you kidding me? Oh my god."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No fibrillation…"
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "It’s neurogenic?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Yes. Nick? We need to relieve the pressure on her brain. She still drops. We’re losing her! - You need to increase her oxygen! I need a crash cart! - Her pupils are dilated! No reflexes. I’m not reading any brain activity."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "What are you doing? You’re dying! You have to return to your body now. You don’t have time."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Time is relative. Your body hasn’t even hit the floor yet. I’ve spent so many years peering through time, looking at this exact moment. But I can’t see past it. I’ve prevented countless terrible futures. And after each one, there’s always another. And they all lead here, but never further."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "You think this is where you die."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Do you wonder what I see in your future?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No. Yes."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "I never saw your future, only its possibilities. You have such a capacity for goodness. You always excelled, but not because you crave success, but because of your fear of failure."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "It’s what made me a great doctor."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "It’s precisely what kept you from greatness. Arrogance and fear still keep you from learning the simplest and most significant lesson of all."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Which is?"
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "It’s not about you. When you first came to me, you asked me how I was able to heal Jonathan Pangborn. I didn’t. He channels dimensional energy directly into his own body."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "He uses magic to walk."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Constantly. He had a choice: to return to to his own life, or to serve something greater than himself."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "So, I could have my hands back again? My old life?"
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "You could. And the world would be all the lesser for it. I’ve hated drawing power from the Dark Dimension, but as you well know, sometimes one must break the rules in order to serve the greater good."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Mordo won’t see it that way."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "Mordo’s soul is rigid and unmovable, forged by the fires of his youth. He needs your flexibility, just as you need his strength. Only together do you stand a chance of stopping Dormammu."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I’m not ready."
-    },
-    {
-      "character": "THE ANCIENT ONE",
-      "text": "No one ever is. We don’t get to choose our time. Death is what gives life meaning. To know your days are numbered, your time is short. You’d think after all this time I’d be ready. But look at me: stretching one moment out into a thousand, just so I can watch the snow."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Are you okay? I don’t understand what’s happening. - I know. But I have to go right now."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "You said that losing my hands didn’t have to be the end, that it could be a beginning."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "Yeah. Because there are other ways to save lives."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "A harder way."
-    },
-    {
-      "character": "CHRISTINE PALMER",
-      "text": "A weirder way. Dr. Palmer, the ER, please. Dr. Palmer, the ER."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I don’t want to let you go. Stop."
+      "character": "DOCTOR STRANGE",
+      "text": "What are those?",
+      "scene": 15
     },
     {
       "character": "WONG",
-      "text": "Choose your weapon wisely. No one steps foot in this Sanctum. No one. Kaecilius."
+      "text": "The Ancient One's private collection.",
+      "scene": 15
     },
     {
-      "character": "KAECILIUS",
-      "text": "You’re on the wrong side of history, Wong."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "She’s dead."
-    },
-    {
-      "character": "MORDO",
-      "text": "You were right. She wasn’t who I thought she was."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "She was complicated."
-    },
-    {
-      "character": "MORDO",
-      "text": "Complicated? The Dark Dimension is volatile, dangerous. What if it overtook her? She taught us it was forbidden, while she drew on its power to steal centuries of life."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "She did what she thought was right."
-    },
-    {
-      "character": "MORDO",
-      "text": "The bill comes due. Don’t you see? Her transgressions led the zealots to Dormammu. Kaecilius was her fault. And here we are, in the consequence of her deception: a world on fire."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Mordo, London Sanctum has fallen, and New York has been attacked. Twice. You know where they’re going next. Hong Kong. You told me once to fight as if my life depended on it, because one day, it might. Well, today is that day. I can not defeat them alone."
-    },
-    {
-      "character": "MORDO",
-      "text": "The Sanctum has already fallen. The Dark Dimension. Dormammu is coming. It’s too late. Nothing can stop him."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Not necessarily. No."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Spells working. We got a second chance. No!"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Wong! I’m breaking the laws of nature, I know."
+      "character": "DOCTOR STRANGE",
+      "text": "So, they're forbidden?",
+      "scene": 15
     },
     {
       "character": "WONG",
-      "text": "Well, don’t stop now. When the Sanctum is restored, they will attack again. We have to defend it. Come on! Get up, Strange. Get up and fight! We will finish this."
+      "text": "No knowledge in Kamar-Taj is forbidden. Only certain practices. Those books are far too advanced for anyone other than the Sorcerer Supreme.",
+      "scene": 15
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "This one's got pages missing.",
+      "scene": 16
+    },
+    {
+      "character": "WONG",
+      "text": "That's The Book of Cagliostro. A study of time. One of the rituals was stolen by a former master. The Zealot, Kaecilius. Just after he strung up the former librarian... and relieved him of his head.",
+      "scene": 16
+    },
+    {
+      "character": "WONG",
+      "text": "I am now the guardian of these books. So if a volume from this collection should be stolen again... I'd know it... and you'd be dead before you ever left the compound.",
+      "scene": 16
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "What if it's just overdue? Any late fees I should know about? Maiming, perhaps?",
+      "scene": 16
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "People used to think that I was funny.",
+      "scene": 16
+    },
+    {
+      "character": "WONG",
+      "text": "Did they work for you?",
+      "scene": 16
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "All right. Well, it's been lovely talking to you. Thank you for the books... and for the horrifying story... and for the threat upon my life.",
+      "scene": 16
+    },
+    {
+      "character": "MORDO",
+      "text": "Mastery of the sling ring is essential to the mystic arts. They allow us to travel throughout the Multiverse. All you need to do is focus. Visualize. See the destination in your mind. Look beyond the world in front of you. Imagine every detail. The clearer the picture, the quicker and easier... the gateway will come.",
+      "scene": 17
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "And stop. I would like a moment alone with Mr. Strange.",
+      "scene": 17
+    },
+    {
+      "character": "MORDO",
+      "text": "Of course.",
+      "scene": 17
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "My hands.",
+      "scene": 17
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "It's not about your hands.",
+      "scene": 17
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "How is this not about my hands?",
+      "scene": 17
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Master Hamir.",
+      "scene": 17
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Thank you, Master Hamir. You cannot beat a river into submission. You have to surrender to its current... and use its power as your own.",
+      "scene": 18
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I control it by surrendering control? That doesn't make any sense.",
+      "scene": 18
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Not everything does. Not everything has to. Your intellect has taken you far in life... but it will take you no further. Surrender, Stephen. Silence your ego... and your power will rise. Come with me.",
+      "scene": 18
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Wait. Is this...",
+      "scene": 18
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Everest.",
+      "scene": 18
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Beautiful.",
+      "scene": 18
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Yeah, right, beautiful. Freezing but beautiful.",
+      "scene": 18
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "At this temperature... a person can last for 30 minutes... before suffering permanent loss of function.",
+      "scene": 18
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Great.",
+      "scene": 18
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "But you'll likely go into shock within the first two.",
+      "scene": 18
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "What?",
+      "scene": 18
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Surrender, Stephen.",
+      "scene": 18
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "No!",
+      "scene": 18
+    },
+    {
+      "character": "MORDO",
+      "text": "How's our new recruit?",
+      "scene": 18
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "We shall see. Any second now.",
+      "scene": 18
+    },
+    {
+      "character": "MORDO",
+      "text": "Oh, no, not again.",
+      "scene": 18
+    },
+    {
+      "character": "MORDO",
+      "text": "Maybe I should...",
+      "scene": 18
+    },
+    {
+      "character": "WONG",
+      "text": "Stephen.",
+      "scene": 19
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Wong.",
+      "scene": 19
+    },
+    {
+      "character": "WONG",
+      "text": "What do you want, Strange?",
+      "scene": 19
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Books on astral projection.",
+      "scene": 19
+    },
+    {
+      "character": "WONG",
+      "text": "You're not ready for that.",
+      "scene": 19
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Try me, Beyoncé.",
+      "scene": 19
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Oh, come on. You've heard of her. She's a huge star, right?",
+      "scene": 19
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Do you ever laugh? Oh, come on, just give me the book.",
+      "scene": 19
+    },
+    {
+      "character": "WONG",
+      "text": "No.",
+      "scene": 19
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Once, in this room, you begged me to let you learn. Now, I'm told you question every lesson... preferring to teach yourself.",
+      "scene": 20
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Once, in this room, you told me to open my eye. Now, I'm being told to blindly accept rules... that make no sense.",
+      "scene": 20
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Like the rule against conjuring a gateway in the library?",
+      "scene": 20
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Wong told on me?",
+      "scene": 20
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "You're advancing quickly with your sorcery skills. You need a safe space to practice your spells.",
+      "scene": 20
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "You are now inside the Mirror Dimension... ever present but undetected. The real world isn't affected by what happens here.",
+      "scene": 21
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "We use the Mirror Dimension to train, surveil... and sometimes to contain threats. You don't wanna be stuck in here without your sling ring.",
+      "scene": 21
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Hold on. Sorry. What do you mean, \"threats?\"",
+      "scene": 21
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Learning of an infinite Multiverse includes learning of infinite dangers. If I told you everything else that you don't already know... you'd run from here in terror.",
+      "scene": 21
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "So just how ancient is she?",
+      "scene": 21
+    },
+    {
+      "character": "MORDO",
+      "text": "No one knows the age of the Sorcerer Supreme. Only that she's Celtic and never talks about her past.",
+      "scene": 21
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "You follow her, even though you don't know?",
+      "scene": 21
+    },
+    {
+      "character": "MORDO",
+      "text": "I know she's steadfast... but unpredictable. Merciless, yet kind.",
+      "scene": 21
+    },
+    {
+      "character": "MORDO",
+      "text": "She made me what I am.",
+      "scene": 21
+    },
+    {
+      "character": "MORDO",
+      "text": "Trust your teacher... and don't lose your way.",
+      "scene": 21
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Like Kaecilius?",
+      "scene": 21
+    },
+    {
+      "character": "MORDO",
+      "text": "That's right.",
+      "scene": 21
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "-You knew him.",
+      "scene": 21
+    },
+    {
+      "character": "MORDO",
+      "text": "When he first came to us... he'd lost everyone he ever loved. He was a grieving, broken man searching for answers in the mystic arts. A brilliant student, but he was proud, headstrong. He questioned the Ancient One, rejected her teaching.",
+      "scene": 21
+    },
+    {
+      "character": "MORDO",
+      "text": "He left Kamar-Taj. His disciples followed him like sheep. Seduced by false doctrine.",
+      "scene": 21
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "And he stole the forbidden ritual, right?",
+      "scene": 21
+    },
+    {
+      "character": "MORDO",
+      "text": "Yes.",
+      "scene": 21
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "What did it do?",
+      "scene": 21
+    },
+    {
+      "character": "MORDO",
+      "text": "No more questions.",
+      "scene": 21
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "What's that?",
+      "scene": 21
+    },
+    {
+      "character": "MORDO",
+      "text": "That's a question.",
+      "scene": 21
+    },
+    {
+      "character": "MORDO",
+      "text": "This is a relic. Some magic is too powerful to sustain... so we imbue objects with it... allowing them to take the strain we cannot. This is the staff... of the Living Tribunal.",
+      "scene": 21
+    },
+    {
+      "character": "MORDO",
+      "text": "There are many relics. The Wand of Watoomb. The Vaulting Boots of Valtorr.",
+      "scene": 21
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Really just roll off the tongue, don't they? When do I get my relic?",
+      "scene": 21
+    },
+    {
+      "character": "MORDO",
+      "text": "When you're ready.",
+      "scene": 21
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I think I'm ready.",
+      "scene": 21
+    },
+    {
+      "character": "MORDO",
+      "text": "You're ready when the relic decides you're ready. For now... conjure a weapon.",
+      "scene": 21
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "All right.",
+      "scene": 21
+    },
+    {
+      "character": "MORDO",
+      "text": "Fight! Fight like your life depended on it.",
+      "scene": 21
+    },
+    {
+      "character": "MORDO",
+      "text": "Because one day... it may.",
+      "scene": 21
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "\"Dormammu.\"",
+      "scene": 22
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "\"The Dark Dimension.\" Eternal life?",
+      "scene": 22
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "What the...",
+      "scene": 22
+    },
+    {
+      "character": "MORDO",
+      "text": "Stop!",
+      "scene": 22
+    },
+    {
+      "character": "WONG",
+      "text": "Tampering with continuum probabilities is forbidden.",
+      "scene": 22
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I was just doing exactly what it said in the book.",
+      "scene": 22
+    },
+    {
+      "character": "MORDO",
+      "text": "What did the book say about the dangers of performing that ritual?",
+      "scene": 22
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I don't know. I hadn't gotten to that part yet.",
+      "scene": 22
+    },
+    {
+      "character": "WONG",
+      "text": "Temporal manipulations can create branches in time. Unstable dimensional openings. Spatial paradoxes! Time loops! You wanna get stuck reliving the same moment over and over forever... or never having existed at all?",
+      "scene": 22
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Really should put the warnings before the spell.",
+      "scene": 22
+    },
+    {
+      "character": "MORDO",
+      "text": "Your curiosity could have gotten you killed. You weren't manipulating the space-time continuum... you were breaking it. We do not tamper with natural law. We defend it.",
+      "scene": 22
+    },
+    {
+      "character": "WONG",
+      "text": "How did you even do that?",
+      "scene": 22
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Hmm?",
+      "scene": 22
+    },
+    {
+      "character": "WONG",
+      "text": "Where did you learn the litany of spells required to even understand it?",
+      "scene": 22
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I've got a photographic memory. That's how I got my M.D. and Ph.D. at the same time.",
+      "scene": 22
+    },
+    {
+      "character": "WONG",
+      "text": "What you just did... takes more than a good memory.",
+      "scene": 22
+    },
+    {
+      "character": "MORDO",
+      "text": "You were born for the mystic arts.",
+      "scene": 22
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "And yet my hands still shake.",
+      "scene": 22
+    },
+    {
+      "character": "MORDO",
+      "text": "For now, yes.",
+      "scene": 22
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Not forever?",
+      "scene": 22
+    },
+    {
+      "character": "WONG",
+      "text": "We're not prophets.",
+      "scene": 22
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "When are you gonna start telling me what we are?",
+      "scene": 22
+    },
+    {
+      "character": "WONG",
+      "text": "While heroes like the Avengers protect the world from physical dangers... we sorcerers safeguard it against more mystical threats. The Ancient One is the latest in a long line of Sorcerers Supreme... going back thousands of years to the father of the mystic arts... the mighty Agamotto. Same sorcerer who created the eye you so recklessly borrowed. Agamotto built three Sanctums in places of power... where great cities now stand. That door leads to the Hong Kong Sanctum. That door to the New York Sanctum. That one to the London Sanctum. Together... the Sanctums generate a protective shield around our world. The Sanctums protect the world... and we sorcerers... protect the Sanctums.",
+      "scene": 22
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "From what?",
+      "scene": 22
+    },
+    {
+      "character": "WONG",
+      "text": "Other dimensional beings that threaten our universe.",
+      "scene": 22
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Like Dormammu.",
+      "scene": 22
+    },
+    {
+      "character": "WONG",
+      "text": "Where did you learn that name?",
+      "scene": 22
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I just read it in The Book of Cagliostro. Why?",
+      "scene": 22
+    },
+    {
+      "character": "WONG",
+      "text": "Dormammu dwells in the Dark Dimension. Beyond time. He is the cosmic conqueror... the destroyer of worlds. A being of infinite power and endless hunger... on a quest to invade every universe... and bring all worlds into his Dark Dimension. And he hungers for Earth most of all.",
+      "scene": 22
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "The pages that Kaecilius stole.",
+      "scene": 22
+    },
+    {
+      "character": "WONG",
+      "text": "A ritual to contact Dormammu and draw power from the Dark Dimension.",
+      "scene": 22
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Uh... Okay... Um... I'm out. I came here to heal my hands. Not to fight in some mystical war.",
+      "scene": 22
+    },
+    {
+      "character": "MORDO",
+      "text": "London.",
+      "scene": 22
+    },
+    {
+      "character": "MORDO",
+      "text": "Kaecilius!",
+      "scene": 22
+    },
+    {
+      "character": "WONG",
+      "text": "No!",
+      "scene": 22
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Wong? Mordo?",
+      "scene": 22
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Stop!",
+      "scene": 23
     },
     {
       "character": "KAECILIUS",
-      "text": "You can’t fight the inevitable. Isn’t it beautiful? A world beyond time. Beyond death."
+      "text": "How long have you been at Kamar-Taj, Mister...",
+      "scene": 23
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Beyond time…"
+      "character": "DOCTOR STRANGE",
+      "text": "Doctor.",
+      "scene": 23
     },
     {
       "character": "KAECILIUS",
-      "text": "He’s gone. Stephen Strange has left to surrender to his power."
+      "text": "Mister Doctor?",
+      "scene": 23
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Dormammu! I’ve come to bargain."
+      "character": "DOCTOR STRANGE",
+      "text": "It's Strange.",
+      "scene": 23
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "Maybe. Who am I to judge?",
+      "scene": 23
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "Ha!",
+      "scene": 24
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "You don't know how to use that, do you?",
+      "scene": 24
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Uh...",
+      "scene": 24
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "What?",
+      "scene": 25
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Oh, stop it. I said stop it.",
+      "scene": 25
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "You cannot stop this, Mister Doctor.",
+      "scene": 25
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I don't even know what \"this\" is.",
+      "scene": 25
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "It's the end... and the beginning. The many becoming the few becoming the One.",
+      "scene": 25
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "If you're not gonna start making sense... I'm just gonna to have to put this thing back on.",
+      "scene": 25
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "Tell me, Mister Doctor...",
+      "scene": 25
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "My name is Doctor Stephen Strange.",
+      "scene": 25
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "You are a doctor?",
+      "scene": 25
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Yeah.",
+      "scene": 25
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "A scientist. You understand the laws of nature. All things age. All things die. In the end, our sun burns out. Our universe grows cold and perishes. But the Dark Dimension... it's a place beyond time.",
+      "scene": 25
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "That's it. I'm putting this thing back on.",
+      "scene": 25
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "This world doesn't have to die, doctor. This world can take its rightful place alongside so many others... as part of the One. The great and beautiful One. We can all live forever.",
+      "scene": 25
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Really?",
+      "scene": 25
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "What do you have to gain out of this New Age dimensional utopia?",
+      "scene": 25
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "The same as you. The same as everyone. Life. Eternal life. People think in terms of good and evil... when really time is the true enemy of us all. Time kills everything.",
+      "scene": 25
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "What about the people you killed?",
+      "scene": 25
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "Tiny. Momentary specks within an indifferent universe.",
+      "scene": 25
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "Yes. You see. You see what we're doing. The world is not what it ought to be. Humanity longs for the eternal... for a world beyond time, because time is what enslaves us. Time is an insult. Death is an insult. Doctor... we don't seek to rule this world. We seek to save it... to hand it over to Dormammu, who is the intent of all evolution... the why of all existence.",
+      "scene": 25
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "The Sorcerer Supreme defends existence.",
+      "scene": 25
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "What was it that brought you to Kamar-Taj, doctor? Was it enlightenment? Power?",
+      "scene": 25
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "You came to be healed, as did we all.",
+      "scene": 25
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "Kamar-Taj is a place that collects broken things. We all come with the promise of being healed... and instead The Ancient One gives us parlor tricks. The real magic she keeps for herself. You ever wonder how she managed to live this long?",
+      "scene": 25
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I saw the rituals in The Book of Cagliostro.",
+      "scene": 25
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "So, you know. The ritual gives me the power to overthrow The Ancient One... and tear her Sanctums down. To let the Dark Dimension in. Because what The Ancient One hoards, Dormammu gives freely. Life everlasting. He's not the destroyer of worlds, doctor. He's the savior of worlds.",
+      "scene": 25
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "No. I mean, come on. Look at your face. Dormammu made you a murderer. Just how good can his kingdom be?",
+      "scene": 25
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "You think that's funny?",
+      "scene": 25
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "No, not that. What's funny is that you've lost your sling ring.",
+      "scene": 25
+    },
+    {
+      "character": "NURSE",
+      "text": "Sir, can I help you?",
+      "scene": 26
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Doctor Palmer, where is she?",
+      "scene": 26
+    },
+    {
+      "character": "NURSE",
+      "text": "Sir. We need to get...",
+      "scene": 26
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Where is she?",
+      "scene": 26
+    },
+    {
+      "character": "NURSE",
+      "text": "The nurse's station.",
+      "scene": 26
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Christine!",
+      "scene": 26
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Stephen? Oh, my God.",
+      "scene": 26
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Get me in an operating theater now. Just you. Now! I haven't any time.",
+      "scene": 26
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "What happened?",
+      "scene": 26
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I was stabbed. Cardiac tamponade.",
+      "scene": 26
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "What are you wearing?",
+      "scene": 26
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Chest cavity is clear.",
+      "scene": 26
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "No, the blood is in the pericardial sac.",
+      "scene": 26
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "No, no, no. Stephen?",
+      "scene": 26
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Come on, come on.",
+      "scene": 26
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Just a little higher. Please be careful with the needle.",
+      "scene": 27
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Stephen?",
+      "scene": 27
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "What am I seeing?",
+      "scene": 27
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "My astral body.",
+      "scene": 27
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Are you dead?",
+      "scene": 27
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "No, Christine. But I am dying.",
+      "scene": 27
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Right. Yeah. All right. Okay.",
+      "scene": 27
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Oh, wow.",
+      "scene": 27
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "I've never seen a wound like this. What were you stabbed with?",
+      "scene": 27
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I don't know.",
+      "scene": 27
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I'm gonna have to vanish now.",
+      "scene": 28
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "What?",
+      "scene": 28
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Keep me alive, will you?",
+      "scene": 28
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Huh? Okay. Uh-huh.",
+      "scene": 28
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Come on, come on.",
+      "scene": 29
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Stephen, come on.",
+      "scene": 29
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Hit me again.",
+      "scene": 29
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Stop doing that!",
+      "scene": 29
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Up the voltage and hit me again.",
+      "scene": 29
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "No, your heart's beating!",
+      "scene": 29
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Just do it!",
+      "scene": 29
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Oh, my God.",
+      "scene": 29
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Oh, God! Oh, God! Are you okay?",
+      "scene": 30
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Yeah.",
+      "scene": 30
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "-Okay.",
+      "scene": 30
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "After all this time... you just show up here... flying out of your body.",
+      "scene": 30
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Yeah, I know. I missed you, too, by the way.",
+      "scene": 30
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Ha ha.",
+      "scene": 30
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I wrote you emails, but you never responded.",
+      "scene": 30
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Why would I?",
+      "scene": 30
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Christine, I am so, so sorry. For all of it. You were right. I was a complete asshole. I treated you so horribly. And you deserved so much more.",
+      "scene": 30
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Stop. You're clearly in shock.",
+      "scene": 30
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "What the hell is happening? Where have you been?",
+      "scene": 30
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Well, after Western medicine failed me... I headed east, and I ended up in Kathmandu.",
+      "scene": 30
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Kathmandu?",
+      "scene": 30
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Yeah.",
+      "scene": 30
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Like the Bob Seger song?",
+      "scene": 30
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "1975, Beautiful Loser, side A. Yeah. I went to a place called Kamar-Taj... and I talked to someone called \"The Ancient One.\"",
+      "scene": 30
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Oh. So you joined a cult.",
+      "scene": 30
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "No, I didn't. No, not exactly. No. They did teach me to tap into powers that I never even knew existed.",
+      "scene": 30
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Yeah. That sounds like a cult.",
+      "scene": 30
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "It's not a cult.",
+      "scene": 30
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Well, that's what a cultist would say.",
+      "scene": 30
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Wait. Stephen, wait. What do you think you're doing?",
+      "scene": 30
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I'm late for a cult meeting.",
+      "scene": 30
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "This is insane.",
+      "scene": 30
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Yeah.",
+      "scene": 30
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Where are you going?",
+      "scene": 30
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Um...",
+      "scene": 30
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Can you tell me the truth?",
+      "scene": 30
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Well, a powerful sorcerer who gave himself over to an ancient entity... can bend the very laws of physics, tried very hard to kill me. But I left him chained up in Greenwich Village... and the quickest way back there is through a dimensional gateway... that I opened up in the mop closet.",
+      "scene": 30
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Okay. Don't tell me. Fine.",
+      "scene": 30
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Really do have to go.",
+      "scene": 30
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Yeah.",
+      "scene": 30
+    },
+    {
+      "character": "MORDO",
+      "text": "Strange!",
+      "scene": 31
+    },
+    {
+      "character": "MORDO",
+      "text": "You're okay.",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "A relative term. But yeah, I'm okay.",
+      "scene": 31
+    },
+    {
+      "character": "MORDO",
+      "text": "The Cloak of Levitation. It came to you.",
+      "scene": 31
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "No minor feat. It's a fickle thing.",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "He's escaped.",
+      "scene": 31
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Kaecilius?",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Yeah. He can fold space and matter at will.",
+      "scene": 31
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "He folds matter outside the Mirror Dimension... in the real world?",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Yeah.",
+      "scene": 31
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "How many more?",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Two. I stranded one in the desert.",
+      "scene": 31
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "And the other?",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "His body's in the hall. Master Drumm is in the foyer.",
+      "scene": 31
+    },
+    {
+      "character": "MORDO",
+      "text": "He's been taken back to Kamar-Taj.",
+      "scene": 31
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "The London Sanctum has fallen. Only New York and Hong Kong remain now... to shield us from the Dark Dimension. You defended the New York Sanctum from attack. With its master gone, it needs another. Master Strange.",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "No. It is Doctor Strange. Not Master Strange. Not Mister Strange. Doctor Strange. When I became a doctor, I swore an oath to do no harm. And I have just killed a man! I'm not doing that again. I became a doctor to save lives, not take them.",
+      "scene": 31
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "You became a doctor to save one life above all others. Your own.",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Still seeing through me, are you?",
+      "scene": 31
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "I see what I've always seen: your over-inflated ego. You want to go back to the delusion that you can control anything... even death... which no one can control. Not even the great Doctor Stephen Strange.",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Not even Dormammu?",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "He offers immortality.",
+      "scene": 31
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "It's our fear of death that gives Dormammu life. He feeds off it.",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Like you feed off him? You talk to me about controlling death? Oh, I know how you do it. I've seen the missing rituals from The Book of Cagliostro.",
+      "scene": 31
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Measure your next words very carefully, doctor.",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Because you might not like them?",
+      "scene": 31
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Because you may not know of what you speak.",
+      "scene": 31
+    },
+    {
+      "character": "MORDO",
+      "text": "What is he talking about?",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I'm talking about her long life, the source of her immortality.",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "She draws power from the Dark Dimension to stay alive.",
+      "scene": 31
+    },
+    {
+      "character": "MORDO",
+      "text": "That's not true.",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I've seen the rituals. Worked them out. I know how you do it.",
+      "scene": 31
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Once they regroup... the Zealots will be back. You'll need reinforcements.",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "She's not who you think she is.",
+      "scene": 31
+    },
+    {
+      "character": "MORDO",
+      "text": "You don't have the right to say that. You've no idea the responsibility that rests upon her shoulders.",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "No, and I don't want to know.",
+      "scene": 31
+    },
+    {
+      "character": "MORDO",
+      "text": "You're a coward.",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Because I'm not a killer?",
+      "scene": 31
+    },
+    {
+      "character": "MORDO",
+      "text": "These Zealots will snuff us all out... and you can't muster the strength to snuff them first?",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "What do you think I just did?",
+      "scene": 31
+    },
+    {
+      "character": "MORDO",
+      "text": "You saved your own life! And then whined about it like a wounded dog.",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Oh, you would have done it so easily?",
+      "scene": 31
+    },
+    {
+      "character": "MORDO",
+      "text": "You've no idea the things I've done.",
+      "scene": 31
+    },
+    {
+      "character": "MORDO",
+      "text": "And the answer is yes. Without hesitation.",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Even if there's another way?",
+      "scene": 31
+    },
+    {
+      "character": "MORDO",
+      "text": "There is no other way.",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "You lack imagination.",
+      "scene": 31
+    },
+    {
+      "character": "MORDO",
+      "text": "No, Stephen. You lack a spine.",
+      "scene": 31
+    },
+    {
+      "character": "MORDO",
+      "text": "They're back.",
+      "scene": 31
+    },
+    {
+      "character": "MORDO",
+      "text": "We have to end this. Now!",
+      "scene": 31
+    },
+    {
+      "character": "MORDO",
+      "text": "Strange! Get down here and fight!",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "No!",
+      "scene": 31
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "The Mirror Dimension. You can't affect the real world in here. Who's laughing now? Asshole.",
+      "scene": 31
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "I am.",
+      "scene": 31
+    },
+    {
+      "character": "MORDO",
+      "text": "It's true. She does draw power from the Dark Dimension.",
+      "scene": 32
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Kaecilius.",
+      "scene": 32
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "I came to you broken... lost, in need. Trusted you to be my teacher, and you fed me lies.",
+      "scene": 32
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "I tried to protect you.",
+      "scene": 32
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "From the truth?",
+      "scene": 32
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "From yourself.",
+      "scene": 32
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "I have a new teacher now.",
+      "scene": 32
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Dormammu deceives you. You have no idea what he truly is. His eternal life is not paradise, but torment.",
+      "scene": 32
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "Liar.",
+      "scene": 32
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Christine!",
+      "scene": 33
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Are you kidding me? Oh, my God.",
+      "scene": 33
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "It's not fibrillation. She has a stunned myocardium.",
+      "scene": 33
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Neurogenic?",
+      "scene": 33
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Yes.",
+      "scene": 33
+    },
+    {
+      "character": "DR. NICODEMUS WEST",
+      "text": "Someone get the swabs.",
+      "scene": 33
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Nic?",
+      "scene": 33
+    },
+    {
+      "character": "DR. NICODEMUS WEST",
+      "text": "We need to relieve the pressure on her brain.",
+      "scene": 33
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "We're losing her!",
+      "scene": 34
+    },
+    {
+      "character": "DR. NICODEMUS WEST",
+      "text": "We need to increase her oxygen!",
+      "scene": 34
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "I need a crash cart!",
+      "scene": 34
+    },
+    {
+      "character": "NURSE",
+      "text": "Her pupils have dilated! No reflexes. We're not reading any brain activity.",
+      "scene": 34
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "What are you doing? Come on, you're dying!",
+      "scene": 34
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "You have to return to your body now. You don't have time.",
+      "scene": 34
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Time is relative. Your body hasn't even hit the floor yet.",
+      "scene": 34
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "I've spent so many years... peering through time... looking at this exact moment. But I can't see past it. I've prevented countless, terrible futures. And after each one, there's always another. And they all lead here... but never further.",
+      "scene": 34
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "You think this is where you die.",
+      "scene": 34
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "You wonder what I see in your future?",
+      "scene": 34
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "No.",
+      "scene": 34
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Yes.",
+      "scene": 34
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "I never saw your future. Only its possibilities. You have such a capacity for goodness. You always excelled... but not because you craved success... but because of your fear of failure.",
+      "scene": 34
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "That's what made me a great doctor.",
+      "scene": 34
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "It's precisely what kept you from greatness. Arrogance and fear still keep you... from learning the simplest and most significant lesson of all.",
+      "scene": 34
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Which is?",
+      "scene": 34
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "It's not about you.",
+      "scene": 34
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "When you first came to me... you asked me how I was able to heal Jonathan Pangborn. I didn't.",
+      "scene": 34
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "He channels dimensional energy directly into his own body.",
+      "scene": 34
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "He uses magic to walk?",
+      "scene": 34
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Constantly. He had a choice... to return to his own life... or to serve something greater than himself.",
+      "scene": 34
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "So I could have my hands back again? My old life?",
+      "scene": 34
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "You could. And the world would be all the lesser for it.",
+      "scene": 34
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "I've hated drawing power from the Dark Dimension. But as you well know... sometimes one must break the rules... in order to serve the greater good.",
+      "scene": 34
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Mordo won't see it that way.",
+      "scene": 34
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Mordo's soul is rigid and unmovable... forged by the fires of his youth. He needs your flexibility... just as you need his strength. Only together do you stand a chance of stopping Dormammu.",
+      "scene": 34
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I'm not ready.",
+      "scene": 34
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "No one ever is.",
+      "scene": 34
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "We don't get to choose our time.",
+      "scene": 34
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "Death is what gives life meaning. To know your days are numbered. Your time is short.",
+      "scene": 34
+    },
+    {
+      "character": "THE ANCIENT ONE",
+      "text": "You'd think after all this time, I'd be ready. But look at me. Stretching one moment out into a thousand... just so that I can watch the snow.",
+      "scene": 34
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Are you okay?",
+      "scene": 35
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "I don't understand what's happening.",
+      "scene": 35
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I know. But I have to go away now.",
+      "scene": 35
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "You said that losing my hands didn't have to be the end. That it could be a beginning.",
+      "scene": 35
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Yeah.",
+      "scene": 35
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "Because there are other ways to save lives.",
+      "scene": 35
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "A harder way.",
+      "scene": 35
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "A weirder way.",
+      "scene": 35
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Doctor Palmer to the ER, please. Doctor Palmer to the ER.",
+      "scene": 35
+    },
+    {
+      "character": "DR. CHRISTINE PALMER",
+      "text": "I don't want you to go.",
+      "scene": 35
+    },
+    {
+      "character": "WONG",
+      "text": "Choose your weapon wisely.",
+      "scene": 36
+    },
+    {
+      "character": "WONG",
+      "text": "No one steps foot in this Sanctum.",
+      "scene": 36
+    },
+    {
+      "character": "WONG",
+      "text": "No one.",
+      "scene": 36
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "She's dead. You were right. She wasn't who I thought she was. She was complicated.",
+      "scene": 37
+    },
+    {
+      "character": "MORDO",
+      "text": "Complicated?",
+      "scene": 37
+    },
+    {
+      "character": "MORDO",
+      "text": "The Dark Dimension is volatile. Dangerous. What if it overtook her?",
+      "scene": 37
+    },
+    {
+      "character": "MORDO",
+      "text": "She taught us it was forbidden... while she drew on its power to steal centuries of life.",
+      "scene": 37
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "She did what she thought was right.",
+      "scene": 37
+    },
+    {
+      "character": "MORDO",
+      "text": "The bill comes due. Don't you see?",
+      "scene": 37
+    },
+    {
+      "character": "MORDO",
+      "text": "Her transgressions led the Zealots to Dormammu. Kaecilius was her fault! And here we are... in the consequence of her deception.",
+      "scene": 37
+    },
+    {
+      "character": "MORDO",
+      "text": "A world on fire.",
+      "scene": 37
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Mordo, the London Sanctum has fallen. The New York one has been attacked twice. You know where they're going next.",
+      "scene": 37
+    },
+    {
+      "character": "MORDO",
+      "text": "Hong Kong.",
+      "scene": 37
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "You told me once to fight like my life depended on it... because one day, it might. Well, today is that day. I cannot defeat them alone.",
+      "scene": 37
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "The Sanctum's already fallen.",
+      "scene": 38
+    },
+    {
+      "character": "MORDO",
+      "text": "The Dark Dimension.",
+      "scene": 38
+    },
+    {
+      "character": "MORDO",
+      "text": "Dormammu is coming.",
+      "scene": 38
+    },
+    {
+      "character": "MORDO",
+      "text": "It's too late. Nothing can stop him.",
+      "scene": 38
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Not necessarily.",
+      "scene": 38
+    },
+    {
+      "character": "MORDO",
+      "text": "No.",
+      "scene": 38
+    },
+    {
+      "character": "MORDO",
+      "text": "The spell's working.",
+      "scene": 39
+    },
+    {
+      "character": "MORDO",
+      "text": "We've got a second chance.",
+      "scene": 39
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Whoa!",
+      "scene": 39
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "No!",
+      "scene": 40
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Wong.",
+      "scene": 40
+    },
+    {
+      "character": "WONG",
+      "text": "Breaking the laws of nature. I know.",
+      "scene": 40
+    },
+    {
+      "character": "WONG",
+      "text": "Well, don't stop now.",
+      "scene": 40
+    },
+    {
+      "character": "MORDO",
+      "text": "When the Sanctum's restored, they'll attack it again. We've got to defend it. Come on!",
+      "scene": 40
+    },
+    {
+      "character": "MORDO",
+      "text": "Get up, Strange. Get up and fight. We can finish this.",
+      "scene": 41
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "You can't fight the inevitable.",
+      "scene": 41
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "Isn't it beautiful?",
+      "scene": 41
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "A world beyond time.",
+      "scene": 41
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "Beyond death.",
+      "scene": 41
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Beyond time...",
+      "scene": 41
+    },
+    {
+      "character": "MORDO",
+      "text": "Strange.",
+      "scene": 41
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Dormammu, I've come to bargain.",
+      "scene": 42
     },
     {
       "character": "DORMAMMU",
-      "text": "You’ve come to die. Your world is now my world, like all worlds."
+      "text": "You've come to die. Your world is now my... What is this? Illusion?",
+      "scene": 42
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Dormammu! I’ve come to bargain."
-    },
-    {
-      "character": "DORMAMMU",
-      "text": "You’ve come to die. Your world is now my world...What is this? Illusion?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No, this is real."
+      "character": "DOCTOR STRANGE",
+      "text": "No. This is real.",
+      "scene": 42
     },
     {
       "character": "DORMAMMU",
-      "text": "Good."
+      "text": "Good.",
+      "scene": 42
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Dormammu! I’ve come to bargain."
-    },
-    {
-      "character": "DORMAMMU",
-      "text": "You… what is happening?"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Just as you gave Kaecilius powers from your dimension, I’ve brought a little power from mine. This is time: endless looped time."
+      "character": "DOCTOR STRANGE",
+      "text": "Dormammu, I've come to bargain.",
+      "scene": 42
     },
     {
       "character": "DORMAMMU",
-      "text": "You dare!"
+      "text": "You've... What is happening?",
+      "scene": 42
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Dormammu! I’ve come to bargain."
-    },
-    {
-      "character": "DORMAMMU",
-      "text": "You cannot do this forever."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Actually, I can. This is how things are now: you and me, trapped in this moment, endlessly."
+      "character": "DOCTOR STRANGE",
+      "text": "Just as you gave Kaecilius powers from your dimension... I brought a little power from mine. This is time. Endless looped time.",
+      "scene": 42
     },
     {
       "character": "DORMAMMU",
-      "text": "Then you will spend eternity dying."
+      "text": "You dare!",
+      "scene": 42
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Yeah. But everyone on Earth will live."
+      "character": "DOCTOR STRANGE",
+      "text": "Oh...",
+      "scene": 42
     },
     {
-      "character": "DORMAMMU",
-      "text": "But you will suffer."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Pain is an old friend. Dormammu! I’ve come to bargain."
-    },
-    {
-      "character": "DORMAMMU",
-      "text": "End this!"
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Dormammu!… Dormammu!… Dormammu!…"
+      "character": "DOCTOR STRANGE",
+      "text": "Dormammu, I've come to bargain.",
+      "scene": 42
     },
     {
       "character": "DORMAMMU",
-      "text": "You will never win."
+      "text": "You cannot do this forever.",
+      "scene": 42
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No…But I can lose...again, and again, and again, and again, forever. And that makes you my prisoner."
-    },
-    {
-      "character": "DORMAMMU",
-      "text": "No..."
-    },
-    {
-      "character": "DORMAMMU",
-      "text": "STOP! MAKE THIS STOP!!!!"
+      "character": "DOCTOR STRANGE",
+      "text": "Actually, I can. This is how things are now. You and me, trapped in this moment... endlessly.",
+      "scene": 42
     },
     {
       "character": "DORMAMMU",
-      "text": "SET ME FREE!"
+      "text": "Then you will spend eternity dying.",
+      "scene": 42
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "No. I’ve come to bargain."
+      "character": "DOCTOR STRANGE",
+      "text": "Yes. But everyone on Earth will live.",
+      "scene": 42
     },
     {
       "character": "DORMAMMU",
-      "text": "...what do you want?"
+      "text": "But you will suffer.",
+      "scene": 42
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Take your zealots from the Earth, end your assault on my world, never come back: do it, and I’ll break the loop."
+      "character": "DOCTOR STRANGE",
+      "text": "Pain's an old friend.",
+      "scene": 42
     },
     {
-      "character": "KAECILIUS",
-      "text": "What have you done?"
+      "character": "DOCTOR STRANGE",
+      "text": "I've come to bargain.",
+      "scene": 42
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "I made a bargain."
+      "character": "DORMAMMU",
+      "text": "End this!",
+      "scene": 42
     },
     {
-      "character": "KAECILIUS",
-      "text": "What is this?"
+      "character": "DOCTOR STRANGE",
+      "text": "Dormammu... Dormammu... Dormammu...",
+      "scene": 42
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Well, it’s, uh…it’s everything you ever wanted: eternal life as part of the One. You’re not going to like it. I think he really should have stolen the whole book, because the warnings… the warnings come after the spells."
+      "character": "DORMAMMU",
+      "text": "You will never win.",
+      "scene": 43
     },
     {
-      "character": "WONG",
-      "text": "Oh, that’s funny. We did it. Yes. Yes, we did it. By also violating the natural laws. Look around you. It’s over."
+      "character": "DOCTOR STRANGE",
+      "text": "No... but I can lose... again and again... and again... and again, forever.",
+      "scene": 43
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "And that makes you my prisoner.",
+      "scene": 43
+    },
+    {
+      "character": "DORMAMMU",
+      "text": "No! -Stop! Make this stop! Set me free!",
+      "scene": 43
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "No. I've come to bargain.",
+      "scene": 43
+    },
+    {
+      "character": "DORMAMMU",
+      "text": "What do you want?",
+      "scene": 43
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Take your Zealots from the Earth. End your assault on my world. Never come back. Do it... and I'll break the loop.",
+      "scene": 43
     },
     {
       "character": "MORDO",
-      "text": "You still think there will be no consequences, Strange? No price to pay? We broke our rules, just like her. The bill comes due. Always. A reckoning. I will follow this path no longer."
+      "text": "Get up, Strange! Get up and fight. We can finish this.",
+      "scene": 43
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Yeah, it’s okay."
+      "character": "KAECILIUS",
+      "text": "Isn't it beautiful?",
+      "scene": 43
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "A world beyond time.",
+      "scene": 43
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "Beyond death.",
+      "scene": 43
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "What have you done?",
+      "scene": 43
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "I made a bargain.",
+      "scene": 43
+    },
+    {
+      "character": "KAECILIUS",
+      "text": "What is this?",
+      "scene": 43
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Well, it's everything you've ever wanted. Eternal life as part of the One.",
+      "scene": 43
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "You're not gonna like it.",
+      "scene": 43
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "We did it.",
+      "scene": 44
+    },
+    {
+      "character": "MORDO",
+      "text": "Yes, we did it. By also violating... the natural law.",
+      "scene": 44
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Look around you. It's over.",
+      "scene": 44
+    },
+    {
+      "character": "MORDO",
+      "text": "You still think there will be no consequences, Strange? No price to pay? We broke our rules, just like her. The bill comes due. Always! A reckoning.",
+      "scene": 44
+    },
+    {
+      "character": "MORDO",
+      "text": "I will follow this path no longer.",
+      "scene": 44
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Yeah, okay.",
+      "scene": 45
     },
     {
       "character": "WONG",
-      "text": "Wise choice. You’ll wear the Eye of Agamotto once you’ve mastered its powers. Until then, best not to walk the streets wearing an Infinity Stone."
+      "text": "Wise choice. You'll wear the Eye of Agamotto... once you've mastered its powers. Until then... best not to walk the streets wearing an Infinity Stone.",
+      "scene": 45
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "A what?"
+      "character": "DOCTOR STRANGE",
+      "text": "A what?",
+      "scene": 45
     },
     {
       "character": "WONG",
-      "text": "You might have a gift for the mystic arts, but you still have much to learn. Word of the Ancient One’s death will spread through the Multiverse. Earth has no Sorcerer Supreme to defend it. We must be ready."
+      "text": "You might have a gift for the mystic arts, but you still have much to learn. Word of the Ancient One's death will spread through the Multiverse. Earth has no Sorcerer Supreme to defend it. We must be ready.",
+      "scene": 45
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "We’ll be ready."
+      "character": "DOCTOR STRANGE",
+      "text": "We'll be ready.",
+      "scene": 45
     },
     {
       "character": "THOR",
-      "text": "So, Earth has wizards now, huh?"
+      "text": "So Earth has wizards now, huh?",
+      "scene": 46
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Tea?"
-    },
-    {
-      "character": "THOR",
-      "text": "I don’t drink tea."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "What do you drink?"
+      "character": "DOCTOR STRANGE",
+      "text": "Tea?",
+      "scene": 46
     },
     {
       "character": "THOR",
-      "text": "Not tea."
+      "text": "I don't drink tea.",
+      "scene": 46
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "So, I keep a watchlist of individuals and beings from other realms that may be a threat to this world. Your adopted brother, Loki, is one of those beings."
-    },
-    {
-      "character": "THOR",
-      "text": "A worthy inclusion."
-    },
-    {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Yeah. So, why bring him here to New York?"
+      "character": "DOCTOR STRANGE",
+      "text": "What do you drink?",
+      "scene": 46
     },
     {
       "character": "THOR",
-      "text": "That's a long story. A family drama, that kind of thing, but… we’re looking for my father."
+      "text": "Not tea.",
+      "scene": 46
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Oh, okay. So, if you’ve found Odin, you all will return to Asgard, probably?"
+      "character": "DOCTOR STRANGE",
+      "text": "So, I keep a watch list... of individuals and beings from other realms that may be a threat to this world. Your adopted brother, Loki, is one of those beings.",
+      "scene": 46
     },
     {
       "character": "THOR",
-      "text": "Oh, yes. Probably."
+      "text": "Worthy inclusion.",
+      "scene": 46
     },
     {
-      "character": "DR. STEPHEN STRANGE",
-      "text": "Alright. Let me help you."
+      "character": "DOCTOR STRANGE",
+      "text": "Yeah. So why bring him here to New York?",
+      "scene": 46
     },
     {
-      "character": "PANGBORN",
-      "text": "Can I help you?"
+      "character": "THOR",
+      "text": "It's a bit of a long story. Family drama, that kind of thing. But we're looking for my father.",
+      "scene": 46
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Oh, okay. So if you found Odin... you'd all return to Asgard promptly?",
+      "scene": 46
+    },
+    {
+      "character": "THOR",
+      "text": "Oh, yes. Promptly.",
+      "scene": 46
+    },
+    {
+      "character": "DOCTOR STRANGE",
+      "text": "Great! Allow me to help you.",
+      "scene": 46
+    },
+    {
+      "character": "JONATHAN PANGBORN",
+      "text": "Can I help you?",
+      "scene": 47
     },
     {
       "character": "MORDO",
-      "text": "They carried you into Kamar-Taj on a strecher. Look at you now. Pangborn."
+      "text": "They carried you into Kamar-Taj on a stretcher. Look at you now, Pangborn.",
+      "scene": 47
     },
     {
-      "character": "PANGBORN",
-      "text": "Mordo. So, what can I do for you? Man!"
+      "character": "JONATHAN PANGBORN",
+      "text": "Mordo.",
+      "scene": 47
     },
     {
-      "character": "MORDO",
-      "text": "You been away many months now and I heard a revelation. The true purpose of a sorcerer is to twist things out of there proper shape. Stealing power, providing nature…like you."
-    },
-    {
-      "character": "PANGBORN",
-      "text": "I stolen nothing. This is my power. Mine."
-    },
-    {
-      "character": "MORDO",
-      "text": "Power…has a purpose."
-    },
-    {
-      "character": "PANGBORN",
-      "text": "Why you doing this?"
+      "character": "JONATHAN PANGBORN",
+      "text": "So what can I do for you, man?",
+      "scene": 47
     },
     {
       "character": "MORDO",
-      "text": "Because I see it long last was wrong with the world. Too many sorcerers."
+      "text": "I've been away for many months now, and I've had a revelation. The true purpose of a sorcerer... is to twist things out of their proper shape... stealing power... perverting nature. Like you.",
+      "scene": 47
+    },
+    {
+      "character": "JONATHAN PANGBORN",
+      "text": "I've stolen nothing. This is my power. Mine.",
+      "scene": 47
+    },
+    {
+      "character": "MORDO",
+      "text": "Power... has a purpose.",
+      "scene": 47
+    },
+    {
+      "character": "JONATHAN PANGBORN",
+      "text": "Why are you doing this?",
+      "scene": 48
+    },
+    {
+      "character": "MORDO",
+      "text": "Because I see, at long last, what's wrong with the world.",
+      "scene": 48
+    },
+    {
+      "character": "MORDO",
+      "text": "Too many sorcerers.",
+      "scene": 48
     }
   ],
+  "lineCount": 707,
+  "characterCount": 13,
   "imdbId": "tt1211837",
   "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SX300.jpg",
   "rated": "PG-13",
   "runtime": "115 min",
-  "genre": "Action, Adventure, Fantasy",
-  "director": "Scott Derrickson",
+  "genre": "Fantasy, Adventure, Action",
+  "director": "",
   "topSpeakingCast": [
-    "DR. STEPHEN STRANGE",
-    "MORDO",
-    "CHRISTINE PALMER",
+    "DOCTOR STRANGE",
     "THE ANCIENT ONE",
-    "KAECILIUS",
+    "DR. CHRISTINE PALMER",
+    "MORDO",
     "WONG",
+    "KAECILIUS",
+    "JONATHAN PANGBORN",
+    "DR. NICODEMUS WEST",
     "DORMAMMU",
-    "PANGBORN",
     "BILLY",
-    "DR. WEST",
     "THOR",
-    "YOUNG DOCTOR"
+    "DR. ETIENNE ROUSSELOT"
   ]
 }

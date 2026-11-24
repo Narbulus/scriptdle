@@ -83,32 +83,35 @@
       flex: 1;
       display: flex;
       flex-direction: column;
-    }
-
-    /* Match .category-section + .category-heading structure */
-    .loading-section {
-      margin-bottom: 1rem;
-      max-width: 700px;
-      margin-left: auto;
-      margin-right: auto;
+      max-width: 820px;
       width: 100%;
+      margin: 0 auto;
+      padding: 1rem 1.25rem;
+      gap: 1rem;
     }
 
-    .loading-text {
-      font-family: 'Courier New', Courier, monospace;
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      color: #778da9; /* --main-text-secondary */
-      text-align: center;
-      margin: 0 0 0.5rem 0;
-      padding: 0 1.5rem;
+    .loading-skeleton-bar {
+      background: #1b263b;
+      border-radius: 6px;
+      height: 40px;
     }
 
-    /* Gameplay specific */
-    .loading-content.gameplay {
-      background: var(--script-bg);
+    .loading-skeleton-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.625rem;
+    }
+
+    .loading-skeleton-card {
+      background: #1b263b;
+      border-radius: 6px;
+      height: 64px;
+    }
+
+    @media (max-width: 620px) {
+      .loading-skeleton-grid {
+        grid-template-columns: 1fr;
+      }
     }
 
     @media (max-width: 600px) {
@@ -324,9 +327,13 @@
         </div>
         <div class="nav-right-skeleton"></div>
       </nav>
-      <div class="loading-content">
-        <div class="loading-section">
-          <div class="loading-text">Loading...</div>
+      <div class="loading-content" aria-hidden="true">
+        <div class="loading-skeleton-bar"></div>
+        <div class="loading-skeleton-grid">
+          <div class="loading-skeleton-card"></div>
+          <div class="loading-skeleton-card"></div>
+          <div class="loading-skeleton-card"></div>
+          <div class="loading-skeleton-card"></div>
         </div>
       </div>
     </div>

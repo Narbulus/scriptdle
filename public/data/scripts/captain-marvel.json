@@ -1,3348 +1,4074 @@
 {
   "id": "captain-marvel",
   "title": "Captain Marvel",
-  "year": null,
+  "year": 2019,
   "characters": [
     "ACCUSER",
-    "AGENT",
     "ATT-LASS",
-    "BARTENDER",
     "BIKER",
-    "BOY",
-    "BRON-CHAR",
+    "BRET",
+    "BRON-CHARR",
     "BRUCE BANNER",
-    "CADETS",
-    "CAROL",
-    "COMPUTER",
-    "COULSON",
-    "DIRECTOR",
-    "DRILL INSTRUCTOR",
-    "ELECTRONIC",
-    "FURY",
-    "FURY AND MARIA",
+    "CADET OFFICER",
+    "CAROL DANVERS",
+    "CAROL'S FATHER",
+    "EXAMINER",
     "JAMES RHODES",
-    "JOSEPH DANVERS",
     "KORATH",
-    "KREE",
-    "LAWSON",
-    "MARIA",
+    "MARIA RAMBEAU",
+    "MARIA'S MOM",
     "MEDICAL EXAMINER",
     "MINN-ERVA",
-    "MONICA",
+    "MONICA RAMBEAU",
     "NATASHA ROMANOFF",
-    "PILOT",
+    "NICK FURY",
+    "NOREX",
+    "PHIL COULSON",
     "RONAN",
     "SCANNER",
-    "SECURITY",
-    "SECURITY CHECKPOINT",
-    "SECURITY OFFICER",
-    "SKRULL",
-    "SKRULL SCIENTIST",
-    "SKRULL TECH",
-    "SOH-LARR",
+    "SECURITY CHIEF",
     "SOREN",
-    "STAN LEE (1922-2018 R.I.P)",
+    "STEVE",
     "STEVE ROGERS",
     "SUPREME INTELLIGENCE",
+    "SURFER",
     "TALOS",
     "TOM",
-    "VERS' BROTHER",
     "YON-ROGG"
   ],
   "lines": [
     {
       "character": "YON-ROGG",
-      "text": "Do you know what time it is?"
+      "text": "Do you know what time it is?",
+      "scene": 0
     },
     {
-      "character": "CAROL",
-      "text": "Can't sleep."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "There are tabs for that."
-    },
-    {
-      "character": "CAROL",
-      "text": "Yeah, but then I'd be sleeping."
+      "character": "CAROL DANVERS",
+      "text": "Can't sleep.",
+      "scene": 0
     },
     {
       "character": "YON-ROGG",
-      "text": "Dreams again?"
+      "text": "There are tabs for that.",
+      "scene": 0
     },
     {
-      "character": "CAROL",
-      "text": "Wanna fight?"
-    },
-    {
-      "character": "CAROL",
-      "text": "I slipped."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Right. You slipped as a result of me punching you in the face."
-    },
-    {
-      "character": "CAROL",
-      "text": "I was already slipping when you happened to punch me in the face. The two events are not related."
+      "character": "CAROL DANVERS",
+      "text": "Yeah, but then I'd be sleeping.",
+      "scene": 0
     },
     {
       "character": "YON-ROGG",
-      "text": "Tell me about this dream."
+      "text": "Dreams again?",
+      "scene": 0
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Wanna fight?",
+      "scene": 0
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I slipped.",
+      "scene": 0
     },
     {
       "character": "YON-ROGG",
-      "text": "Anything new?"
+      "text": "Right, you slipped as a result of me punching you in the face.",
+      "scene": 0
     },
     {
-      "character": "CAROL",
-      "text": "No."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "You've got to let go of your past."
-    },
-    {
-      "character": "CAROL",
-      "text": "I don't remember my past."
+      "character": "CAROL DANVERS",
+      "text": "I was already slipping when you happened to punch me in the face. The two events were not related.",
+      "scene": 0
     },
     {
       "character": "YON-ROGG",
-      "text": "It's causing you doubt, and doubt makes you vulnerable."
+      "text": "Tell me about this dream.",
+      "scene": 0
     },
     {
       "character": "YON-ROGG",
-      "text": "Control it."
+      "text": "Anything new?",
+      "scene": 0
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "No.",
+      "scene": 0
     },
     {
       "character": "YON-ROGG",
-      "text": "Lose control again and you'll have to convene with the Supreme Intelligence. There is nothing more dangerous to a warrior than emotion."
+      "text": "You have to let go of the past.",
+      "scene": 0
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I don't remember my past.",
+      "scene": 0
     },
     {
       "character": "YON-ROGG",
-      "text": "Humor is a distraction. And anger? Anger only serves the enemy."
-    },
-    {
-      "character": "ELECTRONIC",
-      "text": "120 days since the last Skrull attack."
-    },
-    {
-      "character": "CAROL",
-      "text": "Has anybody seen what the Supreme Intelligence really looks like?"
+      "text": "It's causing you doubt, and doubt makes you vulnerable.",
+      "scene": 0
     },
     {
       "character": "YON-ROGG",
-      "text": "No-one can look upon the Supreme Intelligence in its true form. You know that. Our subconscious chooses the way they appear to us. So, it's sacred, it's personal. The Kree divulges it ever."
-    },
-    {
-      "character": "CAROL",
-      "text": "Who do you see? Your brother?"
+      "text": "Control it.",
+      "scene": 0
     },
     {
       "character": "YON-ROGG",
-      "text": "No."
-    },
-    {
-      "character": "CAROL",
-      "text": "Father?"
+      "text": "Lose control again, and you'll have to commune with the supreme intelligence. There's nothing more dangerous to a warrior than emotion.",
+      "scene": 0
     },
     {
       "character": "YON-ROGG",
-      "text": "No"
+      "text": "Humor is a distraction.",
+      "scene": 0
     },
     {
-      "character": "CAROL",
-      "text": "Your old commander?"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Vers..."
-    },
-    {
-      "character": "CAROL",
-      "text": "It's me you see, isn't it?"
+      "character": "CAROL DANVERS",
+      "text": "And anger?",
+      "scene": 0
     },
     {
       "character": "YON-ROGG",
-      "text": "I see what you're trying to do."
+      "text": "Anger only serves the enemy.",
+      "scene": 0
     },
     {
-      "character": "CAROL",
-      "text": "Is it working?"
+      "character": "ANNOUNCER",
+      "text": "One hundred twenty days since the last skrull attack.",
+      "scene": 0
     },
     {
-      "character": "YON-ROGG",
-      "text": "Yes. But you won't succeed in changing my mind on the subject."
-    },
-    {
-      "character": "CAROL",
-      "text": "What is the point of giving me these if you don't want me to use them?"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "I want you to use them. The Supreme Intelligence made me the responsibility of showing you how to use them."
-    },
-    {
-      "character": "CAROL",
-      "text": "I know how."
+      "character": "CAROL DANVERS",
+      "text": "Has anyone ever seen what the supreme intelligence really looks like?",
+      "scene": 0
     },
     {
       "character": "YON-ROGG",
-      "text": "Yeah, if that were true, you'd knock me down without them."
+      "text": "No one can look upon the supreme intelligence in its true form. You know that. Our subconscious chooses the way they appear to us. So it's sacred. It's personal. No kree divulges it, ever.",
+      "scene": 0
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Who do you see? Your brother?",
+      "scene": 0
     },
     {
       "character": "YON-ROGG",
-      "text": "Control your impulses. Stop using this and start using this. I need you to be the best version of yourself."
+      "text": "No.",
+      "scene": 0
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Father?",
+      "scene": 0
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "No.",
+      "scene": 0
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Your old commander?",
+      "scene": 0
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Vers.",
+      "scene": 0
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "It's me you see, isn't it?",
+      "scene": 0
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "I see what you're trying to do.",
+      "scene": 0
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Is it working?",
+      "scene": 0
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Yes. But you won't succeed in changing the subject.",
+      "scene": 0
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "What is the point of giving me these... If you don't want me to use them?",
+      "scene": 0
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "I want you to use them. The supreme intelligence gave me a responsibility... Of showing you how to use them.",
+      "scene": 0
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I know how.",
+      "scene": 0
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Yeah, if that were true, you'd be able to knock me down without them. Control your impulses. Stop using this, start using this. I want you to be the best version of yourself.",
+      "scene": 0
     },
     {
       "character": "SUPREME INTELLIGENCE",
-      "text": "Vers."
+      "text": "Vers.",
+      "scene": 1
     },
     {
-      "character": "CAROL",
-      "text": "Intelligence."
-    },
-    {
-      "character": "SUPREME INTELLIGENCE",
-      "text": "Your commander insists that you're fit to serve."
-    },
-    {
-      "character": "CAROL",
-      "text": "I am."
+      "character": "CAROL DANVERS",
+      "text": "Intelligence.",
+      "scene": 1
     },
     {
       "character": "SUPREME INTELLIGENCE",
-      "text": "You struggle with your emotions, with your past which fuels them."
+      "text": "Your commander insists that you're fit to serve.",
+      "scene": 1
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I am.",
+      "scene": 1
     },
     {
       "character": "SUPREME INTELLIGENCE",
-      "text": "You are just one victim of the Skrull expansion that has threatened our civilization for centuries. Imposters who silently infiltrate then take over our planets."
+      "text": "You struggle with your emotions... With your past, which fuels them.",
+      "scene": 1
     },
     {
       "character": "SUPREME INTELLIGENCE",
-      "text": "Horrors which you remember and so much which you do not."
-    },
-    {
-      "character": "CAROL",
-      "text": "It's all...blank. My life. You're supposed to take the form of you I most admire but I don't even remember who this person was to me."
+      "text": "You are just one victim of the skrull expansion... That has threatened our civilization for centuries. Imposters who silently infiltrate... Then take over our planets.",
+      "scene": 1
     },
     {
       "character": "SUPREME INTELLIGENCE",
-      "text": "Perhaps this is a mercy, sparing you from a deeper pain. Freeing you to do what all Kree must. Put your people's needs before your own. We've given you a great gift, a chance to fight for the good of all Kree."
+      "text": "Horrors that you remember... And so much that you do not.",
+      "scene": 1
     },
     {
-      "character": "CAROL",
-      "text": "I want to serve."
-    },
-    {
-      "character": "SUPREME INTELLIGENCE",
-      "text": "Then master yourself; what was given can be taken away."
-    },
-    {
-      "character": "CAROL",
-      "text": "I won't let you down."
+      "character": "CAROL DANVERS",
+      "text": "It's all blank. My life. You're supposed to take the form of who I most admire... But I don't even remember who this person was to me.",
+      "scene": 1
     },
     {
       "character": "SUPREME INTELLIGENCE",
-      "text": "We'll know soon enough. You have a mission. Serve well and with honor."
+      "text": "Perhaps this is a mercy sparing you from a deeper pain. Freeing you to do what all kree must... Put your people's needs before your own. We've given you a great gift. The chance to fight for the good of all kree.",
+      "scene": 1
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I want to serve.",
+      "scene": 1
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "Then master yourself. What was given can be taken away.",
+      "scene": 1
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I won't let you down.",
+      "scene": 1
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "We'll know soon enough. You have a mission. Serve well, and with honor.",
+      "scene": 1
+    },
+    {
+      "character": "BRON-CHARR",
+      "text": "Must be another skrull attack.",
+      "scene": 2
     },
     {
       "character": "ATT-LASS",
-      "text": "This can't be good."
+      "text": "Whatever it is, it's big.",
+      "scene": 2
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Has a skrull ever simmed you?",
+      "scene": 2
     },
     {
       "character": "KORATH",
-      "text": "It must be another Skrull attack."
+      "text": "Once. It was deeply disturbing.",
+      "scene": 2
     },
     {
-      "character": "BRON-CHAR",
-      "text": "Whatever it is, it's big."
+      "character": "CAROL DANVERS",
+      "text": "Why?",
+      "scene": 2
+    },
+    {
+      "character": "KORATH",
+      "text": "Because I stared into the face of my mortal enemy... And the face staring back was my own.",
+      "scene": 2
     },
     {
       "character": "MINN-ERVA",
-      "text": "Has a Skrull ever simmed you?"
+      "text": "Maybe if you were more attractive, then it would be less disturbing.",
+      "scene": 2
     },
     {
       "character": "KORATH",
-      "text": "Once. It was deeply disturbing."
+      "text": "You think you're funny, but I'm not laughing.",
+      "scene": 2
     },
     {
-      "character": "CAROL",
-      "text": "Why?"
-    },
-    {
-      "character": "KORATH",
-      "text": "Because I stared into the face of my mortal enemy and the face staring back was my own."
-    },
-    {
-      "character": "CAROL",
-      "text": "Well maybe if you were more attractive then it would be less disturbing."
+      "character": "MINN-ERVA",
+      "text": "You never laugh.",
+      "scene": 2
     },
     {
       "character": "KORATH",
-      "text": "You think you're funny, but I'm not laughing."
+      "text": "I laugh on the inside. I'm not doing that now.",
+      "scene": 2
+    },
+    {
+      "character": "BRON-CHARR",
+      "text": "It's funny 'cause, objectively speaking, you're quite handsome.",
+      "scene": 2
+    },
+    {
+      "character": "KORATH",
+      "text": "Well, thank you.",
+      "scene": 2
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Listen up, team. Knock it off. All right. Prepare for... A search and rescue of our spy, soh-larr. The skrulls have invaded yet another border planet. This time, torfa. Soh-larr sent us a warning. The signal was intercepted, and his cover's blown.",
+      "scene": 2
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "The skrull general, talos, has sent kill units to find him. Should they reach him before we do... The intelligence he's acquired over three years is as good as theirs. The accusers will bomb a skrull stronghold here in the south. We slip in, we locate soh-larr... And we get out, leaving them none the wiser. The torfan populace. We are not to interfere with them, nor them with us. Nothing compromises the security of our mission.",
+      "scene": 2
+    },
+    {
+      "character": "KORATH",
+      "text": "Proceed with caution. Follow protocol before extracting him.",
+      "scene": 2
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "This is a dangerous mission. We must all be ready to join the collective if that is our fate today. For the good of all kree.",
+      "scene": 2
+    },
+    {
+      "character": "MINN-ERVA",
+      "text": "Locals on the periphery. Maybe a dozen.",
+      "scene": 3
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Minn-erva?",
+      "scene": 3
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Do you read me? Does anybody copy?",
+      "scene": 3
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Repeat.",
+      "scene": 3
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "His beacon's coming from that temple. Let's move.",
+      "scene": 4
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "No. This is a perfect spot for an ambush. Only one way in, only one way out.",
+      "scene": 4
+    },
+    {
+      "character": "BRON-CHARR",
+      "text": "We can get past the locals.",
+      "scene": 4
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "We don't know if they are locals. Too risky.",
+      "scene": 4
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "You don't have to go with me. I'll go alone.",
+      "scene": 4
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "No, you won't.",
+      "scene": 4
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Right. We keep a close radius. We lose comms, we meet back at the helion. Come on.",
+      "scene": 4
+    },
+    {
+      "character": "MINN-ERVA",
+      "text": "Att-lass, you getting this?",
+      "scene": 5
     },
     {
       "character": "ATT-LASS",
-      "text": "You never laugh."
+      "text": "Copy. I see them.",
+      "scene": 5
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Get back!",
+      "scene": 5
     },
     {
       "character": "KORATH",
-      "text": "I laugh on the inside. I'm not doing it now."
+      "text": "Commander?",
+      "scene": 5
     },
     {
-      "character": "BRON-CHAR",
-      "text": "It's funny cause objectively speaking, you're quite handsome."
+      "character": "YON-ROGG",
+      "text": "Get back! Back! Minn-erva? Do you have eyes on this? Keep them back. Minn-erva?",
+      "scene": 5
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Does anybody copy?",
+      "scene": 5
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I don't wanna hurt you.",
+      "scene": 5
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Keep back!",
+      "scene": 5
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Stay back!",
+      "scene": 5
     },
     {
       "character": "KORATH",
-      "text": "Well, thank you."
+      "text": "They're locals. I found two dead. No green. They're just starving.",
+      "scene": 5
     },
     {
       "character": "YON-ROGG",
-      "text": "Listen up team! Knock it off."
+      "text": "Back to the helion. Vers. Do you copy? Back to the helion. Come in. Vers.",
+      "scene": 6
     },
     {
-      "character": "YON-ROGG",
-      "text": "Alright, prepare for a search and rescue of our spy, Soh-Larr. The Skrulls have invaded yet another border planet, this time Torfa. Soh-Larr sent a warning signal, which we've intercepted, that his cover's blown. The Skrull General Talos has sent kill units to find him. Should they reach him before we do, the intelligence he has acquired over three years is as good as theirs. The accusers will bomb a Skrull stronghold here in the south. We slip in, we locate Soh-Larr and we get out, leaving them none the wiser. The Torfa populace; we are not to interfere with them nor them with us. Nothing compromises the security of our mission. Proceed with caution. Follow protocol before extracting him."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "This is a dangerous mission, we must all be ready to join the collective if that is our fate today. For the good of all Kree!"
-    },
-    {
-      "character": "CAROL",
-      "text": "For the good of all Kree!"
-    },
-    {
-      "character": "BRON-CHAR",
-      "text": "For the good of all Kree!"
-    },
-    {
-      "character": "KORATH",
-      "text": "For the good of all Kree!"
-    },
-    {
-      "character": "MINN-ERVA",
-      "text": "For the good of all Kree!"
-    },
-    {
-      "character": "ATT-LASS",
-      "text": "For the good of all Kree!"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Vers, track Soh-Larr's beacon. Att-Lass and Minn-Erva find elevation."
-    },
-    {
-      "character": "MINN-ERVA",
-      "text": "Locals on the periphery. Maybe a dozen."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Minn-Erva?"
-    },
-    {
-      "character": "MINN-ERVA",
-      "text": "Do you read me? Anybody copy?"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Repeat."
-    },
-    {
-      "character": "CAROL",
-      "text": "His beacon's coming from that temple. Let's move."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "No. This is the perfect spot for an ambush. Only one way in, only one way out."
-    },
-    {
-      "character": "BRON-CHAR",
-      "text": "And we have to pass the locals."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "We don't know if they are locals. Too risky."
-    },
-    {
-      "character": "CAROL",
-      "text": "You don't have to go with me. I'll go alone."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "No! You won't."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Right. Keep a close radius, we lose comms we meet back at the Helion. Come on."
-    },
-    {
-      "character": "MINN-ERVA",
-      "text": "Att-Lass, you getting this?"
-    },
-    {
-      "character": "ATT-LASS",
-      "text": "Copy. I see them."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Get back!"
-    },
-    {
-      "character": "BRON-CHAR",
-      "text": "Commander!"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Get back. Back!"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Minn-Erva, do you have eyes on this?"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Get back! Minn-Erva!"
-    },
-    {
-      "character": "MINN-ERVA",
-      "text": "Does anybody copy?"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "I don't want to hurt you. Keep back! Stay back!"
-    },
-    {
-      "character": "ATT-LASS",
-      "text": "They're locals. I found two dead, no green. They're just starving."
-    },
-    {
-      "character": "CAROL",
-      "text": "HGX-78"
-    },
-    {
-      "character": "SOH-LARR",
-      "text": "TRT79-VVX6"
-    },
-    {
-      "character": "BRON-CHAR",
-      "text": "Get back!"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Skrulls!"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Vers? Skrulls! It's an ambush."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Vers!"
-    },
-    {
-      "character": "BRON-CHAR",
-      "text": "Incoming!"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Back to the Helion!"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Vers? Do you copy?"
-    },
-    {
-      "character": "CAROL",
-      "text": "How did you know the code?"
+      "character": "CAROL DANVERS",
+      "text": "How did you know the code?",
+      "scene": 6
     },
     {
       "character": "TALOS",
-      "text": "How about I tell you my secret? When you tell me yours?"
-    },
-    {
-      "character": "SKRULL TECH",
-      "text": "Let's open her up."
+      "text": "How about I tell you my secret...",
+      "scene": 6
     },
     {
       "character": "TALOS",
-      "text": "Where are we?"
-    },
-    {
-      "character": "SKRULL SCIENTIST",
-      "text": "Stand by."
-    },
-    {
-      "character": "MARIA",
-      "text": "Where's your head at?"
-    },
-    {
-      "character": "CAROL",
-      "text": "In the clouds. Where's yours?"
-    },
-    {
-      "character": "MARIA",
-      "text": "On my shoulders. About to show these boys how to do it. You ready?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Higher, further, faster baby."
-    },
-    {
-      "character": "MARIA",
-      "text": "That's right."
+      "text": "When you've told me yours?",
+      "scene": 6
     },
     {
       "character": "TALOS",
-      "text": "This can't be right."
+      "text": "Let's open her up.",
+      "scene": 6
     },
     {
       "character": "TALOS",
-      "text": "Go back even further."
+      "text": "Where are we?",
+      "scene": 7
+    },
+    {
+      "character": "NOREX",
+      "text": "Stand by.",
+      "scene": 7
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Where's your head at?",
+      "scene": 7
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "In the clouds. Where's yours?",
+      "scene": 7
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "On my shoulders. About to show these boys how we do it. You ready?",
+      "scene": 7
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Higher, further, faster, baby.",
+      "scene": 7
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "That's right.",
+      "scene": 7
+    },
+    {
+      "character": "TALOS",
+      "text": "This can't be right.",
+      "scene": 7
+    },
+    {
+      "character": "TALOS",
+      "text": "Go back even further.",
+      "scene": 7
+    },
+    {
+      "character": "NOREX",
+      "text": "I think we went back too far.",
+      "scene": 8
+    },
+    {
+      "character": "TALOS",
+      "text": "You let him drive.",
+      "scene": 8
+    },
+    {
+      "character": "NOREX",
+      "text": "Let me try something.",
+      "scene": 8
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "A huge rumble throughout the cosmos shook the moon... And the sun and the stars in the sky. And so, little alouette flew up throughout the night.",
+      "scene": 9
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "Did you see her? It's alouette.",
+      "scene": 9
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Get your butts inside, it's time to eat.",
+      "scene": 9
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Prepare for takeoff, lieutenant trouble.",
+      "scene": 9
+    },
+    {
+      "character": "TALOS",
+      "text": "Charming memory.",
+      "scene": 9
+    },
+    {
+      "character": "NOREX",
+      "text": "Hang on. I think I've got it.",
+      "scene": 9
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "Goose likes you. She doesn't typically take to people.",
+      "scene": 9
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Early start to your morning.",
+      "scene": 9
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "Uh, late night, actually. I can't sleep when there's work to do. Sound familiar?",
+      "scene": 9
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Flying your planes never feels like work.",
+      "scene": 9
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "Wonderful view, isn't it?",
+      "scene": 9
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I prefer the view from up there.",
+      "scene": 9
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "You'll get there soon enough, ace.",
+      "scene": 9
+    },
+    {
+      "character": "TALOS",
+      "text": "Wait! Wait, wait! That's her. Get her back.",
+      "scene": 9
+    },
+    {
+      "character": "NOREX",
+      "text": "Stand by.",
+      "scene": 9
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "Sound familiar? Wonderful view, isn't it?",
+      "scene": 9
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I prefer the view from up there.",
+      "scene": 9
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "You'll get there soon enough, ace.",
+      "scene": 9
+    },
+    {
+      "character": "TALOS",
+      "text": "What's that on her shirt? I couldn't read it.",
+      "scene": 9
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "Wonderful view, isn't it?",
+      "scene": 9
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I prefer the view from up there.",
+      "scene": 9
+    },
+    {
+      "character": "TALOS",
+      "text": "Focus.",
+      "scene": 9
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Excuse me?",
+      "scene": 9
+    },
+    {
+      "character": "TALOS",
+      "text": "Look down. Focus. \"Pegasus. Dr. Wendy Lawson.\" That's her.",
+      "scene": 9
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Do you hear that, too?",
+      "scene": 9
+    },
+    {
+      "character": "TALOS",
+      "text": "Do we have her location?",
+      "scene": 9
+    },
+    {
+      "character": "NOREX",
+      "text": "Got it.",
+      "scene": 9
+    },
+    {
+      "character": "TALOS",
+      "text": "Now track Lawson until we find the energy signature.",
+      "scene": 9
+    },
+    {
+      "character": "TALOS",
+      "text": "Interesting.",
+      "scene": 9
+    },
+    {
+      "character": "TALOS",
+      "text": "Huh. Hold on. Go back right before this. Go back.",
+      "scene": 9
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "That's no mig, Lawson.",
+      "scene": 9
+    },
+    {
+      "character": "TALOS",
+      "text": "This is it. Now let me see where you're headed. That's right. Look at the coordinates. Focus.",
+      "scene": 9
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Open, please.",
+      "scene": 9
+    },
+    {
+      "character": "TALOS",
+      "text": "That's it. That's it. You're almost there. You're almost there. Don't fight it.",
+      "scene": 9
+    },
+    {
+      "character": "TALOS",
+      "text": "Focus!",
+      "scene": 9
+    },
+    {
+      "character": "TALOS",
+      "text": "Get her back! Get her back now!",
+      "scene": 9
+    },
+    {
+      "character": "TALOS",
+      "text": "This doesn't make any sense.",
+      "scene": 9
+    },
+    {
+      "character": "TALOS",
+      "text": "Do we have any information we can act on?",
+      "scene": 10
+    },
+    {
+      "character": "NOREX",
+      "text": "Just that Lawson was somewhere on planet c-53. We're on our way.",
+      "scene": 10
+    },
+    {
+      "character": "TALOS",
+      "text": "Then dig, dig, dig deeper. Lawson is our link to that light-speed engine! And everything we're after.",
+      "scene": 10
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Oh! That did something. Try that again.",
+      "scene": 10
+    },
+    {
+      "character": "TALOS",
+      "text": "Not yet!",
+      "scene": 10
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "What did you do to me?",
+      "scene": 10
+    },
+    {
+      "character": "TALOS",
+      "text": "Now we're just after a little information.",
+      "scene": 10
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "What did you put in my head?",
+      "scene": 10
+    },
+    {
+      "character": "TALOS",
+      "text": "Nothing that wasn't already there.",
+      "scene": 10
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "But those aren't my memories.",
+      "scene": 10
+    },
+    {
+      "character": "TALOS",
+      "text": "Yeah, it's like a bad trip, isn't it? I'm not surprised you can't keep it straight. They really did a number on you.",
+      "scene": 10
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Enough of your mind games. What do you want?",
+      "scene": 10
+    },
+    {
+      "character": "TALOS",
+      "text": "We're looking for the location of a Dr. Lawson... And her light-speed engine.",
+      "scene": 10
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I don't know any Dr. Lawson.",
+      "scene": 10
+    },
+    {
+      "character": "TALOS",
+      "text": "Really? Then why is she in your head?",
+      "scene": 10
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Hi. I'm vers. Kree starforce. Is this c-53?",
+      "scene": 11
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Do you understand me? Is my universal translator working?",
+      "scene": 11
+    },
+    {
+      "character": "SECURITY GUARD",
+      "text": "Yeah. I understand you.",
+      "scene": 11
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Oh, good. Are you in charge of security for this district?",
+      "scene": 11
+    },
+    {
+      "character": "SECURITY GUARD",
+      "text": "Sort of. Uh, the movie theater has its own guy.",
+      "scene": 11
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Where can I find communications equipment?",
+      "scene": 11
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Thank you.",
+      "scene": 11
+    },
+    {
+      "character": "TALOS",
+      "text": "Track the pod. Find the girl. She knows more than she knows.",
+      "scene": 12
+    },
+    {
+      "character": "SURFER",
+      "text": "Hey. This one's taken.",
+      "scene": 12
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Come on.",
+      "scene": 12
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Vers? Vers? Verify. Ctc-39.",
+      "scene": 12
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Grxv—1600. And I'm fine, thank you for asking. Is everyone okay? What happened?",
+      "scene": 12
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Skrull ambush. I thought we'd lost you. Did you find soh-larr?",
+      "scene": 12
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "It wasn't soh-larr. Talos simmed him. Even knew his code.",
+      "scene": 12
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "That's impossible. That code was buried in his unconscious.",
+      "scene": 12
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "The skrulls messed with my mind. The machine that they used... I think it's how they extracted soh-larr's code.",
+      "scene": 12
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Vers, where are you?",
+      "scene": 12
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I'm on planet c-53. The skrulls are looking for someone named Lawson.",
+      "scene": 12
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Who?",
+      "scene": 12
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "She's who I see.",
+      "scene": 12
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "She's what? Vers? Vers, what?",
+      "scene": 12
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "She's a scientist. They think that she's cracked the code on light-speed tech. I have to get to her before they do... Or else they'll be able to invade new galaxies.",
+      "scene": 12
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "No. You've been caught once already. How far is 0-53?",
+      "scene": 12
+    },
+    {
+      "character": "ATT-LASS",
+      "text": "Closestjump point is 22 hours.",
+      "scene": 12
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Vers, hold your position until we get there. Keep your comms online so we can contact you.",
+      "scene": 12
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "No! What if they get a hold of it before...",
+      "scene": 12
+    },
+    {
+      "character": "AUTOMATED VOICE",
+      "text": "We're sorry. A long-distance company access code is required for the number you have dialed.",
+      "scene": 12
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Yon-rogg?",
+      "scene": 12
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Vers? Vers?",
+      "scene": 12
+    },
+    {
+      "character": "AUTOMATED VOICE",
+      "text": "Please dial your call with the access code.",
+      "scene": 12
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Vers?",
+      "scene": 12
+    },
+    {
+      "character": "KORATH",
+      "text": "If the skrulls got to her, she's compromised.",
+      "scene": 12
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "She's stronger than you think. Ever been to 0-53?",
+      "scene": 12
+    },
+    {
+      "character": "MINN-ERVA",
+      "text": "Once. It's a real shithole.",
+      "scene": 12
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Hey, rookie! Go talk to the rent-a-cop.",
+      "scene": 12
+    },
+    {
+      "character": "PHIL COULSON",
+      "text": "Did you call this in?",
+      "scene": 12
+    },
+    {
+      "character": "AUTOMATED VOICE",
+      "text": "Beacon activated.",
+      "scene": 13
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Excuse me, miss. You know anything about a lady blowing a hole... Through the roof of that blockbuster over there? Witness says she was dressed for laser tag.",
+      "scene": 13
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Yeah, I think she went that way.",
+      "scene": 13
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Uh, I'd like to ask you some questions. Maybe give you the 411 on the late-night drop box. Could I see some identification, please?",
+      "scene": 13
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Vers. Kree starforce. We don't carry our identification on little cards.",
+      "scene": 13
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Vers? Starforce? How long you plan to be in town?",
+      "scene": 13
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Oh, I'll be out of your hair... As soon as I track down the skrulls that are infiltrating your planet.",
+      "scene": 13
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Skrulls?",
+      "scene": 13
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Shapeshifters? They can transform into any life-form down to the DNA. Oh, boy. You guys don't have any clue, do you?",
+      "scene": 13
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Whoa, whoa, whoa. Hold on. How do we know you're not one of those shapeshifters?",
+      "scene": 13
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Congratulations, agent fury. You have finally asked a relevant question.",
+      "scene": 13
+    },
+    {
+      "character": "NICK FURY",
+      "text": "No! Congratulations to you, starforce lady. You're under arrest.",
+      "scene": 13
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Rook! Rook, let's roll!",
+      "scene": 13
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Did you see her weapon?",
+      "scene": 13
+    },
+    {
+      "character": "PHIL COULSON",
+      "text": "I did not.",
+      "scene": 13
+    },
+    {
+      "character": "MAN",
+      "text": "Watch it!",
+      "scene": 13
+    },
+    {
+      "character": "PHIL COULSON",
+      "text": "Train's heading for a tunnel up ahead.",
+      "scene": 14
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Let's greet them at the station.",
+      "scene": 14
+    },
+    {
+      "character": "PHIL COULSON",
+      "text": "Mr. Fury, this is agent Coulson. Uh, I'm still here at the blockbuster.",
+      "scene": 14
+    },
+    {
+      "character": "PHIL COULSON",
+      "text": "And, uh, where'd everybody go? I finished collecting evidence...",
+      "scene": 14
+    },
+    {
+      "character": "BIKER",
+      "text": "Nice scuba suit.",
+      "scene": 15
+    },
+    {
+      "character": "BIKER",
+      "text": "Lighten up, honey, huh? Got a smile for me?",
+      "scene": 15
+    },
+    {
+      "character": "BIKER",
+      "text": "Freak.",
+      "scene": 15
+    },
+    {
+      "character": "MEDICAL EXAMINER",
+      "text": "All life on earth is carbon-based. Not this guy. Whatever he runs on, it's not on the periodic table.",
+      "scene": 16
+    },
+    {
+      "character": "NICK FURY",
+      "text": "You're saying he's not from around here?",
+      "scene": 16
+    },
+    {
+      "character": "MEDICAL EXAMINER",
+      "text": "Hey, how's your eye?",
+      "scene": 16
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Well, I'd say fine... But it can't believe what it's seeing.",
+      "scene": 16
+    },
+    {
+      "character": "TALOS",
+      "text": "You say this thing looked like Coulson?",
+      "scene": 16
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Mmm. Talked like him, too.",
+      "scene": 16
+    },
+    {
+      "character": "TALOS",
+      "text": "And the woman said that there were more?",
+      "scene": 16
+    },
+    {
+      "character": "NICK FURY",
+      "text": "The word she used was \"infiltration.\"",
+      "scene": 16
+    },
+    {
+      "character": "TALOS",
+      "text": "You believe her?",
+      "scene": 16
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Not till I saw this.",
+      "scene": 16
+    },
+    {
+      "character": "TALOS",
+      "text": "What's your plan?",
+      "scene": 16
+    },
+    {
+      "character": "NICK FURY",
+      "text": "I'll find blockbuster girl. I got word on a motorcycle thief that fits her description. If she can tell us why these lizards are here... Maybe she can tell us how to kick 'em to the curb.",
+      "scene": 16
+    },
+    {
+      "character": "TALOS",
+      "text": "Good. Do it alone, though. We can't trust anyone. Not even our own men.",
+      "scene": 16
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Yes, sir.",
+      "scene": 16
+    },
+    {
+      "character": "TALOS",
+      "text": "Wow. They're ugly bastards, aren't they?",
+      "scene": 17
+    },
+    {
+      "character": "EXAMINER",
+      "text": "Yeah, well, he's no Brad Pitt, sir.",
+      "scene": 17
+    },
+    {
+      "character": "TALOS",
+      "text": "Safe journey to the beyond, my friend.",
+      "scene": 17
+    },
+    {
+      "character": "TALOS",
+      "text": "I will finish what we started.",
+      "scene": 17
+    },
+    {
+      "character": "EXAMINER",
+      "text": "Lwouldn't get too close there, boss.",
+      "scene": 17
+    },
+    {
+      "character": "TALOS",
+      "text": "No one in or out.",
+      "scene": 17
+    },
+    {
+      "character": "BARTENDER",
+      "text": "What can I get ya?",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Where was this photograph taken?",
+      "scene": 18
+    },
+    {
+      "character": "BARTENDER",
+      "text": "An airport.",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Where's Pegasus?",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "That's classified. Not unlike the file I started on you.",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "But I see you've changed it up a bit since then. Grunge is a good look for you.",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Did you have a rough day, agent fury?",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "It was cool, you know? Had a space invasion, big car chase. Got to watch an alien autopsy. Typical nine-to-five.",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "So you saw one?",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "I was never one to believe in aliens... But I can't unsee that.",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "This is gonna get a little awkward, but I gotta ask.",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "You think I'm one of those green things.",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Can't be too careful.",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "You are looking at 100% red-blooded earth man.",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I'm afraid I'm gonna need proof.",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "We talking cheek swab or urine sample?",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "No. The DNA would match.",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Want my aol password?",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Skrulls can only sim recent memories of their host bodies.",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Oh, oh. You wanna get personal.",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Where were you born?",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Huntsville, Alabama. But technically, I don't remember that part.",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Name of your first pet?",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Mr. Snoofers.",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Mr. Snoofers?",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "That's what I said. Do I pass?",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Not yet. First job?",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Soldier. Straight out of high school. Left the ranks a full bird colonel.",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Where?",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "It was the cold war. We were everywhere. Uh, Belfast. Bucharest. Belgrade. Budapest. I like the b's. I can make them rhyme.",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Now?",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Been riding a desk for the past six years... Trying to figure out where our future enemies are coming from. Never occurred to me they would be coming from above.",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Name a detail so bizarre a skrull could never fabricate it.",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "If toast is cut diagonally, I can't eat it.",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "You didn't need that, did you?",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "No. No, I didn't. But I enjoyed it.",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Okay. Your turn. Prove you're not a skrull.",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "And how is that supposed to prove to me you're not a skrull?",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "That's a photon blast.",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "And?",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "A skrull can't do that. So, a full bird colonel turned spy turned S.H.I.E.L.D. agent... Must have pretty high security clearance. Where's Pegasus?",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Okay. The skrulls sim alien races to infiltrate and take over planets. And you're a kree? A race of noble warriors?",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Heroes. Noble warrior heroes.",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "So, um, what do skrulls want with Dr. Lawson?",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "They believe that she developed a light-speed engine at Pegasus.",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Light-speed engine? Gotta admit, that's not the craziest thing I've heard today.",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Well, it's still early.",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "And you, what do you want?",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "To stop the skrulls before they become unstoppable.",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "And?",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Look, war is a universal language. I know a rogue soldier when I see one. You got a personal stake in this.",
+      "scene": 18
+    },
+    {
+      "character": "GUARD",
+      "text": "This is government property. Turn your vehicle around.",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Nicholas Joseph fury. Agent of S.H.I.E.L.D.",
+      "scene": 18
+    },
+    {
+      "character": "GUARD",
+      "text": "Place your thumb on the pad. One moment.",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Nicholas Joseph fury. You have three names?",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Everybody calls me fury. Not Nicholas. Not Joseph. Not Nick. Just fury.",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "What does your mom call you?",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Fury.",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "What do you call her?",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Fury.",
+      "scene": 18
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "What about your kids?",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "If I have them, they'll call me fury.",
+      "scene": 18
+    },
+    {
+      "character": "GUARD",
+      "text": "You are cleared for access.",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Thank you.",
+      "scene": 18
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Oh, hold up. You look like somebody's disaffected niece.",
+      "scene": 19
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Put that on.",
+      "scene": 19
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "What is it?",
+      "scene": 19
+    },
+    {
+      "character": "NICK FURY",
+      "text": "It's the S.H.I.E.L.D. logo.",
+      "scene": 19
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Does, uh, announcing your identity on clothing help with the covert part of your job?",
+      "scene": 19
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Said the space soldier who was wearing a rubber suit. Lose the flannel.",
+      "scene": 19
+    },
+    {
+      "character": "SECURITY CHIEF",
+      "text": "How can I help you?",
+      "scene": 19
+    },
+    {
+      "character": "NICK FURY",
+      "text": "We're agents of S.H.I.E.L.D.",
+      "scene": 19
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "We're looking for a woman named Lawson.",
+      "scene": 19
+    },
+    {
+      "character": "NICK FURY",
+      "text": "A Dr. Wendy Lawson.",
+      "scene": 19
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Do you know her?",
+      "scene": 19
+    },
+    {
+      "character": "SECURITY CHIEF",
+      "text": "Follow me.",
+      "scene": 19
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Hmm.",
+      "scene": 19
+    },
+    {
+      "character": "NICK FURY",
+      "text": "You familiar with the phrase \"welcome wagon\"?",
+      "scene": 19
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Well, this ain't it.",
+      "scene": 19
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Is that a communicator?",
+      "scene": 20
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Yeah. State-of—the-art two-way pager.",
+      "scene": 20
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Who are you paging?",
+      "scene": 20
+    },
+    {
+      "character": "NICK FURY",
+      "text": "My mom. Don't worry. I didn't mention you.",
+      "scene": 20
+    },
+    {
+      "character": "NICK FURY",
+      "text": "After you.",
+      "scene": 21
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Impressive.",
+      "scene": 21
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Oh, you should see what I can do with a paperclip.",
+      "scene": 21
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Hey, there. How are you?",
+      "scene": 21
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Oh, my goodness. Look at you. Just look at you. Aren't you the cutest little thing? Aren't you cute? And what's your name, huh? What's your name? \"Goose.\" cool name for a cool cat.",
+      "scene": 21
+    },
+    {
+      "character": "NICK FURY",
+      "text": "I'll be back.",
+      "scene": 21
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Oh! Let me get my fingerprint out. Just let me unravel this puppy.",
+      "scene": 21
+    },
+    {
+      "character": "NICK FURY",
+      "text": "You sat there and watched me play with tape? When all you had to do was...",
+      "scene": 21
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I didn't wanna steal your thunder.",
+      "scene": 21
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Huh. Lawson.",
+      "scene": 22
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Lawson's plan for the light-speed engine. I wonder why they terminated the project.",
+      "scene": 22
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Um, maybe because she's cuckoo.",
+      "scene": 22
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Kree glyphs?",
+      "scene": 22
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Hmm?",
+      "scene": 22
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Lawson is not cuckoo.",
+      "scene": 22
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "She's kree.",
+      "scene": 22
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Well, she's dead.",
+      "scene": 22
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "What?",
+      "scene": 22
+    },
+    {
+      "character": "NICK FURY",
+      "text": "She crashed the asis aircraft doing an unauthorized test flight. Took a pilot down with her. That's why security here is so unfriendly. They're covering up a billion-dollar mistake.",
+      "scene": 22
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Oh, and your light-speed engine is toast.",
+      "scene": 22
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "When did this crash happen?",
+      "scene": 22
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Six years ago. 1989.",
+      "scene": 22
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Who was the pilot?",
+      "scene": 22
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Um, most of this thing's redacted... But there is a testimonial here from a Maria rambeau. Last person to see them alive.",
+      "scene": 22
+    },
+    {
+      "character": "NICK FURY",
+      "text": "You okay?",
+      "scene": 22
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Mm-hmm.",
+      "scene": 22
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Back in a minute.",
+      "scene": 22
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "This isn't about fighting wars. It's about ending them.",
+      "scene": 23
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I know Lawson was kree. She was here on 0-53 and died in a plane crash. Do you know anything about this?",
+      "scene": 23
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "I just discovered a mission report sent from 0-53. There's only so much I'm cleared to tell you, vers, but...",
+      "scene": 23
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Lawson was an undercover kree operative named mar-vell. She was working on a unique energy core. Experimenting with tech that apparently could help us win the war.",
+      "scene": 23
+    },
+    {
+      "character": "TALOS",
+      "text": "She still here?",
+      "scene": 23
+    },
+    {
+      "character": "AGENT",
+      "text": "She's cooperating with the investigation, sir.",
+      "scene": 23
+    },
+    {
+      "character": "TALOS",
+      "text": "You men stay here.",
+      "scene": 23
+    },
+    {
+      "character": "AGENT",
+      "text": "Yes, sir.",
+      "scene": 23
+    },
+    {
+      "character": "TALOS",
+      "text": "I want to question her alone.",
+      "scene": 23
+    },
+    {
+      "character": "TALOS",
+      "text": "Excellent work, Nicholas.",
+      "scene": 23
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Does it say anything about me?",
+      "scene": 23
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Anything about you? No, of course not. Why would it?",
+      "scene": 23
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I found evidence that I had a life here.",
+      "scene": 23
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "On c-53?",
+      "scene": 23
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Mar-vell is who I see when I visit the supreme intelligence. I knew her. And I knew her as Lawson.",
+      "scene": 23
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "This sounds like skrull simulation, vers.",
+      "scene": 23
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "No, it's not. Because I remember. I was here.",
+      "scene": 23
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Stop. Remember your training. Know your enemy. It could be you. Do not let your emotions override your judgment.",
+      "scene": 23
+    },
+    {
+      "character": "NICK FURY",
+      "text": "She's on sublevel six. I'll get off on five... And take the stairs in case she makes a run for it.",
+      "scene": 23
+    },
+    {
+      "character": "TALOS",
+      "text": "Do a pincer move like we did in Havana.",
+      "scene": 23
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Right. Like we did in Havana.",
+      "scene": 23
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "We're nearing the jump point. Leave your beacon on so I can find you. We'll get to the bottom of this, vers. Together.",
+      "scene": 23
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Okay.",
+      "scene": 23
+    },
+    {
+      "character": "TALOS",
+      "text": "Fury's colluding with the target.",
+      "scene": 24
+    },
+    {
+      "character": "AGENT",
+      "text": "Then why would he call us in?",
+      "scene": 24
+    },
+    {
+      "character": "TALOS",
+      "text": "All I know is we take him in, too. Dead or alive.",
+      "scene": 24
+    },
+    {
+      "character": "AGENT",
+      "text": "Dead or alive?",
+      "scene": 24
+    },
+    {
+      "character": "AGENT",
+      "text": "Coulson, do you have eyes on them?",
+      "scene": 25
+    },
+    {
+      "character": "PHIL COULSON",
+      "text": "They're not down here. Let's try up there.",
+      "scene": 25
+    },
+    {
+      "character": "NICK FURY",
+      "text": "What?",
+      "scene": 25
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Your communicator. You obviously can't be trusted with it.",
+      "scene": 25
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Do you know how to fly this thing?",
+      "scene": 26
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Uh, we'll see.",
+      "scene": 26
+    },
+    {
+      "character": "NICK FURY",
+      "text": "That's a yes or no question.",
+      "scene": 26
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Yes.",
+      "scene": 26
+    },
+    {
+      "character": "NICK FURY",
+      "text": "That's what I'm talking about!",
+      "scene": 26
+    },
+    {
+      "character": "NICK FURY",
+      "text": "We got a stowaway.",
+      "scene": 27
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Hang on, goose.",
+      "scene": 27
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Goose.",
+      "scene": 27
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "No, goose.",
+      "scene": 27
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Who's a good kitty, huh? Huh, goose? Yes, that's right. Who's a good kitty, goose? You the good kitty, that's right.",
+      "scene": 27
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "See anyone you know?",
+      "scene": 27
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Funny story. I arrived on hala near dead. No memory. That was six years ago.",
+      "scene": 27
+    },
+    {
+      "character": "NICK FURY",
+      "text": "So, you think you're the pilot that went down with Dr. Lawson?",
+      "scene": 27
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I'm saying the last person to see them alive could probably tell us.",
+      "scene": 27
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Maria rambeau?",
+      "scene": 27
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Mm-hmm. So, how do we get to Louisiana?",
+      "scene": 27
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Due east. Hang a right at Memphis.",
+      "scene": 27
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "That agent... That stopped the skrulls from finding us?",
+      "scene": 27
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Coulson. The new guy. I guess he doesn't hate me yet.",
+      "scene": 27
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Yeah, well, give him time.",
+      "scene": 27
+    },
+    {
+      "character": "NICK FURY",
+      "text": "I guess he had a feeling, you know? Went with his gut against orders. That's a really hard thing to do. But it's what keeps us human.",
+      "scene": 27
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I get in trouble for that. A lot.",
+      "scene": 27
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Oh, I can see that about you. Rescuing the guy who sold you out to the skrulls? I'm guessing that's not standard kree operating procedure.",
+      "scene": 27
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Well, I won't tell your boss if you don't tell mine.",
+      "scene": 27
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Ronan.",
+      "scene": 27
+    },
+    {
+      "character": "RONAN",
+      "text": "The accusers completed their operation... But the greater mission was a failure, thanks to your team.",
+      "scene": 27
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "It was a trap to lure our operative vers to torfa and kidnap her.",
+      "scene": 27
+    },
+    {
+      "character": "RONAN",
+      "text": "Give us their location. We'll take care of the terrorist threat.",
+      "scene": 27
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "By bombing them out of the galaxy? No, we'll handle this.",
+      "scene": 27
+    },
+    {
+      "character": "RONAN",
+      "text": "A cell of skrulls anywhere bammm to kree everywhere. Where are they?",
+      "scene": 27
+    },
+    {
+      "character": "KORATH",
+      "text": "They are...",
+      "scene": 27
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Lost they are lost for now. But we will find them.",
+      "scene": 27
+    },
+    {
+      "character": "RONAN",
+      "text": "Do so, or we will.",
+      "scene": 27
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Maintain the course for 0-53.",
+      "scene": 27
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Excuse me, I'm looking for Maria rambeau.",
+      "scene": 28
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "Auntie Carol? Mom, it's auntie Carol! I knew it! Everyone said you were dead! But we knew they were lying.",
+      "scene": 28
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I'm not really who you think I am.",
+      "scene": 28
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "That is the craziest shit I ever heard.",
+      "scene": 28
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "Green transforming aliens? There's no such thing.",
+      "scene": 28
+    },
+    {
+      "character": "NICK FURY",
+      "text": "You are absolutely right, young lady. There is no such thing. 'Cause if there were, we would want to keep that to ourselves.",
+      "scene": 28
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "You don't believe me?",
+      "scene": 28
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "No way! That's so cool!",
+      "scene": 28
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Oh, she can do a lot more than make tea with those hands.",
+      "scene": 28
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "Like what? Show us.",
+      "scene": 28
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Maybe later.",
+      "scene": 28
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "I kept all your stuff. I'll go get it.",
+      "scene": 28
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "You want to give her a hand with that?",
+      "scene": 28
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "You don't remember anything?",
+      "scene": 29
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I see flashes. Little moments. But I can't tell what's real.",
+      "scene": 29
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "If I could just piece together what happened that morning... Maybe it'll all make sense.",
+      "scene": 29
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "You woke me up banging on my door at dawn. Your usual move. Back then, we had to get up so early. The air force still wasn't letting women fly combat... So testing Lawson's planes was our only shot at doing something that mattered. You wanted to race to base in your old mustang... And I wasn't about to argue, 'cause I knew my Camaro would dominate. But you cheated, took a shortcut.",
+      "scene": 29
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Since when is a shortcut cheating?",
+      "scene": 29
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Since it violates the predetermined rules of engagement.",
+      "scene": 29
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I definitely don't remember those.",
+      "scene": 29
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Hmm. Of course you don't.",
+      "scene": 29
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "When I got to the hangar, Lawson was agitated. She said she had lives to save. She was trying to take the asis up herself, but you said that...",
+      "scene": 29
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "If there were lives at stake, I would fly the plane.",
+      "scene": 29
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Yeah. Yep. Big hero moment. The kind of moment we'd both been waiting for. The doc was always unique. That's why we liked her. But now you're saying she's from another planet.",
+      "scene": 29
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I know this must be hard for you.",
+      "scene": 29
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Oh, what? This part right here? No. No. Mmm-mmm.",
+      "scene": 29
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Oh, what's hard is losing my best friend... In a mission so secret they act like it never even happened.",
+      "scene": 29
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Hard is knowing you were out there somewhere too damn stubborn to die. And now you come up in here after six years... With your supercharged fire hands... And you expect me to call you... I don't even know what. Vers?",
+      "scene": 29
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Is that really who you are now?",
+      "scene": 29
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I don't know.",
+      "scene": 29
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "Come look!",
+      "scene": 29
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "This is me and you on Halloween. I'm Amelia earhart and you're Janis joplin. Oh, this is you when you were little. You didn't get along with your parents... So mom said we became your real family. This is us on Christmas. I got my favorite bunny slippers. This is another picture of you when you were little. You've always wanted to be a pilot. And this is right after you graduated. This was your dog that you got for Christmas... This is a picture of everybody from your air force team. And this is you with mom right after a good day of training. These were your three favorite guys.",
+      "scene": 29
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "Oh, wait. I forgot. Your jacket. Mom doesn't let me wear it anymore after I spilled ketchup on it.",
+      "scene": 29
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "That was all that survived the crash. Or so we thought.",
+      "scene": 30
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Don't answer that.",
+      "scene": 30
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "It's just my neighbor.",
+      "scene": 30
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "They can change into anyone.",
+      "scene": 30
+    },
+    {
+      "character": "TOM",
+      "text": "Hi there.",
+      "scene": 30
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "What do you want?",
+      "scene": 30
+    },
+    {
+      "character": "TOM",
+      "text": "Uh...",
+      "scene": 30
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Hey, Tom. This is my friend, Carol.",
+      "scene": 30
+    },
+    {
+      "character": "TOM",
+      "text": "Oh. Pleased to meet you.",
+      "scene": 30
+    },
+    {
+      "character": "TOM",
+      "text": "Yowzers. Static electricity out here's no joke. I noticed that peculiar bird you got parked by the road... And I was just wondering... If you mind if I bring the boys over to get a closer look-see?",
+      "scene": 30
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "A closer look-see?",
+      "scene": 30
+    },
+    {
+      "character": "TOM",
+      "text": "Yeah.",
+      "scene": 30
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "To see the \"bird\" parked out by the road? Mmm. You're really working overtime to sell this one, aren't you, talos?",
+      "scene": 30
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "I'm sorry, Tom. This really isn't a good time. I'll come by tomorrow, okay?",
+      "scene": 30
+    },
+    {
+      "character": "TOM",
+      "text": "Uh...",
+      "scene": 30
+    },
+    {
+      "character": "TOM",
+      "text": "Okay.",
+      "scene": 30
+    },
+    {
+      "character": "NICK FURY",
+      "text": "You know, you really should be kinder to your neighbors. You never know when you're gonna need to borrow some sugar.",
+      "scene": 30
+    },
+    {
+      "character": "TALOS",
+      "text": "Now, hang on a second. Before you go swinging those jazz hands around... Making a mess of your friend's house... It's a lovely home, miss.",
+      "scene": 30
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Oh, my god! What the hell?",
+      "scene": 30
+    },
+    {
+      "character": "TALOS",
+      "text": "No one's gonna hurt the girl. Just don't kill me. That would really complicate the situation.",
+      "scene": 30
+    },
+    {
+      "character": "NICK FURY",
+      "text": "I'm about five seconds from complicating that wall with some ugly-ass skrull brains.",
+      "scene": 30
+    },
+    {
+      "character": "TALOS",
+      "text": "I'm sorry I simmed your boss. But now I stand before you as my true self. Without deception.",
+      "scene": 30
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "And who is that out there?",
+      "scene": 30
+    },
+    {
+      "character": "TALOS",
+      "text": "Okay, that's a fair point... But I'm sure that you understand I had to take some precautions. I saw you crush 20 of my best men with your hands bound. I just wanna talk.",
+      "scene": 30
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Last time we talked, I ended up hanging from my ankles.",
+      "scene": 30
+    },
+    {
+      "character": "TALOS",
+      "text": "That was before I knew who you were. Before I knew what made you different from the others. I have an audio recording from Pegasus... Of your voice from a plane crash six years ago... On a device I believe you call a \"black box.\"",
+      "scene": 30
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "They told me it was destroyed in the crash. How'd you get it?",
+      "scene": 30
+    },
+    {
+      "character": "TALOS",
+      "text": "She don't understand. Young lady, I have a special skill... That kind of allows me to get into places I'm not supposed to be.",
+      "scene": 30
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Call me \"young lady\" again... I'm gonna put my foot in a place it's not supposed to be.",
+      "scene": 30
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Am I supposed to guess where that is?",
+      "scene": 30
+    },
+    {
+      "character": "TALOS",
+      "text": "Okay, I get it. We're all a little on edge here. But, look, I just need your help decoding some coordinates. If you'll sit down and you'll listen to this... I assure you, it'll be worth your while.",
+      "scene": 31
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Call your buddy back inside and I'll listen.",
+      "scene": 31
+    },
+    {
+      "character": "TALOS",
+      "text": "Deal. Oh, my god! Get that thing away. How'd that get in here?",
+      "scene": 31
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "The cat? This isn't what you're afraid of, is it?",
+      "scene": 31
+    },
+    {
+      "character": "TALOS",
+      "text": "That's not a cat. That's a flerken.",
+      "scene": 31
+    },
+    {
+      "character": "NICK FURY",
+      "text": "A flerken?",
+      "scene": 31
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "Mom?",
+      "scene": 31
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Monica.",
+      "scene": 31
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "Why can't I listen, too?",
+      "scene": 31
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Shh!",
+      "scene": 31
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "What's happening?",
+      "scene": 32
+    },
+    {
+      "character": "TALOS",
+      "text": "It's loading.",
+      "scene": 32
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "Punch in the coordinates 5—2-2-9, negative 4-7, 8.7-6-8, 0.2.",
+      "scene": 32
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Copy that. Where are we going, doc?",
+      "scene": 32
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "My laboratory.",
+      "scene": 32
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Your laboratory? What do you mean?",
+      "scene": 32
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "Oh, no.",
+      "scene": 32
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Is that... Wait, what is that? It's not showing up on my radar.",
+      "scene": 32
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "Go, Carol. Fly!",
+      "scene": 32
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "That's no mig, Lawson. Who the hell are they?",
+      "scene": 32
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "Those are the bad guys. Fly faster now!",
+      "scene": 32
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Yes, ma'am.",
+      "scene": 32
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "What do they want?",
+      "scene": 32
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "Me. My work. I never should have brought you along.",
+      "scene": 32
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Here come some g's.",
+      "scene": 32
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "They're firing backwards. Hold on!",
+      "scene": 33
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Bail out! Bail out! Bail out!",
+      "scene": 33
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Stay with me, Lawson!",
+      "scene": 33
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Carol, come in. Do you copy?",
+      "scene": 34
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Yeah, I copy. We hit ground.",
+      "scene": 34
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Carol, are you okay? Do you copy?",
+      "scene": 34
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Yeah! I copy.",
+      "scene": 34
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Doc? Your blood. It's blue.",
+      "scene": 34
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "Yeah, but, uh, how's my hair? Help me out, will ya?",
+      "scene": 34
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "I gotta destroy it before they get here.",
+      "scene": 34
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Lawson?",
+      "scene": 34
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "You remember what I said about our work here? What it's for?",
+      "scene": 34
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "To end wars?",
+      "scene": 34
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "Yeah. But the wars are bigger than you know. Damn it! My name is not Lawson. My real name is mar-vell, and I come from a planet called hala.",
+      "scene": 34
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I would say that you're delusional... But we just got shot down by a spaceship and your blood is blue.",
+      "scene": 34
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "Listen, I spent half my life fighting a shameful war. Now, skedaddle before you give me any more regrets. Just remember the coordinates, okay? You gotta save 'em without me.",
+      "scene": 34
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Save who? How?",
+      "scene": 34
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "Now I gotta blow this engine before they find it.",
+      "scene": 34
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "What are you doing?",
+      "scene": 34
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "We have no interest in hurting you.",
+      "scene": 35
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "'Cause all the shooting kinda gave me the wrong impression!",
+      "scene": 35
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "The energy core. Where is it?",
+      "scene": 35
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Pararescue's on the way. You have two minutes until you're surrounded.",
+      "scene": 35
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Then I see no reason to prolong this conversation.",
+      "scene": 35
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "No, wait!",
+      "scene": 35
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "You mean that energy core?",
+      "scene": 35
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "No!",
+      "scene": 35
+    },
+    {
+      "character": "MINN-ERVA",
+      "text": "Commander? She's still moving. Permission to fire.",
+      "scene": 36
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Hold your fire.",
+      "scene": 36
+    },
+    {
+      "character": "MINN-ERVA",
+      "text": "There's nothing left. The core has been destroyed.",
+      "scene": 36
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "She absorbed its power.",
+      "scene": 36
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "She's coming with us.",
+      "scene": 36
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "He lied to me.",
+      "scene": 37
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Everything that I knew was a lie.",
+      "scene": 37
+    },
+    {
+      "character": "TALOS",
+      "text": "Now, you understand.",
+      "scene": 37
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "What? What do I understand now?",
+      "scene": 37
+    },
+    {
+      "character": "TALOS",
+      "text": "Yon-rogg killed mar-vell. He killed her... 'Cause she found out that she was on the wrong side of an unjust war.",
+      "scene": 37
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "No. Your people are terrorists. They kill innocents. I saw the ruins on torfa.",
+      "scene": 37
+    },
+    {
+      "character": "TALOS",
+      "text": "Ruins that the accusers are responsible for. My people lived as refugees on torfa. Homeless, ever since we resisted kree rule... And they destroyed our planet. And the handful of us that are left will be slaughtered next... Unless you help me finish what mar-vell started. The core that she found would have powered a light-speed ship... Capable of carrying us to safety. A new home where the kree can't reach us.",
+      "scene": 37
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Lawson always told us that our work at Pegasus wasn't to fight wars... But to end them.",
+      "scene": 37
+    },
+    {
+      "character": "TALOS",
+      "text": "She wanted you to help us find the core.",
+      "scene": 37
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Well, I already destroyed it.",
+      "scene": 37
+    },
+    {
+      "character": "TALOS",
+      "text": "No, you destroyed the engine. The core that powered it is in a remote location. If you help us decode those coordinates... We can find it.",
+      "scene": 37
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "You'll use it to destroy us.",
+      "scene": 37
+    },
+    {
+      "character": "TALOS",
+      "text": "We just want a home.",
+      "scene": 37
+    },
+    {
+      "character": "TALOS",
+      "text": "You and I lost everything at the hands of the kree. Can't you see it now? You're not one of them.",
+      "scene": 37
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "You don't know me. You have no idea who I am.",
+      "scene": 37
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I don't even know who I am!",
+      "scene": 37
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "You are Carol Danvers. You are the woman on that black box risking her life to do the right thing.",
+      "scene": 37
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "My best friend... Who supported me as a mother and a pilot when no one else did. You are smart, and funny, and a huge pain in the ass... And you were the most powerful person I knew... Way before you could shoot fire from your fists. You hear me? Do you hear me?",
+      "scene": 37
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Come here. Come here, girl. I got you.",
+      "scene": 37
+    },
+    {
+      "character": "TALOS",
+      "text": "I know I don't deserve your trust... But you were our only lead. We discovered that your energy signature matched mar-vell's core. Now we know why.",
+      "scene": 37
+    },
+    {
+      "character": "TALOS",
+      "text": "If only you knew the importance of it to me. I just need your help decoding the coordinates to mar-vell's lab.",
+      "scene": 37
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Those weren't coordinates. They're state vectors.",
+      "scene": 37
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "For orbital position and velocity. You didn't find her lab on earth, 'cause it's not on earth.",
+      "scene": 37
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "That was the location on the date of the crash six years ago. If we track its course, we'll find it in orbit right now.",
+      "scene": 37
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "It's just basic physics.",
+      "scene": 37
+    },
+    {
+      "character": "NICK FURY",
+      "text": "In orbit?",
+      "scene": 37
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Was that so difficult to figure out? I mean, you're my science guy, right?",
+      "scene": 37
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Yon-rogg will catch up to me soon. We've got to get to the core before he does.",
+      "scene": 37
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Mmm. We're going to space?",
+      "scene": 37
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "In what?",
+      "scene": 37
+    },
+    {
+      "character": "NOREX",
+      "text": "A few tweaks to your vessel should do it. I can handle the modifications.",
+      "scene": 37
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Mmm. Your science guy.",
+      "scene": 37
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Well, I could use a copilot.",
+      "scene": 37
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "No. No, I can't. I can't leave Monica.",
+      "scene": 37
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "Mom, it's okay. I can stay with gramma and paw-paw.",
+      "scene": 37
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "There's no way I'm going, baby. It's too dangerous.",
+      "scene": 37
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "Testing brand-new aerospace tech is dangerous... And you used to do that.",
+      "scene": 37
+    },
+    {
+      "character": "TALOS",
+      "text": "Your plan is to leave the atmosphere in a craft not designed for the journey... And you anticipate hostile encounters... With a technologically-superior foreign enemy. Correct?",
+      "scene": 37
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "That's what I'm saying. You have to go!",
+      "scene": 37
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Monica!",
+      "scene": 37
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "You have a chance to fly the coolest mission in the history of missions... And you're gonna give it up to sit on the couch and watch fresh prince with me?",
+      "scene": 37
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "What?",
+      "scene": 37
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "I just think you should consider... What kind of example you're setting for your daughter.",
+      "scene": 37
+    },
+    {
+      "character": "MARIA'S MOM",
+      "text": "What's going on around here?",
+      "scene": 37
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "I know, I know. I'll explain inside. Thank you.",
+      "scene": 37
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Your mom's lucky. When they were handing out kids, they gave her the toughest one. Lieutenant trouble.",
+      "scene": 37
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "You remembered. Is that mine?",
+      "scene": 37
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "No, no. You hang on to it until I come back. But there is something that I need your help with. I can't wear these kree colors anymore. And since you are obviously the only person around here with any sense of style...",
+      "scene": 37
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "Whoa.",
+      "scene": 37
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "Uh-uh. Definitely not.",
+      "scene": 37
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Well, since we're on the same team...",
+      "scene": 37
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "Hmm.",
+      "scene": 37
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "How do I look?",
+      "scene": 37
+    },
+    {
+      "character": "MONICA RAMBEAU",
+      "text": "Fresh.",
+      "scene": 37
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "What took you so long?",
+      "scene": 38
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "I'm fine. Thanks for asking.",
+      "scene": 38
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Pry46-b...",
+      "scene": 38
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "No, no codes. That system is fallible, as we've learned.",
+      "scene": 38
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Okay, then let's do this.",
+      "scene": 38
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Who do I see when I commune with the supreme intelligence?",
+      "scene": 38
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "The person you most admire and respect, I'd guess. But you would never tell me who.",
+      "scene": 38
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "And what is your earliest memory of hala?",
+      "scene": 38
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "The transfusion. Blue blood running through my veins.",
+      "scene": 38
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Whose blood?",
+      "scene": 38
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Hmm.",
+      "scene": 38
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "That's my blood that's coursing through her veins.",
+      "scene": 38
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "What have you done with her?",
+      "scene": 38
+    },
+    {
+      "character": "NOREX",
+      "text": "You're too late.",
+      "scene": 38
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Ronan, skrulls have infiltrated c-53. Come at once.",
+      "scene": 39
+    },
+    {
+      "character": "RONAN",
+      "text": "For the good of all kree, commander... The infestation will be eradicated.",
+      "scene": 39
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Passing 500 and climbing.",
+      "scene": 39
+    },
+    {
+      "character": "TALOS",
+      "text": "You know, you really shouldn't have that thing on your lap.",
+      "scene": 39
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Our little alliance with you is tenuous at best. And as long as he continues to freak you out... Like that... Yeah, I'm gonna keep giving him all the loves and hugs that he needs, right?",
+      "scene": 39
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Can I ask you something? Do you just turn into anything you want?",
+      "scene": 39
+    },
+    {
+      "character": "TALOS",
+      "text": "Ah, well, I have to see it first.",
+      "scene": 39
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Can you all do it?",
+      "scene": 39
+    },
+    {
+      "character": "TALOS",
+      "text": "Physiologically? Yeah. But, uh, it takes practice... And, um, dare I say it, talent to do it well.",
+      "scene": 39
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Can you turn into a cat?",
+      "scene": 39
+    },
+    {
+      "character": "TALOS",
+      "text": "What's a cat?",
+      "scene": 39
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "What about a filing cabinet?",
+      "scene": 39
+    },
+    {
+      "character": "TALOS",
+      "text": "Why would I turn into a filing cabinet?",
+      "scene": 39
+    },
+    {
+      "character": "NICK FURY",
+      "text": "A Venus flytrap? I'll give you 50 bucks right now if you turn into a Venus flytrap.",
+      "scene": 39
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Switching engines from scramjet to fusion. Buckle up, folks.",
+      "scene": 39
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Hey. Is this normal, like, space turbulence?",
+      "scene": 39
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Pretty much.",
+      "scene": 39
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Locking in on coordinate grid.",
+      "scene": 40
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Where is it?",
+      "scene": 40
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "It's here. It's gotta be here.",
+      "scene": 40
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Well, is it in front of all that nothing, or behind it?",
+      "scene": 40
+    },
+    {
+      "character": "AUTOMATED VOICE",
+      "text": "Decloaking activated.",
+      "scene": 40
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "Is that it? The core?",
+      "scene": 41
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "In her notes she called it the tesseract.",
+      "scene": 41
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Whoa.",
+      "scene": 41
+    },
+    {
+      "character": "NICK FURY",
+      "text": "What was Lawson doing with all this kid stuff?",
+      "scene": 41
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "It's okay.",
+      "scene": 42
+    },
+    {
+      "character": "SOREN",
+      "text": "We didn't know what to do. Mar-vell warned us not to send a signal for any reason... Or the kree would find us.",
+      "scene": 42
+    },
+    {
+      "character": "TALOS",
+      "text": "You did the right thing.",
+      "scene": 42
+    },
+    {
+      "character": "TALOS",
+      "text": "It's okay, it's okay. She's all right. She's a friend.",
+      "scene": 42
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I am not gonna hurt you.",
+      "scene": 42
+    },
+    {
+      "character": "TALOS",
+      "text": "She led me to you.",
+      "scene": 42
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I'm so sorry.",
+      "scene": 42
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I didn't know.",
+      "scene": 42
+    },
+    {
+      "character": "TALOS",
+      "text": "Carol. This is war. My hands are filthy from it, too. But we're here now. You found my family.",
+      "scene": 42
+    },
+    {
+      "character": "TALOS",
+      "text": "This is just the beginning. There are thousands of us separated from each other... Scattered throughout the galaxy.",
+      "scene": 42
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "What did you do to your uniform?",
+      "scene": 43
+    },
+    {
+      "character": "MINN-ERVA",
+      "text": "They got in her head. Just like we thought.",
+      "scene": 43
+    },
+    {
+      "character": "KORATH",
+      "text": "The supreme intelligence will set her straight.",
+      "scene": 43
+    },
+    {
+      "character": "TALOS",
+      "text": "You can see they're not soldiers. Let 'em go. You can have me.",
+      "scene": 43
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "And the core?",
+      "scene": 43
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "You lied to me.",
+      "scene": 43
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "I made you the best version of yourself.",
+      "scene": 43
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "What's given can be taken away.",
+      "scene": 43
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "There she is. Seems like your time on c-53 jogged the old memory. This jacket. It's killer, by the way.",
+      "scene": 44
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "The music. It's a nice touch.",
+      "scene": 44
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Let me out.",
+      "scene": 44
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "No can do.",
+      "scene": 44
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "If you hurt them, I will burn you to the ground.",
+      "scene": 44
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "With what exactly? Your power comes from us.",
+      "scene": 44
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "You didn't give me these powers. The blast did.",
+      "scene": 44
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "And yet, you've never had the strength to control them on your own.",
+      "scene": 44
+    },
+    {
+      "character": "SCANNER",
+      "text": "Species: Flerken. High.",
+      "scene": 44
+    },
+    {
+      "character": "NICK FURY",
+      "text": "It's a cat, not Hannibal Lecter.",
+      "scene": 44
+    },
+    {
+      "character": "SCANNER",
+      "text": "Species: Human male. Low to none.",
+      "scene": 44
+    },
+    {
+      "character": "NICK FURY",
+      "text": "That thing's clearly busted.",
+      "scene": 44
+    },
+    {
+      "character": "MINN-ERVA",
+      "text": "Load the flerken onto the helion. Eject the others into space.",
+      "scene": 44
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "You did good, ace.",
+      "scene": 44
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "Thanks to you... Those insidious shapeshifters will threaten our borders no more.",
+      "scene": 44
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I used to believe your lies... But the skrulls are just fighting for a home. You're talking about destroying them because they won't submit to your rule. And neither will I.",
+      "scene": 44
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "We found you. We embraced you as our own.",
+      "scene": 44
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "You stole me. From my home, my family, my friends.",
+      "scene": 44
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "It's cute how hard you try.",
+      "scene": 44
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "But remember... Without us...",
+      "scene": 44
+    },
+    {
+      "character": "STEVE",
+      "text": "Give it up, Carol.",
+      "scene": 44
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Stay down!",
+      "scene": 44
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "You're weak.",
+      "scene": 44
+    },
+    {
+      "character": "STEVE",
+      "text": "You're going too fast! You need to go slow!",
+      "scene": 44
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "You're flawed.",
+      "scene": 44
+    },
+    {
+      "character": "CADET OFFICER",
+      "text": "Are you trying to kill yourself?",
+      "scene": 44
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "Helpless.",
+      "scene": 44
+    },
+    {
+      "character": "BRET",
+      "text": "You're too emotional and so weak.",
+      "scene": 44
+    },
+    {
+      "character": "CAROL'S FATHER",
+      "text": "You don't belong out here!",
+      "scene": 44
+    },
+    {
+      "character": "SUPREME INTELLIGENCE",
+      "text": "We saved you.",
+      "scene": 44
+    },
+    {
+      "character": "YON-ROGG",
+      "text": "Control it.",
+      "scene": 44
+    },
+    {
+      "character": "CAROL'S FATHER",
+      "text": "I told you, Carol.",
+      "scene": 44
+    },
+    {
+      "character": "CADET OFFICER",
+      "text": "They'll never let you fly.",
+      "scene": 44
+    },
+    {
+      "character": "CAROL'S FATHER",
+      "text": "This ain't a game for little girls.",
+      "scene": 44
     },
     {
       "character": "BOY",
-      "text": "You're going too fast. You need to go slow."
+      "text": "You kiss like a horse.",
+      "scene": 44
     },
     {
-      "character": "TALOS",
-      "text": "Who is this person? Are we in the right...?"
+      "character": "CADET OFFICER",
+      "text": "You won't last a week, Danvers.",
+      "scene": 44
     },
     {
-      "character": "JOSEPH DANVERS",
-      "text": "What the hell are you thinking? You don't belong out here!"
+      "character": "SUPREME INTELLIGENCE",
+      "text": "Without us, you're only human.",
+      "scene": 44
     },
     {
-      "character": "CAROL",
-      "text": "You let him drive."
+      "character": "CAROL DANVERS",
+      "text": "You're right. I'm only human.",
+      "scene": 44
     },
     {
-      "character": "SKRULL SCIENTIST",
-      "text": "Let me try something."
+      "character": "MARIA RAMBEAU",
+      "text": "You know you're glowing, right?",
+      "scene": 45
     },
     {
-      "character": "CADETS",
-      "text": "You don't belong out here! You're not strong enough! You'll kill yourself!"
+      "character": "CAROL DANVERS",
+      "text": "I'll explain it later.",
+      "scene": 45
     },
     {
-      "character": "DRILL INSTRUCTOR",
-      "text": "They'll never let you fly."
+      "character": "CAROL DANVERS",
+      "text": "Take the tesseract. Leavethelunchbox.",
+      "scene": 45
     },
     {
-      "character": "TALOS",
-      "text": "Am I the only one who's confused here?"
+      "character": "NICK FURY",
+      "text": "I'm not touching that thing.",
+      "scene": 45
     },
     {
-      "character": "PILOT",
-      "text": "You're a decent pilot, but you're too emotional. You do know why they call it a cockpit, don't you?"
+      "character": "CAROL DANVERS",
+      "text": "You want me to get you an oven mitt?",
+      "scene": 45
     },
     {
-      "character": "VERS' BROTHER",
-      "text": "Huge rumble throughout the cosmos shook the moon and the sun and the stars in the sky. And so, little Alouette flew up throughout the night."
+      "character": "NICK FURY",
+      "text": "Whoa!",
+      "scene": 45
     },
     {
-      "character": "CAROL",
-      "text": "Did you see her?"
+      "character": "CAROL DANVERS",
+      "text": "Get the skrulls on the quadjet and go. Take the flerken with you.",
+      "scene": 45
     },
     {
-      "character": "CAROL",
-      "text": "It's Alouette."
+      "character": "MARIA RAMBEAU",
+      "text": "What about you?",
+      "scene": 45
     },
     {
-      "character": "MARIA",
-      "text": "Get your butt's inside, it's time to eat."
+      "character": "CAROL DANVERS",
+      "text": "I'll buy you some time!",
+      "scene": 45
     },
     {
-      "character": "CAROL",
-      "text": "Prepare for takeoff Lieutenant Trouble."
+      "character": "NICK FURY",
+      "text": "I'm picking you up now.",
+      "scene": 45
     },
     {
-      "character": "TALOS",
-      "text": "Charming memory."
+      "character": "NICK FURY",
+      "text": "I'm trusting you not to eat me.",
+      "scene": 45
     },
     {
-      "character": "SKRULL SCIENTIST",
-      "text": "Hang on. I think I got it."
+      "character": "CAROL DANVERS",
+      "text": "Oh, hey, guys.",
+      "scene": 45
     },
     {
-      "character": "CAROL",
-      "text": "Did you see her?"
-    },
-    {
-      "character": "CAROL",
-      "text": "It's Alouette."
-    },
-    {
-      "character": "MARIA",
-      "text": "Get your butt's inside, it's time to eat."
-    },
-    {
-      "character": "CAROL",
-      "text": "Prepare for takeoff Lieutenant Trouble."
-    },
-    {
-      "character": "TALOS",
-      "text": "Charming memory."
-    },
-    {
-      "character": "SKRULL SCIENTIST",
-      "text": "Hang on. I think I got it."
-    },
-    {
-      "character": "LAWSON",
-      "text": "Goose likes you. She doesn't typically take to people."
-    },
-    {
-      "character": "CAROL",
-      "text": "Early start to your morning."
-    },
-    {
-      "character": "LAWSON",
-      "text": "Ah. Late night actually, I can't sleep when there's work to do. Sound familiar?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Flying airplanes never feels like work."
-    },
-    {
-      "character": "LAWSON",
-      "text": "Wonderful view, isn't it?"
-    },
-    {
-      "character": "CAROL",
-      "text": "I prefer the view from up there."
-    },
-    {
-      "character": "LAWSON",
-      "text": "You'll get there soon enough Ace."
-    },
-    {
-      "character": "TALOS",
-      "text": "Wait, wait, wait. That's her. Get her back."
-    },
-    {
-      "character": "SKRULL SCIENTIST",
-      "text": "Stand by."
-    },
-    {
-      "character": "LAWSON",
-      "text": "Sound familiar?"
-    },
-    {
-      "character": "LAWSON",
-      "text": "Wonderful view, isn't it?"
-    },
-    {
-      "character": "CAROL",
-      "text": "I prefer the view from up there."
-    },
-    {
-      "character": "LAWSON",
-      "text": "You'll get there soon enough..."
-    },
-    {
-      "character": "TALOS",
-      "text": "What's that on her shirt? I couldn't read it."
-    },
-    {
-      "character": "LAWSON",
-      "text": "Sound familiar?"
-    },
-    {
-      "character": "LAWSON",
-      "text": "Wonderful view, isn't it?"
-    },
-    {
-      "character": "CAROL",
-      "text": "I prefer the view from up there."
-    },
-    {
-      "character": "LAWSON",
-      "text": "You'll get there soon enough..."
-    },
-    {
-      "character": "TALOS",
-      "text": "Focus."
-    },
-    {
-      "character": "CAROL",
-      "text": "Excuse me?"
-    },
-    {
-      "character": "TALOS",
-      "text": "Look down."
-    },
-    {
-      "character": "TALOS",
-      "text": "Focus. Pegasus, Dr. Wendy Lawson. That's her."
-    },
-    {
-      "character": "CAROL",
-      "text": "Can you hear that?"
-    },
-    {
-      "character": "TALOS",
-      "text": "Do we have the location?"
-    },
-    {
-      "character": "SKRULL TECH",
-      "text": "Got it."
-    },
-    {
-      "character": "TALOS",
-      "text": "Now track Lawson until we find the energy signature."
-    },
-    {
-      "character": "TALOS",
-      "text": "Interesting."
-    },
-    {
-      "character": "TALOS",
-      "text": "Huh. Hold on. Go back right before this. Go back."
-    },
-    {
-      "character": "CAROL",
-      "text": "That's no MIG, Lawson."
-    },
-    {
-      "character": "TALOS",
-      "text": "Focus!"
-    },
-    {
-      "character": "TALOS",
-      "text": "Get her back. Get her back now!"
-    },
-    {
-      "character": "SKRULL SCIENTIST",
-      "text": "This doesn't make any sense."
-    },
-    {
-      "character": "TALOS",
-      "text": "Do we have any information we can act on?"
-    },
-    {
-      "character": "SKRULL SCIENTIST",
-      "text": "Just that Lawson was somewhere on the Planet C53. We're on our way."
-    },
-    {
-      "character": "TALOS",
-      "text": "Then dig, dig, dig, deeper. Lawson is our link to that lightspeed engine! And everything we're after..."
-    },
-    {
-      "character": "TALOS",
-      "text": "Oh. That did something. Try that again."
-    },
-    {
-      "character": "SKRULL",
-      "text": "Oh-uh."
-    },
-    {
-      "character": "TALOS",
-      "text": "Not yet!"
-    },
-    {
-      "character": "CAROL",
-      "text": "What did you do to me?"
-    },
-    {
-      "character": "TALOS",
-      "text": "We're just after a little information."
-    },
-    {
-      "character": "CAROL",
-      "text": "What did you put in my head?"
-    },
-    {
-      "character": "TALOS",
-      "text": "Nothing that wasn't already there."
-    },
-    {
-      "character": "CAROL",
-      "text": "But those aren't my memories."
-    },
-    {
-      "character": "TALOS",
-      "text": "Yeah, it's like a bad trip in there. I'm not surprised you can't keep it straight. They really did a number on you."
-    },
-    {
-      "character": "CAROL",
-      "text": "Enough of your mind games! What do you want?"
-    },
-    {
-      "character": "TALOS",
-      "text": "We're looking for the location of a Dr Lawson and her light speed engine."
-    },
-    {
-      "character": "CAROL",
-      "text": "I don't know any Doctor Lawson."
-    },
-    {
-      "character": "TALOS",
-      "text": "Then why is she in your head?"
-    },
-    {
-      "character": "CAROL",
-      "text": "You wouldn't know how these things come off would ya? No? Fine."
-    },
-    {
-      "character": "CAROL",
-      "text": "Hey!"
-    },
-    {
-      "character": "TALOS",
-      "text": "Leaving so soon? We're just getting to know each other."
-    },
-    {
-      "character": "CAROL",
-      "text": "Vers to Star Force Command. Do you read me?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Hello? Do you copy?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Hi, I'm Vers. Kree Star Force. Is this C-53? Do you understand me? Is my universal translator working?"
-    },
-    {
-      "character": "SECURITY OFFICER",
-      "text": "Yeah, I understand you."
-    },
-    {
-      "character": "CAROL",
-      "text": "Oh, good. Are you in charge of security for this district?"
-    },
-    {
-      "character": "SECURITY OFFICER",
-      "text": "Sort of. The movie theatre has its own guy."
-    },
-    {
-      "character": "CAROL",
-      "text": "Where can I find communications equipment?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Thank you."
-    },
-    {
-      "character": "TALOS",
-      "text": "Track the pod, find the girl. She knows more than she knows."
-    },
-    {
-      "character": "TALOS",
-      "text": "Hey, this one's taken."
-    },
-    {
-      "character": "CAROL",
-      "text": "Come on."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Vers. Verify, CTC39."
-    },
-    {
-      "character": "CAROL",
-      "text": "GRX31600, and I'm fine thank you for asking. Is everyone ok, what happened?"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Skrull ambush. I thought we'd lost you. Did you find Soh-Larr?"
-    },
-    {
-      "character": "CAROL",
-      "text": "It wasn't Soh-Larr. Talos simmed him, even knew his code."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "That's impossible. That code was buried in his unconscious."
-    },
-    {
-      "character": "CAROL",
-      "text": "The Skrulls messed with my mind. The machine that they used, I think it was how they extracted Soh-Larr's code."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Vers, where are you?"
-    },
-    {
-      "character": "CAROL",
-      "text": "I'm on planet C-53. The Skrulls are looking for someone named Lawson."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Who?"
-    },
-    {
-      "character": "CAROL",
-      "text": "She's... who I see..."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "She's what? Vers. Vers, what?"
-    },
-    {
-      "character": "CAROL",
-      "text": "She's a scientist. They think that she's cracked the code on light speed tech. I have to get to her before they do, or else they'll be able to invade new galaxies."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "No. You've been caught once already. How far to C-53?"
-    },
-    {
-      "character": "BRON-CHAR",
-      "text": "Closest jump point is 22 hours."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Vers. Hold your position until we get there, keep your comms online so that we can contact you."
-    },
-    {
-      "character": "CAROL",
-      "text": "No! What if they get a hold of it before..."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Vers? Vers!"
+      "character": "CAROL DANVERS",
+      "text": "Arm wrestle for the tesseract?",
+      "scene": 45
     },
     {
       "character": "KORATH",
-      "text": "If the Skrulls have got to her, she's compromised."
+      "text": "I used to find you amusing.",
+      "scene": 45
     },
     {
-      "character": "YON-ROGG",
-      "text": "She's stronger than you think."
-    },
-    {
-      "character": "BRON-CHAR",
-      "text": "Have you visited C-53?"
+      "character": "BRON-CHARR",
+      "text": "Let's put an end to this.",
+      "scene": 45
     },
     {
       "character": "MINN-ERVA",
-      "text": "Once, it's a real shithole."
+      "text": "You knew all along. Is that why we never hung out?",
+      "scene": 46
     },
     {
-      "character": "COULSON",
-      "text": "You call this in?"
+      "character": "CAROL DANVERS",
+      "text": "No, I just never liked you.",
+      "scene": 46
     },
     {
-      "character": "FURY",
-      "text": "Excuse me miss, do you know anything about a lady who went through the roof of that Blockbuster over there? Witness says she was dressed for laser tag."
+      "character": "CAROL DANVERS",
+      "text": "Incoming!",
+      "scene": 46
     },
     {
-      "character": "CAROL",
-      "text": "Oh. Yeah, I think she went that way."
-    },
-    {
-      "character": "FURY",
-      "text": "Ah. I'd like to ask you some questions. Maybe give you the 4-1-1 on late night drop-box. Could I see some identification, please?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Vers. Kree Star Force. We don't carry identification on metal cards."
-    },
-    {
-      "character": "FURY",
-      "text": "Vers. Star Force. How long are you planning on being in town?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Oh, I'll be out of your hair as soon as I track down the Skrulls which are infiltrating your planet."
-    },
-    {
-      "character": "FURY",
-      "text": "Skrulls?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Shapeshifters. They can transform into any lifeform down to the DNA. Oh boy, you guys don't have a clue, do you?"
-    },
-    {
-      "character": "FURY",
-      "text": "Oh, oh, oh, oh. Hold on. How do we know that you're not one of those...shapeshifters?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Congratulations Agent Fury. You have finally asked a relevant question."
-    },
-    {
-      "character": "FURY",
-      "text": "Oh! Congratulations to you Star Force Lady. You're under arrest."
-    },
-    {
-      "character": "STAN LEE (1922-2018 R.I.P)",
-      "text": "Trust me, true believer. Trust me-"
-    },
-    {
-      "character": "STAN LEE (1922-2018 R.I.P)",
-      "text": "Trust me, true believer."
-    },
-    {
-      "character": "COULSON",
-      "text": "Train's heading for a tunnel up ahead."
-    },
-    {
-      "character": "FURY",
-      "text": "Let's greet them at the station."
-    },
-    {
-      "character": "COULSON",
-      "text": "Fury, this is Agent Colson. Umm, I'm still here at the Blockbuster and where did everybody go? I've finished collecting evidence."
-    },
-    {
-      "character": "BIKER",
-      "text": "Nice scuba suit."
-    },
-    {
-      "character": "BIKER",
-      "text": "Line up honey, heh? Got a smile for me?"
-    },
-    {
-      "character": "MEDICAL EXAMINER",
-      "text": "All life on Earth is carbon-based, not this guy. Whatever he runs on, it's not on the periodic table."
-    },
-    {
-      "character": "FURY",
-      "text": "You're saying he's not from around here?"
-    },
-    {
-      "character": "MEDICAL EXAMINER",
-      "text": "Hey, how's your eye?"
-    },
-    {
-      "character": "FURY",
-      "text": "Well, I'd say fine. But it can't believe what it's seeing."
-    },
-    {
-      "character": "DIRECTOR",
-      "text": "You said that this thing looked like Coulson?"
-    },
-    {
-      "character": "FURY",
-      "text": "Talked like him too."
-    },
-    {
-      "character": "DIRECTOR",
-      "text": "The"
-    },
-    {
-      "character": "MEDICAL EXAMINER",
-      "text": "All life on Earth is carbon-based, not this guy. Whatever he runs on, it's not on the periodic table."
-    },
-    {
-      "character": "FURY",
-      "text": "You're saying he's not from around here?"
-    },
-    {
-      "character": "MEDICAL EXAMINER",
-      "text": "Hey, how's your eye?"
-    },
-    {
-      "character": "FURY",
-      "text": "Well, I'd say fine. But it can't believe what it's seeing."
-    },
-    {
-      "character": "DIRECTOR",
-      "text": "You said that this thing looked like Coulson?"
-    },
-    {
-      "character": "FURY",
-      "text": "Talked like him too."
-    },
-    {
-      "character": "DIRECTOR",
-      "text": "The woman said that there were more?"
-    },
-    {
-      "character": "FURY",
-      "text": "The word she used was infiltration."
-    },
-    {
-      "character": "DIRECTOR",
-      "text": "Believe her?"
-    },
-    {
-      "character": "FURY",
-      "text": "Not 'till I say this."
-    },
-    {
-      "character": "DIRECTOR",
-      "text": "What's your plan?"
-    },
-    {
-      "character": "FURY",
-      "text": "I got to find Blockbuster girl. I got word on a motorcycle thief which fits her description. She can tell us why these lizards are here, maybe she can tell us how to kick them to the curb."
-    },
-    {
-      "character": "DIRECTOR",
-      "text": "Good. Do it alone though. Can't trust anyone. Not even our own men."
-    },
-    {
-      "character": "FURY",
-      "text": "Yes sir."
-    },
-    {
-      "character": "DIRECTOR",
-      "text": "Wow, they're ugly bastards, aren't they?"
-    },
-    {
-      "character": "MEDICAL EXAMINER",
-      "text": "Yeah, well. They're not Brad Pitt sir."
-    },
-    {
-      "character": "DIRECTOR",
-      "text": "Safe journey to the beyond my friend. I will finish what we started."
-    },
-    {
-      "character": "MEDICAL EXAMINER",
-      "text": "I wouldn't get too close their boss."
-    },
-    {
-      "character": "DIRECTOR",
-      "text": "No-one in or out."
-    },
-    {
-      "character": "BARTENDER",
-      "text": "What can I get ya?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Where was this photograph taken?"
-    },
-    {
-      "character": "BARTENDER",
-      "text": "At an airport?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Where's Pegasus?"
-    },
-    {
-      "character": "FURY",
-      "text": "That's classified. Not unlike the file I started on you."
-    },
-    {
-      "character": "FURY",
-      "text": "But I see you changed it up a bit since then. Grunge is a good look for you."
-    },
-    {
-      "character": "CAROL",
-      "text": "Did you have a rough day, Agent Fury?"
-    },
-    {
-      "character": "FURY",
-      "text": "It's cool. You know, space invasion, big car chase, got to watch an alien autopsy. Typical 9 to 5."
-    },
-    {
-      "character": "CAROL",
-      "text": "So, you saw one?"
-    },
-    {
-      "character": "FURY",
-      "text": "I was never one to believe in aliens. But I can't unsee that."
-    },
-    {
-      "character": "CAROL",
-      "text": "This is gonna get a little awkward but I gotta ask."
-    },
-    {
-      "character": "FURY",
-      "text": "You think I'm one of those green things."
-    },
-    {
-      "character": "CAROL",
-      "text": "Can't be too careful."
-    },
-    {
-      "character": "FURY",
-      "text": "You are looking at 100 percent red-blooded Earthman."
-    },
-    {
-      "character": "CAROL",
-      "text": "I'm afraid I'm gonna need proof."
-    },
-    {
-      "character": "FURY",
-      "text": "We talking cheek swab or urine sample."
-    },
-    {
-      "character": "CAROL",
-      "text": "No. The DNA would match."
-    },
-    {
-      "character": "FURY",
-      "text": "Well, my AOL password."
-    },
-    {
-      "character": "CAROL",
-      "text": "Skrulls can only assume recent memories of their host bodies."
-    },
-    {
-      "character": "FURY",
-      "text": "Oh oh! You wanna get personal."
-    },
-    {
-      "character": "CAROL",
-      "text": "Where were you born?"
-    },
-    {
-      "character": "FURY",
-      "text": "Huntsville, Alabama. But technically I don't remember that part."
-    },
-    {
-      "character": "CAROL",
-      "text": "Name of your first pet."
-    },
-    {
-      "character": "FURY",
-      "text": "Mr. Snuffers."
-    },
-    {
-      "character": "CAROL",
-      "text": "Mr. Snuffers?"
-    },
-    {
-      "character": "FURY",
-      "text": "That's what I said. Did I pass?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Not yet. First job?"
-    },
-    {
-      "character": "FURY",
-      "text": "Soldier, straight out of high school. Got the ranks of full breed Colonel."
-    },
-    {
-      "character": "CAROL",
-      "text": "And then?"
-    },
-    {
-      "character": "FURY",
-      "text": "Spy."
-    },
-    {
-      "character": "CAROL",
-      "text": "Where?"
-    },
-    {
-      "character": "FURY",
-      "text": "It was the Cold War, we were everywhere. Uh... Belfast, Bucharest, Belgrade, Budapest. I like the B's. I can make them rhyme"
-    },
-    {
-      "character": "CAROL",
-      "text": "Now?"
-    },
-    {
-      "character": "FURY",
-      "text": "Been riding a desk for the past six years, trying to figure out where our future enemies are coming from. Never occurred to me that they'd be coming from above."
-    },
-    {
-      "character": "CAROL",
-      "text": "Name a detail so bizarre a Skrull could never fabricate it."
-    },
-    {
-      "character": "FURY",
-      "text": "If toast is cut diagonally, I can't eat it. You didn't need that did you?"
-    },
-    {
-      "character": "CAROL",
-      "text": "No. No, I didn't. But I enjoyed it."
-    },
-    {
-      "character": "FURY",
-      "text": "Ok. Your turn. Prove you're not a Skrull."
-    },
-    {
-      "character": "FURY",
-      "text": "And how is that supposed to prove to me that you're not a Skrull?"
-    },
-    {
-      "character": "CAROL",
-      "text": "It's a photon blast."
-    },
-    {
-      "character": "FURY",
-      "text": "And...?"
-    },
-    {
-      "character": "CAROL",
-      "text": "A Skrull can't do that. So, a full-bred colonel turned spy turned SHIELD agent must have pretty high-security clearance. Where's Pegasus?"
-    },
-    {
-      "character": "FURY",
-      "text": "Okay, the Skrulls sim alien races which infiltrate and overtake alien planets. And you're a Kree, a race of noble warriors."
-    },
-    {
-      "character": "CAROL",
-      "text": "Heroes. Noble warrior heroes."
-    },
-    {
-      "character": "FURY",
-      "text": "So, um. What do Skrulls want with Dr. Lawson?"
-    },
-    {
-      "character": "CAROL",
-      "text": "They believe she developed a light speed engine at Pegasus."
-    },
-    {
-      "character": "FURY",
-      "text": "Light speed engine? I've got to admit, that's not the craziest thing I've heard today."
-    },
-    {
-      "character": "CAROL",
-      "text": "Well, it's still early."
-    },
-    {
-      "character": "FURY",
-      "text": "And you, what do you want?"
-    },
-    {
-      "character": "CAROL",
-      "text": "To stop the Skrulls before they become unstoppable."
-    },
-    {
-      "character": "FURY",
-      "text": "And...? Look, war is a universal language. I know a rogue soldier when I see one, you've got a personal stake in this."
-    },
-    {
-      "character": "SECURITY CHECKPOINT",
-      "text": "This is a government property, turn your vehicle around."
-    },
-    {
-      "character": "FURY",
-      "text": "Nicholas Joseph Fury, Agent of SHIELD."
-    },
-    {
-      "character": "SECURITY CHECKPOINT",
-      "text": "Place your thumb on the pad. One moment."
-    },
-    {
-      "character": "CAROL",
-      "text": "Nicholas Joseph Fury, you have three names?"
-    },
-    {
-      "character": "FURY",
-      "text": "Everybody calls me Fury. Not Nicholas, not Joseph, not Nick. Just Fury."
-    },
-    {
-      "character": "CAROL",
-      "text": "What does your mom call you?"
-    },
-    {
-      "character": "FURY",
-      "text": "Fury."
-    },
-    {
-      "character": "CAROL",
-      "text": "What do you call her?"
-    },
-    {
-      "character": "FURY",
-      "text": "Fury."
-    },
-    {
-      "character": "CAROL",
-      "text": "What about your kids?"
-    },
-    {
-      "character": "FURY",
-      "text": "If I have them, they'll call me Fury."
-    },
-    {
-      "character": "SECURITY CHECKPOINT",
-      "text": "You're cleared for access."
-    },
-    {
-      "character": "FURY",
-      "text": "Thank you."
-    },
-    {
-      "character": "FURY",
-      "text": "Oh, hold up. You look like somebody's disaffected niece. Put that on."
-    },
-    {
-      "character": "CAROL",
-      "text": "What is this?"
-    },
-    {
-      "character": "FURY",
-      "text": "It's the SHIELD logo."
-    },
-    {
-      "character": "CAROL",
-      "text": "Does announcing your identity on clothing help with the covert part of your job."
-    },
-    {
-      "character": "FURY",
-      "text": "Said the space soldier who was wearing a rubber suit."
-    },
-    {
-      "character": "FURY",
-      "text": "Lose the flannel."
-    },
-    {
-      "character": "SECURITY",
-      "text": "How can I help you?"
-    },
-    {
-      "character": "FURY",
-      "text": "We're agents of SHIELD."
-    },
-    {
-      "character": "CAROL",
-      "text": "We're looking for a woman named Lawson."
-    },
-    {
-      "character": "FURY",
-      "text": "A Dr. Wendy Lawson."
-    },
-    {
-      "character": "CAROL",
-      "text": "Do you know her?"
-    },
-    {
-      "character": "SECURITY",
-      "text": "Follow me."
-    },
-    {
-      "character": "CAROL",
-      "text": "Hmm."
-    },
-    {
-      "character": "FURY",
-      "text": "Are you familiar with the phrase \"Welcome Wagon\"?"
-    },
-    {
-      "character": "CAROL",
-      "text": "No."
-    },
-    {
-      "character": "FURY",
-      "text": "Well, this ain't it."
-    },
-    {
-      "character": "CAROL",
-      "text": "Is that a communicator?"
-    },
-    {
-      "character": "FURY",
-      "text": "Yeah. State-of-the-art two-way pager."
-    },
-    {
-      "character": "CAROL",
-      "text": "Who are you paging?"
-    },
-    {
-      "character": "FURY",
-      "text": "My mom. Don't worry, I didn't mention you."
-    },
-    {
-      "character": "FURY",
-      "text": "After you."
-    },
-    {
-      "character": "CAROL",
-      "text": "Impressive."
-    },
-    {
-      "character": "FURY",
-      "text": "Oh. You should see what I can do with a paperclip."
-    },
-    {
-      "character": "FURY",
-      "text": "Hey, there. How are you?"
-    },
-    {
-      "character": "FURY",
-      "text": "Oh, my goodness. Look at you. Just look at you. Aren't you the cutest little thing."
-    },
-    {
-      "character": "FURY",
-      "text": "Aren't you cute? And what's your name, huh? What's your name? \"Goose\", cool name for a cool cat."
-    },
-    {
-      "character": "CAROL",
-      "text": "Fury."
-    },
-    {
-      "character": "FURY",
-      "text": "I'll be back."
-    },
-    {
-      "character": "FURY",
-      "text": "Oh. Let me get my fingerprint out. Just let me unravel this puppy."
-    },
-    {
-      "character": "FURY",
-      "text": "You sat there and watched me play with tape? When all you had to do was..."
-    },
-    {
-      "character": "CAROL",
-      "text": "I didn't want to steal your thunder."
-    },
-    {
-      "character": "CAROL",
-      "text": "Huh. Lawson."
-    },
-    {
-      "character": "CAROL",
-      "text": "Ha. Lawson's plan for the light-speed engine. I wonder why they terminated the project."
-    },
-    {
-      "character": "FURY",
-      "text": "Um, maybe because she's cuckoo."
-    },
-    {
-      "character": "CAROL",
-      "text": "Kree glyphs?"
-    },
-    {
-      "character": "FURY",
-      "text": "Hmm?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Lawson is not cuckoo. She's Kree."
-    },
-    {
-      "character": "FURY",
-      "text": "Well, she's dead."
-    },
-    {
-      "character": "CAROL",
-      "text": "What?"
-    },
-    {
-      "character": "FURY",
-      "text": "She crashed the ASIS aircraft during an unauthorized test flight. Took a pilot down with her. That's why security here's so unfriendly. They're covering up a billion-dollar mistake. Oh, and your light-speed engine is toast."
-    },
-    {
-      "character": "CAROL",
-      "text": "When did this crash happen?"
-    },
-    {
-      "character": "FURY",
-      "text": "Six years ago. 1989."
-    },
-    {
-      "character": "CAROL",
-      "text": "Who was the pilot?"
-    },
-    {
-      "character": "FURY",
-      "text": "Um, most of this thing's redacted but there is a testimonial here from a Maria Rambeau. Last person to see them both alive."
-    },
-    {
-      "character": "FURY",
-      "text": "You OK?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Mm-hmm."
-    },
-    {
-      "character": "FURY",
-      "text": "Back in a minute."
-    },
-    {
-      "character": "LAWSON",
-      "text": "This isn't about fighting wars. It's about ending them."
-    },
-    {
-      "character": "CAROL",
-      "text": "I know Lawson was Kree. She was here on C-53 and died in a plane crash. Do you know anything about this?"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "I just discovered a mission report sent from C-53. There's only so much I'm cleared to tell you Vers, but..."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Lawson was an undercover Kree operative named Mar-Vell. She was working on a unique energy core. Experimenting with tech that apparently could help us win the war."
-    },
-    {
-      "character": "DIRECTOR",
-      "text": "Still here?"
-    },
-    {
-      "character": "FURY",
-      "text": "She's co-operating with the investigation sir."
-    },
-    {
-      "character": "DIRECTOR",
-      "text": "You men stay here."
-    },
-    {
-      "character": "DIRECTOR",
-      "text": "I want to question her alone. Excellent work Nicholas."
-    },
-    {
-      "character": "CAROL",
-      "text": "Does it say anything about me?"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Anything about you? No, of course not. Why would it?"
-    },
-    {
-      "character": "CAROL",
-      "text": "I found evidence that I had a life here."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "On C-53?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Mar-Vell is who I see in the Supreme Intelligence. I knew her. And I knew her as Lawson."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "This sounds like Skrull simulation Vers."
-    },
-    {
-      "character": "CAROL",
-      "text": "No, it's not! 'Cause I remember I was here!"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Stop! Remember your training. Know your enemy. It could be you. Do not let your emotions undermine your judgment."
-    },
-    {
-      "character": "FURY",
-      "text": "She's on sub-level 6. I'll get off on 5, take the stairs in case she runs for it. Do a pincer move, like we did in Havana."
-    },
-    {
-      "character": "DIRECTOR",
-      "text": "Right. Like we did in Havana."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "We're nearing the jump-point. Leave your beacon on so I can find you. We'll get to the bottom of this Vers. Together."
-    },
-    {
-      "character": "CAROL",
-      "text": "Ok."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "We're nearing the jump-point. Leave your beacon on so I can find you. We'll get to the bottom of this Vers. Together."
-    },
-    {
-      "character": "CAROL",
-      "text": "Ok."
-    },
-    {
-      "character": "FURY",
-      "text": "Vers!... Vers!"
-    },
-    {
-      "character": "AGENT",
-      "text": "Fury's colluding with the target."
-    },
-    {
-      "character": "COULSON",
-      "text": "Then why did he call us in?"
-    },
-    {
-      "character": "AGENT",
-      "text": "All I know is that we take him in too. Dead or alive."
-    },
-    {
-      "character": "COULSON",
-      "text": "Dead or alive?"
-    },
-    {
-      "character": "DIRECTOR",
-      "text": "Was it something I said?"
-    },
-    {
-      "character": "DIRECTOR",
-      "text": "Now you know, I don't really need these to see (holding up his glasses which were knocked off during the fight) . But they do kinda complete the look"
+      "character": "GUARD",
+      "text": "Hey, in a hurry?",
+      "scene": 46
     },
     {
       "character": "TALOS",
-      "text": "Don't you think?"
+      "text": "Don't make me do this.",
+      "scene": 46
     },
     {
-      "character": "CAROL",
-      "text": "You called them in?"
+      "character": "GUARD",
+      "text": "Okay.",
+      "scene": 46
     },
     {
-      "character": "FURY",
-      "text": "My bad!"
+      "character": "NICK FURY",
+      "text": "Come on, do your thing! Come on!",
+      "scene": 47
     },
     {
-      "character": "AGENT",
-      "text": "Coulson, you have eyes on them?"
+      "character": "NICK FURY",
+      "text": "Come on!",
+      "scene": 47
     },
     {
-      "character": "COULSON",
-      "text": "They're not down here. Let's try up there."
+      "character": "NICK FURY",
+      "text": "Damn it, goose. Pick a side.",
+      "scene": 47
     },
     {
-      "character": "FURY",
-      "text": "What?"
+      "character": "GUARD",
+      "text": "Take them to the hangar, too. We'll blast them all into space.",
+      "scene": 47
     },
     {
-      "character": "CAROL",
-      "text": "Your communicator. You obviously can't be trusted with it."
+      "character": "TALOS",
+      "text": "Play it cool.",
+      "scene": 47
     },
     {
-      "character": "FURY",
-      "text": "Do you know how to fly this thing?"
+      "character": "TALOS",
+      "text": "Just like Havana.",
+      "scene": 47
     },
     {
-      "character": "CAROL",
-      "text": "Uh... we'll see."
+      "character": "TALOS",
+      "text": "Do you have the thing?",
+      "scene": 47
     },
     {
-      "character": "FURY",
-      "text": "That's a yes or no question."
+      "character": "NICK FURY",
+      "text": "Flerken kitty ate it.",
+      "scene": 47
     },
     {
-      "character": "CAROL",
-      "text": "Yes."
+      "character": "GUARD",
+      "text": "Come on, move! Move!",
+      "scene": 48
     },
     {
-      "character": "FURY",
-      "text": "That's what I'm talking about!"
+      "character": "TALOS",
+      "text": "Follow my lead.",
+      "scene": 48
     },
     {
-      "character": "FURY",
-      "text": "We've got a stowaway."
+      "character": "NICK FURY",
+      "text": "Cover her eyes.",
+      "scene": 48
     },
     {
-      "character": "CAROL",
-      "text": "Hang on Goose."
-    },
-    {
-      "character": "FURY",
-      "text": "Who's a good kitty huh? Huh Goose? Yes, that's right. Who's a good kitty Goose? You're a good kitty."
-    },
-    {
-      "character": "CAROL",
-      "text": "See anyone you know? Funny story... I arrived on Hala, near dead, no memory... That was six years ago."
-    },
-    {
-      "character": "FURY",
-      "text": "So, you think you're the pilot that went down with Dr Lawson."
-    },
-    {
-      "character": "CAROL",
-      "text": "I'm saying that the last person to see them alive can probably tell us."
-    },
-    {
-      "character": "FURY",
-      "text": "Maria Rambeau."
-    },
-    {
-      "character": "CAROL",
-      "text": "Mmhmm. So how do we get to Louisianna?"
-    },
-    {
-      "character": "FURY",
-      "text": "Due East. Hang a right at Memphis."
-    },
-    {
-      "character": "CAROL",
-      "text": "That agent, that stopped the Skrulls from fighting us..."
-    },
-    {
-      "character": "FURY",
-      "text": "Coulson. New guy. Guess he doesn't hate me yet."
-    },
-    {
-      "character": "CAROL",
-      "text": "Yeah well, give him time."
-    },
-    {
-      "character": "FURY",
-      "text": "I guess he had a feeling, went with his gut against orders. It's a really hard thing to do. That's what keeps us human."
-    },
-    {
-      "character": "CAROL",
-      "text": "I get in trouble for that. A lot."
-    },
-    {
-      "character": "FURY",
-      "text": "I see that about you."
-    },
-    {
-      "character": "FURY",
-      "text": "Rescuing the guy how sold you out to the Skrulls. I guess that's not standard Kree operating procedure."
-    },
-    {
-      "character": "CAROL",
-      "text": "Well, I won't tell your boss if you don't tell mine."
+      "character": "NICK FURY",
+      "text": "Onto the ship! Let's go! Let's go!",
+      "scene": 48
     },
     {
       "character": "YON-ROGG",
-      "text": "Ronan."
+      "text": "Minn-erva, take them down in the drop ship.",
+      "scene": 49
+    },
+    {
+      "character": "MINN-ERVA",
+      "text": "On it.",
+      "scene": 49
+    },
+    {
+      "character": "NICK FURY",
+      "text": "You all right, friend?",
+      "scene": 49
+    },
+    {
+      "character": "TALOS",
+      "text": "Never better.",
+      "scene": 49
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "We got a bogey coming in hot.",
+      "scene": 49
     },
     {
       "character": "RONAN",
-      "text": "The Accusers have completed their operation, but the greater mission was a failure thanks to your team."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "It was a trap. To lure our operative Vers to Torfa and kidnap her."
-    },
-    {
-      "character": "RONAN",
-      "text": "Give us the location, we'll take care of the terrorist threat."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "By bombing them out of the galaxy. No. We'll handle this."
-    },
-    {
-      "character": "RONAN",
-      "text": "Several Skrulls anywhere is a threat to Kree everywhere. Where are they?"
-    },
-    {
-      "character": "KORATH",
-      "text": "They are..."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Lost. They are lost, for now. But we will find them."
-    },
-    {
-      "character": "RONAN",
-      "text": "Do so, or we will."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Maintain the course for C-53."
-    },
-    {
-      "character": "CAROL",
-      "text": "Excuse me, I'm looking for Maria Rambeau."
-    },
-    {
-      "character": "MONICA",
-      "text": "Aunty Carol? Mom, it's Aunty Carol! I knew it, everybody said you were dead! but we knew they were lying."
-    },
-    {
-      "character": "CAROL",
-      "text": "I'm not really who you think I am."
-    },
-    {
-      "character": "MARIA",
-      "text": "That is the craziest shit I have ever heard."
-    },
-    {
-      "character": "MONICA",
-      "text": "Green-transforming aliens? There's no such thing."
-    },
-    {
-      "character": "FURY",
-      "text": "You're absolutely right, young lady. There is no such thing. 'Cause if there were, we would want to keep that to ourselves."
-    },
-    {
-      "character": "CAROL",
-      "text": "You don't believe me."
-    },
-    {
-      "character": "MONICA",
-      "text": "No way. That's so cool."
-    },
-    {
-      "character": "FURY",
-      "text": "Oh, ho. She can do a lot more than just make tea with those hands."
-    },
-    {
-      "character": "MONICA",
-      "text": "Like what? Show us."
-    },
-    {
-      "character": "CAROL",
-      "text": "Maybe later."
-    },
-    {
-      "character": "MONICA",
-      "text": "I kept all your stuff, I'll go get it."
-    },
-    {
-      "character": "CAROL",
-      "text": "You want to give her a hand with that?"
-    },
-    {
-      "character": "FURY",
-      "text": "Hmm??"
-    },
-    {
-      "character": "MARIA",
-      "text": "You don't remember anything?"
-    },
-    {
-      "character": "CAROL",
-      "text": "I see...flashes. Little moments, but I can't tell what's real. If I could just piece together what happened that morning, maybe it'll all make sense?"
-    },
-    {
-      "character": "MARIA",
-      "text": "You woke me up, banging on my door at dawn. Your usual move. Back then we had to get up so early, the Air Force still wasn't letting women fly combat, so testing Lawson's planes was our only shot at doing something that mattered. And you wanted to race to base, in your old Mustang, and I wasn't about to argue, cause I knew my Camaro would dominate. But you cheated, took a shortcut."
-    },
-    {
-      "character": "CAROL",
-      "text": "Since when is a shortcut cheating?"
-    },
-    {
-      "character": "MARIA",
-      "text": "Since it violates the pre-determined rules of engagement."
-    },
-    {
-      "character": "CAROL",
-      "text": "I definitely don't remember those."
-    },
-    {
-      "character": "MARIA",
-      "text": "Mmm, of course you don't."
-    },
-    {
-      "character": "MARIA",
-      "text": "When I got to the hanger, Lawson was agitated, she said 'she had lives to save'. She was trying to take the Aces up herself, but you said..."
-    },
-    {
-      "character": "CAROL",
-      "text": "'If there were lives at stake, I would fly the plane.'"
-    },
-    {
-      "character": "MARIA",
-      "text": "Yup. Big hero moment. The kind of moment we've both been waiting for. The Doc was always unique. That's why I liked her. But now you're saying she's from another planet."
-    },
-    {
-      "character": "CAROL",
-      "text": "I know this must be hard for you."
-    },
-    {
-      "character": "MARIA",
-      "text": "What, this part right here? No, no. Know what's hard? Losing my best friend, in a mission so secret they act like it never even happened. Hard...is knowing you were out there somewhere, too damn stubborn to die. And now you come up in here after 6 years... with your super-charged fire-hands and you expect me to call you...I don't even know what...'Vers'? Is that really who you are now?"
-    },
-    {
-      "character": "CAROL",
-      "text": "I don't know."
-    },
-    {
-      "character": "MONICA",
-      "text": "Come look."
-    },
-    {
-      "character": "MONICA",
-      "text": "This is me and you on Halloween."
-    },
-    {
-      "character": "MONICA",
-      "text": "I'm Amelia Earhart and you're Janis Joplin. Oh, this is you when you were little, you didn't get along with your parents, so Mom said we became your real family."
-    },
-    {
-      "character": "MONICA",
-      "text": "This is us on Christmas. I got more..."
-    },
-    {
-      "character": "MONICA",
-      "text": "Here's another picture of when you were little. And this is how you right after you graduated..."
-    },
-    {
-      "character": "MONICA",
-      "text": "Oh wait. I forgot, your jacket. Mom doesn't let me wear it anymore after I spilled ketchup on it."
-    },
-    {
-      "character": "MARIA",
-      "text": "That was all that survived the crash. Or so we thought."
-    },
-    {
-      "character": "CAROL",
-      "text": "Don't answer that."
-    },
-    {
-      "character": "MARIA",
-      "text": "It's just my neighbor."
-    },
-    {
-      "character": "CAROL",
-      "text": "They can change into anyone."
-    },
-    {
-      "character": "TOM",
-      "text": "Hi there."
-    },
-    {
-      "character": "CAROL",
-      "text": "What do you want?"
-    },
-    {
-      "character": "TOM",
-      "text": "Ummm..."
-    },
-    {
-      "character": "MARIA",
-      "text": "Hey Tom. This is my friend Carol."
-    },
-    {
-      "character": "TOM",
-      "text": "Pleased to meet you. Yow! Static electricity out here's no joke. I noted that peculiar bird you got parked by the road, and I was just wondering if you'd mind if I bring the boys over to get a closer looksie?"
-    },
-    {
-      "character": "CAROL",
-      "text": "A closer looksie?"
-    },
-    {
-      "character": "TOM",
-      "text": "Yeah."
-    },
-    {
-      "character": "CAROL",
-      "text": "To see the bird parked out by the road. You're really working overtime to sell this one, aren't you Talos?"
-    },
-    {
-      "character": "MARIA",
-      "text": "I'm sorry. Tom, this isn't really a good time. I'll come by tomorrow Okay?"
-    },
-    {
-      "character": "TOM",
-      "text": "Uhh..."
-    },
-    {
-      "character": "MARIA",
-      "text": "Okay."
-    },
-    {
-      "character": "TALOS",
-      "text": "You know, you really should be kinder to your neighbors. You never know when you're gonna need to borrow some sugar."
-    },
-    {
-      "character": "TALOS",
-      "text": "Now, hang on a second, before you go swinging those jazz hands around, making a mess in your friend's house - and... it's a lovely home."
-    },
-    {
-      "character": "MARIA",
-      "text": "Oh my God. What the hell?!"
-    },
-    {
-      "character": "TALOS",
-      "text": "No one's gonna hurt the girl. Just, don't kill me. That would really complicate the situation."
-    },
-    {
-      "character": "FURY",
-      "text": "I'm about five seconds from complicating that wall with some ugly-ass Skrull brains."
-    },
-    {
-      "character": "TALOS",
-      "text": "I'm sorry I simmed your boss. But now I stand before you as my true self. Without deception."
-    },
-    {
-      "character": "CAROL",
-      "text": "And who is that, out there?"
-    },
-    {
-      "character": "TALOS",
-      "text": "Okay, that's a fair point. But I'm sure that you understand, I had to take some precautions. I saw you crush 20 of my best men with your hands bound. I just wanna talk."
-    },
-    {
-      "character": "CAROL",
-      "text": "Last time we talked, I ended up hanging from my ankles."
-    },
-    {
-      "character": "TALOS",
-      "text": "That was before I knew who you were. Before I found what made you different from the others. I have an audio recording from Pegasus, of your voice, from a plane crash six years ago. On a device I believe you call a 'black box'."
-    },
-    {
-      "character": "MARIA",
-      "text": "They told me it was destroyed in the crash. How'd you get it?"
-    },
-    {
-      "character": "TALOS",
-      "text": "Does she not understand? Young lady I have a special skill that kinda allows me to get into places I'm not supposed to be."
-    },
-    {
-      "character": "MARIA",
-      "text": "Call me young lady again, and I'm gonna put my foot in a place it's not supposed to be."
-    },
-    {
-      "character": "TALOS",
-      "text": "Am I supposed to guess where that is?"
-    },
-    {
-      "character": "FURY",
-      "text": "Your ass."
-    },
-    {
-      "character": "MARIA",
-      "text": "Your ass."
-    },
-    {
-      "character": "TALOS",
-      "text": "Okay, I get it. We'r"
-    },
-    {
-      "character": "MARIA",
-      "text": "They told me it was destroyed in the crash. How'd you get it?"
-    },
-    {
-      "character": "TALOS",
-      "text": "Does she not understand? Young lady I have a special skill that kinda allows me to get into places I'm not supposed to be."
-    },
-    {
-      "character": "MARIA",
-      "text": "Call me young lady again, and I'm gonna put my foot in a place it's not supposed to be."
-    },
-    {
-      "character": "TALOS",
-      "text": "Am I supposed to guess where that is?"
-    },
-    {
-      "character": "FURY AND MARIA",
-      "text": "Your ass."
-    },
-    {
-      "character": "TALOS",
-      "text": "Okay, I get it. We're all a little on edge here. But look, I just need your help decoding some coordinates. If you sit down, you listen to this, I assure you, it'll be worth your while."
-    },
-    {
-      "character": "CAROL",
-      "text": "Call your buddy back inside and I'll listen."
-    },
-    {
-      "character": "TALOS",
-      "text": "Deal."
-    },
-    {
-      "character": "TALOS",
-      "text": "Oh my God! Get that thing away! How'd that get in here?"
-    },
-    {
-      "character": "CAROL",
-      "text": "The cat? This isn't what you're afraid of, is it?"
-    },
-    {
-      "character": "TALOS",
-      "text": "That's not a cat. That's a Flerken."
-    },
-    {
-      "character": "FURY",
-      "text": "A Flerken?"
-    },
-    {
-      "character": "MONICA",
-      "text": "Mom?"
-    },
-    {
-      "character": "MONICA",
-      "text": "Why can't I listen to?"
-    },
-    {
-      "character": "CAROL",
-      "text": "What's happening?"
-    },
-    {
-      "character": "FURY",
-      "text": "It's loading."
-    },
-    {
-      "character": "LAWSON",
-      "text": "Punch in the coordinates. 5229, -47, 8.768, 0.2."
-    },
-    {
-      "character": "CAROL",
-      "text": "Copy that. Where are we going Doc?"
-    },
-    {
-      "character": "LAWSON",
-      "text": "My laboratory."
-    },
-    {
-      "character": "CAROL",
-      "text": "Your laboratory? What do you mean?"
-    },
-    {
-      "character": "LAWSON",
-      "text": "Oh no."
-    },
-    {
-      "character": "CAROL",
-      "text": "Is that... Wait, what is that? It's not showing up on my radar."
-    },
-    {
-      "character": "LAWSON",
-      "text": "Go Carol. Fly!"
-    },
-    {
-      "character": "CAROL",
-      "text": "That's no MIG, Lawson. Who the hell are they?"
-    },
-    {
-      "character": "LAWSON",
-      "text": "Those are the bad guys. Fly faster, now."
-    },
-    {
-      "character": "CAROL",
-      "text": "Yes, ma'am."
-    },
-    {
-      "character": "CAROL",
-      "text": "What do they want?"
-    },
-    {
-      "character": "LAWSON",
-      "text": "Me. My work. I never should have brought you along."
-    },
-    {
-      "character": "CAROL",
-      "text": "Here come some G's."
-    },
-    {
-      "character": "CAROL",
-      "text": "They're firing backward. Hold on!"
-    },
-    {
-      "character": "CAROL",
-      "text": "Bail out! Bail out! Bail out! Stay with me Lawson!"
-    },
-    {
-      "character": "MARIA",
-      "text": "Danvers, do you copy?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Yeah, I copy. We hit ground."
-    },
-    {
-      "character": "MARIA",
-      "text": "Can anyone hear me?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Yeah. I copy! Doc?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Your blood... it's blue."
-    },
-    {
-      "character": "LAWSON",
-      "text": "Yeah, but, uh...how's my hair? Help me out."
-    },
-    {
-      "character": "LAWSON",
-      "text": "I have to destroy it before they get here."
-    },
-    {
-      "character": "CAROL",
-      "text": "What? Lawson?"
-    },
-    {
-      "character": "LAWSON",
-      "text": "You remember what I said about our work here? What it's for?"
-    },
-    {
-      "character": "CAROL",
-      "text": "To end wars?"
-    },
-    {
-      "character": "LAWSON",
-      "text": "Yeah. But the wars are bigger than you know. Damn it! My name is not Lawson. My real name is Mar-Vell, and I come from a planet called Hala."
-    },
-    {
-      "character": "CAROL",
-      "text": "I would say that your delusional, but we just got shot down by a spaceship and your blood is blue."
-    },
-    {
-      "character": "LAWSON",
-      "text": "Listen, I spent half my life fighting a shameful war. Now skedaddle before you give me any more regrets. Just remember the coordinates, okay? You've got to save them without me."
-    },
-    {
-      "character": "CAROL",
-      "text": "Save who? How?"
-    },
-    {
-      "character": "LAWSON",
-      "text": "I've got to blow this engine before they find it."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "We have no interest in hurting you."
-    },
-    {
-      "character": "CAROL",
-      "text": "No?! Because all the shooting kinda gave me the wrong impression!"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "The energy core, where is it?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Pararescue's on the way. You have two minutes until you're surrounded."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Then I see no reason to prolong this conversation."
-    },
-    {
-      "character": "CAROL",
-      "text": "No wait."
-    },
-    {
-      "character": "CAROL",
-      "text": "You mean that energy core?"
-    },
-    {
-      "character": "MINN-ERVA",
-      "text": "Commander, she's still moving. Permission to fire?"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Hold your fire."
-    },
-    {
-      "character": "MINN-ERVA",
-      "text": "There's nothing left. The core has been destroyed."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "She absorbed its power. She's coming with us."
-    },
-    {
-      "character": "CAROL",
-      "text": "He lied to me."
-    },
-    {
-      "character": "CAROL",
-      "text": "Everything that I knew was a lie."
-    },
-    {
-      "character": "TALOS",
-      "text": "Now you understand."
-    },
-    {
-      "character": "CAROL",
-      "text": "What? What do I understand now?"
-    },
-    {
-      "character": "TALOS",
-      "text": "Yon-Rogg killed Mar-Vell. He killed her. Because she found out that she was on the wrong side of an unjust war."
-    },
-    {
-      "character": "CAROL",
-      "text": "No. Your people are terrorists...that kill innocents. I saw the ruins on Torfa."
-    },
-    {
-      "character": "TALOS",
-      "text": "Ruins that the Accusers are responsible for. My people lived as refugees on Torfa. Homeless, ever since we resisted Kree rule, and they destroyed our planet. Now the handful of us that are left, will be slaughtered next...unless you will help me finish what Mar-Vell started. The coordinates you found, would've powered a lightspeed ship capable of carrying us to safety. A new home, where the Kree can't reach us."
-    },
-    {
-      "character": "MARIA",
-      "text": "Lawson always told us that her work at Pegasus wasn't to fight wars, but to end them."
-    },
-    {
-      "character": "TALOS",
-      "text": "She wanted you to help us find the core."
-    },
-    {
-      "character": "CAROL",
-      "text": "Well, I already destroyed it."
-    },
-    {
-      "character": "TALOS",
-      "text": "No, you destroyed the engine. The core that powered it is in a remote location. If you help us decode those coordinates, we can find it."
-    },
-    {
-      "character": "CAROL",
-      "text": "You'll use it to destroy us."
-    },
-    {
-      "character": "TALOS",
-      "text": "We just want a home. You and I lost everything at the hands of the Kree. Can't you see it now? You're not one of them."
-    },
-    {
-      "character": "CAROL",
-      "text": "You don't know me. You have no idea who I am. I don't even know who I am!"
-    },
-    {
-      "character": "MARIA",
-      "text": "You are Carol Danvers. You are the woman on that black box risking her life to do the right thing. My best friend... who supported me as a mother, and a pilot when no one else did. You're smart and funny, and a huge pain in the ass. And you are the most powerful person I knew, way before you could shoot fire from your fist. You hear me? You hear me?"
-    },
-    {
-      "character": "TALOS",
-      "text": "I know I don't deserve your trust, but you were our only lead. We discovered that your energy signature matched Mar-Vell's core. Now, we know why. If only you knew, the importance of it to me. I just need your help decoding the coordinates to Mar-Vell's lab."
-    },
-    {
-      "character": "CAROL",
-      "text": "Those weren't coordinates. They're safe vectors."
-    },
-    {
-      "character": "FURY",
-      "text": "Orbital positioning and velocity."
-    },
-    {
-      "character": "MARIA",
-      "text": "You didn't find her lab on Earth, because it's not on Earth."
-    },
-    {
-      "character": "CAROL",
-      "text": "That was the location on the day of the crash six years ago. If we track its course, we'll find it, in orbit, right now."
-    },
-    {
-      "character": "MARIA",
-      "text": "It's just basic physics."
-    },
-    {
-      "character": "TALOS",
-      "text": "In orbit? Was that so difficult to figure out? I mean, you're my science guy, right?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Yon-Rogg will catch up to you soon. We've got to get the core before he does."
-    },
-    {
-      "character": "FURY",
-      "text": "Mmm. You're going to space?"
-    },
-    {
-      "character": "CAROL",
-      "text": "In what?"
-    },
-    {
-      "character": "SKRULL SCIENTIST",
-      "text": "A few tweaks to your vessel should do it. I can handle the modifications."
-    },
-    {
-      "character": "FURY",
-      "text": "Hmm. Your science guy."
-    },
-    {
-      "character": "CAROL",
-      "text": "Well, I could use a co-pilot."
-    },
-    {
-      "character": "MARIA",
-      "text": "No. No, I... I can't. I can't leave Monica."
-    },
-    {
-      "character": "MONICA",
-      "text": "Why? It's okay. I can stay with grandma and pop-pop."
-    },
-    {
-      "character": "MARIA",
-      "text": "There's no way I'm going baby. It's too dangerous."
-    },
-    {
-      "character": "MONICA",
-      "text": "Testing brand new aerospace tech is dangerous. Didn't you used to do that?"
-    },
-    {
-      "character": "MARIA",
-      "text": "Your plan is to leave the atmosphere in a craft not designed for the journey, and you anticipate hostile encounters with a technologically superior foreign enemy. Correct?"
-    },
-    {
-      "character": "MONICA",
-      "text": "That's what I'm saying. You have to go."
-    },
-    {
-      "character": "MARIA",
-      "text": "Monica..."
-    },
-    {
-      "character": "MONICA",
-      "text": "You have the chance to fly the coolest mission in the history of missions. And you're gonna give it up to sit on the couch and watch Fresh Prince with me? I just think that you should consider the kind of example you're setting for your daughter."
-    },
-    {
-      "character": "CAROL",
-      "text": "Your Mom's lucky. When they were handing out kids, they gave her the toughest one. Lieutenant Trouble."
-    },
-    {
-      "character": "MONICA",
-      "text": "You remember."
-    },
-    {
-      "character": "CAROL",
-      "text": "Is that mine?"
-    },
-    {
-      "character": "CAROL",
-      "text": "No, no. You hang onto it until I come back. But there is something that I need your help with. I can't wear these Kree colors anymore, and since you're obviously the only person around here with any sense of style..."
-    },
-    {
-      "character": "MONICA",
-      "text": "No."
-    },
-    {
-      "character": "MONICA",
-      "text": "Uh-uh."
-    },
-    {
-      "character": "MONICA",
-      "text": "Definitely not."
-    },
-    {
-      "character": "CAROL",
-      "text": "Well, since we're on the same team..."
-    },
-    {
-      "character": "CAROL",
-      "text": "How do I look?"
-    },
-    {
-      "character": "MONICA",
-      "text": "Fresh."
-    },
-    {
-      "character": "CAROL",
-      "text": "What took you so long?"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "I'm fine. Thanks for asking."
-    },
-    {
-      "character": "CAROL",
-      "text": "PRY46-B..."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "No, no codes. That system is fallible, as we've learned."
-    },
-    {
-      "character": "CAROL",
-      "text": "Okay, then let's do this."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Who do I see when I commune with the Supreme Intelligence?"
-    },
-    {
-      "character": "CAROL",
-      "text": "The person you most admire and respect, I guess. But you would never tell me who."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "And what is your earliest memory of Hala?"
-    },
-    {
-      "character": "CAROL",
-      "text": "The transfusion. Blue blood running through my veins."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Whose blood?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Hmm."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "That's my blood that's coursing through her veins."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "What have you done with her?"
-    },
-    {
-      "character": "SKRULL",
-      "text": "You're too late."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "She knows?"
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Ronan, Skrulls have infiltrated C-53. Come at once."
-    },
-    {
-      "character": "RONAN",
-      "text": "For the good of all Kree, Commander the infestation will be eradicated."
-    },
-    {
-      "character": "CAROL",
-      "text": "Passing 500 and climbing."
-    },
-    {
-      "character": "TALOS",
-      "text": "You know, you really shouldn't have that thing on your lap."
-    },
-    {
-      "character": "FURY",
-      "text": "Our little alliance with you is tenuous at best. And as long as he continues to freak you out like that, yeah I'm gonna keep giving him all the love and hugs he needs, right?"
-    },
-    {
-      "character": "MARIA",
-      "text": "Can I ask you something? Do you just turn into anything y"
-    },
-    {
-      "character": "CAROL",
-      "text": "Passing 500 and climbing."
-    },
-    {
-      "character": "TALOS",
-      "text": "You know, you really shouldn't have that thing on your lap."
-    },
-    {
-      "character": "FURY",
-      "text": "Our little alliance with you is tenuous at best. And as long as he continues to freak you out like that, yeah I'm gonna keep giving him all the love and hugs he needs, right?"
-    },
-    {
-      "character": "MARIA",
-      "text": "Can I ask you something? Do you just turn into anything you want?"
-    },
-    {
-      "character": "TALOS",
-      "text": "Ah well, I have to see it first."
-    },
-    {
-      "character": "MARIA",
-      "text": "Can you all do it?"
-    },
-    {
-      "character": "TALOS",
-      "text": "Physiologically, yeah. But it takes practice and, um, dare I say it, talent to do it well."
-    },
-    {
-      "character": "FURY",
-      "text": "Can you turn into a cat?"
-    },
-    {
-      "character": "TALOS",
-      "text": "What's a cat?"
-    },
-    {
-      "character": "MARIA",
-      "text": "What about a filing cabinet?"
-    },
-    {
-      "character": "TALOS",
-      "text": "Why would I turn into a filing cabinet?"
-    },
-    {
-      "character": "FURY",
-      "text": "A Venus fly trap. I'll give you $50 right now if you turn into a Venus fly trap."
-    },
-    {
-      "character": "CAROL",
-      "text": "Switching engines from Scramjet to fusion. Buckle up, folks."
-    },
-    {
-      "character": "FURY",
-      "text": "Hey. Is this normal, like space turbulence?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Pretty much."
-    },
-    {
-      "character": "CAROL",
-      "text": "Locking in coordinate grid."
-    },
-    {
-      "character": "MARIA",
-      "text": "Where is it?"
-    },
-    {
-      "character": "TALOS",
-      "text": "It's here. It's gotta be here."
-    },
-    {
-      "character": "FURY",
-      "text": "Well, is it in front of all that nothing, or behind it?"
-    },
-    {
-      "character": "COMPUTER",
-      "text": "Decloaking activated."
-    },
-    {
-      "character": "MARIA",
-      "text": "Is that it? The core?"
-    },
-    {
-      "character": "CAROL",
-      "text": "In her notes, she called it the Tesseract."
-    },
-    {
-      "character": "MARIA",
-      "text": "Whoa. What was Lawson doing with all this kid stuff?"
-    },
-    {
-      "character": "MARIA",
-      "text": "We're not alone."
-    },
-    {
-      "character": "SOREN",
-      "text": "Talos!"
-    },
-    {
-      "character": "CAROL",
-      "text": "He didn't come here for the Tesseract."
-    },
-    {
-      "character": "SOREN",
-      "text": "It's okay. We didn't know what to do. Mar-Vell warned us not to send a signal for any reason or the Kree would find us."
-    },
-    {
-      "character": "TALOS",
-      "text": "You did the right thing."
-    },
-    {
-      "character": "TALOS",
-      "text": "It's okay, it's okay. She's alright. She's a friend."
-    },
-    {
-      "character": "CAROL",
-      "text": "I'm not gonna hurt you."
-    },
-    {
-      "character": "TALOS",
-      "text": "She led me to you."
-    },
-    {
-      "character": "CAROL",
-      "text": "I'm so sorry. I didn't know."
-    },
-    {
-      "character": "TALOS",
-      "text": "Carol, this is war. My hands are filthy from it too. But we're here now. You found my family. This is just the beginning. There're thousands of us separated from each other... scattered throughout the galaxy."
-    },
-    {
-      "character": "FURY",
-      "text": "If I played the same pinball machine for six years I'd have some high scores too."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Fraternizing with the enemy?"
-    },
-    {
-      "character": "MINN-ERVA",
-      "text": "They got in her head. Just like we thought."
-    },
-    {
-      "character": "KORATH",
-      "text": "The Supreme Intelligence will set her straight."
-    },
-    {
-      "character": "TALOS",
-      "text": "You can see they're not soldiers, let them go. You can have me."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "And the core?"
-    },
-    {
-      "character": "CAROL",
-      "text": "You lied to me."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "I made you a better version of yourself. What's given can be taken away."
-    },
-    {
-      "character": "SUPREME INTELLIGENCE",
-      "text": "There she is. Seems like you time on C-53 jogged the old memory. This jacket? It's killer by the way."
-    },
-    {
-      "character": "SUPREME INTELLIGENCE",
-      "text": "The music, it's a nice touch."
-    },
-    {
-      "character": "CAROL",
-      "text": "Let... me... out."
-    },
-    {
-      "character": "SUPREME INTELLIGENCE",
-      "text": "No can do."
-    },
-    {
-      "character": "CAROL",
-      "text": "If you hurt them, I will burn you to the ground."
-    },
-    {
-      "character": "SUPREME INTELLIGENCE",
-      "text": "With what exactly? Your powers came from us."
-    },
-    {
-      "character": "CAROL",
-      "text": "You didn't give me these powers. The blast did."
-    },
-    {
-      "character": "SUPREME INTELLIGENCE",
-      "text": "And yet, you've never had the strength to control them on your own."
-    },
-    {
-      "character": "SCANNER",
-      "text": "Species: Flerken. Threat: High."
-    },
-    {
-      "character": "FURY",
-      "text": "It's a cat. Not Hannibal Lecter."
-    },
-    {
-      "character": "SCANNER",
-      "text": "Species: Human male. Threat: Low to none."
-    },
-    {
-      "character": "FURY",
-      "text": "That thing is clearly busted."
-    },
-    {
-      "character": "MINN-ERVA",
-      "text": "Load the Flerken onto the Heli. Eject the others into space."
-    },
-    {
-      "character": "SUPREME INTELLIGENCE",
-      "text": "You did good, ace. Thanks to you, those insidious shapeshifters will threaten our borders no more."
-    },
-    {
-      "character": "CAROL",
-      "text": "I used to believe your lies. But the Skrulls are just fighting for a home. You're talking about destroying them because they won't submit to your rule. And neither will I."
-    },
-    {
-      "character": "SUPREME INTELLIGENCE",
-      "text": "We found you. We embraced you as our own."
-    },
-    {
-      "character": "CAROL",
-      "text": "You stole me. From my home, my family, my friends."
-    },
-    {
-      "character": "SUPREME INTELLIGENCE",
-      "text": "It's cute how hard you try. Remember... without us...you're weak."
-    },
-    {
-      "character": "SUPREME INTELLIGENCE",
-      "text": "Without us... you're only human."
-    },
-    {
-      "character": "CAROL",
-      "text": "You're right. I'm only human."
-    },
-    {
-      "character": "SUPREME INTELLIGENCE",
-      "text": "On Hala, you were reborn. Vers."
-    },
-    {
-      "character": "CAROL",
-      "text": "My name... is Carol."
-    },
-    {
-      "character": "KORATH",
-      "text": "She's trying to break out."
-    },
-    {
-      "character": "CAROL",
-      "text": "I've been fighting with one arm tied behind my back. But what happens..."
-    },
-    {
-      "character": "CAROL",
-      "text": "...when I'm finally set free?"
-    },
-    {
-      "character": "FURY",
-      "text": "You know you're glowing, right?"
-    },
-    {
-      "character": "CAROL",
-      "text": "I'll explain it later."
-    },
-    {
-      "character": "CAROL",
-      "text": "Take the Tesseract, leaving the lunchbox."
-    },
-    {
-      "character": "FURY",
-      "text": "Me?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Yes."
-    },
-    {
-      "character": "FURY",
-      "text": "I'm not touching that thing."
-    },
-    {
-      "character": "CAROL",
-      "text": "Want me to get you an oven mitt?"
-    },
-    {
-      "character": "CAROL",
-      "text": "Get the Skrulls in the Quad Jet and go. Take the Flerken with you."
-    },
-    {
-      "character": "MARIA",
-      "text": "What about you?"
-    },
-    {
-      "character": "CAROL",
-      "text": "I'll buy you some time!"
-    },
-    {
-      "character": "FURY",
-      "text": "I'm picking you up now. I'm trusting you not to eat me."
-    },
-    {
-      "character": "CAROL",
-      "text": "Hey guys. Arm-wrestle for the Tesseract."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "I used to find you amusing. Let's put an end to this!"
-    },
-    {
-      "character": "MARIA",
-      "text": "Okay."
-    },
-    {
-      "character": "FURY",
-      "text": "Good kitty."
-    },
-    {
-      "character": "CAROL",
-      "text": "You knew all along. Is that why we never hung out?"
-    },
-    {
-      "character": "MINN-ERVA",
-      "text": "No. I just never liked you."
-    },
-    {
-      "character": "KREE",
-      "text": "Hey! In a hurry?"
-    },
-    {
-      "character": "ATT-LASS",
-      "text": "Don't make me do this."
-    },
-    {
-      "character": "CAROL",
-      "text": "Okay."
-    },
-    {
-      "character": "FURY",
-      "text": "Now! Come on! Do your thing. Come on! Dammit, Goose. Pick a side."
-    },
-    {
-      "character": "KREE",
-      "text": "Take them to the hangar too. We'll blast them all into space."
-    },
-    {
-      "character": "TALOS",
-      "text": "Play it cool. Just like Havana. Do you have the thing?"
-    },
-    {
-      "character": "FURY",
-      "text": "Flerken kitty ate it."
-    },
-    {
-      "character": "KREE",
-      "text": "Come on. Move. Move!"
-    },
-    {
-      "character": "TALOS",
-      "text": "Follow my lead. Cover her eyes."
-    },
-    {
-      "character": "TALOS",
-      "text": "Get on the ship. Let's go, let's go."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Nice diversion."
-    },
-    {
-      "character": "CAROL",
-      "text": "I could've swore, I put it in there."
-    },
-    {
-      "character": "YON-ROGG",
-      "text": "Minn-Erva, take them down on a dropship."
-    },
-    {
-      "character": "MINN-ERVA",
-      "text": "On it."
-    },
-    {
-      "character": "FURY",
-      "text": "You all right, friend?"
-    },
-    {
-      "character": "TALOS",
-      "text": "Never... better."
-    },
-    {
-      "character": "MARIA",
-      "text": "We've got a bogey. Coming in hot."
-    },
-    {
-      "character": "FURY",
-      "text": "Ha ha!"
-    },
-    {
-      "character": "MARIA",
-      "text": "Yes! Boom!"
-    },
-    {
-      "character": "FURY",
-      "text": "What the hell was that?"
-    },
-    {
-      "character": "RONAN",
-      "text": "Deploy ballistic warheads."
+      "text": "That's impossible. C-53 doesn't have a defense system advanced enough to destroy our warheads.",
+      "scene": 50
     },
     {
       "character": "ACCUSER",
-      "text": "That's impossible."
+      "text": "That's not their defense system, Ronan.",
+      "scene": 50
     },
     {
       "character": "RONAN",
-      "text": "Deploy ballistic warheads."
+      "text": "Take her down.",
+      "scene": 50
+    },
+    {
+      "character": "RONAN",
+      "text": "Return to the jump point. We'll be back for the weapon.",
+      "scene": 51
     },
     {
       "character": "ACCUSER",
-      "text": "That's impossible."
+      "text": "The core?",
+      "scene": 51
     },
     {
       "character": "RONAN",
-      "text": "C-53 doesn't have a defense system advanced enough to destroy our warheads."
-    },
-    {
-      "character": "ACCUSER",
-      "text": "That's not their defense system, Ronan."
-    },
-    {
-      "character": "RONAN",
-      "text": "Take her down."
-    },
-    {
-      "character": "RONAN",
-      "text": "Return to the jump point. We'll be back for the weapon."
-    },
-    {
-      "character": "ACCUSER",
-      "text": "The core?"
-    },
-    {
-      "character": "RONAN",
-      "text": "The woman."
+      "text": "The woman.",
+      "scene": 51
     },
     {
       "character": "YON-ROGG",
-      "text": "I'm so proud of you. You've come a long way since I found you that day by the lake. But can you keep your emotions in check long enough to take me on? Or will it get the better of you, as always? I always told you... you'll be ready, the day you can knock me down as yourself. This is that moment. This is that moment, Vers! Turn off the light show, and prove, prove to me, you can beat me without..."
-    },
-    {
-      "character": "CAROL",
-      "text": "I have nothing to prove to you."
-    },
-    {
-      "character": "COMPUTER",
-      "text": "Destination: Hala."
+      "text": "I'm so proud of you.",
+      "scene": 52
     },
     {
       "character": "YON-ROGG",
-      "text": "I can't go back empty-handed."
-    },
-    {
-      "character": "CAROL",
-      "text": "You won't be empty-handed. I'm sending you with a message. Tell the Supreme Intelligence that I'm coming to end it. The war, the lies, all of it."
+      "text": "You've come a long way since I found you that day by the lake. But can you keep your emotions in check long enough to take me on? Or will they get the better of you as always?",
+      "scene": 52
     },
     {
       "character": "YON-ROGG",
-      "text": "You can't do this."
+      "text": "I always told you... You'll be ready the day you can knock me down as yourself. This is that moment. This is that moment, vers! Turn off the light show... And prove to me you can beat me without...",
+      "scene": 52
     },
     {
-      "character": "FURY",
-      "text": "That was a close call, huh, Goosey? Huh? The bad guy's still in there somewhere-"
+      "character": "AUTOMATED VOICE",
+      "text": "Destination: Hala.",
+      "scene": 53
     },
     {
-      "character": "FURY",
-      "text": "Oh! MOTHER FLERKEN!!!"
+      "character": "YON-ROGG",
+      "text": "I can't go back empty-handed.",
+      "scene": 53
     },
     {
-      "character": "MARIA",
-      "text": "You okay?"
+      "character": "CAROL DANVERS",
+      "text": "You won't be empty-handed. I'm sending you with a message. Tell the supreme intelligence that I'm coming to end it. The war. The lies. All of it.",
+      "scene": 53
     },
     {
-      "character": "FURY",
-      "text": "Yeah. It's just a scratch."
+      "character": "YON-ROGG",
+      "text": "You can't do this.",
+      "scene": 53
+    },
+    {
+      "character": "NICK FURY",
+      "text": "That was a close call, huh, goosey? Huh? Those bad guys still in there somewhere? Ow! Mother flerken!",
+      "scene": 54
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "You okay?",
+      "scene": 54
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Yeah. It's just a scratch.",
+      "scene": 54
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "I can't believe you got in the raddest dogfight ever... And I missed it.",
+      "scene": 54
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "I'd say you arrived just in time.",
+      "scene": 54
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Some nifty flying you did out there. S.H.I.E.L.D. could always use a good pilot like you.",
+      "scene": 54
+    },
+    {
+      "character": "MARIA RAMBEAU",
+      "text": "I'll consider it... As long as you never call my flying \"nifty\" again. How's your eye?",
+      "scene": 54
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Hmm. Getting better every second.",
+      "scene": 54
+    },
+    {
+      "character": "CAROL DANVERS",
+      "text": "Just so I'm clear... You were soh-larr... And the S.H.I.E.L.D. agent?",
+      "scene": 54
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Keller. He tied my boss up, stole his identity.",
+      "scene": 54
     },
     {
       "character": "TALOS",
-      "text": "No..."
+      "text": "I borrowed his likeness. I'm no thief.",
+      "scene": 54
     },
     {
-      "character": "CAROL",
-      "text": "I can't believe you got into the raddest dogfight ever."
-    },
-    {
-      "character": "MARIA",
-      "text": "I'd say you arrived just in time."
-    },
-    {
-      "character": "FURY",
-      "text": "That's some nifty flying you did out there. SHIELD could always use a good pilot like you."
-    },
-    {
-      "character": "MARIA",
-      "text": "I'll consider it. As long as you don't call my flying nifty again. How's your eye?"
-    },
-    {
-      "character": "FURY",
-      "text": "Getting better every second."
-    },
-    {
-      "character": "CAROL",
-      "text": "Just so I'm clear, you were Soh-Larr, and the SHIELD agent?"
-    },
-    {
-      "character": "FURY",
-      "text": "Keller. Tied my boss up, stole his identity."
+      "character": "CAROL DANVERS",
+      "text": "It is a little like stealing.",
+      "scene": 54
     },
     {
       "character": "TALOS",
-      "text": "I borrowed his likeness. I'm no thief."
+      "text": "Whose side are you on here?",
+      "scene": 54
     },
     {
-      "character": "SOREN",
-      "text": "It's a little like thief."
-    },
-    {
-      "character": "TALOS",
-      "text": "Whose side are you on?"
-    },
-    {
-      "character": "FURY",
-      "text": "You're good to go here til you recover, but you and your family will need a new look."
+      "character": "NICK FURY",
+      "text": "You're good to go here until you recover... But you and your family are gonna need a new look.",
+      "scene": 54
     },
     {
       "character": "TALOS",
-      "text": "I could go back to being your boss."
+      "text": "I could go back to being your boss.",
+      "scene": 54
     },
     {
-      "character": "FURY",
-      "text": "Please don't."
+      "character": "NICK FURY",
+      "text": "Uh, please don't.",
+      "scene": 54
     },
     {
       "character": "TALOS",
-      "text": "Come on. I love sporting his beautiful blue eyes."
+      "text": "Come on. I loved sporting his beautiful blue eyes.",
+      "scene": 54
     },
     {
-      "character": "MONICA",
-      "text": "No way, you guys have the best eyes. Don't ever change your eyes."
+      "character": "MONICA RAMBEAU",
+      "text": "No way. You guys have the best eyes. Don't ever change your eyes.",
+      "scene": 54
     },
     {
-      "character": "CAROL",
-      "text": "I'll help you find a home. Finish what Mar-Vell started."
+      "character": "TALOS",
+      "text": "She has beautiful eyes. That's very sweet of you.",
+      "scene": 54
     },
     {
-      "character": "MONICA",
-      "text": "They can stay here with us, can't they, Mom?"
+      "character": "MONICA RAMBEAU",
+      "text": "I was trying not to panic...",
+      "scene": 54
     },
     {
-      "character": "MARIA",
-      "text": "They won't be safe here, baby. Auntie Carol is right. They need their own home."
+      "character": "CAROL DANVERS",
+      "text": "I'll help you find a home. Finish what mar-vell started.",
+      "scene": 54
     },
     {
-      "character": "CAROL",
-      "text": "I'll be back before you know it."
+      "character": "MONICA RAMBEAU",
+      "text": "They can stay here with us. Can't they, mom?",
+      "scene": 54
     },
     {
-      "character": "MONICA",
-      "text": "Maybe I can fly up and meet you halfway."
+      "character": "MARIA RAMBEAU",
+      "text": "They won't be safe here, baby. Auntie Carol's right. They need their own home.",
+      "scene": 54
     },
     {
-      "character": "FURY",
-      "text": "Only if you learn to glow, like your Auntie Carol."
+      "character": "CAROL DANVERS",
+      "text": "I'll be back before you know it.",
+      "scene": 54
     },
     {
-      "character": "MONICA",
-      "text": "Or maybe I'll build a spaceship. You don't know."
+      "character": "MONICA RAMBEAU",
+      "text": "Or maybe I could fly up and meet you halfway?",
+      "scene": 54
     },
     {
-      "character": "CAROL",
-      "text": "He doesn't."
+      "character": "NICK FURY",
+      "text": "Ah, only if you learn to glow like your auntie Carol.",
+      "scene": 54
     },
     {
-      "character": "CAROL",
-      "text": "Keep the Tesseract on Earth. Hidden."
+      "character": "MONICA RAMBEAU",
+      "text": "Or maybe I'll build a spaceship. You don't know.",
+      "scene": 54
     },
     {
-      "character": "FURY",
-      "text": "You're sure that's what Marvel would want?"
+      "character": "CAROL DANVERS",
+      "text": "He doesn't.",
+      "scene": 54
     },
     {
-      "character": "CAROL",
-      "text": "Mar-Vell."
+      "character": "CAROL DANVERS",
+      "text": "Keep the tesseract on earth. Hidden.",
+      "scene": 54
     },
     {
-      "character": "FURY",
-      "text": "That's what I said."
+      "character": "NICK FURY",
+      "text": "You sure that's what marvel would want?",
+      "scene": 54
     },
     {
-      "character": "CAROL",
-      "text": "It's two words. Mar-Vell."
+      "character": "CAROL DANVERS",
+      "text": "Mar-vell.",
+      "scene": 54
     },
     {
-      "character": "FURY",
-      "text": "Mar-Vell. Marvel sounds a lot better. You know, like the Marvelettes? 𝅘𝅥𝅮 Oh, yeah, wait a minute Mr. Postman. Ay, ay, ay, ay, Mr. Postman. 𝅘𝅥𝅮 Not ringing any bells?"
+      "character": "NICK FURY",
+      "text": "That's what I said.",
+      "scene": 54
     },
     {
-      "character": "CAROL",
-      "text": "Keep singing. Maybe it'll come back to me."
+      "character": "CAROL DANVERS",
+      "text": "It's two words. Mar. Vell.",
+      "scene": 54
     },
     {
-      "character": "CAROL",
-      "text": "I upgraded it. Range should be, a couple galaxies, at least."
+      "character": "NICK FURY",
+      "text": "Mar-vell. \"Marvel\" sounds a lot better. You know, like the marvelettes.",
+      "scene": 54
     },
     {
-      "character": "FURY",
-      "text": "What? You think I'm gonna crank call you?"
+      "character": "CAROL DANVERS",
+      "text": "I upgraded it. Range should be a couple galaxies, at least.",
+      "scene": 55
     },
     {
-      "character": "CAROL",
-      "text": "For emergencies only. Okay?"
+      "character": "NICK FURY",
+      "text": "What? You think I'm gonna crank call you?",
+      "scene": 55
     },
     {
-      "character": "FURY",
-      "text": "Well, if you're ever passing back through this galaxy, be sure to give a brother a shout."
+      "character": "CAROL DANVERS",
+      "text": "For emergencies only, okay?",
+      "scene": 55
     },
     {
-      "character": "MONICA",
-      "text": "We got the ketchup stain off."
+      "character": "NICK FURY",
+      "text": "Well... If you're ever passing back through this galaxy... Be sure to give a brother a shout.",
+      "scene": 55
     },
     {
-      "character": "CAROL",
-      "text": "Thanks, Lieutenant Trouble. It's hard for me to say goodbye, too."
+      "character": "NICK FURY",
+      "text": "Oh!",
+      "scene": 55
     },
     {
-      "character": "MARIA",
-      "text": "Go on."
+      "character": "MONICA RAMBEAU",
+      "text": "We got the ketchup stain off.",
+      "scene": 56
     },
     {
-      "character": "COULSON",
-      "text": "Glad to have you back, sir. This came for you."
+      "character": "CAROL DANVERS",
+      "text": "Thanks, lieutenant trouble.",
+      "scene": 56
     },
     {
-      "character": "COULSON",
-      "text": "So, is it true? That the Kree burned your eye out because you refused to give them the Tesseract?"
+      "character": "MONICA RAMBEAU",
+      "text": "Hmm.",
+      "scene": 56
     },
     {
-      "character": "FURY",
-      "text": "I'll neither confirm nor deny the facts of that story."
+      "character": "CAROL DANVERS",
+      "text": "It's hard for me to say goodbye, too.",
+      "scene": 56
     },
     {
-      "character": "COULSON",
-      "text": "Understood. I'm sorry to report that we still haven't found the Tesseract."
+      "character": "PHIL COULSON",
+      "text": "Glad to have you back, sir. This came for you.",
+      "scene": 57
     },
     {
-      "character": "FURY",
-      "text": "I'm sure it will turn up somewhere."
+      "character": "PHIL COULSON",
+      "text": "So, is it true? That the kree burned your eye out... Because you refused to give them the tesseract?",
+      "scene": 57
     },
     {
-      "character": "COULSON",
-      "text": "I'll let you know when it does."
+      "character": "NICK FURY",
+      "text": "I will neither confirm nor deny the facts of that story.",
+      "scene": 57
     },
     {
-      "character": "FURY",
-      "text": "Then what?"
+      "character": "PHIL COULSON",
+      "text": "Understood.",
+      "scene": 57
     },
     {
-      "character": "COULSON",
-      "text": "Sir?"
+      "character": "PHIL COULSON",
+      "text": "I'm sorry to report that we still haven't found the tesseract.",
+      "scene": 57
     },
     {
-      "character": "FURY",
-      "text": "We have no idea what other intergalactic threats are out there. And our one-woman security force had a prior commitment on the other side of the universe. SHIELD alone can't protect us. We need to find more."
+      "character": "NICK FURY",
+      "text": "I'm sure it'll turn up somewhere.",
+      "scene": 57
     },
     {
-      "character": "COULSON",
-      "text": "More weapons?"
+      "character": "PHIL COULSON",
+      "text": "I'll let you know when it does.",
+      "scene": 57
     },
     {
-      "character": "FURY",
-      "text": "More heroes."
+      "character": "NICK FURY",
+      "text": "Then what?",
+      "scene": 57
     },
     {
-      "character": "COULSON",
-      "text": "You think we can find others like her?"
+      "character": "PHIL COULSON",
+      "text": "Sir?",
+      "scene": 57
     },
     {
-      "character": "FURY",
-      "text": "We found her, and we weren't even looking."
+      "character": "NICK FURY",
+      "text": "We have no idea what other intergalactic threats are out there. And our one-woman security force had a prior commitment... On the other side of the universe.",
+      "scene": 57
     },
     {
-      "character": "COULSON",
-      "text": "Get some rest, sir. You got a big decision to make."
+      "character": "NICK FURY",
+      "text": "S.H.I.E.L.D. alone can't protect us.",
+      "scene": 57
+    },
+    {
+      "character": "NICK FURY",
+      "text": "We need to find more.",
+      "scene": 57
+    },
+    {
+      "character": "PHIL COULSON",
+      "text": "More weapons?",
+      "scene": 57
+    },
+    {
+      "character": "NICK FURY",
+      "text": "More heroes.",
+      "scene": 57
+    },
+    {
+      "character": "PHIL COULSON",
+      "text": "You think you can find others like her?",
+      "scene": 57
+    },
+    {
+      "character": "NICK FURY",
+      "text": "Hmm, we found her, and we weren't even looking.",
+      "scene": 57
+    },
+    {
+      "character": "PHIL COULSON",
+      "text": "Get some rest, sir. You got a big decision to make.",
+      "scene": 57
     },
     {
       "character": "STEVE ROGERS",
-      "text": "This is a nightmare."
+      "text": "This is a nightmare.",
+      "scene": 58
     },
     {
       "character": "NATASHA ROMANOFF",
-      "text": "I've had better nightmares."
+      "text": "I've had better nightmares.",
+      "scene": 58
     },
     {
       "character": "JAMES RHODES",
-      "text": "Hey. So that thing just stopped doing whatever the hell it was doing."
+      "text": "Hey. So, that thing just stopped doing whatever the hell it was doing.",
+      "scene": 58
     },
     {
       "character": "NATASHA ROMANOFF",
-      "text": "What have we got?"
+      "text": "What do we got?",
+      "scene": 58
     },
     {
       "character": "BRUCE BANNER",
-      "text": "Whatever the signal is sending, it finally creeped off."
+      "text": "Whatever signal it was sending finally crapped out.",
+      "scene": 58
     },
     {
       "character": "STEVE ROGERS",
-      "text": "I thought we bypassed the battery."
+      "text": "Lthought we bypassed the battery.",
+      "scene": 58
     },
     {
       "character": "JAMES RHODES",
-      "text": "We did. It's still plugged in, it just... it just stopped."
+      "text": "We did. It's still plugged in. It just stopped.",
+      "scene": 58
     },
     {
       "character": "STEVE ROGERS",
-      "text": "Reboot and send the signal again."
+      "text": "Reboot it. Send the signal again.",
+      "scene": 58
     },
     {
       "character": "BRUCE BANNER",
-      "text": "We don't even know what this is."
+      "text": "We don't even know what this is.",
+      "scene": 58
     },
     {
       "character": "NATASHA ROMANOFF",
-      "text": "Fury did. Just do it, please. You tell me the second you get a signal. I want to know who's on the other end of that thing."
+      "text": "Fury did. Just do it, please. You tell me the second you get a signal. I wanna know who's on the other end of that thing.",
+      "scene": 58
     },
     {
-      "character": "CAROL",
-      "text": "Where's Fury?"
+      "character": "CAROL DANVERS",
+      "text": "Where's fury?",
+      "scene": 58
     }
   ],
+  "lineCount": 802,
+  "characterCount": 32,
   "imdbId": "tt4154664",
   "poster": "https://m.media-amazon.com/images/M/MV5BZDI1NGU2ODAtNzBiNy00MWY5LWIyMGEtZjUxZjUwZmZiNjBlXkEyXkFqcGc@._V1_SX300.jpg",
   "rated": "PG-13",
-  "runtime": "123 min",
-  "genre": "Action, Adventure, Sci-Fi",
-  "director": "Anna Boden, Ryan Fleck",
+  "runtime": "124 min",
+  "genre": "Action, Adventure, Science Fiction",
+  "director": "Ryan Fleck, Anna Boden",
   "topSpeakingCast": [
-    "CAROL",
-    "FURY",
-    "YON-ROGG",
+    "CAROL DANVERS",
+    "NICK FURY",
     "TALOS",
-    "MARIA",
-    "MONICA",
-    "LAWSON",
+    "YON-ROGG",
+    "MARIA RAMBEAU",
     "SUPREME INTELLIGENCE",
-    "DIRECTOR",
-    "COULSON",
-    "MINN-ERVA",
+    "MONICA RAMBEAU",
+    "PHIL COULSON",
     "KORATH",
+    "MINN-ERVA",
+    "NOREX",
     "RONAN",
-    "BRON-CHAR",
-    "SKRULL SCIENTIST",
-    "ATT-LASS",
-    "MEDICAL EXAMINER",
     "TOM"
   ]
 }

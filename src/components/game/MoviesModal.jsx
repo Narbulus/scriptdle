@@ -29,7 +29,7 @@ export function MoviesModal({ isOpen, onClose, packName, movies, movieTitles, mo
                                 <div className="movie-title">{title} {year && `(${year})`}</div>
                                 <div className="movie-links">
                                     <a
-                                        href={`https://www.imdb.com/find?q=${encodeURIComponent(title)}`}
+                                        href={`https://www.imdb.com/find?q=${encodeURIComponent(/^Season \d+$/i.test(title) ? `${packName} ${title}` : title)}`}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="movie-imdb-link"

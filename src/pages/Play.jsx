@@ -1,24 +1,54 @@
 import { useState, useEffect } from 'preact/hooks';
 import { Game } from '../components/game/Game.jsx';
 import { loadAllGameData, getDataCache, getPackData } from '../services/dataLoader.js';
+import { applyPackTheme } from '../services/theme.js';
+
+function getCachedPlayState(packId) {
+    const packData = getPackData(packId);
+    if (!packData?.manifest || !packData?.dailyPuzzle) return null;
+    return {
+        dailyPuzzle: packData.dailyPuzzle,
+        manifest: packData.manifest,
+        packData: packData.packData,
+    };
+}
+
+function getOptimisticTheme(packId) {
+    return (
+        getDataCache().value.packThemes[packId] ||
+        (typeof window !== 'undefined' && window.SCRIPTLE_THEMES?.[packId]) ||
+        null
+    );
+}
 
 export function Play({ packId }) {
-    const [data, setData] = useState(null);
+    const initialCached = packId ? getCachedPlayState(packId) : null;
+    const [data, setData] = useState(initialCached);
     const [error, setError] = useState(null);
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(!initialCached);
 
-    const themeData = getDataCache().value.packThemes[packId];
+    // Apply pack theme synchronously on render if available so the first frame
+    // already carries the pack palette without a color flash.
+    const optimisticTheme = data?.packData?.theme || getOptimisticTheme(packId);
+    if (optimisticTheme) {
+        applyPackTheme(optimisticTheme);
+    }
 
     useEffect(() => {
+        let cancelled = false;
+
         async function loadGameData() {
             try {
-                setLoading(true);
+                const cached = getCachedPlayState(packId);
+                if (!cached) {
+                    setLoading(true);
+                }
                 setError(null);
 
-                // Load all game data (cached after first load)
+                // Load all game data (returns immediately when already cached)
                 await loadAllGameData();
+                if (cancelled) return;
 
-                // Get this pack's data from cache
                 const packData = getPackData(packId);
 
                 if (!packData) {
@@ -33,63 +63,84 @@ export function Play({ packId }) {
                     throw new Error('Daily puzzle not available');
                 }
 
-                // Apply theme immediately
-                applyTheme(packData.packData.theme);
+                applyPackTheme(packData.packData.theme);
 
-                // Update Title and Meta Tags
                 const pageTitle = `Scriptle: Daily ${packData.packData.name} quote guessing game`;
                 document.title = pageTitle;
 
-                // Update Open Graph meta tags for link previews
                 updateMetaTag('og:title', pageTitle);
                 updateMetaTag('og:description', `Play daily ${packData.packData.name} quote puzzles on Scriptle. Guess the movie from gradually revealed quotes!`);
                 updateMetaTag('og:url', window.location.href);
 
-                // Update Twitter Card meta tags
                 updateMetaTag('twitter:title', pageTitle);
                 updateMetaTag('twitter:description', `Play daily ${packData.packData.name} quote puzzles on Scriptle. Guess the movie from gradually revealed quotes!`);
 
                 setData({
                     dailyPuzzle: packData.dailyPuzzle,
                     manifest: packData.manifest,
-                    packData: packData.packData
+                    packData: packData.packData,
                 });
-
             } catch (err) {
-                console.error("Game Load Error", err);
+                if (cancelled) return;
+                console.error('Game Load Error', err);
                 setError(err.message);
             } finally {
-                setLoading(false);
+                if (!cancelled) setLoading(false);
             }
         }
 
         if (packId) {
             loadGameData();
         }
+
+        return () => {
+            cancelled = true;
+        };
     }, [packId]);
 
     if (error) {
         return (
-            <div data-testid="game-error" style="text-align: center; padding: 3rem; color: #ff6b6b;">
+            <div className="play-error-state" data-testid="game-error">
                 <h2>Error Loading Game</h2>
                 <p>{error}</p>
-                <button onClick={() => window.location.reload()} style="margin-top:1rem; padding:0.5rem 1rem;">Retry</button>
+                <div className="play-error-actions">
+                    <button onClick={() => window.location.reload()}>Retry</button>
+                    <a href="/" data-link className="footer-more-movies">Back to Packs</a>
+                </div>
             </div>
         );
     }
 
     if (loading || !data) {
-        // Apply optimistic theme CSS variables if available
-        if (themeData) {
-            applyTheme(themeData);
-        }
-
-        // Show clean skeleton - just colored backgrounds, no text
         return (
             <div id="game-area" data-testid="game-loading">
                 <div className="game-container">
-                    <div className="script-area loading-skeleton" data-theme="script" data-testid="script-skeleton" />
-                    <div className="game-footer loading-skeleton" data-testid="footer-skeleton" />
+                    <div className="script-area foxed loading-skeleton" data-theme="script" data-testid="script-skeleton">
+                        <div className="script-scroll-wrapper">
+                            <div className="script-scroll-inner">
+                                <div className="script-content">
+                                    <div className="script-skeleton-lines" aria-hidden="true">
+                                        <div className="script-skeleton-char" />
+                                        <div className="script-skeleton-line script-skeleton-line-lg" />
+                                        <div className="script-skeleton-line script-skeleton-line-md" />
+                                        <div className="script-skeleton-char script-skeleton-faint" />
+                                        <div className="script-skeleton-line script-skeleton-line-sm script-skeleton-faint" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="game-footer loading-skeleton" data-testid="footer-skeleton" aria-hidden="true">
+                        <div className="footer-skeleton-inner">
+                            <div className="footer-skeleton-bar footer-skeleton-header" />
+                            <div className="footer-skeleton-selectors">
+                                <div className="footer-skeleton-bar footer-skeleton-select" />
+                                <div className="footer-skeleton-bar footer-skeleton-select" />
+                            </div>
+                            <div className="footer-skeleton-bar footer-skeleton-btn" />
+                            <div className="footer-skeleton-bar footer-skeleton-meta" />
+                        </div>
+                    </div>
                 </div>
             </div>
         );
@@ -106,30 +157,8 @@ export function Play({ packId }) {
     );
 }
 
-function applyTheme(t) {
-    if (!t) return;
-    const root = document.documentElement;
-
-    root.style.setProperty('--pack-primary', t.primary || '#333');
-    root.style.setProperty('--pack-bg', t.bgColor || '#f4f4f4');
-    root.style.setProperty('--pack-surface', t.containerBg || '#ffffff');
-    root.style.setProperty('--pack-accent', t.accentColor || '#555');
-    root.style.setProperty('--pack-btn-text', t.btnText || '#ffffff');
-    root.style.setProperty('--pack-text', t.primary || '#333');
-    root.style.setProperty('--pack-text-secondary', t.accentColor || '#555');
-    root.style.setProperty('--pack-text-muted', t.muted || '#999');
-
-    root.style.setProperty('--pack-card-gradient-start', t.cardGradientStart || t.bgColor || '#333');
-    root.style.setProperty('--pack-card-gradient-end', t.cardGradientEnd || t.bgColor || '#555');
-    root.style.setProperty('--pack-card-border', t.cardBorder || t.primary || '#333');
-    root.style.setProperty('--pack-card-text', t.cardText || '#ffffff');
-}
-
 function updateMetaTag(property, content) {
-    // Try og: property first
     let meta = document.querySelector(`meta[property="${property}"]`);
-
-    // If not found, try name attribute (for twitter:)
     if (!meta) {
         meta = document.querySelector(`meta[name="${property}"]`);
     }
@@ -137,7 +166,6 @@ function updateMetaTag(property, content) {
     if (meta) {
         meta.setAttribute('content', content);
     } else {
-        // Create new meta tag if it doesn't exist
         meta = document.createElement('meta');
         if (property.startsWith('og:')) {
             meta.setAttribute('property', property);

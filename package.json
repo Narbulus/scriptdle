@@ -24,7 +24,6 @@
     "lint:fix": "eslint src tests scripts --fix",
     "validate:data": "node scripts/validate-daily-data.js",
     "validate:build": "node scripts/validate-build.js",
-    "generate-data": "python3 parse_all.py",
     "prepare": "husky"
   },
   "devDependencies": {

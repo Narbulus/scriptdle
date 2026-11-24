@@ -3,3447 +3,4030 @@
   "title": "Black Widow",
   "year": 2021,
   "characters": [
-    "AGENT 1",
-    "AGENT 2",
     "ALEXEI",
-    "ALEXEI AND YELENA BOTH",
+    "ANTONIA",
     "BARTON",
     "DREYKOV",
-    "DRIVER",
-    "GUARD",
     "HUGO DRAX",
     "INGRID",
-    "INMATES",
-    "MAN",
+    "JAMES BOND",
+    "LERATO",
+    "MASON",
     "MELINA",
-    "NATASHA",
-    "OFFICER",
+    "NATASHA ROMANOFF",
     "OKSANA",
-    "PRISONER 1",
-    "RICK MASON",
-    "THADDEUS ROSS",
-    "TV REPORTER 2",
-    "VALENTINA",
-    "WIDOW 1",
-    "WIDOW 2",
-    "YELENA"
+    "SECRETARY ROSS",
+    "VALENTINA ALLEGRA DE FONTAINE",
+    "WIDOW",
+    "YELENA BELOVA",
+    "YOUNG NATASHA",
+    "YOUNG YELENA"
   ],
   "lines": [
     {
-      "character": "NATASHA",
-      "text": "Hey, Nat!"
+      "character": "YOUNG YELENA",
+      "text": "We're both upside down.",
+      "scene": 0
     },
     {
-      "character": "YELENA",
-      "text": "We’re both upside down."
+      "character": "YOUNG NATASHA",
+      "text": "And I bet you're gonna fall down first.",
+      "scene": 0
     },
     {
-      "character": "NATASHA",
-      "text": "And I bet you’re gonna fall down first."
+      "character": "YOUNG YELENA",
+      "text": "No, you will.",
+      "scene": 0
     },
     {
-      "character": "YELENA",
-      "text": "No, you will. You can’t hold it much longer."
+      "character": "YOUNG NATASHA",
+      "text": "You can't hold it much longer.",
+      "scene": 0
     },
     {
-      "character": "NATASHA",
-      "text": "Told you you’d fall down first. I told you! I told you! Told you so!"
+      "character": "YOUNG YELENA",
+      "text": "Told you you'd fall down first. I told you! I told you!",
+      "scene": 0
     },
     {
-      "character": "YELENA",
-      "text": "Mommy!"
+      "character": "YOUNG YELENA",
+      "text": "Told you so!",
+      "scene": 0
     },
     {
-      "character": "MELINA",
-      "text": "What happened?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "She fell on her knee."
-    },
-    {
-      "character": "MELINA",
-      "text": "Oh, you bump your knee?"
-    },
-    {
-      "character": "YELENA",
-      "text": "Mmm-hmm."
+      "character": "YOUNG YELENA",
+      "text": "Mommy!",
+      "scene": 0
     },
     {
       "character": "MELINA",
-      "text": "Oh… Kiss it better. There we go. Oh, come on, little one. Get up. You’re okay. Come on. You’re a brave girl. Your pain only makes you stronger."
+      "text": "What happened?",
+      "scene": 0
+    },
+    {
+      "character": "YOUNG NATASHA",
+      "text": "She fell on her knee.",
+      "scene": 0
     },
     {
       "character": "MELINA",
-      "text": "Right, you?"
+      "text": "Oh, you bump your knee?",
+      "scene": 0
     },
     {
-      "character": "NATASHA",
-      "text": "Yeah."
-    },
-    {
-      "character": "MELINA",
-      "text": "Yeah?"
-    },
-    {
-      "character": "YELENA",
-      "text": "Look! Forest stars."
+      "character": "YOUNG YELENA",
+      "text": "Mmm-hmm.",
+      "scene": 0
     },
     {
       "character": "MELINA",
-      "text": "Yeah. You know what? Those are actually part of the Lampyridae family. And the glow, the glow that you see, that comes from a chemical reaction called… bioluminescence. Come on, time for dinner."
-    },
-    {
-      "character": "YELENA",
-      "text": "Bio-goomin-feasants?"
+      "text": "Oh...",
+      "scene": 0
     },
     {
       "character": "MELINA",
-      "text": "“Bio-goomin-feasants.” That’s right. Dinner! Come on, dinner, big girl!"
+      "text": "Kiss it better. There we go. Oh, come on, little one. Get up. You're okay. Come on. You're a brave girl. Your pain only makes you stronger. Right, you?",
+      "scene": 0
     },
     {
-      "character": "YELENA",
-      "text": "I want mac and cheese."
-    },
-    {
-      "character": "MELINA",
-      "text": "Oh, you want mac and cheese? Okay. Well, I want… caviar and champagne. Grab the napkins. You take this. Thank you. Oh, would you grab the ranch dressing for Dad?"
-    },
-    {
-      "character": "MELINA",
-      "text": "Okay."
-    },
-    {
-      "character": "YELENA",
-      "text": "Green beans are my favorite vegetable."
+      "character": "YOUNG NATASHA",
+      "text": "Yeah.",
+      "scene": 0
     },
     {
       "character": "MELINA",
-      "text": "Dad’s home!"
+      "text": "Yeah?",
+      "scene": 0
     },
     {
-      "character": "NATASHA",
-      "text": "Hey, Dad."
+      "character": "YOUNG YELENA",
+      "text": "Look! Forest stars.",
+      "scene": 0
+    },
+    {
+      "character": "MELINA",
+      "text": "MELINA:Yeah. You know what? Those are actually part of the Lampyridae family. And the glow, the glow that you see, that comes from a chemical reaction called... bioluminescence. Come on, time for dinner.",
+      "scene": 0
+    },
+    {
+      "character": "YOUNG YELENA",
+      "text": "Bio-goomin-feasants?",
+      "scene": 0
+    },
+    {
+      "character": "MELINA",
+      "text": "\"Bio-goomin-feasants.\" That's right. Dinner! Come on, dinner, big girl!",
+      "scene": 0
+    },
+    {
+      "character": "YOUNG YELENA",
+      "text": "I want mac and cheese.",
+      "scene": 0
+    },
+    {
+      "character": "MELINA",
+      "text": "Oh, you want mac and cheese? Okay. Well, I want... caviar and champagne. Grab the napkins. You take this. Thank you. Oh, would you grab the ranch dressing for Dad?",
+      "scene": 0
+    },
+    {
+      "character": "YOUNG YELENA",
+      "text": "Okay. Green beans are my favorite vegetable.",
+      "scene": 0
+    },
+    {
+      "character": "MELINA",
+      "text": "Dad's home!",
+      "scene": 0
+    },
+    {
+      "character": "YOUNG YELENA",
+      "text": "Hey, Dad.",
+      "scene": 0
     },
     {
       "character": "ALEXEI",
-      "text": "Hey, baby."
+      "text": "Hey, baby.",
+      "scene": 0
     },
     {
       "character": "MELINA",
-      "text": "Everything okay?"
-    },
-    {
-      "character": "MELINA",
-      "text": "How was everybody’s day?"
-    },
-    {
-      "character": "YELENA",
-      "text": "Mommy taught me about lamp bugs."
+      "text": "Everything okay?",
+      "scene": 0
     },
     {
       "character": "ALEXEI",
-      "text": "Lamp bugs."
+      "text": "ALEXEI:How was everybody's day?",
+      "scene": 0
     },
     {
-      "character": "YELENA",
-      "text": "And I fell and hurt my knee, but it doesn’t hurt anymore."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Mmm-hmm."
-    },
-    {
-      "character": "YELENA",
-      "text": "And we also saw fireflies in the backyard. That was my favorite part of the whole day."
-    },
-    {
-      "character": "MELINA",
-      "text": "No."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Yelena, we see fireflies every year."
-    },
-    {
-      "character": "MELINA",
-      "text": "How long do we have?"
+      "character": "YOUNG YELENA",
+      "text": "Mommy taught me about lamp bugs.",
+      "scene": 0
     },
     {
       "character": "ALEXEI",
-      "text": "I don’t know. Like, an hour, maybe."
+      "text": "Lamp bugs.",
+      "scene": 0
     },
     {
-      "character": "MELINA",
-      "text": "I don’t wanna go."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Don’t say that."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Girls… you remember when I told you that one day we would have that big adventure? Today’s the day."
-    },
-    {
-      "character": "YELENA",
-      "text": "Yay!"
+      "character": "YOUNG YELENA",
+      "text": "And I fell and hurt my knee, but it doesn't hurt anymore.",
+      "scene": 0
     },
     {
       "character": "ALEXEI",
-      "text": "All right, let’s go."
+      "text": "Mmm-hmm.",
+      "scene": 0
     },
     {
-      "character": "MELINA",
-      "text": "I’m sorry."
-    },
-    {
-      "character": "MELINA",
-      "text": "Come on, we gotta hurry."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Thank you."
-    },
-    {
-      "character": "YELENA",
-      "text": "I don’t have my shoes."
+      "character": "YOUNG YELENA",
+      "text": "YOUNG YELENA:And we also saw fireflies in the backyard. That was my favorite part of the whole day.",
+      "scene": 0
     },
     {
       "character": "ALEXEI",
-      "text": "Thank you, baby."
+      "text": "No.",
+      "scene": 0
+    },
+    {
+      "character": "YOUNG NATASHA",
+      "text": "Yelena, we see fireflies every year.",
+      "scene": 0
+    },
+    {
+      "character": "MELINA",
+      "text": "How long do we have?",
+      "scene": 0
     },
     {
       "character": "ALEXEI",
-      "text": "That’s okay. You don’t need your shoes."
+      "text": "I don't know. Like, an hour, maybe.",
+      "scene": 0
     },
     {
-      "character": "YELENA",
-      "text": "But I’m still hungry."
+      "character": "MELINA",
+      "text": "I don't wanna go.",
+      "scene": 0
     },
     {
       "character": "ALEXEI",
-      "text": "Yeah? Guess what? I got Fruit Roll-Ups in the car."
-    },
-    {
-      "character": "MELINA",
-      "text": "No, leave it, leave it, leave it. Go wait in the car."
-    },
-    {
-      "character": "MELINA",
-      "text": "You have it?"
+      "text": "Don't say that.",
+      "scene": 0
     },
     {
       "character": "ALEXEI",
-      "text": "Yeah."
-    },
-    {
-      "character": "MELINA",
-      "text": "It’s the only copy?"
+      "text": "Girls... you remember when I told you that one day we would have that big adventure?",
+      "scene": 0
     },
     {
       "character": "ALEXEI",
-      "text": "It’s the only one not on fire."
+      "text": "Today's the day.",
+      "scene": 0
     },
     {
-      "character": "YELENA",
-      "text": "Where are we going?"
-    },
-    {
-      "character": "MELINA",
-      "text": "Home."
-    },
-    {
-      "character": "YELENA",
-      "text": "Mommy, you’re silly. We just left home."
-    },
-    {
-      "character": "YELENA",
-      "text": "I want my song."
-    },
-    {
-      "character": "YELENA",
-      "text": "♪ Bye, bye, Miss American Pie ♪"
-    },
-    {
-      "character": "YELENA",
-      "text": "♪ Drove my Chevy to the levee but the levee was dry ♪"
-    },
-    {
-      "character": "YELENA",
-      "text": "♪ Them good old boys were drinking whiskey and rye ♪"
-    },
-    {
-      "character": "YELENA",
-      "text": "♪ Singing, “This’ll be the day that I die” ♪"
-    },
-    {
-      "character": "YELENA",
-      "text": "♪ “This’ll be the day that I die” ♪"
-    },
-    {
-      "character": "MELINA",
-      "text": "Come on, Yelena. Hurry up, baby."
-    },
-    {
-      "character": "MELINA",
-      "text": "Let’s go. Come on, Nat. Hurry up. We gotta go. We gotta go. Come on, you gotta run."
+      "character": "YOUNG YELENA",
+      "text": "Yay!",
+      "scene": 0
     },
     {
       "character": "ALEXEI",
-      "text": "Come on. Honey, honey."
+      "text": "All right, let's go.",
+      "scene": 0
     },
     {
       "character": "ALEXEI",
-      "text": "Go with your mom. Go with your mom."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Okay."
+      "text": "I'm sorry.",
+      "scene": 0
     },
     {
       "character": "MELINA",
-      "text": "Nat, hurry up!"
-    },
-    {
-      "character": "NATASHA",
-      "text": "I’m coming!"
-    },
-    {
-      "character": "MELINA",
-      "text": "Okay. Seat belts."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Okay."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Why isn’t Dad in the plane?"
-    },
-    {
-      "character": "MELINA",
-      "text": "He’s coming. He’s coming, baby. He’s coming."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Mom?"
-    },
-    {
-      "character": "MELINA",
-      "text": "I need you up here."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Okay."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Okay."
-    },
-    {
-      "character": "MELINA",
-      "text": "I need you to pull right."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Mom, you’ve got blood on you."
-    },
-    {
-      "character": "NATASHA",
-      "text": "It’s okay, baby."
-    },
-    {
-      "character": "MELINA",
-      "text": "Hit the accelerator there."
-    },
-    {
-      "character": "MELINA",
-      "text": "Hold it steady, hold it steady. You’re gonna pull back at 55 knots. Let’s count together."
-    },
-    {
-      "character": "NATASHA",
-      "text": "45, 50…"
-    },
-    {
-      "character": "MELINA",
-      "text": "Pull back. You can do it! Pull back. All your strength."
+      "text": "Come on, we gotta hurry.",
+      "scene": 0
     },
     {
       "character": "ALEXEI",
-      "text": "Okay."
+      "text": "Thank you.",
+      "scene": 0
     },
     {
-      "character": "YELENA",
-      "text": "Get up, Mommy. Pain only makes you stronger, remember?"
+      "character": "YOUNG YELENA",
+      "text": "I don't have my shoes.",
+      "scene": 0
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Thank you, baby. That's okay. You don't need your shoes.",
+      "scene": 0
+    },
+    {
+      "character": "YOUNG YELENA",
+      "text": "But I'm still hungry.",
+      "scene": 0
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Yeah? Guess what? I got Fruit Roll-Ups in the car.",
+      "scene": 0
+    },
+    {
+      "character": "MELINA",
+      "text": "No, leave it, leave it, leave it. Go wait in the car.",
+      "scene": 0
+    },
+    {
+      "character": "MELINA",
+      "text": "You have it?",
+      "scene": 0
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Yeah.",
+      "scene": 0
+    },
+    {
+      "character": "MELINA",
+      "text": "It's the only copy?",
+      "scene": 0
+    },
+    {
+      "character": "ALEXEI",
+      "text": "It's the only one not on fire.",
+      "scene": 0
+    },
+    {
+      "character": "YOUNG YELENA",
+      "text": "Where are we going?",
+      "scene": 0
+    },
+    {
+      "character": "MELINA",
+      "text": "Home.",
+      "scene": 0
+    },
+    {
+      "character": "YOUNG YELENA",
+      "text": "Mommy, you're silly. We just left home.",
+      "scene": 0
+    },
+    {
+      "character": "YOUNG YELENA",
+      "text": "I want my song.",
+      "scene": 0
+    },
+    {
+      "character": "MELINA",
+      "text": "Come on, Yelena. Hurry up, baby. Let's go. Come on, Nat. Hurry up. We gotta go. We gotta go. Come on, you gotta run.",
+      "scene": 1
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Come on. Honey, honey. Go with your mom. Go with your mom.",
+      "scene": 1
+    },
+    {
+      "character": "YOUNG YELENA",
+      "text": "Okay.",
+      "scene": 1
+    },
+    {
+      "character": "MELINA",
+      "text": "Nat, hurry up!",
+      "scene": 1
+    },
+    {
+      "character": "YOUNG NATASHA",
+      "text": "I'm coming!",
+      "scene": 1
+    },
+    {
+      "character": "MELINA",
+      "text": "Okay. Seat belts.",
+      "scene": 1
+    },
+    {
+      "character": "MELINA",
+      "text": "Okay.",
+      "scene": 1
+    },
+    {
+      "character": "YOUNG NATASHA",
+      "text": "Why isn't Dad in the plane?",
+      "scene": 1
+    },
+    {
+      "character": "MELINA",
+      "text": "He's coming. He's coming, baby. He's coming.",
+      "scene": 1
+    },
+    {
+      "character": "YOUNG NATASHA",
+      "text": "Mom?",
+      "scene": 2
+    },
+    {
+      "character": "YOUNG NATASHA",
+      "text": "Mom!",
+      "scene": 2
+    },
+    {
+      "character": "MELINA",
+      "text": "I need you up here.",
+      "scene": 2
+    },
+    {
+      "character": "YOUNG NATASHA",
+      "text": "Okay.",
+      "scene": 2
+    },
+    {
+      "character": "MELINA",
+      "text": "Okay. I need you to pull right.",
+      "scene": 2
+    },
+    {
+      "character": "YOUNG NATASHA",
+      "text": "Mom, you've got blood on you.",
+      "scene": 2
+    },
+    {
+      "character": "MELINA",
+      "text": "It's okay, baby.",
+      "scene": 2
+    },
+    {
+      "character": "MELINA",
+      "text": "Hit the accelerator there.",
+      "scene": 3
+    },
+    {
+      "character": "MELINA",
+      "text": "Hold it steady, hold it steady. You're gonna pull back at 55 knots. Let's count together.",
+      "scene": 3
+    },
+    {
+      "character": "YOUNG NATASHA",
+      "text": "45, 50...",
+      "scene": 3
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Okay.",
+      "scene": 4
+    },
+    {
+      "character": "YOUNG YELENA",
+      "text": "Get up, Mommy. Pain only makes you stronger, remember?",
+      "scene": 4
     },
     {
       "character": "DREYKOV",
-      "text": "The Red Guardian returns."
+      "text": "The Red Guardian returns. The Red Guardian returns triumphant.",
+      "scene": 4
     },
     {
       "character": "ALEXEI",
-      "text": "The Red Guardian returns triumphant. Please, please, I beg you. No more undercover work. I wanna get back in the action. I want my suit back. I wanna get back in it. General Dreykov, it’s been over three years."
+      "text": "Please, please, I beg you. No more undercover work. I wanna get back in the action. I want my suit back. I wanna get back in it. General Dreykov, it's been over three years.",
+      "scene": 4
     },
     {
-      "character": "NATASHA",
-      "text": "Forgive me mom. I’m scared."
+      "character": "YOUNG NATASHA",
+      "text": "Forgive me mom. I'm scared.",
+      "scene": 4
     },
     {
       "character": "MELINA",
-      "text": "Never let them take your heart."
+      "text": "Never let them take your heart.",
+      "scene": 4
     },
     {
       "character": "DREYKOV",
-      "text": "Did you get it?"
+      "text": "Did you get it?",
+      "scene": 4
     },
     {
       "character": "DREYKOV",
-      "text": "And the North Institute?"
+      "text": "And the North Institute?",
+      "scene": 4
     },
     {
       "character": "ALEXEI",
-      "text": "Ashes."
+      "text": "Ashes.",
+      "scene": 4
     },
     {
-      "character": "NATASHA",
-      "text": "It’s gonna be okay."
+      "character": "YOUNG NATASHA",
+      "text": "It's gonna be okay.",
+      "scene": 4
     },
     {
       "character": "DREYKOV",
-      "text": "How is Melina?"
+      "text": "How is Melina?",
+      "scene": 4
     },
     {
       "character": "ALEXEI",
-      "text": "She’ll live. She’s strong."
+      "text": "She'll live. She's strong.",
+      "scene": 4
     },
     {
-      "character": "YELENA",
-      "text": "Mommy? Mom?"
+      "character": "YOUNG YELENA",
+      "text": "Mommy?",
+      "scene": 4
     },
     {
-      "character": "YELENA",
-      "text": "Daddy!"
+      "character": "YOUNG NATASHA",
+      "text": "Mom?",
+      "scene": 4
     },
     {
-      "character": "ALEXEI",
-      "text": "I’ll handle this."
-    },
-    {
-      "character": "YELENA",
-      "text": "Daddy! Daddy!"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Yelena!"
-    },
-    {
-      "character": "YELENA",
-      "text": "Daddy!"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Get away from her! Don’t touch her!"
-    },
-    {
-      "character": "NATASHA",
-      "text": "I will shoot."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Don’t touch her! I will kill you all!"
-    },
-    {
-      "character": "NATASHA",
-      "text": "I will shoot. Don’t touch her."
+      "character": "YOUNG YELENA",
+      "text": "Daddy!",
+      "scene": 4
     },
     {
       "character": "ALEXEI",
-      "text": "Honey."
+      "text": "I'll handle this.",
+      "scene": 4
+    },
+    {
+      "character": "YOUNG YELENA",
+      "text": "Daddy! Daddy!",
+      "scene": 4
+    },
+    {
+      "character": "YOUNG NATASHA",
+      "text": "Yelena!",
+      "scene": 4
+    },
+    {
+      "character": "YOUNG YELENA",
+      "text": "Daddy!",
+      "scene": 4
+    },
+    {
+      "character": "YOUNG NATASHA",
+      "text": "Get away from her!",
+      "scene": 4
+    },
+    {
+      "character": "YOUNG NATASHA",
+      "text": "Don't touch her! I will shoot. Don't touch her! I will kill you all! I will shoot. Don't touch her.",
+      "scene": 4
     },
     {
       "character": "ALEXEI",
-      "text": "You’re gonna need to hand me that gun."
-    },
-    {
-      "character": "NATASHA",
-      "text": "I don’t wanna go back there. I wanna stay in Ohio. You can’t take her. You can’t. She’s only six."
+      "text": "Honey.",
+      "scene": 4
     },
     {
       "character": "ALEXEI",
-      "text": "You were even younger. It’s okay. Come here."
+      "text": "You're gonna need to hand me that gun.",
+      "scene": 4
     },
     {
-      "character": "NATASHA",
-      "text": "You’re gonna be all right. Do you know why it’s gonna be all right? ‘Cause my girls are the toughest girls in the world. You’re gonna take care of each other, okay? And everything, everything’s gonna be fine."
+      "character": "YOUNG NATASHA",
+      "text": "I don't wanna go back there. I wanna stay in Ohio. You can't take her. You can't. She's only six.",
+      "scene": 4
+    },
+    {
+      "character": "ALEXEI",
+      "text": "You were even younger.",
+      "scene": 4
+    },
+    {
+      "character": "ALEXEI",
+      "text": "It's okay.",
+      "scene": 4
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Come here.",
+      "scene": 4
+    },
+    {
+      "character": "ALEXEI",
+      "text": "You're gonna be all right.",
+      "scene": 4
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Do you know why it's gonna be all right? 'Cause my girls are the toughest girls in the world. You're gonna take care of each other, okay? And everything, everything's gonna be fine.",
+      "scene": 4
     },
     {
       "character": "DREYKOV",
-      "text": "That one, she has fire in her. What was her name?"
+      "text": "That one, she has fire in her.",
+      "scene": 5
+    },
+    {
+      "character": "DREYKOV",
+      "text": "What was her name?",
+      "scene": 5
     },
     {
       "character": "ALEXEI",
-      "text": "Natasha."
+      "text": "Natasha.",
+      "scene": 5
     },
     {
       "character": "DREYKOV",
-      "text": "Ah… Natasha."
+      "text": "Ah... Natasha.",
+      "scene": 5
     },
     {
-      "character": "NATASHA",
-      "text": "No!"
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Remove all the defects. That one and her."
-    },
-    {
-      "character": "YELENA",
-      "text": "No!"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Yelena!"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Take it! Take it! No!"
-    },
-    {
-      "character": "YELENA",
-      "text": "No!"
+      "character": "YOUNG YELENA",
+      "text": "No!",
+      "scene": 6
     },
     {
       "character": "DREYKOV",
-      "text": "The Red Room is your home now."
+      "text": "Remove all the defects.",
+      "scene": 6
     },
     {
-      "character": "NATASHA",
-      "text": "Get off me! No!"
+      "character": "DREYKOV",
+      "text": "That one and her.",
+      "scene": 6
     },
     {
-      "character": "AGENT 1",
-      "text": "They’re topside, sir!"
+      "character": "YOUNG YELENA",
+      "text": "No!",
+      "scene": 6
     },
     {
-      "character": "AGENT 2",
-      "text": "Tier 1 has LOS!"
+      "character": "YOUNG NATASHA",
+      "text": "Yelena!",
+      "scene": 6
     },
     {
-      "character": "OFFICER",
-      "text": "We’ve got all exits covered."
+      "character": "YOUNG NATASHA",
+      "text": "Take it! Take it! No!",
+      "scene": 6
     },
     {
-      "character": "THADDEUS ROSS",
-      "text": "All right. Stay alert. I’m sending in alpha squad. Natasha Romanoff is in violation of the Sokovia Accords. She assaulted the king of Wakanda. Make an example out of her."
+      "character": "YOUNG NATASHA",
+      "text": "No!",
+      "scene": 6
     },
     {
-      "character": "THADDEUS ROSS",
-      "text": "Yeah?"
+      "character": "DREYKOV",
+      "text": "The Red Room is your home now.",
+      "scene": 6
     },
     {
-      "character": "NATASHA",
-      "text": "Don’t do this."
+      "character": "YOUNG NATASHA",
+      "text": "Get off me! No!",
+      "scene": 6
     },
     {
-      "character": "THADDEUS ROSS",
-      "text": "Do what?"
+      "character": "AGENT",
+      "text": "We've got all exits covered.",
+      "scene": 7
     },
     {
-      "character": "NATASHA",
-      "text": "Come after me. I mean, you’re embarrassing yourself. It looks desperate."
+      "character": "SECRETARY ROSS",
+      "text": "All right. Stay alert. I'm sending in alpha squad.",
+      "scene": 7
     },
     {
-      "character": "THADDEUS ROSS",
-      "text": "Thought maybe you’d be calling me to cut a deal."
+      "character": "SECRETARY ROSS",
+      "text": "Natasha Romanoff is in violation of the Sokovia Accords. She assaulted the king of Wakanda. Make an example out of her.",
+      "scene": 7
     },
     {
-      "character": "THADDEUS ROSS",
-      "text": "‘Cause from my vantage point, it’s the federal fugitive who’s desperate."
+      "character": "SECRETARY ROSS",
+      "text": "Yeah?",
+      "scene": 7
     },
     {
-      "character": "NATASHA",
-      "text": "From my vantage point, you look like you could use some bed rest. What is this, your second triple bypass?"
+      "character": "NATASHA ROMANOFF",
+      "text": "Don't do this.",
+      "scene": 7
     },
     {
-      "character": "THADDEUS ROSS",
-      "text": "I wouldn’t worry about me. We got Barton, we got Wilson and that other guy, the incredible shrinking convict. Rogers is on the run. You got no friends. Where you gonna go?"
+      "character": "SECRETARY ROSS",
+      "text": "Do what?",
+      "scene": 7
     },
     {
-      "character": "NATASHA",
-      "text": "I’ve lived a lot of lives before I met you, Ross. You shouldn’t have gone to all this trouble. I’m done."
+      "character": "NATASHA ROMANOFF",
+      "text": "Come after me. I mean, you're embarrassing yourself. It looks desperate.",
+      "scene": 7
     },
     {
-      "character": "THADDEUS ROSS",
-      "text": "Romanoff?"
+      "character": "SECRETARY ROSS",
+      "text": "Thought maybe you'd be calling me to cut a deal. 'Cause from my vantage point, it's the federal fugitive who's desperate.",
+      "scene": 7
     },
     {
-      "character": "OFFICER",
-      "text": "Got an empty nest, Secretary Ross. Her tracker, sir."
+      "character": "NATASHA ROMANOFF",
+      "text": "From my vantage point, you look like you could use some bed rest. What is this, your second triple bypass?",
+      "scene": 7
     },
     {
-      "character": "YELENA",
-      "text": "Eyes on target. Waiting for the package."
+      "character": "SECRETARY ROSS",
+      "text": "I wouldn't worry about me. We got Barton, we got Wilson and that other guy, the incredible shrinking convict. Rogers is on the run. You got no friends. Where you gonna go?",
+      "scene": 7
     },
     {
-      "character": "INGRID",
-      "text": "I have sights on collateral one. Firing in place of three. Five, four…"
+      "character": "NATASHA ROMANOFF",
+      "text": "I've lived a lot of lives before I met you, Ross. You shouldn't have gone to all this trouble. I'm done.",
+      "scene": 7
     },
     {
-      "character": "YELENA",
-      "text": "She made us. Target deployed smoke. She’s on foot with the package. Stay high. I’m going to ground."
+      "character": "SECRETARY ROSS",
+      "text": "Romanoff?",
+      "scene": 7
     },
     {
-      "character": "YELENA",
-      "text": "Oksana. Oh, no. What did I do?"
+      "character": "YELENA BELOVA",
+      "text": "Oksana.",
+      "scene": 8
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Oh, no. What did I do?",
+      "scene": 8
     },
     {
       "character": "OKSANA",
-      "text": "Free the others."
+      "text": "Free the others.",
+      "scene": 8
     },
     {
       "character": "INGRID",
-      "text": "Yelena, we need a status report."
+      "text": "Yelena, we need a status report.",
+      "scene": 8
     },
     {
       "character": "INGRID",
-      "text": "Yelena, we need a status report."
+      "text": "Yelena, we need a status report.",
+      "scene": 8
     },
     {
       "character": "INGRID",
-      "text": "Converge on team leader."
+      "text": "Converge on team leader.",
+      "scene": 8
     },
     {
       "character": "INGRID",
-      "text": "General Dreykov, we have a deserter. Permission to activate Taskmaster Protocol?"
+      "text": "General Dreykov, we have a deserter. Permission to activate Taskmaster Protocol?",
+      "scene": 8
     },
     {
-      "character": "WIDOW 1",
-      "text": "Smile."
+      "character": "NATASHA ROMANOFF",
+      "text": "You're in my bed.",
+      "scene": 9
     },
     {
-      "character": "TV REPORTER 2",
-      "text": "After the Sokovia Accords, the hunt is on for the remaining Avengers… Steve Rogers and Natasha Romanoff are currently on the run."
+      "character": "MASON",
+      "text": "I'm... I'm not even under the covers.",
+      "scene": 9
     },
     {
-      "character": "NATASHA",
-      "text": "You’re in my bed."
+      "character": "NATASHA ROMANOFF",
+      "text": "Did you get everything on my list?",
+      "scene": 9
     },
     {
-      "character": "RICK MASON",
-      "text": "I’m… I’m not even under the covers."
+      "character": "MASON",
+      "text": "Got passports, entry visas, a couple of local driver's licenses. Mix and match, you should be able to stretch it to 20 or so identities.",
+      "scene": 9
     },
     {
-      "character": "NATASHA",
-      "text": "Did you get everything on my list?"
+      "character": "NATASHA ROMANOFF",
+      "text": "Fanny Longbottom?",
+      "scene": 9
     },
     {
-      "character": "RICK MASON",
-      "text": "Got passports, entry visas, a couple of local driver’s licenses. Mix and match, you should be able to stretch it to 20 or so identities."
+      "character": "MASON",
+      "text": "What?",
+      "scene": 9
     },
     {
-      "character": "NATASHA",
-      "text": "Fanny Longbottom?"
+      "character": "NATASHA ROMANOFF",
+      "text": "What, are you 12?",
+      "scene": 9
     },
     {
-      "character": "RICK MASON",
-      "text": "What?"
+      "character": "MASON",
+      "text": "That is a legitimate name. We've got a generator outside. It's petrol-powered. And the septic tank will need a flush in a couple of weeks, but, you know, I've got a guy coming for that. You have to haul your rubbish into town. It's just a 20-minute drive. I've got your basic hardware kit stashed under the stairs.",
+      "scene": 9
     },
     {
-      "character": "NATASHA",
-      "text": "What, are you 12?"
+      "character": "NATASHA ROMANOFF",
+      "text": "Nice.",
+      "scene": 9
     },
     {
-      "character": "RICK MASON",
-      "text": "That is a legitimate name. We’ve got a generator outside. It’s petrol-powered. And the septic tank will need a flush in a couple of weeks, but, you know, I’ve got a guy coming for that. You have to haul your rubbish into town. It’s just a 20-minute drive. I’ve got your basic hardware kit stashed under the stairs."
+      "character": "MASON",
+      "text": "Are you okay?",
+      "scene": 9
     },
     {
-      "character": "NATASHA",
-      "text": "Nice."
+      "character": "NATASHA ROMANOFF",
+      "text": "Why wouldn't I be?",
+      "scene": 9
     },
     {
-      "character": "RICK MASON",
-      "text": "Are you okay?"
+      "character": "MASON",
+      "text": "I hear things. You know, something about the Avengers getting divorced...",
+      "scene": 9
     },
     {
-      "character": "NATASHA",
-      "text": "Why wouldn’t I be?"
+      "character": "NATASHA ROMANOFF",
+      "text": "Ugh. It's fine. I'm actually better on my own.",
+      "scene": 9
     },
     {
-      "character": "RICK MASON",
-      "text": "I hear things. You know, something about the Avengers getting divorced…"
+      "character": "MASON",
+      "text": "Are you sure?",
+      "scene": 9
     },
     {
-      "character": "NATASHA",
-      "text": "Ugh. It’s fine. I’m actually better on my own."
+      "character": "NATASHA ROMANOFF",
+      "text": "Yeah.",
+      "scene": 9
     },
     {
-      "character": "RICK MASON",
-      "text": "Are you sure?"
+      "character": "MASON",
+      "text": "Because you can tell me, you know. That's the way the whole friends thing works.",
+      "scene": 9
     },
     {
-      "character": "NATASHA",
-      "text": "Yeah."
+      "character": "NATASHA ROMANOFF",
+      "text": "I know. I have friends.",
+      "scene": 9
     },
     {
-      "character": "RICK MASON",
-      "text": "Because you can tell me, you know. That’s the way the whole friends thing works."
+      "character": "MASON",
+      "text": "People who have friends don't call me.",
+      "scene": 9
     },
     {
-      "character": "NATASHA",
-      "text": "I know. I have friends."
+      "character": "NATASHA ROMANOFF",
+      "text": "And I don't pay you to worry.",
+      "scene": 9
     },
     {
-      "character": "RICK MASON",
-      "text": "People who have friends don’t call me."
+      "character": "NATASHA ROMANOFF",
+      "text": "Oh, hey. What's all this junk?",
+      "scene": 10
     },
     {
-      "character": "NATASHA",
-      "text": "And I don’t pay you to worry."
+      "character": "MASON",
+      "text": "Oh, just some mail and personals from the Budapest safe house.",
+      "scene": 10
     },
     {
-      "character": "NATASHA",
-      "text": "Oh, hey. What’s all this junk?"
+      "character": "NATASHA ROMANOFF",
+      "text": "Budapest?",
+      "scene": 10
     },
     {
-      "character": "RICK MASON",
-      "text": "Oh, just some mail and personals from the Budapest safe house."
+      "character": "MASON",
+      "text": "Yeah. Budapest.",
+      "scene": 10
     },
     {
-      "character": "NATASHA",
-      "text": "Budapest?"
+      "character": "NATASHA ROMANOFF",
+      "text": "No, it's \"Budapest.\"",
+      "scene": 10
     },
     {
-      "character": "RICK MASON",
-      "text": "Yeah. Budapest."
+      "character": "MASON",
+      "text": "Budapest. Budapest.",
+      "scene": 10
     },
     {
-      "character": "NATASHA",
-      "text": "No, it’s “Budapest.”"
+      "character": "NATASHA ROMANOFF",
+      "text": "It's \"Budapest.\" Sh.",
+      "scene": 10
     },
     {
-      "character": "RICK MASON",
-      "text": "Budapest. Budapest. It’s “Budapest.”"
+      "character": "MASON",
+      "text": "Whatever. I knew you weren't going back there, so I've got someone else in the flat now.",
+      "scene": 10
     },
     {
-      "character": "RICK MASON",
-      "text": "Whatever. I knew you weren’t going back there, so I’ve got someone else in the flat now."
+      "character": "NATASHA ROMANOFF",
+      "text": "Sorry you went through the trouble. I would've told you to chuck it.",
+      "scene": 10
     },
     {
-      "character": "NATASHA",
-      "text": "Sorry you went through the trouble. I would’ve told you to chuck it."
-    },
-    {
-      "character": "RICK MASON",
-      "text": "Well, if you don’t want it, throw it in the rubbish."
+      "character": "MASON",
+      "text": "Well, if you don't want it, throw it in the rubbish.",
+      "scene": 10
     },
     {
       "character": "HUGO DRAX",
-      "text": "You’re not a sportsman, Mr. Bond."
+      "text": "You're not a sportsman, Mr. Bond.",
+      "scene": 11
     },
     {
-      "character": "NATASHA",
-      "text": "Why did you break up the encounter with my pet python? Because I discovered he had a crush on me."
+      "character": "NATASHA ROMANOFF",
+      "text": "Why did you break up the encounter with my pet python?",
+      "scene": 11
     },
     {
-      "character": "NATASHA",
-      "text": "Oh, great."
+      "character": "JAMES BOND",
+      "text": "Because I discovered he had a crush on me.",
+      "scene": 11
     },
     {
-      "character": "NATASHA",
-      "text": "I’m pretty sure Ross has no jurisdiction here. And you should know I’m a better shot when I’m pissed off."
+      "character": "ANNOUNCER",
+      "text": "Moonraker 1 on preset launch program...",
+      "scene": 11
     },
     {
-      "character": "NATASHA",
-      "text": "You’re not here for me."
+      "character": "NATASHA ROMANOFF",
+      "text": "Oh, great.",
+      "scene": 11
     },
     {
-      "character": "NATASHA",
-      "text": "Oh, shit."
+      "character": "ANNOUNCER",
+      "text": "...minus two minutes. Retract crew access...",
+      "scene": 11
     },
     {
-      "character": "YELENA",
-      "text": "I know you’re out there."
+      "character": "YELENA BELOVA",
+      "text": "I know you're out there.",
+      "scene": 12
     },
     {
-      "character": "NATASHA",
-      "text": "I know you know I’m out here."
+      "character": "NATASHA ROMANOFF",
+      "text": "NATASHA:I know you know I'm out here.",
+      "scene": 12
     },
     {
-      "character": "YELENA",
-      "text": "Then why are you skulking about like it’s a minefield?"
+      "character": "YELENA BELOVA",
+      "text": "Then why are you skulking about like it's a minefield?",
+      "scene": 12
     },
     {
-      "character": "NATASHA",
-      "text": "‘Cause I don’t know if I can trust you."
+      "character": "NATASHA ROMANOFF",
+      "text": "'Cause I don't know if I can trust you.",
+      "scene": 12
     },
     {
-      "character": "YELENA",
-      "text": "Funny, I was going to say the same thing."
+      "character": "YELENA BELOVA",
+      "text": "Funny, I was going to say the same thing.",
+      "scene": 12
     },
     {
-      "character": "NATASHA",
-      "text": "So, we gonna talk like grown-ups?"
+      "character": "NATASHA ROMANOFF",
+      "text": "So, we gonna talk like grown-ups?",
+      "scene": 12
     },
     {
-      "character": "YELENA",
-      "text": "Is that what we are?"
+      "character": "YELENA BELOVA",
+      "text": "Is that what we are?",
+      "scene": 12
     },
     {
-      "character": "YELENA",
-      "text": "Put it down before I make you."
+      "character": "YELENA BELOVA",
+      "text": "Put it down before I make you.",
+      "scene": 12
     },
     {
-      "character": "NATASHA",
-      "text": "You put yours down."
+      "character": "NATASHA ROMANOFF",
+      "text": "You put yours down.",
+      "scene": 12
     },
     {
-      "character": "NATASHA",
-      "text": "Watch your step."
+      "character": "YELENA BELOVA",
+      "text": "Watch your step.",
+      "scene": 12
     },
     {
-      "character": "NATASHA",
-      "text": "Stay down. Stay down."
+      "character": "NATASHA ROMANOFF",
+      "text": "Stop.",
+      "scene": 13
     },
     {
-      "character": "NATASHA",
-      "text": "Stay down."
+      "character": "NATASHA ROMANOFF",
+      "text": "Truce.",
+      "scene": 13
     },
     {
-      "character": "NATASHA",
-      "text": "Stop."
+      "character": "NATASHA ROMANOFF",
+      "text": "You've grown up.",
+      "scene": 13
     },
     {
-      "character": "YELENA",
-      "text": "Truce"
+      "character": "YELENA BELOVA",
+      "text": "No shit.",
+      "scene": 13
     },
     {
-      "character": "NATASHA",
-      "text": "You’ve grown up."
+      "character": "NATASHA ROMANOFF",
+      "text": "You had to come to Budapest, didn't you?",
+      "scene": 13
     },
     {
-      "character": "YELENA",
-      "text": "No shit."
+      "character": "YELENA BELOVA",
+      "text": "I came here because I thought you wouldn't. But since you're here, what bullet does that?",
+      "scene": 13
     },
     {
-      "character": "NATASHA",
-      "text": "You had to come to Budapest, didn’t you?"
+      "character": "NATASHA ROMANOFF",
+      "text": "Not bullets. Arrows.",
+      "scene": 13
     },
     {
-      "character": "YELENA",
-      "text": "I came here because I thought you wouldn’t. But since you’re here, what bullet does that?"
+      "character": "YELENA BELOVA",
+      "text": "Ah, right.",
+      "scene": 13
     },
     {
-      "character": "NATASHA",
-      "text": "Not bullets. Arrows."
+      "character": "NATASHA ROMANOFF",
+      "text": "If you didn't think I'd come here, why'd you send me this?",
+      "scene": 13
     },
     {
-      "character": "YELENA",
-      "text": "Ah, right."
+      "character": "YELENA BELOVA",
+      "text": "You brought it back here?",
+      "scene": 13
     },
     {
-      "character": "NATASHA",
-      "text": "If you didn’t think I’d come here, why’d you send me this?"
+      "character": "NATASHA ROMANOFF",
+      "text": "I'm not here trying to be your friend, but you need to tell me what that is.",
+      "scene": 13
     },
     {
-      "character": "YELENA",
-      "text": "You brought it back here?"
+      "character": "YELENA BELOVA",
+      "text": "It's a synthetic gas. The counter agent to chemical subjugation. The gas immunizes the brain's neuropathways from external manipulation.",
+      "scene": 13
     },
     {
-      "character": "NATASHA",
-      "text": "I’m not here trying to be your friend, but you need to tell me what that is."
+      "character": "NATASHA ROMANOFF",
+      "text": "Maybe in English next time?",
+      "scene": 13
     },
     {
-      "character": "YELENA",
-      "text": "It’s a synthetic gas. The counteragent to chemical subjugation. The gas immunizes the brain’s neuropathways from external manipulation."
+      "character": "YELENA BELOVA",
+      "text": "It's an antidote to mind control.",
+      "scene": 13
     },
     {
-      "character": "NATASHA",
-      "text": "Maybe in English next time?"
+      "character": "NATASHA ROMANOFF",
+      "text": "Real mature.",
+      "scene": 13
     },
     {
-      "character": "YELENA",
-      "text": "It’s an antidote to mind control."
+      "character": "YELENA BELOVA",
+      "text": "Why don't you take it to one of your super-scientist friends? They can explain it to you. Tony Stark, maybe?",
+      "scene": 13
     },
     {
-      "character": "NATASHA",
-      "text": "Real mature."
+      "character": "NATASHA ROMANOFF",
+      "text": "Oh, yeah. We're not really talking right now, so...",
+      "scene": 13
     },
     {
-      "character": "YELENA",
-      "text": "Why don’t you take it to one of your super-scientist friends? They can explain it to you. Tony Stark, maybe?"
+      "character": "YELENA BELOVA",
+      "text": "Great. Perfect timing. Where's an Avenger when you need one?",
+      "scene": 13
     },
     {
-      "character": "NATASHA",
-      "text": "Oh, yeah. We’re not really talking right now, so…"
+      "character": "NATASHA ROMANOFF",
+      "text": "I don't wanna be here. I'm on the run. You could've gotten me killed.",
+      "scene": 13
     },
     {
-      "character": "YELENA",
-      "text": "Great. Perfect timing. Where’s an Avenger when you need one?"
+      "character": "YELENA BELOVA",
+      "text": "Well, what was I supposed to do? You're the only superhero person that I know.",
+      "scene": 13
     },
     {
-      "character": "NATASHA",
-      "text": "I don’t wanna be here. I’m on the run. You could’ve gotten me killed."
+      "character": "YELENA BELOVA",
+      "text": "That was the whole reason I sent it to you.",
+      "scene": 13
     },
     {
-      "character": "YELENA",
-      "text": "Well, what was I supposed to do? You’re the only superhero person that I know. That was the whole reason I sent it to you."
+      "character": "YELENA BELOVA",
+      "text": "I kept checking the news, expecting to see Captain America bringing down the Red Room.",
+      "scene": 13
     },
     {
-      "character": "YELENA",
-      "text": "I kept checking the news, expecting to see Captain America bringing down the Red Room."
+      "character": "NATASHA ROMANOFF",
+      "text": "What? Taking down the Red Room? What are you talking about? It's been gone for years. Dreykov's dead. I killed him.",
+      "scene": 13
     },
     {
-      "character": "NATASHA",
-      "text": "What? Taking down the Red Room? What are you talking about? It’s been gone for years. Dreykov’s dead. I killed him."
+      "character": "YELENA BELOVA",
+      "text": "You don't actually believe that, do you?",
+      "scene": 13
     },
     {
-      "character": "YELENA",
-      "text": "You don’t actually believe that, do you? You really do believe that."
+      "character": "YELENA BELOVA",
+      "text": "You really do believe that.",
+      "scene": 13
     },
     {
-      "character": "NATASHA",
-      "text": "Dreykov’s dead. It took almost destroying the entire city just to get to him."
+      "character": "NATASHA ROMANOFF",
+      "text": "Dreykov's dead. It took almost destroying the entire city just to get to him.",
+      "scene": 13
     },
     {
-      "character": "YELENA",
-      "text": "If you’re so sure, then tell me what happened. Tell me exactly."
+      "character": "YELENA BELOVA",
+      "text": "If you're so sure, then tell me what happened. Tell me exactly.",
+      "scene": 13
     },
     {
-      "character": "NATASHA",
-      "text": "We rigged bombs."
+      "character": "NATASHA ROMANOFF",
+      "text": "We rigged bombs.",
+      "scene": 13
     },
     {
-      "character": "YELENA",
-      "text": "Who’s “we”?"
+      "character": "YELENA BELOVA",
+      "text": "Who's \"we\"?",
+      "scene": 13
     },
     {
-      "character": "NATASHA",
-      "text": "Clint Barton. Killing Dreykov was the final step in my defection to S.H.I.E.L.D."
+      "character": "NATASHA ROMANOFF",
+      "text": "Clint Barton. Killing Dreykov was the final step in my defection to S.H.I.E.L.D.",
+      "scene": 13
     },
     {
-      "character": "YELENA",
-      "text": "Simple as that?"
+      "character": "YELENA BELOVA",
+      "text": "Simple as that?",
+      "scene": 13
     },
     {
-      "character": "NATASHA",
-      "text": "Yeah, sure, “simple.” That’s what I’d call imploding a five-story building and then shooting it out with the Hungarian Special Forces. Took 10 days in hiding before we could even get out of Budapest."
+      "character": "NATASHA ROMANOFF",
+      "text": "Yeah, sure, \"simple.\" That's what I'd call imploding a five-story building and then shooting it out with the Hungarian Special Forces. Took 10 days in hiding before we could even get out of Budapest.",
+      "scene": 13
     },
     {
-      "character": "YELENA",
-      "text": "And you checked the body? Confirmed the kill?"
+      "character": "YELENA BELOVA",
+      "text": "And you checked the body? Confirmed the kill?",
+      "scene": 13
     },
     {
-      "character": "NATASHA",
-      "text": "There was no body left to check."
+      "character": "NATASHA ROMANOFF",
+      "text": "There was no body left to check.",
+      "scene": 13
     },
     {
-      "character": "YELENA",
-      "text": "You’re forgetting Dreykov’s daughter."
+      "character": "YELENA BELOVA",
+      "text": "You're forgetting Dreykov's daughter.",
+      "scene": 13
     },
     {
-      "character": "NATASHA",
-      "text": "Where are we trying to get?"
+      "character": "WIDOW",
+      "text": "I don't wanna do this.",
+      "scene": 14
     },
     {
-      "character": "YELENA",
-      "text": "Motorbike! East side of the building."
+      "character": "NATASHA ROMANOFF",
+      "text": "What are you doing?",
+      "scene": 14
     },
     {
-      "character": "WIDOW 2",
-      "text": "They’re going east, to the roof."
+      "character": "WIDOW",
+      "text": "He's making me.",
+      "scene": 14
     },
     {
-      "character": "INGRID",
-      "text": "Copy, in pursuit."
+      "character": "YELENA BELOVA",
+      "text": "Do you believe me now?",
+      "scene": 15
     },
     {
-      "character": "INGRID",
-      "text": "I got you!"
+      "character": "NATASHA ROMANOFF",
+      "text": "How many others?",
+      "scene": 15
     },
     {
-      "character": "NATASHA",
-      "text": "No!"
+      "character": "YELENA BELOVA",
+      "text": "Enough.",
+      "scene": 15
     },
     {
-      "character": "NATASHA",
-      "text": "Hey. Don’t move. You’re hurt. Let me help you."
+      "character": "NATASHA ROMANOFF",
+      "text": "Which one's yours?",
+      "scene": 16
     },
     {
-      "character": "INGRID",
-      "text": "I don’t wanna do this."
+      "character": "YELENA BELOVA",
+      "text": "Black. Brown seat. Where are my keys?",
+      "scene": 16
     },
     {
-      "character": "NATASHA",
-      "text": "What are you doing?"
+      "character": "YELENA BELOVA",
+      "text": "...ah, bitch.",
+      "scene": 16
     },
     {
-      "character": "INGRID",
-      "text": "He’s making me."
+      "character": "NATASHA ROMANOFF",
+      "text": "Any day now.",
+      "scene": 16
     },
     {
-      "character": "YELENA",
-      "text": "Do you believe me now?"
+      "character": "NATASHA ROMANOFF",
+      "text": "Are you okay?",
+      "scene": 17
     },
     {
-      "character": "NATASHA",
-      "text": "How many others?"
+      "character": "YELENA BELOVA",
+      "text": "Fantastic. You can't just steal a guy's car.",
+      "scene": 17
     },
     {
-      "character": "YELENA",
-      "text": "Enough."
+      "character": "NATASHA ROMANOFF",
+      "text": "So you want me to chase him down and un-steal it?",
+      "scene": 17
     },
     {
-      "character": "NATASHA",
-      "text": "Which one’s yours?"
+      "character": "YELENA BELOVA",
+      "text": "Okay. Any time now, please.",
+      "scene": 17
     },
     {
-      "character": "YELENA",
-      "text": "Black. Brown seat. Where are my keys?"
+      "character": "NATASHA ROMANOFF",
+      "text": "Shut up.",
+      "scene": 17
     },
     {
-      "character": "NATASHA",
-      "text": "…ah, bitch."
+      "character": "YELENA BELOVA",
+      "text": "Okay, you got a plan, or shall I just stay duck-and-cover?",
+      "scene": 18
     },
     {
-      "character": "YELENA",
-      "text": "Any day now."
+      "character": "NATASHA ROMANOFF",
+      "text": "Yeah, my plan was to drive us away.",
+      "scene": 18
     },
     {
-      "character": "NATASHA",
-      "text": "Hey. Don’t move. You’re hurt. Let me help you."
+      "character": "YELENA BELOVA",
+      "text": "That's a shit plan.",
+      "scene": 18
     },
     {
-      "character": "INGRID",
-      "text": "I don’t wanna do this. (SOBBING)"
+      "character": "NATASHA ROMANOFF",
+      "text": "You okay?",
+      "scene": 19
     },
     {
-      "character": "NATASHA",
-      "text": "What are you doing?"
+      "character": "YELENA BELOVA",
+      "text": "Yeah. Great plan. I love the part where I almost bled to death.",
+      "scene": 19
     },
     {
-      "character": "INGRID",
-      "text": "He’s making me."
+      "character": "YELENA BELOVA",
+      "text": "This is cozy.",
+      "scene": 19
     },
     {
-      "character": "YELENA",
-      "text": "Do you believe me now?"
+      "character": "NATASHA ROMANOFF",
+      "text": "Barton and I spent two days hiding out up here.",
+      "scene": 19
     },
     {
-      "character": "NATASHA",
-      "text": "How many others?"
+      "character": "YELENA BELOVA",
+      "text": "That must have been fun.",
+      "scene": 19
     },
     {
-      "character": "YELENA",
-      "text": "Enough."
+      "character": "NATASHA ROMANOFF",
+      "text": "Who the hell is that guy?",
+      "scene": 19
     },
     {
-      "character": "NATASHA",
-      "text": "Which one’s yours?"
+      "character": "YELENA BELOVA",
+      "text": "Dreykov's special project. He can mimic anyone he's ever seen. It's like fighting a mirror. Dreykov only deploys him for top-priority missions.",
+      "scene": 19
     },
     {
-      "character": "YELENA",
-      "text": "Black. Brown seat. Where are my keys?"
+      "character": "NATASHA ROMANOFF",
+      "text": "This doesn't make any sense.",
+      "scene": 19
     },
     {
-      "character": "NATASHA",
-      "text": "(SPEAKS RUSSIAN) …ah, bitch."
+      "character": "YELENA BELOVA",
+      "text": "Well, the truth rarely makes sense when you omit key details.",
+      "scene": 19
     },
     {
-      "character": "YELENA",
-      "text": "(IN ENGLISH) Any day now."
+      "character": "NATASHA ROMANOFF",
+      "text": "What is that supposed to mean?",
+      "scene": 19
     },
     {
-      "character": "DRIVER",
-      "text": "(SPEAKING HUNGARIAN) Are you ok?"
+      "character": "YELENA BELOVA",
+      "text": "You didn't say one word about Dreykov's daughter. You killed her.",
+      "scene": 19
     },
     {
-      "character": "YELENA",
-      "text": "(SPEAKING HUNGARIAN) Fantastic."
-    },
-    {
-      "character": "NATASHA",
-      "text": "(IN ENGLISH) You can’t just steal a guy’s car."
-    },
-    {
-      "character": "YELENA",
-      "text": "So you want me to chase him down and un-steal it?"
-    },
-    {
-      "character": "YELENA",
-      "text": "Okay. Any time now, please."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Shut up."
-    },
-    {
-      "character": "YELENA",
-      "text": "Okay, you got a plan, or shall I just stay duck-and-cover?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Yeah, my plan was to drive us away."
-    },
-    {
-      "character": "YELENA",
-      "text": "That’s a shit plan."
-    },
-    {
-      "character": "YELENA",
-      "text": "You’re welcome."
-    },
-    {
-      "character": "YELENA",
-      "text": "Oh, shit. He’s back."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Put your seat belt on."
-    },
-    {
-      "character": "YELENA",
-      "text": "You’re such a mom."
-    },
-    {
-      "character": "YELENA",
-      "text": "Natasha, no. I think I’m bleeding. I’m…"
-    },
-    {
-      "character": "NATASHA",
-      "text": "No. Not now, trust me."
-    },
-    {
-      "character": "NATASHA",
-      "text": "You okay?"
-    },
-    {
-      "character": "YELENA",
-      "text": "Yeah. Great plan. I love the part where I almost bled to death. This is cozy."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Barton and I spent two days hiding out up here."
-    },
-    {
-      "character": "YELENA",
-      "text": "That must have been fun."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Who the hell is that guy?"
-    },
-    {
-      "character": "YELENA",
-      "text": "Dreykov’s special project. He can mimic anyone he’s ever seen. It’s like fighting a mirror. Dreykov only deploys him for top-priority missions."
-    },
-    {
-      "character": "NATASHA",
-      "text": "This doesn’t make any sense."
-    },
-    {
-      "character": "YELENA",
-      "text": "Well, the truth rarely makes sense when you omit key details."
-    },
-    {
-      "character": "NATASHA",
-      "text": "What is that supposed to mean?"
-    },
-    {
-      "character": "YELENA",
-      "text": "You didn’t say one word about Dreykov’s daughter. You killed her."
-    },
-    {
-      "character": "NATASHA",
-      "text": "I had to. I needed her to lead me to Dreykov."
+      "character": "NATASHA ROMANOFF",
+      "text": "I had to. I needed her to lead me to Dreykov.",
+      "scene": 19
     },
     {
       "character": "BARTON",
-      "text": "We need confirmation Dreykov’s in the building."
+      "text": "We need confirmation Dreykov's in the building.",
+      "scene": 19
     },
     {
-      "character": "NATASHA",
-      "text": "His car is pulling up now."
+      "character": "NATASHA ROMANOFF",
+      "text": "His car is pulling up now.",
+      "scene": 19
     },
     {
-      "character": "NATASHA",
-      "text": "Dreykov’s daughter was collateral damage. I needed her to be sure."
+      "character": "NATASHA ROMANOFF",
+      "text": "Dreykov's daughter was collateral damage.",
+      "scene": 20
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I needed her to be sure.",
+      "scene": 20
     },
     {
       "character": "BARTON",
-      "text": "Natasha, we clear?"
+      "text": "Natasha, we clear?",
+      "scene": 20
     },
     {
-      "character": "NATASHA",
-      "text": "All clear."
+      "character": "NATASHA ROMANOFF",
+      "text": "All clear.",
+      "scene": 20
     },
     {
-      "character": "YELENA",
-      "text": "And here you are, not so sure."
+      "character": "YELENA BELOVA",
+      "text": "And here you are, not so sure.",
+      "scene": 20
     },
     {
-      "character": "NATASHA",
-      "text": "I needed out."
+      "character": "NATASHA ROMANOFF",
+      "text": "I needed out.",
+      "scene": 20
     },
     {
-      "character": "NATASHA",
-      "text": "The Red Room’s still active. Where is it?"
+      "character": "NATASHA ROMANOFF",
+      "text": "The Red Room's still active. Where is it?",
+      "scene": 21
     },
     {
-      "character": "YELENA",
-      "text": "I have no idea. He moves location constantly. And every widow is sedated on entry and exit for maximum security."
+      "character": "YELENA BELOVA",
+      "text": "I have no idea. He moves location constantly. And every widow is sedated on entry and exit for maximum security.",
+      "scene": 21
     },
     {
-      "character": "NATASHA",
-      "text": "I’m just finding it hard to believe that he could stay off my radar."
+      "character": "NATASHA ROMANOFF",
+      "text": "I'm just finding it hard to believe that he could stay off my radar.",
+      "scene": 21
     },
     {
-      "character": "YELENA",
-      "text": "Well, it’s not smart to attack an Avenger if you want to stay hidden. I mean, the clue is in the name. Dreykov kills you, one of the big ones comes to avenge you."
+      "character": "YELENA BELOVA",
+      "text": "Well, it's not smart to attack an Avenger if you want to stay hidden. I mean, the clue is in the name. Dreykov kills you, one of the big ones comes to avenge you.",
+      "scene": 21
     },
     {
-      "character": "NATASHA",
-      "text": "Wait, what are the big ones?"
+      "character": "NATASHA ROMANOFF",
+      "text": "Wait, what are the big ones?",
+      "scene": 21
     },
     {
-      "character": "YELENA",
-      "text": "Well, I doubt the god from space has to take an ibuprofen after a fight. Where did you think I was all this time?"
+      "character": "YELENA BELOVA",
+      "text": "Well, I doubt the god from space has to take an ibuprofen after a fight.",
+      "scene": 21
     },
     {
-      "character": "NATASHA",
-      "text": "I thought that you got out and were living a normal life."
+      "character": "YELENA BELOVA",
+      "text": "Where did you think I was all this time?",
+      "scene": 21
     },
     {
-      "character": "YELENA",
-      "text": "And you just never made contact again?"
+      "character": "NATASHA ROMANOFF",
+      "text": "I thought that you got out and were living a normal life.",
+      "scene": 21
     },
     {
-      "character": "NATASHA",
-      "text": "Honestly, I thought you didn’t wanna see me."
+      "character": "YELENA BELOVA",
+      "text": "And you just never made contact again?",
+      "scene": 21
     },
     {
-      "character": "YELENA",
-      "text": "Bullshit. You just didn’t want your baby sister to tag along, whilst you saved the world with the cool kids."
+      "character": "NATASHA ROMANOFF",
+      "text": "Honestly, I thought you didn't wanna see me.",
+      "scene": 21
     },
     {
-      "character": "NATASHA",
-      "text": "You weren’t really my sister."
+      "character": "YELENA BELOVA",
+      "text": "Bullshit. You just didn't want your baby sister to tag along, whilst you saved the world with the cool kids.",
+      "scene": 21
     },
     {
-      "character": "YELENA",
-      "text": "And the Avengers aren’t really your family. Why do you always do that thing?"
+      "character": "NATASHA ROMANOFF",
+      "text": "You weren't really my sister.",
+      "scene": 21
     },
     {
-      "character": "NATASHA",
-      "text": "Do what?"
+      "character": "YELENA BELOVA",
+      "text": "And the Avengers aren't really your family. Why do you always do that thing?",
+      "scene": 21
     },
     {
-      "character": "YELENA",
-      "text": "The thing you do when you’re fighting. The… Like, the… This thing that you do when you whip your hair when you’re fighting with the arm and the hair. And you do, like, a fighting pose. (LAUGHS) It’s a… (LAUGHS) It’s a fighting pose. You’re a total poser."
+      "character": "NATASHA ROMANOFF",
+      "text": "Do what?",
+      "scene": 21
     },
     {
-      "character": "NATASHA",
-      "text": "I’m not a poser."
+      "character": "YELENA BELOVA",
+      "text": "The thing you do when you're fighting. The... Like, the... This thing that you do when you whip your hair when you're fighting with the arm and the hair. And you do, like, a fighting pose. It's a... It's a fighting pose. You're a total poser.",
+      "scene": 21
     },
     {
-      "character": "YELENA",
-      "text": "Oh, come on. I mean, they’re great poses, but it does look like you think everyone’s looking at you, like, all the time."
+      "character": "NATASHA ROMANOFF",
+      "text": "I'm not a poser.",
+      "scene": 21
     },
     {
-      "character": "NATASHA",
-      "text": "All that time that I spent posing, I was trying to actually do something good to make up for all the pain and suffering that we caused. Trying to be more than just a trained killer."
+      "character": "YELENA BELOVA",
+      "text": "Oh, come on. I mean, they're great poses, but it does look like you think everyone's looking at you, like, all the time.",
+      "scene": 21
     },
     {
-      "character": "YELENA",
-      "text": "Well, then you were fooling yourself because pain and suffering is every day and we are both still a trained killer. Except I’m not the one that’s on the cover of a magazine. I’m not the killer that little girls call their hero."
+      "character": "NATASHA ROMANOFF",
+      "text": "All that time that I spent posing, I was trying to actually do something good to make up for all the pain and suffering that we caused. Trying to be more than just a trained killer.",
+      "scene": 21
     },
     {
-      "character": "YELENA",
-      "text": "That gas, the counteragent, it was synthesized in secret by an older widow from Melina’s generation. I was on the mission to retrieve it, and she exposed me and I killed the widow that freed me."
+      "character": "YELENA BELOVA",
+      "text": "Well, then you were fooling yourself because pain and suffering is every day and we are both still a trained killer. Except I'm not the one that's on the cover of a magazine. I'm not the killer that little girls call their hero.",
+      "scene": 21
     },
     {
-      "character": "NATASHA",
-      "text": "Did you have a choice?"
+      "character": "YELENA BELOVA",
+      "text": "That gas, the counter agent, it was synthesized in secret by an older widow from Melina's generation. I was on the mission to retrieve it, and she exposed me and I killed the widow that freed me.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "What you experienced was psychological conditioning. I’m talking about chemically altering brain functions. They’re two completely different things. You’re fully conscious, but you don’t know which part is you. I’m still not sure."
+      "character": "NATASHA ROMANOFF",
+      "text": "Did you have a choice?",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "Is that all there is left?"
+      "character": "YELENA BELOVA",
+      "text": "What you experienced was psychological conditioning.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "Mmm-hmm. It’s the only thing that can stop Dreykov and his network of widows."
+      "character": "YELENA BELOVA",
+      "text": "I'm talking about chemically altering brain functions. They're two completely different things. You're fully conscious, but you don't know which part is you. I'm still not sure.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "He takes more every day. Children who don’t have anyone to protect them. Just like us when we were small. Maybe one in 20 survives the training, becomes a widow. The rest, he kills. To him, we are just things. Weapons with no face that he can just throw away. Because there is always more. And no one’s even looking for him, thanks to you and Alexei."
+      "character": "NATASHA ROMANOFF",
+      "text": "Is that all there is left?",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "Alexei?"
+      "character": "YELENA BELOVA",
+      "text": "Mmm-hmm. It's the only thing that can stop Dreykov and his network of widows.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "“Dad.”"
+      "character": "YELENA BELOVA",
+      "text": "He takes more every day. Children who don't have anyone to protect them. Just like us when we were small. Maybe one in 20 survives the training, becomes a widow. The rest, he kills. To him, we are just things. Weapons with no face that he can just throw away. Because there is always more. And no one's even looking for him, thanks to you and Alexei.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "Did you ever look for your parents? Your real ones?"
+      "character": "NATASHA ROMANOFF",
+      "text": "Alexei?",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "Well, my mom abandoned me in the street like garbage. What about you?"
+      "character": "YELENA BELOVA",
+      "text": "\"Dad.\"",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "They destroyed my birth certificate, so I reinvented it. My parents still live in Ohio. My sister moved out west."
+      "character": "YELENA BELOVA",
+      "text": "Did you ever look for your parents? Your real ones?",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "Is that right?"
+      "character": "NATASHA ROMANOFF",
+      "text": "Well, my mom abandoned me in the street like garbage.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "You’re a science teacher. You’re working part-time, though, especially after you had your son. Your husband, he renovates houses."
+      "character": "NATASHA ROMANOFF",
+      "text": "What about you?",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "That is not my story."
+      "character": "YELENA BELOVA",
+      "text": "They destroyed my birth certificate, so I reinvented it. My parents still live in Ohio. My sister moved out west.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "What is your story?"
+      "character": "NATASHA ROMANOFF",
+      "text": "Is that right?",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "I never let myself be alone long enough to think about it."
+      "character": "YELENA BELOVA",
+      "text": "You're a science teacher.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "Did you ever wish for kids? I want a dog."
+      "character": "YELENA BELOVA",
+      "text": "You're working part-time, though, especially after you had your son. Your husband, he renovates houses.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "Where you gonna go?"
+      "character": "NATASHA ROMANOFF",
+      "text": "That is not my story.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "I don’t know. I don’t really have anywhere to go back to, so I guess anywhere."
+      "character": "YELENA BELOVA",
+      "text": "What is your story?",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "Don’t."
+      "character": "NATASHA ROMANOFF",
+      "text": "I never let myself be alone long enough to think about it.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "Don’t what?"
+      "character": "YELENA BELOVA",
+      "text": "Did you ever wish for kids?",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "You’re going to give me some big hero speech, I can feel it."
+      "character": "NATASHA ROMANOFF",
+      "text": "I want a dog.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "Speeches aren’t really my thing."
+      "character": "NATASHA ROMANOFF",
+      "text": "Where you gonna go?",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "Huh."
+      "character": "YELENA BELOVA",
+      "text": "I don't know.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "It was more like an invitation."
+      "character": "YELENA BELOVA",
+      "text": "I don't really have anywhere to go back to, so I guess anywhere.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "To go to the Red Room and kill Dreykov?"
+      "character": "YELENA BELOVA",
+      "text": "Don't.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "Yeah."
+      "character": "NATASHA ROMANOFF",
+      "text": "Don't what?",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "Even though the Red Room is impossible to find and Dreykov is too slippery to kill?"
+      "character": "YELENA BELOVA",
+      "text": "You're going to give me some big hero speech, I can feel it.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "Yeah."
+      "character": "NATASHA ROMANOFF",
+      "text": "Speeches aren't really my thing.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "That sounds like a shitload of work."
+      "character": "YELENA BELOVA",
+      "text": "Huh.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "Yup. (SIGHS) Could be fun, though."
+      "character": "NATASHA ROMANOFF",
+      "text": "It was more like an invitation.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "Yup."
+      "character": "YELENA BELOVA",
+      "text": "To go to the Red Room and kill Dreykov?",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "I saw where he put the keys."
+      "character": "NATASHA ROMANOFF",
+      "text": "Yeah.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "Top drawer, green cabinet."
+      "character": "YELENA BELOVA",
+      "text": "Even though the Red Room is impossible to find and Dreykov is too slippery to kill?",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "You know, this is the first piece of clothing I’ve ever bought for myself."
+      "character": "NATASHA ROMANOFF",
+      "text": "Yeah.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "That?"
+      "character": "YELENA BELOVA",
+      "text": "That sounds like a shitload of work.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "Yeah. You don’t like it?"
+      "character": "NATASHA ROMANOFF",
+      "text": "Yup.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "Is that like a… Is it army surplus, or…"
+      "character": "NATASHA ROMANOFF",
+      "text": "Could be fun, though.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "Okay, it has a lot of pockets."
+      "character": "YELENA BELOVA",
+      "text": "Yup.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "But I use them all the time, and I made some of my own modifications. (SCOFFS)"
+      "character": "NATASHA ROMANOFF",
+      "text": "I saw where he put the keys.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "Oh, yeah? (LAUGHS)"
+      "character": "YELENA BELOVA",
+      "text": "Top drawer, green cabinet.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "Whatever. Shut up. The point is, I’ve never… I’ve never had control over my own life before, and now I do. I want to do things."
+      "character": "YELENA BELOVA",
+      "text": "You know, this is the first piece of clothing I've ever bought for myself.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "Hmm… I like your vest."
+      "character": "NATASHA ROMANOFF",
+      "text": "That?",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "I knew it. I knew you did. It’s so cool, right?"
+      "character": "YELENA BELOVA",
+      "text": "Yeah. You don't like it?",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "It’s good. Yes. I like it."
+      "character": "NATASHA ROMANOFF",
+      "text": "Is that like a... Is it army surplus, or...",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "And you can put so much stuff in there. You wouldn’t even know. I really don’t know where the Red Room is, though. I’m sorry."
+      "character": "YELENA BELOVA",
+      "text": "Okay, it has a lot of pockets. But I use them all the time, and I made some of my own modifications.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "I know. But I think I know somebody who does."
+      "character": "NATASHA ROMANOFF",
+      "text": "Oh, yeah?",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "Oh, yeah? Who?"
+      "character": "NATASHA ROMANOFF",
+      "text": "Whatever.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "We’re gonna need a jet."
+      "character": "YELENA BELOVA",
+      "text": "Shut up. The point is, I've never... I've never had control over my own life before, and now I do. I want to do things.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "I said we needed a jet."
+      "character": "NATASHA ROMANOFF",
+      "text": "Hmm... I like your vest.",
+      "scene": 22
     },
     {
-      "character": "RICK MASON",
-      "text": "Yeah, you know what you didn’t give me? Time. Or money. I’m not made of jets."
+      "character": "YELENA BELOVA",
+      "text": "I knew it. I knew you did. It's so cool, right?",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "I thought you were supposed to be the best. Like a real pro."
+      "character": "NATASHA ROMANOFF",
+      "text": "It's good. Yes. I like it.",
+      "scene": 22
     },
     {
-      "character": "RICK MASON",
-      "text": "Oh, I beg your pardon, tsarina. Was the free flat and lifetime supply of kissel not to your liking?"
+      "character": "YELENA BELOVA",
+      "text": "And you can put so much stuff in there. You wouldn't even know.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "Ha!"
+      "character": "YELENA BELOVA",
+      "text": "I really don't know where the Red Room is, though. I'm sorry.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "Don’t let her wind you up."
+      "character": "NATASHA ROMANOFF",
+      "text": "I know. But I think I know somebody who does.",
+      "scene": 22
     },
     {
-      "character": "RICK MASON",
-      "text": "No, I take exception to impugning my professionalism."
+      "character": "YELENA BELOVA",
+      "text": "Oh, yeah? Who?",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "Well, you did set me up with a generator that crapped out after six hours."
+      "character": "NATASHA ROMANOFF",
+      "text": "We're gonna need a jet.",
+      "scene": 22
     },
     {
-      "character": "RICK MASON",
-      "text": "You, too, huh? Tag team."
+      "character": "NATASHA ROMANOFF",
+      "text": "I said we needed a jet.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "Aw, he’s sensitive. See why you keep him around."
+      "character": "MASON",
+      "text": "Yeah, you know what you didn't give me? Time. Or money. I'm not made of jets.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "Where’s the rest?"
+      "character": "YELENA BELOVA",
+      "text": "I thought you were supposed to be the best. Like a real pro.",
+      "scene": 22
     },
     {
-      "character": "RICK MASON",
-      "text": "Voilà."
+      "character": "MASON",
+      "text": "Oh, I beg your pardon, tsarina. Was the free flat and lifetime supply of kissel not to your liking?",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "Ooh."
+      "character": "YELENA BELOVA",
+      "text": "Ha!",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "Oh, I stashed that, like, five years ago."
+      "character": "NATASHA ROMANOFF",
+      "text": "Don't let her wind you up.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "How is it?"
+      "character": "MASON",
+      "text": "No, I take exception to impugning my professionalism.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "It’s dry. It’s really dry."
+      "character": "NATASHA ROMANOFF",
+      "text": "Well, you did set me up with a generator that crapped out after six hours.",
+      "scene": 22
     },
     {
-      "character": "RICK MASON",
-      "text": "You know, you’re getting dangerously close to running out your tab. Supplies I can tally, but you bring me attention from the authorities, all my prices go up."
+      "character": "MASON",
+      "text": "You, too, huh? Tag team.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "What’s that supposed to mean?"
+      "character": "YELENA BELOVA",
+      "text": "Aw, he's sensitive. See why you keep him around.",
+      "scene": 22
     },
     {
-      "character": "RICK MASON",
-      "text": "Your mate, Secretary Ross, has been sniffing around my affairs to the point at which I’ve got contacts declining my calls. I’m a private contractor."
+      "character": "NATASHA ROMANOFF",
+      "text": "Where's the rest?",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "You are sensitive."
+      "character": "MASON",
+      "text": "Voilà.",
+      "scene": 22
     },
     {
-      "character": "RICK MASON",
-      "text": "You’re a very annoying individual."
+      "character": "YELENA BELOVA",
+      "text": "Ooh.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "I’ll make it up to you."
+      "character": "MASON",
+      "text": "Oh, I stashed that, like, five years ago.",
+      "scene": 22
     },
     {
-      "character": "RICK MASON",
-      "text": "Mmm-hmm. That’s what you say every time."
+      "character": "NATASHA ROMANOFF",
+      "text": "How is it?",
+      "scene": 22
     },
     {
-      "character": "ALEXEI",
-      "text": "So, I have the nuclear code."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "But there he is."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Captain America!"
-    },
-    {
-      "character": "INMATES",
-      "text": "America."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Finally, the Red Guardian’s time has come!"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "I grab hold of his shield and face to face, it’s a test of strength."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Oh… Oh, no."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Oh…"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "That guy think he going to beat me."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Anyway, this shield, you know, that he carries with him like a precious baby blanket, you know?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "I use it to my advantage. I take it and I push him out the window."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "And I make my escape. Huh?"
-    },
-    {
-      "character": "PRISONER 1",
-      "text": "What year was this?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "I don’t know. Like, ’83, ’84."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "I know."
-    },
-    {
-      "character": "PRISONER 1",
-      "text": "Captain America was still frozen in ice then."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Are you calling me a liar, Ursa, huh?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Oh, no."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Uh-oh."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Aw, look at the big bear."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Gonna cry, little girl?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Today is your lucky day, Alexei."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Move to the door on the south wall."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Go left."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Just don’t make a scene."
-    },
-    {
-      "character": "NATASHA",
-      "text": "You made a scene, didn’t you?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "What now?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "We’re gettin’ you outta here."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Go to the upper level."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Move your ass, super soldier."
-    },
-    {
-      "character": "YELENA",
-      "text": "He’s never going to make it."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Get me closer."
-    },
-    {
-      "character": "NATASHA",
-      "text": "You got a better idea?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Natasha."
-    },
-    {
-      "character": "YELENA",
-      "text": "Such a poser."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Seriously?"
-    },
-    {
-      "character": "YELENA",
-      "text": "Whoo!"
-    },
-    {
-      "character": "YELENA",
-      "text": "Sorry!"
-    },
-    {
-      "character": "NATASHA",
-      "text": "What are you doing? Are you kidding me?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Back up!"
-    },
-    {
-      "character": "YELENA",
-      "text": "We’re both doing a really good job."
-    },
-    {
-      "character": "YELENA",
-      "text": "No."
-    },
-    {
-      "character": "YELENA",
-      "text": "Okay. Enough of this."
-    },
-    {
-      "character": "YELENA",
-      "text": "Ha!"
-    },
-    {
-      "character": "YELENA",
-      "text": "Whoa…"
-    },
-    {
-      "character": "YELENA",
-      "text": "This would be a cool way to die."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Tell me that’s a good sign for us!"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Move your ass!"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Get us outta here!"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Huh."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Wait!"
-    },
-    {
-      "character": "YELENA",
-      "text": "Yes!"
-    },
-    {
-      "character": "YELENA",
-      "text": "I need some help up here!"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Goodbye, douchebags!"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Oh, that was exciting."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Oh, I’m so proud of you girls."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Oh, you can’t hear me, huh?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Okay."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Ah…"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Wow."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Okay."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Why the aggression, huh?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Is it your time of the month?"
-    },
-    {
-      "character": "YELENA",
-      "text": "I don’t get my period, dipshit. I don’t have a uterus."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Or ovaries."
-    },
-    {
-      "character": "YELENA",
-      "text": "Yeah. That’s what happens when the Red Room gives you an involuntary hysterectomy."
-    },
-    {
-      "character": "YELENA",
-      "text": "They kind of just go in and they rip out all of your reproductive organs."
-    },
-    {
-      "character": "YELENA",
-      "text": "They just get right in there and they chop them all away."
-    },
-    {
-      "character": "YELENA",
-      "text": "Everything out, so you can’t have babies."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Okay, okay. Okay! Okay!"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "You don’t have to get so clinical and nasty."
-    },
-    {
-      "character": "YELENA",
-      "text": "Oh, well, I was about to talk about fallopian tubes, but okay."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "No."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "It means so much to me that you came back for me."
-    },
-    {
-      "character": "NATASHA",
-      "text": "No. No. You’re gonna tell us how to get to the Red Room."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Huh."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Whoa, look at you, huh? All business."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Trust me, this isn’t pleasure."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Little Natasha, all indoctrinated into the Western agenda."
-    },
-    {
-      "character": "NATASHA",
-      "text": "I chose to go west to become an Avenger."
-    },
-    {
-      "character": "NATASHA",
-      "text": "‘Cause they treated me like family."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Really? Family?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Well, where are they now?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Where is that family now?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Tell me where the Red Room is."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "I have no idea."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Okay?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Come on. You and Dreykov were like…"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Dreykov?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Yeah."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "General Dreykov, my friend, huh?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Gives me glory…"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Soviet Union’s first and only super soldier. I could have been more famous than Captain America. Then he buries me in Ohio on that stupid mission. Three years! So tedious, boring me to tears. No offense, huh? Then puts me in prison for the rest of my life. Why, huh? Why? Why would he put me in… You know why? ‘Cause maybe I want to talk about the withering of the state. Or maybe I don’t like his hair or something and I say something casually about that. Maybe, you know, I want the Party to feel actually like a party instead of this sourpuss organization. But instead, no. He puts me in prison for the rest of my life. He just runs off and hides, huh? I’m not even the one who, uh, you know… I’m not the one who killed his daughter."
-    },
-    {
-      "character": "YELENA",
-      "text": "Great!"
-    },
-    {
-      "character": "YELENA",
-      "text": "Can we throw him out the window now?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "I think we should wait till we get to a higher altitude."
-    },
-    {
-      "character": "YELENA",
-      "text": "All right."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Why not ask Melina where it is?"
-    },
-    {
-      "character": "YELENA",
-      "text": "Wait, Mom Melina?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "We thought she was dead."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "You cannot kill a fox that swift."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Ew."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "What?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "She was the scientist, the strategist. I was the muscle. She worked directly for Dreykov far more than I ever did."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Wait. Are you telling me that Melina is working for the Red Room present day?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "She works remotely outside St. Petersburg."
-    },
-    {
-      "character": "YELENA",
-      "text": "Uh…"
-    },
-    {
-      "character": "YELENA",
-      "text": "I don’t think we have enough fuel for St. Petersburg."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "No, we’re good. We’ll make it."
-    },
-    {
-      "character": "YELENA",
-      "text": "Okay."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "You should’ve brought the Avengers’ superjet."
-    },
-    {
-      "character": "YELENA",
-      "text": "I swear, if I hear one more word from him, I will kick him in the face."
-    },
-    {
-      "character": "NATASHA",
-      "text": "He’s the worst."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Natasha. Natasha. Natasha. Come here, I want to ask you something. Come, it’s important."
-    },
-    {
-      "character": "NATASHA",
-      "text": "What?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Did he talk to you about me?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "What?"
-    },
-    {
-      "character": "YELENA",
-      "text": "Uh…"
-    },
-    {
-      "character": "YELENA",
-      "text": "I don’t think we have enough fuel for St. Petersburg."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "No, we’re good. We’ll make it."
-    },
-    {
-      "character": "YELENA",
-      "text": "Okay."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "You should’ve brought the Avengers’ superjet."
-    },
-    {
-      "character": "YELENA",
-      "text": "I swear, if I hear one more word from him, I will kick him in the face."
-    },
-    {
-      "character": "NATASHA",
-      "text": "He’s the worst."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Natasha. Natasha. Natasha. Come here, I want to ask you something. Come, it’s important."
-    },
-    {
-      "character": "NATASHA",
-      "text": "What?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Did he talk to you about me?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "What?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Did he talk to you about me? You know, trading war stories?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Who? What are you talking about?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Captain America. My great adversary in this theater of geopolitical conflict. Not so much a nemesis. More like a contemporary, you know? Coequal. I always thought there was a great deal of mutual respect…"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Wait. You haven’t seen either one of us in 20 years and you’re gonna ask me about you?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "What is with this tension? Did I do something wrong?"
-    },
-    {
-      "character": "YELENA",
-      "text": "Is that a serious question?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "I only ever loved you girls. I did my best to make sure you would succeed to achieve your fullest potential, and everything worked out."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Everything worked out?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Yes. For you, yes. We accomplished our mission in Ohio. Yelena, you went on to become the greatest child assassin the world has ever known. No one can match your efficiency, your ruthlessness. And Natasha, not just a spy, not just toppling regimes, destroying empires from within, but an Avenger. You both have killed so many people. Your ledgers must be dripping, just gushing red. I couldn’t be more proud of you."
-    },
-    {
-      "character": "YELENA",
-      "text": "Okay. You can… No. Let go of me now. You smell really bad."
-    },
-    {
-      "character": "YELENA",
-      "text": "So, are we there yet?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "You’ll know when we’re there."
-    },
-    {
-      "character": "MELINA",
-      "text": "Slight right. Straight on. Right. Slight right. Oh, very good, my darling."
-    },
-    {
-      "character": "MELINA",
-      "text": "Yes, very good. Yes, very good, my darling."
-    },
-    {
-      "character": "MELINA",
-      "text": "Back home where it’s safe. Come on. Go on."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Honey, we’re home. Come on, girls."
-    },
-    {
-      "character": "MELINA",
-      "text": "Welcome to my humble abode. Make yourself at home. Let’s have a drink."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Hey, no funny business."
-    },
-    {
-      "character": "MELINA",
-      "text": "I am putting away my weapon."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Are there any booby traps around here? Anything we need to know about?"
-    },
-    {
-      "character": "MELINA",
-      "text": "I didn’t raise my girls to fall in traps."
-    },
-    {
-      "character": "NATASHA",
-      "text": "You didn’t raise us at all."
-    },
-    {
-      "character": "MELINA",
-      "text": "Oh, maybe so. But if you got soft, it wasn’t on my watch."
-    },
-    {
-      "character": "MELINA",
-      "text": "Let’s drink."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Okay."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Still fits."
-    },
-    {
-      "character": "YELENA",
-      "text": "Oh, my God."
-    },
-    {
-      "character": "MELINA",
-      "text": "I never washed it once. Come and drink."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Rise, you workers of salvation. Family back together again. Mmm."
-    },
-    {
-      "character": "MELINA",
-      "text": "Seeing as our family construct was just a calculated ruse that only lasted three years, I don’t think that we can use this term anymore, can we?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Agreed. So, here’s what’s gonna happen…"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Okay. A reunion then, huh? And, uh… I want to say something right off the bat. You haven’t aged a day, huh? You’re just as beautiful and as supple as the day they staged our marriage."
-    },
-    {
-      "character": "MELINA",
-      "text": "You got fat. But still good."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "I just got out of prison. I, uh… I have a lot of energy."
-    },
-    {
-      "character": "MELINA",
-      "text": "Oh!"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Please don’t do that. So, here’s what’s gonna happen."
-    },
-    {
-      "character": "MELINA",
-      "text": "Natasha, don’t slouch."
-    },
-    {
-      "character": "NATASHA",
-      "text": "I’m not slouching."
-    },
-    {
-      "character": "MELINA",
-      "text": "Yes, yes, you are."
-    },
-    {
-      "character": "NATASHA",
-      "text": "I don’t slouch."
-    },
-    {
-      "character": "MELINA",
-      "text": "You’re going to get a back hunch."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Listen to your mother."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Oh, my God, this…"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Up, up."
-    },
-    {
-      "character": "NATASHA",
-      "text": "All right, enough. All of you."
-    },
-    {
-      "character": "YELENA",
-      "text": "I didn’t say anything. That’s not fair."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Here’s what’s gonna happen…"
-    },
-    {
-      "character": "YELENA",
-      "text": "I don’t want any food."
-    },
-    {
-      "character": "MELINA",
-      "text": "Eat a little something, Yelena, for God’s sake."
-    },
-    {
-      "character": "NATASHA",
-      "text": "You’re gonna tell us the location of the Red Room."
-    },
-    {
-      "character": "MELINA",
-      "text": "You know, it’s like when you told them that they could stay up late to catch Santa Claus."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "What? That was fun. You know, “He come down the chimney, girls. Look out. Where is he?” You wait for him, and then when the cookies are gone, then you see he’s there. No, no. What? I want them to follow their dreams."
-    },
-    {
-      "character": "MELINA",
-      "text": "No good."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Reach for the stars, girls."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Finding Dreykov is not a fantasy. It’s unfinished business."
-    },
-    {
-      "character": "MELINA",
-      "text": "You can’t defeat a man who commands the very will of others. You never saw the culmination of what we started in America. Nor did you."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Natasha, always focus, focus. Get what you want."
-    },
-    {
-      "character": "MELINA",
-      "text": "Come in."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Did that pig just open the door?"
-    },
-    {
-      "character": "MELINA",
-      "text": "Yes. It did. Good boy, Alexei. Good boy."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "You named a pig after me?"
-    },
-    {
-      "character": "MELINA",
-      "text": "You don’t see the resemblance? See, he sits just like dog. Amazing. Now, watch."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "It’s a little weird, to me."
-    },
-    {
-      "character": "MELINA",
-      "text": "Stop breathing."
-    },
-    {
-      "character": "MELINA",
-      "text": "We infiltrated the North Institute in Ohio. It was a front for S.H.I.E.L.D. scientists. Actually, it was Hydra scientists at that time. In conjunction with the Winter Soldier project, they had dissected and deconstructed the human brain to create the first and only cellular blueprint of the basal ganglia. Was the hub for cognition. Voluntary motor movement, procedural learning. We didn’t steal weaponry or technology. We stole the key to unlocking free will."
-    },
-    {
-      "character": "NATASHA",
-      "text": "What are you doing?"
-    },
-    {
-      "character": "MELINA",
-      "text": "Oh, I am explaining that the science is now so exact, the subject can be instructed to stop breathing and has no choice but to obey."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Okay, you made your point. That’s enough."
-    },
-    {
-      "character": "MELINA",
-      "text": "Yes, all right. Well, don’t worry, Alexei could’ve survived 11 more seconds without oxygen. Good boy. Now, you go back, back home where it’s safe."
-    },
-    {
-      "character": "MELINA",
-      "text": "You go. You go back home, back home where it’s safe. Good boy, Alexei. The world functions on a higher level when it is controlled. Dreykov has chemically subjugated agents planted around the globe."
-    },
-    {
-      "character": "YELENA",
-      "text": "And do you know who they test it on?"
-    },
-    {
-      "character": "MELINA",
-      "text": "Hmm… No. That’s not my department."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Ah, come on, come on. Don’t lie to them. Hmm?"
-    },
-    {
-      "character": "MELINA",
-      "text": "I’m not lying."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "You’re Dreykov’s architect, huh?"
-    },
-    {
-      "character": "MELINA",
-      "text": "What were you? If I was his architect, you were his partner. You were his business partner."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "No, no, no. I was patsy!"
-    },
-    {
-      "character": "MELINA",
-      "text": "Don’t give me that…"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "He sell me ideology."
-    },
-    {
-      "character": "MELINA",
-      "text": "Stop with the politics."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "All the while, bigger…"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Shut up! You are an idiot. And you’re a coward. You’re a coward. And our family was never real, so there’s nothing to hold on to. We’re moving on."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Never family, huh? In my heart, I am simple man. And I think that for a couple deep undercover Russian agents I think we did pretty great as parents, huh? Yes, we had our orders, and we played our roles to perfection."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Who cares? That wasn’t real."
-    },
-    {
-      "character": "YELENA",
-      "text": "What?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "That wasn’t real. Who cares?"
-    },
-    {
-      "character": "YELENA",
-      "text": "Don’t say that. Please don’t say that. It was real. It was real to me. You are my mother. You were my real mother. The closest thing I ever had to one. The best part of my life was fake."
-    },
-    {
-      "character": "YELENA",
-      "text": "And none of you told me."
-    },
-    {
-      "character": "YELENA",
-      "text": "And those agents you chemically subjugated around the globe? That was me. Mmm. And you, you got out. Dreykov made sure no one could escape. Are you gonna say anything? No. Don’t touch me."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Yelena."
-    },
-    {
-      "character": "YELENA",
-      "text": "No."
-    },
-    {
-      "character": "MELINA",
-      "text": "I had no idea."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "It’s okay, it’s okay. I’ll go talk to her."
-    },
-    {
-      "character": "YELENA",
-      "text": "I came in here because I didn’t want to talk."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Okay. We, uh… We just sit. We just sit."
-    },
-    {
-      "character": "MELINA",
-      "text": "Where are you going?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "To do this myself."
-    },
-    {
-      "character": "MELINA",
-      "text": "Don’t. You won’t survive."
-    },
-    {
-      "character": "NATASHA",
-      "text": "I wish I could believe that you cared. But you’re not even the first mother that abandoned me."
-    },
-    {
-      "character": "MELINA",
-      "text": "No, you weren’t abandoned. You were selected by a program that assessed the genetic potential in infants."
-    },
-    {
-      "character": "NATASHA",
-      "text": "I was taken?"
-    },
-    {
-      "character": "MELINA",
-      "text": "I believe a bargain was struck, your family paid off. But your mother, she never stopped looking for you. She was like you in that way. She was relentless."
-    },
-    {
-      "character": "NATASHA",
-      "text": "What happened to her?"
-    },
-    {
-      "character": "MELINA",
-      "text": "Dreykov had her killed. Her existence threatened to uncover the Red Room. Normally, the actions of one curious civilian wouldn’t warrant an execution, but, as I said, she was relentless."
-    },
-    {
-      "character": "NATASHA",
-      "text": "I thought about her every day of my life. Whether or not I admitted it to myself, I did."
-    },
-    {
-      "character": "MELINA",
-      "text": "I’ve always found it best not to look into the past."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Then why did you save this? I remember this day. We shot Christmas, Thanksgiving, Easter and summer vacation all in one day. Different backdrops."
-    },
-    {
-      "character": "MELINA",
-      "text": "Mmm."
-    },
-    {
-      "character": "NATASHA",
-      "text": "I knew all the presents under the tree were just empty boxes, but I didn’t care. I wanted to open every single one… so just for a second it would feel real."
-    },
-    {
-      "character": "MELINA",
-      "text": "Let’s stop this."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Why you doing this?"
-    },
-    {
-      "character": "MELINA",
-      "text": "Why does a mouse born in a cage run on that little wheel? Do you know I was cycled through the Red Room four times before you were even born? Those walls are all I know. I was never given a choice."
-    },
-    {
-      "character": "NATASHA",
-      "text": "But you’re not a mouse, Melina. You were just born in a cage, but that’s not your fault."
-    },
-    {
-      "character": "MELINA",
-      "text": "Tell me, how did you keep your heart?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Pain only makes us stronger. Didn’t you tell us that? What you taught me kept me alive."
-    },
-    {
-      "character": "MELINA",
-      "text": "I’m sorry, I already alerted the Red Room. They’ll be here any minute."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "So, there I am ice fishing with my father. It’s very cold day in this little ice shed. Cold even for Russia, you know? “Keep the vodka by the fire,” my father would say to me."
-    },
-    {
-      "character": "YELENA",
-      "text": "Please stop talking."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Please wait. Please wait."
-    },
-    {
-      "character": "YELENA",
-      "text": "Please, no. Please, I don’t want to talk."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Please. Please. There is a reason why I’m telling you this, okay? Trust me. I am reaching for fish. Oh! I lose balance. Ah! Splash! My hands go in the river."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "In this weather, frostbite sets in quick. My father, he go toilet on my hands."
-    },
-    {
-      "character": "YELENA",
-      "text": "Oh, my God."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Urine is 35 degrees Celsius, staves off the frostbite."
-    },
-    {
-      "character": "YELENA",
-      "text": "How is this relevant?"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "You know, fathers."
-    },
-    {
-      "character": "YELENA",
-      "text": "No. No. You have done nothing but tell me how bored you were. I was the chore, the job you didn’t want to do. To me? To me, you were everything. Exactly. You don’t care. You don’t care. The only thing you care about are your stupid glory days as the Crimson Dynamo, and no one wants to hear about it."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "It’s the Red Guardian."
-    },
-    {
-      "character": "YELENA",
-      "text": "Get out. Get out!"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "I can’t remember if I cried. When I read about his widowed bride. Something touched me deep inside. The day. The music. Died. And they were singing"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Bye"
-    },
-    {
-      "character": "YELENA",
-      "text": "Bye"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Miss American Pie"
-    },
-    {
-      "character": "YELENA",
-      "text": "American Pie"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Drove my Chevy to the levee. But the levee was dry"
-    },
-    {
-      "character": "YELENA",
-      "text": "Was dry"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Them good old boys. Drinking whiskey. Singing"
-    },
-    {
-      "character": "ALEXEI AND YELENA BOTH",
-      "text": "“This will be the day that I die”. “This’ll be the day…”"
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Get down."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "They think…"
-    },
-    {
-      "character": "MELINA",
-      "text": "I’m sorry."
-    },
-    {
-      "character": "MELINA",
-      "text": "Let’s not keep him waiting."
-    },
-    {
-      "character": "MELINA",
-      "text": "Request clearance for landing."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Melina?"
-    },
-    {
-      "character": "MELINA",
-      "text": "We’re touching down in one minute."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Then why are we still going up?"
-    },
-    {
-      "character": "MELINA",
-      "text": "Now you’ll know how Dreykov stayed above the radar all these years."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "My God. Look at you. So, uh, how was the family reunion? Oh, it was awful."
-    },
-    {
-      "character": "NATASHA",
-      "text": "They were clingy, and too emotional, and needy."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Just like old times, huh?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Hmm."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Yelena Belova. What’s the deal with her? She was the only one affected, right?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "As far as I know, yes."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "These gasses and antidotes, it’s a pain in my ass. It’s a problem. You need to sort it."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Hmm. I have nine pigs that will require attending to in my absence."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Don’t give a shit about your pigs. Cut her brain out… Hmm? Identify the weakness."
-    },
-    {
-      "character": "YELENA",
-      "text": "This is a much less cool way to die."
-    },
-    {
-      "character": "MELINA",
-      "text": "Alexei."
-    },
-    {
-      "character": "NATASHA",
-      "text": "What about Romanoff?"
-    },
-    {
-      "character": "DREYKOV",
-      "text": "She’s a traitor. She turned her back on her people. On her blood. She had nothing. I gave her home. I gave her love. Put that thing in her you do. You know, uh, chemicals. Turn her into one of your pigs. Can you imagine what I could do with an Avenger under my control?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Wouldn’t you like to speak to her first?"
-    },
-    {
-      "character": "DREYKOV",
-      "text": "When you look into the eyes of a child you have raised, no mask in the world can hide that."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Welcome home. Now, now. Don’t go breaking my new toy."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Natasha. I can’t save us. I need you to know that I’m sorry."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "I pledged my life to a cause. You know, I thought I was being very brave. Possibly the bravest. But I wasn’t being brave. I was coward. In Cuba, when they came and took you away from me… No cause is worth that. You should only sacrifice yourself for something… How did you do that?"
-    },
-    {
-      "character": "MELINA",
-      "text": "I designed these cells myself."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "What? What? I bared my soul to you and it was just you the whole time?"
-    },
-    {
-      "character": "MELINA",
-      "text": "Yes, I’m afraid so. But wait, shh, I’m on comms with Yelena. Yelena, it’s me. It’s Mama. You have a two-inch blade concealed in your beltline."
-    },
-    {
-      "character": "YELENA",
-      "text": "What? What are you going to do to me?"
-    },
-    {
-      "character": "MELINA",
-      "text": "Outside right hip."
-    },
-    {
-      "character": "YELENA",
-      "text": "You couldn’t have told me sooner?"
-    },
-    {
-      "character": "MELINA",
-      "text": "Don’t throw a fit. There wasn’t time."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Okay, girls, I’m having trouble hearing you, but, Natasha, there’s something I need you to know. I need you to know that I’m sorry. No more excuses, okay? I gave my life for a cause. I thought I was being brave."
-    },
-    {
-      "character": "MELINA",
-      "text": "You don’t have earpiece."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "What?"
-    },
-    {
-      "character": "MELINA",
-      "text": "No, she can’t hear you. You don’t have earpiece."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Why not?"
-    },
-    {
-      "character": "MELINA",
-      "text": "Because it wasn’t part of the plan."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Oh, yeah? Well, what was the plan?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "So, once we’re inside, I’ll activate my tracker and Ross will come running."
-    },
-    {
-      "character": "MELINA",
-      "text": "You are aware that you are still a global fugitive, yes?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "You know the facility. There must be some way to land it."
-    },
-    {
-      "character": "MELINA",
-      "text": "Instruct them to confine us on level zero. Once I’m out, I can activate the landing protocol, we can descend within the hour. Ah, problem. I only have one earpiece set."
-    },
-    {
-      "character": "NATASHA",
-      "text": "I’ll give it to Yelena."
-    },
-    {
-      "character": "YELENA",
-      "text": "Where did he take the vials?"
-    },
-    {
-      "character": "MELINA",
-      "text": "Probably down to cold storage. Dreykov still has the widows under his control, so you have to expose them to this antidote."
-    },
-    {
-      "character": "YELENA",
-      "text": "Yeah. Sure. Easy."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Is this your plan?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "My plan is to kill you."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "I’m alive. So, what do we do now?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "What was my mother’s name?"
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Ah… Where we buried her, there was a tree… Um… A pink blossom. Beautiful. And there was a tombstone with her name engraved on it. What was her name? Ah. “Unknown."
+      "character": "YELENA BELOVA",
+      "text": "It's dry. It's really dry.",
+      "scene": 22
     },
     {
-      "character": "MELINA",
-      "text": "Probably down to cold storage. Dreykov still has the widows under his control, so you have to expose them to this antidote."
+      "character": "MASON",
+      "text": "You know, you're getting dangerously close to running out your tab. Supplies I can tally, but you bring me attention from the authorities, all my prices go up.",
+      "scene": 22
     },
     {
-      "character": "YELENA",
-      "text": "Yeah. Sure. Easy."
+      "character": "NATASHA ROMANOFF",
+      "text": "What's that supposed to mean?",
+      "scene": 22
     },
     {
-      "character": "DREYKOV",
-      "text": "Is this your plan?"
+      "character": "MASON",
+      "text": "Your mate, Secretary Ross, has been sniffing around my affairs to the point at which I've got contacts declining my calls. I'm a private contractor.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "My plan is to kill you."
+      "character": "NATASHA ROMANOFF",
+      "text": "You are sensitive.",
+      "scene": 22
     },
     {
-      "character": "DREYKOV",
-      "text": "I’m alive. So, what do we do now?"
+      "character": "MASON",
+      "text": "You're a very annoying individual.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "What was my mother’s name?"
+      "character": "NATASHA ROMANOFF",
+      "text": "I'll make it up to you.",
+      "scene": 22
     },
     {
-      "character": "DREYKOV",
-      "text": "Ah… Where we buried her, there was a tree… Um… A pink blossom. Beautiful. And there was a tombstone with her name engraved on it. What was her name? Ah. (CHUCKLES) “Unknown.”"
+      "character": "MASON",
+      "text": "Mmm-hmm. That's what you say every time.",
+      "scene": 22
     },
     {
-      "character": "NATASHA",
-      "text": "You don’t feel anything? You feel anything when I killed your daughter?"
-    },
-    {
-      "character": "DREYKOV",
-      "text": "I s this your haunted past? Really? (LAUGHING) Thank you, Natasha. You gave me my greatest weapon. Say hello. When your bomb exploded, it nearly killed my Antonia. I had to put a chip in the back of her neck. In the back of her neck. Look at her. You find it difficult to look at her? I do. She… She watches everything and she can do it. She’s a perfect mimic. And she fights just like all of your friends."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Can she hear me?"
-    },
-    {
-      "character": "DREYKOV",
-      "text": "What? You want to make her feel better? You want to tell her you’re sorry? Well, you should have thought of that before you blew her face off. But enough of all this bullshit. Go to work. I have rats in the basement. Go. Go."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Well, that was a mistake."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Was it?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "You just sent away the one thing that would stop me from killing you."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Try, then. Do it."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Is the safety on?"
-    },
-    {
-      "character": "DREYKOV",
-      "text": "No. Try your knife."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Ah…"
-    },
-    {
-      "character": "DREYKOV",
-      "text": "You’re in trouble."
-    },
-    {
-      "character": "NATASHA",
-      "text": "How are you controlling me?"
-    },
-    {
-      "character": "DREYKOV",
-      "text": "I’m not controlling you, Natasha. Well, not yet. But there is a pheromonal lock. Smelling my pheromones prevents you from committing violence against me. I’m very upset with Melina. It’s a shame I have to kill her."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "Come on, now. If we’re just going to press buttons and hack computers…"
-    },
-    {
-      "character": "MELINA",
-      "text": "Yes."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "I mean, I don’t know."
-    },
-    {
-      "character": "ALEXEI",
-      "text": "There’s nothing for me to do. I want to… I want to break something."
-    },
-    {
-      "character": "MELINA",
-      "text": "Oh, you do?"
-    },
-    {
-      "character": "MELINA",
-      "text": "Oh, there is something you can break."
-    },
-    {
       "character": "ALEXEI",
-      "text": "Melina, if this is the last time that we… Ah, damn it."
-    },
-    {
-      "character": "YELENA",
-      "text": "That was disgusting."
-    },
-    {
-      "character": "YELENA",
-      "text": "Okay."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "So, this was the big plan, huh? Melina was going to land the Red Room and hand me over to the authorities."
-    },
-    {
-      "character": "MELINA",
-      "text": "Oh, no, no, no."
-    },
-    {
-      "character": "NATASHA",
-      "text": "So, what now, you’re gonna fold me into your pathetic little puppeteer act?"
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Pathetic, huh?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Yeah, what would you call it?"
-    },
-    {
-      "character": "DREYKOV",
-      "text": "I would call it…"
-    },
-    {
-      "character": "NATASHA",
-      "text": "When was the last time that you had a conversation with somebody that wasn’t forced to talk to you?"
-    },
-    {
-      "character": "DREYKOV",
-      "text": "You ran away to fight in the wrong war. The real war was fought here, in the shadows."
-    },
-    {
-      "character": "NATASHA",
-      "text": "You didn’t fight in the shadows. You hid in the dark."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Real power comes from undetectable influence."
-    },
-    {
-      "character": "NATASHA",
-      "text": "If no one’s noticed, then why even do it? You’re nothing."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Hmm."
-    },
-    {
-      "character": "NATASHA",
-      "text": "You have nothing."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "There are 50 people on this planet…"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Oh, stop it."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Don’t tell me to stop!"
-    },
-    {
-      "character": "NATASHA",
-      "text": "If I don’t tell you when to stop, then how will you know when to shut up?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Come on. Think I can’t take a punch? (CHUCKLES)"
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Oh."
-    },
-    {
-      "character": "NATASHA",
-      "text": "God damn it, you’re weak."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Weak?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "I bet it’s easier to be tough in front of defenseless little girls, huh?"
-    },
-    {
-      "character": "DREYKOV",
-      "text": "That’s enough."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "You wouldn’t be so glib if you had any notion of the scope of what I’ve built. I own this world. Me."
-    },
-    {
-      "character": "NATASHA",
-      "text": "You seem desperate to impress me."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "I don’t need to impress you. I don’t need to impress anyone. These world leaders, these great men, they answer to me and my widows. Look at them. These girls were trash. They are thrown out into the street. I recycle the trash. And I give them purpose. I give them a life."
-    },
-    {
-      "character": "YELENA",
-      "text": "Melina, I found the location of the vials."
-    },
-    {
-      "character": "MELINA",
-      "text": "I’ve had a slight setback. You’ll need to get to the widows."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "It’s my network of widows that help me control the scales of power. One command, the oil and stock markets crumble. One command, and a quarter of the planet will starve. My widows can start and end wars. They can make and break kings."
-    },
-    {
-      "character": "NATASHA",
-      "text": "You control all of that from here?"
-    },
-    {
-      "character": "DREYKOV",
-      "text": "And with you, an Avenger under my control, I can finally come out of the shadows using the only natural resource that the world has too much of. Girls."
-    },
-    {
-      "character": "NATASHA",
-      "text": "All from that little console?"
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Yeah. Oh, you find this amusing? Why are you smiling?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Don’t take it personal, but, uh… Thank you for your cooperation."
-    },
-    {
-      "character": "MELINA",
-      "text": "Even if you locate the database and get him to show you the key, you won’t be able to take it from him. For years, Dreykov has implemented a pheromonal lock in all widows, even me. So, as long as we can smell him, then we won’t be able to hurt him."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Well, I’ll just hold my breath."
-    },
-    {
-      "character": "MELINA",
-      "text": "Not enough. This is basic science. Natasha, to block receptors in olfactory center, you have to sever the nerve."
-    },
-    {
-      "character": "NATASHA",
-      "text": "I can handle that."
-    },
-    {
-      "character": "NATASHA",
-      "text": "You weren’t quite strong enough, so… I’ll have to finish it myself."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "What are you going to do?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Sever the nerve."
+      "text": "So, I have the nuclear code. But there he is. Captain America!",
+      "scene": 22
     },
     {
       "character": "GUARD",
-      "text": "Melina! Stay there! Drop to the ground, quick!"
-    },
-    {
-      "character": "MELINA",
-      "text": "Precisely what I was thinking."
-    },
-    {
-      "character": "MELINA",
-      "text": "Yelena, slight change of plan. I completely demolished one of the engines and we are going into a controlled crash."
-    },
-    {
-      "character": "YELENA",
-      "text": "Fantastic. I’m heading to the widows now. No."
-    },
-    {
-      "character": "MELINA",
-      "text": "We have to go."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Not so talkative now, are you? (GRUNTS) You took my childhood. You took my choices and tried to break me. But you’re never gonna do that to anybody ever again."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Nobody leaves this room until she’s dead. Make her suffer."
-    },
-    {
-      "character": "NATASHA",
-      "text": "I don’t wanna hurt you. You don’t wanna hurt me."
-    },
-    {
-      "character": "YELENA",
-      "text": "Hey."
-    },
-    {
-      "character": "YELENA",
-      "text": "Are you okay? That looks like it hurts. Okay. I take out on three, ready? (GRUNTS). I’m sorry."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Get as far away from here as possible. You get to make your own choices now."
-    },
-    {
-      "character": "YELENA",
-      "text": "We gotta get outta here. We need to find Dreykov. Are you coming?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "I’m right behind you."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Wait, wait! I have to go back!"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Yes!"
-    },
-    {
-      "character": "MELINA",
-      "text": "Do you see the girls?"
+      "text": "Alexei Shostakov! Mail Call.",
+      "scene": 23
     },
     {
       "character": "ALEXEI",
-      "text": "No!"
+      "text": "Aw, look at the big bear. Gonna cry, little girl?",
+      "scene": 23
     },
     {
-      "character": "MELINA",
-      "text": "We need to go back."
+      "character": "GUARD",
+      "text": "The famed \"Red Guardian.\" When you write back, tell your fans to use more butter. Take it! Come on.",
+      "scene": 23
     },
     {
-      "character": "MELINA",
-      "text": "We’ve lost control."
+      "character": "NATASHA ROMANOFF",
+      "text": "Today is your lucky day, Alexei.",
+      "scene": 24
     },
     {
-      "character": "NATASHA",
-      "text": "Antonia. No! (PANTING) I’m gonna open the door. You’re gonna come after me. It’s okay. It’s okay. I know you’re still in there. And I’m not gonna leave you. Okay."
+      "character": "NATASHA ROMANOFF",
+      "text": "Move to the door on the south wall.",
+      "scene": 24
     },
     {
-      "character": "NATASHA",
-      "text": "Yelena!"
+      "character": "GUARD",
+      "text": "What's up with you? Can't you read?",
+      "scene": 24
     },
     {
-      "character": "DREYKOV",
-      "text": "She’s on the wing! Move! What are you waiting for?"
+      "character": "NATASHA ROMANOFF",
+      "text": "Go left. Just don't make a scene.",
+      "scene": 24
     },
     {
-      "character": "NATASHA",
-      "text": "Don’t do it!"
+      "character": "GUARD",
+      "text": "The Red Guardian is escaping!",
+      "scene": 24
     },
     {
-      "character": "YELENA",
-      "text": "This was fun!"
-    },
-    {
-      "character": "NATASHA",
-      "text": "No!"
-    },
-    {
-      "character": "NATASHA",
-      "text": "Okay. Let’s go. Enough."
-    },
-    {
-      "character": "NATASHA",
-      "text": "I’m sorry. I’m sorry."
-    },
-    {
-      "character": "DREYKOV",
-      "text": "Is he gone?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "He’s gone."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Yelena! Yelena?"
-    },
-    {
-      "character": "YELENA",
-      "text": "We’re both upside down."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Forgive me, my little sister. I should’ve come back for you."
-    },
-    {
-      "character": "YELENA",
-      "text": "You don’t have to say that. It’s okay."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Hey. Hey. It was real to me, too."
-    },
-    {
-      "character": "YELENA",
-      "text": "Thank you."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Everybody good?"
-    },
-    {
-      "character": "MELINA",
-      "text": "I am clearly injured."
-    },
-    {
-      "character": "NATASHA",
-      "text": "You got something to say?"
-    },
-    {
-      "character": "MELINA",
-      "text": "I’d just mess it up."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Here comes the cavalry."
-    },
-    {
-      "character": "MAN",
-      "text": "We’re closing in on the target, sir."
-    },
-    {
-      "character": "MELINA",
-      "text": "So, what’s our plan?"
-    },
-    {
-      "character": "NATASHA",
-      "text": "You guys go. I’ll stay."
+      "character": "NATASHA ROMANOFF",
+      "text": "You made a scene, didn't you?",
+      "scene": 24
     },
     {
       "character": "ALEXEI",
-      "text": "That’s insanity. We fight. We fight with you."
+      "text": "What now?",
+      "scene": 24
     },
     {
-      "character": "NATASHA",
-      "text": "I’ll hold them off."
+      "character": "NATASHA ROMANOFF",
+      "text": "We're gettin' you outta here.",
+      "scene": 24
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "He's never going to make it. Get me closer.",
+      "scene": 25
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "You got a better idea?",
+      "scene": 25
     },
     {
       "character": "ALEXEI",
-      "text": "Natasha, we fight."
+      "text": "Natasha.",
+      "scene": 25
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Such a poser.",
+      "scene": 25
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Seriously?",
+      "scene": 26
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Whoo! Sorry!",
+      "scene": 26
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "What are you doing? Are you kidding me? Back up!",
+      "scene": 26
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "We're both doing a really good job.",
+      "scene": 26
+    },
+    {
+      "character": "ALEXEI",
+      "text": "No.",
+      "scene": 26
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Okay. Enough of this.",
+      "scene": 26
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Ha!",
+      "scene": 27
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Whoa...",
+      "scene": 27
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "This would be a cool way to die.",
+      "scene": 27
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Tell me that's a good sign for us!",
+      "scene": 27
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Move your ass!",
+      "scene": 27
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Yes!",
+      "scene": 28
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "I need some help up here!",
+      "scene": 28
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Farewell, douche bags.",
+      "scene": 28
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Oh, that was exciting.",
+      "scene": 28
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Oh, I'm so proud of you girls. Oh, you can't hear me, huh? Okay. Ah... Wow.",
+      "scene": 28
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Okay. Why the aggression, huh? Is it your time of the month?",
+      "scene": 28
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "I don't get my period, dipshit. I don't have a uterus.",
+      "scene": 28
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Or ovaries.",
+      "scene": 28
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Yeah. That's what happens when the Red Room gives you an involuntary hysterectomy. They kind of just go in and they rip out all of your reproductive organs. They just get right in there and they chop them all away. Everything out, so you can't have babies.",
+      "scene": 28
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Okay, okay. Okay! Okay! You don't have to get so clinical and nasty.",
+      "scene": 28
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Oh, well, I was about to talk about fallopian tubes, but okay.",
+      "scene": 28
+    },
+    {
+      "character": "ALEXEI",
+      "text": "No. It means so much to me that you came back for me.",
+      "scene": 28
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "No. No. You're gonna tell us how to get to the Red Room.",
+      "scene": 28
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Huh. Whoa, look at you, huh? All business.",
+      "scene": 28
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Trust me, this isn't pleasure.",
+      "scene": 28
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Little Natasha, all indoctrinated into the Western agenda.",
+      "scene": 28
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I chose to go west to become an Avenger. 'Cause they treated me like family.",
+      "scene": 28
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Really? Family? Well, where are they now? Where is that family now?",
+      "scene": 28
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Tell me where the Red Room is.",
+      "scene": 28
+    },
+    {
+      "character": "ALEXEI",
+      "text": "I have no idea. Okay?",
+      "scene": 28
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Come on. You and Dreykov were like...",
+      "scene": 28
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Dreykov?",
+      "scene": 28
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Yeah.",
+      "scene": 28
+    },
+    {
+      "character": "ALEXEI",
+      "text": "General Dreykov, my friend, huh? Gives me glory... Soviet Union's first and only super soldier. I could have been more famous than Captain America. Then he buries me in Ohio on that stupid mission. Three years! So tedious, boring me to tears.",
+      "scene": 28
+    },
+    {
+      "character": "ALEXEI",
+      "text": "No offense, huh? Then puts me in prison for the rest of my life. Why, huh? Why? Why would he put me in... You know why?",
+      "scene": 28
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Or maybe I don't like his hair or something and I say something casually about that. Maybe, you know, I want the Party to feel actually like a party instead of this sourpuss organization. But instead, no. He puts me in prison for the rest of my life. He just runs off and hides, huh? I'm not even the one who, uh, you know...",
+      "scene": 29
+    },
+    {
+      "character": "ALEXEI",
+      "text": "I'm not the one who killed his daughter.",
+      "scene": 29
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Can we throw him out the window now?",
+      "scene": 29
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I think we should wait till we get to a higher altitude.",
+      "scene": 29
+    },
+    {
+      "character": "ALEXEI",
+      "text": "All right. Why not ask Melina where it is?",
+      "scene": 29
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Wait, Mom Melina?",
+      "scene": 29
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "We thought she was dead.",
+      "scene": 29
+    },
+    {
+      "character": "ALEXEI",
+      "text": "You cannot kill a fox that swift.",
+      "scene": 29
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Ew.",
+      "scene": 29
+    },
+    {
+      "character": "ALEXEI",
+      "text": "What? She was the scientist, the strategist. I was the muscle. She worked directly for Dreykov far more than I ever did.",
+      "scene": 29
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Wait. Are you telling me that Melina is working for the Red Room present day?",
+      "scene": 29
+    },
+    {
+      "character": "ALEXEI",
+      "text": "She works remotely outside St. Petersburg.",
+      "scene": 29
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Uh... I don't think we have enough fuel for St. Petersburg.",
+      "scene": 29
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "No, we're good. We'll make it.",
+      "scene": 29
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Okay.",
+      "scene": 29
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Natasha. Natasha. Natasha. Come here, I want to ask you something. Come, it's important.",
+      "scene": 30
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "What?",
+      "scene": 30
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Did he talk to you about me?",
+      "scene": 30
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "What?",
+      "scene": 30
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Did he talk to you about me? You know, trading war stories?",
+      "scene": 30
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Who? What are you talking about?",
+      "scene": 30
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Captain America. My great adversary in this theater of geopolitical conflict. Not so much a nemesis. More like a contemporary, you know? Coequal. I always thought there was a great deal of mutual respect...",
+      "scene": 30
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Wait. You haven't seen either one of us in 20 years and you're gonna ask me about you?",
+      "scene": 30
+    },
+    {
+      "character": "ALEXEI",
+      "text": "What is with this tension?",
+      "scene": 30
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Did I do something wrong?",
+      "scene": 30
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Is that a serious question?",
+      "scene": 30
+    },
+    {
+      "character": "ALEXEI",
+      "text": "I only ever loved you girls. I did my best to make sure you would succeed to achieve your fullest potential, and everything worked out.",
+      "scene": 30
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Everything worked out?",
+      "scene": 30
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Yes. For you, yes.",
+      "scene": 30
+    },
+    {
+      "character": "ALEXEI",
+      "text": "We accomplished our mission in Ohio. Yelena, you went on to become the greatest child assassin the world has ever known. No one can match your efficiency, your ruthlessness. And Natasha, not just a spy, not just toppling regimes, destroying empires from within, but an Avenger. You both have killed so many people. Your ledgers must be dripping, just gushing red. I couldn't be more proud of you.",
+      "scene": 30
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Okay. You can... No. Let go of me now. You smell really bad.",
+      "scene": 30
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "So, are we there yet?",
+      "scene": 30
+    },
+    {
+      "character": "ALEXEI",
+      "text": "You'll know when we're there.",
+      "scene": 30
     },
     {
       "character": "MELINA",
-      "text": "We can’t split up. You’re so pigheaded."
-    },
-    {
-      "character": "NATASHA",
-      "text": "You guys, go."
-    },
-    {
-      "character": "YELENA",
-      "text": "Oh, my God."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Besides, if it can work out with the four of us, you know, there may be some hope for the Avengers. Little bit."
-    },
-    {
-      "character": "YELENA",
-      "text": "Okay, well, if you’re leaving, then I guess you should take this. I know how much you like it."
-    },
-    {
-      "character": "NATASHA",
-      "text": "Shucks. (LAUGHS) It does have a lot of pockets."
-    },
-    {
-      "character": "YELENA",
-      "text": "Very handy pockets, yeah."
-    },
-    {
-      "character": "NATASHA",
-      "text": "He had widows implanted all over the world. Melina will need to copy the formula, but you should be the one to tell ’em it’s over."
-    },
-    {
-      "character": "YELENA",
-      "text": "You came back for us."
-    },
-    {
-      "character": "WIDOW 2",
-      "text": "We wouldn't leave you behind."
-    },
-    {
-      "character": "YELENA",
-      "text": "Thank you."
+      "text": "Slight right. Straight on. Right.",
+      "scene": 30
     },
     {
       "character": "MELINA",
-      "text": "Hey. Hey. You take care of yourself, okay?"
+      "text": "Slight right. Oh, very good, my darling. Yes, very good. Yes, very good, my darling.",
+      "scene": 30
     },
     {
-      "character": "NATASHA",
-      "text": "Don’t worry. I got this."
+      "character": "ALEXEI",
+      "text": "Honey, we're home.",
+      "scene": 31
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Come on, girls.",
+      "scene": 31
     },
     {
       "character": "MELINA",
-      "text": "I know."
+      "text": "Welcome to my humble abode. Make yourself at home.",
+      "scene": 31
     },
     {
       "character": "MELINA",
-      "text": "Don’t worry. We’re bringing her with us. Come. Come with us."
+      "text": "Let's have a drink.",
+      "scene": 31
     },
     {
-      "character": "NATASHA",
-      "text": "You ever not sleep?"
+      "character": "NATASHA ROMANOFF",
+      "text": "Are there any booby traps around here? Anything we need to know about?",
+      "scene": 32
     },
     {
-      "character": "RICK MASON",
-      "text": "I’ve been in six different time zones in three days because of you."
+      "character": "MELINA",
+      "text": "I didn't raise my girls to fall in traps.",
+      "scene": 32
     },
     {
-      "character": "NATASHA",
-      "text": "Oh, really?"
+      "character": "NATASHA ROMANOFF",
+      "text": "You didn't raise us at all.",
+      "scene": 32
     },
     {
-      "character": "RICK MASON",
-      "text": "Yeah."
+      "character": "MELINA",
+      "text": "Oh, maybe so. But if you got soft, it wasn't on my watch.",
+      "scene": 32
     },
     {
-      "character": "NATASHA",
-      "text": "What, are you scrapping together some parts? What’d you get me this time, like, an upside-down lawnmower?"
+      "character": "MELINA",
+      "text": "Let's drink.",
+      "scene": 33
     },
     {
-      "character": "RICK MASON",
-      "text": "You see what I can get you with a bit of time and money? Go on, say it. I wanna hear it. It would really be good for me to hear it. Really."
+      "character": "ALEXEI",
+      "text": "Okay.",
+      "scene": 33
     },
     {
-      "character": "NATASHA",
-      "text": "I’m impressed."
+      "character": "ALEXEI",
+      "text": "Still fits.",
+      "scene": 33
     },
     {
-      "character": "RICK MASON",
-      "text": "Well, yeah."
+      "character": "NATASHA ROMANOFF",
+      "text": "Oh, my God.",
+      "scene": 33
     },
     {
-      "character": "NATASHA",
-      "text": "You’ve always been a really good friend to me."
+      "character": "MELINA",
+      "text": "I never washed it once. Come and drink.",
+      "scene": 33
     },
     {
-      "character": "RICK MASON",
-      "text": "That’s what every man wants to hear. Where you gonna go?"
+      "character": "ALEXEI",
+      "text": "Family back together again.",
+      "scene": 34
     },
     {
-      "character": "NATASHA",
-      "text": "It’s funny. My whole life, I didn’t think I had any family. Turns out I got two, so… One of them’s a bit of a mess right now. I’m gonna go break a few of them out of prison see if I can’t help patch things up. (SIGHS)"
+      "character": "YELENA BELOVA",
+      "text": "Mmm.",
+      "scene": 34
     },
     {
-      "character": "YELENA",
-      "text": "Come on, Fanny."
+      "character": "YELENA BELOVA",
+      "text": "Seeing as our family construct was just a calculated ruse that only lasted three years, I don't think that we can use this term anymore, can we?",
+      "scene": 34
     },
     {
-      "character": "VALENTINA",
-      "text": "Wow. Sorry. (SNIFFLES) I’m allergic to the Midwest. What this woman did, honestly, I can’t even imagine."
+      "character": "NATASHA ROMANOFF",
+      "text": "Agreed. So, here's what's gonna happen...",
+      "scene": 34
     },
     {
-      "character": "YELENA",
-      "text": "You’re not supposed to be bothering me on my holiday time, Valentina."
+      "character": "ALEXEI",
+      "text": "Okay. A reunion then, huh? And, uh... I want to say something right off the bat. You haven't aged a day, huh? You're just as beautiful and as supple as the day they staged our marriage.",
+      "scene": 34
     },
     {
-      "character": "VALENTINA",
-      "text": "Oh, bothering you? Oh, no, no. I’m just here paying my respects."
+      "character": "MELINA",
+      "text": "You got fat. But still good.",
+      "scene": 34
     },
     {
-      "character": "YELENA",
-      "text": "Hmm… You know, coming here makes you look desperate."
+      "character": "ALEXEI",
+      "text": "I just got out of prison. I, uh...",
+      "scene": 34
     },
     {
-      "character": "VALENTINA",
-      "text": "Okay."
+      "character": "ALEXEI",
+      "text": "I have a lot of energy.",
+      "scene": 34
     },
     {
-      "character": "YELENA",
-      "text": "I want a raise."
+      "character": "MELINA",
+      "text": "Oh!",
+      "scene": 34
     },
     {
-      "character": "VALENTINA",
-      "text": "Oh, yeah. You and me both. Believe me, you’re gonna earn it. I’ve got your next target. Thought I’d hand-deliver it. Maybe you’d like a shot at the man responsible for your sister’s death. Kind of a cutie, don’t you think?"
+      "character": "NATASHA ROMANOFF",
+      "text": "Please don't do that.",
+      "scene": 34
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "So, here's what's gonna happen.",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "Natasha, don't slouch.",
+      "scene": 34
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I'm not slouching.",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "Yes, yes, you are.",
+      "scene": 34
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I don't slouch.",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "You're going to get a back hunch.",
+      "scene": 34
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Listen to your mother.",
+      "scene": 34
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Oh, my God, this...",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "Up, up.",
+      "scene": 34
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "All right, enough. All of you.",
+      "scene": 34
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "I didn't say anything. That's not fair.",
+      "scene": 34
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Here's what's gonna happen...",
+      "scene": 34
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "I don't want any food.",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "Eat a little something, Yelena, for God's sake.",
+      "scene": 34
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "You're gonna tell us the location of the Red Room.",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "You know, it's like when you told them that they could stay up late to catch Santa Claus.",
+      "scene": 34
+    },
+    {
+      "character": "ALEXEI",
+      "text": "What? That was fun. You know, \"He come down the chimney, girls. \"Look out. Where is he?\" You wait for him, and then when the cookies are gone, then you see he's there. No, no. What? I want them to follow their dreams.",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "No good.",
+      "scene": 34
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Reach for the stars, girls.",
+      "scene": 34
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Finding Dreykov is not a fantasy. It's unfinished business.",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "You can't defeat a man who commands the very will of others. You never saw the culmination of what we started in America. Nor did you.",
+      "scene": 34
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Natasha, always focus, focus. Get what you want.",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "Come in.",
+      "scene": 34
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Did that pig just open the door?",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "Yes. It did. Good boy, Alexei. Good boy.",
+      "scene": 34
+    },
+    {
+      "character": "ALEXEI",
+      "text": "You named a pig after me?",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "You don't see the resemblance?",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "See, he sits just like dog. Amazing. Now, watch.",
+      "scene": 34
+    },
+    {
+      "character": "ALEXEI",
+      "text": "It's a little weird, to me.",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "Stop breathing.",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "We infiltrated the North Institute in Ohio. It was a front for S.H.I.E.L.D. scientists. Actually, it was Hydra scientists at that time. In conjunction with the Winter Soldier project, they had dissected and deconstructed the human brain to create the first and only cellular blueprint of the basal ganglia. Was the hub for cognition. Voluntary motor movement, procedural learning.",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "We didn't steal weaponry or technology. We stole the key to unlocking free will.",
+      "scene": 34
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "What are you doing?",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "Oh, I am explaining that the science is now so exact, the subject can be instructed to stop breathing and has no choice but to obey.",
+      "scene": 34
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Okay, you made your point. That's enough.",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "Yes, all right. Well, don't worry, Alexei could've survived 11 more seconds without oxygen. Good boy. Now, you go back, back home where it's safe.",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "You go. You go back home, back home where it's safe. Good boy, Alexei. The world functions on a higher level when it is controlled. Dreykov has chemically subjugated agents planted around the globe.",
+      "scene": 34
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "And do you know who they test it on?",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "Hmm... No. That's not my department.",
+      "scene": 34
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Ah, come on, come on. Don't lie to them. Hmm?",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "I'm not lying.",
+      "scene": 34
+    },
+    {
+      "character": "ALEXEI",
+      "text": "You're Dreykov's architect, huh?",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "What were you? If I was his architect, you were his partner. You were his business partner.",
+      "scene": 34
+    },
+    {
+      "character": "ALEXEI",
+      "text": "No, no, no. I was patsy!",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "Don't give me that...",
+      "scene": 34
+    },
+    {
+      "character": "ALEXEI",
+      "text": "He sell me ideology.",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "Stop with the politics.",
+      "scene": 34
+    },
+    {
+      "character": "ALEXEI",
+      "text": "All the while, bigger...",
+      "scene": 34
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Shut up! You are an idiot.",
+      "scene": 34
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "And you're a coward.",
+      "scene": 34
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "You're a coward. And our family was never real, so there's nothing to hold on to. We're moving on.",
+      "scene": 34
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Never family, huh? In my heart, I am simple man. And I think that for a couple deep undercover Russian agents I think we did pretty great as parents, huh?",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "Yes, we had our orders, and we played our roles to perfection.",
+      "scene": 34
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Who cares? That wasn't real.",
+      "scene": 34
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "What?",
+      "scene": 34
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "That wasn't real. Who cares?",
+      "scene": 34
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Don't say that. Please don't say that. It was real. It was real to me. You are my mother. You were my real mother. The closest thing I ever had to one. The best part of my life was fake.",
+      "scene": 34
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "And none of you told me.",
+      "scene": 34
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "And those agents you chemically subjugated around the globe?",
+      "scene": 34
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "That was me.",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "Mmm.",
+      "scene": 34
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "And you, you got out. Dreykov made sure no one could escape. Are you gonna say anything?",
+      "scene": 34
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "No. Don't touch me.",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "Yelena.",
+      "scene": 34
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "No.",
+      "scene": 34
+    },
+    {
+      "character": "MELINA",
+      "text": "I had no idea.",
+      "scene": 34
+    },
+    {
+      "character": "ALEXEI",
+      "text": "It's okay, it's okay. I'll go talk to her.",
+      "scene": 34
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "I came in here because I didn't want to talk.",
+      "scene": 35
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Okay. We, uh... We just sit.",
+      "scene": 35
+    },
+    {
+      "character": "ALEXEI",
+      "text": "We just sit.",
+      "scene": 35
+    },
+    {
+      "character": "MELINA",
+      "text": "Where are you going?",
+      "scene": 35
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "To do this myself.",
+      "scene": 35
+    },
+    {
+      "character": "MELINA",
+      "text": "Don't. You won't survive.",
+      "scene": 35
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I wish I could believe that you cared. But you're not even the first mother that abandoned me.",
+      "scene": 35
+    },
+    {
+      "character": "MELINA",
+      "text": "No, you weren't abandoned. You were selected by a program that assessed the genetic potential in infants.",
+      "scene": 35
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I was taken?",
+      "scene": 35
+    },
+    {
+      "character": "MELINA",
+      "text": "I believe a bargain was struck, your family paid off. But your mother, she never stopped looking for you. She was like you in that way. She was relentless.",
+      "scene": 35
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "What happened to her?",
+      "scene": 35
+    },
+    {
+      "character": "MELINA",
+      "text": "Dreykov had her killed. Her existence threatened to uncover the Red Room. Normally, the actions of one curious civilian wouldn't warrant an execution, but, as I said, she was relentless.",
+      "scene": 35
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I thought about her every day of my life.",
+      "scene": 35
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Whether or not I admitted it to myself, I did.",
+      "scene": 35
+    },
+    {
+      "character": "MELINA",
+      "text": "I've always found it best not to look into the past.",
+      "scene": 35
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Then why did you save this?",
+      "scene": 35
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I remember this day. We shot Christmas, Thanksgiving, Easter and summer vacation all in one day. Different backdrops.",
+      "scene": 36
+    },
+    {
+      "character": "MELINA",
+      "text": "Mmm.",
+      "scene": 36
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I knew all the presents under the tree were just empty boxes, but I didn't care. I wanted to open every single one...",
+      "scene": 36
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "so just for a second it would feel real.",
+      "scene": 36
+    },
+    {
+      "character": "MELINA",
+      "text": "Let's stop this.",
+      "scene": 36
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Why you doing this?",
+      "scene": 36
+    },
+    {
+      "character": "MELINA",
+      "text": "Why does a mouse born in a cage run on that little wheel? Do you know I was cycled through the Red Room four times before you were even born? Those walls are all I know. I was never given a choice.",
+      "scene": 36
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "But you're not a mouse, Melina.",
+      "scene": 36
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "You were just born in a cage, but that's not your fault.",
+      "scene": 36
+    },
+    {
+      "character": "MELINA",
+      "text": "Tell me, how did you keep your heart?",
+      "scene": 36
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Pain only makes us stronger. Didn't you tell us that?",
+      "scene": 36
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "What you taught me kept me alive.",
+      "scene": 36
+    },
+    {
+      "character": "MELINA",
+      "text": "I'm sorry, I already alerted the Red Room. They'll be here any minute.",
+      "scene": 36
+    },
+    {
+      "character": "ALEXEI",
+      "text": "So, there I am ice fishing with my father. It's very cold day in this little ice shed. Cold even for Russia, you know? \"Keep the vodka by the fire,\" my father would say to me.",
+      "scene": 36
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Please stop talking.",
+      "scene": 36
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Please wait. Please wait.",
+      "scene": 36
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Please, no. Please, I don't want to talk.",
+      "scene": 36
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Please. Please. There is a reason why I'm telling you this, okay? Trust me. I am reaching for fish.",
+      "scene": 36
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Oh! I lose balance. Ah! Splash! My hands go in the river. In this weather, frostbite sets in quick. My father, he go toilet on my hands.",
+      "scene": 36
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Oh, my God.",
+      "scene": 36
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Urine is 35 degrees Celsius, staves off the frostbite.",
+      "scene": 36
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "How is this relevant?",
+      "scene": 36
+    },
+    {
+      "character": "ALEXEI",
+      "text": "You know, fathers.",
+      "scene": 36
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "No. No. You have done nothing but tell me how bored you were. I was the chore, the job you didn't want to do. To me? To me, you were everything.",
+      "scene": 36
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Exactly. You don't care. You don't care. The only thing you care about are your stupid glory days as the Crimson Dynamo, and no one wants to hear about it.",
+      "scene": 36
+    },
+    {
+      "character": "ALEXEI",
+      "text": "It's the Red Guardian.",
+      "scene": 36
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Get out. Get out!",
+      "scene": 36
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Melina?",
+      "scene": 37
+    },
+    {
+      "character": "MELINA",
+      "text": "We're touching down in one minute.",
+      "scene": 37
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Then why are we still going up?",
+      "scene": 37
+    },
+    {
+      "character": "MELINA",
+      "text": "Now you'll know how Dreykov stayed above the radar all these years.",
+      "scene": 37
+    },
+    {
+      "character": "DREYKOV",
+      "text": "My God. Look at you.",
+      "scene": 38
+    },
+    {
+      "character": "DREYKOV",
+      "text": "So, uh, how was the family reunion?",
+      "scene": 38
+    },
+    {
+      "character": "MELINA",
+      "text": "Oh, it was awful. They were clingy, and too emotional, and needy.",
+      "scene": 38
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Just like old times, huh?",
+      "scene": 38
+    },
+    {
+      "character": "MELINA",
+      "text": "Hmm.",
+      "scene": 38
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Yelena Belova. What's the deal with her? She was the only one affected, right?",
+      "scene": 38
+    },
+    {
+      "character": "MELINA",
+      "text": "As far as I know, yes.",
+      "scene": 38
+    },
+    {
+      "character": "DREYKOV",
+      "text": "These gasses and antidotes, it's a pain in my ass. It's a problem. You need to sort it.",
+      "scene": 38
+    },
+    {
+      "character": "MELINA",
+      "text": "Hmm. I have nine pigs that will require attending to in my absence.",
+      "scene": 38
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Don't give a shit about your pigs.",
+      "scene": 38
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Cut her brain out... Hmm? Identify the weakness.",
+      "scene": 38
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "This is a much less cool way to die.",
+      "scene": 38
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Alexei.",
+      "scene": 38
+    },
+    {
+      "character": "MELINA",
+      "text": "What about Romanoff?",
+      "scene": 38
+    },
+    {
+      "character": "DREYKOV",
+      "text": "She's a traitor. She turned her back on her people. On her blood. She had nothing. I gave her home. I gave her love. Put that thing in her you do. You know, uh, chemicals. Turn her into one of your pigs. Can you imagine what I could do with an Avenger under my control?",
+      "scene": 38
+    },
+    {
+      "character": "MELINA",
+      "text": "Wouldn't you like to speak to her first?",
+      "scene": 38
+    },
+    {
+      "character": "DREYKOV",
+      "text": "When you look into the eyes of a child you have raised, no mask in the world can hide that.",
+      "scene": 38
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Welcome home.",
+      "scene": 39
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Now, now. Don't go breaking my new toy.",
+      "scene": 39
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Natasha.",
+      "scene": 39
+    },
+    {
+      "character": "ALEXEI",
+      "text": "I can't save us. I need you to know that I'm sorry. I pledged my life to a cause. You know, I thought I was being very brave. Possibly the bravest. But I wasn't being brave. I was coward.",
+      "scene": 39
+    },
+    {
+      "character": "ALEXEI",
+      "text": "In Cuba, when they came and took you away from me... No cause is worth that.",
+      "scene": 39
+    },
+    {
+      "character": "ALEXEI",
+      "text": "You should only sacrifice yourself for something...",
+      "scene": 39
+    },
+    {
+      "character": "ALEXEI",
+      "text": "How did you do that?",
+      "scene": 39
+    },
+    {
+      "character": "MELINA",
+      "text": "I designed these cells myself.",
+      "scene": 39
+    },
+    {
+      "character": "ALEXEI",
+      "text": "What?",
+      "scene": 39
+    },
+    {
+      "character": "ALEXEI",
+      "text": "What? I bared my soul to you and it was just you the whole time?",
+      "scene": 39
+    },
+    {
+      "character": "MELINA",
+      "text": "Yes, I'm afraid so. But wait, shh, I'm on comms with Yelena. Yelena, it's me. It's Mama. You have a two-inch blade concealed in your belt line.",
+      "scene": 39
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "What?",
+      "scene": 39
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "What are you going to do to me?",
+      "scene": 39
+    },
+    {
+      "character": "MELINA",
+      "text": "Outside right hip.",
+      "scene": 39
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "You couldn't have told me sooner?",
+      "scene": 40
+    },
+    {
+      "character": "MELINA",
+      "text": "Don't throw a fit. There wasn't time.",
+      "scene": 40
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Okay, girls, I'm having trouble hearing you, but, Natasha, there's something I need you to know. I need you to know that I'm sorry. No more excuses, okay? I gave my life for a cause. I thought I was being brave.",
+      "scene": 40
+    },
+    {
+      "character": "MELINA",
+      "text": "You don't have earpiece.",
+      "scene": 40
+    },
+    {
+      "character": "ALEXEI",
+      "text": "What?",
+      "scene": 40
+    },
+    {
+      "character": "MELINA",
+      "text": "No, she can't hear you. You don't have earpiece.",
+      "scene": 40
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Why not?",
+      "scene": 40
+    },
+    {
+      "character": "MELINA",
+      "text": "Because it wasn't part of the plan.",
+      "scene": 40
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Oh, yeah? Well, what was the plan?",
+      "scene": 40
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "So, once we're inside, I'll activate my tracker and Ross will come running.",
+      "scene": 40
+    },
+    {
+      "character": "MELINA",
+      "text": "You are aware that you are still a global fugitive, yes?",
+      "scene": 40
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "You know the facility. There must be some way to land it.",
+      "scene": 40
+    },
+    {
+      "character": "MELINA",
+      "text": "Instruct them to confine us on level zero. Once I'm out, I can activate the landing protocol, we can descend within the hour. Ah, problem. I only have one earpiece set.",
+      "scene": 40
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I'll give it to Yelena. Where did he take the vials?",
+      "scene": 40
+    },
+    {
+      "character": "MELINA",
+      "text": "Probably down to cold storage. Dreykov still has the widows under his control, so you have to expose them to this antidote.",
+      "scene": 40
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Yeah. Sure. Easy.",
+      "scene": 40
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Is this your plan?",
+      "scene": 40
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "My plan is to kill you.",
+      "scene": 40
+    },
+    {
+      "character": "DREYKOV",
+      "text": "I'm alive. So, what do we do now?",
+      "scene": 40
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "What was my mother's name?",
+      "scene": 40
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Ah... Where we buried her, there was a tree... Um... A pink blossom. Beautiful. And there was a tombstone with her name engraved on it. What was her name? Ah.",
+      "scene": 40
+    },
+    {
+      "character": "DREYKOV",
+      "text": "\"Unknown.\"",
+      "scene": 40
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "You don't feel anything? You feel anything when I killed your daughter?",
+      "scene": 40
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Is this your haunted past?",
+      "scene": 40
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Really?",
+      "scene": 40
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Thank you, Natasha.",
+      "scene": 40
+    },
+    {
+      "character": "DREYKOV",
+      "text": "You gave me my greatest weapon.",
+      "scene": 40
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Say hello.",
+      "scene": 40
+    },
+    {
+      "character": "DREYKOV",
+      "text": "When your bomb exploded, it nearly killed my Antonia.",
+      "scene": 41
+    },
+    {
+      "character": "DREYKOV",
+      "text": "I had to put a chip in the back of her neck. In the back of her neck. Look at her. You find it difficult to look at her? I do. She... She watches everything and she can do it. She's a perfect mimic.",
+      "scene": 41
+    },
+    {
+      "character": "DREYKOV",
+      "text": "And she fights just like all of your friends.",
+      "scene": 41
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Can she hear me?",
+      "scene": 41
+    },
+    {
+      "character": "DREYKOV",
+      "text": "What?",
+      "scene": 41
+    },
+    {
+      "character": "DREYKOV",
+      "text": "You want to make her feel better?",
+      "scene": 41
+    },
+    {
+      "character": "DREYKOV",
+      "text": "You want to tell her you're sorry? Well, you should have thought of that before you blew her face off.",
+      "scene": 41
+    },
+    {
+      "character": "DREYKOV",
+      "text": "But enough of all this bullshit. Go to work. I have rats in the basement. Go.",
+      "scene": 41
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Go.",
+      "scene": 41
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Well, that was a mistake.",
+      "scene": 41
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Was it?",
+      "scene": 41
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "You just sent away the one thing that would stop me from killing you.",
+      "scene": 41
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Try, then. Do it.",
+      "scene": 41
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Is the safety on?",
+      "scene": 41
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "No.",
+      "scene": 41
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Try your knife. Ah...",
+      "scene": 41
+    },
+    {
+      "character": "DREYKOV",
+      "text": "You're in trouble.",
+      "scene": 41
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "How are you controlling me?",
+      "scene": 41
+    },
+    {
+      "character": "DREYKOV",
+      "text": "I'm not controlling you, Natasha. Well, not yet. But there is a pheromonal lock. Smelling my pheromones prevents you from committing violence against me.",
+      "scene": 41
+    },
+    {
+      "character": "DREYKOV",
+      "text": "I'm very upset with Melina. It's a shame I have to kill her.",
+      "scene": 41
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Come on, now. If we're just going to press buttons and hack computers...",
+      "scene": 41
+    },
+    {
+      "character": "MELINA",
+      "text": "Yes.",
+      "scene": 41
+    },
+    {
+      "character": "ALEXEI",
+      "text": "I mean, I don't know. There's nothing for me to do. I want to... I want to break something.",
+      "scene": 41
+    },
+    {
+      "character": "MELINA",
+      "text": "Oh, you do?",
+      "scene": 41
+    },
+    {
+      "character": "MELINA",
+      "text": "Oh, there is something you can break.",
+      "scene": 41
+    },
+    {
+      "character": "DREYKOV",
+      "text": "So, this was the big plan, huh? Melina was going to land the Red Room and hand me over to the authorities.",
+      "scene": 42
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Oh, no, no, no.",
+      "scene": 42
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "So, what now, you're gonna fold me into your pathetic little puppeteer act?",
+      "scene": 42
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Pathetic, huh?",
+      "scene": 42
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Yeah, what would you call it?",
+      "scene": 42
+    },
+    {
+      "character": "DREYKOV",
+      "text": "I would call it...",
+      "scene": 42
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "When was the last time that you had a conversation with somebody that wasn't forced to talk to you?",
+      "scene": 42
+    },
+    {
+      "character": "DREYKOV",
+      "text": "You ran away to fight in the wrong war. The real war was fought here, in the shadows.",
+      "scene": 42
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "You didn't fight in the shadows. You hid in the dark.",
+      "scene": 42
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Real power comes from undetectable influence.",
+      "scene": 42
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "If no one's noticed, then why even do it? You're nothing.",
+      "scene": 42
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Hmm.",
+      "scene": 42
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "You have nothing.",
+      "scene": 42
+    },
+    {
+      "character": "DREYKOV",
+      "text": "There are 50 people on this planet...",
+      "scene": 42
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Oh, stop it.",
+      "scene": 42
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Don't tell me to stop!",
+      "scene": 42
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "If I don't tell you when to stop, then how will you know when to shut up?",
+      "scene": 42
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Come on. Think I can't take a punch?",
+      "scene": 42
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Oh.",
+      "scene": 42
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "God damn it, you're weak.",
+      "scene": 42
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Weak?",
+      "scene": 42
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I bet it's easier to be tough in front of defenseless little girls, huh?",
+      "scene": 42
+    },
+    {
+      "character": "DREYKOV",
+      "text": "That's enough.",
+      "scene": 42
+    },
+    {
+      "character": "DREYKOV",
+      "text": "You wouldn't be so glib if you had any notion of the scope of what I've built.",
+      "scene": 42
+    },
+    {
+      "character": "DREYKOV",
+      "text": "I own this world. Me.",
+      "scene": 42
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "You seem desperate to impress me.",
+      "scene": 42
+    },
+    {
+      "character": "DREYKOV",
+      "text": "I don't need to impress you. I don't need to impress anyone. These world leaders, these great men, they answer to me and my widows.",
+      "scene": 42
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Look at them.",
+      "scene": 42
+    },
+    {
+      "character": "DREYKOV",
+      "text": "These girls were trash. They are thrown out into the street. I recycle the trash. And I give them purpose.",
+      "scene": 42
+    },
+    {
+      "character": "DREYKOV",
+      "text": "I give them a life.",
+      "scene": 42
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Melina, I found the location of the vials.",
+      "scene": 42
+    },
+    {
+      "character": "MELINA",
+      "text": "I've had a slight setback.",
+      "scene": 42
+    },
+    {
+      "character": "MELINA",
+      "text": "You'll need to get to the widows.",
+      "scene": 42
+    },
+    {
+      "character": "DREYKOV",
+      "text": "DREYKOV:It's my network of widows that help me control the scales of power. One command, the oil and stock markets crumble. One command, and a quarter of the planet will starve. My widows can start and end wars. They can make and break kings.",
+      "scene": 43
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "You control all of that from here?",
+      "scene": 43
+    },
+    {
+      "character": "DREYKOV",
+      "text": "And with you, an Avenger under my control, I can finally come out of the shadows using the only natural resource that the world has too much of.",
+      "scene": 43
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Girls.",
+      "scene": 43
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "All from that little console?",
+      "scene": 43
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Yeah.",
+      "scene": 43
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Oh, you find this amusing? Why are you smiling?",
+      "scene": 43
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Don't take it personal, but, uh...",
+      "scene": 43
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Thank you for your cooperation.",
+      "scene": 43
+    },
+    {
+      "character": "MELINA",
+      "text": "Even if you locate the database and get him to show you the key, you won't be able to take it from him. For years, Dreykov has implemented a pheromonal lock in all widows, even me. So, as long as we can smell him, then we won't be able to hurt him.",
+      "scene": 43
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Well, I'll just hold my breath.",
+      "scene": 43
+    },
+    {
+      "character": "MELINA",
+      "text": "Not enough. This is basic science. Natasha, to block receptors in olfactory center, you have to sever the nerve.",
+      "scene": 43
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I can handle that. You weren't quite strong enough, so... I'll have to finish it myself.",
+      "scene": 43
+    },
+    {
+      "character": "DREYKOV",
+      "text": "What are you going to do?",
+      "scene": 43
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Sever the nerve.",
+      "scene": 43
+    },
+    {
+      "character": "GUARD",
+      "text": "She's got a gun! Melina!",
+      "scene": 44
+    },
+    {
+      "character": "GUARD",
+      "text": "Melina, stop there!",
+      "scene": 44
+    },
+    {
+      "character": "GUARD",
+      "text": "Drop to the ground!",
+      "scene": 44
+    },
+    {
+      "character": "MELINA",
+      "text": "Precisely what I was thinking.",
+      "scene": 44
+    },
+    {
+      "character": "MELINA",
+      "text": "Yelena, slight change of plan. I completely demolished one of the engines and we are going into a controlled crash.",
+      "scene": 45
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Fantastic. I'm heading to the widows now.",
+      "scene": 45
+    },
+    {
+      "character": "MELINA",
+      "text": "No.",
+      "scene": 45
+    },
+    {
+      "character": "MELINA",
+      "text": "We have to go.",
+      "scene": 46
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Not so talkative now, are you?",
+      "scene": 46
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "You took my childhood.",
+      "scene": 46
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "You took my choices and tried to break me. But you're never gonna do that to anybody ever again.",
+      "scene": 46
+    },
+    {
+      "character": "DREYKOV",
+      "text": "Nobody leaves this room until she's dead. Make her suffer.",
+      "scene": 46
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I don't wanna hurt you. You don't wanna hurt me.",
+      "scene": 46
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Hey. Are you okay? That looks like it hurts. Okay. I take out on three, ready? I'm sorry.",
+      "scene": 47
+    },
+    {
+      "character": "LERATO",
+      "text": "What do we do now?",
+      "scene": 47
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Get as far away from here as possible. You get to make your own choices now.",
+      "scene": 47
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "We gotta get outta here. We need to find Dreykov. Are you coming?",
+      "scene": 47
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I'm right behind you.",
+      "scene": 47
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Wait, wait! I have to go back!",
+      "scene": 47
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Antonia.",
+      "scene": 48
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "No! I'm gonna open the door. You're gonna come after me. It's okay. It's okay.",
+      "scene": 48
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I know you're still in there.",
+      "scene": 48
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "And I'm not gonna leave you. Okay.",
+      "scene": 48
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Yelena!",
+      "scene": 49
+    },
+    {
+      "character": "DREYKOV",
+      "text": "She's on the wing! Move! What are you waiting for?",
+      "scene": 49
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Don't do it!",
+      "scene": 49
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "This was fun!",
+      "scene": 49
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "No!",
+      "scene": 49
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I'm sorry. I'm sorry.",
+      "scene": 50
+    },
+    {
+      "character": "ANTONIA",
+      "text": "Is he gone?",
+      "scene": 50
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "He's gone.",
+      "scene": 50
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Yelena!",
+      "scene": 51
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Yelena?",
+      "scene": 51
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "We're both upside down.",
+      "scene": 51
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Forgive me little sister.",
+      "scene": 51
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I should've come back for you.",
+      "scene": 51
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "You don't have to say that. It's okay.",
+      "scene": 51
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Hey. Hey. It was real to me, too.",
+      "scene": 51
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Everybody good?",
+      "scene": 52
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "I am clearly injured.",
+      "scene": 52
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "You got something to say?",
+      "scene": 52
+    },
+    {
+      "character": "ALEXEI",
+      "text": "I'd just mess it up.",
+      "scene": 52
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Here comes the cavalry.",
+      "scene": 53
+    },
+    {
+      "character": "PILOT",
+      "text": "We're closing in on the target, sir.",
+      "scene": 53
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "So, what's our plan?",
+      "scene": 53
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "You guys go. I'll stay.",
+      "scene": 53
+    },
+    {
+      "character": "ALEXEI",
+      "text": "That's insanity. We fight. We fight with you.",
+      "scene": 53
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I'll hold them off.",
+      "scene": 53
+    },
+    {
+      "character": "ALEXEI",
+      "text": "Natasha, we fight.",
+      "scene": 53
+    },
+    {
+      "character": "MELINA",
+      "text": "We can't split up. You're so pigheaded.",
+      "scene": 53
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "You guys, go.",
+      "scene": 53
+    },
+    {
+      "character": "MELINA",
+      "text": "Oh, my God.",
+      "scene": 53
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Besides, if it can work out with the four of us, you know, there may be some hope for the Avengers. Little bit.",
+      "scene": 53
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Okay, well, if you're leaving, then I guess you should take this. I know how much you like it.",
+      "scene": 53
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Shucks. It does have a lot of pockets.",
+      "scene": 53
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Very handy pockets, yeah.",
+      "scene": 53
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "He had widows implanted all over the world. Melina will need to copy the formula, but you should be the one to tell 'em it's over.",
+      "scene": 53
+    },
+    {
+      "character": "LERATO",
+      "text": "You came back for us.",
+      "scene": 54
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "We wouldn't leave you behind.",
+      "scene": 54
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Thank you.",
+      "scene": 54
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Hey.",
+      "scene": 54
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Hey. You take care of yourself, okay?",
+      "scene": 54
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Don't worry. I got this.",
+      "scene": 54
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "I know.",
+      "scene": 54
+    },
+    {
+      "character": "MELINA",
+      "text": "Don't worry. We're bringing her with us. Come. Come with us.",
+      "scene": 54
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "You ever not sleep?",
+      "scene": 55
+    },
+    {
+      "character": "MASON",
+      "text": "I've been in six different time zones in three days because of you.",
+      "scene": 55
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "Oh, really?",
+      "scene": 55
+    },
+    {
+      "character": "MASON",
+      "text": "Yeah.",
+      "scene": 55
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "What, are you scrapping together some parts? What'd you get me this time, like, an upside-down lawnmower?",
+      "scene": 55
+    },
+    {
+      "character": "MASON",
+      "text": "You see what I can get you with a bit of time and money?",
+      "scene": 55
+    },
+    {
+      "character": "MASON",
+      "text": "Go on, say it. I wanna hear it. It would really be good for me to hear it. Really.",
+      "scene": 55
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "I'm impressed.",
+      "scene": 55
+    },
+    {
+      "character": "MASON",
+      "text": "Well, yeah.",
+      "scene": 55
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "You've always been a really good friend to me.",
+      "scene": 55
+    },
+    {
+      "character": "MASON",
+      "text": "That's what every man wants to hear. Where you gonna go?",
+      "scene": 55
+    },
+    {
+      "character": "NATASHA ROMANOFF",
+      "text": "It's funny. My whole life, I didn't think I had any family. Turns out I got two, so... One of them's a bit of a mess right now. I'm gonna go break a few of them out of prison see if I can't help patch things up.",
+      "scene": 55
+    },
+    {
+      "character": "VALENTINA ALLEGRA DE FONTAINE",
+      "text": "Wow. Sorry. I'm allergic to the Midwest.",
+      "scene": 56
+    },
+    {
+      "character": "VALENTINA ALLEGRA DE FONTAINE",
+      "text": "What this woman did, honestly, I can't even imagine.",
+      "scene": 56
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "You're not supposed to be bothering me on my holiday time, Valentina.",
+      "scene": 56
+    },
+    {
+      "character": "VALENTINA ALLEGRA DE FONTAINE",
+      "text": "Oh, bothering you? Oh, no, no. I'm just here paying my respects.",
+      "scene": 56
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "Hmm... You know, coming here makes you look desperate.",
+      "scene": 56
+    },
+    {
+      "character": "VALENTINA ALLEGRA DE FONTAINE",
+      "text": "Okay.",
+      "scene": 56
+    },
+    {
+      "character": "YELENA BELOVA",
+      "text": "I want a raise.",
+      "scene": 56
+    },
+    {
+      "character": "VALENTINA ALLEGRA DE FONTAINE",
+      "text": "Oh, yeah. You and me both. Believe me, you're gonna earn it. I've got your next target. Thought I'd hand-deliver it.",
+      "scene": 56
+    },
+    {
+      "character": "VALENTINA ALLEGRA DE FONTAINE",
+      "text": "Maybe you'd like a shot at the man responsible for your sister's death.",
+      "scene": 56
+    },
+    {
+      "character": "VALENTINA ALLEGRA DE FONTAINE",
+      "text": "Kind of a cutie, don't you think?",
+      "scene": 56
     }
   ],
-  "topSpeakingCast": [
-    "NATASHA",
-    "YELENA",
-    "ALEXEI",
-    "MELINA",
-    "DREYKOV",
-    "RICK MASON",
-    "INGRID",
-    "THADDEUS ROSS"
-  ],
+  "lineCount": 797,
+  "characterCount": 18,
   "imdbId": "tt3480822",
   "poster": "https://m.media-amazon.com/images/M/MV5BZTMyZTA0ZTItYjY3Yi00ODNjLWExYTgtYzgxZTk0NTg0Y2FlXkEyXkFqcGc@._V1_SX300.jpg",
   "rated": "PG-13",
   "runtime": "134 min",
-  "genre": "Action, Adventure, Sci-Fi",
-  "director": "Cate Shortland"
+  "genre": "Action, Adventure, Science Fiction",
+  "director": "",
+  "topSpeakingCast": [
+    "NATASHA ROMANOFF",
+    "YELENA BELOVA",
+    "ALEXEI",
+    "MELINA",
+    "DREYKOV",
+    "MASON",
+    "YOUNG YELENA",
+    "YOUNG NATASHA",
+    "SECRETARY ROSS",
+    "VALENTINA ALLEGRA DE FONTAINE"
+  ]
 }

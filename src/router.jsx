@@ -9,6 +9,7 @@ import { Menu } from './components/Menu.jsx';
 import { HelpModal } from './components/Help.jsx';
 import { SettingsModalContainer } from './components/Settings.jsx';
 import { track, setGlobalContext, clearGlobalContext } from './utils/analytics.js';
+import { clearPackTheme } from './services/theme.js';
 
 const routes = {
   '/': Home,
@@ -67,15 +68,19 @@ function handleRoute() {
     return;
   }
 
+  const isPlayRoute = Boolean(matched.params.packId);
+
   // Set or clear global context based on route
-  if (matched.params.packId) {
+  if (isPlayRoute) {
     setGlobalContext({ pack_id: matched.params.packId });
   } else {
     clearGlobalContext();
+    clearPackTheme();
   }
 
   track('page_view', { page_path: path });
-  document.body.setAttribute('data-theme', path === '/' ? 'main' : 'pack');
+  document.body.setAttribute('data-theme', isPlayRoute ? 'pack' : 'main');
+  document.body.setAttribute('data-route', isPlayRoute ? 'play' : 'page');
 
   const PageComponent = matched.component;
   const contentContainer = document.getElementById('content-area');

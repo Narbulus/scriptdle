@@ -25,8 +25,8 @@ test.describe('Stats Modal', () => {
             await page.getByTestId('menu-stats').click();
 
             // Wait for modal to appear
-            const modal = page.locator('.modal-overlay').filter({ hasText: /Stats|History|played/i });
-            await expect(modal.first()).toBeVisible({ timeout: 5000 });
+            const modal = page.locator('#stats-modal');
+            await expect(modal).toBeVisible({ timeout: 5000 });
         });
     });
 
@@ -55,8 +55,8 @@ test.describe('Stats Modal', () => {
             await page.getByTestId('menu-button').click();
             await page.getByTestId('menu-stats').click();
 
-            const modal = page.locator('.modal-overlay').filter({ hasText: /Stats|History/i });
-            await expect(modal.first()).toBeVisible({ timeout: 5000 });
+            const modal = page.locator('#stats-modal');
+            await expect(modal).toBeVisible({ timeout: 5000 });
         });
 
         test('calculates streak correctly', async ({ page }) => {
@@ -84,11 +84,11 @@ test.describe('Stats Modal', () => {
             await page.getByTestId('menu-button').click();
             await page.getByTestId('menu-stats').click();
 
-            const modal = page.locator('.modal-overlay').filter({ hasText: /Stats|History/i });
-            await expect(modal.first()).toBeVisible({ timeout: 5000 });
+            const modal = page.locator('#stats-modal');
+            await expect(modal).toBeVisible({ timeout: 5000 });
 
             // The modal should contain streak info or the number 3
-            const modalContent = await modal.first().textContent();
+            const modalContent = await modal.textContent();
             expect(modalContent.length).toBeGreaterThan(10);
         });
     });
@@ -100,8 +100,8 @@ test.describe('Stats Modal', () => {
             await page.getByTestId('menu-button').click();
             await page.getByTestId('menu-stats').click();
 
-            const modal = page.locator('.modal-overlay').filter({ hasText: /Stats|History/i });
-            await expect(modal.first()).toBeVisible({ timeout: 5000 });
+            const modal = page.locator('#stats-modal');
+            await expect(modal).toBeVisible({ timeout: 5000 });
         });
 
         test('modal appears on game page', async ({ page }) => {
@@ -112,8 +112,17 @@ test.describe('Stats Modal', () => {
             await page.getByTestId('menu-button').click();
             await page.getByTestId('menu-stats').click();
 
-            const modal = page.locator('.modal-overlay').filter({ hasText: /Stats|History/i });
-            await expect(modal.first()).toBeVisible({ timeout: 5000 });
+            const modal = page.locator('#stats-modal');
+            await expect(modal).toBeVisible({ timeout: 5000 });
+        });
+
+        test('standalone /stats page renders specimen sheet in main theme', async ({ page }) => {
+            await page.goto('/stats');
+            await page.waitForLoadState('networkidle');
+
+            await expect(page.locator('body')).toHaveAttribute('data-theme', 'main');
+            await expect(page.getByTestId('stats-page')).toBeVisible();
+            await expect(page.locator('.stats-page-sheet.collection-sheet.foxed')).toBeVisible();
         });
     });
 
@@ -124,12 +133,12 @@ test.describe('Stats Modal', () => {
             await page.getByTestId('menu-button').click();
             await page.getByTestId('menu-stats').click();
 
-            const modal = page.locator('.modal-overlay').filter({ hasText: /Stats|History/i });
-            await expect(modal.first()).toBeVisible({ timeout: 5000 });
+            const modal = page.locator('#stats-modal');
+            await expect(modal).toBeVisible({ timeout: 5000 });
 
             // Close button - stats modal uses Modal class with modal-close-btn
-            await modal.first().locator('.modal-close-btn').click();
-            await expect(modal.first()).not.toBeVisible();
+            await modal.locator('.modal-close-btn').click();
+            await expect(modal).not.toBeVisible();
         });
     });
 });

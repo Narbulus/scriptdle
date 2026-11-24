@@ -110,7 +110,12 @@ export function Completion({ puzzle, pack, packTheme }) {
             : 'completion-badge-wrapper';
 
         return (
-            <div className="completion-badge-col" onClick={openStatsModal} style={{ cursor: 'pointer' }}>
+            <button
+                type="button"
+                className="completion-badge-col"
+                onClick={openStatsModal}
+                aria-label="Open your collection"
+            >
                 <div className={wrapperClass}>
                     <div
                         ref={flowerRef}
@@ -118,7 +123,7 @@ export function Completion({ puzzle, pack, packTheme }) {
                         style={{ backgroundImage: `url('${svgUrl}')` }}
                     />
                 </div>
-            </div>
+            </button>
         );
     };
 
@@ -190,43 +195,43 @@ export function Completion({ puzzle, pack, packTheme }) {
     };
 
     return (
-        <div id="share-container" data-testid="share-container" style={!isCompact ? { display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' } : undefined}>
+        <div id="share-container" data-testid="share-container">
             {isCompact ? (
-                <>
-                    <div className="completion-split">
-                        <div className="completion-info">
-                            <h2 className="completion-title">{tierMessage}</h2>
-                            <div className="completion-info-content">
-                                <div className="completion-answer">
-                                    It was <strong>{target.character}</strong> in <em>{target.movie}</em>
+                <div className="completion-split">
+                    <div className="completion-info">
+                        <h2 className="completion-title">{tierMessage}</h2>
+                        <div className="completion-info-content">
+                            <div className="completion-answer">
+                                It was <strong>{target.character}</strong> in <em>{target.movie}</em>
+                            </div>
+                            <div className="completion-row">
+                                <div className="stat-box">
+                                    <div className="stat-value">{streak}</div>
+                                    <div className="stat-label">Day Streak</div>
                                 </div>
-                                <div className="completion-row">
-                                    <div className="stat-box">
-                                        <div className="stat-value">{streak}</div>
-                                        <div className="stat-label">Day Streak</div>
-                                    </div>
-                                    {renderBadge()}
-                                    <div className="stat-box">
-                                        <div className="stat-value">{guessStats.value.length}/5</div>
-                                        <div className="stat-label">Attempts</div>
-                                    </div>
-                                </div>
-                                <div className="completion-row">
-                                    <span className="completion-collection-btn" onClick={openStatsModal}>YOUR COLLECTION</span>
+                                {renderBadge()}
+                                <div className="stat-box">
+                                    <div className="stat-value">{guessStats.value.length}/5</div>
+                                    <div className="stat-label">Attempts</div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="completion-stats">
-                            <StatsSection stats={stats} playerBucket={playerBucket} />
+                            <div className="completion-row">
+                                <button type="button" className="completion-collection-btn" onClick={openStatsModal}>
+                                    YOUR COLLECTION
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </>
+                    <div className="completion-stats">
+                        <StatsSection stats={stats} playerBucket={playerBucket} />
+                    </div>
+                </div>
             ) : (
                 <div className="completion-content">
                     <div className="completion-header">
                         <h2 className="completion-title">{tierMessage}</h2>
                         <div className="completion-answer">
-                            It was <strong>{target.character}</strong> in <br /><em>{target.movie}</em>
+                            It was <strong>{target.character}</strong> in <em>{target.movie}</em>
                         </div>
                     </div>
 
@@ -244,25 +249,29 @@ export function Completion({ puzzle, pack, packTheme }) {
                         </div>
                     </div>
 
-                    <div className="completion-row">
-                        <span className="completion-collection-btn">YOUR COLLECTION</span>
+                    <div className="completion-row completion-collection-row">
+                        <button type="button" className="completion-collection-btn" onClick={openStatsModal}>
+                            YOUR COLLECTION
+                        </button>
                     </div>
 
                     <div className="share-section">
-                        {puzzle.imdbId && (
-                            <a
-                                href={`https://www.imdb.com/title/${puzzle.imdbId}/`}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="movie-imdb-link"
-                            >
-                                View on IMDB
-                            </a>
-                        )}
+                        <div className="completion-links-row">
+                            {puzzle.imdbId && (
+                                <a
+                                    href={`https://www.imdb.com/title/${puzzle.imdbId}/`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="movie-imdb-link"
+                                >
+                                    View on IMDB
+                                </a>
+                            )}
 
-                        <a href="/" data-link className="footer-more-movies" style={{ fontSize: '0.9rem' }}>
-                            More Movies
-                        </a>
+                            <a href="/" data-link className="footer-more-movies">
+                                More Movies
+                            </a>
+                        </div>
 
                         <div className="share-preview-tray">
                             <div className="share-preview-text">
@@ -274,7 +283,7 @@ export function Completion({ puzzle, pack, packTheme }) {
                                 <button id="share-btn" data-testid="share-button" className="share-btn-small" onClick={handleShare}>
                                     Share Results
                                 </button>
-                                <button className="copy-button" onClick={handleCopy} aria-label="Copy to clipboard">
+                                <button type="button" className="copy-button" onClick={handleCopy} aria-label="Copy to clipboard">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                         <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
                                         <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>

@@ -143,6 +143,17 @@ class PuzzleGenerator:
 
                 # Also check padding: need 1 before, 3 after
                 if idx >= 1 and idx < len(all_lines) - 3:
+                    # Respect explicit scene boundaries when present on newly
+                    # extracted scripts so context clues never jump across scenes.
+                    scene = line.get('scene')
+                    if scene is not None:
+                        if (
+                            all_lines[idx + 1].get('movieId') != movie_id
+                            or all_lines[idx + 2].get('movieId') != movie_id
+                            or all_lines[idx + 1].get('scene') != scene
+                            or all_lines[idx + 2].get('scene') != scene
+                        ):
+                            continue
                     if movie_id not in indices_by_movie:
                         indices_by_movie[movie_id] = []
                     indices_by_movie[movie_id].append(idx)
@@ -225,7 +236,8 @@ class PuzzleGenerator:
                     'movie': script['title'],
                     'movieId': movie_id,
                     'originalIndex': idx,
-                    'year': script.get('year')
+                    'year': script.get('year'),
+                    'scene': line.get('scene'),
                 })
 
         return all_lines
@@ -361,9 +373,11 @@ class PuzzleGenerator:
             'cycleLength': total_lines
         }
 
-        # Include tierMessages if present in pack definition
+        # Include tierMessages and mediaType if present in pack definition
         if 'tierMessages' in pack:
             manifest['tierMessages'] = pack['tierMessages']
+        if 'mediaType' in pack:
+            manifest['mediaType'] = pack['mediaType']
 
         return manifest
 

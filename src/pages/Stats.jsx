@@ -1,48 +1,57 @@
 import { signal } from '@preact/signals';
-import { useState } from 'preact/hooks';
+import { useState, useEffect } from 'preact/hooks';
 import {
     getStreak,
     getAllCompletions
 } from '../utils/completionTracker.js';
 import { generateFlower, generateBeetle } from '../utils/flowerGenerator.js';
 import { parseLocalDate } from '../utils/time.js';
-import { isCompactPlatform } from '../services/platform.js';
+import { Modal } from '../components/common/Modal.jsx';
 
-// Compact pagination: 2 rows per page, columns determined by viewport width
+// Modal pagination: 2 rows per page, columns determined by viewport width
 const ROWS_PER_PAGE = 2;
 
-function getCompactColumns() {
+function getGridColumns() {
     if (typeof window === 'undefined') return 3;
     return window.innerWidth >= 500 ? 4 : 3;
 }
 
-export function StatsContent() {
+export function StatsContent({ paginated = true }) {
     const streak = getStreak();
     const completions = getAllCompletions();
     const [selectedIndex, setSelectedIndex] = useState(completions.length > 0 ? 0 : null);
     const [page, setPage] = useState(0);
-    const compact = isCompactPlatform();
+    const [columnsPerRow, setColumnsPerRow] = useState(getGridColumns);
 
-    const columnsPerRow = compact ? getCompactColumns() : 3;
+    useEffect(() => {
+        const onResize = () => setColumnsPerRow(getGridColumns());
+        window.addEventListener('resize', onResize);
+        return () => window.removeEventListener('resize', onResize);
+    }, []);
+
     const itemsPerPage = ROWS_PER_PAGE * columnsPerRow;
 
-    // Calculate empty slots: pad to fill rows
-    const minSlots = compact ? itemsPerPage : 9;
-    const totalSlots = Math.max(minSlots, Math.ceil((completions.length + (compact ? columnsPerRow : 9)) / columnsPerRow) * columnsPerRow);
+    // Pad grid to complete rows so the specimen sheet reads as an intentional album
+    const minSlots = paginated ? itemsPerPage : columnsPerRow * 3;
+    const totalSlots = Math.max(
+        minSlots,
+        Math.ceil((completions.length + columnsPerRow) / columnsPerRow) * columnsPerRow
+    );
     const emptyCount = totalSlots - completions.length;
 
-    // Build all items (completions + empty slots)
     const allItems = [
         ...completions.map((completion, index) => ({ type: 'completion', completion, index })),
         ...Array.from({ length: emptyCount }).map((_, i) => ({ type: 'empty', index: completions.length + i })),
     ];
 
-    // Pagination keeps compact modals at a stable height.
-    const totalPages = compact ? Math.max(1, Math.ceil(allItems.length / itemsPerPage)) : 1;
-    let pageItems = compact ? allItems.slice(page * itemsPerPage, (page + 1) * itemsPerPage) : allItems;
+    const totalPages = paginated ? Math.max(1, Math.ceil(allItems.length / itemsPerPage)) : 1;
+    const safePage = Math.min(page, totalPages - 1);
+    let pageItems = paginated
+        ? allItems.slice(safePage * itemsPerPage, (safePage + 1) * itemsPerPage)
+        : allItems;
 
-    // Pad last page to full size so the modal doesn't resize between pages
-    if (compact && pageItems.length < itemsPerPage) {
+    // Pad last page to full size so the modal never resizes between pages
+    if (paginated && pageItems.length < itemsPerPage) {
         const pad = itemsPerPage - pageItems.length;
         pageItems = [
             ...pageItems,
@@ -51,15 +60,10 @@ export function StatsContent() {
     }
 
     const selected = selectedIndex !== null ? completions[selectedIndex] : null;
+    const wins = completions.filter(c => c.success).length;
+    const perfects = completions.filter(c => c.success && c.attempts === 1).length;
 
-    // Detail lives in a fixed slot below the grid rather than being injected
-    // into it. The old .inventory-tooltip spanned a grid row above the
-    // selected tile, so every click reflowed the grid and jumped the tiles —
-    // and its caret offset hardcoded 3 columns while getCompactColumns()
-    // returns 4 above 500px, so it pointed at the wrong tile on wide views.
-    const gridContent = [];
-    for (let i = 0; i < pageItems.length; i++) {
-        const item = pageItems[i];
+    const gridContent = pageItems.map((item) => {
         if (item.type === 'completion') {
             const { completion, index } = item;
             const seed = completion.packId + completion.date;
@@ -68,41 +72,45 @@ export function StatsContent() {
                 ? generateFlower(seed, '#fff9c4', { golden: isPerfect })
                 : generateBeetle(seed, '#fff9c4');
 
-            gridContent.push(
-                <div
+            return (
+                <button
+                    type="button"
                     key={`${completion.packId}-${completion.date}`}
                     className={`inventory-item${selectedIndex === index ? ' selected' : ''}`}
+                    aria-pressed={selectedIndex === index}
+                    aria-label={`${formatPackName(completion.packId)}, ${formatDate(completion.date)}`}
                     onClick={() => setSelectedIndex(selectedIndex === index ? null : index)}
                 >
                     <div
                         className="inventory-item-svg"
                         style={{ backgroundImage: `url("${svgUrl}")` }}
                     />
-                </div>
-            );
-        } else {
-            gridContent.push(
-                <div key={`empty-${item.index}`} className="inventory-item empty" />
+                </button>
             );
         }
-    }
+
+        return <div key={`empty-${item.index}`} className="inventory-item empty" aria-hidden="true" />;
+    });
 
     return (
-        <div className="stats-container" style={{ padding: 0 }}>
-            {/* Streak */}
-            {(
-                <div className="streak-section">
-                    <span className="streak-count">{streak}</span>
-                    <span className="streak-label">day streak</span>
-                </div>
-            )}
+        <div className="stats-container" data-testid="stats-collection">
+            {/* Streak & summary */}
+            <div className="streak-section">
+                <span className="streak-count">{streak}</span>
+                <span className="streak-label">day streak</span>
+                {completions.length > 0 && (
+                    <span className="streak-summary">
+                        &middot; {wins} solved{perfects > 0 ? ` · ${perfects} perfect` : ''}
+                    </span>
+                )}
+            </div>
 
-            {/* Inventory Grid */}
+            {/* Specimen Grid */}
             <div className="inventory-grid">
                 {gridContent}
             </div>
 
-            {/* Selected entry detail — fixed slot, reserved height */}
+            {/* Selected entry detail — fixed height slot so clicking tiles never reflows */}
             <div className="inventory-detail">
                 {selected ? (
                     <>
@@ -119,26 +127,30 @@ export function StatsContent() {
                     </>
                 ) : (
                     <div className="inventory-detail-empty">
-                        Pick a specimen to see where it came from.
+                        {completions.length > 0
+                            ? 'Pick a specimen to see where it came from.'
+                            : 'Play a daily puzzle to press your first specimen.'}
                     </div>
                 )}
             </div>
 
-            {/* Pagination footer for compact layouts */}
-            {compact && totalPages > 1 && (
+            {/* Pagination footer (modal view) */}
+            {paginated && totalPages > 1 && (
                 <div className="inventory-pagination">
                     <button
+                        type="button"
                         className="inventory-page-btn"
-                        onClick={() => { setPage(p => p - 1); setSelectedIndex(null); }}
-                        disabled={page === 0}
+                        onClick={() => { setPage(p => Math.max(0, p - 1)); setSelectedIndex(null); }}
+                        disabled={safePage === 0}
                     >
                         ◀ Prev
                     </button>
-                    <span className="inventory-page-indicator">{page + 1} / {totalPages}</span>
+                    <span className="inventory-page-indicator">{safePage + 1} / {totalPages}</span>
                     <button
+                        type="button"
                         className="inventory-page-btn"
-                        onClick={() => { setPage(p => p + 1); setSelectedIndex(null); }}
-                        disabled={page >= totalPages - 1}
+                        onClick={() => { setPage(p => Math.min(totalPages - 1, p + 1)); setSelectedIndex(null); }}
+                        disabled={safePage >= totalPages - 1}
                     >
                         Next ▶
                     </button>
@@ -148,8 +160,6 @@ export function StatsContent() {
     );
 }
 
-import { Modal } from '../components/common/Modal.jsx';
-
 function StatsModal({ isOpen, onClose }) {
     return (
         <Modal
@@ -157,15 +167,15 @@ function StatsModal({ isOpen, onClose }) {
             isOpen={isOpen}
             onClose={onClose}
             title="Your Collection"
+            containerClassName="collection-sheet foxed"
         >
             <div className="modal-body custom-scrollbar">
-                <StatsContent />
+                <StatsContent paginated={true} />
             </div>
         </Modal>
     );
 }
 
-// Helpers
 function formatPackName(packId) {
     return packId.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 }
@@ -191,6 +201,23 @@ export function StatsModalContainer() {
 }
 
 export function Stats() {
-    window.location.href = '/';
-    return null;
+    useEffect(() => {
+        document.title = 'Your Collection - Scriptle';
+    }, []);
+
+    return (
+        <main className="stats-page" data-testid="stats-page">
+            <section className="stats-page-sheet collection-sheet foxed" aria-labelledby="stats-page-title">
+                <header className="collection-sheet-header">
+                    <h1 id="stats-page-title" className="collection-sheet-title">Your Collection</h1>
+                    <a href="/" data-link className="collection-sheet-back">
+                        &larr; All Packs
+                    </a>
+                </header>
+                <div className="collection-sheet-body">
+                    <StatsContent paginated={false} />
+                </div>
+            </section>
+        </main>
+    );
 }

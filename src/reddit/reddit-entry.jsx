@@ -2,6 +2,7 @@ import { render } from 'preact';
 import { useState, useEffect } from 'preact/hooks';
 import { setStorageBackend } from '../services/storage.js';
 import { applyStoredSettings } from '../services/settings.js';
+import { applyPackTheme } from '../services/theme.js';
 import { configurePlatform } from '../services/platform.js';
 import { createRedisBackend } from './redis-storage.js';
 import { createRedditPlatform } from './reddit-platform.js';
@@ -32,23 +33,6 @@ const loadGameShell = () => import('./GameShell.jsx').then(mod => {
   gameShell = mod.default;
   return gameShell;
 });
-
-function applyTheme(t) {
-  if (!t) return;
-  const root = document.documentElement;
-  root.style.setProperty('--pack-primary', t.primary || '#333');
-  root.style.setProperty('--pack-bg', t.bgColor || '#f4f4f4');
-  root.style.setProperty('--pack-surface', t.containerBg || '#ffffff');
-  root.style.setProperty('--pack-accent', t.accentColor || '#555');
-  root.style.setProperty('--pack-btn-text', t.btnText || '#ffffff');
-  root.style.setProperty('--pack-text', t.primary || '#333');
-  root.style.setProperty('--pack-text-secondary', t.accentColor || '#555');
-  root.style.setProperty('--pack-text-muted', t.muted || '#999');
-  root.style.setProperty('--pack-card-gradient-start', t.cardGradientStart || t.bgColor || '#333');
-  root.style.setProperty('--pack-card-gradient-end', t.cardGradientEnd || t.bgColor || '#555');
-  root.style.setProperty('--pack-card-border', t.cardBorder || t.primary || '#333');
-  root.style.setProperty('--pack-card-text', t.cardText || '#ffffff');
-}
 
 function getPreviewConfig() {
   if (!import.meta.env.DEV) return null;
@@ -171,7 +155,7 @@ function RedditApp() {
       .then(loaded => {
         if (cancelled) return;
         applyStoredSettings();
-        applyTheme(loaded.packData.theme);
+        applyPackTheme(loaded.packData.theme);
         setData(loaded);
         loadGameShell();
       })

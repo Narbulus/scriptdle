@@ -2,7 +2,7 @@
    THEME CONTEXT SCOPING
    ======================================== */
 
-/* Main theme context - home page UI, script area */
+/* Main theme context - home page UI, modals, static pages */
 [data-theme="main"] {
     background: var(--main-bg);
     color: var(--main-text);
@@ -22,34 +22,20 @@
     --text-error: var(--main-text-error);
 }
 
-[data-theme="main"] .nav-bar {
-    background: var(--main-nav-bg);
-}
-
+[data-theme="main"] .nav-bar,
 [data-theme="main"] .game-footer {
     background: var(--main-nav-bg);
 }
 
-
 [data-theme="main"] .nav-logo,
-[data-theme="main"] .nav-back {
-    color: var(--main-text);
-}
-
-[data-theme="main"] .script-title,
-[data-theme="main"] .character-name {
-    color: var(--main-text);
-}
-
-[data-theme="main"] .script-subtitle,
-[data-theme="main"] .dialogue-text {
-    color: var(--main-text-secondary);
-}
-
+[data-theme="main"] .character-name,
 [data-theme="main"] .nav-help-btn,
-[data-theme="main"] .nav-results-link,
 [data-theme="main"] .nav-menu-btn {
     color: var(--main-text);
+}
+
+[data-theme="main"] .dialogue-text {
+    color: var(--main-text-secondary);
 }
 
 /* Pack theme context - pack cards, game UI */
@@ -72,24 +58,19 @@
     --text-error: #c00;
 }
 
-[data-theme="pack"] .nav-bar {
-    background: var(--pack-bg);
-}
-
+[data-theme="pack"] .nav-bar,
 [data-theme="pack"] .game-footer {
     background: var(--pack-bg);
 }
 
-
-[data-theme="pack"] .nav-logo,
-[data-theme="pack"] .nav-back {
+[data-theme="pack"] .nav-logo {
     color: var(--pack-text);
 }
 
 [data-theme="pack"] .nav-help-btn,
-[data-theme="pack"] .nav-results-link,
 [data-theme="pack"] .nav-menu-btn {
     color: var(--pack-primary);
+    background: transparent;
 }
 
 [data-theme="pack"] button {
@@ -97,19 +78,11 @@
     color: var(--pack-btn-text);
 }
 
-/* Holistic Fix: Ensure buttons in a main-theme context (like modals) 
-   override the pack-theme styles from the body */
+/* Ensure buttons inside main-theme contexts (like modals) override body's pack theme */
 [data-theme="main"] button {
     background: transparent;
     color: var(--main-text);
     border-color: var(--main-text);
-}
-
-/* Override: keep nav buttons as transparent text links */
-[data-theme="pack"] .nav-help-btn,
-[data-theme="pack"] .nav-results-link,
-[data-theme="pack"] .nav-menu-btn {
-    background: transparent;
 }
 
 .pack-row[data-theme="pack"] {
@@ -141,10 +114,6 @@
 [data-theme="script"] .dialogue-text {
     color: #000000;
     font-weight: 500;
-}
-
-[data-theme="script"] .script-then {
-    color: var(--script-text-muted);
 }
 
 /* ========================================

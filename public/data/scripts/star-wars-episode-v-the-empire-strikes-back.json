@@ -1,0 +1,4279 @@
+{
+  "id": "star-wars-episode-v-the-empire-strikes-back",
+  "title": "Star Wars: Episode V - The Empire Strikes Back",
+  "year": 1980,
+  "characters": [
+    "ADMIRAL OZZEL",
+    "ADMIRAL PIETT",
+    "BOBA FETT",
+    "BOBA FETT (VOICE - UNCREDITED)",
+    "C-3PO",
+    "CAPTAIN NEEDA",
+    "CHEWBACCA",
+    "DAK RALTER",
+    "DARTH VADER",
+    "DEREK 'HOBBIE' KLIVIAN",
+    "EMPEROR PALPATINE",
+    "GENERAL RIEEKAN",
+    "GENERAL VEERS",
+    "HAN SOLO",
+    "LANDO CALRISSIAN",
+    "LUKE SKYWALKER",
+    "MAJOR DERLIN",
+    "OBI-WAN KENOBI",
+    "PRINCESS LEIA",
+    "PROTOCOL DROID",
+    "WEDGE ANTILLES",
+    "WES JANSON",
+    "YODA",
+    "ZEV SENESCA"
+  ],
+  "lines": [
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Echo three to echo seven. Han, old buddy, do you read me?",
+      "scene": 0
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Loud and clear, kid. What's up?",
+      "scene": 0
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I finished my circle. I don't pick up any life readings.",
+      "scene": 0
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "There isn't enough life on this ice cube to fill a space cruiser. Sensors are placed. I'm going back.",
+      "scene": 0
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Right. I'll see you shortly. There's a meteorite that hit the ground near here. I want to check it out. It won't take long.",
+      "scene": 0
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Steady, girl. What's the matter? You smell something?",
+      "scene": 0
+    },
+    {
+      "character": "GENERAL RIEEKAN",
+      "text": "Solo?",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "No sign of life out there, general. The sensors are in place. You'll know if anything comes around.",
+      "scene": 1
+    },
+    {
+      "character": "GENERAL RIEEKAN",
+      "text": "Commander Skywalker reported in yet?",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "No. He's checking out a meteorite that hit near him.",
+      "scene": 1
+    },
+    {
+      "character": "GENERAL RIEEKAN",
+      "text": ", it's going to be difficult to spot approaching ships.",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "General, I got to leave. I can't stay anymore.",
+      "scene": 1
+    },
+    {
+      "character": "GENERAL RIEEKAN",
+      "text": "I'm sorry to hear that.",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Well, there's a price on my head. If I don't pay off jabba the hutt, I'm a dead man.",
+      "scene": 1
+    },
+    {
+      "character": "GENERAL RIEEKAN",
+      "text": "A death Mark's not an easy thing to live with. You're a good fighter, solo. I hate to lose you.",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Thank you, general.",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Well, your highness, guess this is it.",
+      "scene": 1
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "That's right.",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Well, don't get all mushy on me. So long, Princess.",
+      "scene": 1
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Han!",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Yes, your highnessness?",
+      "scene": 1
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "I thought you had decided to stay.",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Well, the bounty hunter we ran into in ord mantell changed my mind.",
+      "scene": 1
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Han, we need you!",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "\"We need\"? Yes. Well, what about you need?",
+      "scene": 1
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "I need? I don't know what you're talking about.",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "You probably don't.",
+      "scene": 1
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "And what precisely am I supposed to know?",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Come onl! You want me to stay because of the way you feel about me.",
+      "scene": 1
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Yes! You're a great help to us. You're a natural leader.",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "No! That's not it. Come on. A-ha come on.",
+      "scene": 1
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "You're imagining things.",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Am 1? Then why are you following me? Afraid I was gonna leave without giving you a good-bye kiss?",
+      "scene": 1
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "I'd just as soon kiss a wookiee!",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "I can arrange that. You could use a good kiss!",
+      "scene": 1
+    },
+    {
+      "character": "C-3PO",
+      "text": "Don't try to blame me. I didn't ask you to turn on the thermal heater. I merely commented that it was freezing in the Princess' chamber. But it's supposed to be freezing. How we're going to dry out all her clothes, I really don't know.",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Oh, switch off! Why did you take this apart now? I'm trying to get us out of here, and you pull both...",
+      "scene": 1
+    },
+    {
+      "character": "C-3PO",
+      "text": "Excuse me, sir.",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Put them back together now!",
+      "scene": 1
+    },
+    {
+      "character": "C-3PO",
+      "text": "Might I have a word with you, please?",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "What do you want? “Well, it's Princess Leia, sir.",
+      "scene": 1
+    },
+    {
+      "character": "C-3PO",
+      "text": "She's been trying to get you on the communicator.",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "I turned it off. I don't want to talk to her.",
+      "scene": 1
+    },
+    {
+      "character": "C-3PO",
+      "text": "Well, Princess Leia is wondering about master Luke. He hasn't come back yet. She doesn't know where he is.",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "I don't know where he is.",
+      "scene": 1
+    },
+    {
+      "character": "C-3PO",
+      "text": "Nobody knows where he is.",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "What do you mean, nobody knows?",
+      "scene": 1
+    },
+    {
+      "character": "C-3PO",
+      "text": "Well, uh, you see...",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Deck officer! Deck officer!",
+      "scene": 1
+    },
+    {
+      "character": "C-3PO",
+      "text": "Excuse me, sir, might I...",
+      "scene": 1
+    },
+    {
+      "character": "DECK OFFICER",
+      "text": "Yes, sir? As, sir?",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Do you know where commander Skywalker is?",
+      "scene": 1
+    },
+    {
+      "character": "DECK OFFICER",
+      "text": "I haven't seen him. It's possible he came in through the south entrance.",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "\"It's possible™? Why don't you go find out? It's getting dark out there.",
+      "scene": 1
+    },
+    {
+      "character": "DECK OFFICER",
+      "text": "Yes, sir.",
+      "scene": 1
+    },
+    {
+      "character": "C-3PO",
+      "text": "Excuse me, sir. Might I inquire what's going on?",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Why not?",
+      "scene": 1
+    },
+    {
+      "character": "C-3PO",
+      "text": "Impossible man. Come along, r2, let's find Princess Leia. Between ourselves, I think master Luke is in considerable danger.",
+      "scene": 1
+    },
+    {
+      "character": "DECK OFFICER",
+      "text": "Sir, commander Skywalker hasn't come in the south entrance. He might have forgotten to check in.",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Not likely. Are the speeders ready?",
+      "scene": 1
+    },
+    {
+      "character": "DECK OFFICER",
+      "text": "Uh, not yet. We're having trouble adapting them to the cold.",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "We'll have to go out on tauntauns.",
+      "scene": 1
+    },
+    {
+      "character": "DECK OFFICER",
+      "text": "Sir, the temperature's dropping too rapidly.",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "That's right, and my friend's out in it.",
+      "scene": 1
+    },
+    {
+      "character": "DECK OFFICER",
+      "text": "Your tauntaun will freeze before you reach the first marker.",
+      "scene": 1
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Then I'll see you in hell. Hyah!",
+      "scene": 1
+    },
+    {
+      "character": "LIEUTENANT",
+      "text": "Sir, all the patrols are in. Still no...",
+      "scene": 2
+    },
+    {
+      "character": "MAJOR DERLIN",
+      "text": "Still no contact from Skywalker or solo.",
+      "scene": 2
+    },
+    {
+      "character": "C-3PO",
+      "text": "Mistress Leia, r2 says he's been quite unable to pick up any signals, although he does admit that his own range is far too weak to abandon all hope.",
+      "scene": 2
+    },
+    {
+      "character": "MAJOR DERLIN",
+      "text": "Your highness, there's nothing more we can do tonight. The shield doors must be closed.",
+      "scene": 2
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Close the doors.",
+      "scene": 2
+    },
+    {
+      "character": "LIEUTENANT",
+      "text": "Yes, sir.",
+      "scene": 2
+    },
+    {
+      "character": "C-3PO",
+      "text": "R2 says the chances of survival are 725 to 1.",
+      "scene": 2
+    },
+    {
+      "character": "C-3PO",
+      "text": "Actually, r2 has been known to make mistakes...",
+      "scene": 2
+    },
+    {
+      "character": "C-3PO",
+      "text": "From time to time. Oh, dear. Oh, dear.",
+      "scene": 2
+    },
+    {
+      "character": "C-3PO",
+      "text": "Don't worry about master Luke. I'm sure he'll be all right. He's quite clever, you know, for a human being.",
+      "scene": 2
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Luke.",
+      "scene": 3
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Luke.",
+      "scene": 3
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Ben?",
+      "scene": 3
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "You will go to the dagobah system.",
+      "scene": 3
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Dagobah system?",
+      "scene": 3
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "There you will learn from Yoda, the jedi master who instructed me.",
+      "scene": 3
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Ben! Ben.",
+      "scene": 3
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Luke! Luke!",
+      "scene": 3
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Don't do this, Luke. Come on, give me a sign here.",
+      "scene": 3
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Not much time.",
+      "scene": 4
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Ben. Ben.",
+      "scene": 4
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Hang on, kid.",
+      "scene": 4
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Dagobah system. Dagobah.",
+      "scene": 4
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Whew! This may smell bad, kid...",
+      "scene": 4
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Yoda.",
+      "scene": 4
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "But it'll keep you warm... Till I get the shelter up.",
+      "scene": 4
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Ben... dagobah...",
+      "scene": 4
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Ahhh! Ah! I thought they smelled bad on the outside!",
+      "scene": 4
+    },
+    {
+      "character": "ZEV SENESCA",
+      "text": "Echo base, I've got something. Not much, but it could be a life form.",
+      "scene": 5
+    },
+    {
+      "character": "ZEV SENESCA",
+      "text": "Commander Skywalker, do you copy? This is rogue two. This is rogue two. Captain solo, do you copy?",
+      "scene": 5
+    },
+    {
+      "character": "ZEV SENESCA",
+      "text": "Commander Skywalker, do you copy? This is rogue two.",
+      "scene": 5
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Good morning. Nice of you guys to drop by.",
+      "scene": 5
+    },
+    {
+      "character": "ZEV SENESCA",
+      "text": "Echo base, this is rogue two. I've found them. Repeat, I've found them.",
+      "scene": 5
+    },
+    {
+      "character": "C-3PO",
+      "text": "Master Luke, sir, it's so good to see you fully functional again.",
+      "scene": 6
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Thanks, 3po.",
+      "scene": 6
+    },
+    {
+      "character": "C-3PO",
+      "text": "R2 expresses his relief also.",
+      "scene": 6
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "How ya feelin', kid? You don't look so bad to me. You look strong enough to pull the ears off a gundark.",
+      "scene": 6
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Thanks to you.",
+      "scene": 6
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "That's two you owe me, junior. J j well, your worship, looks like you managed to keep me around for a little while longer.",
+      "scene": 6
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "I had nothing to do with it. General rieekan thinks it's dangerous for any ships to leave the system until we've activated the energy field.",
+      "scene": 6
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "That's a good story. I think you just can't bear to let a gorgeous guy like me out of your sight.",
+      "scene": 6
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "I don't know where you get your delusions, laser brain.",
+      "scene": 6
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Laugh it up, fuzzball, but you didn't see us alone in the south passage. She expressed her true feelings for me.",
+      "scene": 6
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Why, you stuck-up, half-witted, scruffy-looking nerf herder!",
+      "scene": 6
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Who's scruffy-looking?",
+      "scene": 6
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "I must have hit pretty close to the Mark to get her all riled up like that, huh, kid?",
+      "scene": 6
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Well, I guess you don't know everything about women yet,",
+      "scene": 6
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Headquarters personnel, report to command center.",
+      "scene": 6
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Headquarters personnel, report to command center.",
+      "scene": 6
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Take it easy.",
+      "scene": 6
+    },
+    {
+      "character": "C-3PO",
+      "text": "Excuse us, please.",
+      "scene": 6
+    },
+    {
+      "character": "GENERAL RIEEKAN",
+      "text": "Princess, we have a visitor. Picked up something outside the base's zone 12 moving east.",
+      "scene": 6
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "It's metal.",
+      "scene": 6
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Then it couldn't be one of those creatures.",
+      "scene": 6
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Could be a speeder, one of ours.",
+      "scene": 6
+    },
+    {
+      "character": "GENERAL RIEEKAN",
+      "text": "No. Wait. There's something very weak coming through.",
+      "scene": 6
+    },
+    {
+      "character": "C-3PO",
+      "text": "Sir, I'm fluent in six million forms of communication. This signal is not used by the alliance. It could be an imperial code.",
+      "scene": 6
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "It isn't friendly, whatever it is. Come on, Chewie, let's check it out.",
+      "scene": 6
+    },
+    {
+      "character": "GENERAL RIEEKAN",
+      "text": "Send rogues 10 and 11 to station 38.",
+      "scene": 6
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "I'm afraid there's not much left",
+      "scene": 7
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "What was it? Droid of some kind.",
+      "scene": 7
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "I didn't hit it that hard, must've had a self-destruct an imperial probe droid. It's a good bet the empire knows we're here.",
+      "scene": 7
+    },
+    {
+      "character": "GENERAL RIEEKAN",
+      "text": "We'd better start the evacuation.",
+      "scene": 7
+    },
+    {
+      "character": "ADMIRAL PIETT",
+      "text": "Admiral.",
+      "scene": 8
+    },
+    {
+      "character": "ADMIRAL OZZEL",
+      "text": "Yes, captain?",
+      "scene": 8
+    },
+    {
+      "character": "ADMIRAL PIETT",
+      "text": "I think we've got something, sir. The report is only a fragment from a probe droid in the hoth system, but it's the best lead we've had.",
+      "scene": 8
+    },
+    {
+      "character": "ADMIRAL OZZEL",
+      "text": "We have thousands of probe droids searching the galaxy. I want proof, not leads.",
+      "scene": 8
+    },
+    {
+      "character": "ADMIRAL PIETT",
+      "text": "The visuals indicate life readings.",
+      "scene": 8
+    },
+    {
+      "character": "ADMIRAL OZZEL",
+      "text": "It could mean anything. If we followed up every lead...",
+      "scene": 8
+    },
+    {
+      "character": "ADMIRAL PIETT",
+      "text": "But, sir, the hoth system is supposed to be devoid of humans.",
+      "scene": 8
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "You've found something?",
+      "scene": 8
+    },
+    {
+      "character": "ADMIRAL PIETT",
+      "text": "Yes, my lord.",
+      "scene": 8
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "That's it. The rebels are there.",
+      "scene": 8
+    },
+    {
+      "character": "ADMIRAL OZZEL",
+      "text": "My lord, there are so many uncharted settlements. It could be smugglers...",
+      "scene": 8
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "That is the system. And I'm sure Skywalker is with them. Y set your course for the hoth system. General veers, prepare your men.",
+      "scene": 8
+    },
+    {
+      "character": "GENERAL VEERS",
+      "text": "Admiral.",
+      "scene": 8
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Groups 7 and 10 will stay behind to fly the speeders. As soon as each transport is loaded, evacuation control will give clearance for immediate launch.",
+      "scene": 8
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Try it.",
+      "scene": 9
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh! Turn it off! Turn it off! Turn it off!",
+      "scene": 9
+    },
+    {
+      "character": "REBEL OFFICER",
+      "text": "Sir, it will take quite a while to evacuate the t-47s.",
+      "scene": 9
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Forget the heavy equipment. There's plenty of time to get the smaller modules on the transports.",
+      "scene": 9
+    },
+    {
+      "character": "REBEL OFFICER",
+      "text": "Take care, sir.",
+      "scene": 9
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Thanks.",
+      "scene": 9
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Chewie, take care of yourself, okay?",
+      "scene": 9
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Okay, okay! Hi, kid. There's got to be a reason for it. Check it at the other end. Wait a second. You all right?",
+      "scene": 9
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Yeah.",
+      "scene": 9
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Be careful.",
+      "scene": 9
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "You, too.",
+      "scene": 9
+    },
+    {
+      "character": "REBEL OFFICER",
+      "text": "General, there's a fleet of star destroyers coming out of hyperspace in sector four.",
+      "scene": 9
+    },
+    {
+      "character": "GENERAL RIEEKAN",
+      "text": "Reroute all power to the energy shield. We gotta hold them till all transports are away. Prepare for ground assault.",
+      "scene": 9
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "What is it, general?",
+      "scene": 10
+    },
+    {
+      "character": "GENERAL VEERS",
+      "text": "My lord, the fleet has moved out of light speed. Comscan has detected an energy field protecting an area of the sixth planet of the hoth system. The field is strong enough to deflect any bombardment.",
+      "scene": 10
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "The rebels are alerted to our presence. Admiral ozzel came out of light speed too close to the system.",
+      "scene": 10
+    },
+    {
+      "character": "GENERAL VEERS",
+      "text": "He... he felt surprise was wiser.",
+      "scene": 10
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "He is as clumsy as he is stupid. General, prepare your troops for a surface attack.",
+      "scene": 10
+    },
+    {
+      "character": "GENERAL VEERS",
+      "text": "Yes, my lord.",
+      "scene": 10
+    },
+    {
+      "character": "ADMIRAL OZZEL",
+      "text": "Lord vader the fleet has moved out of light speed, and we're preparing to...",
+      "scene": 10
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "You have failed me for the last time, admiral. Captain piett.",
+      "scene": 10
+    },
+    {
+      "character": "ADMIRAL PIETT",
+      "text": "Yes, my lord?",
+      "scene": 10
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Make ready to land our troops beyond their energy field and deploy the fleet so that nothing gets off the system. You are in command now, admiral piett.",
+      "scene": 10
+    },
+    {
+      "character": "ADMIRAL PIETT",
+      "text": "Thank you, lord vader.",
+      "scene": 10
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "All troop carriers will assemble at the north entrance. The heavy transport ships will leave as soon as they're loaded. Only two fighter escorts per ship. The energy shield can only be opened for a short time, so you'll have to stay very close to your transports.",
+      "scene": 10
+    },
+    {
+      "character": "REBEL PILOT",
+      "text": "Two fighters against a star destroyer?",
+      "scene": 10
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "The ion Cannon will fire several shots to make sure that any enemy ships will be out of your flight path. When you've gotten past the energy shield, proceed directly to the rendezvous point. Understood? All: Yeah. Good luck.",
+      "scene": 10
+    },
+    {
+      "character": "REBEL OFFICER",
+      "text": "Okay. Everybody to your stations. Let's go.",
+      "scene": 10
+    },
+    {
+      "character": "GENERAL RIEEKAN",
+      "text": "Their primary target will be the power generators. Prepare to open shield.",
+      "scene": 11
+    },
+    {
+      "character": "IMPERIAL OFFICER",
+      "text": "Sir, rebel ships are coming into our sector. Good. Our first catch of the day.",
+      "scene": 11
+    },
+    {
+      "character": "REBEL CONTROLLER",
+      "text": "Stand by, ion control. Fire.",
+      "scene": 11
+    },
+    {
+      "character": "REBEL CONTROLLER",
+      "text": "The first transport is away. The first transport is away.",
+      "scene": 12
+    },
+    {
+      "character": "DAK RALTER",
+      "text": "Feeling all right, sir?",
+      "scene": 12
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Just like new, dak. How about you?",
+      "scene": 12
+    },
+    {
+      "character": "DAK RALTER",
+      "text": "Right now I feel I could take on the whole empire myself.",
+      "scene": 12
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I know what you mean.",
+      "scene": 12
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Echo station five-seven. We're on our way.",
+      "scene": 13
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "All right, boys, keep tight now.",
+      "scene": 13
+    },
+    {
+      "character": "DAK RALTER",
+      "text": "Luke, I have no approach vector. I'm not set.",
+      "scene": 13
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Steady, dak. Attack pattern delta. Go now.",
+      "scene": 13
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "That armor's too strong for blasters.",
+      "scene": 14
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Rogue group, use your harpoons and tow cables. Go for the legs. It might be our only chance of stopping them.",
+      "scene": 14
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "All right. Stand by, dak.",
+      "scene": 14
+    },
+    {
+      "character": "DAK RALTER",
+      "text": "Oh, Luke, we've got a malfunction in fire control. I'll have to cut in the auxiliary.",
+      "scene": 14
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Just hang on. Hang on, dak. Get ready to fire that tow cable.",
+      "scene": 14
+    },
+    {
+      "character": "DAK RALTER",
+      "text": "Ah!",
+      "scene": 14
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Dak? Dak!",
+      "scene": 14
+    },
+    {
+      "character": "GENERAL VEERS",
+      "text": "Yes, lord vader, I've reached the main power generators. The shield will be down in moments. You may start your landing.",
+      "scene": 15
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Rogue three.",
+      "scene": 15
+    },
+    {
+      "character": "WEDGE ANTILLES",
+      "text": "Copy, rogue leader.",
+      "scene": 15
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Wedge, I've lost my gunner. You'll have to make this shot I'll cover for you. Set your harpoon. Follow me on the next pass.",
+      "scene": 15
+    },
+    {
+      "character": "WEDGE ANTILLES",
+      "text": "Coming around, rogue leader.",
+      "scene": 15
+    },
+    {
+      "character": "WEDGE ANTILLES",
+      "text": "Steady, rogue two. Activate harpoon.",
+      "scene": 15
+    },
+    {
+      "character": "WEDGE ANTILLES",
+      "text": "Good shot, janson.",
+      "scene": 15
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "One more pass.",
+      "scene": 15
+    },
+    {
+      "character": "WEDGE ANTILLES",
+      "text": "Coming around, once more.",
+      "scene": 15
+    },
+    {
+      "character": "WEDGE ANTILLES",
+      "text": "Cable out. Let her go! Detach cable.",
+      "scene": 15
+    },
+    {
+      "character": "WES JANSON",
+      "text": "Cable detached.",
+      "scene": 15
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Come on.",
+      "scene": 15
+    },
+    {
+      "character": "WEDGE ANTILLES",
+      "text": "Hah! That got him!",
+      "scene": 15
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I see it, wedge. Good work.",
+      "scene": 15
+    },
+    {
+      "character": "GENERAL RIEEKAN",
+      "text": "I don't think we can protect two transports at a time.",
+      "scene": 15
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "It's risky, but we can't hold out much longer. We have no choice.",
+      "scene": 15
+    },
+    {
+      "character": "GENERAL RIEEKAN",
+      "text": "Launch patrol.",
+      "scene": 15
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Evacuate remaining ground staff.",
+      "scene": 15
+    },
+    {
+      "character": "CHEWBACCA",
+      "text": "Gahhh!",
+      "scene": 15
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "No, no! No. This one goes there. That one goes there, right?",
+      "scene": 15
+    },
+    {
+      "character": "C-3PO",
+      "text": "R2, you take good care of master Luke now, understand?",
+      "scene": 15
+    },
+    {
+      "character": "C-3PO",
+      "text": "And do take good care of yourself.",
+      "scene": 15
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh, dear. Oh, dear.",
+      "scene": 15
+    },
+    {
+      "character": "GENERAL VEERS",
+      "text": "All troops will debark for ground assault, prepare to target the main generator.",
+      "scene": 16
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Rogue two, are you all right?",
+      "scene": 16
+    },
+    {
+      "character": "ZEV SENESCA",
+      "text": "Yeah. I'm with you, rogue leader.",
+      "scene": 16
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Well, set harpoon. I'll cover for you.",
+      "scene": 16
+    },
+    {
+      "character": "ZEV SENESCA",
+      "text": "Coming around.",
+      "scene": 16
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Watch that cross fire, boys.",
+      "scene": 16
+    },
+    {
+      "character": "ZEV SENESCA",
+      "text": "Set for position three. Steady.",
+      "scene": 16
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Stay tight and low.",
+      "scene": 16
+    },
+    {
+      "character": "ZEV SENESCA",
+      "text": "This is it! Aah!",
+      "scene": 16
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Hobbie!",
+      "scene": 16
+    },
+    {
+      "character": "DEREK 'HOBBIE' KLIVIAN",
+      "text": "I've been hit!",
+      "scene": 16
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "You all right?",
+      "scene": 17
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Why are you still here?",
+      "scene": 17
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Heard the command center had been hit.",
+      "scene": 17
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "You've got your clearance to leave.",
+      "scene": 17
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Don't worry. I'll leave.",
+      "scene": 17
+    },
+    {
+      "character": "C-3PO",
+      "text": "Your highness, we must take this last transport. It's our only hope.",
+      "scene": 17
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Send all troops in sector 12 to the south slope to protect the fighters.",
+      "scene": 17
+    },
+    {
+      "character": "C-3PO",
+      "text": "Ah!",
+      "scene": 17
+    },
+    {
+      "character": "ANNOUNCER",
+      "text": "Imperial troops have entered the base. Imperial troops have entered...",
+      "scene": 17
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Come on. That's it.",
+      "scene": 17
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Give the evacuation code signal.",
+      "scene": 17
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "And get to your transports!",
+      "scene": 17
+    },
+    {
+      "character": "GENERAL VEERS",
+      "text": "Distance to power generators?",
+      "scene": 18
+    },
+    {
+      "character": "IMPERIAL PILOT",
+      "text": "17.28.",
+      "scene": 18
+    },
+    {
+      "character": "GENERAL VEERS",
+      "text": "Target. Maximum firepower.",
+      "scene": 18
+    },
+    {
+      "character": "C-3PO",
+      "text": "Wait! Wait for me! Wait! Stop!",
+      "scene": 19
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "How typical.",
+      "scene": 19
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Come on.",
+      "scene": 19
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Hurry up, goldenrod. You're gonna be a permanent resident.",
+      "scene": 19
+    },
+    {
+      "character": "C-3PO",
+      "text": "Wait! Wait!",
+      "scene": 19
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "How's this?",
+      "scene": 20
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Would it help if I got out and pushed?",
+      "scene": 20
+    },
+    {
+      "character": "C-3PO",
+      "text": "Captain solo! Captain solo!",
+      "scene": 20
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "It might.",
+      "scene": 20
+    },
+    {
+      "character": "C-3PO",
+      "text": "Sir, might I suggest that you...",
+      "scene": 20
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "It can wait.",
+      "scene": 20
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "This bucket of bolts is never gonna get us past that blockade.",
+      "scene": 20
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "This baby's got a few surprises left in her, sweetheart.",
+      "scene": 20
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Come on! Come onl! Switch over. Let's hope we don't have a burnout.",
+      "scene": 20
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "See?",
+      "scene": 20
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Someday you're gonna be wrong, and I just hope I'm there to see it.",
+      "scene": 20
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Punch it!",
+      "scene": 20
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "R2! Get her ready for takeoff.",
+      "scene": 21
+    },
+    {
+      "character": "REBEL PILOT",
+      "text": "Good luck, Luke. See you at the rendezvous.",
+      "scene": 21
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Don't worry, r2. We're going. We're going.",
+      "scene": 21
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "There's nothing wrong, r2. I'm just setting a new course.",
+      "scene": 22
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "We're not gonna regroup with the others. We're going to the dagobah system. Going y",
+      "scene": 22
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "yes, r27?",
+      "scene": 22
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "That's all right. I'd like to keep it on manual control for a while.",
+      "scene": 22
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "I saw 'em! I saw 'em!",
+      "scene": 23
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Saw what?",
+      "scene": 23
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Star destroyers, two of 'em coming right at us.",
+      "scene": 23
+    },
+    {
+      "character": "C-3PO",
+      "text": "Sir! Sir! Might I suggest...",
+      "scene": 23
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Shut him up or shut him down!",
+      "scene": 23
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Check the deflector shield. Great. Well, we can still outmaneuver them.",
+      "scene": 23
+    },
+    {
+      "character": "IMPERIAL OFFICER",
+      "text": "Take evasive action!",
+      "scene": 23
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Prepare to make the jump to light speed.",
+      "scene": 23
+    },
+    {
+      "character": "C-3PO",
+      "text": "But, sir!",
+      "scene": 23
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "They're getting closer.",
+      "scene": 23
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Oh, yeah? Watch this.",
+      "scene": 23
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Watch what?",
+      "scene": 23
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "I think we're in trouble.",
+      "scene": 23
+    },
+    {
+      "character": "C-3PO",
+      "text": "If I may say so, sir, I noticed earlier the hyperdrive motivator has been damaged. It's impossible to go to light speed.",
+      "scene": 23
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "We're in trouble.",
+      "scene": 23
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "!",
+      "scene": 23
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Alluvial dampers. Ow! That's not it. Bring me the hydrospanner!",
+      "scene": 24
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "I don't know how we're gonna get out of this one.",
+      "scene": 24
+    },
+    {
+      "character": "C-3PO",
+      "text": "Ow!",
+      "scene": 24
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Chewiel",
+      "scene": 24
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "that wasn't a laser blast. Something hit us. Han, get up here!",
+      "scene": 24
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Come on, chewiel asteroids.",
+      "scene": 24
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh, no.",
+      "scene": 24
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Chewie, set two-seven-one.",
+      "scene": 24
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "What are you doing? You're not actually going into an asteroid field?",
+      "scene": 24
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "They'd be crazy to follow us, wouldn't they?",
+      "scene": 24
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "You don't have to do this to impress me.",
+      "scene": 24
+    },
+    {
+      "character": "C-3PO",
+      "text": "Sir, the possibility of successfully navigating an asteroid field is approximately 3,720 to 1.",
+      "scene": 24
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Never tell me the odds!",
+      "scene": 24
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Look out!",
+      "scene": 25
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "You said you wanted to be around when I made a mistake. This could be it, sweetheart. =I take it back.",
+      "scene": 25
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "We're going to get pulverized if we stay out here much longer.",
+      "scene": 25
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Ain't gonna argue with that.",
+      "scene": 25
+    },
+    {
+      "character": "C-3PO",
+      "text": "Pulverized?",
+      "scene": 25
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "I'm going in closer to one of the big ones.",
+      "scene": 25
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Closer?",
+      "scene": 25
+    },
+    {
+      "character": "C-3PO",
+      "text": "Closer?",
+      "scene": 25
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh, this is suicide! There's nowhere to go.",
+      "scene": 26
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "There. That looks pretty good.",
+      "scene": 26
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "What looks pretty good?",
+      "scene": 26
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Yeah, that'll do nicely.",
+      "scene": 26
+    },
+    {
+      "character": "C-3PO",
+      "text": "Excuse me, ma'am, but where are we going?",
+      "scene": 26
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "I hope you know what you're doing.",
+      "scene": 26
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Yeah. Me, too.",
+      "scene": 26
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Yep, that's it. Dagobah.",
+      "scene": 26
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "No, I'm not gonna change my mind about this. I'm not picking up any cities or technology. Massive life form readings, though. There's something alive down there.",
+      "scene": 26
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Yes. I'm sure it's perfectly safe for droids.",
+      "scene": 26
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I know! I know! All the scopes are dead. I can't see a thing. Just hang on. I'm gonna start the landing cycle.",
+      "scene": 26
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "No, r2, you stay put. I'll have a look around.",
+      "scene": 27
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "R2i",
+      "scene": 27
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "where are you?",
+      "scene": 27
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "R2i",
+      "scene": 27
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "You be more careful.",
+      "scene": 27
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "R2, that way.",
+      "scene": 27
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Oh, no. Are you all right? Come on.",
+      "scene": 28
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "You were lucky to get out of there. Anything broken?",
+      "scene": 28
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "If you're saying coming here was a bad idea, I'm beginning to agree with you. R2, what are we doing here? It's like... Something out of a dream or... I don't know. Maybe I'm just going crazy.",
+      "scene": 28
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Yes, admiral?",
+      "scene": 29
+    },
+    {
+      "character": "ADMIRAL OZZEL",
+      "text": "Our ships have sighted the millennium falcon, lord, but it has entered an asteroid field, and we cannot risk...",
+      "scene": 29
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Asteroids do not concern me, admiral. I want that ship, not excuses.",
+      "scene": 29
+    },
+    {
+      "character": "ADMIRAL OZZEL",
+      "text": "Yes, lord.",
+      "scene": 29
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "I'm gonna shut down everything but the emergency power systems.",
+      "scene": 29
+    },
+    {
+      "character": "C-3PO",
+      "text": "Sir, I'm almost afraid to ask, but does that include shutting me down, too?",
+      "scene": 29
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "No. I need you to talk to the falcon. Find out what's wrong with the hyperdrive.",
+      "scene": 29
+    },
+    {
+      "character": "C-3PO",
+      "text": "Sir, it's quite possible this asteroid is not entirely stable.",
+      "scene": 29
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Not entirely stable? I'm glad you're here to tell us these things. Chewie, take the professor in the back and plug him into the hyperdrive.",
+      "scene": 29
+    },
+    {
+      "character": "C-3PO",
+      "text": "Sometimes I just don't understand human behavior. After all, I'm only trying to do my job.",
+      "scene": 29
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Let go.",
+      "scene": 29
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Shh!",
+      "scene": 29
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Let go, please.",
+      "scene": 29
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Don't get excited.",
+      "scene": 29
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Captain, being held by you isn't quite enough to get me excited.",
+      "scene": 29
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Sorry, sweetheart. I haven't got time for anything else.",
+      "scene": 29
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "What? Ready for some power? Okay.",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I et's see now. Put that in there. There you go.",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Now all I gotta do is find this Yoda... If he even exists.",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "It's really a strange place to find a jedi master.",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "This place gives me the creeps.",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Still...",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "There's something familiar about this place.",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I don't know. I feel like...",
+      "scene": 30
+    },
+    {
+      "character": "YODA",
+      "text": "Feel like what?",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Like we're being watched!",
+      "scene": 30
+    },
+    {
+      "character": "YODA",
+      "text": "Away put your weapon! I mean you no harm, I am wondering... why are you here?",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I'm looking for someone.",
+      "scene": 30
+    },
+    {
+      "character": "YODA",
+      "text": "Looking? Found someone you have, I would say, hmm?",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Right.",
+      "scene": 30
+    },
+    {
+      "character": "YODA",
+      "text": "Help you I can. Yes, mmm.",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I don't think so. I'm looking for a great warrior.",
+      "scene": 30
+    },
+    {
+      "character": "YODA",
+      "text": "Ah! A great warrior.",
+      "scene": 30
+    },
+    {
+      "character": "YODA",
+      "text": "Wars not make one great.",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Put that down. Hey! That's my dinner!",
+      "scene": 30
+    },
+    {
+      "character": "YODA",
+      "text": "How you get so big eating food of this kind?",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Listen, friend, we didn't mean to land in that puddle. And if we could get our ship out, we would. But we can't, so why don't you...",
+      "scene": 30
+    },
+    {
+      "character": "YODA",
+      "text": "Cannot get your ship out. Hee hee hee!",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Hey, get out of there!",
+      "scene": 30
+    },
+    {
+      "character": "YODA",
+      "text": "Ah! No! Ooh!",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Hey, you could have broken this.",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Don't do that.",
+      "scene": 30
+    },
+    {
+      "character": "YODA",
+      "text": "Ohl",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "You're making a mess.",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Hey, give me that!",
+      "scene": 30
+    },
+    {
+      "character": "YODA",
+      "text": "Mine, or I will help you not.",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I don't want your help. I want my lamp back. I'm gonna need it to get out of this slimy mudhole.",
+      "scene": 30
+    },
+    {
+      "character": "YODA",
+      "text": "Mudhole? Slimy? My home this is. Wha...",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "R2, let him have it.",
+      "scene": 30
+    },
+    {
+      "character": "YODA",
+      "text": "Mine! Mine! Mine! Mine!",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "R2!",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Now, will you move along, little fellow? We've got a lot of work to do.",
+      "scene": 30
+    },
+    {
+      "character": "YODA",
+      "text": "No! No, no! Stay and help you I will... Find your friend.",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I'm not looking for a friend. I'm looking for a jedi master.",
+      "scene": 30
+    },
+    {
+      "character": "YODA",
+      "text": "Oh. Jedi master. Yoda. You seek Yoda.",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "You know him?",
+      "scene": 30
+    },
+    {
+      "character": "YODA",
+      "text": "Mmm. Take you to him I will. Yes, yes, but now we must eat. Come. Good food. Come.",
+      "scene": 30
+    },
+    {
+      "character": "YODA",
+      "text": "Come, come.",
+      "scene": 30
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "R2... stay and watch after the camp.",
+      "scene": 30
+    },
+    {
+      "character": "C-3PO",
+      "text": "Ohl where is r2 when I need him? Sir, I don't know where your ship learned to communicate, but it has the most peculiar dialect. I believe, sir, it says that the power coupling on the negative axis has been polarized. I'm afraid you'll have to replace it.",
+      "scene": 31
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Well, of course I'll have to replace it. Here! And, Chewie...",
+      "scene": 31
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "I think we'd better replace the negative power coupling.",
+      "scene": 31
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Hey, your worship, I'm only trying to help.",
+      "scene": 32
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Would you please stop calling me that?",
+      "scene": 32
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Sure, Leia.",
+      "scene": 32
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "You make it so difficult sometimes.",
+      "scene": 32
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "I do. I really do. You could be a little nicer, though. Come on, admit it. Sometimes you think I'm all right.",
+      "scene": 32
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Occasionally... maybe... When you aren't acting like a scoundrel.",
+      "scene": 32
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Scoundrel? Scoundrel?",
+      "scene": 32
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "I like the sound of that.",
+      "scene": 32
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Stop that.",
+      "scene": 32
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Stop what?",
+      "scene": 32
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Stop that. My hands are dirty.",
+      "scene": 32
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "My hands are dirty, too. What are you afraid of?",
+      "scene": 32
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Afraid?",
+      "scene": 32
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "You're trembling.",
+      "scene": 32
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "I'm not trembling.",
+      "scene": 32
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "You like me because I'm a scoundrel. There aren't enough scoundrels in your life.",
+      "scene": 32
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "I happen to like nice men.",
+      "scene": 32
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "I'm a nice man.",
+      "scene": 32
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "No, you're not. You're...",
+      "scene": 32
+    },
+    {
+      "character": "C-3PO",
+      "text": "Sir, sir! I've isolated the reverse power flux coupling.",
+      "scene": 32
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Thank you. Thank you very much.",
+      "scene": 32
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh, you're perfectly welcome, sir.",
+      "scene": 32
+    },
+    {
+      "character": "IMPERIAL OFFICER",
+      "text": "And that, lord vader, was the last time they appeared in any of our scopes. Considering the amount of damage we've sustained, they must have been destroyed.",
+      "scene": 32
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "No, captain. They're alive. I want every ship available to sweep the asteroid field until they are found.",
+      "scene": 32
+    },
+    {
+      "character": "IMPERIAL OFFICER",
+      "text": "Lord vader.",
+      "scene": 32
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Yes, admiral. What is it?",
+      "scene": 32
+    },
+    {
+      "character": "IMPERIAL OFFICER",
+      "text": "The emperor commands you to make contact with him.",
+      "scene": 32
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Move the ship out of the asteroid field so that we can send a clear transmission.",
+      "scene": 32
+    },
+    {
+      "character": "IMPERIAL OFFICER",
+      "text": "Yes, my lord.",
+      "scene": 32
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "What is thy bidding, my master?",
+      "scene": 33
+    },
+    {
+      "character": "EMPEROR PALPATINE",
+      "text": "There is a great disturbance in the force.",
+      "scene": 33
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "I have felt it.",
+      "scene": 33
+    },
+    {
+      "character": "EMPEROR PALPATINE",
+      "text": "We have a new enemy, the young rebel who destroyed the death star. I have no doubt this boy is the offspring of Anakin Skywalker.",
+      "scene": 33
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "How is that possible?",
+      "scene": 33
+    },
+    {
+      "character": "EMPEROR PALPATINE",
+      "text": "Search your feelings, lord vader. You will know it to be true. He could destroy us.",
+      "scene": 33
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "He's just a boy. Obi-Wan can no longer help him.",
+      "scene": 33
+    },
+    {
+      "character": "EMPEROR PALPATINE",
+      "text": "The force is strong with him. The son of Skywalker must not become a jedi.",
+      "scene": 33
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "If he could be turned, he would become a powerful ally.",
+      "scene": 33
+    },
+    {
+      "character": "EMPEROR PALPATINE",
+      "text": "Yes he would be a great asset. Can it be done?",
+      "scene": 33
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "He will join us or die, master.",
+      "scene": 33
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Look, I'm sure it's delicious. I just don't understand why we can't see Yoda now.",
+      "scene": 34
+    },
+    {
+      "character": "YODA",
+      "text": "Patience! For the jedi, it is time to eat as well. Hmm?",
+      "scene": 34
+    },
+    {
+      "character": "YODA",
+      "text": "Eat eat. Hot!",
+      "scene": 34
+    },
+    {
+      "character": "YODA",
+      "text": "Good food! Mmm, good, hmm?",
+      "scene": 34
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "How far away is Yoda? Will it take us long to get there?",
+      "scene": 34
+    },
+    {
+      "character": "YODA",
+      "text": "Not far. Yoda not far. Patience. Soon you will be with him.",
+      "scene": 34
+    },
+    {
+      "character": "YODA",
+      "text": "Root leaf I cook. Why wish you become jedi? Hmm? Hmm?",
+      "scene": 34
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Mostly because of my father, I guess.",
+      "scene": 34
+    },
+    {
+      "character": "YODA",
+      "text": "Ah, father. Powerful jedi was he. Hee hee. Mmm, powerful jedi.",
+      "scene": 34
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Oh, come on. How could you know my father? You don't even know who I am. I don't even know what I'm doing here. We're wasting our time!",
+      "scene": 34
+    },
+    {
+      "character": "YODA",
+      "text": "I cannot teach him. The boy has no Patience.",
+      "scene": 34
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "He will learn Patience.",
+      "scene": 34
+    },
+    {
+      "character": "YODA",
+      "text": "Much anger in him, like his father:",
+      "scene": 34
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Was I any different when you taught me?",
+      "scene": 34
+    },
+    {
+      "character": "YODA",
+      "text": "No. He is not ready.",
+      "scene": 34
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Yoda.",
+      "scene": 34
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I am ready. Ben... I can be a jedi. Ben, tell him I'm...",
+      "scene": 34
+    },
+    {
+      "character": "YODA",
+      "text": "Ready, are you? What know you ready? For 800 years have I trained jedi. My own counsel will I keep on who is to be trained.",
+      "scene": 34
+    },
+    {
+      "character": "YODA",
+      "text": "A jedi must have the deepest commitment, hmm? The most serious mind.",
+      "scene": 34
+    },
+    {
+      "character": "YODA",
+      "text": "This one a long time have I watched. All his life has he looked away... To the future, to the horizon. Never his mind on where he was, hmm? What he was doing. Hmph! Adventure. Hal excitement. Hal a jedi craves not these things. You are reckless!",
+      "scene": 34
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "So was I, if you remember.",
+      "scene": 34
+    },
+    {
+      "character": "YODA",
+      "text": "He is too old. Yes, too old to begin the training.",
+      "scene": 34
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "But I've learned so much.",
+      "scene": 34
+    },
+    {
+      "character": "YODA",
+      "text": "Will he finish what he begins?",
+      "scene": 34
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I won't fail you. I'm not afraid.",
+      "scene": 34
+    },
+    {
+      "character": "YODA",
+      "text": "You will be.",
+      "scene": 34
+    },
+    {
+      "character": "YODA",
+      "text": "You will be.",
+      "scene": 34
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Aah!",
+      "scene": 35
+    },
+    {
+      "character": "C-3PO",
+      "text": "Sir, if I may venture an opinion...",
+      "scene": 35
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "I'm not really interested in your opinion, 3po.",
+      "scene": 35
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "There's something out there.",
+      "scene": 35
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Where?",
+      "scene": 35
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Outside in the cave.",
+      "scene": 35
+    },
+    {
+      "character": "C-3PO",
+      "text": "There it is. Listen. Listen!",
+      "scene": 35
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "I'm going out there.",
+      "scene": 35
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Are you crazy?",
+      "scene": 35
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "I just got this bucket back together. I'm not going to let something tear it apart.",
+      "scene": 35
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Oh! Then I'm going with you.",
+      "scene": 35
+    },
+    {
+      "character": "C-3PO",
+      "text": "I think it might be better if I stay behind and guard the ship. Oh, no.",
+      "scene": 35
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "This ground sure feels strange. It doesn't feel like rock.",
+      "scene": 36
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "There's an awful lot of moisture in here.",
+      "scene": 36
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "I don't know. I have a bad feeling about this.",
+      "scene": 36
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Yeah. Watch out! It's all right. It's all right. Yeah, that's what I thought. Mynock. Chewie, check the rest of the ship and make sure there are no more attached, chewing on the power cables.",
+      "scene": 36
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Mynocks.",
+      "scene": 36
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Go on inside. We'll clean them off if there are any more.",
+      "scene": 36
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Han!",
+      "scene": 36
+    },
+    {
+      "character": "C-3PO",
+      "text": "Aagghh! Go away, go away, beastly thing shoo! Shoo!",
+      "scene": 36
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Wait a minute...",
+      "scene": 36
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Let's get out of here!",
+      "scene": 37
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "The empire is still out there! I don't think...",
+      "scene": 37
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "No time to discuss this in committee!",
+      "scene": 37
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "I'm not a committeel",
+      "scene": 37
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "You can't make the jump to light speed in this asteroid field.",
+      "scene": 37
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Sit down, sweetheart! We're taking off!",
+      "scene": 37
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Look!",
+      "scene": 37
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "I see it. I see it.",
+      "scene": 37
+    },
+    {
+      "character": "C-3PO",
+      "text": "We're doomed!",
+      "scene": 37
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "The cave is collapsing.",
+      "scene": 37
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "This is no cave. What?",
+      "scene": 37
+    },
+    {
+      "character": "YODA",
+      "text": "Run! Yes! A jedi's strength flows from the force. But beware of the dark side. Anger, fear, aggression... The dark side of the force are they, easily they flow, quick to join you in a fight. If once you start down the dark path, forever will it dominate your destiny. Consume you it will, as it did Obi-Wan's apprentice.",
+      "scene": 38
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Vader. Is the dark side stronger?",
+      "scene": 38
+    },
+    {
+      "character": "YODA",
+      "text": "No, no. No. Quicker, easier, more seductive.",
+      "scene": 38
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "But how am I to know the good side from the bad?",
+      "scene": 38
+    },
+    {
+      "character": "YODA",
+      "text": "You will know when you are calm, at peace, passive. Hmm. A jedi uses the force for knowledge and defense, never for attack.",
+      "scene": 38
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "But tell me why I can't...",
+      "scene": 38
+    },
+    {
+      "character": "YODA",
+      "text": "No, no. There is no why. Nothing more will I teach you today. Clear your mind of questions.",
+      "scene": 38
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "There's something not right here.",
+      "scene": 39
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I feel cold... Death.",
+      "scene": 39
+    },
+    {
+      "character": "YODA",
+      "text": "That place... Is strong with the dark side of the force. A domain of evil it is. In you must go.",
+      "scene": 39
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "What's in there?",
+      "scene": 39
+    },
+    {
+      "character": "YODA",
+      "text": "Only what you take with you.",
+      "scene": 39
+    },
+    {
+      "character": "YODA",
+      "text": "Your weapons... You will not need them.",
+      "scene": 39
+    },
+    {
+      "character": "YODA",
+      "text": "Hmph.",
+      "scene": 40
+    },
+    {
+      "character": "ADMIRAL PIETT",
+      "text": "Bounty hunters. We don't need their scum.",
+      "scene": 40
+    },
+    {
+      "character": "IMPERIAL OFFICER",
+      "text": "Yes, sir.",
+      "scene": 40
+    },
+    {
+      "character": "ADMIRAL PIETT",
+      "text": "Those rebels won't escape us.",
+      "scene": 40
+    },
+    {
+      "character": "IMPERIAL OFFICER",
+      "text": "Sir, we have a priority signal from the star destroyer avenger.",
+      "scene": 40
+    },
+    {
+      "character": "ADMIRAL PIETT",
+      "text": "Right.",
+      "scene": 40
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "There will be a substantial reward for the one who finds the millennium falcon. You are free to use any methods necessary, but I want them alive. No disintegrations.",
+      "scene": 40
+    },
+    {
+      "character": "BOBA FETT (VOICE - UNCREDITED)",
+      "text": "As you wish.",
+      "scene": 40
+    },
+    {
+      "character": "ADMIRAL PIETT",
+      "text": "Lord vader:",
+      "scene": 40
+    },
+    {
+      "character": "ADMIRAL PIETT",
+      "text": "My lord, we have them.",
+      "scene": 40
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh, thank goodness we're coming out of the asteroid field.",
+      "scene": 40
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Let's get out of here. Ready for light speed? One... Two... Threel",
+      "scene": 40
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "It's not fair.",
+      "scene": 40
+    },
+    {
+      "character": "CHEWBACCA",
+      "text": "Gahhh!",
+      "scene": 40
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Transfer circuits aren't working. It's not my fault!",
+      "scene": 40
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "No light speed?",
+      "scene": 40
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "It's not my fault.",
+      "scene": 40
+    },
+    {
+      "character": "C-3PO",
+      "text": "Sir, we've just lost the main rear deflector shield. One more direct hit on the back quarter and we're done for.",
+      "scene": 40
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Turn her around. I said, turn her around. I'm going to put all power in the front shield.",
+      "scene": 40
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "You're going to attack them?",
+      "scene": 40
+    },
+    {
+      "character": "C-3PO",
+      "text": "Sir, the odds of surviving a direct assault on an imperial star destroyer...",
+      "scene": 40
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Shut up!",
+      "scene": 40
+    },
+    {
+      "character": "CHEWBACCA",
+      "text": "Gaahh!",
+      "scene": 40
+    },
+    {
+      "character": "IMPERIAL OFFICER",
+      "text": "They're moving to attack position.",
+      "scene": 40
+    },
+    {
+      "character": "CAPTAIN NEEDA",
+      "text": "Shields up.",
+      "scene": 40
+    },
+    {
+      "character": "CAPTAIN NEEDA",
+      "text": "Track them. They may come around for another pass.",
+      "scene": 40
+    },
+    {
+      "character": "IMPERIAL OFFICER",
+      "text": "Captain needa, the ship no longer appears on our scopes.",
+      "scene": 40
+    },
+    {
+      "character": "CAPTAIN NEEDA",
+      "text": "They can't have disappeared. No ship that small has a cloaking device.",
+      "scene": 40
+    },
+    {
+      "character": "IMPERIAL OFFICER",
+      "text": "Well, there's no trace of them, sir. Captain, lord vader demands an update on the pursuit.",
+      "scene": 40
+    },
+    {
+      "character": "CAPTAIN NEEDA",
+      "text": "Get a shuttle ready. I shall assume full responsibility for losing them and apologize to lord vader. Meanwhile, continue to scan the area.",
+      "scene": 40
+    },
+    {
+      "character": "IMPERIAL OFFICER",
+      "text": "Yes, captain needa.",
+      "scene": 40
+    },
+    {
+      "character": "YODA",
+      "text": "Use the force. Yes.",
+      "scene": 40
+    },
+    {
+      "character": "YODA",
+      "text": "Now, the stone...",
+      "scene": 40
+    },
+    {
+      "character": "YODA",
+      "text": "Feel it.",
+      "scene": 40
+    },
+    {
+      "character": "YODA",
+      "text": "Concentrate!",
+      "scene": 40
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Oh, no. We'll never get it out now.",
+      "scene": 41
+    },
+    {
+      "character": "YODA",
+      "text": "So certain are you.",
+      "scene": 41
+    },
+    {
+      "character": "YODA",
+      "text": "Always with you it cannot be done.",
+      "scene": 41
+    },
+    {
+      "character": "YODA",
+      "text": "Hear you nothing that I say?",
+      "scene": 41
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Master, moving stones around is one thing. This is totally different.",
+      "scene": 41
+    },
+    {
+      "character": "YODA",
+      "text": "No! No different! Only different in your mind. You must unlearn what you have learned.",
+      "scene": 41
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "All right. I'll give it a try.",
+      "scene": 41
+    },
+    {
+      "character": "YODA",
+      "text": "No! Try not. Do. Or do not. There is no try.",
+      "scene": 41
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I can't. I¢'s too big.",
+      "scene": 42
+    },
+    {
+      "character": "YODA",
+      "text": "Size matters not. Look at me. Judge me by my size, do you? Hmph! And well you should not, for my ally is the force. And a powerful ally it is. Life creates it, makes it grow. Its energy surrounds us... And binds us. Luminous beings are we, not this crude matter: You must feel the force around you. Here, between you, me, the tree, the rock, everywhere! Yes. Even between the land and the ship.",
+      "scene": 42
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "You want the impossible.",
+      "scene": 42
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Apology accepted, captain needa.",
+      "scene": 43
+    },
+    {
+      "character": "ADMIRAL PIETT",
+      "text": "Lord vader, our ships have completed their scan of the area and found nothing. If the millennium falcon went into light speed it'll be on the other side of the galaxy by now.",
+      "scene": 43
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Alert all commands. Calculate every possible destination along their last known trajectory.",
+      "scene": 43
+    },
+    {
+      "character": "ADMIRAL PIETT",
+      "text": "Yes, my lord. We'll find them.",
+      "scene": 43
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Don't fail me again... Admiral.",
+      "scene": 43
+    },
+    {
+      "character": "ADMIRAL PIETT",
+      "text": "Alert all commands. Deploy the fleet.",
+      "scene": 43
+    },
+    {
+      "character": "C-3PO",
+      "text": "Captain solo, this time you've gone too far.",
+      "scene": 44
+    },
+    {
+      "character": "CHEWBACCA",
+      "text": "Gahhh!",
+      "scene": 44
+    },
+    {
+      "character": "C-3PO",
+      "text": "No, I will not be quiet, Chewbacca. Why doesn't anyone listen to me?",
+      "scene": 44
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "The fleet's beginning to break up. Go back and stand by the manual release for the landing claw.",
+      "scene": 44
+    },
+    {
+      "character": "C-3PO",
+      "text": "I really don't see how that's going to help. Surrender is a perfectly acceptable alternative in extreme circumstances. The empire may be gracious enough...",
+      "scene": 44
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Thank you.",
+      "scene": 44
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "What do you have in your mind for your next move?",
+      "scene": 44
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "If they follow standard imperial procedure, they'll dump their garbage before they go to light speed, and then we just float away.",
+      "scene": 44
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "With the rest of the garbage. Then what?",
+      "scene": 44
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Any ideas?",
+      "scene": 44
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Where are we?",
+      "scene": 44
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "The anoat system.",
+      "scene": 44
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "I know that system. There's not much there.",
+      "scene": 44
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "No. Well, wait. This is interesting. Lando.",
+      "scene": 44
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Lando system?",
+      "scene": 44
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "A mining colony?",
+      "scene": 45
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Yeah, a tibanna gas mine. Lando conned somebody out of it. We go back a long way, lando and me.",
+      "scene": 45
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Can you trust him?",
+      "scene": 45
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "No. But he's got no love for the empire, I can tell you that. Here we go, Chewie. Stand by. Detach.",
+      "scene": 45
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "You do have your moments. Not many of them, but you do have them.",
+      "scene": 45
+    },
+    {
+      "character": "YODA",
+      "text": "Concentrate. Feel the force flow. Yes.",
+      "scene": 46
+    },
+    {
+      "character": "YODA",
+      "text": "Good. Calm. Yes. Through the force, things you will see. Other places. The future. The past. Old friends long gone.",
+      "scene": 46
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Han? Leia!",
+      "scene": 46
+    },
+    {
+      "character": "YODA",
+      "text": "Control, control. You must learn control!",
+      "scene": 46
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I saw... l saw a city in the clouds.",
+      "scene": 46
+    },
+    {
+      "character": "YODA",
+      "text": "Friends you have there.",
+      "scene": 46
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "They were in pain.",
+      "scene": 46
+    },
+    {
+      "character": "YODA",
+      "text": "It is the future you see.",
+      "scene": 46
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Future?",
+      "scene": 46
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Will they die?",
+      "scene": 46
+    },
+    {
+      "character": "YODA",
+      "text": "Difficult to see. Always in motion is the future.",
+      "scene": 46
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I've got to go to them.",
+      "scene": 46
+    },
+    {
+      "character": "YODA",
+      "text": "If you leave now, help them you could, but you would destroy all for which they have fought and suffered.",
+      "scene": 46
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "No, I don't have a landing permit. I'm trying to reach lando calrissian. Wait a minute! Let me explain!",
+      "scene": 47
+    },
+    {
+      "character": "CONTROLLER",
+      "text": "You will not deviate from your present course.",
+      "scene": 47
+    },
+    {
+      "character": "C-3PO",
+      "text": "Rather touchy, aren't they?",
+      "scene": 47
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "I thought you knew this person.",
+      "scene": 47
+    },
+    {
+      "character": "CHEWBACCA",
+      "text": "Gaah!",
+      "scene": 47
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "That was a long time ago. I'm sure he's forgotten about that.",
+      "scene": 47
+    },
+    {
+      "character": "CONTROLLER",
+      "text": "Permission granted to land on platform 3-2-7.",
+      "scene": 47
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Thank you. Nothing to worry about. We go way back, lando and me.",
+      "scene": 47
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Who's worried?",
+      "scene": 47
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh. No one to meet us.",
+      "scene": 48
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "I don't like this.",
+      "scene": 48
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Well, what would you like?",
+      "scene": 48
+    },
+    {
+      "character": "C-3PO",
+      "text": "They did let us land.",
+      "scene": 48
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Look, don't worry. Everything's going to be fine. Trust me.",
+      "scene": 48
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "See? My friend.",
+      "scene": 48
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Keep your eyes open, huh?",
+      "scene": 48
+    },
+    {
+      "character": "CHEWBACCA",
+      "text": "Gahhh!",
+      "scene": 48
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Hey!",
+      "scene": 48
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Why, you slimy, double-crossing, no-good swindler. You've got a lot of guts coming here after what you pulled.",
+      "scene": 48
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "How you doin', you old pirate? So good to see you!",
+      "scene": 48
+    },
+    {
+      "character": "C-3PO",
+      "text": "Well, he seems very friendly.",
+      "scene": 48
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Yes. Very friendly.",
+      "scene": 48
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "What are you doing here?",
+      "scene": 48
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Ah, repairs. I thought you could help me out.",
+      "scene": 48
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "What have you done to my ship?",
+      "scene": 48
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Your ship? Hey, remember, you lost her to me fair and square.",
+      "scene": 48
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "And how you doin', Chewbacca?",
+      "scene": 48
+    },
+    {
+      "character": "CHEWBACCA",
+      "text": "Gahh!",
+      "scene": 48
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "You still hanging around with this loser?",
+      "scene": 48
+    },
+    {
+      "character": "CHEWBACCA",
+      "text": "Gahhh!",
+      "scene": 48
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Hello. What have we here? Welcome, I'm lando calrissian. I'm the administrator of this facility. And who might you be?",
+      "scene": 48
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Leia.",
+      "scene": 48
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Welcome, Leia.",
+      "scene": 48
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "All right, all right, you old smoothie.",
+      "scene": 48
+    },
+    {
+      "character": "C-3PO",
+      "text": "Hello, sir. I am c-3po, human-cyborg relations. My facilities are at your... Well, really!",
+      "scene": 48
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "What's wrong with the falcon?",
+      "scene": 48
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Hyperdrive.",
+      "scene": 48
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "I'll get my people to work on her.",
+      "scene": 48
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Good.",
+      "scene": 48
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "That ship saved my life quite a few times. She's the fastest hunk of junk in the galaxy.",
+      "scene": 48
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "How's the gas mine? Still paying off for you?",
+      "scene": 48
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Oh, not as well as I'd like. We're a small outpost and not very self-sufficient. I've had supply problems of every kind. I've had labor difficulties. What's so funny?",
+      "scene": 48
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "You. Listen to you. You sound like a businessman, a responsible leader. Who'd have thought that, huh?",
+      "scene": 48
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Seeing you brings back a few things.",
+      "scene": 48
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Yeah.",
+      "scene": 48
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Yeah, I'm responsible these days. It's the price you pay for being successful.",
+      "scene": 48
+    },
+    {
+      "character": "C-3PO",
+      "text": "Ooh. Nice to see a familiar face.",
+      "scene": 48
+    },
+    {
+      "character": "PROTOCOL DROID",
+      "text": "E chu ta!",
+      "scene": 48
+    },
+    {
+      "character": "C-3PO",
+      "text": "How rude!",
+      "scene": 48
+    },
+    {
+      "character": "C-3PO",
+      "text": "That sounds like an rz unit in there. I wonder if .. Hello?",
+      "scene": 48
+    },
+    {
+      "character": "C-3PO",
+      "text": "How interesting.",
+      "scene": 48
+    },
+    {
+      "character": "STORMTROOPER",
+      "text": "Who are you?",
+      "scene": 48
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh, my! I... I'm terribly sorry. I didn't mean to intrude. No, please don't get up.",
+      "scene": 48
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Luke, you must complete the training.",
+      "scene": 49
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I can't keep the vision out of my head. They're my friends. I got to help them.",
+      "scene": 49
+    },
+    {
+      "character": "YODA",
+      "text": "You must not go.",
+      "scene": 49
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "But han and Leia will die if I don't.",
+      "scene": 49
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "You don't know that",
+      "scene": 49
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "even Yoda cannot see their fate.",
+      "scene": 49
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "But I can help them. I feel the force.",
+      "scene": 49
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "But you cannot control it. This is a dangerous time for you, when you will be tempted by the dark side of the force.",
+      "scene": 49
+    },
+    {
+      "character": "YODA",
+      "text": "Yes! Yes! To Obi-Wan you listen. The cave. Remember your failure at the cave.",
+      "scene": 49
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "But I've learned so much since then. Master Yoda, I promise to return and to finish what I've begun. You have my word.",
+      "scene": 49
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "It is you and your abilities the emperor wants. That is why your friends are made to suffer.",
+      "scene": 49
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "That's why I have to go.",
+      "scene": 49
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Luke, I don't want to lose you to the emperor the way I lost vader.",
+      "scene": 49
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "You won't.",
+      "scene": 49
+    },
+    {
+      "character": "YODA",
+      "text": "Stopped they must be. On this all depends. Only a fully trained jedi knight, with the force as his ally, will conquer vader and his emperor. If you end your training now, if you choose the quick and easy path, as vader did, you will become an agent of evil.",
+      "scene": 49
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Patience.",
+      "scene": 49
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "And sacrifice han and Leia?",
+      "scene": 49
+    },
+    {
+      "character": "YODA",
+      "text": "If you honor what they fight for... yes.",
+      "scene": 49
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "If you choose to face vader, you will do it alone. I cannot interfere.",
+      "scene": 49
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I understand.",
+      "scene": 49
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "Don't give in to hate. That leads to the dark side.",
+      "scene": 50
+    },
+    {
+      "character": "YODA",
+      "text": "Strong is vader. Mind what you have learned. Save you it can.",
+      "scene": 50
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I will. And I'll return. I promise.",
+      "scene": 50
+    },
+    {
+      "character": "YODA",
+      "text": "Reckless is he. Now... Matters are worse.",
+      "scene": 50
+    },
+    {
+      "character": "OBI-WAN KENOBI",
+      "text": "That boy is our last hope.",
+      "scene": 50
+    },
+    {
+      "character": "YODA",
+      "text": "No, there is another.",
+      "scene": 50
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "I don't trust lando.",
+      "scene": 51
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Well, I don't trust him either. But he is my friend. Besides... We'll soon be gone.",
+      "scene": 51
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Then you're as good as gone, aren't you?",
+      "scene": 51
+    },
+    {
+      "character": "CHEWBACCA",
+      "text": "Gaahh!",
+      "scene": 52
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "What happened?",
+      "scene": 52
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Where?",
+      "scene": 52
+    },
+    {
+      "character": "CHEWBACCA",
+      "text": "Gahhh!",
+      "scene": 52
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Found him in a junk pile?",
+      "scene": 52
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Oh, what a mess. Chewie, you think you can repair him?",
+      "scene": 52
+    },
+    {
+      "character": "CHEWBACCA",
+      "text": "Gahhh!",
+      "scene": 52
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Lando's got people that can fix him.",
+      "scene": 52
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "No, thanks.",
+      "scene": 52
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "I'm sorry, am I interrupting anything?",
+      "scene": 52
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Not really.",
+      "scene": 52
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "You look absolutely beautiful. You truly belong here with us among the clouds.",
+      "scene": 52
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Thank you.",
+      "scene": 52
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Would you join me for a little refreshment? Everyone's invited, of course.",
+      "scene": 52
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Having trouble with your droid?",
+      "scene": 52
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "No, no problem.",
+      "scene": 52
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "You see, since we're a small operation, we don't fall into the jurisdiction of the empire.",
+      "scene": 52
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "So you're part of the mining guild, then?",
+      "scene": 52
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "No, not actually. Our operation is small enough not to be noticed. Which is advantageous for everybody, since our customers are anxious to avoid attracting attention to themselves.",
+      "scene": 52
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Aren't you afraid the empire's going to find out about this little operation, shut you down?",
+      "scene": 52
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "It's always been a danger that looms like a shadow over everything we've built. But things have developed that'll ensure security. I've just made a deal that will keep the empire out of here forever.",
+      "scene": 52
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "We would be honored if you would join us.",
+      "scene": 52
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "I had no choice. They arrived right before you did. I'm sorry.",
+      "scene": 52
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "I'm sorry, too.",
+      "scene": 52
+    },
+    {
+      "character": "CHEWBACCA",
+      "text": "Gahhh.",
+      "scene": 52
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "No, 3pqo's with them.",
+      "scene": 52
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Just hang on. We're almost there.",
+      "scene": 52
+    },
+    {
+      "character": "BOBA FETT",
+      "text": "Lord vader.",
+      "scene": 53
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "You may take captain solo to jabba the hutt after I have Skywalker.",
+      "scene": 53
+    },
+    {
+      "character": "BOBA FETT",
+      "text": "He's no good to me dead.",
+      "scene": 53
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "He will not be permanently damaged.",
+      "scene": 53
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Lord vader, what about Leia and the wookiee?",
+      "scene": 53
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "They must never again leave this city.",
+      "scene": 53
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "That was never a condition of our agreement, nor was giving han to this bounty hunter.",
+      "scene": 53
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Perhaps you think you're being treated unfairly?",
+      "scene": 53
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "No.",
+      "scene": 53
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Good. It would be unfortunate if I had to leave a Garrison here.",
+      "scene": 53
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "This deal is getting worse all the time.",
+      "scene": 53
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh, yes, that's very good. I like that. Ohl something's not right because now I can't see. Oh, oh, oh, that's much better. Wait! Wait! Oh, my! What have you done? I'm backwards, you flea-bitten furball! Only an overgrown mophead like you would be stupid enough...",
+      "scene": 53
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Why are they doing this?",
+      "scene": 54
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "They never even asked me any questions.",
+      "scene": 54
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Lando.",
+      "scene": 54
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Get out of here, lando.",
+      "scene": 54
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Shut up and listen! Vader's agreed to turn Leia and Chewie over to me.",
+      "scene": 54
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Over to you?",
+      "scene": 54
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "They'll have to stay here, but at least they'll be safe.",
+      "scene": 54
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "What about han?",
+      "scene": 54
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Vader's given him to the bounty hunter. J vader wants us all dead. He doesn't want you at all. He's after somebody called Skywalker.",
+      "scene": 54
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Luke.",
+      "scene": 54
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Lord vader set a trap for him.",
+      "scene": 54
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "And we're the bait!",
+      "scene": 54
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "He's on his way.",
+      "scene": 54
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "You fixed us all real good, didn't you? My friend.",
+      "scene": 54
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Stop!",
+      "scene": 54
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "I've done all I can. I'm sorry I couldn't do better, but I've got my own problems.",
+      "scene": 54
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Yeah. You're a real hero.",
+      "scene": 54
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "You certainly have a way with people.",
+      "scene": 54
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "This facility is crude, but it should be adequate to freeze Skywalker for his journey to the emperor.",
+      "scene": 55
+    },
+    {
+      "character": "IMPERIAL OFFICER",
+      "text": "Lord vader, ship approaching, x-wing class.",
+      "scene": 55
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Good. Monitor Skywalker and allow him to land.",
+      "scene": 55
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Lord vader, we only use this facility for carbon freezing. You put him in there, it might kill him.",
+      "scene": 55
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "I do not want the emperor's prize damaged. We will test it on captain solo.",
+      "scene": 55
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "What's going on... Buddy?",
+      "scene": 56
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "You're being put into carbon freeze.",
+      "scene": 56
+    },
+    {
+      "character": "BOBA FETT",
+      "text": "What if he doesn't survive? He's worth a lot to me.",
+      "scene": 56
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "The empire will compensate you if he dies. Put him in.",
+      "scene": 56
+    },
+    {
+      "character": "C-3PO",
+      "text": "No, no, no!",
+      "scene": 56
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Stop, Chewie, stop, stop!",
+      "scene": 56
+    },
+    {
+      "character": "C-3PO",
+      "text": "Yes, stop, please! I'm not ready to die!",
+      "scene": 56
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Hey! Hey! Listen to me, Chewie. This won't help me. Hey, save your strength. There will be another time. The Princess... You have to take care of her.",
+      "scene": 56
+    },
+    {
+      "character": "HAN SOLO",
+      "text": "Do you hear me? Huh?",
+      "scene": 56
+    },
+    {
+      "character": "C-3PO",
+      "text": "Oh, they've encased him in carbonite. He should be quite well-protected, if he survived the freezing process, that is.",
+      "scene": 57
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Well, calrissian, did he survive?",
+      "scene": 57
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Yes, he's alive. And in perfect hibernation.",
+      "scene": 57
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "He's all yours, bounty hunter. Reset the chamber for Skywalker.",
+      "scene": 57
+    },
+    {
+      "character": "IMPERIAL OFFICER",
+      "text": "Skywalker has just landed, lord.",
+      "scene": 57
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Good. See to it that he finds his way in here.",
+      "scene": 57
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Calrissian, take the Princess and the wookiee to my ship.",
+      "scene": 57
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "You said they'd be left in the city under my supervision.",
+      "scene": 57
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "I am altering the deal. Pray I don't alter it any further.",
+      "scene": 57
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Well done.",
+      "scene": 58
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Hold them in the security tower. And keep it quiet. Move.",
+      "scene": 58
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "What do you think you're doing?",
+      "scene": 58
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "We're getting out of here.",
+      "scene": 58
+    },
+    {
+      "character": "C-3PO",
+      "text": "I knew all along. It had to be a mistake.",
+      "scene": 58
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Do you think that after what you did to han, we're going to trust you?",
+      "scene": 58
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "I had no choice.",
+      "scene": 58
+    },
+    {
+      "character": "C-3PO",
+      "text": "What are you doing? Trust him! Trust him!",
+      "scene": 58
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Oh, we understand, don't we, Chewie? He had no choice.",
+      "scene": 58
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "I'm just trying to help.",
+      "scene": 58
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "We don't need any of your help.",
+      "scene": 58
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "What?",
+      "scene": 58
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Han...",
+      "scene": 58
+    },
+    {
+      "character": "C-3PO",
+      "text": "It sounds like \"han.\"",
+      "scene": 58
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "There's still a chance to save han... At the east... Platform.",
+      "scene": 58
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Chewie.",
+      "scene": 58
+    },
+    {
+      "character": "C-3PO",
+      "text": "I'm terribly sorry about all this. After all, he's only a wookiee.",
+      "scene": 58
+    },
+    {
+      "character": "BOBA FETT",
+      "text": "Put captain solo in the cargo hold.",
+      "scene": 58
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "You have learned much, young one.",
+      "scene": 59
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "You'll find I'm full of surprises.",
+      "scene": 59
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Your destiny lies with me, Skywalker. Obi-Wan knew this to be true.",
+      "scene": 59
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "No.",
+      "scene": 59
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Aaah!",
+      "scene": 59
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "All too easy.",
+      "scene": 59
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Perhaps you're not as strong as the emperor thought.",
+      "scene": 59
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Impressive.",
+      "scene": 59
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Most impressive.",
+      "scene": 59
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Aaah!",
+      "scene": 59
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Obi-Wan has taught you well. You have controlled your fear.",
+      "scene": 59
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Now... Release your anger. Only your hatred can destroy me.",
+      "scene": 59
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Ohl",
+      "scene": 59
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "The security code has been changed.",
+      "scene": 60
+    },
+    {
+      "character": "C-3PO",
+      "text": "R2, you can tell the computer to override the security systems. R I 2, hurry! R2,",
+      "scene": 60
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Attention. The empire has taken control of the city. I advise everyone to leave before more imperial troops arrive.",
+      "scene": 60
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "This way.",
+      "scene": 60
+    },
+    {
+      "character": "C-3PO",
+      "text": "Well, don't blame me. I'm an interpreter. I'm not supposed to know a power socket from a computer terminal.",
+      "scene": 60
+    },
+    {
+      "character": "C-3PO",
+      "text": "Ah! We're not interested in the hyperdrive on the millennium falcon. It's fixed!",
+      "scene": 61
+    },
+    {
+      "character": "C-3PO",
+      "text": "Just open the door, you stupid lump!",
+      "scene": 61
+    },
+    {
+      "character": "C-3PO",
+      "text": "I never doubted you for a second. Wonderful!",
+      "scene": 61
+    },
+    {
+      "character": "C-3PO",
+      "text": "! Bend down, you thoughtless... ow!",
+      "scene": 62
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Leia! Gol",
+      "scene": 62
+    },
+    {
+      "character": "C-3PO",
+      "text": "I thought that hairy beast would be the end of me. Of course I've looked better.",
+      "scene": 62
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "You are beaten. It is useless to resist. Don't let yourself be destroyed as Obi-Wan did.",
+      "scene": 63
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Aah!",
+      "scene": 63
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "There is no escape. Don't make me destroy you.",
+      "scene": 63
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Luke, you do not yet realize your importance. You have only begun to discover your power. Join me, and I will complete your training. With our combined strength, we can end this destructive conflict and bring order to the galaxy.",
+      "scene": 63
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I'll never join you!",
+      "scene": 63
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "If you only knew the power of the dark side. Obi-Wan never told you what happened to your father.",
+      "scene": 63
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "He told me enough!",
+      "scene": 63
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "He told me you killed him.",
+      "scene": 63
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "No. I am your father.",
+      "scene": 63
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "No. No. That's not true. That's impossible!",
+      "scene": 63
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Search your feelings. You know it to be true.",
+      "scene": 63
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Nol nol",
+      "scene": 63
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Luke. You can destroy the emperor. He has foreseen this. It is your destiny. Join me, and together we can rule the galaxy as father and son.",
+      "scene": 63
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Come with me. It is the only way.",
+      "scene": 63
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Ben. Ben, please.",
+      "scene": 64
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Ben.",
+      "scene": 64
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Leia.",
+      "scene": 64
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Hear me.",
+      "scene": 64
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Leia.",
+      "scene": 64
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Luke.",
+      "scene": 64
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "We've got to go back.",
+      "scene": 64
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "What?",
+      "scene": 64
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "I know where Luke is.",
+      "scene": 64
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "What about those fighters?",
+      "scene": 64
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "Chewie, just do it.",
+      "scene": 64
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "But what about vader? All right, all right, all right!",
+      "scene": 64
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Alert my star destroyer to prepare for my arrival.",
+      "scene": 64
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Look, someone's up there.",
+      "scene": 64
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "It's Luke. Chewie, slow down. Slow down. We'll get under him. Lando, open the top hatch.",
+      "scene": 64
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "I'll be back.",
+      "scene": 65
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Star destroyer.",
+      "scene": 65
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "All right, Chewie. Ready for light speed.",
+      "scene": 65
+    },
+    {
+      "character": "PRINCESS LEIA",
+      "text": "If your people fixed the hyperdrive. All the coordinates are set. It's now or never.",
+      "scene": 65
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Punch it!",
+      "scene": 65
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "They told me they fixed it. I trusted them to fix it! It's not my fauit!",
+      "scene": 65
+    },
+    {
+      "character": "IMPERIAL OFFICER",
+      "text": "They'll be in range of our tractor beam in moments, lord.",
+      "scene": 65
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Did your men deactivate the hyperdrive on the millennium falcon?",
+      "scene": 65
+    },
+    {
+      "character": "IMPERIAL OFFICER",
+      "text": "Yes, my lord.",
+      "scene": 65
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Good. Prepare the boarding party and set your weapons for \"stun.\"",
+      "scene": 65
+    },
+    {
+      "character": "IMPERIAL OFFICER",
+      "text": "Yes, my lord. Lieutenant.",
+      "scene": 65
+    },
+    {
+      "character": "IMPERIAL OFFICER",
+      "text": "Yes, sir.",
+      "scene": 65
+    },
+    {
+      "character": "C-3PO",
+      "text": "Noisy brute. Why don't we just go into light speed? We can't? How would you know the hyperdrive is deactivated?",
+      "scene": 65
+    },
+    {
+      "character": "C-3PO",
+      "text": "The city's central computer told you? R2-d2, you know better than to trust a strange computer. Ouch! Pay attention to what you're doing!",
+      "scene": 65
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Luke.",
+      "scene": 65
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Father.",
+      "scene": 65
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Son, come with me.",
+      "scene": 65
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Ben. Why didn't you tell me?",
+      "scene": 65
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Chewiel",
+      "scene": 65
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "It's vader.",
+      "scene": 65
+    },
+    {
+      "character": "DARTH VADER",
+      "text": "Luke, it is your destiny.",
+      "scene": 65
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Ben.",
+      "scene": 65
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Why didn't you tell me?",
+      "scene": 65
+    },
+    {
+      "character": "IMPERIAL OFFICER",
+      "text": "Alert all commands. Ready for the tractor beam.",
+      "scene": 65
+    },
+    {
+      "character": "C-3PO",
+      "text": "R2, come back at once! You haven't finished with me yet. You don't know how to fix the hyperdrive. Chewbacca can do it. I'm standing here in pieces, and you're having delusions of grandeur!",
+      "scene": 65
+    },
+    {
+      "character": "C-3PO",
+      "text": "You did it!",
+      "scene": 65
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Luke, we're ready for takeoff. Y j",
+      "scene": 66
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Good luck, lando.",
+      "scene": 66
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "When we find jabba the hutt and that bounty hunter, we'll contact you.",
+      "scene": 66
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "I'll meet you at the rendezvous point on Tatooine.",
+      "scene": 66
+    },
+    {
+      "character": "LANDO CALRISSIAN",
+      "text": "Princess, we'll find han. I promise.",
+      "scene": 66
+    },
+    {
+      "character": "LUKE SKYWALKER",
+      "text": "Chewie, I'll be waiting for your signal. Take care, you two. May the force be with you.",
+      "scene": 66
+    }
+  ],
+  "lineCount": 844,
+  "characterCount": 24,
+  "imdbId": "tt0080684",
+  "poster": "",
+  "rated": "PG",
+  "runtime": "127 min",
+  "genre": "Adventure, Action, Science Fiction",
+  "director": "Irvin Kershner",
+  "topSpeakingCast": [
+    "HAN SOLO",
+    "LUKE SKYWALKER",
+    "PRINCESS LEIA",
+    "C-3PO",
+    "YODA",
+    "DARTH VADER",
+    "LANDO CALRISSIAN",
+    "OBI-WAN KENOBI",
+    "ADMIRAL PIETT",
+    "GENERAL RIEEKAN",
+    "GENERAL VEERS",
+    "ZEV SENESCA",
+    "ADMIRAL OZZEL",
+    "WEDGE ANTILLES",
+    "DAK RALTER",
+    "EMPEROR PALPATINE"
+  ]
+}

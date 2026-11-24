@@ -12,8 +12,7 @@ import './components/game/completion.css';
 import './components/game/completion-type.css'; // after completion.css
 import './components/menu.css';
 import './pages/home.css';
-import './pages/stats.css';
-import './pages/collection.css';                // after stats.css
+import './pages/collection.css';
 import './pages/legal.css';
 
 // Initialize the app

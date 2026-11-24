@@ -1,6 +1,6 @@
 import { useEffect } from 'preact/hooks';
 import { Game } from '../components/game/Game.jsx';
-import { SettingsModalContainer, openSettingsModal } from './Settings.jsx';
+import { SettingsModalContainer, openSettingsModal } from '../components/Settings.jsx';
 import { StatsModalContainer } from '../pages/Stats.jsx';
 import { prewarmToast } from './reddit-platform.js';
 import { Settings as SettingsIcon } from 'lucide-preact';
@@ -18,9 +18,7 @@ import '../components/common/script-select.css'; // after game.css (beats bare `
 import '../components/game/paper.css';           // after game.css
 import '../components/game/completion.css';
 import '../components/game/completion-type.css'; // after completion.css
-import '../components/game/stats.css';
-import '../pages/stats.css';
-import '../pages/collection.css';                // after stats.css
+import '../pages/collection.css';
 import './reddit-overrides.css';
 
 export default function GameShell({ dailyPuzzle, manifest, packData }) {

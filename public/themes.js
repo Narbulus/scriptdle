@@ -78,7 +78,7 @@ window.SCRIPTLE_THEMES = {
     "cardBorder": "#FFE81F",
     "cardText": "#FFE81F",
     "name": "Star Wars",
-    "movieCount": 6
+    "movieCount": 9
   },
   "disney-pixar": {
     "primary": "#4a90e2",
