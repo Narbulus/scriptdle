@@ -620,6 +620,25 @@ button:active {
     text-decoration: underline;
 }
 
+/* Desktop web: cap paper height so controls sit comfortably below the script
+   instead of pinned to the bottom edge of tall monitors. Scoped to web play
+   route so mobile and Reddit embed keep full-height layouts. */
+@media (min-width: 601px) {
+    body[data-route="play"] .game-container {
+        padding-top: clamp(0px, calc((100dvh - 760px) * 0.15), 40px);
+    }
+
+    body[data-route="play"] .script-area {
+        max-height: clamp(360px, 50dvh, 460px);
+    }
+
+    body[data-route="play"] .game-footer {
+        background: transparent;
+        box-shadow: none;
+        padding: 1.25rem 1.5rem 1.5rem;
+    }
+}
+
 /* Mobile */
 @media (max-width: 600px) {
     .script-content {
