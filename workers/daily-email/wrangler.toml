@@ -9,9 +9,13 @@ crons = ["0 13 * * *"]
 [vars]
 SITE_URL = "https://scriptle.net"
 EMAIL_FROM = "Scriptle <daily@scriptle.net>"
+EMAIL_FROM_ADDRESS = "daily@scriptle.net"
+EMAIL_FROM_NAME = "Scriptle"
 
-# Replace id with your Cloudflare KV namespace ID (shared with Pages Functions):
-# npx wrangler kv namespace create SUBSCRIBERS_KV
 [[kv_namespaces]]
 binding = "SUBSCRIBERS_KV"
-id = "REPLACE_WITH_KV_NAMESPACE_ID"
+id = "2ce804e1ff7a41679b2b1e957a998363"
+
+[[send_email]]
+name = "EMAIL"
+allowed_sender_addresses = ["daily@scriptle.net"]

@@ -1,23 +1,33 @@
 /**
- * Cloudflare Cron Worker: sends "Line 1 in the Inbox" daily emails via Resend.
+ * Cloudflare Cron Worker: sends "Line 1 in the Inbox" daily emails via
+ * Cloudflare Email Sending (native `env.EMAIL` send_email binding).
  *
  * Reads today's puzzle straight from https://scriptle.net/data/daily-all/YYYY-MM-DD.json
- * and pack themes from https://scriptle.net/data/packs-full.json, then emails every
- * active subscriber in SUBSCRIBERS_KV with:
+ * (authenticated via X-Scriptle-Internal) and pack themes from packs-full.json,
+ * then emails every active subscriber in SUBSCRIBERS_KV with:
  *   - From: Scriptle <daily@scriptle.net>
  *   - Subject: ONLY the quote itself (no pack name)
  */
 
 import { buildDailyEmail } from '../../src/utils/emailTemplate.js';
 
-const RESEND_BATCH_URL = 'https://api.resend.com/emails/batch';
-const BATCH_SIZE = 100;
+const CONCURRENCY = 10;
 
 function getUtcDateString(date = new Date()) {
     const y = date.getUTCFullYear();
     const m = String(date.getUTCMonth() + 1).padStart(2, '0');
     const d = String(date.getUTCDate()).padStart(2, '0');
     return `${y}-${m}-${d}`;
+}
+
+function parseFromHeader(fromHeader, env) {
+    const fallbackEmail = env.EMAIL_FROM_ADDRESS || 'daily@scriptle.net';
+    const fallbackName = env.EMAIL_FROM_NAME || 'Scriptle';
+    const match = /^(.+?)\s*<([^>]+)>$/.exec(String(fromHeader || '').trim());
+    if (match) {
+        return { name: match[1].trim(), email: match[2].trim() };
+    }
+    return { name: fallbackName, email: fallbackEmail };
 }
 
 async function fetchTodayAssets(siteUrl, dateStr, env = {}) {
@@ -66,20 +76,33 @@ async function listAllSubscribers(kv) {
     return subscribers;
 }
 
-async function sendBatch(apiKey, messages) {
-    const res = await fetch(RESEND_BATCH_URL, {
-        method: 'POST',
-        headers: {
-            Authorization: `Bearer ${apiKey}`,
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(messages),
-    });
-    if (!res.ok) {
-        const text = await res.text();
-        throw new Error(`Resend batch failed (${res.status}): ${text}`);
+async function sendOneEmail(env, msg) {
+    if (!env.EMAIL || typeof env.EMAIL.send !== 'function') {
+        throw new Error('Cloudflare Email Sending binding (EMAIL) is not configured');
     }
-    return res.json();
+
+    const from = parseFromHeader(msg.from, env);
+    const payload = {
+        from,
+        to: msg.to,
+        subject: msg.subject,
+        html: msg.html,
+        text: msg.text,
+        headers: msg.headers,
+    };
+
+    try {
+        return await env.EMAIL.send(payload);
+    } catch (err) {
+        // Fallback if List-Unsubscribe-Post is rejected by header allowlist
+        if (String(err?.message || err).includes('HEADER_NOT_ALLOWED') && msg.headers?.['List-Unsubscribe']) {
+            return env.EMAIL.send({
+                ...payload,
+                headers: { 'List-Unsubscribe': msg.headers['List-Unsubscribe'] },
+            });
+        }
+        throw err;
+    }
 }
 
 async function dispatchDailyEmails(env, dateStr) {
@@ -108,13 +131,21 @@ async function dispatchDailyEmails(env, dateStr) {
     }
 
     let sent = 0;
-    for (let i = 0; i < messages.length; i += BATCH_SIZE) {
-        const chunk = messages.slice(i, i + BATCH_SIZE);
-        await sendBatch(env.RESEND_API_KEY, chunk);
-        sent += chunk.length;
+    let failed = 0;
+    for (let i = 0; i < messages.length; i += CONCURRENCY) {
+        const chunk = messages.slice(i, i + CONCURRENCY);
+        const results = await Promise.allSettled(chunk.map(msg => sendOneEmail(env, msg)));
+        for (const r of results) {
+            if (r.status === 'fulfilled') {
+                sent += 1;
+            } else {
+                failed += 1;
+                console.error('Daily email send failed:', r.reason?.message || r.reason);
+            }
+        }
     }
 
-    return { date: dateStr, subscribers: subscribers.length, sent };
+    return { date: dateStr, subscribers: subscribers.length, sent, failed };
 }
 
 export default {
@@ -184,8 +215,8 @@ export default {
                 season: target.season || null,
                 unsubscribeToken: 'test-token',
             });
-            const res = await sendBatch(env.RESEND_API_KEY, [msg]);
-            return new Response(JSON.stringify({ ok: true, subject: msg.subject, resend: res }), {
+            const res = await sendOneEmail(env, msg);
+            return new Response(JSON.stringify({ ok: true, subject: msg.subject, result: res }), {
                 headers: { 'Content-Type': 'application/json' },
             });
         }
