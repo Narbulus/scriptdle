@@ -12,13 +12,7 @@ export function PackList({ packs, categories, packThemes, history }) {
         [packs, categories, history, query, activeFilter]
     );
 
-    const unplayedCount = useMemo(
-        () => packs.filter(p => !history[p.id]?.completed).length,
-        [packs, history]
-    );
-
-    const hasCompletedAny = unplayedCount < packs.length;
-    const showFilterPills = normalizedCategories.length > 1 || hasCompletedAny;
+    const showFilterPills = normalizedCategories.length > 1;
     const hasActiveFilter = query.trim().length > 0 || activeFilter !== 'all';
 
     return (
@@ -32,8 +26,8 @@ export function PackList({ packs, categories, packThemes, history }) {
                         data-testid="pack-search"
                         value={query}
                         onInput={(e) => setQuery(e.currentTarget.value)}
-                        placeholder={`Search ${packs.length} movie packs...`}
-                        aria-label="Search movie packs"
+                        placeholder="Find a movie or show..."
+                        aria-label="Find a movie or show"
                         autocomplete="off"
                         spellcheck={false}
                     />
@@ -59,17 +53,6 @@ export function PackList({ packs, categories, packThemes, history }) {
                         >
                             All <span className="home-filter-count">{packs.length}</span>
                         </button>
-
-                        {hasCompletedAny && (
-                            <button
-                                type="button"
-                                className={`home-filter-pill${activeFilter === 'unplayed' ? ' is-active' : ''}`}
-                                aria-pressed={activeFilter === 'unplayed'}
-                                onClick={() => setActiveFilter('unplayed')}
-                            >
-                                Unplayed <span className="home-filter-count">{unplayedCount}</span>
-                            </button>
-                        )}
 
                         {normalizedCategories.map(cat => (
                             <button

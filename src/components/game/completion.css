@@ -327,6 +327,106 @@
     height: 20px;
 }
 
+/* Pack-scoped "Line 1 in the Inbox" email reminder */
+.email-reminder {
+    width: 100%;
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.65rem 0.875rem;
+    border-radius: var(--radius-lg);
+    background: var(--pack-surface-tint);
+    border: 1px dashed color-mix(in srgb, var(--primary-color) 32%, transparent);
+}
+
+.email-reminder.is-subscribed {
+    padding: 0.55rem 0.875rem;
+}
+
+.email-reminder-label {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: color-mix(in srgb, var(--primary-color) 65%, white);
+    text-align: center;
+    line-height: 1.35;
+}
+
+.email-reminder-row {
+    display: flex;
+    align-items: stretch;
+    gap: 0.4rem;
+    width: 100%;
+}
+
+.email-reminder-input {
+    flex: 1;
+    min-width: 0;
+    height: 38px;
+    padding: 0 0.65rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid color-mix(in srgb, var(--primary-color) 42%, transparent);
+    background: rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    font-family: var(--font-mono);
+    font-size: 16px;
+    outline: none;
+}
+
+.email-reminder-input::placeholder {
+    color: color-mix(in srgb, var(--primary-color) 45%, white);
+    opacity: 0.65;
+    font-size: 0.8rem;
+}
+
+.email-reminder-input:focus {
+    border-color: var(--primary-color);
+}
+
+.email-reminder-btn {
+    flex: 0 0 auto;
+    width: auto !important;
+    max-width: none !important;
+    min-height: 38px;
+    padding: 0 0.85rem;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #1a2412;
+    background: linear-gradient(#e0c158, #b8952b);
+    border: none;
+    box-shadow:
+        inset 0 1px 0 rgba(255, 240, 200, 0.55),
+        inset 0 -2px 0 rgba(90, 60, 0, 0.35);
+    white-space: nowrap;
+}
+
+.email-reminder-confirmed {
+    font-family: var(--font-mono);
+    font-size: 0.76rem;
+    line-height: 1.4;
+    color: color-mix(in srgb, var(--primary-color) 55%, white);
+    text-align: center;
+}
+
+.email-reminder-confirmed strong {
+    color: color-mix(in srgb, var(--primary-color) 25%, white);
+}
+
+.email-reminder-error {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: #ffb3b3;
+    text-align: center;
+}
+
 /* Mobile: stack split layout vertically */
 @media (max-width: 540px) {
     .completion-split {
@@ -354,5 +454,42 @@
     .completion-flower {
         width: 58px;
         height: 58px;
+    }
+}
+
+/* Ceremonial staggered entrance on fresh completion (skipped on reload / .no-animate) */
+.game-footer.completion-expanded:not(.no-animate) .completion-stage {
+    opacity: 0;
+    transform: translateY(6px);
+    animation: completionStageIn 0.34s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    animation-delay: calc(60ms + var(--stage, 0) * 55ms);
+}
+
+@keyframes completionStageIn {
+    from {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.game-footer.completion-expanded.no-animate .completion-badge-wrapper {
+    animation: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .game-footer.completion-expanded:not(.no-animate) .completion-stage {
+        opacity: 1;
+        transform: none;
+        animation: none;
+    }
+
+    .completion-flower,
+    .completion-badge-wrapper,
+    .golden-glow::before {
+        animation: none;
     }
 }

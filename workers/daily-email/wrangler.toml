@@ -1,0 +1,17 @@
+name = "scriptle-daily-email"
+main = "index.js"
+compatibility_date = "2026-01-01"
+
+# 13:00 UTC = 8:00 AM EST / 9:00 AM EDT
+[triggers]
+crons = ["0 13 * * *"]
+
+[vars]
+SITE_URL = "https://scriptle.net"
+EMAIL_FROM = "Scriptle <daily@scriptle.net>"
+
+# Replace id with your Cloudflare KV namespace ID (shared with Pages Functions):
+# npx wrangler kv namespace create SUBSCRIBERS_KV
+[[kv_namespaces]]
+binding = "SUBSCRIBERS_KV"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"

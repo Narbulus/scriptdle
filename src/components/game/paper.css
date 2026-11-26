@@ -71,16 +71,35 @@
     --blur-opacity: 0.42;
 }
 
-/* Revealing + revealed: same transition, so the blur eases off
-   rather than snapping. */
+/* Revealing + revealed: smooth focus-pull out of blur onto sharp ink */
 .text-reveal[data-state="wiping"] .text-content,
 .text-reveal[data-state="revealed"] .text-content {
     color: var(--text-color, #17130d);
     filter: blur(0);
     opacity: 1;
     transition:
-        filter 0.42s cubic-bezier(0.22, 0.61, 0.36, 1),
-        opacity 0.42s cubic-bezier(0.22, 0.61, 0.36, 1);
+        filter 0.52s cubic-bezier(0.16, 1, 0.3, 1),
+        opacity 0.52s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Warm archival ink-wash highlight guiding the eye onto newly revealed clues */
+.text-reveal[data-state="wiping"] {
+    animation: clueInkWash 0.95s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+}
+
+@keyframes clueInkWash {
+    0% {
+        background-color: rgba(206, 158, 56, 0.02);
+        box-shadow: 0 0 0 2px rgba(206, 158, 56, 0.02);
+    }
+    18% {
+        background-color: rgba(206, 158, 56, 0.16);
+        box-shadow: 0 0 0 2px rgba(206, 158, 56, 0.16);
+    }
+    100% {
+        background-color: transparent;
+        box-shadow: 0 0 0 2px transparent;
+    }
 }
 
 /* The unknown speaker stays a hard block — it is the answer, not a
@@ -92,6 +111,10 @@
 @media (prefers-reduced-motion: reduce) {
     .text-reveal .text-content {
         transition-duration: 0.01ms;
+    }
+
+    .text-reveal[data-state="wiping"] {
+        animation: none;
     }
 }
 

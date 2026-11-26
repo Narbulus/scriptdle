@@ -347,12 +347,60 @@
 }
 
 .footer-attempts {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
     font-family: var(--font-mono);
     font-size: 0.85rem;
     font-weight: bold;
     color: var(--primary-color);
     text-transform: uppercase;
     letter-spacing: 0.05em;
+}
+
+.attempt-pips {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.attempt-pip {
+    width: 8px;
+    height: 8px;
+    border-radius: var(--radius-full);
+    flex-shrink: 0;
+    box-sizing: border-box;
+    transition:
+        background-color var(--transition-base),
+        border-color var(--transition-base),
+        transform var(--transition-base);
+}
+
+.attempt-pip--remaining {
+    background: transparent;
+    border: 1.5px solid color-mix(in srgb, var(--primary-color) 52%, transparent);
+}
+
+.attempt-pip--miss {
+    background: color-mix(in srgb, var(--primary-color) 34%, transparent);
+    border: 1.5px solid color-mix(in srgb, var(--primary-color) 42%, transparent);
+}
+
+.attempt-pip--partial,
+.attempt-pip--hit {
+    background: color-mix(in srgb, #4f9e66 82%, var(--primary-color));
+    border: 1.5px solid color-mix(in srgb, #6ec486 78%, var(--primary-color));
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.28);
+}
+
+.attempt-pip.is-fresh {
+    animation: pipStamp 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes pipStamp {
+    0% { transform: scale(0.65); }
+    55% { transform: scale(1.22); }
+    100% { transform: scale(1); }
 }
 
 .footer-more-movies {
@@ -419,17 +467,33 @@
     background: transparent;
 }
 
-/* Yow pop reveal for target character name */
+/* Weighted letterpress stamp reveal for target character name */
 .yow-reveal {
     display: inline-block;
-    animation: yowPop 1.2s ease-out;
+    transform-origin: center center;
+    animation: yowPop 0.62s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
 @keyframes yowPop {
-    0%   { transform: scale(1); }
-    40%  { transform: scale(1.4); }
-    65%  { transform: scale(0.95); }
-    100% { transform: scale(1); }
+    0% {
+        opacity: 0;
+        transform: scale(1.14);
+        letter-spacing: 0.12em;
+    }
+    42% {
+        opacity: 1;
+        transform: scale(0.98);
+        letter-spacing: -0.01em;
+    }
+    72% {
+        transform: scale(1.015);
+        letter-spacing: 0.01em;
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        letter-spacing: normal;
+    }
 }
 
 /* Character name placeholder - the answer we're guessing */
@@ -443,15 +507,25 @@
     letter-spacing: inherit;
 }
 
-/* Shake animation for wrong answers */
+/* Crisp horizontal recoil for wrong answers */
 @keyframes shake {
-    0%, 100% { transform: translateX(0) rotate(0deg); }
-    10%, 30%, 50%, 70%, 90% { transform: translateX(-4px) rotate(-1deg); }
-    20%, 40%, 60%, 80% { transform: translateX(4px) rotate(1deg); }
+    0%, 100% { transform: translateX(0); }
+    18% { transform: translateX(-5px); }
+    38% { transform: translateX(4px); }
+    58% { transform: translateX(-2.5px); }
+    78% { transform: translateX(1.5px); }
 }
 
 .shake {
-    animation: shake 0.4s ease-in-out;
+    animation: shake 0.32s cubic-bezier(0.36, 0.07, 0.19, 0.97);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .yow-reveal,
+    .shake,
+    .attempt-pip.is-fresh {
+        animation: none;
+    }
 }
 
 /* Marquee slide for long titles in ScriptSelect trigger */
@@ -594,6 +668,13 @@ button:active {
     color: var(--main-text);
 }
 
+.movie-summary {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.84rem;
+    line-height: 1.45;
+    color: var(--main-text-secondary);
+}
+
 .movie-links {
     display: flex;
     gap: 0.75rem;
@@ -702,6 +783,28 @@ button:active {
         height: auto;
         flex-shrink: 0;
         align-self: stretch;
+    }
+
+    .footer-meta {
+        gap: 0.75rem;
+    }
+
+    .footer-attempts,
+    .footer-more-movies {
+        font-size: 0.8rem;
+    }
+
+    .footer-attempts {
+        gap: 0.4rem;
+    }
+
+    .attempt-pips {
+        gap: 4px;
+    }
+
+    .attempt-pip {
+        width: 7px;
+        height: 7px;
     }
 
     .movie-item {

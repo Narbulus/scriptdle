@@ -7,6 +7,7 @@ import { getCurrentDate, getTimeUntilMidnight } from '../../utils/time.js';
 import { findPreviousUnplayedDate, formatArchiveDateLabel } from '../../utils/archive.js';
 import { track } from '../../utils/analytics.js';
 import { StatsSection } from './StatsSection.jsx';
+import { EmailReminder } from './EmailReminder.jsx';
 import { openStatsModal } from '../../pages/Stats.jsx';
 import { getPlatform } from '../../services/platform.js';
 
@@ -224,12 +225,13 @@ export function Completion({ puzzle, pack, packTheme, puzzleDate }) {
             {isCompact ? (
                 <div className="completion-split">
                     <div className="completion-info">
-                        <h2 className="completion-title">{tierMessage}</h2>
+                        <h2 className="completion-title completion-stage" style={{ '--stage': 0 }}>{tierMessage}</h2>
                         <div className="completion-info-content">
-                            <div className="completion-answer">
+                            <div className="completion-answer completion-stage" style={{ '--stage': 0 }}>
                                 It was <strong>{target.character}</strong> in <em>{target.movie}</em>
+                                {target.season ? ` (${target.season}${target.episodeNumber ? `, Ep. ${target.episodeNumber}` : ''})` : ''}
                             </div>
-                            <div className="completion-row">
+                            <div className="completion-row completion-stage" style={{ '--stage': 1 }}>
                                 <div className="stat-box">
                                     <div className="stat-value">{streak}</div>
                                     <div className="stat-label">Day Streak</div>
@@ -240,20 +242,20 @@ export function Completion({ puzzle, pack, packTheme, puzzleDate }) {
                                     <div className="stat-label">Attempts</div>
                                 </div>
                             </div>
-                            <div className="completion-row">
+                            <div className="completion-row completion-stage" style={{ '--stage': 2 }}>
                                 <button type="button" className="completion-collection-btn" onClick={openStatsModal}>
                                     YOUR COLLECTION
                                 </button>
                             </div>
                         </div>
                     </div>
-                    <div className="completion-stats">
+                    <div className="completion-stats completion-stage" style={{ '--stage': 3 }}>
                         <StatsSection stats={stats} playerBucket={playerBucket} />
                     </div>
                 </div>
             ) : (
                 <div className="completion-content">
-                    <div className="completion-header">
+                    <div className="completion-header completion-stage" style={{ '--stage': 0 }}>
                         {isArchive && (
                             <div className="completion-archive-eyebrow" data-testid="completion-archive-label">
                                 Archive · {formatArchiveDateLabel(activeDate, today)}
@@ -262,10 +264,11 @@ export function Completion({ puzzle, pack, packTheme, puzzleDate }) {
                         <h2 className="completion-title">{tierMessage}</h2>
                         <div className="completion-answer">
                             It was <strong>{target.character}</strong> in <em>{target.movie}</em>
+                            {target.season ? ` (${target.season}${target.episodeNumber ? `, Ep. ${target.episodeNumber}` : ''})` : ''}
                         </div>
                     </div>
 
-                    <div className="completion-row">
+                    <div className="completion-row completion-stage" style={{ '--stage': 1 }}>
                         <div className="stat-box">
                             <div className="stat-value">{streak}</div>
                             <div className="stat-label">Day Streak</div>
@@ -279,7 +282,7 @@ export function Completion({ puzzle, pack, packTheme, puzzleDate }) {
                         </div>
                     </div>
 
-                    <div className="completion-row completion-collection-row">
+                    <div className="completion-row completion-collection-row completion-stage" style={{ '--stage': 2 }}>
                         {nextArchiveDate && (
                             <a
                                 href={`/play/${pack.id}?date=${nextArchiveDate}`}
@@ -296,7 +299,7 @@ export function Completion({ puzzle, pack, packTheme, puzzleDate }) {
                         </button>
                     </div>
 
-                    <div className="share-section">
+                    <div className="share-section completion-stage" style={{ '--stage': 3 }}>
                         <div className="completion-links-row">
                             {isArchive ? (
                                 <a href={`/play/${pack.id}`} data-link className="footer-more-movies" data-testid="completion-today-link">
@@ -352,6 +355,8 @@ export function Completion({ puzzle, pack, packTheme, puzzleDate }) {
                                 {gameMessage.value.text}
                             </div>
                         )}
+
+                        <EmailReminder pack={pack} />
                     </div>
                 </div>
             )}

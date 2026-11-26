@@ -1,17 +1,30 @@
 import { Modal } from '../common/Modal.jsx';
 
-export function MoviesModal({ isOpen, onClose, packName, movies, movieTitles, movieYears, moviePosters }) {
-    const hasAnyPoster = movies.some(movieId => Boolean(moviePosters?.[movieId]));
+export function MoviesModal({ isOpen, onClose, packName, movies, movieTitles, movieYears, moviePosters, seasonTitle, episodes }) {
+    const isEpisodeList = Array.isArray(episodes) && episodes.length > 0;
+    const hasAnyPoster = !isEpisodeList && movies.some(movieId => Boolean(moviePosters?.[movieId]));
+    const modalTitle = isEpisodeList && seasonTitle ? `${packName} — ${seasonTitle}` : packName;
 
     return (
         <Modal
             id="movies-modal"
             isOpen={isOpen}
             onClose={onClose}
-            title={packName}
+            title={modalTitle}
         >
             <div id="movies-list">
-                {movies.map(movieId => {
+                {isEpisodeList ? episodes.map(ep => (
+                    <div key={ep.id} className="movie-item">
+                        <div className="movie-info">
+                            <div className="movie-title">
+                                E{String(ep.number).padStart(2, '0')} · {ep.title}
+                            </div>
+                            {ep.summary && (
+                                <div className="movie-summary">{ep.summary}</div>
+                            )}
+                        </div>
+                    </div>
+                )) : movies.map(movieId => {
                     const title = movieTitles?.[movieId] || movieId;
                     const year = movieYears?.[movieId];
                     const poster = moviePosters?.[movieId];

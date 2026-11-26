@@ -3,6 +3,7 @@ import { useEffect, useState } from 'preact/hooks';
 import { Modal } from './common/Modal.jsx';
 import { getSettings } from '../services/storage.js';
 import { setReducedMotion } from '../services/settings.js';
+import { isSoundEnabled, setSoundEnabled, playTick } from '../utils/sound.js';
 import './settings.css';
 
 const isSettingsModalOpen = signal(false);
@@ -13,17 +14,28 @@ export function openSettingsModal() {
 
 function SettingsModal({ isOpen, onClose }) {
     const [reducedMotion, setReducedMotionState] = useState(false);
+    const [soundEnabled, setSoundEnabledState] = useState(true);
 
     useEffect(() => {
         if (isOpen) {
             setReducedMotionState(!!getSettings().reducedMotion);
+            setSoundEnabledState(isSoundEnabled());
         }
     }, [isOpen]);
 
-    function handleToggle() {
+    function handleToggleReducedMotion() {
         const next = !reducedMotion;
         setReducedMotionState(next);
         setReducedMotion(next);
+    }
+
+    function handleToggleSound() {
+        const next = !soundEnabled;
+        setSoundEnabledState(next);
+        setSoundEnabled(next);
+        if (next) {
+            playTick();
+        }
     }
 
     return (
@@ -32,7 +44,20 @@ function SettingsModal({ isOpen, onClose }) {
                 <button
                     type="button"
                     className="settings-row settings-checkbox-row"
-                    onClick={handleToggle}
+                    onClick={handleToggleSound}
+                    role="switch"
+                    aria-checked={soundEnabled}
+                    data-testid="sound-effects-toggle"
+                >
+                    <span className="settings-label">Sound Effects</span>
+                    <span className={`settings-checkbox ${soundEnabled ? 'checked' : ''}`} aria-hidden="true">
+                        {soundEnabled && <span className="settings-checkbox-mark">✓</span>}
+                    </span>
+                </button>
+                <button
+                    type="button"
+                    className="settings-row settings-checkbox-row"
+                    onClick={handleToggleReducedMotion}
                     role="switch"
                     aria-checked={reducedMotion}
                     data-testid="reduced-motion-toggle"

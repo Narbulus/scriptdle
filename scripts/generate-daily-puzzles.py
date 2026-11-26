@@ -78,6 +78,45 @@ class PuzzleGenerator:
         self.scripts_dir = self.data_dir / 'scripts'
         self.packs_dir = self.data_dir / 'packs'
         self.daily_dir = self.data_dir / 'daily'
+        self.overrides_file = self.data_dir / 'puzzle-overrides.json'
+        self.overrides = self.load_overrides()
+
+    def load_overrides(self):
+        """Load optional date-pinned puzzle overrides from public/data/puzzle-overrides.json."""
+        if not self.overrides_file.exists():
+            return {}
+        with open(self.overrides_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
+
+    def resolve_override_index(self, pack_id, date_str, all_lines, min_words=5):
+        """Return matching line index if an override is pinned for (pack_id, date_str)."""
+        spec = (self.overrides.get(pack_id) or {}).get(date_str)
+        if not spec:
+            return None
+        wanted_script = spec.get('scriptId')
+        wanted_text = (spec.get('textContains') or '').lower()
+        wanted_char = (spec.get('character') or '').upper()
+        wanted_ep = spec.get('episode')
+
+        for idx, line in enumerate(all_lines):
+            if idx < 1 or idx >= len(all_lines) - 3:
+                continue
+            if wanted_script and line.get('movieId') != wanted_script:
+                continue
+            if wanted_ep and line.get('episode') != wanted_ep:
+                continue
+            if wanted_char and line.get('character', '').upper() != wanted_char:
+                continue
+            if wanted_text and wanted_text not in line.get('text', '').lower():
+                continue
+            if not self.is_usable_target(line, min_words):
+                continue
+            print(f"  [OVERRIDE] {pack_id} {date_str} -> {line['movieId']} idx={idx} ({line['character']})")
+            return idx
+
+        print(f"  WARNING: override for {pack_id} {date_str} did not match any usable line: {spec}")
+        return None
 
     def mulberry32(self, seed):
         """Seeded RNG - matches Game.js exactly"""
@@ -238,6 +277,7 @@ class PuzzleGenerator:
                     'originalIndex': idx,
                     'year': script.get('year'),
                     'scene': line.get('scene'),
+                    'episode': line.get('episode'),
                 })
 
         return all_lines
@@ -255,6 +295,7 @@ class PuzzleGenerator:
         movies_with_year = {}
         movies_with_title = {}
         movies_with_poster = {}
+        episodes_by_movie = {}
         significant_by_movie = {}
 
         # Get significant characters from script metadata
@@ -270,6 +311,8 @@ class PuzzleGenerator:
             movies_with_year[movie_id] = script.get('year')
             movies_with_title[movie_id] = script.get('title')
             movies_with_poster[movie_id] = script.get('poster')
+            if script.get('episodes'):
+                episodes_by_movie[movie_id] = script['episodes']
 
         # Collect all movie IDs from lines
         movies = set(line['movieId'] for line in all_lines)
@@ -281,7 +324,7 @@ class PuzzleGenerator:
             key=lambda m: (movies_with_year.get(m) is None, movies_with_year.get(m) or 0, m)
         )
 
-        return {
+        meta = {
             'movies': sorted_movies,
             'movieYears': {m: year for m, year in movies_with_year.items() if year},
             'movieTitles': {m: title for m, title in movies_with_title.items() if title},
@@ -291,6 +334,13 @@ class PuzzleGenerator:
                 for movie in sorted_movies
             }
         }
+        if episodes_by_movie:
+            meta['episodesByMovie'] = {
+                movie: episodes_by_movie[movie]
+                for movie in sorted_movies
+                if movie in episodes_by_movie
+            }
+        return meta
 
     def resolve_usable_target(self, target_index, all_lines, indices_by_movie, min_words):
         """
@@ -321,8 +371,10 @@ class PuzzleGenerator:
 
     def generate_daily_puzzle(self, pack_id, date_str, all_lines, indices_by_movie, metadata, pack_movie_order, min_words=5):
         """Generate puzzle data for a specific date"""
-        target_index = self.select_target_index(pack_id, date_str, indices_by_movie, pack_movie_order)
-        target_index = self.resolve_usable_target(target_index, all_lines, indices_by_movie, min_words)
+        target_index = self.resolve_override_index(pack_id, date_str, all_lines, min_words=min_words)
+        if target_index is None:
+            target_index = self.select_target_index(pack_id, date_str, indices_by_movie, pack_movie_order)
+            target_index = self.resolve_usable_target(target_index, all_lines, indices_by_movie, min_words)
 
         # Extract target line and context
         target_line = all_lines[target_index]
@@ -332,16 +384,29 @@ class PuzzleGenerator:
             if target_index + i < len(all_lines):
                 context_after.append(all_lines[target_index + i])
 
+        target_payload = {
+            'character': target_line['character'],
+            'text': target_line['text'],
+            'movie': target_line['movie']
+        }
+
+        episode_id = target_line.get('episode')
+        season_eps = (metadata.get('episodesByMovie') or {}).get(target_line['movieId'])
+        if episode_id and season_eps:
+            ep_info = next((e for e in season_eps if e.get('id') == episode_id), None)
+            if ep_info:
+                target_payload['seasonId'] = target_line['movieId']
+                target_payload['season'] = target_line['movie']
+                target_payload['episodeId'] = ep_info['id']
+                target_payload['episodeNumber'] = ep_info['number']
+                target_payload['movie'] = ep_info['title']
+
         puzzle_data = {
             'version': 1,
             'date': date_str,
             'packId': pack_id,
             'puzzle': {
-                'targetLine': {
-                    'character': target_line['character'],
-                    'text': target_line['text'],
-                    'movie': target_line['movie']
-                },
+                'targetLine': target_payload,
                 'contextBefore': {
                     'character': context_before['character'],
                     'text': context_before['text']

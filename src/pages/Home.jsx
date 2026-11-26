@@ -4,6 +4,7 @@ import { getCurrentDate } from '../utils/time.js';
 import { loadAllGameData, getDataCache } from '../services/dataLoader.js';
 import { getStorageBackend } from '../services/storage.js';
 import { getStreak } from '../utils/completionTracker.js';
+import { getPrimaryReturningPack } from '../utils/returningPack.js';
 
 function readTodayHistory() {
     const today = getCurrentDate();
@@ -134,22 +135,41 @@ export function Home() {
         return <HomeSkeleton />;
     }
 
-    const totalPacks = data.packs.length;
     const completedToday = data.packs.filter(p => history[p.id]?.completed).length;
     const streak = getStreak();
+    const returning = getPrimaryReturningPack(data.packs, history);
+    const returningTheme = returning ? data.packThemes[returning.pack.id] : null;
+    const returningHref = returning
+        ? (returning.playedToday && returning.nextArchiveDate
+            ? `/play/${returning.pack.id}?date=${returning.nextArchiveDate}`
+            : `/play/${returning.pack.id}`)
+        : null;
+    const returningStyle = returningTheme ? {
+        '--pack-card-gradient-start': returningTheme.cardGradientStart,
+        '--pack-card-gradient-end': returningTheme.cardGradientEnd,
+        '--pack-card-border': returningTheme.cardBorder,
+        '--pack-card-text': returningTheme.cardText || returningTheme.primary,
+        '--pack-card-btn-text': returningTheme.btnText || '#191510',
+    } : {};
 
     return (
         <main className="home-page">
             <header className="home-header">
                 <div className="home-header-copy">
-                    <h1 className="home-tagline">Daily Movie Quote Puzzles</h1>
+                    <h1 className="home-tagline">Daily Movie &amp; TV Quote Puzzles</h1>
                     <div className="home-progress-meta" data-testid="home-progress">
-                        <span>{completedToday}/{totalPacks} played today</span>
-                        {streak > 0 && (
+                        {streak > 0 ? (
                             <>
-                                <span aria-hidden="true">&middot;</span>
-                                <span>{streak} day streak</span>
+                                <span className="home-progress-item">{streak} day streak</span>
+                                {completedToday > 0 && (
+                                    <>
+                                        <span aria-hidden="true">&middot;</span>
+                                        <span className="home-progress-item">Played today ✓</span>
+                                    </>
+                                )}
                             </>
+                        ) : (
+                            <span>Pick one you&apos;ve seen too many times</span>
                         )}
                     </div>
                 </div>
@@ -157,6 +177,31 @@ export function Home() {
                     Collection
                 </a>
             </header>
+
+            {returning && (
+                <a
+                    href={returningHref}
+                    data-link
+                    data-theme="pack"
+                    data-testid="continue-pack-card"
+                    className="home-continue-card"
+                    style={returningStyle}
+                >
+                    <div className="home-continue-copy">
+                        <span className="home-continue-eyebrow">
+                            {returning.playedToday ? 'Played Today ✓ · Your Pack' : "Today's Puzzle Ready"}
+                        </span>
+                        <span className="home-continue-title">{returning.pack.name}</span>
+                    </div>
+                    <span className="home-continue-cta">
+                        {returning.playedToday && returning.nextArchiveLabel
+                            ? `${returning.nextArchiveLabel} →`
+                            : returning.playedToday
+                                ? 'View Result →'
+                                : 'Play Now →'}
+                    </span>
+                </a>
+            )}
 
             <PackList
                 packs={data.packs}

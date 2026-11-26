@@ -8,6 +8,7 @@ immediately after each item finishes, and enforces a strict spend cap.
 
 import argparse
 import json
+import re
 import sys
 import urllib.parse
 from pathlib import Path
@@ -16,6 +17,55 @@ from typing import Dict, List, Optional, Sequence, Tuple
 from pipeline import export, extract, jellyfin, srt
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+
+
+def clean_episode_title(title: str) -> str:
+    """Clean overly verbose multi-part Jellyfin episode titles into concise display labels."""
+    text = re.sub(r"\s+", " ", (title or "")).strip()
+    if not text:
+        return ""
+    # Collapse 3+ slash-joined multi-part titles like "Sozin's Comet: Part 1 / Part 2 / ..."
+    parts = [p.strip() for p in text.split(" / ") if p.strip()]
+    if len(parts) >= 3:
+        prefix = parts[0].split(":")[0].strip()
+        if prefix and all(p.startswith(prefix) for p in parts):
+            return f"{prefix} (Parts 1-{len(parts)})"
+        return f"{parts[0]} / {parts[-1]}"
+    return text
+
+
+def clean_episode_summary(overview: str, max_chars: int = 210) -> str:
+    """Trim episode synopsis to 1-2 clean sentences suitable for a dropdown preview."""
+    text = re.sub(r"\s+", " ", (overview or "")).strip()
+    if not text or len(text) <= max_chars:
+        return text
+    # Prefer ending cleanly at a sentence boundary within max_chars
+    clipped = text[:max_chars]
+    last_punct = max(clipped.rfind(". "), clipped.rfind("! "), clipped.rfind("? "))
+    if last_punct >= 70:
+        return clipped[: last_punct + 1].strip()
+    return clipped.rsplit(" ", 1)[0].rstrip(",;:") + "..."
+
+
+def build_season_episodes_catalog(episodes: Sequence[dict], season_num: int) -> List[dict]:
+    """Build ordered [{id, number, title, summary}] metadata for every episode in a season."""
+    catalog: List[dict] = []
+    seen = set()
+    for ep in sorted(episodes, key=lambda e: int(e.get("IndexNumber") or 999)):
+        ep_num = int(ep.get("IndexNumber") or 0)
+        if ep_num <= 0:
+            continue
+        ep_code = f"s{season_num:02d}e{ep_num:02d}"
+        if ep_code in seen:
+            continue
+        seen.add(ep_code)
+        catalog.append({
+            "id": ep_code,
+            "number": ep_num,
+            "title": clean_episode_title(ep.get("Name") or f"Episode {ep_num}"),
+            "summary": clean_episode_summary(ep.get("Overview") or ""),
+        })
+    return catalog
 
 
 def pick_spaced_episodes(episodes: Sequence[dict], count: int) -> List[dict]:
@@ -383,6 +433,7 @@ def extract_tv_season_pack(
                     "character": line["character"],
                     "text": line["text"],
                     "scene": ep_scene_offset + sc,
+                    "episode": ep_code,
                 })
             if max_sc >= 0:
                 next_scene_id = ep_scene_offset + max_sc + 1
@@ -392,12 +443,14 @@ def extract_tv_season_pack(
         })
         top_cast = export.compute_top_speaking_cast(season_lines)
         season_title = (season_titles or {}).get(sn) or f"Season {sn}"
+        season_episodes = build_season_episodes_catalog(all_by_season.get(sn, picked_eps), sn)
         season_doc = {
             "id": season_slug,
             "title": season_title,
             "year": season_year,
             "characters": characters,
             "lines": season_lines,
+            "episodes": season_episodes,
             "lineCount": len(season_lines),
             "characterCount": len(characters),
             "imdbId": series_imdb,

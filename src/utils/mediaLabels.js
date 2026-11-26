@@ -9,6 +9,16 @@ const MEDIA_LABELS = {
         guessTip: "Now submit your guess. If you get the movie or character right, it's locked in!",
         moreLink: 'More Movies',
     },
+    episodes: {
+        singular: 'episode',
+        plural: 'episodes',
+        selectPrompt: 'Which Episode?',
+        viewLink: 'VIEW EPISODES',
+        correctMsg: 'Episode is correct!',
+        tutorialTip: "Choose the episode from this season. Summaries are shown inside the picker!",
+        guessTip: "Now submit your guess. If you get the episode or character right, it's locked in!",
+        moreLink: 'More Packs',
+    },
     seasons: {
         singular: 'season',
         plural: 'seasons',

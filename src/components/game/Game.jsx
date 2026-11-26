@@ -51,9 +51,10 @@ export function Game({ dailyPuzzle, manifest, packData }) {
         currentPackId.value !== dailyPuzzle.packId ||
         currentPuzzleDate.value !== dailyPuzzle.date
     ) {
+        const isNewPuzzle = initializedKeyRef.current !== puzzleKey;
         initGame(dailyPuzzle.packId, dailyPuzzle.date, pack.name);
         initializedKeyRef.current = puzzleKey;
-        if (!hasCheckedInit.current) {
+        if (!hasCheckedInit.current || isNewPuzzle) {
             wasAlreadyComplete.current = isGameOver.value;
             hasCheckedInit.current = true;
         }
@@ -174,6 +175,8 @@ export function Game({ dailyPuzzle, manifest, packData }) {
                 movieTitles={metadata.movieTitles}
                 movieYears={metadata.movieYears}
                 moviePosters={metadata.moviePosters}
+                seasonTitle={puzzle.targetLine.season}
+                episodes={puzzle.targetLine.seasonId ? metadata.episodesByMovie?.[puzzle.targetLine.seasonId] : null}
             />
 
             {(import.meta.env.DEV || import.meta.env.VITE_DEBUG_MENU) && <DebugMenu />}

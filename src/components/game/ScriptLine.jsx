@@ -46,6 +46,21 @@ export function ScriptLine({ character, text, revealChar, revealText, isTarget, 
         prevGeneration.current = revealGeneration;
     }, [revealGeneration]);
 
+    // Fallback settle timers so wiping state always transitions to revealed
+    // even when prefers-reduced-motion disables CSS animations.
+    useEffect(() => {
+        if (textState !== 'wiping') return;
+        const timer = setTimeout(() => setTextState('revealed'), 1050);
+        return () => clearTimeout(timer);
+    }, [textState]);
+
+    useEffect(() => {
+        if (charState !== 'wiping') return;
+        const duration = isTarget ? 750 : 1050;
+        const timer = setTimeout(() => setCharState('revealed'), duration);
+        return () => clearTimeout(timer);
+    }, [charState, isTarget]);
+
     // Character Name Rendering
     const renderCharacter = () => {
         if (isTarget) {
@@ -109,8 +124,14 @@ export function ScriptLine({ character, text, revealChar, revealText, isTarget, 
         );
     };
 
+    const isFreshContext = !isTarget && (textState === 'wiping' || charState === 'wiping');
+
     return (
-        <div className={`script-line ${isTarget ? '' : 'context-line'}`} data-distance={distance}>
+        <div
+            className={`script-line ${isTarget ? '' : 'context-line'}`}
+            data-distance={distance}
+            data-fresh={isFreshContext ? 'true' : undefined}
+        >
             {renderCharacter()}
             {renderText()}
         </div>

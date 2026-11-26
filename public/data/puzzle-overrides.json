@@ -1,0 +1,33 @@
+{
+  "always-sunny": {
+    "2026-11-26": {
+      "scriptId": "always-sunny-s09",
+      "episode": "s09e10",
+      "character": "CHARLIE KELLY",
+      "textContains": "serve the squash and the beef"
+    }
+  },
+  "gilmore-girls": {
+    "2026-11-26": {
+      "scriptId": "gilmore-girls-s03",
+      "episode": "s03e09",
+      "character": "RORY GILMORE",
+      "textContains": "He likes it when we come for Thanksgiving"
+    }
+  },
+  "avatar-tla": {
+    "2026-11-26": {
+      "scriptId": "avatar-tla-s02",
+      "episode": "s02e19",
+      "character": "IROH",
+      "textContains": "thankful because you decided to share this special day"
+    }
+  },
+  "harry-potter": {
+    "2026-11-26": {
+      "scriptId": "hp-half-blood-prince",
+      "character": "HORACE SLUGHORN",
+      "textContains": "I come by the stuffing naturally"
+    }
+  }
+}

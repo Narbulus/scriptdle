@@ -32,6 +32,7 @@ export function ScriptSelect({
     onChange,
     disabled = false,
     locked = false,
+    allowLockAnimation = true,
     count,
     align = 'left',
     onOpen,
@@ -41,18 +42,41 @@ export function ScriptSelect({
     const [active, setActive] = useState(-1);
     const [anchor, setAnchor] = useState(null);
     const [query, setQuery] = useState('');
+    const [justLocked, setJustLocked] = useState(false);
+    const prevLockedRef = useRef(locked);
     const rootRef = useRef(null);
     const menuRef = useRef(null);
     const listRef = useRef(null);
     const typedRef = useRef('');
     const typeTimer = useRef(null);
 
+    // Trigger tactile lock-in settle when transitioning false -> true during gameplay
+    useEffect(() => {
+        const wasLocked = prevLockedRef.current;
+        prevLockedRef.current = locked;
+        if (!wasLocked && locked && allowLockAnimation) {
+            setJustLocked(true);
+            const timer = setTimeout(() => setJustLocked(false), 560);
+            return () => clearTimeout(timer);
+        }
+        if (!locked) {
+            setJustLocked(false);
+        }
+    }, [locked, allowLockAnimation]);
+
     const inert = disabled || locked;
     const current = options.find(o => o.value === value) || null;
+    const hasDescriptions = options.some(o => Boolean(o.description));
 
-    // Typeahead: substring, not prefix — "azkaban" should find the third film.
+    // Typeahead: substring across title, episode badge, and plot summary.
     const q = query.trim().toLowerCase();
-    const shown = q ? options.filter(o => o.label.toLowerCase().includes(q)) : options;
+    const shown = q
+        ? options.filter(o =>
+            o.label.toLowerCase().includes(q)
+            || (o.badge && o.badge.toLowerCase().includes(q))
+            || (o.description && o.description.toLowerCase().includes(q))
+        )
+        : options;
     const selectedIndex = shown.findIndex(o => o.value === value);
 
     // Derived rather than trusted from state: filtering renumbers the list, so
@@ -158,12 +182,18 @@ export function ScriptSelect({
             const el = rootRef.current;
             if (!el) return;
             const r = el.getBoundingClientRect();
+            const menuWidth = hasDescriptions
+                ? Math.min(540, Math.max(r.width, window.innerWidth - 24))
+                : r.width;
+            const left = hasDescriptions
+                ? Math.max(12, Math.min(r.left, window.innerWidth - menuWidth - 12))
+                : r.left;
             setAnchor({
-                left: r.left,
-                width: r.width,
+                left,
+                width: menuWidth,
                 bottom: window.innerHeight - r.top + 10,
                 // Never taller than the room above the trigger
-                maxHeight: Math.max(120, r.top - 18),
+                maxHeight: Math.max(160, r.top - 18),
             });
         };
 
@@ -183,7 +213,7 @@ export function ScriptSelect({
             window.removeEventListener('resize', place);
             window.removeEventListener('scroll', onScroll, true);
         };
-    }, [open]);
+    }, [open, hasDescriptions]);
 
     // A new query renumbers the list, so start back at the top.
     useEffect(() => {
@@ -241,7 +271,7 @@ export function ScriptSelect({
 
     return (
         <div
-            className={`script-select ${open ? 'is-open' : ''} ${locked ? 'is-locked' : ''} ${disabled ? 'is-disabled' : ''}`}
+            className={`script-select ${open ? 'is-open' : ''} ${locked ? 'is-locked' : ''} ${justLocked ? 'is-just-locked' : ''} ${disabled ? 'is-disabled' : ''}`}
             ref={rootRef}
         >
             <button
@@ -261,7 +291,11 @@ export function ScriptSelect({
             >
                 <span className="script-select-value">
                     {current
-                        ? <span ref={valueRef} key={current.value}>{current.label}</span>
+                        ? (
+                            <span ref={valueRef} key={current.value}>
+                                {current.badge ? `${current.badge} · ${current.label}` : current.label}
+                            </span>
+                        )
                         : label}
                 </span>
                 <span className="script-select-caret" aria-hidden="true">
@@ -271,7 +305,7 @@ export function ScriptSelect({
 
             {open && anchor && (
                 <div
-                    className={`script-select-menu align-${align}`}
+                    className={`script-select-menu align-${align}${hasDescriptions ? ' has-descriptions' : ''}`}
                     ref={menuRef}
                     style={{
                         left: `${anchor.left}px`,
@@ -298,14 +332,22 @@ export function ScriptSelect({
                                 id={`${id}-opt-${i}`}
                                 role="option"
                                 aria-selected={o.value === value}
-                                className={`script-select-option${i === activeIndex ? ' is-active' : ''}${o.value === value ? ' is-selected' : ''}`}
+                                className={`script-select-option${i === activeIndex ? ' is-active' : ''}${o.value === value ? ' is-selected' : ''}${o.description ? ' has-desc' : ''}`}
                                 onClick={() => pick(o.value)}
                                 onMouseEnter={() => setActive(i)}
                             >
                                 <span className="script-select-mark" aria-hidden="true">
                                     {o.value === value ? '✓' : ''}
                                 </span>
-                                <span className="script-select-option-label">{o.label}</span>
+                                <span className="script-select-option-body">
+                                    <span className="script-select-option-title">
+                                        {o.badge && <span className="script-select-option-badge">{o.badge}</span>}
+                                        <span className="script-select-option-label">{o.label}</span>
+                                    </span>
+                                    {o.description && (
+                                        <span className="script-select-option-desc">{o.description}</span>
+                                    )}
+                                </span>
                             </button>
                         ))}
                         {shown.length === 0 && (
@@ -318,7 +360,7 @@ export function ScriptSelect({
                     {/* Filter sits at the bottom: it is the end of the menu
                         nearest the trigger, so it lands under the thumb on a
                         phone rather than at the far top of a tall list. */}
-                    {options.length > 6 && (
+                    {(options.length > 6 || hasDescriptions) && (
                         <div className="script-select-filter">
                             <span className="script-select-filter-icon" aria-hidden="true">⌕</span>
                             <input
@@ -326,7 +368,7 @@ export function ScriptSelect({
                                 className="script-select-filter-input"
                                 data-testid={`${id}-filter`}
                                 value={query}
-                                placeholder="Type to filter…"
+                                placeholder={hasDescriptions ? 'Filter by title or plot…' : 'Type to filter…'}
                                 aria-label={`Filter ${label}`}
                                 aria-controls={listId}
                                 autocomplete="off"
