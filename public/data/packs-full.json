@@ -2,6 +2,11 @@
   "featured": [
     "star-wars",
     "the-office",
+    "breaking-bad",
+    "always-sunny",
+    "avatar-tla",
+    "tarantino",
+    "gilmore-girls",
     "harry-potter",
     "marvel",
     "pixar-classics",
@@ -17,14 +22,19 @@
         "harry-potter",
         "the-lord-of-the-rings",
         "bttf-trilogy",
-        "marvel"
+        "marvel",
+        "tarantino"
       ]
     },
     {
       "id": "tv",
       "name": "TV Shows",
       "packs": [
-        "the-office"
+        "the-office",
+        "breaking-bad",
+        "always-sunny",
+        "gilmore-girls",
+        "avatar-tla"
       ]
     },
     {
@@ -65,7 +75,7 @@
       "manifest": {
         "packId": "star-wars",
         "packName": "Star Wars",
-        "generatedAt": "2026-11-24T17:32:47.241704",
+        "generatedAt": "2026-11-25T18:14:54.834129",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -324,7 +334,7 @@
       "manifest": {
         "packId": "harry-potter",
         "packName": "Harry Potter",
-        "generatedAt": "2026-11-24T17:32:45.137480",
+        "generatedAt": "2026-11-25T18:14:49.430756",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -585,7 +595,7 @@
       "manifest": {
         "packId": "the-lord-of-the-rings",
         "packName": "The Lord of the Rings",
-        "generatedAt": "2026-11-24T17:32:46.673027",
+        "generatedAt": "2026-11-25T18:14:54.033320",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -716,7 +726,7 @@
       "manifest": {
         "packId": "shrek",
         "packName": "Shrek",
-        "generatedAt": "2026-11-24T17:32:48.199440",
+        "generatedAt": "2026-11-25T18:14:57.232748",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -849,7 +859,7 @@
       "manifest": {
         "packId": "bttf-trilogy",
         "packName": "Back to the Future",
-        "generatedAt": "2026-11-24T17:32:45.434319",
+        "generatedAt": "2026-11-25T18:14:49.800878",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -965,7 +975,7 @@
       "manifest": {
         "packId": "pixar-classics",
         "packName": "Pixar Classics",
-        "generatedAt": "2026-11-24T17:32:48.748252",
+        "generatedAt": "2026-11-25T18:14:58.062352",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -1200,7 +1210,7 @@
       "manifest": {
         "packId": "disney-classics",
         "packName": "Disney Classics",
-        "generatedAt": "2026-11-24T17:32:45.830552",
+        "generatedAt": "2026-11-25T18:14:51.305849",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -1422,7 +1432,7 @@
       "manifest": {
         "packId": "disney-pixar",
         "packName": "Disney Pixar",
-        "generatedAt": "2026-11-24T17:32:47.704219",
+        "generatedAt": "2026-11-25T18:14:55.689397",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -1629,7 +1639,7 @@
       "manifest": {
         "packId": "marvel",
         "packName": "Marvel",
-        "generatedAt": "2026-11-24T17:32:46.281988",
+        "generatedAt": "2026-11-25T18:14:53.376904",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -1880,6 +1890,227 @@
       }
     },
     {
+      "id": "tarantino",
+      "name": "Quentin Tarantino",
+      "movieCount": 9,
+      "mediaType": "movies",
+      "theme": {
+        "primary": "#f7d02c",
+        "bgColor": "#141112",
+        "containerBg": "#f7f3ea",
+        "accentColor": "#c81d25",
+        "btnText": "#141112",
+        "cardGradientStart": "#141112",
+        "cardGradientEnd": "#2c1317",
+        "cardBorder": "#f7d02c",
+        "cardText": "#f7d02c"
+      },
+      "tierMessages": {
+        "perfect": "That's a Bingo!",
+        "good": "Royale with Cheese!",
+        "average": "Say 'What' Again!",
+        "barely": "A Decent Pair of Shoes",
+        "failure": "You Know What They Call a Loss in France?"
+      },
+      "manifest": {
+        "packId": "tarantino",
+        "packName": "Quentin Tarantino",
+        "generatedAt": "2026-11-25T18:14:51.922256",
+        "dateRange": {
+          "start": "2026-01-12",
+          "end": "2030-02-12"
+        },
+        "totalPuzzles": 1493,
+        "cycleLength": 7886,
+        "tierMessages": {
+          "perfect": "That's a Bingo!",
+          "good": "Royale with Cheese!",
+          "average": "Say 'What' Again!",
+          "barely": "A Decent Pair of Shoes",
+          "failure": "You Know What They Call a Loss in France?"
+        }
+      },
+      "gameMetadata": {
+        "movies": [
+          "reservoir-dogs",
+          "pulp-fiction",
+          "jackie-brown",
+          "kill-bill-vol-1",
+          "kill-bill-vol-2",
+          "inglourious-basterds",
+          "django-unchained",
+          "the-hateful-eight",
+          "once-upon-a-time-in-hollywood"
+        ],
+        "movieYears": {
+          "reservoir-dogs": 1992,
+          "pulp-fiction": 1994,
+          "jackie-brown": 1997,
+          "kill-bill-vol-1": 2003,
+          "kill-bill-vol-2": 2004,
+          "inglourious-basterds": 2009,
+          "django-unchained": 2012,
+          "the-hateful-eight": 2015,
+          "once-upon-a-time-in-hollywood": 2019
+        },
+        "movieTitles": {
+          "reservoir-dogs": "Reservoir Dogs",
+          "pulp-fiction": "Pulp Fiction",
+          "jackie-brown": "Jackie Brown",
+          "kill-bill-vol-1": "Kill Bill: Vol. 1",
+          "kill-bill-vol-2": "Kill Bill: Vol. 2",
+          "inglourious-basterds": "Inglourious Basterds",
+          "django-unchained": "Django Unchained",
+          "the-hateful-eight": "The Hateful Eight",
+          "once-upon-a-time-in-hollywood": "Once Upon a Time... in Hollywood"
+        },
+        "moviePosters": {},
+        "charactersByMovie": {
+          "reservoir-dogs": [
+            "DETECTIVE HOLDAWAY",
+            "EDDIE CABOT",
+            "JOE CABOT",
+            "MR. BLONDE",
+            "MR. BROWN",
+            "MR. ORANGE",
+            "MR. PINK",
+            "MR. WHITE",
+            "OFFICER MARVIN NASH"
+          ],
+          "pulp-fiction": [
+            "BRETT",
+            "BUDDY HOLLY",
+            "BUTCH COOLIDGE",
+            "CAPTAIN KOONS",
+            "ESMERALDA",
+            "FABIENNE",
+            "HONEY BUNNY",
+            "JIMMIE DIMMICK",
+            "JODY",
+            "JULES WINNFIELD",
+            "LANCE",
+            "MARSELLUS WALLACE",
+            "MAYNARD",
+            "MIA WALLACE",
+            "PAUL",
+            "PUMPKIN",
+            "THE WOLF",
+            "VINCENT VEGA",
+            "ZED"
+          ],
+          "jackie-brown": [
+            "AMY",
+            "BEAUMONT LIVINGSTON",
+            "JACKIE BROWN",
+            "LOUIS GARA",
+            "MARK DARGUS",
+            "MAX CHERRY",
+            "MELANIE RALSTON",
+            "ORDELL ROBBIE",
+            "RAY NICOLETTE",
+            "SHERONDA",
+            "WINSTON"
+          ],
+          "kill-bill-vol-1": [
+            "BILL",
+            "BUCK",
+            "EARL MCGRAW",
+            "EDGAR MCGRAW",
+            "ELLE DRIVER",
+            "GOGO YUBARI",
+            "HATTORI HANZO",
+            "O-REN ISHII",
+            "SOFIE FATALE",
+            "THE BRIDE",
+            "VERNITA GREEN"
+          ],
+          "kill-bill-vol-2": [
+            "B.B.",
+            "BEATRIX KIDDO",
+            "BILL",
+            "BUDD",
+            "ELLE DRIVER",
+            "ERNIE",
+            "ESTEBAN VIHAIO",
+            "KAREN KIM",
+            "LARRY GOMEZ",
+            "PAI MEI",
+            "REVEREND HARMONY",
+            "RUFUS",
+            "TOMMY"
+          ],
+          "inglourious-basterds": [
+            "BRIDGET VON HAMMERSMARK",
+            "COL. HANS LANDA",
+            "GENERAL ED FENECH",
+            "LT. ALDO RAINE",
+            "LT. ARCHIE HICOX",
+            "PERRIER LAPADITE",
+            "SGT. DONNY DONOWITZ",
+            "SGT. WERNER RACHTMAN",
+            "SMITHSON UTIVICH",
+            "WILHELM"
+          ],
+          "django-unchained": [
+            "ACE SPECK",
+            "BETINA",
+            "BIG DADDY",
+            "BILLY CRASH",
+            "BROOMHILDA VON SHAFT",
+            "CALVIN J. CANDIE",
+            "CORA",
+            "DICKEY SPECK",
+            "DJANGO FREEMAN",
+            "DR. KING SCHULTZ",
+            "LARA LEE CANDIE-FITZWILLY",
+            "LEONIDE MOGUY",
+            "MARSHAL GILL TATUM",
+            "MR. STONESIPHER",
+            "OLD MAN CARRUCAN",
+            "ROY",
+            "STEPHEN"
+          ],
+          "the-hateful-eight": [
+            "BOB",
+            "CHARLY",
+            "DAISY DOMERGUE",
+            "ED",
+            "GENERAL SANDY SMITHERS",
+            "JODY",
+            "JOE GAGE",
+            "JOHN RUTH",
+            "JUDY",
+            "MAJOR MARQUIS WARREN",
+            "MINNIE",
+            "O. B. JACKSON",
+            "OSWALDO MOBRAY",
+            "SHERIFF CHRIS MANNIX",
+            "SWEET DAVE"
+          ],
+          "once-upon-a-time-in-hollywood": [
+            "CLIFF BOOTH",
+            "GEORGE SPAHN",
+            "GYPSY",
+            "JAY SEBRING",
+            "JIM STACY",
+            "KATIE",
+            "MARVIN SCHWARZ",
+            "PUSSYCAT",
+            "RANDY",
+            "RICK DALTON",
+            "SADIE",
+            "SAM WANAMAKER",
+            "SHARON TATE",
+            "SQUEAKY FROMME",
+            "STEVE MCQUEEN",
+            "TEX",
+            "TRUDI FRASER",
+            "WAYNE MAUNDER"
+          ]
+        }
+      }
+    },
+    {
       "id": "the-office",
       "name": "The Office",
       "movieCount": 9,
@@ -1905,7 +2136,7 @@
       "manifest": {
         "packId": "the-office",
         "packName": "The Office",
-        "generatedAt": "2026-11-24T17:32:44.711527",
+        "generatedAt": "2026-11-25T18:14:48.824019",
         "dateRange": {
           "start": "2026-01-12",
           "end": "2030-02-12"
@@ -2147,7 +2378,806 @@
           ]
         }
       }
+    },
+    {
+      "id": "breaking-bad",
+      "name": "Breaking Bad",
+      "movieCount": 5,
+      "mediaType": "seasons",
+      "theme": {
+        "primary": "#f0c419",
+        "bgColor": "#0b2518",
+        "containerBg": "#f7f3ea",
+        "accentColor": "#2e7d32",
+        "btnText": "#0b2518",
+        "cardGradientStart": "#0b2518",
+        "cardGradientEnd": "#16442c",
+        "cardBorder": "#f0c419",
+        "cardText": "#f0c419"
+      },
+      "tierMessages": {
+        "perfect": "Say My Name.",
+        "good": "Yeah, Science!",
+        "average": "I Am the One Who Knocks",
+        "barely": "Better Call Saul",
+        "failure": "No Half Measures"
+      },
+      "manifest": {
+        "packId": "breaking-bad",
+        "packName": "Breaking Bad",
+        "generatedAt": "2026-11-25T18:14:56.433560",
+        "dateRange": {
+          "start": "2026-01-12",
+          "end": "2030-02-12"
+        },
+        "totalPuzzles": 1493,
+        "cycleLength": 5364,
+        "tierMessages": {
+          "perfect": "Say My Name.",
+          "good": "Yeah, Science!",
+          "average": "I Am the One Who Knocks",
+          "barely": "Better Call Saul",
+          "failure": "No Half Measures"
+        },
+        "mediaType": "seasons"
+      },
+      "gameMetadata": {
+        "movies": [
+          "breaking-bad-s01",
+          "breaking-bad-s02",
+          "breaking-bad-s03",
+          "breaking-bad-s04",
+          "breaking-bad-s05"
+        ],
+        "movieYears": {
+          "breaking-bad-s01": 2008,
+          "breaking-bad-s02": 2009,
+          "breaking-bad-s03": 2010,
+          "breaking-bad-s04": 2011,
+          "breaking-bad-s05": 2012
+        },
+        "movieTitles": {
+          "breaking-bad-s01": "Season 1",
+          "breaking-bad-s02": "Season 2",
+          "breaking-bad-s03": "Season 3",
+          "breaking-bad-s04": "Season 4",
+          "breaking-bad-s05": "Season 5"
+        },
+        "moviePosters": {},
+        "charactersByMovie": {
+          "breaking-bad-s01": [
+            "CARMEN MOLINA",
+            "DR. DELCAVOLI",
+            "GRETCHEN SCHWARTZ",
+            "HANK SCHRADER",
+            "JESSE PINKMAN",
+            "KRAZY-8",
+            "MARIE SCHRADER",
+            "SKINNY PETE",
+            "SKYLER WHITE",
+            "STEVEN GOMEZ",
+            "TUCO SALAMANCA",
+            "WALTER WHITE",
+            "WALTER WHITE JR.",
+            "WENDY"
+          ],
+          "breaking-bad-s02": [
+            "BADGER",
+            "DONALD MARGOLIS",
+            "GEORGE MERKERT",
+            "GUSTAVO FRING",
+            "HANK SCHRADER",
+            "JANE MARGOLIS",
+            "JESSE PINKMAN",
+            "MARIE SCHRADER",
+            "MIKE EHRMANTRAUT",
+            "MRS. PINKMAN",
+            "OFFICER GETZ",
+            "SAUL GOODMAN",
+            "SKYLER WHITE",
+            "STEVEN GOMEZ",
+            "STEW",
+            "TIM ROBERTS",
+            "TUCO SALAMANCA",
+            "WALTER WHITE",
+            "WALTER WHITE JR."
+          ],
+          "breaking-bad-s03": [
+            "BADGER",
+            "CLOVIS",
+            "GALE BOETTICHER",
+            "GEORGE MERKERT",
+            "GUSTAVO FRING",
+            "HANK SCHRADER",
+            "HECTOR SALAMANCA",
+            "JESSE PINKMAN",
+            "KAYLEE EHRMANTRAUT",
+            "MARIE SCHRADER",
+            "MIKE EHRMANTRAUT",
+            "OLD JOE",
+            "SAUL GOODMAN",
+            "SKINNY PETE",
+            "SKYLER WHITE",
+            "STAN",
+            "VICTOR",
+            "WALTER WHITE",
+            "WALTER WHITE JR.",
+            "WENDY"
+          ],
+          "breaking-bad-s04": [
+            "ANDREA CANTILLO",
+            "DENNIS MARKOWSKI",
+            "DETECTIVE KALANCHOE",
+            "DETECTIVE MUNN",
+            "FRANCESCA LIDDY",
+            "GUSTAVO FRING",
+            "HANK SCHRADER",
+            "JESSE PINKMAN",
+            "MARIE SCHRADER",
+            "MIKE EHRMANTRAUT",
+            "PATRICK KUBY",
+            "SAUL GOODMAN",
+            "SKYLER WHITE",
+            "STEVEN GOMEZ",
+            "TED BENEKE",
+            "TYRUS KITT",
+            "WALTER WHITE",
+            "WALTER WHITE JR."
+          ],
+          "breaking-bad-s05": [
+            "ANDREA CANTILLO",
+            "BADGER",
+            "ELLIOTT SCHWARTZ",
+            "GOOD SAMARITAN",
+            "GRETCHEN SCHWARTZ",
+            "HANK SCHRADER",
+            "HUELL BABINEAUX",
+            "JACK WELKER",
+            "JESSE PINKMAN",
+            "KENNY",
+            "LYDIA RODARTE-QUAYLE",
+            "MARIE SCHRADER",
+            "MIKE EHRMANTRAUT",
+            "PATRICK KUBY",
+            "SAUL GOODMAN",
+            "SKYLER WHITE",
+            "STEVEN GOMEZ",
+            "TODD ALQUIST",
+            "WALTER WHITE",
+            "WALTER WHITE JR."
+          ]
+        }
+      }
+    },
+    {
+      "id": "always-sunny",
+      "name": "It's Always Sunny in Philadelphia",
+      "movieCount": 16,
+      "mediaType": "seasons",
+      "theme": {
+        "primary": "#f5ebd6",
+        "bgColor": "#111111",
+        "containerBg": "#f7f3ea",
+        "accentColor": "#2d7a45",
+        "btnText": "#111111",
+        "cardGradientStart": "#0e0e0e",
+        "cardGradientEnd": "#222222",
+        "cardBorder": "#f5ebd6",
+        "cardText": "#f5ebd6"
+      },
+      "tierMessages": {
+        "perfect": "A Five-Star Man!",
+        "good": "Dayman, Fighter of the Nightman!",
+        "average": "Because of the Implication",
+        "barely": "Wildcard, Bitches!",
+        "failure": "The Gang Fails the Daily Scriptle"
+      },
+      "manifest": {
+        "packId": "always-sunny",
+        "packName": "It's Always Sunny in Philadelphia",
+        "generatedAt": "2026-11-25T18:14:52.679502",
+        "dateRange": {
+          "start": "2026-01-12",
+          "end": "2030-02-12"
+        },
+        "totalPuzzles": 1493,
+        "cycleLength": 9863,
+        "tierMessages": {
+          "perfect": "A Five-Star Man!",
+          "good": "Dayman, Fighter of the Nightman!",
+          "average": "Because of the Implication",
+          "barely": "Wildcard, Bitches!",
+          "failure": "The Gang Fails the Daily Scriptle"
+        },
+        "mediaType": "seasons"
+      },
+      "gameMetadata": {
+        "movies": [
+          "always-sunny-s01",
+          "always-sunny-s02",
+          "always-sunny-s03",
+          "always-sunny-s04",
+          "always-sunny-s05",
+          "always-sunny-s06",
+          "always-sunny-s07",
+          "always-sunny-s08",
+          "always-sunny-s09",
+          "always-sunny-s10",
+          "always-sunny-s11",
+          "always-sunny-s12",
+          "always-sunny-s13",
+          "always-sunny-s14",
+          "always-sunny-s15",
+          "always-sunny-s16"
+        ],
+        "movieYears": {
+          "always-sunny-s01": 2005,
+          "always-sunny-s02": 2006,
+          "always-sunny-s03": 2007,
+          "always-sunny-s04": 2008,
+          "always-sunny-s05": 2009,
+          "always-sunny-s06": 2010,
+          "always-sunny-s07": 2011,
+          "always-sunny-s08": 2012,
+          "always-sunny-s09": 2013,
+          "always-sunny-s10": 2015,
+          "always-sunny-s11": 2016,
+          "always-sunny-s12": 2017,
+          "always-sunny-s13": 2018,
+          "always-sunny-s14": 2019,
+          "always-sunny-s15": 2021,
+          "always-sunny-s16": 2023
+        },
+        "movieTitles": {
+          "always-sunny-s01": "Season 1",
+          "always-sunny-s02": "Season 2",
+          "always-sunny-s03": "Season 3",
+          "always-sunny-s04": "Season 4",
+          "always-sunny-s05": "Season 5",
+          "always-sunny-s06": "Season 6",
+          "always-sunny-s07": "Season 7",
+          "always-sunny-s08": "Season 8",
+          "always-sunny-s09": "Season 9",
+          "always-sunny-s10": "Season 10",
+          "always-sunny-s11": "Season 11",
+          "always-sunny-s12": "Season 12",
+          "always-sunny-s13": "Season 13",
+          "always-sunny-s14": "Season 14",
+          "always-sunny-s15": "Season 15",
+          "always-sunny-s16": "Season 16"
+        },
+        "moviePosters": {},
+        "charactersByMovie": {
+          "always-sunny-s01": [
+            "BONNIE KELLY",
+            "CHARLIE KELLY",
+            "COACH MURRAY",
+            "DEE REYNOLDS",
+            "DENNIS REYNOLDS",
+            "JIMMY DOYLE",
+            "LIAM MCPOYLE",
+            "MAC",
+            "MEGAN",
+            "RYAN MCPOYLE",
+            "STACY CORVELLI",
+            "THE WAITRESS",
+            "TOMMY",
+            "TOMMY DOYLE"
+          ],
+          "always-sunny-s02": [
+            "ANGIE",
+            "ARI FRENKEL",
+            "BARBARA REYNOLDS",
+            "BONNIE KELLY",
+            "CHARLIE KELLY",
+            "DEE REYNOLDS",
+            "DENNIS REYNOLDS",
+            "FRANK REYNOLDS",
+            "MAC",
+            "MRS. MAC",
+            "THE WAITRESS"
+          ],
+          "always-sunny-s03": [
+            "ARTEMIS",
+            "BRUCE MATHIS",
+            "CHARLIE KELLY",
+            "DEE REYNOLDS",
+            "DENNIS REYNOLDS",
+            "DONNA",
+            "DOYLE MCPOYLE",
+            "FRANK REYNOLDS",
+            "LIAM MCPOYLE",
+            "MAC"
+          ],
+          "always-sunny-s04": [
+            "CHARLIE KELLY",
+            "DEE REYNOLDS",
+            "DENNIS REYNOLDS",
+            "FRANK REYNOLDS",
+            "MAC",
+            "THE WAITRESS"
+          ],
+          "always-sunny-s05": [
+            "BEN",
+            "CAYLEE",
+            "CHARLIE KELLY",
+            "DEE REYNOLDS",
+            "DENNIS REYNOLDS",
+            "FRANK REYNOLDS",
+            "MAC",
+            "THE WAITRESS"
+          ],
+          "always-sunny-s06": [
+            "ARTEMIS",
+            "CHARLIE KELLY",
+            "DEE REYNOLDS",
+            "DENNIS REYNOLDS",
+            "FRANK REYNOLDS",
+            "LIAM MCPOYLE",
+            "MAC",
+            "RYAN MCPOYLE",
+            "THE WAITRESS"
+          ],
+          "always-sunny-s07": [
+            "BOBBY",
+            "CHARLIE KELLY",
+            "DEE REYNOLDS",
+            "DENNIS REYNOLDS",
+            "ELENA",
+            "FRANK REYNOLDS",
+            "MAC",
+            "THE WAITRESS"
+          ],
+          "always-sunny-s08": [
+            "CHARLIE KELLY",
+            "DEE REYNOLDS",
+            "DENNIS REYNOLDS",
+            "FRANK REYNOLDS",
+            "MAC",
+            "RUBY TAFT",
+            "THE WAITRESS",
+            "TREVOR TAFT"
+          ],
+          "always-sunny-s09": [
+            "CHARLIE KELLY",
+            "DEE REYNOLDS",
+            "DENNIS REYNOLDS",
+            "FRANK REYNOLDS",
+            "GREG",
+            "MAC"
+          ],
+          "always-sunny-s10": [
+            "CHARLIE KELLY",
+            "DEE REYNOLDS",
+            "DENNIS REYNOLDS",
+            "FRANK REYNOLDS",
+            "MAC",
+            "RYAN",
+            "SANDY LAWLER",
+            "THE WAITRESS"
+          ],
+          "always-sunny-s11": [
+            "CHARLIE KELLY",
+            "DEE REYNOLDS",
+            "DENNIS REYNOLDS",
+            "FRANK REYNOLDS",
+            "LEPRECHAUN",
+            "MAC"
+          ],
+          "always-sunny-s12": [
+            "ABBY",
+            "ABIGAIL",
+            "CHARLIE KELLY",
+            "DEE REYNOLDS",
+            "DENNIS REYNOLDS",
+            "FRANK REYNOLDS",
+            "MAC",
+            "MARGIE",
+            "PHIL"
+          ],
+          "always-sunny-s13": [
+            "AIDAN",
+            "ALAN",
+            "CHARLIE KELLY",
+            "DEE REYNOLDS",
+            "DENNIS REYNOLDS",
+            "FRANK REYNOLDS",
+            "JOHN",
+            "JONATHAN",
+            "KAREN",
+            "KATE",
+            "MAC",
+            "SHAWN DUMONT",
+            "TARA"
+          ],
+          "always-sunny-s14": [
+            "CHARLIE KELLY",
+            "DEE REYNOLDS",
+            "DENNIS REYNOLDS",
+            "FRANK REYNOLDS",
+            "MAC",
+            "RICKETY CRICKET",
+            "THE WAITRESS"
+          ],
+          "always-sunny-s15": [
+            "CHARLIE KELLY",
+            "DEE REYNOLDS",
+            "DENNIS REYNOLDS",
+            "FRANK REYNOLDS",
+            "GARY",
+            "MAC",
+            "SMOKEY"
+          ],
+          "always-sunny-s16": [
+            "BONNIE KELLY",
+            "CHARLIE KELLY",
+            "CHASE UTLEY",
+            "DEE REYNOLDS",
+            "DENNIS REYNOLDS",
+            "FRANK REYNOLDS",
+            "JACK KELLY",
+            "MAC",
+            "RICKETY CRICKET"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gilmore-girls",
+      "name": "Gilmore Girls",
+      "movieCount": 7,
+      "mediaType": "seasons",
+      "theme": {
+        "primary": "#f5c27a",
+        "bgColor": "#261611",
+        "containerBg": "#f7f3ea",
+        "accentColor": "#b85d3b",
+        "btnText": "#261611",
+        "cardGradientStart": "#261611",
+        "cardGradientEnd": "#3f241b",
+        "cardBorder": "#f5c27a",
+        "cardText": "#f5c27a"
+      },
+      "tierMessages": {
+        "perfect": "Oy with the Poodles Already!",
+        "good": "Coffee, Coffee, Coffee!",
+        "average": "In Omnia Paratus",
+        "barely": "Where You Lead...",
+        "failure": "Copper Boom... Not Quite"
+      },
+      "manifest": {
+        "packId": "gilmore-girls",
+        "packName": "Gilmore Girls",
+        "generatedAt": "2026-11-25T18:14:50.362334",
+        "dateRange": {
+          "start": "2026-01-12",
+          "end": "2030-02-12"
+        },
+        "totalPuzzles": 1493,
+        "cycleLength": 9421,
+        "tierMessages": {
+          "perfect": "Oy with the Poodles Already!",
+          "good": "Coffee, Coffee, Coffee!",
+          "average": "In Omnia Paratus",
+          "barely": "Where You Lead...",
+          "failure": "Copper Boom... Not Quite"
+        },
+        "mediaType": "seasons"
+      },
+      "gameMetadata": {
+        "movies": [
+          "gilmore-girls-s01",
+          "gilmore-girls-s02",
+          "gilmore-girls-s03",
+          "gilmore-girls-s04",
+          "gilmore-girls-s05",
+          "gilmore-girls-s06",
+          "gilmore-girls-s07"
+        ],
+        "movieYears": {
+          "gilmore-girls-s01": 2000,
+          "gilmore-girls-s02": 2002,
+          "gilmore-girls-s03": 2003,
+          "gilmore-girls-s04": 2004,
+          "gilmore-girls-s05": 2004,
+          "gilmore-girls-s06": 2005,
+          "gilmore-girls-s07": 2007
+        },
+        "movieTitles": {
+          "gilmore-girls-s01": "Season 1",
+          "gilmore-girls-s02": "Season 2",
+          "gilmore-girls-s03": "Season 3",
+          "gilmore-girls-s04": "Season 4",
+          "gilmore-girls-s05": "Season 5",
+          "gilmore-girls-s06": "Season 6",
+          "gilmore-girls-s07": "Season 7"
+        },
+        "moviePosters": {},
+        "charactersByMovie": {
+          "gilmore-girls-s01": [
+            "BABETTE DELL",
+            "DEAN FORESTER",
+            "EMILY GILMORE",
+            "HEADMASTER CHARLESTON",
+            "IAN JACK",
+            "JACKSON BELLEVILLE",
+            "LANE KIM",
+            "LORELAI GILMORE",
+            "LOUISE GRANT",
+            "LUKE DANES",
+            "MAX MEDINA",
+            "MICHEL GERARD",
+            "MISS NESS",
+            "MISS PATTY",
+            "MRS. KIM",
+            "PARIS GELLER",
+            "RORY GILMORE",
+            "SOOKIE ST. JAMES",
+            "TAYLOR DOOSE",
+            "TRISTAN DUGRAY"
+          ],
+          "gilmore-girls-s02": [
+            "CHRISTOPHER HAYDEN",
+            "DEAN FORESTER",
+            "EMILY GILMORE",
+            "HENRY CHO",
+            "JACKSON BELLEVILLE",
+            "JESS MARIANO",
+            "KIRK GLEASON",
+            "LANE KIM",
+            "LIZA",
+            "LORELAI GILMORE",
+            "LUKE DANES",
+            "MISS PATTY",
+            "MRS. KIM",
+            "RICHARD GILMORE",
+            "RORY GILMORE",
+            "SOOKIE ST. JAMES",
+            "TAYLOR DOOSE",
+            "ZACK VAN GERBIG"
+          ],
+          "gilmore-girls-s03": [
+            "CHRISTOPHER HAYDEN",
+            "DEAN FORESTER",
+            "EMILY GILMORE",
+            "HEADMASTER CHARLESTON",
+            "JACKSON BELLEVILLE",
+            "JESS MARIANO",
+            "JOHN",
+            "KIRK GLEASON",
+            "LANE KIM",
+            "LORELAI GILMORE",
+            "LUKE DANES",
+            "MICHEL GERARD",
+            "NICOLE LEAHY",
+            "PARIS GELLER",
+            "RICHARD GILMORE",
+            "RORY GILMORE",
+            "SHERRY TINSDALE",
+            "SOOKIE ST. JAMES",
+            "STROBE HAYDEN",
+            "TAYLOR DOOSE"
+          ],
+          "gilmore-girls-s04": [
+            "ASHER FLEMING",
+            "DEAN FORESTER",
+            "DOYLE MCMASTER",
+            "EMILY GILMORE",
+            "JACKSON BELLEVILLE",
+            "JASON STILES",
+            "JESS MARIANO",
+            "KIRK GLEASON",
+            "LINDSAY FORESTER",
+            "LIZ DANES",
+            "LORELAI GILMORE",
+            "LUKE DANES",
+            "MARILYN",
+            "MICHEL GERARD",
+            "NICOLE LEAHY",
+            "PARIS GELLER",
+            "RICHARD GILMORE",
+            "RORY GILMORE",
+            "SOOKIE ST. JAMES",
+            "TJ"
+          ],
+          "gilmore-girls-s05": [
+            "BABETTE DELL",
+            "BRIAN FULLER",
+            "COLIN",
+            "DOYLE MCMASTER",
+            "EMILY GILMORE",
+            "FINN",
+            "KIRK GLEASON",
+            "LANE KIM",
+            "LOGAN HUNTZBERGER",
+            "LORELAI GILMORE",
+            "LUKE DANES",
+            "MADONNA LOUISE",
+            "MAISY",
+            "MARTY",
+            "MISS PATTY",
+            "PARIS GELLER",
+            "RICHARD GILMORE",
+            "RORY GILMORE",
+            "TAYLOR DOOSE",
+            "ZACK VAN GERBIG"
+          ],
+          "gilmore-girls-s06": [
+            "APRIL NARDINI",
+            "EMILY GILMORE",
+            "FINN",
+            "HARRY",
+            "JACKSON BELLEVILLE",
+            "LACEY",
+            "LANE KIM",
+            "LOGAN HUNTZBERGER",
+            "LORELAI GILMORE",
+            "LUKE DANES",
+            "MICHEL GERARD",
+            "MITCHUM HUNTZBERGER",
+            "NORA",
+            "PARIS GELLER",
+            "RICHARD GILMORE",
+            "RORY GILMORE",
+            "SHIRA HUNTZBERGER",
+            "SOOKIE ST. JAMES",
+            "STUART WULTZ",
+            "ZACK VAN GERBIG"
+          ],
+          "gilmore-girls-s07": [
+            "ANNA NARDINI",
+            "APRIL NARDINI",
+            "CHRISTOPHER HAYDEN",
+            "EMILY GILMORE",
+            "JACKSON BELLEVILLE",
+            "JIM",
+            "KIRK GLEASON",
+            "LANE KIM",
+            "LIZ DANES",
+            "LOGAN HUNTZBERGER",
+            "LORELAI GILMORE",
+            "LUCY",
+            "LUKE DANES",
+            "MRS. KIM",
+            "PARIS GELLER",
+            "RICHARD GILMORE",
+            "RORY GILMORE",
+            "SOOKIE ST. JAMES",
+            "TJ",
+            "ZACK VAN GERBIG"
+          ]
+        }
+      }
+    },
+    {
+      "id": "avatar-tla",
+      "name": "Avatar: The Last Airbender",
+      "movieCount": 3,
+      "mediaType": "seasons",
+      "theme": {
+        "primary": "#f4b942",
+        "bgColor": "#0f2430",
+        "containerBg": "#f7f3ea",
+        "accentColor": "#d95d39",
+        "btnText": "#0f2430",
+        "cardGradientStart": "#0f2430",
+        "cardGradientEnd": "#183a4a",
+        "cardBorder": "#f4b942",
+        "cardText": "#f4b942"
+      },
+      "tierMessages": {
+        "perfect": "Avatar State!",
+        "good": "Master of All Four Elements!",
+        "average": "Honor Restored",
+        "barely": "There Is No War in Ba Sing Se",
+        "failure": "My Cabbages!"
+      },
+      "manifest": {
+        "packId": "avatar-tla",
+        "packName": "Avatar: The Last Airbender",
+        "generatedAt": "2026-11-25T18:14:50.757410",
+        "dateRange": {
+          "start": "2026-01-12",
+          "end": "2030-02-12"
+        },
+        "totalPuzzles": 1493,
+        "cycleLength": 3425,
+        "tierMessages": {
+          "perfect": "Avatar State!",
+          "good": "Master of All Four Elements!",
+          "average": "Honor Restored",
+          "barely": "There Is No War in Ba Sing Se",
+          "failure": "My Cabbages!"
+        },
+        "mediaType": "seasons"
+      },
+      "gameMetadata": {
+        "movies": [
+          "avatar-tla-s01",
+          "avatar-tla-s02",
+          "avatar-tla-s03"
+        ],
+        "movieYears": {
+          "avatar-tla-s01": 2005,
+          "avatar-tla-s02": 2006,
+          "avatar-tla-s03": 2007
+        },
+        "movieTitles": {
+          "avatar-tla-s01": "Book One: Water",
+          "avatar-tla-s02": "Book Two: Earth",
+          "avatar-tla-s03": "Book Three: Fire"
+        },
+        "moviePosters": {},
+        "charactersByMovie": {
+          "avatar-tla-s01": [
+            "AANG",
+            "ADMIRAL ZHAO",
+            "BABOON SPIRIT",
+            "CHEY",
+            "CHIEF ARNOOK",
+            "COLONEL SHINU",
+            "GYATSO",
+            "HAHN",
+            "IROH",
+            "JEONG JEONG",
+            "KATARA",
+            "KOH",
+            "LIEUTENANT JEE",
+            "MAGICIAN",
+            "PAKKU",
+            "PRINCESS YUE",
+            "ROKU",
+            "SHYU",
+            "SOKKA",
+            "ZUKO"
+          ],
+          "avatar-tla-s02": [
+            "AANG",
+            "AZULA",
+            "GOW",
+            "GURU PATHIK",
+            "IROH",
+            "JET",
+            "JIN",
+            "JOO DEE",
+            "KATARA",
+            "LAO BEIFONG",
+            "LEE",
+            "LONG FENG",
+            "MASTER YU",
+            "SOKKA",
+            "SUKI",
+            "TOPH BEIFONG",
+            "TY LEE",
+            "URSA",
+            "XIN FU",
+            "ZUKO"
+          ],
+          "avatar-tla-s03": [
+            "AANG",
+            "AZULA",
+            "BUMI",
+            "HAKODA",
+            "HAMA",
+            "HARU",
+            "IROH",
+            "JUNE",
+            "KATARA",
+            "LO AND LI",
+            "MING",
+            "OZAI",
+            "PAKKU",
+            "PIANDAO",
+            "ROKU",
+            "SOKKA",
+            "SOZIN",
+            "SUKI",
+            "TOPH BEIFONG",
+            "ZUKO"
+          ]
+        }
+      }
     }
   ],
-  "generatedAt": "2026-11-24T22:32:44.060Z"
+  "generatedAt": "2026-11-25T23:14:47.969Z"
 }

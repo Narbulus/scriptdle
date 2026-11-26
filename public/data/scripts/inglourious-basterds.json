@@ -1,0 +1,2013 @@
+{
+  "id": "inglourious-basterds",
+  "title": "Inglourious Basterds",
+  "year": 2009,
+  "characters": [
+    "BRIDGET VON HAMMERSMARK",
+    "COL. HANS LANDA",
+    "CORPORAL WILHELM WICKI",
+    "GENERAL ED FENECH",
+    "LT. ALDO RAINE",
+    "LT. ARCHIE HICOX",
+    "MAJOR DIETER HELLSTROM",
+    "MARCEL",
+    "MASTER SERGEANT WILHELM",
+    "PERRIER LAPADITE",
+    "PRIVATE FIRST CLASS FREDRICK ZOLLER",
+    "PRIVATE FIRST CLASS OMAR ULMER",
+    "SERGEANT HUGO STIGLITZ",
+    "SGT. DONNY DONOWITZ",
+    "SGT. WERNER RACHTMAN",
+    "SHOSANNA DREYFUS",
+    "SMITHSON UTIVICH",
+    "WILHELM",
+    "WINSTON CHURCHILL"
+  ],
+  "lines": [
+    {
+      "character": "COL. HANS LANDA",
+      "text": "While I'm very familiar with you and your family, I have no way of knowing if you are familiar with who I am. Are you aware of my existence?",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "Yes.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "This is good. Now, are you aware of the job I've been ordered to carry out in France?",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "Yes.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Please tell me what you've heard.",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "I've heard that the fuhrer has put you in charge of rounding up the Jews left in France who are either hiding or passing for gentile.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "The fuhrer couldn't have said it better himself.",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "But the meaning of your visit, pleasant though it is, is mysterious to me.",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "The Germans looked through my house nine months ago for hiding Jews and found nothing.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "I'm aware of that. I've read the reports of this area.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "But like any enterprise, when under new management, there is always a slight duplication of efforts, most of it being a complete waste of time, but needs to be done nevertheless. I just have a few questions, monsieur lapadite.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "If you can assist me with answers, my department can close the file on your family.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Now, before the occupation, there were four Jewish families in this area, all dairy farmers like yourself, doleracs, rollins, the loveitts and the dreyfuses. Is that correct?",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "To my knowledge, those were the Jewish families among the dairy farmers. Herr colonel, would it disturb you if I smoked my pipe?",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Please, monsieur lapadite, this is your house, make yourself comfortable. Now, according to these papers, all the Jewish families in this area have been accounted for except the dreyfuses. Somewhere in the last year it would appear they've vanished. Which leads me to the conclusion that they've either made good their escape or someone is very successfully hiding them. What have you heard about the dreyfuses, monsieur labpadite?",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "Only rumors.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "I love rumors!",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Facts could be so misleading, where rumors, true or false, are often revealing. So, monsieur lapadite, what rumors have you heard regarding the dreyfuses?",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "Again, this is just a rumor, but we heard the dreyfuses had made their way into Spain.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "So, the rumors you've heard have been of escape?",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "Yes.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Having never met the dreyfuses, would you confirm for me the exact members of the household and their names?",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "There were five of them.",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "The father, Jacob.",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "Wife, miram.",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "And her brother, Bob.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "How old is Bob?",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "Thirty, 31.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Continue.",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "And the children,",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "Amos",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "and shosanna.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Ages of the children?",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "Amos was nine or 10.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "And shosanna?",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "And shosanna was",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "18 or 19. I'm not really sure.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Well, I guess that should do it.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "However, before I go, could I have another glass of your delicious milk?",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "But of course.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Monsieur lapadite, are you aware of the nickname the people of France have given me?",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "I have no interest in such things.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "But you are aware of what they call me.",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "I'm aware.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "What are you aware of?",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "That they call you \"the Jew hunter.\"",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Precisely.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "I understand your trepidation in repeating it. Heydrich apparently hates the moniker the good people of Prague have bestowed on him. Actually, why he would hate the name \"the hangman\" is baffling to me. It would appear he has done everything in his power to earn it. Now I, on the other hand, love my unofficial title precisely because I've earned it. The feature that makes me such an effective hunter of the Jews is, as opposed to most German soldiers, I can think like a Jew where they can only think like a German. More precisely, a German soldier.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Now, if one were to determine what attribute the German people share with a beast, it would be the cunning and the predatory instinct of a hawk. But if one were to determine what attributes the Jews share with a beast, it would be that of the rat.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "The fuhrer and goebbels' propaganda have said pretty much the same thing. But where our conclusions differ, is I don't consider the comparison an insult.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Consider for a moment the world a rat lives in. It's a hostile world, indeed. If a rat were to scamper through your front door, right now, would you greet it with hostility?",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "I suppose I would.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Has a rat ever done anything to you to create this animosity you feel toward them?",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "Rats spread disease. They bite people.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Rats were the cause of the bubonic plague, but that's some time ago. I propose to you any disease a rat could spread, a squirrel could equally carry. Would you agree?",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Yet, I assume you don't share the same animosity with squirrels that you do with rats, do you?",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "No.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Yet, they're both rodents, are they not? And except for the tail, they even rather look alike, don't they?",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "It's an interesting thought, herr colonel.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "However interesting as the thought may be, it makes not one bit of difference to how you feel,",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "if a rat were to walk in here, right now, as I'm talking would you greet it with a saucer of your delicious milk?",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "Probably not.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "I didn't think so. You don't like them. You don't really know why you don't like them. All you know is you find them repulsive.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Consequently, a German soldier conducts a search of a house suspected of hiding Jews. Where does the hawk look? He looks in the barn, he looks in the attic, he looks in the cellar, he looks everywhere he would hide. But there are so many places it would never occur to a hawk to hide.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "However, the reason the fuhrer has brought me off my alps in Austria and placed me in French cow country today is because it does occur to me. Because I'm aware what tremendous feats human beings are capable of once they abandon dignity.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "May I smoke my pipe as well?",
+      "scene": 0
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "Please, herr colonel, make yourself at home.",
+      "scene": 0
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Now, my job dictates",
+      "scene": 1
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "That I must have my men enter your home",
+      "scene": 1
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "and conduct a thorough search before I can officially cross your family's name off my list. And if there are any irregularities to be found, rest assured they will be. That is unless you have something to tell me that makes the conducting of a search unnecessary. I might add, also, that any information",
+      "scene": 1
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Actually, quite the contrary. It will be met with reward. And that reward will be, your family will cease to be harassed in any way by the German military during the rest of our occupation of your country.",
+      "scene": 1
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "You're sheltering enemies of the state, are you not?",
+      "scene": 1
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "Yes.",
+      "scene": 1
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "You're sheltering them underneath your floorboards, aren't you?",
+      "scene": 1
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "Yes.",
+      "scene": 1
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Point out to me the areas where they're hiding.",
+      "scene": 1
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Since I haven't heard any disturbance, I assume, while they're listening, they don't speak english.",
+      "scene": 2
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "Yes.",
+      "scene": 2
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "I'm going to switch back to French now, and I want you to follow my masquerade. Is that clear?",
+      "scene": 2
+    },
+    {
+      "character": "PERRIER LAPADITE",
+      "text": "Yes.",
+      "scene": 2
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Ten-=-hut!",
+      "scene": 3
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "My name is lieutenant Aldo raine. And I'm putting together a special team, and I need me eight soldiers. Eight Jewish American soldiers. Now, you all might've heard rumors about the armada happening soon. Well, we'll be leaving a little earlier. We're going to be dropped into France dressed as civilians. Once we're in enemy territory, as a bushwhacking guerrilla army, we're going to be doing one thing and one thing only. Killing Nazis.",
+      "scene": 3
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "I don't know about you all, but I sure as hell didn't come down from the goddamn smoky mountains, cross 5,000 miles of water, fight my way through half of sicily and jump out of a fucking airplane to teach the Nazis lessons in humanity. Nazi ain't got no humanity. They're the foot soldiers of a Jew-hating, mass-murdering maniac and they need to be destroyed. That's why any and every son of a bitch we find wearing a Nazi uniform, they're going to die.",
+      "scene": 3
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Now, I'm the direct descendent of the mountain man Jim Bridger. That means I got a little Indian in me. And our battle plan will be that of an apache resistance. We will be cruel to the Germans. And through our cruelty, they will know who we are. And they will find the evidence of our cruelty in the disemboweled, dismembered and disfigured bodies of their brothers we leave behind us. And the German won't be able to help themselves but imagine the cruelty their brothers endured at our hands, and our boot heels and the edge of our knives. And the German will be sickened by us. And the German will talk about us. And the German will fear us. And when the German closes their eyes at night and they're tortured by their subconscious for the evil they have done, it will be with thoughts of us that they are tortured with.",
+      "scene": 3
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Sound good?",
+      "scene": 3
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "That's what I like to hear. But I got a word of warning for all you would-be warriors. When you join my command, you take on debit. A debit you owe me, personally.",
+      "scene": 4
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Each and every man under my command owes me 100 Nazi scalps. And I want my scalps. And all y'all will get me 100 Nazi scalps taken from the heads of 100 dead Nazis.",
+      "scene": 4
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Or you will die trying!",
+      "scene": 4
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "How is your english, Werner? Because if need be, we got a couple of fellows who can translate. Wicki here, an Austrian-Jew, got the fuck out of Munich while the getting was good. Became American, got drafted, come back to give y'all what for. Another one up there you might be familiar with. Sergeant Hugo stiglitz.",
+      "scene": 5
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Heard of him?",
+      "scene": 5
+    },
+    {
+      "character": "SGT. WERNER RACHTMAN",
+      "text": "Everybody in the German army has heard of Hugo stiglitz.",
+      "scene": 5
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Sergeant Hugo stiglitz?",
+      "scene": 6
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Lieutenant Aldo raine. These are the basterds. Ever heard of us?",
+      "scene": 6
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "We just want to say we're a big fan of your work. When it comes to killing Nazis...",
+      "scene": 6
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "I think you show great talent. And I pride myself for having an eye for that kind of talent.",
+      "scene": 6
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "But your status as a Nazi killer is still amateur. We all come here to see if you want to go pro.",
+      "scene": 6
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Can I assume you know who we are?",
+      "scene": 6
+    },
+    {
+      "character": "SGT. WERNER RACHTMAN",
+      "text": "You're Aldo the apache. P",
+      "scene": 6
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Werner, if you heard of us, you probably heard we ain't in the prisoner-taking business. We in the killing Nazi business, and, cousin, business is a-booming.",
+      "scene": 6
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Now, that leaves two ways we can play this out. Either kill you or let you go. Whether or not you're going to leave this ditch alive depends entirely on you.",
+      "scene": 7
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Up the road a piece, there's an orchard. Besides you, we know there's another kraut patrol fucking around here somewhere. If that patrol were to have any crack shots, that orchard would be a goddamn sniper's delight. So if you ever want to eat a Sauerkraut sandwich again, you got to show me on this here map where they are. You got to tell me how many they are, and you got to tell me what kind of artillery they're carrying with them.",
+      "scene": 7
+    },
+    {
+      "character": "SGT. WERNER RACHTMAN",
+      "text": "You can't expect me to divulge information that would put German lives in danger.",
+      "scene": 7
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Well, now, Werner, that's where you're wrong, because that's exactly what I expect. I need to know about Germans hiding in trees. And you need to tell me. And you need to tell me right now. Now, just take that finger of yours and point out on this here map where this party is being held, how many is coming and what they brought to play with.",
+      "scene": 7
+    },
+    {
+      "character": "SGT. WERNER RACHTMAN",
+      "text": "I respectfully refuse,",
+      "scene": 7
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "hear that?",
+      "scene": 7
+    },
+    {
+      "character": "SGT. WERNER RACHTMAN",
+      "text": "Yes.",
+      "scene": 7
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "That's sergeant Donny donowitz. You might know him better by his nickname. The bear Jew. Now, if you heard of Aldo the apache, you got to have heard about the bear Jew.",
+      "scene": 7
+    },
+    {
+      "character": "SGT. WERNER RACHTMAN",
+      "text": "I heard of the bear Jew.",
+      "scene": 7
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "What did you hear?",
+      "scene": 7
+    },
+    {
+      "character": "SGT. WERNER RACHTMAN",
+      "text": "Beats German soldiers with a club.",
+      "scene": 7
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "He bashes their brains in with a baseball bat, what he does. And, Werner, I'm going to ask you one last goddamn time, and if you still respectfully refuse, I'm calling the bear Jew over. He's going to take that big bat of his, and he's going to beat your ass to death with it.",
+      "scene": 7
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Now, take your wiener-schnitzel-licking finger, and point out on this map what I want to know.",
+      "scene": 7
+    },
+    {
+      "character": "SGT. WERNER RACHTMAN",
+      "text": "Fuck you. And your Jew dogs.",
+      "scene": 7
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Actually, Werner, we're all tickled to hear you say that. Quite frankly, watching Donny beat Nazis to death is the closest we ever get to going to the movies. Donny!",
+      "scene": 7
+    },
+    {
+      "character": "SGT. DONNY DONOWITZ",
+      "text": "Yeah?",
+      "scene": 7
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Got us a German here who wants to die for country. Oblige him.",
+      "scene": 7
+    },
+    {
+      "character": "SMITHSON UTIVICH",
+      "text": "About now I'd be shitting my pants if I was you.",
+      "scene": 8
+    },
+    {
+      "character": "SGT. DONNY DONOWITZ",
+      "text": "Teddy fucking Williams knocks it out of the park! Fenway park is on its feet for Teddy fucking ballgame! He went yard on that one, on to fucking lansdowne street! You!",
+      "scene": 8
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Donny, bring that other one over here. Alive!",
+      "scene": 8
+    },
+    {
+      "character": "SGT. DONNY DONOWITZ",
+      "text": "Get the fuck up! Batter up. You're on deck! Two hits. I hit you, you hit the ground.",
+      "scene": 8
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "English?",
+      "scene": 8
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Ask him if he wants to live.",
+      "scene": 8
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Ask him how many Germans.",
+      "scene": 8
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "What kind of artillery?",
+      "scene": 8
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Now, when you report what happened here, you can't tell them you told us what you told us. They'll shoot you. They're going to want to know why you so special, we let you live. So tell them, we let you live so you could spread the word through the ranks what's going to happen to every Nazi we find.",
+      "scene": 8
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Now that you've survived the war, when you get home, what you going to do?",
+      "scene": 9
+    },
+    {
+      "character": "CORPORAL WILHELM WICKI",
+      "text": "He's going to hug his mother.",
+      "scene": 9
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Well, ain't that nice? Ask if he's going to take off his uniform.",
+      "scene": 9
+    },
+    {
+      "character": "CORPORAL WILHELM WICKI",
+      "text": "He's going to burn it.",
+      "scene": 9
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Yeah, that's what we thought. We don't like that. See, we like our Nazis in uniforms. That way you can spot them. Just like that.",
+      "scene": 9
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "But you take off that uniform, ain't nobody going to know you's a Nazi. And that don't sit well with us.",
+      "scene": 9
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "So I'm going to give you a little something you can't take off.",
+      "scene": 9
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "Lieutenant Archie hicox reporting, sir.",
+      "scene": 10
+    },
+    {
+      "character": "GENERAL ED FENECH",
+      "text": "General ed fenech. At ease, hicox. Drink?",
+      "scene": 10
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "If you offer me a scotch and plain water, I could drink a scotch and plain water.",
+      "scene": 10
+    },
+    {
+      "character": "GENERAL ED FENECH",
+      "text": "That-a-boy, lieutenant. Make it yourself like a good chap, will you? The bar is in the globe.",
+      "scene": 10
+    },
+    {
+      "character": "WINSTON CHURCHILL",
+      "text": "It says here that you speak German fluently.",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "Like a katzenjammer kid.",
+      "scene": 11
+    },
+    {
+      "character": "GENERAL ED FENECH",
+      "text": "And your occupation before the war?",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "I'm a film critic.",
+      "scene": 11
+    },
+    {
+      "character": "GENERAL ED FENECH",
+      "text": "List your accomplishments.",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "Well, sir, such as they are, I write reviews and articles for a publication called films and filmmakers, and I've had two books published.",
+      "scene": 11
+    },
+    {
+      "character": "GENERAL ED FENECH",
+      "text": "Impressive. Don't be modest, lieutenant. What are their titles?",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "The first book was called art of the eyes, the heart and the mind: A study of German cinema in the \"20s. And the second one was called twenty-four frame Da Vinci. It's a subtextual film criticism study of the work of German director g.W. Pabst. What should we drink to, sir?",
+      "scene": 11
+    },
+    {
+      "character": "GENERAL ED FENECH",
+      "text": "Well... Down with Hitler.",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "All the way down, sir.",
+      "scene": 11
+    },
+    {
+      "character": "GENERAL ED FENECH",
+      "text": "Yes.",
+      "scene": 11
+    },
+    {
+      "character": "GENERAL ED FENECH",
+      "text": "Are you familiar with German cinema under the third reich?",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "Yes. Obviously, I haven't seen any of the films made in the last three years, but I'm familiar with it.",
+      "scene": 11
+    },
+    {
+      "character": "GENERAL ED FENECH",
+      "text": "Explain it to me.",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "Pardon, sir?",
+      "scene": 11
+    },
+    {
+      "character": "GENERAL ED FENECH",
+      "text": "Well, this little escapade of ours requires a knowledge of the German film industry under the third reich. Explain to me ufa under goebbels.",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "Goebbels considers the films he's making to be the beginning of a new era in German cinema. An alternative to what he considers the Jewish-German intellectual cinema of the '20s, and the Jewish-controlled dogma of Hollywood.",
+      "scene": 11
+    },
+    {
+      "character": "WINSTON CHURCHILL",
+      "text": "How's he doing?",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "Frightfully sorry, sir. Once again?",
+      "scene": 11
+    },
+    {
+      "character": "WINSTON CHURCHILL",
+      "text": "You say he wants to take on the Jews at their own game. Well, compared to, say, Louis b. Mayer, how's he doing?",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "Quite well, actually. Since goebbels has taken over, film attendance has steadily risen in Germany over the last eight years. But Louis b. Mayer wouldn't be goebbels' proper opposite number. I believe goebbels sees himself closer to David o. Selznick.",
+      "scene": 11
+    },
+    {
+      "character": "WINSTON CHURCHILL",
+      "text": "Brief him.",
+      "scene": 11
+    },
+    {
+      "character": "GENERAL ED FENECH",
+      "text": "Lieutenant hicox, at this point and time I'd like to brief you on operation kino. Three days from now Joseph goebbels is throwing a gala premiere of one of his new movies in Paris.",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "What film, sir?",
+      "scene": 11
+    },
+    {
+      "character": "GENERAL ED FENECH",
+      "text": "The motion picture is called nation's pride. In attendance at this joyous germatic occasion will be goebbels, goring, bormann, and mast of the German high command including all high ranking officers of both the ss and the gestapo, as well as luminaries of the Nazi propaganda film industry.",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "The master race at play?",
+      "scene": 11
+    },
+    {
+      "character": "GENERAL ED FENECH",
+      "text": "Basically, we have all our rotten eggs in one basket. The objective of operation kino, blow up the basket.",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "And like the snows of yesteryear, gone from this earth. Jolly good, sir.",
+      "scene": 11
+    },
+    {
+      "character": "GENERAL ED FENECH",
+      "text": "An American secret service outfit that lives deep behind enemy lines will be your assist. The Germans call them the basterds.",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "The basterds. Never heard of them.",
+      "scene": 11
+    },
+    {
+      "character": "GENERAL ED FENECH",
+      "text": "Whole point of the secret service, old boy, you not hearing of them. But the jerries have heard of them, because these yanks have been them the devil. You'll be dropped into France, about 24 kilometers outside of Paris. The basterds will be waiting for you. First thing, you'll go to a little village called Nadine. In Nadine, there's a tavern called la louisiane. There you'll rendezvous with our double agent. She'll take it from there. She's the one who is going to get you into the premiere. It'll be you, her, and two German-born members of the basterds. She's also made all the other arrangements you're going to need.",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "How will I know her?",
+      "scene": 11
+    },
+    {
+      "character": "GENERAL ED FENECH",
+      "text": "I suspect that won't be too much trouble for you. Your contact is Bridget Von hammersmark.",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "Bridget Von hammersmark? The German movie star is working for england?",
+      "scene": 11
+    },
+    {
+      "character": "GENERAL ED FENECH",
+      "text": "Yes, for the last two years now. One could even say that operation kino was her brainchild.",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "Indeed.",
+      "scene": 11
+    },
+    {
+      "character": "GENERAL ED FENECH",
+      "text": "Got the gist?",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "I think so, sir. Paris when it sizzles.",
+      "scene": 11
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "You didn't say the goddamn rendezvous is in a fucking basement.",
+      "scene": 11
+    },
+    {
+      "character": "CORPORAL WILHELM WICKI",
+      "text": "I didn't know.",
+      "scene": 11
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "You said it was in a tavern.",
+      "scene": 11
+    },
+    {
+      "character": "CORPORAL WILHELM WICKI",
+      "text": "It is a tavern.",
+      "scene": 11
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Yeah, in a basement. You know, fighting in a basement offers a lot of difficulties. Number one being, you're fighting in a basement.",
+      "scene": 11
+    },
+    {
+      "character": "SGT. DONNY DONOWITZ",
+      "text": "What if we go in there and she's not even there?",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "We wait. Don't worry. She's a British spy. She'll make the rendezvous.",
+      "scene": 11
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "Stiglitz, right?",
+      "scene": 12
+    },
+    {
+      "character": "SERGEANT HUGO STIGLITZ",
+      "text": "That's right, sir.",
+      "scene": 12
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "I hear you're pretty good with that.",
+      "scene": 12
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "You know, we're not looking for trouble right now. Simply making contact with our agent. Should be uneventful.",
+      "scene": 12
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "However, the off chance I'm wrong, things prove eventful, I need to know we can all remain calm.",
+      "scene": 12
+    },
+    {
+      "character": "SERGEANT HUGO STIGLITZ",
+      "text": "I don't look calm to you?",
+      "scene": 12
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "Well, now that you put it like that, I guess you do.",
+      "scene": 12
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "This Jerry of yours, stiglitz, not exactly the loquacious type, is he?",
+      "scene": 13
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Is that the kind of man you need? Loquacious type?",
+      "scene": 13
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "Fair point, lieutenant.",
+      "scene": 13
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "So you all get in trouble in there, what are we supposed to do? Make bets on how it all comes out?",
+      "scene": 13
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "If we get into trouble, we can handle it.",
+      "scene": 13
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "But if trouble does happen, we need you to make damn sure no Germans, or French, for that matter, escape from that basement. If frau Von hammersmark's cover is compromised, the mission is kaput.",
+      "scene": 13
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Speaking of frau Von hammersmark, whose idea was it for the deathtrap rendezvous?",
+      "scene": 13
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "She chose the spot.",
+      "scene": 13
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Isn't that just dandy?",
+      "scene": 13
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "Look, she's not a military strategist. She's just an actress.",
+      "scene": 13
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "You don't got to be stonewall Jackson to know you don't want to fight in a basement.",
+      "scene": 13
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "She wasn't picking a place to fight. She was picking a place isolated and without Germans.",
+      "scene": 13
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "Well, if this is it, old boy, I hope you don't mind if I go out speaking the king's.",
+      "scene": 14
+    },
+    {
+      "character": "MAJOR DIETER HELLSTROM",
+      "text": "By all means, captain.",
+      "scene": 14
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "There's a special rung in hell reserved for people who waste good scotch. Seeing as I may be rapping on the door momentarily,",
+      "scene": 14
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "I must say, damn good stuff, sir.",
+      "scene": 14
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "Now, about this pickle we find ourselves in.",
+      "scene": 14
+    },
+    {
+      "character": "LT. ARCHIE HICOX",
+      "text": "It would appear there's only one thing left for you to do.",
+      "scene": 14
+    },
+    {
+      "character": "MAJOR DIETER HELLSTROM",
+      "text": "And what would that be?",
+      "scene": 14
+    },
+    {
+      "character": "SERGEANT HUGO STIGLITZ",
+      "text": "Stiglitz. Say auf wiedersehen to your Nazi balls.",
+      "scene": 14
+    },
+    {
+      "character": "WILHELM",
+      "text": "You outside. Who are you? British? American?",
+      "scene": 15
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "What? We're American. What are you?",
+      "scene": 15
+    },
+    {
+      "character": "WILHELM",
+      "text": "I'm a German, you idiot.",
+      "scene": 15
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Speak english pretty good for a German.",
+      "scene": 15
+    },
+    {
+      "character": "WILHELM",
+      "text": "I agree. So let's talk.",
+      "scene": 15
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Okay, talk.",
+      "scene": 15
+    },
+    {
+      "character": "WILHELM",
+      "text": "I'm a father. My baby was born today. In Frankfurt. Five hours ago. His name is Max. We were in here drinking, celebrating. They're the ones that came in shooting and killing. It's not my fault!",
+      "scene": 15
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Okay! It wasn't your fault. What's your name, soldier?",
+      "scene": 15
+    },
+    {
+      "character": "WILHELM",
+      "text": "Wilhelm.",
+      "scene": 15
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Now, is there anybody alive on our side?",
+      "scene": 15
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Who's that?",
+      "scene": 16
+    },
+    {
+      "character": "WILHELM",
+      "text": "Is the girl on your side?",
+      "scene": 16
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Which girl?",
+      "scene": 16
+    },
+    {
+      "character": "WILHELM",
+      "text": "Who do you think? Von hammersmark.",
+      "scene": 16
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Yeah, she's ours. Ils she okay?",
+      "scene": 16
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "Wilhelm!",
+      "scene": 16
+    },
+    {
+      "character": "WILHELM",
+      "text": "She's been shot. But she's alive.",
+      "scene": 16
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Okay, Wilhelm. What do you say we make us a deal?",
+      "scene": 16
+    },
+    {
+      "character": "WILHELM",
+      "text": "What's your name?",
+      "scene": 16
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Aldo. Okay, Wilhelm, here's my deal. You let me and one of my men come down there and take the girl away. No guns. No guns me, no guns you. And we take the girl and leave. It's that simple, willi. You go your way, we go ours. And little Max gets to grow up playing catch with his daddy. So what do you say, willi? We got us a deal?",
+      "scene": 16
+    },
+    {
+      "character": "WILHELM",
+      "text": "Aldo.",
+      "scene": 16
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "I'm here, willi.",
+      "scene": 16
+    },
+    {
+      "character": "WILHELM",
+      "text": "I want to trust you. But... But how can I?",
+      "scene": 16
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "What choice you got, son?",
+      "scene": 16
+    },
+    {
+      "character": "WILHELM",
+      "text": "Okay, okay.",
+      "scene": 16
+    },
+    {
+      "character": "WILHELM",
+      "text": "Aldo, I'm going to trust you. Come down.",
+      "scene": 16
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Hey, willi, what's with the machine gun? I thought we had us a deal?",
+      "scene": 17
+    },
+    {
+      "character": "WILHELM",
+      "text": "We still have a deal. Now, get the girl and go.",
+      "scene": 17
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Not so fast. We only got a deal, we trust each other. And a Mexican standoff ain't trust.",
+      "scene": 17
+    },
+    {
+      "character": "WILHELM",
+      "text": "You need guns on me for it to be a Mexican standoff.",
+      "scene": 17
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "You got guns on us. You decide to shoot, we're dead. Up top, they got grenades. They drop them down here, you're dead. That's a Mexican standoff, and that was not the deal. No trust, no deal.",
+      "scene": 17
+    },
+    {
+      "character": "MASTER SERGEANT WILHELM",
+      "text": "All right, Aldo.",
+      "scene": 18
+    },
+    {
+      "character": "MASTER SERGEANT WILHELM",
+      "text": "Fine.",
+      "scene": 18
+    },
+    {
+      "character": "MASTER SERGEANT WILHELM",
+      "text": "Just take that fucking traitor, and get her out of my sight.",
+      "scene": 18
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Before we yank that slug out you, you need to answer a few questions.",
+      "scene": 19
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "Few questions about what?",
+      "scene": 19
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "About I got three men dead back there. Why don't you try telling us what the fuck happened?",
+      "scene": 19
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "The British officer blew his German act and the gestapo major saw it.",
+      "scene": 19
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Before we get into who shot John, why'd you invite my men to a rendezvous in a basement with a bunch of Nazis?",
+      "scene": 19
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "I can see since you didn't see what happened inside, that the Nazis being there must look odd.",
+      "scene": 19
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Yeah, we got a word for that kind of odd in english. It's called suspicious. P",
+      "scene": 19
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "everybody needs to calm down. You're letting your imagination get the better of you. You met the sergeant yourself. Willi. You remember him, don't you?",
+      "scene": 19
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Yeah, I remember him.",
+      "scene": 19
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "His wife had a baby tonight. He had just become a... He had just become a father! His commanding officer gave him and his mates the night off to celebrate.",
+      "scene": 19
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "The Germans being there was either a trap set by me or a tragic coincidence. It couldn't be both.",
+      "scene": 19
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "How'd the shooting start?",
+      "scene": 19
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "The englishman gave himself away.",
+      "scene": 19
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "How'd he do that?",
+      "scene": 19
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "He ordered three glasses. We order three glasses. That's the German three. The other looks odd. Germans would and did notice it.",
+      "scene": 19
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Okay, let's pretend there were no Germans and everything went exactly the way it was supposed to. What was the next step?",
+      "scene": 19
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "Tuxedos. To get them into the premiere wearing military uniforms with all the military there would've been suicide.",
+      "scene": 19
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "But going as members of the German film industry, they wear tuxedos and fit in with everybody else.",
+      "scene": 19
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "I arranged for the tailor to fit three tuxedos tonight.",
+      "scene": 19
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "How'd you intend to get them in that premiere?",
+      "scene": 19
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "Hand me my purse.",
+      "scene": 19
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "Lieutenant hicox was going as my escort. The other two were going as a German cameraman and his assistant.",
+      "scene": 19
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "You still get us in that premiere?",
+      "scene": 19
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "You speak German better than your friends? No. Have I been shot? Yes! I don't see me tripping the light fantastique up a red carpet anytime soon. Least of all, by tomorrow night.",
+      "scene": 19
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "However, there's something you don't know.",
+      "scene": 20
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "There've been two recent developments regarding operation kino.",
+      "scene": 20
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "One, the venue has been changed from the ritz to a much smaller venue.",
+      "scene": 20
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Enormous change at the last minute? That's not very germatic. Why the hell is goebbels doing stuff so damn peculiar?",
+      "scene": 20
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "It probably has something to do with the second development.",
+      "scene": 20
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "Der fihrer is attending the premiere.",
+      "scene": 20
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Fuck a duck!",
+      "scene": 21
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "What are you thinking?",
+      "scene": 21
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "I'm thinking getting a whack at planting old uncle Adolf makes this horse a different color.",
+      "scene": 21
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "What is that supposed to mean?",
+      "scene": 21
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "It means you getting us in that premiere.",
+      "scene": 21
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "I'm probably going to end up losing this leg. Bye-bye, acting career. Fun while it lasted. How do you expect me to walk the red carpet?",
+      "scene": 21
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Doggy doc's going to dig that slug out your gam. He's going to wrap it up in a cast, and you got a good how-i-broke-my-leg- mountain-climbing story. That's German, ain't it? You all like climbing mountains, don't you?",
+      "scene": 21
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "I don't. I like smoking, drinking and ordering in restaurants. But I see your point.",
+      "scene": 21
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "We fill you up with morphine till it's coming out your ears and just limp your little ass up that Rouge carpet.",
+      "scene": 21
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "I know this is a silly question before I ask it, but can you Americans speak any other language than english?",
+      "scene": 21
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "We both speak a little Italian.",
+      "scene": 21
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "With an atrocious accent, no doubt.",
+      "scene": 21
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "But that doesn't exactly kill us in the crib. Germans don't have a good ear for Italian.",
+      "scene": 21
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "So you mumble Italian and brazen through it. Is that the plan?",
+      "scene": 21
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "That's about it.",
+      "scene": 21
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "That sounds good.",
+      "scene": 21
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "It sounds like shit. What else are we going to do? Go home?",
+      "scene": 21
+    },
+    {
+      "character": "BRIDGET VON HAMMERSMARK",
+      "text": "No, that sounds good. If you don't blow it, with that, I can get you in the building. Who does what?",
+      "scene": 21
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Well, I speak the most Italian, so I'll be your escort. Donowitz speaks second most, so he'll be your Italian cameraman. Omar, third most. He'll be Donny's assistant.",
+      "scene": 21
+    },
+    {
+      "character": "PRIVATE FIRST CLASS OMAR ULMER",
+      "text": "I don't speak Italian.",
+      "scene": 21
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Like I said, third best. Just keep your fucking mouth shut, in fact, why don't you start practicing right now?",
+      "scene": 21
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Gorlomi?",
+      "scene": 22
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Gorlomi?",
+      "scene": 22
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Gorlomi.",
+      "scene": 22
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Gorlomi.",
+      "scene": 22
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Gorlomi.",
+      "scene": 22
+    },
+    {
+      "character": "SGT. DONNY DONOWITZ",
+      "text": "Antonio margheriti.",
+      "scene": 22
+    },
+    {
+      "character": "SGT. DONNY DONOWITZ",
+      "text": "Margheriti.",
+      "scene": 22
+    },
+    {
+      "character": "SGT. DONNY DONOWITZ",
+      "text": "Margheriti.",
+      "scene": 22
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Margheriti.",
+      "scene": 22
+    },
+    {
+      "character": "PRIVATE FIRST CLASS OMAR ULMER",
+      "text": "Dominick decocco.",
+      "scene": 22
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Fucking shithead. Faggot fuck. Fuck you! Bunch of shithead fuck.",
+      "scene": 23
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Fuck you, too!",
+      "scene": 23
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Goddamn Nazi farts, sons of bitches! Get your hands off me. You fucking bratwurst-smelling... Goddamn you! Get off",
+      "scene": 23
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "You Jerry-banging, Limburg-smelling...",
+      "scene": 24
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "As Stanley said to livingstone, lieutenant Aldo raine, I presume?",
+      "scene": 24
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Hans landa.",
+      "scene": 24
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "You've had a nice long run, Aldo. Alas, you're now in the hands of the ss. My hands to be exact. And they've been waiting a long time to touch you.",
+      "scene": 24
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Caught you flinching.",
+      "scene": 24
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Touch me again, kraut-burger.",
+      "scene": 24
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Utivich?",
+      "scene": 25
+    },
+    {
+      "character": "SMITHSON UTIVICH",
+      "text": "Is that you, lieutenant?",
+      "scene": 25
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Yeah.",
+      "scene": 25
+    },
+    {
+      "character": "SMITHSON UTIVICH",
+      "text": "Do you know what happened to Donny? Omar? The woman?",
+      "scene": 25
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "No, I do not.",
+      "scene": 25
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Tell me, Aldo, if I were sitting where you're sitting, would you show me mercy?",
+      "scene": 26
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Nope.",
+      "scene": 26
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "What is that english expression about shoes and feet?",
+      "scene": 26
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "\"Looks like the shoe is on the other foot.\" Yeah, I was just thinking that.",
+      "scene": 26
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "So you're Aldo the apache.",
+      "scene": 27
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "So you're the Jew hunter.",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "I'm a detective. A damn good detective. Finding people is my specialty, so naturally, I worked for the Nazis finding people. And, yes, some of them were Jews. But Jew hunter? Just a name that stuck.",
+      "scene": 27
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Well, you do have to admit, it is catchy.",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Do you control the nicknames your enemies bestow on you? Aldo the apache and the little man?",
+      "scene": 27
+    },
+    {
+      "character": "SMITHSON UTIVICH",
+      "text": "What do you mean the little man?",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Germans' nickname for you.",
+      "scene": 27
+    },
+    {
+      "character": "SMITHSON UTIVICH",
+      "text": "The Germans' nickname for me is the little man?",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "And as if to make my point, I'm a little surprised how tall you were in real life. I mean, you're a little fellow, but not circus-midget little, as your reputation would suggest.",
+      "scene": 27
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Where's my men? Where's Bridget Von hammersmark?",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Well, let's just say, she got what she deserved.",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "And when you purchase friends like Bridget Von hammersmark, you get what you pay for. Now as far as your paesanos, sergeant donowitz and private Omar...",
+      "scene": 27
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "How you know our names?",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Lieutenant Aldo, if you don't think I wouldn't interrogate every single one of your swastika-marked survivors,",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "we simply aren't operating on the level of mutual respect I assumed.",
+      "scene": 27
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "No, I guess not.",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Well, back to the whereabouts of your two Italian saboteurs.",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "As of this moment, both Omar and donowitz should be sitting in the very seats we left them in. Double-zero 23 and double-zero 24, if my memory serves. Explosives still around their ankles, still ready to explode. And your mission, some would call a terrorist plot, as of this moment, is still a go.",
+      "scene": 27
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "That's a pretty exciting story. What's next? Eliza on ice?",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "However, all I have to do is pick up this phone right here, inform the cinema, and your plan is kaput.",
+      "scene": 27
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "If they're still here, and if they're still alive, and that's one big if, there ain't no way you're going to take them boys without setting off them bombs.",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "I have no doubt. And, yes, some Germans will die. Yes, it will ruin the evening. And, yes, goebbels will be very, very, very mad at you for what you've done to his big night. But you won't get Hitler, you won't get goebbels, you won't get goring, and you won't get bormann. And you need all four to end the war.",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "But if I don't pick up this phone right here, you may very well get all four. And if you get all four, you end the war tonight. So, gentlemen, let's discuss the prospect of ending the war tonight.",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "So, the way I see it, since Hitler's death or possible rescue rests solely on my reaction, if I do nothing, it's as if I'm causing his death even more than yourselves. Wouldn't you agree?",
+      "scene": 27
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "I guess so.",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "How about you, utivich?",
+      "scene": 27
+    },
+    {
+      "character": "SMITHSON UTIVICH",
+      "text": "I guess so, too.",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Gentlemen, I have no intention of killing Hitler and killing goebbels and killing géring and killing bormann, not to mention winning the war single-handedly for the allies, only later to find myself standing before a Jewish tribunal.",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "If you want to win the war tonight, we have to make a deal.",
+      "scene": 27
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "What kind of deal?",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "The kind you wouldn't have the authority to make. However, I'm sure this mission of yours has a commanding officer. A general. I'm betting for...",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Oss would be my guess.",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "That's a bingo!",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Is that the way you say it? \"That's a bingo.\"",
+      "scene": 27
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "You just say, \"bingo.\"",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Bingo! How fun.",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "But I digress. Where were we? Yeah! Make a deal. Over there is a very capable two-way radio and sitting behind it is a more than capable radio operator named hermann. Get me someone on the other end of that radio with the power of the pen to authorize my, let's call it, the terms of my conditional surrender. If that tastes better going down.",
+      "scene": 27
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "You know, where I'm from...",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Yeah? Where is that exactly?",
+      "scene": 27
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Maynarduville, Tennessee. I've done my share of bootlegging. Up there, if you engage in what the federal government calls illegal activity, but what we call just a man trying to make a living for his family selling moonshine liquor, it behooves oneself to keep his wits.",
+      "scene": 27
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Long story short, we hear a story too good to be true, it ain't.",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Sitting in your chair, I would probably say the same thing, and 999.999 times out of a million, you would be correct.",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "But in the pages of history, every once in a while, fate reaches out and extends its hand.",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "What shall the history books read?",
+      "scene": 27
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "By the way, that last part is actually true. I want my full military pension and benefits under my proper rank. I want to receive the congressional medal of honor for my invaluable assistance in the toppling of the third reich. In fact, I want all the members of operation kino to receive the congressional medal of honor. Full citizenship for myself. Well, that goes without saying. And I would like the United States of America to purchase property for me on nantucket island as a reward for all the countless lives I've saved by bringing the tyranny of the national socialist party to a swifter-than-imagined end. Do you have all that, sir?",
+      "scene": 28
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "I look forward to seeing you face to face as well, sir. Lieutenant raine? Right here.",
+      "scene": 28
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Yes, sir.",
+      "scene": 28
+    },
+    {
+      "character": "GENERAL",
+      "text": "Colonel landa will put you and private utivich in a truck as prisoners. Then he and his radio operator will get in the truck and drive to our lines. Upon crossing our lines, colonel landa and his man will surrender to you. You will then take over driving of the truck and bring them straight to me for debriefing. Is that clear, lieutenant?",
+      "scene": 28
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Yes, sir.",
+      "scene": 28
+    },
+    {
+      "character": "GENERAL",
+      "text": "Over and out.",
+      "scene": 28
+    },
+    {
+      "character": "PRIVATE FIRST CLASS FREDRICK ZOLLER",
+      "text": "Who wants to send a message to Germany?",
+      "scene": 29
+    },
+    {
+      "character": "SHOSANNA DREYFUS",
+      "text": "I have a message for Germany.",
+      "scene": 29
+    },
+    {
+      "character": "SHOSANNA DREYFUS",
+      "text": "That you are all going to die.",
+      "scene": 29
+    },
+    {
+      "character": "SHOSANNA DREYFUS",
+      "text": "And I want you to look deep into the face of the Jew who's going to do it!",
+      "scene": 29
+    },
+    {
+      "character": "SHOSANNA DREYFUS",
+      "text": "Marcel, burn it down.",
+      "scene": 29
+    },
+    {
+      "character": "MARCEL",
+      "text": "Oui, shosanna.",
+      "scene": 29
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "I'm officially surrendering myself over to you, lieutenant raine. We're your prisoners.",
+      "scene": 30
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "How about my knife?",
+      "scene": 30
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Thank you very much, colonel. Utivich, cuff the colonel's hands behind his back.",
+      "scene": 30
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Is that really necessary?",
+      "scene": 30
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "I'm a slave to appearances.",
+      "scene": 30
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Scalp hermann.",
+      "scene": 30
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "Are you mad? What have you done? I made a deal with your general for that man's life!",
+      "scene": 30
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Yeah, they made that deal. But they don't give a fuck about him. They need you.",
+      "scene": 30
+    },
+    {
+      "character": "COL. HANS LANDA",
+      "text": "You'll be shot for this!",
+      "scene": 30
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "Nah, I don't think so. More like chewed out. I've been chewed out before. You know, utivich and myself heard that deal you made with the brass. End the war tonight? I'd make that deal. How about you, utivich? You make that deal?",
+      "scene": 30
+    },
+    {
+      "character": "SMITHSON UTIVICH",
+      "text": "I'd make that deal.",
+      "scene": 30
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "I don't blame you. Damn good deal. And that pretty little nest you feathered for yourself. Well, if you're willing to barbecue the whole high command, I suppose that's worth certain considerations. But I do have one question. When you get to your little place on nantucket island, I imagine you are going to take off that handsome-looking ss uniform of yours. Ain't you?",
+      "scene": 30
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "That's what I thought. Now, that I can't abide. How about you, utivich, can you abide it?",
+      "scene": 30
+    },
+    {
+      "character": "SMITHSON UTIVICH",
+      "text": "Not one damn bit, sir.",
+      "scene": 30
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "I mean, if I had my way, you'd wear that goddamn uniform for the rest of your pecker-sucking life.",
+      "scene": 30
+    },
+    {
+      "character": "LT. ALDO RAINE",
+      "text": "But I'm aware that ain't practical. I mean, at some point, you're going to have to take it off. So, I'm going to give you a little something you can't take off.",
+      "scene": 30
+    }
+  ],
+  "lineCount": 393,
+  "characterCount": 19,
+  "imdbId": "tt0361748",
+  "poster": "",
+  "rated": "R",
+  "runtime": "153 min",
+  "genre": "Drama, Thriller, War",
+  "director": "Quentin Tarantino",
+  "topSpeakingCast": [
+    "LT. ALDO RAINE",
+    "COL. HANS LANDA",
+    "LT. ARCHIE HICOX",
+    "PERRIER LAPADITE",
+    "BRIDGET VON HAMMERSMARK",
+    "GENERAL ED FENECH",
+    "WILHELM",
+    "SGT. WERNER RACHTMAN",
+    "SMITHSON UTIVICH",
+    "SGT. DONNY DONOWITZ"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "breaking-bad",
+  "name": "Breaking Bad",
+  "type": "series",
+  "mediaType": "seasons",
+  "movies": [
+    "breaking-bad-s01",
+    "breaking-bad-s02",
+    "breaking-bad-s03",
+    "breaking-bad-s04",
+    "breaking-bad-s05"
+  ],
+  "theme": {
+    "primary": "#f0c419",
+    "bgColor": "#0b2518",
+    "containerBg": "#f7f3ea",
+    "accentColor": "#2e7d32",
+    "btnText": "#0b2518",
+    "cardGradientStart": "#0b2518",
+    "cardGradientEnd": "#16442c",
+    "cardBorder": "#f0c419",
+    "cardText": "#f0c419"
+  },
+  "tierMessages": {
+    "perfect": "Say My Name.",
+    "good": "Yeah, Science!",
+    "average": "I Am the One Who Knocks",
+    "barely": "Better Call Saul",
+    "failure": "No Half Measures"
+  }
+}

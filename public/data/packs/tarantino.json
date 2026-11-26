@@ -1,0 +1,34 @@
+{
+  "id": "tarantino",
+  "name": "Quentin Tarantino",
+  "type": "director",
+  "movies": [
+    "reservoir-dogs",
+    "pulp-fiction",
+    "jackie-brown",
+    "kill-bill-vol-1",
+    "kill-bill-vol-2",
+    "inglourious-basterds",
+    "django-unchained",
+    "the-hateful-eight",
+    "once-upon-a-time-in-hollywood"
+  ],
+  "theme": {
+    "primary": "#f7d02c",
+    "bgColor": "#141112",
+    "containerBg": "#f7f3ea",
+    "accentColor": "#c81d25",
+    "btnText": "#141112",
+    "cardGradientStart": "#141112",
+    "cardGradientEnd": "#2c1317",
+    "cardBorder": "#f7d02c",
+    "cardText": "#f7d02c"
+  },
+  "tierMessages": {
+    "perfect": "That's a Bingo!",
+    "good": "Royale with Cheese!",
+    "average": "Say 'What' Again!",
+    "barely": "A Decent Pair of Shoes",
+    "failure": "You Know What They Call a Loss in France?"
+  }
+}

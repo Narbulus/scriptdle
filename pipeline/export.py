@@ -35,7 +35,8 @@ _GENERIC_ROLE_MODIFIERS = (
     r"RED|GOLD|BLUE|GREEN|TIE|FIGHTER|X-WING|CANTINA|PALACE|PRISON|JAIL|STORE|"
     r"HOTEL|BANK|HOSPITAL|NEWS|RADIO|TV|PA|INTERCOM|SHIP|CREW|GROUND|FIELD|SWAT|ARMY|"
     r"NAVY|MILITARY|FEDERAL|SECRET|ROYAL|CITY|LOCAL|ANOTHER|AUTOMATED|COMPUTER|"
-    r"SHIELD|S\.H\.I\.E\.L\.D\.|NAZI|HYDRA|PHYSICAL|TOWER|MINING|TRIBE)\s+"
+    r"SHIELD|S\.H\.I\.E\.L\.D\.|NAZI|HYDRA|PHYSICAL|TOWER|MINING|TRIBE|"
+    r"DAI LI|DELIVERY|HEALTH|LOAN|REAL ESTATE|SUN WARRIOR|TRAIN)\s+"
 )
 _GENERIC_ROLE_NOUNS = (
     r"(?:STORMTROOPER|TROOPER|OFFICER|PILOT|GUARD|SOLDIER|COP|DETECTIVE|AGENT|"
@@ -47,6 +48,10 @@ _GENERIC_ROLE_NOUNS = (
     r"CAPTAIN|COMMANDER|LIEUTENANT|SERGEANT|CORPORAL|PRIVATE|ADMIRAL|GENERAL|"
     r"LEADER|BOSS|DOCTOR|LAWYER|JUDGE|PRIEST|MINISTER|WARRIOR|KNIGHT|"
     r"COUNCILMAN|COUNCILWOMAN|MILITANT|THERAPIST|KEEPER|ELDER|"
+    r"ARBITER|ARBITRATOR|CATERER|CHIEF|COACH|CONDUCTOR|EDITOR|FISHERMAN|"
+    r"HERBALIST|HITCHHIKER|HOUSEWIFE|INSPECTOR|INVESTIGATOR|LIFEGUARD|MOTHER|"
+    r"NEIGHBOR|OFFICIAL|OWNER|PARENT|PROSTITUTE|RECEPTIONIST|SALESMAN|SALESWOMAN|"
+    r"TEENAGER|TOURIST|"
     r"MAN|WOMAN|BOY|GIRL|KID|CHILD|STRANGER|ALIEN|DROID|ROBOT|MONSTER|BULLY)"
 )
 GENERIC_CONTEXT_ROLE_RE = re.compile(
@@ -84,17 +89,21 @@ def normalize_character(name: str) -> str:
 
 
 _INVISIBLE_CHARS = re.compile(r"[\u200b-\u200f\u202a-\u202e\u2066-\u2069\ufeff]")
+_CC_SPEAKER_PREFIX = re.compile(r"(?:^|\s)>>\s*(?:[A-Z][A-Z0-9 .'\-]{0,24}\s*:\s+)?")
+_LEADING_SDH_SPEAKER = re.compile(r"^[A-Z][A-Z0-9 .'\-]{1,24}\s*:\s+(?=.*[a-z])")
 
 
 def clean_line_text(text: str) -> str:
-    """Clean dialogue text of leading parentheticals, BiDi control chars, and extra whitespace."""
+    """Clean dialogue text of caption chevrons, leaked SDH speaker labels, parentheticals, and BiDi chars."""
     if not text:
         return ""
     prev = None
     result = _INVISIBLE_CHARS.sub("", text).strip()
     while result != prev:
         prev = result
+        result = _CC_SPEAKER_PREFIX.sub(" ", result).strip()
         result = LEADING_DIRECTION.sub("", result).strip()
+        result = _LEADING_SDH_SPEAKER.sub("", result).strip()
     return re.sub(r"\s+", " ", result)
 
 

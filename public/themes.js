@@ -41,6 +41,32 @@ window.SCRIPTLE_THEMES = {
     "name": "Back to the Future",
     "movieCount": 3
   },
+  "gilmore-girls": {
+    "primary": "#f5c27a",
+    "bgColor": "#261611",
+    "containerBg": "#f7f3ea",
+    "accentColor": "#b85d3b",
+    "btnText": "#261611",
+    "cardGradientStart": "#261611",
+    "cardGradientEnd": "#3f241b",
+    "cardBorder": "#f5c27a",
+    "cardText": "#f5c27a",
+    "name": "Gilmore Girls",
+    "movieCount": 7
+  },
+  "avatar-tla": {
+    "primary": "#f4b942",
+    "bgColor": "#0f2430",
+    "containerBg": "#f7f3ea",
+    "accentColor": "#d95d39",
+    "btnText": "#0f2430",
+    "cardGradientStart": "#0f2430",
+    "cardGradientEnd": "#183a4a",
+    "cardBorder": "#f4b942",
+    "cardText": "#f4b942",
+    "name": "Avatar: The Last Airbender",
+    "movieCount": 3
+  },
   "disney-classics": {
     "primary": "#d4af37",
     "bgColor": "#7d5a9b",
@@ -53,6 +79,32 @@ window.SCRIPTLE_THEMES = {
     "cardText": "#ffd54f",
     "name": "Disney Classics",
     "movieCount": 8
+  },
+  "tarantino": {
+    "primary": "#f7d02c",
+    "bgColor": "#141112",
+    "containerBg": "#f7f3ea",
+    "accentColor": "#c81d25",
+    "btnText": "#141112",
+    "cardGradientStart": "#141112",
+    "cardGradientEnd": "#2c1317",
+    "cardBorder": "#f7d02c",
+    "cardText": "#f7d02c",
+    "name": "Quentin Tarantino",
+    "movieCount": 9
+  },
+  "always-sunny": {
+    "primary": "#f5ebd6",
+    "bgColor": "#111111",
+    "containerBg": "#f7f3ea",
+    "accentColor": "#2d7a45",
+    "btnText": "#111111",
+    "cardGradientStart": "#0e0e0e",
+    "cardGradientEnd": "#222222",
+    "cardBorder": "#f5ebd6",
+    "cardText": "#f5ebd6",
+    "name": "It's Always Sunny in Philadelphia",
+    "movieCount": 16
   },
   "marvel": {
     "primary": "#c62828",
@@ -105,6 +157,19 @@ window.SCRIPTLE_THEMES = {
     "cardText": "#ecf0f1",
     "name": "Disney Pixar",
     "movieCount": 9
+  },
+  "breaking-bad": {
+    "primary": "#f0c419",
+    "bgColor": "#0b2518",
+    "containerBg": "#f7f3ea",
+    "accentColor": "#2e7d32",
+    "btnText": "#0b2518",
+    "cardGradientStart": "#0b2518",
+    "cardGradientEnd": "#16442c",
+    "cardBorder": "#f0c419",
+    "cardText": "#f0c419",
+    "name": "Breaking Bad",
+    "movieCount": 5
   },
   "shrek": {
     "primary": "#7cb342",

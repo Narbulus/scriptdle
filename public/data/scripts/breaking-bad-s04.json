@@ -1,0 +1,4526 @@
+{
+  "id": "breaking-bad-s04",
+  "title": "Season 4",
+  "year": 2011,
+  "characters": [
+    "ANDREA CANTILLO",
+    "BINGO CALLER",
+    "BROCK CANTILLO",
+    "CARTEL CHEMIST",
+    "DEA AGENT",
+    "DENNIS MARKOWSKI",
+    "DETECTIVE KALANCHOE",
+    "DETECTIVE MUNN",
+    "DON ELADIO",
+    "FRANCESCA",
+    "FRANCESCA LIDDLE",
+    "FRANCESCA LIDDY",
+    "GAFF",
+    "GEORGE MERKERT",
+    "GUSTAVO FRING",
+    "HANK SCHRADER",
+    "HUELL BABINEAUX",
+    "JESSE PINKMAN",
+    "MARIE SCHRADER",
+    "MIKE EHRMANTRAUT",
+    "PATRICK KUBY",
+    "SAUL GOODMAN",
+    "SKYLER WHITE",
+    "STEVEN GOMEZ",
+    "TED BENECKE",
+    "TED BENEKE",
+    "TYRUS KITT",
+    "WALTER WHITE",
+    "WALTER WHITE JR."
+  ],
+  "lines": [
+    {
+      "character": "WALTER WHITE",
+      "text": "You have reached Walter White. At the tone please state your name, number, and the reason for your call. Thank you.",
+      "scene": 0
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Third try. Walt, if you're there, please pick up.",
+      "scene": 0
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Okay. Well, I really wanted to do this together, but I can hear him getting up, and it's not like I can keep him from seeing the thing, so I'm sorry, but I've waited as long as possible, and I-- I guess I'm going to have to go ahead without you, so call me.",
+      "scene": 0
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Oh. Hey, happy birthday, sweet sixteen. Mwah.",
+      "scene": 0
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Thanks, Mom.",
+      "scene": 0
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Of course, I thought you might sleep through it.",
+      "scene": 0
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Ha ha.",
+      "scene": 0
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "So since it's almost-- oh, noon, I think your first big birthday decision is breakfast or lunch.",
+      "scene": 0
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Um, pancakes?",
+      "scene": 0
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Pancakes it is. Okay, could you do me a favor? I forgot to get the paper. Can you go out and grab it for me?",
+      "scene": 0
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Surprise!",
+      "scene": 1
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "It's from me and your dad. It's pretty slick, huh?",
+      "scene": 1
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Yeah. Thanks, Mom. It's-- It's great.",
+      "scene": 1
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "You know, I really did a lot of research, and, I don't know, this car just really stood out to me. It's got a ton of great features-- power everything, solid engine, It's really roomy, so you can carpool with all your friends, and of course it is safe because I am still your mother. Oh, and it has a CD player, so you can listen to some tunes while you're cruising around, so you know what? Breakfast can wait. You want to take it for a spin?",
+      "scene": 1
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Um, m-m-maybe later. I'm kind of starving.",
+      "scene": 1
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Yeah, okay. Well, let's-- let's get those pancakes going.",
+      "scene": 1
+    },
+    {
+      "character": "FRANCESCA LIDDY",
+      "text": "Saul? He's here.",
+      "scene": 1
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Bad idea. This is a bad idea.",
+      "scene": 1
+    },
+    {
+      "character": "FRANCESCA LIDDY",
+      "text": "Saul.",
+      "scene": 1
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Send him in.",
+      "scene": 1
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Mr. Beneke. Saul Goodman. Thank you for coming down.",
+      "scene": 1
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Yeah. Hi.",
+      "scene": 1
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Have a seat, please.",
+      "scene": 1
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "I-- I don't really understand why I'm here. Is it something to do with my creditors?",
+      "scene": 1
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Creditors? No. I'll cut right to the chase. Mr. Beneke, I have some bad news.",
+      "scene": 1
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Uh... nothing but, lately.",
+      "scene": 1
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Your great-aunt Birgit passed away.",
+      "scene": 1
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "I'm sorry, who?",
+      "scene": 1
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Uh... Apparently, she passed away in Diekirch, Luxembourg, and this was, wow, eight years ago. I just assumed you two were close, given that-- Well, maybe this is good news. Birgit left behind a sizable estate, of which you, Mr. Beneke, are the primary beneficiary. - What? - Yeah, well, seems she had no immediate relatives, so the estate's just been sitting while the folks over in the EU searched for a living heir.",
+      "scene": 1
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "I don't know of any relatives in Luxembourg, definitely no one who would name me in their will.",
+      "scene": 1
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Huh.",
+      "scene": 1
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Well...",
+      "scene": 1
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Ah, here you go. She left no will, so that's probably why it took so long. They traced the inheritance through to your father, but his having passed-- my condolences-- you are the next in line to the tune of $621,552.33.",
+      "scene": 1
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Wow.",
+      "scene": 1
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Where's the phenylacetic acid?",
+      "scene": 2
+    },
+    {
+      "character": "GAFF",
+      "text": "They synthesize their own.",
+      "scene": 2
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "What?",
+      "scene": 2
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "I don't-- I don't do that.",
+      "scene": 2
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Look, I get my phenylacetic acid from the barrel with the bee on it. That's how I know how to do it.",
+      "scene": 2
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "What is he saying?",
+      "scene": 3
+    },
+    {
+      "character": "GAFF",
+      "text": "We're working it out.",
+      "scene": 3
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Tell this asshole if he wants to learn how to make my product, he's got to do it my way, the right way.",
+      "scene": 3
+    },
+    {
+      "character": "CARTEL CHEMIST",
+      "text": "I speak English.",
+      "scene": 3
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "So you understand what asshole means. Now, go get me my phenylacetic acid, asshole.",
+      "scene": 3
+    },
+    {
+      "character": "MIKE EHRMANTRAUT",
+      "text": "How long is it going to take you to get him what he needs?",
+      "scene": 3
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Gives us time to talk about the state of this lab. Don't you have standards?",
+      "scene": 4
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "I mean, this place is disgusting. All right, we're going to scour every vat, every tank, every cook surface, and then we're going to clean up every possible source of contamination, and only then we cook. ÿComprende?",
+      "scene": 4
+    },
+    {
+      "character": "CARTEL CHEMIST",
+      "text": "Who do you think you are?",
+      "scene": 4
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "I'm the guy your boss brought here to show you how it's done, and if this is how you run your lab, no wonder. You're lucky he hasn't fired your ass. Now, if you don't want that to happen, I suggest you stop whining like a little bitch and do what I say.",
+      "scene": 4
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Dad?",
+      "scene": 5
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Come in if you're coming in.",
+      "scene": 5
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "What happened to you?",
+      "scene": 5
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "What happened?",
+      "scene": 5
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I got into a fight.",
+      "scene": 5
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "What do you mean, a fight? Like, what fight?",
+      "scene": 5
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Are you going to talk to me here?",
+      "scene": 5
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "What are you doing?",
+      "scene": 5
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "I'm calling Mom.",
+      "scene": 5
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Don't do that.",
+      "scene": 5
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Look, I-- I appreciate that you're concerned. I'm fine.",
+      "scene": 5
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Just do not call your mother.",
+      "scene": 5
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Why not?",
+      "scene": 5
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Because...",
+      "scene": 5
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I was gambling.",
+      "scene": 5
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "If you tell your mother, God, I just would-- I would never, never hear the end of it, so please...",
+      "scene": 5
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "can we just keep this between us? Would you do that for me? Just keep it to yourself.",
+      "scene": 5
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "I don't understand. How'd you get into a fight? And with who?",
+      "scene": 5
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I made a mistake.",
+      "scene": 6
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "And it's my own fault.",
+      "scene": 6
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I had it coming.",
+      "scene": 6
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Dad, it's okay.",
+      "scene": 6
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "It's all my fault.",
+      "scene": 6
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I just-- I'm sorry.",
+      "scene": 6
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I'm sorry.",
+      "scene": 6
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Dad... come here.",
+      "scene": 6
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Come on. Dad, it's okay. Hey-- Hey-- It's okay. Please, it's-- it's okay. Look at me. Look at me. It's okay. It is. Come on. Come on.",
+      "scene": 6
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "It's okay.",
+      "scene": 6
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Hey, how was your birthday?",
+      "scene": 6
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Good. Get some rest.",
+      "scene": 6
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Okay.",
+      "scene": 6
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "The new car?",
+      "scene": 6
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Did you drive it here?",
+      "scene": 6
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Yeah.",
+      "scene": 6
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Hm. Hm. That's good. You like it?",
+      "scene": 6
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Uh, sure. I do. It drives great.",
+      "scene": 6
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "That's good, Jesse.",
+      "scene": 6
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Yes.",
+      "scene": 7
+    },
+    {
+      "character": "MIKE EHRMANTRAUT",
+      "text": "Well done.",
+      "scene": 7
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "First of many.",
+      "scene": 7
+    },
+    {
+      "character": "MIKE EHRMANTRAUT",
+      "text": "Yeah?",
+      "scene": 7
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "What's that mean?",
+      "scene": 7
+    },
+    {
+      "character": "MIKE EHRMANTRAUT",
+      "text": "You're staying. You belong to the cartel now.",
+      "scene": 7
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "You can't come to my work like this. You're too recognizable. Your face is plastered on every bus bench within a 5-mile radius.",
+      "scene": 7
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Celebrities have to get their cars washed, just like everybody else. Look, I wouldn't have come if it wasn't important.",
+      "scene": 7
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Okay? What is it?",
+      "scene": 7
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "I went ahead and met with your Mr. Beneke, which I will say again, loudly and for the record, bad idea.",
+      "scene": 7
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Yes, but it is better than prison. Correct?",
+      "scene": 7
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Marginally, which is why I disbursed the funds as you requested.",
+      "scene": 7
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "All right, good.",
+      "scene": 7
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Yeah, I can't believe he actually bought it-- \"Great-aunt Birgit.\" What? But you called it. I guess people see those zeroes dance before their eyes, it's kind of like highway hypnosis.",
+      "scene": 7
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "All right, so what's the problem?",
+      "scene": 7
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Let's just say you and I don't wear the same rose-colored glasses where Johnny Fabulous is concerned, so I kept an eye on his bank accounts, and I pulled his credit report. If you would, note the time on that.",
+      "scene": 7
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "3:54 p.m. yesterday.",
+      "scene": 7
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Three hours after leaving my office.",
+      "scene": 7
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "He bought a Mercedes SL550.",
+      "scene": 7
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "He's actually leasing it, but he put 4,500 down. He's going to pay 1,830 a month-- fully loaded. I mean, he even got the heated steering wheel, but that's upwards of 6,300 that won't be going to the IRS. I just thought you might like to know, loath as I am to say I told you so.",
+      "scene": 7
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Where is he now?",
+      "scene": 7
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Hey.",
+      "scene": 8
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "How you doing?",
+      "scene": 8
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Good.",
+      "scene": 8
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "How are you?",
+      "scene": 8
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I'm fine, but your mother is going to be worried sick.",
+      "scene": 8
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "I called her last night.",
+      "scene": 8
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "I told her I was spending the night at Louis'. It's cool. So h-h-how are you?",
+      "scene": 8
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I'm fine, son. I--",
+      "scene": 8
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I--",
+      "scene": 8
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I took these painkillers that I had left over from my surgery, and I made the brilliant decision to wash them down with a couple of beers.",
+      "scene": 8
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Not my most sterling moment, I admit, but I'm fine. I wish I could take back last night. It was your birthday. This shouldn't be on your mind.",
+      "scene": 8
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "It's okay.",
+      "scene": 8
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "No, it's not okay. I'm your father, and I don't want last night to be-- I mean, you really-- you can't think of me like...",
+      "scene": 8
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Like what?",
+      "scene": 8
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "I don't understand.",
+      "scene": 8
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "My father died when I was 6. You knew that, right?",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Yeah.",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "He had Huntington's Disease. It's-- destroys portions of the brain, affects muscle control, leads to dementia. It's just a nasty disease. It's genetic. It terrified my mother that I might have it, so they ran tests on me when I was a kid, but I came up clean.",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "My father fell very ill when I was 4 or 5. He spent a lot of time in the hospital.",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "My--",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "My mother would tell me so many stories about my father. She would talk about him all the time.",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I knew about his personality, how he treated people. I even knew how he liked his steaks cooked-- medium rare. Just like you.",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I knew things about my father. I had a lot of information. It's because people would tell me these things. They would paint this picture of my father for me, and I always pretended that was who I saw, too, who I remembered, but it was a lie. In truth, I only have one real, actual memory of my father.",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "It must've been right before he died. My mother would take me to the hospital to visit him, and I remember the smell in there, the chemicals. It was as if they use up every single cleaning product they could find in a 50-mile radius...",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "like they didn't want you smelling the sick people.",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Oh, there was this stench of Lysol and bleach. You could just feel it coating your lungs. Anyway, there, lying on the bed, is my father.",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "He's all-- He's all twisted up.",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "And my mom, she puts me on her lap. She's sitting on the bed next to him so I can get a good look at him... but really he just scares me...",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "and he's looking right at me...",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "but I can't even be sure that he knows who I am.",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "And your grandmother is talking, trying to be cheerful, you know, as she does, but the only thing I could remember is him breathing.",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Oh, th-- this--",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "this rattling sound, like if you were shaking an empty spray-paint can. Huh?",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Like there was nothing in him.",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Anyway...",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "that is the only real memory that I have of my father.",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I don't want you to think of me the way I was last night.",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I don't want that to be the memory you have of me when I'm gone.",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "R-Remembering you that way...",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "wouldn't be so bad.",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "The bad way to remember you would be the way-- the way you've been this whole last year.",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "At least last night you were-- you were real. You know?",
+      "scene": 9
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Bye.",
+      "scene": 9
+    },
+    {
+      "character": "MIKE EHRMANTRAUT",
+      "text": "Somewhere you should be?",
+      "scene": 10
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Basically it was a temporary hiatus, but you give us two weeks, we will be up and running 100%. All right, you talk to your people and get back to me. Okay?",
+      "scene": 10
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Yeah, thanks, Tanya. Okay, you bet. Say hi to the kids for me. Hey. Hi. Nice surprise. What's up?",
+      "scene": 10
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Just thought I'd swing by, see how things were going.",
+      "scene": 10
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Well, things are-- ...things took a turn. It's kind of crazy.",
+      "scene": 10
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Oh, yeah?",
+      "scene": 10
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "I think the universe is trying to tell me something. I've got some good news, some very good news, and getting the business going again.",
+      "scene": 10
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Wow.",
+      "scene": 10
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Yeah, I figure we haven't been down long, so we should be able to get most of our old contracts back. Sit down.",
+      "scene": 10
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Oh, thank you. That's-- gosh, that's-- that's wow. How is that even possible?",
+      "scene": 10
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "I got a very unexpected cash infusion.",
+      "scene": 10
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Huh.",
+      "scene": 10
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Guess someone's looking out for me.",
+      "scene": 10
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "I guess so. Is that yours outside?",
+      "scene": 10
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Oh, yeah, you know. Can't be driving a piece of crap to customer meetings. You've got to present that successful image.",
+      "scene": 10
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Yeah, right, right. So the IRS stuff-- that's resolved?",
+      "scene": 10
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Yeah, it's in progress.",
+      "scene": 10
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "So you paid them?",
+      "scene": 10
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Well, not yet, but I will.",
+      "scene": 10
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "When?",
+      "scene": 10
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Well, it's not that simple. Um, here's the thing. I never had proper legal counsel, so I was thinking I should hire someone good who can maybe hammer out a better deal.",
+      "scene": 10
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "There will never be a better deal, Ted. The deal is you pay your back taxes, you pay your penalty, and you don't go to prison. That's a good deal, so let's keep our priorities straight here, right?",
+      "scene": 10
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Well, my priority is getting my business back and putting my employees back on the payroll so they can pay their mortgages.",
+      "scene": 10
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Right, but I think your employees would agree that you need to get your financial situation in control before you can help them.",
+      "scene": 10
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Boy, IRS got you on commission?",
+      "scene": 10
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "No, I'm just saying that, though I really do-- I understand the temptation to restart the business, maybe the universe is telling you that you need to pay what you owe.",
+      "scene": 10
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Skyler, this is my money...",
+      "scene": 10
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "and why are we having this conversation? You're no longer a part of my life-- a decision you made, by the way-- so I don't understand why you're hectoring me about this.",
+      "scene": 10
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Ted, this affects both of us.",
+      "scene": 10
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "No, it doesn't. I'm telling you, you need to drop this.",
+      "scene": 10
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "You need to use that money to pay your bill by the end of this month, which you promised the IRS, in writing, that you would do. It is that simple.",
+      "scene": 10
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Okay.",
+      "scene": 10
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Okay, duly noted.",
+      "scene": 10
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "What does that mean? Does that mean yes? Because I really need a yes here, Ted.",
+      "scene": 10
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "All right, Skyler, I'll tell you what it means. It means, in the most respectful way possible, there's the door, and I'm inviting you to, you know-- and thank you for your concern, but I'm done talking about this.",
+      "scene": 10
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "From whom exactly do you think you got that 600,000, Ted?",
+      "scene": 11
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Great-aunt Birgit?",
+      "scene": 11
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "That was you?",
+      "scene": 11
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Ja.",
+      "scene": 11
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "What is this shit? What, I don't get a vote? I'm supposed to just stay down here forever?",
+      "scene": 12
+    },
+    {
+      "character": "MIKE EHRMANTRAUT",
+      "text": "I promise you this-- either we're all going home, or none of us are.",
+      "scene": 12
+    },
+    {
+      "character": "MIKE EHRMANTRAUT",
+      "text": "Now settle down.",
+      "scene": 12
+    },
+    {
+      "character": "MIKE EHRMANTRAUT",
+      "text": "On your feet.",
+      "scene": 12
+    },
+    {
+      "character": "DON ELADIO",
+      "text": "Gustavo. Gracias.",
+      "scene": 13
+    },
+    {
+      "character": "DON ELADIO",
+      "text": "Welcome to Mexico.",
+      "scene": 13
+    },
+    {
+      "character": "DON ELADIO",
+      "text": "Now you say \"Muchas gracias a usted, señor.\"",
+      "scene": 13
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Keys.",
+      "scene": 14
+    },
+    {
+      "character": "GUARD",
+      "text": "No. No. Okay! Okay.",
+      "scene": 14
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Are you still with us?",
+      "scene": 14
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "Go.",
+      "scene": 14
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Hey. Someone.",
+      "scene": 15
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Help. Ugh. Assistance. This man needs help.",
+      "scene": 15
+    },
+    {
+      "character": "DOCTOR",
+      "text": "This man pays my salary.",
+      "scene": 15
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Forty-point-two-three pounds.",
+      "scene": 16
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Are they back yet? Have you heard from anyone?",
+      "scene": 16
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "If Pinkman is gone, I'm done. Do you understand? I quit.",
+      "scene": 16
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I just told you, 40.23 pounds.",
+      "scene": 16
+    },
+    {
+      "character": "TYRUS KITT",
+      "text": "Forty-point-two-one.",
+      "scene": 16
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Anything suspicious?",
+      "scene": 17
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Still no, Walt.",
+      "scene": 17
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Well, then should we go?",
+      "scene": 17
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Got some place to be? Because it's, like, the third time you asked me that.",
+      "scene": 17
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "No, I'm just curious what the next move is.",
+      "scene": 17
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Our next three moves is sitting here and waiting. This here's the job, buddy. Ain't all supermodels and speedboats, you know.",
+      "scene": 17
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Any, uh, cartel news these days? Seems like I'm always reading something or other in the paper.",
+      "scene": 17
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Yeah, well, not a lot happening stateside. Hearing rumblings about some big play down south. Lots of bodies, apparently. Tsk. You know, even by cartel standards. We'll know more when the buzzards leave the bones.",
+      "scene": 17
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "So when we gonna talk about your face?",
+      "scene": 17
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "My brother-in-law shows up looking like Macho Camacho, and he thinks we're not gonna discuss it? If you're in over your head on something, don't you think I might be the guy to come to?",
+      "scene": 18
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "You know, one of my old, uh, buddies from Glynco had a gambling problem, except his thing was scratch cards instead of blackjack. Dumb Okie bastard had his car repo'd playing scratch-and-wins.",
+      "scene": 18
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "He's fine now, you know. He got help and all. But I know he got on a ride that was rough to get off of. I'm just saying I'm here, you know. If you want to talk about it.",
+      "scene": 18
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I don't want to talk about it, to you or to anyone else. I'm done explaining myself.",
+      "scene": 18
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Hey, uh... Yo, you think he needs more blood?",
+      "scene": 19
+    },
+    {
+      "character": "DOCTOR",
+      "text": "It's in the refrigerator.",
+      "scene": 19
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "What, you--? You want me to, uh...?",
+      "scene": 19
+    },
+    {
+      "character": "DOCTOR",
+      "text": "A-negative, yes? Your blood type?",
+      "scene": 20
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Um... I don't know, maybe.",
+      "scene": 20
+    },
+    {
+      "character": "DOCTOR",
+      "text": "A-negative, 25 years old, seventy kilo, 180 centimetres. You smoke, you drink, you, uh, puff, puff, puff. Tsk-tsk-tsk. But no disease, no condition. No complication other than an allergy to... Oh, wait, don't say. Erythromycin. But I have cefazolin here, so no problem.",
+      "scene": 20
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "How do you know all that?",
+      "scene": 20
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Jesus. He thought of everything.",
+      "scene": 20
+    },
+    {
+      "character": "DOCTOR",
+      "text": "O-negative. That's what he needs.",
+      "scene": 20
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "It's time to go.",
+      "scene": 20
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "What about Mike?",
+      "scene": 20
+    },
+    {
+      "character": "DOCTOR",
+      "text": "With this injury? No travel. At least a week.",
+      "scene": 20
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "I'll send for him.",
+      "scene": 20
+    },
+    {
+      "character": "DOCTOR",
+      "text": "You need protection, Gustavo?",
+      "scene": 20
+    },
+    {
+      "character": "DOCTOR",
+      "text": "I wouldn't have guessed.",
+      "scene": 20
+    },
+    {
+      "character": "DOCTOR",
+      "text": "Water and rest.",
+      "scene": 20
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "What happened to the plane?",
+      "scene": 21
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "There are many good ways south. But, unfortunately, only one way north.",
+      "scene": 21
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "Six miles to Texas. I've got a man there who'll drive us the rest of the way.",
+      "scene": 21
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "I kind of liked the plane.",
+      "scene": 21
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "So you gonna make it? Six miles is pretty far.",
+      "scene": 21
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "I'll make it.",
+      "scene": 21
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "You did well down here. And you also proved a point.",
+      "scene": 21
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "I think you can run the lab by yourself now. Don't you?",
+      "scene": 21
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Let Mr. White go.",
+      "scene": 21
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Pay him off or fire him. Don't kill him.",
+      "scene": 21
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Hi. We're home.",
+      "scene": 22
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Are you doing your homework?",
+      "scene": 22
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Yeah.",
+      "scene": 22
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Mm-hm. Well, dinner is in about 30.",
+      "scene": 22
+    },
+    {
+      "character": "TED BENECKE",
+      "text": "Hey, sorry to call you at home, but I think maybe you're not getting my messages. That or you just don't feel like talking to me. Anyway, why I've been calling is because that thing we discussed? Well, I've been thinking, and, uh, I decided I can't do it. That's probably not what you wanted to hear. But hopefully you'll understand, and if you want to talk more about it, that's fine. So call me. I'm around.",
+      "scene": 22
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Hey. Come on in. Hi.",
+      "scene": 23
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Ahem. First, I wanna tell you that I get it. From what you've told me, this situation with Walt's gambling sounds... intense.",
+      "scene": 23
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Yeah, it definitely was. And continues to be.",
+      "scene": 23
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "So I would greatly appreciate it if you would just... help me out here.",
+      "scene": 23
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Well, I've thought long and hard about this...",
+      "scene": 23
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "and, uh, here's what I want to do. Ahem.",
+      "scene": 23
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "So is, uh, Walt gonna be okay? Are you in contact with him?",
+      "scene": 23
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Um, he's fine.",
+      "scene": 23
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Good. That's good.",
+      "scene": 23
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "He doesn't know about you offering--?",
+      "scene": 23
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "No. Absolutely not. And I mean to keep it that way, so... Six hundred and seventeen thousand dollars written out to me. Uh... What is this?",
+      "scene": 23
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "I can't take your money. Oh? And why is that? Because, at the end of the day, paying my debt with illicit gambling winnings, uh... I don't know, it feels wrong.",
+      "scene": 23
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "\"It feels wrong\"?",
+      "scene": 23
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "To me it does. Uh-huh. I'm not judging you or Walt. I'm just saying I feel uncomfortable with it.",
+      "scene": 23
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Well, um, Ted, the whole reason we're in this mess is because you had me cooking your books. So when did wrong suddenly become a problem for you?",
+      "scene": 23
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Now, hold on, that was a one-time measure in an honest attempt to protect my employees and save my dad's company. It might've been a mistake, but that's no reason to go out and make another.",
+      "scene": 23
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "No, Ted, this is the big mistake, right here. You owe the federal government $617,000. If you do not pay them, they will come after you and then they will come after me. And if they audit my business, find out that Walt and I paid for it with close to a million dollars in untaxed gambling winnings, we will go to prison, where you will already be. Do you understand?",
+      "scene": 23
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "I understand you're upset, but I think you're overstating things too. No one's going to prison.",
+      "scene": 23
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Oh, my God. How are you not following me here?",
+      "scene": 23
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Okay, fine, let's say I take your advice. I pay the IRS. Then what?",
+      "scene": 23
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Then you don't owe them.",
+      "scene": 23
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Okay, but I still owe the bank, Skyler. I'm still going to go bankrupt and lose my business and my home. I still have to pull my girls out of school. Just because I pay some stupid fine doesn't make my life any less ruined.",
+      "scene": 23
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "So if I'm understanding you correctly, you're saying you can't take the money I gave you... but you can take a larger amount.",
+      "scene": 23
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "No. I'm just saying, as much as I appreciate the gesture, the money you gave me doesn't really change anything.",
+      "scene": 23
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Because it's not enough?",
+      "scene": 23
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "No, no, don't twist my words. This isn't about amounts, this is about me doing the right thing.",
+      "scene": 23
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Ted, are you blackmailing me?",
+      "scene": 23
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "What? No. Blackmailing? God. I feel I'm not explaining things right.",
+      "scene": 23
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "I think you're explaining it fine.",
+      "scene": 23
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "I notice that, uh, this is for less than what I gave you, by the way.",
+      "scene": 23
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "That's the Mercedes. I leased it before I knew where the money came from.",
+      "scene": 23
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Mm. Now that you know, you will be returning it.",
+      "scene": 23
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "The leases are ironclad, so I have to see what's possible, but, yeah, I'm gonna do my best. And I will pay you back as soon as I can.",
+      "scene": 23
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "I don't want you to pay me, Ted. I want you to pay them.",
+      "scene": 23
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Try it again. Write a new cheque. Skyler. Same amount. This time, made payable-- What happened to us? Make it payable to the Internal Revenue Service.",
+      "scene": 23
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "I can't. You have to. Actually, no I don't.",
+      "scene": 23
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Write it.",
+      "scene": 23
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "All of them, Hector. Don Eladio. Don Paco. Cesar. Renaldo. Artuno. Cisco and Luis. Escalada. All dead. As is your grandson, Joaquin.",
+      "scene": 24
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "Do you know who killed Joaquin?",
+      "scene": 24
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "Would you like to see?",
+      "scene": 24
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "This young man. Do you remember him? That young man shot Joaquin to death...",
+      "scene": 24
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "while I made my escape.",
+      "scene": 24
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "I believe you have met him before.",
+      "scene": 24
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "It was just you and Joaquin. He was the only family you had left. Now the Salamanca name dies with you.",
+      "scene": 24
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "Will you look at me now?",
+      "scene": 24
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "Look at me, Hector.",
+      "scene": 24
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "Look at me.",
+      "scene": 24
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "I really appreciate you doing this. You guys must have your hands filled with the car wash and all.",
+      "scene": 25
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "No, no. No worries. Happy to do it. Besides, it gives me a chance to see how you work a case. It's, uh, interesting. Yeah.",
+      "scene": 25
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Like watching weeds grow, huh? Heh. Ah, this job can be boring as hell. Until it's not.",
+      "scene": 25
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "So, um... Any more news on that thing in Mexico?",
+      "scene": 25
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "No, same old, same old. Bunch of animals clawing each other's eyes out over turf.",
+      "scene": 25
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "So you think all the victims were cartel members?",
+      "scene": 25
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Not in the loop enough to know. Take a right on this street, will you?",
+      "scene": 25
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Right? But, uh, we're going to the chicken farm, that's straight ahead.",
+      "scene": 25
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "No, we're taking a little detour.",
+      "scene": 25
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "All right.",
+      "scene": 25
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Yeah, there's this, uh, industrial laundry I wanna check out. It's not far. Just, yeah, turn right here.",
+      "scene": 25
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "What, uh--? What laundry? What about it?",
+      "scene": 25
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "It's owned by this company, this Madrigal Electromotive. It's this big German conglomerate right into everything. It turns out it's the same company that owns Fring's chicken joints.",
+      "scene": 25
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Sounds like a real shot in the dark there. I mean, you said it yourself. If this Madrigal, is it? If this is such a big conglomerate, then, you know, they must own all kinds of businesses. No, it just-- It just sounds kind of thin.",
+      "scene": 25
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Well, look at you. You lose your hair, go on a couple stakeouts, all of a sudden you're, what, Kojak?",
+      "scene": 25
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I'm just saying.",
+      "scene": 25
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Now, the chicken farm, however, boy, that place seems ripe for some kind of clandestine activities. I just don't want us to miss anything, you know?",
+      "scene": 25
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "You wanna talk about clandestine activities? Madrigal Electromotive also owns a subsidiary that manufactures this state-of-the-art air-filtration system. And none other than Gale Boetticher took delivery of one of these systems. A chemist who was in possession of hand-drawn plans for a meth super-lab and was visited by none other than Gus Fring just days before he was capped in the face, okay? This shit is starting to feel like-- Like Three Days Of The Condor, you know? Anyway, an industrial laundry would be one hell of a place to hide a meth lab. There it is right up there. Just turn in there.",
+      "scene": 25
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Walt, slow down. You gotta turn in there, Walt. What are you doing? You missed it.",
+      "scene": 25
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Sorry. It looked like a dirt road. I thought you meant further up.",
+      "scene": 25
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Just-- Just bang a U-ie over here.",
+      "scene": 25
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Whoa!",
+      "scene": 25
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Mm. Hits the spot. Thanks, guys.",
+      "scene": 25
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "I said to Mom \"ice cream,\" but, um, she was like: \"It tastes the same and it's healthier.\" So, heh, sorry. I tried.",
+      "scene": 25
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Frozen yogurt does taste the same. Tastes exactly the same.",
+      "scene": 25
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Wow. I feel, like, sorry for your taste buds.",
+      "scene": 25
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Heh-heh. Weigh in here, Uncle Hank.",
+      "scene": 25
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Hey, it's free food. Ahem. Free food always tastes good. Free drinks even better.",
+      "scene": 25
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "Hey, hon. Can you handle another visitor?",
+      "scene": 25
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Ho-ho! Mr. Magoo. Yeah, sure. Hey, watch out. Don't run into any walls or anything.",
+      "scene": 25
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Okay.",
+      "scene": 25
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Hey, Dad.",
+      "scene": 25
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Hey, son. So how you feeling, Hank?",
+      "scene": 25
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "It feels like one of those cones they put on dogs, so they don't lick their own balls.",
+      "scene": 25
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "Nice. Thank you. Stay classy.",
+      "scene": 25
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Anyway, hanging in there. Glad you stopped by.",
+      "scene": 25
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Listen, I'm sorry about all this. I mean, that guy just came out of nowhere.",
+      "scene": 25
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Yeah, actually, he didn't. I saw him coming a mile away. Hey, just mark it down as a brain fart and, uh, be thankful no one got killed.",
+      "scene": 25
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "Well, I'll tell you one thing. Your Hardy Boys routine is over. No more asking him to drive you on stakeouts. It's too dangerous. You hear me?",
+      "scene": 25
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "No, Marie's right. It was a bit short-sighted of me. That's why I, uh, caved. SKYLER: Caved? Yeah, I broke down. I, uh, ordered me a gimp-mobile.",
+      "scene": 26
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "I wish you would stop calling it that.",
+      "scene": 26
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "What do you mean? Like a handi-van with a lift?",
+      "scene": 26
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "No, no, it's a regular Tahoe. It's got hand controls. I ordered it. Should be here in about a week. I don't expect to be in it long, but, uh, gotta get around on my own. Stop being such a damn burden to everyone.",
+      "scene": 26
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Oh.",
+      "scene": 26
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Oh. Sorry. Car wash business.",
+      "scene": 26
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Hey, it's me. Can you talk?",
+      "scene": 26
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "I can listen.",
+      "scene": 26
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Fair enough. He doesn't own a gun, at least not one that he bought legally. Nor does his home security system have any panic-button arrangement. So way I see it, we're good to go. If this is still how you want to handle it.",
+      "scene": 26
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Like I said, I don't want anyone hurt. All I want is for him to write a cheque.",
+      "scene": 26
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Yeah. It's gonna be fine. I've got my A-team on it.",
+      "scene": 26
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Can I help you? Yeah, thanks. What--? You just can't--",
+      "scene": 27
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "What's this about?",
+      "scene": 27
+    },
+    {
+      "character": "PATRICK KUBY",
+      "text": "I'll tell you what this is about. This is about you and me doing our best to keep Huell happy.",
+      "scene": 27
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Huell? Who's Huell? This is Huell.",
+      "scene": 27
+    },
+    {
+      "character": "PATRICK KUBY",
+      "text": "Huell, you happy? Reasonably. What would make you unhappy?",
+      "scene": 27
+    },
+    {
+      "character": "HUELL BABINEAUX",
+      "text": "This motherfucker not doing what he's told.",
+      "scene": 27
+    },
+    {
+      "character": "PATRICK KUBY",
+      "text": "If you were unhappy, Mr. Beneke wouldn't care for that?",
+      "scene": 27
+    },
+    {
+      "character": "HUELL BABINEAUX",
+      "text": "I'm gonna say no.",
+      "scene": 27
+    },
+    {
+      "character": "PATRICK KUBY",
+      "text": "Well, there you have it. Let's go find your chequebook. Ready? Here we go. All right? We're walking, we're swinging our feet. There you go. Very nice. Beautiful place you have here. This way. So the amount's gonna be for $617,226--",
+      "scene": 27
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Whoa. I don't have that kind of money.",
+      "scene": 27
+    },
+    {
+      "character": "PATRICK KUBY",
+      "text": "Hold that thought. Forgot to mention we know exactly how much money is in your account, okay? Understand? You still want to say that stuff from before? Maybe not. So $617,226 and 31 cents, made payable to the Internal Revenue Service.",
+      "scene": 27
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "What? Wait, this is, uh...? Skyler? Skyler White sent you? It doesn't matter.",
+      "scene": 27
+    },
+    {
+      "character": "PATRICK KUBY",
+      "text": "For now, all you have to do is worry about that.",
+      "scene": 27
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "My God, this is a misunderstanding. Skyler is a dear friend of mine, all right? Let me call her. We'll, uh...",
+      "scene": 27
+    },
+    {
+      "character": "PATRICK KUBY",
+      "text": "No, you're misunderstanding, Mr. Beneke. Phone-call time is over. Cheque-writing time.",
+      "scene": 27
+    },
+    {
+      "character": "TED BENEKE",
+      "text": "Skyler would never do this to me.",
+      "scene": 27
+    },
+    {
+      "character": "PATRICK KUBY",
+      "text": "Sit down and write!",
+      "scene": 27
+    },
+    {
+      "character": "PATRICK KUBY",
+      "text": "There you go.",
+      "scene": 27
+    },
+    {
+      "character": "PATRICK KUBY",
+      "text": "Six hundred seventeen thousand, two hundred twenty-six dollars and thirty-one... Yeah, right.",
+      "scene": 27
+    },
+    {
+      "character": "PATRICK KUBY",
+      "text": "You got it.",
+      "scene": 27
+    },
+    {
+      "character": "PATRICK KUBY",
+      "text": "Huell, you happy? Ha-ha. Huell's happy. All right. Everything else has been filled out for you. All's we need...",
+      "scene": 27
+    },
+    {
+      "character": "PATRICK KUBY",
+      "text": "is a signature right there.",
+      "scene": 27
+    },
+    {
+      "character": "PATRICK KUBY",
+      "text": "Great. Hard part is over. Here's what happens next. Huell is gonna hang here with you. I'm gonna make sure I get this down to UPS before 5:00. Way back, I'm gonna grab some sandwiches. The three of us can hang out and play cards or watch TV for the next couple of days until the cheque clears. Painless, right? Unless you don't have cable, in which case it's gonna suck, so...",
+      "scene": 27
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Someone cooked here.",
+      "scene": 28
+    },
+    {
+      "character": "TYRUS KITT",
+      "text": "You've been out of commission four days. You think we're gonna shut down the whole operation just for you?",
+      "scene": 28
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Who cooked? Who was here?",
+      "scene": 28
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "I don't know how you're doing the flips. Tell me.",
+      "scene": 28
+    },
+    {
+      "character": "BROCK CANTILLO",
+      "text": "Keep cool.",
+      "scene": 28
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Oh. Oh, I'm gonna get you. Oh, I'm gonna get you.",
+      "scene": 28
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Jump.",
+      "scene": 28
+    },
+    {
+      "character": "ANDREA CANTILLO",
+      "text": "Look at-- Ooh. Yeah.",
+      "scene": 29
+    },
+    {
+      "character": "BROCK CANTILLO",
+      "text": "A hundred and one back flips, I did.",
+      "scene": 29
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Oh, you. Hey, keep it going.",
+      "scene": 29
+    },
+    {
+      "character": "ANDREA CANTILLO",
+      "text": "Hey, hey, hey. Relax. Ooh. You're in trouble. JESSE: Good luck.",
+      "scene": 29
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Mama is in the house.",
+      "scene": 29
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Jesse.",
+      "scene": 29
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "What do you want? I'm busy. We need to talk. I got nothing to say to you, man.",
+      "scene": 29
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Jesse, please. I'm sorry. Just one minute. That's all I ask.",
+      "scene": 29
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Get the hell out of my house.",
+      "scene": 29
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Come on. Come on. Hey. Just give me one minute. Let me just explain. Okay.",
+      "scene": 29
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Let me-- Shh! Shh!",
+      "scene": 29
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "All right. All right. Okay, okay. All right, I'm sorry. I know that you have been cooking without me.",
+      "scene": 29
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "That's right. So what?",
+      "scene": 29
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "So what? Isn't it obvious to you what Gus is planning? He's going to use you to replace me. He doesn't think you need me anymore.",
+      "scene": 29
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Jesse. Jesse, if you agree to replace me, he will kill me.",
+      "scene": 29
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "You brought your brother-in-law to our lab. What the hell is wrong with you?",
+      "scene": 29
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "That's not my fault, Jesse. Get off. You've got to help me. Please.",
+      "scene": 29
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "The last time I asked for your help, you said: \"I hope you end up buried in a barrel in the Mexican desert.\"",
+      "scene": 29
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "You are done. Fired. Do not show your face at the laundry again. Stay away from Pinkman. Do not go near him. Ever. Are you listening to me?",
+      "scene": 30
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Or else you'll do what?",
+      "scene": 30
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "What did you say?",
+      "scene": 30
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Stay away from Pinkman...",
+      "scene": 30
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "or else you'll do... what? Kill me?",
+      "scene": 30
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "If you could kill me...",
+      "scene": 30
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I'd already be dead.",
+      "scene": 30
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "But you can't. You can't kill me, because Jesse wouldn't cook for you if you did.",
+      "scene": 30
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "That's it, isn't it?",
+      "scene": 30
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "No matter how hard you try to turn him against me, to screw with his head, so that he would hate my guts, and he still won't let you do it.",
+      "scene": 30
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "For now. But he'll come around.",
+      "scene": 30
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "In the meantime, there's the matter of your brother-in-law. He is a problem you promised to resolve. You have failed. Now it's left to me to deal with him.",
+      "scene": 30
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "You can't--",
+      "scene": 30
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "If you try to interfere...",
+      "scene": 30
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "this becomes a much simpler matter. I will kill your wife. I will kill your son. I will kill your infant daughter.",
+      "scene": 30
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Great. Perfect. You know, this is just...",
+      "scene": 31
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "I told her you were my A-team.",
+      "scene": 31
+    },
+    {
+      "character": "HUELL BABINEAUX",
+      "text": "It was an act of God. Ain't no accounting for no act of God.",
+      "scene": 31
+    },
+    {
+      "character": "PATRICK KUBY",
+      "text": "Cheque is in the mail, at least.",
+      "scene": 31
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "\"Hello, Mrs. White. \"The good news is the IRS has been paid off. The bad news is...\" Ugh! Jesus!",
+      "scene": 31
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Well, here goes nothing.",
+      "scene": 31
+    },
+    {
+      "character": "FRANCESCA",
+      "text": "Hey! Hey! SAUL: Whoa, whoa. Slow down.",
+      "scene": 31
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "What the--? WALT: Saul. How did you hear? What? Hear what? Guys, go, go, go. Scram. What the hell happened to you? Saul. Saul.",
+      "scene": 31
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "This man that we spoke of before. This person that you said could disappear me. Give me a new life. Yeah. Make sure I'm never found. Yeah. Yeah, I need him, Saul. Gus is gonna murder my whole family.",
+      "scene": 31
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Christ.",
+      "scene": 31
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I need this man now. Saul. Now, Saul! Yeah, yeah.",
+      "scene": 31
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "There's no coming back. You're gonna get new Socials, new identities. You can't contact your friends or relatives ever again.",
+      "scene": 31
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "All right. I understand. How are you gonna sell this to that wife of yours and your son? I have got no choice.",
+      "scene": 31
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "You're wanted by scary individuals, not to mention the law. You're high-risk. You'll need the deluxe service. It'll cost you.",
+      "scene": 31
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "How much?",
+      "scene": 31
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Last quote I got on the deluxe was 125 grand. But you got four people. It'll be at least half a million. He accepts cash only. I've got the money.",
+      "scene": 31
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Please! Here. Okay. This is a vacuum cleaner repair company.",
+      "scene": 31
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Did you expect Haji's Quick-Vanish? I don't even know his name. You just call and leave a message. You tell them that you need a new dust filter for a Hoover MaxExtract Pressure Pro, Model 60. I wrote it right on there. He'll call you back.",
+      "scene": 31
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Okay, fine. How long does it take for him to arrange?",
+      "scene": 31
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "The guy works fast. That's the game. You gotta have your family packed and ready before you make the call. He'll tell you where to meet, he'll put you up in a safe house. You gotta bring money. He doesn't lift a finger unless he's paid.",
+      "scene": 31
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Okay.",
+      "scene": 31
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Saul. Can't say it's been a pleasure--",
+      "scene": 31
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I need you to do one more thing for me. You need to call the DEA. You need to tell them Gus has a hit out on Hank. You have to do it for me. I gotta go on living here.",
+      "scene": 31
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "I'm way too comfortable in my-- Just call anonymously. You call anonymously! I can't!",
+      "scene": 31
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I'm practically in the DEA family. I go to their Christmas parties. They know me. They know my voice. They'll know me. Please, you gotta do it for me. Please. Please. No. My brother-in-law doesn't deserve to die because of this.",
+      "scene": 31
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "There's no way I'm mentioning Gus.",
+      "scene": 31
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Okay. The most I'll go--",
+      "scene": 31
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "I'll say it's the cartel. They're back to finish the job.",
+      "scene": 31
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "You say whatever you have to say. You just give me an hour to... I need to collect my wife and kids. Okay? Give me an hour and then you make the phone call. Don't forget. Please.",
+      "scene": 31
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Yeah.",
+      "scene": 31
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Thank you, Saul.",
+      "scene": 31
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "No, no, no. Where's the rest? That's not enough. That's not enough.",
+      "scene": 32
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Walt? Down here!",
+      "scene": 32
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Walt, what did that phone call mean?",
+      "scene": 32
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Where is it? Where's the rest? The money, Skyler. Where is the rest? Skyler, where is the money?",
+      "scene": 32
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "I gave it to Ted.",
+      "scene": 32
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "What? You did what?",
+      "scene": 32
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Walt, I had to. For us, for the family. I swear, Walt--",
+      "scene": 32
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "You gave our money to Beneke?",
+      "scene": 32
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Walt, please. Please just hear me out. Please.",
+      "scene": 32
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Walt.",
+      "scene": 32
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Walt.",
+      "scene": 32
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Walt.",
+      "scene": 32
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Hi, you've reached the White family. Please leave a message.",
+      "scene": 32
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "Skyler. It's happening again. The DEA called, they got some tip from an informant. The cartel, they want to kill Hank. Oh, God. They're sending agents to our house right now to guard us. Oh, God. When is this going to end?",
+      "scene": 32
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Marie, I'm here. I'm here. Tell me exactly what happened.",
+      "scene": 32
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Skyler. Skyler. What? I'm not going.",
+      "scene": 33
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "What?",
+      "scene": 33
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I'm not going to Hank and Marie's.",
+      "scene": 33
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "We're in danger.",
+      "scene": 33
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Yes, that's true. Because of me.",
+      "scene": 33
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "It doesn't matter.",
+      "scene": 33
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "All that matters is the rest of you are safe. And that's why I'm not going with you. I'm the real target.",
+      "scene": 33
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "But we'll all be safer at Hank's.",
+      "scene": 33
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "No, no, no. No one will be safe at Hank's if I'm there.",
+      "scene": 33
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Walt, it's the DEA.",
+      "scene": 33
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Skyler, you don't know these people. I-- No. Skyler, please. Trust me. This is how it has to be.",
+      "scene": 33
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Those agents outside. They're not gonna just leave you here. It's protective custody.",
+      "scene": 33
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "All they know is that Hank is the only person that's in danger. They're including us as a courtesy to Marie, to keep her happy.",
+      "scene": 33
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "How am I supposed to explain that to Marie or Junior? Or Hank?",
+      "scene": 33
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I don't know. But you'll do it. You'll figure it out. Hank knows that Marie will be overreacting.",
+      "scene": 33
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Except she's not.",
+      "scene": 33
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I'll talk to Hank. You just back me up with everyone else.",
+      "scene": 33
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "You really expect me to say, \"Okay, Walt, sure. Just stay here and...\" No. There's gotta be another way.",
+      "scene": 33
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "There isn't. There was. But now there isn't.",
+      "scene": 33
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Walt, how long till you're safe? Till you can work this out?",
+      "scene": 33
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Oh, Skyler.",
+      "scene": 33
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "No.",
+      "scene": 33
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Skyler. No. I have lived under the threat of death for a year now. And because of that, I've made choices. I-- Listen to me. I alone should suffer the consequences of those choices, no one else. And those consequences, they're coming.",
+      "scene": 33
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "No more prolonging the inevitable.",
+      "scene": 33
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Feed that belt through those seatbelt holders.",
+      "scene": 33
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Hank, I've got a car wash to run. I mean, you don't honestly believe that I'm in danger, do you? Me?",
+      "scene": 33
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Oh, Jesus, it's gonna go over like a lead balloon. It'll be Marie that kills me.",
+      "scene": 33
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Well, just know that I'll get there as soon as I can. And let Steve Gomez know. I told his guys. And just stay safe.",
+      "scene": 33
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Oh, please. Whole thing's just a giant jerk-off.",
+      "scene": 33
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Yeah, yeah. But keep your head down anyway, all right?",
+      "scene": 33
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "All right.",
+      "scene": 33
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "All right, buddy. Take care.",
+      "scene": 33
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Shh, shh, shh.",
+      "scene": 33
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "I know.",
+      "scene": 33
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Shh, shh, shh.",
+      "scene": 33
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "He's gonna risk his life over a stupid car wash? Does he understand what's going on with Uncle Hank?",
+      "scene": 34
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "He'll come when he's able.",
+      "scene": 34
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "That's pathetic. I-- How hard did you even try or did you?",
+      "scene": 34
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Hey, hey, hey. Lay off your mom.",
+      "scene": 34
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "Well, you know, Hank. We wouldn't be arguing about this if you and Steve would make him come. Why didn't you put him in the car?",
+      "scene": 34
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "It's not Nazi Germany, all right?",
+      "scene": 34
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "Oh, you-- Nazi Germany. If I had a dollar for every time I heard that. I'm gonna call him. He's gonna get his behind here. Immediately. End of story.",
+      "scene": 34
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Thank you, at least somebody is listening.",
+      "scene": 34
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "Because we are all in danger here.",
+      "scene": 34
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "We're not all in danger here.",
+      "scene": 34
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "Will you stop saying that? That is asking for trouble. Come on, Walt.",
+      "scene": 34
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "He's not picking up.",
+      "scene": 34
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Look, could we just take this down a notch, okay? Everybody? You guys can stay here as long as you like. We got plenty of room. I wouldn't worry about any danger to Walt or any of us, okay? This whole thing is just a damn smoke screen.",
+      "scene": 34
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "How do you mean \"a smoke screen\"?",
+      "scene": 34
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "An anonymous threat against me? I'm stuck in a wheelchair, I'm not even on the job. No, someone didn't like the way I've been spending my free time.",
+      "scene": 34
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "What? Minerals?",
+      "scene": 34
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Timing seem a bit odd to you, huh? I start looking",
+      "scene": 34
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "into Fring, I'm under lockdown for my protection.",
+      "scene": 34
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Did you say--? Gus Fring?",
+      "scene": 34
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "What--? From the chicken restaurant?",
+      "scene": 34
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "Hank, what are you talking about?",
+      "scene": 34
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Just one man's humble opinion, that's all. I think Los Pollos Hermanos is a front for the biggest meth distributor in the Southwest.",
+      "scene": 34
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "Oh, my God. Oh, my God. Steve, are you even looking into this?",
+      "scene": 34
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "We're looking into everything. But we work on fact, not conjecture. And the fact is that the scumbags that hit you first were Mexican cartel, not some German multinational whatever. Definitely not Colonel Sanders. Now, if we even had a shred of proof--",
+      "scene": 34
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Wasn't that what you get paid to go get?",
+      "scene": 34
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "From that laundry I told you about. I'd start there. Come on, man. GOMEZ: Jesus. It's the perfect spot for a meth superlab.",
+      "scene": 34
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "Oh, my God.",
+      "scene": 34
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Hey, what if I'm right?",
+      "scene": 34
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "Even if you were right-- And you ain't. --there's no way a judge is gonna give me a warrant.",
+      "scene": 34
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Warrant? What happened to good old-fashioned knock and talk? Oh, that's right. I forgot. You were never very good at those, were you?",
+      "scene": 34
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "Can I help you? Yes, sir. We wondered if we could take a look around.",
+      "scene": 35
+    },
+    {
+      "character": "DENNIS MARKOWSKI",
+      "text": "Why?",
+      "scene": 35
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "Sorry, what's your name? Dennis. Dennis. Hey. I'm Steve Gomez. I'm with the DEA. Drug Enforcement.",
+      "scene": 35
+    },
+    {
+      "character": "DENNIS MARKOWSKI",
+      "text": "Is there a problem?",
+      "scene": 35
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "For you? No. No problem. We were just wondering if we could take a look around. Can I tell you a story? Yeah. I bust this chef. Well, he says he's a chef. Because you work at a restaurant that charges $14 for a burger that don't make you a chef. Makes you a burger-flipper. Least in my book. Yeah. Anyway, so we bust this chef, heroin possession. He says, \"Just because you found heroin in my chef whites \"doesn't make it mine. Maybe it came from the place that launders my chef whites.\" This place.",
+      "scene": 35
+    },
+    {
+      "character": "DENNIS MARKOWSKI",
+      "text": "We don't do that stuff over here.",
+      "scene": 35
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "I know, I know. I'll say it for you. His story is a big load of steaming horse shit. We're gonna find heroin here like we're gonna find Jimmy Hoffa. Right? The thing is that this chef's daddy is a United States senator. I'm not gonna tell which one, but you know who he is. So now I gotta waste my time checking out this burger-flipper's story. If I don't, his old man's gonna jam me up. my ASAC, my whole entire office. Politics, huh? So, what do you think?",
+      "scene": 35
+    },
+    {
+      "character": "DENNIS MARKOWSKI",
+      "text": "Listen, I have to check with my boss. He's out of town. I can't promise I'll reach him anytime soon.",
+      "scene": 35
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "Well, yeah. That's probably the way to go. I'll have to go get a warrant and we'll do it official. You have to close down for the day.",
+      "scene": 35
+    },
+    {
+      "character": "DENNIS MARKOWSKI",
+      "text": "What--? Why?",
+      "scene": 35
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "Twenty agents poking around? It'd be less trouble if it was just us. But your call.",
+      "scene": 35
+    },
+    {
+      "character": "DENNIS MARKOWSKI",
+      "text": "Just the two of you? You make it quick, right?",
+      "scene": 35
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "Dennis, we'll be like the wind.",
+      "scene": 35
+    },
+    {
+      "character": "DENNIS MARKOWSKI",
+      "text": "Okay. Could you tell him?",
+      "scene": 35
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "Okay. Okay.",
+      "scene": 35
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Can you clear out some of your people for us? Confuses the dog's nose.",
+      "scene": 35
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "So how long we gotta be quiet down here?",
+      "scene": 36
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "And what happens after this? Provided they don't find their way in here and bust our asses? I gotta be, like, snuck down here in a laundry hamper for the rest of eternity? Now, I'm going on record. This blows.",
+      "scene": 36
+    },
+    {
+      "character": "TYRUS KITT",
+      "text": "Hello.",
+      "scene": 36
+    },
+    {
+      "character": "TYRUS KITT",
+      "text": "For you.",
+      "scene": 36
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Yeah?",
+      "scene": 36
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "Do you know what's happening upstairs?",
+      "scene": 36
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "I have a pretty good idea.",
+      "scene": 36
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "This is all the result of your former partner. Do you understand now? Do you see why this can't continue?",
+      "scene": 36
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "I get it. The guy is a complete and total dick. But I can't.",
+      "scene": 36
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "I'm not signing off. Okay? Like I said, if something final happens to Mr. White, we're going to have a problem.",
+      "scene": 36
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "So, what are you gonna do?",
+      "scene": 36
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "There will be an appropriate response.",
+      "scene": 36
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Appropriate? What does that mean? Hello?",
+      "scene": 36
+    },
+    {
+      "character": "AUTOMATED VOICE",
+      "text": "You have six new messages.",
+      "scene": 37
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Hey, kid. It's me, Goodman. Give me a call, would you?",
+      "scene": 37
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Hey, need to hear from you. Hope I made myself clear about that. Call me as soon as you can.",
+      "scene": 37
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Pinkman, get over here. Stat, pronto. Don't call, just get over here. Would you just, please?",
+      "scene": 37
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "I don't know if I'm speaking English here--",
+      "scene": 37
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "What's up? He's waiting for me.",
+      "scene": 37
+    },
+    {
+      "character": "HUELL BABINEAUX",
+      "text": "Hold up. Hold up.",
+      "scene": 37
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "What the hell, man? Get off of me. Hey, Goodman. Get out here. Hey. Yo, get your goon off me.",
+      "scene": 37
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Not him, moron. Drop. Leave it. Go lie down. Sorry. You can't be too careful these days. Come on, come on. Lock the door, Frisky. Jesus.",
+      "scene": 37
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Take a break, H.T. Let's go.",
+      "scene": 37
+    },
+    {
+      "character": "FRANCESCA LIDDLE",
+      "text": "Stop calling me that or I'll hang you by your tie.",
+      "scene": 37
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Yeah, yeah. Stop showing off for the client. Honey Tits. I say it's endearing.",
+      "scene": 37
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "So, what's so important?",
+      "scene": 37
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Well, they're here. The end times, kid. End times.",
+      "scene": 37
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "What does that mean? Why'd you drag me here for?",
+      "scene": 37
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "You want your money, don't you? I assume that you do.",
+      "scene": 37
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "That couldn't wait?",
+      "scene": 37
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Ever hear of the expression, \"A fart in the wind\"? Inside of an hour, that will be me, I'm hitting the road. I'm out of here.",
+      "scene": 37
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "What, for, like, good?",
+      "scene": 37
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "For as long as it takes. I don't like my heat so hot if you catch my drift.",
+      "scene": 37
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "I'm not catching anything you're saying. What is your problem?",
+      "scene": 37
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "You haven't talked to your partner?",
+      "scene": 37
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Not since last night. Today, he didn't show up to work and the DEA just happened to raid us.",
+      "scene": 37
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Yeah, some coincidence, huh? Yeah, I don't know about that. All I know is when he tells me that your employer took him out threatening to murder his family, I take notice. Because after all, what am I, if not family?",
+      "scene": 37
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "What are you talking about? When did that happen?",
+      "scene": 37
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "I don't know. Forget it. I mean, he exaggerates, right? He does that. Hey, listen. Do me a favour. Put in a good word for me with Fring. I mean, just for old time's sake. I can't afford to butter the wrong bread here.",
+      "scene": 37
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Yeah?",
+      "scene": 37
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Hey.",
+      "scene": 38
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "Hey.",
+      "scene": 38
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "Nothing, huh?",
+      "scene": 38
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Clean as a whistle, so he says.",
+      "scene": 38
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "You've reached Walter White. State your name, number and the reason for your call. Thank you.",
+      "scene": 39
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "It's me again. I really wish you'd pick up.",
+      "scene": 39
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "God, I just...",
+      "scene": 39
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Call me back, okay? Just, um... Just call me back, please.",
+      "scene": 39
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Hi. I'm sorry. Is it okay if I come out here for a few minutes?",
+      "scene": 40
+    },
+    {
+      "character": "DEA AGENT",
+      "text": "Sure. Just stay up here, if you would.",
+      "scene": 40
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Okay.",
+      "scene": 40
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Excuse me. I wonder if you have a-- An extra cigarette. I sure could use a smoke right about now.",
+      "scene": 40
+    },
+    {
+      "character": "DEA AGENT",
+      "text": "Sure.",
+      "scene": 40
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Thank you.",
+      "scene": 40
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Thanks.",
+      "scene": 40
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Hey, what's up?",
+      "scene": 41
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "What? Hey. Hey. What's wrong with him?",
+      "scene": 41
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "What hospital?",
+      "scene": 41
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Andrea.",
+      "scene": 41
+    },
+    {
+      "character": "ANDREA CANTILLO",
+      "text": "Jesse.",
+      "scene": 41
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Where's Brock?",
+      "scene": 41
+    },
+    {
+      "character": "ANDREA CANTILLO",
+      "text": "Inside. Grandma's with him. They got me filling all this paperwork.",
+      "scene": 41
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "How is he doing? Tell me.",
+      "scene": 41
+    },
+    {
+      "character": "ANDREA CANTILLO",
+      "text": "The doctors, they don't know what it is exactly. It's like he's got the flu. But he just keeps getting worse.",
+      "scene": 41
+    },
+    {
+      "character": "ANDREA CANTILLO",
+      "text": "Jesse, I don't understand. He was fine this morning. He was fine.",
+      "scene": 41
+    },
+    {
+      "character": "NURSE",
+      "text": "Andrea Cantillo?",
+      "scene": 41
+    },
+    {
+      "character": "ANDREA CANTILLO",
+      "text": "Right here.",
+      "scene": 41
+    },
+    {
+      "character": "NURSE",
+      "text": "Miss Cantillo, we're gonna go admit your son to the Paediatric ICU. You can bring that with you.",
+      "scene": 41
+    },
+    {
+      "character": "ANDREA CANTILLO",
+      "text": "Okay.",
+      "scene": 41
+    },
+    {
+      "character": "NURSE",
+      "text": "Sir, you're the boy's father?",
+      "scene": 41
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "No.",
+      "scene": 41
+    },
+    {
+      "character": "NURSE",
+      "text": "Okay. Sorry. It's just we try to keep it to two visitors maximum.",
+      "scene": 41
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Go, go, go. I'll be out here if you need me. Go. Go ahead.",
+      "scene": 41
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Andrea! Andrea.",
+      "scene": 42
+    },
+    {
+      "character": "NURSE",
+      "text": "Hey. No yelling. I need to-- We can't have you here.",
+      "scene": 42
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "I need to talk to her. I need to tell her--",
+      "scene": 42
+    },
+    {
+      "character": "NURSE",
+      "text": "Take this outside.",
+      "scene": 42
+    },
+    {
+      "character": "ANDREA CANTILLO",
+      "text": "My son is sick in here. No, just-- Come here. Jesse... What is it? Jesse, I can't go out. My son's in here.",
+      "scene": 42
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Okay. I'm thinking Brock may have been poisoned, okay?",
+      "scene": 42
+    },
+    {
+      "character": "ANDREA CANTILLO",
+      "text": "What?",
+      "scene": 42
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "There's this stuff, this stuff called ricin. Sounds like rice. You need to tell the doctors about it.",
+      "scene": 42
+    },
+    {
+      "character": "ANDREA CANTILLO",
+      "text": "What? How do you know?",
+      "scene": 42
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Doesn't matter. Just tell them it's a guess. Okay? Ricin. They'll know what you're talking about.",
+      "scene": 42
+    },
+    {
+      "character": "ANDREA CANTILLO",
+      "text": "Jesse, if there's something you're not saying, you have to tell me.",
+      "scene": 42
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "I gotta go. I gotta go see someone.",
+      "scene": 42
+    },
+    {
+      "character": "ANDREA CANTILLO",
+      "text": "Jesse. I'm sorry, I gotta go.",
+      "scene": 42
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Just tell them, okay? Now. Just do it.",
+      "scene": 42
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Hello. Could you buzz me in, please? Buzz me in!",
+      "scene": 42
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "What do you want?",
+      "scene": 43
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "We need to talk.",
+      "scene": 43
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Who's with you?",
+      "scene": 43
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "No one. Just me. Let me in.",
+      "scene": 43
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I don't know what you're thinking coming here.",
+      "scene": 44
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Oh, Christ. What does it matter? Everything, it's all coming to an end. Do you even know what's happening? The full scope of what's happening? They took me out into the desert. They put a hood over my head and drove me out into the desert on my knees. They threatened my family and not just Hank.",
+      "scene": 44
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "My wife, my children.",
+      "scene": 44
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "It's just a matter of time now.",
+      "scene": 44
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I was able to protect them for now, but...",
+      "scene": 44
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Gus is gonna make his move.",
+      "scene": 44
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "And I don't-- I don't know when. I don't know where or how.",
+      "scene": 45
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "All I know is it's gonna happen.",
+      "scene": 45
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "And I'm powerless to stop him.",
+      "scene": 45
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "What are you doing?",
+      "scene": 45
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Why did you do it? Why? Jesse.",
+      "scene": 45
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Gus gave me no choice. I had to call the DEA to protect my family. What else could I do--?",
+      "scene": 45
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "No. No, you son of a bitch. You know what you did.",
+      "scene": 45
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Okay, look, just-- Just put the gun down, okay? Just put it down and we'll talk, all right? You tell me what it is you think I did.",
+      "scene": 45
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Brock. Why did you poison him?",
+      "scene": 45
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Who's Brock?",
+      "scene": 45
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "You saw him in my living room. You came and you looked right at him, so don't tell me you don't know him.",
+      "scene": 45
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "The boy? Jesse, I have no idea who these people are. Now, please. Okay, that's Brock and he was poisoned?",
+      "scene": 45
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "The ricin. He's dying because someone gave it to him. And only you and I were the only two people on earth who knew about it.",
+      "scene": 45
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "No, wait a minute. Wait a minute. Maybe he went into your pockets--",
+      "scene": 45
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "No! I had it. I had the cigarette with the ricin in my pack this morning. The last time I saw Brock was last night. And this morning, I switched the cigarette into a new pack. There's no way Brock took it himself.",
+      "scene": 45
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Jesse, you're not thinking clearly. You said it yourself that you had it this morning. When could I have possibly gotten it?",
+      "scene": 45
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "You had Saul do it.",
+      "scene": 45
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Yeah. I went to his office. He called me in, had to see me today. His big bodyguard patted me down. That's when he must have stole it off me. Right? That's the plan? Was that the plan?",
+      "scene": 46
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Jesse. Why? Why in God's name would I poison a child?",
+      "scene": 46
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "To get back at me. Because I'm helping Gus, and this is your way of ripping my heart out before you're dead and gone. Just admit it. Admit what you did. Admit it.",
+      "scene": 46
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I did not do this! Shut up!",
+      "scene": 46
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Stop lying!",
+      "scene": 46
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Look, I'm not lying. I'm not lying. Just listen to me. What would I have to gain? What possible--? Possible could I--? Who--? Who would--?",
+      "scene": 46
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Oh, my God.",
+      "scene": 46
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Hey.",
+      "scene": 46
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Stop laughing. Stop laughing!",
+      "scene": 46
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I have been waiting-- I've been waiting all day, waiting for Gus to send one of his men to kill me.",
+      "scene": 46
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "And it's you.",
+      "scene": 46
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Who do you know who's okay with using children? Jesse, who do you know who's allowed children to be murdered? Gus. He has been 10 steps ahead of me at every turn. And now, the one thing that he needed to finally get rid of me is your consent. And, boy, he's got that now. He's got it. And not only does he have that he manipulated you into pulling the trigger for him.",
+      "scene": 46
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "No, only you and I knew about the ricin.",
+      "scene": 46
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "No, you don't even believe that. Gus has cameras everywhere. Please. Listen to yourself. No, he has known everything all along. Where were you today? In the lab? You don't think it's possible that Tyrus lifted the cigarette out of your locker? Come on. Don't you see? You are the last piece of the puzzle. You are everything that he's wanted. You're his cook now. You're the cook and you have proven that you can run a lab without me. And now that cook has a reason to kill me. Think about it. It's brilliant. So go ahead. Go on. If you think that I am capable of doing this, then go put a bullet in my head and kill me right now.",
+      "scene": 46
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "I'll do it.",
+      "scene": 46
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Do it!",
+      "scene": 46
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Don't. He'll see you coming.",
+      "scene": 47
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "You'll die before you get anywhere near him.",
+      "scene": 47
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "I don't care.",
+      "scene": 47
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Jesse. Jesse, just get in your car. Just go. Just drive.",
+      "scene": 47
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "No. I'm going to do this one way or another, Mr. White.",
+      "scene": 47
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Then let me help.",
+      "scene": 47
+    },
+    {
+      "character": "TYRUS KITT",
+      "text": "Hey.",
+      "scene": 48
+    },
+    {
+      "character": "TYRUS KITT",
+      "text": "You need to be at work, now.",
+      "scene": 48
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "I already told you. I'm not going.",
+      "scene": 48
+    },
+    {
+      "character": "TYRUS KITT",
+      "text": "Got a batch that'll be ruined, and an employer who will be very upset if that happens.",
+      "scene": 48
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "And I could give a shit. I'm not leaving here. If my employer has a problem with that, he can tell me himself. Not his errand boy.",
+      "scene": 48
+    },
+    {
+      "character": "TYRUS KITT",
+      "text": "Idiot.",
+      "scene": 48
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Unh! Hey, I don't know this guy! Call security! I'm being attacked!",
+      "scene": 48
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Yeah. That's right.",
+      "scene": 48
+    },
+    {
+      "character": "TYRUS KITT",
+      "text": "He'd like to speak with you.",
+      "scene": 49
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "I told you, I'm not leaving.",
+      "scene": 49
+    },
+    {
+      "character": "TYRUS KITT",
+      "text": "He's downstairs.",
+      "scene": 49
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "Tyrus told me what's happening. The sick child. I understand your preoccupation, but, Jesse, I am running a business. I need you back at the lab to complete the cook. You can return when you're done.",
+      "scene": 50
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "I can't.",
+      "scene": 50
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "It is, as you must know, in both of our best interests.",
+      "scene": 50
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "That little boy upstairs is dying. I can't be away. I don't even wanna be here now. I can't be away, if something happens, if he--",
+      "scene": 50
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "I am very sorry. Is there anything I can do? I am on the board of this hospital. I can recommend doctors, make sure he gets whatever he needs. The best treatment.",
+      "scene": 50
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "He's not sick. He was poisoned.",
+      "scene": 50
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "How did that happen?",
+      "scene": 50
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "The doctors, they don't know.",
+      "scene": 50
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "This current batch is surely ruined now, correct?",
+      "scene": 50
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "Stay with the boy.",
+      "scene": 51
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "Tyrus will dump what's there and clean the tanks. You will start a new batch when you are ready to return.",
+      "scene": 51
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "Next week.",
+      "scene": 51
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Why did you stop? Why did you stop?",
+      "scene": 52
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Why did you stop?",
+      "scene": 52
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Come on. Come on.",
+      "scene": 52
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "No, no, no. Don't go, don't go, don't go. No. No.",
+      "scene": 53
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Oh, shit.",
+      "scene": 53
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "No.",
+      "scene": 53
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "What did you say to Gus? Because he's onto us.",
+      "scene": 54
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Yeah. I didn't say jack. What do you mean he's onto us?",
+      "scene": 54
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "He's walking to his car, then suddenly he isn't. Does he have some kind of sixth sense? Jesus, what did you say to him?",
+      "scene": 54
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Could I ask my own question right now, at this point? Did you just bring a bomb into a hospital?",
+      "scene": 54
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "What? Was I supposed to leave it on his car?",
+      "scene": 54
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "You're supposed to bring it into a hospital? Oh, my God.",
+      "scene": 54
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Look, where can we find Gus? Name a place. Name one place where I could surprise him, where he won't see me coming. Because his house, the laundry, the restaurant, the factory farm, they are all wired with cameras. One place. Think. Jesse, think. Where is it? Where? Because if you can't tell me, we are dead.",
+      "scene": 54
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Jesse.",
+      "scene": 54
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "I don't-- I don't know.",
+      "scene": 54
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Well, maybe--",
+      "scene": 54
+    },
+    {
+      "character": "DETECTIVE KALANCHOE",
+      "text": "Excuse me. Jesse Pinkman?",
+      "scene": 54
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Uh, yeah.",
+      "scene": 54
+    },
+    {
+      "character": "DETECTIVE KALANCHOE",
+      "text": "Hi. Detective Kalanchoe. This is Detective Munn, Albuquerque Police. We were wondering if we could have a few minutes, maybe go someplace and talk.",
+      "scene": 54
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "About what? Sorry, didn't catch your name.",
+      "scene": 54
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "About what?",
+      "scene": 54
+    },
+    {
+      "character": "DETECTIVE MUNN",
+      "text": "It concerns Brock Cantillo and a statement you made to his mother.",
+      "scene": 54
+    },
+    {
+      "character": "DETECTIVE KALANCHOE",
+      "text": "How about you come with us? We just want to clear things up. No big deal.",
+      "scene": 54
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "So am I under arrest?",
+      "scene": 55
+    },
+    {
+      "character": "DETECTIVE KALANCHOE",
+      "text": "You're not under arrest. We're just talking.",
+      "scene": 55
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "So if I get tired of talking, want to get up and leave--",
+      "scene": 55
+    },
+    {
+      "character": "DETECTIVE MUNN",
+      "text": "We'd prefer you didn't.",
+      "scene": 55
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "You'd prefer.",
+      "scene": 55
+    },
+    {
+      "character": "DETECTIVE MUNN",
+      "text": "Jesse, why'd you tell Brock's mom the boy had been poisoned?",
+      "scene": 55
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Look, I think this has been, you know, uh, what do you call it? Overblown, because all I basically said was \"Had the doctors thought maybe Brock got poisoned?\" In a cover-all-bases kind of sense.",
+      "scene": 55
+    },
+    {
+      "character": "DETECTIVE KALANCHOE",
+      "text": "Yeah. No, I'm sure they appreciated that, you helping them out like that, especially with how specific you were. Ricin. Wow.",
+      "scene": 55
+    },
+    {
+      "character": "DETECTIVE MUNN",
+      "text": "That's definitely a big one.",
+      "scene": 55
+    },
+    {
+      "character": "DETECTIVE KALANCHOE",
+      "text": "You don't see that every day, so when doctors hear that, they take it very seriously.",
+      "scene": 55
+    },
+    {
+      "character": "DETECTIVE MUNN",
+      "text": "As do we. As does the FBI. Okay. And nice, you know, you trying to help out like that, you know, professional courtesy, sharing your expertise.",
+      "scene": 55
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "I ain't got no expertise. All right? I just, you know--",
+      "scene": 55
+    },
+    {
+      "character": "DETECTIVE KALANCHOE",
+      "text": "You just happen to guess this one rare poison might be the thing that put this little boy in the hospital. And congratulations, because his doctors, they're beginning to think you might be right. So why ricin? How'd you come up with that?",
+      "scene": 55
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Man, I think I've-- I don't know. I must've saw it on House or something. Huh. Yeah, you know, like House or the Discovery Channel. Sometimes your brain just makes these connections. Does it? Mine does.",
+      "scene": 55
+    },
+    {
+      "character": "DETECTIVE KALANCHOE",
+      "text": "That's interesting.",
+      "scene": 55
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Look, I got to get back.",
+      "scene": 55
+    },
+    {
+      "character": "DETECTIVE MUNN",
+      "text": "But we're still talking.",
+      "scene": 55
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "So I'm not under arrest, but I can't leave. So, then, I guess I should call my lawyer. Right?",
+      "scene": 55
+    },
+    {
+      "character": "DETECTIVE KALANCHOE",
+      "text": "We're just having a simple conversation, Jess. Why can't we keep talking, keep it light? Man, you know how it is when the lawyers get to it. Suddenly everything's a big pissing match, like, every time.",
+      "scene": 55
+    },
+    {
+      "character": "DETECTIVE MUNN",
+      "text": "Adversarial. Adversarial. Then we gotta book you, blah, blah. You know. You've been around the block, Jesse. You're no Boy Scout.",
+      "scene": 55
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Saul Goodman. That's my guy. So do I gotta call him, or do you?",
+      "scene": 55
+    },
+    {
+      "character": "FRANCESCA LIDDY",
+      "text": "What the hell you doing? I need Saul right now. So you just break in? I see you're here, by the way.",
+      "scene": 56
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "If you'd bothered to answer the phone or the door, maybe I wouldn't have-- Forget it. Is he here? Is that a serious question?",
+      "scene": 56
+    },
+    {
+      "character": "FRANCESCA LIDDY",
+      "text": "Why would he be here? But you know where he is.",
+      "scene": 56
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I need a number. Look, let me explain something to you. My partner and I-- Are in danger?",
+      "scene": 56
+    },
+    {
+      "character": "FRANCESCA LIDDY",
+      "text": "Whoop-dee-freaking-doo. Why do you think he's not here? And how's that news, exactly, the two of you being in danger, after doing something idiotic? And what gives you the right to break down my door?",
+      "scene": 56
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Look, I just need a number, okay? That's all.",
+      "scene": 56
+    },
+    {
+      "character": "FRANCESCA LIDDY",
+      "text": "You are such a pain in my ass. You know that? You're the reason I gotta go on unemployment. I was looking forward to getting out of here, but no! Now I got to wait around all day for a plate glass guy to come and fix this door. And who pays for this?",
+      "scene": 56
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Okay, you know what? Here, look. I'm giving you everything. All of it, okay? There's one, two, three-- Look, there's got to be at least $1700 there, okay? That'll cover the cost of the door. Now, I apologize profusely. Please, the phone number.",
+      "scene": 56
+    },
+    {
+      "character": "FRANCESCA LIDDY",
+      "text": "Door like this is gonna cost way more than 1700.",
+      "scene": 56
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "What? For a plate of glass? No.",
+      "scene": 56
+    },
+    {
+      "character": "FRANCESCA LIDDY",
+      "text": "Oh, yeah, I bet it does. I bet you it winds up costing... 20,000.",
+      "scene": 56
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Are you insane? Who the hell is going to charge $20,000 for a plate glass door? There's no reputable vendor w--",
+      "scene": 56
+    },
+    {
+      "character": "FRANCESCA LIDDY",
+      "text": "Now I'm thinking 25.",
+      "scene": 56
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I'll be right back.",
+      "scene": 56
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "So how's he doing?",
+      "scene": 57
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "You could at least say, instead of being a couple of dicks.",
+      "scene": 57
+    },
+    {
+      "character": "DETECTIVE",
+      "text": "Jesse, if you cared at all about that little boy, prove it to me. Tell us what you know.",
+      "scene": 57
+    },
+    {
+      "character": "DETECTIVE",
+      "text": "Guess we'll have to wait and see what the tox screen says.",
+      "scene": 58
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Oh, look at this. Isn't this cosy? What'd you tell them?",
+      "scene": 58
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "I told them they were a couple of dicks.",
+      "scene": 58
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Heh. He's a wordsmith. Well, detectives, it's been a pleasure. Now, up you go. Make like you got manners. Make like you respect the rule of law. Au revoir, auf Wiedersehen, hasta luego, get the hell out. Buh-bye. That's it. Pick it up. Follow your partner. And one, two... Thank you. Christ. You two. All I can say is if I ever get anal polyps, I'll know what to name them.",
+      "scene": 58
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "You gonna get me out of here?",
+      "scene": 58
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Ah. Hm. No. Not even if I could. You know, the FBI's going to show up on this ricin thing, and then you're in it for the duration.",
+      "scene": 58
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "You know, you're a lot safer in here. They tried to get your partner in his home.",
+      "scene": 58
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Jesus. Is he okay?",
+      "scene": 58
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Well, he's okay like a fruit fly's okay. We're all on the clock here, thanks for that. You want to stick your wangs in a hornet's nest, it's a free country, but how come I get sloppy seconds, huh? You got anything for me? Tell me I didn't poke my head up for nothing.",
+      "scene": 58
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Yeah. I've been thinking.",
+      "scene": 58
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "And?",
+      "scene": 58
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Casa Tranquila.",
+      "scene": 58
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "What's Casa Tranquila?",
+      "scene": 58
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "It's an old folks' home off Paseo Del Norte. Our boy tells me Fring took him there to visit one of the patients, someone Pinkman says you'll definitely remember: Tio Salamanca.",
+      "scene": 58
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "Old guy in a wheelchair. Um, doesn't talk, rings a bell. I don't mean \"Does that ring a bell?\" I mean, the guy actually has to ring a bell.",
+      "scene": 58
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I-- Yes, I know. I remember. So, what, once every blue moon, Gus goes and visits an old cartel associate. That-- That doesn't help me. I can't very well hide out in a nursing home for six months hoping, on the off chance, that he comes back.",
+      "scene": 58
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "It's not even like they're friends. Pinkman said it was like he was torturing the old guy.",
+      "scene": 58
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "What does that mean?",
+      "scene": 58
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "He told him the last of his family was dead. He seemed to enjoy telling him. Afterward, Pinkman asked him about it. All Gus would say was this Tio character once murdered someone close to him.",
+      "scene": 58
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Wait. Tio murdered someone close to Gus?",
+      "scene": 58
+    },
+    {
+      "character": "SAUL GOODMAN",
+      "text": "I know it sounds not particularly fruitful, but, uh, sorry, that's-- That's all I got.",
+      "scene": 58
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "They're enemies, not friends.",
+      "scene": 58
+    },
+    {
+      "character": "BINGO CALLER",
+      "text": "Your next number in this coverall game, where you cover the whole shmoley, is B-number-3. Like Goldilocks and the Three Bears. That's number 3 in your B column, followed by O-74. That's O-74 on the other side of your card.",
+      "scene": 58
+    },
+    {
+      "character": "BINGO CALLER",
+      "text": "Now we have that lucky number: B-number-7. Is it lucky for you? B-7. In the \"I\" row, 2-1. I-21...",
+      "scene": 58
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I know you despise me, and I know how badly you want to see me dead, but I'm willing to bet that I know a man whom you hate even more.",
+      "scene": 58
+    },
+    {
+      "character": "BINGO CALLER",
+      "text": "Those N's just keep coming. They're sticking together.",
+      "scene": 58
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I am offering you an opportunity for revenge.",
+      "scene": 58
+    },
+    {
+      "character": "BINGO CALLER",
+      "text": "4-8. The continental United States, excluding Alaska and Hawaii.",
+      "scene": 58
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Hey, son, what's up?",
+      "scene": 59
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "When exactly are you getting here?",
+      "scene": 59
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Uh, just as soon as I can.",
+      "scene": 59
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Look, this is a serious situation, and you're not taking it seriously.",
+      "scene": 59
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "Give me the phone. Let me talk.",
+      "scene": 59
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "No, I am taking it very seriously.",
+      "scene": 59
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "Just give it to me, Walt.",
+      "scene": 59
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I'm very concerned about Uncle Hank and his safety. But whomever is making these threats against him, I can assure you there's absolutely no interest in me. I'm not on-- On anyone's radar, and besides your mother-- Give it to me!",
+      "scene": 59
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "Walter? Did you hear what he said? Get over here. No more excuses.",
+      "scene": 59
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Marie, I-- I will be there just as soon as I can. I promise. Hold on.",
+      "scene": 59
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "You want to weigh in here? Maybe you could talk some sense into him.",
+      "scene": 59
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Marie, he'll get here when he gets here, so...",
+      "scene": 59
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "Well, I hope you sell plenty of air fresheners. I hope you just have a banner day over there. Okay, Walt? Don't worry about a thing here. Goodbye. And thank you for all of your help.",
+      "scene": 59
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Huh?",
+      "scene": 59
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Anything?",
+      "scene": 59
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "Hi, everyone.",
+      "scene": 60
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Hi, Steve. How's everybody holding up?",
+      "scene": 60
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Just the man I want to see. Come here, look at this.",
+      "scene": 60
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "Jesus, enough with the laundry.",
+      "scene": 60
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "No, no, no, hear me out. This panel, if I'm reading it correctly, is a 7200-amp service. This place has two of them. That's a whole lot of juice, brother. Laundry this size typically has maybe half that. So, what's with the extra panel?",
+      "scene": 60
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "What are you, Thomas Edison?",
+      "scene": 60
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "I asked a bunch of electricians. They have their own chat rooms, like where all they talk about was wiring? Freaking Internet-- Find anything on it these days. What do you say? Pop over, have another look-see?",
+      "scene": 60
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "Listen...",
+      "scene": 60
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "I think we possibly have a lead on something.",
+      "scene": 60
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Yeah?",
+      "scene": 60
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "I have this guy at the office. He says he has some kind of information. The thing is, he'll only give it to you, in person.",
+      "scene": 60
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "Okay. Remember Hector Salamanca?",
+      "scene": 60
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "What, you mean the old cripple guy with the bell? Rather crap on our floor than talk? Don't remember him. Why?",
+      "scene": 60
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "Well, he's the guy. His nurse calls us, says he wants to powwow. So we have this guy at the office for three hours, and he still just wants to talk to you.",
+      "scene": 60
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "Do not even think about going down there.",
+      "scene": 60
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Marie.",
+      "scene": 60
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "This is clearly a ploy or a trick or something designed to get Hank out into the open. That's all this is.",
+      "scene": 60
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "That's what we thought. MARIE: Well... It's been years since this guy's been a player. His nephew's gone. Doesn't have anybody. The nurse checks out-- Don't know nothing. Guess I just don't see an angle in it, if there even is one. Of course, if you did want to talk to this guy, there's no safer place.",
+      "scene": 60
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "I don't think this sounds like a good idea.",
+      "scene": 60
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Yeah, I agree, Uncle Hank.",
+      "scene": 60
+    },
+    {
+      "character": "MARIE SCHRADER",
+      "text": "It is a ridiculous idea, and there is no way that you are going to do it, end of story.",
+      "scene": 60
+    },
+    {
+      "character": "GEORGE MERKERT",
+      "text": "Hank, thanks for coming down.",
+      "scene": 60
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "No problem at all. Good to see you, sir.",
+      "scene": 60
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "So, Mr. Salamanca, you had something to tell me?",
+      "scene": 60
+    },
+    {
+      "character": "NURSE",
+      "text": "A-E-I-O-- Row O. P-Q-R-S-- First letter: S. A-E-I-O-U-- Second letter: U. A-- B-C--",
+      "scene": 60
+    },
+    {
+      "character": "NURSE",
+      "text": "A-E-I-- J-K-- A-E-I-- J-K-L-M--",
+      "scene": 60
+    },
+    {
+      "character": "NURSE",
+      "text": "A-E-I-O-U-- Row U. V-W-X-Y--",
+      "scene": 60
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "All right, that's enough.",
+      "scene": 60
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "Thank you.",
+      "scene": 60
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Yeah, thanks. I, uh-- I can spell. Well, you got that out of your system now? Shall we try this one more time?",
+      "scene": 60
+    },
+    {
+      "character": "NURSE",
+      "text": "A-B-- F-- A-E-I-O-U--",
+      "scene": 60
+    },
+    {
+      "character": "NURSE",
+      "text": "A-- B-C--",
+      "scene": 60
+    },
+    {
+      "character": "STEVEN GOMEZ",
+      "text": "Yeah, we-- We got it.",
+      "scene": 60
+    },
+    {
+      "character": "NURSE",
+      "text": "I am-- I am-- I am just so, so sorry.",
+      "scene": 60
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "At least this time he didn't shit himself.",
+      "scene": 60
+    },
+    {
+      "character": "HANK SCHRADER",
+      "text": "Guess that's progress.",
+      "scene": 60
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "Yes.",
+      "scene": 61
+    },
+    {
+      "character": "TYRUS KITT",
+      "text": "We may have a problem. I got eyes on the DEA. They just had a visitor. Hector Salamanca.",
+      "scene": 61
+    },
+    {
+      "character": "NURSE",
+      "text": "I don't even know what to say to you right now. You just sit here, and you think about how far that kind of behaviour is gonna get you. Not far, let me tell you.",
+      "scene": 61
+    },
+    {
+      "character": "WOMAN",
+      "text": "Hello.",
+      "scene": 62
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Hi...",
+      "scene": 62
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Hi.",
+      "scene": 62
+    },
+    {
+      "character": "WOMAN",
+      "text": "Hello.",
+      "scene": 62
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Hi.",
+      "scene": 62
+    },
+    {
+      "character": "DETECTIVE KALANCHOE",
+      "text": "Mr. Pinkman. You're free to go.",
+      "scene": 63
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Why? What happened?",
+      "scene": 63
+    },
+    {
+      "character": "DETECTIVE KALANCHOE",
+      "text": "Tox screen came back. No ricin poisoning.",
+      "scene": 63
+    },
+    {
+      "character": "DETECTIVE KALANCHOE",
+      "text": "Surprised, huh?",
+      "scene": 63
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "No, why should I be?",
+      "scene": 63
+    },
+    {
+      "character": "DETECTIVE KALANCHOE",
+      "text": "Your jacket.",
+      "scene": 63
+    },
+    {
+      "character": "DETECTIVE KALANCHOE",
+      "text": "Till we meet again.",
+      "scene": 63
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Okay, okay... Hey, yo! Yo! Right here.",
+      "scene": 63
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Hey, Andrea, um, I'm just checking on Brock. Uh, hey, it sounds like-- I mean, listen, just call me if you can, all right? I'm headed back over. All right. Hey, excuse me.",
+      "scene": 63
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "Yes.",
+      "scene": 64
+    },
+    {
+      "character": "TYRUS KITT",
+      "text": "We picked up Pinkman. No witnesses.",
+      "scene": 64
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "What about Hector?",
+      "scene": 64
+    },
+    {
+      "character": "TYRUS KITT",
+      "text": "I've checked inside and out. No wires, no camera, no surveillance. A police cruiser rolled through about an hour ago. Seemed routine. It's just him, alone in his room.",
+      "scene": 64
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "All right.",
+      "scene": 64
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "I'm on my way.",
+      "scene": 64
+    },
+    {
+      "character": "TYRUS KITT",
+      "text": "Maybe it's better if-- If I do this myself.",
+      "scene": 64
+    },
+    {
+      "character": "GUSTAVO FRING",
+      "text": "I do this.",
+      "scene": 64
+    },
+    {
+      "character": "GUARD",
+      "text": "You wanna cook with a broken arm?",
+      "scene": 65
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Next step, CO2.",
+      "scene": 65
+    },
+    {
+      "character": "GUARD",
+      "text": "Do it.",
+      "scene": 65
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Uh, he's gonna pull through.",
+      "scene": 66
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Yeah?",
+      "scene": 66
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Yeah, it looked, uh, kind of touch-and-go there for a while, but he's gonna-- He's gonna make it.",
+      "scene": 66
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "Thank God. Oh, thank God.",
+      "scene": 66
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "You know, still saying it wasn't the ricin.",
+      "scene": 66
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I don't understand. Then what was it?",
+      "scene": 66
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Saying it was most likely a flower called lily of the valley. Yeah, it's-- It's, like, common. It's got these red berries on it that I guess taste sweet, and sometimes little kids eat them and wind up poisoning themselves, and that's it. Nothing more.",
+      "scene": 66
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "So Gus didn't poison him after all.",
+      "scene": 66
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Still, he...",
+      "scene": 66
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "He, uh-- He had to go, right?",
+      "scene": 66
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "You're damn right. Gus had to go.",
+      "scene": 66
+    },
+    {
+      "character": "JESSE PINKMAN",
+      "text": "Um, you know, I should-- I should get back. Andrea's waiting.",
+      "scene": 66
+    },
+    {
+      "character": "REPORTER",
+      "text": "I'm here at Casa Tranquila, where three are dead following an explosion that rocked this care facility today. The fireball completely consumed one resident's room and damaged areas nearby.",
+      "scene": 67
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Walt?",
+      "scene": 67
+    },
+    {
+      "character": "WALTER WHITE JR.",
+      "text": "Tell Dad to turn on his TV. Shh!",
+      "scene": 67
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Let me get where I can hear. Tell him Hank was right. Walt?",
+      "scene": 67
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "How are you doing?",
+      "scene": 67
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "How am I doing? How are you?",
+      "scene": 67
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I'm, uh...",
+      "scene": 67
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I'm doing quite well. I'm good.",
+      "scene": 67
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Jesus, Walt, the news here. Gus Fring is dead. He was blown up along with some person from some Mexican cartel, and the DEA has no idea what to make of it. Do you know about this? Walt? I need you to--",
+      "scene": 67
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "It's over. We're safe.",
+      "scene": 67
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "Was this you?",
+      "scene": 68
+    },
+    {
+      "character": "SKYLER WHITE",
+      "text": "What happened?",
+      "scene": 68
+    },
+    {
+      "character": "WALTER WHITE",
+      "text": "I won.",
+      "scene": 68
+    }
+  ],
+  "lineCount": 892,
+  "characterCount": 29,
+  "imdbId": "tt0903747",
+  "poster": "",
+  "rated": "TV-MA",
+  "runtime": "4 eps",
+  "genre": "Drama, Crime",
+  "director": "Breaking Bad",
+  "topSpeakingCast": [
+    "WALTER WHITE",
+    "JESSE PINKMAN",
+    "SKYLER WHITE",
+    "SAUL GOODMAN",
+    "HANK SCHRADER",
+    "TED BENEKE",
+    "WALTER WHITE JR.",
+    "GUSTAVO FRING",
+    "MARIE SCHRADER",
+    "STEVEN GOMEZ",
+    "PATRICK KUBY",
+    "DETECTIVE KALANCHOE",
+    "TYRUS KITT",
+    "ANDREA CANTILLO",
+    "FRANCESCA LIDDY",
+    "MIKE EHRMANTRAUT",
+    "DENNIS MARKOWSKI",
+    "DETECTIVE MUNN"
+  ]
+}

@@ -2,6 +2,11 @@
   "featured": [
     "star-wars",
     "the-office",
+    "breaking-bad",
+    "always-sunny",
+    "avatar-tla",
+    "tarantino",
+    "gilmore-girls",
     "harry-potter",
     "marvel",
     "pixar-classics",
@@ -17,14 +22,19 @@
         "harry-potter",
         "the-lord-of-the-rings",
         "bttf-trilogy",
-        "marvel"
+        "marvel",
+        "tarantino"
       ]
     },
     {
       "id": "tv",
       "name": "TV Shows",
       "packs": [
-        "the-office"
+        "the-office",
+        "breaking-bad",
+        "always-sunny",
+        "gilmore-girls",
+        "avatar-tla"
       ]
     },
     {
@@ -85,9 +95,38 @@
       "movieCount": 11
     },
     {
+      "id": "tarantino",
+      "name": "Quentin Tarantino",
+      "movieCount": 9
+    },
+    {
       "id": "the-office",
       "name": "The Office",
       "movieCount": 9,
+      "mediaType": "seasons"
+    },
+    {
+      "id": "breaking-bad",
+      "name": "Breaking Bad",
+      "movieCount": 5,
+      "mediaType": "seasons"
+    },
+    {
+      "id": "always-sunny",
+      "name": "It's Always Sunny in Philadelphia",
+      "movieCount": 16,
+      "mediaType": "seasons"
+    },
+    {
+      "id": "gilmore-girls",
+      "name": "Gilmore Girls",
+      "movieCount": 7,
+      "mediaType": "seasons"
+    },
+    {
+      "id": "avatar-tla",
+      "name": "Avatar: The Last Airbender",
+      "movieCount": 3,
       "mediaType": "seasons"
     }
   ]

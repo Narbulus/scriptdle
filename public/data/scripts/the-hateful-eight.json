@@ -1,0 +1,5411 @@
+{
+  "id": "the-hateful-eight",
+  "title": "The Hateful Eight",
+  "year": 2015,
+  "characters": [
+    "BOB",
+    "CHARLY",
+    "DAISY DOMERGUE",
+    "ED",
+    "GENERAL SANDY SMITHERS",
+    "JODY",
+    "JODY DOMERGUE",
+    "JODY DOMINGRE",
+    "JOE GAGE",
+    "JOHN RUTH",
+    "JUDY",
+    "MAJOR MARQUIS WARREN",
+    "MINNIE",
+    "O. B. JACKSON",
+    "OSWALDO MOBRAY",
+    "SHERIFF CHRIS MANNIX",
+    "SWEET DAVE"
+  ],
+  "lines": [
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Got room for one more?",
+      "scene": 0
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "Who the hell are you? And what happened to them?",
+      "scene": 0
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Name's Major Marquis Warren, former U.S. Cavalry. Currently a servant of the court. Trying to bring a couple no-goods into market. Got the paperwork on 'em in my pocket.",
+      "scene": 0
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "You takin' 'em into Red Rock?",
+      "scene": 0
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Figure that's where you headed, right?",
+      "scene": 0
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "I am. That damn blasted blizzard has been on our ass for the last three hours. There ain't no way we gonna make it all the way to Red Rock 'fore it catches us.",
+      "scene": 0
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "So you hightailin' it halfway, to Minnie's Haberdashery?",
+      "scene": 0
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "You know I am.",
+      "scene": 0
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "May I come aboard?",
+      "scene": 0
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "Well, smoke, if it up to me, yes. But it ain't up to me.",
+      "scene": 0
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Who's it up to?",
+      "scene": 0
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "Fella in the wagon.",
+      "scene": 0
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Fella in the wagon ain't partial to company?",
+      "scene": 0
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "Fella in the wagon, he paid for a private trip, and I'm here to tell you, he paid a pretty penny for privacy. So if you want to go to Minnie's with us, you gonna have to talk to him.",
+      "scene": 0
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Well... that's what I'll do.",
+      "scene": 0
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Hold it, black fella. 'Fore you approach, you take them two guns of yours and you lay 'em on that rock over yonder. Then you raise both your hands way above your hat. Then you approach. Molasses-like.",
+      "scene": 0
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Real trustin' fella, huh?",
+      "scene": 0
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "Not so much.",
+      "scene": 0
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Put 'em down.",
+      "scene": 1
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Come on ahead. I said way above your hat, goddamn it!",
+      "scene": 1
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Now come forward. That's far enough.",
+      "scene": 1
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Well, I'll be dogged. You a black fella I know. Colonel somethin'-or-other Warren, right?",
+      "scene": 1
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Major Marquis Warren. I know you, too. We, uh, shared a steak dinner once upon a time in Chattanooga. You John Ruth The Hangman.",
+      "scene": 1
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "That'd be me. How long's that been?",
+      "scene": 1
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Since that steak?",
+      "scene": 1
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Oh... eight months. So why don't you explain to me what a African bounty hunter's doin' wanderin' around in the snow in the middle of Wyoming?",
+      "scene": 1
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Trying to get a couple of bounties in to Red Rock.",
+      "scene": 1
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "So you still in business?",
+      "scene": 1
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You know I am.",
+      "scene": 1
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Happened to your horse?",
+      "scene": 1
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Circumstances caused us to have to take the long way round. My horse couldn't make it.",
+      "scene": 1
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "You don't know nothin' 'bout this filly here.",
+      "scene": 1
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Nope.",
+      "scene": 1
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Don't even know her name?",
+      "scene": 1
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Nope.",
+      "scene": 1
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Well, I guess that makes this one fortuitous wagon.",
+      "scene": 1
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "I sure as hell hope so.",
+      "scene": 1
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Major Marquis Warren, this here's Daisy Domergue.",
+      "scene": 1
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Domergue, to you this is Major Warren.",
+      "scene": 1
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Howdy, nigger-",
+      "scene": 1
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "She's a pepper, ain't she? Now, girl, don't you know the darkies don't like being called niggers no more? They find it offensive.",
+      "scene": 1
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "I been called worse.",
+      "scene": 1
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Now, that I can believe. You never heard of her, huh?",
+      "scene": 1
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Should I?",
+      "scene": 1
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Well, she ain't no John Wilkes Booth, but maybe you might heard tell about the price on her head.",
+      "scene": 1
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "How much?",
+      "scene": 1
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "$10,000.",
+      "scene": 1
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Damn. What'd she do, kill Lily Langtry?",
+      "scene": 1
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Not quite. That ten thousand's practically in my pocket. It's why I ain't too anxious to be handin' out rides, especially to professionals open for business.",
+      "scene": 1
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "I can certainly appreciate that. But I ain't got no designs on her. One of my fellas over there is worth $4,000, another one's worth $3,000, and one of 'em's worth $1,000. That's damn sure good enough for me.",
+      "scene": 1
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Well... let me see their paperwork. Like I said, molasses-like.",
+      "scene": 1
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Back off.",
+      "scene": 1
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "Look, I sure hate to interrupt you all, but we got a cold damn blizzard that's hot on our ass that we're tryin' to beat to shelter!",
+      "scene": 2
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "I realize that! Now, shut your mouth and hold them damn horses while I think!",
+      "scene": 2
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Okay, boy, we'll give it a try. But you leave them two pistols over yonder with the driver.",
+      "scene": 2
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Hey, uh, you ain't really gonna let that nigger ride in here, is ya? I mean, maybe up there with O.B., but...",
+      "scene": 2
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "How ya like the sound of them bells, bitch? They real pretty, ain't they? You open up your trashy mouth again, I'll knock out them front teeth for ya. You got it?",
+      "scene": 2
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Yeah.",
+      "scene": 2
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Let me hear ya say, \"I got it.\"",
+      "scene": 2
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "I got it.",
+      "scene": 2
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Uh, I'm gonna need a hand tyin' these fellas up on the roof.",
+      "scene": 2
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Give O.B. $50 when we get to Red Rock. He'll help ya.",
+      "scene": 2
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Well, I agree with O.B. This storm got me concerned. We get goin' a lot quicker you helped out, too.",
+      "scene": 2
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Goddamn it to hell, I'm already regrettin' this. Now, I can't likely help you tie fellas to the roof with my wrist cuffed to hers. And my wrist is gonna stay cuffed to hers, and she ain't never gonna leave my goddamn side till I personally put her in the Red Rock jail! Now, do you got that?",
+      "scene": 2
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yeah, I got it.",
+      "scene": 2
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Good.",
+      "scene": 2
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "So, what happened to your horse?",
+      "scene": 3
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "He was kinda old. I done had him for a bit.",
+      "scene": 3
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "When the weather took a turn for the worse, well, he done what he could, but he couldn't make it.",
+      "scene": 3
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "That's too bad.",
+      "scene": 3
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Me and 0l' Lash done rode a lot of miles together. Could say he was my best friend, if I considered stupid animals friends, which I don't. Nevertheless, I'm gonna miss him.",
+      "scene": 3
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Who's this Daisy Domergue?",
+      "scene": 3
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "A no damn good murdering bitch, that's who.",
+      "scene": 3
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "I see you ain't got mixed emotions about bringing a woman to a rope.",
+      "scene": 3
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "By \"woman,\" you mean her? No, I do not have mixed emotions.",
+      "scene": 3
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "So you taking her into Red Rock to hang.",
+      "scene": 3
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "You bet.",
+      "scene": 3
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You gonna wait round to watch it?",
+      "scene": 3
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Oh, you know I am. I want to hear her neck snap with my own two ears.",
+      "scene": 3
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "You never wait to watch 'em hang?",
+      "scene": 3
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "My bounties never hang, 'cause I never bring 'em in alive.",
+      "scene": 3
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Never?",
+      "scene": 3
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Never ever. We talked about this in Chattanooga. Bringing desperate men in alive's a good way to get yourself dead.",
+      "scene": 3
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Can't catch me sleeping if I don't close my eyes.",
+      "scene": 3
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "I don't want to work that hard.",
+      "scene": 3
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "No one said the job is supposed to be easy.",
+      "scene": 3
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "No one said it's supposed to be that hard, neither. But that, little lady, is why they call him \"The Hangman.\" When the handbill says \"dead or alive,\" the rest of us shoot ya in the back from up on top of a perch somewhere, bring ya in dead over a saddle. But when John Ruth The Hangman catches ya, you don't die from no bullet in the back. When The Hangman catches you, you hang.",
+      "scene": 3
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "You overrate him, nigger. I give ya he got guts, but in the brains department, he like a man who took a high dive in a low well.",
+      "scene": 3
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Now, Daisy, I want us to work out a signal system of communication. When I elbow you real hard in the face, that means \"shut up.\" You got it?",
+      "scene": 3
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "I got it.",
+      "scene": 3
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "I, uh... I know we only met each other the once before, and I don't mean to unduly imply intimacy...",
+      "scene": 4
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "...you still got it?",
+      "scene": 4
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Do I still got what?",
+      "scene": 4
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "The Lincoln letter.",
+      "scene": 4
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Course.",
+      "scene": 4
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Got it on ya? Where?",
+      "scene": 4
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Right here.",
+      "scene": 4
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Look, I know you got to be real careful with it and all, and I can imagine you probably don't like taking it in and out of the envelope all that often, but, if you wouldn't mind, I'd sure appreciate seeing that again.",
+      "scene": 4
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You're right. I don't like taking it in and out of the envelope that much... but seeing's how you saved my life and all... I suppose I could let you read it again.",
+      "scene": 4
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "\"Ole Mary Todd's calling, so I guess it must be time for bed.\"",
+      "scene": 5
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Ole Mary Todd.",
+      "scene": 5
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "That gets me.",
+      "scene": 5
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yeah, it gets me, too.",
+      "scene": 5
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "You know what this is, tramp? It's a letter from Lincoln. Letter from Lincoln to him.",
+      "scene": 5
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "They shared a correspondence during the war. They was pen pals. And this is just one of the letters.",
+      "scene": 5
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "What the...",
+      "scene": 5
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "O.B.! Stop!",
+      "scene": 5
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "All the stupid... Like to rip my goddamn arm off!",
+      "scene": 5
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "I didn't drag her stinking ass up this goddamn mountain just for you to break her neck on the outskirts of town!",
+      "scene": 6
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You the one handed her my goddamn letter! I didn't give it to her, I give it to you!",
+      "scene": 6
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "That nigger like to bust my jaw.",
+      "scene": 6
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "You ruin that letter of his, that nigger gonna stomp your ass to death. And when he do, I'm gonna sit back on that wagon wheel, watch and laugh!",
+      "scene": 6
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "How is it?",
+      "scene": 6
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Well, she ain't help it none. But it's all right.",
+      "scene": 6
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Is that the way niggers treat their ladies?",
+      "scene": 6
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You ain't no goddamn lady!",
+      "scene": 6
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "Hey, Mr. Ruth!",
+      "scene": 6
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "What?",
+      "scene": 6
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "There's another fella on foot up here on the road.",
+      "scene": 6
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "What?",
+      "scene": 6
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "I said there's another fella on foot, up here on the road.",
+      "scene": 6
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Considering there's a blizzard going on, whole lot of fellas walking around, wouldn't you say, Major?",
+      "scene": 7
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Well, seeing as how I'm half of them fellas, yeah, seems to be a lot of us.",
+      "scene": 7
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "This changes things, son. $8,000 a lot of money for a nigger. With a partner, 18's a whole lot better.",
+      "scene": 7
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You really think I'm in cahoots with that fella, or her?",
+      "scene": 7
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Put them on.",
+      "scene": 7
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Oh, I ain't wearing no handcuffs.",
+      "scene": 7
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "You put those on, or you can stop worrying about this whole thing right now!",
+      "scene": 7
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Hand your weapons to the driver.",
+      "scene": 8
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Little jumpy, ain't you?",
+      "scene": 8
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Never mind the jokes. Just do it.",
+      "scene": 8
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "If you say so.",
+      "scene": 8
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "I do.",
+      "scene": 8
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Okay... I done done it.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "O.B., you got 'em?",
+      "scene": 9
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "I got 'em.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Okay, fella. You keep holding that lantern in that one hand, and you keep that other hand where I can see it. Walk over there where I can get a good look at ya.",
+      "scene": 9
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Well, I'll be a goddamn dog in a manger. Is that you, Chris Mannix?",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "I'm sorry friend, do we know each other?",
+      "scene": 9
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Not quite.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "You know this fella?",
+      "scene": 9
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Only by reputation.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Like I said, friend, you got me at a bit of a disadvantage.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Keeping you at a disadvantage is an advantage I intend to keep.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Uh, whoever you are, mister, you sure sound tough when you talking to a desperate man knee-deep in snow. I don't want no trouble. I just want a ride. I'm freezing to death!",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Who is this joker?",
+      "scene": 9
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You heard of the rebel renegade Erskine Mannix?",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Mannix's Marauders?",
+      "scene": 9
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "That's them. Scourge of South Carolina, Mannix's Marauders. It's Erskine's youngest boy, Chris.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Brings you in my path, Chris Mannix?",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well, Mr. Face, I was riding to Red Rock, my horse stepped in a gopher hole in the snow, fucked up his leg, had to put 'er down.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "You got business in Red Rock?",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Yes, I do.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "What?",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "I'm the new sheriff.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Horseshit.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "'Fraid not.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Where's your star?",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well, I ain't the sheriff yet. Now, once I get there, they swear me in. But, uh, that ain't happened yet. And that's when you get your star.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "You got anything that can back any of this up?",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Yeah. When we get to Red Rock. And from the look of those three frozen fuckers up there, I figure you a bounty hunter open for business. And I figure you taking them three dead bodies into Red Rock to get paid?",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Three dead. One alive.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Who's that?",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Daisy Domergue.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Who the fuck is Daisy Domergue?",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Not a goddamn thing to nobody, except me and the hangman.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "The hangman?",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well, I'll be double-dog damned. You're \"The Hangman\" Bob Ruth!",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "It's John.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "You're the nigger with the head! Major Marquis! My Lord, is that really the real head of Major Marquis looking at me now?",
+      "scene": 9
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yeah, it's really me, and it's really my head.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "So what's going on? Uh, y'all having a bounty hunters' picnic? Never mind. Uh, you taking them three dead bodies and hurrying to Red Rock to get paid, ain't you?",
+      "scene": 9
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yeah.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well, the man in Red Rock's supposed to pay you is me, the new sheriff. So if y'all want to get paid, y'all need to get me to Red Rock.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Well, excuse me for finding it hard to believe a town electing you to do anything except drop dead.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "So I'm supposed to freeze to death 'cause you find something hard to believe?",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "No, I suppose not.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Put them on and come inside.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "No.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Then you'll freeze.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Then you'll hang.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "How so?",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Stagecoach driver, could you come down here and join us?",
+      "scene": 9
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "I got to hold these horses. I can hear you just fine from up here.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well, you just heard me tell this fella I'm the new sheriff of Red Rock, right?",
+      "scene": 9
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "Yeah.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Red Rock is my town now. And I'm gonna enter my town in bounty hunter's chains? No, sir! Sorry, bushwhackers, I ain't entering Red Rock that way. Now, when you finally get to Red Rock, you gonna realize every goddamn thing I said was right. And I expect you, O.B., to tell the townsfolk of Red Rock that John Ruth let their new sheriff freeze to death. Ain't no bounty on my head, bushwhacker. You let me die, that's murder.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Hold out your hands. O.B.! Give the major back his iron.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "One thing I know for sure, this nigger-hating son of a gun ain't partnered up with you. Now, I'll help you protect your 8,000, you help me protect my ten. Deal?",
+      "scene": 9
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Well, ain't love grand? Y'all want to lie on the ground and make snow angels together?",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well, I'll tell you what, Bob.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "The name's John.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "When we get to Red Rock, I'll buy you and Major Marquis there dinner and booze. My way of saying thanks.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "I don't drink with rebel renegades, and I damn sure don't break bread with them.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well, Mr. Ruth... you sound like you got a axe to grind against the Cause.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "\"The Cause\" of a renegade army? Bunch of losers gone loco. You bet I do. You wrapped yourselves up in a rebel flag as an excuse to kill and steal. And this ought to interest you, Warren. lmparticular, emancipated blacks.",
+      "scene": 9
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Sounds like my kind of fella.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Sound to me you been reading a lot of newspapers printed in Washington, D.C. Anywho, I'm just trying to let y'all know how grateful I am. I was a goner. And y'all saved me.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "You want to show me how grateful you are? Shut up.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Goddamn it, Daisy. It's coming.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Last piece.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Does he know how famous you once was?",
+      "scene": 9
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "I don't think so.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Black Eye. Do you know who he is?",
+      "scene": 9
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Do I know about the $30,000 reward the Confederacy put on the head of Major Marquis?",
+      "scene": 9
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Yeah.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Ah, them hillbillies went nigger head-hunting. They just never did get 'em the right nigger head, did they?",
+      "scene": 9
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "No, they didn't. But it wasn't for lack of trying. Them peckerwoods left their homes and families, and come up this snowy mountain looking for me and fortune. Ain't none of 'em found fortune. The ones you ain't never heard of no more, they found me.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Now, it didn't stay $30,000 the length of the war. Once passions cooled, it dropped down to eight, then five. But I bet even when it was 5,000, you had your share of country boys coming to call.",
+      "scene": 9
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Mm, you know I did.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Why'd they have a reward on you?",
+      "scene": 9
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Confederates took exception to my capacity for killing 'em. And after I broke out of Wellenbeck, well, the South took my continued existence as a personal affront. And the Cause put a reward on my head.",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "What's, uh, Wellenbeck?",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "You ain't never heard of Wellenbeck prisoner of war camp, West Virginia?",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "No, reb, I ain't never heard of it. Did you bust out?",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Major Marquis did more than bust out. Major Marquis had a bright idea. So bright, you got to wonder why nobody never thought about it before. Tell John Ruth your bright idea.",
+      "scene": 9
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Well, the whole damn place was just made out of kindling. So I burnt it down.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "There was a rookie regiment spending overnight in the camp. 47 men burnt to a crisp. Southern youth, farmers' sons, cream of the crop.",
+      "scene": 9
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "And I say, \"Let 'em burn.\" I'm supposed to apologize for killing Johnny Reb? You joined the war to keep niggers in chains. I joined the war to kill white Southern crackers. And that means killing 'em any way I can. Shoot 'em, stab 'em, drown 'em, burn 'em, drop a big 0l' rock on their head. Whatever it took to put white Southern crackers in the ground, that's what I joined the war to do. And that's what I did.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "To answer your question, John Ruth, when Major Marquis burned 47 men alive, for no more reason than to give a nigger a run for the trees, that's when the South put a reward on the head of Major Marquis.",
+      "scene": 9
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "And I made them trees, Mannix. You best believe I ain't looked back till I crossed the Northern line.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Oh, but you had a surprise waiting for you on the Northern side, didn't you? See, once they started pulling out all them burnt bodies at Wellenbeck, seems not all them boys were rebs. Why, you burn up some of your own boys, didn't you, Major? How many burnt prisoners they end up finding? Wasn't the final Yankee death count something like 37?",
+      "scene": 9
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "That's the thing about war, Mannix. People die.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "So you gonna chalk it up to \"war is hell,\" huh? Well, admittedly, that is a hard argument to argue with. But if memory serves, your side didn't look at it that way. I think they thought 37 white men for one nigger wasn't so hot a trade. I do believe they accused you of being a kill-crazy nigger who only joined the war to kill white folks, and the whole blue and gray of it all really didn't matter that much to you. And that's why they drummed your black ass out of the cavalry with a yellow stripe down your back. Isn't it, Major?",
+      "scene": 9
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Horseshit! If he'd have did all that, the cavalry would've shot him.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well, I didn't say they could prove it. But they sure did think it out loud, didn't they, Major? But Warren's war record was stellar, and that's what saved his ass. Now, you killed yourself your share of redskins in your day, didn't you, Black Major? Cavalry tends to look kindly on that.",
+      "scene": 9
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "I'll tell you what the cavalry didn't look kindly on. Mannix's Marauders, that's what. And the fact that Erskine Mannix's little boy would talk about anybody else's behavior during war time makes me want to horse-laugh.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Don't you say anything about my daddy. What he fought for was dignity in defeat, and against the unconditional surrender. We weren't foreign barbarians pounding on the city walls. We were your brothers. We deserved dignity in defeat.",
+      "scene": 9
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Just how many nigger towns did y'all sack in your fight for dignity in defeat?",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Oh, my fair share, Black Major. 'Cause when niggers are scared, that's when white folks are safe.",
+      "scene": 9
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You gonna talk that hateful nigger talk, you can ride up top with O.B.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "You done got me talking politics. I didn't want to. Like I said, y'all, I'm just happy to be alive.",
+      "scene": 9
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "I think I'll scoot over here right by this window, and let this beautiful carriage rock me to sleep. And dream about how lucky I am.",
+      "scene": 9
+    },
+    {
+      "character": "BOB",
+      "text": "What the hell is going on? We weren't expecting another stage tonight!",
+      "scene": 10
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "Yeah, I can see you already got another one up in here.",
+      "scene": 10
+    },
+    {
+      "character": "BOB",
+      "text": "Just got through putting the horses away.",
+      "scene": 10
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "Well, this ain't the normal line, but we are stuck on the wrong side of a blizzard, so it looks like you're stuck with us. Are Minnie and Sweet Dave inside?",
+      "scene": 10
+    },
+    {
+      "character": "BOB",
+      "text": "They ain't here. I'm running the place while they're gone.",
+      "scene": 10
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Where's Minnie and Sweet Dave?",
+      "scene": 10
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "He says they ain't here. He's looking after the place while they're gone.",
+      "scene": 10
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Who are you?",
+      "scene": 10
+    },
+    {
+      "character": "BOB",
+      "text": "I'm Bob.",
+      "scene": 10
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Well, whoever you are, help O.B. with the horses.",
+      "scene": 10
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Get 'em out of this cold 'fore that blizzard hits us.",
+      "scene": 10
+    },
+    {
+      "character": "BOB",
+      "text": "You all right? Wait, wait, wait, wait, wait! I just put those other horses away. You need it done fast, you need to help.",
+      "scene": 10
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "I got two of my best men on it.",
+      "scene": 10
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "You heard him, freeloaders. Get to work! All right, you two, unhook the leaders. Come on, let's go.",
+      "scene": 10
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Open up!",
+      "scene": 10
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "You have to kick it open! Ya got to kick it open! Shut that door. There's a goddamn blizzard out there! Close the door!",
+      "scene": 10
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "You got to nail it shut. Hold it shut! There's a hammer and nails by the door! You have to nail it shut! There's a hammer and nails by the door.",
+      "scene": 10
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Give me a hammer.",
+      "scene": 10
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "You need, you need two pieces of wood! One ain't good enough! Two pieces of wood!",
+      "scene": 10
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "The fuckin' thing is busted!",
+      "scene": 10
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Not just one piece of wood!",
+      "scene": 10
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Give me another piece of wood.",
+      "scene": 10
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "I need a nail.",
+      "scene": 10
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Here.",
+      "scene": 10
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Jesus.",
+      "scene": 11
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "That door's a son of a gun. Who's the idiot who broke that, that Mexican fella?",
+      "scene": 11
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Oh, good heavens. A woman? Out in this white hell? You must be frozen solid, poor thing.",
+      "scene": 11
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Looks like Minnie's got her a full house.",
+      "scene": 11
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "When did you fellas arrive?",
+      "scene": 11
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "About 40 minutes ago.",
+      "scene": 11
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "That cowboy fella in the corner, that your driver?",
+      "scene": 11
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "No, no, he's a passenger. The driver lit out. Said he was going to spend the blizzard shacked up with a friend.",
+      "scene": 11
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Lucky devil.",
+      "scene": 11
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Jesus Christ, that's awful! Christ Almighty, what'd that Mexican fella do, soak his old socks in a pot?",
+      "scene": 11
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "I think we all felt the same way, but were a little too polite to say something.",
+      "scene": 11
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "He don't have that problem.",
+      "scene": 11
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Where's the well water?",
+      "scene": 11
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Uh, over there.",
+      "scene": 11
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "So, all three of you fellas headed to Red Rock when the blizzard stopped you, huh?",
+      "scene": 11
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Yes. All three of us were on that stagecoach out there.",
+      "scene": 11
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Coffee beans.",
+      "scene": 12
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Uh, over there.",
+      "scene": 12
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Get your hand out of there.",
+      "scene": 12
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "New sheriff of Red Rock's travelin' with us.",
+      "scene": 12
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Ah, sheriff of Red Rock, that'll be the day. He's a goddamn sheriff, I'm a monkey's uncle.",
+      "scene": 12
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Good. Then you can share bananas with your nigger friend in the stable.",
+      "scene": 12
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "So, the new sheriff of Red Rock is traveling with you?",
+      "scene": 12
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Oh, he's lying. He ain't sheriff of nothin'. He's a Southern renegade. He's just talking hisself out of freezing to death is all. What the fuck I tell you about talking, huh? I'll bust you in the mouth right in front of these people. I don't give a fuck!",
+      "scene": 12
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "You never gave your name, sir.",
+      "scene": 12
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "John Ruth.",
+      "scene": 12
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Are you a lawman?",
+      "scene": 12
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "I'm taking her to the law.",
+      "scene": 12
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "So you're a bounty hunter?",
+      "scene": 12
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "That's right, buster.",
+      "scene": 12
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Do you have a warrant?",
+      "scene": 12
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Yeah, course I do.",
+      "scene": 12
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "May I see it?",
+      "scene": 12
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Why?",
+      "scene": 12
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Ah. You're supposed to produce it upon request. How am I supposed to know you're not a villain, kidnapping this woman, without a warrant in your possession?",
+      "scene": 12
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "What's your name, buster?",
+      "scene": 12
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Well, it certainly isn't Buster. It's Oswaldo Mobray.",
+      "scene": 12
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Oswaldo?",
+      "scene": 12
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Yes.",
+      "scene": 12
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Well, I got my warrant, Oswaldo.",
+      "scene": 12
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "I take it you're Daisy Domergue?",
+      "scene": 13
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "That's her.",
+      "scene": 13
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Uh, it says here \"dead or alive.\"",
+      "scene": 13
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Yeah. It does.",
+      "scene": 13
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Well, transporting a desperate, hostile prisoner such as her sounds like hard work. Wouldn't transporting her be easier if she were dead?",
+      "scene": 13
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Well, no one said the job was supposed to be easy.",
+      "scene": 13
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "And why is her hanging proper so important to you?",
+      "scene": 13
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Let's just say I don't like cheatin' the hangman. He got to make a living, too.",
+      "scene": 13
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Well, I appreciate that. Allow me to properly introduce myself. I'm Oswaldo Mobray, the hangman in these parts.",
+      "scene": 13
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Looks like... I brought you a customer.",
+      "scene": 13
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Yeah, so it would appear.",
+      "scene": 13
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "You ever spent two days or more locked up with one of your customers before?",
+      "scene": 13
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "I can't say I have.",
+      "scene": 13
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Don't talk to my prisoner. I talk to my prisoner. That's it. You got it?",
+      "scene": 13
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "I got it. Jolly good.",
+      "scene": 13
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "You got anything in here besides coffee that can help warm us up?",
+      "scene": 13
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Well, the bar is open.",
+      "scene": 13
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Follow moi.",
+      "scene": 13
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You're all right, you're all right.",
+      "scene": 14
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "Come on, goddamn it. I'm cold!",
+      "scene": 14
+    },
+    {
+      "character": "BOB",
+      "text": "I'll feed and water the horses. You go inside and get some hot coffee. Got some stew cooking. Should be done soon.",
+      "scene": 14
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Now, look. No matter how bad this blizzard gets, we still got to feed these horses and take a squat from time to time. So me and Chris better lay out a line from the stable to the front door and from the front door to the shithouse. Okay?",
+      "scene": 14
+    },
+    {
+      "character": "BOB",
+      "text": "Good idea.",
+      "scene": 14
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Come on, Chris.",
+      "scene": 14
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "I'll give you a hand.",
+      "scene": 14
+    },
+    {
+      "character": "BOB",
+      "text": "Oh, no, no, no, no, no. Go inside. Get warm.",
+      "scene": 14
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "You're doin' stable work in a goddamn blizzard. I offer to help, you say no?",
+      "scene": 14
+    },
+    {
+      "character": "BOB",
+      "text": "You're right, amigo.",
+      "scene": 14
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Follow me.",
+      "scene": 14
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "We're gonna drop one every ten paces, from here to the door.",
+      "scene": 14
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Yeah!",
+      "scene": 14
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "All right!",
+      "scene": 14
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Now, you're wanted for murder. For the sake of my analogy, let's just assume that you did it. Now, John Ruth wants to take you back to Red Rock to stand trial for murder. And if you're found guilty, the people of Red Rock will hang you in the town square. And, as the hangman, I will perform the execution.",
+      "scene": 15
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "And if all those things end up taking place, that's what civilized society calls justice.",
+      "scene": 15
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "However, if the relatives and the loved ones of the person you murdered were outside that door right now, and after busting down that door, they drug you out into the snow and hung you up by the neck, that would be frontier justice. Now, the good part about frontier justice is it's very thirst-quenching. The bad part is it's apt to be wrong as right.",
+      "scene": 15
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Well, not in your case. In your case, you'd have it coming. But other people, maybe not so much.",
+      "scene": 15
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "But ultimately, what's the real difference between the two? The real difference is me. The hangman. To me, it doesn't matter what you did. When I hang you, I'll get no satisfaction from your death. It's my job. I hang you in Red Rock. I move on to the next town. I hang someone else there. The man who pulls the lever that breaks your neck will be a dispassionate man. And that dispassion is the very essence of justice. For justice delivered without dispassion is always in danger of not being justice.",
+      "scene": 15
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "No offense, cowboy fella. Just gettin' your attention.",
+      "scene": 16
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Yeah, well... you got it.",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "What you writin', friend?",
+      "scene": 16
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Only thing I'm qualified to write about.",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "What's that?",
+      "scene": 16
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "My life story.",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "You're writing your life story?",
+      "scene": 16
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "You bet I am.",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Am I in it?",
+      "scene": 16
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "You just entered.",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Well, you like writing stories so much, why don't you tell me the story that brings you here?",
+      "scene": 16
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Who's asking?",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "I am. John Ruth. I'm bringing in this one to Red Rock to hang. And ain't no way I'm spending a couple of nights under a roof with somebody I don't know who they are, and I don't know who you are. So, who are you?",
+      "scene": 16
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Joe Gage.",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "What?",
+      "scene": 16
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "That's my name. Joe Gage.",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Okay, Joe Gage. Why you going to Red Rock?",
+      "scene": 16
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "I ain't, I ain't, I ain't going to Red Rock.",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Where you going?",
+      "scene": 16
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "About nine miles outside of Red Rock.",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "What's there?",
+      "scene": 16
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "My mother.",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Your mother?",
+      "scene": 16
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Listen, I'm just a cowpuncher. I just, uh, got back from a long drive, and... and I wasn't just an ass in a saddle this time. I was a partner. First time in my life I made a pretty penny.",
+      "scene": 16
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "And, uh, figured I'd come home and spend time with my mother for Christmas.",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Now, that's funny. 'Cause you don't look like the coming-home-for-Christmas type.",
+      "scene": 16
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Yeah, well, you know, looks can be deceiving.",
+      "scene": 16
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Because I definitely am a coming-home-for-Christmas-to-spend- time with-Mother type.",
+      "scene": 16
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Christmas with Mother, I mean, uh, it's a wonderful thing.",
+      "scene": 16
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Now, is that, uh, good enough for you, John Ruth?",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "For now. You steer clear of my prisoner.",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Hello, old-timer.",
+      "scene": 16
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "General.",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "General.",
+      "scene": 16
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "You, sir, are a hyena.",
+      "scene": 16
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "I have no wish to speak to you.",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "I've been called worse.",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Fair enough, General. Sorry to bother you.",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "You gotta kick it open! Gotta kick it open!",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Close it! Close it! It doesn't have a latch. It's already cold enough in here!",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "You gotta nail it shut!",
+      "scene": 16
+    },
+    {
+      "character": "BOB",
+      "text": "The hammer and nails by the door.",
+      "scene": 16
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "There's a hammer and nails right there!",
+      "scene": 16
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Ah, God!",
+      "scene": 16
+    },
+    {
+      "character": "BOB",
+      "text": "Hold this here, Chris.",
+      "scene": 16
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Really nail it in!",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "You need two pieces of wood. You gotta hammer another one.",
+      "scene": 16
+    },
+    {
+      "character": "BOB",
+      "text": "One ain't good enough! It's gonna blow right open! Now, goddamn it!",
+      "scene": 16
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Gonna open if you don't ham...",
+      "scene": 16
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Shut up! Ah, got it!",
+      "scene": 16
+    },
+    {
+      "character": "BOB",
+      "text": "Son of a bitch!",
+      "scene": 16
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Jesus Christ. That's door's a whore.",
+      "scene": 16
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "I get it. \"Haberdashery.\" That was a joke. How's the coffee?",
+      "scene": 16
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Now? Pretty good, if I do say so myself.",
+      "scene": 16
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Thank you.",
+      "scene": 16
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Navajo! Guess who he is.",
+      "scene": 17
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Buffalo Bill?",
+      "scene": 17
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Hardly. No. I'm... Oswaldo Mobray. I'm the...",
+      "scene": 17
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "He's the hangman of Red Rock.",
+      "scene": 17
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Oh, you are?",
+      "scene": 17
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Yes, I am.",
+      "scene": 17
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well... good to meet you, Mr...",
+      "scene": 17
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Mobray.",
+      "scene": 17
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "I'm Chris Mannix. The new sheriff in Red Rock.",
+      "scene": 17
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Really?",
+      "scene": 17
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Pfft, horseshit!",
+      "scene": 17
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Pay no attention to him.",
+      "scene": 17
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Horseshit!",
+      "scene": 17
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Fella warmin' himself by that potbelly stove is a hell of a driver named O.B.",
+      "scene": 17
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "That's the only thing you've said that's the truth.",
+      "scene": 17
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "You comin' into Red Rock to hang Lance Lawson?",
+      "scene": 17
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Precisely.",
+      "scene": 17
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Do you have the execution orders on you?",
+      "scene": 17
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "In my bag.",
+      "scene": 17
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "May I see 'em?",
+      "scene": 17
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Of course.",
+      "scene": 17
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Who's, uh, who's Lance Lawson?",
+      "scene": 17
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "He's a fella been sittin' in the Red Rock jail about a month now. He's the fella who shot the fella who was sheriff 'fore me.",
+      "scene": 17
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Precisely.",
+      "scene": 17
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Thank you.",
+      "scene": 17
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "What did she mean when she said, \"The bounty hunter's nigger friend in the stable\"?",
+      "scene": 17
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "He's got a nigger bounty hunter friend in the stable.",
+      "scene": 17
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "But all that just to guard her?",
+      "scene": 17
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Uh, I don't think that was the original idea, but that's the idea now.",
+      "scene": 17
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Want a little snake bite in your coffee?",
+      "scene": 17
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Yeah.",
+      "scene": 17
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Five of you? Well, well, well, looks like Minnie's Haberdashery is about to get cozy for the next few days.",
+      "scene": 17
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Yes, it does.",
+      "scene": 17
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Are you the chap with the Lincoln letter?",
+      "scene": 17
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "The Lincoln what?",
+      "scene": 17
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Yes. The letter from Abraham Lincoln.",
+      "scene": 17
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "President Abraham Lincoln?",
+      "scene": 17
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Yes. Weren't you pen pals?",
+      "scene": 17
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "With the president?",
+      "scene": 17
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Well, I'm sorry, I heard that somebody in your party had a letter from Abraham Lincoln. I assumed it was you.",
+      "scene": 17
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Not him! Black fella in the stable.",
+      "scene": 17
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "The nigger... in the stable has a letter from Abraham Lincoln?",
+      "scene": 17
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Yeah.",
+      "scene": 17
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "The nigger in the stable has a letter from Abraham Lincoln?",
+      "scene": 17
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "What'd you say your name was again?",
+      "scene": 18
+    },
+    {
+      "character": "BOB",
+      "text": "Bob.",
+      "scene": 18
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Warren. Minnie and Sweet Dave in there?",
+      "scene": 18
+    },
+    {
+      "character": "BOB",
+      "text": "Minnie and Sweet Dave went to visit her mother on the north side of the mountain.",
+      "scene": 18
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "What? Minnie ain't here?",
+      "scene": 18
+    },
+    {
+      "character": "BOB",
+      "text": "Yes, they're visiting her mother.",
+      "scene": 18
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Her mother?",
+      "scene": 18
+    },
+    {
+      "character": "BOB",
+      "text": "Yes.",
+      "scene": 18
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Never knew Minnie had a mother.",
+      "scene": 18
+    },
+    {
+      "character": "BOB",
+      "text": "Well, everybody's got a mother.",
+      "scene": 18
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yeah, I suppose.",
+      "scene": 18
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "And she left you in charge?",
+      "scene": 18
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "That sure don't sound like Minnie.",
+      "scene": 18
+    },
+    {
+      "character": "BOB",
+      "text": "Are you calling me a liar?",
+      "scene": 18
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Well, not yet I ain't. Just sounds peculiar is all.",
+      "scene": 18
+    },
+    {
+      "character": "BOB",
+      "text": "What sounds peculiar?",
+      "scene": 18
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Well, first off, Minnie never struck me as the sentimental type. And secondly, I can't imagine Sweet Dave lifting his fat ass out his chair long enough to fetch well water unless Minnie was laying a frying pan upside his head, let alone take a trip to the north side.",
+      "scene": 18
+    },
+    {
+      "character": "BOB",
+      "text": "Well, that sounds a whole lot like you're calling me a liar, mi negro amigo.",
+      "scene": 18
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yeah, it do sound a whole lot like that, don't it?",
+      "scene": 18
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "But I still ain't done it yet.",
+      "scene": 18
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Minnie still serve food?",
+      "scene": 18
+    },
+    {
+      "character": "BOB",
+      "text": "Do you consider stew food?",
+      "scene": 18
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yes.",
+      "scene": 18
+    },
+    {
+      "character": "BOB",
+      "text": "Then we serve food.",
+      "scene": 18
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "She still stinking up the place with Old Quail pipe tobacco?",
+      "scene": 18
+    },
+    {
+      "character": "BOB",
+      "text": "Minnie doesn't smoke a pipe. She rolls her own. Red Apple Tobacco. But, mi negro amigo, I think you already know this.",
+      "scene": 18
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yeah, I do, Senor Bob. Just seeing if you do.",
+      "scene": 18
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Thank you.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well, cut my legs off and call me Shorty. Is that General Sanford Smithers I see?",
+      "scene": 19
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "You got a good eye, son.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Ha! Well, I'll be double-dog damned! General Sandy \"Don't Give a Damn\" Smithers? Captain Chris Mannix, Mannix's Marauders.",
+      "scene": 19
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "Erskine's boy?",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Yes, sir.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Uh... may I sit down, sir?",
+      "scene": 19
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "Well, according to the Yankees, it's a free country.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "General Sandy Smithers. Boy... oh, boy, did my daddy talk about you! I heard you gave those Blue Bellies sweet hell.",
+      "scene": 19
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "Me and my boys did our part. Just like Erskine and his boys did their part.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Hell yeah, we did. Yankee sons of bitches.",
+      "scene": 19
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "I never knew your father, son. But I always respected his resolve.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well, thank you for saying that, General. Your respect would have meant the world to him.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Can I get you some coffee?",
+      "scene": 19
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "That'd be nice.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well, how about a blanket?",
+      "scene": 19
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "That'd be even nicer.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Hell, you know what? You can have mine.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Here we go, General.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "So what brings you out Wyoming way, sir? If you don't mind my askin'.",
+      "scene": 19
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "My boy.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Oh, you got a boy that lives in Red Rock?",
+      "scene": 19
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "My son. Chester Charles Smithers. He died out here a few years back.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Oh, forgive me, sir.",
+      "scene": 19
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "There's no forgiveness needed,son. Like I said, it was a few years back. It was after he'd served his service.",
+      "scene": 19
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "He came out here to the hills of Wyoming... to make his fortune.",
+      "scene": 19
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "Never to be heard from again.",
+      "scene": 19
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "I bought him a symbolic plot... in the Red Rock cemetery. And I'm here to advise a stone maker on his headstone.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Was he a goner for sure? No chance he could be livin' the cold life out in the woods? It's a rough life, but folks can learn it.",
+      "scene": 19
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "If he'd have done what he came out here to do, he'd have come home.",
+      "scene": 19
+    },
+    {
+      "character": "BOB",
+      "text": "Close it, close it!",
+      "scene": 19
+    },
+    {
+      "character": "BOB",
+      "text": "You have to hold it closed while I nail it shut.",
+      "scene": 19
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Well, who's the idiot broke the damn door?",
+      "scene": 19
+    },
+    {
+      "character": "BOB",
+      "text": "Oh, just fucking hold it closed!",
+      "scene": 19
+    },
+    {
+      "character": "BOB",
+      "text": "Hold it closed.",
+      "scene": 19
+    },
+    {
+      "character": "BOB",
+      "text": "One more.",
+      "scene": 19
+    },
+    {
+      "character": "BOB",
+      "text": "Keep holding, keep holding, my negro amigo.",
+      "scene": 19
+    },
+    {
+      "character": "BOB",
+      "text": "We need two pieces of wood.",
+      "scene": 19
+    },
+    {
+      "character": "BOB",
+      "text": "All right. There you go, motherfucker!",
+      "scene": 19
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Lot of hats, Senor Bob. Considering Minnie's \"no hats indoors\" policy, which, if I remember correctly, was one of them Bar of Iron rules. Kind of rule she'd want kept up in her absence. You seem to have a laissez- faire attitude when it come to the hats.",
+      "scene": 19
+    },
+    {
+      "character": "BOB",
+      "text": "I'm guilty. I have a laissez-faire attitude about the hats. How about we forget about the hats today considering there is a blizzard going on and on? We'll make tomorrow \"No Hat Day\"!",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "A large black dog.",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Labrador.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "You know, my daddy... I said that my daddy... always said that Davis was a COUTHQGOUS man, but he should've put the capital in Montgomery and not Richmond. Yes, sir. I agree with that. The army in northern Virginia would've been used in a very different way. I said the army of north Virginia would've been used in a very different way!",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Shut up!",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Do you know that nigger, sir?",
+      "scene": 19
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "I don't know that nigger. But I know he's a nigger, and that's all I need to know.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well... that nigger just ain't any nigger. That nigger, he...",
+      "scene": 19
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "General Sanford Smithers? Battle of Baton Rouge?",
+      "scene": 19
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "Inform the nigger in the cavalry officer's uniform that I had a division of Confederates under my command... in Baton Rouge.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Major Nigger, General Smithers wishes me to inform you...",
+      "scene": 19
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "I heard him, hillbilly. Inform this old cracker that I was in Baton Rouge also. On the other side.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Oh, that's interesting. Uh, General Smithers, he said that he was also in Baton Rouge on the other Si...",
+      "scene": 19
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "Captain Mannix, tell the nigger that I don't acknowledge niggers in Northern uniforms.",
+      "scene": 19
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You captured a whole colored command that day... but not one colored trooper made it to a camp, did they?",
+      "scene": 19
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "We didn't have the time or the food... nor the inclination... to care for Northern horses and least of all... Northern niggers! So we shot 'em where they stood!",
+      "scene": 19
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Gentlemen. Gentlemen.",
+      "scene": 19
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "I know Americans aren't apt to let a little thing like unconditional surrender get in the way of a good war. But I strongly suggest we don't restage the Battle of Baton Rouge during a blizzard in Minnie's Haberdashery.",
+      "scene": 19
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Now, uh... my Nubian friend... while I realize passions are high, that was a while ago. And if you shoot this unarmed old man, I guarantee I will hang you by the neck until you are dead once we arrive in Red Rock.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "I damn well guarantee that, too.",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Yeah, Warren, that's the problem with old men. You can kick 'em down the stairs and say it's a accident, but you can't just shoot 'em.",
+      "scene": 19
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Uh, gentlemen... since we may be trapped here, close together-like, for a few days, may I suggest a possible solution? We divide Minnie's in half. The Northern side and the Southern side. With the dinner table... operating as a... neutral territory. We could say that the fireplace... side of the room acts as a... a symbolic representative of... Georgia. While the bar... represents...",
+      "scene": 19
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Philadelphia!",
+      "scene": 19
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Long as the bar's Philadelphia... I agree.",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "We still got that deal we talked about in the wagon? I help you protect your $8,000, you help me protect my ten?",
+      "scene": 19
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yeah, I suppose.",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "One of them fellas is not what he says he is.",
+      "scene": 19
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "What is he?",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "In cahoots with this one, that's what he is. One of them, maybe even two of them, is here to see Domergue goes free. To accomplish that goal, they'll kill everybody in here. They got 'em a couple of days, so all they got to do is sit tight and wait for a window of opportunity. And that's when they strike.",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Huh, bitch?",
+      "scene": 19
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "If you say so, John.",
+      "scene": 19
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Are you sure you ain't just being paranoid?",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Our best bet is this duplicitous fella ain't as cool a customer as Daisy here. He won't have the leather patience it takes to just sit here and... wait. Waiting for an opportunity and knowing it's the right one isn't so easy. He can't handle it, he'll stop waitin'. Try and create his opportunity, and that's when Mr. Jumpy reveals himself.",
+      "scene": 19
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Now, what you got to say about all this?",
+      "scene": 19
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "What do I got to say? About John Ruth's ravings? He's absolutely right. Me and one of them fellas is in cahoots. We're just waiting for everybody to go to sleep. That's when we're gonna kill y'all.",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Okay, everybody.",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Hear this.",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "This here is Daisy Domergue. She's wanted dead or alive for murder. $10,000. That money's mine, boys. Don't want to share it, and I ain't gonna lose it. When that sun comes out, I'm taking this woman into Red Rock to hang.",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Now...",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "is there anybody here committed to stoppin' me... from doing that?",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Really? Nobody got a problem with this?",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Well... I guess that's very fortunate for me. However... I hope you all understand I can't just... take your word. Circumstances force me to... take... precautions.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "When you say... \"precautions\"... why do I feel that you mean me?",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Because I'm gonna take your gun, son.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "You are?",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Yes, I am. Nothing personal.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Just mine? Hangman's got himself a gun, too.",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "I'll be dealing with his gun after I deal with yours.",
+      "scene": 19
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "I feel kind of... naked without it.",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Oh, I still got mine.",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "I'll protect you.",
+      "scene": 19
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "A bastard's work is never done. Huh, John Ruth?",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "That's right, Joe Gage. Now, give me the gun.",
+      "scene": 19
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "If you want it...",
+      "scene": 19
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "you're gonna have to come and take...",
+      "scene": 19
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Calm down.",
+      "scene": 19
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Take your hand away from your gun.",
+      "scene": 19
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Blink if you're calm.",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "He blink?",
+      "scene": 19
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "He blinked. Blink if you're gonna remain calm.",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "He blinked.",
+      "scene": 19
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Take his pistol.",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "I'm real sorry about this, son.",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Like I said... nothing personal, just... a precaution.",
+      "scene": 19
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Afraid the same applies to you, too, Mr Mobray.",
+      "scene": 20
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Ah, precautions must be taken because life is too sweet to lose.",
+      "scene": 20
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Hand me that little bucket.",
+      "scene": 20
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "O.B.",
+      "scene": 20
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Go to the outhouse. Take this bucket and... dump it down the shithole.",
+      "scene": 20
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "Why do I got to go outside?",
+      "scene": 20
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Well, yourjacket's already on, and I sorta kinda trust you.",
+      "scene": 20
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "So, Domergue... I suppose this blizzard counts as a stroke of luck far as you're concerned.",
+      "scene": 21
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "You don't hear me complainin', do ya?",
+      "scene": 21
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "No, I sure don't.",
+      "scene": 21
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well, how 'bout you, Oswaldo?",
+      "scene": 21
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "How 'bout me what?",
+      "scene": 21
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Look... considering all the things I done for money, I ain't one to judge, but... don't you feel just the least little bad about hangin' a woman?",
+      "scene": 21
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Well, until they invent a trigger a woman can't pull, if you're a hangman, you're going to hang women.",
+      "scene": 21
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well, hell, Ozzie, I guess I ain't never looked at it like that before.",
+      "scene": 21
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "When it comes to some of them mean bastards out there, it's the only thing does the job. You really only need to hang mean bastards. But mean bastards, you need to hang.",
+      "scene": 21
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "You goddamn son of a bitch! I almost died out there!",
+      "scene": 21
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "I ain't ever... going out in that shit ever, ever again!",
+      "scene": 21
+    },
+    {
+      "character": "BOB",
+      "text": "You okay, O.B.?",
+      "scene": 22
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "I'm fine. I'll be fine. I just need to get warm.",
+      "scene": 22
+    },
+    {
+      "character": "BOB",
+      "text": "You want some stew, O.B.?",
+      "scene": 22
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "Stew? Later.",
+      "scene": 22
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "Oh, yeah. That's nice.",
+      "scene": 22
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "So... how you doing, Black Major?",
+      "scene": 23
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "I ain't in the mood, Chris Mannix. Leave me be from your horseshit.",
+      "scene": 23
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "John Ruth says you got a Lincoln letter.",
+      "scene": 23
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "I told you, jackass, go hee-haw someplace else.",
+      "scene": 23
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "That's right, John. You did say that, didn't you?",
+      "scene": 23
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Yeah. I did.",
+      "scene": 23
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "So... you got a letter from Abraham Lincoln?",
+      "scene": 23
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yes.",
+      "scene": 23
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "The Abraham Lincoln?",
+      "scene": 23
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yes.",
+      "scene": 23
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Abraham Lincoln? The president of the United States?",
+      "scene": 23
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yes.",
+      "scene": 23
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Of America?",
+      "scene": 23
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yes.",
+      "scene": 23
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Wrote you a letter... personally?",
+      "scene": 23
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yes.",
+      "scene": 23
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Personally, as in \"Dear Major Warren\"?",
+      "scene": 23
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "No, personally, as in \"Dear Marquis.\"",
+      "scene": 23
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Abraham Lincoln, the president of the United States of America?",
+      "scene": 23
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yes.",
+      "scene": 23
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "May I see it?",
+      "scene": 23
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "No, you may not.",
+      "scene": 23
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "But the way John tells it, you weren'tjust some random nigger soldier picked from a pile of letters. Way John tells it... y'all had a correspondence.",
+      "scene": 23
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yes.",
+      "scene": 23
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "The way John tells it... y'all was practically pen pals.",
+      "scene": 23
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yes.",
+      "scene": 23
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "And a pen pal's... practically a friend.",
+      "scene": 23
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "John Ruth... you really think a nigger, drummed out of the cavalry with a yellow stripe down his back, was practically friends with the president of the United States of America?",
+      "scene": 23
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "John Ruth, I hate to be the one to break it to you, but ain't nobody in Minnie's Haberdashery ever corresponded with Abraham Lincoln. Least of all, that nigger there!",
+      "scene": 23
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Was all that horseshit?",
+      "scene": 23
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Course it was.",
+      "scene": 23
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Good one, Warren! Talk that sass, nigger! Talk that sass!",
+      "scene": 23
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Well, I guess it's true what they say about you people.",
+      "scene": 23
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Can't trust a fuckin' word comes out of your mouth.",
+      "scene": 23
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "What's the matter, John Ruth? I hurt your feelings?",
+      "scene": 23
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "As a matter of fact... you did.",
+      "scene": 23
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "I know... I'm the only black son of a bitch you ever conversed with, so I'm gonna cut you some slack. But you got no idea what it's like being a black man facin' down America. Only time black folks is safe is when white folks is disarmed. And this letter had the desired effect of disarmin' white folks.",
+      "scene": 23
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Call it what you want.",
+      "scene": 23
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "I call it a dirty fuckin' trick.",
+      "scene": 23
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You want to know why I lie about somethin' like that, white man?",
+      "scene": 23
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Got me on that stagecoach, didn't it?",
+      "scene": 23
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well, I'll tell you like the good Lord told John. A letter from Abraham Lincoln wouldn't have had that kind of effect on me. I might let a whore piss on it.",
+      "scene": 23
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "I spit on it.",
+      "scene": 23
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Good for you, sister!",
+      "scene": 23
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Warren. Goddamn it... you leave that old man alone.",
+      "scene": 24
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Stand down, you son of a bitch. I shared a battlefield with this man. Or would you deny me that, too?",
+      "scene": 24
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "I suppose you were there.",
+      "scene": 24
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "May I join you?",
+      "scene": 24
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "Yes, you may.",
+      "scene": 24
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "So, how's life since the war?",
+      "scene": 25
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "Got both my legs. Both my arms. I can't complain.",
+      "scene": 25
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Got a woman?",
+      "scene": 25
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "Fever took her start of this last winter.",
+      "scene": 25
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "What was her name?",
+      "scene": 25
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "Betsy.",
+      "scene": 25
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Georgia gal?",
+      "scene": 25
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "Augusta. Atlanta boy, Augusta girl.",
+      "scene": 25
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "I used to raise Kentucky horses. And her pa was the owner of the breedership where I bought most of my ponies.",
+      "scene": 25
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "Goddamn it. I made a good deal on her. Took the stake he gave me and bought a bunch of peach orchards. Set myself up pretty well. Did a hell of a lot better than either one of my no- good brothers, that's for damn sure.",
+      "scene": 25
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yeah, your boy come up here a few years back.",
+      "scene": 25
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "He spoke highly of his mama, too.",
+      "scene": 25
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "You knew my boy?",
+      "scene": 25
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Did I know him? Yep. Yeah, I knew him.",
+      "scene": 25
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "You did not know my boy.",
+      "scene": 25
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Suit yourself.",
+      "scene": 25
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "Did you know my son?",
+      "scene": 25
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "I know the day he died. Do you?",
+      "scene": 25
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "No.",
+      "scene": 25
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Do you want to know what day that was?",
+      "scene": 25
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "Yes.",
+      "scene": 25
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "The day... he met me.",
+      "scene": 25
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "He come up here to do a little nigger head-huntin'. By then, the reward was, oh... $5,000 and braggin' rights. But to battle-hard rebs, $5,000 just to cut off a nigger's head? That's good money. So them Johnnies climbed this mountain, lookin' for fortune. There wasn't no fortune to be found. All they found... was me.",
+      "scene": 26
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "All them crackers come up here sang a different tune when they found theyself at the mercy of a nigger's gun.",
+      "scene": 26
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Let's just forget it. I'll go my way, you go your'n. That's your boy Chester talkin'.",
+      "scene": 26
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "You're a goddamn lie!",
+      "scene": 26
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "\"If you just let me go home to my family, I swear... I'll never set foot in Wyoming again.\"",
+      "scene": 26
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "That's what they all said.",
+      "scene": 26
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Beggin' for his life...",
+      "scene": 26
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "your boy told me his whole life story.",
+      "scene": 26
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "And you... was in that story, General.",
+      "scene": 26
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "And when I knew me I had the son... of the Bloody Nigger Killer of Baton Rouge... I knew me I was gonna have some fun.",
+      "scene": 26
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "You shut your lyin' nigger lips up!",
+      "scene": 26
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "General Smithers, don't you listen to him. He didn't know your boy. He just heard tell why you're here, is all.",
+      "scene": 26
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "It was cold the day I killed your boy. And I don't mean snowy-mountain Wyoming-cold, uh- uh. It was colder than that. And on that cold day, with your boy at the business end of my gun barrel, I made him strip... right down to his bare ass.",
+      "scene": 26
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Then I told him to start walkin'.",
+      "scene": 26
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "I walked his naked ass for two hours 'fore the cold collapsed him.",
+      "scene": 27
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "You never even knew my boy?",
+      "scene": 27
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "No, he didn't! He's just a sneaky nigger trying to get you to go for that gun.",
+      "scene": 27
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Then... he commenced to beggin' again. But this time, he wasn't beggin' to go home. Ah, he knew he'd never see his home again. He wasn't beggin' for his life, neither, 'cause he knew that was long gone. All he wanted...",
+      "scene": 27
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "was a blanket. Now, don't judge your boy too harshly, General. You ain't never been cold as your boy was that day.",
+      "scene": 27
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You'd be surprised what a man that cold would do for a blanket.",
+      "scene": 27
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You want to know what your boy did?",
+      "scene": 27
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "I pulled my big black pecker out of my pants... and I made him crawl through the snow on all fours over to it.",
+      "scene": 27
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Then I grabbed me a handful of that black hair at the back of his head...",
+      "scene": 27
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "and I stuck my big black Johnson right down his goddamn throat. And it was full of blood, so it was warm.",
+      "scene": 27
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Oh, you bet your sweet ass it was warm. And Chester Charles Smithers sucked on that warm black dingus for long as he could!",
+      "scene": 27
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You're startin' to see pictures, ain't ya? Your boy black dude's dingus in his mouth... him shakin', him cryin', me laughin'...",
+      "scene": 27
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "and him not understandin'.",
+      "scene": 27
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "But you understand, don't you, Sandy? I never did give your boy that blanket... even after all he did, and he did everything I asked.",
+      "scene": 27
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "No blanket. That blanket was just a heart-breakin' liar's promise. Kind of like those uniforms the Union issued those colored troops that you chose not to acknowledge.",
+      "scene": 27
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "So what you gonna do, old man?",
+      "scene": 27
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You gonna spend the next two, three days ignorin' the nigger that killed your boy? Ignorin' how I made him suffer? Ignoring how I made him... lick... all over my Johnson?",
+      "scene": 27
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Oh, the dumbest thing your boy ever did was to let me know... he was your boy.",
+      "scene": 27
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "John Ruth.",
+      "scene": 28
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Yeah.",
+      "scene": 28
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Can I play that guitar over there?",
+      "scene": 28
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "John Ruth.",
+      "scene": 29
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Yeah.",
+      "scene": 29
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Can I play that guitar over there?",
+      "scene": 29
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Yeah.",
+      "scene": 29
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "You come back with anything else but a guitar, my pistol plays a tune. \"Domergue's Death March.\" You got it?",
+      "scene": 29
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Yeah, yeah, yeah, I got it.",
+      "scene": 29
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "That's the one you like to sing in the stagecoach, huh?",
+      "scene": 30
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Yeah.",
+      "scene": 30
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "It's kinda pretty. Got another verse to it?",
+      "scene": 30
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Yeah, lots.",
+      "scene": 30
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Well, go ahead, sing it.",
+      "scene": 30
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Whatever you say, John.",
+      "scene": 30
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Give me that guitar.",
+      "scene": 31
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Music time's over!",
+      "scene": 31
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Turn around!",
+      "scene": 31
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "John! No, no, no!",
+      "scene": 31
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Yeah, yeah! Shut up!",
+      "scene": 31
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Oh, my God!",
+      "scene": 32
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Give me that fucking gun. Don't test me, bitch.",
+      "scene": 32
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Everybody! Get your backsides up against that back wall over yonder.",
+      "scene": 32
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Well, goddamn it!",
+      "scene": 32
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Get or don't get, Joe Gage. It's up to you.",
+      "scene": 32
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "I'm gettin'.",
+      "scene": 32
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Then get!",
+      "scene": 32
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You, too, Senor Bob.",
+      "scene": 33
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Everybody turn around and put your hands on that wall.",
+      "scene": 33
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Move them damn snowshoes!",
+      "scene": 33
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Everybody keep your mouths shut. Do like I say. You open your mouth, you gonna get a bullet. Move a little sudden, a little strange, you gonna get a bullet. Not a warnin', not a question. A bullet. You got that? Let me hear you say, \"I got it!\"",
+      "scene": 34
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "I got it.",
+      "scene": 34
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "I got it.",
+      "scene": 34
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "We have it.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Chris Mannix, come over here on this side. Come on.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Take this gun out my holster.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Point it at them.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Now, like I said, anybody does anything, and I mean anything, you kill 'em.",
+      "scene": 34
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "So... you finally decided I'm tellin' the truth about bein' the sheriff of Red Rock, huh?",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "I don't know about all that. But I know you ain't the killer poisoned that coffee, 'cause you almost drunk it your own damn self. One of them is.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Give me the key. Give me the key!",
+      "scene": 34
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "You motherfucking black bastard! You're gonna die on this mountain, and I'm gonna fucking laugh when you do!",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "What'd I say 'bout talkin'?",
+      "scene": 34
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Bastard.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Meant it, didn't I?",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "And you need to understand you just killed the only man here committed to gettin' you to Red Rock alive.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Now, one of y'all... is workin' with her. Or two of y'all is workin' with her. Or all y'all is.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "But only one of you poisoned the coffee.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Now, what charms this bitch got make a man brave a blizzard, kill in cold blood? I'm sure I don't know.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "But John Ruth's tryin' to hang your woman. So you kill him.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Maybe. But O.B. wasn't hangin' nobody.",
+      "scene": 34
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "He damn sure wasn't.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "But he sure enough layin' over there dead now, though, ain't he?",
+      "scene": 34
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "He damn sure is, you sons of bitches.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Just like any one of us would've drunk that coffee.",
+      "scene": 34
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Like me, goddamn it.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Now, those of y'all with your hands on the wall don't practice in poison need to think about that.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Think about how it could've been you rollin' around here on this floor. And how the man standin' next to you would be responsible.",
+      "scene": 34
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "And I know who I got my money on. Oh, that's right, Joe Gage. I'm lookin' at you.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Not so fast, Chris. We'll get there. Let's slow it down. Let's slow it way down.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Who made the coffee?",
+      "scene": 34
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "He did.",
+      "scene": 34
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Yeah, he did, didn't he?",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yeah, he did, didn't he? But it's the stew that's got me thinkin'.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Now, how long you said Minnie been gone? A week?",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "See... my mama used to make stew, and it always tasted the same, no matter the meat. And there was another fellow on the plantation, Uncle Charly. He made stew, too. And like my mama, I ate his stew from the time I was a whipper till I was a full- grown man.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "No matter the meat, it always tasted like Uncle Charly's stew. Now, I ain't had Minnie's stew in six months, so I ain't no expert. But that damn sure is... Minnie's stew. So if Minnie is on the north side visitin' her mama for a week, how'd she make the stew this mornin'?",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "And this... this is Sweet Dave's chair. When I sat in it earlier, I couldn't believe it. Nobody sits in Sweet Dave's chair. Uh, this may be Minnie's place, but this is damn sure Sweet Dave's chair.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "And if he went to the north side...",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "I'm pretty goddamn sure this chair be goin' with him.",
+      "scene": 34
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "What's in the chair?",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Just what I thought. Sweet Dave's goddamn blood.",
+      "scene": 34
+    },
+    {
+      "character": "BOB",
+      "text": "So, are you actually accusing me of murder?",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Way I see it, Senor Bob, is whoever is workin' with her ain't who they say they is. And if it's you, that means Minnie and her man ain't at her mama's. They layin' out back there dead somewhere. Or if it's you, little British man, the real Oswaldo Mobray layin' in a ditch somewhere and you just a English fella passin' off his papers.",
+      "scene": 34
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Or we go by my theory, which is the ugliest guy did it. Which makes it you, Joe Gage.",
+      "scene": 34
+    },
+    {
+      "character": "BOB",
+      "text": "So I take it you deduced the coffee was poisoned while you were murdering the old man?",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yes.",
+      "scene": 34
+    },
+    {
+      "character": "BOB",
+      "text": "Well, mi negro amigo, during that whole incident, I was sitting on that side of the room playing \"Silent Night\" on the piano.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Oh, I ain't say you poisoned the coffee. I said you didn't make the stew.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "My theory is...",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "you workin' with the man who poisoned the coffee, and both of y'all murdered Minnie, Sweet Dave and whoever else picked this bad-luck day to visit Minnie's Haberdashery this mornin'. And at some point, y'all intended to bushwhack John Ruth and free Daisy. But you didn't count on the blizzard, and you didn't count on the two of us.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "That's far as I got. How am I doing?",
+      "scene": 34
+    },
+    {
+      "character": "BOB",
+      "text": "You're a real imaginative nigger, ain't you? So, do you intend to murder me based on a far-fetched nigger theory, or can you prove it, cabron?",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "It ain't so far-fetched, Senor Bob.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "And it's a little bit more than a theory.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "How long you say you been workin' for Minnie?",
+      "scene": 34
+    },
+    {
+      "character": "BOB",
+      "text": "Four months.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "See, if you'd have been here two and a half years ago, you'd know 'bout that sign used to hang up over the bar. Minnie mention that to you?",
+      "scene": 34
+    },
+    {
+      "character": "BOB",
+      "text": "No.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You want to know what that sign said, Senor Bob?",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "\"No dogs or Mexicans allowed.\"",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Now, Minnie hung that sign up the day she opened this haberdashery. And it hung over that bar every day till she took it down a little over two years ago.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You know why she took it down? She started lettin' in dogs.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Now, Minnie liked just about everybody, but she sure don't like Mexicans.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "So when you tell me Minnie went to the north side to visit her mama, well, I find that highly unlikely. But okay, maybe.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "But when you tell me Minnie Mink took the haberdashery, the most precious thing to her in the whole world, and left it in the hands of a goddamn Mexican? Well, that's what I meant in the barn when I said that sure don't sound like Minnie.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Now I am calling you a liar, Senor Bob.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "And if you lyin', which you are then you killed Minnie. And Sweet Dave.",
+      "scene": 34
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Four measly bullets, and there goes Senor Bob.",
+      "scene": 35
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "But that still don't get us no closer to which one of y'all poisoned the coffee, though. Do it, Chris?",
+      "scene": 35
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "No, it sure don't.",
+      "scene": 35
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Now, one of y'all poisoned this coffee to free Daisy. If I don't hear a confession from one of you motherfuckers quick, fast and in a hurry, I'm gonna pour this whole pot of coffee down that bitch's goddamn throat. Okay. Time's up.",
+      "scene": 35
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Stop! All right, I did it. It was me. I poisoned the coffee.",
+      "scene": 35
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "I fuckin' knew it!",
+      "scene": 35
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "You gonna die now, you murderin' bastard! Major Warren, please let me send this ugly son of a bitch to hell. You killed O.B. He was worth ten of you. Warren, can I kill him?",
+      "scene": 35
+    },
+    {
+      "character": "JODY",
+      "text": "Say adios to your huevos.",
+      "scene": 35
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Major Warren!",
+      "scene": 35
+    },
+    {
+      "character": "ED",
+      "text": "Hey, Charly, my boy. How the hell are you?",
+      "scene": 36
+    },
+    {
+      "character": "CHARLY",
+      "text": "Hiya, Ed. Hiya, Judy.",
+      "scene": 36
+    },
+    {
+      "character": "CHARLY",
+      "text": "How many you got?",
+      "scene": 36
+    },
+    {
+      "character": "ED",
+      "text": "Full house today, friend.",
+      "scene": 36
+    },
+    {
+      "character": "CHARLY",
+      "text": "Got one in there waitin'.",
+      "scene": 36
+    },
+    {
+      "character": "ED",
+      "text": "Well he's gonna have to keep on waitin'. We ain't got no room.",
+      "scene": 36
+    },
+    {
+      "character": "CHARLY",
+      "text": "Well, you need to tell Minnie. 'Cause he been here two days, and Minnie wants him out of here.",
+      "scene": 36
+    },
+    {
+      "character": "ED",
+      "text": "Well, I can't give him a seat I don't have. Listen, why don't you take the passengers inside and introduce 'em to Minnie, warm yourself up and drink some coffee.",
+      "scene": 36
+    },
+    {
+      "character": "JUDY",
+      "text": "Here we are, everybody. Minnie's Haberdashery. Step outside, you and your friends can stretch your legs. When you're ready, step on inside, get warm by the fire, get some coffee in you. I'll introduce you to Minnie.",
+      "scene": 36
+    },
+    {
+      "character": "JUDY",
+      "text": "Hiya, Minnie!",
+      "scene": 36
+    },
+    {
+      "character": "JUDY",
+      "text": "Now, Minnie, I'm not tryin' to tell you how to run your business, but I would think coffee would be the first thing you'd make. Come on in, everybody. Don't be shy.",
+      "scene": 37
+    },
+    {
+      "character": "MINNIE",
+      "text": "Hats!",
+      "scene": 37
+    },
+    {
+      "character": "JUDY",
+      "text": "Everybody, this is Minnie, and this is her place. Behind me, pluckin' that chicken, is Gemma.",
+      "scene": 37
+    },
+    {
+      "character": "JUDY",
+      "text": "Lovely smile, that Gemma. Now, the fella in the uniform I don't know, but the one he's playing chess with is Sweet Dave. Hiya, Dave.",
+      "scene": 37
+    },
+    {
+      "character": "SWEET DAVE",
+      "text": "Hey, Judy.",
+      "scene": 37
+    },
+    {
+      "character": "JUDY",
+      "text": "And, Minnie, these are the passengers.",
+      "scene": 37
+    },
+    {
+      "character": "MINNIE",
+      "text": "Well, that's not good enough. Go on, take away them rags, let's see some faces, let's hear some names.",
+      "scene": 37
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Oswaldo Mobray, madam.",
+      "scene": 37
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Joe Gage.",
+      "scene": 37
+    },
+    {
+      "character": "BOB",
+      "text": "Bob.",
+      "scene": 37
+    },
+    {
+      "character": "JODY",
+      "text": "And I'm Jody. It's a pleasant surprise to find such a warm sanctuary in the middle of such a cold hell.",
+      "scene": 37
+    },
+    {
+      "character": "MINNIE",
+      "text": "Well, make yourself comfortable. Get warm by the fire.",
+      "scene": 37
+    },
+    {
+      "character": "JODY",
+      "text": "Uh, we're just gonna go warm ourselves by the stove, if that's all right.",
+      "scene": 37
+    },
+    {
+      "character": "MINNIE",
+      "text": "Oh, stove, fireplace, whatever. Just get warm.",
+      "scene": 37
+    },
+    {
+      "character": "JODY",
+      "text": "Oh, and Judy said somethin' about the best coffee in the world.",
+      "scene": 37
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Ah, yes. I do believe Judy did say something about the best coffee in the world.",
+      "scene": 37
+    },
+    {
+      "character": "MINNIE",
+      "text": "Well, I don't know about all that, but I tell you what it is. It's hot, it's strong, and it's good. And in this here snow, it sure enough warms your ass up.",
+      "scene": 37
+    },
+    {
+      "character": "JUDY",
+      "text": "You don't need to sell it, Minnie, you need to make it.",
+      "scene": 37
+    },
+    {
+      "character": "MINNIE",
+      "text": "And you need to get your ass out there and help Charly with them bags and get Ed in here.",
+      "scene": 37
+    },
+    {
+      "character": "JUDY",
+      "text": "Yes, ma'am. But fix that coffee.",
+      "scene": 37
+    },
+    {
+      "character": "MINNIE",
+      "text": "I'll fix you!",
+      "scene": 37
+    },
+    {
+      "character": "ED",
+      "text": "I don't know, some old man. Well, I don't know what I'm supposed to do about it.",
+      "scene": 37
+    },
+    {
+      "character": "JUDY",
+      "text": "I'm just telling you what she said. Anyway, she sent me out here to help Charly. She wants to talk to you.",
+      "scene": 37
+    },
+    {
+      "character": "ED",
+      "text": "Charly, you got a hold of these fellas?",
+      "scene": 37
+    },
+    {
+      "character": "CHARLY",
+      "text": "Got 'em, Ed.",
+      "scene": 37
+    },
+    {
+      "character": "JODY DOMERGUE",
+      "text": "Miss Minnie, would you roll me a cigarette?",
+      "scene": 38
+    },
+    {
+      "character": "MINNIE",
+      "text": "Sure, honey. I smoke Red Apple tobacco. That all right?",
+      "scene": 38
+    },
+    {
+      "character": "JODY DOMERGUE",
+      "text": "That's my favorite.",
+      "scene": 38
+    },
+    {
+      "character": "BOB",
+      "text": "Don't mind me, gentlemen. I'm just watching.",
+      "scene": 38
+    },
+    {
+      "character": "ED",
+      "text": "You DRY?",
+      "scene": 38
+    },
+    {
+      "character": "BOB",
+      "text": "You know, I must have had at least 12 people teach me that goddamn game. Just never could keep the moves in my head. But if I'm not disturbing, I'd like to watch.",
+      "scene": 38
+    },
+    {
+      "character": "ED",
+      "text": "Hell no. I like whippin' this old man's ass in front of a audience.",
+      "scene": 38
+    },
+    {
+      "character": "SWEET DAVE",
+      "text": "You ain't whippin' shit!",
+      "scene": 38
+    },
+    {
+      "character": "MINNIE",
+      "text": "Oh, that's real nice. What is that?",
+      "scene": 38
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "That's French.",
+      "scene": 38
+    },
+    {
+      "character": "MINNIE",
+      "text": "You speak French?",
+      "scene": 38
+    },
+    {
+      "character": "MINNIE",
+      "text": "What does that mean?",
+      "scene": 38
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "It means \"yes.\"",
+      "scene": 38
+    },
+    {
+      "character": "MINNIE",
+      "text": "Yes... Hey, hey, Dave, ask me if my ass is fat.",
+      "scene": 38
+    },
+    {
+      "character": "SWEET DAVE",
+      "text": "What?",
+      "scene": 38
+    },
+    {
+      "character": "MINNIE",
+      "text": "Ask me if my ass is fat.",
+      "scene": 38
+    },
+    {
+      "character": "SWEET DAVE",
+      "text": "It is.",
+      "scene": 38
+    },
+    {
+      "character": "MINNIE",
+      "text": "I said ask me.",
+      "scene": 38
+    },
+    {
+      "character": "SWEET DAVE",
+      "text": "Why?",
+      "scene": 38
+    },
+    {
+      "character": "MINNIE",
+      "text": "Just do it!",
+      "scene": 38
+    },
+    {
+      "character": "SWEET DAVE",
+      "text": "Is your ass fat?",
+      "scene": 38
+    },
+    {
+      "character": "MINNIE",
+      "text": "Look at that, y'all, I can speak French.",
+      "scene": 38
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Are you the jelly bean salesman around here? How many peppermint sticks I get for a nickel?",
+      "scene": 39
+    },
+    {
+      "character": "MINNIE",
+      "text": "Five.",
+      "scene": 39
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "All right.",
+      "scene": 39
+    },
+    {
+      "character": "MINNIE",
+      "text": "Thank you, sugar.",
+      "scene": 39
+    },
+    {
+      "character": "JUDY",
+      "text": "I'm bringing in your bags in case anybody wants to change your clothes before Red Rock.",
+      "scene": 40
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Peppermint stick?",
+      "scene": 40
+    },
+    {
+      "character": "JUDY",
+      "text": "Thanks.",
+      "scene": 40
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "So why do they call you \"Six-Horse Judy\" anyway?",
+      "scene": 40
+    },
+    {
+      "character": "JUDY",
+      "text": "'Cause I'm the only Judy you've ever seen that can drive a six-horse team.",
+      "scene": 40
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Oh, yeah... Kind of a stupid question.",
+      "scene": 40
+    },
+    {
+      "character": "JUDY",
+      "text": "Do you mind holding this for me?",
+      "scene": 40
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Ah... rock steady, madam. Rock steady.",
+      "scene": 40
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "You got a very sweet little accent. Where's that from, England?",
+      "scene": 40
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "I take exception to that.",
+      "scene": 40
+    },
+    {
+      "character": "JUDY",
+      "text": "New Zealand.",
+      "scene": 40
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Careful, madam. Precarious.",
+      "scene": 40
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Is that anywhere near, uh, Old Zealand?",
+      "scene": 40
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Auckland? What the fuck's an Auckland?",
+      "scene": 41
+    },
+    {
+      "character": "JUDY",
+      "text": "It's where I'm from. It's our biggest city.",
+      "scene": 41
+    },
+    {
+      "character": "MINNIE",
+      "text": "Coffee's ready.",
+      "scene": 41
+    },
+    {
+      "character": "SWEET DAVE",
+      "text": "Well, it's about damn time!",
+      "scene": 41
+    },
+    {
+      "character": "SWEET DAVE",
+      "text": "Best coffee on the mountain.",
+      "scene": 41
+    },
+    {
+      "character": "MINNIE",
+      "text": "Oh, I don't know about all that. Stagecoach drivers like it, passengers not so much. Most find it a mite too strong.",
+      "scene": 41
+    },
+    {
+      "character": "SWEET DAVE",
+      "text": "Can't be too strong on this mountain. Thank you.",
+      "scene": 41
+    },
+    {
+      "character": "MINNIE",
+      "text": "Well? What do you think?",
+      "scene": 41
+    },
+    {
+      "character": "BOB",
+      "text": "Man, this little old fucker looks really good.",
+      "scene": 42
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "I don't know.",
+      "scene": 42
+    },
+    {
+      "character": "BOB",
+      "text": "He's a nice touch. He's authentic.",
+      "scene": 42
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "This old man?",
+      "scene": 42
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "We can't trust this old fart.",
+      "scene": 42
+    },
+    {
+      "character": "BOB",
+      "text": "Sure we can. You just have to convince him to trust us. Without those two fatsos, this place is going to seem real empty.",
+      "scene": 42
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "He adds something. Not much, but something.",
+      "scene": 42
+    },
+    {
+      "character": "JODY",
+      "text": "What you think, Pete?",
+      "scene": 42
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Well, I must admit, he does make the setup more convincing.",
+      "scene": 42
+    },
+    {
+      "character": "JODY",
+      "text": "Okay. I'll talk to the old man. You three collect the bodies and chuck 'em in that well out there.",
+      "scene": 42
+    },
+    {
+      "character": "JODY",
+      "text": "And then start unhitchin' the horses and gettin' 'em in the barn and gettin' 'em fed.",
+      "scene": 42
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Well, hang on. I mean, puttin' the horses away, that's easy enough, but draggin' these fat bastards up and down the mountain, that's fuckin' impossible, mate.",
+      "scene": 42
+    },
+    {
+      "character": "JODY",
+      "text": "Well, this is a store, so there's gotta be a wheelbarrow around here somewhere. Start with the horses, and as soon as I get through with this old hickory tree, I'll come out and help you, okay?",
+      "scene": 42
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Hey, Pete, grab my coat, will ya?",
+      "scene": 42
+    },
+    {
+      "character": "JUDY",
+      "text": "Look. I just started workin' here. Whatever Minnie did to make y'all mad... I had nothin' to do with it.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "Well, old man.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "If you... was a cat, what just happened here would count as one of your nine lives.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "Do you realize how close you came to being tossed on a pile of niggers?",
+      "scene": 43
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "Yes.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "And when it comes to that pile of niggers that we buildin' out back, won't take nothin' to make you general of it. You believe that?",
+      "scene": 43
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "I expect no less.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "Not so fast, old man. You might have a way out of this yet.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "Later today, dirty... son of a gun is gonna come in here...",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "and he's gonna have my sister with him. And he is gonna have her in chains.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "He's taking her to Red Rock to be hung.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "Do you know why?",
+      "scene": 43
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "No.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "$10,000.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "That's why.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "Now, when he gets here, I'm gonna kill that fella and turn my sister loose. Now, do you have any reason why you would want to interfere with me saving my sister from a hangman's rope?",
+      "scene": 43
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "No.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "You don't?",
+      "scene": 43
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "No, I don't.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "You sure you don't? I mean, we did just kill Minnie and Sweet Dave. Now, you and Sweet Dave looked mighty chummy over here.",
+      "scene": 43
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "I just met these people! I don't give a damn about them! Or you. Or your sister. Or any other son of a bitch in Wyoming, for that matter.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "That is a good answer, old man.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "Now, when they get here, you just sit your ass in this chair, and you don't do nothin'. You don't say nothin'. \"Hello.\" \"Thank you.\" \"Good night.\" That's about it. Maybe your name. But that's it.",
+      "scene": 43
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "\"Hello.\" \"Thank you.\" \"Good night.\"",
+      "scene": 43
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "And maybe my name.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "Yeah... be a old man. Be dotty. Go to sleep. And don't you say nothin', and I mean nothin', to that bounty hunter that's got my sister. Do you understand?",
+      "scene": 43
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "Yes.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "When it's safe, I'll kill him, free my sister and leave you be.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "Deal?",
+      "scene": 43
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "Deal.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "Thank you.",
+      "scene": 43
+    },
+    {
+      "character": "JODY",
+      "text": "All right, boys. This is it. Let's get ready.",
+      "scene": 44
+    },
+    {
+      "character": "JODY",
+      "text": "Now, remember, it doesn't matter if we have four men or 40, we are still gonna be facing John Ruth chained to my sister with a pistol pointed at her belly. Now, killin' that fella 'fore he kills my sister ain't gonna be easy, but you better believe that's exactly what we gonna do. So the name of the game here is patience. Trapped here for two or three days, at some point he will close his eyes. And that's when you blow the top of his head off. Remember, old man. If my sister don't make it off of this mountain alive, neither do you.",
+      "scene": 44
+    },
+    {
+      "character": "GENERAL SANDY SMITHERS",
+      "text": "I'll do my best.",
+      "scene": 44
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Good luck, mate.",
+      "scene": 45
+    },
+    {
+      "character": "BOB",
+      "text": "What the hell is going on? We weren't expecting another stage tonight!",
+      "scene": 45
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Yeah, I can see you already got another one up in here.",
+      "scene": 45
+    },
+    {
+      "character": "BOB",
+      "text": "Just got through puttin' the horses away!",
+      "scene": 45
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Well, this ain't the normal line. But we are stuck on the wrong side of a blizzard, so it looks like you're stuck with us.",
+      "scene": 45
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "Now you gotta do another one.",
+      "scene": 45
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Are Minnie and Sweet Dave inside?",
+      "scene": 45
+    },
+    {
+      "character": "BOB",
+      "text": "They ain't here! I'm running the place while they're gone.",
+      "scene": 45
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Where's Minnie and Sweet Dave?",
+      "scene": 45
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "He says they ain't here. He's looking after the place while they're gone.",
+      "scene": 45
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Who are you?",
+      "scene": 45
+    },
+    {
+      "character": "BOB",
+      "text": "I'm Bob.",
+      "scene": 45
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Well, whoever you are, help O.B. with the horses.",
+      "scene": 45
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Get 'em out of this cold 'fore that blizzard hits us. You all right?",
+      "scene": 45
+    },
+    {
+      "character": "BOB",
+      "text": "Wait, wait, wait, wait, wait! Esperate, esperate, esperate! I just put those other horses away. You need it done fast, you need to help.",
+      "scene": 45
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "I got two of my best men on it.",
+      "scene": 45
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "You heard him, freeloaders. Get to work.",
+      "scene": 45
+    },
+    {
+      "character": "O. B. JACKSON",
+      "text": "All right, you two, unhook the leaders. Come on, let's go!",
+      "scene": 45
+    },
+    {
+      "character": "JOHN RUTH",
+      "text": "Open up!",
+      "scene": 45
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "You have to kick it open! Kick it open!",
+      "scene": 45
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "How you doin', old boy?",
+      "scene": 46
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "They shot my nuts off. I'm freezin', burnin' up the same time. Bleedin' like a stuck pig. I think I'm gonna die. And these motherfuckers did it.",
+      "scene": 46
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "That's how I'm doin'. How you doin'?",
+      "scene": 46
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well, my leg hurts really bad. But I think, if I put all my weight on my right foot...",
+      "scene": 46
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "I was just bein' sarcastic. I don't give a fuck about your leg.",
+      "scene": 46
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Now, you just... make yourself comfortable.",
+      "scene": 46
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Don't worry about my comfort. Shit, I can't feel my ass no more. Worry about these owl hoots and that bushwhackin' nut shooter in the basement.",
+      "scene": 46
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "All right! You... fella in the basement! You either give up by the time I count to three...",
+      "scene": 46
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "or I shoot Domergue in the head. One! Two!",
+      "scene": 46
+    },
+    {
+      "character": "JODY",
+      "text": "No, no, no, no, don't shoot her in the head!",
+      "scene": 46
+    },
+    {
+      "character": "JODY",
+      "text": "I'm coming up.",
+      "scene": 46
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Hold on now, you bushwhackin' sack shooter! You just open the door. We tell you when to come up.",
+      "scene": 46
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Now throw out your pistol.",
+      "scene": 46
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Toward the bed.",
+      "scene": 46
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Bet he got another.",
+      "scene": 46
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Now throw out your other pistol.",
+      "scene": 46
+    },
+    {
+      "character": "JODY",
+      "text": "I ain't got another pistol!",
+      "scene": 46
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Well, you better shit another pistol out your ass, 'cause if you don't throw one up here in the next two seconds, we gonna kill this bitch.",
+      "scene": 46
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "See? Told you.",
+      "scene": 46
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Now, with your hands where we can see 'em, slowly come on up.",
+      "scene": 46
+    },
+    {
+      "character": "JODY DOMINGRE",
+      "text": "How you doing, dummy?",
+      "scene": 47
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Better, now I see your ugly face.",
+      "scene": 47
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "How you like that? You bushwhackin' castrator!",
+      "scene": 47
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "What are you doing? He was giving up!",
+      "scene": 47
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "It took him too long, so I done it for him.",
+      "scene": 47
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Joe Gage, get your ass over here and shut this trap door.",
+      "scene": 47
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "I'm sorry, honey.",
+      "scene": 48
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "May I sit in a chair?",
+      "scene": 48
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yes, you may.",
+      "scene": 48
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Keep your hands flat on that table. And don't move 'em.",
+      "scene": 48
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Mannix! You sure picked the wrong time to turn into a nigger lover. Don't you see, that nigger and John Ruth put you smack dab in the middle of danger? You're about to be murdered in some nigger named Minnie's house, and you don't even know why!",
+      "scene": 48
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Okay... bitch. I'll bite. Why?",
+      "scene": 48
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "I'm working with all three of them fellas. But not 'cause they got butterflies in their belly about me, but because we're all gang members. The Jody Domingre Gang. That fella y'all just killed in the basement was Jody Domingre! My brother!",
+      "scene": 48
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well, who the hell is Jody Domingre?",
+      "scene": 48
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "You want to tell him, bounty man?",
+      "scene": 48
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "He was a big bad cat worth $50,000. And every member of his gang was worth at least ten. Which finally explains why you worth ten.",
+      "scene": 48
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "And what's gonna happen when that sun comes out, nigger? So is my brother's 15 men coming straight here for us. Tell him, Grouch!",
+      "scene": 48
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Jody got 15 men waiting in Red Rock. We couldn't kill John Ruth and free Daisy here, their job was to sack the town, kill John Ruth and free Daisy there.",
+      "scene": 48
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Now, with my brother dead, I'm in charge of this gang. Right, boys?",
+      "scene": 48
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "That's right, Daisy.",
+      "scene": 48
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "And, Chris, I am telling you, you ain't done anything yet that we can't forgive. So, let's make a deal.",
+      "scene": 48
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "No deals, bitch.",
+      "scene": 48
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "You gonna let that nigger speak for you, Chris?",
+      "scene": 48
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Hold it, Warren.",
+      "scene": 48
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Seeing as how she ain't got nothing to sell, I'm kinda curious about her sales pitch. Humor me. All right...",
+      "scene": 48
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "bitch.",
+      "scene": 48
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "What's... your deal?",
+      "scene": 48
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Easy. Take your gun, shoot that nigger dead. Then we sit here all nice-like for the next two days. When the snow melts, we go to Mexico, you go on to Red Rock, get that star pinned on your chest. Hey, Pete. How much can we pay him?",
+      "scene": 48
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Well, we could give him Marco.",
+      "scene": 48
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Bob's real name is Marco the Mexican. He's worth $12,000.",
+      "scene": 48
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "That's Marco the Mexican?",
+      "scene": 48
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Precisely, yeah.",
+      "scene": 48
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Shit. Now that I blowed his face off, Marco ain't worth a peso.",
+      "scene": 48
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "Well, then, if I die in the next two days, which is more than likely, you can have me. Under the name of English Pete Hicox, I got a federal bounty of $15,000 on my head.",
+      "scene": 48
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "It's all yours, Chris.",
+      "scene": 48
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You keep talking, Pete, you gonna talk yourself to death.",
+      "scene": 48
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Joe Gage, who you be?",
+      "scene": 48
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "Grouch Douglass.",
+      "scene": 48
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "You heard of him?",
+      "scene": 48
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yeah, I heard of Grouch Douglass. He worth ten, just like Daisy.",
+      "scene": 48
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well, remind me... why we wouldn'tjust kill all y'all, cash in.",
+      "scene": 48
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Oh, you can kill us all, but you'll never spend a cent of that bounty money, and you'll never leave this mountain alive. 'Cause when that snow melts, the rest of Jody's gang, all 15 of 'em that are waiting in Red Rock, are coming here. Now, I let's say you shoot us all. If you really want all that Domingre Gang bounty money, you still got to get all our corpses into Red Rock. And that ain't gonna be so easy. 'Cause I doubt you can drive a four-horse team. And that wagon out there is too heavy for a two-horse team. So that means you're gonna have to lead a string of horses into Red Rock. And with that deep snow after a blizzard, you ain't gonna be able to get away with any more than, say, one body per horse. So that's you leading a string of four horses into Red Rock. And with all them horses in that snow and you all by your lonesome, you're gonna be a mite poky. And you're gonna run smack dab into the Domingre Gang. And again, Grouch, how many is that?",
+      "scene": 48
+    },
+    {
+      "character": "JOE GAGE",
+      "text": "15 killers strong.",
+      "scene": 48
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "And when those 15 killers come across you in possession of all our dead bodies, they ain't just gonna kill you and that nigger! They gonna go back to Red Rock and kill every son of a bitch in that town! You really the sheriff of Red Rock? You want to save the town? Then shoot that nigger dead!",
+      "scene": 48
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Jesus Christ!",
+      "scene": 48
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You believe in Jesus now, huh, bitch? Well, good, 'cause you about to meet him. Anybody else want to make a deal?",
+      "scene": 48
+    },
+    {
+      "character": "OSWALDO MOBRAY",
+      "text": "The deal still stands, Chris. You ain't done nothing we can't forgive. It's all still on that nigger. You shoot him dead, take my body, sit out in the snow with Daisy and Grou... You cunt!",
+      "scene": 48
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Mannix, give me my pistol.",
+      "scene": 49
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Give it here!",
+      "scene": 49
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Give it here!",
+      "scene": 49
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "So, you were saying...",
+      "scene": 50
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "we sit here, all nice and friendly like, for the next two days. Then the snow melts, you leave here, meet up with your gang, and hightail it to Mexico. That's the deal, right?",
+      "scene": 50
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Yeah.",
+      "scene": 50
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "And I get Oswaldo and Joe Gage?",
+      "scene": 50
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Yeah.",
+      "scene": 50
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "But Jody's worth $50,000. What about his body?",
+      "scene": 50
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You gonna make a deal with this diabolical bitch?",
+      "scene": 50
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "I ain't saying I'm gonna make a deal with her. We just talking. Calm down!",
+      "scene": 50
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "So what about Jody's body and the $50,000?",
+      "scene": 50
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "You're getting greedy, reb. No deal. We're taking Jody's body back with us. He got children.",
+      "scene": 50
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "So I kill Warren, and we all friends?",
+      "scene": 50
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Yeah.",
+      "scene": 50
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "No deal, tramp.",
+      "scene": 50
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Chris! You're making the biggest mistake of your life! When our boys get here in a couple of days, they're gonna cut your nuts off! And there won't be a stick left in that town unburnt!",
+      "scene": 50
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Well, I guess I should be plumb scared right now, huh?",
+      "scene": 50
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "If you had any brains, you would be!",
+      "scene": 50
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "You see...",
+      "scene": 50
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "here's the problem, Daisy. In order for me to be scared of your threats, I got to believe in those 15 extra gang members waiting it out in Red Rock. And boy, oh, boy... I sure don't.",
+      "scene": 50
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "What I believe is, Joe Gage or Grouch Douglass or whatever the fuck his name was, poisoned the coffee. And you watched him do it. And you watched me pour a cup, and you didn't say shit!",
+      "scene": 50
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "And... lbefieve you are what you've always been, a lying bitch who will do anything to cheat the rope waiting for her in Red Rock, including shitting out 15 extra gang members whenever you need be.",
+      "scene": 50
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "I believe, when it comes to what's left of the Jody Domingre Gang, I'm looking at 'em. Right here, right now, dead on this motherfucking floor!",
+      "scene": 50
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Goddamn right.",
+      "scene": 50
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Then you're gonna die on this mountain, Chris. 'Cause my brother leads an army of men.",
+      "scene": 50
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Horseshit! My daddy led an army. He led a renegade army, fighting for a lost cause! My daddy held up to 400 men together after the war with nothing but their respect in his command! Your brother's just an owl hoot who led a gang of killers!",
+      "scene": 50
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "I don't feel so good.",
+      "scene": 50
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Oh, shit.",
+      "scene": 50
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "You still alive, white boy?",
+      "scene": 50
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Fuck!",
+      "scene": 50
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Mannix!",
+      "scene": 50
+    },
+    {
+      "character": "DAISY DOMERGUE",
+      "text": "Oh! Fuck!",
+      "scene": 50
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Get up!",
+      "scene": 50
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Chris Mannix! If your ass ain't nailed to the floor, wake the fuck up!",
+      "scene": 50
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Wake up, white boy!",
+      "scene": 50
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "I ain't dead yet, you black bastard.",
+      "scene": 51
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Chris Mannix, I may have misjudged you.",
+      "scene": 51
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Now we've come to the part of the story...",
+      "scene": 51
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "where I blow your goddamn head off.",
+      "scene": 51
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "No! No, no, don't shoot her!",
+      "scene": 51
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Why the hell not?",
+      "scene": 51
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "John Ruth.",
+      "scene": 51
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Now, John Ruth was one mighty, mighty bastard.",
+      "scene": 51
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "But the last thing that bastard did 'fore he died was save your life. We gonna die, white boy. We ain't got no say in that.",
+      "scene": 51
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "But there is one thing left we do have a say in.",
+      "scene": 51
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "And that's how we kill this bitch.",
+      "scene": 51
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "And I say shooting's too good for her. John Ruth could've shot her anywhere anytime along the way.",
+      "scene": 51
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "But John Ruth was The Hangman. And when The Hangman catches you, you don't die by no bullet. When The Hangman catches you, you hang.",
+      "scene": 51
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "\"You only need to hang mean bastards...\" \"but mean bastards, you need to hang.\"",
+      "scene": 51
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "\"Dear Marquis,",
+      "scene": 52
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "I hope this letter finds you in good health and stead. I'm doing fine, although I wish there were more hours in a day. There's just so much to do. Times are changing slowly but surely, and it's men like you that will make a difference. Your military success is a credit not only to you, but your race as well. I'm very proud every time I hear news of you.",
+      "scene": 52
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "We still have a long way to go, but hand in hand, I know we will get there.",
+      "scene": 52
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "I just want to let you know you're in my thoughts. Hopefully, our paths will cross in the future. Until then, I remain your friend.",
+      "scene": 52
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Ole Mary Todd's calling, so I guess it must be time for bed.",
+      "scene": 52
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "Respectfully, Abraham Lincoln.\"",
+      "scene": 52
+    },
+    {
+      "character": "SHERIFF CHRIS MANNIX",
+      "text": "\"Ole Mary Todd.\" That's a nice touch.",
+      "scene": 52
+    },
+    {
+      "character": "MAJOR MARQUIS WARREN",
+      "text": "Yeah... Thanks.",
+      "scene": 52
+    }
+  ],
+  "lineCount": 1072,
+  "characterCount": 17,
+  "imdbId": "tt3460252",
+  "poster": "",
+  "rated": "R",
+  "runtime": "161 min",
+  "genre": "Drama, Mystery, Western",
+  "director": "Quentin Tarantino",
+  "topSpeakingCast": [
+    "MAJOR MARQUIS WARREN",
+    "JOHN RUTH",
+    "SHERIFF CHRIS MANNIX",
+    "OSWALDO MOBRAY",
+    "DAISY DOMERGUE",
+    "BOB",
+    "GENERAL SANDY SMITHERS",
+    "JOE GAGE",
+    "JODY",
+    "O. B. JACKSON",
+    "MINNIE",
+    "JUDY",
+    "SWEET DAVE",
+    "ED",
+    "CHARLY"
+  ]
+}

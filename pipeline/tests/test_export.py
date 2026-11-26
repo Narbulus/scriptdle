@@ -109,6 +109,20 @@ class ExportTests(unittest.TestCase):
         # Line 1 (LUKE, scene 0) has idx+1 (OBI-WAN, scene 0) and idx+2 (STORMTROOPER, scene 0) -> MUST be included!
         self.assertEqual(idx_map.get("test-sw"), [1])
 
+    def test_clean_line_text_strips_cc_chevrons_and_sdh_speaker_labels(self):
+        self.assertEqual(
+            export.clean_line_text(">> CHARLIE: I don't know, man. >> That seems crazy."),
+            "I don't know, man. That seems crazy.",
+        )
+        self.assertEqual(
+            export.clean_line_text("(LAUGHING) >> Oh, you hear that?"),
+            "Oh, you hear that?",
+        )
+        self.assertEqual(
+            export.clean_line_text("MICHAEL : Pam, Michael Scott. How's tricks?"),
+            "Pam, Michael Scott. How's tricks?",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

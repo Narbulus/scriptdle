@@ -35,6 +35,28 @@ def pick_spaced_episodes(episodes: Sequence[dict], count: int) -> List[dict]:
     return chosen
 
 
+def pick_top_rated_episodes(episodes: Sequence[dict], count: int) -> List[dict]:
+    """Select up to `count` highest-rated episodes (by CommunityRating), returned in season order.
+
+    Falls back to `pick_spaced_episodes` if no episode has a positive rating.
+    """
+    eps = list(episodes)
+    if len(eps) <= count:
+        return eps
+    if not any(float(ep.get("CommunityRating") or 0.0) > 0 for ep in eps):
+        return pick_spaced_episodes(eps, count)
+    ranked = sorted(
+        eps,
+        key=lambda ep: (
+            -float(ep.get("CommunityRating") or 0.0),
+            int(ep.get("IndexNumber") or 999),
+        ),
+    )
+    chosen = ranked[:count]
+    chosen.sort(key=lambda ep: int(ep.get("IndexNumber") or 999))
+    return chosen
+
+
 def merge_cast_rosters(items: Sequence[dict], limit: int = 35) -> List[dict]:
     """Build a deduplicated Actor -> Canonical Role roster across series + episodes."""
     cast: List[dict] = []
@@ -177,6 +199,8 @@ def extract_tv_season_pack(
     pack_id: str,
     episodes_per_season: int = 3,
     seasons: Optional[Sequence[int]] = None,
+    selection: str = "top_rated",
+    season_titles: Optional[Dict[int, str]] = None,
     model: str = "google/gemini-3.8-flash",
     mode: str = "audio",
     min_conf: float = 0.90,
@@ -197,7 +221,7 @@ def extract_tv_season_pack(
         "ParentId": series_id,
         "IncludeItemTypes": "Episode",
         "Recursive": "true",
-        "Fields": "MediaSources,People,Overview,ProductionYear,RunTimeTicks",
+        "Fields": "MediaSources,People,Overview,ProductionYear,RunTimeTicks,CommunityRating",
         "SortBy": "ParentIndexNumber,IndexNumber",
     })
     all_eps = jf.get_json(f"/Users/{jf.user_id}/Items?{q}").get("Items", [])
@@ -215,21 +239,22 @@ def extract_tv_season_pack(
         all_by_season.setdefault(int(sn), []).append(ep)
 
     by_season: Dict[int, List[dict]] = {}
+    picker = pick_spaced_episodes if selection == "spaced" else pick_top_rated_episodes
     for sn, eps in sorted(all_by_season.items()):
-        with_sub = [
-            ep for ep in eps
-            if jellyfin.select_best_subtitle((ep.get("MediaSources") or [{}])[0], prefer_sdh=True) is not None
-            or (media_root / f"s{sn:02d}e{int(ep.get('IndexNumber') or 0):02d}.srt").exists()
-        ]
-        if len(with_sub) < min(episodes_per_season, len(eps)) and subdl_key and series_imdb:
-            print(f"  [{pack_id} S{sn:02d}] only {len(with_sub)}/{len(eps)} embedded SRTs; fetching SubDL season pack...")
+        def _has_sub(ep: dict) -> bool:
+            return (
+                jellyfin.select_best_subtitle((ep.get("MediaSources") or [{}])[0], prefer_sdh=True) is not None
+                or (media_root / f"s{sn:02d}e{int(ep.get('IndexNumber') or 0):02d}.srt").exists()
+            )
+
+        desired = picker(eps, episodes_per_season)
+        missing_desired = any(not _has_sub(ep) for ep in desired)
+        with_sub = [ep for ep in eps if _has_sub(ep)]
+        if (len(with_sub) < min(episodes_per_season, len(eps)) or missing_desired) and subdl_key and series_imdb:
+            print(f"  [{pack_id} S{sn:02d}] {len(with_sub)}/{len(eps)} subs ready (need top picks); fetching SubDL season pack...")
             fetched = jellyfin.fetch_subdl_tv_season(series_imdb, sn, media_root, subdl_key, prefer_sdh=True)
             print(f"  [{pack_id} S{sn:02d}] unpacked {len(fetched)} SubDL episode SRTs")
-            with_sub = [
-                ep for ep in eps
-                if jellyfin.select_best_subtitle((ep.get("MediaSources") or [{}])[0], prefer_sdh=True) is not None
-                or (media_root / f"s{sn:02d}e{int(ep.get('IndexNumber') or 0):02d}.srt").exists()
-            ]
+            with_sub = [ep for ep in eps if _has_sub(ep)]
         if with_sub:
             by_season[sn] = with_sub
 
@@ -240,12 +265,18 @@ def extract_tv_season_pack(
     roster_sources = [series]
     selected_by_season: Dict[int, List[dict]] = {}
     for sn, eps in sorted(by_season.items()):
-        picked = pick_spaced_episodes(eps, episodes_per_season)
+        picked = picker(eps, episodes_per_season)
         selected_by_season[sn] = picked
         roster_sources.extend(picked)
 
     merged_cast = merge_cast_rosters(roster_sources, limit=35)
-    print(f"=== TV Pack: {series_name} ({len(selected_by_season)} seasons, {len(merged_cast)} cast roles) ===")
+    print(f"=== TV Pack: {series_name} ({len(selected_by_season)} seasons, {len(merged_cast)} cast roles, selection={selection}) ===")
+    for sn, picked in sorted(selected_by_season.items()):
+        ep_summary = ", ".join(
+            f"E{int(e.get('IndexNumber') or 0):02d} {e.get('Name', '')} ({e.get('CommunityRating') or '-'})"
+            for e in picked
+        )
+        print(f"  S{sn:02d}: {ep_summary}")
 
     exported_paths: List[Path] = []
     total_cost = 0.0
@@ -360,9 +391,10 @@ def extract_tv_season_pack(
             l["character"] for l in season_lines if export.is_guessable_character(l["character"])
         })
         top_cast = export.compute_top_speaking_cast(season_lines)
+        season_title = (season_titles or {}).get(sn) or f"Season {sn}"
         season_doc = {
             "id": season_slug,
-            "title": f"Season {sn}",
+            "title": season_title,
             "year": season_year,
             "characters": characters,
             "lines": season_lines,
@@ -406,6 +438,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     tv.add_argument("--pack-id", required=True)
     tv.add_argument("--episodes-per-season", type=int, default=3)
     tv.add_argument("--seasons", help="Optional comma-separated season numbers (e.g. 1,2,3,4,5)")
+    tv.add_argument("--selection", choices=["top_rated", "spaced"], default="top_rated")
     tv.add_argument("--model", default="google/gemini-3.8-flash")
     tv.add_argument("--mode", choices=["text", "audio"], default="audio")
     tv.add_argument("--min-conf", type=float, default=0.90)
@@ -456,6 +489,7 @@ def main(argv: Optional[List[str]] = None) -> int:
             pack_id=args.pack_id,
             episodes_per_season=args.episodes_per_season,
             seasons=season_nums,
+            selection=args.selection,
             model=args.model,
             mode=args.mode,
             min_conf=args.min_conf,

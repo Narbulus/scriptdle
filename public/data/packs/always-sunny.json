@@ -1,0 +1,42 @@
+{
+  "id": "always-sunny",
+  "name": "It's Always Sunny in Philadelphia",
+  "type": "series",
+  "mediaType": "seasons",
+  "movies": [
+    "always-sunny-s01",
+    "always-sunny-s02",
+    "always-sunny-s03",
+    "always-sunny-s04",
+    "always-sunny-s05",
+    "always-sunny-s06",
+    "always-sunny-s07",
+    "always-sunny-s08",
+    "always-sunny-s09",
+    "always-sunny-s10",
+    "always-sunny-s11",
+    "always-sunny-s12",
+    "always-sunny-s13",
+    "always-sunny-s14",
+    "always-sunny-s15",
+    "always-sunny-s16"
+  ],
+  "theme": {
+    "primary": "#f5ebd6",
+    "bgColor": "#111111",
+    "containerBg": "#f7f3ea",
+    "accentColor": "#2d7a45",
+    "btnText": "#111111",
+    "cardGradientStart": "#0e0e0e",
+    "cardGradientEnd": "#222222",
+    "cardBorder": "#f5ebd6",
+    "cardText": "#f5ebd6"
+  },
+  "tierMessages": {
+    "perfect": "A Five-Star Man!",
+    "good": "Dayman, Fighter of the Nightman!",
+    "average": "Because of the Implication",
+    "barely": "Wildcard, Bitches!",
+    "failure": "The Gang Fails the Daily Scriptle"
+  }
+}

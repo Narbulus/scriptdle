@@ -1,0 +1,4433 @@
+{
+  "id": "django-unchained",
+  "title": "Django Unchained",
+  "year": 2012,
+  "characters": [
+    "ACE SPECK",
+    "AMERIGO VESSEPI",
+    "BETINA",
+    "BIG DADDY",
+    "BIG FRED",
+    "BILLY CRASH",
+    "BROOMHILDA VON SHAFT",
+    "BUTCH POOCH",
+    "CALVIN J. CANDIE",
+    "CORA",
+    "D'ARTAGNAN",
+    "DICKEY SPECK",
+    "DJANGO FREEMAN",
+    "DR. KING SCHULTZ",
+    "FLOYD",
+    "FRANKIE",
+    "HOOT",
+    "INNKEEPER",
+    "JOHN BRITTLE",
+    "LARA LEE CANDIE-FITZWILLY",
+    "LEONIDE MOGUY",
+    "MARSHAL GILL TATUM",
+    "MR. STONESIPHER",
+    "OLD MAN CARRUCAN",
+    "RAIDER",
+    "ROBERT",
+    "ROGER BRITTLE",
+    "ROY",
+    "SHEBA",
+    "SHERIFF",
+    "SHERIFF BILL SHARP",
+    "STEPHEN"
+  ],
+  "lines": [
+    {
+      "character": "DICKEY SPECK",
+      "text": "Who's that stumblin' around in the dark? State your business or prepare to get winged!",
+      "scene": 0
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Calm yourselves, gentlemen. I mean you no harm. I'm simply a fellow weary traveler. Whoa, boy. Good cold evening, gentlemen. I'm looking for a pair of slave traders that go by the name of the Speck Brothers. Might that be you?",
+      "scene": 0
+    },
+    {
+      "character": "ACE SPECK",
+      "text": "Who wants to know? Well, I do.",
+      "scene": 0
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I'm Dr. King Schultz. This is my horse, Fritz.",
+      "scene": 0
+    },
+    {
+      "character": "ACE SPECK",
+      "text": "What kinda doctor? SCHULTZ: Dentist.",
+      "scene": 0
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Now, are you the Speck Brothers? And did you purchase those men at the Greenville slave auction?",
+      "scene": 0
+    },
+    {
+      "character": "ACE SPECK",
+      "text": "So what? So I wish to parley with you. Speak English. Oh, I'm sorry.",
+      "scene": 0
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Please forgive me. It is a second language. Now, amongst your inventory, I've been led to believe, is a specimen I'm keen to acquire. Hello, you poor devils! Is there one amongst you who was formerly a resident of the Carrucan plantation?",
+      "scene": 0
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "I'm from the Carrucan plantation.",
+      "scene": 0
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Who said that?",
+      "scene": 0
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "What's your name?",
+      "scene": 1
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Django.",
+      "scene": 1
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Then you are exactly the one I'm looking for.",
+      "scene": 1
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Do you know who the Brittle Brothers are?",
+      "scene": 1
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Who are they?",
+      "scene": 1
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Big John. Ellis. Roger. Sometime they call him Lil Raj. They was overseers at the Carrucan plantation. Not anymore.",
+      "scene": 1
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Tell me... if you were to see any of these three gentlemen again, would you recognize them? MAN: Hey.",
+      "scene": 1
+    },
+    {
+      "character": "ACE SPECK",
+      "text": "Stop talkin' to him like that. Like what? Like that.",
+      "scene": 1
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "My good man, I'm simply trying to ascertain...",
+      "scene": 1
+    },
+    {
+      "character": "ACE SPECK",
+      "text": "Speak English, goddamn it.",
+      "scene": 1
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Everybody calm down. I'm simply a customer trying to conduct a transaction.",
+      "scene": 1
+    },
+    {
+      "character": "ACE SPECK",
+      "text": "I don't care. No sale. Now, off with ya.",
+      "scene": 1
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Don't be ridiculous. Of course they're for sale.",
+      "scene": 1
+    },
+    {
+      "character": "ACE SPECK",
+      "text": "Move it.",
+      "scene": 1
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "My good man, did you simply get carried away with your dramatic gesture or are you pointing your weapon at me with lethal intention?",
+      "scene": 1
+    },
+    {
+      "character": "ACE SPECK",
+      "text": "Last chance, fancy pants.",
+      "scene": 1
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Oh, very well.",
+      "scene": 1
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I'm sorry to put a bullet in your beast, but I didn't want you to do anything rash before you had a moment to come to your senses.",
+      "scene": 2
+    },
+    {
+      "character": "DICKEY SPECK",
+      "text": "You goddamn son of a bitch! You shot Roscoe! Well... And you killed Ace!",
+      "scene": 2
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I only shot your brother once he threatened to shoot me. And I do believe I have... one, two, three, four... five witnesses who can attest to that fact.",
+      "scene": 2
+    },
+    {
+      "character": "DICKEY SPECK",
+      "text": "Damn leg's busted! No doubt.",
+      "scene": 2
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Now, if you could keep your caterwauling down to a minimum, I'd like to finish my line of inquiry with young Django.",
+      "scene": 2
+    },
+    {
+      "character": "DICKEY SPECK",
+      "text": "God-fuckin'-damn it! As I was saying...",
+      "scene": 2
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "if you were to see the Brittle Brothers again, you could recognize 'em?",
+      "scene": 2
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Yeah.",
+      "scene": 2
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Sold American! So, Mr. Speck? Mr. Speck? How much for young Django here?",
+      "scene": 2
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "That iron is nasty business.",
+      "scene": 2
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Oh, could you hold this for a moment?",
+      "scene": 2
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Thank you. Django? Get up on that horse. Also, if I were you, I'd take that winter coat the dear departed Speck left behind.",
+      "scene": 2
+    },
+    {
+      "character": "DICKEY SPECK",
+      "text": "Nigger! Don't you touch my brother's coat.",
+      "scene": 3
+    },
+    {
+      "character": "DICKEY SPECK",
+      "text": "Goddamn it! Oh!",
+      "scene": 3
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "One hundred... ten... 20... and five... for young Django here. And since he won't be needing it anymore, I'd like to purchase your brother's nag. Also, Mr. Speck, I'm afraid I will require a bill of sale. Do you have one?",
+      "scene": 3
+    },
+    {
+      "character": "DICKEY SPECK",
+      "text": "You go to hell, dentist.",
+      "scene": 3
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I thought not. No worries. I come prepared.",
+      "scene": 3
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Thank you. This will serve nicely as a bill of sale.",
+      "scene": 3
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Whoa.",
+      "scene": 4
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Good morning, innkeeper! Two beers for two weary travelers.",
+      "scene": 4
+    },
+    {
+      "character": "INNKEEPER",
+      "text": "It's still a bit early. We won't be open for another hour. By then, we'll be servin' breakfast. Whoa, whoa, whoa, whoa... what the hell you think you're doing, boy? Get that nigger outta here!",
+      "scene": 4
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Remember, get the sheriff, not the marshal.",
+      "scene": 5
+    },
+    {
+      "character": "INNKEEPER",
+      "text": "Sheriff! Help!",
+      "scene": 5
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Alas. Now we must act as our own bartender.",
+      "scene": 5
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Sit down, my boy.",
+      "scene": 5
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "What kind of dentist are you?",
+      "scene": 5
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Despite that cart, I haven't practiced dentistry in five years.",
+      "scene": 5
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "But these days, I practice a new profession...",
+      "scene": 5
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "bounty hunter.",
+      "scene": 5
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Do you know what a bounty hunter is?",
+      "scene": 5
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "No.",
+      "scene": 5
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Well...",
+      "scene": 5
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "the way the slave trade deals in human lives for cash, a bounty hunter deals in corpses.",
+      "scene": 5
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Prost.",
+      "scene": 6
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "The state places a bounty on a man's head. I track that man, I find that man, I kill that man. After I've killed him, I transport that man's corpse back to the authorities. Sometimes that's easier said than done. I show that corpse to the authorities, proving yes, indeed, I truly have killed him, at which point the authorities pay me the bounty. So, like slavery, it's a flesh for cash business.",
+      "scene": 6
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "What's a bounty?",
+      "scene": 6
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "It's like a reward.",
+      "scene": 6
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "You kill people? And they give you a reward?",
+      "scene": 6
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Certain people, yeah.",
+      "scene": 6
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Bad people?",
+      "scene": 6
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Ah! Badder they are, bigger the reward. Which brings me to you. And I must admit, I'm at a bit of a quandary when it comes to you. On one hand, I despise slavery. On the other hand, I need your help. If you're not in a position to refuse, all the better. So, for the time being, I'm gonna make this slavery malarkey work to my benefit. Still, having said that, I feel guilty.",
+      "scene": 6
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "So, I would like the two of us to enter into an agreement.",
+      "scene": 6
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I'm looking for the Brittle Brothers.",
+      "scene": 6
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "However, at this endeavor, I'm at a slight disadvantage insofar as I don't know what they look like. But you do. Don't ya?",
+      "scene": 6
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "I know what they look like all right.",
+      "scene": 6
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Good. So here's my agreement. You travel with me until we find them. Where we goin? I hear at least two of them are overseeing up in Gatlinburg, but I don't know where. That means we visit every plantation in Gatlinburg till we find 'em. And when we find them, you point them out, and I kill them. You do that, I agree to give you your freedom, $25 per Brittle Brother. That's $75. And, as if on cue, here comes the sheriff.",
+      "scene": 6
+    },
+    {
+      "character": "SHERIFF BILL SHARP",
+      "text": "OK, boys. Fun's over. Come on out.",
+      "scene": 6
+    },
+    {
+      "character": "SHERIFF BILL SHARP",
+      "text": "All right, folks, calm down. Go about your business. These jokers will be gone soon.",
+      "scene": 6
+    },
+    {
+      "character": "SHERIFF BILL SHARP",
+      "text": "Now, why y'all wanna come into my town and start trouble? And scare all these nice people. You ain't got nothing better to do than to come into Bill Sharp's town and show your ass?",
+      "scene": 6
+    },
+    {
+      "character": "INNKEEPER",
+      "text": "What'd you just do to our sheriff?",
+      "scene": 6
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Now you can get the marshal.",
+      "scene": 6
+    },
+    {
+      "character": "INNKEEPER",
+      "text": "Marshal! Marshal!",
+      "scene": 6
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Should we wait inside? Can we just leave?",
+      "scene": 6
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "After you.",
+      "scene": 6
+    },
+    {
+      "character": "MARSHAL GILL TATUM",
+      "text": "Move that buckboard a long ways across the street from the saloon. I want six men, six rifles behind it. I want two men, two rifles up on this roof. Two men, two rifles on that roof. All the barrels aimed at that front door. Somebody get poor Bill outta the goddamn street. You in the saloon! We got a hundred rifles aimed at every way out of that buildin'. You got one chance to get out of this alive. You and your nigger come out right now with your hands over your head, and I mean right now.",
+      "scene": 6
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Is this the marshal I have the pleasure of addressing?",
+      "scene": 6
+    },
+    {
+      "character": "MARSHAL GILL TATUM",
+      "text": "Yes, it is. This is U.S. Marshal Gill Tatum.",
+      "scene": 6
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Na wunderbar, marshal. I have relieved myself of all weapons, and just as you have instructed, I am ready to step outside with my hands raised above my head. I trust as a representative of the criminal justice system of the United States of America, I shan't be shot down in the street by either you or your deputies before I've had my day in court.",
+      "scene": 6
+    },
+    {
+      "character": "MARSHAL GILL TATUM",
+      "text": "You mean like you did our sheriff. Shot him down like a dog in the street.",
+      "scene": 6
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Yes, that's exactly what I mean. Do I have your word as a lawman not to shoot me down like a dog in the street?",
+      "scene": 6
+    },
+    {
+      "character": "MARSHAL GILL TATUM",
+      "text": "Well, much as we'd all enjoy seeing something like that, ain't nobody gonna cheat the hangman in my town.",
+      "scene": 6
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Fair enough, marshal. Here we come.",
+      "scene": 6
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "They're a little tense out there. So don't make any quick movements, and let me do the talking.",
+      "scene": 6
+    },
+    {
+      "character": "MARSHAL GILL TATUM",
+      "text": "Come ahead.",
+      "scene": 6
+    },
+    {
+      "character": "MARSHAL GILL TATUM",
+      "text": "You unarmed?",
+      "scene": 6
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Yes, indeed we are. Marshal Tatum, may I address you and your deputies, and apparently the entire town of Daughtrey, as to the incident that just occurred?",
+      "scene": 6
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "My name is Dr. King Schultz. Like yourself, marshal, I'm a servant of the court. The man lying dead in the dirt, who the good people of Daughtrey saw fit to elect as their sheriff, who went by the name of Bill Sharp, is actually a wanted outlaw by the name of Willard Peck, with a price on his head of $200. Now that's $200, dead or alive.",
+      "scene": 7
+    },
+    {
+      "character": "MARSHAL GILL TATUM",
+      "text": "The hell, you say!",
+      "scene": 7
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I'm aware this is probably disconcerting news. But I'm willing to wager this man was elected sheriff sometime in the past two years?",
+      "scene": 7
+    },
+    {
+      "character": "MARSHAL GILL TATUM",
+      "text": "Yeah.",
+      "scene": 7
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I know this because three years ago, he was rustling cattle from the B.C. Corrigan Cattle Company of Lubbock, Texas. Now, this is a warrant made out by Circuit Court Judge Henry Allen Laudermilk of Austin, Texas. You're encouraged to wire him. He'll back up who I am and who your dear departed sheriff was.",
+      "scene": 7
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "In other words, marshal, you owe me $200.",
+      "scene": 7
+    },
+    {
+      "character": "MARSHAL GILL TATUM",
+      "text": "I'll be damned.",
+      "scene": 7
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "After this Brittle business is behind us, you'll be a free man, with a horse, $75 in your back pocket...",
+      "scene": 8
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "What's your plan after that?",
+      "scene": 8
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Find my wife, and buy her freedom.",
+      "scene": 8
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Django, I had no idea you were a married man. Do most slaves believe in marriage?",
+      "scene": 8
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Oh, me and my wife do. Old Man Carrucan didn't. That's why we, uh... we run off.",
+      "scene": 8
+    },
+    {
+      "character": "OLD MAN CARRUCAN",
+      "text": "Django. Django, Django. You got sand, Django. Boy's got sand.",
+      "scene": 8
+    },
+    {
+      "character": "OLD MAN CARRUCAN",
+      "text": "I got no use for a nigger with sand.",
+      "scene": 8
+    },
+    {
+      "character": "OLD MAN CARRUCAN",
+      "text": "I want you to burn a runaway \"r\" right here on his cheek. And the girl, too.",
+      "scene": 8
+    },
+    {
+      "character": "OLD MAN CARRUCAN",
+      "text": "And I want you to take 'em to the Greenville auction and sell 'em. Both of 'em. Separately.",
+      "scene": 8
+    },
+    {
+      "character": "OLD MAN CARRUCAN",
+      "text": "And this one...",
+      "scene": 8
+    },
+    {
+      "character": "OLD MAN CARRUCAN",
+      "text": "you will sell him cheap.",
+      "scene": 8
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "In Greenville...",
+      "scene": 8
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "there should be some sort of a records office.",
+      "scene": 8
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "You know when she was sold... you know where she came from, and you know her name. What is her name?",
+      "scene": 8
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Broomhilda.",
+      "scene": 8
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "When she was little, her mistress taught her so she'd have somebody to speak German with.",
+      "scene": 9
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Well, let me get this straight. Your slave wife speaks German and her name is Broomhilda Von Shaft?",
+      "scene": 9
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Yep.",
+      "scene": 9
+    },
+    {
+      "character": "BROOMHILDA VON SHAFT",
+      "text": "They call me Hildi.",
+      "scene": 9
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "When we gain access to these plantations, we'll be putting on an act. You'll be playing a character.",
+      "scene": 10
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Hm? No?",
+      "scene": 10
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "During the act, you can never break character. Do you understand?",
+      "scene": 10
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Yeah. Don't break character.",
+      "scene": 10
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "And your character is that of The Valet.",
+      "scene": 10
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "What that is?",
+      "scene": 10
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "That's a fancy word for servant.",
+      "scene": 10
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "And now, Django, you may choose your character's costume.",
+      "scene": 11
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Youse gonna let me pick out my own clothes?",
+      "scene": 11
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "But of course.",
+      "scene": 11
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Whoa.",
+      "scene": 12
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "It's against the law for niggers to ride horses in this territory.",
+      "scene": 12
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "This is my valet. My valet does not walk.",
+      "scene": 12
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "He's a free man. He can ride what he pleases.",
+      "scene": 13
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "Not on my property. Not around my niggers, he can't.",
+      "scene": 13
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "My good sir, perhaps we got off on the wrong boot. Allow me to unring this bell. My name is Dr. King Schultz. This is my valet, Django. And these are our horses, Tony and Fritz.",
+      "scene": 13
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Mr. Bennett? I've been led to believe that you are a gentleman and a businessman. And it is for these attributes we've ridden from Texas to Tennessee to parley with you now. I wish to purchase one of your nigger gals.",
+      "scene": 13
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "You and your Jimmie rode from Texas to Tennessee to buy one of my nigger gals? No appointment, no nothin?",
+      "scene": 13
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Oh, I'm afraid so.",
+      "scene": 13
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "Well, what if I was to say I don't like you? Or your fancy-pants nigger? And I wouldn't sell you a tinker's damn. Now what you got to say about that?",
+      "scene": 13
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Mr. Bennett. If you are the businessman I've been led to believe you to be, I have 5,000 things I might say that could change your mind.",
+      "scene": 13
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "Well, come on inside and get yourself somethin' cool to drink.",
+      "scene": 13
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Hm-mm.",
+      "scene": 13
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Oh, maybe while we discuss business, you could provide one of your loveliest black creatures to escort Django here around your magnificent grounds.",
+      "scene": 13
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "Oh, well, absolutely! Uh, Betina.",
+      "scene": 13
+    },
+    {
+      "character": "BETINA",
+      "text": "Yessir, Big Daddy? Uh...",
+      "scene": 13
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "What's your Jimmie's name again?",
+      "scene": 13
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Django. Django.",
+      "scene": 13
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "Betina, sugar, could you take Django there and take him around the grounds here and show him all the pretty stuff.",
+      "scene": 13
+    },
+    {
+      "character": "BETINA",
+      "text": "As you please, Big Daddy.",
+      "scene": 13
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Oh, Mr. Bennett, I must remind you, Django is a free man. He cannot be treated like a slave. He... within the bounds of good taste, He must be treated as an extension of myself.",
+      "scene": 13
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "Understood, Schultz. Betina, sugar? Yes'm? Django isn't a slave. Django is a free man, you understand? You can't treat him like any of the other niggers around here, 'cause he ain't like any of the other niggers around here. You got it?",
+      "scene": 13
+    },
+    {
+      "character": "BETINA",
+      "text": "You want I should treat him like white folks?",
+      "scene": 13
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "No. That's not what I said.",
+      "scene": 13
+    },
+    {
+      "character": "BETINA",
+      "text": "Then I don't know what you want, Big Daddy.",
+      "scene": 13
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "Yes, I can see that. Uh... What's the name of that peckerwood boy from town that works with the glass? His mama work over at the lumberyard.",
+      "scene": 13
+    },
+    {
+      "character": "BETINA",
+      "text": "Oh, you mean Jerry. That's the boy's name. Jerry!",
+      "scene": 13
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "You know Jerry, don't you, sugar?",
+      "scene": 13
+    },
+    {
+      "character": "BETINA",
+      "text": "Yes'm, Big Daddy. Well, that's it, then.",
+      "scene": 13
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "You just treat him like you would Jerry.",
+      "scene": 13
+    },
+    {
+      "character": "BETINA",
+      "text": "That house we just left from is The Big House.",
+      "scene": 13
+    },
+    {
+      "character": "BETINA",
+      "text": "That there is the pantry. That's where Big Daddy hang all his dead meat. Po' little squirrels.",
+      "scene": 13
+    },
+    {
+      "character": "BETINA",
+      "text": "What you do for your massa?",
+      "scene": 13
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Didn't you hear him tell you I ain't no slave?",
+      "scene": 13
+    },
+    {
+      "character": "BETINA",
+      "text": "So you really free? Yes, I's free. You mean you wanna dress like that?",
+      "scene": 13
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Betina, I need to ask you somethin'. What you want? I'm lookin' for three white men. Three brothers. Overseers. Their name is Brittle. You know 'em?",
+      "scene": 13
+    },
+    {
+      "character": "BETINA",
+      "text": "Brittle? Yes, Brittle.",
+      "scene": 13
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "John Brittle, Ellis Brittle, Roger Brittle, sometime called Lil Raj.",
+      "scene": 13
+    },
+    {
+      "character": "BETINA",
+      "text": "I don't know them.",
+      "scene": 13
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "They could be usin' a different name. They woulda come to the plantation this past year.",
+      "scene": 13
+    },
+    {
+      "character": "BETINA",
+      "text": "You mean the Shaffers? Maybe.",
+      "scene": 13
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Three brothers? Uh-huh. They here? Uh-huh. Could you point one of 'em out to me?",
+      "scene": 13
+    },
+    {
+      "character": "BETINA",
+      "text": "Well, one's over in that field.",
+      "scene": 13
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Old Man Carrucan ain't gonna appreciate this, now. She work in the house, John. You could mess her skin up, and you gonna mess her up and she ain't gonna be worth... she ain't gonna be worth a damn thing. Now, your Bible say...",
+      "scene": 14
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Look, I told you that I was one that made her do it.",
+      "scene": 14
+    },
+    {
+      "character": "JOHN BRITTLE",
+      "text": "You ready?",
+      "scene": 14
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "She didn't wanna run off with me. If anybody should be gettin' whupped now, it should be me. It should be me, John. Now, I been here long enough, you know me, you know me a long time, now.",
+      "scene": 14
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "You know Massa Carrucan ain't gonna appreciate this. She's a... she's a house slave. She a house slave, she can't be...",
+      "scene": 14
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "On my knees. I'm asking you this, please. Ain't this what you want? I'm keeping it funny for you. Now, John, please.",
+      "scene": 15
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "I's on my knees, John.",
+      "scene": 15
+    },
+    {
+      "character": "JOHN BRITTLE",
+      "text": "I like the way you beg, boy.",
+      "scene": 15
+    },
+    {
+      "character": "BETINA",
+      "text": "Is that who you was lookin' for?",
+      "scene": 15
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Yep. Where the other two at?",
+      "scene": 15
+    },
+    {
+      "character": "BETINA",
+      "text": "They by the stable, punishin' Little Jody for breakin' eggs.",
+      "scene": 15
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "They whippin' Little Jody? Point me in that direction.",
+      "scene": 15
+    },
+    {
+      "character": "BETINA",
+      "text": "You go to that tree and keep goin' that-a way.",
+      "scene": 15
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Go get that white man I came here with.",
+      "scene": 15
+    },
+    {
+      "character": "ROGER BRITTLE",
+      "text": "Come on, now. No, no, please! Come on, girlie. Please! Come on. Get you set up now.",
+      "scene": 15
+    },
+    {
+      "character": "JOHN BRITTLE",
+      "text": "\"And the Lord said, 'The fear of ye...\" \"and the dread of ye shall be on every beast of the earth.\"'",
+      "scene": 15
+    },
+    {
+      "character": "ROGER BRITTLE",
+      "text": "Come here now, woman! You'd better give me that arm!",
+      "scene": 15
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "You remember me?",
+      "scene": 16
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "I like the way you die, boy.",
+      "scene": 16
+    },
+    {
+      "character": "ROGER BRITTLE",
+      "text": "Goddamn son of a bitch!",
+      "scene": 16
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Y'all wanna see somethin?",
+      "scene": 17
+    },
+    {
+      "character": "ROGER BRITTLE",
+      "text": "No!",
+      "scene": 17
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Who were they?",
+      "scene": 17
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "That's Big John, and that's Lil Raj.",
+      "scene": 17
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Where's Ellis?",
+      "scene": 17
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "He's the one hightailin' it across that field right now.",
+      "scene": 17
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "You sure that's him? Yeah. Positive? I don't know. You don't know if you're positive? I don't know what \"positive\" mean. It means you're sure. Yes. \"Yes,\" what? Yes, I'm sure that's Ellis Brittle.",
+      "scene": 17
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "I'm positive he dead.",
+      "scene": 18
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Django!",
+      "scene": 18
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Everybody calm down. We mean no one else any harm.",
+      "scene": 18
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "Who are you two jokers?",
+      "scene": 18
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I am Dr. King Schultz, a legal representative of the criminal justice system of the United States of America. The man to my left is Django Freeman. He's my deputy. In my pocket is a warrant, signed by Circuit Court Judge Henry Allen Laudermilk of Austin, Texas, for the arrest and capture, dead or alive, of John Brittle, Roger Brittle and Ellis Brittle.",
+      "scene": 18
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "They were goin' by the name Shaffer.",
+      "scene": 18
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "You know them by the name of Shaffer, but the butchers' real name was Brittle. These are wanted men. The law wants 'em for murder. Now, I reiterate, the warrant states dead or alive, so when Mr. Freeman and myself executed these men on sight, we were operating within our legal boundaries. I realize passions are high, but I must warn you, the penalty for taking deadly force against an officer of the court in the performance of his duty is you'll be hung by the neck until you're dead.",
+      "scene": 18
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Now, may I please remove the warrant from my pocket so you may examine it?",
+      "scene": 18
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "Gimme.",
+      "scene": 18
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Satisfied?",
+      "scene": 19
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "May I have that back, please?",
+      "scene": 19
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "Get off my land. Posthaste.",
+      "scene": 19
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Load up the bodies as quickly as you can and let's get outta here.",
+      "scene": 19
+    },
+    {
+      "character": "ROBERT",
+      "text": "But, not pointin' any fingers, they coulda been done better. So how 'bout no bags this time, but next time we do the bags right and then we go full regalia.",
+      "scene": 20
+    },
+    {
+      "character": "RAIDER",
+      "text": "I like that idea a lot. You get my vote, Robert.",
+      "scene": 20
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "Wait a minute! I didn't say no bags.",
+      "scene": 20
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "There he is! Get that nigger out from under that wagon! And get that nigger-lover outta the wagon!",
+      "scene": 21
+    },
+    {
+      "character": "RAIDER",
+      "text": "That nigger ain't down here, Big Daddy!",
+      "scene": 21
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "What? They tricked us! Well, where are they?",
+      "scene": 21
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Auf Wiedersehen.",
+      "scene": 21
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Oh! Bull's-eye.",
+      "scene": 21
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Look at 'em run.",
+      "scene": 21
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Yeah, cowards tend to do that.",
+      "scene": 21
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "Goddamn it!",
+      "scene": 21
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "Goddamn it!",
+      "scene": 21
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Would you care to?",
+      "scene": 21
+    },
+    {
+      "character": "BIG DADDY",
+      "text": "Can't see shit outta this!",
+      "scene": 21
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Got him.",
+      "scene": 22
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "The kid's a natural.",
+      "scene": 22
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "How you know Broomhilda's first masters was German?",
+      "scene": 22
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Broomhilda is a German name. If they named her, it stands to reason they'd be German.",
+      "scene": 22
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Lots of gals where you're from named Broomhilda?",
+      "scene": 22
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Broomhilda is the name of a character in the most popular of all the German legends.",
+      "scene": 22
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "There's a story about Broomhilda?",
+      "scene": 22
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Oh, yes, there is.",
+      "scene": 22
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Would you like me to tell you?",
+      "scene": 23
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Well, Broomhilda was a princess.",
+      "scene": 23
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "She was a daughter of Wotan, god of all gods. Anyway, her father is really mad at her.",
+      "scene": 23
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "What she do?",
+      "scene": 23
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I can't exactly remember. She disobeys him in some way. So he puts her on top of the mountain.",
+      "scene": 23
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Broomhilda's on a mountain?",
+      "scene": 23
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "It's a German legend, there's always going to be a mountain in there somewhere. And he puts a fire-breathing dragon there to guard the mountain.",
+      "scene": 23
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "And he surrounds her in a circle of hellfire. And there, Broomhilda shall remain. Unless a hero arises brave enough to save her.",
+      "scene": 23
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Does a fella arise?",
+      "scene": 23
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Yes, Django, as a matter of fact, he does. A fella named Siegfried.",
+      "scene": 23
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Does Siegfried save her?",
+      "scene": 23
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Quite spectacularly so. He scales the mountain, because he's not afraid of it. He slays the dragon, because he's not afraid of him. And he walks through hellfire...",
+      "scene": 23
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "because Broomhilda's worth it.",
+      "scene": 23
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "I know how he feel.",
+      "scene": 23
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I think I'm just starting to realize that.",
+      "scene": 23
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Now, look, Django...",
+      "scene": 23
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I don't doubt that one day you'll save your lady love... but I can't let you go to Greenville in a good conscience. A slave auction town in Mississippi isn't the place for you to visit. Free or not, it's just too dangerous.",
+      "scene": 23
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "But let me ask you a question.",
+      "scene": 23
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "How do you like the bounty hunting business?",
+      "scene": 23
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Kill white folks and they pay you for it? What's not to like?",
+      "scene": 23
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Now, I have to admit, we make a good team.",
+      "scene": 23
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "I thought you was mad at me for killin' Big John and Lil Raj.",
+      "scene": 23
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Yeah, on that occasion you were a tad overzealous, but normally, that's a good thing. How'd you like to partner up for the winter?",
+      "scene": 23
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "What you mean \"partner up\"?",
+      "scene": 23
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "You work with me through the winter till the snow melts... I give you a third of my bounties. So we make some money this winter, and when the snow melts, I'll take you to Greenville myself and we'll find where they sent your wife.",
+      "scene": 23
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Why you care what happen to me?",
+      "scene": 23
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Why you care if I find my wife?",
+      "scene": 23
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Frankly... I've never given anybody their freedom before. And now that I have, I feel vaguely responsible for you. Plus, when a German meets a real life Siegfried, that's kind of a big deal.",
+      "scene": 23
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "As a German, I'm obliged to help you on your quest to rescue your beloved Broomhilda.",
+      "scene": 23
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "That's better than most of them get. Damn sight better than he deserves.",
+      "scene": 24
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Put down the rifle.",
+      "scene": 24
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Don't worry, I'm not mad at you. Let's take out Smitty Bacall's handbill.",
+      "scene": 24
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Read it aloud. Consider that today's lesson.",
+      "scene": 24
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "\"Wanted. Dead or alive.\" \"Smitty Bacall and the Smitty Bacall\"",
+      "scene": 24
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Gang. \"Gang.\"",
+      "scene": 24
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Mem... \"Members.\"",
+      "scene": 25
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "\"Known members of the Smitty Bacall Gang are as follas:\"",
+      "scene": 25
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Follows. \"Follows.\"",
+      "scene": 25
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "\"Dandy Michaels, Gerald Nash and...\"",
+      "scene": 25
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Crazy Craig Koons. That is who Smitty Bacall is. If Smitty Bacall wanted to start a farm at 22, they would never have printed that. But Smitty Bacall wanted to rob stagecoaches and he didn't mind killing people to do it. Do you want to save your wife by doing what I do? This is what I do. I kill people and sell their corpses for cash. This corpse is worth $7,000. Now quit your pussyfooting and shoot him.",
+      "scene": 25
+    },
+    {
+      "character": "BOY",
+      "text": "Pa? Pa!",
+      "scene": 25
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Here. You need to keep this Smitty Bacall handbill.",
+      "scene": 25
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Why? It's good luck.",
+      "scene": 25
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "You always keep the handbill of your first bounty.",
+      "scene": 25
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Doctor, Django, how the hell are ya? Who the hell-a you got there?",
+      "scene": 26
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "The Wilson-Lowe Gang.",
+      "scene": 26
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Who the hell is the Wilson-Lowe Gang?",
+      "scene": 26
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Bad Chuck Wilson and meaner Bobby Lowe and three of their acolytes.",
+      "scene": 26
+    },
+    {
+      "character": "SHERIFF",
+      "text": "Huh. Well, just leave 'em out here, they ain't going nowhere. Why don't you come in then out of the snowy snow and get yourselves some coffee. We had a birthday yesterday. Got some cake. Pretty good.",
+      "scene": 26
+    },
+    {
+      "character": "SLAVE DRIVER",
+      "text": "Move along!",
+      "scene": 27
+    },
+    {
+      "character": "SLAVE DRIVER",
+      "text": "Move it, boy!",
+      "scene": 27
+    },
+    {
+      "character": "SLAVE DRIVER",
+      "text": "Keep movin'. Get on up on that auction block.",
+      "scene": 27
+    },
+    {
+      "character": "SLAVE DRIVER",
+      "text": "Don't let that mud slow you down. Keep going.",
+      "scene": 27
+    },
+    {
+      "character": "SLAVE DRIVER",
+      "text": "Keep goin'!",
+      "scene": 28
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "\"Broomhilda Von Shaft. Age 27. 'R' on right cheek.\"",
+      "scene": 28
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Calvin Candie. He owns the fourth biggest cotton plantation in Mississippi: Candyland.",
+      "scene": 28
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Candyland?",
+      "scene": 28
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Oh, so you've heard of it.",
+      "scene": 28
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Ain't no slave ain't heard of Candyland.",
+      "scene": 28
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Well, apparently, that's where your wife is... and that's the repellant gentleman who owns her. Let's just hope she works in the house, not in the field.",
+      "scene": 28
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Oh, no, she ain't no field nigger. She... she pretty. And she talk good, too.",
+      "scene": 28
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "But when they tore her back up and then they... burned that runaway \"r\" on her cheek... they goddamned her.",
+      "scene": 28
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "She ain't no field nigger but she ain't good enough for the house no more either. They gonna try to make her a comfort girl.",
+      "scene": 28
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "What's a comfort...? Oh.",
+      "scene": 28
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Not while I got freedom.",
+      "scene": 28
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Not while I got my gun.",
+      "scene": 28
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "So do we offer to buy her?",
+      "scene": 28
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "So...",
+      "scene": 28
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "say...",
+      "scene": 28
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "a man wants to buy a horse. Needs to buy a horse. He walks up to the farmer's farm, and he knocks on the farmer's door and asks the farmer to buy his horse. And do you know what the farmer says? The farmer says no.",
+      "scene": 28
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Well, I say fuck that farmer, and I'm stealin' that horse.",
+      "scene": 28
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Fair enough. But now you're a horse thief, and they hang horse thieves. Not to mention the horse goes back to its original owner because the horse is still his property. We need her and we need a bill of sale.",
+      "scene": 28
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Well, if we ain't gonna try to buy her, then how we gonna get her?",
+      "scene": 28
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "May I offer an alternative plan of action?",
+      "scene": 28
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Go ahead.",
+      "scene": 28
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "So... the man walks up to the farmer's farm, he knocks on the farmer's door... and asks not to buy the horse, but the farm. And makes an offer so ridiculous, the farmer is forced to say yes.",
+      "scene": 28
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "But apparently this farmer ain't all about the farm. How much do you know about Mandingo fighting?",
+      "scene": 29
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "What?",
+      "scene": 29
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Can you convincingly masquerade as someone who is an expert on Mandingo fighting?",
+      "scene": 29
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Why?",
+      "scene": 29
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Because my character is that of a big money buyer from Dusseldorf, here in Greenville to buy my way into the Mandingo fight game. And your character is a Mandingo expert I hired to help me do it.",
+      "scene": 29
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "They call that \"One-Eyed Charley.\"",
+      "scene": 29
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Thank you. Hm-mm.",
+      "scene": 30
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "You want me to play a black slaver? Ain't nothin' lower than a black slaver. A black slaver is lower than the head house nigger... and, buddy, that's pretty fuckin' low.",
+      "scene": 30
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Then play him that way. Give me your black slaver.",
+      "scene": 30
+    },
+    {
+      "character": "LEONIDE MOGUY",
+      "text": "Dr. Schultz! Good to see you again! Mr. Moguy.",
+      "scene": 31
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Thank you for your assistance in creating the opportunity for this appointment. Nonsense, it's my job.",
+      "scene": 31
+    },
+    {
+      "character": "LEONIDE MOGUY",
+      "text": "So this is the One-Eyed Charley I've heard so much about.",
+      "scene": 31
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Yes, this is Django Freeman. Django, this is Mr. Candie's lawyer, Leonide Moguy.",
+      "scene": 31
+    },
+    {
+      "character": "LEONIDE MOGUY",
+      "text": "Just call me Leo. Calvin's in the Julius Caesar room. You all wanna follow me?",
+      "scene": 31
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "How long have you been associated with Mr. Candie?",
+      "scene": 31
+    },
+    {
+      "character": "LEONIDE MOGUY",
+      "text": "Oh, Calvin's father and I were about 11 when we went to boarding school together. Calvin's father's father put me through law school. One could almost say I was raised to be Calvin's lawyer.",
+      "scene": 31
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "One could almost say youse a nigger.",
+      "scene": 31
+    },
+    {
+      "character": "LEONIDE MOGUY",
+      "text": "What did you say?",
+      "scene": 31
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "I said... Nothing, he's just being cheeky.",
+      "scene": 31
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Uh, anything else about Mr. Candie that I should know before I meet him?",
+      "scene": 31
+    },
+    {
+      "character": "LEONIDE MOGUY",
+      "text": "Yes, he is a bit of a Francophile.",
+      "scene": 31
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "What civilized people aren't?",
+      "scene": 31
+    },
+    {
+      "character": "LEONIDE MOGUY",
+      "text": "And he prefers Monsieur Candie to Mr. Candie.",
+      "scene": 31
+    },
+    {
+      "character": "LEONIDE MOGUY",
+      "text": "He doesn't speak French. Don't speak French to him, it'll embarrass him.",
+      "scene": 31
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Get back on top, now! Turn around! There you go.",
+      "scene": 31
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Why do you want to get in the Mandingo business?",
+      "scene": 31
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "You don't intend to allow your second to make the proper introductions?",
+      "scene": 31
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Quit stalling, now. Answer the question.",
+      "scene": 31
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "The awful truth? I'm bored. This seems like a good bit of fun.",
+      "scene": 31
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Well, come on over. We got us a fight goin' on that's a good bit of fun.",
+      "scene": 31
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Won't you accompany me to the bar?",
+      "scene": 31
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Dr. Schultz. What a rare pleasure. Keep fighting, niggers.",
+      "scene": 32
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "And I might add, an honor. Honor to meet you.",
+      "scene": 32
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Please have a seat, the pleasure's all mine. Get free man Django here whatever he wants.",
+      "scene": 32
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "And I'll have sweet tea and bourbon.",
+      "scene": 32
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Use your weight, boy, use your weight! There you go. He's much bigger and stronger! Come on, now! He's not doing what I told him, for God's sakes.",
+      "scene": 33
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Come on, now, boy! It's a fight to the death! You either hit him or are you ain't?",
+      "scene": 33
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Big Fred, come on! Turn him around! Now...",
+      "scene": 33
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Use your strength, boy! Come on, now! Use your strength!",
+      "scene": 33
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "There you go! There you go! Look at that. See, I told you to put some more power in there. Do what I told you, boy! There you go! No! CALVIN: Do what I told ya! Blind him black, boy! Blind him black!",
+      "scene": 33
+    },
+    {
+      "character": "AMERIGO VESSEPI",
+      "text": "Oh, no, Luigi.",
+      "scene": 33
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Whoo! Whoo-hoo-hoo!",
+      "scene": 33
+    },
+    {
+      "character": "AMERIGO VESSEPI",
+      "text": "Oh...",
+      "scene": 33
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Finish him.",
+      "scene": 33
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Go on, boy, finish him!",
+      "scene": 33
+    },
+    {
+      "character": "LEONIDE MOGUY",
+      "text": "That's why they call him Big Fred.",
+      "scene": 33
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Worth every penny. Well, arrivederci, Luigi. Come on up, now, boy. Get yourself a rest. You did a fine job. A real fine job. Mercedes.",
+      "scene": 33
+    },
+    {
+      "character": "AMERIGO VESSEPI",
+      "text": "Tequila.",
+      "scene": 34
+    },
+    {
+      "character": "AMERIGO VESSEPI",
+      "text": "What's your name?",
+      "scene": 34
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Django.",
+      "scene": 34
+    },
+    {
+      "character": "AMERIGO VESSEPI",
+      "text": "Can you spell it?",
+      "scene": 34
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "D-J-A-N-G-O.",
+      "scene": 34
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "The D is silent.",
+      "scene": 34
+    },
+    {
+      "character": "AMERIGO VESSEPI",
+      "text": "I know.",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Mr. Moguy, want you to take care of my new boy here. You find him a room with a soft bed, then you bring him up a pony to lick his pole. But you be ready to travel to Candyland tomorrow morning, now, ya hear?",
+      "scene": 34
+    },
+    {
+      "character": "LEONIDE MOGUY",
+      "text": "Yessir, Monsieur Candie.",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Before you go, Roscoe, get Fred here a tall beer.",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "You enjoy that, boy. You've earned it.",
+      "scene": 34
+    },
+    {
+      "character": "BIG FRED",
+      "text": "Yessir.",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "What's your name, boy? His name is Django Freeman.",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Where'd you dig him up?",
+      "scene": 34
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "A fortuitous turn of events brought Django and myself together.",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "I've heard tell about you. I heard you been telling everybody them Mandingos ain't no damn good. Ain't nothin' nobody is sellin' is worth buyin'. I'm curious... what makes you such a Mandingo expert?",
+      "scene": 34
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "I'm curious what makes you so curious.",
+      "scene": 34
+    },
+    {
+      "character": "BUTCH POOCH",
+      "text": "What did you say, boy? Calm down, Butch.",
+      "scene": 34
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "No offense given...",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "none taken.",
+      "scene": 34
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Monsieur Candie... I'd appreciate if you could direct your line of inquiry toward me.",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "One... you do not have anything to drink. Can I get you a tasty refreshment?",
+      "scene": 34
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Yes! I'll have a beer. Wunderbar.",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Roscoe, a beer for the man with the beard, and I will have a Polynesian Pearl Diver. Do not spare the rum. Doc... I am a seasoned slaver. You are, well, you are a neophyte. I'm simply tryin' to ascertain if this cowboy here is takin' advantage of you.",
+      "scene": 34
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "With all due respect, Monsieur Candie... I didn't seek you out for your advice. I sought you out to purchase a fighting nigger at above top-dollar market price. Now I was under the impression, when you granted me an audience, it would be to discuss business.",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Well, we weren't talkin' business yet. We were discussin' my curiosity.",
+      "scene": 34
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Thank you.",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Roscoe, Coco, go outside and play.",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Sheba... you stay right there.",
+      "scene": 34
+    },
+    {
+      "character": "SHEBA",
+      "text": "I know you didn't mean me.",
+      "scene": 34
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Prost! German.",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Now, according to Moguy, if I do business with you, I'm doing business with both y'all. He does the eyeballin', you the billfold? Is that it?",
+      "scene": 34
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Well, you don't make it sound too flattering, but more or less, yeah.",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Hm. So... Bright Boy... Moguy tells me you looked over my African flesh and you was none too impressed, huh?",
+      "scene": 34
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Not for top dollar.",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Well, then, we got nothin' more to talk about. You see, you wanna buy a beat-ass nigger from me, those are the beat-ass niggers I wanna sell so...",
+      "scene": 34
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "He don't wanna buy the niggers you wanna sell. He wants the nigger you don't wanna sell.",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Well, I don't sell the niggers I don't wanna sell.",
+      "scene": 34
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Well, you won't sell your best. You won't even sell your second best. But your third best...? You don't want to sell him either. But if I made you an offer so ridiculous you'd be forced to consider it...",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "who knows what could happen?",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "And what do you consider ridiculous?",
+      "scene": 34
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "For a truly talented specimen, the right nigger?",
+      "scene": 34
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "How much would you say, Django?",
+      "scene": 34
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Twelve thousand dollars.",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Well, gentlemen, you had my curiosity, but now you have my attention.",
+      "scene": 34
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Willie. Willie. Hold up! Hold up. Ah! Good morning, gentlemen. Good Dr. Schultz. Beautiful morning, isn't it? You couldn't have picked a better one. Please, won't you take a ride with us here in the Victoria.",
+      "scene": 35
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Oh, thank you very much.",
+      "scene": 35
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "You can tie your horse up back there.",
+      "scene": 35
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Django.",
+      "scene": 35
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Where I part company from many of my phrenologist colleagues is I believe there is a level above bright, above talented, above loyal that a nigger can aspire to. Say, one nigger that just pops up in 10,000. The exceptional nigger.",
+      "scene": 35
+    },
+    {
+      "character": "BILLY CRASH",
+      "text": "Bright day, huh, Bright Boy?",
+      "scene": 35
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Sun is up.",
+      "scene": 35
+    },
+    {
+      "character": "BILLY CRASH",
+      "text": "Shining on all of us.",
+      "scene": 35
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Have a seat, doc.",
+      "scene": 35
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Thank you. Quite an honor.",
+      "scene": 35
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "The honor is all ours. Thank you. But I do believe that, given time, exceptional niggers like Bright Boy here... become if not frequent... more frequent.",
+      "scene": 35
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Bright Boy, you are that one in 10,000.",
+      "scene": 35
+    },
+    {
+      "character": "BILLY CRASH",
+      "text": "The name of the game is keep up, not catch up, nigger.",
+      "scene": 35
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Hoot! Get back up on your horse.",
+      "scene": 36
+    },
+    {
+      "character": "HOOT",
+      "text": "He broke my collarbone!",
+      "scene": 36
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "For God's sake, somebody please help Hoot here back up on his goddamn horse.",
+      "scene": 36
+    },
+    {
+      "character": "BILLY CRASH",
+      "text": "Yessir, boss. Oh, now you are one lucky nigger.",
+      "scene": 36
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "You better listen to your boss, white boy.",
+      "scene": 36
+    },
+    {
+      "character": "BILLY CRASH",
+      "text": "Oh, I'm gonna go walking in the moonlight with you. You wanna hold my hand?",
+      "scene": 36
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Willie, take us home.",
+      "scene": 36
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "You got a problem with your eyeball, boy?",
+      "scene": 37
+    },
+    {
+      "character": "SLAVE",
+      "text": "No, sir.",
+      "scene": 37
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "You want a boot heel in it?",
+      "scene": 37
+    },
+    {
+      "character": "SLAVE",
+      "text": "No, sir.",
+      "scene": 37
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Then you keep your goddamn eyeballs off me. You flash that bad look at me again, I'll give you a reason not to like me. Now move, nigger!",
+      "scene": 37
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "You niggers are gonna understand something about me. I'm worse than any of these white men here. You get the molasses out your ass, you keep your goddamn eyeballs off me.",
+      "scene": 37
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "He is a rambunctious sort, ain't he?",
+      "scene": 37
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Indeed.",
+      "scene": 37
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "May we stop for a moment so I may put a word in my man's ear? You know, I'm expecting to fall in love once I see the specimens at Candyland, so before that moment, it would be good if I could have a confidential strategy meeting with my confidant.",
+      "scene": 37
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "You mind telling me what the hell you doing?",
+      "scene": 37
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I confirmed that Broomhilda's at Candyland.",
+      "scene": 37
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "You're sure it's her? He didn't call her by name, but she's a young lady, whip marks on her back and speaks German. Now, while it's not wise to assume, in this instance, I think it's pretty safe. Point being, don't get so carried away with your retribution. You lose sight of why we're here.",
+      "scene": 37
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "You think I lost sight of that? Yes, I do.",
+      "scene": 37
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Stop antagonizing Candie. You're going to blow this whole charade, or more than likely get us both killed. And I, for one, don't intend to die in Chickasaw County, Mississippi, USA.",
+      "scene": 37
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "I'm not antagonizing him. I'm intriguing him.",
+      "scene": 37
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "You're yelling abuse at these poor slaves.",
+      "scene": 37
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "I recall the man who had me kill another man in front of his son and he didn't bat a eye. You remember that?",
+      "scene": 37
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Yeah, of course I remember.",
+      "scene": 37
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "What you said was that this is my world... and in my world you gotta get dirty. So that's what I'm doing. I'm gettin' dirty.",
+      "scene": 37
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Well, you're paraphrasing a tad, but... that was the general gist.",
+      "scene": 37
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "See you at Candyland.",
+      "scene": 37
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "All right, niggers, back at it. That means you too, Moonlight.",
+      "scene": 37
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "I'll be. D'Artagnan! Now, boy, why do a fool thing like run off?",
+      "scene": 38
+    },
+    {
+      "character": "D'ARTAGNAN",
+      "text": "I can't fight no more, Monsieur Candie.",
+      "scene": 38
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Yes, you can. You might not be able to win, but your ass can fight. Mr. Stonesipher, would you please shut these goddamn dogs up? I cannot hear myself think! Quiet down, Marsha!",
+      "scene": 38
+    },
+    {
+      "character": "MR. STONESIPHER",
+      "text": "Marsha, hush up! Marsha! Hush up! Hey! Get these goddamn dogs away from this nigger!",
+      "scene": 38
+    },
+    {
+      "character": "MR. STONESIPHER",
+      "text": "Come on now, boy... get on out that tree.",
+      "scene": 38
+    },
+    {
+      "character": "D'ARTAGNAN",
+      "text": "Yessir.",
+      "scene": 38
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "How long was he loose?",
+      "scene": 39
+    },
+    {
+      "character": "MR. STONESIPHER",
+      "text": "A night. Day. Half the other night.",
+      "scene": 39
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "How far he get off the property?",
+      "scene": 39
+    },
+    {
+      "character": "MR. STONESIPHER",
+      "text": "'Bout 20 miles off the prop.",
+      "scene": 39
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Pretty far considering that limp he got.",
+      "scene": 39
+    },
+    {
+      "character": "MR. STONESIPHER",
+      "text": "Hm.",
+      "scene": 39
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Mr. Moguy, who was D'Artagnan supposed to fight on Friday?",
+      "scene": 39
+    },
+    {
+      "character": "LEONIDE MOGUY",
+      "text": "One-a this new lot.",
+      "scene": 39
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Well, way he looks now, a blind Indian wouldn't bet a bead on him.",
+      "scene": 39
+    },
+    {
+      "character": "D'ARTAGNAN",
+      "text": "Please, Monsieur Candie, I ain't got it in me no more.",
+      "scene": 39
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Now, now, now, now, now. I can't... Now, no beggin'. No playin' on my soft heart.",
+      "scene": 39
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "You in trouble now, son. Yessir.",
+      "scene": 39
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "I done paid $500 for you. When I pay $500, then I expect to get five fights out of a nigger 'fore he roll over and play dead. Sir. You got to understand that I'm runnin' a business here. You fought three fights. But I won every one. Yes, you did. Yes, you did. But that last one, you muddled the line between winnin' and losin'.",
+      "scene": 39
+    },
+    {
+      "character": "D'ARTAGNAN",
+      "text": "Yessir.",
+      "scene": 39
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "I pay $500, I want five goddamn fights! So what about my $500, huh?",
+      "scene": 39
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "What about my $500?",
+      "scene": 39
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "You gonna reimburse me?",
+      "scene": 39
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "You even know what \"reimburse\" means? CALVIN: Huh?",
+      "scene": 39
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I'll reimburse you!",
+      "scene": 39
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "You will?",
+      "scene": 39
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Yep.",
+      "scene": 39
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "You'll pay $500 for practically a one-eyed old Joe ain't fit to push a broom?",
+      "scene": 39
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "No, he won't.",
+      "scene": 39
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "He just tired of you toyin' with him is all. Matter of fact, so am I. But we ain't payin' a penny for that pickaninny. Ain't got no use for him. Ain't that right, doc?",
+      "scene": 39
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "You heard him.",
+      "scene": 39
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "You're gonna have to excuse Mr. Stonesipher's slack-jawed gaze. He ain't never seen a nigger like you ever in his life. Ain't that right, Mr. Stonesipher?",
+      "scene": 39
+    },
+    {
+      "character": "MR. STONESIPHER",
+      "text": "That right.",
+      "scene": 39
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "For that matter... nor have I.",
+      "scene": 39
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Now... seein' as you won't pay a penny for this pickaninny here...",
+      "scene": 39
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "you won't mind me handlin' this nigger any way I see fit?",
+      "scene": 39
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "He's your nigger.",
+      "scene": 39
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Mr. Stonesipher? Let Marsha and her bitches send D'Artagnan to nigger heaven.",
+      "scene": 39
+    },
+    {
+      "character": "MR. STONESIPHER",
+      "text": "Marsha! Marsha, hey, get him! Get 'im, get 'im! Yeah! Whoo! Whoo-ee!",
+      "scene": 39
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Your boss looks a little green around the gills for a blood sport like nigger fighting.",
+      "scene": 40
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Nah, he just ain't used to seein' a man ripped apart by dogs is all.",
+      "scene": 40
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Hm. You are used to it?",
+      "scene": 40
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "I'm just a little more used to Americans than he is. Hm. Now, Monsieur Candie... whenever you're ready. We rode five hours so you could show off your stock. Let's get to it. 'Cause as of now, if he's an example, I ain't impressed.",
+      "scene": 40
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Follow me.",
+      "scene": 40
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Hello! Stephen, my boy!",
+      "scene": 41
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Yeah, yeah, yeah. Hello, my ass. Who this nigger up on that nag?",
+      "scene": 41
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Stephen, you have nails for breakfast? What's-a matter? Why you so ornery?",
+      "scene": 41
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Now, I axed you: Who this nigger on that nag?",
+      "scene": 42
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Hey, Snowball? Wanna know my name or the name of my horse, you ask me.",
+      "scene": 42
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Just who the hell you callin' \"Snowball,\" horse boy? I'll snatch your black ass off that nag there and in the mud so fast... Whoa, whoa, whoa!",
+      "scene": 42
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Make your head spin. Stephen, Stephen, Stephen. Let's keep it funny. Django here's a free man. This nigger here? That nigger there. Let me at least introduce the two of you. Django, this is another cheeky black bugger like yourself, Stephen. Stephen, this here's Django. You two oughta hate each other.",
+      "scene": 42
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Calvin, just who the hell is this nigger you feels the need to entertain?",
+      "scene": 42
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Django and his friend in gray here, Dr. Schultz, are customers. And they are our guests, Stephen. And you, you old decrepit bastard, oughta show them every hospitality.",
+      "scene": 42
+    },
+    {
+      "character": "STEPHEN",
+      "text": "You understand that? Yessir. Him I understand. But I don't know why I got to take lip off this nigger.",
+      "scene": 42
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "You don't have to know why. Do you understand?",
+      "scene": 42
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Yessir. I understand.",
+      "scene": 42
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Well, good. They're spendin' the night. Go up in the guest bedrooms and get two ready.",
+      "scene": 42
+    },
+    {
+      "character": "STEPHEN",
+      "text": "He gonna stay in The Big House?",
+      "scene": 42
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Stephen, he's a slaver. It's different. In The Big House? Well, you got a problem with that?",
+      "scene": 42
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Oh, no. I ain't got no problem with it, if you ain't got no problem with burnin' the bed, the sheets, the pillowcases, everything else when this black-ass motherfucker's gone!",
+      "scene": 42
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "That is my problem! They are mine to burn! Now your problem right now is makin' a good impression! And I want you to start solvin' that problem right now and get them goddamn rooms ready!",
+      "scene": 42
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Yessir, Monsieur Candie.",
+      "scene": 42
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Go on, now.",
+      "scene": 42
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Can't believe you brought a nigger to stay in The Big House. Your daddy rollin' over in his goddamned grave.",
+      "scene": 42
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Man, the lip on him. Whoo! He's gettin' worse and worse. Now... Where is my beautiful sister?! There she is! Whoo-hoo-hoo-hoo! Dr. Schultz, this attractive Southern belle is my widowed sister. Darlin', you are a tonic for tired eyes. May I present to you Lara Lee Candie-Fitzwilly.",
+      "scene": 42
+    },
+    {
+      "character": "BILLY CRASH",
+      "text": "Chester, Rodney, Chicken Charly. Y'all get your ass over by that pen. Come on, Charly. Come on, now! Let's go. You know where it is. Like you on a rope! Niggers don't walk around here, niggers run!",
+      "scene": 42
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Monsieur Candie? Hm? Yeah. About that matter about the nigger girl you were talking about?",
+      "scene": 42
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Nigger gal?",
+      "scene": 42
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Yeah, I believe you mentioned she spoke German.",
+      "scene": 42
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Ah, yes! Hildi, what about her?",
+      "scene": 42
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Do you think before the demonstration, you could send her around to my room?",
+      "scene": 42
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "You little dickens, you. I don't see why not. Stephen, when you get through showin' them to their rooms, go fetch Hildi, get her cleaned up and smellin' real nice, and sent over to Dr. Schultz's room here.",
+      "scene": 42
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Actually, Monsieur Candie, sir, there's-a somethin' I ain't told you 'bout yet. What? Uh, Hildi in the Hot Box.",
+      "scene": 42
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "What's she doin' there?",
+      "scene": 42
+    },
+    {
+      "character": "STEPHEN",
+      "text": "What you think she doin' there in the Hot Box? She bein' punished.",
+      "scene": 42
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "What she do?",
+      "scene": 42
+    },
+    {
+      "character": "STEPHEN",
+      "text": "She run off again.",
+      "scene": 42
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Jesus Christ, Stephen, how many people ran away while I was gone? Two. When did she go?",
+      "scene": 42
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Last night. They brung her back this morning.",
+      "scene": 42
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "How bad did Stonesipher's dogs tear her up?",
+      "scene": 42
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Lucky for her, they was out chasin' D'Artagnan's ass. Bill and Cody went lookin' for her, found her, brung her back. Now, she a little beat-up. But she done that to her own damn self runnin' through them damn bushes and shit.",
+      "scene": 42
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "How long she been in the box?",
+      "scene": 42
+    },
+    {
+      "character": "STEPHEN",
+      "text": "How long you think she been in there? All damn day. And the little bitch got ten more days to be in there. Still, take her out. Take her out? Why?",
+      "scene": 42
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Because I said so, that's why. Dr. Schultz is my guest. Hildi is my nigger. Southern hospitality dictates I make her available to him. But, Monsieur Candie, she run off. Jesus Christ, Stephen. What is the point of havin' a nigger that speaks German if you can't wheel 'em out when you have a German guest? Now, I realize it is inconvenient, but still, you take her ass out.",
+      "scene": 42
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Yessir.",
+      "scene": 42
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Lara Lee! Will you and Cora be responsible for gettin' Hildi cleaned up and presentable for Dr. Schultz here.",
+      "scene": 42
+    },
+    {
+      "character": "LARA LEE CANDIE-FITZWILLY",
+      "text": "Of course, darlin'.",
+      "scene": 42
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Now, gentlemen, I do apologize, but I am weary from our travels beyond words. It is time for me to rest my tired eyes.",
+      "scene": 42
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Y'all done heard the man! Get her ass up outta there! Cora! Come here! Get over there and get her cleaned up, bring her back over here to Dr... What he say your name is? Shoots? Schultz. Schultz. Get her back over here. Hurry up, girl.",
+      "scene": 42
+    },
+    {
+      "character": "CORA",
+      "text": "Yessir.",
+      "scene": 42
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Hello, ladies.",
+      "scene": 43
+    },
+    {
+      "character": "LARA LEE CANDIE-FITZWILLY",
+      "text": "Dr. Schultz. May I introduce to you Broomhilda?",
+      "scene": 43
+    },
+    {
+      "character": "LARA LEE CANDIE-FITZWILLY",
+      "text": "Hildi, this is Dr. Schultz.",
+      "scene": 43
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "It's a pleasure to meet you, Broomhilda. I've heard a lot of good things about you.",
+      "scene": 43
+    },
+    {
+      "character": "LARA LEE CANDIE-FITZWILLY",
+      "text": "Well, it's not every nigger speaks German, don't ya know.",
+      "scene": 43
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "As I look at you now, Broomhilda, I can see all the passions you inspire are completely justified.",
+      "scene": 43
+    },
+    {
+      "character": "LARA LEE CANDIE-FITZWILLY",
+      "text": "The doctor here speaks German.",
+      "scene": 43
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "And I've been informed you do as well?",
+      "scene": 43
+    },
+    {
+      "character": "LARA LEE CANDIE-FITZWILLY",
+      "text": "Go ahead, girl. Speak a little German.",
+      "scene": 43
+    },
+    {
+      "character": "LARA LEE CANDIE-FITZWILLY",
+      "text": "Ha!",
+      "scene": 43
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Astonishing.",
+      "scene": 43
+    },
+    {
+      "character": "LARA LEE CANDIE-FITZWILLY",
+      "text": "And I shall bring you... SCHULTZ: Much obliged.",
+      "scene": 43
+    },
+    {
+      "character": "BROOMHILDA VON SHAFT",
+      "text": "Ja.",
+      "scene": 43
+    },
+    {
+      "character": "CORA",
+      "text": "No, no, no, they drinkin' tonight. Go downstairs, get the big jug with the red stuff Monsieur Candie like, hear?",
+      "scene": 44
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Get your big pretty ass out the way. You know you like it. That's 'cause you knows what I like. Ooh! Come on with these biscuits, girl.",
+      "scene": 44
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Look, Monsieur Candie, they were all fine specimens, no doubt about it. But the best three by far were Samson...",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "What's that other one's name? Goldie.",
+      "scene": 44
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Goldie. And Eskimo Joe. By the way, why is he called Eskimo Joe?",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "You never know how these nigger nicknames get started. His name was Joe, maybe one day he said he was cold. Who knows?",
+      "scene": 44
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Well, regardless, Samson's your best. We all know that. You will never sell him, and I can see why. He's a champion.",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Hm-hm. All three are champions.",
+      "scene": 44
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Samson's the champion. Them other two pretty good.",
+      "scene": 44
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Calvin, now what's this nigger you let...",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "It's all right.",
+      "scene": 44
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "You have to understand, Monsieur Candie, while admittedly a neophyte in the nigger fight game, I do have a little bit of a background in the European traveling circus.",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Is that right?",
+      "scene": 44
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Hence, I have big ideas when it comes to presentation.",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Hm.",
+      "scene": 44
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I need something more than just a big nigger.",
+      "scene": 44
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Yeah, he needs to have panache.",
+      "scene": 44
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Need to have what? What? Panache. Uh...",
+      "scene": 44
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "A sense of showmanship. Showmanship, yes. I want to be able to bill hirn as The Black Hercules.",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "The Black Hercules, isn't that clever?",
+      "scene": 44
+    },
+    {
+      "character": "STEPHEN",
+      "text": "More like Nigger-les.",
+      "scene": 44
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I said, and I quote: \"I would pay top dollar for... 'the right nigger.\"' Now I'm not saying that Eskimo Joe is the wrong nigger, per se. But is he right as rain?",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Oh, Dr. Schultz, I will have you know there is no one in the nigger fight game that appreciates the value of showmanship more than Monsieur Calvin J. Candie here.",
+      "scene": 44
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Nobody.",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "But one must not forget the most important thing in the nigger fight game. Hm-mm. And that is a nigger that can win fights.",
+      "scene": 44
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Hm-mm.",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Now that should be your first, second, third, fourth, and fifth concern. Now, after you have that, and you know you have that, then you can start to implement a grand design. In other words, first thing is first.",
+      "scene": 44
+    },
+    {
+      "character": "STEPHEN",
+      "text": "First thing's first.",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Ooh! I see you two gettin' on.",
+      "scene": 44
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Famously. Oh, Monsieur Candie, you can't imagine what it's like not to hear your native tongue in four years.",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Well, hell, I can't imagine two weeks in Boston.",
+      "scene": 44
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Two weeks in Boston! Monsieur Candie, you a mess! Two weeks in Boston!",
+      "scene": 44
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I can't express the joy I felt conversing in my mother tongue. And Hildi is a charming conversation companion.",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Well, be careful now, Dr. Schultz. You might-a caught yourself a little dose of nigger love. Hm! Nigger love's a powerful emotion, boy. Hm! It's like a pool of black tar. Once it catches your ass, you're caught.",
+      "scene": 44
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Yessir, you stuck.",
+      "scene": 44
+    },
+    {
+      "character": "LARA LEE CANDIE-FITZWILLY",
+      "text": "I don't know, doctor. You can lay on all the German sweet talk you want, but it looks like this pony's got big eyes for Django.",
+      "scene": 44
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Well, naturally. It is the soaring eagle that attracts her attention, not the plucked chicken.",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Dr. Schultz, don't be so down on yourself. You are quite the dapper European gentleman.",
+      "scene": 44
+    },
+    {
+      "character": "CORA",
+      "text": "You got to clean these dishes, you got to put your elbow in these dishes, you hear me?",
+      "scene": 44
+    },
+    {
+      "character": "STEPHEN",
+      "text": "You know that nigger, don't you?",
+      "scene": 44
+    },
+    {
+      "character": "BROOMHILDA VON SHAFT",
+      "text": "Who? \"Who?\"",
+      "scene": 44
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Don't \"who\" me, bitch. You know who I'm talkin' about.",
+      "scene": 44
+    },
+    {
+      "character": "BROOMHILDA VON SHAFT",
+      "text": "At the table? I don't know him.",
+      "scene": 44
+    },
+    {
+      "character": "STEPHEN",
+      "text": "You don't know him. No. \"No,\" what? No, sir.",
+      "scene": 44
+    },
+    {
+      "character": "STEPHEN",
+      "text": "You wouldn't lie to me, now, would you?",
+      "scene": 44
+    },
+    {
+      "character": "STEPHEN",
+      "text": "OK. Yeah. If you say so.",
+      "scene": 44
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Eskimo Joe's a quality nigger, no doubt about it. But if it was my money, I wouldn't pay no $12,000 for him.",
+      "scene": 44
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "What would your price be?",
+      "scene": 44
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Well, if I was inclined to be generous... and I don't know why I would be inclined to be generous... 9,000. Maybe.",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Dr. Schultz, let me reclarify how this whole negotiation came about. You see, it wasn't me who came to you to sell a nigger.",
+      "scene": 44
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Sure wasn't.",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "It was you who approached me to buy one.",
+      "scene": 44
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Sure was. Now, that $9,000 figure",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Bright Boy's been bandyin' about, that ain't too far off from right. And if I wanted to sell Eskimo Joe for that, I could do so any day of the week. Any day. But, like you said in Greenville, doctor... I don't want to sell him. It was only your ridiculous offer of $12,000 that made me even consider it. Hm-mm.",
+      "scene": 44
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "You know, Monsieur Candie, you do possess the power of persuasion.",
+      "scene": 44
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Why not? Monsieur Candie, you have a deal. Eskimo Joe, $12,000. Hooray, doctor.",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Hooray. And a wise decision that is.",
+      "scene": 44
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "However, that is a tremendous amount of money. And the way you have your Mr. Moguy, I have a lawyer. Persnickety man named Tuttle. And I would need my Mr. Tuttle to draw up a legal contract before I'd feel comfortable exchanging that amount of money for flesh.",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Hm-mm.",
+      "scene": 44
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Not to mention having Eskimo Joe examined by a physician of my choosing. CALVIN: Naturally. So, say I return in about...",
+      "scene": 44
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "five days time. Five days? With my Mr. Tuttle. And then my Mr. Tuttle and your Mr. Moguy can hash out the finer details between themselves.",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "I say splendid, doctor. Splendid. Gentlemen... may I propose a toast.",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "To Eskimo Joe. Or shall we call him The Black Hercules?",
+      "scene": 44
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "To The Black Hercules.",
+      "scene": 44
+    },
+    {
+      "character": "STEPHEN",
+      "text": "The Black Hercules.",
+      "scene": 44
+    },
+    {
+      "character": "LEONIDE MOGUY",
+      "text": "To The Black Hercules.",
+      "scene": 44
+    },
+    {
+      "character": "STEPHEN",
+      "text": "You was right, doctor. That name do have pan-ass.",
+      "scene": 44
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Hildi, top my drink off.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "So, Hildi, how you like servin' at the big table in The Big House, huh?",
+      "scene": 45
+    },
+    {
+      "character": "STEPHEN",
+      "text": "When Monsieur Candie talk to you, you answers.",
+      "scene": 45
+    },
+    {
+      "character": "BROOMHILDA VON SHAFT",
+      "text": "I like it a lot, Monsieur Candie. Hm-mm.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "It's a lot better than sizzlin' in that Hot Box or draggin' your ass through a bramble bush. But maybe it's not quite as much fun as gettin' to pleasure all them Mandingos, huh, sugar bear? Oh, Lord, she like them niggers. Sure do. Like Samson? Huh?",
+      "scene": 45
+    },
+    {
+      "character": "BROOMHILDA VON SHAFT",
+      "text": "No, sir.",
+      "scene": 45
+    },
+    {
+      "character": "STEPHEN",
+      "text": "You know, Monsieur Candie, the doctor here might be interested in seein' Hildi's peeled back, seein' as how they don't have many niggers where he come from.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Dr. Schultz, when you was alone with Hildi, here, did you just speak German or did you get to take her clothes off?",
+      "scene": 45
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "No, we just talked and...",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Oh, so you haven't seen her back?",
+      "scene": 45
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I haven't... No, no, no, no.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Stephen's right, you might find this interesting. Hildi, go on, take off your dress. Show Dr. Schultz your back here.",
+      "scene": 45
+    },
+    {
+      "character": "LARA LEE CANDIE-FITZWILLY",
+      "text": "Uh, Calvin. I just got her all dressed up and lookin' nice.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "But, Lara Lee, Dr. Schultz is from Dusseldorf. They don't got niggers there. He is a man of medicine. I'm sure it would fascinate him, the niggers' endurance for pain. These niggers are tough, Dr. Schultz, no doubt about it. Hildi's got somethin' like four lashes on her back. Lara Lee just get one, she'd lose her goddamn mind.",
+      "scene": 45
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Sure would.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Look at that, doctor. It's like a paintin'. Look at that. Calvin!",
+      "scene": 45
+    },
+    {
+      "character": "LARA LEE CANDIE-FITZWILLY",
+      "text": "We are eating. Ain't no one wanna look at her whipped up back.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Fine. Fine, fine, fine, fine. After dinner, then, Stephen. After dinner. During the brandies, gentlemen, hm?",
+      "scene": 45
+    },
+    {
+      "character": "LARA LEE CANDIE-FITZWILLY",
+      "text": "Cora, come get this girl!",
+      "scene": 45
+    },
+    {
+      "character": "LARA LEE CANDIE-FITZWILLY",
+      "text": "She a mess. Yes, ma'am. Oh!",
+      "scene": 45
+    },
+    {
+      "character": "CORA",
+      "text": "Why are you all undone? I just got you done up. Come on in here.",
+      "scene": 45
+    },
+    {
+      "character": "CORA",
+      "text": "Baby, you on Stephen bad side, and you need to be on his blind side.",
+      "scene": 45
+    },
+    {
+      "character": "STEPHEN",
+      "text": "You say you ain't know him.",
+      "scene": 45
+    },
+    {
+      "character": "BROOMHILDA VON SHAFT",
+      "text": "Huh?",
+      "scene": 45
+    },
+    {
+      "character": "STEPHEN",
+      "text": "I said, you said you ain't know him.",
+      "scene": 45
+    },
+    {
+      "character": "BROOMHILDA VON SHAFT",
+      "text": "I don't. Yes, you do.",
+      "scene": 45
+    },
+    {
+      "character": "BROOMHILDA VON SHAFT",
+      "text": "Mr. Stephen... I don't.",
+      "scene": 45
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Why is you lying to me?",
+      "scene": 45
+    },
+    {
+      "character": "BROOMHILDA VON SHAFT",
+      "text": "I ain't.",
+      "scene": 45
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Then why is you crying?",
+      "scene": 45
+    },
+    {
+      "character": "BROOMHILDA VON SHAFT",
+      "text": "You scarin' me.",
+      "scene": 45
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Why is I'm scaring you? Because you scary.",
+      "scene": 45
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "To speak German this afternoon with Hildi was positively soul-enriching.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Doctor, that warms my heart to hear that.",
+      "scene": 45
+    },
+    {
+      "character": "STEPHEN",
+      "text": "You stay right here.",
+      "scene": 45
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "You indicated earlier you'd be willing to part with Hildi.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Why, yes. Yessiree bob, I did.",
+      "scene": 45
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "In that case, allow me to propose another proposition.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "I'm all ears.",
+      "scene": 45
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Hurry up, goddamn it!",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Stephen! You just interrupted Dr. Schultz here.",
+      "scene": 45
+    },
+    {
+      "character": "STEPHEN",
+      "text": "I'm sorry, Dr. Schultz. My ears ain't worth a damn these days.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Excuse him.",
+      "scene": 45
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Monsieur Candie, could I get a word with you in the kitchen?",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "You mean get up out of my chair?",
+      "scene": 45
+    },
+    {
+      "character": "STEPHEN",
+      "text": "If you could manage it. Why? It's about dessert. What about dessert? I'd rather discuss that in private.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "We're having white cake! What sort of melodrama could be brewing back there?",
+      "scene": 45
+    },
+    {
+      "character": "STEPHEN",
+      "text": "You right, Monsieur Candie. You right. I'll handle it myself. Meet me in the library. I just can't understand why you won't come talk to these niggers. Shit get fucked up around here, you blame me.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Fine! Fine. Friend Stephen, I will be along momentarily.",
+      "scene": 45
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Yessir.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Well, gentlemen, as you can see, talented as they are, no doubt, in the kitchen, from time to time, adult supervision is required.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "If you'll excuse me a moment.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "You may clear the dinner service.",
+      "scene": 45
+    },
+    {
+      "character": "CORA",
+      "text": "You heard him. Go on! Get! Hurry up, girl.",
+      "scene": 45
+    },
+    {
+      "character": "LARA LEE CANDIE-FITZWILLY",
+      "text": "So, Dr. Schultz, why don't you regale us with a tale of the circus.",
+      "scene": 45
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "The circus?",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "What is the matter?",
+      "scene": 45
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Them motherfuckers ain't hereto buy no Mandingos. They wants that girl.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Stephen, what the hell are you talking about? Hm?",
+      "scene": 45
+    },
+    {
+      "character": "STEPHEN",
+      "text": "They playing your ass for a fool is what I'm talking about. They ain't here for no musclebound Jimmie. They here for that girl.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Wh... What girl? Hildi?",
+      "scene": 45
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Yeah, Hildi. Her and Django, them niggers know each other.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "He just bought Eskimo Joe.",
+      "scene": 45
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Where you gettin' all this? Why would they go through all that trouble for a nigger with a chewed up back, ain't worth $300?",
+      "scene": 46
+    },
+    {
+      "character": "STEPHEN",
+      "text": "They doin' it 'cause that nigger Django's in love with Hildi. She probably his wife. Now, why that German gives a fuck who that uppity son of a bitch is in love with, I'm sure I don't know.",
+      "scene": 46
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "If she's who they want... why this whole snake oil pitch about Mandingos, then?",
+      "scene": 46
+    },
+    {
+      "character": "STEPHEN",
+      "text": "You wouldn't pay no never mind to no $300. But that 12,000? That made you real friendly, now, didn't it?",
+      "scene": 46
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Yes, it did.",
+      "scene": 46
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "His Wife, huh?",
+      "scene": 46
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "If it had been a snake, it would have bit me.",
+      "scene": 46
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Those lying... goddamn time-wastin' sons of bitches.",
+      "scene": 46
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Sons of bitches!",
+      "scene": 46
+    },
+    {
+      "character": "LARA LEE CANDIE-FITZWILLY",
+      "text": "Out of New Orleans, so I have quite a bit of practice with theater types. Oh, there you are. I was beginning to think that you and that old crow run off together.",
+      "scene": 46
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "That'd be a hell of a note, wouldn't it? Lara Lee, I was just looking out the big window. Billy Crash is out there dealing with some shady slaver trying to sell a passel of ponies. Would you be a dear, go out there and give them gals an eyeball? Hm?",
+      "scene": 46
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Who's your little friend?",
+      "scene": 47
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "This is Ben. He's a old Joe that lived around here for a long time. And I do mean a long damn time. Old Ben here took care of my daddy... and my daddy's daddy. Till he up and keeled over one day...",
+      "scene": 47
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Old Ben took care of me.",
+      "scene": 47
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Growing up the son of a huge plantation owner in Mississippi puts a white man in contact with a whole lotta black faces.",
+      "scene": 47
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "I spent my whole life here, right here in Candyland... surrounded by black faces.",
+      "scene": 47
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Now, seeing them every day, day in, day out,",
+      "scene": 47
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Why don't they kill us?",
+      "scene": 47
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Now, right out there on that porch, three times a week for 50 years, Old Ben here would shave my daddy with a straight razor. Now, if I was Old Ben, I woulda cut my daddy's goddamn throat and it wouldn't have taken me no 50 years to do it, neither.",
+      "scene": 47
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "But he never did.",
+      "scene": 47
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Why not? You see, the science of phrenology is crucial to understanding the separation of our two species.",
+      "scene": 47
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "In the skull of the African here, the area associated with submissiveness is larger than any human or any other subhuman species on planet Earth.",
+      "scene": 47
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "If you examine... this piece of skull here...",
+      "scene": 48
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "you will notice three distinct dimples.",
+      "scene": 48
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Here, here and here. Now... if I was holding the skull of an Isaac Newton or Galileo, these three dimples would be found in the area of the skull most associated with... creativity. But this is the skull of Old Ben. And in the skull of Old Ben, unburdened by genius, these three dimples exist in the area of the skull most associated with... servility. Now, Bright Boy... I will admit you are pretty clever.",
+      "scene": 48
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "But if I took this hammer here...",
+      "scene": 48
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "and I bashed in your skull with it... you would have the same three dimples in the same place... as Old Ben. Hey! Now lay your palms flat on that tabletop! If you lift those palms off that turtle shell tabletop, Mr. Pooch is gonna let loose with both barrels of that sawed-off. There have been a lot of lies said around this dinner table here tonight, but that you can believe! Mr. Moguy, would you be so kind as to collect the pistol hanging off these boys' hips here?",
+      "scene": 48
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Thank you ever so much. Doctor.",
+      "scene": 48
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Where were we?",
+      "scene": 48
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Jackass.",
+      "scene": 48
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Ah, yes. I do believe you were just getting ready to make me a proposition to buy Broomhilda. Am I right?",
+      "scene": 48
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Right.",
+      "scene": 48
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Bring Out Hildi!",
+      "scene": 48
+    },
+    {
+      "character": "BILLY CRASH",
+      "text": "Get over there yonder. Sit your ass in that goddamn...",
+      "scene": 48
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Lay your hand flat on that tabletop.",
+      "scene": 48
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Now shut your mouth!",
+      "scene": 48
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Dr. Schultz, in Greenville, you yourself said that for the right nigger you'd be willin' to pay what some may consider is a ridiculous amount. To which me myself said, \"What is your definition of ridiculous?\" To which you said, \"$12,000.\" Now, considering y'all have ridden a whole lot of miles, went through a whole lot of trouble, and done spread a whole lot of bull to purchase this lovely lady right here, it would appear that Broomhilda is, in fact... the right nigger. And if y'all want to leave Candyland with Broomhilda, the price is $12,000.",
+      "scene": 48
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "And I take it you prefer the \"take it or leave it\" style of negotiation?",
+      "scene": 48
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Yes, I do, doctor. You see, under the laws of Chickasaw County, Broomhilda here is my property. And I can choose to do with my property whatever I so desire! And if y'all think my price... for this nigger here is too steep... what I'm gonna desire to do is...",
+      "scene": 48
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "take this goddamn hammer here and beat her ass to death with it! Right in front of both y'all! Easy, big fella. Then we can examine the three dimples inside Broomhilda's skull! Now, what's it gonna be, doc? Huh? What's it gonna be?",
+      "scene": 48
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "May I lift the hands off the tabletop in order to remove my billfold?",
+      "scene": 48
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Yes, you may.",
+      "scene": 48
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "That 12.",
+      "scene": 49
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Sold! To the man with the exceptional beard and his unexceptional nigger.",
+      "scene": 49
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Mr. Moguy. Yes, Calvin? Will you make these gentlemen a receipt for $12,000, please?",
+      "scene": 49
+    },
+    {
+      "character": "LEONIDE MOGUY",
+      "text": "$12,000.",
+      "scene": 49
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "It was a pleasure doing business with y'all. Now, gentlemen... if you care to join me in the parlor... we will be serving white cake.",
+      "scene": 49
+    },
+    {
+      "character": "LARA LEE CANDIE-FITZWILLY",
+      "text": "Well done, Calvin.",
+      "scene": 50
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Excuse me. Excuse me, ma'am? Could you please stop playing Beethoven? Take your hands off the harp!",
+      "scene": 50
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Doctor! Doctor, you can't go in there! Stephen, Stephen. He ain't got no business going in there.",
+      "scene": 50
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Let it be. He's just a little upset, that's all. I'll handle this.",
+      "scene": 50
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "White cake?",
+      "scene": 51
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I don't go in for sweets, thank you.",
+      "scene": 51
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Hm.",
+      "scene": 51
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "You brooding about me getting the best of you, huh?",
+      "scene": 51
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Actually, I was thinking of that poor devil you fed to the dogs today. D'Artagnan. And I was wondering What Dumas would make of all this.",
+      "scene": 51
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Come again?",
+      "scene": 51
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Alexandre Dumas. He wrote The Three Musketeers.",
+      "scene": 51
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Yes, of course, doctor.",
+      "scene": 51
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I figured you must be an admirer. You named your slave after his novel's lead character. Now, if Alexandre Dumas had been there today, I wonder what he would have made of it.",
+      "scene": 51
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "You doubt he'd approve, huh?",
+      "scene": 51
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Yes. His approval would be a dubious proposition at best.",
+      "scene": 51
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Soft-hearted Frenchie.",
+      "scene": 51
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Alexandre Dumas is black.",
+      "scene": 51
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Are these Broomhilda's papers? Yes, they are. May I? Of course. Thank you.",
+      "scene": 51
+    },
+    {
+      "character": "LEONIDE MOGUY",
+      "text": "That is her bill of sale, her ownership history, and, of course, her freedom papers, doctor.",
+      "scene": 51
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Would you have ink and pen for me?",
+      "scene": 51
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Right over there on that little table. Thank you.",
+      "scene": 51
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Thank you.",
+      "scene": 52
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Broomhilda Von Shaft...",
+      "scene": 52
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "consider yourself a free woman.",
+      "scene": 52
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Mr. Candie...",
+      "scene": 52
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "normally, I would say auf Wiedersehen. But since what auf Wiedersehen actually means is \"till I see you again\" and since I never wish to see you again, to you, sir... I say, \"goodbye.\"",
+      "scene": 52
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "Let's go.",
+      "scene": 52
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Come on.",
+      "scene": 52
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "One more moment, doctor!",
+      "scene": 52
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "What?",
+      "scene": 52
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "It's a custom here in the South... once a business deal is concluded that the two parties shake hands. It implies good faith.",
+      "scene": 52
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "I'm not from the South. But you are...",
+      "scene": 52
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "in my house, doctor. So I'm afraid I must insist. Insist?",
+      "scene": 52
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "On what? That I shake your hand? Oh, then I'm afraid I must insist in the opposite direction.",
+      "scene": 52
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "You know what I think you are? What you think I am?",
+      "scene": 52
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "No, I don't.",
+      "scene": 52
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "I think you are a bad loser. And I think you're an abysmal winner. Nevertheless, here in Chickasaw County, a deal ain't done until the two parties have shook hands. Even after all that paper signin', don't mean shit... you don't shake my hand.",
+      "scene": 52
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "If I don't shake your hand, you're gonna throw away $12,000? I don't think so.",
+      "scene": 52
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "Mr. Pooch?",
+      "scene": 52
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "If she tries to leave here before this nigger-loving German shakes my hand, you cut her ass down.",
+      "scene": 52
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "You really want me to shake your hand?",
+      "scene": 53
+    },
+    {
+      "character": "CALVIN J. CANDIE",
+      "text": "I insist.",
+      "scene": 53
+    },
+    {
+      "character": "DR. KING SCHULTZ",
+      "text": "If you insist.",
+      "scene": 53
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Hold your fire!",
+      "scene": 54
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Hold your fire!",
+      "scene": 54
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Stop shootin', goddamn it!",
+      "scene": 54
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Django!",
+      "scene": 54
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "What?",
+      "scene": 54
+    },
+    {
+      "character": "STEPHEN",
+      "text": "We got your woman! Billy Crash here got his pistol upside her head. You don't stop all that carrying on, he gonna blow her goddamn brains out. And that ain't no threat, horse boy. That there is a promise.",
+      "scene": 54
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Or... you can give up, throw your gun out... we won't kill Hildi. Horseshit! Honest Injun, Django. I swear 'fore God. You give up, ain't no harm gonna come to her.",
+      "scene": 54
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "And I'm supposed to believe your black ass?",
+      "scene": 54
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Personally, I don't give a good goddamn what you believe or don't believe! I believe if you don't give up in the next ten seconds, we gonna blow this bitch's brains out! Believe that!",
+      "scene": 54
+    },
+    {
+      "character": "BROOMHILDA VON SHAFT",
+      "text": "Don't do it. You give me up.",
+      "scene": 54
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Six! Just let me go. Seven! They got too much.",
+      "scene": 54
+    },
+    {
+      "character": "BROOMHILDA VON SHAFT",
+      "text": "- Django. Eight! I love you. Nine!",
+      "scene": 54
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Hold it! No.",
+      "scene": 54
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "I give up.",
+      "scene": 54
+    },
+    {
+      "character": "STEPHEN",
+      "text": "I can't hear you, nigger.",
+      "scene": 54
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "I said I give up!",
+      "scene": 54
+    },
+    {
+      "character": "BILLY CRASH",
+      "text": "Cock-a-doodle-do, nigger.",
+      "scene": 55
+    },
+    {
+      "character": "BILLY CRASH",
+      "text": "So y'all bounty hunters, huh? I knew there was something fishy about y'all. We found your wanted posters... and book of figures in your saddlebags. I got to say... I ain't never heard of no black bounty hunter before. Black boy paid to kill white men? How'd you like that line of work? Probably pretty good while it lasted, huh?",
+      "scene": 55
+    },
+    {
+      "character": "BILLY CRASH",
+      "text": "Time to say good night to them nuts, blackie. On three. One... I got you. Two... Calm down, now, here it comes.",
+      "scene": 55
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Captain? Miss Lara want to see you. Something to do with the Old Man's funeral. Oh, and she changed her mind 'bout snipping Django. She gonna give him to the LeQuint Dickey people.",
+      "scene": 55
+    },
+    {
+      "character": "BILLY CRASH",
+      "text": "Well, she didn't waste a minute telling me.",
+      "scene": 55
+    },
+    {
+      "character": "BILLY CRASH",
+      "text": "How disappointing.",
+      "scene": 55
+    },
+    {
+      "character": "STEPHEN",
+      "text": "You leavin'.",
+      "scene": 56
+    },
+    {
+      "character": "STEPHEN",
+      "text": "This here what you take with you.",
+      "scene": 56
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Your black ass has been all them motherfuckers at The Big House could talk about for the last few hours. Seem like white folk ain't never had a bright idea in they life was coming up with all kinds of ways to kill your ass. Now, mind you, most of them ideas had to do with fuckin' with your fun parts. Now, that may seem like a good idea, but truth is...",
+      "scene": 56
+    },
+    {
+      "character": "STEPHEN",
+      "text": "when you snip a nigger's nuts, most of them bleed out in, oh, about, hm... seven minutes. Most of 'em. Well, more than most. \"Shitfire.\" \"The niggers we sell to LeQuint Dickey got it worse than that.\" And they still sayin', \"Let's whip him to death.\" Or \"Throw him to the Mandingos.\" \"Feed him to Stonesipher's dogs.\" And I said, \"What's so special about that?\" \"We do that shit all the time.\" \"Hell's bells, the niggers we sell to LeQuint Dickey got it worse than that.\" Lo and behold, out of nowhere, Miss Lara come up with the bright idea of giving your ass to the LeQuint Dickey Mining Company.",
+      "scene": 56
+    },
+    {
+      "character": "STEPHEN",
+      "text": "And as a slave of the LeQuint Dickey Mining Company, henceforth, till the day you die, all day, every day, you will be swinging a sledgehammer, turning big rocks into little rocks. Now, when you get there, they gonna take away your name, give you a number and a sledgehammer, and say, \"Get to work!\" One word of sass, they cuts out your tongue. And they good at it too. You won't bleed out. Oh, they does that real good. They gonna work ya. All day, every day, till your back give out. Then they're gonna hit you in the head with a hammer, throw your ass down the nigger hole. And that will be the story of you, Django.",
+      "scene": 56
+    },
+    {
+      "character": "AUSTRALIAN MINER",
+      "text": "And what's the golden rule, Frankie, eh?",
+      "scene": 57
+    },
+    {
+      "character": "FRANKIE",
+      "text": "You don't root abos.",
+      "scene": 57
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Hey, white boy.",
+      "scene": 57
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "I said, hey, white boy.",
+      "scene": 57
+    },
+    {
+      "character": "AUSTRALIAN MINER",
+      "text": "Shut up, black. You ain't got nothing to say I want to hear.",
+      "scene": 57
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "How'd you like to make $11,000?",
+      "scene": 57
+    },
+    {
+      "character": "AUSTRALIAN MINER",
+      "text": "Do what, now?",
+      "scene": 57
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "I said how'd you like to make $11,000? 11,500, actually.",
+      "scene": 57
+    },
+    {
+      "character": "AUSTRALIAN MINER",
+      "text": "What the fuck are you talking about?",
+      "scene": 57
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Back there at that plantation, Candyland, there was an $11,500 fortune, just sittin' there. And y'all rode right past it.",
+      "scene": 57
+    },
+    {
+      "character": "AUSTRALIAN MINER",
+      "text": "You be damned, blackie, we're not bandits.",
+      "scene": 57
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "I ain't saying that. Nice thing about this fortune is it ain't illegal. You can't steal it. You got to earn it, white boy.",
+      "scene": 57
+    },
+    {
+      "character": "AUSTRALIAN MINER",
+      "text": "You got something to say, mate, you say it.",
+      "scene": 57
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "The $11,500 fortune waitin' for you back at Candyland is in the form of a \"Wanted Dead or Alive\" bounty on Smitty Bacall and the Bacall Gang.",
+      "scene": 57
+    },
+    {
+      "character": "AUSTRALIAN MINER",
+      "text": "Who the fuck is Smitty Bacall?",
+      "scene": 57
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Smitty Bacall is the leader of this murderous gang of stagecoach robbers, the Bacall Gang. There's a $7,000 \"Wanted Dead or Alive\" bounty on him, $1,500 for each Dandy Michaels, Gerald Nash, and Crazy Craig Koons. Now, all four of them gentlemen, they back there at Candyland laughing their ass off. You know why? 'Cause they just got away with murder. But it ain't got to be that way. You and your mates, y'all can ride back there and y'all can go get that money.",
+      "scene": 57
+    },
+    {
+      "character": "AUSTRALIAN MINER",
+      "text": "What'd these jokers do again?",
+      "scene": 57
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "These sons of bitches, they killed innocent people. Stagecoach robbery. Innocent white people. I got the handbill right here in my pocket, if you let me get it.",
+      "scene": 57
+    },
+    {
+      "character": "ROY",
+      "text": "Get it out.",
+      "scene": 57
+    },
+    {
+      "character": "ROY",
+      "text": "\"Wanted. Dead or alive. Smitty Bacall and the Smitty Bacall Gang.\"",
+      "scene": 57
+    },
+    {
+      "character": "AUSTRALIAN MINER",
+      "text": "But you're a slave.",
+      "scene": 57
+    },
+    {
+      "character": "ROY",
+      "text": "\"For murder...\"",
+      "scene": 57
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "I ain't no goddamn slave.",
+      "scene": 57
+    },
+    {
+      "character": "ROY",
+      "text": "\"and stagecoach robbery.\"",
+      "scene": 57
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Do I sound like a fuckin' slave?",
+      "scene": 57
+    },
+    {
+      "character": "ROY",
+      "text": "\"$7,000 for Smitty Bacall.\" Hm?",
+      "scene": 57
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "That's a shitload. I'm a bounty hunter. Yesterday, as a free man, I rode into Candyland on a horse with my German white partner, Dr. King Schultz. We tracked the Bacall Gang all the way from Texas to Chickasaw County. We finally found their ass layin' low in Candyland. We went in there to get 'em, things went sour, my partner got killed, Calvin Candie got shot, then everybody there decided to blame me, so here I am.",
+      "scene": 57
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "But y'all know I ain't on that manifest. And all y'all know I ain't supposed to be on this trip. But them four men is still back there, they're still wanted, and that 11,500 is up for grabs, and the last thing they'd expect is y'all ridin' back in there and gettin' it.",
+      "scene": 57
+    },
+    {
+      "character": "ROY",
+      "text": "What's the deal? You tell us who they are and we turn you loose?",
+      "scene": 57
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "No, no, no, no. I ain't gonna tell you who they are. But, you give me a pistol, one of them horses, and $500 of that 11,500, and I'll point 'em out to you.",
+      "scene": 57
+    },
+    {
+      "character": "ROY",
+      "text": "This is a real handbill.",
+      "scene": 57
+    },
+    {
+      "character": "AUSTRALIAN MINER",
+      "text": "Now just 'cause it's a real handbill doesn't mean that other bunch of malarkey is.",
+      "scene": 57
+    },
+    {
+      "character": "ROY",
+      "text": "Now why would a slave have a \"Wanted Dead or Alive\" handbill in his pocket?",
+      "scene": 57
+    },
+    {
+      "character": "ROY",
+      "text": "Did that black ride into Candyland yesterday?",
+      "scene": 57
+    },
+    {
+      "character": "ROY",
+      "text": "All right, I'm gonna ask you again. I want you to remember, I don't like liars. Is he a Candyland slave, or did he ride in with a white man on a horse yesterday?",
+      "scene": 57
+    },
+    {
+      "character": "SLAVE",
+      "text": "Yeah. They walked us from the Greenville auction, and he rode in on a horse with a white man.",
+      "scene": 57
+    },
+    {
+      "character": "ROY",
+      "text": "Now this white man, was the black his slave?",
+      "scene": 57
+    },
+    {
+      "character": "SLAVE",
+      "text": "He weren't no slave. You fuckin' sure about that? Damn sure.",
+      "scene": 57
+    },
+    {
+      "character": "SLAVE",
+      "text": "What happened over in Candyland? Bunch-a shootin'. Massa got shot. Who shot him? The German.",
+      "scene": 57
+    },
+    {
+      "character": "ROY",
+      "text": "Why'd he do that?",
+      "scene": 57
+    },
+    {
+      "character": "SLAVE",
+      "text": "Nigger and the German was actin' like they were slavers but they wasn't. Well, what were they? Bounty hunters.",
+      "scene": 57
+    },
+    {
+      "character": "AUSTRALIAN MINER",
+      "text": "Fuck me, Roy. I mean, this could be big, mate.",
+      "scene": 57
+    },
+    {
+      "character": "ROY",
+      "text": "Well, smoke, you got a deal. I got one more condition. What's that?",
+      "scene": 57
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "When we get there, when time come... you let me help you kill 'em. Hey...",
+      "scene": 57
+    },
+    {
+      "character": "AUSTRALIAN MINER",
+      "text": "you're a funny bugger. Cut him loose. Yeah, yeah. You got yourself a deal, blackie.",
+      "scene": 57
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "You got yourself a deal, mate.",
+      "scene": 57
+    },
+    {
+      "character": "AUSTRALIAN MINER",
+      "text": "Hey! You're all right for a black fella.",
+      "scene": 57
+    },
+    {
+      "character": "FRANKIE",
+      "text": "Oh, yeah.",
+      "scene": 57
+    },
+    {
+      "character": "FRANKIE",
+      "text": "There we go. There you go, mate.",
+      "scene": 57
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Yeah.",
+      "scene": 57
+    },
+    {
+      "character": "ROY",
+      "text": "We're gonna give you that packhorse over there.",
+      "scene": 57
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "What them saddlebags got in 'em? Dynamite. No. I ain't ridin' no horse with no goddamn dynamite on its back.",
+      "scene": 57
+    },
+    {
+      "character": "ROY",
+      "text": "I can understand that. Frankie, why don't you take them sticks off that horse and stick 'em in the nigger cage.",
+      "scene": 57
+    },
+    {
+      "character": "FRANKIE",
+      "text": "A little dynamite for you black fellas to play with.",
+      "scene": 57
+    },
+    {
+      "character": "ROY",
+      "text": "Now, Floyd, you got that rifle up on the wagon, don't ya?",
+      "scene": 57
+    },
+    {
+      "character": "FLOYD",
+      "text": "Yeah, right.",
+      "scene": 57
+    },
+    {
+      "character": "ROY",
+      "text": "Why don't you give him your gun and gun belt?",
+      "scene": 57
+    },
+    {
+      "character": "FLOYD",
+      "text": "Righto. Now, don't drop the fuckin' thing, all right? I've just had the sights fixed and they're perfect.",
+      "scene": 57
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Oh, that's good to know.",
+      "scene": 57
+    },
+    {
+      "character": "LARA LEE CANDIE-FITZWILLY",
+      "text": "Would you prepare us some coffee?",
+      "scene": 58
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Sheba, you help her.",
+      "scene": 58
+    },
+    {
+      "character": "SHEBA",
+      "text": "Come on.",
+      "scene": 58
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Oh, y'all gonna be together with Calvin in the by-and-by, all right.",
+      "scene": 59
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Just a bit sooner than y'all was expectin'.",
+      "scene": 59
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Billy Crash. Now, where were we? Oh, that's right. Last time I seen you, you had your hands on my...",
+      "scene": 59
+    },
+    {
+      "character": "BILLY CRASH",
+      "text": "D-jango! You black son of a bitch!",
+      "scene": 60
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "The D is silent, hillbilly.",
+      "scene": 60
+    },
+    {
+      "character": "LARA LEE CANDIE-FITZWILLY",
+      "text": "Oh, no!",
+      "scene": 60
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Now, all you black folks, I suggest you get away from all these white folks. Not you, Stephen. You right where you belong.",
+      "scene": 60
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Stephen, how you like my new duds? You know, before now I didn't know that burgundy was my color.",
+      "scene": 61
+    },
+    {
+      "character": "STEPHEN",
+      "text": "I count six shots, nigger.",
+      "scene": 61
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "I count two guns, nigger.",
+      "scene": 61
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "You said in 76 years on this plantation, you seen all manner-a shit done to niggers. But I notice, you didn't mention kneecappin'.",
+      "scene": 61
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Oh, God! Motherfucker! Damn it!",
+      "scene": 61
+    },
+    {
+      "character": "DJANGO FREEMAN",
+      "text": "Seventy-six years, Stephen. How many niggers you think you see come and go, huh? Seven thousand? Eight thousand? Nine thousand? Nine thousand, nine hundred and ninety-nine? Every single word that came out of Calvin Candie's mouth was nothin' but horseshit. But he was right about one thing: I am that one nigger in 10,000.",
+      "scene": 61
+    },
+    {
+      "character": "STEPHEN",
+      "text": "You son of a bitch! You motherfucker! Oh, sweet Jesus, let me kill this nigger!",
+      "scene": 61
+    },
+    {
+      "character": "STEPHEN",
+      "text": "You ain't gonna get away with this, Django! They gonna catch your black ass. You gonna be on the wanted posters now, nigger. The bounty hunters gonna be lookin' for you. You can run, nigger, but they gonna find your ass! And when they do, oh, Lord, what they gonna do to your ass! They ain't gonna just kill you, nigger! You done fucked up! This Candyland, nigger! You can't destroy Candyland! We been here! There's always gonna be a Candyland!",
+      "scene": 61
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Can't no nigger gunfighter kill all the white folks in the world! They gonna find your black ass!",
+      "scene": 61
+    },
+    {
+      "character": "STEPHEN",
+      "text": "Django! You uppity son of a...",
+      "scene": 61
+    }
+  ],
+  "lineCount": 873,
+  "characterCount": 32,
+  "imdbId": "tt1853728",
+  "poster": "",
+  "rated": "R",
+  "runtime": "165 min",
+  "genre": "Drama, Western",
+  "director": "Quentin Tarantino",
+  "topSpeakingCast": [
+    "DR. KING SCHULTZ",
+    "CALVIN J. CANDIE",
+    "DJANGO FREEMAN",
+    "STEPHEN",
+    "BIG DADDY",
+    "LARA LEE CANDIE-FITZWILLY",
+    "BETINA",
+    "ROY",
+    "LEONIDE MOGUY",
+    "BILLY CRASH",
+    "BROOMHILDA VON SHAFT",
+    "MARSHAL GILL TATUM",
+    "ACE SPECK",
+    "DICKEY SPECK",
+    "MR. STONESIPHER",
+    "CORA",
+    "OLD MAN CARRUCAN"
+  ]
+}

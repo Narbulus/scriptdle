@@ -1,0 +1,33 @@
+{
+  "id": "gilmore-girls",
+  "name": "Gilmore Girls",
+  "type": "series",
+  "mediaType": "seasons",
+  "movies": [
+    "gilmore-girls-s01",
+    "gilmore-girls-s02",
+    "gilmore-girls-s03",
+    "gilmore-girls-s04",
+    "gilmore-girls-s05",
+    "gilmore-girls-s06",
+    "gilmore-girls-s07"
+  ],
+  "theme": {
+    "primary": "#f5c27a",
+    "bgColor": "#261611",
+    "containerBg": "#f7f3ea",
+    "accentColor": "#b85d3b",
+    "btnText": "#261611",
+    "cardGradientStart": "#261611",
+    "cardGradientEnd": "#3f241b",
+    "cardBorder": "#f5c27a",
+    "cardText": "#f5c27a"
+  },
+  "tierMessages": {
+    "perfect": "Oy with the Poodles Already!",
+    "good": "Coffee, Coffee, Coffee!",
+    "average": "In Omnia Paratus",
+    "barely": "Where You Lead...",
+    "failure": "Copper Boom... Not Quite"
+  }
+}

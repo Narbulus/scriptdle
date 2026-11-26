@@ -1,0 +1,29 @@
+{
+  "id": "avatar-tla",
+  "name": "Avatar: The Last Airbender",
+  "type": "series",
+  "mediaType": "seasons",
+  "movies": [
+    "avatar-tla-s01",
+    "avatar-tla-s02",
+    "avatar-tla-s03"
+  ],
+  "theme": {
+    "primary": "#f4b942",
+    "bgColor": "#0f2430",
+    "containerBg": "#f7f3ea",
+    "accentColor": "#d95d39",
+    "btnText": "#0f2430",
+    "cardGradientStart": "#0f2430",
+    "cardGradientEnd": "#183a4a",
+    "cardBorder": "#f4b942",
+    "cardText": "#f4b942"
+  },
+  "tierMessages": {
+    "perfect": "Avatar State!",
+    "good": "Master of All Four Elements!",
+    "average": "Honor Restored",
+    "barely": "There Is No War in Ba Sing Se",
+    "failure": "My Cabbages!"
+  }
+}
