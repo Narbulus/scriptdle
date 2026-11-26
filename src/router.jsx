@@ -84,9 +84,10 @@ function handleRoute() {
 
   const PageComponent = matched.component;
   const contentContainer = document.getElementById('content-area');
+  const queryDate = new window.URLSearchParams(window.location.search).get('date') || null;
 
   render(null, contentContainer);
-  render(<PageComponent {...matched.params} />, contentContainer);
+  render(<PageComponent {...matched.params} queryDate={queryDate} />, contentContainer);
 }
 
 function init() {

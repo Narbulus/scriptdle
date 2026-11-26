@@ -134,6 +134,28 @@
 
 .completion-collection-row {
     margin: 0.125rem 0 0.25rem;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+}
+
+.completion-archive-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: bold;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: color-mix(in srgb, var(--primary-color) 70%, white);
+    opacity: 0.9;
+}
+
+.completion-countdown {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: color-mix(in srgb, var(--primary-color) 65%, white);
+    font-variant-numeric: tabular-nums;
 }
 
 /* Badge button in the middle of the row */

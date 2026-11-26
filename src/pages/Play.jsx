@@ -1,9 +1,12 @@
 import { useState, useEffect } from 'preact/hooks';
 import { Game } from '../components/game/Game.jsx';
-import { loadAllGameData, getDataCache, getPackData } from '../services/dataLoader.js';
+import { loadPackPuzzleForDate, getDataCache, getPackData } from '../services/dataLoader.js';
 import { applyPackTheme } from '../services/theme.js';
+import { getCurrentDate } from '../utils/time.js';
+import { isValidArchiveDate } from '../utils/archive.js';
 
-function getCachedPlayState(packId) {
+function getCachedPlayState(packId, activeDate, today) {
+    if (activeDate !== today) return null;
     const packData = getPackData(packId);
     if (!packData?.manifest || !packData?.dailyPuzzle) return null;
     return {
@@ -21,8 +24,10 @@ function getOptimisticTheme(packId) {
     );
 }
 
-export function Play({ packId }) {
-    const initialCached = packId ? getCachedPlayState(packId) : null;
+export function Play({ packId, queryDate = null }) {
+    const today = getCurrentDate();
+    const activeDate = isValidArchiveDate(queryDate, today) ? queryDate : today;
+    const initialCached = packId ? getCachedPlayState(packId, activeDate, today) : null;
     const [data, setData] = useState(initialCached);
     const [error, setError] = useState(null);
     const [loading, setLoading] = useState(!initialCached);
@@ -39,29 +44,14 @@ export function Play({ packId }) {
 
         async function loadGameData() {
             try {
-                const cached = getCachedPlayState(packId);
+                const cached = getCachedPlayState(packId, activeDate, today);
                 if (!cached) {
                     setLoading(true);
                 }
                 setError(null);
 
-                // Load all game data (returns immediately when already cached)
-                await loadAllGameData();
+                const packData = cached || await loadPackPuzzleForDate(packId, activeDate);
                 if (cancelled) return;
-
-                const packData = getPackData(packId);
-
-                if (!packData) {
-                    throw new Error(`Pack "${packId}" not found`);
-                }
-
-                if (!packData.manifest) {
-                    throw new Error(`Pack "${packId}" has no daily puzzles`);
-                }
-
-                if (!packData.dailyPuzzle) {
-                    throw new Error('Daily puzzle not available');
-                }
 
                 applyPackTheme(packData.packData.theme);
 
@@ -96,7 +86,7 @@ export function Play({ packId }) {
         return () => {
             cancelled = true;
         };
-    }, [packId]);
+    }, [packId, activeDate]);
 
     if (error) {
         return (
@@ -149,6 +139,7 @@ export function Play({ packId }) {
     return (
         <div id="game-area">
             <Game
+                key={`${packId}:${data.dailyPuzzle.date}`}
                 dailyPuzzle={data.dailyPuzzle}
                 manifest={data.manifest}
                 packData={data.packData}

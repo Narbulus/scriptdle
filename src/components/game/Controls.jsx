@@ -9,11 +9,15 @@ import {
 } from '../../services/game-state.js';
 import { track } from '../../utils/analytics.js';
 import { getMediaLabels } from '../../utils/mediaLabels.js';
+import { getCurrentDate } from '../../utils/time.js';
+import { formatArchiveDateLabel } from '../../utils/archive.js';
 import { TutorialTip } from '../common/Tooltip.jsx';
 import { ScriptSelect } from '../common/ScriptSelect.jsx';
 
-export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, onCharSelect, onGuessSubmit, onDiceClick, tutorialProps }) {
+export function Controls({ metadata, puzzle, pack, puzzleDate, onOpenMovies, onMovieSelect, onCharSelect, onGuessSubmit, onDiceClick, tutorialProps }) {
     const labels = getMediaLabels(pack?.mediaType);
+    const today = getCurrentDate();
+    const isArchive = Boolean(puzzleDate && puzzleDate !== today);
     // Local form state
     const [selectedMovie, setSelectedMovie] = useState('');
     const [selectedChar, setSelectedChar] = useState('');
@@ -296,6 +300,23 @@ export function Controls({ metadata, puzzle, pack, onOpenMovies, onMovieSelect, 
                     {labels.viewLink}
                 </a>
                 )
+                {isArchive && (
+                    <>
+                        {' · '}
+                        <span data-testid="archive-date-badge">
+                            {formatArchiveDateLabel(puzzleDate, today).toUpperCase()}
+                        </span>
+                        {' · '}
+                        <a
+                            href={`/play/${pack.id}`}
+                            data-link
+                            className="pack-header-movies-link"
+                            data-testid="back-to-today-link"
+                        >
+                            TODAY
+                        </a>
+                    </>
+                )}
             </div>
 
             {/* Selectors */}

@@ -28,12 +28,16 @@ export function ScriptLine({ character, text, revealChar, revealText, isTarget, 
     useEffect(() => {
         if (revealText && textState === 'hidden') {
             setTextState(isNewAction ? 'wiping' : 'revealed');
+        } else if (!revealText && textState !== 'hidden') {
+            setTextState('hidden');
         }
     }, [revealText, revealGeneration]);
 
     useEffect(() => {
         if (revealChar && charState === 'hidden') {
             setCharState(isNewAction ? 'wiping' : 'revealed');
+        } else if (!revealChar && charState !== 'hidden') {
+            setCharState('hidden');
         }
     }, [revealChar, revealGeneration]);
 

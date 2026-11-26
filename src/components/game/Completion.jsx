@@ -3,13 +3,19 @@ import { getStreak } from '../../utils/completionTracker.js';
 import { generateFlower, generateBeetle, stringToSeed } from '../../utils/flowerGenerator.js';
 import { fireConfetti, fireGoldenSparkles, fireFlowerBurst } from '../../utils/confetti.js';
 import { useEffect, useRef, useState } from 'preact/hooks';
-import { getCurrentDate } from '../../utils/time.js';
+import { getCurrentDate, getTimeUntilMidnight } from '../../utils/time.js';
+import { findPreviousUnplayedDate, formatArchiveDateLabel } from '../../utils/archive.js';
 import { track } from '../../utils/analytics.js';
 import { StatsSection } from './StatsSection.jsx';
 import { openStatsModal } from '../../pages/Stats.jsx';
 import { getPlatform } from '../../services/platform.js';
 
-export function Completion({ puzzle, pack, packTheme }) {
+function formatCountdown(t) {
+    const pad = (n) => String(n).padStart(2, '0');
+    return `${pad(t.hours)}:${pad(t.minutes)}:${pad(t.seconds)}`;
+}
+
+export function Completion({ puzzle, pack, packTheme, puzzleDate }) {
     const attempts = currentAttempt.value;
     const success = isWin.value;
     const streak = getStreak();
@@ -18,6 +24,19 @@ export function Completion({ puzzle, pack, packTheme }) {
     const isCompact = platform.compactLayout;
     const [stats, setStats] = useState(null);
     const [playerBucket, setPlayerBucket] = useState(null);
+    const today = getCurrentDate();
+    const activeDate = puzzleDate || currentPuzzleDate.value || today;
+    const isArchive = activeDate !== today;
+    const nextArchiveDate = !isCompact ? findPreviousUnplayedDate(pack.id, activeDate, today) : null;
+    const [countdown, setCountdown] = useState(() => formatCountdown(getTimeUntilMidnight()));
+
+    useEffect(() => {
+        if (isCompact || isArchive) return;
+        const timer = setInterval(() => {
+            setCountdown(formatCountdown(getTimeUntilMidnight()));
+        }, 1000);
+        return () => clearInterval(timer);
+    }, [isCompact, isArchive]);
 
     // Community stats are supplied by platforms that support them.
     useEffect(() => {
@@ -98,8 +117,7 @@ export function Completion({ puzzle, pack, packTheme }) {
 
     // Badge Generation
     const renderBadge = () => {
-        const today = getCurrentDate();
-        const badgeSeed = stringToSeed(pack.id + today);
+        const badgeSeed = stringToSeed(pack.id + activeDate);
         const cardColor = packTheme?.cardGradientStart || '#cccccc';
 
         const svgUrl = success
@@ -149,8 +167,15 @@ export function Completion({ puzzle, pack, packTheme }) {
 
     const generateShareString = () => {
         const { movieRow, charRow } = generateEmojiRows();
-        return `Scriptle - ${pack.name}\n\n${movieRow}\n${charRow}`;
+        const dateTag = isArchive ? ` (${formatArchiveDateLabel(activeDate, today)})` : '';
+        return `Scriptle - ${pack.name}${dateTag}\n\n${movieRow}\n${charRow}`;
     };
+
+    const nextArchiveLabel = nextArchiveDate
+        ? (formatArchiveDateLabel(nextArchiveDate, today) === 'Yesterday'
+            ? "Play Yesterday's"
+            : `Play ${formatArchiveDateLabel(nextArchiveDate, today)}`)
+        : null;
 
     const shareText = generateShareString();
     const shareUrl = window.location.href;
@@ -229,6 +254,11 @@ export function Completion({ puzzle, pack, packTheme }) {
             ) : (
                 <div className="completion-content">
                     <div className="completion-header">
+                        {isArchive && (
+                            <div className="completion-archive-eyebrow" data-testid="completion-archive-label">
+                                Archive · {formatArchiveDateLabel(activeDate, today)}
+                            </div>
+                        )}
                         <h2 className="completion-title">{tierMessage}</h2>
                         <div className="completion-answer">
                             It was <strong>{target.character}</strong> in <em>{target.movie}</em>
@@ -250,6 +280,17 @@ export function Completion({ puzzle, pack, packTheme }) {
                     </div>
 
                     <div className="completion-row completion-collection-row">
+                        {nextArchiveDate && (
+                            <a
+                                href={`/play/${pack.id}?date=${nextArchiveDate}`}
+                                data-link
+                                className="completion-archive-btn"
+                                data-testid="play-previous-btn"
+                                onClick={() => track('play_archive_puzzle', { from_date: activeDate, to_date: nextArchiveDate })}
+                            >
+                                {nextArchiveLabel} &rarr;
+                            </a>
+                        )}
                         <button type="button" className="completion-collection-btn" onClick={openStatsModal}>
                             YOUR COLLECTION
                         </button>
@@ -257,6 +298,16 @@ export function Completion({ puzzle, pack, packTheme }) {
 
                     <div className="share-section">
                         <div className="completion-links-row">
+                            {isArchive ? (
+                                <a href={`/play/${pack.id}`} data-link className="footer-more-movies" data-testid="completion-today-link">
+                                    Today's Puzzle
+                                </a>
+                            ) : (
+                                <span className="completion-countdown" data-testid="next-puzzle-countdown">
+                                    Next puzzle in {countdown}
+                                </span>
+                            )}
+
                             {puzzle.imdbId && (
                                 <a
                                     href={`https://www.imdb.com/title/${puzzle.imdbId}/`}
@@ -269,7 +320,7 @@ export function Completion({ puzzle, pack, packTheme }) {
                             )}
 
                             <a href="/" data-link className="footer-more-movies">
-                                More Movies
+                                More Packs
                             </a>
                         </div>
 

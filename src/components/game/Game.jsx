@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'preact/hooks';
-import { isGameOver, initGame } from '../../services/game-state.js';
+import { isGameOver, initGame, currentPackId, currentPuzzleDate } from '../../services/game-state.js';
 import { ScriptDisplay } from './ScriptDisplay.jsx';
 import { Controls } from './Controls.jsx';
 import { Completion } from './Completion.jsx';
@@ -41,14 +41,23 @@ export function Game({ dailyPuzzle, manifest, packData }) {
         mediaType: manifest.mediaType || packData.mediaType || 'movies',
     };
 
-    useEffect(() => {
+    // Initialize signals synchronously before ScriptDisplay mounts whenever
+    // packId or puzzle date changes so a newly opened unplayed puzzle never
+    // renders its first frame with a previous puzzle's completed/revealed state.
+    const puzzleKey = `${dailyPuzzle.packId}:${dailyPuzzle.date}`;
+    const initializedKeyRef = useRef(null);
+    if (
+        initializedKeyRef.current !== puzzleKey ||
+        currentPackId.value !== dailyPuzzle.packId ||
+        currentPuzzleDate.value !== dailyPuzzle.date
+    ) {
         initGame(dailyPuzzle.packId, dailyPuzzle.date, pack.name);
-        // After initGame, isGameOver reflects saved state
+        initializedKeyRef.current = puzzleKey;
         if (!hasCheckedInit.current) {
             wasAlreadyComplete.current = isGameOver.value;
             hasCheckedInit.current = true;
         }
-    }, [dailyPuzzle.packId, dailyPuzzle.date, pack.name]);
+    }
 
     useEffect(() => {
         if (tutorialStep === TUTORIAL_STEPS.COMPLETE) {
@@ -139,12 +148,14 @@ export function Game({ dailyPuzzle, manifest, packData }) {
                         puzzle={puzzle}
                         pack={pack}
                         packTheme={packData.theme}
+                        puzzleDate={dailyPuzzle.date}
                     />
                 ) : (
                     <Controls
                         metadata={metadata}
                         puzzle={puzzle}
                         pack={pack}
+                        puzzleDate={dailyPuzzle.date}
                         onOpenMovies={() => setMoviesModalOpen(true)}
                         onMovieSelect={handleMovieSelect}
                         onCharSelect={handleCharSelect}

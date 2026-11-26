@@ -185,10 +185,61 @@ export function getDataCache() {
   return dataCache;
 }
 
+// In-memory cache for past-date daily-all JSONs (date -> { packId -> puzzle })
+const dailyDateCache = new Map();
+
+/**
+ * Load a specific pack's puzzle for any past or current date (YYYY-MM-DD),
+ * reusing already-loaded pack metadata and caching fetched date files.
+ */
+export async function loadPackPuzzleForDate(packId, date, { basePath = '/data', timeout = 10000 } = {}) {
+  const cache = await loadAllGameData();
+  const pack = cache.packs.find(p => p.id === packId);
+  if (!pack) {
+    throw new Error(`Pack "${packId}" not found`);
+  }
+
+  const manifest = cache.manifests[packId] || null;
+  if (!manifest) {
+    throw new Error(`Pack "${packId}" has no daily puzzles`);
+  }
+
+  if (!date || date === cache.today) {
+    const dailyPuzzle = cache.todaysPuzzles[packId];
+    if (!dailyPuzzle) {
+      throw new Error('Daily puzzle not available');
+    }
+    return { packData: pack, manifest, dailyPuzzle, allPacks: cache.packs };
+  }
+
+  let puzzlesForDate = dailyDateCache.get(date);
+  if (!puzzlesForDate) {
+    const res = await fetchWithTimeout(getDataUrl(basePath, `daily-all/${date}.json`), timeout);
+    if (!res.ok) {
+      throw new Error(`No puzzle available for ${date}.`);
+    }
+    const dailyAllData = await res.json();
+    puzzlesForDate = dailyAllData?.puzzles || {};
+    dailyDateCache.set(date, puzzlesForDate);
+  }
+
+  const rawPuzzle = puzzlesForDate[packId];
+  if (!rawPuzzle) {
+    throw new Error(`No puzzle for "${packId}" on ${date}.`);
+  }
+
+  const dailyPuzzle = rawPuzzle.metadata || !pack.gameMetadata
+    ? rawPuzzle
+    : { ...rawPuzzle, metadata: pack.gameMetadata };
+
+  return { packData: pack, manifest, dailyPuzzle, allPacks: cache.packs };
+}
+
 /**
  * Clear the cache (useful for testing or forced refresh)
  */
 export function clearCache() {
+  dailyDateCache.clear();
   dataCache.value = {
     loaded: false,
     loading: false,
