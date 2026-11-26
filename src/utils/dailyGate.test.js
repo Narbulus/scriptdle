@@ -155,5 +155,24 @@ describe('daily-all edge protection function', () => {
         });
         expect(curlRes.status).toBe(403);
         expect(assetsFetch).toHaveBeenCalledTimes(1);
+
+        // Conditional If-None-Match 304 from ASSETS passes through as 304 (not 404!)
+        const notModifiedFetch = vi.fn(async () => new globalThis.Response(null, {
+            status: 304,
+            headers: { ETag: 'W/"abc123"' },
+        }));
+        const res304 = await onRequest({
+            request: makeRequest('2026-11-26.json', {
+                'User-Agent': BROWSER_UA,
+                'Sec-Fetch-Site': 'same-origin',
+                'If-None-Match': 'W/"abc123"',
+                'CF-Connecting-IP': '10.0.0.2',
+            }),
+            env: { ASSETS: { fetch: notModifiedFetch } },
+            params: { file: '2026-11-26.json' },
+        });
+        expect(res304.status).toBe(304);
+        expect(res304.headers.get('ETag')).toBe('W/"abc123"');
+        expect(res304.headers.get('Cache-Control')).toBe('private, max-age=300');
     });
 });

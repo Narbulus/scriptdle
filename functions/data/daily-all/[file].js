@@ -189,7 +189,7 @@ export async function onRequest(context) {
     }
 
     const assetRes = await env.ASSETS.fetch(request);
-    if (!assetRes.ok) {
+    if (!assetRes.ok && assetRes.status !== 304) {
         return errorResponse(404, 'Puzzle not found');
     }
 
@@ -199,7 +199,8 @@ export async function onRequest(context) {
     headers.set('X-Robots-Tag', 'noindex, nofollow');
     headers.set('X-Content-Type-Options', 'nosniff');
 
-    return new Response(request.method === 'HEAD' ? null : assetRes.body, {
+    const emptyBody = request.method === 'HEAD' || assetRes.status === 304;
+    return new Response(emptyBody ? null : assetRes.body, {
         status: assetRes.status,
         headers,
     });
