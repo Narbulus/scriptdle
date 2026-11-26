@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import preact from '@preact/preset-vite';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { readFileSync } from 'fs';
+import { readFileSync, rmSync, existsSync } from 'fs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const pkg = JSON.parse(readFileSync(path.resolve(__dirname, 'package.json'), 'utf-8'));
@@ -36,6 +36,12 @@ export default defineConfig({
           /__GA_MEASUREMENT_ID__/g,
           process.env.VITE_GA_MEASUREMENT_ID || ''
         );
+      },
+      closeBundle() {
+        const intermediateDailyDir = path.resolve(__dirname, 'dist/data/daily');
+        if (existsSync(intermediateDailyDir)) {
+          rmSync(intermediateDailyDir, { recursive: true, force: true });
+        }
       },
     },
   ],

@@ -7,6 +7,7 @@ Replicates the exact RNG logic from Game.js to ensure consistency.
 import json
 import os
 import re
+import shutil
 import argparse
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -667,6 +668,12 @@ class PuzzleGenerator:
 
         # Generate consolidated daily files (combines all packs per date)
         self.generate_consolidated_daily_files(days, start_date=start_date)
+
+        # Remove intermediate per-pack daily files so Vite/Cloudflare Pages never
+        # copies 20,000+ unused files into dist/ (Cloudflare Pages has a 20,000-file limit).
+        if self.daily_dir.exists():
+            shutil.rmtree(self.daily_dir)
+            print(f"Cleaned up intermediate directory: {self.daily_dir}")
 
         print(f"\n{'='*60}")
         print(f"Generation complete!")
