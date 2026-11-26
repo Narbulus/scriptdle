@@ -38,9 +38,23 @@ export default defineConfig({
         );
       },
       closeBundle() {
-        const intermediateDailyDir = path.resolve(__dirname, 'dist/data/daily');
-        if (existsSync(intermediateDailyDir)) {
-          rmSync(intermediateDailyDir, { recursive: true, force: true });
+        // Strip raw script sources and internal/intermediate files so they are never
+        // publicly served on Cloudflare Pages (protects pack data moat & stays well
+        // under Cloudflare Pages' 20,000-file limit).
+        const stripPaths = [
+          'dist/data/daily',
+          'dist/data/scripts',
+          'dist/data/packs',
+          'dist/data/index.json',
+          'dist/data/puzzle-overrides.json',
+          'dist/share-test.html',
+          'dist/.DS_Store',
+        ];
+        for (const relPath of stripPaths) {
+          const fullPath = path.resolve(__dirname, relPath);
+          if (existsSync(fullPath)) {
+            rmSync(fullPath, { recursive: true, force: true });
+          }
         }
       },
     },

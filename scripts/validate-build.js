@@ -110,6 +110,22 @@ function main() {
     checkFile(cssPath, 'CSS bundle');
   }
 
+  console.log('\nData protection:');
+  const forbiddenPaths = [
+    join(DIST_DIR, 'data', 'scripts'),
+    join(DIST_DIR, 'data', 'packs'),
+    join(DIST_DIR, 'data', 'daily'),
+    join(DIST_DIR, 'data', 'index.json'),
+    join(DIST_DIR, 'data', 'puzzle-overrides.json'),
+  ];
+  for (const forbidden of forbiddenPaths) {
+    if (existsSync(forbidden)) {
+      error(`Forbidden internal data exposed in build output: ${forbidden}`);
+    } else {
+      console.log(`✓ Excluded ${forbidden}`);
+    }
+  }
+
   console.log('\n' + '='.repeat(50));
 
   if (errors.length > 0) {

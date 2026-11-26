@@ -2,6 +2,7 @@ import { formatDateToLocal, parseLocalDate } from './time.js';
 import { getGameState } from '../services/storage.js';
 
 export const EARLIEST_PUZZLE_DATE = '2026-01-12';
+export const MAX_ARCHIVE_DAYS = 30;
 
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -15,28 +16,40 @@ export function shiftDate(dateStr, deltaDays) {
 }
 
 /**
+ * Earliest archive date playable relative to todayStr, aligned with the
+ * Cloudflare edge gate's rolling window.
+ */
+export function getEarliestAvailableArchiveDate(todayStr) {
+    const rollingFloor = shiftDate(todayStr, -MAX_ARCHIVE_DAYS);
+    return rollingFloor > EARLIEST_PUZZLE_DATE ? rollingFloor : EARLIEST_PUZZLE_DATE;
+}
+
+/**
  * Validate that dateStr is a real YYYY-MM-DD calendar date within
- * [EARLIEST_PUZZLE_DATE, todayStr]. Never allows future dates.
+ * [max(EARLIEST_PUZZLE_DATE, today - MAX_ARCHIVE_DAYS), todayStr].
+ * Never allows future dates.
  */
 export function isValidArchiveDate(dateStr, todayStr) {
     if (!dateStr || !DATE_RE.test(dateStr)) return false;
     const parsed = parseLocalDate(dateStr);
     if (formatDateToLocal(parsed) !== dateStr) return false;
-    return dateStr >= EARLIEST_PUZZLE_DATE && dateStr <= todayStr;
+    const minDate = getEarliestAvailableArchiveDate(todayStr);
+    return dateStr >= minDate && dateStr <= todayStr;
 }
 
 /**
  * Walk backwards from (fromDate - 1 day) to find the most recent unplayed
  * past puzzle date for a specific pack. Returns null if all dates in the
- * lookback window (or back to EARLIEST_PUZZLE_DATE) are already completed.
+ * lookback window are already completed.
  */
-export function findPreviousUnplayedDate(packId, fromDate, todayStr, maxLookback = 60) {
+export function findPreviousUnplayedDate(packId, fromDate, todayStr, maxLookback = MAX_ARCHIVE_DAYS) {
     if (!packId || !fromDate) return null;
     const startDate = fromDate > todayStr ? todayStr : fromDate;
+    const minDate = getEarliestAvailableArchiveDate(todayStr);
 
     for (let offset = 1; offset <= maxLookback; offset++) {
         const candidate = shiftDate(startDate, -offset);
-        if (candidate < EARLIEST_PUZZLE_DATE) return null;
+        if (candidate < minDate) return null;
         if (candidate >= todayStr) continue;
         const saved = getGameState(packId, candidate);
         if (!saved?.gameOver) {

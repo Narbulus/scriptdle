@@ -20,10 +20,13 @@ function getUtcDateString(date = new Date()) {
     return `${y}-${m}-${d}`;
 }
 
-async function fetchTodayAssets(siteUrl, dateStr) {
+async function fetchTodayAssets(siteUrl, dateStr, env = {}) {
     const base = siteUrl.replace(/\/$/, '');
+    const dailyHeaders = env.DAILY_EMAIL_SECRET
+        ? { 'X-Scriptle-Internal': env.DAILY_EMAIL_SECRET }
+        : {};
     const [dailyRes, packsRes] = await Promise.all([
-        fetch(`${base}/data/daily-all/${dateStr}.json`),
+        fetch(`${base}/data/daily-all/${dateStr}.json`, { headers: dailyHeaders }),
         fetch(`${base}/data/packs-full.json`),
     ]);
     if (!dailyRes.ok) {
@@ -82,7 +85,7 @@ async function sendBatch(apiKey, messages) {
 async function dispatchDailyEmails(env, dateStr) {
     const siteUrl = env.SITE_URL || 'https://scriptle.net';
     const from = env.EMAIL_FROM || 'Scriptle <daily@scriptle.net>';
-    const { puzzles, packsById } = await fetchTodayAssets(siteUrl, dateStr);
+    const { puzzles, packsById } = await fetchTodayAssets(siteUrl, dateStr, env);
     const subscribers = await listAllSubscribers(env.SUBSCRIBERS_KV);
 
     const messages = [];
@@ -130,7 +133,7 @@ export default {
         if (url.pathname === '/preview') {
             const packId = url.searchParams.get('pack') || 'harry-potter';
             const dateStr = url.searchParams.get('date') || getUtcDateString();
-            const { puzzles, packsById } = await fetchTodayAssets(siteUrl, dateStr);
+            const { puzzles, packsById } = await fetchTodayAssets(siteUrl, dateStr, env);
             const target = puzzles[packId]?.puzzle?.targetLine;
             if (!target?.text) {
                 return new Response(`No puzzle for ${packId} on ${dateStr}`, { status: 404 });
@@ -166,7 +169,7 @@ export default {
             const dateStr = url.searchParams.get('date') || getUtcDateString();
             if (!to) return new Response('Missing email param', { status: 400 });
 
-            const { puzzles, packsById } = await fetchTodayAssets(siteUrl, dateStr);
+            const { puzzles, packsById } = await fetchTodayAssets(siteUrl, dateStr, env);
             const target = puzzles[packId]?.puzzle?.targetLine;
             if (!target?.text) return new Response('Puzzle not found', { status: 404 });
             const pack = packsById[packId] || {};

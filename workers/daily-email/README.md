@@ -19,11 +19,12 @@ Sends each subscriber one daily email every morning:
 
 3. **Verify `scriptle.net` in Resend & add secrets:**
    - Verify your domain in [Resend](https://resend.com) so `daily@scriptle.net` passes SPF/DKIM.
-   - Store secrets on the cron worker:
+   - Store secrets on the cron worker (and set the same `DAILY_EMAIL_SECRET` as an environment secret on your Cloudflare Pages project so the email worker can read today's gated puzzle JSON):
      ```sh
      cd workers/daily-email
      npx wrangler secret put RESEND_API_KEY
      npx wrangler secret put ADMIN_SECRET
+     npx wrangler secret put DAILY_EMAIL_SECRET
      ```
 
 4. **Deploy the cron worker & test:**

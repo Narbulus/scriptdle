@@ -1,7 +1,9 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import {
     EARLIEST_PUZZLE_DATE,
+    MAX_ARCHIVE_DAYS,
     shiftDate,
+    getEarliestAvailableArchiveDate,
     isValidArchiveDate,
     findPreviousUnplayedDate,
     formatArchiveDateLabel,
@@ -19,13 +21,19 @@ describe('archive utilities', () => {
         expect(shiftDate('2026-11-26', -2)).toBe('2026-11-24');
     });
 
-    it('validates archive dates and rejects future or invalid dates', () => {
+    it('validates archive dates within the rolling window and rejects future or expired dates', () => {
         const today = '2026-11-26';
+        const rollingFloor = shiftDate(today, -MAX_ARCHIVE_DAYS);
+        const expired = shiftDate(today, -(MAX_ARCHIVE_DAYS + 1));
+
+        expect(getEarliestAvailableArchiveDate(today)).toBe(rollingFloor);
         expect(isValidArchiveDate('2026-11-26', today)).toBe(true);
         expect(isValidArchiveDate('2026-11-25', today)).toBe(true);
-        expect(isValidArchiveDate(EARLIEST_PUZZLE_DATE, today)).toBe(true);
+        expect(isValidArchiveDate(rollingFloor, today)).toBe(true);
+        expect(isValidArchiveDate(expired, today)).toBe(false);
         expect(isValidArchiveDate('2026-11-27', today)).toBe(false);
-        expect(isValidArchiveDate('2026-01-11', today)).toBe(false);
+        expect(isValidArchiveDate('2026-01-11', '2026-01-20')).toBe(false);
+        expect(isValidArchiveDate(EARLIEST_PUZZLE_DATE, '2026-01-20')).toBe(true);
         expect(isValidArchiveDate('2026-02-30', today)).toBe(false);
         expect(isValidArchiveDate('not-a-date', today)).toBe(false);
     });
